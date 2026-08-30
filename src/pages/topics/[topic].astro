@@ -1,0 +1,57 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const topics: Record<string, { label: string; description: string }> = {
+  us: { label: '美國', description: '美國大學、國際學生、簽證、實習與招生政策。' },
+  canada: { label: '加拿大', description: '加拿大國際教育、學簽、大學與學生政策。' },
+  uk: { label: '英國', description: '英國大學、學生簽證、招生與高等教育政策。' },
+  australia: { label: '澳洲', description: '澳洲國際學生、大學招生與教育政策。' },
+  asia: { label: '亞洲', description: '香港、日本、新加坡與亞洲主要教育市場。' },
+  admissions: { label: '大學招生', description: '全球大學申請、錄取制度、科系與招生趨勢。' },
+  policy: { label: '留學政策', description: '學生簽證、工作權、移民與國際教育制度變動。' }
+};
+
+export function getStaticPaths() {
+  return Object.entries(topics).map(([topic, data]) => ({ params: { topic }, props: { data, topic } }));
+}
+
+const { data, topic } = Astro.props;
+const modules = import.meta.glob('../news/*.md', { eager: true });
+let articles = Object.values(modules)
+  .map((mod: any) => ({ ...mod.frontmatter, url: mod.url }))
+  .sort((a: any, b: any) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+if (['us', 'canada', 'uk', 'australia'].includes(topic)) {
+  articles = articles.filter((story: any) => story.topic === topic);
+} else if (topic === 'policy') {
+  articles = articles.filter((story: any) => String(story.category ?? '').includes('政策'));
+} else if (topic === 'asia') {
+  articles = articles.filter((story: any) => story.topic === 'asia');
+} else if (topic === 'admissions') {
+  articles = articles.filter((story: any) => story.topic === 'admissions');
+}
+---
+<BaseLayout title={`${data.label}｜Global Education News`} description={data.description}>
+  <section class="page">
+    <div class="container">
+      <div class="kicker">TOPIC</div>
+      <h1>{data.label}</h1>
+      <p class="hero-deck">{data.description}</p>
+      <hr class="rule" />
+      {articles.length > 0 ? (
+        <div class="grid-3">
+          {articles.map((story: any) => (
+            <article class="card">
+              <div class="kicker">{story.category}</div>
+              <h3><a href={story.url}>{story.title}</a></h3>
+              <p>{story.description}</p>
+              <div class="card-meta">{new Intl.DateTimeFormat('zh-TW').format(new Date(story.date))}</div>
+            </article>
+          ))}
+        </div>
+      ) : (
+        <p class="muted">這個專區的第一批文章正在整理中。</p>
+      )}
+    </div>
+  </section>
+</BaseLayout>
