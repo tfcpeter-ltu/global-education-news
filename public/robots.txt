@@ -11,3 +11,4 @@ User-agent: OAI-SearchBot
 Allow: /
 
 Sitemap: https://tfcpeter-ltu.github.io/global-education-news/sitemap-index.xml
+Sitemap: https://tfcpeter-ltu.github.io/global-education-news/news-sitemap.xml
