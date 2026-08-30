@@ -1,0 +1,85 @@
+---
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
+const link = (path = '') => `${base}${path}`;
+const { compact = false } = Astro.props;
+---
+<section class:list={["newsletter-cta", compact && "newsletter-cta-compact"]} aria-label="Global Education Weekly 國際教育週報">
+  <div class="newsletter-rule">GLOBAL EDUCATION WEEKLY</div>
+  <div class="newsletter-grid">
+    <div>
+      <div class="kicker">FREE NEWSLETTER · 免費電子報</div>
+      <h2>每週國際教育週報</h2>
+      <p>每週精選台灣與全球大學招生、留學政策、國際高中與教育趨勢，附上重要來源與 Peter 精選觀點。</p>
+    </div>
+    <div class="newsletter-action">
+      <a class="newsletter-button" href={link('newsletter/')}>免費加入電子報 →</a>
+      <small>每週一封 · 免費訂閱 · 隨時可取消</small>
+    </div>
+  </div>
+</section>
+
+<style>
+.newsletter-cta {
+  margin: 34px 0 40px;
+  padding: 0 0 24px;
+  border-top: 3px double var(--line-dark);
+  border-bottom: 1px solid var(--line-dark);
+}
+.newsletter-rule {
+  padding: 8px 0 7px;
+  border-bottom: 1px solid var(--line);
+  font-family: Arial, "Noto Sans TC", sans-serif;
+  font-size: .62rem;
+  font-weight: 800;
+  letter-spacing: .18em;
+  color: var(--burgundy);
+}
+.newsletter-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(250px, .55fr);
+  gap: 34px;
+  align-items: center;
+  padding-top: 22px;
+}
+.newsletter-cta h2 {
+  margin: 5px 0 8px;
+  padding: 0;
+  border: 0;
+  font-family: Georgia, "Noto Serif TC", serif;
+  font-size: clamp(1.75rem, 3.4vw, 2.8rem);
+  line-height: 1.06;
+}
+.newsletter-cta p {
+  margin: 0;
+  max-width: 720px;
+  color: var(--muted);
+  font-size: 1rem;
+}
+.newsletter-action { text-align: right; }
+.newsletter-button {
+  display: inline-block;
+  padding: 11px 16px;
+  border: 1px solid var(--line-dark);
+  background: var(--ink);
+  color: var(--white);
+  font-family: Arial, "Noto Sans TC", sans-serif;
+  font-size: .79rem;
+  font-weight: 800;
+}
+.newsletter-button:hover { background: var(--burgundy); color: #fff; }
+.newsletter-action small {
+  display: block;
+  margin-top: 8px;
+  font-family: Arial, "Noto Sans TC", sans-serif;
+  font-size: .68rem;
+  color: var(--muted);
+}
+.newsletter-cta-compact { margin: 30px 0; }
+.newsletter-cta-compact .newsletter-grid { grid-template-columns: 1fr; gap: 16px; }
+.newsletter-cta-compact .newsletter-action { text-align: left; }
+@media (max-width: 760px) {
+  .newsletter-grid { grid-template-columns: 1fr; gap: 18px; }
+  .newsletter-action { text-align: left; }
+}
+</style>
