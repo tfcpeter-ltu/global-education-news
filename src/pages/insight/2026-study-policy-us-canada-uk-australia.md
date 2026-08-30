@@ -3,7 +3,7 @@ layout: '../../layouts/ArticleLayout.astro'
 title: '2026留學政策正在收緊嗎？美國、加拿大、英國、澳洲四大目的地一次比較'
 description: '從美國CPT、加拿大學簽財力、英國學生簽證與澳洲國際學生規劃量，分析2026年四大留學國政策的共同方向與差異。'
 date: 2026-08-30T21:18:00+08:00
-author: 'Global Education News 編輯部'
+author: 'LTU Global Education News 編輯部'
 category: '深度專題'
 topic: 'policy'
 sources:
