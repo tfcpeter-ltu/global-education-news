@@ -1,0 +1,73 @@
+---
+import BaseLayout from './BaseLayout.astro';
+
+const {
+  frontmatter = {},
+  title = frontmatter.title,
+  description = frontmatter.description,
+  date = frontmatter.date,
+  updated = frontmatter.updated,
+  author = frontmatter.author ?? 'Global Education News 編輯部',
+  category = frontmatter.category ?? '國際教育',
+  sources = frontmatter.sources ?? [],
+  disclosure = frontmatter.disclosure,
+  image = frontmatter.image
+} = Astro.props;
+
+const published = date ? new Date(date) : undefined;
+const modified = updated ? new Date(updated) : published;
+const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin).toString();
+const articleLd = {
+  '@context': 'https://schema.org',
+  '@type': 'NewsArticle',
+  headline: title,
+  description,
+  datePublished: published?.toISOString(),
+  dateModified: modified?.toISOString(),
+  mainEntityOfPage: canonical,
+  author: {
+    '@type': 'Person',
+    name: author
+  },
+  publisher: {
+    '@type': 'NewsMediaOrganization',
+    name: 'Global Education News'
+  },
+  articleSection: category
+};
+
+const fmt = (value?: Date) => value ? new Intl.DateTimeFormat('zh-TW', { year: 'numeric', month: 'long', day: 'numeric' }).format(value) : '';
+---
+<BaseLayout title={`${title}｜Global Education News`} description={description} image={image} type="article">
+  <Fragment slot="head">
+    <meta property="article:published_time" content={published?.toISOString()} />
+    <meta property="article:modified_time" content={modified?.toISOString()} />
+    <meta property="article:section" content={category} />
+    <script type="application/ld+json" set:html={JSON.stringify(articleLd)}></script>
+  </Fragment>
+
+  <article class="article">
+    <div class="page-shell">
+      <div class="kicker">{category}</div>
+      <h1>{title}</h1>
+      {description && <p class="deck">{description}</p>}
+      <div class="article-meta">
+        <span>作者：{author}</span>
+        {published && <span>發布：{fmt(published)}</span>}
+        {updated && modified && <span>更新：{fmt(modified)}</span>}
+      </div>
+      {disclosure && <p class="disclosure"><strong>利益揭露：</strong>{disclosure}</p>}
+      <div class="article-body"><slot /></div>
+      {sources.length > 0 && (
+        <aside class="source-box">
+          <strong>資料來源</strong>
+          <ul>
+            {sources.map((source: { label: string; url: string }) => (
+              <li><a href={source.url} rel="noopener noreferrer">{source.label}</a></li>
+            ))}
+          </ul>
+        </aside>
+      )}
+    </div>
+  </article>
+</BaseLayout>
