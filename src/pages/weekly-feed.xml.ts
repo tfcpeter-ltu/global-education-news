@@ -1,6 +1,7 @@
 import type { APIRoute } from 'astro';
 
 const siteRoot = 'https://tfcpeter-ltu.github.io/global-education-news';
+const WEEKLY_ITEM_LIMIT = 5;
 
 const fallbackImages: Record<string, string> = {
   australia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Usydcampuspicture.jpg/1280px-Usydcampuspicture.jpg',
@@ -47,7 +48,7 @@ export const GET: APIRoute = () => {
     }))
     .filter((item: any) => item.title && item.date)
     .sort((a: any, b: any) => new Date(b.date).getTime() - new Date(a.date).getTime())
-    .slice(0, 10);
+    .slice(0, WEEKLY_ITEM_LIMIT);
 
   const lastBuild = new Date().toUTCString();
   const latestDate = items[0]?.date ? new Date(items[0].date).toUTCString() : lastBuild;
@@ -72,7 +73,7 @@ export const GET: APIRoute = () => {
   <channel>
     <title>Global Education Weekly｜國際教育週報</title>
     <link>${siteRoot}/</link>
-    <description>Global Education News 每週國際教育新聞、大學招生、留學政策與深度專題。</description>
+    <description>Global Education News 每週精選 5 篇國際教育新聞、大學招生、留學政策與深度專題。</description>
     <language>zh-TW</language>
     <pubDate>${latestDate}</pubDate>
     <lastBuildDate>${lastBuild}</lastBuildDate>
