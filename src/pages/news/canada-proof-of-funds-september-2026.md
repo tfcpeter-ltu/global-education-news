@@ -3,7 +3,7 @@ layout: '../../layouts/ArticleLayout.astro'
 title: '加拿大留學財力證明 2026：9 月 1 日起單人生活費門檻升至 CAD 23,448'
 description: '加拿大 IRCC 更新國際學生財力要求；自 2026 年 9 月 1 日起，魁北克以外地區單一申請人的一年生活費財力門檻調高至 CAD 23,448，且不包含學費與交通費。'
 date: 2026-08-30T19:12:17+08:00
-author: 'Global Education News 編輯部'
+author: 'LTU Global Education News 編輯部'
 category: '加拿大留學政策'
 topic: 'canada'
 sources:
