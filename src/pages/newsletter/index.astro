@@ -1,0 +1,100 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+<BaseLayout title="Global Education Weekly｜國際教育週報" description="免費訂閱 Global Education Weekly，每週收到國際教育新聞、大學招生、留學政策與 Peter 精選觀點。">
+  <section class="page newsletter-page">
+    <div class="page-shell">
+      <div class="kicker">GLOBAL EDUCATION WEEKLY</div>
+      <h1>免費加入國際教育週報</h1>
+      <p class="hero-deck">每週一封，整理台灣與全球最值得關注的國際教育新聞、大學招生、留學政策、國際高中與教育趨勢。</p>
+
+      <div class="newsletter-paper">
+        <div class="newsletter-edition">THE WEEKLY BRIEFING · TAIWAN EDITION</div>
+        <h2>你每週會收到什麼？</h2>
+        <div class="newsletter-columns">
+          <div><strong>全球新聞</strong><p>台灣、美國、加拿大、英國、澳洲與亞洲的重要教育消息。</p></div>
+          <div><strong>招生與政策</strong><p>大學申請、學生簽證、國際課程與政策變化。</p></div>
+          <div><strong>Peter 精選</strong><p>從新聞之外補充制度背景、趨勢與值得注意的細節。</p></div>
+        </div>
+      </div>
+
+      <section class="newsletter-signup-shell" id="subscribe">
+        <div class="kicker">FREE MEMBERSHIP</div>
+        <h2>免費訂閱</h2>
+        <p>電子報會員系統正在完成最後串接。完成後只需留下 Email，即可免費加入，不需要設定密碼。</p>
+        <div class="signup-preview" aria-label="電子報訂閱表單預覽">
+          <label for="newsletter-email">Email address</label>
+          <div class="signup-row">
+            <input id="newsletter-email" type="email" placeholder="you@example.com" disabled />
+            <button type="button" disabled>免費訂閱</button>
+          </div>
+          <small>表單串接完成後將直接在此啟用。每週一封・免費訂閱・隨時可取消。</small>
+        </div>
+      </section>
+
+      <h2>隱私與訂閱原則</h2>
+      <p>訂閱資料只用於寄送 Global Education Weekly 與必要的訂閱管理通知。我們不出售訂閱者資料；每封電子報都會提供取消訂閱方式。</p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+.newsletter-page .page-shell { width: min(calc(100% - 32px), 900px); }
+.newsletter-paper {
+  margin: 34px 0;
+  padding: 24px 0 28px;
+  border-top: 4px double var(--line-dark);
+  border-bottom: 4px double var(--line-dark);
+}
+.newsletter-edition {
+  margin-bottom: 18px;
+  font-family: Arial, "Noto Sans TC", sans-serif;
+  font-size: .65rem;
+  font-weight: 800;
+  letter-spacing: .16em;
+  color: var(--burgundy);
+}
+.newsletter-paper h2 { margin: 0 0 18px; padding: 0; border: 0; }
+.newsletter-columns { display: grid; grid-template-columns: repeat(3, 1fr); border-left: 1px solid var(--line); }
+.newsletter-columns > div { padding: 0 18px; border-right: 1px solid var(--line); }
+.newsletter-columns strong { font-family: Georgia, "Noto Serif TC", serif; font-size: 1.1rem; }
+.newsletter-columns p { color: var(--muted); font-size: .94rem; }
+.newsletter-signup-shell {
+  margin: 42px 0 36px;
+  padding: 28px;
+  border: 1px solid var(--line-dark);
+  background: rgba(255,253,248,.5);
+}
+.newsletter-signup-shell h2 { margin: 7px 0 8px; padding: 0; border: 0; }
+.signup-preview { margin-top: 20px; }
+.signup-preview label {
+  display: block;
+  margin-bottom: 6px;
+  font-family: Arial, "Noto Sans TC", sans-serif;
+  font-size: .72rem;
+  font-weight: 800;
+  letter-spacing: .04em;
+}
+.signup-row { display: grid; grid-template-columns: 1fr auto; gap: 8px; }
+.signup-row input {
+  min-height: 44px;
+  padding: 9px 12px;
+  border: 1px solid var(--line-dark);
+  background: var(--sheet);
+  font-size: 1rem;
+}
+.signup-row button {
+  min-height: 44px;
+  padding: 9px 18px;
+  border: 1px solid var(--line-dark);
+  background: #77736d;
+  color: #fff;
+  font-weight: 800;
+}
+.signup-preview small { display: block; margin-top: 8px; color: var(--muted); font-family: Arial, "Noto Sans TC", sans-serif; font-size: .68rem; }
+@media (max-width: 700px) {
+  .newsletter-columns { grid-template-columns: 1fr; border-left: 0; }
+  .newsletter-columns > div { padding: 14px 0; border-right: 0; border-bottom: 1px solid var(--line); }
+  .signup-row { grid-template-columns: 1fr; }
+}
+</style>
