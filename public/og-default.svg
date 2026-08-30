@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#fbfaf7"/>
+  <rect x="44" y="44" width="1112" height="542" fill="none" stroke="#0b2447" stroke-width="2"/>
+  <line x1="80" y1="180" x2="1120" y2="180" stroke="#d8dde5" stroke-width="2"/>
+  <text x="80" y="130" font-family="Georgia, serif" font-size="64" font-weight="700" fill="#0b2447">Global Education News</text>
+  <text x="80" y="235" font-family="Arial, sans-serif" font-size="34" fill="#5b6472">國際教育新聞網</text>
+  <text x="80" y="330" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#111827">International Education · Policy · Admissions</text>
+  <text x="80" y="405" font-family="Arial, sans-serif" font-size="30" fill="#5b6472">News, data and deeper context for Taiwan.</text>
+  <rect x="80" y="485" width="150" height="6" fill="#a97824"/>
+</svg>
