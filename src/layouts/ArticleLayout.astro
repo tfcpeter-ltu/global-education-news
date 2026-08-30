@@ -1,6 +1,7 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import NewsletterCTA from '../components/NewsletterCTA.astro';
+import { getStoryImageInfo } from '../lib/storyImages';
 
 const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
@@ -20,17 +21,8 @@ const {
   image = frontmatter.image
 } = Astro.props;
 
-const topicImages: Record<string, string> = {
-  australia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Usydcampuspicture.jpg/1280px-Usydcampuspicture.jpg',
-  canada: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/University_of_Toronto_campus_in_November_2023_1.jpg/1280px-University_of_Toronto_campus_in_November_2023_1.jpg',
-  uk: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/University_college_London.jpg/1280px-University_college_London.jpg',
-  us: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/University_Students.jpg/1280px-University_Students.jpg',
-  taiwan: 'https://commons.wikimedia.org/wiki/Special:Redirect/file/%E5%8F%B0%E5%A4%A7%E6%A0%A1%E5%9C%92%20-%20panoramio.jpg?width=1280',
-  admissions: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/University_Students.jpg/1280px-University_Students.jpg',
-  asia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/University_Students.jpg/1280px-University_Students.jpg'
-};
-
-const articleImage = image ? new URL(image, Astro.site ?? Astro.url.origin).toString() : (topicImages[topic] ?? topicImages.admissions);
+const photo = getStoryImageInfo({ ...frontmatter, title, description, category, topic, image });
+const articleImage = /^https?:\/\//i.test(photo.url) ? photo.url : new URL(photo.url, Astro.site ?? Astro.url.origin).toString();
 const published = date ? new Date(date) : undefined;
 const modified = updated ? new Date(updated) : published;
 const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin).toString();
@@ -78,7 +70,6 @@ const fmtTime = (value?: Date) => value ? new Intl.DateTimeFormat('zh-TW', { hou
     <meta property="article:published_time" content={published?.toISOString()} />
     <meta property="article:modified_time" content={modified?.toISOString()} />
     <meta property="article:section" content={category} />
-    <meta property="og:image" content={articleImage} />
     <script type="application/ld+json" set:html={JSON.stringify(articleLd)}></script>
     <script type="application/ld+json" set:html={JSON.stringify(breadcrumbLd)}></script>
   </Fragment>
@@ -95,8 +86,8 @@ const fmtTime = (value?: Date) => value ? new Intl.DateTimeFormat('zh-TW', { hou
         {updated && modified && <span>更新：<time datetime={modified.toISOString()}>{fmtDate(modified)} {fmtTime(modified)}</time></span>}
       </div>
       <figure class="article-hero-image">
-        <img src={articleImage} alt={`${title}｜新聞圖片`} loading="eager" referrerpolicy="no-referrer" />
-        <figcaption>Global Education News 國際教育新聞網</figcaption>
+        <img src={articleImage} alt={photo.alt} loading="eager" referrerpolicy="no-referrer" />
+        <figcaption>{photo.source ? <a href={photo.source} target="_blank" rel="noopener noreferrer">{photo.credit}</a> : photo.credit}</figcaption>
       </figure>
       {disclosure && <p class="disclosure"><strong>利益揭露：</strong>{disclosure}</p>}
       <div class="article-body"><slot /></div>
