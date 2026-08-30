@@ -3,7 +3,7 @@ layout: '../../layouts/ArticleLayout.astro'
 title: '香港大學 2027 Non-JUPAS 9月23日開放：國際資格申請與 Rolling Admissions 重點'
 description: '香港大學公布2027入學International／Non-JUPAS申請將於2026年9月23日開放；國際課程與非HKDSE申請者可透過此管道申請。'
 date: 2026-08-30T21:14:00+08:00
-author: 'Global Education News 編輯部'
+author: 'LTU Global Education News 編輯部'
 category: '香港大學招生'
 topic: 'asia'
 tags: ['admissions']
