@@ -1,0 +1,30 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
+const link = (path = '') => `${base}${path}`;
+---
+<BaseLayout title="廣告合作｜Global Education News" description="Global Education News 廣告與合作內容說明。">
+  <section class="page">
+    <div class="page-shell">
+      <div class="kicker">ADVERTISEMENT & PARTNERSHIPS</div>
+      <h1>廣告合作</h1>
+      <p class="hero-deck">Global Education News 提供與國際教育相關的廣告版位與合作內容，包含大學、國際高中、教育課程、講座、教育展及專業服務。</p>
+
+      <h2>首頁廣告版位</h2>
+      <p>首頁廣告安排於新聞區右側，採報紙式版位設計。廣告會明確標示「ADVERTISEMENT／廣告」，並與新聞內容保持視覺與編輯上的區隔。</p>
+
+      <h2>合作內容</h2>
+      <p>若合作形式包含文章、專訪或專題內容，頁面會明確標示「Sponsored／合作內容」或其他適當揭露文字，不會以一般新聞的形式呈現付費資訊。</p>
+
+      <h2>適合的合作類型</h2>
+      <p>海外大學與學校、國際高中課程、交換與短期研修、教育科技、國際教育展、升學活動，以及與學生、家長或教育工作者高度相關的服務。</p>
+
+      <h2>編輯與廣告區隔</h2>
+      <p>廣告合作不影響新聞選題、報導內容與編輯判斷。涉及本站營運單位或合作關係的內容，將依利益揭露政策標示。</p>
+
+      <p><a class="button button-primary" href={link('contact/')}>聯絡廣告合作 →</a></p>
+    </div>
+  </section>
+</BaseLayout>
