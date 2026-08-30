@@ -1,15 +1,13 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-const rawBase = import.meta.env.BASE_URL;
-const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
-const link = (path = '') => `${base}${path}`;
 const peterFacebook = 'https://www.facebook.com/profile.php?id=61585164670358';
+const peterPhoto = 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=1600&q=84';
 ---
 <BaseLayout title="Peter的國際教育講座｜Global Education News" description="Peter的國際教育講座：從全球大學、國際高中、留學政策與升學制度出發的評論與深度分析。">
   <section class="page">
     <div class="page-shell">
       <div class="peter-page-hero">
-        <img src={link('images/peter-lecture.svg')} alt="Peter的國際教育講座" loading="eager" />
+        <img src={peterPhoto} alt="Peter的國際教育講座" loading="eager" referrerpolicy="no-referrer" />
         <div class="peter-page-hero-content">
           <div class="kicker">PETER'S COLUMN · GLOBAL EDUCATION</div>
           <h1>Peter的國際教育講座</h1>
