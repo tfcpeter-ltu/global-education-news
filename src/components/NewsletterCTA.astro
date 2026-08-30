@@ -1,20 +1,26 @@
 ---
-const rawBase = import.meta.env.BASE_URL;
-const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
-const link = (path = '') => `${base}${path}`;
+const brevoFormUrl = 'https://34e9f212.sibforms.com/serve/MUIFAMWsiw0zELFOuqd9HloJYAXCi0Mjn703rO7DXLXU5xuIeKJnAYRUWC4Cd4YYc1CWWQ7464Iv2O_rk_8JkB-d4X7rdcJ9M95HlXlUfY88t3GdDBAHf9_03_vih0DqoBOSaYgRgVMX8TjoG7fzfDjVswKzSeEHJ4NnrThfbG25GWpERLjWBdi1r2Rj7icplVsAAmoPHxH8mJ1IHA==';
 const { compact = false } = Astro.props;
 ---
 <section class:list={["newsletter-cta", compact && "newsletter-cta-compact"]} aria-label="Global Education Weekly 國際教育週報">
   <div class="newsletter-rule">GLOBAL EDUCATION WEEKLY</div>
   <div class="newsletter-grid">
-    <div>
+    <div class="newsletter-copy">
       <div class="kicker">FREE NEWSLETTER · 免費電子報</div>
       <h2>每週國際教育週報</h2>
-      <p>每週精選台灣與全球大學招生、留學政策、國際高中與教育趨勢，附上重要來源與 Peter 精選觀點。</p>
+      <p>免費加入會員，每週收到台灣與全球大學招生、留學政策、國際高中與教育趨勢，以及 Peter 精選觀點。</p>
+      <small>採雙重確認訂閱（Double opt-in）· 免費訂閱 · 隨時可取消</small>
     </div>
-    <div class="newsletter-action">
-      <a class="newsletter-button" href={link('newsletter/')}>免費加入電子報 →</a>
-      <small>每週一封 · 免費訂閱 · 隨時可取消</small>
+    <div class="newsletter-embed-wrap">
+      <iframe
+        class="newsletter-embed"
+        src={brevoFormUrl}
+        title="訂閱 Global Education Weekly 國際教育週報"
+        loading="lazy"
+        scrolling="auto"
+        frameborder="0"
+        referrerpolicy="strict-origin-when-cross-origin"
+      ></iframe>
     </div>
   </div>
 </section>
@@ -37,8 +43,8 @@ const { compact = false } = Astro.props;
 }
 .newsletter-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.45fr) minmax(250px, .55fr);
-  gap: 34px;
+  grid-template-columns: minmax(0, .9fr) minmax(440px, 1.1fr);
+  gap: 30px;
   align-items: center;
   padding-top: 22px;
 }
@@ -56,30 +62,37 @@ const { compact = false } = Astro.props;
   color: var(--muted);
   font-size: 1rem;
 }
-.newsletter-action { text-align: right; }
-.newsletter-button {
-  display: inline-block;
-  padding: 11px 16px;
-  border: 1px solid var(--line-dark);
-  background: var(--ink);
-  color: var(--white);
-  font-family: Arial, "Noto Sans TC", sans-serif;
-  font-size: .79rem;
-  font-weight: 800;
-}
-.newsletter-button:hover { background: var(--burgundy); color: #fff; }
-.newsletter-action small {
+.newsletter-copy small {
   display: block;
-  margin-top: 8px;
+  margin-top: 10px;
   font-family: Arial, "Noto Sans TC", sans-serif;
   font-size: .68rem;
   color: var(--muted);
 }
+.newsletter-embed-wrap {
+  width: 100%;
+  max-width: 600px;
+  margin-left: auto;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: #fff;
+}
+.newsletter-embed {
+  display: block;
+  width: 100%;
+  height: 330px;
+  border: 0;
+  background: #fff;
+}
 .newsletter-cta-compact { margin: 30px 0; }
 .newsletter-cta-compact .newsletter-grid { grid-template-columns: 1fr; gap: 16px; }
-.newsletter-cta-compact .newsletter-action { text-align: left; }
-@media (max-width: 760px) {
+.newsletter-cta-compact .newsletter-embed-wrap { margin-left: 0; max-width: 560px; }
+.newsletter-cta-compact .newsletter-embed { height: 330px; }
+@media (max-width: 860px) {
   .newsletter-grid { grid-template-columns: 1fr; gap: 18px; }
-  .newsletter-action { text-align: left; }
+  .newsletter-embed-wrap { margin-left: 0; max-width: 100%; }
+}
+@media (max-width: 560px) {
+  .newsletter-embed { height: 365px; }
 }
 </style>
