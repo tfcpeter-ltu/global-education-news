@@ -3,7 +3,7 @@ layout: '../../layouts/ArticleLayout.astro'
 title: '教育部歐盟獎學金 2026：赴歐留學每年 16,000 美元，最長補助 2 年'
 description: '教育部與臺灣歐盟中心說明 Erasmus+、Erasmus Mundus 與赴歐獎學金資源；教育部歐盟獎學金每年提供 16,000 美元，補助最長 2 年。'
 date: 2026-08-30T21:05:00+08:00
-author: 'Global Education News 編輯部'
+author: 'LTU Global Education News 編輯部'
 category: '台灣國際教育'
 topic: 'taiwan'
 tags: ['policy']
