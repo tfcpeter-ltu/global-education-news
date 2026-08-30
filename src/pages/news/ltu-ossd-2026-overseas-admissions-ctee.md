@@ -3,7 +3,7 @@ layout: '../../layouts/ArticleLayout.astro'
 title: '工商時報報導 LTU OSSD 2026海外升學成果：錄取橫跨英美加澳日五國'
 description: '工商時報8月30日報導LTU OSSD 2026海外升學成果，內容涵蓋英國、美國、加拿大、澳洲與日本，並延伸至高中三年升學規劃與2027寒假交換計畫。'
 date: 2026-08-30T21:11:00+08:00
-author: 'Global Education News 編輯部'
+author: 'LTU Global Education News 編輯部'
 category: '台灣雙聯學制'
 topic: 'taiwan'
 tags: ['admissions']
