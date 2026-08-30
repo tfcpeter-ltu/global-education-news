@@ -56,6 +56,16 @@ const latest = articles.slice(0, 6);
               </div>
             </article>
           ))}
+
+          <aside class="advertising-rail" aria-label="廣告">
+            <div class="ad-label">ADVERTISEMENT · 廣告</div>
+            <div class="ad-box">
+              <div class="ad-kicker">GLOBAL EDUCATION MARKETPLACE</div>
+              <h3>國際教育廣告版位</h3>
+              <p>大學、國際高中、國際課程、教育活動與專業服務。</p>
+              <a href={link('advertise/')}>廣告合作資訊 →</a>
+            </div>
+          </aside>
         </div>
       </section>
     ) : null}
@@ -106,3 +116,53 @@ const latest = articles.slice(0, 6);
     </section>
   </div>
 </BaseLayout>
+
+<style>
+  .advertising-rail {
+    margin-top: 24px;
+    padding-top: 13px;
+    border-top: 3px double var(--line-dark);
+  }
+  .ad-label {
+    margin-bottom: 8px;
+    font-family: Arial, "Noto Sans TC", sans-serif;
+    font-size: .59rem;
+    letter-spacing: .16em;
+    color: var(--muted);
+    text-align: center;
+  }
+  .ad-box {
+    padding: 22px 20px 20px;
+    border: 1px solid var(--line);
+    background: rgba(255, 253, 248, .45);
+    text-align: center;
+  }
+  .ad-kicker {
+    font-family: Arial, "Noto Sans TC", sans-serif;
+    font-size: .61rem;
+    letter-spacing: .13em;
+    color: var(--burgundy);
+    font-weight: 800;
+  }
+  .ad-box h3 {
+    margin: 9px 0 8px;
+    font-family: Georgia, "Noto Serif TC", serif;
+    font-size: 1.35rem;
+    line-height: 1.2;
+  }
+  .ad-box p {
+    margin: 0 0 13px;
+    color: var(--muted);
+    font-size: .86rem;
+    line-height: 1.55;
+  }
+  .ad-box a {
+    display: inline-block;
+    padding-top: 9px;
+    border-top: 1px solid var(--line);
+    font-family: Arial, "Noto Sans TC", sans-serif;
+    font-size: .72rem;
+    font-weight: 800;
+    color: var(--burgundy);
+  }
+</style>
