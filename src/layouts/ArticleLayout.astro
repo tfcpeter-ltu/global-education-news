@@ -20,12 +20,13 @@ const {
 } = Astro.props;
 
 const topicImages: Record<string, string> = {
-  australia: absolute('images/australia.svg'),
-  canada: absolute('images/canada.svg'),
-  uk: absolute('images/uk.svg'),
-  us: absolute('images/us.svg'),
-  admissions: absolute('images/peter-lecture.svg'),
-  asia: absolute('images/peter-lecture.svg')
+  australia: 'https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=1600&q=82',
+  canada: 'https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=1600&q=82',
+  uk: 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1600&q=82',
+  us: 'https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1600&q=82',
+  taiwan: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1600&q=82',
+  admissions: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1600&q=82',
+  asia: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1600&q=82'
 };
 
 const articleImage = image ? new URL(image, Astro.site ?? Astro.url.origin).toString() : (topicImages[topic] ?? topicImages.admissions);
@@ -44,22 +45,14 @@ const articleLd = {
   image: [articleImage],
   datePublished: published?.toISOString(),
   dateModified: modified?.toISOString(),
-  mainEntityOfPage: {
-    '@type': 'WebPage',
-    '@id': canonical
-  },
+  mainEntityOfPage: { '@type': 'WebPage', '@id': canonical },
   author: {
     '@type': isPeter ? 'Person' : 'Organization',
     name: author,
     url: authorUrl,
     ...(isPeter ? { sameAs: ['https://www.facebook.com/profile.php?id=61585164670358'] } : {})
   },
-  publisher: {
-    '@type': 'NewsMediaOrganization',
-    name: 'Global Education News',
-    alternateName: '國際教育新聞網',
-    url: publisherUrl
-  },
+  publisher: { '@type': 'NewsMediaOrganization', name: 'Global Education News', alternateName: '國際教育新聞網', url: publisherUrl },
   articleSection: category,
   inLanguage: 'zh-Hant-TW',
   isAccessibleForFree: true
@@ -101,7 +94,7 @@ const fmtTime = (value?: Date) => value ? new Intl.DateTimeFormat('zh-TW', { hou
         {updated && modified && <span>更新：<time datetime={modified.toISOString()}>{fmtDate(modified)} {fmtTime(modified)}</time></span>}
       </div>
       <figure class="article-hero-image">
-        <img src={articleImage} alt={`${title}｜新聞圖片`} loading="eager" />
+        <img src={articleImage} alt={`${title}｜新聞圖片`} loading="eager" referrerpolicy="no-referrer" />
         <figcaption>Global Education News 國際教育新聞網</figcaption>
       </figure>
       {disclosure && <p class="disclosure"><strong>利益揭露：</strong>{disclosure}</p>}
@@ -109,11 +102,7 @@ const fmtTime = (value?: Date) => value ? new Intl.DateTimeFormat('zh-TW', { hou
       {sources.length > 0 && (
         <aside class="source-box">
           <strong>官方資料與消息來源</strong>
-          <ul>
-            {sources.map((source: { label: string; url: string }) => (
-              <li><a href={source.url} rel="noopener noreferrer">{source.label}</a></li>
-            ))}
-          </ul>
+          <ul>{sources.map((source: { label: string; url: string }) => (<li><a href={source.url} rel="noopener noreferrer">{source.label}</a></li>))}</ul>
         </aside>
       )}
       <aside class="article-related">
