@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+const brevoFormUrl = 'https://34e9f212.sibforms.com/serve/MUIFAMWsiw0zELFOuqd9HloJYAXCi0Mjn703rO7DXLXU5xuIeKJnAYRUWC4Cd4YYc1CWWQ7464Iv2O_rk_8JkB-d4X7rdcJ9M95HlXlUfY88t3GdDBAHf9_03_vih0DqoBOSaYgRgVMX8TjoG7fzfDjVswKzSeEHJ4NnrThfbG25GWpERLjWBdi1r2Rj7icplVsAAmoPHxH8mJ1IHA==';
 ---
 <BaseLayout title="Global Education Weekly｜國際教育週報" description="免費訂閱 Global Education Weekly，每週收到國際教育新聞、大學招生、留學政策與 Peter 精選觀點。">
   <section class="page newsletter-page">
@@ -21,15 +22,19 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
       <section class="newsletter-signup-shell" id="subscribe">
         <div class="kicker">FREE MEMBERSHIP</div>
         <h2>免費訂閱</h2>
-        <p>電子報會員系統正在完成最後串接。完成後只需留下 Email，即可免費加入，不需要設定密碼。</p>
-        <div class="signup-preview" aria-label="電子報訂閱表單預覽">
-          <label for="newsletter-email">Email address</label>
-          <div class="signup-row">
-            <input id="newsletter-email" type="email" placeholder="you@example.com" disabled />
-            <button type="button" disabled>免費訂閱</button>
-          </div>
-          <small>表單串接完成後將直接在此啟用。每週一封・免費訂閱・隨時可取消。</small>
+        <p>輸入 Email 後，Brevo 會寄出確認信。請點擊信中的確認連結，完成雙重確認訂閱。</p>
+        <div class="brevo-frame-wrap">
+          <iframe
+            class="brevo-frame"
+            src={brevoFormUrl}
+            title="訂閱 Global Education Weekly 國際教育週報"
+            loading="eager"
+            scrolling="auto"
+            frameborder="0"
+            referrerpolicy="strict-origin-when-cross-origin"
+          ></iframe>
         </div>
+        <p class="subscribe-note">每週一封 · 免費訂閱 · 隨時可取消 · 採 Double opt-in 雙重確認</p>
       </section>
 
       <h2>隱私與訂閱原則</h2>
@@ -66,35 +71,28 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
   background: rgba(255,253,248,.5);
 }
 .newsletter-signup-shell h2 { margin: 7px 0 8px; padding: 0; border: 0; }
-.signup-preview { margin-top: 20px; }
-.signup-preview label {
+.brevo-frame-wrap {
+  margin-top: 20px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: #fff;
+}
+.brevo-frame {
   display: block;
-  margin-bottom: 6px;
+  width: 100%;
+  height: 390px;
+  border: 0;
+  background: #fff;
+}
+.subscribe-note {
+  margin: 10px 0 0;
+  color: var(--muted);
   font-family: Arial, "Noto Sans TC", sans-serif;
-  font-size: .72rem;
-  font-weight: 800;
-  letter-spacing: .04em;
+  font-size: .7rem;
 }
-.signup-row { display: grid; grid-template-columns: 1fr auto; gap: 8px; }
-.signup-row input {
-  min-height: 44px;
-  padding: 9px 12px;
-  border: 1px solid var(--line-dark);
-  background: var(--sheet);
-  font-size: 1rem;
-}
-.signup-row button {
-  min-height: 44px;
-  padding: 9px 18px;
-  border: 1px solid var(--line-dark);
-  background: #77736d;
-  color: #fff;
-  font-weight: 800;
-}
-.signup-preview small { display: block; margin-top: 8px; color: var(--muted); font-family: Arial, "Noto Sans TC", sans-serif; font-size: .68rem; }
 @media (max-width: 700px) {
   .newsletter-columns { grid-template-columns: 1fr; border-left: 0; }
   .newsletter-columns > div { padding: 14px 0; border-right: 0; border-bottom: 1px solid var(--line); }
-  .signup-row { grid-template-columns: 1fr; }
+  .brevo-frame { height: 430px; }
 }
 </style>
