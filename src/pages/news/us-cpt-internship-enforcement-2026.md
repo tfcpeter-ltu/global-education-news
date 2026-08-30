@@ -3,7 +3,7 @@ layout: '../../layouts/ArticleLayout.astro'
 title: '美國加強 CPT 實習規範執行：部分大學暫停特定申請，國際學生要注意什麼？'
 description: '美國政府針對國際學生 Curricular Practical Training（CPT）發出更嚴格的執法指引；重點不是全面取消 CPT，而是重新強調實習必須與課程具有實質關聯。'
 date: 2026-08-30
-author: 'Global Education News 編輯部'
+author: 'LTU Global Education News 編輯部'
 category: '美國留學政策'
 topic: 'us'
 sources:
