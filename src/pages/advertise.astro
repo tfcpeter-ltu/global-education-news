@@ -1,9 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-
-const rawBase = import.meta.env.BASE_URL;
-const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
-const link = (path = '') => `${base}${path}`;
+const editorialEmail = 'editor.jsti.ltu@gmail.com';
 ---
 <BaseLayout title="廣告合作｜Global Education News" description="Global Education News 廣告與合作內容說明。">
   <section class="page">
@@ -24,7 +21,10 @@ const link = (path = '') => `${base}${path}`;
       <h2>編輯與廣告區隔</h2>
       <p>廣告合作不影響新聞選題、報導內容與編輯判斷。涉及本站營運單位或合作關係的內容，將依利益揭露政策標示。</p>
 
-      <p><a class="button button-primary" href={link('contact/')}>聯絡廣告合作 →</a></p>
+      <h2>廣告與合作聯絡</h2>
+      <p>廣告刊登、合作提案、學校活動與 Sponsored 內容詢問，請寄至：</p>
+      <p><strong><a href={`mailto:${editorialEmail}?subject=${encodeURIComponent('Global Education News 廣告合作詢問')}`}>{editorialEmail}</a></strong></p>
+      <p>建議主旨註明「廣告合作」，並附上機構名稱、希望刊登的內容、預計日期與聯絡方式。</p>
     </div>
   </section>
 </BaseLayout>
