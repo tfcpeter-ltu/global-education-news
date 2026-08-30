@@ -22,15 +22,12 @@ let articles = Object.values(modules)
   .map((mod: any) => ({ ...mod.frontmatter, url: mod.url }))
   .sort((a: any, b: any) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
-if (['taiwan', 'us', 'canada', 'uk', 'australia'].includes(topic)) {
-  articles = articles.filter((story: any) => story.topic === topic);
-} else if (topic === 'policy') {
-  articles = articles.filter((story: any) => String(story.category ?? '').includes('政策'));
-} else if (topic === 'asia') {
-  articles = articles.filter((story: any) => story.topic === 'asia');
-} else if (topic === 'admissions') {
-  articles = articles.filter((story: any) => story.topic === 'admissions');
-}
+articles = articles.filter((story: any) => {
+  const tags = Array.isArray(story.tags) ? story.tags : [];
+  if (story.topic === topic || tags.includes(topic)) return true;
+  if (topic === 'policy' && String(story.category ?? '').includes('政策')) return true;
+  return false;
+});
 ---
 <BaseLayout title={`${data.label}國際教育新聞｜Global Education News`} description={data.description}>
   <section class="page">
@@ -51,7 +48,7 @@ if (['taiwan', 'us', 'canada', 'uk', 'australia'].includes(topic)) {
           ))}
         </div>
       ) : (
-        <p class="muted">台灣國際教育專區已建立，第一批本土新聞與深度文章正在整理中。</p>
+        <p class="muted">這個專區的第一批文章正在整理中。</p>
       )}
     </div>
   </section>
