@@ -3,7 +3,7 @@ layout: '../../layouts/ArticleLayout.astro'
 title: '澳洲國際學生名額 2027 維持 29.5 萬：政府延續總量管理'
 description: '澳洲政府確認 2027 年國際學生新生 National Planning Level 維持 295,000 人，與 2026 年相同；2026 年目前的新生數較 2025 年同期下降 8%。'
 date: 2026-08-30T19:12:47+08:00
-author: 'Global Education News 編輯部'
+author: 'LTU Global Education News 編輯部'
 category: '澳洲留學政策'
 topic: 'australia'
 sources:
