@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import NewsletterCTA from '../components/NewsletterCTA.astro';
+import { getStoryImageInfo } from '../lib/storyImages';
 
 const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
@@ -11,18 +12,6 @@ const modules = import.meta.glob('./news/*.md', { eager: true });
 const articles = Object.values(modules)
   .map((mod: any) => ({ ...mod.frontmatter, url: mod.url }))
   .sort((a: any, b: any) => new Date(b.date).getTime() - new Date(a.date).getTime());
-
-const storyImage = (story: any) => {
-  const images: Record<string, string> = {
-    australia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Usydcampuspicture.jpg/1280px-Usydcampuspicture.jpg',
-    canada: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/University_of_Toronto_campus_in_November_2023_1.jpg/1280px-University_of_Toronto_campus_in_November_2023_1.jpg',
-    uk: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/University_college_London.jpg/1280px-University_college_London.jpg',
-    us: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/University_Students.jpg/1280px-University_Students.jpg',
-    taiwan: 'https://commons.wikimedia.org/wiki/Special:Redirect/file/%E5%8F%B0%E5%A4%A7%E6%A0%A1%E5%9C%92%20-%20panoramio.jpg?width=1280',
-    admissions: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/University_Students.jpg/1280px-University_Students.jpg'
-  };
-  return story.image ?? images[story.topic] ?? images.admissions;
-};
 
 const peterPhoto = 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Instructor_speaking_to_students_in_classroom.jpg/1280px-Instructor_speaking_to_students_in_classroom.jpg';
 const lead = articles[0];
@@ -35,7 +24,7 @@ const latest = articles.slice(0, 6);
       <section class="hero visual-hero">
         <div class="hero-main">
           <a class="hero-photo" href={lead.url} aria-label={lead.title}>
-            <img src={storyImage(lead)} alt={`${lead.category}新聞主圖`} loading="eager" referrerpolicy="no-referrer" />
+            <img src={getStoryImageInfo(lead).url} alt={getStoryImageInfo(lead).alt} loading="eager" referrerpolicy="no-referrer" />
             <span class="photo-label">TOP STORY</span>
           </a>
           <div class="kicker">TOP STORY · {lead.category}</div>
@@ -48,15 +37,18 @@ const latest = articles.slice(0, 6);
         </div>
         <div class="hero-side">
           <div class="kicker">LATEST</div>
-          {side.map((story: any) => (
-            <article class="side-story side-story-visual">
-              <a class="side-thumb" href={story.url}><img src={storyImage(story)} alt={`${story.category}新聞圖片`} loading="lazy" referrerpolicy="no-referrer" /></a>
-              <div>
-                <h2><a href={story.url}>{story.title}</a></h2>
-                <p class="muted">{story.description}</p>
-              </div>
-            </article>
-          ))}
+          {side.map((story: any) => {
+            const photo = getStoryImageInfo(story);
+            return (
+              <article class="side-story side-story-visual">
+                <a class="side-thumb" href={story.url}><img src={photo.url} alt={photo.alt} loading="lazy" referrerpolicy="no-referrer" /></a>
+                <div>
+                  <h2><a href={story.url}>{story.title}</a></h2>
+                  <p class="muted">{story.description}</p>
+                </div>
+              </article>
+            );
+          })}
 
           <aside class="advertising-rail" aria-label="廣告">
             <div class="ad-label">ADVERTISEMENT · 廣告</div>
@@ -77,17 +69,20 @@ const latest = articles.slice(0, 6);
         <span class="muted">International Education · Policy · Admissions</span>
       </div>
       <div class="grid-3">
-        {latest.map((story: any) => (
-          <article class="card story-card">
-            <a class="card-image" href={story.url}><img src={storyImage(story)} alt={`${story.category}新聞圖片`} loading="lazy" referrerpolicy="no-referrer" /></a>
-            <div class="card-content">
-              <div class="kicker">{story.category}</div>
-              <h3><a href={story.url}>{story.title}</a></h3>
-              <p>{story.description}</p>
-              <div class="card-meta">{new Intl.DateTimeFormat('zh-TW').format(new Date(story.date))}</div>
-            </div>
-          </article>
-        ))}
+        {latest.map((story: any) => {
+          const photo = getStoryImageInfo(story);
+          return (
+            <article class="card story-card">
+              <a class="card-image" href={story.url}><img src={photo.url} alt={photo.alt} loading="lazy" referrerpolicy="no-referrer" /></a>
+              <div class="card-content">
+                <div class="kicker">{story.category}</div>
+                <h3><a href={story.url}>{story.title}</a></h3>
+                <p>{story.description}</p>
+                <div class="card-meta">{new Intl.DateTimeFormat('zh-TW').format(new Date(story.date))}</div>
+              </div>
+            </article>
+          );
+        })}
       </div>
     </section>
 
