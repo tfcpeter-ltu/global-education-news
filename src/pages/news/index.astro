@@ -1,0 +1,27 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+const modules = import.meta.glob('./*.md', { eager: true });
+const articles = Object.values(modules)
+  .map((mod: any) => ({ ...mod.frontmatter, url: mod.url }))
+  .sort((a: any, b: any) => new Date(b.date).getTime() - new Date(a.date).getTime());
+---
+<BaseLayout title="最新國際教育新聞｜Global Education News" description="追蹤國際學生、全球大學、招生、簽證與教育政策的最新消息。">
+  <section class="page">
+    <div class="container">
+      <div class="kicker">LATEST NEWS</div>
+      <h1>最新國際教育新聞</h1>
+      <p class="hero-deck">以政府、大學與可信賴第一手資料為優先來源，提供新聞摘要、背景與對台灣學生的影響。</p>
+      <hr class="rule" />
+      <div class="grid-3">
+        {articles.map((story: any) => (
+          <article class="card">
+            <div class="kicker">{story.category}</div>
+            <h3><a href={story.url}>{story.title}</a></h3>
+            <p>{story.description}</p>
+            <div class="card-meta">{new Intl.DateTimeFormat('zh-TW').format(new Date(story.date))}</div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+</BaseLayout>
