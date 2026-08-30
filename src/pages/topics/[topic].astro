@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getStoryImageInfo } from '../../lib/storyImages';
 
 export function getStaticPaths() {
   const topics: Record<string, { label: string; description: string }> = {
@@ -38,14 +39,20 @@ articles = articles.filter((story: any) => {
       <hr class="rule" />
       {articles.length > 0 ? (
         <div class="grid-3">
-          {articles.map((story: any) => (
-            <article class="card">
-              <div class="kicker">{story.category}</div>
-              <h3><a href={story.url}>{story.title}</a></h3>
-              <p>{story.description}</p>
-              <div class="card-meta">{new Intl.DateTimeFormat('zh-TW').format(new Date(story.date))}</div>
-            </article>
-          ))}
+          {articles.map((story: any) => {
+            const photo = getStoryImageInfo(story);
+            return (
+              <article class="card story-card">
+                <a class="card-image" href={story.url}><img src={photo.url} alt={photo.alt} loading="lazy" referrerpolicy="no-referrer" /></a>
+                <div class="card-content">
+                  <div class="kicker">{story.category}</div>
+                  <h3><a href={story.url}>{story.title}</a></h3>
+                  <p>{story.description}</p>
+                  <div class="card-meta">{new Intl.DateTimeFormat('zh-TW').format(new Date(story.date))}</div>
+                </div>
+              </article>
+            );
+          })}
         </div>
       ) : (
         <p class="muted">這個專區的第一批文章正在整理中。</p>
