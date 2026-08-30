@@ -1,11 +1,14 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+const editorialEmail = 'editor.jsti.ltu@gmail.com';
 ---
-<BaseLayout title="聯絡我們｜Global Education News" description="Global Education News 編輯聯絡與更正管道。">
+<BaseLayout title="聯絡我們｜Global Education News" description="Global Education News 編輯聯絡、更正、電子報與合作聯絡方式。">
   <section class="page"><div class="page-shell">
     <div class="kicker">CONTACT</div>
     <h1>聯絡我們</h1>
-    <p>本站目前處於創刊建置階段。正式公開發行前，將在此頁公布編輯部電子郵件、出版者資訊與更正聯絡方式。</p>
-    <p>為避免網站正式上線後仍使用臨時資料，聯絡資訊會在網域與媒體名稱確認後一次完成設定。</p>
+    <p>Global Education News 的編輯、新聞線索、內容更正、電子報與一般合作事項，統一使用以下編輯部信箱。</p>
+    <p><strong>編輯部 Email：</strong><a href={`mailto:${editorialEmail}`}>{editorialEmail}</a></p>
+    <p>如為廣告刊登、學校合作、活動宣傳或 Sponsored／合作內容詢問，也請寄至同一信箱，並在主旨註明「廣告合作」或「合作提案」。</p>
+    <p>若為文章錯誤、資料更新或來源補充，建議於主旨註明文章標題與「更正／補充」，方便編輯部處理。</p>
   </div></section>
 </BaseLayout>
