@@ -11,10 +11,13 @@ interface Props {
   noindex?: boolean;
 }
 
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
+
 const {
   title = 'Global Education News｜國際教育新聞網',
   description = '國際教育、全球大學、招生政策、學生流動與教育制度的新聞與深度分析。',
-  image = `${import.meta.env.BASE_URL}og-default.svg`,
+  image = `${base}og-default.svg`,
   type = 'website',
   noindex = false
 } = Astro.props;
@@ -26,8 +29,8 @@ const websiteLd = {
   '@type': 'NewsMediaOrganization',
   name: 'Global Education News',
   alternateName: '國際教育新聞網',
-  url: new URL(import.meta.env.BASE_URL, Astro.site ?? Astro.url.origin).toString(),
-  publishingPrinciples: new URL(`${import.meta.env.BASE_URL}editorial-policy/`, Astro.site ?? Astro.url.origin).toString()
+  url: new URL(base, Astro.site ?? Astro.url.origin).toString(),
+  publishingPrinciples: new URL(`${base}editorial-policy/`, Astro.site ?? Astro.url.origin).toString()
 };
 ---
 <!doctype html>
