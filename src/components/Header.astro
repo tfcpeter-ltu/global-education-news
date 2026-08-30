@@ -6,18 +6,23 @@ const peterFacebook = 'https://www.facebook.com/profile.php?id=61585164670358';
 ---
 <header class="site-header">
   <div class="utility">
-    <div class="container">
-      <span>TAIWAN · INTERNATIONAL EDUCATION · INDEPENDENT ANALYSIS</span>
-      <span>國際教育政策、招生、大學與全球學生流動</span>
+    <div class="container utility-inner">
+      <span>TAIWAN EDITION · EST. 2026</span>
+      <span>INTERNATIONAL EDUCATION · UNIVERSITIES · POLICY · GLOBAL MOBILITY</span>
     </div>
   </div>
-  <div class="container brand-row">
+
+  <div class="container masthead">
+    <div class="masthead-side masthead-left">International Education<br />Journalism & Analysis</div>
     <a class="brand" href={link()} aria-label="Global Education News 首頁">
       <div class="brand-en">Global Education News</div>
       <div class="brand-zh">國際教育新聞網</div>
     </a>
-    <div class="tagline">News, data and deeper context for students, families and education professionals.</div>
+    <div class="masthead-side masthead-right">Taiwan · Asia<br />Global Perspective</div>
   </div>
+
+  <div class="masthead-rule container" aria-hidden="true"><span></span></div>
+
   <nav class="nav" aria-label="主要導覽">
     <div class="container">
       <a href={link()}>首頁</a>
@@ -32,7 +37,7 @@ const peterFacebook = 'https://www.facebook.com/profile.php?id=61585164670358';
       <a href={link('topics/policy/')}>留學政策</a>
       <a href={link('insight/')}>深度專題</a>
       <a class="peter-nav" href={link('peter/')}>Peter的國際教育講座</a>
-      <a class="peter-nav" href={peterFacebook} target="_blank" rel="noopener noreferrer">Facebook ↗</a>
+      <a class="facebook-nav" href={peterFacebook} target="_blank" rel="noopener noreferrer">Facebook ↗</a>
     </div>
   </nav>
 </header>
