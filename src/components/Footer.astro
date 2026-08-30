@@ -1,0 +1,25 @@
+---
+const base = import.meta.env.BASE_URL;
+const link = (path = '') => `${base}${path}`;
+---
+<footer class="footer">
+  <div class="container">
+    <div>
+      <h3>Global Education News</h3>
+      <p>聚焦國際教育、全球大學、招生政策、學生流動與教育制度的新聞與深度分析。</p>
+      <small>© 2026 Global Education News. All rights reserved.</small>
+    </div>
+    <div>
+      <h3>編輯資訊</h3>
+      <p><a href={link('about/')}>關於我們</a></p>
+      <p><a href={link('editorial-policy/')}>編輯政策</a></p>
+      <p><a href={link('corrections/')}>更正政策</a></p>
+    </div>
+    <div>
+      <h3>聯絡與透明度</h3>
+      <p><a href={link('contact/')}>聯絡我們</a></p>
+      <p><a href={link('disclosure/')}>利益揭露與合作內容</a></p>
+      <p><a href={link('privacy/')}>隱私權政策</a></p>
+    </div>
+  </div>
+</footer>
