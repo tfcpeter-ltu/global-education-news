@@ -1,18 +1,8 @@
 import type { APIRoute } from 'astro';
+import { getStoryImageInfo } from '../lib/storyImages';
 
 const siteRoot = 'https://tfcpeter-ltu.github.io/global-education-news';
 const WEEKLY_ITEM_LIMIT = 6;
-
-const fallbackImages: Record<string, string> = {
-  australia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Usydcampuspicture.jpg/1280px-Usydcampuspicture.jpg',
-  canada: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/University_of_Toronto_campus_in_November_2023_1.jpg/1280px-University_of_Toronto_campus_in_November_2023_1.jpg',
-  uk: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/University_college_London.jpg/1280px-University_college_London.jpg',
-  us: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/University_Students.jpg/1280px-University_Students.jpg',
-  taiwan: 'https://commons.wikimedia.org/wiki/Special:Redirect/file/%E5%8F%B0%E5%A4%A7%E6%A0%A1%E5%9C%92%20-%20panoramio.jpg?width=1280',
-  asia: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/University_Students.jpg/1280px-University_Students.jpg',
-  admissions: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/University_Students.jpg/1280px-University_Students.jpg',
-  policy: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/University_Students.jpg/1280px-University_Students.jpg'
-};
 
 const esc = (value: unknown) => String(value ?? '')
   .replaceAll('&', '&amp;')
@@ -23,10 +13,9 @@ const esc = (value: unknown) => String(value ?? '')
 
 const cdata = (value: unknown) => String(value ?? '').replaceAll(']]>', ']]]]><![CDATA[>');
 
-const absoluteImage = (image: string | undefined, topic: string | undefined) => {
-  const selected = image || fallbackImages[topic ?? ''] || fallbackImages.admissions;
-  if (/^https?:\/\//i.test(selected)) return selected;
-  return `${siteRoot}${selected.startsWith('/') ? '' : '/'}${selected}`;
+const absoluteImage = (image: string) => {
+  if (/^https?:\/\//i.test(image)) return image;
+  return `${siteRoot}${image.startsWith('/') ? '' : '/'}${image}`;
 };
 
 const itemUrl = (key: string) => {
@@ -54,7 +43,8 @@ export const GET: APIRoute = () => {
   const latestDate = items[0]?.date ? new Date(items[0].date).toUTCString() : lastBuild;
 
   const xmlItems = items.map((item: any) => {
-    const image = absoluteImage(item.image, item.topic);
+    const photo = getStoryImageInfo(item);
+    const image = absoluteImage(photo.url);
     const description = `<p>${esc(item.description ?? '')}</p>`;
     return `
     <item>
