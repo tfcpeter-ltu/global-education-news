@@ -3,6 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
 const link = (path = '') => `${base}${path}`;
+const peterFacebook = 'https://www.facebook.com/profile.php?id=61585164670358';
 ---
 <BaseLayout title="Peter的國際教育講座｜Global Education News" description="Peter的國際教育講座：從全球大學、國際高中、留學政策與升學制度出發的評論與深度分析。">
   <section class="page">
@@ -14,7 +15,7 @@ const link = (path = '') => `${base}${path}`;
           <h1>Peter的國際教育講座</h1>
           <p>從全球大學、國際高中、留學政策、科系選擇與教育制度出發，把複雜的國際教育資訊轉化為學生與家長可以理解與比較的內容。</p>
           <div class="feature-actions">
-            <a class="button button-primary" href="https://www.facebook.com/peterlecture/" target="_blank" rel="noopener noreferrer">前往 Facebook 粉絲專頁 ↗</a>
+            <a class="button button-primary" href={peterFacebook} target="_blank" rel="noopener noreferrer">前往 Facebook 粉絲專頁 ↗</a>
           </div>
         </div>
       </div>
@@ -33,7 +34,7 @@ const link = (path = '') => `${base}${path}`;
         <div class="kicker">FOLLOW PETER</div>
         <h2>Peter的國際教育講座｜Facebook</h2>
         <p>網站收錄較完整、可搜尋與長期保存的新聞與深度內容；Facebook 則持續分享即時觀察、教育資訊與新文章。</p>
-        <a class="button button-primary" href="https://www.facebook.com/peterlecture/" target="_blank" rel="noopener noreferrer">追蹤 Facebook 粉絲專頁 ↗</a>
+        <a class="button button-primary" href={peterFacebook} target="_blank" rel="noopener noreferrer">追蹤 Facebook 粉絲專頁 ↗</a>
       </div>
     </div>
   </section>
