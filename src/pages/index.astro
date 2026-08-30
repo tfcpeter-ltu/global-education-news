@@ -1,6 +1,10 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
+const link = (path = '') => `${base}${path}`;
+
 const modules = import.meta.glob('./news/*.md', { eager: true });
 const articles = Object.values(modules)
   .map((mod: any) => ({ ...mod.frontmatter, url: mod.url }))
@@ -8,11 +12,11 @@ const articles = Object.values(modules)
 
 const storyImage = (story: any) => {
   const images: Record<string, string> = {
-    australia: 'https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=1600&q=82',
-    canada: 'https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=1200&q=82',
-    uk: 'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1200&q=82',
-    us: 'https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1200&q=82',
-    admissions: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1200&q=82'
+    australia: link('images/australia.svg'),
+    canada: link('images/canada.svg'),
+    uk: link('images/uk.svg'),
+    us: link('images/us.svg'),
+    admissions: link('images/peter-lecture.svg')
   };
   return story.image ?? images[story.topic] ?? images.admissions;
 };
@@ -83,7 +87,7 @@ const latest = articles.slice(0, 6);
 
     <section class="section peter-feature">
       <div class="peter-feature-image">
-        <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=1600&q=84" alt="國際教育講座與課堂交流" loading="lazy" />
+        <img src={link('images/peter-lecture.svg')} alt="Peter的國際教育講座" loading="lazy" />
       </div>
       <div class="peter-feature-copy">
         <div class="kicker">PETER'S COLUMN · EDUCATION INSIGHT</div>
@@ -91,7 +95,7 @@ const latest = articles.slice(0, 6);
         <p class="peter-lead">從全球大學、留學政策、國際高中到升學制度，把新聞背後的制度與選擇說給學生、家長與教育工作者聽。</p>
         <p>這個專區會整理 Peter 過去在 Facebook 發表的國際教育文章，重新查證資料、補充來源與更新時效後，轉化成可以長期搜尋與引用的深度內容。</p>
         <div class="feature-actions">
-          <a class="button button-primary" href={`${import.meta.env.BASE_URL}peter/`}>進入 Peter的國際教育講座</a>
+          <a class="button button-primary" href={link('peter/')}>進入 Peter的國際教育講座</a>
           <a class="button button-facebook" href="https://www.facebook.com/peterlecture/" target="_blank" rel="noopener noreferrer">Facebook 粉絲專頁 ↗</a>
         </div>
       </div>
@@ -100,13 +104,13 @@ const latest = articles.slice(0, 6);
     <section class="section">
       <div class="section-heading"><h2>我們關注什麼</h2></div>
       <div class="grid-3 topic-grid">
-        <a class="topic-card" href={`${import.meta.env.BASE_URL}topics/policy/`}>
+        <a class="topic-card" href={link('topics/policy/')}>
           <span class="topic-icon">政策</span><div><div class="kicker">POLICY</div><h3>留學與移民政策</h3><p>追蹤學生簽證、工作權、國際學生政策與各國教育制度變動。</p></div>
         </a>
-        <a class="topic-card" href={`${import.meta.env.BASE_URL}topics/admissions/`}>
+        <a class="topic-card" href={link('topics/admissions/')}>
           <span class="topic-icon">大學</span><div><div class="kicker">UNIVERSITIES</div><h3>全球大學與招生</h3><p>招生規則、科系趨勢、錄取制度、學費與國際學生數據。</p></div>
         </a>
-        <a class="topic-card" href={`${import.meta.env.BASE_URL}insight/`}>
+        <a class="topic-card" href={link('insight/')}>
           <span class="topic-icon">深度</span><div><div class="kicker">INSIGHT</div><h3>深度專題與觀點</h3><p>以資料與第一手來源，把新聞轉化成台灣學生與家長可以使用的判斷。</p></div>
         </a>
       </div>
