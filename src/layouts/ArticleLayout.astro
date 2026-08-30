@@ -1,6 +1,10 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
+const absolute = (path = '') => new URL(`${base}${path}`, Astro.site ?? Astro.url.origin).toString();
+
 const {
   frontmatter = {},
   title = frontmatter.title,
@@ -9,58 +13,102 @@ const {
   updated = frontmatter.updated,
   author = frontmatter.author ?? 'Global Education News 編輯部',
   category = frontmatter.category ?? '國際教育',
+  topic = frontmatter.topic ?? 'admissions',
   sources = frontmatter.sources ?? [],
   disclosure = frontmatter.disclosure,
   image = frontmatter.image
 } = Astro.props;
 
+const topicImages: Record<string, string> = {
+  australia: absolute('images/australia.svg'),
+  canada: absolute('images/canada.svg'),
+  uk: absolute('images/uk.svg'),
+  us: absolute('images/us.svg'),
+  admissions: absolute('images/peter-lecture.svg'),
+  asia: absolute('images/peter-lecture.svg')
+};
+
+const articleImage = image ? new URL(image, Astro.site ?? Astro.url.origin).toString() : (topicImages[topic] ?? topicImages.admissions);
 const published = date ? new Date(date) : undefined;
 const modified = updated ? new Date(updated) : published;
 const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin).toString();
+const isPeter = String(author).toLowerCase().includes('peter');
+const authorUrl = isPeter ? absolute('peter/') : absolute('about/');
+const publisherUrl = absolute();
+
 const articleLd = {
   '@context': 'https://schema.org',
   '@type': 'NewsArticle',
   headline: title,
   description,
+  image: [articleImage],
   datePublished: published?.toISOString(),
   dateModified: modified?.toISOString(),
-  mainEntityOfPage: canonical,
+  mainEntityOfPage: {
+    '@type': 'WebPage',
+    '@id': canonical
+  },
   author: {
-    '@type': 'Person',
-    name: author
+    '@type': isPeter ? 'Person' : 'Organization',
+    name: author,
+    url: authorUrl,
+    ...(isPeter ? { sameAs: ['https://www.facebook.com/profile.php?id=61585164670358'] } : {})
   },
   publisher: {
     '@type': 'NewsMediaOrganization',
-    name: 'Global Education News'
+    name: 'Global Education News',
+    alternateName: '國際教育新聞網',
+    url: publisherUrl
   },
-  articleSection: category
+  articleSection: category,
+  inLanguage: 'zh-Hant-TW',
+  isAccessibleForFree: true
 };
 
-const fmt = (value?: Date) => value ? new Intl.DateTimeFormat('zh-TW', { year: 'numeric', month: 'long', day: 'numeric' }).format(value) : '';
+const breadcrumbLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: '首頁', item: publisherUrl },
+    { '@type': 'ListItem', position: 2, name: '最新新聞', item: absolute('news/') },
+    { '@type': 'ListItem', position: 3, name: title, item: canonical }
+  ]
+};
+
+const fmtDate = (value?: Date) => value ? new Intl.DateTimeFormat('zh-TW', { year: 'numeric', month: 'long', day: 'numeric' }).format(value) : '';
+const fmtTime = (value?: Date) => value ? new Intl.DateTimeFormat('zh-TW', { hour: '2-digit', minute: '2-digit', hour12: false, timeZone: 'Asia/Taipei' }).format(value) : '';
 ---
-<BaseLayout title={`${title}｜Global Education News`} description={description} image={image} type="article">
+<BaseLayout title={`${title}｜Global Education News`} description={description} image={articleImage} type="article">
   <Fragment slot="head">
+    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
     <meta property="article:published_time" content={published?.toISOString()} />
     <meta property="article:modified_time" content={modified?.toISOString()} />
     <meta property="article:section" content={category} />
+    <meta property="og:image" content={articleImage} />
     <script type="application/ld+json" set:html={JSON.stringify(articleLd)}></script>
+    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbLd)}></script>
   </Fragment>
 
   <article class="article">
     <div class="page-shell">
+      <nav class="article-breadcrumb" aria-label="麵包屑"><a href={absolute()}>首頁</a><span>›</span><a href={absolute('news/')}>最新新聞</a><span>›</span><span>{category}</span></nav>
       <div class="kicker">{category}</div>
       <h1>{title}</h1>
       {description && <p class="deck">{description}</p>}
       <div class="article-meta">
-        <span>作者：{author}</span>
-        {published && <span>發布：{fmt(published)}</span>}
-        {updated && modified && <span>更新：{fmt(modified)}</span>}
+        <span>作者：<a href={authorUrl}>{author}</a></span>
+        {published && <span>發布：<time datetime={published.toISOString()}>{fmtDate(published)} {fmtTime(published)}</time></span>}
+        {updated && modified && <span>更新：<time datetime={modified.toISOString()}>{fmtDate(modified)} {fmtTime(modified)}</time></span>}
       </div>
+      <figure class="article-hero-image">
+        <img src={articleImage} alt={`${title}｜新聞圖片`} loading="eager" />
+        <figcaption>Global Education News 國際教育新聞網</figcaption>
+      </figure>
       {disclosure && <p class="disclosure"><strong>利益揭露：</strong>{disclosure}</p>}
       <div class="article-body"><slot /></div>
       {sources.length > 0 && (
         <aside class="source-box">
-          <strong>資料來源</strong>
+          <strong>官方資料與消息來源</strong>
           <ul>
             {sources.map((source: { label: string; url: string }) => (
               <li><a href={source.url} rel="noopener noreferrer">{source.label}</a></li>
@@ -68,6 +116,11 @@ const fmt = (value?: Date) => value ? new Intl.DateTimeFormat('zh-TW', { year: '
           </ul>
         </aside>
       )}
+      <aside class="article-related">
+        <strong>延伸閱讀</strong>
+        <p><a href={absolute('news/')}>查看更多國際教育最新新聞 →</a></p>
+        <p><a href={absolute('peter/')}>Peter的國際教育講座 →</a></p>
+      </aside>
     </div>
   </article>
 </BaseLayout>
