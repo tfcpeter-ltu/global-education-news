@@ -3,7 +3,7 @@ layout: '../../layouts/ArticleLayout.astro'
 title: '北市115學年度25名高中職學生赴美加交換一年：國際交換學生計畫啟程'
 description: '臺北市教育局115學年度選送25名高中職學生赴美國及加拿大交換學習一年，並由返國學生分享海外校園、寄宿家庭與文化適應經驗。'
 date: 2026-08-30T21:08:00+08:00
-author: 'Global Education News 編輯部'
+author: 'LTU Global Education News 編輯部'
 category: '台灣國際教育'
 topic: 'taiwan'
 tags: ['policy']
