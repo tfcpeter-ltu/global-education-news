@@ -3,6 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
 export function getStaticPaths() {
   const topics: Record<string, { label: string; description: string }> = {
+    taiwan: { label: '台灣', description: '台灣國際教育、雙聯學制、海外升學、交換生、國際課程、教育部政策與大學國際化新聞。' },
     us: { label: '美國', description: '美國大學、國際學生、簽證、實習與招生政策。' },
     canada: { label: '加拿大', description: '加拿大國際教育、學簽、大學與學生政策。' },
     uk: { label: '英國', description: '英國大學、學生簽證、招生與高等教育政策。' },
@@ -21,7 +22,7 @@ let articles = Object.values(modules)
   .map((mod: any) => ({ ...mod.frontmatter, url: mod.url }))
   .sort((a: any, b: any) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
-if (['us', 'canada', 'uk', 'australia'].includes(topic)) {
+if (['taiwan', 'us', 'canada', 'uk', 'australia'].includes(topic)) {
   articles = articles.filter((story: any) => story.topic === topic);
 } else if (topic === 'policy') {
   articles = articles.filter((story: any) => String(story.category ?? '').includes('政策'));
@@ -31,7 +32,7 @@ if (['us', 'canada', 'uk', 'australia'].includes(topic)) {
   articles = articles.filter((story: any) => story.topic === 'admissions');
 }
 ---
-<BaseLayout title={`${data.label}｜Global Education News`} description={data.description}>
+<BaseLayout title={`${data.label}國際教育新聞｜Global Education News`} description={data.description}>
   <section class="page">
     <div class="container">
       <div class="kicker">TOPIC</div>
@@ -50,7 +51,7 @@ if (['us', 'canada', 'uk', 'australia'].includes(topic)) {
           ))}
         </div>
       ) : (
-        <p class="muted">這個專區的第一批文章正在整理中。</p>
+        <p class="muted">台灣國際教育專區已建立，第一批本土新聞與深度文章正在整理中。</p>
       )}
     </div>
   </section>
