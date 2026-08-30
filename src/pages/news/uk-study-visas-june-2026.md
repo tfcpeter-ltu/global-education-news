@@ -1,8 +1,8 @@
 ---
 layout: '../../layouts/ArticleLayout.astro'
-title: '英國學生簽證一年減 11%：中國仍是最大來源國，國際招生進入調整期'
+title: '英國學生簽證 2026 年減 11%：中國仍是最大來源國，國際招生進入調整期'
 description: '英國 Home Office 最新統計顯示，截至 2026 年 6 月的一年內共核發 383,455 件 Sponsored Study visas，較前一年下降 11%。'
-date: 2026-08-30
+date: 2026-08-30T19:12:33+08:00
 author: 'Global Education News 編輯部'
 category: '英國留學政策'
 topic: 'uk'
