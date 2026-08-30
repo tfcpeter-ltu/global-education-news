@@ -1,0 +1,61 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+interface Props {
+  title?: string;
+  description?: string;
+  image?: string;
+  type?: 'website' | 'article';
+  noindex?: boolean;
+}
+
+const {
+  title = 'Global Education News｜國際教育新聞網',
+  description = '國際教育、全球大學、招生政策、學生流動與教育制度的新聞與深度分析。',
+  image = `${import.meta.env.BASE_URL}og-default.svg`,
+  type = 'website',
+  noindex = false
+} = Astro.props;
+
+const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin).toString();
+const imageUrl = new URL(image, Astro.site ?? Astro.url.origin).toString();
+const websiteLd = {
+  '@context': 'https://schema.org',
+  '@type': 'NewsMediaOrganization',
+  name: 'Global Education News',
+  alternateName: '國際教育新聞網',
+  url: new URL(import.meta.env.BASE_URL, Astro.site ?? Astro.url.origin).toString(),
+  publishingPrinciples: new URL(`${import.meta.env.BASE_URL}editorial-policy/`, Astro.site ?? Astro.url.origin).toString()
+};
+---
+<!doctype html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {noindex && <meta name="robots" content="noindex,nofollow" />}
+    <meta property="og:site_name" content="Global Education News" />
+    <meta property="og:type" content={type} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={imageUrl} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={imageUrl} />
+    <script type="application/ld+json" set:html={JSON.stringify(websiteLd)}></script>
+    <slot name="head" />
+  </head>
+  <body>
+    <Header />
+    <main><slot /></main>
+    <Footer />
+  </body>
+</html>
