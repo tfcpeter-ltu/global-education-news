@@ -24,12 +24,14 @@ const {
 
 const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin).toString();
 const imageUrl = new URL(image, Astro.site ?? Astro.url.origin).toString();
+const weeklyFeedUrl = new URL(`${base}weekly-feed.xml`, Astro.site ?? Astro.url.origin).toString();
 const websiteLd = {
   '@context': 'https://schema.org',
   '@type': 'NewsMediaOrganization',
   name: 'Global Education News',
   alternateName: '國際教育新聞網',
   url: new URL(base, Astro.site ?? Astro.url.origin).toString(),
+  email: 'editor.jsti.ltu@gmail.com',
   publishingPrinciples: new URL(`${base}editorial-policy/`, Astro.site ?? Astro.url.origin).toString()
 };
 ---
@@ -42,6 +44,7 @@ const websiteLd = {
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
+    <link rel="alternate" type="application/rss+xml" title="Global Education Weekly｜國際教育週報" href={weeklyFeedUrl} />
     {noindex && <meta name="robots" content="noindex,nofollow" />}
     <meta property="og:site_name" content="Global Education News" />
     <meta property="og:type" content={type} />
