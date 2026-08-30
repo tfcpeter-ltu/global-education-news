@@ -67,8 +67,8 @@ export const GET: APIRoute = () => {
     <language>zh-TW</language>
     <pubDate>${latestDate}</pubDate>
     <lastBuildDate>${lastBuild}</lastBuildDate>
-    <managingEditor>editor.jsti.ltu@gmail.com (Global Education News 編輯部)</managingEditor>
-    <webMaster>editor.jsti.ltu@gmail.com (Global Education News 編輯部)</webMaster>${xmlItems}
+    <managingEditor>editor.jsti.ltu@gmail.com (LTU Global Education News 編輯部)</managingEditor>
+    <webMaster>editor.jsti.ltu@gmail.com (LTU Global Education News 編輯部)</webMaster>${xmlItems}
   </channel>
 </rss>`;
 
