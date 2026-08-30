@@ -1,0 +1,72 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const modules = import.meta.glob('./news/*.md', { eager: true });
+const articles = Object.values(modules)
+  .map((mod: any) => ({ ...mod.frontmatter, url: mod.url }))
+  .sort((a: any, b: any) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+const lead = articles[0];
+const side = articles.slice(1, 3);
+const latest = articles.slice(0, 6);
+---
+<BaseLayout>
+  <div class="container">
+    {lead ? (
+      <section class="hero">
+        <div class="hero-main">
+          <div class="kicker">TOP STORY · {lead.category}</div>
+          <h1><a href={lead.url}>{lead.title}</a></h1>
+          <p class="hero-deck">{lead.description}</p>
+          <div class="hero-meta">
+            <span>{lead.author ?? 'Global Education News 編輯部'}</span>
+            <span>{new Intl.DateTimeFormat('zh-TW').format(new Date(lead.date))}</span>
+          </div>
+        </div>
+        <div class="hero-side">
+          <div class="kicker">LATEST</div>
+          {side.map((story: any) => (
+            <div class="side-story">
+              <h2><a href={story.url}>{story.title}</a></h2>
+              <p class="muted">{story.description}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+    ) : (
+      <section class="hero">
+        <div class="hero-main">
+          <div class="kicker">GLOBAL EDUCATION NEWS</div>
+          <h1>從政策到校園，理解國際教育正在發生的變化。</h1>
+          <p class="hero-deck">本站正在建立第一批原創新聞與深度文章。內容將優先引用政府、大學與第一手公開資料。</p>
+        </div>
+      </section>
+    )}
+
+    <section class="section">
+      <div class="section-heading">
+        <h2>最新新聞</h2>
+        <span class="muted">International Education · Policy · Admissions</span>
+      </div>
+      <div class="grid-3">
+        {latest.map((story: any) => (
+          <article class="card">
+            <div class="kicker">{story.category}</div>
+            <h3><a href={story.url}>{story.title}</a></h3>
+            <p>{story.description}</p>
+            <div class="card-meta">{new Intl.DateTimeFormat('zh-TW').format(new Date(story.date))}</div>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading"><h2>我們關注什麼</h2></div>
+      <div class="grid-3">
+        <div class="card"><div class="kicker">POLICY</div><h3>留學與移民政策</h3><p>追蹤學生簽證、工作權、國際學生政策與各國教育制度變動。</p></div>
+        <div class="card"><div class="kicker">UNIVERSITIES</div><h3>全球大學與招生</h3><p>招生規則、科系趨勢、錄取制度、學費與國際學生數據。</p></div>
+        <div class="card"><div class="kicker">INSIGHT</div><h3>深度專題與觀點</h3><p>以資料與第一手來源，把新聞轉化成台灣學生與家長能使用的判斷。</p></div>
+      </div>
+    </section>
+  </div>
+</BaseLayout>
