@@ -3,6 +3,7 @@ const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
 const link = (path = '') => `${base}${path}`;
 const peterFacebook = 'https://www.facebook.com/profile.php?id=61585164670358';
+const editorialEmail = 'editor.jsti.ltu@gmail.com';
 ---
 <footer class="footer">
   <div class="container">
@@ -19,6 +20,7 @@ const peterFacebook = 'https://www.facebook.com/profile.php?id=61585164670358';
       <p><a href={link('about/')}>關於我們</a></p>
       <p><a href={link('editorial-policy/')}>編輯政策</a></p>
       <p><a href={link('corrections/')}>更正政策</a></p>
+      <p><a href={`mailto:${editorialEmail}`}>{editorialEmail}</a></p>
     </div>
     <div>
       <h3>合作與透明度</h3>
