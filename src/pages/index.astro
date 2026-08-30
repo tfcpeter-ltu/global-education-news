@@ -31,7 +31,7 @@ const latest = articles.slice(0, 6);
           <h1><a href={lead.url}>{lead.title}</a></h1>
           <p class="hero-deck">{lead.description}</p>
           <div class="hero-meta">
-            <span>{lead.author ?? 'Global Education News 編輯部'}</span>
+            <span>{lead.author ?? 'LTU Global Education News 編輯部'}</span>
             <span>{new Intl.DateTimeFormat('zh-TW').format(new Date(lead.date))}</span>
           </div>
         </div>
