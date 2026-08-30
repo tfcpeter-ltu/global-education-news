@@ -4,6 +4,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
 const link = (path = '') => `${base}${path}`;
+const peterFacebook = 'https://www.facebook.com/profile.php?id=61585164670358';
 
 const modules = import.meta.glob('./news/*.md', { eager: true });
 const articles = Object.values(modules)
@@ -96,7 +97,7 @@ const latest = articles.slice(0, 6);
         <p>這個專區會整理 Peter 過去在 Facebook 發表的國際教育文章，重新查證資料、補充來源與更新時效後，轉化成可以長期搜尋與引用的深度內容。</p>
         <div class="feature-actions">
           <a class="button button-primary" href={link('peter/')}>進入 Peter的國際教育講座</a>
-          <a class="button button-facebook" href="https://www.facebook.com/peterlecture/" target="_blank" rel="noopener noreferrer">Facebook 粉絲專頁 ↗</a>
+          <a class="button button-facebook" href={peterFacebook} target="_blank" rel="noopener noreferrer">Facebook 粉絲專頁 ↗</a>
         </div>
       </div>
     </section>
