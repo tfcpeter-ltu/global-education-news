@@ -1,0 +1,84 @@
+---
+import IntelligenceLayout from '../../../layouts/IntelligenceLayout.astro';
+
+const dimensions = [
+  ['AI Curriculum', 'AI 課程與學習路徑', '是否有具連續性的 AI、資料、運算思維與跨域課程，而非單次活動。'],
+  ['Teacher Capacity', '教師 AI 專業能力', '教師培訓、共同備課、教學實驗與校內支持系統。'],
+  ['Student Literacy', '學生 AI 素養', '理解生成式 AI、資料、偏誤、引用、驗證與負責任使用。'],
+  ['Governance', 'AI 治理與使用規範', '學校是否有明確的課堂、作業、評量、隱私與學術誠信原則。'],
+  ['Practice & Infrastructure', '實作環境與資源', '學生能否取得工具、設備、平台與專題實作機會。'],
+  ['Internationalisation', '國際化與外部連結', '國際課程、跨國合作、競賽、交流及大學或產業連結。']
+];
+---
+<IntelligenceLayout
+  title="Taiwan AI Education Index｜台灣高中 AI 教育力指數｜GEI"
+  description="GEI Taiwan AI Education Index 建立台灣高中 AI 教育準備度評估框架，涵蓋課程、教師、學生素養、治理、實作環境與國際化。"
+  heading="Taiwan AI Education Index"
+  deck="台灣高中 AI 教育力指數。評估的不是學校買了多少 AI 工具，而是 AI 是否真正進入課程、教師能力、學生素養、治理與學習環境。"
+>
+  <div class="container ai-body">
+    <section class="ai-notice">
+      <div class="notice-label">FRAMEWORK · NO SCHOOL RANKING YET</div>
+      <h2>第一階段先公開評估框架，不先替學校打分數</h2>
+      <p>正式評比前應先建立可驗證的證據規則與學校資料蒐集方式。GEI 將避免因單一活動、新聞稿或硬體採購就判定學校 AI 教育表現。</p>
+    </section>
+
+    <section class="ai-section">
+      <div class="section-title"><div class="intel-kicker">ASSESSMENT FRAMEWORK</div><h2>六個核心評估面向</h2></div>
+      <div class="ai-grid">
+        {dimensions.map(([en, zh, text], index) => (
+          <article>
+            <span>{String(index + 1).padStart(2, '0')}</span>
+            <div class="ai-en">{en}</div>
+            <h3>{zh}</h3>
+            <p>{text}</p>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <section class="evidence-section">
+      <div class="section-title"><div class="intel-kicker">EVIDENCE STANDARD</div><h2>什麼資料才算有效證據？</h2></div>
+      <div class="evidence-list">
+        <div><strong>A</strong><h3>公開制度文件</h3><p>課程計畫、校務計畫、AI 使用規範、正式課表與教學政策。</p></div>
+        <div><strong>B</strong><h3>可持續課程</h3><p>有週期、時數、學習目標、評量與作品，而非一次性講座。</p></div>
+        <div><strong>C</strong><h3>教師與學生證據</h3><p>教師培訓、學生作品、競賽、專題、研究或跨校合作成果。</p></div>
+        <div><strong>D</strong><h3>可查核外部連結</h3><p>大學、國際學校、企業或研究機構的正式合作資料。</p></div>
+      </div>
+    </section>
+
+    <section class="pilot-box">
+      <div class="intel-kicker">PILOT DESIGN</div>
+      <h2>未來適合先做「自願參與型」學校資料庫</h2>
+      <p>學校可提交資料與佐證，GEI 依公開方法進行資料整理；未提供資料的學校不應被推定為低分。等資料完整度足夠後，再決定是否發布分級或排名。</p>
+    </section>
+  </div>
+</IntelligenceLayout>
+
+<style>
+  .ai-body { padding: 38px 0 68px; }
+  .intel-kicker { font-family: Arial, "Noto Sans TC", sans-serif; font-size: .66rem; font-weight: 900; letter-spacing: .15em; color: var(--burgundy); }
+  .ai-notice { max-width: 930px; padding: 28px 0 32px; border-bottom: 3px double var(--line-dark); }
+  .notice-label { display: inline-block; padding: 5px 8px; background: #172235; color: #fff; font-family: Arial, sans-serif; font-size: .6rem; font-weight: 900; letter-spacing: .09em; }
+  .ai-notice h2 { margin: 12px 0 10px; font-size: clamp(1.9rem, 3.4vw, 3rem); line-height: 1.12; }
+  .ai-notice p { margin: 0; color: var(--muted); }
+  .ai-section, .evidence-section { padding-top: 42px; }
+  .section-title { padding-bottom: 12px; border-bottom: 3px double var(--line-dark); }
+  .section-title h2 { margin: 4px 0 0; font-size: 2rem; }
+  .ai-grid { display: grid; grid-template-columns: repeat(3, 1fr); border-left: 1px solid var(--line); }
+  .ai-grid article { min-height: 225px; padding: 22px 20px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .ai-grid article > span { font-family: Arial, sans-serif; font-size: .64rem; font-weight: 900; color: var(--burgundy); }
+  .ai-en { margin-top: 22px; font-family: Arial, sans-serif; font-size: .67rem; font-weight: 900; color: #172235; }
+  .ai-grid h3 { margin: 5px 0 8px; font-size: 1.28rem; }
+  .ai-grid p { margin: 0; color: var(--muted); font-size: .88rem; }
+  .evidence-list { display: grid; grid-template-columns: repeat(4, 1fr); border-left: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .evidence-list > div { padding: 20px 18px; border-right: 1px solid var(--line); }
+  .evidence-list strong { font-family: Arial, sans-serif; font-size: .68rem; color: var(--burgundy); }
+  .evidence-list h3 { margin: 7px 0; font-size: 1.16rem; }
+  .evidence-list p { margin: 0; color: var(--muted); font-size: .85rem; }
+  .pilot-box { margin-top: 42px; padding: 24px; border-top: 2px solid #172235; background: #e9e3d7; }
+  .pilot-box h2 { margin: 5px 0 8px; font-size: 1.6rem; }
+  .pilot-box p { margin: 0; max-width: 900px; }
+  @media (max-width: 800px) { .ai-grid { grid-template-columns: 1fr 1fr; } .evidence-list { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 520px) { .ai-grid, .evidence-list { grid-template-columns: 1fr; } }
+</style>
