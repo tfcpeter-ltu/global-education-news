@@ -1,7 +1,7 @@
 import type { APIRoute } from 'astro';
 import { getStoryImageInfo } from '../lib/storyImages';
 
-const siteRoot = 'https://tfcpeter-ltu.github.io/global-education-news';
+const siteRoot = 'https://globalednews.com';
 const WEEKLY_ITEM_LIMIT = 6;
 
 const esc = (value: unknown) => String(value ?? '')
