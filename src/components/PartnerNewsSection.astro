@@ -1,0 +1,224 @@
+---
+import { getStoryImageInfo } from '../lib/storyImages';
+
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
+const link = (path = '') => `${base}${path}`;
+
+const knownPartners = [
+  { name: '明道中學', en: 'Mingdao High School', aliases: ['明道中學', 'mingdao'] },
+  { name: '僑泰中學', en: 'Chiao Tai High School', aliases: ['僑泰中學', '僑泰高中', 'chiao tai', 'chiaotai'] }
+];
+
+const modules = import.meta.glob('../pages/news/*.md', { eager: true });
+const articles = Object.values(modules)
+  .map((mod: any) => ({ ...mod.frontmatter, url: mod.url }))
+  .sort((a: any, b: any) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+const partnerName = (story: any) => {
+  if (typeof story.partner === 'string' && story.partner.trim()) return story.partner.trim();
+  const haystack = [story.title, story.description, story.school, story.organization]
+    .filter(Boolean)
+    .join(' ')
+    .toLowerCase();
+  return knownPartners.find((partner) => partner.aliases.some((alias) => haystack.includes(alias.toLowerCase())))?.name ?? '';
+};
+
+const partnerStories = articles
+  .map((story: any) => ({ ...story, partnerName: partnerName(story) }))
+  .filter((story: any) => Boolean(story.partnerName))
+  .slice(0, 6);
+---
+<section class="partner-news-section" aria-labelledby="partner-news-title">
+  <div class="partner-shell">
+    <div class="partner-heading">
+      <div>
+        <div class="partner-kicker">INTERNATIONAL EDUCATION PARTNERS</div>
+        <h2 id="partner-news-title">國際教育合作夥伴</h2>
+      </div>
+      <p>呈現 LTU 合作學校與教育夥伴的校園動態、國際交流、升學活動與合作成果。</p>
+    </div>
+
+    <div class="partner-directory" aria-label="合作學校">
+      {knownPartners.map((partner) => (
+        <div class="partner-school">
+          <strong>{partner.name}</strong>
+          <span>{partner.en}</span>
+        </div>
+      ))}
+      <div class="partner-school partner-school-more">
+        <strong>更多合作學校</strong>
+        <span>More Education Partners</span>
+      </div>
+    </div>
+
+    {partnerStories.length > 0 ? (
+      <div class="partner-grid">
+        {partnerStories.map((story: any) => {
+          const photo = getStoryImageInfo(story);
+          return (
+            <article class="partner-story">
+              <a class="partner-image" href={story.url}>
+                <img src={photo.url} alt={photo.alt} loading="lazy" referrerpolicy="no-referrer" />
+              </a>
+              <div class="partner-story-body">
+                <div class="partner-label">{story.partnerName} · PARTNER NEWS</div>
+                <h3><a href={story.url}>{story.title}</a></h3>
+                <p>{story.description}</p>
+                <time datetime={new Date(story.date).toISOString()}>{new Intl.DateTimeFormat('zh-TW').format(new Date(story.date))}</time>
+              </div>
+            </article>
+          );
+        })}
+      </div>
+    ) : (
+      <div class="partner-empty">
+        <strong>合作夥伴新聞專區已啟用</strong>
+        <span>明道中學、僑泰中學及其他合作學校新聞將在此彙整刊登。</span>
+      </div>
+    )}
+
+    <div class="partner-more"><a href={link('partners/')}>查看國際教育合作夥伴專欄 →</a></div>
+  </div>
+</section>
+
+<style>
+  .partner-news-section {
+    margin-top: 54px;
+    padding: 34px 0 38px;
+    border-top: 4px double var(--line-dark);
+    border-bottom: 1px solid var(--line-dark);
+    background: #f3efe6;
+  }
+  .partner-shell {
+    width: min(1180px, calc(100% - 40px));
+    margin: 0 auto;
+  }
+  .partner-heading {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(280px, .75fr);
+    gap: 40px;
+    align-items: end;
+    padding-bottom: 17px;
+    border-bottom: 1px solid var(--line-dark);
+  }
+  .partner-kicker,
+  .partner-label {
+    font-family: Arial, "Noto Sans TC", sans-serif;
+    font-size: .64rem;
+    font-weight: 800;
+    letter-spacing: .16em;
+    color: var(--burgundy);
+  }
+  .partner-heading h2 {
+    margin: 6px 0 0;
+    font-family: Georgia, "Noto Serif TC", serif;
+    font-size: clamp(1.8rem, 3vw, 2.65rem);
+    line-height: 1.05;
+  }
+  .partner-heading p {
+    margin: 0;
+    color: var(--muted);
+    font-size: .9rem;
+    line-height: 1.65;
+  }
+  .partner-directory {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 18px 0 24px;
+    border: 1px solid var(--line);
+    background: rgba(255,255,255,.42);
+  }
+  .partner-school {
+    padding: 15px 18px;
+    border-right: 1px solid var(--line);
+  }
+  .partner-school:last-child { border-right: 0; }
+  .partner-school strong,
+  .partner-school span { display: block; }
+  .partner-school strong {
+    font-family: Georgia, "Noto Serif TC", serif;
+    font-size: 1rem;
+  }
+  .partner-school span {
+    margin-top: 3px;
+    font-family: Arial, "Noto Sans TC", sans-serif;
+    font-size: .66rem;
+    color: var(--muted);
+    letter-spacing: .04em;
+  }
+  .partner-school-more { color: var(--burgundy); }
+  .partner-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+  }
+  .partner-story {
+    background: #fffdf8;
+    border-top: 3px solid var(--line-dark);
+  }
+  .partner-image {
+    display: block;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background: var(--soft);
+  }
+  .partner-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .partner-story-body { padding: 16px 16px 18px; }
+  .partner-story h3 {
+    margin: 7px 0 8px;
+    font-family: Georgia, "Noto Serif TC", serif;
+    font-size: 1.12rem;
+    line-height: 1.35;
+  }
+  .partner-story p {
+    margin: 0 0 11px;
+    color: var(--muted);
+    font-size: .82rem;
+    line-height: 1.55;
+  }
+  .partner-story time {
+    font-family: Arial, "Noto Sans TC", sans-serif;
+    font-size: .66rem;
+    color: var(--muted);
+  }
+  .partner-empty {
+    padding: 28px 24px;
+    border: 1px solid var(--line);
+    background: #fffdf8;
+    text-align: center;
+  }
+  .partner-empty strong,
+  .partner-empty span { display: block; }
+  .partner-empty strong {
+    font-family: Georgia, "Noto Serif TC", serif;
+    font-size: 1.15rem;
+  }
+  .partner-empty span {
+    margin-top: 6px;
+    color: var(--muted);
+    font-size: .83rem;
+  }
+  .partner-more {
+    margin-top: 17px;
+    padding-top: 12px;
+    border-top: 1px solid var(--line);
+    text-align: right;
+    font-family: Arial, "Noto Sans TC", sans-serif;
+    font-size: .76rem;
+    font-weight: 800;
+  }
+  .partner-more a { color: var(--burgundy); }
+
+  @media (max-width: 820px) {
+    .partner-heading { grid-template-columns: 1fr; gap: 12px; }
+    .partner-directory { grid-template-columns: 1fr; }
+    .partner-school { border-right: 0; border-bottom: 1px solid var(--line); }
+    .partner-school:last-child { border-bottom: 0; }
+    .partner-grid { grid-template-columns: 1fr; }
+  }
+</style>
