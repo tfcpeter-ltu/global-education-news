@@ -1,4 +1,4 @@
-const SITE = 'https://tfcpeter-ltu.github.io/global-education-news';
+const SITE = 'https://globalednews.com';
 
 export async function GET() {
   const body = `<?xml version="1.0" encoding="UTF-8"?>
