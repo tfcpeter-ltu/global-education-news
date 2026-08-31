@@ -3,7 +3,6 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import NewsletterCTA from '../components/NewsletterCTA.astro';
 import ReadershipInsights from '../components/ReadershipInsights.astro';
 import { getStoryImageInfo } from '../lib/storyImages';
-import { getPartnerStories, getPartnerSchoolsWithLogos } from '../lib/partnerNews';
 
 const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
@@ -21,10 +20,9 @@ const articles = Object.values(modules)
  * 2. LTU-related news appears only as a secondary homepage section.
  * 3. General Taiwan news stays available in the Taiwan section and /news/,
  *    but does not occupy homepage editorial slots.
- * 4. Partner-school news is grouped into ONE lower-page news panel, limited to
- *    the most recent three months and at most three homepage stories.
- * 5. Partner schools are never rendered as school-by-school cards. When logo
- *    assets are supplied, logos appear only as a compact strip below the panel.
+ *
+ * This keeps the front page internationally oriented even when several Taiwan
+ * stories are published on the same day.
  */
 const isLTUStory = (story: any) => {
   const haystack = [story.title, story.description, story.disclosure, story.brand]
@@ -36,9 +34,6 @@ const isLTUStory = (story: any) => {
 
 const internationalStories = articles.filter((story: any) => story.topic !== 'taiwan' && !isLTUStory(story));
 const ltuStories = articles.filter((story: any) => isLTUStory(story));
-const partnerLatest = getPartnerStories(articles).slice(0, 3);
-const partnerSchoolsWithLogos = getPartnerSchoolsWithLogos();
-const partnerLogoSrc = (logo = '') => /^https?:\/\//i.test(logo) || logo.startsWith('/') ? logo : link(logo);
 
 const peterPhoto = 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Instructor_speaking_to_students_in_classroom.jpg/1280px-Instructor_speaking_to_students_in_classroom.jpg';
 const lead = internationalStories[0] ?? ltuStories[0];
@@ -170,48 +165,6 @@ const ltuLatest = ltuStories.slice(0, 3);
         <a class="topic-card" href={link('insight/')}><span class="topic-icon">深度</span><div><div class="kicker">INSIGHT</div><h3>深度專題與觀點</h3><p>以資料與第一手來源，把新聞轉化成台灣學生與家長可以使用的判斷。</p></div></a>
       </div>
     </section>
-
-    <section class="section partner-column" aria-label="國際教育合作夥伴">
-      <div class="section-heading">
-        <h2>國際教育合作夥伴</h2>
-        <span class="muted">INTERNATIONAL EDUCATION PARTNERS · RECENT 3 MONTHS</span>
-      </div>
-
-      <div class="partner-news-panel">
-        {partnerLatest.length > 0 ? partnerLatest.map((story: any) => {
-          const photo = getStoryImageInfo(story);
-          return (
-            <article class="partner-news-row">
-              <a class="partner-news-image" href={story.url}>
-                <img src={photo.url} alt={photo.alt} loading="lazy" referrerpolicy="no-referrer" />
-              </a>
-              <div class="partner-news-copy">
-                <div class="kicker">PARTNER NEWS</div>
-                <h3><a href={story.url}>{story.title}</a></h3>
-                <p>{story.description}</p>
-                <div class="card-meta">{new Intl.DateTimeFormat('zh-TW').format(new Date(story.date))}</div>
-              </div>
-            </article>
-          );
-        }) : (
-          <div class="partner-column-empty" aria-hidden="true"></div>
-        )}
-      </div>
-
-      {partnerLatest.length > 0 && (
-        <div class="section-more"><a href={link('partners/')}>查看合作夥伴專欄 →</a></div>
-      )}
-
-      {partnerSchoolsWithLogos.length > 0 && (
-        <div class="partner-logo-strip" aria-label="合作學校校徽">
-          {partnerSchoolsWithLogos.map((school) => (
-            <div class="partner-logo-item" title={school.name}>
-              <img src={partnerLogoSrc(school.logo ?? '')} alt={`${school.name} 校徽`} loading="lazy" />
-            </div>
-          ))}
-        </div>
-      )}
-    </section>
   </div>
 </BaseLayout>
 
@@ -267,7 +220,9 @@ const ltuLatest = ltuStories.slice(0, 3);
     padding-top: 22px;
     border-top: 3px double var(--line-dark);
   }
-  .ltu-story-card { background: rgba(255, 253, 248, .45); }
+  .ltu-story-card {
+    background: rgba(255, 253, 248, .45);
+  }
   .section-more,
   .taiwan-entry {
     margin-top: 18px;
@@ -280,70 +235,7 @@ const ltuLatest = ltuStories.slice(0, 3);
   }
   .section-more a,
   .taiwan-entry a { color: var(--burgundy); }
-  .taiwan-entry { margin-bottom: 8px; }
-
-  .partner-column {
-    margin-bottom: 46px;
-    padding-top: 24px;
-    border-top: 3px double var(--line-dark);
-  }
-  .partner-news-panel {
-    border: 1px solid var(--line-dark);
-    background: rgba(255, 253, 248, .45);
-  }
-  .partner-news-row {
-    display: grid;
-    grid-template-columns: 220px minmax(0, 1fr);
-    gap: 22px;
-    padding: 18px;
-    border-bottom: 1px solid var(--line);
-  }
-  .partner-news-row:last-child { border-bottom: 0; }
-  .partner-news-image {
-    display: block;
-    aspect-ratio: 16 / 9;
-    overflow: hidden;
-    background: var(--soft);
-  }
-  .partner-news-image img { width: 100%; height: 100%; object-fit: cover; }
-  .partner-news-copy h3 {
-    margin: 6px 0 8px;
-    font-family: Georgia, "Noto Serif TC", serif;
-    font-size: 1.15rem;
-    line-height: 1.38;
-  }
-  .partner-news-copy p {
-    margin: 0 0 10px;
-    color: var(--muted);
-    font-size: .84rem;
-    line-height: 1.58;
-  }
-  .partner-column-empty { min-height: 92px; }
-  .partner-logo-strip {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 22px 30px;
-    margin-top: 22px;
-    padding: 20px 16px 4px;
-    border-top: 1px solid var(--line);
-  }
-  .partner-logo-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 118px;
-    height: 64px;
-  }
-  .partner-logo-item img {
-    max-width: 100%;
-    max-height: 56px;
-    object-fit: contain;
-    filter: saturate(.92);
-  }
-  @media (max-width: 720px) {
-    .partner-news-row { grid-template-columns: 1fr; gap: 14px; }
-    .partner-news-image { max-width: 100%; }
+  .taiwan-entry {
+    margin-bottom: 8px;
   }
 </style>
