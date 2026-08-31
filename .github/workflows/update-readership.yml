@@ -1,0 +1,41 @@
+name: Update GA4 readership insights
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 1 * * *' # 09:15 Asia/Taipei
+
+permissions:
+  contents: write
+
+jobs:
+  update-readership:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Build GA4 readership summary
+        env:
+          GA4_PROPERTY_ID: ${{ secrets.GA4_PROPERTY_ID }}
+          GA4_SERVICE_ACCOUNT_JSON: ${{ secrets.GA4_SERVICE_ACCOUNT_JSON }}
+        run: node scripts/update-ga4-summary.mjs
+
+      - name: Commit updated readership data
+        run: |
+          if git diff --quiet -- public/data/analytics-summary.json; then
+            echo "No readership changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/analytics-summary.json
+          git commit -m "Update GA4 readership insights"
+          git push
