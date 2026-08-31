@@ -1,18 +1,23 @@
 export type PartnerSchool = {
   name: string;
   aliases?: string[];
+  logo?: string;
+  website?: string;
 };
 
 /*
  * INTERNATIONAL EDUCATION PARTNERS — editorial rule
  *
- * Keep one central partner-school list here. Do not render this directory on the
- * public site. A story is eligible for the partner column only when its
+ * Keep one central partner-school list here. The list itself is not rendered as
+ * school cards. A story is eligible for the partner-news column only when its
  * frontmatter identifies a school/organization that matches this list (or when
  * partnerColumn is explicitly true).
  *
- * Phase 1: intentionally empty. Add partner schools here as the editorial list
- * is confirmed in the future.
+ * When logos are supplied later, schools with a logo can appear as a compact
+ * logo strip beneath the partner-news column. No school-by-school content boxes.
+ *
+ * Phase 1: intentionally empty. Add partner schools only after the editorial
+ * partner list and logo assets are confirmed.
  */
 export const PARTNER_SCHOOLS: PartnerSchool[] = [];
 
@@ -48,3 +53,5 @@ export const isWithinPartnerWindow = (date: unknown, now = new Date()) => {
 export const getPartnerStories = (articles: any[], now = new Date()) => articles
   .filter((story) => isPartnerStory(story) && isWithinPartnerWindow(story.date, now))
   .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+export const getPartnerSchoolsWithLogos = () => PARTNER_SCHOOLS.filter((school) => Boolean(school.logo));
