@@ -7,16 +7,21 @@ const peterFacebook = 'https://www.facebook.com/profile.php?id=61585164670358';
 <header class="site-header">
   <div class="utility">
     <div class="container utility-inner">
-      <span>TAIWAN EDITION · EST. 2026</span>
+      <span>環球教育新聞 · TAIWAN EDITION · EST. 2026</span>
       <span>INTERNATIONAL EDUCATION · UNIVERSITIES · POLICY · GLOBAL MOBILITY</span>
     </div>
   </div>
 
-  <div class="container masthead">
-    <div class="masthead-side masthead-left">International Education<br />Journalism & Analysis</div>
-    <a class="brand" href={link()} aria-label="Global Education News 首頁">
-      <div class="brand-en">Global Education News</div>
-      <div class="brand-zh">國際教育新聞網</div>
+  <div class="container masthead bilingual-masthead">
+    <div class="masthead-side masthead-left">International Education<br />Journalism &amp; Analysis</div>
+    <a class="brand bilingual-brand" href={link()} aria-label="環球教育新聞 Global Education News 首頁">
+      <div class="brand-title-line">
+        <span class="brand-zh-main">環球教育新聞</span>
+        <span class="brand-divider" aria-hidden="true">｜</span>
+        <span class="brand-en-main">Global Education News</span>
+      </div>
+      <div class="brand-subtitle">國際教育新聞・升學政策・全球高等教育分析</div>
+      <div class="brand-subtitle-en">INTERNATIONAL EDUCATION NEWS · POLICY · ADMISSIONS · GLOBAL HIGHER EDUCATION</div>
     </a>
     <div class="masthead-side masthead-right">Taiwan · Asia<br />Global Perspective</div>
   </div>
@@ -42,3 +47,119 @@ const peterFacebook = 'https://www.facebook.com/profile.php?id=61585164670358';
     </div>
   </nav>
 </header>
+
+<style>
+  .bilingual-masthead {
+    grid-template-columns: minmax(145px, .7fr) minmax(0, 5.4fr) minmax(145px, .7fr);
+    gap: 18px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+
+  .bilingual-brand {
+    min-width: 0;
+  }
+
+  .brand-title-line {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 12px;
+    white-space: nowrap;
+    line-height: .98;
+  }
+
+  .brand-zh-main {
+    font-family: "Noto Serif TC", Georgia, "Times New Roman", serif;
+    font-size: clamp(2.15rem, 4.15vw, 4rem);
+    font-weight: 800;
+    letter-spacing: .015em;
+    color: #161411;
+  }
+
+  .brand-divider {
+    font-family: Georgia, serif;
+    font-size: clamp(1.75rem, 2.65vw, 2.85rem);
+    font-weight: 400;
+    color: #8a8072;
+  }
+
+  .brand-en-main {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.8rem, 3.35vw, 3.35rem);
+    font-weight: 700;
+    letter-spacing: -.045em;
+    color: #161411;
+  }
+
+  .brand-subtitle {
+    margin-top: 12px;
+    font-family: "Noto Serif TC", Georgia, serif;
+    font-size: .78rem;
+    font-weight: 600;
+    letter-spacing: .16em;
+    color: #49453f;
+  }
+
+  .brand-subtitle-en {
+    margin-top: 3px;
+    font-family: Arial, "Noto Sans TC", sans-serif;
+    font-size: .54rem;
+    letter-spacing: .12em;
+    color: #746d64;
+  }
+
+  @media (max-width: 980px) {
+    .bilingual-masthead {
+      grid-template-columns: 1fr;
+      padding-top: 18px;
+    }
+
+    .bilingual-masthead .masthead-side {
+      display: none;
+    }
+
+    .brand-title-line {
+      flex-wrap: wrap;
+      row-gap: 3px;
+    }
+  }
+
+  @media (max-width: 680px) {
+    .brand-title-line {
+      display: block;
+      white-space: normal;
+    }
+
+    .brand-zh-main,
+    .brand-en-main {
+      display: block;
+    }
+
+    .brand-zh-main {
+      font-size: clamp(2.1rem, 11vw, 3.1rem);
+      line-height: 1.05;
+    }
+
+    .brand-divider {
+      display: none;
+    }
+
+    .brand-en-main {
+      margin-top: 5px;
+      font-size: clamp(1.55rem, 7.2vw, 2.25rem);
+      line-height: 1.05;
+      letter-spacing: -.035em;
+    }
+
+    .brand-subtitle {
+      margin-top: 11px;
+      font-size: .69rem;
+      letter-spacing: .09em;
+    }
+
+    .brand-subtitle-en {
+      display: none;
+    }
+  }
+</style>
