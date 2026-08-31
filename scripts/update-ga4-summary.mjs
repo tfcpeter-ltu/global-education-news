@@ -67,7 +67,7 @@ const articleReport = await runReport({
       fieldName: 'pagePath',
       stringFilter: {
         matchType: 'BEGINS_WITH',
-        value: '/global-education-news/news/'
+        value: '/news/'
       }
     }
   },
