@@ -1,0 +1,129 @@
+---
+import IntelligenceLayout from '../../../layouts/IntelligenceLayout.astro';
+
+const modules = import.meta.glob('../../news/*.md', { eager: true });
+const articles = Object.values(modules)
+  .map((mod: any) => ({ ...mod.frontmatter, url: mod.url }))
+  .sort((a: any, b: any) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+const admissionKeywords = /招生|申請|admission|university|大學|OSSD|UCAS|JUPAS|qualification|入學|foundation|預科|學歷/i;
+const signals = articles
+  .filter((story: any) => story.topic !== 'taiwan')
+  .filter((story: any) => admissionKeywords.test(`${story.title} ${story.category} ${story.description}`));
+---
+<IntelligenceLayout
+  title="Admission Tracker｜全球大學入學條件追蹤｜GEI"
+  description="GEI Admission Tracker 追蹤全球大學招生、學歷資格、語言門檻、先修科目與申請時程變化，逐步建立可回溯的國際招生資料庫。"
+  heading="Admission Tracker"
+  deck="全球大學入學條件追蹤。把散落在不同大學與招生系統的資格要求、申請時程與制度變動，逐步整理成可搜尋、可比對的資料庫。"
+>
+  <div class="container admission-body">
+    <section class="tracker-intro">
+      <div>
+        <div class="intel-kicker">LIVE BETA · PHASE 1</div>
+        <h2>從招生新聞訊號開始，逐步走向條件版本資料庫</h2>
+      </div>
+      <p>第一階段先聚合現有已查證招生內容；正式資料層將逐校保存 OSSD、IB、A-Level、AP、SAT/ACT、IELTS/TOEFL、先修科目、截止日與獎學金等欄位。</p>
+    </section>
+
+    <section class="tracker-tools">
+      <label for="admission-search">搜尋目前招生訊號</label>
+      <input id="admission-search" type="search" placeholder="輸入大學、國家、OSSD、UCAS、JUPAS…" autocomplete="off" />
+      <span id="admission-count">{signals.length} 筆</span>
+    </section>
+
+    <section class="tracker-list" id="admission-list">
+      {signals.length > 0 ? signals.map((story: any) => {
+        const source = Array.isArray(story.sources) ? story.sources[0] : null;
+        const searchText = `${story.title} ${story.category} ${story.description}`.toLowerCase();
+        return (
+          <article class="admission-row" data-admission-row data-search={searchText}>
+            <div class="admission-category">{story.category}</div>
+            <div class="admission-main">
+              <div class="admission-date">Last signal · {new Intl.DateTimeFormat('zh-TW').format(new Date(story.date))}</div>
+              <h3><a href={story.url}>{story.title}</a></h3>
+              <p>{story.description}</p>
+            </div>
+            <div class="admission-actions">
+              <a href={story.url}>分析 →</a>
+              {source?.url && <a href={source.url} target="_blank" rel="noopener noreferrer">官方來源 ↗</a>}
+            </div>
+          </article>
+        );
+      }) : <div class="empty-state">目前尚無招生訊號。</div>}
+    </section>
+
+    <section class="schema-section">
+      <div class="intel-kicker">DATABASE SCHEMA</div>
+      <h2>下一階段的大學資料卡</h2>
+      <div class="schema-table" role="table" aria-label="Admission Tracker 資料欄位">
+        <div><strong>Institution</strong><span>大學／學院</span></div>
+        <div><strong>Qualification</strong><span>OSSD・IB・A-Level 等</span></div>
+        <div><strong>Academic</strong><span>成績與先修科目</span></div>
+        <div><strong>English</strong><span>IELTS・TOEFL</span></div>
+        <div><strong>Deadline</strong><span>申請截止日</span></div>
+        <div><strong>Last checked</strong><span>最後查核日期</span></div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    const search = document.querySelector('#admission-search');
+    const rows = Array.from(document.querySelectorAll('[data-admission-row]'));
+    const count = document.querySelector('#admission-count');
+
+    search?.addEventListener('input', (event) => {
+      const value = event.target instanceof HTMLInputElement ? event.target.value.trim().toLowerCase() : '';
+      let visible = 0;
+      rows.forEach((row) => {
+        if (!(row instanceof HTMLElement)) return;
+        const match = !value || (row.dataset.search || '').includes(value);
+        row.hidden = !match;
+        if (match) visible += 1;
+      });
+      if (count) count.textContent = `${visible} 筆`;
+    });
+  </script>
+</IntelligenceLayout>
+
+<style>
+  .admission-body { padding-bottom: 68px; }
+  .intel-kicker { font-family: Arial, "Noto Sans TC", sans-serif; font-size: .66rem; font-weight: 900; letter-spacing: .15em; color: var(--burgundy); }
+  .tracker-intro { display: grid; grid-template-columns: 1fr 1fr; gap: 38px; align-items: end; padding: 36px 0 26px; border-bottom: 3px double var(--line-dark); }
+  .tracker-intro h2 { margin: 5px 0 0; font-size: clamp(1.8rem, 3vw, 2.6rem); line-height: 1.1; }
+  .tracker-intro p { margin: 0; color: var(--muted); }
+  .tracker-tools { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 12px; align-items: center; padding: 18px 0; border-bottom: 1px solid var(--line-dark); font-family: Arial, "Noto Sans TC", sans-serif; }
+  .tracker-tools label { font-size: .72rem; font-weight: 800; color: #172235; }
+  .tracker-tools input { width: 100%; min-height: 42px; padding: 8px 12px; border: 1px solid var(--line); background: var(--sheet); color: var(--ink); font: inherit; font-size: .82rem; }
+  .tracker-tools span { font-size: .7rem; color: var(--muted); }
+  .tracker-list { border-bottom: 1px solid var(--line-dark); }
+  .admission-row { display: grid; grid-template-columns: 145px minmax(0, 1fr) 112px; gap: 22px; padding: 23px 0; border-bottom: 1px solid var(--line); }
+  .admission-row:last-child { border-bottom: 0; }
+  .admission-category { padding-right: 15px; border-right: 1px solid var(--line); font-family: Arial, "Noto Sans TC", sans-serif; font-size: .7rem; font-weight: 900; color: var(--burgundy); }
+  .admission-date { font-family: Arial, sans-serif; font-size: .63rem; color: var(--muted); }
+  .admission-main h3 { margin: 5px 0 7px; font-size: 1.38rem; line-height: 1.28; }
+  .admission-main p { margin: 0; color: #5c574f; font-size: .92rem; }
+  .admission-actions { display: flex; flex-direction: column; gap: 8px; align-items: flex-end; font-family: Arial, "Noto Sans TC", sans-serif; font-size: .68rem; font-weight: 800; }
+  .admission-actions a { color: var(--burgundy); }
+  .schema-section { margin-top: 45px; padding-top: 28px; border-top: 3px double var(--line-dark); }
+  .schema-section h2 { margin: 5px 0 18px; font-size: 1.75rem; }
+  .schema-table { display: grid; grid-template-columns: repeat(6, 1fr); border-left: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .schema-table > div { min-height: 94px; padding: 17px 13px; border-right: 1px solid var(--line); display: flex; flex-direction: column; justify-content: space-between; }
+  .schema-table strong { font-family: Arial, sans-serif; font-size: .7rem; color: #172235; }
+  .schema-table span { font-size: .77rem; color: var(--muted); }
+  .empty-state { padding: 30px 0; color: var(--muted); }
+  [hidden] { display: none !important; }
+  @media (max-width: 820px) {
+    .tracker-intro { grid-template-columns: 1fr; gap: 12px; }
+    .admission-row { grid-template-columns: 115px 1fr; }
+    .admission-actions { grid-column: 2; flex-direction: row; align-items: flex-start; }
+    .schema-table { grid-template-columns: repeat(3, 1fr); }
+  }
+  @media (max-width: 560px) {
+    .tracker-tools { grid-template-columns: 1fr; }
+    .admission-row { grid-template-columns: 1fr; gap: 9px; }
+    .admission-category { border-right: 0; }
+    .admission-actions { grid-column: auto; }
+    .schema-table { grid-template-columns: 1fr 1fr; }
+  }
+</style>
