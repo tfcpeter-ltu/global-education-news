@@ -1,0 +1,86 @@
+---
+import IntelligenceLayout from '../../../layouts/IntelligenceLayout.astro';
+
+const dimensions = [
+  ['01', 'Academic Environment', '教育品質與高等教育環境', '大學品質、教學與研究環境、國際認可度。'],
+  ['02', 'International Access', '國際學生可近性', '入學制度、學歷接受度、語言要求與申請可近性。'],
+  ['03', 'Policy & Visa', '政策與簽證環境', '學生簽證、政策穩定度、國際學生限制與行政負擔。'],
+  ['04', 'Work Rights', '就學與畢業工作權', '在學工作、實習與畢業後工作制度。'],
+  ['05', 'Cost & Value', '成本與教育價值', '學費、生活費、獎學金與整體投入報酬。'],
+  ['06', 'Global Mobility', '全球流動與國際化', '交換、跨境學習、國際學生流動與國際合作環境。']
+];
+---
+<IntelligenceLayout
+  title="Global Education Index｜全球教育指數｜GEI"
+  description="GEI Global Education Index 建立面向國際學生的教育環境評估框架，涵蓋教育品質、政策、簽證、工作權、成本與全球流動。"
+  heading="Global Education Index"
+  deck="全球教育指數。不是再做一份大學排名，而是從國際學生的制度環境出發，建立可公開檢驗、可逐年比較的國家級教育指標。"
+>
+  <div class="container index-body">
+    <section class="index-notice">
+      <div class="index-badge">METHODOLOGY · 0.1</div>
+      <h2>目前公布方法框架，尚未發布國家分數與名次</h2>
+      <p>GEI 不會在資料不足時先公布排名。正式指數發布前，會先定義指標、資料來源、權重、更新頻率與缺值處理方式，避免指數變成沒有方法論支撐的行銷榜單。</p>
+    </section>
+
+    <section class="dimension-section">
+      <div class="section-title"><div class="intel-kicker">PROPOSED DIMENSIONS</div><h2>六大評估面向</h2></div>
+      <div class="dimension-list">
+        {dimensions.map(([n, en, zh, text]) => (
+          <div class="dimension-row">
+            <span class="dimension-number">{n}</span>
+            <div><div class="dimension-en">{en}</div><h3>{zh}</h3></div>
+            <p>{text}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section class="principles-section">
+      <div class="section-title"><div class="intel-kicker">METHODOLOGY PRINCIPLES</div><h2>指數發布原則</h2></div>
+      <div class="principle-grid">
+        <div><strong>01</strong><h3>可追溯</h3><p>每個分數都應能回到公開資料來源或明確定義的資料欄位。</p></div>
+        <div><strong>02</strong><h3>可比較</h3><p>同一指標使用一致定義，避免不同國家採用不同標準。</p></div>
+        <div><strong>03</strong><h3>可更新</h3><p>政策或制度改變後，資料能留下版本並重新計算。</p></div>
+        <div><strong>04</strong><h3>不混同排名</h3><p>大學學術排名與國際學生制度環境分開處理。</p></div>
+      </div>
+    </section>
+
+    <section class="release-box">
+      <div class="intel-kicker">PLANNED OUTPUT</div>
+      <h2>未來可發布的年度主題</h2>
+      <p>最適合國際學生的教育目的地、政策友善度、留學成本與教育價值、畢業後工作環境，以及重大政策變動年度比較。</p>
+    </section>
+  </div>
+</IntelligenceLayout>
+
+<style>
+  .index-body { padding: 38px 0 68px; }
+  .intel-kicker { font-family: Arial, "Noto Sans TC", sans-serif; font-size: .66rem; font-weight: 900; letter-spacing: .15em; color: var(--burgundy); }
+  .index-notice { max-width: 900px; padding: 28px 0 32px; border-bottom: 3px double var(--line-dark); }
+  .index-badge { display: inline-block; padding: 5px 8px; background: #172235; color: #fff; font-family: Arial, sans-serif; font-size: .61rem; font-weight: 900; letter-spacing: .1em; }
+  .index-notice h2 { margin: 12px 0 10px; font-size: clamp(1.9rem, 3.5vw, 3rem); line-height: 1.12; }
+  .index-notice p { margin: 0; color: var(--muted); font-size: 1rem; }
+  .dimension-section, .principles-section { padding-top: 42px; }
+  .section-title { padding-bottom: 12px; border-bottom: 3px double var(--line-dark); }
+  .section-title h2 { margin: 4px 0 0; font-size: 2rem; }
+  .dimension-row { display: grid; grid-template-columns: 48px minmax(220px, .75fr) minmax(0, 1.25fr); gap: 22px; align-items: center; padding: 21px 0; border-bottom: 1px solid var(--line); }
+  .dimension-number { font-family: Arial, sans-serif; font-size: .68rem; font-weight: 900; color: var(--burgundy); }
+  .dimension-en { font-family: Arial, sans-serif; font-size: .67rem; font-weight: 900; color: #172235; }
+  .dimension-row h3 { margin: 4px 0 0; font-size: 1.25rem; }
+  .dimension-row p { margin: 0; color: var(--muted); }
+  .principle-grid { display: grid; grid-template-columns: repeat(4, 1fr); border-left: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .principle-grid > div { padding: 22px 18px; border-right: 1px solid var(--line); }
+  .principle-grid strong { font-family: Arial, sans-serif; font-size: .65rem; color: var(--burgundy); }
+  .principle-grid h3 { margin: 7px 0; font-size: 1.2rem; }
+  .principle-grid p { margin: 0; color: var(--muted); font-size: .86rem; }
+  .release-box { margin-top: 42px; padding: 24px; background: #e9e3d7; border-top: 2px solid #172235; }
+  .release-box h2 { margin: 5px 0 8px; font-size: 1.6rem; }
+  .release-box p { margin: 0; max-width: 880px; }
+  @media (max-width: 780px) {
+    .dimension-row { grid-template-columns: 38px 1fr; }
+    .dimension-row p { grid-column: 2; }
+    .principle-grid { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 520px) { .principle-grid { grid-template-columns: 1fr; } }
+</style>
