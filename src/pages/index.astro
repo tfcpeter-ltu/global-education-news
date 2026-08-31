@@ -3,6 +3,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import NewsletterCTA from '../components/NewsletterCTA.astro';
 import ReadershipInsights from '../components/ReadershipInsights.astro';
 import { getStoryImageInfo } from '../lib/storyImages';
+import { getPartnerStories } from '../lib/partnerNews';
 
 const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
@@ -20,9 +21,8 @@ const articles = Object.values(modules)
  * 2. LTU-related news appears only as a secondary homepage section.
  * 3. General Taiwan news stays available in the Taiwan section and /news/,
  *    but does not occupy homepage editorial slots.
- *
- * This keeps the front page internationally oriented even when several Taiwan
- * stories are published on the same day.
+ * 4. Partner-school news is grouped into one lower-page column and limited to
+ *    stories from the most recent three months.
  */
 const isLTUStory = (story: any) => {
   const haystack = [story.title, story.description, story.disclosure, story.brand]
@@ -34,6 +34,7 @@ const isLTUStory = (story: any) => {
 
 const internationalStories = articles.filter((story: any) => story.topic !== 'taiwan' && !isLTUStory(story));
 const ltuStories = articles.filter((story: any) => isLTUStory(story));
+const partnerLatest = getPartnerStories(articles).slice(0, 3);
 
 const peterPhoto = 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Instructor_speaking_to_students_in_classroom.jpg/1280px-Instructor_speaking_to_students_in_classroom.jpg';
 const lead = internationalStories[0] ?? ltuStories[0];
@@ -165,6 +166,38 @@ const ltuLatest = ltuStories.slice(0, 3);
         <a class="topic-card" href={link('insight/')}><span class="topic-icon">深度</span><div><div class="kicker">INSIGHT</div><h3>深度專題與觀點</h3><p>以資料與第一手來源，把新聞轉化成台灣學生與家長可以使用的判斷。</p></div></a>
       </div>
     </section>
+
+    <section class="section partner-column" aria-label="國際教育合作夥伴">
+      <div class="section-heading">
+        <h2>國際教育合作夥伴</h2>
+        <span class="muted">INTERNATIONAL EDUCATION PARTNERS · RECENT 3 MONTHS</span>
+      </div>
+
+      {partnerLatest.length > 0 ? (
+        <div class="grid-3 partner-story-grid">
+          {partnerLatest.map((story: any) => {
+            const photo = getStoryImageInfo(story);
+            return (
+              <article class="card story-card partner-story-card">
+                <a class="card-image" href={story.url}><img src={photo.url} alt={photo.alt} loading="lazy" referrerpolicy="no-referrer" /></a>
+                <div class="card-content">
+                  <div class="kicker">PARTNER NEWS</div>
+                  <h3><a href={story.url}>{story.title}</a></h3>
+                  <p>{story.description}</p>
+                  <div class="card-meta">{new Intl.DateTimeFormat('zh-TW').format(new Date(story.date))}</div>
+                </div>
+              </article>
+            );
+          })}
+        </div>
+      ) : (
+        <div class="partner-column-empty" aria-hidden="true"></div>
+      )}
+
+      {partnerLatest.length > 0 && (
+        <div class="section-more"><a href={link('partners/')}>查看合作夥伴專欄 →</a></div>
+      )}
+    </section>
   </div>
 </BaseLayout>
 
@@ -235,7 +268,16 @@ const ltuLatest = ltuStories.slice(0, 3);
   }
   .section-more a,
   .taiwan-entry a { color: var(--burgundy); }
-  .taiwan-entry {
-    margin-bottom: 8px;
+  .taiwan-entry { margin-bottom: 8px; }
+  .partner-column {
+    margin-bottom: 46px;
+    padding-top: 24px;
+    border-top: 3px double var(--line-dark);
+  }
+  .partner-story-card { background: rgba(255, 253, 248, .45); }
+  .partner-column-empty {
+    min-height: 88px;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
   }
 </style>
