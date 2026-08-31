@@ -29,24 +29,30 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin).to
 const isPeter = String(author).toLowerCase().includes('peter');
 const authorUrl = isPeter ? absolute('peter/') : absolute('about/');
 const publisherUrl = absolute();
+const publisherId = `${publisherUrl}#publisher`;
+const websiteId = `${publisherUrl}#website`;
 
 const articleLd = {
   '@context': 'https://schema.org',
   '@type': 'NewsArticle',
   headline: title,
   description,
+  url: canonical,
   image: [articleImage],
+  thumbnailUrl: articleImage,
   datePublished: published?.toISOString(),
   dateModified: modified?.toISOString(),
   mainEntityOfPage: { '@type': 'WebPage', '@id': canonical },
+  isPartOf: { '@id': websiteId },
   author: {
     '@type': isPeter ? 'Person' : 'Organization',
     name: author,
     url: authorUrl,
     ...(isPeter ? { sameAs: ['https://www.facebook.com/profile.php?id=61585164670358'] } : {})
   },
-  publisher: { '@type': 'NewsMediaOrganization', name: 'Global Education News', alternateName: '國際教育新聞網', url: publisherUrl },
+  publisher: { '@id': publisherId },
   articleSection: category,
+  keywords: [category, topic, '國際教育', '全球教育', '留學政策'],
   inLanguage: 'zh-Hant-TW',
   isAccessibleForFree: true
 };
@@ -61,12 +67,21 @@ const breadcrumbLd = {
   ]
 };
 
+const relatedModules = import.meta.glob('../pages/news/*.md', { eager: true });
+const relatedStories = Object.entries(relatedModules)
+  .map(([path, mod]: [string, any]) => ({
+    ...mod.frontmatter,
+    slug: path.replace('../pages/news/', '').replace('.md', '')
+  }))
+  .filter((story: any) => story.title && story.title !== title && story.topic === topic)
+  .sort((a: any, b: any) => new Date(b.date ?? 0).getTime() - new Date(a.date ?? 0).getTime())
+  .slice(0, 3);
+
 const fmtDate = (value?: Date) => value ? new Intl.DateTimeFormat('zh-TW', { year: 'numeric', month: 'long', day: 'numeric' }).format(value) : '';
 const fmtTime = (value?: Date) => value ? new Intl.DateTimeFormat('zh-TW', { hour: '2-digit', minute: '2-digit', hour12: false, timeZone: 'Asia/Taipei' }).format(value) : '';
 ---
 <BaseLayout title={`${title}｜Global Education News`} description={description} image={articleImage} type="article">
   <Fragment slot="head">
-    <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
     <meta property="article:published_time" content={published?.toISOString()} />
     <meta property="article:modified_time" content={modified?.toISOString()} />
     <meta property="article:section" content={category} />
@@ -100,7 +115,16 @@ const fmtTime = (value?: Date) => value ? new Intl.DateTimeFormat('zh-TW', { hou
       <NewsletterCTA compact={true} />
       <aside class="article-related">
         <strong>延伸閱讀</strong>
-        <p><a href={absolute('news/')}>查看更多國際教育最新新聞 →</a></p>
+        {relatedStories.length > 0 ? (
+          <ul>
+            {relatedStories.map((story: any) => (
+              <li><a href={absolute(`news/${story.slug}/`)}>{story.title}</a></li>
+            ))}
+          </ul>
+        ) : (
+          <p><a href={absolute('news/')}>查看更多國際教育最新新聞 →</a></p>
+        )}
+        <p><a href={absolute('news/')}>全部最新新聞 →</a></p>
         <p><a href={absolute('peter/')}>Peter的國際教育講座 →</a></p>
       </aside>
     </div>
