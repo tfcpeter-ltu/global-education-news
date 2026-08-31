@@ -61,9 +61,9 @@ export const GET: APIRoute = () => {
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Global Education Weekly｜國際教育週報</title>
+    <title>Global Education Weekly｜環球教育週報</title>
     <link>${siteRoot}/</link>
-    <description>Global Education News 每週精選 6 篇國際教育新聞、大學招生、留學政策與深度專題。</description>
+    <description>環球教育新聞 Global Education News 每週精選 6 篇國際教育新聞、大學招生、留學政策與深度專題。</description>
     <language>zh-TW</language>
     <pubDate>${latestDate}</pubDate>
     <lastBuildDate>${lastBuild}</lastBuildDate>
