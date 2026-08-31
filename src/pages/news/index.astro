@@ -5,8 +5,11 @@ const modules = import.meta.glob('./*.md', { eager: true });
 const articles = Object.values(modules)
   .map((mod: any) => ({ ...mod.frontmatter, url: mod.url }))
   .sort((a: any, b: any) => new Date(b.date).getTime() - new Date(a.date).getTime());
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
+const newsOgImage = `${base}images/news-og.jpg`;
 ---
-<BaseLayout title="最新國際教育新聞｜Global Education News" description="追蹤國際學生、全球大學、招生、簽證與教育政策的最新消息。">
+<BaseLayout title="最新國際教育新聞｜Global Education News" description="追蹤國際學生、全球大學、招生、簽證與教育政策的最新消息。" image={newsOgImage}>
   <section class="page">
     <div class="container">
       <div class="kicker">LATEST NEWS</div>
