@@ -1,0 +1,204 @@
+---
+import IntelligenceLayout from '../../layouts/IntelligenceLayout.astro';
+
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
+const link = (path = '') => `${base}${path}`;
+
+const modules = import.meta.glob('../news/*.md', { eager: true });
+const articles = Object.values(modules)
+  .map((mod: any) => ({ ...mod.frontmatter, url: mod.url }))
+  .sort((a: any, b: any) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+const isTaiwan = (story: any) => story.topic === 'taiwan';
+const international = articles.filter((story: any) => !isTaiwan(story));
+const policyKeywords = /政策|簽證|visa|permit|移民|工作權|international student|財力|cap|CPT|PGWP/i;
+const admissionKeywords = /招生|申請|admission|university|大學|OSSD|UCAS|JUPAS|qualification|入學/i;
+const policySignals = international.filter((story: any) => policyKeywords.test(`${story.title} ${story.category} ${story.description}`)).slice(0, 4);
+const admissionSignals = international.filter((story: any) => admissionKeywords.test(`${story.title} ${story.category} ${story.description}`)).slice(0, 4);
+
+const geiModules = [
+  {
+    number: '01',
+    title: 'Policy Radar',
+    zh: '全球教育政策雷達',
+    status: 'LIVE BETA',
+    href: 'intelligence/policy/',
+    text: '追蹤學生簽證、國際學生政策、工作權、教育制度與跨境流動規則，優先引用政府與主管機關一手來源。'
+  },
+  {
+    number: '02',
+    title: 'Admission Tracker',
+    zh: '全球大學入學條件追蹤',
+    status: 'LIVE BETA',
+    href: 'intelligence/admissions/',
+    text: '整理大學招生、學歷資格、語言門檻、申請時程與制度變動，逐步建立可比對的歷史版本。'
+  },
+  {
+    number: '03',
+    title: 'Global Education Index',
+    zh: '全球教育指數',
+    status: 'METHODOLOGY',
+    href: 'intelligence/global-index/',
+    text: '建立國際學生友善度、政策環境、教育品質、成本、工作權與全球流動等可公開檢驗的評估框架。'
+  },
+  {
+    number: '04',
+    title: 'Taiwan AI Education Index',
+    zh: '台灣高中 AI 教育力指數',
+    status: 'METHODOLOGY',
+    href: 'intelligence/taiwan-ai-index/',
+    text: '從 AI 課程、教師培訓、治理、學生素養、國際化與實作環境評估學校 AI 教育準備度。'
+  },
+  {
+    number: '05',
+    title: 'Research & White Paper',
+    zh: '研究與教育白皮書',
+    status: 'BUILDING',
+    href: 'intelligence/research/',
+    text: '把每日新聞與政策變化轉成可累積、可比較的季度研究、專題報告與年度國際教育白皮書。'
+  }
+];
+---
+<IntelligenceLayout
+  title="Global Education Intelligence｜全球教育情報中心"
+  description="Global Education Intelligence（GEI）追蹤全球教育政策、大學招生、國際學生制度與 AI 教育發展，將新聞轉化為可持續比較的教育情報。"
+  heading="Global Education Intelligence"
+  deck="全球教育情報中心。從每日新聞往前走一步：持續追蹤政策變動、招生條件、教育指標與制度趨勢，建立可回溯、可引用、可比較的教育情報資料。"
+>
+  <div class="container intel-body">
+    <section class="intel-status" aria-label="GEI 建置原則">
+      <div><strong>5</strong><span>情報模組</span></div>
+      <div><strong>Official-first</strong><span>官方來源優先</span></div>
+      <div><strong>Change-led</strong><span>以變更為核心</span></div>
+      <div><strong>zh-TW</strong><span>繁體中文・台灣用字</span></div>
+    </section>
+
+    <section class="intel-section">
+      <div class="section-title">
+        <div>
+          <div class="intel-kicker">INTELLIGENCE MODULES</div>
+          <h2>五個核心情報模組</h2>
+        </div>
+        <p>新聞回答「發生了什麼」，情報系統回答「哪裡改變、影響誰、接下來該注意什麼」。</p>
+      </div>
+
+      <div class="module-list">
+        {geiModules.map((item) => (
+          <a class="module-row" href={link(item.href)}>
+            <div class="module-number">{item.number}</div>
+            <div class="module-name">
+              <div class="module-en">{item.title}</div>
+              <h3>{item.zh}</h3>
+            </div>
+            <p>{item.text}</p>
+            <span class="module-status">{item.status}</span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <section class="intel-section signal-section">
+      <div class="section-title">
+        <div>
+          <div class="intel-kicker">LATEST SIGNALS</div>
+          <h2>最新教育情報訊號</h2>
+        </div>
+        <p>第一階段直接使用已查證的 Global Education News 新聞資料，讓情報頁不是空白展示頁。</p>
+      </div>
+
+      <div class="signal-grid">
+        <div class="signal-column">
+          <div class="signal-heading"><span>POLICY RADAR</span><a href={link('intelligence/policy/')}>全部政策訊號 →</a></div>
+          {policySignals.length > 0 ? policySignals.map((story: any) => (
+            <article class="signal-item">
+              <div class="signal-meta">{story.category} · {new Intl.DateTimeFormat('zh-TW').format(new Date(story.date))}</div>
+              <h3><a href={story.url}>{story.title}</a></h3>
+              <p>{story.description}</p>
+            </article>
+          )) : <p class="empty">目前尚無符合條件的政策訊號。</p>}
+        </div>
+
+        <div class="signal-column">
+          <div class="signal-heading"><span>ADMISSION TRACKER</span><a href={link('intelligence/admissions/')}>全部招生訊號 →</a></div>
+          {admissionSignals.length > 0 ? admissionSignals.map((story: any) => (
+            <article class="signal-item">
+              <div class="signal-meta">{story.category} · {new Intl.DateTimeFormat('zh-TW').format(new Date(story.date))}</div>
+              <h3><a href={story.url}>{story.title}</a></h3>
+              <p>{story.description}</p>
+            </article>
+          )) : <p class="empty">目前尚無符合條件的招生訊號。</p>}
+        </div>
+      </div>
+    </section>
+
+    <section class="intel-section process-section">
+      <div class="section-title">
+        <div>
+          <div class="intel-kicker">HOW GEI WORKS</div>
+          <h2>從新聞變成教育情報</h2>
+        </div>
+      </div>
+      <div class="process-grid">
+        <div><span>01</span><h3>Monitor</h3><p>監測政府、教育主管機關、大學與官方招生系統。</p></div>
+        <div><span>02</span><h3>Detect</h3><p>辨識規定、日期、門檻、資格與制度是否出現實質變更。</p></div>
+        <div><span>03</span><h3>Verify</h3><p>保留一手來源，避免只依賴新聞轉述或社群傳言。</p></div>
+        <div><span>04</span><h3>Structure</h3><p>把變動整理成可搜尋、可比較、可回溯的資料欄位。</p></div>
+        <div><span>05</span><h3>Publish</h3><p>重大變化再轉化為新聞、研究、指標與年度白皮書。</p></div>
+      </div>
+    </section>
+  </div>
+</IntelligenceLayout>
+
+<style>
+  .intel-body { padding-bottom: 62px; }
+  .intel-status { display: grid; grid-template-columns: repeat(4, 1fr); border-left: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .intel-status > div { min-height: 106px; padding: 24px 20px; border-right: 1px solid var(--line); display: flex; flex-direction: column; justify-content: space-between; }
+  .intel-status strong { font-family: Georgia, serif; font-size: 1.45rem; line-height: 1.05; color: #172235; }
+  .intel-status span { margin-top: 10px; font-family: Arial, "Noto Sans TC", sans-serif; font-size: .7rem; font-weight: 700; color: var(--muted); }
+  .intel-section { padding: 43px 0 8px; }
+  .section-title { display: grid; grid-template-columns: 1fr minmax(260px, 420px); gap: 36px; align-items: end; padding-bottom: 14px; border-bottom: 3px double var(--line-dark); }
+  .section-title h2 { margin: 4px 0 0; font-size: clamp(1.8rem, 3vw, 2.55rem); line-height: 1.1; }
+  .section-title p { margin: 0; color: var(--muted); font-size: .92rem; }
+  .intel-kicker { font-family: Arial, "Noto Sans TC", sans-serif; font-size: .66rem; font-weight: 900; letter-spacing: .15em; color: var(--burgundy); }
+  .module-list { border-bottom: 1px solid var(--line-dark); }
+  .module-row { display: grid; grid-template-columns: 58px minmax(210px, .72fr) minmax(0, 1.3fr) 112px; gap: 22px; align-items: center; padding: 22px 8px; border-bottom: 1px solid var(--line); }
+  .module-row:last-child { border-bottom: 0; }
+  .module-row:hover { background: rgba(255,253,248,.42); color: inherit; }
+  .module-number { font-family: Arial, sans-serif; font-size: .7rem; font-weight: 900; color: var(--burgundy); }
+  .module-en { font-family: Arial, sans-serif; font-size: .68rem; font-weight: 900; letter-spacing: .08em; color: #172235; }
+  .module-name h3 { margin: 3px 0 0; font-size: 1.18rem; line-height: 1.25; }
+  .module-row p { margin: 0; color: #5f5a52; font-size: .9rem; line-height: 1.6; }
+  .module-status { justify-self: end; padding: 4px 7px; border: 1px solid #8e8a81; font-family: Arial, sans-serif; font-size: .56rem; font-weight: 900; letter-spacing: .08em; color: #5a554d; }
+  .signal-grid { display: grid; grid-template-columns: 1fr 1fr; border-left: 1px solid var(--line); }
+  .signal-column { border-right: 1px solid var(--line); }
+  .signal-heading { display: flex; justify-content: space-between; gap: 15px; padding: 12px 18px; background: #172235; color: #fff; font-family: Arial, sans-serif; font-size: .65rem; font-weight: 900; letter-spacing: .08em; }
+  .signal-heading a { color: #d8c18f; }
+  .signal-item { padding: 19px 20px 20px; border-bottom: 1px solid var(--line); }
+  .signal-meta { font-family: Arial, "Noto Sans TC", sans-serif; font-size: .65rem; color: var(--muted); }
+  .signal-item h3 { margin: 6px 0 7px; font-size: 1.16rem; line-height: 1.3; }
+  .signal-item p { margin: 0; color: #5c574f; font-size: .86rem; line-height: 1.58; }
+  .empty { padding: 20px; color: var(--muted); }
+  .process-grid { display: grid; grid-template-columns: repeat(5, 1fr); border-left: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .process-grid > div { padding: 20px 18px 23px; border-right: 1px solid var(--line); }
+  .process-grid span { font-family: Arial, sans-serif; font-size: .65rem; font-weight: 900; color: var(--burgundy); }
+  .process-grid h3 { margin: 6px 0 7px; font-size: 1.15rem; color: #172235; }
+  .process-grid p { margin: 0; font-size: .84rem; color: var(--muted); line-height: 1.55; }
+  @media (max-width: 900px) {
+    .intel-status { grid-template-columns: 1fr 1fr; }
+    .section-title { grid-template-columns: 1fr; gap: 10px; }
+    .module-row { grid-template-columns: 42px 1fr 104px; }
+    .module-row p { grid-column: 2 / 4; }
+    .process-grid { grid-template-columns: 1fr 1fr; }
+    .process-grid > div:last-child { grid-column: span 2; }
+  }
+  @media (max-width: 680px) {
+    .signal-grid { grid-template-columns: 1fr; }
+    .intel-status { grid-template-columns: 1fr 1fr; }
+    .module-row { grid-template-columns: 36px 1fr; gap: 12px; }
+    .module-status { grid-column: 2; justify-self: start; }
+    .module-row p { grid-column: 2; }
+    .process-grid { grid-template-columns: 1fr; }
+    .process-grid > div:last-child { grid-column: auto; }
+  }
+</style>
