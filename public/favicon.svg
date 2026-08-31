@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="12" fill="#f7f1e6"/>
+  <path d="M15 16h34v28c0 6-7 10-17 15-10-5-17-9-17-15V16z" fill="#10243f" stroke="#b58a45" stroke-width="2.5"/>
+  <path d="M20 13l4-6 4 5 4-7 4 7 4-5 4 6" fill="none" stroke="#b58a45" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M18 18h28" stroke="#b58a45" stroke-width="2"/>
+  <text x="32" y="38" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-weight="700" fill="#f7f1e6">LTU</text>
+  <path d="M23 45h18" stroke="#b58a45" stroke-width="1.5"/>
+</svg>
