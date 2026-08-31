@@ -18,8 +18,8 @@ const origin = Astro.site ?? Astro.url.origin;
 const absolute = (path = '') => new URL(`${base}${path}`, origin).toString();
 
 const {
-  title = 'Global Education News｜國際教育新聞網',
-  description = '國際教育、全球大學、招生政策、學生流動與教育制度的新聞與深度分析。',
+  title = '環球教育新聞｜Global Education News',
+  description = '環球教育新聞（Global Education News）聚焦國際教育新聞、全球大學、招生政策、留學制度與學生流動，提供台灣與全球教育動態及深度分析。',
   image = `${base}images/news-og.jpg`,
   type = 'website',
   noindex = false
@@ -36,8 +36,8 @@ const publisherLd = {
   '@context': 'https://schema.org',
   '@type': 'NewsMediaOrganization',
   '@id': publisherId,
-  name: 'Global Education News',
-  alternateName: ['國際教育新聞網', 'LTU Global Education News'],
+  name: '環球教育新聞',
+  alternateName: ['Global Education News', 'LTU Global Education News'],
   url: absolute(),
   logo: {
     '@type': 'ImageObject',
@@ -60,8 +60,8 @@ const websiteLd = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
   '@id': websiteId,
-  name: 'Global Education News',
-  alternateName: '國際教育新聞網',
+  name: '環球教育新聞',
+  alternateName: 'Global Education News',
   url: absolute(),
   inLanguage: 'zh-Hant-TW',
   publisher: { '@id': publisherId }
@@ -79,8 +79,8 @@ const websiteLd = {
     <link rel="canonical" href={canonical} />
     <link rel="icon" href={faviconUrl} type="image/svg+xml" sizes="any" />
     <link rel="shortcut icon" href={faviconUrl} />
-    <link rel="alternate" type="application/rss+xml" title="Global Education Weekly｜國際教育週報" href={weeklyFeedUrl} />
-    <meta property="og:site_name" content="Global Education News" />
+    <link rel="alternate" type="application/rss+xml" title="Global Education Weekly｜環球教育週報" href={weeklyFeedUrl} />
+    <meta property="og:site_name" content="環球教育新聞 | Global Education News" />
     <meta property="og:locale" content="zh_TW" />
     <meta property="og:type" content={type} />
     <meta property="og:title" content={title} />
