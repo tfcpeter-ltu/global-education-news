@@ -2,6 +2,9 @@ name: Update GA4 readership insights
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/update-readership.yml'
   schedule:
     - cron: '15 1 * * *' # 09:15 Asia/Taipei
 
