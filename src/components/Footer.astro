@@ -8,26 +8,27 @@ const editorialEmail = 'editor.jsti.ltu@gmail.com';
 <footer class="footer">
   <div class="container">
     <div>
-      <h3>Global Education News</h3>
+      <h3>環球教育新聞 | Global Education News</h3>
       <p>聚焦國際教育、全球大學、招生政策、學生流動與教育制度的新聞與深度分析。</p>
       <p><a href={link('newsletter/')}><strong>Global Education Weekly｜免費電子報</strong></a></p>
       <p><a href={link('peter/')}><strong>Peter的國際教育講座</strong></a></p>
       <p><a href={peterFacebook} target="_blank" rel="noopener noreferrer">Facebook 粉絲專頁 ↗</a></p>
-      <small>© 2026 Global Education News. All rights reserved.</small>
+      <small>© 2026 環球教育新聞 Global Education News. All rights reserved.</small>
     </div>
     <div>
-      <h3>編輯資訊</h3>
-      <p><a href={link('about/')}>關於我們</a></p>
-      <p><a href={link('editorial-policy/')}>編輯政策</a></p>
-      <p><a href={link('corrections/')}>更正政策</a></p>
+      <h3>LTU 環球教育新聞編輯部</h3>
+      <p class="footer-en-label">LTU Global Education News Editorial Desk</p>
+      <p><a href={link('about/')}>關於我們 About</a></p>
+      <p><a href={link('editorial-policy/')}>編輯政策 Editorial Policy</a></p>
+      <p><a href={link('corrections/')}>更正政策 Corrections</a></p>
       <p><a href={`mailto:${editorialEmail}`}>{editorialEmail}</a></p>
     </div>
     <div>
       <h3>合作與透明度</h3>
-      <p><a href={link('advertise/')}>廣告合作</a></p>
-      <p><a href={link('contact/')}>聯絡我們</a></p>
-      <p><a href={link('disclosure/')}>利益揭露與合作內容</a></p>
-      <p><a href={link('privacy/')}>隱私權政策</a></p>
+      <p><a href={link('advertise/')}>廣告合作 Advertising</a></p>
+      <p><a href={link('contact/')}>聯絡我們 Contact</a></p>
+      <p><a href={link('disclosure/')}>利益揭露 Disclosure</a></p>
+      <p><a href={link('privacy/')}>隱私權政策 Privacy</a></p>
 
       <div class="readership-counter" aria-label="網站累積瀏覽統計">
         <div class="readership-kicker">READERSHIP</div>
@@ -65,6 +66,13 @@ const editorialEmail = 'editor.jsti.ltu@gmail.com';
 </script>
 
 <style>
+  .footer-en-label {
+    margin-top: -8px;
+    font-family: Arial, "Noto Sans TC", sans-serif;
+    font-size: .7rem;
+    letter-spacing: .08em;
+    color: #aaa397;
+  }
   .readership-counter {
     margin-top: 22px;
     padding: 15px 0 4px;
