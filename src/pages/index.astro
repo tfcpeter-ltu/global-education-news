@@ -15,14 +15,14 @@ const articles = Object.values(modules)
   .sort((a: any, b: any) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
 /*
- * HOMEPAGE EDITORIAL PRIORITY
- * 1. International / overseas education news
- * 2. LTU-related news
- * 3. General Taiwan news stays discoverable in the Taiwan section and /news/,
- *    but does not occupy the homepage's main editorial positions.
+ * HOMEPAGE EDITORIAL PRIORITY — permanent rule
+ * 1. International / overseas education news owns the homepage lead and main grid.
+ * 2. LTU-related news appears only as a secondary homepage section.
+ * 3. General Taiwan news stays available in the Taiwan section and /news/,
+ *    but does not occupy homepage editorial slots.
  *
- * This keeps the homepage internationally oriented even on days when several
- * Taiwan stories are published in succession.
+ * This keeps the front page internationally oriented even when several Taiwan
+ * stories are published on the same day.
  */
 const isLTUStory = (story: any) => {
   const haystack = [story.title, story.description, story.disclosure, story.brand]
@@ -31,21 +31,15 @@ const isLTUStory = (story: any) => {
     .toLowerCase();
   return haystack.includes('ltu');
 };
-const isTaiwanStory = (story: any) => story.topic === 'taiwan' && !isLTUStory(story);
+
 const internationalStories = articles.filter((story: any) => story.topic !== 'taiwan' && !isLTUStory(story));
 const ltuStories = articles.filter((story: any) => isLTUStory(story));
-const homepageStories = [...internationalStories, ...ltuStories];
 
 const peterPhoto = 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Instructor_speaking_to_students_in_classroom.jpg/1280px-Instructor_speaking_to_students_in_classroom.jpg';
 const lead = internationalStories[0] ?? ltuStories[0];
-const sidePool = internationalStories.filter((story: any) => story.url !== lead?.url);
-const side = [...sidePool, ...ltuStories.filter((story: any) => story.url !== lead?.url)].slice(0, 2);
-
-// Latest grid reserves the homepage for global stories first, with LTU as the
-// secondary layer. General Taiwan stories remain available through /topics/taiwan/.
-const latestInternational = internationalStories.slice(0, 5);
-const latestLTU = ltuStories.slice(0, Math.max(0, 6 - latestInternational.length));
-const latest = [...latestInternational, ...latestLTU].slice(0, 6);
+const side = internationalStories.filter((story: any) => story.url !== lead?.url).slice(0, 2);
+const latest = internationalStories.slice(0, 6);
+const ltuLatest = ltuStories.slice(0, 3);
 ---
 <BaseLayout>
   <div class="container">
@@ -113,8 +107,35 @@ const latest = [...latestInternational, ...latestLTU].slice(0, 6);
           );
         })}
       </div>
-      <div class="section-more"><a href={link('topics/taiwan/')}>台灣國際教育新聞請至台灣專區 →</a></div>
+      <div class="section-more"><a href={link('news/')}>查看全部國際教育新聞 →</a></div>
     </section>
+
+    {ltuLatest.length > 0 && (
+      <section class="section ltu-news-section">
+        <div class="section-heading">
+          <h2>LTU 教育動態</h2>
+          <span class="muted">LTU Education · Programs · International Pathways</span>
+        </div>
+        <div class="grid-3">
+          {ltuLatest.map((story: any) => {
+            const photo = getStoryImageInfo(story);
+            return (
+              <article class="card story-card ltu-story-card">
+                <a class="card-image" href={story.url}><img src={photo.url} alt={photo.alt} loading="lazy" referrerpolicy="no-referrer" /></a>
+                <div class="card-content">
+                  <div class="kicker">LTU · {story.category}</div>
+                  <h3><a href={story.url}>{story.title}</a></h3>
+                  <p>{story.description}</p>
+                  <div class="card-meta">{new Intl.DateTimeFormat('zh-TW').format(new Date(story.date))}</div>
+                </div>
+              </article>
+            );
+          })}
+        </div>
+      </section>
+    )}
+
+    <div class="taiwan-entry"><a href={link('topics/taiwan/')}>台灣國際教育新聞 → 進入台灣專區</a></div>
 
     <NewsletterCTA />
 
@@ -195,7 +216,15 @@ const latest = [...latestInternational, ...latestLTU].slice(0, 6);
     font-weight: 800;
     color: var(--burgundy);
   }
-  .section-more {
+  .ltu-news-section {
+    padding-top: 22px;
+    border-top: 3px double var(--line-dark);
+  }
+  .ltu-story-card {
+    background: rgba(255, 253, 248, .45);
+  }
+  .section-more,
+  .taiwan-entry {
     margin-top: 18px;
     padding-top: 12px;
     border-top: 1px solid var(--line);
@@ -204,5 +233,9 @@ const latest = [...latestInternational, ...latestLTU].slice(0, 6);
     font-size: .78rem;
     font-weight: 700;
   }
-  .section-more a { color: var(--burgundy); }
+  .section-more a,
+  .taiwan-entry a { color: var(--burgundy); }
+  .taiwan-entry {
+    margin-bottom: 8px;
+  }
 </style>
