@@ -1,0 +1,129 @@
+---
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
+const analyticsUrl = `${base}data/analytics-summary.json`;
+---
+<section class="section readership-insights" data-analytics-url={analyticsUrl}>
+  <div class="section-heading">
+    <h2>讀者數據</h2>
+    <span class="muted">READERSHIP INSIGHTS · GA4 AGGREGATED DATA</span>
+  </div>
+
+  <div class="insights-grid">
+    <div class="insights-panel">
+      <div class="kicker">MOST READ · 本週熱門文章</div>
+      <ol class="popular-list" id="popular-articles">
+        <li class="insights-loading">資料累積中</li>
+      </ol>
+    </div>
+
+    <div class="insights-panel country-panel">
+      <div class="kicker">AUDIENCE · 讀者來源國家／地區</div>
+      <div class="country-list" id="reader-countries">
+        <div class="insights-loading">資料累積中</div>
+      </div>
+      <p class="insights-note">僅顯示彙整後的前五大國家／地區，不公開個別讀者資料。</p>
+    </div>
+  </div>
+</section>
+
+<script is:inline>
+  (() => {
+    const root = document.querySelector('.readership-insights');
+    if (!root) return;
+    const url = root.getAttribute('data-analytics-url');
+    if (!url) return;
+
+    fetch(url, { cache: 'no-store' })
+      .then((response) => {
+        if (!response.ok) throw new Error('Analytics summary unavailable');
+        return response.json();
+      })
+      .then((data) => {
+        if (data.status !== 'ready') return;
+
+        const articleList = document.getElementById('popular-articles');
+        const countryList = document.getElementById('reader-countries');
+        const articles = Array.isArray(data.popularArticles) ? data.popularArticles.slice(0, 5) : [];
+        const countries = Array.isArray(data.countries) ? data.countries.slice(0, 5) : [];
+
+        if (articleList && articles.length) {
+          articleList.innerHTML = articles.map((item, index) => {
+            const title = String(item.title || '未命名文章');
+            const path = String(item.path || '#');
+            const views = Number(item.views || 0).toLocaleString('zh-TW');
+            return `<li><span class="popular-rank">${String(index + 1).padStart(2, '0')}</span><a href="${path}">${title}</a><span class="popular-views">${views} views</span></li>`;
+          }).join('');
+        }
+
+        if (countryList && countries.length) {
+          countryList.innerHTML = countries.map((item) => {
+            const name = String(item.name || '其他');
+            const share = Math.max(0, Math.min(100, Number(item.share || 0)));
+            return `<div class="country-row"><div class="country-meta"><span>${name}</span><strong>${share.toFixed(1)}%</strong></div><div class="country-bar"><span style="width:${share}%"></span></div></div>`;
+          }).join('');
+        }
+      })
+      .catch(() => {});
+  })();
+</script>
+
+<style>
+  .readership-insights { border-top: 3px double var(--line-dark); }
+  .insights-grid {
+    display: grid;
+    grid-template-columns: 1.18fr .82fr;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line-dark);
+  }
+  .insights-panel { padding: 22px 28px 25px 0; }
+  .country-panel { padding-left: 28px; padding-right: 0; border-left: 1px solid var(--line-dark); }
+  .popular-list { list-style: none; margin: 13px 0 0; padding: 0; }
+  .popular-list li {
+    display: grid;
+    grid-template-columns: 36px minmax(0, 1fr) auto;
+    gap: 12px;
+    align-items: baseline;
+    padding: 11px 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .popular-rank {
+    font-family: Georgia, serif;
+    font-size: 1.08rem;
+    color: var(--burgundy);
+  }
+  .popular-list a { font-size: .98rem; line-height: 1.42; font-weight: 700; }
+  .popular-views {
+    font-family: Arial, "Noto Sans TC", sans-serif;
+    font-size: .64rem;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+  .country-list { margin-top: 18px; }
+  .country-row { margin-bottom: 14px; }
+  .country-meta {
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+    margin-bottom: 5px;
+    font-family: Arial, "Noto Sans TC", sans-serif;
+    font-size: .76rem;
+  }
+  .country-meta strong { color: var(--burgundy); }
+  .country-bar { height: 4px; background: var(--soft); overflow: hidden; }
+  .country-bar span { display: block; height: 100%; background: var(--navy); }
+  .insights-loading {
+    padding: 18px 0 !important;
+    color: var(--muted);
+    font-family: Arial, "Noto Sans TC", sans-serif;
+    font-size: .78rem;
+  }
+  .insights-note { margin: 17px 0 0; color: var(--muted); font-size: .72rem; line-height: 1.55; }
+  @media (max-width: 760px) {
+    .insights-grid { grid-template-columns: 1fr; }
+    .insights-panel { padding: 20px 0; }
+    .country-panel { padding-left: 0; border-left: 0; border-top: 1px solid var(--line-dark); }
+    .popular-list li { grid-template-columns: 30px minmax(0, 1fr); }
+    .popular-views { grid-column: 2; }
+  }
+</style>
