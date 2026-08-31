@@ -1,0 +1,99 @@
+---
+import IntelligenceLayout from '../../../layouts/IntelligenceLayout.astro';
+
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
+const link = (path = '') => `${base}${path}`;
+
+const outputs = [
+  ['Quarterly Brief', '季度教育情報簡報', '整理一季內的重要政策、招生與國際學生制度變化。'],
+  ['Country Monitor', '國家教育政策觀測', '針對加拿大、英國、美國、澳洲與亞洲主要目的地建立持續追蹤報告。'],
+  ['Admission Report', '全球大學招生趨勢報告', '從招生條件、資格接受度與申請時程的變化找出制度趨勢。'],
+  ['Annual White Paper', '全球國際教育年度白皮書', '整合全年新聞、政策與招生資料，形成年度可引用研究。']
+];
+---
+<IntelligenceLayout
+  title="Research & White Paper｜研究與教育白皮書｜GEI"
+  description="GEI Research & White Paper 將每日國際教育新聞、政策變化與招生資料累積成季度研究、國家觀測與年度全球教育白皮書。"
+  heading="Research & White Paper"
+  deck="研究與教育白皮書。讓每天發布的教育新聞不只存在一天，而是持續累積成可以比較、引用與回顧的研究資料。"
+>
+  <div class="container research-body">
+    <section class="research-intro">
+      <div class="intro-copy">
+        <div class="intel-kicker">BUILDING THE RESEARCH LAYER</div>
+        <h2>新聞是每天的輸入，白皮書是長期的輸出</h2>
+        <p>GEI 會把政策雷達與招生追蹤累積的資料保留版本與時間軸，讓年度報告可以回答「一年之內到底改變了什麼」，而不是只重新整理新聞標題。</p>
+      </div>
+      <div class="research-flow" aria-label="研究流程">
+        <span>NEWS</span><b>→</b><span>DATA</span><b>→</b><span>CHANGE LOG</span><b>→</b><span>RESEARCH</span>
+      </div>
+    </section>
+
+    <section class="research-section">
+      <div class="section-title"><div class="intel-kicker">PLANNED PUBLICATIONS</div><h2>預計建立四種研究輸出</h2></div>
+      <div class="output-grid">
+        {outputs.map(([en, zh, text], index) => (
+          <article>
+            <span>{String(index + 1).padStart(2, '0')}</span>
+            <div class="output-en">{en}</div>
+            <h3>{zh}</h3>
+            <p>{text}</p>
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <section class="research-section">
+      <div class="section-title"><div class="intel-kicker">WHITE PAPER STRUCTURE</div><h2>年度白皮書可以固定追蹤什麼？</h2></div>
+      <div class="topic-list">
+        <div><strong>01</strong><span>全球國際學生政策與簽證變化</span></div>
+        <div><strong>02</strong><span>畢業後工作權與國際人才政策</span></div>
+        <div><strong>03</strong><span>主要大學招生制度與資格要求變化</span></div>
+        <div><strong>04</strong><span>國際教育成本、獎學金與可負擔性</span></div>
+        <div><strong>05</strong><span>AI 教育、數位教育與學校治理發展</span></div>
+        <div><strong>06</strong><span>台灣學生與學校最需要注意的制度影響</span></div>
+      </div>
+    </section>
+
+    <section class="newsletter-link">
+      <div>
+        <div class="intel-kicker">FOLLOW THE DATA</div>
+        <h2>在完整研究報告發布前，先從每週教育情報開始</h2>
+        <p>現有電子報會持續承接最新新聞；未來可加入 GEI 的政策變更與招生異動摘要。</p>
+      </div>
+      <a href={link('newsletter/')}>免費電子報 →</a>
+    </section>
+  </div>
+</IntelligenceLayout>
+
+<style>
+  .research-body { padding: 38px 0 68px; }
+  .intel-kicker { font-family: Arial, "Noto Sans TC", sans-serif; font-size: .66rem; font-weight: 900; letter-spacing: .15em; color: var(--burgundy); }
+  .research-intro { display: grid; grid-template-columns: 1.1fr .9fr; gap: 38px; align-items: end; padding: 24px 0 34px; border-bottom: 3px double var(--line-dark); }
+  .intro-copy h2 { margin: 6px 0 10px; font-size: clamp(2rem, 3.6vw, 3.1rem); line-height: 1.1; }
+  .intro-copy p { margin: 0; color: var(--muted); }
+  .research-flow { display: flex; flex-wrap: wrap; gap: 9px; align-items: center; justify-content: flex-end; font-family: Arial, sans-serif; }
+  .research-flow span { padding: 8px 10px; background: #172235; color: #fff; font-size: .65rem; font-weight: 900; letter-spacing: .06em; }
+  .research-flow b { color: var(--burgundy); }
+  .research-section { padding-top: 42px; }
+  .section-title { padding-bottom: 12px; border-bottom: 3px double var(--line-dark); }
+  .section-title h2 { margin: 4px 0 0; font-size: 2rem; }
+  .output-grid { display: grid; grid-template-columns: repeat(4, 1fr); border-left: 1px solid var(--line); }
+  .output-grid article { min-height: 220px; padding: 22px 18px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .output-grid article > span { font-family: Arial, sans-serif; font-size: .64rem; font-weight: 900; color: var(--burgundy); }
+  .output-en { margin-top: 24px; font-family: Arial, sans-serif; font-size: .67rem; font-weight: 900; color: #172235; }
+  .output-grid h3 { margin: 5px 0 8px; font-size: 1.23rem; }
+  .output-grid p { margin: 0; color: var(--muted); font-size: .86rem; }
+  .topic-list { border-bottom: 1px solid var(--line-dark); }
+  .topic-list > div { display: grid; grid-template-columns: 60px 1fr; padding: 16px 0; border-bottom: 1px solid var(--line); }
+  .topic-list > div:last-child { border-bottom: 0; }
+  .topic-list strong { font-family: Arial, sans-serif; font-size: .65rem; color: var(--burgundy); }
+  .topic-list span { font-size: 1.02rem; }
+  .newsletter-link { display: grid; grid-template-columns: 1fr auto; gap: 25px; align-items: end; margin-top: 44px; padding: 25px; background: #e9e3d7; border-top: 2px solid #172235; }
+  .newsletter-link h2 { margin: 5px 0 7px; font-size: 1.6rem; }
+  .newsletter-link p { margin: 0; color: var(--muted); }
+  .newsletter-link a { padding: 9px 12px; border: 1px solid #172235; font-family: Arial, "Noto Sans TC", sans-serif; font-size: .72rem; font-weight: 900; color: #172235; }
+  @media (max-width: 800px) { .research-intro { grid-template-columns: 1fr; } .research-flow { justify-content: flex-start; } .output-grid { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 520px) { .output-grid { grid-template-columns: 1fr; } .newsletter-link { grid-template-columns: 1fr; } }
+</style>
