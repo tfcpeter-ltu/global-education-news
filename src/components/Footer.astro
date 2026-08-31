@@ -29,10 +29,9 @@ const editorialEmail = 'editor.jsti.ltu@gmail.com';
       <p><a href={link('disclosure/')}>利益揭露與合作內容</a></p>
       <p><a href={link('privacy/')}>隱私權政策</a></p>
 
-      <div class="readership-counter" aria-label="網站瀏覽統計">
+      <div class="readership-counter" aria-label="網站累積瀏覽統計">
         <div class="readership-kicker">READERSHIP</div>
         <div class="readership-total">累積瀏覽 <strong id="visitor-count">—</strong></div>
-        <div class="readership-today">今日 <span id="visitor-today">—</span></div>
       </div>
     </div>
   </div>
@@ -42,7 +41,6 @@ const editorialEmail = 'editor.jsti.ltu@gmail.com';
   (() => {
     const counterKey = 'ltu-global-education-news-20260831';
     const totalEl = document.getElementById('visitor-count');
-    const todayEl = document.getElementById('visitor-today');
 
     fetch('https://visitor.6developer.com/visit', {
       method: 'POST',
@@ -58,13 +56,10 @@ const editorialEmail = 'editor.jsti.ltu@gmail.com';
       })
       .then((data) => {
         const total = Number(data.totalCount ?? 0);
-        const today = Number(data.todayCount ?? 0);
         if (totalEl) totalEl.textContent = total.toLocaleString('zh-TW');
-        if (todayEl) todayEl.textContent = today.toLocaleString('zh-TW');
       })
       .catch(() => {
         if (totalEl) totalEl.textContent = '統計中';
-        if (todayEl) todayEl.textContent = '—';
       });
   })();
 </script>
@@ -93,16 +88,6 @@ const editorialEmail = 'editor.jsti.ltu@gmail.com';
     font-size: 1.28rem;
     font-weight: 700;
     color: #fff;
-    font-variant-numeric: tabular-nums;
-  }
-  .readership-today {
-    margin-top: 2px;
-    font-family: Arial, "Noto Sans TC", sans-serif;
-    font-size: .67rem;
-    color: #aaa397;
-  }
-  .readership-today span {
-    color: #d9d2c7;
     font-variant-numeric: tabular-nums;
   }
 </style>
