@@ -23,7 +23,7 @@ export async function GET() {
     <loc>${SITE}/news/${escapeXml(article.slug)}/</loc>
     <news:news>
       <news:publication>
-        <news:name>Global Education News</news:name>
+        <news:name>環球教育新聞</news:name>
         <news:language>zh-TW</news:language>
       </news:publication>
       <news:publication_date>${new Date(article.date).toISOString()}</news:publication_date>
