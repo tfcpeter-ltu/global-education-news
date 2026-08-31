@@ -17,7 +17,7 @@ const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
 const {
   title = 'Global Education News｜國際教育新聞網',
   description = '國際教育、全球大學、招生政策、學生流動與教育制度的新聞與深度分析。',
-  image = `${base}og-default.svg`,
+  image = `${base}images/news-og.jpg`,
   type = 'website',
   noindex = false
 } = Astro.props;
@@ -25,6 +25,7 @@ const {
 const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin).toString();
 const imageUrl = new URL(image, Astro.site ?? Astro.url.origin).toString();
 const weeklyFeedUrl = new URL(`${base}weekly-feed.xml`, Astro.site ?? Astro.url.origin).toString();
+const faviconUrl = new URL(`${base}favicon.svg`, Astro.site ?? Astro.url.origin).toString();
 const websiteLd = {
   '@context': 'https://schema.org',
   '@type': 'NewsMediaOrganization',
@@ -44,6 +45,8 @@ const websiteLd = {
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
+    <link rel="icon" href={faviconUrl} type="image/svg+xml" sizes="any" />
+    <link rel="shortcut icon" href={faviconUrl} />
     <link rel="alternate" type="application/rss+xml" title="Global Education Weekly｜國際教育週報" href={weeklyFeedUrl} />
     {noindex && <meta name="robots" content="noindex,nofollow" />}
     <meta property="og:site_name" content="Global Education News" />
@@ -52,6 +55,8 @@ const websiteLd = {
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
     <meta property="og:image" content={imageUrl} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />
     <meta name="twitter:description" content={description} />
