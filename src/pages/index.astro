@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import NewsletterCTA from '../components/NewsletterCTA.astro';
+import ReadershipInsights from '../components/ReadershipInsights.astro';
 import { getStoryImageInfo } from '../lib/storyImages';
 
 const rawBase = import.meta.env.BASE_URL;
@@ -87,6 +88,8 @@ const latest = articles.slice(0, 6);
     </section>
 
     <NewsletterCTA />
+
+    <ReadershipInsights />
 
     <section class="section peter-feature">
       <div class="peter-feature-image">
