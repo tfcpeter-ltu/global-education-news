@@ -1,4 +1,4 @@
-const SITE = 'https://tfcpeter-ltu.github.io/global-education-news';
+const SITE = 'https://globalednews.com';
 
 const escapeXml = (value: string) => value
   .replaceAll('&', '&amp;')
