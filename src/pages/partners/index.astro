@@ -1,13 +1,19 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getStoryImageInfo } from '../../lib/storyImages';
-import { getPartnerStories } from '../../lib/partnerNews';
+import { getPartnerStories, getPartnerSchoolsWithLogos } from '../../lib/partnerNews';
+
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
+const link = (path = '') => `${base}${path}`;
 
 const modules = import.meta.glob('../news/*.md', { eager: true });
 const articles = Object.values(modules)
   .map((mod: any) => ({ ...mod.frontmatter, url: mod.url }));
 
-const partnerStories = getPartnerStories(articles);
+const partnerStories = getPartnerStories(articles).slice(0, 12);
+const partnerSchoolsWithLogos = getPartnerSchoolsWithLogos();
+const partnerLogoSrc = (logo = '') => /^https?:\/\//i.test(logo) || logo.startsWith('/') ? logo : link(logo);
 ---
 <BaseLayout
   title="國際教育合作夥伴｜環球教育新聞 Global Education News"
@@ -21,27 +27,35 @@ const partnerStories = getPartnerStories(articles);
     </header>
 
     <section class="section partner-news-section" aria-label="國際教育合作夥伴新聞">
-      {partnerStories.length > 0 ? (
-        <div class="partner-news-grid">
-          {partnerStories.map((story: any) => {
-            const photo = getStoryImageInfo(story);
-            return (
-              <article class="partner-card">
-                <a class="partner-card-image" href={story.url}>
-                  <img src={photo.url} alt={photo.alt} loading="lazy" referrerpolicy="no-referrer" />
-                </a>
-                <div class="partner-card-body">
-                  <div class="kicker">PARTNER NEWS</div>
-                  <h2><a href={story.url}>{story.title}</a></h2>
-                  <p>{story.description}</p>
-                  <div class="partner-card-meta">{new Intl.DateTimeFormat('zh-TW').format(new Date(story.date))}</div>
-                </div>
-              </article>
-            );
-          })}
+      <div class="partner-news-panel">
+        {partnerStories.length > 0 ? partnerStories.map((story: any) => {
+          const photo = getStoryImageInfo(story);
+          return (
+            <article class="partner-news-row">
+              <a class="partner-news-image" href={story.url}>
+                <img src={photo.url} alt={photo.alt} loading="lazy" referrerpolicy="no-referrer" />
+              </a>
+              <div class="partner-news-copy">
+                <div class="kicker">PARTNER NEWS</div>
+                <h2><a href={story.url}>{story.title}</a></h2>
+                <p>{story.description}</p>
+                <div class="partner-news-meta">{new Intl.DateTimeFormat('zh-TW').format(new Date(story.date))}</div>
+              </div>
+            </article>
+          );
+        }) : (
+          <div class="partner-empty" aria-hidden="true"></div>
+        )}
+      </div>
+
+      {partnerSchoolsWithLogos.length > 0 && (
+        <div class="partner-logo-strip" aria-label="合作學校校徽">
+          {partnerSchoolsWithLogos.map((school) => (
+            <div class="partner-logo-item" title={school.name}>
+              <img src={partnerLogoSrc(school.logo ?? '')} alt={`${school.name} 校徽`} loading="lazy" />
+            </div>
+          ))}
         </div>
-      ) : (
-        <div class="partner-empty" aria-hidden="true"></div>
       )}
     </section>
   </div>
@@ -68,29 +82,63 @@ const partnerStories = getPartnerStories(articles);
     line-height: 1.7;
   }
   .partner-news-section { margin-top: 28px; }
-  .partner-news-grid {
+  .partner-news-panel {
+    border: 1px solid var(--line-dark);
+    background: #fffdf8;
+  }
+  .partner-news-row {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 25px;
-  }
-  .partner-card { border-top: 3px solid var(--line-dark); background: #fffdf8; }
-  .partner-card-image { display: block; aspect-ratio: 16 / 9; overflow: hidden; background: var(--soft); }
-  .partner-card-image img { width: 100%; height: 100%; object-fit: cover; }
-  .partner-card-body { padding: 17px; }
-  .partner-card h2 {
-    margin: 7px 0 9px;
-    font-family: Georgia, "Noto Serif TC", serif;
-    font-size: 1.12rem;
-    line-height: 1.38;
-  }
-  .partner-card p { margin: 0 0 12px; color: var(--muted); font-size: .83rem; line-height: 1.55; }
-  .partner-card-meta { color: var(--muted); font-family: Arial, sans-serif; font-size: .68rem; }
-  .partner-empty {
-    min-height: 110px;
-    border-top: 1px solid var(--line);
+    grid-template-columns: 260px minmax(0, 1fr);
+    gap: 24px;
+    padding: 20px;
     border-bottom: 1px solid var(--line);
   }
-  @media (max-width: 800px) {
-    .partner-news-grid { grid-template-columns: 1fr; }
+  .partner-news-row:last-child { border-bottom: 0; }
+  .partner-news-image {
+    display: block;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background: var(--soft);
+  }
+  .partner-news-image img { width: 100%; height: 100%; object-fit: cover; }
+  .partner-news-copy h2 {
+    margin: 7px 0 9px;
+    font-family: Georgia, "Noto Serif TC", serif;
+    font-size: 1.25rem;
+    line-height: 1.38;
+  }
+  .partner-news-copy p {
+    margin: 0 0 12px;
+    color: var(--muted);
+    font-size: .88rem;
+    line-height: 1.62;
+  }
+  .partner-news-meta { color: var(--muted); font-family: Arial, sans-serif; font-size: .7rem; }
+  .partner-empty { min-height: 120px; }
+  .partner-logo-strip {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 24px 34px;
+    margin-top: 24px;
+    padding: 22px 18px 4px;
+    border-top: 1px solid var(--line);
+  }
+  .partner-logo-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 126px;
+    height: 68px;
+  }
+  .partner-logo-item img {
+    max-width: 100%;
+    max-height: 60px;
+    object-fit: contain;
+    filter: saturate(.92);
+  }
+  @media (max-width: 760px) {
+    .partner-news-row { grid-template-columns: 1fr; gap: 14px; }
   }
 </style>
