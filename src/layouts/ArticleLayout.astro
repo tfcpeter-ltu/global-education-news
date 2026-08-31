@@ -52,7 +52,7 @@ const articleLd = {
   },
   publisher: { '@id': publisherId },
   articleSection: category,
-  keywords: [category, topic, '國際教育', '全球教育', '留學政策'],
+  keywords: [category, topic, '國際教育', '環球教育', '留學政策'],
   inLanguage: 'zh-Hant-TW',
   isAccessibleForFree: true
 };
@@ -80,7 +80,7 @@ const relatedStories = Object.entries(relatedModules)
 const fmtDate = (value?: Date) => value ? new Intl.DateTimeFormat('zh-TW', { year: 'numeric', month: 'long', day: 'numeric' }).format(value) : '';
 const fmtTime = (value?: Date) => value ? new Intl.DateTimeFormat('zh-TW', { hour: '2-digit', minute: '2-digit', hour12: false, timeZone: 'Asia/Taipei' }).format(value) : '';
 ---
-<BaseLayout title={`${title}｜Global Education News`} description={description} image={articleImage} type="article">
+<BaseLayout title={`${title}｜環球教育新聞 Global Education News`} description={description} image={articleImage} type="article">
   <Fragment slot="head">
     <meta property="article:published_time" content={published?.toISOString()} />
     <meta property="article:modified_time" content={modified?.toISOString()} />
