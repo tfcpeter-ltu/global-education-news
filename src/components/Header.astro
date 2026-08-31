@@ -12,13 +12,12 @@ const peterFacebook = 'https://www.facebook.com/profile.php?id=61585164670358';
     </div>
   </div>
 
-  <div class="container masthead bilingual-masthead">
+  <div class="container masthead bilingual-masthead version-c-masthead">
     <div class="masthead-side masthead-left">International Education<br />Journalism &amp; Analysis</div>
-    <a class="brand bilingual-brand" href={link()} aria-label="環球教育新聞 Global Education News 首頁">
-      <div class="brand-title-line">
-        <span class="brand-zh-main">環球教育新聞</span>
-        <span class="brand-divider" aria-hidden="true">｜</span>
-        <span class="brand-en-main">Global Education News</span>
+    <a class="brand bilingual-brand version-c-brand" href={link()} aria-label="Global Education News 環球教育新聞 首頁">
+      <div class="brand-title-stack">
+        <div class="brand-en-primary">Global Education News</div>
+        <div class="brand-zh-secondary">環球教育新聞</div>
       </div>
       <div class="brand-subtitle">國際教育新聞・升學政策・全球高等教育分析</div>
       <div class="brand-subtitle-en">INTERNATIONAL EDUCATION NEWS · POLICY · ADMISSIONS · GLOBAL HIGHER EDUCATION</div>
@@ -49,113 +48,97 @@ const peterFacebook = 'https://www.facebook.com/profile.php?id=61585164670358';
 </header>
 
 <style>
-  .bilingual-masthead {
-    grid-template-columns: minmax(145px, .7fr) minmax(0, 5.4fr) minmax(145px, .7fr);
-    gap: 18px;
-    padding-top: 20px;
-    padding-bottom: 15px;
+  .version-c-masthead {
+    grid-template-columns: minmax(145px, .72fr) minmax(0, 5.2fr) minmax(145px, .72fr);
+    gap: 22px;
+    padding-top: 21px;
+    padding-bottom: 16px;
   }
 
-  .bilingual-brand {
+  .version-c-brand {
     min-width: 0;
+    text-align: center;
   }
 
-  .brand-title-line {
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
-    gap: 12px;
-    white-space: nowrap;
-    line-height: .98;
+  .brand-title-stack {
+    line-height: 1;
   }
 
-  .brand-zh-main {
-    font-family: "Noto Serif TC", Georgia, "Times New Roman", serif;
-    font-size: clamp(2.15rem, 4.15vw, 4rem);
-    font-weight: 800;
-    letter-spacing: .015em;
-    color: #161411;
-  }
-
-  .brand-divider {
-    font-family: Georgia, serif;
-    font-size: clamp(1.75rem, 2.65vw, 2.85rem);
-    font-weight: 400;
-    color: #8a8072;
-  }
-
-  .brand-en-main {
+  .brand-en-primary {
     font-family: Georgia, "Times New Roman", serif;
-    font-size: clamp(1.8rem, 3.35vw, 3.35rem);
+    font-size: clamp(2.85rem, 5vw, 4.8rem);
     font-weight: 700;
-    letter-spacing: -.045em;
+    letter-spacing: -.055em;
+    line-height: .95;
     color: #161411;
+    white-space: nowrap;
+  }
+
+  .brand-zh-secondary {
+    margin-top: 9px;
+    font-family: "Noto Serif TC", Georgia, serif;
+    font-size: clamp(1.08rem, 1.7vw, 1.55rem);
+    font-weight: 700;
+    letter-spacing: .28em;
+    padding-left: .28em;
+    line-height: 1.2;
+    color: #3f3a34;
   }
 
   .brand-subtitle {
     margin-top: 12px;
     font-family: "Noto Serif TC", Georgia, serif;
-    font-size: .78rem;
+    font-size: .76rem;
     font-weight: 600;
-    letter-spacing: .16em;
-    color: #49453f;
+    letter-spacing: .13em;
+    color: #575149;
   }
 
   .brand-subtitle-en {
     margin-top: 3px;
     font-family: Arial, "Noto Sans TC", sans-serif;
-    font-size: .54rem;
-    letter-spacing: .12em;
-    color: #746d64;
+    font-size: .53rem;
+    letter-spacing: .115em;
+    color: #7a7268;
   }
 
   @media (max-width: 980px) {
-    .bilingual-masthead {
+    .version-c-masthead {
       grid-template-columns: 1fr;
       padding-top: 18px;
     }
 
-    .bilingual-masthead .masthead-side {
+    .version-c-masthead .masthead-side {
       display: none;
     }
 
-    .brand-title-line {
-      flex-wrap: wrap;
-      row-gap: 3px;
+    .brand-en-primary {
+      font-size: clamp(2.7rem, 8vw, 4.2rem);
+    }
+
+    .brand-zh-secondary {
+      font-size: clamp(1.05rem, 2.8vw, 1.4rem);
     }
   }
 
   @media (max-width: 680px) {
-    .brand-title-line {
-      display: block;
+    .brand-en-primary {
+      font-size: clamp(2.25rem, 11vw, 3.25rem);
       white-space: normal;
+      line-height: .98;
     }
 
-    .brand-zh-main,
-    .brand-en-main {
-      display: block;
-    }
-
-    .brand-zh-main {
-      font-size: clamp(2.1rem, 11vw, 3.1rem);
-      line-height: 1.05;
-    }
-
-    .brand-divider {
-      display: none;
-    }
-
-    .brand-en-main {
-      margin-top: 5px;
-      font-size: clamp(1.55rem, 7.2vw, 2.25rem);
-      line-height: 1.05;
-      letter-spacing: -.035em;
+    .brand-zh-secondary {
+      margin-top: 8px;
+      font-size: clamp(1rem, 5.5vw, 1.28rem);
+      letter-spacing: .2em;
+      padding-left: .2em;
     }
 
     .brand-subtitle {
       margin-top: 11px;
-      font-size: .69rem;
-      letter-spacing: .09em;
+      font-size: .68rem;
+      letter-spacing: .08em;
     }
 
     .brand-subtitle-en {
