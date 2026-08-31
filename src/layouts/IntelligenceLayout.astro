@@ -1,0 +1,157 @@
+---
+import BaseLayout from './BaseLayout.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  eyebrow?: string;
+  heading: string;
+  deck: string;
+}
+
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
+const link = (path = '') => `${base}${path}`;
+const currentPath = Astro.url.pathname;
+
+const {
+  title,
+  description,
+  eyebrow = 'GLOBAL EDUCATION INTELLIGENCE · GEI',
+  heading,
+  deck
+} = Astro.props;
+
+const navItems = [
+  { href: 'intelligence/', label: '情報首頁' },
+  { href: 'intelligence/policy/', label: 'Policy Radar' },
+  { href: 'intelligence/admissions/', label: 'Admission Tracker' },
+  { href: 'intelligence/global-index/', label: 'Global Education Index' },
+  { href: 'intelligence/taiwan-ai-index/', label: 'Taiwan AI Index' },
+  { href: 'intelligence/research/', label: 'Research & White Paper' }
+];
+---
+<BaseLayout title={title} description={description}>
+  <section class="intel-hero">
+    <div class="container intel-hero-inner">
+      <div class="intel-eyebrow">{eyebrow}</div>
+      <div class="intel-title-row">
+        <div>
+          <h1>{heading}</h1>
+          <p>{deck}</p>
+        </div>
+        <div class="intel-mark" aria-label="GEI">GEI</div>
+      </div>
+    </div>
+  </section>
+
+  <nav class="intel-nav" aria-label="Global Education Intelligence 導覽">
+    <div class="container">
+      {navItems.map((item) => {
+        const href = link(item.href);
+        const normalized = `/${item.href}`;
+        const active = item.href === 'intelligence/'
+          ? currentPath === normalized || currentPath === `${normalized}index.html`
+          : currentPath.startsWith(normalized);
+        return <a class:list={{ active }} href={href}>{item.label}</a>;
+      })}
+    </div>
+  </nav>
+
+  <slot />
+</BaseLayout>
+
+<style>
+  .intel-hero {
+    background: #172235;
+    color: #f7f3ea;
+    border-bottom: 1px solid #0c1421;
+  }
+
+  .intel-hero-inner {
+    padding-top: 42px;
+    padding-bottom: 40px;
+  }
+
+  .intel-eyebrow {
+    font-family: Arial, "Noto Sans TC", sans-serif;
+    font-size: .7rem;
+    font-weight: 800;
+    letter-spacing: .18em;
+    color: #c6a86c;
+  }
+
+  .intel-title-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 42px;
+    align-items: end;
+    margin-top: 9px;
+  }
+
+  .intel-title-row h1 {
+    margin: 0;
+    max-width: 880px;
+    font-family: Georgia, "Noto Serif TC", serif;
+    font-size: clamp(2.5rem, 5.8vw, 5.4rem);
+    line-height: .98;
+    letter-spacing: -.045em;
+    color: #fffdf8;
+  }
+
+  .intel-title-row p {
+    max-width: 800px;
+    margin: 18px 0 0;
+    font-size: 1.08rem;
+    line-height: 1.72;
+    color: #d9dde4;
+  }
+
+  .intel-mark {
+    display: grid;
+    place-items: center;
+    width: 104px;
+    height: 104px;
+    border: 1px solid #b79b67;
+    font-family: Arial, sans-serif;
+    font-size: 1.15rem;
+    font-weight: 900;
+    letter-spacing: .18em;
+    color: #d9c292;
+  }
+
+  .intel-nav {
+    overflow-x: auto;
+    white-space: nowrap;
+    background: #0f1928;
+    border-bottom: 1px solid #314056;
+  }
+
+  .intel-nav .container {
+    display: flex;
+    align-items: center;
+    min-height: 48px;
+  }
+
+  .intel-nav a {
+    display: inline-flex;
+    align-items: center;
+    align-self: stretch;
+    padding: 0 16px;
+    border-left: 1px solid #314056;
+    font-family: Arial, "Noto Sans TC", sans-serif;
+    font-size: .74rem;
+    font-weight: 800;
+    color: #d9dde4;
+  }
+
+  .intel-nav a:last-child { border-right: 1px solid #314056; }
+  .intel-nav a:hover,
+  .intel-nav a.active { background: #f4f0e7; color: #172235; }
+
+  @media (max-width: 720px) {
+    .intel-hero-inner { padding-top: 32px; padding-bottom: 31px; }
+    .intel-title-row { grid-template-columns: 1fr; gap: 20px; }
+    .intel-mark { width: 72px; height: 72px; font-size: .9rem; }
+  }
+</style>
