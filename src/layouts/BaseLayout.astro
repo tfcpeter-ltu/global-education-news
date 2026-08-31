@@ -17,9 +17,11 @@ const gaMeasurementId = 'G-JF9Q84LV4Y';
 const origin = Astro.site ?? Astro.url.origin;
 const absolute = (path = '') => new URL(`${base}${path}`, origin).toString();
 
+const brandDescription = '環球教育新聞（Global Education News）聚焦國際教育新聞、留學政策、全球大學招生、學生簽證與高等教育趨勢，提供各國教育動態、官方政策整理與深度分析。';
+
 const {
-  title = '環球教育新聞｜Global Education News',
-  description = '環球教育新聞（Global Education News）聚焦國際教育新聞、全球大學、招生政策、留學制度與學生流動，提供台灣與全球教育動態及深度分析。',
+  title = '環球教育新聞｜國際教育新聞、留學政策、全球大學招生',
+  description = brandDescription,
   image = `${base}images/news-og.jpg`,
   type = 'website',
   noindex = false
@@ -38,6 +40,7 @@ const publisherLd = {
   '@id': publisherId,
   name: '環球教育新聞',
   alternateName: ['Global Education News', 'LTU Global Education News'],
+  description: brandDescription,
   url: absolute(),
   logo: {
     '@type': 'ImageObject',
@@ -62,6 +65,7 @@ const websiteLd = {
   '@id': websiteId,
   name: '環球教育新聞',
   alternateName: 'Global Education News',
+  description: brandDescription,
   url: absolute(),
   inLanguage: 'zh-Hant-TW',
   publisher: { '@id': publisherId }
