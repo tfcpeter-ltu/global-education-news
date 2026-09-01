@@ -9,6 +9,33 @@ const commons = (file: string) => `https://commons.wikimedia.org/wiki/Special:Re
 
 const rules: Array<{ test: RegExp; image: StoryImageInfo }> = [
   {
+    test: /Graduate Visa|18 個月|2027.*英國/i,
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/University_college_London.jpg/1280px-University_college_London.jpg',
+      alt: '英國倫敦大學學院校園，象徵英國高等教育與畢業生簽證政策',
+      credit: '資料照片：Wikimedia Commons',
+      source: 'https://commons.wikimedia.org/'
+    }
+  },
+  {
+    test: /返加注意|重新入境|Study Permit 不代表/i,
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/University_of_Toronto_campus_in_November_2023_1.jpg/1280px-University_of_Toronto_campus_in_November_2023_1.jpg',
+      alt: '加拿大多倫多大學校園，象徵國際學生返加與就學',
+      credit: '資料照片：Wikimedia Commons',
+      source: 'https://commons.wikimedia.org/'
+    }
+  },
+  {
+    test: /澳洲留學生打工|最低工資|AUD 26\.44/i,
+    image: {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Usydcampuspicture.jpg/1280px-Usydcampuspicture.jpg',
+      alt: '澳洲雪梨大學校園，象徵國際學生在澳洲就學與工作',
+      credit: '資料照片：Wikimedia Commons',
+      source: 'https://commons.wikimedia.org/'
+    }
+  },
+  {
     test: /香港大學|HKU|Non-JUPAS/i,
     image: {
       url: 'https://admissions.hku.hk/sites/default/files/styles/hkuad_lpm_1_1_image_mobile/public/2021-02/0419152830_DSC00399.jpg?itok=koKNSY4C',
@@ -56,19 +83,19 @@ const rules: Array<{ test: RegExp; image: StoryImageInfo }> = [
   {
     test: /英國學生簽證|Sponsored Study|英國.*簽證/i,
     image: {
-      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/University_college_London.jpg/1280px-University_college_London.jpg',
-      alt: '英國倫敦大學學院校園',
-      credit: '資料照片：Wikimedia Commons',
-      source: 'https://commons.wikimedia.org/'
+      url: commons('Four students showing placard in Igreja de Santa Engrácia.jpg'),
+      alt: '國際學生群像，象徵英國國際招生與學生簽證',
+      credit: '資料照片：Wikimedia Commons／ralmonline alm（CC BY 2.0）',
+      source: 'https://commons.wikimedia.org/wiki/File:Four_students_showing_placard_in_Igreja_de_Santa_Engr%C3%A1cia.jpg'
     }
   },
   {
     test: /澳洲國際學生名額|29\.5萬|National Planning Level/i,
     image: {
-      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Usydcampuspicture.jpg/1280px-Usydcampuspicture.jpg',
-      alt: '澳洲雪梨大學校園',
-      credit: '資料照片：Wikimedia Commons',
-      source: 'https://commons.wikimedia.org/'
+      url: commons('University graduation (Unsplash).jpg'),
+      alt: '國際大學生群像，象徵澳洲國際學生招生',
+      credit: '資料照片：Wikimedia Commons／Faustin Tuyambaze（CC0）',
+      source: 'https://commons.wikimedia.org/wiki/File:University_graduation_(Unsplash).jpg'
     }
   },
   {
