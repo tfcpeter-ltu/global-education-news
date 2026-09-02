@@ -1,0 +1,130 @@
+---
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
+const link = (path = '') => `${base}${path}`;
+---
+<section class="scholarship-entry" aria-labelledby="scholarship-entry-title">
+  <div class="scholarship-entry-copy">
+    <div class="scholarship-kicker">TAIWAN GLOBAL SCHOLARSHIP RADAR</div>
+    <h2 id="scholarship-entry-title">台灣國際獎學金雷達</h2>
+    <p class="scholarship-lead">100+ 全球獎學金資料庫｜每天更新 3 則</p>
+    <p class="scholarship-description">從台灣學生角度整理台灣政府、各國政府、國際大學、基金會與競賽型獎助機會，先確認台灣學生是否可申請，再整理補助內容、資格與截止日期。</p>
+    <div class="scholarship-actions">
+      <a class="scholarship-primary" href={link('scholarships/')}>立即查看獎學金</a>
+      <a href={link('scholarships/#taiwan-programs')}>台灣政府計畫</a>
+      <a href={link('scholarships/#today-picks')}>今日 3 則</a>
+    </div>
+  </div>
+  <a class="scholarship-entry-stat" href={link('scholarships/')} aria-label="前往台灣國際獎學金雷達">
+    <strong>100+</strong>
+    <span>全球獎學金與海外補助</span>
+    <small>雙重來源查核 · 台灣資格優先</small>
+  </a>
+</section>
+
+<style>
+  .scholarship-entry {
+    margin: 30px 0 42px;
+    padding: clamp(28px, 4vw, 46px);
+    display: grid;
+    grid-template-columns: minmax(0, 1.4fr) minmax(240px, .6fr);
+    gap: 34px;
+    align-items: center;
+    color: #fff;
+    background: linear-gradient(125deg, #0b2947 0%, #133f69 68%, #8e5918 150%);
+    border: 1px solid rgba(11, 41, 71, .25);
+    box-shadow: 0 18px 42px rgba(20, 35, 50, .12);
+  }
+  .scholarship-kicker {
+    margin-bottom: 9px;
+    font-family: Arial, "Noto Sans TC", sans-serif;
+    font-size: .7rem;
+    font-weight: 900;
+    letter-spacing: .15em;
+    color: #f5bd62;
+  }
+  .scholarship-entry h2 {
+    margin: 0;
+    font-family: Georgia, "Noto Serif TC", serif;
+    font-size: clamp(2rem, 4vw, 3.35rem);
+    line-height: 1.08;
+    letter-spacing: -.025em;
+    color: #fff;
+  }
+  .scholarship-lead {
+    margin: 14px 0 8px;
+    font-size: clamp(1.02rem, 1.7vw, 1.25rem);
+    font-weight: 800;
+    color: #fff5df;
+  }
+  .scholarship-description {
+    max-width: 760px;
+    margin: 0;
+    line-height: 1.8;
+    color: #e5edf5;
+  }
+  .scholarship-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 24px;
+  }
+  .scholarship-actions a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 42px;
+    padding: 10px 16px;
+    border: 1px solid rgba(255,255,255,.42);
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial, "Noto Sans TC", sans-serif;
+    font-size: .82rem;
+    font-weight: 800;
+  }
+  .scholarship-actions .scholarship-primary {
+    border-color: #f0aa34;
+    background: #f0aa34;
+    color: #1c2732;
+  }
+  .scholarship-entry-stat {
+    min-height: 210px;
+    padding: 28px 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid rgba(255,255,255,.24);
+    background: rgba(255,255,255,.08);
+  }
+  .scholarship-entry-stat strong {
+    display: block;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(3.6rem, 7vw, 5.5rem);
+    line-height: .95;
+    color: #f8c66f;
+  }
+  .scholarship-entry-stat span {
+    margin-top: 12px;
+    font-size: 1rem;
+    font-weight: 800;
+  }
+  .scholarship-entry-stat small {
+    margin-top: 8px;
+    color: #dbe6ef;
+  }
+  @media (max-width: 760px) {
+    .scholarship-entry {
+      grid-template-columns: 1fr;
+      gap: 20px;
+      margin-top: 22px;
+    }
+    .scholarship-entry-stat {
+      min-height: 0;
+      padding: 22px;
+    }
+  }
+</style>
