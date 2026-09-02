@@ -38,6 +38,7 @@ const peterFacebook = 'https://www.facebook.com/profile.php?id=61585164670358';
       <a href={link('topics/australia/')}>澳洲</a>
       <a href={link('topics/asia/')}>亞洲</a>
       <a href={link('topics/admissions/')}>大學招生</a>
+      <a class="scholarship-nav" href={link('scholarships/')}>台灣國際獎學金雷達</a>
       <a href={link('topics/policy/')}>留學政策</a>
       <a href={link('insight/')}>深度專題</a>
       <a class="peter-nav" href={link('peter/')}>Peter的國際教育講座</a>
@@ -101,6 +102,21 @@ const peterFacebook = 'https://www.facebook.com/profile.php?id=61585164670358';
     font-size: .53rem;
     letter-spacing: .115em;
     color: #7a7268;
+  }
+
+  .nav .scholarship-nav {
+    color: #9a5a06;
+    font-weight: 900;
+  }
+
+  .nav .scholarship-nav::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -8px;
+    height: 2px;
+    background: #d89a2b;
   }
 
   .nav .intelligence-nav {
