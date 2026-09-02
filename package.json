@@ -4,8 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
+    "dev": "node scripts/generate-scholarship-seed.mjs && astro dev",
+    "build": "node scripts/generate-scholarship-seed.mjs && astro build",
     "preview": "astro preview"
   },
   "dependencies": {
