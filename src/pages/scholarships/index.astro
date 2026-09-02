@@ -1,0 +1,159 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const modules = import.meta.glob('./items/*.md', { eager: true });
+const scholarships = Object.values(modules)
+  .map((mod: any) => ({ ...mod.frontmatter, url: mod.url }))
+  .sort((a: any, b: any) => new Date(b.date ?? 0).getTime() - new Date(a.date ?? 0).getTime());
+
+const featured = scholarships.slice(0, 3);
+const today = new Intl.DateTimeFormat('zh-TW', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Taipei' }).format(new Date());
+const description = '從台灣學生角度整理全球大學與研究所獎學金，每日精選3則，涵蓋台灣政府、各國政府、大學、基金會、華人組織與競賽型獎學金。';
+---
+<BaseLayout title="台灣國際獎學金雷達｜每天3個出國圓夢機會" description={description}>
+  <section class="radar-hero">
+    <div class="hero-shell">
+      <div class="hero-copy">
+        <div class="kicker">TAIWAN GLOBAL SCHOLARSHIP RADAR</div>
+        <h1>台灣國際獎學金雷達</h1>
+        <p>每天替台灣學生找 3 個值得追蹤的國際獎學金、補助與競賽機會。先確認「台灣學生能不能申請」，再整理補助、資格與截止日。</p>
+        <div class="hero-actions">
+          <a href="#today-picks" class="primary">看今日 3 則</a>
+          <a href="#taiwan-programs" class="secondary">台灣政府計畫</a>
+        </div>
+      </div>
+      <div class="hero-stat" aria-label="平台特色">
+        <div><strong>3</strong><span>每日精選</span></div>
+        <div><strong>2×</strong><span>來源查核</span></div>
+        <div><strong>TW</strong><span>台灣資格優先</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="today-picks" class="section section-white">
+    <div class="container-scholarship">
+      <div class="section-head">
+        <div><div class="kicker dark">TODAY'S PICKS</div><h2>今日 3 則</h2></div>
+        <p>{today} · 每日更新</p>
+      </div>
+
+      <div class="carousel" data-carousel>
+        <button class="arrow left" type="button" aria-label="上一則" data-prev>‹</button>
+        <div class="carousel-track" data-track>
+          {featured.map((item: any) => (
+            <article class="feature-card" data-slide>
+              <div class="feature-top"><span class="country">{item.country}</span><span class:list={['status', item.status === '開放中' ? 'open' : 'soon']}>{item.status}</span></div>
+              <div class="feature-level">{item.level}</div>
+              <h3><a href={item.url}>{item.title}</a></h3>
+              <p>{item.description}</p>
+              <div class="mini-grid">
+                <div><span>補助</span><strong>{item.funding}</strong></div>
+                <div><span>截止</span><strong>{item.deadline}</strong></div>
+              </div>
+              <div class="tw-eligible">✓ 台灣學生：{item.eligibilityTW}</div>
+              <a class="read-more" href={item.url}>查看完整申請重點 →</a>
+            </article>
+          ))}
+        </div>
+        <button class="arrow right" type="button" aria-label="下一則" data-next>›</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container-scholarship">
+      <div class="section-head stack-mobile">
+        <div><div class="kicker dark">DISCOVER</div><h2>依來源找獎學金</h2></div>
+        <p>不是只看國外大學，也把台灣可用的官方資源一起整理。</p>
+      </div>
+      <div class="source-grid">
+        <div class="source-card"><span>🇹🇼</span><h3>台灣政府</h3><p>教育部、青年發展署、公費留學、學海系列與其他中央部會補助。</p></div>
+        <div class="source-card"><span>🌍</span><h3>各國政府</h3><p>英國、美国、歐盟、日本、韓國、德國、法國等政府獎學金。</p></div>
+        <div class="source-card"><span>🎓</span><h3>國際大學</h3><p>大學、碩士、博士入學獎學金，以及全額學費與生活費方案。</p></div>
+        <div class="source-card"><span>🤝</span><h3>基金會／華人組織</h3><p>國際基金會、台商與海外華人社群提供的教育獎助與研究補助。</p></div>
+        <div class="source-card"><span>🏆</span><h3>競賽／專案</h3><p>論文、創新、創業、青年國際行動與競賽型獎學金。</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="taiwan-programs" class="section section-white">
+    <div class="container-scholarship">
+      <div class="section-head stack-mobile">
+        <div><div class="kicker dark">TAIWAN PROGRAMS</div><h2>台灣學生一定要知道的官方計畫</h2></div>
+        <p>這些計畫會依年度、學校或梯次公告，本站會持續追蹤。</p>
+      </div>
+      <div class="program-grid">
+        <a class="program-card" href="https://www.studyabroad.moe.gov.tw/new/index.php/" target="_blank" rel="noopener noreferrer"><span class="tag">教育部學海系列</span><h3>學海飛颺</h3><p>赴國外大專校院研修學分。</p></a>
+        <a class="program-card" href="https://www.studyabroad.moe.gov.tw/new/index.php/" target="_blank" rel="noopener noreferrer"><span class="tag">教育部學海系列</span><h3>學海惜珠</h3><p>提供勵學優秀學生海外研修機會。</p></a>
+        <a class="program-card" href="https://www.studyabroad.moe.gov.tw/new/index.php/" target="_blank" rel="noopener noreferrer"><span class="tag">教育部學海系列</span><h3>學海築夢</h3><p>赴海外企業或機構進行專業實習。</p></a>
+        <a class="program-card" href="https://www.studyabroad.moe.gov.tw/new/index.php/" target="_blank" rel="noopener noreferrer"><span class="tag">教育部學海系列</span><h3>新南向學海築夢</h3><p>前往新南向國家進行海外專業實習。</p></a>
+        <a class="program-card wide" href="https://twpathfinder.yda.gov.tw/" target="_blank" rel="noopener noreferrer"><span class="tag">教育部青年發展署</span><h3>青年百億海外圓夢基金計畫</h3><p>海外蹲點、見習、培訓、服務、交流與年度旗艦主題，適合青年提早建立國際經驗。</p></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container-scholarship">
+      <div class="section-head stack-mobile">
+        <div><div class="kicker dark">ALL OPPORTUNITIES</div><h2>最新獎學金公告</h2></div>
+        <div class="filter-row" aria-label="獎學金篩選">
+          <button class="filter active" data-filter="all">全部</button>
+          <button class="filter" data-filter="大學">大學</button>
+          <button class="filter" data-filter="碩士">碩士</button>
+          <button class="filter" data-filter="博士">博士</button>
+        </div>
+      </div>
+      <div class="list-grid" data-list>
+        {scholarships.map((item: any) => (
+          <article class="list-card" data-level={item.level}>
+            <div class="list-top"><span>{item.country}</span><span>{item.sourceType}</span></div>
+            <h3><a href={item.url}>{item.title}</a></h3>
+            <p>{item.description}</p>
+            <div class="list-meta"><span>🎓 {item.level}</span><span>⏳ {item.deadline}</span></div>
+            <div class="verified">✓ 已確認台灣學生資格</div>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="method-section">
+    <div class="container-scholarship method-grid">
+      <div><div class="kicker">VERIFICATION RULE</div><h2>不是找到就上架，而是先查核</h2></div>
+      <ol>
+        <li><strong>第一層：</strong>官方政府、大學、基金會或主辦單位原始公告。</li>
+        <li><strong>第二層：</strong>官方 FAQ、招生頁、台灣窗口或可信賴補充來源交叉確認。</li>
+        <li><strong>台灣資格：</strong>確認國籍、居住地、學位層級與申請方式，不能申請就不列入「今日 3 則」。</li>
+        <li><strong>截止日追蹤：</strong>即將截止、延期、額滿與下一年度開放時間都要更新。</li>
+      </ol>
+    </div>
+  </section>
+
+  <script is:inline>
+    (() => {
+      const track = document.querySelector('[data-track]');
+      const slides = Array.from(document.querySelectorAll('[data-slide]'));
+      if (track && slides.length) {
+        let i = 0;
+        const go = (next) => { i = (next + slides.length) % slides.length; slides[i].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' }); };
+        document.querySelector('[data-prev]')?.addEventListener('click', () => go(i - 1));
+        document.querySelector('[data-next]')?.addEventListener('click', () => go(i + 1));
+        setInterval(() => go(i + 1), 7000);
+      }
+      const buttons = document.querySelectorAll('[data-filter]');
+      buttons.forEach((button) => button.addEventListener('click', () => {
+        buttons.forEach((b) => b.classList.remove('active'));
+        button.classList.add('active');
+        const value = button.getAttribute('data-filter');
+        document.querySelectorAll('[data-level]').forEach((card) => {
+          const level = card.getAttribute('data-level') || '';
+          card.style.display = value === 'all' || level.includes(value || '') ? '' : 'none';
+        });
+      }));
+    })();
+  </script>
+</BaseLayout>
+
+<style>
+  :global(html){scroll-behavior:smooth}.radar-hero{background:linear-gradient(135deg,#0a2540 0%,#123e68 62%,#d97706 160%);color:#fff;padding:72px 20px}.hero-shell,.container-scholarship{max-width:1180px;margin:0 auto}.hero-shell{display:grid;grid-template-columns:1.35fr .65fr;gap:50px;align-items:center}.kicker{font-size:.78rem;font-weight:900;letter-spacing:.16em;text-transform:uppercase;color:#f6b24d;margin-bottom:10px}.kicker.dark{color:#a85e0b}.hero-copy h1{font-size:clamp(2.5rem,5vw,4.8rem);line-height:1.02;margin:0 0 22px;letter-spacing:-.035em}.hero-copy p{font-size:1.18rem;line-height:1.8;max-width:760px;color:#e7edf4}.hero-actions{display:flex;gap:12px;margin-top:28px}.hero-actions a{padding:13px 19px;border-radius:999px;text-decoration:none;font-weight:800}.primary{background:#f7a928;color:#1d2630}.secondary{border:1px solid rgba(255,255,255,.45);color:#fff}.hero-stat{display:grid;grid-template-columns:1fr;gap:12px}.hero-stat div{padding:20px;border:1px solid rgba(255,255,255,.18);border-radius:18px;background:rgba(255,255,255,.08);backdrop-filter:blur(8px)}.hero-stat strong{font-size:2.1rem;display:block}.hero-stat span{color:#dce6ef}.section{padding:64px 20px;background:#f5f7fa}.section-white{background:#fff}.section-head{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:26px}.section-head h2,.method-section h2{font-size:clamp(1.9rem,3vw,2.7rem);margin:0;color:#162235}.section-head p{max-width:500px;color:#657185;margin:0;line-height:1.7}.carousel{position:relative}.carousel-track{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(320px,1fr);gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 2px 14px;scrollbar-width:none}.carousel-track::-webkit-scrollbar{display:none}.feature-card{scroll-snap-align:center;border:1px solid #e2e7ed;border-radius:22px;background:#fff;padding:24px;min-height:400px;display:flex;flex-direction:column;box-shadow:0 12px 35px rgba(25,42,62,.06)}.feature-top,.list-top{display:flex;justify-content:space-between;gap:12px;color:#6d7888;font-size:.85rem}.status{padding:5px 9px;border-radius:999px;font-weight:800}.status.open{background:#e8f6ee;color:#176b42}.status.soon{background:#fff3df;color:#9a5b08}.feature-level{color:#a85e0b;font-weight:800;margin-top:25px}.feature-card h3{font-size:1.5rem;line-height:1.35;margin:9px 0 12px}.feature-card h3 a,.list-card h3 a{color:#182337;text-decoration:none}.feature-card p{color:#627084;line-height:1.7}.mini-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:12px 0}.mini-grid div{background:#f7f9fb;padding:12px;border-radius:12px}.mini-grid span{font-size:.75rem;color:#7a8492;display:block}.mini-grid strong{display:block;margin-top:4px;line-height:1.4}.tw-eligible{font-size:.88rem;color:#176b42;font-weight:800;margin-top:auto;padding-top:18px}.read-more{margin-top:14px;color:#174ea6;text-decoration:none;font-weight:800}.arrow{position:absolute;z-index:2;top:46%;width:42px;height:42px;border-radius:50%;border:1px solid #d5dce5;background:#fff;box-shadow:0 6px 16px rgba(0,0,0,.08);font-size:1.7rem;cursor:pointer}.arrow.left{left:-18px}.arrow.right{right:-18px}.source-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}.source-card{background:#fff;border:1px solid #e0e6ed;border-radius:18px;padding:20px}.source-card span{font-size:1.7rem}.source-card h3{margin:12px 0 8px}.source-card p{font-size:.92rem;line-height:1.65;color:#687487;margin:0}.program-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.program-card{display:block;border:1px solid #e2e7ec;border-radius:18px;padding:21px;text-decoration:none;color:#172236;background:linear-gradient(180deg,#fff,#fbfcfd)}.program-card.wide{grid-column:span 4;background:#fff7eb;border-color:#f1d2a2}.program-card .tag{font-size:.75rem;color:#9a5b08;font-weight:900}.program-card h3{margin:8px 0}.program-card p{margin:0;line-height:1.65;color:#697589}.filter-row{display:flex;flex-wrap:wrap;gap:7px}.filter{border:1px solid #dbe2e9;background:#fff;border-radius:999px;padding:8px 13px;cursor:pointer;font-weight:700}.filter.active{background:#172c46;color:#fff;border-color:#172c46}.list-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.list-card{background:#fff;border:1px solid #e1e7ed;border-radius:18px;padding:21px}.list-card h3{font-size:1.18rem;line-height:1.45;margin:14px 0 9px}.list-card p{line-height:1.65;color:#667386}.list-meta{display:flex;flex-wrap:wrap;gap:10px;font-size:.84rem;color:#5d6878}.verified{margin-top:14px;color:#176b42;font-weight:800;font-size:.84rem}.method-section{padding:64px 20px;background:#112c48;color:#fff}.method-grid{display:grid;grid-template-columns:.75fr 1.25fr;gap:50px}.method-section h2{color:#fff}.method-section ol{margin:0;padding-left:22px}.method-section li{padding:10px 0;line-height:1.75;color:#e4ecf4}@media(max-width:980px){.hero-shell{grid-template-columns:1fr}.hero-stat{grid-template-columns:repeat(3,1fr)}.source-grid{grid-template-columns:repeat(2,1fr)}.program-grid{grid-template-columns:repeat(2,1fr)}.program-card.wide{grid-column:span 2}.list-grid{grid-template-columns:repeat(2,1fr)}.method-grid{grid-template-columns:1fr}}@media(max-width:680px){.radar-hero{padding-top:52px}.hero-stat{grid-template-columns:1fr}.section-head{align-items:flex-start}.stack-mobile{flex-direction:column}.source-grid,.program-grid,.list-grid{grid-template-columns:1fr}.program-card.wide{grid-column:span 1}.arrow{display:none}.carousel-track{grid-auto-columns:88%}.mini-grid{grid-template-columns:1fr}.hero-actions{flex-direction:column;align-items:flex-start}}
+</style>
