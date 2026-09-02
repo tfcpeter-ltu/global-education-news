@@ -7,153 +7,256 @@ const scholarships = Object.values(modules)
   .sort((a: any, b: any) => new Date(b.date ?? 0).getTime() - new Date(a.date ?? 0).getTime());
 
 const featured = scholarships.slice(0, 3);
+const countries = [...new Set(scholarships.map((item: any) => item.country).filter(Boolean))].sort((a: any, b: any) => String(a).localeCompare(String(b), 'zh-Hant'));
+const countryCount = countries.length;
 const today = new Intl.DateTimeFormat('zh-TW', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Taipei' }).format(new Date());
-const description = '從台灣學生角度整理全球大學與研究所獎學金，每日精選3則，涵蓋台灣政府、各國政府、大學、基金會、華人組織與競賽型獎學金。';
+const description = '台灣國際獎學金雷達：從台灣學生角度整理全球大學、研究所、政府與基金會獎學金，每日查核並更新值得申請的機會。';
+
+const flagMap: Record<string, string> = {
+  '台灣': '🇹🇼', '英國': '🇬🇧', '美國': '🇺🇸', '加拿大': '🇨🇦', '澳洲': '🇦🇺', '紐西蘭': '🇳🇿',
+  '日本': '🇯🇵', '韓國': '🇰🇷', '德國': '🇩🇪', '法國': '🇫🇷', '瑞士': '🇨🇭', '荷蘭': '🇳🇱',
+  '瑞典': '🇸🇪', '芬蘭': '🇫🇮', '愛爾蘭': '🇮🇪', '比利時': '🇧🇪', '義大利': '🇮🇹', '新加坡': '🇸🇬',
+  '香港': '🇭🇰', '歐盟': '🇪🇺', '德國／歐盟': '🇪🇺', '多國': '🌍', '全球': '🌍'
+};
+const flagFor = (country = '') => flagMap[country] ?? '🌐';
+const statusClass = (status = '') => status.includes('開放中') ? 'open' : status.includes('即將') ? 'soon' : 'watch';
 ---
-<BaseLayout title="台灣國際獎學金雷達｜每天3個出國圓夢機會" description={description}>
-  <section class="radar-hero">
-    <div class="hero-shell">
-      <div class="hero-copy">
-        <div class="kicker">TAIWAN GLOBAL SCHOLARSHIP RADAR</div>
-        <h1>台灣國際獎學金雷達</h1>
-        <p>每天替台灣學生找 3 個值得追蹤的國際獎學金、補助與競賽機會。先確認「台灣學生能不能申請」，再整理補助、資格與截止日。</p>
-        <div class="hero-actions">
-          <a href="#today-picks" class="primary">看今日 3 則</a>
-          <a href="#taiwan-programs" class="secondary">台灣政府計畫</a>
+<BaseLayout title="台灣國際獎學金雷達｜100+ 全球獎學金資料庫" description={description}>
+  <main class="scholarship-page">
+    <section class="editorial-hero">
+      <div class="ornament ornament-left" aria-hidden="true">⚜</div>
+      <div class="ornament ornament-right" aria-hidden="true">⚜</div>
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <div class="eyebrow">GLOBAL EDUCATION NEWS <span>✦</span> SCHOLARSHIP DESK</div>
+          <h1>台灣國際獎學金雷達</h1>
+          <p class="hero-subtitle">{scholarships.length}+ 全球獎學金資料庫 <span>｜</span> 每天更新 3 則</p>
+          <p class="hero-description">從台灣學生的視角，整理全球獎學金、政府補助與國際大學資助機會。先確認官方來源、台灣資格與截止日，再把值得行動的資訊送到你面前。</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#all-opportunities"><span>⚜</span> 立即查看獎學金</a>
+            <a class="btn btn-outline" href="#taiwan-programs">台灣政府計畫</a>
+            <a class="btn btn-outline" href="#today-picks">今日 3 則</a>
+          </div>
+          <div class="edition-line"><span>TAIPEI</span><i></i><span>PARISIAN EDITORIAL EDITION</span><i></i><span>{today}</span></div>
         </div>
-      </div>
-      <div class="hero-stat" aria-label="平台特色">
-        <div><strong>3</strong><span>每日精選</span></div>
-        <div><strong>2×</strong><span>來源查核</span></div>
-        <div><strong>TW</strong><span>台灣資格優先</span></div>
-      </div>
-    </div>
-  </section>
 
-  <section id="today-picks" class="section section-white">
-    <div class="container-scholarship">
-      <div class="section-head">
-        <div><div class="kicker dark">TODAY'S PICKS</div><h2>今日 3 則</h2></div>
-        <p>{today} · 每日更新</p>
+        <aside class="stat-panel" aria-label="獎學金雷達統計">
+          <div class="stat-item"><span class="stat-icon">◎</span><strong>{scholarships.length}+</strong><small>全球機會</small></div>
+          <div class="stat-item"><span class="stat-icon">⚑</span><strong>{countryCount}+</strong><small>國家與地區</small></div>
+          <div class="stat-item"><span class="stat-icon">◷</span><strong>Daily 3</strong><small>每日更新</small></div>
+          <div class="stat-item"><span class="stat-icon">◇</span><strong>Verified</strong><small>官方查核</small></div>
+          <div class="panel-watermark" aria-hidden="true">PARIS</div>
+        </aside>
       </div>
+    </section>
 
-      <div class="carousel" data-carousel>
-        <button class="arrow left" type="button" aria-label="上一則" data-prev>‹</button>
-        <div class="carousel-track" data-track>
+    <section id="today-picks" class="editorial-section today-section">
+      <div class="section-shell">
+        <div class="section-title-row">
+          <div>
+            <div class="eyebrow dark">TODAY'S PICKS</div>
+            <h2>今日精選</h2>
+          </div>
+          <div class="section-date">{today} · 每日查核</div>
+        </div>
+
+        <div class="spotlight-grid">
           {featured.map((item: any) => (
-            <article class="feature-card" data-slide>
-              <div class="feature-top"><span class="country">{item.country}</span><span class:list={['status', item.status === '開放中' ? 'open' : 'soon']}>{item.status}</span></div>
-              <div class="feature-level">{item.level}</div>
+            <article class="spotlight-card">
+              <div class="spotlight-top">
+                <span class="country-line"><b>{flagFor(item.country)}</b>{item.country}</span>
+                <span class:list={['status-pill', statusClass(item.status)]}>{item.status}</span>
+              </div>
+              <div class="spotlight-type">{item.category ?? item.sourceType}</div>
               <h3><a href={item.url}>{item.title}</a></h3>
               <p>{item.description}</p>
-              <div class="mini-grid">
+              <div class="spotlight-meta">
                 <div><span>補助</span><strong>{item.funding}</strong></div>
+                <div><span>學位</span><strong>{item.level}</strong></div>
                 <div><span>截止</span><strong>{item.deadline}</strong></div>
               </div>
-              <div class="tw-eligible">✓ 台灣學生：{item.eligibilityTW}</div>
-              <a class="read-more" href={item.url}>查看完整申請重點 →</a>
+              <div class="spotlight-footer">
+                <span class="tw-check">✓ 台灣學生：{item.eligibilityTW}</span>
+                <a href={item.url}>查看申請重點 <span>→</span></a>
+              </div>
             </article>
           ))}
         </div>
-        <button class="arrow right" type="button" aria-label="下一則" data-next>›</button>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="section">
-    <div class="container-scholarship">
-      <div class="section-head stack-mobile">
-        <div><div class="kicker dark">DISCOVER</div><h2>依來源找獎學金</h2></div>
-        <p>不是只看國外大學，也把台灣可用的官方資源一起整理。</p>
-      </div>
-      <div class="source-grid">
-        <div class="source-card"><span>🇹🇼</span><h3>台灣政府</h3><p>教育部、青年發展署、公費留學、學海系列與其他中央部會補助。</p></div>
-        <div class="source-card"><span>🌍</span><h3>各國政府</h3><p>英國、美国、歐盟、日本、韓國、德國、法國等政府獎學金。</p></div>
-        <div class="source-card"><span>🎓</span><h3>國際大學</h3><p>大學、碩士、博士入學獎學金，以及全額學費與生活費方案。</p></div>
-        <div class="source-card"><span>🤝</span><h3>基金會／華人組織</h3><p>國際基金會、台商與海外華人社群提供的教育獎助與研究補助。</p></div>
-        <div class="source-card"><span>🏆</span><h3>競賽／專案</h3><p>論文、創新、創業、青年國際行動與競賽型獎學金。</p></div>
-      </div>
-    </div>
-  </section>
-
-  <section id="taiwan-programs" class="section section-white">
-    <div class="container-scholarship">
-      <div class="section-head stack-mobile">
-        <div><div class="kicker dark">TAIWAN PROGRAMS</div><h2>台灣學生一定要知道的官方計畫</h2></div>
-        <p>這些計畫會依年度、學校或梯次公告，本站會持續追蹤。</p>
-      </div>
-      <div class="program-grid">
-        <a class="program-card" href="https://www.studyabroad.moe.gov.tw/new/index.php/" target="_blank" rel="noopener noreferrer"><span class="tag">教育部學海系列</span><h3>學海飛颺</h3><p>赴國外大專校院研修學分。</p></a>
-        <a class="program-card" href="https://www.studyabroad.moe.gov.tw/new/index.php/" target="_blank" rel="noopener noreferrer"><span class="tag">教育部學海系列</span><h3>學海惜珠</h3><p>提供勵學優秀學生海外研修機會。</p></a>
-        <a class="program-card" href="https://www.studyabroad.moe.gov.tw/new/index.php/" target="_blank" rel="noopener noreferrer"><span class="tag">教育部學海系列</span><h3>學海築夢</h3><p>赴海外企業或機構進行專業實習。</p></a>
-        <a class="program-card" href="https://www.studyabroad.moe.gov.tw/new/index.php/" target="_blank" rel="noopener noreferrer"><span class="tag">教育部學海系列</span><h3>新南向學海築夢</h3><p>前往新南向國家進行海外專業實習。</p></a>
-        <a class="program-card wide" href="https://twpathfinder.yda.gov.tw/" target="_blank" rel="noopener noreferrer"><span class="tag">教育部青年發展署</span><h3>青年百億海外圓夢基金計畫</h3><p>海外蹲點、見習、培訓、服務、交流與年度旗艦主題，適合青年提早建立國際經驗。</p></a>
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container-scholarship">
-      <div class="section-head stack-mobile">
-        <div><div class="kicker dark">ALL OPPORTUNITIES</div><h2>最新獎學金公告</h2></div>
-        <div class="filter-row" aria-label="獎學金篩選">
-          <button class="filter active" data-filter="all">全部</button>
-          <button class="filter" data-filter="大學">大學</button>
-          <button class="filter" data-filter="碩士">碩士</button>
-          <button class="filter" data-filter="博士">博士</button>
+    <section class="search-section" aria-label="獎學金搜尋與篩選">
+      <div class="section-shell">
+        <div class="search-panel">
+          <label class="search-box">
+            <span aria-hidden="true">⌕</span>
+            <input id="scholarship-search" type="search" placeholder="搜尋獎學金、學校、國家、關鍵字…" autocomplete="off" />
+          </label>
+          <label class="select-box"><span>◎</span><select id="country-filter" aria-label="國家"><option value="all">國家</option>{countries.map((country: any) => <option value={country}>{country}</option>)}</select></label>
+          <label class="select-box"><span>🎓</span><select id="level-filter" aria-label="學位"><option value="all">學位</option><option value="大學">大學</option><option value="學士">學士</option><option value="碩士">碩士</option><option value="博士">博士</option><option value="研究">研究</option></select></label>
+          <label class="select-box"><span>◇</span><select id="funding-filter" aria-label="補助類型"><option value="all">補助類型</option><option value="全額">全額</option><option value="學費">學費</option><option value="生活">生活費</option><option value="部分">部分補助</option></select></label>
+          <label class="select-box"><span>♢</span><select id="status-filter" aria-label="狀態"><option value="all">狀態</option><option value="開放中">開放中</option><option value="即將開放">即將開放</option><option value="下一輪">下一輪追蹤</option><option value="年度">年度制</option></select></label>
+          <button id="clear-filters" class="clear-btn" type="button">↻ 清除篩選</button>
         </div>
       </div>
-      <div class="list-grid" data-list>
-        {scholarships.map((item: any) => (
-          <article class="list-card" data-level={item.level}>
-            <div class="list-top"><span>{item.country}</span><span>{item.sourceType}</span></div>
-            <h3><a href={item.url}>{item.title}</a></h3>
-            <p>{item.description}</p>
-            <div class="list-meta"><span>🎓 {item.level}</span><span>⏳ {item.deadline}</span></div>
-            <div class="verified">✓ 已確認台灣學生資格</div>
-          </article>
-        ))}
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="method-section">
-    <div class="container-scholarship method-grid">
-      <div><div class="kicker">VERIFICATION RULE</div><h2>不是找到就上架，而是先查核</h2></div>
-      <ol>
-        <li><strong>第一層：</strong>官方政府、大學、基金會或主辦單位原始公告。</li>
-        <li><strong>第二層：</strong>官方 FAQ、招生頁、台灣窗口或可信賴補充來源交叉確認。</li>
-        <li><strong>台灣資格：</strong>確認國籍、居住地、學位層級與申請方式，不能申請就不列入「今日 3 則」。</li>
-        <li><strong>截止日追蹤：</strong>即將截止、延期、額滿與下一年度開放時間都要更新。</li>
-      </ol>
-    </div>
-  </section>
+    <section id="taiwan-programs" class="taiwan-programs">
+      <div class="taiwan-watermark left" aria-hidden="true">TO THE WORLD</div>
+      <div class="taiwan-watermark right" aria-hidden="true">TAIWAN</div>
+      <div class="section-shell">
+        <div class="center-heading">
+          <div class="french-kicker">From Taiwan to the World</div>
+          <h2>台灣學生不可錯過的官方補助</h2>
+          <p>從教育部學海系列到公費留學與青年海外圓夢，把台灣本地可用的國際資源一起納入規劃。</p>
+        </div>
+        <div class="program-pills">
+          <a href="https://www.studyabroad.moe.gov.tw/new/index.php/" target="_blank" rel="noopener noreferrer"><span>✈</span>學海飛颺</a>
+          <a href="https://www.studyabroad.moe.gov.tw/new/index.php/" target="_blank" rel="noopener noreferrer"><span>◇</span>學海惜珠</a>
+          <a href="https://www.studyabroad.moe.gov.tw/new/index.php/" target="_blank" rel="noopener noreferrer"><span>◎</span>學海築夢</a>
+          <a href="https://www.studyabroad.moe.gov.tw/new/index.php/" target="_blank" rel="noopener noreferrer"><span>✦</span>新南向學海築夢</a>
+          <a href="https://twpathfinder.yda.gov.tw/" target="_blank" rel="noopener noreferrer"><span>↗</span>青年百億海外圓夢</a>
+          <a href="https://www.scholarship.moe.gov.tw/scholarship" target="_blank" rel="noopener noreferrer"><span>🎓</span>留學獎學金</a>
+          <a href="https://www.scholarship.moe.gov.tw/exam-v2/student/login" target="_blank" rel="noopener noreferrer"><span>▤</span>公費留學</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="all-opportunities" class="editorial-section catalog-section">
+      <div class="section-shell">
+        <div class="catalog-heading">
+          <div>
+            <div class="eyebrow dark">EXPLORE THE ARCHIVE</div>
+            <h2>探索全部獎學金</h2>
+            <p>Scholarships · Fellowships · Grants · Global Opportunities</p>
+          </div>
+          <div class="result-summary"><strong id="result-count">{scholarships.length}</strong><span>個符合條件的機會</span></div>
+        </div>
+
+        <div class="catalog-grid" id="catalog-grid">
+          {scholarships.map((item: any, index: number) => {
+            const searchText = [item.title, item.description, item.country, item.level, item.funding, item.status, item.sourceType, item.category].filter(Boolean).join(' ').toLowerCase();
+            return (
+              <article
+                class="catalog-card"
+                data-card
+                data-index={index}
+                data-search={searchText}
+                data-country={item.country ?? ''}
+                data-level={item.level ?? ''}
+                data-funding={item.funding ?? ''}
+                data-status={item.status ?? ''}
+              >
+                <div class="catalog-top">
+                  <span class="country-line"><b>{flagFor(item.country)}</b>{item.country}</span>
+                  <span class:list={['status-dot', statusClass(item.status)]}>{item.status}</span>
+                </div>
+                <h3><a href={item.url}>{item.title}</a></h3>
+                <div class="catalog-tags"><span>{item.level}</span><span>{item.sourceType}</span></div>
+                <dl>
+                  <div><dt>補助</dt><dd>{item.funding}</dd></div>
+                  <div><dt>截止</dt><dd>{item.deadline}</dd></div>
+                </dl>
+                <div class="catalog-bottom"><span>✓ 台灣資格已查核</span><a href={item.url}>詳情 →</a></div>
+              </article>
+            );
+          })}
+        </div>
+
+        <div class="load-row"><button id="load-more" type="button">顯示更多獎學金 <span>＋</span></button></div>
+      </div>
+    </section>
+
+    <section class="verification-section">
+      <div class="section-shell verification-grid">
+        <div>
+          <div class="eyebrow">EDITORIAL STANDARD</div>
+          <h2>獎學金資訊，也需要新聞編輯室的查核標準。</h2>
+        </div>
+        <div class="verification-steps">
+          <div><span>01</span><p><strong>官方原始來源</strong><br />政府、大學、基金會或主辦單位。</p></div>
+          <div><span>02</span><p><strong>第二來源交叉確認</strong><br />FAQ、招生頁、官方窗口或可靠來源。</p></div>
+          <div><span>03</span><p><strong>台灣資格確認</strong><br />國籍、居住地、學位與申請方式。</p></div>
+          <div><span>04</span><p><strong>截止日持續追蹤</strong><br />開放、延期、截止與下一年度更新。</p></div>
+        </div>
+      </div>
+    </section>
+  </main>
 
   <script is:inline>
     (() => {
-      const track = document.querySelector('[data-track]');
-      const slides = Array.from(document.querySelectorAll('[data-slide]'));
-      if (track && slides.length) {
-        let i = 0;
-        const go = (next) => { i = (next + slides.length) % slides.length; slides[i].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' }); };
-        document.querySelector('[data-prev]')?.addEventListener('click', () => go(i - 1));
-        document.querySelector('[data-next]')?.addEventListener('click', () => go(i + 1));
-        setInterval(() => go(i + 1), 7000);
-      }
-      const buttons = document.querySelectorAll('[data-filter]');
-      buttons.forEach((button) => button.addEventListener('click', () => {
-        buttons.forEach((b) => b.classList.remove('active'));
-        button.classList.add('active');
-        const value = button.getAttribute('data-filter');
-        document.querySelectorAll('[data-level]').forEach((card) => {
-          const level = card.getAttribute('data-level') || '';
-          card.style.display = value === 'all' || level.includes(value || '') ? '' : 'none';
+      const cards = Array.from(document.querySelectorAll('[data-card]'));
+      const search = document.getElementById('scholarship-search');
+      const country = document.getElementById('country-filter');
+      const level = document.getElementById('level-filter');
+      const funding = document.getElementById('funding-filter');
+      const status = document.getElementById('status-filter');
+      const clear = document.getElementById('clear-filters');
+      const loadMore = document.getElementById('load-more');
+      const count = document.getElementById('result-count');
+      let limit = 24;
+
+      const valueOf = (el) => (el && 'value' in el ? String(el.value) : 'all');
+      const apply = () => {
+        const q = valueOf(search).trim().toLowerCase();
+        const countryValue = valueOf(country);
+        const levelValue = valueOf(level);
+        const fundingValue = valueOf(funding);
+        const statusValue = valueOf(status);
+        const matches = cards.filter((card) => {
+          const text = (card.dataset.search || '');
+          const okSearch = !q || text.includes(q);
+          const okCountry = countryValue === 'all' || card.dataset.country === countryValue;
+          const okLevel = levelValue === 'all' || (card.dataset.level || '').includes(levelValue);
+          const okFunding = fundingValue === 'all' || (card.dataset.funding || '').includes(fundingValue);
+          const okStatus = statusValue === 'all' || (card.dataset.status || '').includes(statusValue);
+          return okSearch && okCountry && okLevel && okFunding && okStatus;
         });
-      }));
+        cards.forEach((card) => { card.hidden = true; });
+        matches.slice(0, limit).forEach((card) => { card.hidden = false; });
+        if (count) count.textContent = String(matches.length);
+        if (loadMore) loadMore.hidden = matches.length <= limit;
+      };
+
+      [search, country, level, funding, status].forEach((el) => {
+        el?.addEventListener(el === search ? 'input' : 'change', () => { limit = 24; apply(); });
+      });
+      clear?.addEventListener('click', () => {
+        if (search) search.value = '';
+        [country, level, funding, status].forEach((el) => { if (el) el.value = 'all'; });
+        limit = 24;
+        apply();
+      });
+      loadMore?.addEventListener('click', () => { limit += 24; apply(); });
+      apply();
     })();
   </script>
 </BaseLayout>
 
 <style>
-  :global(html){scroll-behavior:smooth}.radar-hero{background:linear-gradient(135deg,#0a2540 0%,#123e68 62%,#d97706 160%);color:#fff;padding:72px 20px}.hero-shell,.container-scholarship{max-width:1180px;margin:0 auto}.hero-shell{display:grid;grid-template-columns:1.35fr .65fr;gap:50px;align-items:center}.kicker{font-size:.78rem;font-weight:900;letter-spacing:.16em;text-transform:uppercase;color:#f6b24d;margin-bottom:10px}.kicker.dark{color:#a85e0b}.hero-copy h1{font-size:clamp(2.5rem,5vw,4.8rem);line-height:1.02;margin:0 0 22px;letter-spacing:-.035em}.hero-copy p{font-size:1.18rem;line-height:1.8;max-width:760px;color:#e7edf4}.hero-actions{display:flex;gap:12px;margin-top:28px}.hero-actions a{padding:13px 19px;border-radius:999px;text-decoration:none;font-weight:800}.primary{background:#f7a928;color:#1d2630}.secondary{border:1px solid rgba(255,255,255,.45);color:#fff}.hero-stat{display:grid;grid-template-columns:1fr;gap:12px}.hero-stat div{padding:20px;border:1px solid rgba(255,255,255,.18);border-radius:18px;background:rgba(255,255,255,.08);backdrop-filter:blur(8px)}.hero-stat strong{font-size:2.1rem;display:block}.hero-stat span{color:#dce6ef}.section{padding:64px 20px;background:#f5f7fa}.section-white{background:#fff}.section-head{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:26px}.section-head h2,.method-section h2{font-size:clamp(1.9rem,3vw,2.7rem);margin:0;color:#162235}.section-head p{max-width:500px;color:#657185;margin:0;line-height:1.7}.carousel{position:relative}.carousel-track{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(320px,1fr);gap:18px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 2px 14px;scrollbar-width:none}.carousel-track::-webkit-scrollbar{display:none}.feature-card{scroll-snap-align:center;border:1px solid #e2e7ed;border-radius:22px;background:#fff;padding:24px;min-height:400px;display:flex;flex-direction:column;box-shadow:0 12px 35px rgba(25,42,62,.06)}.feature-top,.list-top{display:flex;justify-content:space-between;gap:12px;color:#6d7888;font-size:.85rem}.status{padding:5px 9px;border-radius:999px;font-weight:800}.status.open{background:#e8f6ee;color:#176b42}.status.soon{background:#fff3df;color:#9a5b08}.feature-level{color:#a85e0b;font-weight:800;margin-top:25px}.feature-card h3{font-size:1.5rem;line-height:1.35;margin:9px 0 12px}.feature-card h3 a,.list-card h3 a{color:#182337;text-decoration:none}.feature-card p{color:#627084;line-height:1.7}.mini-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:12px 0}.mini-grid div{background:#f7f9fb;padding:12px;border-radius:12px}.mini-grid span{font-size:.75rem;color:#7a8492;display:block}.mini-grid strong{display:block;margin-top:4px;line-height:1.4}.tw-eligible{font-size:.88rem;color:#176b42;font-weight:800;margin-top:auto;padding-top:18px}.read-more{margin-top:14px;color:#174ea6;text-decoration:none;font-weight:800}.arrow{position:absolute;z-index:2;top:46%;width:42px;height:42px;border-radius:50%;border:1px solid #d5dce5;background:#fff;box-shadow:0 6px 16px rgba(0,0,0,.08);font-size:1.7rem;cursor:pointer}.arrow.left{left:-18px}.arrow.right{right:-18px}.source-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}.source-card{background:#fff;border:1px solid #e0e6ed;border-radius:18px;padding:20px}.source-card span{font-size:1.7rem}.source-card h3{margin:12px 0 8px}.source-card p{font-size:.92rem;line-height:1.65;color:#687487;margin:0}.program-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.program-card{display:block;border:1px solid #e2e7ec;border-radius:18px;padding:21px;text-decoration:none;color:#172236;background:linear-gradient(180deg,#fff,#fbfcfd)}.program-card.wide{grid-column:span 4;background:#fff7eb;border-color:#f1d2a2}.program-card .tag{font-size:.75rem;color:#9a5b08;font-weight:900}.program-card h3{margin:8px 0}.program-card p{margin:0;line-height:1.65;color:#697589}.filter-row{display:flex;flex-wrap:wrap;gap:7px}.filter{border:1px solid #dbe2e9;background:#fff;border-radius:999px;padding:8px 13px;cursor:pointer;font-weight:700}.filter.active{background:#172c46;color:#fff;border-color:#172c46}.list-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.list-card{background:#fff;border:1px solid #e1e7ed;border-radius:18px;padding:21px}.list-card h3{font-size:1.18rem;line-height:1.45;margin:14px 0 9px}.list-card p{line-height:1.65;color:#667386}.list-meta{display:flex;flex-wrap:wrap;gap:10px;font-size:.84rem;color:#5d6878}.verified{margin-top:14px;color:#176b42;font-weight:800;font-size:.84rem}.method-section{padding:64px 20px;background:#112c48;color:#fff}.method-grid{display:grid;grid-template-columns:.75fr 1.25fr;gap:50px}.method-section h2{color:#fff}.method-section ol{margin:0;padding-left:22px}.method-section li{padding:10px 0;line-height:1.75;color:#e4ecf4}@media(max-width:980px){.hero-shell{grid-template-columns:1fr}.hero-stat{grid-template-columns:repeat(3,1fr)}.source-grid{grid-template-columns:repeat(2,1fr)}.program-grid{grid-template-columns:repeat(2,1fr)}.program-card.wide{grid-column:span 2}.list-grid{grid-template-columns:repeat(2,1fr)}.method-grid{grid-template-columns:1fr}}@media(max-width:680px){.radar-hero{padding-top:52px}.hero-stat{grid-template-columns:1fr}.section-head{align-items:flex-start}.stack-mobile{flex-direction:column}.source-grid,.program-grid,.list-grid{grid-template-columns:1fr}.program-card.wide{grid-column:span 1}.arrow{display:none}.carousel-track{grid-auto-columns:88%}.mini-grid{grid-template-columns:1fr}.hero-actions{flex-direction:column;align-items:flex-start}}
+  :global(html){scroll-behavior:smooth}
+  .scholarship-page{--ink:#102a4c;--navy:#071f3d;--navy2:#0d3159;--gold:#b98a45;--gold2:#d5b06f;--ivory:#fbf8f1;--paper:#f6f0e5;--burgundy:#7d1f2d;--green:#2f7b4f;--line:#ded2bc;background:var(--ivory);color:#1b2b42;font-family:"Noto Serif TC",Georgia,"Times New Roman",serif}
+  .section-shell,.hero-inner{width:min(1280px,calc(100% - 40px));margin:0 auto}
+  .editorial-hero{position:relative;overflow:hidden;padding:58px 0 52px;background:radial-gradient(circle at 15% 20%,rgba(185,138,69,.09),transparent 22%),linear-gradient(180deg,#fffdf8 0%,#f7f0e4 100%);border-top:1px solid #d9c8a9;border-bottom:1px solid #d9c8a9}
+  .editorial-hero:before,.editorial-hero:after{content:"";position:absolute;inset:12px;border:1px solid rgba(185,138,69,.22);pointer-events:none}.editorial-hero:after{inset:18px;border-color:rgba(185,138,69,.08)}
+  .ornament{position:absolute;top:16px;color:var(--gold);font-size:1.2rem;z-index:2}.ornament-left{left:24px}.ornament-right{right:24px;transform:scaleX(-1)}
+  .hero-inner{position:relative;z-index:1;display:grid;grid-template-columns:1.08fr .92fr;gap:46px;align-items:center}
+  .eyebrow{font-family:Arial,"Noto Sans TC",sans-serif;font-size:.72rem;letter-spacing:.19em;font-weight:800;color:var(--gold);text-transform:uppercase}.eyebrow span{padding:0 7px}.eyebrow.dark{color:#8d6a34}
+  .hero-copy h1{margin:13px 0 10px;color:var(--ink);font-size:clamp(2.65rem,5.1vw,5rem);font-weight:700;letter-spacing:.035em;line-height:1.08;text-wrap:balance}
+  .hero-subtitle{margin:0;color:var(--burgundy);font-size:clamp(1.05rem,2vw,1.45rem);font-weight:700;letter-spacing:.04em}.hero-subtitle span{color:#b39462;padding:0 6px}
+  .hero-description{max-width:690px;margin:18px 0 0;color:#54514b;font-size:1rem;line-height:1.9}
+  .hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:25px}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:0 19px;border:1px solid #cbaa71;text-decoration:none;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.84rem;font-weight:800;letter-spacing:.04em;transition:.2s ease}.btn-primary{background:var(--burgundy);border-color:var(--burgundy);color:white;box-shadow:0 6px 18px rgba(86,25,33,.14)}.btn-primary:hover{background:#651923}.btn-outline{background:rgba(255,255,255,.45);color:#6a4b20}.btn-outline:hover{background:white}
+  .edition-line{display:flex;align-items:center;gap:10px;margin-top:24px;color:#927954;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.62rem;letter-spacing:.13em}.edition-line i{display:block;width:34px;height:1px;background:#c7ae83}
+  .stat-panel{position:relative;display:grid;grid-template-columns:repeat(4,1fr);min-height:250px;padding:24px 12px;background:linear-gradient(135deg,#081f3b,#0c3159);border:1px solid var(--gold2);box-shadow:inset 0 0 0 6px #0b294d,inset 0 0 0 7px rgba(213,176,111,.35),0 18px 40px rgba(7,31,61,.12);overflow:hidden}.stat-panel:before,.stat-panel:after{content:"✦";position:absolute;color:var(--gold2);font-size:.65rem;top:12px}.stat-panel:before{left:14px}.stat-panel:after{right:14px}
+  .stat-item{position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:12px;border-right:1px dotted rgba(213,176,111,.55)}.stat-item:last-of-type{border-right:0}.stat-icon{color:var(--gold2);font-size:1.7rem}.stat-item strong{display:block;margin:10px 0 5px;color:#ddb66f;font-family:Georgia,"Times New Roman",serif;font-size:clamp(1.8rem,3vw,3.15rem);font-weight:500;white-space:nowrap}.stat-item small{color:#f2eadf;font-size:.87rem;letter-spacing:.07em}.panel-watermark{position:absolute;right:-8px;bottom:-16px;color:rgba(255,255,255,.035);font-family:Georgia,serif;font-size:5rem;letter-spacing:.08em;transform:rotate(-90deg);transform-origin:bottom right}
+  .editorial-section{padding:50px 0}.today-section{background:#fffdf9}.section-title-row,.catalog-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:23px;padding-bottom:13px;border-bottom:1px solid #d8c7a9;position:relative}.section-title-row:after,.catalog-heading:after{content:"⚜";position:absolute;left:0;bottom:-10px;padding-right:8px;background:#fffdf9;color:var(--gold);font-size:.8rem}.section-title-row h2,.catalog-heading h2,.center-heading h2,.verification-grid h2{margin:5px 0 0;color:var(--ink);font-size:clamp(1.8rem,3vw,2.7rem);font-weight:700;letter-spacing:.04em}.section-date{color:#8a7961;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.75rem;letter-spacing:.05em}
+  .spotlight-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.spotlight-card{position:relative;overflow:hidden;padding:22px 22px 18px;background:linear-gradient(180deg,#fff 0%,#fbf7ef 100%);border:1px solid #d9cdb9;box-shadow:0 9px 26px rgba(47,44,36,.05)}.spotlight-card:after{content:"";position:absolute;left:-35px;bottom:-45px;width:150px;height:110px;border:1px solid rgba(17,43,75,.06);border-radius:50%;box-shadow:20px -12px 0 rgba(17,43,75,.02);transform:rotate(-12deg)}
+  .spotlight-top,.catalog-top,.spotlight-footer,.catalog-bottom{display:flex;align-items:center;justify-content:space-between;gap:12px}.country-line{display:inline-flex;align-items:center;gap:8px;color:#775f3e;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.75rem;font-weight:800}.country-line b{font-size:1.25rem}.status-pill,.status-dot{font-family:Arial,"Noto Sans TC",sans-serif;font-size:.68rem;font-weight:800;border:1px solid;padding:5px 8px}.status-pill.open,.status-dot.open{color:#2d6f47;border-color:#7eb08c;background:#f1faf3}.status-pill.soon,.status-dot.soon{color:#8a631f;border-color:#d7b46f;background:#fff9eb}.status-pill.watch,.status-dot.watch{color:#6f6b65;border-color:#c8c1b7;background:#f6f3ee}
+  .spotlight-type{margin-top:15px;color:#a37a3a;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.65rem;font-weight:800;letter-spacing:.1em}.spotlight-card h3{margin:7px 0 9px;font-size:1.32rem;line-height:1.45}.spotlight-card h3 a,.catalog-card h3 a{color:var(--ink);text-decoration:none}.spotlight-card h3 a:hover,.catalog-card h3 a:hover{color:var(--burgundy)}.spotlight-card>p{margin:0;color:#68625a;font-size:.88rem;line-height:1.75;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.spotlight-meta{display:grid;grid-template-columns:1.15fr .75fr 1fr;gap:10px;margin:18px 0 16px;padding:14px 0;border-top:1px solid #e3d8c6;border-bottom:1px solid #e3d8c6}.spotlight-meta span{display:block;color:#9b835f;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.62rem}.spotlight-meta strong{display:block;margin-top:4px;color:#283d59;font-size:.78rem;line-height:1.45}.spotlight-footer{position:relative;z-index:2}.tw-check{color:#4b7458;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.69rem;font-weight:700}.spotlight-footer a{color:var(--burgundy);font-family:Arial,"Noto Sans TC",sans-serif;font-size:.72rem;font-weight:800;text-decoration:none}
+  .search-section{padding:0 0 36px;background:#fffdf9}.search-panel{display:grid;grid-template-columns:minmax(280px,1.8fr) repeat(4,minmax(120px,.7fr)) auto;gap:10px;padding:14px;background:#f8f3e9;border:1px solid #d9cdb8}.search-box,.select-box{display:flex;align-items:center;gap:10px;min-height:48px;padding:0 14px;background:white;border:1px solid #ddd2bf}.search-box span,.select-box span{color:#9b753e}.search-box input,.select-box select{width:100%;border:0;outline:0;background:transparent;color:#31445d;font:inherit;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.79rem}.select-box select{appearance:auto}.clear-btn{min-height:48px;padding:0 16px;border:1px solid #d5c4a8;background:#fffaf1;color:#8c6d3f;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.76rem;font-weight:800;cursor:pointer}
+  .taiwan-programs{position:relative;overflow:hidden;padding:48px 0 44px;background:linear-gradient(180deg,#f7f1e7 0%,#fffaf2 100%);border-top:1px solid #deceb3;border-bottom:1px solid #deceb3}.center-heading{text-align:center;position:relative;z-index:1}.french-kicker{color:#a27436;font-family:Georgia,"Times New Roman",serif;font-size:1.12rem;letter-spacing:.13em}.center-heading p{max-width:780px;margin:12px auto 0;color:#6f665a;font-size:.87rem;line-height:1.75}.program-pills{position:relative;z-index:1;display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:26px}.program-pills a{display:inline-flex;align-items:center;gap:9px;min-height:46px;padding:0 18px;background:rgba(255,255,255,.7);border:1px solid #d7bd8d;color:#183552;text-decoration:none;font-size:.8rem;font-weight:700;box-shadow:0 5px 14px rgba(91,75,47,.03)}.program-pills a span{color:#a77b3d;font-size:1rem}.program-pills a:hover{background:white;border-color:#b98a45}.taiwan-watermark{position:absolute;color:rgba(13,49,89,.035);font-family:Georgia,serif;font-size:5rem;letter-spacing:.08em}.taiwan-watermark.left{left:-25px;bottom:-6px}.taiwan-watermark.right{right:-15px;top:20px}
+  .catalog-section{background:#fffdf9}.catalog-heading p{margin:8px 0 0;color:#a28661;font-family:Georgia,serif;font-size:.82rem;letter-spacing:.08em}.result-summary{display:flex;align-items:flex-end;gap:8px}.result-summary strong{color:var(--burgundy);font-family:Georgia,serif;font-size:2.2rem;font-weight:500}.result-summary span{padding-bottom:6px;color:#806e56;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.72rem}.catalog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.catalog-card{display:flex;flex-direction:column;min-height:275px;padding:19px;background:#fff;border:1px solid #ded3c1;box-shadow:0 7px 20px rgba(49,43,32,.035)}.catalog-card[hidden]{display:none}.catalog-card h3{margin:13px 0 10px;font-size:1.02rem;line-height:1.5}.catalog-tags{display:flex;flex-wrap:wrap;gap:6px}.catalog-tags span{padding:4px 7px;background:#f7f0e4;color:#816841;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.62rem}.catalog-card dl{margin:15px 0 17px;padding-top:12px;border-top:1px solid #ece4d8}.catalog-card dl>div{display:grid;grid-template-columns:42px 1fr;gap:8px;margin:7px 0}.catalog-card dt{color:#a0845b;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.65rem}.catalog-card dd{margin:0;color:#45556a;font-size:.72rem;line-height:1.45}.catalog-bottom{margin-top:auto;padding-top:12px;border-top:1px solid #eee6da}.catalog-bottom span{color:#4b7458;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.64rem}.catalog-bottom a{color:var(--burgundy);font-family:Arial,"Noto Sans TC",sans-serif;font-size:.69rem;font-weight:800;text-decoration:none}.load-row{text-align:center;margin-top:26px}.load-row button{min-width:230px;min-height:46px;border:1px solid #b99257;background:#fffaf1;color:#7d6038;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.78rem;font-weight:800;cursor:pointer}.load-row button:hover{background:#f7efe1}.load-row button[hidden]{display:none}
+  .verification-section{padding:52px 0;background:var(--navy);color:white;border-top:4px double #b98a45}.verification-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:50px;align-items:start}.verification-grid h2{color:white;line-height:1.45}.verification-steps{display:grid;grid-template-columns:repeat(2,1fr);gap:0;border-top:1px solid rgba(213,176,111,.35);border-left:1px solid rgba(213,176,111,.35)}.verification-steps>div{display:grid;grid-template-columns:44px 1fr;gap:8px;padding:18px;border-right:1px solid rgba(213,176,111,.35);border-bottom:1px solid rgba(213,176,111,.35)}.verification-steps span{color:#dcb46f;font-family:Georgia,serif;font-size:1.15rem}.verification-steps p{margin:0;color:#dce5ee;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.76rem;line-height:1.6}.verification-steps strong{color:white}
+  @media(max-width:1100px){.hero-inner{grid-template-columns:1fr}.stat-panel{min-height:210px}.search-panel{grid-template-columns:1fr 1fr 1fr}.search-box{grid-column:1/-1}.catalog-grid{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:760px){.section-shell,.hero-inner{width:min(100% - 24px,1280px)}.editorial-hero{padding:42px 0 36px}.editorial-hero:before{inset:7px}.editorial-hero:after{display:none}.hero-copy h1{font-size:2.45rem}.hero-subtitle{font-size:1rem;line-height:1.6}.hero-description{font-size:.9rem}.edition-line{display:none}.stat-panel{grid-template-columns:repeat(2,1fr);padding:10px}.stat-item{min-height:120px;border-bottom:1px dotted rgba(213,176,111,.4)}.stat-item:nth-child(2){border-right:0}.spotlight-grid,.catalog-grid,.verification-grid{grid-template-columns:1fr}.search-panel{grid-template-columns:1fr 1fr}.search-box,.clear-btn{grid-column:1/-1}.section-title-row,.catalog-heading{align-items:flex-start;flex-direction:column}.spotlight-meta{grid-template-columns:1fr}.program-pills{display:grid;grid-template-columns:1fr 1fr}.program-pills a{justify-content:center;padding:0 10px;text-align:center}.verification-steps{grid-template-columns:1fr}.taiwan-watermark{display:none}}
 </style>
