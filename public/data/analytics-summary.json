@@ -1,39 +1,59 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-01T01:22:15.618Z",
+  "updatedAt": "2026-09-02T01:21:30.082Z",
   "period": "rolling-7-days",
   "popularArticles": [
     {
-      "title": "新北雙聯學制邁入第 8 年：連結 4 國 10 夥伴，115 學年度補助 30 至 40 名學生｜環球教育新聞 Global Education News",
-      "path": "/news/new-taipei-dual-diploma-2026/",
-      "views": 1
+      "title": "北市115學年度25名高中職學生赴美加交換一年：國際交換學生計畫啟程｜環球教育新聞 Global Education News",
+      "path": "/news/taipei-student-exchange-us-canada-2026/",
+      "views": 4
     },
     {
-      "title": "英國學生簽證 2026 年減 11%：中國仍是最大來源國，國際招生進入調整期｜環球教育新聞 Global Education News",
-      "path": "/news/uk-study-visas-june-2026/",
+      "title": "最新國際教育新聞",
+      "path": "/news/",
+      "views": 4
+    },
+    {
+      "title": "教育部帶 20 名高中生赴澳洲 19 天共學：入班、國際論壇與 SDGs 成海外學習核心｜環球教育新聞 Global Education News",
+      "path": "/news/taiwan-moe-australia-youth-colearning-2026/",
+      "views": 2
+    },
+    {
+      "title": "新北雙聯學制邁入第 8 年：連結 4 國 10 夥伴，115 學年度補助 30 至 40 名學生｜環球教育新聞 Global Education News",
+      "path": "/news/new-taipei-dual-diploma-2026/",
+      "views": 2
+    },
+    {
+      "title": "加拿大國際學生返加注意：有 Study Permit 不代表一定能重新入境｜環球教育新聞 Global Education News",
+      "path": "/news/canada-international-student-reentry-2026/",
       "views": 1
     }
   ],
   "countries": [
     {
       "name": "台灣",
-      "sessions": 29,
-      "share": 63
+      "sessions": 71,
+      "share": 71.7
     },
     {
       "name": "美國",
-      "sessions": 14,
-      "share": 30.4
+      "sessions": 19,
+      "share": 19.2
     },
     {
       "name": "其他",
       "sessions": 2,
-      "share": 4.3
+      "share": 2
+    },
+    {
+      "name": "英國",
+      "sessions": 2,
+      "share": 2
     },
     {
       "name": "加拿大",
       "sessions": 1,
-      "share": 2.2
+      "share": 1
     }
   ]
 }
