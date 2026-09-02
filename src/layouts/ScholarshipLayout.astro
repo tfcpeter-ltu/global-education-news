@@ -1,0 +1,76 @@
+---
+import BaseLayout from './BaseLayout.astro';
+
+const { frontmatter = {} } = Astro.props;
+const {
+  title,
+  description,
+  date,
+  updated,
+  country = '國際',
+  level = '大學／研究所',
+  funding = '依官方公告',
+  deadline = '依官方公告',
+  status = '開放中',
+  sourceName = '官方網站',
+  officialUrl,
+  secondSourceUrl,
+  eligibilityTW = '需依官方資格確認',
+  taiwanNote = '',
+  verificationDate = date,
+  category = '國際獎學金'
+} = frontmatter;
+
+const published = date ? new Date(date) : undefined;
+const modified = updated ? new Date(updated) : published;
+const fmtDate = (value?: Date) => value ? new Intl.DateTimeFormat('zh-TW', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Taipei' }).format(value) : '';
+const titleText = `${title}｜台灣國際獎學金雷達`;
+---
+<BaseLayout title={titleText} description={description} type="article">
+  <article class="scholarship-article">
+    <div class="scholarship-shell">
+      <nav class="scholarship-breadcrumb" aria-label="麵包屑">
+        <a href="/scholarships/">獎學金雷達</a><span>›</span><span>{country}</span>
+      </nav>
+
+      <div class="eyebrow">{category} · {status}</div>
+      <h1>{title}</h1>
+      {description && <p class="lead">{description}</p>}
+
+      <div class="facts" aria-label="獎學金重點">
+        <div><span>國家／地區</span><strong>{country}</strong></div>
+        <div><span>適用學位</span><strong>{level}</strong></div>
+        <div><span>補助內容</span><strong>{funding}</strong></div>
+        <div><span>截止日期</span><strong>{deadline}</strong></div>
+      </div>
+
+      <div class="taiwan-check">
+        <span class="check-mark">✓</span>
+        <div><strong>台灣學生資格</strong><p>{eligibilityTW}</p>{taiwanNote && <p class="note">{taiwanNote}</p>}</div>
+      </div>
+
+      <div class="meta">
+        {published && <span>發布：{fmtDate(published)}</span>}
+        {modified && updated && <span>更新：{fmtDate(modified)}</span>}
+        {verificationDate && <span>最後查核：{verificationDate}</span>}
+      </div>
+
+      <div class="article-body"><slot /></div>
+
+      <aside class="source-box">
+        <h2>來源查核</h2>
+        <p>本站以「台灣學生實際可申請」為前提，優先採官方公告，並在可取得時加入第二來源交叉確認。</p>
+        <ul>
+          {officialUrl && <li><a href={officialUrl} target="_blank" rel="noopener noreferrer">官方來源：{sourceName}</a></li>}
+          {secondSourceUrl && <li><a href={secondSourceUrl} target="_blank" rel="noopener noreferrer">第二來源／補充說明</a></li>}
+        </ul>
+      </aside>
+
+      <div class="back-row"><a href="/scholarships/">← 回到台灣國際獎學金雷達</a></div>
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .scholarship-article{background:#f6f8fb;padding:38px 18px 64px;color:#172033}.scholarship-shell{max-width:920px;margin:0 auto;background:#fff;border:1px solid #e4e9f0;border-radius:22px;padding:36px;box-shadow:0 18px 50px rgba(23,32,51,.07)}.scholarship-breadcrumb{display:flex;gap:8px;font-size:.9rem;color:#69768a;margin-bottom:18px}.scholarship-breadcrumb a{color:#174ea6;text-decoration:none}.eyebrow{font-size:.78rem;font-weight:800;letter-spacing:.12em;color:#b45309;text-transform:uppercase;margin-bottom:10px}.scholarship-shell h1{font-size:clamp(2rem,4vw,3.2rem);line-height:1.14;margin:0 0 14px}.lead{font-size:1.18rem;line-height:1.75;color:#4a5668;margin:0 0 28px}.facts{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:24px 0}.facts div{background:#f8fafc;border:1px solid #e5eaf0;border-radius:14px;padding:16px}.facts span{display:block;font-size:.8rem;color:#748095;margin-bottom:7px}.facts strong{font-size:1rem;line-height:1.45}.taiwan-check{display:flex;gap:12px;background:#eef8f2;border:1px solid #cde8d7;border-radius:16px;padding:18px;margin:22px 0}.check-mark{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;background:#176b42;color:#fff;font-weight:900;flex:0 0 28px}.taiwan-check p{margin:4px 0 0;line-height:1.65}.taiwan-check .note{color:#53665c}.meta{display:flex;flex-wrap:wrap;gap:12px;color:#7a8493;font-size:.86rem;padding-bottom:22px;border-bottom:1px solid #e7ebf0}.article-body{font-size:1.05rem;line-height:1.9;margin-top:28px}.article-body :global(h2){font-size:1.45rem;margin:2rem 0 .7rem}.article-body :global(h3){font-size:1.15rem;margin:1.6rem 0 .55rem}.article-body :global(a){color:#174ea6}.source-box{margin-top:34px;padding:22px;background:#fff8ed;border:1px solid #f2d6a6;border-radius:16px}.source-box h2{font-size:1.15rem;margin:0 0 8px}.source-box p{margin:0 0 12px;line-height:1.7}.source-box ul{margin:0;padding-left:20px}.source-box a{color:#8a4b08}.back-row{margin-top:28px}.back-row a{font-weight:700;color:#174ea6;text-decoration:none}@media(max-width:760px){.scholarship-shell{padding:24px 20px}.facts{grid-template-columns:1fr 1fr}}@media(max-width:480px){.facts{grid-template-columns:1fr}}
+</style>
