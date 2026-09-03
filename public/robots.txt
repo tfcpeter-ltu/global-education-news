@@ -1,13 +1,33 @@
 User-agent: *
 Allow: /
 
+# Google Search / Google News / Gemini surfaces
 User-agent: Googlebot
 Allow: /
 
 User-agent: Googlebot-News
 Allow: /
 
+# Microsoft Bing / Copilot discovery
+User-agent: Bingbot
+Allow: /
+
+# OpenAI search and user-requested browsing
 User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic / Claude discovery
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+# Perplexity discovery
+User-agent: PerplexityBot
 Allow: /
 
 Sitemap: https://globalednews.com/sitemap.xml
