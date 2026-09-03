@@ -1,58 +1,8 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-
 const modules = import.meta.glob('../news/*.md', { eager: true });
-const stories = Object.entries(modules)
-  .map(([path, mod]: [string, any]) => ({ ...mod.frontmatter, slug: path.replace('../news/', '').replace('.md', '') }))
-  .filter((story: any) => ['usa','canada','uk','australia','asia'].includes(story.topic))
-  .sort((a: any, b: any) => new Date(b.date ?? 0).getTime() - new Date(a.date ?? 0).getTime())
-  .slice(0, 18);
-
+const stories = Object.entries(modules).map(([path, mod]: [string, any]) => ({ ...mod.frontmatter, slug: path.replace('../news/', '').replace('.md', '') })).filter((story: any) => ['usa','canada','uk','australia','asia'].includes(story.topic)).sort((a: any, b: any) => new Date(b.date ?? 0).getTime() - new Date(a.date ?? 0).getTime()).slice(0, 18);
 const pageUrl = new URL('/intelligence/international-student-policy/', Astro.site ?? Astro.url.origin).toString();
-const ld = {
-  '@context': 'https://schema.org',
-  '@type': 'CollectionPage',
-  name: '全球國際學生政策中心',
-  description: '追蹤美國、加拿大、英國、澳洲與亞洲國際學生簽證、招生、畢業後工作與教育制度變化。',
-  url: pageUrl,
-  inLanguage: 'zh-Hant-TW',
-  about: ['International students','Student visas','Higher education admissions','Study abroad policy']
-};
+const ld = {'@context':'https://schema.org','@type':'CollectionPage',name:'全球國際學生政策中心',description:'追蹤美國、加拿大、英國、澳洲與亞洲國際學生簽證、招生、畢業後工作與教育制度變化。',url:pageUrl,inLanguage:'zh-Hant-TW',about:['International students','Student visas','Higher education admissions','Study abroad policy']};
 ---
-<BaseLayout title="全球國際學生政策中心｜Global Education News" description="追蹤美國、加拿大、英國、澳洲與亞洲國際學生簽證、招生、畢業後工作與教育制度變化，附官方來源與台灣學生影響分析。">
-  <Fragment slot="head"><script type="application/ld+json" set:html={JSON.stringify(ld)}></script></Fragment>
-  <section class="page"><div class="page-shell">
-    <div class="kicker">GLOBAL POLICY HUB</div>
-    <h1>全球國際學生政策中心</h1>
-    <p class="hero-deck">本頁集中整理 Global Education News 對主要留學目的地的國際學生政策追蹤。報導優先回查政府、移民主管機關、大學、法規原文與官方統計，並區分政策發布日期、生效日期與適用對象。</p>
-
-    <h2>本站長期追蹤範圍</h2>
-    <ul>
-      <li><strong>美國：</strong>F-1、SEVP、OPT、CPT、大學招生與國際學生身分規範。</li>
-      <li><strong>加拿大：</strong>Study Permit、PAL/TAL、PGWP、資金證明、國際學生配額與省級政策。</li>
-      <li><strong>英國：</strong>Student visa、Child Student、Graduate visa、CAS、國際學生招生與移民規則。</li>
-      <li><strong>澳洲：</strong>Student visa、CRICOS、TPS、國際學生人數政策、工作權與教育機構監管。</li>
-      <li><strong>亞洲：</strong>香港、新加坡、日本等地的大學招生、國際學生制度與跨境教育政策。</li>
-    </ul>
-
-    <h2>我們如何判讀政策新聞</h2>
-    <p>同一則政策可能同時存在「宣布日期」、「法規公布日期」與「生效日期」。本站文章會盡可能分開標示，避免把尚未生效的措施寫成現行規定。涉及金額、比例、人數與申請資格時，也會優先使用原始官方資料。</p>
-
-    <h2>最新國際學生政策新聞</h2>
-    <div class="grid-3">
-      {stories.map((story: any) => (
-        <article class="card story-card">
-          <div class="card-content">
-            <div class="kicker">{story.category}</div>
-            <h3><a href={`/news/${story.slug}/`}>{story.title}</a></h3>
-            <p>{story.description}</p>
-            <div class="card-meta">{new Intl.DateTimeFormat('zh-TW').format(new Date(story.date))}</div>
-          </div>
-        </article>
-      ))}
-    </div>
-
-    <h2>資料使用說明</h2>
-    <p>本頁為主題索引，不取代各國政府與大學官方規定。準備申請、簽證或入境前，應再查閱文章所列的第一手來源與最新官方公告。</p>
-  </div></section>
-</BaseLayout>
+<BaseLayout title="全球國際學生政策中心｜Global Education News" description="追蹤美國、加拿大、英國、澳洲與亞洲國際學生簽證、招生、畢業後工作與教育制度變化，附官方來源與台灣學生影響分析。"><Fragment slot="head"><script type="application/ld+json" set:html={JSON.stringify(ld)}></script></Fragment><section class="page"><div class="page-shell"><div class="kicker">GLOBAL POLICY HUB</div><h1>全球國際學生政策中心</h1><p class="hero-deck">本頁集中整理 Global Education News 對主要留學目的地的國際學生政策追蹤。報導優先回查政府、移民主管機關、大學、法規原文與官方統計，並區分政策發布日期、生效日期與適用對象。</p><h2>國家政策專區</h2><ul><li><a href="/intelligence/us-study-policy/"><strong>美國國際學生政策中心</strong></a>：F-1、SEVP、OPT、CPT、大學招生。</li><li><a href="/intelligence/canada-study-policy/"><strong>加拿大留學政策中心</strong></a>：Study Permit、PAL/TAL、PGWP、國際學生名額。</li><li><a href="/intelligence/uk-study-policy/"><strong>英國留學政策中心</strong></a>：Student visa、Child Student、Graduate visa、CAS。</li><li><a href="/intelligence/australia-study-policy/"><strong>澳洲留學政策中心</strong></a>：Student visa、CRICOS、TPS、ESOS。</li></ul><h2>我們如何判讀政策新聞</h2><p>同一則政策可能同時存在「宣布日期」、「法規公布日期」與「生效日期」。本站文章會盡可能分開標示，避免把尚未生效的措施寫成現行規定。涉及金額、比例、人數與申請資格時，也會優先使用原始官方資料。</p><h2>最新國際學生政策新聞</h2><div class="grid-3">{stories.map((story:any)=><article class="card story-card"><div class="card-content"><div class="kicker">{story.category}</div><h3><a href={`/news/${story.slug}/`}>{story.title}</a></h3><p>{story.description}</p><div class="card-meta">{new Intl.DateTimeFormat('zh-TW').format(new Date(story.date))}</div></div></article>)}</div><h2>資料使用說明</h2><p>本頁為主題索引，不取代各國政府與大學官方規定。準備申請、簽證或入境前，應再查閱文章所列的第一手來源與最新官方公告。</p></div></section></BaseLayout>
