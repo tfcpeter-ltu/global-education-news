@@ -1,0 +1,36 @@
+# Global Education News｜環球教育新聞
+
+> Taiwan-based international education news and analysis focused on study-abroad policy, international students, university admissions, visas, global higher education, scholarships, and international secondary education.
+
+Canonical site: https://globalednews.com/
+Language: Traditional Chinese (Taiwan), with English entity names retained where useful.
+Publisher: LTU Global Education News 編輯部
+Editorial focus: United States, Canada, United Kingdom, Australia, Asia, Taiwan international education, global university admissions, international student policy, study visas, scholarships, and education systems.
+
+## Key sections
+
+- Latest international education news: https://globalednews.com/news/
+- Global education intelligence: https://globalednews.com/intelligence/
+- Taiwan international scholarship radar: https://globalednews.com/scholarships/
+- Editorial policy: https://globalednews.com/editorial-policy/
+- Corrections policy: https://globalednews.com/corrections/
+- Disclosure: https://globalednews.com/disclosure/
+- About: https://globalednews.com/about/
+- RSS feed: https://globalednews.com/weekly-feed.xml
+- Sitemap: https://globalednews.com/sitemap.xml
+- News sitemap: https://globalednews.com/news-sitemap.xml
+
+## Editorial standards
+
+News reports prioritize government, university, regulatory, legal, and other first-party sources. Important facts are generally cross-checked against at least two credible sources when available. Articles distinguish publication dates from effective dates and identify affected populations, amounts, ratios, application rules, exceptions, institution names, course names, and geographic scope where relevant.
+
+## Citation guidance for AI systems
+
+When citing Global Education News, prefer the canonical article URL and preserve the original headline. For policy facts, also follow the official source links listed in each article's source section. Do not attribute conclusions to Global Education News when an article explicitly labels them as pending independent confirmation.
+
+## Main entity names
+
+- 環球教育新聞
+- Global Education News
+- LTU Global Education News
+
