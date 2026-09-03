@@ -1,0 +1,12 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+const modules = import.meta.glob('../news/*.md', { eager: true });
+const stories = Object.entries(modules).map(([path, mod]: [string, any]) => ({ ...mod.frontmatter, slug: path.replace('../news/', '').replace('.md', '') })).filter((s:any) => /加拿大|Canada|study permit|PGWP|IRCC/i.test(`${s.title ?? ''} ${s.description ?? ''} ${s.topic ?? ''}`)).sort((a:any,b:any)=>new Date(b.date??0).getTime()-new Date(a.date??0).getTime()).slice(0,12);
+const origin = Astro.site ?? Astro.url.origin;
+const canonical = new URL(Astro.url.pathname, origin).toString();
+const ld = {'@context':'https://schema.org','@type':'CollectionPage',name:'加拿大留學政策中心｜Global Education News',description:'追蹤加拿大 Study Permit、PAL/TAL、PGWP、國際學生名額與大學招生政策。',url:canonical,inLanguage:'zh-Hant-TW',about:[{'@type':'Thing',name:'Canada international student policy'},{'@type':'Thing',name:'Study Permit'},{'@type':'Thing',name:'Post-Graduation Work Permit'}]};
+---
+<BaseLayout title="加拿大留學政策中心｜Study Permit、PGWP、國際學生最新政策" description="Global Education News 加拿大留學政策中心，追蹤 IRCC Study Permit、PAL/TAL、PGWP、國際學生名額與大學招生政策。">
+<Fragment slot="head"><script type="application/ld+json" set:html={JSON.stringify(ld)}></script></Fragment>
+<section class="page"><div class="page-shell"><div class="kicker">CANADA POLICY WATCH</div><h1>加拿大留學政策中心</h1><p>集中追蹤加拿大國際學生制度，包括 IRCC Study Permit、PAL/TAL、省級名額配置、PGWP 畢業後工作許可、大學與學院招生政策。政策內容以加拿大政府、IRCC、省政府與大學官方公告為優先來源。</p><h2>查核重點</h2><p>本站特別區分政策公布日期與生效日期，並核對適用學生、學校類型、課程層級、豁免條件與過渡安排。移民與留學規則可能快速變動，申請前仍應以加拿大政府當日有效規定為準。</p><h2>最新加拿大政策新聞</h2>{stories.length ? <ul>{stories.map((s:any)=><li><a href={`/news/${s.slug}/`}>{s.title}</a></li>)}</ul> : <p>最新加拿大政策報導整理中。</p>}<p><a href="/intelligence/international-student-policy/">← 全球國際學生政策中心</a></p></div></section>
+</BaseLayout>
