@@ -31,6 +31,9 @@ const authorUrl = isPeter ? absolute('peter/') : absolute('about/');
 const publisherUrl = absolute();
 const publisherId = `${publisherUrl}#publisher`;
 const websiteId = `${publisherUrl}#website`;
+const citationUrls = Array.isArray(sources)
+  ? sources.map((source: { url?: string }) => source?.url).filter(Boolean)
+  : [];
 
 const articleLd = {
   '@context': 'https://schema.org',
@@ -54,7 +57,8 @@ const articleLd = {
   articleSection: category,
   keywords: [category, topic, '國際教育', '環球教育', '留學政策'],
   inLanguage: 'zh-Hant-TW',
-  isAccessibleForFree: true
+  isAccessibleForFree: true,
+  ...(citationUrls.length > 0 ? { citation: citationUrls } : {})
 };
 
 const breadcrumbLd = {
