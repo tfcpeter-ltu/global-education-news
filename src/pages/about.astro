@@ -1,17 +1,45 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+
+const aboutLd = {
+  '@context': 'https://schema.org',
+  '@type': 'AboutPage',
+  name: '關於 Global Education News｜環球教育新聞',
+  url: new URL('/about/', Astro.site ?? Astro.url.origin).toString(),
+  about: {
+    '@type': 'NewsMediaOrganization',
+    name: '環球教育新聞',
+    alternateName: ['Global Education News', 'LTU Global Education News'],
+    url: new URL('/', Astro.site ?? Astro.url.origin).toString()
+  },
+  inLanguage: 'zh-Hant-TW'
+};
 ---
-<BaseLayout title="關於我們｜Global Education News" description="Global Education News 國際教育新聞網的媒體定位、報導範圍與編輯原則。">
+<BaseLayout title="關於我們｜Global Education News" description="Global Education News｜環球教育新聞的媒體定位、報導範圍、查證原則與來源透明政策。">
+  <Fragment slot="head"><script type="application/ld+json" set:html={JSON.stringify(aboutLd)}></script></Fragment>
   <section class="page"><div class="page-shell">
     <div class="kicker">ABOUT US</div>
-    <h1>關於 Global Education News</h1>
-    <p>Global Education News｜國際教育新聞網是一個以台灣讀者為主要服務對象的國際教育專業媒體，關注全球高等教育、國際學生政策、大學招生、國際高中制度、學生流動、簽證與教育趨勢。</p>
-    <p>我們希望把散落在政府公告、大學網站、統計資料與國際新聞中的資訊，整理成可查證、可理解、能實際協助學生與家庭做判斷的中文報導。</p>
-    <h2>報導原則</h2>
-    <p>新聞文章優先使用政府、大學、監管機關、原始統計資料與可信賴新聞機構作為來源。涉及政策變化時，我們會區分「已生效規定」、「官方宣布但尚未生效」與「媒體報導或研議中方案」。</p>
+    <h1>關於 Global Education News｜環球教育新聞</h1>
+    <p>Global Education News｜環球教育新聞是一個以台灣讀者為主要服務對象的國際教育專業新聞網站，長期追蹤全球高等教育、國際學生政策、大學招生、國際高中制度、學生簽證、跨境學習與教育制度變化。</p>
+    <p>我們的核心工作，是把散落在各國政府公告、大學網站、監管機構、法規原文、統計資料與可信賴國際媒體中的資訊，整理成可查證、可追溯、具台灣學生與家長實際參考價值的繁體中文報導。</p>
+
+    <h2>我們如何建立報導可信度</h2>
+    <p>涉及政策、簽證、招生制度、學費、名額與申請資格的新聞，原則上至少以兩個彼此獨立且可信的來源交叉核對，其中至少一個來源應為政府、大學、官方機構、法規原文、法院文件、監管機關或其他第一手資料。若目前僅有單一可信第一手來源，我們會在文章中明確標示資訊狀態，不把未經完整交叉確認的內容擴大解讀。</p>
+    <p>每篇新聞均保留來源連結，重要政策文章會優先列出官方資料與原始文件，讓讀者可直接回查。</p>
+
+    <h2>報導與分析的界線</h2>
+    <p>本站區分已生效規定、官方已宣布但尚未生效的措施、研議中的政策，以及媒體報導或分析。標題不得把提案寫成正式政策，也不以單一媒體標題取代政策原文。</p>
+
     <h2>媒體與商業內容分離</h2>
-    <p>本站可能報導與營運團隊具有合作或業務關係的教育機構。若相關關係可能影響讀者判斷，我們會在文章中揭露。付費或贊助內容不得偽裝成一般新聞。</p>
-    <h2>網站狀態</h2>
-    <p>本站目前處於創刊建置階段；正式公開發行前，將補充完整出版者資料、編輯團隊與聯絡方式。</p>
+    <p>本站可能報導與營運團隊具有合作、招生或其他業務關係的教育機構。若相關關係可能影響讀者判斷，文章會加入利益揭露。付費、贊助與合作內容不得偽裝成一般新聞。</p>
+
+    <h2>AI 與人工編輯</h2>
+    <p>本站可使用 AI 協助搜尋、資料整理、翻譯、摘要、草稿與網站技術製作，但 AI 不取代第一手來源，也不取代編輯責任。涉及日期、數字、資格、政策條文與機構名稱等關鍵事實，仍以可驗證來源為準。</p>
+
+    <h2>更正、更新與透明度</h2>
+    <p>國際教育政策變動快速。若已發布文章出現重大新資訊、官方修正或事實錯誤，本站會依更正政策更新內容，並在需要時標示更新日期或更正說明。讀者也可透過本站聯絡頁提供更正建議。</p>
+
+    <h2>正式媒體定位</h2>
+    <p>Global Education News｜環球教育新聞持續發布國際教育新聞、政策整理與專題分析，並以來源透明、可回查與利益揭露作為長期編輯標準。網站內容以公開資訊與可驗證資料為基礎，服務台灣學生、家長、學校與國際教育工作者。</p>
   </div></section>
 </BaseLayout>
