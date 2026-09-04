@@ -19,6 +19,7 @@ const gaMeasurementId = 'G-JF9Q84LV4Y';
 const origin = Astro.site ?? Astro.url.origin;
 const absolute = (path = '') => new URL(`${base}${path}`, origin).toString();
 const isHomepage = Astro.url.pathname === base || Astro.url.pathname === base.replace(/\/$/, '');
+const isScholarshipRadar = Astro.url.pathname === '/scholarships/' || Astro.url.pathname === '/scholarships';
 
 const brandDescription = '環球教育新聞（Global Education News）聚焦國際教育新聞、留學政策、全球大學招生、學生簽證與高等教育趨勢，提供各國教育動態、官方政策整理與深度分析。';
 
@@ -119,6 +120,95 @@ const websiteLd = {
     <main><slot /></main>
     {isHomepage && <IntelligencePromo />}
     {isHomepage && <PartnerNewsSection />}
+    {isScholarshipRadar && (
+      <script is:inline>
+        (() => {
+          const init = () => {
+            const panel = document.querySelector('.search-panel');
+            const searchSection = document.querySelector('.search-section');
+            const catalog = document.querySelector('.catalog-section');
+            const taiwanPrograms = document.querySelector('.taiwan-programs');
+            const input = document.getElementById('scholarship-search');
+            const count = document.getElementById('result-count');
+            if (!panel || !searchSection || !catalog || !input) return;
+
+            if (catalog.previousElementSibling !== searchSection) {
+              searchSection.insertAdjacentElement('afterend', catalog);
+            }
+            if (taiwanPrograms && catalog.nextElementSibling !== taiwanPrograms) {
+              catalog.insertAdjacentElement('afterend', taiwanPrograms);
+            }
+
+            let searchButton = document.getElementById('scholarship-search-submit');
+            if (!searchButton) {
+              searchButton = document.createElement('button');
+              searchButton.id = 'scholarship-search-submit';
+              searchButton.type = 'button';
+              searchButton.className = 'scholarship-search-submit';
+              searchButton.textContent = '搜尋';
+              panel.appendChild(searchButton);
+            }
+
+            let empty = document.getElementById('scholarship-empty-state');
+            if (!empty) {
+              empty = document.createElement('div');
+              empty.id = 'scholarship-empty-state';
+              empty.className = 'scholarship-empty-state';
+              empty.hidden = true;
+              empty.innerHTML = '<strong>目前沒有符合全部條件的獎學金</strong><span>請放寬其中一項篩選條件，或按「清除篩選」重新搜尋。</span>';
+              const grid = document.getElementById('catalog-grid');
+              grid?.insertAdjacentElement('afterend', empty);
+            }
+
+            const refreshEmptyState = () => {
+              const total = Number(count?.textContent || '0');
+              empty.hidden = total !== 0;
+            };
+
+            const runSearch = () => {
+              input.dispatchEvent(new Event('input', { bubbles: true }));
+              requestAnimationFrame(() => {
+                refreshEmptyState();
+                catalog.scrollIntoView({ behavior: 'smooth', block: 'start' });
+              });
+            };
+
+            searchButton.addEventListener('click', runSearch);
+            input.addEventListener('keydown', (event) => {
+              if (event.key === 'Enter') {
+                event.preventDefault();
+                runSearch();
+              }
+            });
+
+            ['country-filter', 'level-filter', 'funding-filter', 'status-filter'].forEach((id) => {
+              document.getElementById(id)?.addEventListener('change', () => {
+                requestAnimationFrame(refreshEmptyState);
+              });
+            });
+            document.getElementById('clear-filters')?.addEventListener('click', () => {
+              requestAnimationFrame(() => {
+                refreshEmptyState();
+                catalog.scrollIntoView({ behavior: 'smooth', block: 'start' });
+              });
+            });
+
+            refreshEmptyState();
+          };
+
+          if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', init, { once: true });
+          } else {
+            init();
+          }
+        })();
+      </script>
+    )}
+    {isScholarshipRadar && (
+      <style is:inline>
+        .scholarship-search-submit{min-height:48px;padding:0 22px;border:1px solid #7d1f2d;background:#7d1f2d;color:#fff;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.84rem;font-weight:800;cursor:pointer;white-space:nowrap}.scholarship-search-submit:hover{background:#651923}.scholarship-empty-state{margin-top:18px;padding:26px 22px;border:1px solid #d9cdb9;background:#fffaf1;text-align:center;color:#6a4b20}.scholarship-empty-state strong{display:block;font-size:1.05rem;margin-bottom:7px;color:#7d1f2d}.scholarship-empty-state span{font-family:Arial,"Noto Sans TC",sans-serif;font-size:.82rem;color:#756b5c}.catalog-section{scroll-margin-top:18px}@media(max-width:1100px){.scholarship-search-submit{grid-column:auto}}@media(max-width:760px){.scholarship-search-submit{grid-column:1/-1;min-height:50px}}
+      </style>
+    )}
     <Footer />
   </body>
 </html>
