@@ -21,9 +21,6 @@ const articles = Object.values(modules)
  * 2. LTU-related news appears only as a secondary homepage section.
  * 3. General Taiwan news stays available in the Taiwan section and /news/,
  *    but does not occupy homepage editorial slots.
- *
- * This keeps the front page internationally oriented even when several Taiwan
- * stories are published on the same day.
  */
 const isLTUStory = (story: any) => {
   const haystack = [story.title, story.description, story.disclosure, story.brand]
@@ -36,11 +33,85 @@ const isLTUStory = (story: any) => {
 const internationalStories = articles.filter((story: any) => story.topic !== 'taiwan' && !isLTUStory(story));
 const ltuStories = articles.filter((story: any) => isLTUStory(story));
 
+const ltuMediaStories = [
+  {
+    title: '今周刊 專訪【LTU國際學術中心：引領台灣學生透過 OSSD 雙聯學制銜接世界頂尖大學】',
+    url: 'https://www.businesstoday.com.tw/article/category/183035/post/202508150011/?utm_source=businesstoday&utm_medium=search&utm_campaign=article',
+    source: '今周刊',
+    category: '媒體專訪'
+  },
+  {
+    title: '不出國也能拿雙文憑！明道臺加雙聯學制開花結果 首屆學生錄取海外名校',
+    url: 'https://www.ctee.com.tw/news/20260401701821-431204',
+    source: '工商時報',
+    category: '升學成果'
+  },
+  {
+    title: '布萊斯「OSSD暑期學校」帶領學子參與國際交流 體驗海外大學生活',
+    url: 'https://www.ctee.com.tw/news/20250723702079-431204',
+    source: '工商時報',
+    category: '國際交流'
+  },
+  {
+    title: '國際競爭力新典範 LTU OSSD台加高中雙聯學制',
+    url: 'https://www.ctee.com.tw/news/20250623700886-431204',
+    source: '工商時報',
+    category: 'OSSD雙聯學制'
+  },
+  {
+    title: '成功獲30張OSSD破除謠言 布萊斯學院台加雙聯學生將赴加拿大暑修',
+    url: 'https://money.udn.com/money/story/5723/8815124',
+    source: '經濟日報',
+    category: 'OSSD雙聯學制'
+  },
+  {
+    title: '擴展海外升學路 布萊斯學院台加雙聯生今夏赴加暑修',
+    url: 'https://www.nownews.com/news/6697174',
+    source: 'NOWnews',
+    category: '加拿大暑修'
+  },
+  {
+    title: '僑泰高中雙語班傳捷報！5學子前進世界百大名校 打破校史紀錄',
+    url: 'https://udn.com/news/story/6898/9271435',
+    source: '聯合新聞網',
+    category: '升學成果'
+  },
+  {
+    title: 'LTU OSSD攜手皇冠高中舉辦暑期籃球ESL領袖營',
+    url: 'https://www.setn.com/m/news.aspx?newsid=1688074',
+    source: '三立新聞網',
+    category: '國際教育活動'
+  },
+  {
+    title: '2025年暑假最強中學籃球營加拿大登場跟HBL明星球員面對面打球',
+    url: 'https://www.storm.mg/article/11051374',
+    source: '風傳媒',
+    category: '加拿大教育活動'
+  },
+  {
+    title: '台加高中雙聯學程 錄取美加7大學',
+    url: 'https://news.ltn.com.tw/news/life/breakingnews/5062658',
+    source: '自由時報',
+    category: '升學成果'
+  },
+  {
+    title: '臺加雙聯學制圓夢 學子錄取國際名校',
+    url: 'https://udn.com/news/story/6929/8583109',
+    source: '聯合新聞網',
+    category: '升學成果'
+  },
+  {
+    title: '豐中學子躍上世界舞台！首屆「台加雙聯學制」學生陳詩茹錄取雪梨、約克大學等5所全球百大名校',
+    url: 'https://www.yuanfengmedia.tw/detail.php?type=lastest&id=52990',
+    source: '源豐傳媒',
+    category: '升學成果'
+  }
+];
+
 const peterPhoto = 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Instructor_speaking_to_students_in_classroom.jpg/1280px-Instructor_speaking_to_students_in_classroom.jpg';
 const lead = internationalStories[0] ?? ltuStories[0];
 const side = internationalStories.filter((story: any) => story.url !== lead?.url).slice(0, 2);
 const latest = internationalStories.slice(0, 6);
-const ltuLatest = ltuStories.slice(0, 3);
 ---
 <BaseLayout>
   <div class="container">
@@ -113,30 +184,51 @@ const ltuLatest = ltuStories.slice(0, 3);
       <div class="section-more"><a href={link('news/')}>查看全部國際教育新聞 →</a></div>
     </section>
 
-    {ltuLatest.length > 0 && (
-      <section class="section ltu-news-section">
-        <div class="section-heading">
-          <h2>LTU 教育動態</h2>
-          <span class="muted">LTU Education · Programs · International Pathways</span>
+    <section class="section ltu-news-section" id="ltu-media-showcase">
+      <div class="section-heading">
+        <h2>LTU 教育動態・媒體報導</h2>
+        <span class="muted">每日輪播 3 則 · LTU Education · Media Coverage</span>
+      </div>
+
+      <div class="grid-3 ltu-rotating-grid" data-ltu-rotator>
+        {ltuMediaStories.map((story: any, index: number) => (
+          <article class="card story-card ltu-story-card ltu-media-card" data-ltu-card data-index={index} hidden={index >= 3}>
+            <a class="ltu-media-banner" href={story.url} target="_blank" rel="noopener noreferrer" aria-label={story.title}>
+              <span class="ltu-media-source">{story.source}</span>
+              <span class="ltu-media-mark">LTU OSSD</span>
+            </a>
+            <div class="card-content">
+              <div class="kicker">LTU · {story.category}</div>
+              <h3><a href={story.url} target="_blank" rel="noopener noreferrer">{story.title}</a></h3>
+              <p class="ltu-source-line">媒體來源：{story.source}</p>
+              <div class="card-meta">外部媒體報導 ↗</div>
+            </div>
+          </article>
+        ))}
+      </div>
+
+      <details class="ltu-more-reports">
+        <summary>其他更多媒體報導（共 {ltuMediaStories.length} 則）</summary>
+        <div class="ltu-more-list">
+          {ltuMediaStories.map((story: any) => (
+            <a href={story.url} target="_blank" rel="noopener noreferrer">
+              <span>{story.source}</span>
+              <strong>{story.title}</strong>
+              <b>↗</b>
+            </a>
+          ))}
         </div>
-        <div class="grid-3">
-          {ltuLatest.map((story: any) => {
-            const photo = getStoryImageInfo(story);
-            return (
-              <article class="card story-card ltu-story-card">
-                <a class="card-image" href={story.url}><img src={photo.url} alt={photo.alt} loading="lazy" referrerpolicy="no-referrer" /></a>
-                <div class="card-content">
-                  <div class="kicker">LTU · {story.category}</div>
-                  <h3><a href={story.url}>{story.title}</a></h3>
-                  <p>{story.description}</p>
-                  <div class="card-meta">{new Intl.DateTimeFormat('zh-TW').format(new Date(story.date))}</div>
-                </div>
-              </article>
-            );
-          })}
+      </details>
+
+      {ltuStories.length > 0 && (
+        <div class="ltu-site-latest">
+          <div class="kicker">GLOBAL EDUCATION NEWS · LTU</div>
+          {ltuStories.slice(0, 3).map((story: any) => (
+            <a href={story.url}>{story.title}</a>
+          ))}
         </div>
-      </section>
-    )}
+      )}
+    </section>
 
     <div class="taiwan-entry"><a href={link('topics/taiwan/')}>台灣國際教育新聞 → 進入台灣專區</a></div>
 
@@ -169,6 +261,24 @@ const ltuLatest = ltuStories.slice(0, 3);
       </div>
     </section>
   </div>
+
+  <script is:inline>
+    (() => {
+      const cards = Array.from(document.querySelectorAll('[data-ltu-card]'));
+      if (!cards.length) return;
+
+      const now = new Date();
+      const taipeiDay = Number(new Intl.DateTimeFormat('en-CA', {
+        timeZone: 'Asia/Taipei',
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit'
+      }).format(now).replaceAll('-', ''));
+      const start = taipeiDay % cards.length;
+      const visible = new Set([0, 1, 2].map((offset) => (start + offset) % cards.length));
+      cards.forEach((card, index) => { card.hidden = !visible.has(index); });
+    })();
+  </script>
 </BaseLayout>
 
 <style>
@@ -226,6 +336,91 @@ const ltuLatest = ltuStories.slice(0, 3);
   .ltu-story-card {
     background: rgba(255, 253, 248, .45);
   }
+  .ltu-media-card[hidden] { display: none; }
+  .ltu-media-banner {
+    display: flex;
+    min-height: 118px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    background: linear-gradient(135deg, #0b2848, #173c63);
+    border-bottom: 1px solid var(--line);
+    text-decoration: none;
+  }
+  .ltu-media-source {
+    color: #f5ead5;
+    font-family: Arial, "Noto Sans TC", sans-serif;
+    font-size: .73rem;
+    font-weight: 800;
+    letter-spacing: .12em;
+  }
+  .ltu-media-mark {
+    color: #e0b96f;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.8rem;
+    letter-spacing: .04em;
+  }
+  .ltu-source-line {
+    margin-bottom: 10px !important;
+    color: var(--muted);
+    font-size: .78rem !important;
+  }
+  .ltu-more-reports {
+    margin-top: 16px;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+  }
+  .ltu-more-reports summary {
+    padding: 13px 2px;
+    cursor: pointer;
+    color: var(--burgundy);
+    font-family: Arial, "Noto Sans TC", sans-serif;
+    font-size: .78rem;
+    font-weight: 800;
+  }
+  .ltu-more-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0 24px;
+    padding: 0 0 14px;
+  }
+  .ltu-more-list a {
+    display: grid;
+    grid-template-columns: 72px 1fr auto;
+    gap: 10px;
+    align-items: start;
+    padding: 10px 0;
+    border-top: 1px dotted var(--line);
+    color: inherit;
+    text-decoration: none;
+  }
+  .ltu-more-list span {
+    color: var(--burgundy);
+    font-family: Arial, "Noto Sans TC", sans-serif;
+    font-size: .66rem;
+    font-weight: 800;
+  }
+  .ltu-more-list strong {
+    font-family: Georgia, "Noto Serif TC", serif;
+    font-size: .82rem;
+    line-height: 1.45;
+  }
+  .ltu-more-list b { color: var(--burgundy); }
+  .ltu-site-latest {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px 16px;
+    margin-top: 14px;
+    padding-top: 12px;
+    border-top: 1px solid var(--line);
+  }
+  .ltu-site-latest .kicker { width: 100%; }
+  .ltu-site-latest a {
+    color: var(--muted);
+    font-family: Arial, "Noto Sans TC", sans-serif;
+    font-size: .72rem;
+  }
   .section-more,
   .taiwan-entry {
     margin-top: 18px;
@@ -238,7 +433,10 @@ const ltuLatest = ltuStories.slice(0, 3);
   }
   .section-more a,
   .taiwan-entry a { color: var(--burgundy); }
-  .taiwan-entry {
-    margin-bottom: 8px;
+  .taiwan-entry { margin-bottom: 8px; }
+
+  @media (max-width: 760px) {
+    .ltu-more-list { grid-template-columns: 1fr; }
+    .ltu-more-list a { grid-template-columns: 64px 1fr auto; }
   }
 </style>
