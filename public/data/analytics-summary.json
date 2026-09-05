@@ -1,6 +1,6 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-04T01:20:07.545Z",
+  "updatedAt": "2026-09-05T01:21:34.969Z",
   "period": "rolling-7-days",
   "popularArticles": [
     {
@@ -9,51 +9,51 @@
       "views": 7
     },
     {
+      "title": "香港大學 2027 Non-JUPAS 9月23日開放：國際資格申請與 Rolling Admissions 重點｜環球教育新聞 Global Education News",
+      "path": "/news/hku-2027-non-jupas-opens-september-23/",
+      "views": 7
+    },
+    {
       "title": "北市115學年度25名高中職學生赴美加交換一年：國際交換學生計畫啟程｜環球教育新聞 Global Education News",
       "path": "/news/taipei-student-exchange-us-canada-2026/",
       "views": 6
     },
     {
-      "title": "香港大學 2027 Non-JUPAS 9月23日開放：國際資格申請與 Rolling Admissions 重點｜環球教育新聞 Global Education News",
-      "path": "/news/hku-2027-non-jupas-opens-september-23/",
-      "views": 3
-    },
-    {
       "title": "工商時報報導 LTU OSSD 2026海外升學成果：錄取橫跨英美加澳日五國｜環球教育新聞 Global Education News",
       "path": "/news/ltu-ossd-2026-overseas-admissions-ctee/",
-      "views": 2
+      "views": 3
     },
     {
       "title": "教育部帶 20 名高中生赴澳洲 19 天共學：入班、國際論壇與 SDGs 成海外學習核心｜環球教育新聞 Global Education News",
       "path": "/news/taiwan-moe-australia-youth-colearning-2026/",
-      "views": 2
+      "views": 3
     }
   ],
   "countries": [
     {
       "name": "台灣",
-      "sessions": 125,
-      "share": 63.1
+      "sessions": 160,
+      "share": 63
     },
     {
       "name": "美國",
-      "sessions": 50,
-      "share": 25.3
+      "sessions": 61,
+      "share": 24
     },
     {
       "name": "香港",
-      "sessions": 3,
-      "share": 1.5
+      "sessions": 5,
+      "share": 2
     },
     {
       "name": "(not set)",
-      "sessions": 2,
-      "share": 1
+      "sessions": 3,
+      "share": 1.2
     },
     {
-      "name": "中國",
-      "sessions": 2,
-      "share": 1
+      "name": "加拿大",
+      "sessions": 3,
+      "share": 1.2
     }
   ]
 }
