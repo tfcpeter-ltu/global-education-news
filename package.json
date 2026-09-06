@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "node scripts/generate-scholarship-seed.mjs && astro dev",
     "build": "node scripts/generate-scholarship-seed.mjs && astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "db:init": "node scripts/init-membership-db.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.4.1",
