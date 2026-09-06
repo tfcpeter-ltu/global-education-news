@@ -5,6 +5,7 @@ on:
   push:
     paths:
       - '.github/workflows/update-readership.yml'
+      - 'scripts/update-ga4-summary.mjs'
   schedule:
     - cron: '15 1 * * *' # 09:15 Asia/Taipei
 
