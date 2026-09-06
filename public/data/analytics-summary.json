@@ -1,7 +1,8 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-06T01:21:12.488Z",
+  "updatedAt": "2026-09-06T02:15:25.056Z",
   "period": "rolling-7-days",
+  "audienceDisplay": "accumulating",
   "popularArticles": [
     {
       "title": "美國加強 CPT 實習規範執行：部分大學暫停特定申請，國際學生要注意什麼？｜環球教育新聞 Global Education News",
@@ -32,28 +33,63 @@
   "countries": [
     {
       "name": "台灣",
-      "sessions": 175,
-      "share": 61.6
+      "mapName": "Taiwan",
+      "sessions": 176,
+      "share": 61.5
     },
     {
       "name": "美國",
+      "mapName": "United States",
       "sessions": 69,
-      "share": 24.3
+      "share": 24.1
     },
     {
       "name": "香港",
+      "mapName": "Hong Kong",
       "sessions": 6,
       "share": 2.1
     },
     {
-      "name": "Sweden",
+      "name": "瑞典",
+      "mapName": "Sweden",
       "sessions": 5,
-      "share": 1.8
+      "share": 1.7
     },
     {
-      "name": "Ireland",
+      "name": "愛爾蘭",
+      "mapName": "Ireland",
       "sessions": 4,
       "share": 1.4
+    },
+    {
+      "name": "(not set)",
+      "mapName": "(not set)",
+      "sessions": 3,
+      "share": 1
+    },
+    {
+      "name": "加拿大",
+      "mapName": "Canada",
+      "sessions": 3,
+      "share": 1
+    },
+    {
+      "name": "德國",
+      "mapName": "Germany",
+      "sessions": 3,
+      "share": 1
+    },
+    {
+      "name": "印度",
+      "mapName": "India",
+      "sessions": 3,
+      "share": 1
+    },
+    {
+      "name": "英國",
+      "mapName": "United Kingdom",
+      "sessions": 3,
+      "share": 1
     }
   ]
 }
