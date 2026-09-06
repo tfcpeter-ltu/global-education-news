@@ -1,4 +1,7 @@
-module.exports = async function handler(req, res) {
-  res.setHeader('Content-Type','text/html; charset=utf-8');
-  res.status(200).send(`<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>付款結果｜AI Complete</title><style>body{font-family:system-ui,-apple-system,'Noto Sans TC',sans-serif;background:#f5f7fb;margin:0;padding:40px;color:#102a4c}.box{max-width:620px;margin:auto;background:#fff;border-radius:18px;padding:26px;box-shadow:0 12px 40px rgba(16,42,76,.08)}a{display:inline-block;margin-top:14px;background:#102a4c;color:#fff;text-decoration:none;padding:10px 14px;border-radius:10px;font-weight:800}</style></head><body><div class="box"><h1>付款結果處理中</h1><p>系統會以藍新的背景通知結果作為最終付款依據。會員權限只會在伺服器確認交易成功後啟用。</p><p>如果付款成功，正式版將在這裡顯示 AI Complete 方案與到期日。</p><a href="/cap-ai-preview/final-v15.html#upgradeV15">返回會員中心</a></div></body></html>`);
-};
+export default async function handler(req, res) {
+  const base = String(process.env.APP_BASE_URL || '').replace(/\/$/, '');
+  const target = `${base || ''}/cap-ai-preview/final-v16.html?payment=processing#upgradeV16`;
+  res.statusCode = 302;
+  res.setHeader('Location', target);
+  res.end();
+}
