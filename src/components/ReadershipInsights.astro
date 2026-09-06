@@ -36,7 +36,7 @@ const analyticsUrl = `${base}data/analytics-summary.json`;
           </div>
         </div>
       </div>
-      <p class="insights-note">資料來源：Google Analytics 4（GA4），顯示近 7 日彙整資料。地圖顏色深淺代表相對讀者量；不公開個別讀者資料。</p>
+      <p class="insights-note">資料來源：Google Analytics 4（GA4），顯示近 7 日彙整資料。地圖使用 Google GeoChart，藍色深淺代表相對讀者量；不公開個別讀者資料。</p>
     </div>
   </div>
 </section>
@@ -60,19 +60,21 @@ const analyticsUrl = `${base}data/analytics-summary.json`;
         countries.forEach((item) => rows.push([String(item.mapName || item.name || ''), Number(item.sessions || 0)]));
         const data = google.visualization.arrayToDataTable(rows);
         const chart = new google.visualization.GeoChart(target);
-        chart.draw(data, {
-          backgroundColor: 'transparent',
-          datalessRegionColor: '#e7e2d8',
-          defaultColor: '#d7e5f4',
-          colorAxis: { colors: ['#dceaf8', '#9ec5ea', '#4b8fd0', '#1f5d9b'] },
+        const options = {
+          backgroundColor: '#ffffff',
+          datalessRegionColor: '#f1f3f4',
+          defaultColor: '#d2e3fc',
+          colorAxis: { colors: ['#d2e3fc', '#8ab4f8', '#4285f4', '#1a73e8', '#174ea6'] },
           legend: 'none',
-          tooltip: { textStyle: { fontSize: 12 } },
+          tooltip: { textStyle: { fontSize: 12, color: '#202124' }, showColorCode: true },
           keepAspectRatio: true
-        });
-        window.addEventListener('resize', () => chart.draw(data, {
-          backgroundColor: 'transparent', datalessRegionColor: '#e7e2d8', defaultColor: '#d7e5f4',
-          colorAxis: { colors: ['#dceaf8', '#9ec5ea', '#4b8fd0', '#1f5d9b'] }, legend: 'none', keepAspectRatio: true
-        }), { passive: true });
+        };
+        chart.draw(data, options);
+        let resizeTimer;
+        window.addEventListener('resize', () => {
+          clearTimeout(resizeTimer);
+          resizeTimer = setTimeout(() => chart.draw(data, options), 120);
+        }, { passive: true });
       });
     }
 
@@ -141,10 +143,10 @@ const analyticsUrl = `${base}data/analytics-summary.json`;
 
   .audience-layout { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(260px, .75fr); gap: 24px; margin-top: 15px; align-items: start; }
   .geo-wrap { min-width: 0; }
-  .geo-map { width: 100%; min-height: 310px; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+  .geo-map { width: 100%; min-height: 310px; display: flex; align-items: center; justify-content: center; overflow: hidden; background: #fff; border: 1px solid #e8eaed; }
   .geo-map > div { width: 100% !important; }
-  .map-legend { display: flex; align-items: center; gap: 8px; margin-top: -4px; color: var(--muted); font-family: Arial, "Noto Sans TC", sans-serif; font-size: .62rem; }
-  .map-legend i { display: block; width: 100px; height: 5px; background: linear-gradient(90deg, #dceaf8, #1f5d9b); }
+  .map-legend { display: flex; align-items: center; gap: 8px; margin-top: 7px; color: #5f6368; font-family: Arial, "Noto Sans TC", sans-serif; font-size: .62rem; }
+  .map-legend i { display: block; width: 110px; height: 6px; background: linear-gradient(90deg, #d2e3fc, #8ab4f8, #4285f4, #1a73e8, #174ea6); }
   .country-ranking-title { margin-bottom: 9px; padding-bottom: 7px; border-bottom: 1px solid var(--line-dark); font-family: Arial, "Noto Sans TC", sans-serif; font-weight: 800; font-size: .68rem; letter-spacing: .12em; color: var(--burgundy); }
   .country-list { margin-top: 0; }
   .country-row { display: grid; grid-template-columns: 30px minmax(0, 1fr) 42px 48px; gap: 8px; align-items: baseline; padding: 7px 0; border-bottom: 1px solid var(--line); font-family: Arial, "Noto Sans TC", sans-serif; font-size: .72rem; }
