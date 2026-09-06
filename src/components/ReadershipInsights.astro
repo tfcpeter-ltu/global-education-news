@@ -103,9 +103,8 @@ const analyticsUrl = `${base}data/analytics-summary.json`;
         if (countryList && countries.length) {
           countryList.innerHTML = countries.map((item, index) => {
             const name = esc(item.name || '其他');
-            const sessions = Number(item.sessions || 0).toLocaleString('zh-TW');
             const share = Math.max(0, Math.min(100, Number(item.share || 0)));
-            return `<div class="country-row"><span class="country-rank">${String(index + 1).padStart(2, '0')}</span><span class="country-name">${name}</span><span class="country-sessions">${sessions}</span><strong class="country-share">${share.toFixed(1)}%</strong></div>`;
+            return `<div class="country-row"><span class="country-rank">${String(index + 1).padStart(2, '0')}</span><span class="country-name">${name}</span><strong class="country-share">${share.toFixed(1)}%</strong></div>`;
           }).join('');
         }
 
@@ -149,11 +148,10 @@ const analyticsUrl = `${base}data/analytics-summary.json`;
   .map-legend i { display: block; width: 110px; height: 6px; background: linear-gradient(90deg, #d2e3fc, #8ab4f8, #4285f4, #1a73e8, #174ea6); }
   .country-ranking-title { margin-bottom: 9px; padding-bottom: 7px; border-bottom: 1px solid var(--line-dark); font-family: Arial, "Noto Sans TC", sans-serif; font-weight: 800; font-size: .68rem; letter-spacing: .12em; color: var(--burgundy); }
   .country-list { margin-top: 0; }
-  .country-row { display: grid; grid-template-columns: 30px minmax(0, 1fr) 42px 48px; gap: 8px; align-items: baseline; padding: 7px 0; border-bottom: 1px solid var(--line); font-family: Arial, "Noto Sans TC", sans-serif; font-size: .72rem; }
+  .country-row { display: grid; grid-template-columns: 30px minmax(0, 1fr) auto; column-gap: 12px; align-items: baseline; padding: 7px 0; border-bottom: 1px solid var(--line); font-family: Arial, "Noto Sans TC", sans-serif; font-size: .72rem; }
   .country-rank { color: var(--muted); }
-  .country-name { min-width: 0; }
-  .country-sessions { text-align: right; color: var(--muted); }
-  .country-share { text-align: right; color: var(--burgundy); }
+  .country-name { min-width: 0; padding-right: 8px; }
+  .country-share { text-align: right; color: var(--burgundy); white-space: nowrap; }
   .insights-loading { padding: 18px 0 !important; color: var(--muted); font-family: Arial, "Noto Sans TC", sans-serif; font-size: .78rem; }
   .insights-note { margin: 17px 0 0; color: var(--muted); font-size: .72rem; line-height: 1.55; }
 
