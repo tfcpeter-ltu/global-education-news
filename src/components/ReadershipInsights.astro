@@ -5,7 +5,10 @@ const analyticsUrl = `${base}data/analytics-summary.json`;
 ---
 <section class="section readership-insights" data-analytics-url={analyticsUrl}>
   <div class="section-heading">
-    <h2>讀者數據</h2>
+    <div>
+      <h2>讀者數據</h2>
+      <p class="readership-status">累計瀏覽人數：<strong>資料累積中</strong></p>
+    </div>
     <span class="muted">READERSHIP INSIGHTS · GA4 AGGREGATED DATA</span>
   </div>
 
@@ -17,22 +20,61 @@ const analyticsUrl = `${base}data/analytics-summary.json`;
       </ol>
     </div>
 
-    <div class="insights-panel country-panel">
+    <div class="insights-panel audience-panel">
       <div class="kicker">AUDIENCE · 讀者來源國家／地區</div>
-      <div class="country-list" id="reader-countries">
-        <div class="insights-loading">資料累積中</div>
+      <div class="audience-layout">
+        <div class="geo-wrap">
+          <div id="reader-geo-map" class="geo-map" aria-label="讀者來源世界地圖">
+            <div class="insights-loading">讀者地圖載入中</div>
+          </div>
+          <div class="map-legend"><span>較少</span><i></i><span>較多</span></div>
+        </div>
+        <div class="country-ranking">
+          <div class="country-ranking-title">讀者來源 TOP 10</div>
+          <div class="country-list" id="reader-countries">
+            <div class="insights-loading">資料累積中</div>
+          </div>
+        </div>
       </div>
-      <p class="insights-note">僅顯示彙整後的前五大國家／地區，不公開個別讀者資料。</p>
+      <p class="insights-note">資料來源：Google Analytics 4（GA4），顯示近 7 日彙整資料。地圖顏色深淺代表相對讀者量；不公開個別讀者資料。</p>
     </div>
   </div>
 </section>
 
+<script is:inline src="https://www.gstatic.com/charts/loader.js"></script>
 <script is:inline>
   (() => {
     const root = document.querySelector('.readership-insights');
     if (!root) return;
     const url = root.getAttribute('data-analytics-url');
     if (!url) return;
+
+    const esc = (value) => String(value ?? '').replace(/[&<>"']/g, (char) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[char]));
+
+    function drawGeo(countries) {
+      const target = document.getElementById('reader-geo-map');
+      if (!target || !window.google?.charts) return;
+      google.charts.load('current', { packages: ['geochart'] });
+      google.charts.setOnLoadCallback(() => {
+        const rows = [['Country', 'Readers']];
+        countries.forEach((item) => rows.push([String(item.mapName || item.name || ''), Number(item.sessions || 0)]));
+        const data = google.visualization.arrayToDataTable(rows);
+        const chart = new google.visualization.GeoChart(target);
+        chart.draw(data, {
+          backgroundColor: 'transparent',
+          datalessRegionColor: '#e7e2d8',
+          defaultColor: '#d7e5f4',
+          colorAxis: { colors: ['#dceaf8', '#9ec5ea', '#4b8fd0', '#1f5d9b'] },
+          legend: 'none',
+          tooltip: { textStyle: { fontSize: 12 } },
+          keepAspectRatio: true
+        });
+        window.addEventListener('resize', () => chart.draw(data, {
+          backgroundColor: 'transparent', datalessRegionColor: '#e7e2d8', defaultColor: '#d7e5f4',
+          colorAxis: { colors: ['#dceaf8', '#9ec5ea', '#4b8fd0', '#1f5d9b'] }, legend: 'none', keepAspectRatio: true
+        }), { passive: true });
+      });
+    }
 
     fetch(url, { cache: 'no-store' })
       .then((response) => {
@@ -45,24 +87,27 @@ const analyticsUrl = `${base}data/analytics-summary.json`;
         const articleList = document.getElementById('popular-articles');
         const countryList = document.getElementById('reader-countries');
         const articles = Array.isArray(data.popularArticles) ? data.popularArticles.slice(0, 5) : [];
-        const countries = Array.isArray(data.countries) ? data.countries.slice(0, 5) : [];
+        const countries = Array.isArray(data.countries) ? data.countries.slice(0, 10) : [];
 
         if (articleList && articles.length) {
           articleList.innerHTML = articles.map((item, index) => {
-            const title = String(item.title || '未命名文章');
-            const path = String(item.path || '#');
+            const title = esc(item.title || '未命名文章');
+            const path = esc(item.path || '#');
             const views = Number(item.views || 0).toLocaleString('zh-TW');
             return `<li><span class="popular-rank">${String(index + 1).padStart(2, '0')}</span><a href="${path}">${title}</a><span class="popular-views">${views} views</span></li>`;
           }).join('');
         }
 
         if (countryList && countries.length) {
-          countryList.innerHTML = countries.map((item) => {
-            const name = String(item.name || '其他');
+          countryList.innerHTML = countries.map((item, index) => {
+            const name = esc(item.name || '其他');
+            const sessions = Number(item.sessions || 0).toLocaleString('zh-TW');
             const share = Math.max(0, Math.min(100, Number(item.share || 0)));
-            return `<div class="country-row"><div class="country-meta"><span>${name}</span><strong>${share.toFixed(1)}%</strong></div><div class="country-bar"><span style="width:${share}%"></span></div></div>`;
+            return `<div class="country-row"><span class="country-rank">${String(index + 1).padStart(2, '0')}</span><span class="country-name">${name}</span><span class="country-sessions">${sessions}</span><strong class="country-share">${share.toFixed(1)}%</strong></div>`;
           }).join('');
         }
+
+        if (countries.length) drawGeo(countries);
       })
       .catch(() => {});
   })();
@@ -70,14 +115,17 @@ const analyticsUrl = `${base}data/analytics-summary.json`;
 
 <style>
   .readership-insights { border-top: 3px double var(--line-dark); }
+  .section-heading { align-items: end; }
+  .readership-status { margin: 4px 0 0; font-size: .78rem; color: var(--muted); }
+  .readership-status strong { color: var(--burgundy); font-weight: 700; }
   .insights-grid {
     display: grid;
-    grid-template-columns: 1.18fr .82fr;
+    grid-template-columns: .78fr 1.22fr;
     border-top: 1px solid var(--line);
     border-bottom: 1px solid var(--line-dark);
   }
   .insights-panel { padding: 22px 28px 25px 0; }
-  .country-panel { padding-left: 28px; padding-right: 0; border-left: 1px solid var(--line-dark); }
+  .audience-panel { padding-left: 28px; padding-right: 0; border-left: 1px solid var(--line-dark); }
   .popular-list { list-style: none; margin: 13px 0 0; padding: 0; }
   .popular-list li {
     display: grid;
@@ -87,42 +135,34 @@ const analyticsUrl = `${base}data/analytics-summary.json`;
     padding: 11px 0;
     border-bottom: 1px solid var(--line);
   }
-  .popular-rank {
-    font-family: Georgia, serif;
-    font-size: 1.08rem;
-    color: var(--burgundy);
-  }
+  .popular-rank { font-family: Georgia, serif; font-size: 1.08rem; color: var(--burgundy); }
   .popular-list a { font-size: .98rem; line-height: 1.42; font-weight: 700; }
-  .popular-views {
-    font-family: Arial, "Noto Sans TC", sans-serif;
-    font-size: .64rem;
-    color: var(--muted);
-    white-space: nowrap;
-  }
-  .country-list { margin-top: 18px; }
-  .country-row { margin-bottom: 14px; }
-  .country-meta {
-    display: flex;
-    justify-content: space-between;
-    gap: 18px;
-    margin-bottom: 5px;
-    font-family: Arial, "Noto Sans TC", sans-serif;
-    font-size: .76rem;
-  }
-  .country-meta strong { color: var(--burgundy); }
-  .country-bar { height: 4px; background: var(--soft); overflow: hidden; }
-  .country-bar span { display: block; height: 100%; background: var(--navy); }
-  .insights-loading {
-    padding: 18px 0 !important;
-    color: var(--muted);
-    font-family: Arial, "Noto Sans TC", sans-serif;
-    font-size: .78rem;
-  }
+  .popular-views { font-family: Arial, "Noto Sans TC", sans-serif; font-size: .64rem; color: var(--muted); white-space: nowrap; }
+
+  .audience-layout { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(260px, .75fr); gap: 24px; margin-top: 15px; align-items: start; }
+  .geo-wrap { min-width: 0; }
+  .geo-map { width: 100%; min-height: 310px; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+  .geo-map > div { width: 100% !important; }
+  .map-legend { display: flex; align-items: center; gap: 8px; margin-top: -4px; color: var(--muted); font-family: Arial, "Noto Sans TC", sans-serif; font-size: .62rem; }
+  .map-legend i { display: block; width: 100px; height: 5px; background: linear-gradient(90deg, #dceaf8, #1f5d9b); }
+  .country-ranking-title { margin-bottom: 9px; padding-bottom: 7px; border-bottom: 1px solid var(--line-dark); font-family: Arial, "Noto Sans TC", sans-serif; font-weight: 800; font-size: .68rem; letter-spacing: .12em; color: var(--burgundy); }
+  .country-list { margin-top: 0; }
+  .country-row { display: grid; grid-template-columns: 30px minmax(0, 1fr) 42px 48px; gap: 8px; align-items: baseline; padding: 7px 0; border-bottom: 1px solid var(--line); font-family: Arial, "Noto Sans TC", sans-serif; font-size: .72rem; }
+  .country-rank { color: var(--muted); }
+  .country-name { min-width: 0; }
+  .country-sessions { text-align: right; color: var(--muted); }
+  .country-share { text-align: right; color: var(--burgundy); }
+  .insights-loading { padding: 18px 0 !important; color: var(--muted); font-family: Arial, "Noto Sans TC", sans-serif; font-size: .78rem; }
   .insights-note { margin: 17px 0 0; color: var(--muted); font-size: .72rem; line-height: 1.55; }
-  @media (max-width: 760px) {
+
+  @media (max-width: 980px) {
     .insights-grid { grid-template-columns: 1fr; }
     .insights-panel { padding: 20px 0; }
-    .country-panel { padding-left: 0; border-left: 0; border-top: 1px solid var(--line-dark); }
+    .audience-panel { padding-left: 0; border-left: 0; border-top: 1px solid var(--line-dark); }
+  }
+  @media (max-width: 720px) {
+    .audience-layout { grid-template-columns: 1fr; }
+    .geo-map { min-height: 240px; }
     .popular-list li { grid-template-columns: 30px minmax(0, 1fr); }
     .popular-views { grid-column: 2; }
   }
