@@ -1,16 +1,21 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-05T01:21:34.969Z",
+  "updatedAt": "2026-09-06T01:21:12.488Z",
   "period": "rolling-7-days",
   "popularArticles": [
     {
-      "title": "最新國際教育新聞",
-      "path": "/news/",
-      "views": 7
+      "title": "美國加強 CPT 實習規範執行：部分大學暫停特定申請，國際學生要注意什麼？｜環球教育新聞 Global Education News",
+      "path": "/news/us-cpt-internship-enforcement-2026/",
+      "views": 12
     },
     {
       "title": "香港大學 2027 Non-JUPAS 9月23日開放：國際資格申請與 Rolling Admissions 重點｜環球教育新聞 Global Education News",
       "path": "/news/hku-2027-non-jupas-opens-september-23/",
+      "views": 8
+    },
+    {
+      "title": "最新國際教育新聞",
+      "path": "/news/",
       "views": 7
     },
     {
@@ -22,38 +27,33 @@
       "title": "工商時報報導 LTU OSSD 2026海外升學成果：錄取橫跨英美加澳日五國｜環球教育新聞 Global Education News",
       "path": "/news/ltu-ossd-2026-overseas-admissions-ctee/",
       "views": 3
-    },
-    {
-      "title": "教育部帶 20 名高中生赴澳洲 19 天共學：入班、國際論壇與 SDGs 成海外學習核心｜環球教育新聞 Global Education News",
-      "path": "/news/taiwan-moe-australia-youth-colearning-2026/",
-      "views": 3
     }
   ],
   "countries": [
     {
       "name": "台灣",
-      "sessions": 160,
-      "share": 63
+      "sessions": 175,
+      "share": 61.6
     },
     {
       "name": "美國",
-      "sessions": 61,
-      "share": 24
+      "sessions": 69,
+      "share": 24.3
     },
     {
       "name": "香港",
+      "sessions": 6,
+      "share": 2.1
+    },
+    {
+      "name": "Sweden",
       "sessions": 5,
-      "share": 2
+      "share": 1.8
     },
     {
-      "name": "(not set)",
-      "sessions": 3,
-      "share": 1.2
-    },
-    {
-      "name": "加拿大",
-      "sessions": 3,
-      "share": 1.2
+      "name": "Ireland",
+      "sessions": 4,
+      "share": 1.4
     }
   ]
 }
