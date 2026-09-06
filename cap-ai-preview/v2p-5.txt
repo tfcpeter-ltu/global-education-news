@@ -1,0 +1,8 @@
+1])[0]?.[0]||'—')+'</td><td>'+((x.lastActivity||'').slice(0,10)||'—')+'</td><td>'+(ina(x)?'30天未活動':x.status||'active')+'</td><td><button class="miniBtn" onclick="toggleStudent(\\''+x.id+'\\')">'+(x.status==='suspended'?'恢復':'停權')+'</button> <button class="miniBtn danger" onclick="deleteStudent(\\''+x.id+'\\')">刪除</button></td></tr>').join(''):'<tr><td colspan="8">目前沒有符合條件的學生</td></tr>'}
+function toggleStudent(id){let ss=JSON.parse(localStorage.getItem(KS)||'[]'),x=ss.find(s=>s.id===id);if(!x)return;x.status=x.status==='suspended'?'active':'suspended';localStorage.setItem(KS,JSON.stringify(ss));renderAdmin()}
+function deleteStudent(id){if(!confirm('確定刪除此學生目前的學習資料？'))return;localStorage.setItem(KS,JSON.stringify(JSON.parse(localStorage.getItem(KS)||'[]').filter(s=>s.id!==id)));renderAdmin()}
+function releaseInactive(){let ss=JSON.parse(localStorage.getItem(KS)||'[]'),now=Date.now(),n=0;ss.forEach(x=>{if(now-new Date(x.lastActivity||0)>30*864e5&&x.status!=='suspended'){x.status='suspended';n++}});localStorage.setItem(KS,JSON.stringify(ss));alert('已停權 '+n+' 個 30 天未活動帳號。');renderAdmin()}
+function exportAdmin(){let ss=JSON.parse(localStorage.getItem(KS)||'[]'),csv='學生,學校,路徑,方案,最後活動,狀態\\n'+ss.map(x=>[x.nick||x.name,x.school||'',x.track||'',x.plan||'',x.lastActivity||'',x.status||'active'].join(',')).join('\\n'),b=new Blob(['\\ufeff'+csv],{type:'text/csv;charset=utf-8'}),a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='cap-ai-students.csv';a.click()}
+const oldRenderAll=renderAll;renderAll=function(){oldRenderAll();renderNotesPage();renderArchives();renderAdmin()};renderAll();`;
+d.body.appendChild(patch);
+});
