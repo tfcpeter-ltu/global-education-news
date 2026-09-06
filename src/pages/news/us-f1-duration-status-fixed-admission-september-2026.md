@@ -1,8 +1,9 @@
 ---
 layout: '../../layouts/ArticleLayout.astro'
 title: '美國 F-1 身分 9 月 15 日重大改制：取消 D/S、改採固定入境停留期限'
-description: '美國國土安全部最終規則預定自 2026 年 9 月 15 日生效，F-1 學生與 J-1 交流訪客將不再以 Duration of Status（D/S）作為主要停留框架，改以 I-94 固定到期日管理；單次入境許可原則上依課程期限、最長不超過 4 年。'
+description: '美國國土安全部最終規則預定自 2026 年 9 月 15 日生效，F-1 學生與 J-1 交流訪客將不再以 Duration of Status（D/S）作為主要停留框架；9 月 3 日聯邦法院已就暫時阻止規則生效的聲請進行言詞辯論，目前尚待裁定。'
 date: 2026-09-02T08:00:00+08:00
+updated: 2026-09-06T08:08:00+08:00
 author: 'LTU Global Education News 編輯部'
 category: '美國留學政策'
 topic: 'us'
@@ -17,10 +18,16 @@ sources:
     url: 'https://internationaloffice.berkeley.edu/news/dhs-policy-update-end-duration-status-ds-f-and-j-nonimmigrants'
   - label: 'Harvard International Office｜2026 D/S Rule Change（updated 2026-08-19）'
     url: 'https://www.hio.harvard.edu/visas-immigration/ds-rule-change'
+  - label: 'NAFSA｜Statement: Court Hearing on DHS Rule Ending Duration of Status（2026-09-03）'
+    url: 'https://www.nafsa.org/about/about-nafsa/statement-court-hearing-dhs-rule-ending-duration-status-international-students'
+  - label: 'Times of India｜US court hears challenge to rule ending Duration of Status（2026-09-04）'
+    url: 'https://timesofindia.indiatimes.com/nri/us-canada-news/us-court-hears-challenge-to-trump-administration-rule-ending-duration-of-status-for-international-students/articleshow/133763484.cms'
 ---
 美國國際學生身分管理將迎來重大變化。美國國土安全部（DHS）已發布最終規則，預定自 **2026 年 9 月 15 日**起，將 F 類學生、J 類交流訪客及 I 類外國媒體人員由長年使用的 **Duration of Status（D/S）** 框架，改為具有明確到期日的固定停留期間。
 
 這項規則不是單純「把學生簽證改成四年」。它改變的是學生入境後的 **合法停留期間與延期程序**。對準備赴美、正在美國就學，或未來可能轉學、升學、延長課程與申請實習的學生，都需要重新理解 I-94 到期日的重要性。
+
+> **9 月 6 日更新：**美國麻薩諸塞州聯邦地方法院已於 **9 月 3 日**就原告要求暫時阻止規則生效的 preliminary injunction 聲請進行言詞辯論。NAFSA 與獨立媒體報導均確認聽證已完成；截至目前公開資訊，法院尚未作出是否暫停 9 月 15 日新制的裁定。因此，申請人仍應依「9 月 15 日可能如期生效」準備，不應自行假設訴訟已使規則停止。
 
 ## 最重要的改變：I-94 將出現固定到期日
 
@@ -46,11 +53,15 @@ UC Berkeley 對最終規則的整理指出，對 9 月 15 日後依新制入境�
 
 因此，正在規劃「大學畢業後直接念研究所」、「轉校」、「改主修」、「延長畢業時間」或 OPT／STEM OPT 的學生，應在作決定前先向學校的 DSO／International Student Office 核對個案時程，不宜只依過去 D/S 制度的經驗處理。
 
-## 規則目前仍預定 9 月 15 日生效，但訴訟仍在進行
+## 9 月 3 日法院已開庭，現在等裁定
 
-多個高等教育組織已對此規則提出法律挑戰。Harvard 的 8 月 19 日更新指出，訴訟本身當時尚未使規則停止生效；近期美國各大學國際學生辦公室仍以 **9 月 15 日**作為預定生效日發布指引。
+由 NAFSA、Presidents’ Alliance on Higher Education and Immigration 等高等教育與工會組織組成的原告團體，已向麻薩諸塞州聯邦地方法院提告，主張 DHS 最終規則涉及 Administrative Procedure Act 等法律問題，並要求法院在案件審理期間先發布 preliminary injunction。
 
-因此，準備 9 月赴美或近期要出入境的台灣學生，現階段應按照「9 月 15 日新制可能如期實施」的前提做好準備，同時持續確認法院與 DHS 是否在生效日前發布新的命令或延後通知。
+NAFSA 9 月 3 日的第一手聲明確認，聯邦法院當天已就此案進行 oral argument。Times of India 其後報導亦指出，法院當時**尚未發布裁定**。
+
+這一點對學生很重要：**法院開庭不等於規則已被停止。** 只有法院正式發布具有法律效力的 injunction、stay 或其他命令，或 DHS／Federal Register 另行改變生效安排，才會改變目前 9 月 15 日的時程。
+
+因此，準備近期赴美或進出美國的台灣學生，現階段仍應按照新制可能如期實施的前提做好準備，同時持續確認法院與 DHS 是否在生效日前發布新的命令。
 
 ## 對台灣學生與家長的影響
 
