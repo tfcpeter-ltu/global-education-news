@@ -50,7 +50,7 @@ export default async function handler(req,res){
           locale:'zh-TW',
           user_action:'PAY_NOW',
           return_url:`${base}/api/paypal/return`,
-          cancel_url:`${base}/api/paypal/cancel`
+          cancel_url:`${base}/cap-ai-preview/final-v18.html#paypal-cancelled`
         }
       })
     });
