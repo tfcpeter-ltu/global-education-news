@@ -72,9 +72,10 @@ export default async function handler(req, res) {
       ReturnURL: `${base}/api/newebpay/return`,
       NotifyURL: `${base}/api/newebpay/notify`,
       ClientBackURL: `${base}/cap-ai-preview/final-v17.html#upgradeV16`,
-      CREDIT: '1',
       WEBATM: '1',
       VACC: '1',
+      CVS: '1',
+      BARCODE: '1',
       Email: user.email
     });
 
@@ -93,7 +94,8 @@ export default async function handler(req, res) {
         ? `${NEWEBPAY_MERCHANT_ID.slice(0,3)}***${NEWEBPAY_MERCHANT_ID.slice(-3)}`
         : '***',
       orderNo,
-      amount: selected.amount
+      amount: selected.amount,
+      paymentMethods: ['WEBATM','VACC','CVS','BARCODE']
     });
 
     res.setHeader('Content-Type','text/html; charset=utf-8');
