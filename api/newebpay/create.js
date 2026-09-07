@@ -16,12 +16,25 @@ function htmlEscape(v='') {
   return String(v).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
 
+function cleanEnv(name) {
+  return String(process.env[name] || '').trim();
+}
+
 export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).send('Method Not Allowed');
 
-  const { NEWEBPAY_MERCHANT_ID, NEWEBPAY_HASH_KEY, NEWEBPAY_HASH_IV, APP_BASE_URL, NEWEBPAY_MODE } = process.env;
+  const NEWEBPAY_MERCHANT_ID = cleanEnv('NEWEBPAY_MERCHANT_ID');
+  const NEWEBPAY_HASH_KEY = cleanEnv('NEWEBPAY_HASH_KEY');
+  const NEWEBPAY_HASH_IV = cleanEnv('NEWEBPAY_HASH_IV');
+  const APP_BASE_URL = cleanEnv('APP_BASE_URL');
+  const NEWEBPAY_MODE = cleanEnv('NEWEBPAY_MODE').toLowerCase();
+
   if (!NEWEBPAY_MERCHANT_ID || !NEWEBPAY_HASH_KEY || !NEWEBPAY_HASH_IV || !APP_BASE_URL || !process.env.DATABASE_URL) {
     return res.status(503).json({ ok:false, error:'PAYMENT_NOT_CONFIGURED' });
+  }
+
+  if (NEWEBPAY_HASH_KEY.length !== 32 || NEWEBPAY_HASH_IV.length !== 16) {
+    return res.status(503).json({ ok:false, error:'INVALID_NEWEBPAY_KEY_LENGTH' });
   }
 
   const user = await requireUser(req, res);
@@ -68,6 +81,17 @@ export default async function handler(req, res) {
     const gateway = NEWEBPAY_MODE === 'production'
       ? 'https://core.newebpay.com/MPG/mpg_gateway'
       : 'https://ccore.newebpay.com/MPG/mpg_gateway';
+
+    console.log('NewebPay checkout prepared', {
+      mode: NEWEBPAY_MODE || 'test',
+      gateway,
+      merchantIdLength: NEWEBPAY_MERCHANT_ID.length,
+      merchantIdMasked: NEWEBPAY_MERCHANT_ID.length > 6
+        ? `${NEWEBPAY_MERCHANT_ID.slice(0,3)}***${NEWEBPAY_MERCHANT_ID.slice(-3)}`
+        : '***',
+      orderNo,
+      amount: selected.amount
+    });
 
     res.setHeader('Content-Type','text/html; charset=utf-8');
     return res.status(200).send(`<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><title>前往安全付款</title></head><body><p>正在前往藍新金流安全付款頁…</p><form id="pay" method="POST" action="${gateway}">
