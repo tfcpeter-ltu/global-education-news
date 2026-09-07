@@ -1,0 +1,12 @@
+{
+  "name": "cap-english-ai-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-ui.mjs"
+  },
+  "dependencies": {
+    "pg": "^8.16.3"
+  }
+}
