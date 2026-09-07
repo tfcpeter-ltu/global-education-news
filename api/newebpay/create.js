@@ -20,6 +20,8 @@ function cleanEnv(name) {
   return String(process.env[name] || '').trim();
 }
 
+const MPG_VERSION = '2.0';
+
 export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).send('Method Not Allowed');
 
@@ -62,7 +64,7 @@ export default async function handler(req, res) {
       MerchantID: NEWEBPAY_MERCHANT_ID,
       RespondType: 'JSON',
       TimeStamp: String(stamp),
-      Version: '2.3',
+      Version: MPG_VERSION,
       MerchantOrderNo: orderNo,
       Amt: String(selected.amount),
       ItemDesc: selected.item,
@@ -84,6 +86,7 @@ export default async function handler(req, res) {
 
     console.log('NewebPay checkout prepared', {
       mode: NEWEBPAY_MODE || 'test',
+      version: MPG_VERSION,
       gateway,
       merchantIdLength: NEWEBPAY_MERCHANT_ID.length,
       merchantIdMasked: NEWEBPAY_MERCHANT_ID.length > 6
@@ -98,7 +101,7 @@ export default async function handler(req, res) {
       <input type="hidden" name="MerchantID" value="${htmlEscape(NEWEBPAY_MERCHANT_ID)}">
       <input type="hidden" name="TradeInfo" value="${htmlEscape(tradeInfo)}">
       <input type="hidden" name="TradeSha" value="${htmlEscape(tradeSha)}">
-      <input type="hidden" name="Version" value="2.3">
+      <input type="hidden" name="Version" value="${MPG_VERSION}">
     </form><script>document.getElementById('pay').submit()</script></body></html>`);
   } catch (err) {
     console.error('NewebPay create error', err);
