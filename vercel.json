@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/cap-ai-preview/final-v17.html",
+      "permanent": false
+    }
+  ]
+}
