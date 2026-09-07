@@ -29,8 +29,8 @@ export default async function handler(req, res) {
 
   const plan = String(req.body?.plan || '').toLowerCase();
   const plans = {
-    monthly: { amount:999, days:30, item:'AI Complete 月繳 30 天' },
-    annual:  { amount:9999, days:365, item:'AI Complete 年繳 365 天' }
+    monthly: { amount:1500, days:30, item:'AI Complete 月繳 30 天' },
+    annual:  { amount:15000, days:365, item:'AI Complete 年繳 365 天' }
   };
   const selected = plans[plan];
   if (!selected) return res.status(400).json({ ok:false, error:'INVALID_PLAN' });
@@ -56,7 +56,7 @@ export default async function handler(req, res) {
       LoginType: '0',
       ReturnURL: `${base}/api/newebpay/return`,
       NotifyURL: `${base}/api/newebpay/notify`,
-      ClientBackURL: `${base}/cap-ai-preview/final-v16.html#upgradeV16`,
+      ClientBackURL: `${base}/cap-ai-preview/final-v17.html#upgradeV16`,
       CREDIT: '1',
       WEBATM: '1',
       VACC: '1',
