@@ -4,6 +4,7 @@
   "cleanUrls": true,
   "rewrites": [
     { "source": "/api/practice/:path*", "destination": "/api/practice?practiceRoute=:path*" },
+    { "source": "/api/notebook/:path*", "destination": "/api/notebook?notebookRoute=:path*" },
     { "source": "/api/:path*", "destination": "/api/index?route=:path*" }
   ]
 }
