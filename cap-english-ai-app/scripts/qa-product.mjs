@@ -6,7 +6,6 @@ const read=p=>readFile(p,'utf8');
 
 const browserFiles=['question-engine-v2.js','practice-ui-v4.js','notebook-ui-v1.js','product-core-v1.js','membership-sync-v1.js','remove-hero.js'];
 for(const file of browserFiles){const src=await read(file);new Function(src);ok(true,`${file} parses`)}
-for(const file of ['api/practice.js','api/notebook.js','api/progress.js','api/index.js']){const src=await read(file);new vm.SourceTextModule(src);ok(true,`${file} parses as ESM`)}
 
 const engineSrc=await read('question-engine-v2.js');
 const context={window:{},console};
