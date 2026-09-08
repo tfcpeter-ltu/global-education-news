@@ -2,7 +2,7 @@ import { mkdir, writeFile, readFile } from 'node:fs/promises';
 
 const base='https://raw.githubusercontent.com/tfcpeter-ltu/global-education-news/cap-ai-preview/cap-ai-preview/';
 const files=['final-v3.html'];
-const cache='20260909-membership-merged-v2';
+const cache='20260909-membership-rootfix-v1';
 await mkdir('public',{recursive:true});
 for(const file of files){
   const r=await fetch(base+file+'?v='+cache);
@@ -18,4 +18,4 @@ await writeFile('public/index.html',index,'utf8');
 
 const complete=`<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>AI Complete 會員中心｜CAP English AI</title><meta name="robots" content="noindex,nofollow"><style>.membermain{max-width:1180px;margin:auto;padding:0 18px 60px}section{scroll-margin-top:72px}</style></head><body><main class="membermain"><div id="completePortal"></div><section id="weekly" class="cpSection"><h2>Weekly Mock</h2></section><section id="history" class="cpSection"><h2>歷屆題</h2></section><section id="analysis" class="cpSection"><h2>弱點分析</h2></section></main><script src="/question-engine-v2.js?v=${cache}"></script><script src="/practice-ui-v4.js?v=${cache}"></script><script src="/notebook-ui-v2.js?v=${cache}"></script><script src="/auth-ui-v2.js?v=${cache}"></script><script src="/product-core-v1.js?v=${cache}"></script><script src="/complete-portal-v1.js?v=${cache}"></script><script src="/membership-sync-v1.js?v=${cache}"></script></body></html>`;
 await writeFile('public/complete.html',complete,'utf8');
-console.log('CAP English AI built: membership merged v2 + public sample preview + dedicated paid Complete member portal');
+console.log('CAP English AI built: root-fixed single membership section + public sample preview + dedicated paid Complete member portal');
