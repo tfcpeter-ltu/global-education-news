@@ -6,7 +6,14 @@ function db(){if(!pool)pool=new Pool({connectionString:process.env.DATABASE_URL,
 async function q(t,p=[]){return db().query(t,p)}
 function cookies(req){const raw=req.headers.cookie||'';return Object.fromEntries(raw.split(';').map(x=>x.trim()).filter(Boolean).map(p=>{const i=p.indexOf('=');return [decodeURIComponent(i<0?p:p.slice(0,i)),decodeURIComponent(i<0?'':p.slice(i+1))]}))}
 function tokenHash(t){return crypto.createHash('sha256').update(t).digest('hex')}
-async function user(req){const t=cookies(req).cap_ai_session;if(!t)return null;const {rows}=await q(`SELECT u.id,COALESCE(m.plan,'free') plan,COALESCE(m.status,'active') status FROM sessions s JOIN users u ON u.id=s.user_id LEFT JOIN memberships m ON m.user_id=u.id WHERE s.token_hash=$1 AND s.expires_at>NOW() LIMIT 1`,[tokenHash(t)]);return rows[0]||null}
+async function user(req){
+  const t=cookies(req).cap_ai_session;if(!t)return null;
+  const {rows}=await q(`SELECT u.id,COALESCE(m.plan,'free') plan,COALESCE(m.status,'active') status,m.expires_at,
+    CASE WHEN m.plan='complete' AND m.status='active' AND (m.expires_at IS NULL OR m.expires_at>NOW()) THEN true ELSE false END complete
+    FROM sessions s JOIN users u ON u.id=s.user_id LEFT JOIN memberships m ON m.user_id=u.id
+    WHERE s.token_hash=$1 AND s.expires_at>NOW() LIMIT 1`,[tokenHash(t)]);
+  return rows[0]||null
+}
 async function schema(){
   await q(`CREATE TABLE IF NOT EXISTS practice_attempts(id BIGSERIAL PRIMARY KEY,user_id UUID NOT NULL REFERENCES users(id) ON DELETE CASCADE,question_id TEXT NOT NULL,question_type TEXT NOT NULL,competency TEXT,grammar_focus TEXT,correct BOOLEAN NOT NULL,selected_index INT,answered_at TIMESTAMPTZ NOT NULL DEFAULT NOW())`);
   await q(`CREATE INDEX IF NOT EXISTS practice_attempts_user_time_idx ON practice_attempts(user_id,answered_at DESC)`);
@@ -26,13 +33,13 @@ export default async function handler(req,res){try{
   const u=await user(req);
   if(!u)return res.status(401).json({ok:false,error:'AUTH_REQUIRED'});
   const route=String(req.query.practiceRoute||'').replace(/^\/+|\/+$/g,'');
-  const complete=u.plan==='complete'&&u.status==='active';
+  const complete=Boolean(u.complete);
 
   if(route==='profile'&&req.method==='GET'){
-    if(!complete)return res.json({ok:true,complete:false,seen:[],weakness:[]});
-    const seen=(await q(`SELECT question_id,MAX(answered_at) last_seen FROM practice_attempts WHERE user_id=$1 GROUP BY question_id ORDER BY last_seen DESC LIMIT 5000`,[u.id])).rows.map(r=>r.question_id);
+    const seen=(await q(`SELECT question_id,MAX(answered_at) last_seen FROM practice_attempts WHERE user_id=$1 GROUP BY question_id ORDER BY last_seen DESC LIMIT 20000`,[u.id])).rows.map(r=>r.question_id);
+    if(!complete)return res.json({ok:true,complete:false,seen,weakness:[],features:{dailyLimit:3,longTermWeakness:false,notebook:false,weeklyMock:false,archiveTracking:false}});
     const weakness=(await q(`SELECT skill,weight::float,wrong_count,correct_count,updated_at FROM practice_weakness WHERE user_id=$1 ORDER BY weight DESC,updated_at DESC`,[u.id])).rows;
-    return res.json({ok:true,complete:true,seen,weakness});
+    return res.json({ok:true,complete:true,seen,weakness,features:{dailyCore:10,extraPractice:true,longTermWeakness:true,notebook:true,weeklyMock:true,archiveTracking:true}});
   }
 
   if(route==='free-status'&&req.method==='GET'){
@@ -51,12 +58,13 @@ export default async function handler(req,res){try{
   }
 
   if(route==='answer'&&req.method==='POST'){
-    if(!complete)return res.json({ok:true,persisted:false});
     const b=req.body||{},questionId=String(b.questionId||'').trim(),type=String(b.type||'').trim(),skill=String(b.competency||type||'general').trim(),grammar=String(b.grammarFocus||'').trim(),correct=Boolean(b.correct),sel=Number.isInteger(b.selectedIndex)?b.selectedIndex:null;
-    if(!questionId||!type)return res.status(400).json({ok:false,error:'INVALID_ANSWER'});
+    if(!questionId||!type||!/^LTU-CAP-\d{5}$/.test(questionId))return res.status(400).json({ok:false,error:'INVALID_ANSWER'});
     await q(`INSERT INTO practice_attempts(user_id,question_id,question_type,competency,grammar_focus,correct,selected_index) VALUES($1,$2,$3,$4,$5,$6,$7)`,[u.id,questionId,type,skill,grammar||null,correct,sel]);
-    await q(`INSERT INTO practice_weakness(user_id,skill,weight,wrong_count,correct_count) VALUES($1,$2,$3,$4,$5) ON CONFLICT(user_id,skill) DO UPDATE SET weight=GREATEST(0,practice_weakness.weight+$3),wrong_count=practice_weakness.wrong_count+$4,correct_count=practice_weakness.correct_count+$5,updated_at=NOW()`,[u.id,skill,correct?-0.35:1.0,correct?0:1,correct?1:0]);
-    return res.json({ok:true,persisted:true});
+    if(complete){
+      await q(`INSERT INTO practice_weakness(user_id,skill,weight,wrong_count,correct_count) VALUES($1,$2,$3,$4,$5) ON CONFLICT(user_id,skill) DO UPDATE SET weight=GREATEST(0,practice_weakness.weight+$3),wrong_count=practice_weakness.wrong_count+$4,correct_count=practice_weakness.correct_count+$5,updated_at=NOW()`,[u.id,skill,correct?-0.35:1.0,correct?0:1,correct?1:0]);
+    }
+    return res.json({ok:true,persisted:true,complete,learningModelUpdated:complete});
   }
 
   return res.status(404).json({ok:false,error:'NOT_FOUND'});
