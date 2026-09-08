@@ -5,6 +5,9 @@
   "cleanUrls": true,
   "ignoreCommand": "git diff --quiet HEAD^ HEAD -- . ../cap-ai-preview",
   "rewrites": [
+    { "source": "/api/auth/me", "destination": "/api/auth-me" },
+    { "source": "/api/paypal/:path*", "destination": "/api/payment?provider=paypal&paymentRoute=:path*" },
+    { "source": "/api/newebpay/:path*", "destination": "/api/payment?provider=newebpay&paymentRoute=:path*" },
     { "source": "/api/practice/:path*", "destination": "/api/practice?practiceRoute=:path*" },
     { "source": "/api/notebook/:path*", "destination": "/api/notebook?notebookRoute=:path*" },
     { "source": "/api/progress/:path*", "destination": "/api/progress?progressRoute=:path*" },
