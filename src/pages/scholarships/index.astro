@@ -24,29 +24,58 @@ const statusClass = (status = '') => status.includes('開放中') ? 'open' : sta
 <BaseLayout title="台灣國際獎學金雷達｜100+ 全球獎學金資料庫" description={description}>
   <main class="scholarship-page">
     <section class="editorial-hero">
-      <div class="ornament ornament-left" aria-hidden="true">⚜</div>
-      <div class="ornament ornament-right" aria-hidden="true">⚜</div>
+      <div class="ornament ornament-left" aria-hidden="true">✦</div>
+      <div class="ornament ornament-right" aria-hidden="true">✦</div>
+      <div class="academic-margin margin-left" aria-hidden="true">SCHOLARSHIPS<br/>FELLOWSHIPS<br/>RESEARCH<br/>MOBILITY</div>
+      <div class="academic-margin margin-right" aria-hidden="true">OXFORD<br/>CAMBRIDGE<br/>PARIS<br/>ZÜRICH</div>
       <div class="hero-inner">
         <div class="hero-copy">
-          <div class="eyebrow">GLOBAL EDUCATION NEWS <span>✦</span> SCHOLARSHIP DESK</div>
+          <div class="eyebrow">GLOBAL EDUCATION NEWS <span>◆</span> EUROPEAN SCHOLARSHIP REVIEW</div>
           <h1>台灣國際獎學金雷達</h1>
           <p class="hero-subtitle">{scholarships.length}+ 全球獎學金資料庫 <span>｜</span> 每天更新 3 則</p>
-          <p class="hero-description">從台灣學生的視角，整理全球獎學金、政府補助與國際大學資助機會。先確認官方來源、台灣資格與截止日，再把值得行動的資訊送到你面前。</p>
+          <p class="hero-description">從台灣學生的視角，整理全球獎學金、政府補助、研究資助與國際大學機會。以官方來源、台灣資格與截止日為核心，建立可以長期搜尋與追蹤的國際升學資料庫。</p>
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#all-opportunities"><span>⚜</span> 立即查看獎學金</a>
-            <a class="btn btn-outline" href="#taiwan-programs">台灣政府計畫</a>
-            <a class="btn btn-outline" href="#today-picks">今日 3 則</a>
+            <a class="btn btn-primary" href="#all-opportunities"><span>▤</span> 立即查看獎學金</a>
+            <a class="btn btn-outline" href="#taiwan-programs">台灣官方補助</a>
+            <a class="btn btn-outline" href="#today-picks">今日精選</a>
           </div>
-          <div class="edition-line"><span>TAIPEI</span><i></i><span>PARISIAN EDITORIAL EDITION</span><i></i><span>{today}</span></div>
+          <div class="edition-line"><span>TAIPEI</span><i></i><span>OXFORD · CAMBRIDGE · PARIS · ZÜRICH</span><i></i><span>{today}</span></div>
         </div>
 
         <aside class="stat-panel" aria-label="獎學金雷達統計">
-          <div class="stat-item"><span class="stat-icon">◎</span><strong>{scholarships.length}+</strong><small>全球機會</small></div>
-          <div class="stat-item"><span class="stat-icon">⚑</span><strong>{countryCount}+</strong><small>國家與地區</small></div>
-          <div class="stat-item"><span class="stat-icon">◷</span><strong>Daily 3</strong><small>每日更新</small></div>
-          <div class="stat-item"><span class="stat-icon">◇</span><strong>Verified</strong><small>官方查核</small></div>
-          <div class="panel-watermark" aria-hidden="true">PARIS</div>
+          <div class="stat-heading">BY THE NUMBERS</div>
+          <div class="stat-item"><span class="stat-icon">◎</span><strong>{scholarships.length}+</strong><small>全球機會</small><em>SCHOLARSHIPS</em></div>
+          <div class="stat-item"><span class="stat-icon">▥</span><strong>{countryCount}+</strong><small>國家與地區</small><em>COUNTRIES</em></div>
+          <div class="stat-item"><span class="stat-icon">◷</span><strong>Daily 3</strong><small>每日更新</small><em>CURATED DAILY</em></div>
+          <div class="stat-item"><span class="stat-icon">◇</span><strong>Verified</strong><small>官方查核</small><em>EDITORIAL REVIEW</em></div>
+          <div class="panel-watermark" aria-hidden="true">ACADEMIA</div>
         </aside>
+      </div>
+    </section>
+
+    <section class="search-section" aria-label="獎學金搜尋與篩選">
+      <div class="section-shell">
+        <div class="archive-heading">
+          <span>SEARCH THE SCHOLARSHIP ARCHIVE</span>
+          <strong>搜尋全球獎學金資料庫</strong>
+          <p>輸入獎學金名稱、學校、國家或關鍵字，再依學位、補助與申請狀態縮小範圍。</p>
+        </div>
+        <div class="search-panel">
+          <label class="search-box">
+            <span class="search-icon" aria-hidden="true">⌕</span>
+            <span class="search-copy">
+              <span class="search-caption">SCHOLARSHIP · UNIVERSITY · COUNTRY · KEYWORD</span>
+              <input id="scholarship-search" type="search" placeholder="搜尋獎學金、學校、國家或關鍵字…" autocomplete="off" />
+            </span>
+          </label>
+          <div class="filter-grid">
+            <label class="select-box"><span>◎</span><select id="country-filter" aria-label="國家"><option value="all">國家／地區</option>{countries.map((country: any) => <option value={country}>{country}</option>)}</select></label>
+            <label class="select-box"><span>🎓</span><select id="level-filter" aria-label="學位"><option value="all">學位層級</option><option value="大學">大學</option><option value="學士">學士</option><option value="碩士">碩士</option><option value="博士">博士</option><option value="研究">研究</option></select></label>
+            <label class="select-box"><span>◇</span><select id="funding-filter" aria-label="補助類型"><option value="all">補助類型</option><option value="全額">全額</option><option value="學費">學費</option><option value="生活">生活費</option><option value="部分">部分補助</option></select></label>
+            <label class="select-box"><span>♢</span><select id="status-filter" aria-label="狀態"><option value="all">申請狀態</option><option value="開放中">開放中</option><option value="即將開放">即將開放</option><option value="下一輪">下一輪追蹤</option><option value="年度">年度制</option></select></label>
+            <button id="clear-filters" class="clear-btn" type="button">↻ 清除篩選</button>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -54,10 +83,10 @@ const statusClass = (status = '') => status.includes('開放中') ? 'open' : sta
       <div class="section-shell">
         <div class="section-title-row">
           <div>
-            <div class="eyebrow dark">TODAY'S PICKS</div>
+            <div class="eyebrow dark">EDITOR'S SELECTION</div>
             <h2>今日精選</h2>
           </div>
-          <div class="section-date">{today} · 每日查核</div>
+          <div class="section-date">{today} · Curated &amp; Verified</div>
         </div>
 
         <div class="spotlight-grid">
@@ -71,9 +100,9 @@ const statusClass = (status = '') => status.includes('開放中') ? 'open' : sta
               <h3><a href={item.url}>{item.title}</a></h3>
               <p>{item.description}</p>
               <div class="spotlight-meta">
-                <div><span>補助</span><strong>{item.funding}</strong></div>
-                <div><span>學位</span><strong>{item.level}</strong></div>
-                <div><span>截止</span><strong>{item.deadline}</strong></div>
+                <div><span>FUNDING · 補助</span><strong>{item.funding}</strong></div>
+                <div><span>LEVEL · 學位</span><strong>{item.level}</strong></div>
+                <div><span>DEADLINE · 截止</span><strong>{item.deadline}</strong></div>
               </div>
               <div class="spotlight-footer">
                 <span class="tw-check">✓ 台灣學生：{item.eligibilityTW}</span>
@@ -85,39 +114,23 @@ const statusClass = (status = '') => status.includes('開放中') ? 'open' : sta
       </div>
     </section>
 
-    <section class="search-section" aria-label="獎學金搜尋與篩選">
-      <div class="section-shell">
-        <div class="search-panel">
-          <label class="search-box">
-            <span aria-hidden="true">⌕</span>
-            <input id="scholarship-search" type="search" placeholder="搜尋獎學金、學校、國家或關鍵字…" autocomplete="off" />
-          </label>
-          <label class="select-box"><span>◎</span><select id="country-filter" aria-label="國家"><option value="all">國家</option>{countries.map((country: any) => <option value={country}>{country}</option>)}</select></label>
-          <label class="select-box"><span>🎓</span><select id="level-filter" aria-label="學位"><option value="all">學位</option><option value="大學">大學</option><option value="學士">學士</option><option value="碩士">碩士</option><option value="博士">博士</option><option value="研究">研究</option></select></label>
-          <label class="select-box"><span>◇</span><select id="funding-filter" aria-label="補助類型"><option value="all">補助類型</option><option value="全額">全額</option><option value="學費">學費</option><option value="生活">生活費</option><option value="部分">部分補助</option></select></label>
-          <label class="select-box"><span>♢</span><select id="status-filter" aria-label="狀態"><option value="all">狀態</option><option value="開放中">開放中</option><option value="即將開放">即將開放</option><option value="下一輪">下一輪追蹤</option><option value="年度">年度制</option></select></label>
-          <button id="clear-filters" class="clear-btn" type="button">↻ 清除篩選</button>
-        </div>
-      </div>
-    </section>
-
     <section id="taiwan-programs" class="taiwan-programs">
-      <div class="taiwan-watermark left" aria-hidden="true">TO THE WORLD</div>
+      <div class="taiwan-watermark left" aria-hidden="true">MOBILITY</div>
       <div class="taiwan-watermark right" aria-hidden="true">TAIWAN</div>
       <div class="section-shell">
         <div class="center-heading">
-          <div class="french-kicker">From Taiwan to the World</div>
-          <h2>台灣學生不可錯過的官方補助</h2>
-          <p>從教育部學海系列到公費留學與青年海外圓夢，把台灣本地可用的國際資源一起納入規劃。</p>
+          <div class="french-kicker">TAIWAN FUNDING &amp; MOBILITY PROGRAMMES</div>
+          <h2>從台灣出發，走向世界</h2>
+          <p>從教育部學海系列到公費留學與青年海外圓夢，把台灣本地可用的國際資源納入同一套升學與研究規劃。</p>
         </div>
         <div class="program-pills">
           <a href="https://www.studyabroad.moe.gov.tw/new/index.php/" target="_blank" rel="noopener noreferrer"><span>✈</span>學海飛颺</a>
           <a href="https://www.studyabroad.moe.gov.tw/new/index.php/" target="_blank" rel="noopener noreferrer"><span>◇</span>學海惜珠</a>
-          <a href="https://www.studyabroad.moe.gov.tw/new/index.php/" target="_blank" rel="noopener noreferrer"><span>◎</span>學海築夢</a>
+          <a href="https://www.studyabroad.moe.gov.tw/new/index.php/" target="_blank" rel="noopener noreferrer"><span>▤</span>學海築夢</a>
           <a href="https://www.studyabroad.moe.gov.tw/new/index.php/" target="_blank" rel="noopener noreferrer"><span>✦</span>新南向學海築夢</a>
           <a href="https://twpathfinder.yda.gov.tw/" target="_blank" rel="noopener noreferrer"><span>↗</span>青年百億海外圓夢</a>
           <a href="https://www.scholarship.moe.gov.tw/scholarship" target="_blank" rel="noopener noreferrer"><span>🎓</span>留學獎學金</a>
-          <a href="https://www.scholarship.moe.gov.tw/exam-v2/student/login" target="_blank" rel="noopener noreferrer"><span>▤</span>公費留學</a>
+          <a href="https://www.scholarship.moe.gov.tw/exam-v2/student/login" target="_blank" rel="noopener noreferrer"><span>▥</span>公費留學</a>
         </div>
       </div>
     </section>
@@ -126,9 +139,9 @@ const statusClass = (status = '') => status.includes('開放中') ? 'open' : sta
       <div class="section-shell">
         <div class="catalog-heading">
           <div>
-            <div class="eyebrow dark">EXPLORE THE ARCHIVE</div>
+            <div class="eyebrow dark">THE SCHOLARSHIP ARCHIVE</div>
             <h2>探索全部獎學金</h2>
-            <p>Scholarships · Fellowships · Grants · Global Opportunities</p>
+            <p>Scholarships · Fellowships · Research Funding · International Mobility</p>
           </div>
           <div class="result-summary"><strong id="result-count">{scholarships.length}</strong><span>個符合條件的機會</span></div>
         </div>
@@ -170,14 +183,14 @@ const statusClass = (status = '') => status.includes('開放中') ? 'open' : sta
     <section class="verification-section">
       <div class="section-shell verification-grid">
         <div>
-          <div class="eyebrow">EDITORIAL STANDARD</div>
-          <h2>獎學金資訊，也需要新聞編輯室的查核標準。</h2>
+          <div class="eyebrow">EDITORIAL &amp; VERIFICATION STANDARD</div>
+          <h2>獎學金資料庫，也採用新聞編輯室的查核標準。</h2>
         </div>
         <div class="verification-steps">
-          <div><span>01</span><p><strong>官方原始來源</strong><br />政府、大學、基金會或主辦單位。</p></div>
-          <div><span>02</span><p><strong>第二來源交叉確認</strong><br />FAQ、招生頁、官方窗口或可靠來源。</p></div>
-          <div><span>03</span><p><strong>台灣資格確認</strong><br />國籍、居住地、學位與申請方式。</p></div>
-          <div><span>04</span><p><strong>截止日持續追蹤</strong><br />開放、延期、截止與下一年度更新。</p></div>
+          <div><span>01</span><p><strong>Official Source</strong><br />政府、大學、基金會或主辦單位原始公告。</p></div>
+          <div><span>02</span><p><strong>Cross-check</strong><br />FAQ、招生頁、官方窗口或可靠來源。</p></div>
+          <div><span>03</span><p><strong>Taiwan Eligibility</strong><br />國籍、居住地、學位與申請方式。</p></div>
+          <div><span>04</span><p><strong>Deadline Tracking</strong><br />開放、延期、截止與下一年度更新。</p></div>
         </div>
       </div>
     </section>
@@ -235,28 +248,30 @@ const statusClass = (status = '') => status.includes('開放中') ? 'open' : sta
 
 <style>
   :global(html){scroll-behavior:smooth}
-  .scholarship-page{--ink:#102a4c;--navy:#071f3d;--navy2:#0d3159;--gold:#b98a45;--gold2:#d5b06f;--ivory:#fbf8f1;--paper:#f6f0e5;--burgundy:#7d1f2d;--green:#2f7b4f;--line:#ded2bc;background:var(--ivory);color:#1b2b42;font-family:"Noto Serif TC",Georgia,"Times New Roman",serif}
+  .scholarship-page{--ink:#112b4c;--navy:#071d38;--navy2:#0d3155;--gold:#a97936;--gold2:#d1ad6a;--ivory:#fbf8f0;--paper:#f3ecdf;--burgundy:#7a2632;--green:#2f754d;--line:#d8cab1;background:var(--ivory);color:#1f3047;font-family:"Noto Serif TC",Georgia,"Times New Roman",serif}
   .section-shell,.hero-inner{width:min(1280px,calc(100% - 40px));margin:0 auto}
-  .editorial-hero{position:relative;overflow:hidden;padding:58px 0 52px;background:radial-gradient(circle at 15% 20%,rgba(185,138,69,.09),transparent 22%),linear-gradient(180deg,#fffdf8 0%,#f7f0e4 100%);border-top:1px solid #d9c8a9;border-bottom:1px solid #d9c8a9}
-  .editorial-hero:before,.editorial-hero:after{content:"";position:absolute;inset:12px;border:1px solid rgba(185,138,69,.22);pointer-events:none}.editorial-hero:after{inset:18px;border-color:rgba(185,138,69,.08)}
-  .ornament{position:absolute;top:16px;color:var(--gold);font-size:1.2rem;z-index:2}.ornament-left{left:24px}.ornament-right{right:24px;transform:scaleX(-1)}
-  .hero-inner{position:relative;z-index:1;display:grid;grid-template-columns:1.08fr .92fr;gap:46px;align-items:center}
-  .eyebrow{font-family:Arial,"Noto Sans TC",sans-serif;font-size:.72rem;letter-spacing:.19em;font-weight:800;color:var(--gold);text-transform:uppercase}.eyebrow span{padding:0 7px}.eyebrow.dark{color:#8d6a34}
-  .hero-copy h1{margin:13px 0 10px;color:var(--ink);font-size:clamp(2.65rem,5.1vw,5rem);font-weight:700;letter-spacing:.035em;line-height:1.08;text-wrap:balance}
-  .hero-subtitle{margin:0;color:var(--burgundy);font-size:clamp(1.05rem,2vw,1.45rem);font-weight:700;letter-spacing:.04em}.hero-subtitle span{color:#b39462;padding:0 6px}
-  .hero-description{max-width:690px;margin:18px 0 0;color:#54514b;font-size:1rem;line-height:1.9}
-  .hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:25px}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:0 19px;border:1px solid #cbaa71;text-decoration:none;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.84rem;font-weight:800;letter-spacing:.04em;transition:.2s ease}.btn-primary{background:var(--burgundy);border-color:var(--burgundy);color:white;box-shadow:0 6px 18px rgba(86,25,33,.14)}.btn-primary:hover{background:#651923}.btn-outline{background:rgba(255,255,255,.45);color:#6a4b20}.btn-outline:hover{background:white}
-  .edition-line{display:flex;align-items:center;gap:10px;margin-top:24px;color:#927954;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.62rem;letter-spacing:.13em}.edition-line i{display:block;width:34px;height:1px;background:#c7ae83}
-  .stat-panel{position:relative;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));min-height:250px;padding:24px 14px;background:linear-gradient(135deg,#081f3b,#0c3159);border:1px solid var(--gold2);box-shadow:inset 0 0 0 6px #0b294d,inset 0 0 0 7px rgba(213,176,111,.35),0 18px 40px rgba(7,31,61,.12);overflow:hidden}.stat-panel:before,.stat-panel:after{content:"✦";position:absolute;color:var(--gold2);font-size:.65rem;top:12px}.stat-panel:before{left:14px}.stat-panel:after{right:14px}
-  .stat-item{position:relative;z-index:1;min-width:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:12px 8px;border-right:1px dotted rgba(213,176,111,.55)}.stat-item:last-of-type{border-right:0}.stat-icon{color:var(--gold2);font-size:1.7rem}.stat-item strong{display:block;max-width:100%;margin:10px 0 5px;color:#ddb66f;font-family:Georgia,"Times New Roman",serif;font-size:clamp(1.45rem,2vw,2.4rem);font-weight:500;line-height:1.05;letter-spacing:-.02em;white-space:nowrap}.stat-item small{color:#f2eadf;font-size:.82rem;letter-spacing:.04em;white-space:nowrap}.panel-watermark{position:absolute;right:-8px;bottom:-16px;color:rgba(255,255,255,.035);font-family:Georgia,serif;font-size:5rem;letter-spacing:.08em;transform:rotate(-90deg);transform-origin:bottom right}
-  .editorial-section{padding:50px 0}.today-section{background:#fffdf9}.section-title-row,.catalog-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:23px;padding-bottom:13px;border-bottom:1px solid #d8c7a9;position:relative}.section-title-row:after,.catalog-heading:after{content:"⚜";position:absolute;left:0;bottom:-10px;padding-right:8px;background:#fffdf9;color:var(--gold);font-size:.8rem}.section-title-row h2,.catalog-heading h2,.center-heading h2,.verification-grid h2{margin:5px 0 0;color:var(--ink);font-size:clamp(1.8rem,3vw,2.7rem);font-weight:700;letter-spacing:.04em}.section-date{color:#8a7961;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.75rem;letter-spacing:.05em}
-  .spotlight-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.spotlight-card{position:relative;overflow:hidden;padding:22px 22px 18px;background:linear-gradient(180deg,#fff 0%,#fbf7ef 100%);border:1px solid #d9cdb9;box-shadow:0 9px 26px rgba(47,44,36,.05)}.spotlight-card:after{content:"";position:absolute;left:-35px;bottom:-45px;width:150px;height:110px;border:1px solid rgba(17,43,75,.06);border-radius:50%;box-shadow:20px -12px 0 rgba(17,43,75,.02);transform:rotate(-12deg)}
-  .spotlight-top,.catalog-top,.spotlight-footer,.catalog-bottom{display:flex;align-items:center;justify-content:space-between;gap:12px}.country-line{display:inline-flex;align-items:center;gap:8px;color:#775f3e;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.75rem;font-weight:800}.country-line b{font-size:1.25rem}.status-pill,.status-dot{font-family:Arial,"Noto Sans TC",sans-serif;font-size:.68rem;font-weight:800;border:1px solid;padding:5px 8px}.status-pill.open,.status-dot.open{color:#2d6f47;border-color:#7eb08c;background:#f1faf3}.status-pill.soon,.status-dot.soon{color:#8a631f;border-color:#d7b46f;background:#fff9eb}.status-pill.watch,.status-dot.watch{color:#6f6b65;border-color:#c8c1b7;background:#f6f3ee}
-  .spotlight-type{margin-top:15px;color:#a37a3a;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.65rem;font-weight:800;letter-spacing:.1em}.spotlight-card h3{margin:7px 0 9px;font-size:1.32rem;line-height:1.45}.spotlight-card h3 a,.catalog-card h3 a{color:var(--ink);text-decoration:none}.spotlight-card h3 a:hover,.catalog-card h3 a:hover{color:var(--burgundy)}.spotlight-card>p{margin:0;color:#68625a;font-size:.88rem;line-height:1.75;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.spotlight-meta{display:grid;grid-template-columns:1.15fr .75fr 1fr;gap:10px;margin:18px 0 16px;padding:14px 0;border-top:1px solid #e3d8c6;border-bottom:1px solid #e3d8c6}.spotlight-meta span{display:block;color:#9b835f;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.62rem}.spotlight-meta strong{display:block;margin-top:4px;color:#283d59;font-size:.78rem;line-height:1.45}.spotlight-footer{position:relative;z-index:2}.tw-check{color:#4b7458;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.69rem;font-weight:700}.spotlight-footer a{color:var(--burgundy);font-family:Arial,"Noto Sans TC",sans-serif;font-size:.72rem;font-weight:800;text-decoration:none}
-  .search-section{padding:0 0 38px;background:#fffdf9}.search-panel{display:grid;grid-template-columns:minmax(360px,2.25fr) repeat(4,minmax(120px,.7fr)) auto;gap:10px;padding:16px;background:#f7f1e6;border:1px solid #d6c3a2;box-shadow:0 10px 28px rgba(54,46,34,.045)}.search-box,.select-box{display:flex;align-items:center;gap:10px;background:white}.search-box{min-height:64px;padding:0 18px;border:1.5px solid #caa86e;box-shadow:0 7px 18px rgba(62,50,31,.07);transition:border-color .2s ease,box-shadow .2s ease,background .2s ease}.search-box:focus-within{border-color:#b98a45;box-shadow:0 0 0 4px rgba(185,138,69,.12),0 9px 22px rgba(62,50,31,.08);background:#fffefb}.select-box{min-height:48px;padding:0 14px;border:1px solid #ddd2bf}.search-box>span{color:#9a6f35;font-size:1.45rem;line-height:1;transform:translateY(-1px)}.select-box span{color:#9b753e}.search-box input{width:100%;border:0;outline:0;background:transparent;color:#183552;font-family:Arial,"Noto Sans TC",sans-serif;font-size:1.12rem;font-weight:600;letter-spacing:.01em}.search-box input::placeholder{color:#766f65;opacity:1;font-size:1.05rem;font-weight:500}.select-box select{width:100%;border:0;outline:0;background:transparent;color:#31445d;font:inherit;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.79rem;appearance:auto}.clear-btn{min-height:48px;padding:0 16px;border:1px solid #d5c4a8;background:#fffaf1;color:#8c6d3f;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.76rem;font-weight:800;cursor:pointer}
-  .taiwan-programs{position:relative;overflow:hidden;padding:48px 0 44px;background:linear-gradient(180deg,#f7f1e7 0%,#fffaf2 100%);border-top:1px solid #deceb3;border-bottom:1px solid #deceb3}.center-heading{text-align:center;position:relative;z-index:1}.french-kicker{color:#a27436;font-family:Georgia,"Times New Roman",serif;font-size:1.12rem;letter-spacing:.13em}.center-heading p{max-width:780px;margin:12px auto 0;color:#6f665a;font-size:.87rem;line-height:1.75}.program-pills{position:relative;z-index:1;display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:26px}.program-pills a{display:inline-flex;align-items:center;gap:9px;min-height:46px;padding:0 18px;background:rgba(255,255,255,.7);border:1px solid #d7bd8d;color:#183552;text-decoration:none;font-size:.8rem;font-weight:700;box-shadow:0 5px 14px rgba(91,75,47,.03)}.program-pills a span{color:#a77b3d;font-size:1rem}.program-pills a:hover{background:white;border-color:#b98a45}.taiwan-watermark{position:absolute;color:rgba(13,49,89,.035);font-family:Georgia,serif;font-size:5rem;letter-spacing:.08em}.taiwan-watermark.left{left:-25px;bottom:-6px}.taiwan-watermark.right{right:-15px;top:20px}
-  .catalog-section{background:#fffdf9}.catalog-heading p{margin:8px 0 0;color:#a28661;font-family:Georgia,serif;font-size:.82rem;letter-spacing:.08em}.result-summary{display:flex;align-items:flex-end;gap:8px}.result-summary strong{color:var(--burgundy);font-family:Georgia,serif;font-size:2.2rem;font-weight:500}.result-summary span{padding-bottom:6px;color:#806e56;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.72rem}.catalog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.catalog-card{display:flex;flex-direction:column;min-height:275px;padding:19px;background:#fff;border:1px solid #ded3c1;box-shadow:0 7px 20px rgba(49,43,32,.035)}.catalog-card[hidden]{display:none}.catalog-card h3{margin:13px 0 10px;font-size:1.02rem;line-height:1.5}.catalog-tags{display:flex;flex-wrap:wrap;gap:6px}.catalog-tags span{padding:4px 7px;background:#f7f0e4;color:#816841;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.62rem}.catalog-card dl{margin:15px 0 17px;padding-top:12px;border-top:1px solid #ece4d8}.catalog-card dl>div{display:grid;grid-template-columns:42px 1fr;gap:8px;margin:7px 0}.catalog-card dt{color:#a0845b;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.65rem}.catalog-card dd{margin:0;color:#45556a;font-size:.72rem;line-height:1.45}.catalog-bottom{margin-top:auto;padding-top:12px;border-top:1px solid #eee6da}.catalog-bottom span{color:#4b7458;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.64rem}.catalog-bottom a{color:var(--burgundy);font-family:Arial,"Noto Sans TC",sans-serif;font-size:.69rem;font-weight:800;text-decoration:none}.load-row{text-align:center;margin-top:26px}.load-row button{min-width:230px;min-height:46px;border:1px solid #b99257;background:#fffaf1;color:#7d6038;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.78rem;font-weight:800;cursor:pointer}.load-row button:hover{background:#f7efe1}.load-row button[hidden]{display:none}
-  .verification-section{padding:52px 0;background:var(--navy);color:white;border-top:4px double #b98a45}.verification-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:50px;align-items:start}.verification-grid h2{color:white;line-height:1.45}.verification-steps{display:grid;grid-template-columns:repeat(2,1fr);gap:0;border-top:1px solid rgba(213,176,111,.35);border-left:1px solid rgba(213,176,111,.35)}.verification-steps>div{display:grid;grid-template-columns:44px 1fr;gap:8px;padding:18px;border-right:1px solid rgba(213,176,111,.35);border-bottom:1px solid rgba(213,176,111,.35)}.verification-steps span{color:#dcb46f;font-family:Georgia,serif;font-size:1.15rem}.verification-steps p{margin:0;color:#dce5ee;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.76rem;line-height:1.6}.verification-steps strong{color:white}
-  @media(max-width:1100px){.hero-inner{grid-template-columns:1fr}.stat-panel{min-height:210px}.search-panel{grid-template-columns:1fr 1fr 1fr}.search-box{grid-column:1/-1}.catalog-grid{grid-template-columns:repeat(2,1fr)}}
-  @media(max-width:760px){.section-shell,.hero-inner{width:min(100% - 24px,1280px)}.editorial-hero{padding:42px 0 36px}.editorial-hero:before{inset:7px}.editorial-hero:after{display:none}.hero-copy h1{font-size:2.45rem}.hero-subtitle{font-size:1rem;line-height:1.6}.hero-description{font-size:.9rem}.edition-line{display:none}.stat-panel{grid-template-columns:repeat(2,1fr);padding:10px}.stat-item{min-height:120px;border-bottom:1px dotted rgba(213,176,111,.4)}.stat-item:nth-child(2){border-right:0}.spotlight-grid,.catalog-grid,.verification-grid{grid-template-columns:1fr}.search-panel{grid-template-columns:1fr 1fr}.search-box,.clear-btn{grid-column:1/-1}.search-box{min-height:60px}.search-box input{font-size:1.02rem}.search-box input::placeholder{font-size:.98rem}.section-title-row,.catalog-heading{align-items:flex-start;flex-direction:column}.spotlight-meta{grid-template-columns:1fr}.program-pills{display:grid;grid-template-columns:1fr 1fr}.program-pills a{justify-content:center;padding:0 10px;text-align:center}.verification-steps{grid-template-columns:1fr}.taiwan-watermark{display:none}}
+  .editorial-hero{position:relative;overflow:hidden;padding:68px 0 58px;background:linear-gradient(90deg,rgba(17,43,76,.025) 1px,transparent 1px),linear-gradient(rgba(17,43,76,.018) 1px,transparent 1px),radial-gradient(circle at 12% 12%,rgba(169,121,54,.10),transparent 24%),linear-gradient(180deg,#fffdf8 0%,#f5ede0 100%);background-size:28px 28px,28px 28px,auto,auto;border-top:3px double #b9945a;border-bottom:3px double #b9945a}
+  .editorial-hero:before{content:"";position:absolute;inset:12px;border:1px solid rgba(169,121,54,.28);pointer-events:none}.editorial-hero:after{content:"ACADEMIA · EUROPA";position:absolute;right:38px;bottom:12px;color:rgba(17,43,76,.055);font-family:Georgia,serif;font-size:1rem;letter-spacing:.28em}
+  .ornament{position:absolute;top:20px;color:var(--gold);font-size:.92rem;z-index:2}.ornament-left{left:28px}.ornament-right{right:28px}
+  .academic-margin{position:absolute;top:50%;z-index:0;color:rgba(17,43,76,.13);font-family:Georgia,serif;font-size:.58rem;line-height:1.8;letter-spacing:.20em;writing-mode:vertical-rl;transform:translateY(-50%)}.margin-left{left:18px}.margin-right{right:18px}
+  .hero-inner{position:relative;z-index:1;display:grid;grid-template-columns:1.04fr .96fr;gap:48px;align-items:center}
+  .eyebrow{font-family:Arial,"Noto Sans TC",sans-serif;font-size:.70rem;letter-spacing:.20em;font-weight:800;color:var(--gold);text-transform:uppercase}.eyebrow span{padding:0 7px}.eyebrow.dark{color:#806235}
+  .hero-copy h1{margin:14px 0 10px;color:var(--ink);font-size:clamp(2.7rem,5vw,4.9rem);font-weight:700;letter-spacing:.05em;line-height:1.08;text-wrap:balance}
+  .hero-subtitle{margin:0;color:var(--burgundy);font-size:clamp(1.05rem,2vw,1.42rem);font-weight:700;letter-spacing:.055em}.hero-subtitle span{color:#b39462;padding:0 7px}
+  .hero-description{max-width:700px;margin:20px 0 0;color:#55534e;font-size:1rem;line-height:1.95}
+  .hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 20px;border:1px solid #c6a36a;text-decoration:none;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.84rem;font-weight:800;letter-spacing:.04em;transition:.2s ease}.btn-primary{background:var(--navy);border-color:var(--gold2);color:white;box-shadow:inset 0 0 0 3px #0b294a,0 7px 18px rgba(8,30,56,.15)}.btn-primary:hover{background:#0c3155}.btn-primary span{color:#ddb96f;margin-right:5px}.btn-outline{background:rgba(255,255,255,.62);color:#684d29}.btn-outline:hover{background:white}
+  .edition-line{display:flex;align-items:center;gap:10px;margin-top:25px;color:#8c7655;font-family:Georgia,"Times New Roman",serif;font-size:.62rem;letter-spacing:.14em}.edition-line i{display:block;width:42px;height:1px;background:#c4aa7d}
+  .stat-panel{position:relative;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));min-height:280px;padding:48px 14px 22px;background:linear-gradient(135deg,#071d38,#0d3155);border:1px solid var(--gold2);box-shadow:inset 0 0 0 6px #0b294a,inset 0 0 0 7px rgba(209,173,106,.38),0 18px 42px rgba(7,29,56,.14);overflow:hidden}.stat-heading{position:absolute;top:18px;left:50%;transform:translateX(-50%);color:#d5b470;font-family:Georgia,serif;font-size:.68rem;letter-spacing:.28em;white-space:nowrap}.stat-heading:before,.stat-heading:after{content:"";position:absolute;top:50%;width:58px;height:1px;background:rgba(209,173,106,.45)}.stat-heading:before{right:calc(100% + 14px)}.stat-heading:after{left:calc(100% + 14px)}
+  .stat-item{position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:12px 8px;border-right:1px dotted rgba(209,173,106,.52)}.stat-item:last-of-type{border-right:0}.stat-icon{color:var(--gold2);font-size:1.7rem}.stat-item strong{display:block;margin:10px 0 5px;color:#deb96f;font-family:Georgia,"Times New Roman",serif;font-size:clamp(1.38rem,2vw,2.3rem);font-weight:500;line-height:1.05;white-space:nowrap}.stat-item small{color:#f0e8db;font-size:.82rem;letter-spacing:.04em;white-space:nowrap}.stat-item em{margin-top:7px;color:rgba(239,231,218,.55);font-family:Arial,sans-serif;font-size:.48rem;font-style:normal;letter-spacing:.15em}.panel-watermark{position:absolute;right:-4px;bottom:-13px;color:rgba(255,255,255,.03);font-family:Georgia,serif;font-size:4.4rem;letter-spacing:.08em}
+  .search-section{padding:44px 0 46px;background:#fffdf8;border-bottom:1px solid #ded1ba}.archive-heading{text-align:center;margin-bottom:18px}.archive-heading>span{display:block;color:#99743b;font-family:Georgia,serif;font-size:.72rem;letter-spacing:.24em}.archive-heading strong{display:block;margin-top:6px;color:var(--ink);font-size:1.7rem;letter-spacing:.08em}.archive-heading p{margin:7px auto 0;max-width:760px;color:#817669;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.78rem;line-height:1.6}
+  .search-panel{padding:16px;background:#f2eadc;border:1px solid #c8ad7d;box-shadow:0 12px 30px rgba(55,45,31,.06),inset 0 0 0 4px #f8f3e9}.search-box{display:flex;align-items:center;gap:16px;min-height:88px;padding:0 24px;background:white;border:2px solid #b88b48;box-shadow:0 10px 24px rgba(48,39,26,.08);transition:.2s ease}.search-box:focus-within{border-color:#8e652c;box-shadow:0 0 0 5px rgba(169,121,54,.12),0 12px 28px rgba(48,39,26,.09)}.search-icon{flex:0 0 auto;width:48px;height:48px;display:grid;place-items:center;border-radius:50%;background:var(--navy);color:#f1d493;font-size:2rem;line-height:1}.search-copy{display:flex;flex:1;min-width:0;flex-direction:column;justify-content:center}.search-caption{color:#a27c42;font-family:Georgia,serif;font-size:.60rem;letter-spacing:.18em;margin-bottom:3px}.search-box input{width:100%;border:0;outline:0;background:transparent;color:#173553;font-family:Arial,"Noto Sans TC",sans-serif;font-size:1.38rem;font-weight:700;letter-spacing:.015em}.search-box input::placeholder{color:#6d6b67;opacity:1;font-size:1.32rem;font-weight:600}.filter-grid{display:grid;grid-template-columns:repeat(4,1fr) auto;gap:10px;margin-top:11px}.select-box{display:flex;align-items:center;gap:10px;min-height:52px;padding:0 14px;background:#fff;border:1px solid #d8c9b0}.select-box span{color:#9c7439}.select-box select{width:100%;border:0;outline:0;background:transparent;color:#30465f;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.82rem}.clear-btn{min-height:52px;padding:0 18px;border:1px solid #ccb487;background:#fffaf0;color:#81653c;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.78rem;font-weight:800;cursor:pointer}
+  .editorial-section{padding:52px 0}.today-section{background:#fffdf9}.section-title-row,.catalog-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:24px;padding-bottom:13px;border-bottom:3px double #d2c09e;position:relative}.section-title-row:after,.catalog-heading:after{content:"◆";position:absolute;left:0;bottom:-9px;padding-right:8px;background:#fffdf9;color:var(--gold);font-size:.6rem}.section-title-row h2,.catalog-heading h2,.center-heading h2,.verification-grid h2{margin:5px 0 0;color:var(--ink);font-size:clamp(1.8rem,3vw,2.7rem);font-weight:700;letter-spacing:.05em}.section-date{color:#88765d;font-family:Georgia,serif;font-size:.72rem;letter-spacing:.06em}
+  .spotlight-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.spotlight-card{position:relative;overflow:hidden;padding:23px 22px 19px;background:linear-gradient(180deg,#fff 0%,#faf5eb 100%);border:1px solid #d2c4ad;box-shadow:0 9px 26px rgba(47,44,36,.05)}.spotlight-card:before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--navy),var(--gold2),var(--navy))}.spotlight-card:after{content:"ACADEMIC FUNDING";position:absolute;right:-24px;bottom:20px;color:rgba(17,43,76,.035);font-family:Georgia,serif;font-size:1.4rem;letter-spacing:.08em;transform:rotate(-90deg)}
+  .spotlight-top,.catalog-top,.spotlight-footer,.catalog-bottom{display:flex;align-items:center;justify-content:space-between;gap:12px}.country-line{display:inline-flex;align-items:center;gap:8px;color:#735c3d;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.75rem;font-weight:800}.country-line b{font-size:1.25rem}.status-pill,.status-dot{font-family:Arial,"Noto Sans TC",sans-serif;font-size:.68rem;font-weight:800;border:1px solid;padding:5px 8px}.status-pill.open,.status-dot.open{color:#2d6f47;border-color:#7eb08c;background:#f1faf3}.status-pill.soon,.status-dot.soon{color:#8a631f;border-color:#d7b46f;background:#fff9eb}.status-pill.watch,.status-dot.watch{color:#6f6b65;border-color:#c8c1b7;background:#f6f3ee}
+  .spotlight-type{margin-top:15px;color:#9c753a;font-family:Georgia,serif;font-size:.64rem;font-weight:700;letter-spacing:.11em}.spotlight-card h3{margin:7px 0 9px;font-size:1.32rem;line-height:1.45}.spotlight-card h3 a,.catalog-card h3 a{color:var(--ink);text-decoration:none}.spotlight-card h3 a:hover,.catalog-card h3 a:hover{color:var(--burgundy)}.spotlight-card>p{margin:0;color:#68625a;font-size:.88rem;line-height:1.75;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.spotlight-meta{display:grid;grid-template-columns:1.15fr .75fr 1fr;gap:10px;margin:18px 0 16px;padding:14px 0;border-top:1px solid #dfd3bf;border-bottom:1px solid #dfd3bf}.spotlight-meta span{display:block;color:#9a825f;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.56rem;letter-spacing:.04em}.spotlight-meta strong{display:block;margin-top:4px;color:#283d59;font-size:.78rem;line-height:1.45}.spotlight-footer{position:relative;z-index:2}.tw-check{color:#4b7458;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.69rem;font-weight:700}.spotlight-footer a{color:var(--burgundy);font-family:Arial,"Noto Sans TC",sans-serif;font-size:.72rem;font-weight:800;text-decoration:none}
+  .taiwan-programs{position:relative;overflow:hidden;padding:50px 0 46px;background:linear-gradient(180deg,#f3ecdf 0%,#fffaf2 100%);border-top:3px double #cdb98f;border-bottom:3px double #cdb98f}.center-heading{text-align:center;position:relative;z-index:1}.french-kicker{color:#98723b;font-family:Georgia,"Times New Roman",serif;font-size:.78rem;letter-spacing:.20em}.center-heading p{max-width:790px;margin:12px auto 0;color:#6f665a;font-size:.87rem;line-height:1.75}.program-pills{position:relative;z-index:1;display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:27px}.program-pills a{display:inline-flex;align-items:center;gap:9px;min-height:47px;padding:0 18px;background:rgba(255,255,255,.78);border:1px solid #cfb681;color:#173553;text-decoration:none;font-size:.80rem;font-weight:700;box-shadow:0 5px 14px rgba(91,75,47,.03)}.program-pills a span{color:#9d7538;font-size:1rem}.program-pills a:hover{background:white;border-color:#a97936}.taiwan-watermark{position:absolute;color:rgba(13,49,89,.032);font-family:Georgia,serif;font-size:5rem;letter-spacing:.10em}.taiwan-watermark.left{left:-25px;bottom:-6px}.taiwan-watermark.right{right:-15px;top:20px}
+  .catalog-section{background:#fffdf9}.catalog-heading p{margin:8px 0 0;color:#987f5c;font-family:Georgia,serif;font-size:.80rem;letter-spacing:.08em}.result-summary{display:flex;align-items:flex-end;gap:8px}.result-summary strong{color:var(--burgundy);font-family:Georgia,serif;font-size:2.2rem;font-weight:500}.result-summary span{padding-bottom:6px;color:#806e56;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.72rem}.catalog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.catalog-card{display:flex;flex-direction:column;min-height:274px;padding:19px;background:#fff;border:1px solid #d9cdbb;box-shadow:0 7px 20px rgba(49,43,32,.035);position:relative}.catalog-card:before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:#173553}.catalog-card[hidden]{display:none}.catalog-card h3{margin:13px 0 10px;font-size:1.02rem;line-height:1.5}.catalog-tags{display:flex;flex-wrap:wrap;gap:6px}.catalog-tags span{padding:4px 7px;background:#f4ede1;color:#816841;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.62rem}.catalog-card dl{margin:15px 0 17px;padding-top:12px;border-top:1px solid #e9dfd0}.catalog-card dl>div{display:grid;grid-template-columns:42px 1fr;gap:8px;margin:7px 0}.catalog-card dt{color:#9d8055;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.65rem}.catalog-card dd{margin:0;color:#45556a;font-size:.72rem;line-height:1.45}.catalog-bottom{margin-top:auto;padding-top:12px;border-top:1px solid #eee6da}.catalog-bottom span{color:#4b7458;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.64rem}.catalog-bottom a{color:var(--burgundy);font-family:Arial,"Noto Sans TC",sans-serif;font-size:.69rem;font-weight:800;text-decoration:none}.load-row{text-align:center;margin-top:27px}.load-row button{min-width:240px;min-height:48px;border:1px solid #ab8248;background:#fffaf1;color:#765b35;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.79rem;font-weight:800;cursor:pointer}.load-row button:hover{background:#f5ecdd}.load-row button[hidden]{display:none}
+  .verification-section{padding:54px 0;background:linear-gradient(135deg,#071d38,#0b2b4d);color:white;border-top:4px double #b78c4d}.verification-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:50px;align-items:start}.verification-grid h2{color:white;line-height:1.45}.verification-steps{display:grid;grid-template-columns:repeat(2,1fr);gap:0;border-top:1px solid rgba(209,173,106,.35);border-left:1px solid rgba(209,173,106,.35)}.verification-steps>div{display:grid;grid-template-columns:44px 1fr;gap:8px;padding:18px;border-right:1px solid rgba(209,173,106,.35);border-bottom:1px solid rgba(209,173,106,.35)}.verification-steps span{color:#dcb46f;font-family:Georgia,serif;font-size:1.15rem}.verification-steps p{margin:0;color:#dce5ee;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.76rem;line-height:1.6}.verification-steps strong{color:white}
+  @media(max-width:1100px){.academic-margin{display:none}.hero-inner{grid-template-columns:1fr}.stat-panel{min-height:220px}.filter-grid{grid-template-columns:repeat(2,1fr)}.clear-btn{grid-column:1/-1}.catalog-grid{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:760px){.section-shell,.hero-inner{width:min(100% - 24px,1280px)}.editorial-hero{padding:46px 0 40px}.editorial-hero:before{inset:7px}.editorial-hero:after{display:none}.hero-copy h1{font-size:2.45rem}.hero-subtitle{font-size:1rem;line-height:1.6}.hero-description{font-size:.9rem}.edition-line{display:none}.stat-panel{grid-template-columns:repeat(2,1fr);padding:46px 10px 10px}.stat-item{min-height:120px;border-bottom:1px dotted rgba(209,173,106,.4)}.stat-item:nth-child(2){border-right:0}.archive-heading strong{font-size:1.42rem}.search-box{min-height:82px;padding:0 15px}.search-icon{width:42px;height:42px;font-size:1.7rem}.search-box input{font-size:1.12rem}.search-box input::placeholder{font-size:1.08rem}.search-caption{font-size:.52rem}.filter-grid{grid-template-columns:1fr 1fr}.clear-btn{grid-column:1/-1}.spotlight-grid,.catalog-grid,.verification-grid{grid-template-columns:1fr}.section-title-row,.catalog-heading{align-items:flex-start;flex-direction:column}.spotlight-meta{grid-template-columns:1fr}.program-pills{display:grid;grid-template-columns:1fr 1fr}.program-pills a{justify-content:center;padding:0 10px;text-align:center}.verification-steps{grid-template-columns:1fr}.taiwan-watermark{display:none}}
 </style>
