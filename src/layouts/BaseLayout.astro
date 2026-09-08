@@ -115,7 +115,7 @@ const websiteLd = {
     </script>
     <slot name="head" />
   </head>
-  <body>
+  <body class:list={[isScholarshipRadar && 'scholarship-radar-page']}>
     <Header />
     <main><slot /></main>
     {isHomepage && <IntelligencePromo />}
@@ -145,7 +145,7 @@ const websiteLd = {
               searchButton.id = 'scholarship-search-submit';
               searchButton.type = 'button';
               searchButton.className = 'scholarship-search-submit';
-              searchButton.textContent = '搜尋';
+              searchButton.textContent = '搜尋資料庫';
               panel.appendChild(searchButton);
             }
 
@@ -206,7 +206,94 @@ const websiteLd = {
     )}
     {isScholarshipRadar && (
       <style is:inline>
-        .scholarship-search-submit{min-height:48px;padding:0 22px;border:1px solid #7d1f2d;background:#7d1f2d;color:#fff;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.84rem;font-weight:800;cursor:pointer;white-space:nowrap}.scholarship-search-submit:hover{background:#651923}.scholarship-empty-state{margin-top:18px;padding:26px 22px;border:1px solid #d9cdb9;background:#fffaf1;text-align:center;color:#6a4b20}.scholarship-empty-state strong{display:block;font-size:1.05rem;margin-bottom:7px;color:#7d1f2d}.scholarship-empty-state span{font-family:Arial,"Noto Sans TC",sans-serif;font-size:.82rem;color:#756b5c}.catalog-section{scroll-margin-top:18px}@media(max-width:1100px){.scholarship-search-submit{grid-column:auto}}@media(max-width:760px){.scholarship-search-submit{grid-column:1/-1;min-height:50px}}
+        .scholarship-radar-page{background:#eee6d7}
+        .scholarship-radar-page .site-header{position:relative;background:#f8f3e9;border-bottom:4px double #9e793e;box-shadow:0 8px 28px rgba(34,31,25,.08)}
+        .scholarship-radar-page .site-header:after{content:"EUROPEAN ACADEMIC EDITION · SCHOLARSHIPS · FELLOWSHIPS · RESEARCH MOBILITY";display:block;padding:8px 18px;background:#0a2342;color:#d9ba7a;text-align:center;font-family:Georgia,"Times New Roman",serif;font-size:.62rem;letter-spacing:.22em;border-top:1px solid #c7a362}
+        .scholarship-radar-page .utility{background:#071d38!important;border-bottom:1px solid #aa8144}
+        .scholarship-radar-page .utility-inner{color:#e8dfcf!important;font-family:Georgia,"Times New Roman",serif;letter-spacing:.07em}
+        .scholarship-radar-page .masthead{position:relative;background:linear-gradient(90deg,rgba(181,145,88,.08),transparent 24%,transparent 76%,rgba(181,145,88,.08));padding-top:28px!important;padding-bottom:22px!important}
+        .scholarship-radar-page .masthead:before,.scholarship-radar-page .masthead:after{content:"";position:absolute;top:18px;bottom:18px;width:64px;border:1px solid rgba(145,108,55,.18);border-radius:48px 48px 0 0;pointer-events:none}
+        .scholarship-radar-page .masthead:before{left:0}.scholarship-radar-page .masthead:after{right:0}
+        .scholarship-radar-page .brand-en-primary{font-family:Georgia,"Times New Roman",serif!important;letter-spacing:-.045em!important;color:#0d2a4b!important;text-shadow:0 1px 0 #fff}
+        .scholarship-radar-page .brand-zh-secondary{color:#183553!important;letter-spacing:.32em!important}
+        .scholarship-radar-page .brand-subtitle{color:#7b6442!important;letter-spacing:.16em!important}
+        .scholarship-radar-page .nav{background:#fbf8f1;border-top:1px solid #c9b38d;border-bottom:3px double #c6ad82}
+        .scholarship-radar-page .nav a{font-family:Georgia,"Noto Serif TC",serif!important;color:#173553!important}
+        .scholarship-radar-page .nav a[href*="scholarships"]{color:#7d2632!important;font-weight:900!important}
+
+        .scholarship-radar-page .scholarship-page{position:relative;background:
+          linear-gradient(90deg,rgba(17,43,76,.018) 1px,transparent 1px),
+          linear-gradient(rgba(17,43,76,.014) 1px,transparent 1px),
+          #fbf8f0;background-size:34px 34px,34px 34px,auto}
+        .scholarship-radar-page .scholarship-page:before,.scholarship-radar-page .scholarship-page:after{position:fixed;z-index:0;bottom:4%;color:rgba(20,47,79,.055);font-family:Georgia,"Times New Roman",serif;font-size:5rem;letter-spacing:.12em;pointer-events:none;writing-mode:vertical-rl}
+        .scholarship-radar-page .scholarship-page:before{content:"OXFORD · PARIS";left:5px}.scholarship-radar-page .scholarship-page:after{content:"CAMBRIDGE · ZÜRICH";right:5px}
+        .scholarship-radar-page .editorial-hero{padding-top:78px!important;padding-bottom:66px!important;background:
+          radial-gradient(ellipse at 7% 100%,rgba(130,101,60,.12),transparent 30%),
+          radial-gradient(ellipse at 93% 0%,rgba(17,43,76,.08),transparent 27%),
+          linear-gradient(180deg,#fffdfa 0%,#f0e7d8 100%)!important}
+        .scholarship-radar-page .editorial-hero:before{inset:16px!important;border:1px solid rgba(144,107,53,.33)!important;box-shadow:inset 0 0 0 5px rgba(255,255,255,.38)}
+        .scholarship-radar-page .editorial-hero:after{content:"EUROPEAN SCHOLARSHIP REVIEW · ANNUAL ACADEMIC EDITION"!important;right:44px!important;bottom:14px!important;color:rgba(17,43,76,.18)!important;font-size:.62rem!important;letter-spacing:.24em!important}
+        .scholarship-radar-page .hero-copy{position:relative;padding-left:18px;border-left:4px double #b28a4d}
+        .scholarship-radar-page .hero-copy:before{content:"ACADEMIC REVIEW";display:block;margin-bottom:12px;color:#8e6a36;font-family:Georgia,"Times New Roman",serif;font-size:.62rem;letter-spacing:.28em}
+        .scholarship-radar-page .hero-copy h1{font-family:"Noto Serif TC",Georgia,"Times New Roman",serif!important;font-size:clamp(3rem,5.3vw,5.25rem)!important;font-weight:700!important;letter-spacing:.07em!important;color:#112c4c!important}
+        .scholarship-radar-page .hero-subtitle{font-family:"Noto Serif TC",Georgia,serif!important;color:#7a2632!important}
+        .scholarship-radar-page .hero-description{max-width:720px!important;color:#59534b!important}
+        .scholarship-radar-page .stat-panel{border-radius:0!important;box-shadow:inset 0 0 0 5px #0b294a,inset 0 0 0 6px rgba(211,176,108,.42),inset 0 0 0 11px #0b294a,0 22px 44px rgba(7,29,56,.17)!important}
+        .scholarship-radar-page .stat-panel:before,.scholarship-radar-page .stat-panel:after{content:"◆"!important;color:#d2b06e!important}
+        .scholarship-radar-page .stat-heading{font-size:.72rem!important;letter-spacing:.32em!important}
+        .scholarship-radar-page .stat-item em{font-family:Georgia,"Times New Roman",serif!important;letter-spacing:.18em!important}
+
+        .scholarship-radar-page .search-section{padding-top:52px!important;background:linear-gradient(180deg,#f7f1e6,#fffdfa)!important;border-top:3px double #c5ac82!important;border-bottom:3px double #c5ac82!important}
+        .scholarship-radar-page .archive-heading>span{font-size:.78rem!important;letter-spacing:.30em!important;color:#8c6632!important}
+        .scholarship-radar-page .archive-heading strong{font-size:2rem!important;letter-spacing:.10em!important;color:#102d4f!important}
+        .scholarship-radar-page .archive-heading p{font-size:.86rem!important;max-width:840px!important}
+        .scholarship-radar-page .search-panel{position:relative;padding:19px!important;border:1px solid #b89050!important;box-shadow:0 14px 34px rgba(58,45,28,.08),inset 0 0 0 5px #f8f2e7,inset 0 0 0 6px rgba(174,137,76,.35)!important}
+        .scholarship-radar-page .search-panel:before{content:"ARCHIVE SEARCH";position:absolute;top:-11px;left:28px;padding:2px 10px;background:#f7f1e6;color:#89652f;font-family:Georgia,"Times New Roman",serif;font-size:.58rem;letter-spacing:.22em}
+        .scholarship-radar-page .search-box{min-height:100px!important;padding:0 28px!important;border:2px solid #9f773b!important;background:#fffefb!important}
+        .scholarship-radar-page .search-icon{width:58px!important;height:58px!important;background:#0b2949!important;color:#e0bd78!important;font-size:2.3rem!important;box-shadow:inset 0 0 0 3px #0b2949,inset 0 0 0 4px rgba(223,190,124,.45)}
+        .scholarship-radar-page .search-caption{font-size:.64rem!important;letter-spacing:.22em!important;color:#96703a!important}
+        .scholarship-radar-page .search-box input{font-family:"Noto Serif TC",Arial,sans-serif!important;font-size:1.58rem!important;font-weight:700!important;color:#173653!important}
+        .scholarship-radar-page .search-box input::placeholder{font-size:1.48rem!important;color:#65615b!important}
+        .scholarship-radar-page .select-box{min-height:56px!important;border:1px solid #c7b18a!important;background:#fffdfa!important}
+        .scholarship-radar-page .select-box select{font-size:.87rem!important;font-weight:700!important}
+        .scholarship-radar-page .clear-btn{min-height:56px!important;background:#f7efe2!important;border-color:#bda273!important}
+        .scholarship-radar-page .scholarship-search-submit{min-height:56px!important;padding:0 28px!important;border:1px solid #a67d3e!important;background:linear-gradient(180deg,#c59a56,#a87b3b)!important;color:#132c49!important;font-family:Georgia,"Noto Serif TC",serif!important;font-size:.92rem!important;letter-spacing:.06em!important;box-shadow:inset 0 0 0 3px rgba(255,255,255,.25)}
+        .scholarship-radar-page .scholarship-search-submit:hover{background:linear-gradient(180deg,#d2aa69,#b78a48)!important}
+
+        .scholarship-radar-page .section-title-row,.scholarship-radar-page .catalog-heading{border-bottom:4px double #c7b085!important}
+        .scholarship-radar-page .section-title-row h2,.scholarship-radar-page .catalog-heading h2,.scholarship-radar-page .center-heading h2{font-family:"Noto Serif TC",Georgia,serif!important;letter-spacing:.08em!important}
+        .scholarship-radar-page .spotlight-card{border:1px solid #cdbb9c!important;border-top:4px solid #173553!important;background:linear-gradient(180deg,#fffefa,#f7f0e4)!important;box-shadow:none!important}
+        .scholarship-radar-page .spotlight-card:before{height:1px!important;top:7px!important;left:12px!important;right:12px!important;background:#b58c4e!important}
+        .scholarship-radar-page .spotlight-card h3{font-family:Georgia,"Noto Serif TC",serif!important;font-size:1.38rem!important}
+        .scholarship-radar-page .spotlight-type{font-family:Georgia,"Times New Roman",serif!important;letter-spacing:.16em!important;color:#866334!important}
+        .scholarship-radar-page .spotlight-meta{border-top:3px double #ddd0b8!important;border-bottom:1px solid #ddd0b8!important}
+
+        .scholarship-radar-page .catalog-section{background:linear-gradient(180deg,#fffdfa,#f7f0e5)!important}
+        .scholarship-radar-page .catalog-heading:before{content:"ACADEMIC FUNDING INDEX";position:absolute;right:0;top:-18px;color:#a18459;font-family:Georgia,"Times New Roman",serif;font-size:.56rem;letter-spacing:.20em}
+        .scholarship-radar-page .catalog-grid{gap:12px!important}
+        .scholarship-radar-page .catalog-card{min-height:260px!important;border:1px solid #d3c3a8!important;border-left:4px solid #183653!important;background:#fffefb!important;box-shadow:none!important;position:relative}
+        .scholarship-radar-page .catalog-card:after{content:"ARCHIVE";position:absolute;right:10px;bottom:8px;color:rgba(17,43,76,.05);font-family:Georgia,serif;font-size:1rem;letter-spacing:.12em}
+        .scholarship-radar-page .catalog-card h3{font-family:Georgia,"Noto Serif TC",serif!important;font-size:1.08rem!important}
+        .scholarship-radar-page .catalog-tags span{background:#f1e8d8!important;color:#735b35!important;border:1px solid #dfcfb2}
+        .scholarship-radar-page .catalog-bottom{border-top:3px double #ece0cd!important}
+        .scholarship-radar-page .load-row button{min-width:270px!important;min-height:52px!important;border:1px solid #9d773e!important;background:#0c2948!important;color:#e7c57e!important;font-family:Georgia,"Noto Serif TC",serif!important;letter-spacing:.05em!important}
+
+        .scholarship-radar-page .taiwan-programs{background:
+          radial-gradient(circle at 0 100%,rgba(17,43,76,.055),transparent 27%),
+          radial-gradient(circle at 100% 0,rgba(169,121,54,.08),transparent 25%),
+          linear-gradient(180deg,#efe6d7,#fbf5eb)!important}
+        .scholarship-radar-page .french-kicker{font-size:.84rem!important;letter-spacing:.24em!important;color:#86622f!important}
+        .scholarship-radar-page .program-pills a{border:1px solid #c7ad7c!important;background:#fffdfa!important;border-radius:0!important;box-shadow:none!important}
+        .scholarship-radar-page .program-pills a:hover{background:#102d4f!important;color:#f1d394!important;border-color:#102d4f!important}
+
+        .scholarship-radar-page .verification-section{background:linear-gradient(135deg,#071d38,#102f51)!important;border-top:6px double #b18a4d!important;position:relative;overflow:hidden}
+        .scholarship-radar-page .verification-section:after{content:"VERITAS · SCIENTIA · MOBILITAS";position:absolute;right:22px;bottom:12px;color:rgba(220,184,111,.13);font-family:Georgia,"Times New Roman",serif;font-size:1.1rem;letter-spacing:.22em}
+        .scholarship-radar-page .verification-steps{border-color:rgba(213,176,111,.45)!important}
+        .scholarship-radar-page .verification-steps>div{border-color:rgba(213,176,111,.45)!important}
+
+        .scholarship-empty-state{margin-top:18px;padding:26px 22px;border:1px solid #cbb38a;background:#fffaf1;text-align:center;color:#6a4b20}.scholarship-empty-state strong{display:block;font-size:1.05rem;margin-bottom:7px;color:#7d2632}.scholarship-empty-state span{font-family:Arial,"Noto Sans TC",sans-serif;font-size:.82rem;color:#756b5c}.catalog-section{scroll-margin-top:18px}
+        @media(max-width:1100px){.scholarship-radar-page .scholarship-search-submit{grid-column:auto}.scholarship-radar-page .site-header:after{letter-spacing:.14em}.scholarship-radar-page .search-box input{font-size:1.4rem!important}.scholarship-radar-page .search-box input::placeholder{font-size:1.3rem!important}}
+        @media(max-width:760px){.scholarship-radar-page .site-header:after{font-size:.52rem;line-height:1.6;letter-spacing:.10em}.scholarship-radar-page .masthead:before,.scholarship-radar-page .masthead:after{display:none}.scholarship-radar-page .scholarship-page:before,.scholarship-radar-page .scholarship-page:after{display:none}.scholarship-radar-page .editorial-hero{padding-top:48px!important}.scholarship-radar-page .hero-copy{padding-left:12px}.scholarship-radar-page .hero-copy h1{font-size:2.55rem!important}.scholarship-radar-page .archive-heading strong{font-size:1.6rem!important}.scholarship-radar-page .search-box{min-height:86px!important;padding:0 18px!important}.scholarship-radar-page .search-icon{width:48px!important;height:48px!important;font-size:2rem!important}.scholarship-radar-page .search-box input{font-size:1.18rem!important}.scholarship-radar-page .search-box input::placeholder{font-size:1.1rem!important}.scholarship-radar-page .scholarship-search-submit{grid-column:1/-1;min-height:54px!important}}
       </style>
     )}
     <Footer />
