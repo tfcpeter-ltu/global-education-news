@@ -1,0 +1,31 @@
+name: CAP Product QA
+
+on:
+  push:
+    branches: [cap-ai-preview]
+    paths:
+      - 'cap-english-ai-app/**'
+      - 'cap-ai-preview/final-v19.html'
+      - '.github/workflows/cap-product-qa.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: cap-english-ai-app
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install dependencies
+        run: npm install
+      - name: Run product QA
+        run: npm run qa
