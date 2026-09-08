@@ -4,15 +4,13 @@ import vm from 'node:vm';
 function ok(value,message){if(!value)throw new Error(`QA failed: ${message}`);console.log('✓',message)}
 const read=p=>readFile(p,'utf8');
 
-const browserFiles=['question-engine-v2.js','practice-ui-v4.js','notebook-ui-v2.js','product-core-v1.js','membership-sync-v1.js','remove-hero.js'];
+const browserFiles=['question-engine-v2.js','practice-ui-v4.js','notebook-ui-v2.js','auth-ui-v2.js','product-core-v1.js','membership-sync-v1.js','remove-hero.js'];
 for(const file of browserFiles){const src=await read(file);new Function(src);ok(true,`${file} parses`)}
 
 const engineSrc=await read('question-engine-v2.js');
-const context={window:{},console};
-vm.createContext(context);vm.runInContext(engineSrc,context,{filename:'question-engine-v2.js'});
-const engine=context.window.LTUQuestionEngine;
+const context={window:{},console};vm.createContext(context);vm.runInContext(engineSrc,context,{filename:'question-engine-v2.js'});
+const engine=context.window.LTUQuestionEngine,audit=engine.audit();
 ok(engine?.version==='2.0','question engine v2 is exposed');
-const audit=engine.audit();
 ok(audit.count===20000,'question bank exposes 20,000 generated questions');
 ok(audit.uniqueIds===20000,'all 20,000 question IDs are unique');
 ok(audit.uniqueSignatures===20000&&audit.duplicates===0,'all 20,000 content signatures are unique');
@@ -24,6 +22,14 @@ ok(practice.includes("AT TIME ZONE 'Asia/Taipei'"),'Free quota resets by Asia/Ta
 ok(practice.includes('learningModelUpdated:complete'),'Free answers do not update the long-term weakness model');
 ok(practice.includes('LIMIT 20000'),'account-level seen-question history supports full bank');
 ok(practice.includes("m.expires_at>NOW()"),'Complete access checks membership expiry');
+const practiceUi=await read('practice-ui-v4.js');
+ok(practiceUi.includes("if(!me?.authenticated){showAuth(d);return}"),'practice requires a real logged-in account');
+ok(practiceUi.includes("免費題數驗證暫時無法連線"),'Free practice fails closed if quota API is unavailable');
+
+const authUi=await read('auth-ui-v2.js');
+ok(authUi.includes("/api/auth/signup")&&authUi.includes("/api/auth/login")&&authUi.includes("/api/auth/logout"),'Auth V2 uses server account APIs');
+ok(authUi.includes("/api/newebpay/create")&&authUi.includes("/api/paypal/create"),'Auth V2 exposes real Complete payment routes');
+ok(authUi.includes('建立 Free 帳號')&&authUi.includes('AI Complete 完整會員'),'Auth V2 distinguishes Free and Complete');
 
 const notebookApi=await read('api/notebook.js');
 ok(notebookApi.includes("m.expires_at>NOW()"),'AI Notebook checks membership expiry');
@@ -31,7 +37,7 @@ ok(notebookApi.includes("INTERVAL '3 days'"),'AI Notebook schedules spaced revie
 ok(notebookApi.includes('level===3?21:30'),'AI Notebook supports 3/7/21/30-day review progression');
 const notebookUi=await read('notebook-ui-v2.js');
 ok(notebookUi.includes('3／7／21／30 天'),'Notebook V2 explains spaced review to students');
-ok(notebookUi.includes("/api/notebook/list"),'Notebook V2 reads account-synced notes');
+ok(notebookUi.includes('/api/notebook/list'),'Notebook V2 reads account-synced notes');
 
 const progress=await read('api/progress.js');
 ok(progress.includes('items.length!==64'),'Weekly Mock requires exactly 64 questions');
@@ -45,14 +51,15 @@ ok(product.includes('20,000 題原創題池'),'paid UI communicates the 20k dyna
 ok(product.includes('Free 用來體驗')&&product.includes('AI COMPLETE'),'Free and Complete are explicitly differentiated');
 ok(product.includes('AI 筆記')&&product.includes('Weekly Mock')&&product.includes('歷屆')&&product.includes('弱點分析'),'all paid core features are surfaced');
 
-const v19=await read('../cap-ai-preview/final-v19.html');
-ok(!v19.includes('d.body.innerHTML=d.body.innerHTML'),'V19 no longer rebuilds the whole document');
-ok(v19.includes("box.dataset.paid=isPaid?'1':'0'"),'V19 menu reads current paid state');
-for(const match of v19.matchAll(/<script>([\s\S]*?)<\/script>/g)){new Function(match[1])}
-ok(true,'V19 inline scripts parse');
+const payment=await read('api/payment.js');
+ok(payment.includes("locked.status==='paid'"),'payment activation is idempotent');
+ok(payment.includes('/#payment-success'),'successful payment returns to current product homepage');
+const authMe=await read('api/auth-me.js');
+ok(authMe.includes("status='expired'"),'expired Complete membership is reported as expired');
 
 const build=await read('scripts/build-ui.mjs');
-for(const required of ['question-engine-v2.js','practice-ui-v4.js','notebook-ui-v2.js','product-core-v1.js','membership-sync-v1.js'])ok(build.includes(required),`build includes ${required}`);
+for(const required of ['question-engine-v2.js','practice-ui-v4.js','notebook-ui-v2.js','auth-ui-v2.js','product-core-v1.js','membership-sync-v1.js'])ok(build.includes(required),`build includes ${required}`);
+ok(build.includes("files=['final-v3.html']"),'mobile launch shell uses one student UI layer');
 
 console.log('\nCAP PRODUCT QA PASSED');
 console.log(JSON.stringify(audit,null,2));
