@@ -1,0 +1,9 @@
+import crypto from 'crypto';
+import pg from 'pg';
+const {Pool}=pg;
+let pool;
+function db(){if(!pool)pool=new Pool({connectionString:process.env.DATABASE_URL,ssl:{rejectUnauthorized:false},max:3});return pool}
+async function q(t,p=[]){return db().query(t,p)}
+function cookies(req){const raw=req.headers.cookie||'';return Object.fromEntries(raw.split(';').map(x=>x.trim()).filter(Boolean).map(p=>{const i=p.indexOf('=');return[decodeURIComponent(i<0?p:p.slice(0,i)),decodeURIComponent(i<0?'':p.slice(i+1))]}))}
+function tokenHash(t){return crypto.createHash('sha256').update(t).digest('hex')}
+export default async function handler(req,res){try{if(req.method!=='GET')return res.status(405).json({ok:false,error:'METHOD_NOT_ALLOWED'});const t=cookies(req).cap_ai_session;if(!t)return res.json({ok:true,authenticated:false});const {rows}=await q(`SELECT u.id,u.email,u.student_name,u.nickname,u.school,u.city,u.grade,u.guardian_email,u.track,m.plan,m.status,m.starts_at,m.expires_at FROM sessions s JOIN users u ON u.id=s.user_id LEFT JOIN memberships m ON m.user_id=u.id WHERE s.token_hash=$1 AND s.expires_at>NOW() LIMIT 1`,[tokenHash(t)]);const u=rows[0];if(!u)return res.json({ok:true,authenticated:false});const plan=u.plan||'free';let status=u.status||'active';const expired=plan==='complete'&&u.expires_at&&new Date(u.expires_at).getTime()<=Date.now();if(expired)status='expired';const complete=plan==='complete'&&status==='active';return res.json({ok:true,authenticated:true,user:{id:u.id,email:u.email,studentName:u.student_name,nickname:u.nickname,school:u.school,city:u.city,grade:u.grade,guardianEmail:u.guardian_email,track:u.track,membershipPlan:complete?'complete':plan,membershipStatus:status,startsAt:u.starts_at,expiresAt:u.expires_at,effectiveComplete:complete}})}catch(e){console.error('auth-me api',e);return res.status(500).json({ok:false,error:'AUTH_ME_FAILED'})}}
