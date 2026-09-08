@@ -4,7 +4,7 @@ import vm from 'node:vm';
 function ok(value,message){if(!value)throw new Error(`QA failed: ${message}`);console.log('✓',message)}
 const read=p=>readFile(p,'utf8');
 
-const browserFiles=['question-engine-v2.js','practice-ui-v4.js','notebook-ui-v1.js','product-core-v1.js','membership-sync-v1.js','remove-hero.js'];
+const browserFiles=['question-engine-v2.js','practice-ui-v4.js','notebook-ui-v2.js','product-core-v1.js','membership-sync-v1.js','remove-hero.js'];
 for(const file of browserFiles){const src=await read(file);new Function(src);ok(true,`${file} parses`)}
 
 const engineSrc=await read('question-engine-v2.js');
@@ -25,10 +25,13 @@ ok(practice.includes('learningModelUpdated:complete'),'Free answers do not updat
 ok(practice.includes('LIMIT 20000'),'account-level seen-question history supports full bank');
 ok(practice.includes("m.expires_at>NOW()"),'Complete access checks membership expiry');
 
-const notebook=await read('api/notebook.js');
-ok(notebook.includes("m.expires_at>NOW()"),'AI Notebook checks membership expiry');
-ok(notebook.includes("INTERVAL '3 days'"),'AI Notebook schedules spaced review');
-ok(notebook.includes('level===3?21:30'),'AI Notebook supports 3/7/21/30-day review progression');
+const notebookApi=await read('api/notebook.js');
+ok(notebookApi.includes("m.expires_at>NOW()"),'AI Notebook checks membership expiry');
+ok(notebookApi.includes("INTERVAL '3 days'"),'AI Notebook schedules spaced review');
+ok(notebookApi.includes('level===3?21:30'),'AI Notebook supports 3/7/21/30-day review progression');
+const notebookUi=await read('notebook-ui-v2.js');
+ok(notebookUi.includes('3／7／21／30 天'),'Notebook V2 explains spaced review to students');
+ok(notebookUi.includes("/api/notebook/list"),'Notebook V2 reads account-synced notes');
 
 const progress=await read('api/progress.js');
 ok(progress.includes('items.length!==64'),'Weekly Mock requires exactly 64 questions');
@@ -49,7 +52,7 @@ for(const match of v19.matchAll(/<script>([\s\S]*?)<\/script>/g)){new Function(m
 ok(true,'V19 inline scripts parse');
 
 const build=await read('scripts/build-ui.mjs');
-for(const required of ['question-engine-v2.js','practice-ui-v4.js','product-core-v1.js','membership-sync-v1.js'])ok(build.includes(required),`build includes ${required}`);
+for(const required of ['question-engine-v2.js','practice-ui-v4.js','notebook-ui-v2.js','product-core-v1.js','membership-sync-v1.js'])ok(build.includes(required),`build includes ${required}`);
 
 console.log('\nCAP PRODUCT QA PASSED');
 console.log(JSON.stringify(audit,null,2));
