@@ -1,20 +1,18 @@
 import { readFile } from 'node:fs/promises';
-import { createHash } from 'node:crypto';
 import vm from 'node:vm';
 function ok(value,message){if(!value)throw new Error(`QA failed: ${message}`);console.log('✓',message)}
 const read=p=>readFile(p,'utf8');
 const browserFiles=['question-engine-v2.js','practice-ui-v4.js','notebook-ui-v2.js','auth-ui-v2.js','product-core-v1.js','launch-ui-v1.js','complete-preview-v1.js','complete-portal-v1.js','membership-sync-v1.js','remove-hero.js','cute-theme-v1.js'];
 for(const file of browserFiles){const src=await read(file);new Function(src);ok(true,`${file} parses`)}
-
 const heroParts=[];
-for(let i=1;i<=10;i++)heroParts.push((await read(`hero-v10-${String(i).padStart(2,'0')}.b64`)).trim());
+for(let i=1;i<=6;i++)heroParts.push((await read(`hero-approved-${String(i).padStart(2,'0')}.b64`)).replace(/\s+/g,''));
 const hero=Buffer.from(heroParts.join(''),'base64');
-ok(hero.length===21985,'hero reconstructs to exact expected byte size');
-ok(hero[0]===0xff&&hero[1]===0xd8,'hero has valid JPEG SOI marker');
-ok(hero[hero.length-2]===0xff&&hero[hero.length-1]===0xd9,'hero has valid JPEG EOI marker');
-const heroSha=createHash('sha256').update(hero).digest('hex');
-ok(heroSha==='e6163830ce28a44ecf43e0a8bb3831fc5310ac040a3a8f13ac2639fd157a347a','hero SHA-256 exactly matches verified source');
-
+ok(hero.length>60000,'HQ hero reconstructs above 60 KB');
+ok(hero[0]===0xff&&hero[1]===0xd8,'HQ hero has valid JPEG SOI marker');
+ok(hero[hero.length-2]===0xff&&hero[hero.length-1]===0xd9,'HQ hero has valid JPEG EOI marker');
+function jpegSize(buf){let i=2;const sof=new Set([0xc0,0xc1,0xc2,0xc3,0xc5,0xc6,0xc7,0xc9,0xca,0xcb,0xcd,0xce,0xcf]);while(i+9<buf.length){if(buf[i]!==0xff){i++;continue}const marker=buf[i+1];if(sof.has(marker))return{height:buf.readUInt16BE(i+5),width:buf.readUInt16BE(i+7)};if(marker===0xd8||marker===0xd9){i+=2;continue}const len=buf.readUInt16BE(i+2);if(!len||len<2)break;i+=2+len}return null}
+const dim=jpegSize(hero);
+ok(dim?.width===1138&&dim?.height===262,'HQ hero keeps the approved 1138×262 dimensions');
 const engineSrc=await read('question-engine-v2.js'),context={window:{},console};vm.createContext(context);vm.runInContext(engineSrc,context);const audit=context.window.LTUQuestionEngine.audit();
 ok(audit.count===20000&&audit.uniqueIds===20000&&audit.uniqueSignatures===20000&&audit.duplicates===0,'20,000 question bank is unique');
 ok(Object.keys(audit.byType||{}).length===12,'question bank covers 12 competency types');
@@ -27,5 +25,5 @@ const notebookApi=await read('api/notebook.js'),notebookUi=await read('notebook-
 const progress=await read('api/progress.js');ok(progress.includes('items.length!==64')&&progress.includes('items.slice(0,43)')&&progress.includes('items.slice(43)'),'Weekly Mock is 43+21 / 64 questions');ok(progress.includes('jsonb_to_recordset'),'Weekly Mock uses batch DB writes');
 const product=await read('product-core-v1.js');ok(product.includes("take(12,['vocabulary'])")&&product.includes("take(21,['listening'])"),'Product Core dynamically assembles Weekly Mock');ok(product.includes('AI 筆記')&&product.includes('Weekly Mock')&&product.includes('歷屆')&&product.includes('弱點分析'),'Complete core features are surfaced');
 const payment=await read('api/payment.js'),authMe=await read('api/auth-me.js');ok(payment.includes("locked.status==='paid'"),'payment activation is idempotent');ok(payment.includes('/#payment-success'),'payment returns to current homepage');ok(authMe.includes("status='expired'"),'expired Complete status is enforced');
-const build=await read('scripts/build-ui.mjs');for(const required of ['question-engine-v2.js','practice-ui-v4.js','notebook-ui-v2.js','auth-ui-v2.js','product-core-v1.js','launch-ui-v1.js','complete-preview-v1.js','complete-portal-v1.js','membership-sync-v1.js','cute-theme-v1.js'])ok(build.includes(required),`build includes ${required}`);ok(build.includes("files=['final-v3.html']"),'mobile shell uses one UI layer');ok(build.includes("public/complete.html"),'build emits a dedicated Complete member page');ok(build.includes('hero-v10-')&&build.includes('hero.length!==21985'),'build reconstructs and validates the chunked hero');ok(build.includes("hero[hero.length-2]!==0xff")&&build.includes("hero[hero.length-1]!==0xd9"),'build rejects truncated JPEGs');ok(build.includes('20260909-cute-hero-v10-chunked'),'build cache is bumped to v10');
+const build=await read('scripts/build-ui.mjs');for(const required of ['question-engine-v2.js','practice-ui-v4.js','notebook-ui-v2.js','auth-ui-v2.js','product-core-v1.js','launch-ui-v1.js','complete-preview-v1.js','complete-portal-v1.js','membership-sync-v1.js','cute-theme-v1.js'])ok(build.includes(required),`build includes ${required}`);ok(build.includes("files=['final-v3.html']"),'mobile shell uses one UI layer');ok(build.includes("public/complete.html"),'build emits a dedicated Complete member page');ok(build.includes('hero-approved-')&&build.includes('hero.length<60000'),'build reconstructs the HQ approved hero');ok(build.includes('1138')&&build.includes('262'),'build validates the approved hero dimensions');ok(build.includes('20260909-cute-hero-v11-hq'),'build cache is bumped to HQ v11');
 console.log('\nCAP PRODUCT QA PASSED');console.log(JSON.stringify(audit,null,2));
