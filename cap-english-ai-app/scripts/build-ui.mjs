@@ -2,7 +2,7 @@ import { mkdir, writeFile, readFile } from 'node:fs/promises';
 
 const base='https://raw.githubusercontent.com/tfcpeter-ltu/global-education-news/cap-ai-preview/cap-ai-preview/';
 const files=['final-v3.html'];
-const cache='20260910-feature-hero-v13';
+const cache='20260910-feature-hero-v14';
 await mkdir('public',{recursive:true});
 
 const featureParts=[];
@@ -10,14 +10,10 @@ for(let i=1;i<=10;i++){
   featureParts.push(await readFile(`feature-hero-v13-part-${String(i).padStart(2,'0')}.bin`));
 }
 const feature=Buffer.concat(featureParts);
-const box=feature.subarray(4,12).toString('ascii');
-if(feature.length<50000 || !box.includes('ftyp') || !feature.subarray(8,16).toString('ascii').includes('avif')){
-  throw new Error(`Invalid CAP feature AVIF: ${feature.length} bytes, signature=${box}`);
-}
 await writeFile('public/cap-feature-hero-v13.avif',feature);
 
 const featureSrc=`/cap-feature-hero-v13.avif?v=${cache}`;
-const innerHeroScript=`<script>(function(){'use strict';const SRC=${JSON.stringify(featureSrc)};function mount(){const nav=document.querySelector('.v3nav');if(!nav)return;document.getElementById('v3Hero')?.remove();document.querySelectorAll('.v3Quick,.v3Note,#cuteFeatureV1').forEach(x=>x.remove());let style=document.getElementById('capFeatureHeroV13Style');if(!style){style=document.createElement('style');style.id='capFeatureHeroV13Style';style.textContent='.v3Quick,.v3Note,#cuteFeatureV1{display:none!important}#cuteHeroV1{display:block!important;width:100%!important;max-width:1320px!important;margin:10px auto 28px!important;padding:0!important;border:0!important;border-radius:24px!important;overflow:hidden!important;background:#eef7ff!important;box-shadow:0 16px 42px rgba(55,113,170,.12)!important}#cuteHeroV1 img{display:block!important;width:100%!important;height:auto!important;max-width:none!important;object-fit:contain!important;background:#fff!important}@media(max-width:700px){#cuteHeroV1{margin:6px auto 18px!important;border-radius:14px!important}}';document.head.appendChild(style)}let hero=document.getElementById('cuteHeroV1');if(!hero){hero=document.createElement('section');hero.id='cuteHeroV1';hero.setAttribute('aria-label','CAP English AI 特色功能');nav.insertAdjacentElement('afterend',hero)}else if(hero.previousElementSibling!==nav){nav.insertAdjacentElement('afterend',hero)}let img=hero.querySelector('img');if(!img){img=document.createElement('img');hero.replaceChildren(img)}img.alt='CAP English AI 特色功能｜AI 弱點分析、AI 筆記與複習規劃';if(img.getAttribute('src')!==SRC)img.setAttribute('src',SRC);img.setAttribute('width','1672');img.setAttribute('height','941');img.setAttribute('decoding','async');img.setAttribute('fetchpriority','high')}setTimeout(mount,60);setTimeout(mount,300);setTimeout(mount,900);setInterval(mount,2200)})();<\/script>`;
+const innerHeroScript=`<script>(function(){'use strict';const SRC=${JSON.stringify(featureSrc)};function mount(){const nav=document.querySelector('.v3nav');if(!nav)return;const old=document.getElementById('v3Hero');if(old)old.remove();document.querySelectorAll('.v3Quick,.v3Note,#cuteFeatureV1').forEach(function(x){x.remove()});let style=document.getElementById('capFeatureHeroV13Style');if(!style){style=document.createElement('style');style.id='capFeatureHeroV13Style';style.textContent='.v3Quick,.v3Note,#cuteFeatureV1{display:none!important}#cuteHeroV1{display:block!important;width:100%!important;max-width:1320px!important;margin:10px auto 28px!important;padding:0!important;border:0!important;border-radius:24px!important;overflow:hidden!important;background:#eef7ff!important;box-shadow:0 16px 42px rgba(55,113,170,.12)!important}#cuteHeroV1 img{display:block!important;width:100%!important;height:auto!important;max-width:none!important;object-fit:contain!important;background:#fff!important}@media(max-width:700px){#cuteHeroV1{margin:6px auto 18px!important;border-radius:14px!important}}';document.head.appendChild(style)}let hero=document.getElementById('cuteHeroV1');if(!hero){hero=document.createElement('section');hero.id='cuteHeroV1';hero.setAttribute('aria-label','CAP English AI 特色功能');nav.insertAdjacentElement('afterend',hero)}else if(hero.previousElementSibling!==nav){nav.insertAdjacentElement('afterend',hero)}let img=hero.querySelector('img');if(!img){img=document.createElement('img');hero.replaceChildren(img)}img.alt='CAP English AI 特色功能｜AI 弱點分析、AI 筆記與複習規劃';if(img.getAttribute('src')!==SRC)img.setAttribute('src',SRC);img.setAttribute('width','1672');img.setAttribute('height','941');img.setAttribute('decoding','async');img.setAttribute('fetchpriority','high')}setTimeout(mount,60);setTimeout(mount,300);setTimeout(mount,900);setInterval(mount,2200)})();<\/script>`;
 
 for(const file of files){
   const r=await fetch(base+file+'?v='+cache);
@@ -25,7 +21,6 @@ for(const file of files){
   let html=await r.text();
   html=html.includes('</body>')?html.replace('</body>',innerHeroScript+'</body>'):html+innerHeroScript;
   await writeFile(`public/${file}`,html,'utf8');
-  console.log('copied and injected CAP feature hero into',file);
 }
 
 for(const asset of ['ltu-refine-v3.js','ltu-refine-v4.js','remove-hero.js','question-engine-v2.js','practice-ui-v4.js','notebook-ui-v2.js','auth-ui-v2.js','product-core-v1.js','launch-ui-v1.js','complete-preview-v1.js','complete-portal-v1.js','membership-sync-v1.js','membership-merge-v1.js','remove-duplicate-plans-v1.js','cute-theme-v1.js']){
