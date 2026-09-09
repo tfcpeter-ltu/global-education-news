@@ -8,8 +8,8 @@
 - src/pages/scholarships/ 新增重要獎學金內容時也必須建立；例如台灣學生可申請的新梯次、重要全額／高額補助、重大資格或截止日變化。以讀者實用性判斷，在資料中加上 selectionReason 說明選題理由。
 - 單純版面調整、索引更新或大量種子資料產生，不代表每個產生檔都是新選題；以正式文章 canonical URL 去重。
 - 文案可隨文章準備，但必須等正式文章部署成功、正式網址與圖片驗收、內容及來源複核後，才標為 ready。
-- 準備資料是發稿任務的一部分，不等同授權送出 Facebook、Instagram、Threads 貼文；實際發布須依使用者明確授權及既有排程辦理。本流程不新增或搬遷排程。
-- 本次僅建立文件規格，沒有新增自動產生器、發布程式或追補歷史文章；後續 Codex 發稿任務須依此準備資料。
+- 使用者於 2026-09-09 已授權 Codex 自動接手網站及 FB／IG／X 宣傳；通過本流程查核後可向交接紀錄中的既有帳號發布，不需逐篇詢問。帳號與排程狀態見 [Codex 交接紀錄](codex-handover.md)。
+- 現行發布平台是 Facebook、Instagram、X；保留 threadsCopy 供後續使用，不因保留欄位就同步發布 Threads。X 尚未連線時只準備文案，不阻擋其他可執行工作。
 
 ## 儲存方式
 
@@ -31,6 +31,7 @@
 | facebookCopy | 可直接閱讀的 3–5 段完整貼文，以空行分段，包含背景、影響及全文連結。 |
 | instagramCopy | 比 FB 精簡，以圖片為核心；前兩行放亮點與必要限制，導流可用「完整內容見首頁連結／Global Education News」。 |
 | threadsCopy | 短版文字，第一句具體，保留關鍵適用條件，附全文連結。 |
+| xCopy | 獨立短版 X 文字，具體開場、必要條件與全文網址；送出前依當時平台介面核對限制。 |
 | CTA | 僅取「閱讀全文」「收藏」「分享」「追蹤」「免費加入會員」其一，依下節輪替。 |
 | socialImage | 可用圖片的完整 URL；優先該文章 OG 圖或新聞實景照片。缺圖時為 null，且必填 imageRequest。 |
 | imageAlt | 對實際選用圖片的繁體中文描述；不堆關鍵字，不把資料照描述成事件現場。缺圖時可為 null，補圖後必填。 |
@@ -41,7 +42,7 @@
 
 status 使用 draft、needs-image、ready、published 或 needs-revision。publishedPosts 記錄實際成功的各平台 URL／時間；只完成部分平台時仍保留各平台明細，不把未送出平台寫成成功。
 
-## 品牌定位與三平台差異
+## 品牌定位與平台差異
 
 每個平台版本都要保留以下兩個定位的意義，依內容輪換語句、位置及長短，不每篇逐字貼上同一段：
 
@@ -51,6 +52,7 @@ status 使用 draft、needs-image、ready、published 或 needs-revision。publi
 
 可交替使用完整品牌句與較自然的表述，例如「從台灣出發，專注國際教育的 Global Education News 環球教育新聞」、「政策、海外大學招生與國際獎學金，每週透過免費會員週報掌握」。前者是定位的改寫，不宣稱已獨立查證市場排名；不得延伸成「唯一」「最大」或其他無依據的優越性宣稱。
 
+- X：以已核對數字、期限、政策變化或問題開場，保留必要條件及全文連結。使用獨立文案；不得未經指示拆成串文，發布工具回報超限時依工具規則處理。
 - Threads：第一句直接提出數字、期限、變化或具體問題。沒有數字就用來源支持的變化或問題，不能為吸引注意杜撰數字。篇幅短、語氣清楚；必要條件不能因縮短而省略。
 - Facebook：3–5 段，依序安排亮點、背景／主要變化、對台灣學生與家長的影響、品牌與行動。全文 URL 必須可見且可用。
 - Instagram：先決定圖片與重點，再寫 caption；前兩行不塞制式品牌介紹。精簡說明與圖片相符的事實，保留必要限制；若用「首頁連結」，實際發布前確認帳號首頁確有正確入口。
@@ -98,7 +100,7 @@ status 使用 draft、needs-image、ready、published 或 needs-revision。publi
 
 ```json
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "status": "draft",
   "sourcePath": "<文章在 repository 的路徑>",
   "articleCommit": "<文章版本 SHA>",
@@ -108,6 +110,7 @@ status 使用 draft、needs-image、ready、published 或 needs-revision。publi
   "facebookCopy": "<第 1 段：亮點>\n\n<第 2 段：背景與變化>\n\n<第 3 段：對台灣學生與家長的影響>\n\n<第 4 段：品牌定位、免費會員週報與 CTA，附全文網址>",
   "instagramCopy": "<第 1 行：亮點>\n<第 2 行：重要條件>\n\n<精簡影響、品牌定位與免費週報價值>\n<當日 CTA；完整內容見首頁連結／Global Education News>",
   "threadsCopy": "<具體 hook>\n<必要條件與短版影響>\n<品牌定位、免費週報價值與當日 CTA>\n<全文網址>",
+  "xCopy": "<具體開場、必要條件、品牌與當日 CTA、全文網址>",
   "CTA": "閱讀全文",
   "ctaDate": null,
   "socialImage": null,
@@ -135,7 +138,7 @@ status 使用 draft、needs-image、ready、published 或 needs-revision。publi
     "mustInclude": [
       "<僅使用已查核的文字與數字>"
     ],
-    "usage": "Facebook／Instagram／Threads",
+    "usage": "Facebook／Instagram／X；Threads 備用",
     "suggestedLayouts": [
       "直式貼文",
       "橫式連結預覽"
@@ -157,3 +160,10 @@ status 使用 draft、needs-image、ready、published 或 needs-revision。publi
 - 文章部署及正式站驗收通過，URL／OG 圖可用，圖片授權與裁切檢查完成，才改為 ready；缺圖則交付 needs-image 與需求。
 - 文章更正或改期時同步更新社群資料；已發布者另記需要更正的平台，不默默刪掉舊發布紀錄。
 - 回報資料檔位置、ready／needs-image 等狀態、CTA 日期與未解決事項；清楚區分「資料已備妥」及「平台已發布」。
+
+## 實際發布與失敗處理
+
+- 發布前確認正式文章、來源、圖片及授權，讀取平台近期貼文與已排程內容；以 articleUrl × 平台 × 版本去重。
+- 每平台留存發布意圖、目的帳號、回傳 ID、狀態、貼文 URL 與時間。先記錄意圖再送出，回讀平台結果後才記為成功。
+- 排定不等於已發布；部分成功時分平台記錄。逾時或結果不明時先查平台，不盲目重送。
+- X 尚未連線或圖片不合格時標記該平台 blocked／needs-image，保留可用文案；不把其他已完成的平台回滾或重發。

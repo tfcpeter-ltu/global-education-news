@@ -53,13 +53,13 @@
 
 ## 新聞發布後社群宣傳
 
-- 新增 src/pages/news/ 正式新聞或 src/pages/scholarships/ 重要獎學金時，必須同步依 [社群宣傳流程](docs/social-publishing.md) 建立三平台內容資料。
-- 每篇在 docs/social-posts/ 留存 JSON，包含 articleTitle、articleUrl、shortHook、facebookCopy、instagramCopy、threadsCopy、CTA、socialImage、imageAlt、category 與 topic，並保留來源及查核／圖片授權紀錄。
-- Facebook 3–5 段、Instagram 以圖片及前兩行亮點為主、Threads 以具體數字／期限／變化／問題開場，三平台不得整份照抄。
+- 新增 src/pages/news/ 正式新聞或 src/pages/scholarships/ 重要獎學金時，必須同步依 [社群宣傳流程](docs/social-publishing.md) 建立各平台內容資料。
+- 每篇在 docs/social-posts/ 留存 JSON，包含 articleTitle、articleUrl、shortHook、facebookCopy、instagramCopy、threadsCopy、xCopy、CTA、socialImage、imageAlt、category 與 topic，並保留來源及查核／圖片授權紀錄。
+- Facebook 3–5 段、Instagram 以圖片及前兩行亮點為主、Threads 以具體數字／期限／變化／問題開場，各平台不得整份照抄。
 - 保留品牌定位與免費會員週報價值，改寫表達避免逐篇重複；不得增加新聞未支持的事實或推論。
 - CTA 依「閱讀全文 → 收藏 → 分享 → 追蹤 → 免費加入會員」按台灣發布日批次輪替，查閱持續保存的紀錄，避免跨日重複。
 - 缺合適圖片時建立 imageRequest 並標 needs-image，不使用授權不明照片。正式站、文案、來源及圖片驗收後才標 ready。
-- 本要求是準備可供發布的資料，不代表授權立即向社群送出貼文，也不變更既有排程。
+- 使用者已於 2026-09-09 授權 Codex 自動接手新聞、獎學金、網站維護及 FB／IG／X 宣傳。依 [交接紀錄](docs/codex-handover.md) 的已確認帳號發布，無須逐篇再次詢問；未連線平台保留資料並回報。
 
 ## 圖片
 
@@ -121,11 +121,11 @@
 
 權限不足、部署失敗、來源不可讀或需要人工授權時，先完成不受阻礙的工作，再清楚指出阻礙。不得把尚未完成正式站驗收的修改說成已完成。
 
-## 自動化現況與搬遷邊界（2026-09-09）
+## 自動化現況（2026-09-09）
 
-- 使用者已明確決定：本次先寫入維護規則，保留原排程。
-- 原 ChatGPT 每日 08:00 新聞、Threads 12:30 與獎學金雷達任務，不會因 Codex 接手 GitHub 或新增 AGENTS.md 而自動轉移。此文件不代表新排程已建立，也不代表已查驗外部排程執行成功。
-- 本次不得新增、停用、搬遷或重複建立這些排程；未來須有明確搬遷任務才執行切換。
-- 建立本文件時，main 的 workflows 是 deploy.yml（main 推送／手動部署）及 update-readership.yml（台灣 09:15 更新 GA4）；每次仍須重讀最新設定。
-- 獎學金種子產生器不是網路新聞／獎學金查核執行器；每日精選及輪播文案不是自動採集已啟用的證據。
-- 未來如搬遷到 GitHub Actions／cron，先完成可驗證的來源取得、雙重查核、圖片授權、去重、防止重複刊登、失敗處理與部署驗收流程，確認安全配置的執行憑證及舊排程停用時點。不能只增加 cron 就回報搬遷成功。
+- 使用者後續已明確授權 Codex 自動接手，取代先前「僅寫規則、保留原排程」的階段限制。
+- Codex 桌面 heartbeat「環球教育新聞｜每日維護與 FB IG X 宣傳」（ID：fb-ig-x）已啟用，每天台灣時間 08:00 執行。詳細交接與帳號見 [docs/codex-handover.md](docs/codex-handover.md)。
+- 原 ChatGPT 新聞、社群日更、獎學金及政策雷達均已驗證暫停。不得另建重複排程；恢復舊任務前須先協調切換。
+- 此為 Codex 桌面排程，需要電腦開機與 Codex 運作；不是已搬到 GitHub Actions 的雲端查核執行器。
+- GitHub workflows 仍負責 Pages 部署與 GA4 更新，每次須重讀最新設定；種子產生器不是網路查核程式。
+- 發布先查正式站、平台歷史與已排程紀錄，以 articleUrl × 平台 × 版本去重；回應不明不得盲目重送。成功須保存平台回傳 ID、URL 與時間。
