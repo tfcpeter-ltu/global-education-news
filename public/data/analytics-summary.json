@@ -1,6 +1,6 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-08T01:24:05.684Z",
+  "updatedAt": "2026-09-09T01:25:09.877Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
@@ -12,48 +12,48 @@
     {
       "title": "最新國際教育新聞",
       "path": "/news/",
-      "views": 20
+      "views": 21
+    },
+    {
+      "title": "加拿大啟動 2027 學簽名額規劃：國際學生新入境目標 15 萬，秋季將設定 Study Permit Cap｜環球教育新聞 Global Education News",
+      "path": "/news/canada-2027-study-permit-cap-planning-150000-target/",
+      "views": 18
     },
     {
       "title": "美國加強 CPT 實習規範執行：部分大學暫停特定申請，國際學生要注意什麼？｜環球教育新聞 Global Education News",
       "path": "/news/us-cpt-internship-enforcement-2026/",
-      "views": 18
+      "views": 17
     },
     {
       "title": "紐西蘭國際教育收入突破疫情前高點：年出口收益達 NZ$49.8 億，2026 國際學生朝 9.9 萬人前進｜環球教育新聞 Global Education News",
       "path": "/news/new-zealand-international-education-exports-5-billion-2026/",
       "views": 11
-    },
-    {
-      "title": "香港大學 2027 Non-JUPAS 9月23日開放：國際資格申請與 Rolling Admissions 重點｜環球教育新聞 Global Education News",
-      "path": "/news/hku-2027-non-jupas-opens-september-23/",
-      "views": 9
     }
   ],
   "countries": [
     {
       "name": "台灣",
       "mapName": "Taiwan",
-      "sessions": 1062,
-      "share": 75.3
+      "sessions": 1111,
+      "share": 75
     },
     {
       "name": "美國",
       "mapName": "United States",
-      "sessions": 136,
-      "share": 9.6
+      "sessions": 139,
+      "share": 9.4
+    },
+    {
+      "name": "加拿大",
+      "mapName": "Canada",
+      "sessions": 37,
+      "share": 2.5
     },
     {
       "name": "日本",
       "mapName": "Japan",
       "sessions": 28,
-      "share": 2
-    },
-    {
-      "name": "加拿大",
-      "mapName": "Canada",
-      "sessions": 24,
-      "share": 1.7
+      "share": 1.9
     },
     {
       "name": "香港",
@@ -65,29 +65,29 @@
       "name": "澳洲",
       "mapName": "Australia",
       "sessions": 22,
-      "share": 1.6
-    },
-    {
-      "name": "英國",
-      "mapName": "United Kingdom",
-      "sessions": 13,
-      "share": 0.9
+      "share": 1.5
     },
     {
       "name": "德國",
       "mapName": "Germany",
-      "sessions": 12,
+      "sessions": 15,
+      "share": 1
+    },
+    {
+      "name": "英國",
+      "mapName": "United Kingdom",
+      "sessions": 14,
       "share": 0.9
     },
     {
       "name": "印度",
       "mapName": "India",
-      "sessions": 12,
-      "share": 0.9
+      "sessions": 11,
+      "share": 0.7
     },
     {
-      "name": "瑞典",
-      "mapName": "Sweden",
+      "name": "南韓",
+      "mapName": "South Korea",
       "sessions": 9,
       "share": 0.6
     }
