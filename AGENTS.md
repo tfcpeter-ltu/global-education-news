@@ -51,6 +51,16 @@
 - 來源區塊及結構化 citation 必須能讓讀者回查原始資料。
 - 標題與摘要使用來源可支持的敘述，避免把尚待落實的政策寫成已實施。
 
+## 新聞發布後社群宣傳
+
+- 新增 src/pages/news/ 正式新聞或 src/pages/scholarships/ 重要獎學金時，必須同步依 [社群宣傳流程](docs/social-publishing.md) 建立三平台內容資料。
+- 每篇在 docs/social-posts/ 留存 JSON，包含 articleTitle、articleUrl、shortHook、facebookCopy、instagramCopy、threadsCopy、CTA、socialImage、imageAlt、category 與 topic，並保留來源及查核／圖片授權紀錄。
+- Facebook 3–5 段、Instagram 以圖片及前兩行亮點為主、Threads 以具體數字／期限／變化／問題開場，三平台不得整份照抄。
+- 保留品牌定位與免費會員週報價值，改寫表達避免逐篇重複；不得增加新聞未支持的事實或推論。
+- CTA 依「閱讀全文 → 收藏 → 分享 → 追蹤 → 免費加入會員」按台灣發布日批次輪替，查閱持續保存的紀錄，避免跨日重複。
+- 缺合適圖片時建立 imageRequest 並標 needs-image，不使用授權不明照片。正式站、文案、來源及圖片驗收後才標 ready。
+- 本要求是準備可供發布的資料，不代表授權立即向社群送出貼文，也不變更既有排程。
+
 ## 圖片
 
 - 每篇新聞必須有自己的主圖；不同文章不得在同一頁或近期首頁重複使用相同圖片。
