@@ -2,8 +2,12 @@ import { readFile } from 'node:fs/promises';
 import vm from 'node:vm';
 function ok(value,message){if(!value)throw new Error(`QA failed: ${message}`);console.log('✓',message)}
 const read=p=>readFile(p,'utf8');
-const browserFiles=['question-engine-v2.js','practice-ui-v4.js','notebook-ui-v2.js','auth-ui-v2.js','product-core-v1.js','launch-ui-v1.js','complete-preview-v1.js','complete-portal-v1.js','membership-sync-v1.js','remove-hero.js'];
+const browserFiles=['question-engine-v2.js','practice-ui-v4.js','notebook-ui-v2.js','auth-ui-v2.js','product-core-v1.js','launch-ui-v1.js','complete-preview-v1.js','complete-portal-v1.js','membership-sync-v1.js','remove-hero.js','cute-theme-v1.js'];
 for(const file of browserFiles){const src=await read(file);new Function(src);ok(true,`${file} parses`)}
+const hero=await readFile('public/cap-hero-cute.jpg');
+ok(hero.length>1000&&hero[0]===0xff&&hero[1]===0xd8,'hero asset is a real JPEG, not a placeholder');
+const cute=await read('cute-theme-v1.js');
+ok(cute.includes('/cap-hero-cute.jpg'),'cute theme points to the verified hero asset');
 const engineSrc=await read('question-engine-v2.js'),context={window:{},console};vm.createContext(context);vm.runInContext(engineSrc,context);const audit=context.window.LTUQuestionEngine.audit();
 ok(audit.count===20000&&audit.uniqueIds===20000&&audit.uniqueSignatures===20000&&audit.duplicates===0,'20,000 question bank is unique');
 ok(Object.keys(audit.byType||{}).length===12,'question bank covers 12 competency types');
@@ -16,5 +20,5 @@ const notebookApi=await read('api/notebook.js'),notebookUi=await read('notebook-
 const progress=await read('api/progress.js');ok(progress.includes('items.length!==64')&&progress.includes('items.slice(0,43)')&&progress.includes('items.slice(43)'),'Weekly Mock is 43+21 / 64 questions');ok(progress.includes('jsonb_to_recordset'),'Weekly Mock uses batch DB writes');
 const product=await read('product-core-v1.js');ok(product.includes("take(12,['vocabulary'])")&&product.includes("take(21,['listening'])"),'Product Core dynamically assembles Weekly Mock');ok(product.includes('AI 筆記')&&product.includes('Weekly Mock')&&product.includes('歷屆')&&product.includes('弱點分析'),'Complete core features are surfaced');
 const payment=await read('api/payment.js'),authMe=await read('api/auth-me.js');ok(payment.includes("locked.status==='paid'"),'payment activation is idempotent');ok(payment.includes('/#payment-success'),'payment returns to current homepage');ok(authMe.includes("status='expired'"),'expired Complete status is enforced');
-const build=await read('scripts/build-ui.mjs');for(const required of ['question-engine-v2.js','practice-ui-v4.js','notebook-ui-v2.js','auth-ui-v2.js','product-core-v1.js','launch-ui-v1.js','complete-preview-v1.js','complete-portal-v1.js','membership-sync-v1.js'])ok(build.includes(required),`build includes ${required}`);ok(build.includes("files=['final-v3.html']"),'mobile shell uses one UI layer');ok(build.includes("public/complete.html"),'build emits a dedicated Complete member page');
+const build=await read('scripts/build-ui.mjs');for(const required of ['question-engine-v2.js','practice-ui-v4.js','notebook-ui-v2.js','auth-ui-v2.js','product-core-v1.js','launch-ui-v1.js','complete-preview-v1.js','complete-portal-v1.js','membership-sync-v1.js','cute-theme-v1.js'])ok(build.includes(required),`build includes ${required}`);ok(build.includes("files=['final-v3.html']"),'mobile shell uses one UI layer');ok(build.includes("public/complete.html"),'build emits a dedicated Complete member page');ok(!build.includes("Buffer.from(heroB64,'base64')"),'build does not overwrite the verified hero with legacy base64');
 console.log('\nCAP PRODUCT QA PASSED');console.log(JSON.stringify(audit,null,2));
