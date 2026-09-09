@@ -1,0 +1,385 @@
+/* European Royal Academic Edition — scholarship radar only */
+.scholarship-radar-page {
+  --royal-navy:#091e39;
+  --royal-blue:#123454;
+  --royal-gold:#b08a4a;
+  --royal-gold-light:#d8be8b;
+  --royal-burgundy:#6e2230;
+  --royal-ivory:#faf6ed;
+  --royal-parchment:#efe6d6;
+  --royal-stone:#d3c5ad;
+}
+
+.scholarship-radar-page .site-header {
+  background:
+    linear-gradient(rgba(250,246,237,.96),rgba(250,246,237,.96)),
+    url('/images/scholarship/royal-damask.svg') !important;
+  border-bottom:6px double var(--royal-gold) !important;
+}
+.scholarship-radar-page .site-header .masthead {
+  position:relative !important;
+  padding-top:42px !important;
+  padding-bottom:30px !important;
+}
+.scholarship-radar-page .site-header .masthead::after {
+  content:"" !important;
+  position:absolute !important;
+  left:50% !important;
+  top:-6px !important;
+  width:76px !important;
+  height:88px !important;
+  transform:translateX(-50%) !important;
+  background:url('/images/scholarship/royal-crest.svg') center/contain no-repeat !important;
+  opacity:.95 !important;
+  pointer-events:none !important;
+}
+.scholarship-radar-page .masthead-rule {
+  position:relative !important;
+  min-height:42px !important;
+}
+.scholarship-radar-page .masthead-rule::before {
+  content:"" !important;
+  position:absolute !important;
+  inset:2px 12% 0 !important;
+  background:url('/images/scholarship/royal-divider.svg') center/100% 36px no-repeat !important;
+  opacity:.95 !important;
+}
+.scholarship-radar-page .masthead-rule > span { opacity:0 !important; }
+
+.scholarship-radar-page .scholarship-page {
+  background:
+    linear-gradient(rgba(250,246,237,.955),rgba(250,246,237,.955)),
+    url('/images/scholarship/royal-damask.svg') 0 0/180px 180px repeat !important;
+}
+
+/* HERO — crown, corner scrolls, double royal border */
+.scholarship-radar-page .scholarship-page .editorial-hero {
+  position:relative !important;
+  padding-top:126px !important;
+  padding-bottom:90px !important;
+  background:
+    linear-gradient(rgba(249,244,234,.90),rgba(239,230,214,.94)),
+    url('/images/scholarship/royal-damask.svg') 0 0/150px 150px repeat !important;
+  border-top:8px double var(--royal-gold) !important;
+  border-bottom:8px double var(--royal-gold) !important;
+  box-shadow:inset 0 0 0 1px rgba(110,34,48,.14), inset 0 0 55px rgba(54,40,21,.08) !important;
+}
+.scholarship-radar-page .scholarship-page .editorial-hero .ornament {
+  display:block !important;
+  width:176px !important;
+  height:176px !important;
+  top:14px !important;
+  font-size:0 !important;
+  color:transparent !important;
+  background:url('/images/scholarship/royal-corner.svg') center/contain no-repeat !important;
+  opacity:1 !important;
+  z-index:3 !important;
+}
+.scholarship-radar-page .scholarship-page .editorial-hero .ornament-left { left:14px !important; transform:none !important; }
+.scholarship-radar-page .scholarship-page .editorial-hero .ornament-right { right:14px !important; transform:scaleX(-1) !important; }
+.scholarship-radar-page .scholarship-page .hero-inner {
+  position:relative !important;
+}
+.scholarship-radar-page .scholarship-page .hero-inner::before {
+  content:"" !important;
+  position:absolute !important;
+  left:50% !important;
+  top:-110px !important;
+  width:112px !important;
+  height:128px !important;
+  transform:translateX(-50%) !important;
+  background:url('/images/scholarship/royal-crest.svg') center/contain no-repeat !important;
+  filter:drop-shadow(0 4px 8px rgba(67,44,18,.14)) !important;
+  pointer-events:none !important;
+  z-index:4 !important;
+}
+.scholarship-radar-page .scholarship-page .hero-copy {
+  border-left:0 !important;
+  padding:28px 34px 30px !important;
+  background:rgba(255,253,248,.78) !important;
+  box-shadow:inset 0 0 0 1px var(--royal-gold), inset 0 0 0 7px rgba(176,138,74,.10) !important;
+  position:relative !important;
+}
+.scholarship-radar-page .scholarship-page .hero-copy::after {
+  content:"" !important;
+  display:block !important;
+  width:min(520px,92%) !important;
+  height:52px !important;
+  margin:18px auto -8px !important;
+  background:url('/images/scholarship/royal-divider.svg') center/contain no-repeat !important;
+  opacity:.92 !important;
+}
+.scholarship-radar-page .scholarship-page .hero-copy h1 {
+  text-shadow:0 1px 0 #fff !important;
+}
+.scholarship-radar-page .scholarship-page .stat-panel {
+  outline:1px solid var(--royal-gold-light) !important;
+  outline-offset:-12px !important;
+  border:3px double var(--royal-gold-light) !important;
+  background:
+    linear-gradient(rgba(9,30,57,.97),rgba(13,49,85,.97)),
+    url('/images/scholarship/royal-damask.svg') center/135px 135px repeat !important;
+}
+.scholarship-radar-page .scholarship-page .stat-panel::after {
+  content:"" !important;
+  position:absolute !important;
+  left:16% !important;
+  right:16% !important;
+  bottom:11px !important;
+  height:34px !important;
+  background:url('/images/scholarship/royal-divider.svg') center/contain no-repeat !important;
+  opacity:.5 !important;
+}
+
+/* GRAND ARCHIVE SEARCH — ornate frame */
+.scholarship-radar-page .scholarship-page .search-section {
+  padding-top:72px !important;
+  padding-bottom:70px !important;
+  background:
+    linear-gradient(rgba(250,247,239,.96),rgba(246,239,227,.96)),
+    url('/images/scholarship/royal-damask.svg') center/165px 165px repeat !important;
+}
+.scholarship-radar-page .scholarship-page .archive-heading {
+  position:relative !important;
+  padding-top:52px !important;
+  margin-bottom:30px !important;
+}
+.scholarship-radar-page .scholarship-page .archive-heading::before {
+  content:"" !important;
+  position:absolute !important;
+  left:50% !important;
+  top:-12px !important;
+  width:82px !important;
+  height:94px !important;
+  transform:translateX(-50%) !important;
+  background:url('/images/scholarship/royal-crest.svg') center/contain no-repeat !important;
+  opacity:.88 !important;
+}
+.scholarship-radar-page .scholarship-page .archive-heading::after {
+  content:"" !important;
+  display:block !important;
+  width:min(650px,88%) !important;
+  height:54px !important;
+  margin:8px auto -15px !important;
+  background:url('/images/scholarship/royal-divider.svg') center/contain no-repeat !important;
+}
+.scholarship-radar-page .scholarship-page .search-panel {
+  position:relative !important;
+  padding:34px !important;
+  border:6px double var(--royal-gold) !important;
+  background:
+    linear-gradient(rgba(246,239,227,.94),rgba(246,239,227,.94)),
+    url('/images/scholarship/royal-damask.svg') center/145px 145px repeat !important;
+  box-shadow:0 20px 44px rgba(53,39,20,.10), inset 0 0 0 1px rgba(110,34,48,.18), inset 0 0 0 12px rgba(255,255,255,.34) !important;
+}
+.scholarship-radar-page .scholarship-page .search-panel::before,
+.scholarship-radar-page .scholarship-page .search-panel::after {
+  content:"" !important;
+  position:absolute !important;
+  width:118px !important;
+  height:118px !important;
+  top:4px !important;
+  background:url('/images/scholarship/royal-corner.svg') center/contain no-repeat !important;
+  pointer-events:none !important;
+  opacity:.9 !important;
+}
+.scholarship-radar-page .scholarship-page .search-panel::before { left:4px !important; }
+.scholarship-radar-page .scholarship-page .search-panel::after { right:4px !important; transform:scaleX(-1) !important; }
+.scholarship-radar-page .scholarship-page .search-box {
+  min-height:112px !important;
+  border:2px solid var(--royal-gold) !important;
+  box-shadow:inset 0 0 0 5px #fff, inset 0 0 0 6px rgba(176,138,74,.38), 0 12px 28px rgba(52,39,20,.08) !important;
+  background:#fffdfa !important;
+}
+.scholarship-radar-page .scholarship-page .search-icon {
+  width:66px !important;
+  height:66px !important;
+  border:3px double var(--royal-gold-light) !important;
+  background:var(--royal-navy) !important;
+}
+.scholarship-radar-page .scholarship-page .search-box input {
+  font-size:1.72rem !important;
+  font-weight:800 !important;
+  letter-spacing:.02em !important;
+}
+.scholarship-radar-page .scholarship-page .search-box input::placeholder {
+  font-size:1.58rem !important;
+  color:#625a50 !important;
+}
+.scholarship-radar-page .scholarship-page .filter-grid {
+  padding-top:16px !important;
+  border-top:1px solid rgba(176,138,74,.45) !important;
+}
+.scholarship-radar-page .scholarship-page .select-box,
+.scholarship-radar-page .scholarship-page .clear-btn,
+.scholarship-radar-page .scholarship-search-submit {
+  border-radius:0 !important;
+  box-shadow:inset 0 0 0 2px rgba(176,138,74,.10) !important;
+}
+
+/* ROYAL SECTION TITLES */
+.scholarship-radar-page .scholarship-page .section-title-row,
+.scholarship-radar-page .scholarship-page .catalog-heading,
+.scholarship-radar-page .scholarship-page .center-heading {
+  position:relative !important;
+}
+.scholarship-radar-page .scholarship-page .section-title-row::before,
+.scholarship-radar-page .scholarship-page .catalog-heading::before,
+.scholarship-radar-page .scholarship-page .center-heading::after {
+  content:"" !important;
+  display:block !important;
+  width:min(560px,92%) !important;
+  height:48px !important;
+  margin:0 auto 8px !important;
+  background:url('/images/scholarship/royal-divider.svg') center/contain no-repeat !important;
+  opacity:.95 !important;
+}
+.scholarship-radar-page .scholarship-page .section-title-row::after,
+.scholarship-radar-page .scholarship-page .catalog-heading::after { display:none !important; }
+
+/* FEATURED CARDS — royal archive folios */
+.scholarship-radar-page .scholarship-page .spotlight-card {
+  position:relative !important;
+  padding:30px 28px 24px !important;
+  border:3px double var(--royal-gold) !important;
+  background:
+    linear-gradient(rgba(255,253,248,.96),rgba(248,241,229,.96)),
+    url('/images/scholarship/royal-damask.svg') center/150px 150px repeat !important;
+  box-shadow:0 14px 30px rgba(47,35,18,.07), inset 0 0 0 8px rgba(176,138,74,.06) !important;
+}
+.scholarship-radar-page .scholarship-page .spotlight-card::before {
+  content:"" !important;
+  position:absolute !important;
+  right:3px !important;
+  top:3px !important;
+  width:82px !important;
+  height:82px !important;
+  background:url('/images/scholarship/royal-corner.svg') center/contain no-repeat !important;
+  transform:scaleX(-1) !important;
+  opacity:.75 !important;
+}
+.scholarship-radar-page .scholarship-page .spotlight-card::after {
+  content:"" !important;
+  position:absolute !important;
+  left:18% !important;
+  right:18% !important;
+  bottom:3px !important;
+  height:28px !important;
+  background:url('/images/scholarship/royal-divider.svg') center/contain no-repeat !important;
+  opacity:.42 !important;
+}
+.scholarship-radar-page .scholarship-page .status-pill {
+  border:2px double currentColor !important;
+  letter-spacing:.08em !important;
+  padding:6px 10px !important;
+}
+
+/* TAIWAN PROGRAMMES — court registry feel */
+.scholarship-radar-page .scholarship-page .taiwan-programs {
+  background:
+    linear-gradient(rgba(242,234,220,.94),rgba(250,246,237,.94)),
+    url('/images/scholarship/royal-damask.svg') center/155px 155px repeat !important;
+  border-top:7px double var(--royal-gold) !important;
+  border-bottom:7px double var(--royal-gold) !important;
+}
+.scholarship-radar-page .scholarship-page .program-pills a {
+  position:relative !important;
+  min-height:54px !important;
+  padding:0 22px !important;
+  border:3px double #c5a568 !important;
+  background:#fffdfa !important;
+}
+.scholarship-radar-page .scholarship-page .program-pills a::before {
+  content:"◆" !important;
+  margin-right:4px !important;
+  color:var(--royal-gold) !important;
+  font-size:.58rem !important;
+}
+
+/* ARCHIVE CARDS — heraldic index */
+.scholarship-radar-page .scholarship-page .catalog-section {
+  background:
+    linear-gradient(rgba(250,246,237,.95),rgba(245,237,224,.95)),
+    url('/images/scholarship/royal-damask.svg') center/180px 180px repeat !important;
+}
+.scholarship-radar-page .scholarship-page .catalog-card {
+  position:relative !important;
+  padding:24px 22px !important;
+  border:3px double #c7aa72 !important;
+  border-left:6px double var(--royal-blue) !important;
+  background:
+    linear-gradient(rgba(255,254,251,.96),rgba(249,244,234,.96)),
+    url('/images/scholarship/royal-damask.svg') center/135px 135px repeat !important;
+  box-shadow:0 8px 20px rgba(45,33,18,.05), inset 0 0 0 6px rgba(176,138,74,.045) !important;
+}
+.scholarship-radar-page .scholarship-page .catalog-card::before {
+  content:"" !important;
+  position:absolute !important;
+  right:5px !important;
+  top:5px !important;
+  width:54px !important;
+  height:54px !important;
+  background:url('/images/scholarship/royal-corner.svg') center/contain no-repeat !important;
+  transform:scaleX(-1) !important;
+  opacity:.54 !important;
+}
+.scholarship-radar-page .scholarship-page .catalog-card::after {
+  content:"ROYAL ACADEMIC ARCHIVE" !important;
+  right:12px !important;
+  bottom:10px !important;
+  color:rgba(17,43,76,.055) !important;
+  font-size:.72rem !important;
+  letter-spacing:.14em !important;
+}
+.scholarship-radar-page .scholarship-page .catalog-bottom {
+  border-top:3px double #dfcfb4 !important;
+  padding-top:15px !important;
+}
+
+/* EDITORIAL STANDARD — ceremonial ending */
+.scholarship-radar-page .scholarship-page .verification-section {
+  position:relative !important;
+  padding-top:78px !important;
+  border-top:8px double var(--royal-gold) !important;
+  background:
+    linear-gradient(rgba(7,29,56,.96),rgba(14,47,81,.97)),
+    url('/images/scholarship/royal-damask.svg') center/130px 130px repeat !important;
+}
+.scholarship-radar-page .scholarship-page .verification-section::before {
+  content:"" !important;
+  position:absolute !important;
+  left:50% !important;
+  top:10px !important;
+  width:310px !important;
+  height:58px !important;
+  transform:translateX(-50%) !important;
+  background:url('/images/scholarship/royal-divider.svg') center/contain no-repeat !important;
+  opacity:.82 !important;
+}
+.scholarship-radar-page .scholarship-page .verification-steps > div {
+  background:rgba(255,255,255,.025) !important;
+}
+
+@media (max-width: 1100px) {
+  .scholarship-radar-page .scholarship-page .editorial-hero { padding-top:112px !important; }
+  .scholarship-radar-page .scholarship-page .editorial-hero .ornament { width:128px !important; height:128px !important; }
+  .scholarship-radar-page .scholarship-page .hero-inner::before { top:-100px !important; width:96px !important; height:110px !important; }
+  .scholarship-radar-page .scholarship-page .search-box input { font-size:1.48rem !important; }
+  .scholarship-radar-page .scholarship-page .search-box input::placeholder { font-size:1.36rem !important; }
+}
+
+@media (max-width: 760px) {
+  .scholarship-radar-page .site-header .masthead::after { width:58px !important; height:66px !important; top:0 !important; }
+  .scholarship-radar-page .masthead-rule::before { inset:4px 4% 0 !important; }
+  .scholarship-radar-page .scholarship-page .editorial-hero { padding-top:96px !important; }
+  .scholarship-radar-page .scholarship-page .editorial-hero .ornament { width:88px !important; height:88px !important; }
+  .scholarship-radar-page .scholarship-page .hero-inner::before { top:-80px !important; width:78px !important; height:90px !important; }
+  .scholarship-radar-page .scholarship-page .hero-copy { padding:24px 20px 26px !important; }
+  .scholarship-radar-page .scholarship-page .search-panel { padding:20px !important; }
+  .scholarship-radar-page .scholarship-page .search-box { min-height:92px !important; padding:0 18px !important; }
+  .scholarship-radar-page .scholarship-page .search-icon { width:54px !important; height:54px !important; }
+  .scholarship-radar-page .scholarship-page .search-box input { font-size:1.18rem !important; }
+  .scholarship-radar-page .scholarship-page .search-box input::placeholder { font-size:1.08rem !important; }
+  .scholarship-radar-page .scholarship-page .archive-heading::before { width:62px !important; height:72px !important; }
+  .scholarship-radar-page .scholarship-page .spotlight-card { padding:26px 20px 22px !important; }
+}
