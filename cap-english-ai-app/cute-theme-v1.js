@@ -1,11 +1,13 @@
 (function(){'use strict';
-function deepest(){try{let f=document.querySelector('iframe'),d=f?.contentDocument;if(!d)return document;for(let i=0;i<10;i++){const n=d.querySelector('iframe');if(!n||!n.contentDocument)break;d=n.contentDocument}return d}catch{return document}}
-function mount(d){if(!d?.body)return;
+function allDocs(){const docs=[document];try{let d=document;for(let i=0;i<12;i++){const f=d.querySelector('iframe');if(!f||!f.contentDocument)break;d=f.contentDocument;docs.push(d)}}catch{}return docs}
+function homeDoc(){const docs=allDocs();for(const d of docs){if(d.getElementById('ltuHomeV3')||d.querySelector('.v3nav'))return d}return docs[docs.length-1]||document}
+function cleanupMisplaced(target){for(const d of allDocs()){if(d===target)continue;d.getElementById('cuteHeroV1')?.remove()}}
+function mount(){const d=homeDoc();if(!d?.body)return;cleanupMisplaced(d);
   if(!d.getElementById('cuteThemeV1Style')){const s=d.createElement('style');s.id='cuteThemeV1Style';s.textContent=`
 :root{--cute-blue:#2878f0;--cute-ink:#123b68;--cute-soft:#f3f9ff;--cute-line:#dcecff;--cute-pink:#fff4f8;--cute-mint:#f1fcf8;--cute-yellow:#fff9e8}
 html{scroll-behavior:smooth}body{background:linear-gradient(180deg,#fff 0,#f7fbff 48%,#fff 100%)!important;color:var(--cute-ink)!important}
 #ltuHomeV3{max-width:1320px!important;padding:0 24px 60px!important}.v3nav{height:70px!important;border-bottom:1px solid #e7f1fb!important;background:#ffffffef!important;box-shadow:0 6px 24px rgba(58,121,186,.06)!important}.v3logo{color:#16539a!important}.v3brandtext{color:#173f68!important}.v3links .primary,.v3Action,.btn.primary,.pcBtn{background:linear-gradient(135deg,#2d83f7,#176df3)!important;border-radius:999px!important;box-shadow:0 7px 18px rgba(32,116,236,.16)!important}.v3Action.secondary,.btn.secondary{border-radius:999px!important;background:#edf6ff!important;color:#245d96!important;border:1px solid #d7eaff!important}
-#v3Hero{display:none!important}#cuteHeroV1{margin:16px 0 22px;border-radius:26px;overflow:hidden;background:#eef7ff;box-shadow:0 18px 45px rgba(55,113,170,.12);border:1px solid #e2effb}#cuteHeroV1 img{display:block;width:100%;height:auto;object-fit:contain;background:#fff}
+#v3Hero{display:none!important}#cuteHeroV1{margin:12px 0 24px;border-radius:26px;overflow:hidden;background:#eef7ff;box-shadow:0 18px 45px rgba(55,113,170,.12);border:1px solid #e2effb}#cuteHeroV1 img{display:block;width:100%;height:auto;object-fit:contain;background:#fff}
 .v3Quick{gap:12px!important;margin:18px 0 24px!important}.v3QuickCard{border:1px solid var(--cute-line)!important;border-radius:20px!important;background:linear-gradient(180deg,#fff,#fbfdff)!important;box-shadow:0 9px 24px rgba(34,102,169,.06)!important}.v3QuickCard:nth-child(1){background:linear-gradient(180deg,#fff,#f4f9ff)!important}.v3QuickCard:nth-child(2){background:linear-gradient(180deg,#fff,#fff7fa)!important}.v3QuickCard:nth-child(3){background:linear-gradient(180deg,#fff,#f4fbff)!important}.v3Icon{border-radius:14px!important;background:#eaf4ff!important}
 #plans{display:block!important;visibility:visible!important;opacity:1!important;background:transparent!important;padding-top:28px!important}#plans>h2,#plans h2{color:#123d69!important;letter-spacing:-.02em}.pricing{gap:16px!important}.price{border:1px solid #dbeafa!important;border-radius:26px!important;background:#fff!important;box-shadow:0 12px 30px rgba(27,92,155,.07)!important}.price.feature{border:2px solid #4b93f6!important;background:linear-gradient(145deg,#fff,#f1f8ff)!important}.price ul{line-height:1.85!important}.ribbon{background:#e9f4ff!important;color:#176df3!important;border-radius:999px!important}
 #completePreviewV1,.pcMock,.pcResult,.nbBox,.a2box,.memberCard,.priceCard,.card,.panel{border-radius:22px!important}.section{scroll-margin-top:84px}.section h2{color:#123d69!important}.lead{color:#667f98!important}.card,.panel{border-color:#e0edf8!important;box-shadow:0 10px 28px rgba(35,94,150,.05)!important}.pcLock{border-radius:22px!important;background:#fbfdff!important;border-color:#cfe3f7!important}.pcStat,.pcYear,.pcMock{border-color:#dfeaf5!important}.nbItem,.nbStat{border-radius:16px!important}.a2plan{border-radius:18px!important;background:#fbfdff!important}.a2btn{border-radius:999px!important}
@@ -13,9 +15,13 @@ html{scroll-behavior:smooth}body{background:linear-gradient(180deg,#fff 0,#f7fbf
 @media(max-width:700px){#ltuHomeV3{padding:0 12px 40px!important}#cuteHeroV1{border-radius:18px;margin-top:10px}.v3nav{height:64px!important}.pricing{grid-template-columns:1fr!important}.section{padding-left:4px!important;padding-right:4px!important}}
 `;d.head.appendChild(s)}
   d.getElementById('v3Hero')?.remove();
-  let hero=d.getElementById('cuteHeroV1');if(!hero){hero=d.createElement('section');hero.id='cuteHeroV1';hero.setAttribute('aria-label','CAP English AI 主視覺');hero.innerHTML='<img src="/cap-hero-cute.jpg?v=20260909" alt="用 AI 學英文，把時間花在真正不會的地方｜LTU 國際學術中心 CAP English AI">';const nav=d.querySelector('#ltuHomeV3 .v3nav')||d.querySelector('.v3nav');if(nav)nav.insertAdjacentElement('afterend',hero);else d.body.prepend(hero)}
+  const nav=d.querySelector('#ltuHomeV3 .v3nav')||d.querySelector('.v3nav');
+  let hero=d.getElementById('cuteHeroV1');
+  if(!hero){hero=d.createElement('section');hero.id='cuteHeroV1';hero.setAttribute('aria-label','CAP English AI 主視覺');hero.innerHTML='<img src="/cap-hero-cute.jpg?v=20260909-real-jpeg-v2" alt="用 AI 學英文，把時間花在真正不會的地方｜LTU 國際學術中心 CAP English AI">'}
+  const img=hero.querySelector('img');if(img&&img.getAttribute('src')!=='/cap-hero-cute.jpg?v=20260909-real-jpeg-v2')img.src='/cap-hero-cute.jpg?v=20260909-real-jpeg-v2';
+  if(nav&&hero.previousElementSibling!==nav)nav.insertAdjacentElement('afterend',hero);else if(!hero.isConnected)d.body.prepend(hero);
   d.querySelectorAll('.v3Plans').forEach(x=>x.remove());
   const plans=d.getElementById('plans');if(plans){plans.style.setProperty('display','block','important');plans.classList.remove('pcHide','v3Locked','v19Locked')}
 }
-setTimeout(()=>mount(deepest()),300);setTimeout(()=>mount(deepest()),1200);setInterval(()=>mount(deepest()),2500);window.addEventListener('ltu:product-refresh',()=>setTimeout(()=>mount(deepest()),300));window.LTUCuteTheme={refresh:()=>mount(deepest())};
+setTimeout(mount,300);setTimeout(mount,1200);setInterval(mount,2500);window.addEventListener('ltu:product-refresh',()=>setTimeout(mount,300));window.LTUCuteTheme={refresh:mount};
 })();
