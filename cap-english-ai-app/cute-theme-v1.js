@@ -17,8 +17,6 @@ html{scroll-behavior:smooth}body{background:linear-gradient(180deg,#fff 0,#f7fbf
   let hero=d.getElementById('cuteHeroV1');
   if(!hero){hero=d.createElement('section');hero.id='cuteHeroV1';hero.setAttribute('aria-label','CAP English AI 主視覺');if(nav)nav.insertAdjacentElement('afterend',hero);else d.body.prepend(hero)}
   let img=hero.querySelector('img');if(!img){img=d.createElement('img');hero.appendChild(img)}
-  const src=window.__CAP_HERO_DATA__||'';
-  if(src&&img.getAttribute('src')!==src)img.setAttribute('src',src);
   img.alt='用 AI 學英文，把時間花在真正不會的地方｜LTU 國際學術中心 CAP English AI';
   d.querySelectorAll('.v3Plans').forEach(x=>x.remove());
   const plans=d.getElementById('plans');if(plans){plans.style.setProperty('display','block','important');plans.classList.remove('pcHide','v3Locked','v19Locked')}
