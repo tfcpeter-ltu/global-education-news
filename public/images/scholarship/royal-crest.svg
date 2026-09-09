@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 320" role="img" aria-label="European royal academic crest ornament">
+  <g fill="none" stroke="#b08a4a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M92 50l18-28 17 28 13-34 13 34 17-28 18 28-12 18H104z" fill="#efe2c2"/>
+    <path d="M108 68h64"/>
+    <path d="M91 95c16-13 34-19 49-19s33 6 49 19v63c0 47-21 83-49 104-28-21-49-57-49-104z" fill="#102d4f"/>
+    <path d="M140 93v151M101 141h78" stroke="#d8be8b" stroke-width="2"/>
+    <path d="M115 115h50l-5 31h-40z" fill="#f8f3ea" stroke="#d8be8b"/>
+    <path d="M118 112l7-12h30l7 12"/>
+    <path d="M123 178c12-8 24-8 34 0v26c-10-7-22-7-34 0z" fill="#f8f3ea" stroke="#d8be8b"/>
+    <path d="M157 178c-12-8-24-8-34 0"/>
+    <path d="M75 248c-31-9-50-36-55-73 21 10 39 24 52 42"/>
+    <path d="M205 248c31-9 50-36 55-73-21 10-39 24-52 42"/>
+    <path d="M63 231c-12 4-25 13-35 26M217 231c12 4 25 13 35 26"/>
+    <path d="M51 207c-11 0-22 4-32 10M229 207c11 0 22 4 32 10"/>
+    <path d="M44 181c-10-3-19-3-28 0M236 181c10-3 19-3 28 0"/>
+    <path d="M140 268c-20 16-42 24-65 24M140 268c20 16 42 24 65 24"/>
+    <path d="M92 286c-5 10-3 20 7 30 15-6 28-15 41-28 13 13 26 22 41 28 10-10 12-20 7-30" fill="#efe2c2"/>
+  </g>
+  <g fill="#b08a4a">
+    <circle cx="112" cy="48" r="4"/><circle cx="140" cy="42" r="4"/><circle cx="168" cy="48" r="4"/>
+    <circle cx="36" cy="196" r="4"/><circle cx="244" cy="196" r="4"/>
+  </g>
+</svg>
