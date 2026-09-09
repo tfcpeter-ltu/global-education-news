@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 90" role="img" aria-label="European royal divider ornament">
+  <g fill="none" stroke="#b08a4a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M20 45h218c35 0 59-12 76-35"/>
+    <path d="M740 45H522c-35 0-59-12-76-35"/>
+    <path d="M20 45h218c35 0 59 12 76 35"/>
+    <path d="M740 45H522c-35 0-59 12-76 35"/>
+    <path d="M294 45c19-25 38-30 57-13 7-18 18-28 29-32 11 4 22 14 29 32 19-17 38-12 57 13-19 25-38 30-57 13-7 18-18 28-29 32-11-4-22-14-29-32-19 17-38 12-57-13z" fill="#efe2c2"/>
+    <path d="M380 8v74M344 45h72" stroke="#d8be8b" stroke-width="1.6"/>
+    <path d="M275 31c-13-12-28-15-45-10 13 16 28 22 47 18M485 31c13-12 28-15 45-10-13 16-28 22-47 18"/>
+    <path d="M275 59c-13 12-28 15-45 10 13-16 28-22 47-18M485 59c13 12 28 15 45 10-13-16-28-22-47-18"/>
+  </g>
+  <g fill="#b08a4a"><circle cx="238" cy="45" r="3"/><circle cx="522" cy="45" r="3"/></g>
+</svg>
