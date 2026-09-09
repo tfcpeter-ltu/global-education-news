@@ -3,7 +3,6 @@
   "buildCommand": "npm run build",
   "outputDirectory": "public",
   "cleanUrls": true,
-  "ignoreCommand": "git diff --quiet HEAD^ HEAD -- . ../cap-ai-preview",
   "rewrites": [
     { "source": "/api/auth/me", "destination": "/api/auth-me" },
     { "source": "/api/paypal/:path*", "destination": "/api/payment?provider=paypal&paymentRoute=:path*" },
