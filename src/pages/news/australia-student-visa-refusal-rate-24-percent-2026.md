@@ -7,7 +7,7 @@ author: 'LTU Global Education News 編輯部'
 category: '澳洲留學政策'
 topic: 'australia'
 tags: ['student-visa','international-students','Genuine Student','policy','data']
-image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Main_Quadrangle%2C_University_of_Sydney_%28cropped%29.jpg/2560px-Main_Quadrangle%2C_University_of_Sydney_%28cropped%29.jpg'
+image: 'https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Main_Quadrangle%2C_University_of_Sydney_%28cropped%29.jpg/1280px-Main_Quadrangle%2C_University_of_Sydney_%28cropped%29.jpg'
 imageAlt: '澳洲雪梨大學 Main Quadrangle 校園實景，象徵澳洲高等教育與國際學生申請環境'
 imageCredit: '資料照片：Wikimedia Commons／Jason Tong（CC BY 2.0）'
 imageSource: 'https://commons.wikimedia.org/wiki/File:Main_Quadrangle,_University_of_Sydney_(cropped).jpg'
