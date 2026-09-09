@@ -3,7 +3,9 @@ const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
 const link = (path = '') => `${base}${path}`;
 const peterFacebook = 'https://www.facebook.com/profile.php?id=61585164670358';
+const isScholarshipRadar = Astro.url.pathname === '/scholarships/' || Astro.url.pathname === '/scholarships';
 ---
+{isScholarshipRadar && <link rel="stylesheet" href={link('scholarship-royal.css')} />}
 <header class="site-header">
   <div class="utility">
     <div class="container utility-inner">
