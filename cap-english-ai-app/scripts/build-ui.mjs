@@ -2,19 +2,27 @@ import { mkdir, writeFile, readFile } from 'node:fs/promises';
 
 const base='https://raw.githubusercontent.com/tfcpeter-ltu/global-education-news/cap-ai-preview/cap-ai-preview/';
 const files=['final-v3.html'];
-const cache='20260910-two-hero-v16';
+const cache='20260911-hero-v17';
 await mkdir('public',{recursive:true});
 
-const heroParts=[];
-for(let i=1;i<=6;i++){
-  heroParts.push((await readFile(`hero-approved-${String(i).padStart(2,'0')}.b64`,'utf8')).replace(/\s+/g,''));
+const mainParts=[];
+for(let i=1;i<=7;i++){
+  mainParts.push((await readFile(`main-hero-v17-part-${String(i).padStart(2,'0')}.b64`,'utf8')).replace(/\s+/g,''));
 }
-const hero=Buffer.from(heroParts.join(''),'base64');
-await writeFile('public/cap-hero-cute.jpg',hero);
+const mainHero=Buffer.from(mainParts.join(''),'base64');
+if(mainHero.length<30000 || mainHero.subarray(0,4).toString('ascii')!=='RIFF' || mainHero.subarray(8,12).toString('ascii')!=='WEBP'){
+  throw new Error(`Invalid main hero WEBP: ${mainHero.length} bytes`);
+}
+await writeFile('public/cap-main-hero-v17.webp',mainHero);
 
 const featureParts=[];
-for(let i=1;i<=10;i++) featureParts.push(await readFile(`feature-hero-v13-part-${String(i).padStart(2,'0')}.bin`));
-const feature=Buffer.concat(featureParts);
+for(let i=1;i<=10;i++){
+  featureParts.push((await readFile(`feature-hero-v13-part-${String(i).padStart(2,'0')}.bin`,'utf8')).replace(/\s+/g,''));
+}
+const feature=Buffer.from(featureParts.join(''),'base64');
+if(feature.length<50000 || feature.subarray(4,12).toString('ascii')!=='ftypavif'){
+  throw new Error(`Invalid feature AVIF: ${feature.length} bytes brand=${feature.subarray(4,12).toString('ascii')}`);
+}
 await writeFile('public/cap-feature-hero-v13.avif',feature);
 
 for(const file of files){
@@ -23,13 +31,33 @@ for(const file of files){
   await writeFile(`public/${file}`,await r.text(),'utf8');
 }
 
-for(const asset of ['ltu-refine-v3.js','ltu-refine-v4.js','remove-hero.js','question-engine-v2.js','practice-ui-v4.js','notebook-ui-v2.js','auth-ui-v2.js','product-core-v1.js','launch-ui-v1.js','complete-preview-v1.js','complete-portal-v1.js','membership-sync-v1.js','membership-merge-v1.js','remove-duplicate-plans-v1.js','cute-theme-v1.js']){
+const assets=['ltu-refine-v3.js','ltu-refine-v4.js','remove-hero.js','question-engine-v2.js','practice-ui-v4.js','notebook-ui-v2.js','auth-ui-v2.js','product-core-v1.js','launch-ui-v1.js','complete-preview-v1.js','complete-portal-v1.js','membership-sync-v1.js','membership-merge-v1.js','remove-duplicate-plans-v1.js'];
+for(const asset of assets){
   await writeFile(`public/${asset}`,await readFile(asset,'utf8'),'utf8');
 }
+
+let cuteTheme=await readFile('cute-theme-v1.js','utf8');
+cuteTheme=cuteTheme.replace(/const CACHE='[^']+';/,`const CACHE='${cache}';`);
+cuteTheme=cuteTheme.replace(
+  "#cuteHeroV1{max-width:1138px!important;",
+  "#cuteHeroV1{max-width:1000px!important;"
+);
+cuteTheme=cuteTheme.replace(
+  "heroImg.src='/cap-hero-cute.jpg?v='+CACHE;heroImg.width=1138;heroImg.height=262;heroImg.decoding='async';heroImg.fetchPriority='high';",
+  "heroImg.src='/cap-main-hero-v17.webp?v='+CACHE;heroImg.width=1000;heroImg.height=264;heroImg.decoding='async';heroImg.fetchPriority='high';heroImg.onerror=function(){hero.remove()};"
+);
+cuteTheme=cuteTheme.replace(
+  "featureImg.src='/cap-feature-hero-v13.avif?v='+CACHE;featureImg.width=1672;featureImg.height=941;featureImg.decoding='async';featureImg.fetchPriority='high';",
+  "featureImg.src='/cap-feature-hero-v13.avif?v='+CACHE;featureImg.width=1672;featureImg.height=941;featureImg.decoding='async';featureImg.fetchPriority='high';featureImg.onerror=function(){feature.remove()};"
+);
+if(!cuteTheme.includes("/cap-main-hero-v17.webp") || !cuteTheme.includes("featureImg.onerror=function(){feature.remove()}")){
+  throw new Error('Hero patch did not apply to cute-theme-v1.js');
+}
+await writeFile('public/cute-theme-v1.js',cuteTheme,'utf8');
 
 const index=`<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>2027 國中教育會考英文 AI｜LTU 國際學術中心</title><meta name="description" content="CAP English AI：免費會員每日 3 題；AI Complete 提供 AI 記憶出題、AI 筆記、Weekly Mock、歷屆能力練習與跨裝置弱點分析。"><style>html,body{margin:0;width:100%;height:100%;min-height:100%;overflow:hidden;background:#f5faff}iframe{border:0;width:100%;height:100dvh;min-height:100vh;display:block;background:#f5faff}</style></head><body><iframe id="capapp" src="/final-v3.html?v=${cache}" title="2027 會考英文 AI" allow="microphone"></iframe><script src="/question-engine-v2.js?v=${cache}"></script><script src="/ltu-refine-v3.js?v=${cache}"></script><script src="/ltu-refine-v4.js?v=${cache}"></script><script src="/remove-hero.js?v=${cache}"></script><script src="/practice-ui-v4.js?v=${cache}"></script><script src="/notebook-ui-v2.js?v=${cache}"></script><script src="/auth-ui-v2.js?v=${cache}"></script><script src="/product-core-v1.js?v=${cache}"></script><script src="/launch-ui-v1.js?v=${cache}"></script><script src="/complete-preview-v1.js?v=${cache}"></script><script src="/membership-sync-v1.js?v=${cache}"></script><script src="/membership-merge-v1.js?v=${cache}"></script><script src="/remove-duplicate-plans-v1.js?v=${cache}"></script><script src="/cute-theme-v1.js?v=${cache}"></script></body></html>`;
 await writeFile('public/index.html',index,'utf8');
 
 const complete=`<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>AI Complete 會員中心｜CAP English AI</title><meta name="robots" content="noindex,nofollow"><style>.membermain{max-width:1180px;margin:auto;padding:0 18px 60px}section{scroll-margin-top:72px}</style></head><body><main class="membermain"><div id="completePortal"></div><section id="weekly" class="cpSection"><h2>Weekly Mock</h2></section><section id="history" class="cpSection"><h2>歷屆題</h2></section><section id="analysis" class="cpSection"><h2>弱點分析</h2></section></main><script src="/question-engine-v2.js?v=${cache}"></script><script src="/practice-ui-v4.js?v=${cache}"></script><script src="/notebook-ui-v2.js?v=${cache}"></script><script src="/auth-ui-v2.js?v=${cache}"></script><script src="/product-core-v1.js?v=${cache}"></script><script src="/complete-portal-v1.js?v=${cache}"></script><script src="/membership-sync-v1.js?v=${cache}"></script></body></html>`;
 await writeFile('public/complete.html',complete,'utf8');
-console.log(`CAP English AI built: restored both header image assets + cache ${cache}`);
+console.log(`CAP English AI built: main hero ${mainHero.length} bytes + feature hero ${feature.length} bytes + cache ${cache}`);

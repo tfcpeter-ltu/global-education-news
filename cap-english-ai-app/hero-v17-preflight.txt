@@ -1,0 +1,1 @@
+20260911-hero-v17 preflight: sharp main hero, correct feature AVIF decode, remove failed feature container.
