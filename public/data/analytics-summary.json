@@ -1,18 +1,18 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-10T01:23:28.937Z",
+  "updatedAt": "2026-09-11T01:22:53.736Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
     {
       "title": "英國 Student visa 11月底提高財力門檻：倫敦最高須備 £14,130，Erasmus+ 規則同步放寬｜環球教育新聞 Global Education News",
       "path": "/news/uk-student-visa-maintenance-erasmus-rules-september-2026/",
-      "views": 88
+      "views": 89
     },
     {
       "title": "加拿大啟動 2027 學簽名額規劃：國際學生新入境目標 15 萬，秋季將設定 Study Permit Cap｜環球教育新聞 Global Education News",
       "path": "/news/canada-2027-study-permit-cap-planning-150000-target/",
-      "views": 23
+      "views": 24
     },
     {
       "title": "最新國際教育新聞",
@@ -22,7 +22,7 @@
     {
       "title": "美國加強 CPT 實習規範執行：部分大學暫停特定申請，國際學生要注意什麼？｜環球教育新聞 Global Education News",
       "path": "/news/us-cpt-internship-enforcement-2026/",
-      "views": 17
+      "views": 16
     },
     {
       "title": "紐西蘭國際教育收入突破疫情前高點：年出口收益達 NZ$49.8 億，2026 國際學生朝 9.9 萬人前進｜環球教育新聞 Global Education News",
@@ -34,62 +34,62 @@
     {
       "name": "台灣",
       "mapName": "Taiwan",
-      "sessions": 1115,
-      "share": 75.7
+      "sessions": 1132,
+      "share": 75.4
     },
     {
       "name": "美國",
       "mapName": "United States",
-      "sessions": 113,
-      "share": 7.7
+      "sessions": 117,
+      "share": 7.8
     },
     {
       "name": "加拿大",
       "mapName": "Canada",
-      "sessions": 44,
+      "sessions": 45,
       "share": 3
     },
     {
       "name": "日本",
       "mapName": "Japan",
-      "sessions": 29,
-      "share": 2
-    },
-    {
-      "name": "香港",
-      "mapName": "Hong Kong",
-      "sessions": 26,
-      "share": 1.8
+      "sessions": 28,
+      "share": 1.9
     },
     {
       "name": "澳洲",
       "mapName": "Australia",
+      "sessions": 26,
+      "share": 1.7
+    },
+    {
+      "name": "香港",
+      "mapName": "Hong Kong",
       "sessions": 25,
       "share": 1.7
     },
     {
       "name": "德國",
       "mapName": "Germany",
-      "sessions": 15,
-      "share": 1
+      "sessions": 19,
+      "share": 1.3
     },
     {
       "name": "英國",
       "mapName": "United Kingdom",
-      "sessions": 15,
-      "share": 1
-    },
-    {
-      "name": "印度",
-      "mapName": "India",
-      "sessions": 10,
-      "share": 0.7
+      "sessions": 16,
+      "share": 1.1
     },
     {
       "name": "南韓",
       "mapName": "South Korea",
       "sessions": 10,
       "share": 0.7
+    },
+    {
+      "name": "印度",
+      "mapName": "India",
+      "sessions": 9,
+      "share": 0.6
     }
   ]
 }
