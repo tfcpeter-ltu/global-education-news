@@ -8,6 +8,7 @@
     "qa": "node --check api/index.js && node --check api/auth-me.js && node --check api/payment.js && node --check api/practice.js && node --check api/notebook.js && node --check api/progress.js && node scripts/qa-product.mjs"
   },
   "dependencies": {
-    "pg": "^8.16.3"
+    "pg": "^8.16.3",
+    "sharp": "^0.34.4"
   }
 }

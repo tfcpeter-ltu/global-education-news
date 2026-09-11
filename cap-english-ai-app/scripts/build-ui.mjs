@@ -1,8 +1,9 @@
 import { mkdir, writeFile, readFile } from 'node:fs/promises';
+import sharp from 'sharp';
 
 const base='https://raw.githubusercontent.com/tfcpeter-ltu/global-education-news/cap-ai-preview/cap-ai-preview/';
 const files=['final-v3.html'];
-const cache='20260911-hero-v17';
+const cache='20260911-feature-v18';
 await mkdir('public',{recursive:true});
 
 const mainParts=[];
@@ -20,10 +21,22 @@ for(let i=1;i<=10;i++){
   featureParts.push((await readFile(`feature-hero-v13-part-${String(i).padStart(2,'0')}.bin`,'utf8')).replace(/\s+/g,''));
 }
 const feature=Buffer.from(featureParts.join(''),'base64');
-if(feature.length<50000 || feature.subarray(4,12).toString('ascii')!=='ftypavif'){
-  throw new Error(`Invalid feature AVIF: ${feature.length} bytes brand=${feature.subarray(4,12).toString('ascii')}`);
+let featureReady=false;
+let featureSize=0;
+try{
+  if(feature.length<50000 || feature.subarray(4,12).toString('ascii')!=='ftypavif'){
+    throw new Error(`Invalid feature AVIF: ${feature.length} bytes brand=${feature.subarray(4,12).toString('ascii')}`);
+  }
+  const featureWebp=await sharp(feature).webp({quality:96,effort:6}).toBuffer();
+  if(featureWebp.length<50000 || featureWebp.subarray(0,4).toString('ascii')!=='RIFF' || featureWebp.subarray(8,12).toString('ascii')!=='WEBP'){
+    throw new Error(`Invalid converted feature WEBP: ${featureWebp.length} bytes`);
+  }
+  await writeFile('public/cap-feature-hero-v18.webp',featureWebp);
+  featureReady=true;
+  featureSize=featureWebp.length;
+}catch(err){
+  console.warn(`Feature hero conversion unavailable; blank block will be removed: ${err?.message||err}`);
 }
-await writeFile('public/cap-feature-hero-v13.avif',feature);
 
 for(const file of files){
   const r=await fetch(base+file+'?v='+cache);
@@ -43,14 +56,19 @@ cuteTheme=cuteTheme.replace(
   "#cuteHeroV1{max-width:1000px!important;"
 );
 cuteTheme=cuteTheme.replace(
+  "#cuteFeatureHeroV15{max-width:1320px!important;margin-top:0!important;margin-bottom:28px!important;border-radius:24px!important}",
+  "#cuteFeatureHeroV15{max-width:1320px!important;margin-top:0!important;margin-bottom:28px!important;border-radius:24px!important;min-height:0!important;height:auto!important;background:transparent!important}#cuteFeatureHeroV15:empty{display:none!important}"
+);
+cuteTheme=cuteTheme.replace(
   "heroImg.src='/cap-hero-cute.jpg?v='+CACHE;heroImg.width=1138;heroImg.height=262;heroImg.decoding='async';heroImg.fetchPriority='high';",
   "heroImg.src='/cap-main-hero-v17.webp?v='+CACHE;heroImg.width=1000;heroImg.height=264;heroImg.decoding='async';heroImg.fetchPriority='high';heroImg.onerror=function(){hero.remove()};"
 );
-cuteTheme=cuteTheme.replace(
-  "featureImg.src='/cap-feature-hero-v13.avif?v='+CACHE;featureImg.width=1672;featureImg.height=941;featureImg.decoding='async';featureImg.fetchPriority='high';",
-  "featureImg.src='/cap-feature-hero-v13.avif?v='+CACHE;featureImg.width=1672;featureImg.height=941;featureImg.decoding='async';featureImg.fetchPriority='high';featureImg.onerror=function(){feature.remove()};"
-);
-if(!cuteTheme.includes("/cap-main-hero-v17.webp") || !cuteTheme.includes("featureImg.onerror=function(){feature.remove()}")){
+const oldFeature="featureImg.src='/cap-feature-hero-v13.avif?v='+CACHE;featureImg.width=1672;featureImg.height=941;featureImg.decoding='async';featureImg.fetchPriority='high';";
+const newFeature=featureReady
+  ? "featureImg.src='/cap-feature-hero-v18.webp?v='+CACHE;featureImg.width=1672;featureImg.height=941;featureImg.decoding='async';featureImg.fetchPriority='high';featureImg.onload=function(){feature.style.removeProperty('min-height');feature.style.removeProperty('height')};featureImg.onerror=function(){feature.remove()};"
+  : "featureImg.remove();feature.remove();";
+cuteTheme=cuteTheme.replace(oldFeature,newFeature);
+if(!cuteTheme.includes("/cap-main-hero-v17.webp") || (featureReady && !cuteTheme.includes("/cap-feature-hero-v18.webp")) || (!featureReady && !cuteTheme.includes("feature.remove()"))){
   throw new Error('Hero patch did not apply to cute-theme-v1.js');
 }
 await writeFile('public/cute-theme-v1.js',cuteTheme,'utf8');
@@ -60,4 +78,4 @@ await writeFile('public/index.html',index,'utf8');
 
 const complete=`<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>AI Complete 會員中心｜CAP English AI</title><meta name="robots" content="noindex,nofollow"><style>.membermain{max-width:1180px;margin:auto;padding:0 18px 60px}section{scroll-margin-top:72px}</style></head><body><main class="membermain"><div id="completePortal"></div><section id="weekly" class="cpSection"><h2>Weekly Mock</h2></section><section id="history" class="cpSection"><h2>歷屆題</h2></section><section id="analysis" class="cpSection"><h2>弱點分析</h2></section></main><script src="/question-engine-v2.js?v=${cache}"></script><script src="/practice-ui-v4.js?v=${cache}"></script><script src="/notebook-ui-v2.js?v=${cache}"></script><script src="/auth-ui-v2.js?v=${cache}"></script><script src="/product-core-v1.js?v=${cache}"></script><script src="/complete-portal-v1.js?v=${cache}"></script><script src="/membership-sync-v1.js?v=${cache}"></script></body></html>`;
 await writeFile('public/complete.html',complete,'utf8');
-console.log(`CAP English AI built: main hero ${mainHero.length} bytes + feature hero ${feature.length} bytes + cache ${cache}`);
+console.log(`CAP English AI built: main hero ${mainHero.length} bytes + feature ${featureReady?`${featureSize} byte WEBP`:'removed'} + cache ${cache}`);
