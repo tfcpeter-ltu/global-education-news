@@ -53,6 +53,9 @@
 
 ## 新聞發布後社群宣傳
 
+- 2026-09-12 最新每日宣傳規格：每天精選 1 篇國際教育新聞及 1 則仍開放且台灣學生可申請的國際獎學金，各自發布至 Threads、Facebook、Instagram，每平台 2 則，共 6 則自然貼文，導流網站與吸引追蹤。網站每天至少 3 篇查核新聞的目標維持。
+- 獎學金可從既有資料選題，發送當天重新雙重查核；不合格則換候選，無合格項目須記錄缺額，不湊數。X 文案保留備用，不列本次每日必發平台。本次宣傳不含付費廣告預算。
+
 - 新增 src/pages/news/ 正式新聞或 src/pages/scholarships/ 重要獎學金時，必須同步依 [社群宣傳流程](docs/social-publishing.md) 建立各平台內容資料。
 - 每篇在 docs/social-posts/ 留存 JSON，包含 articleTitle、articleUrl、shortHook、facebookCopy、instagramCopy、threadsCopy、xCopy、CTA、socialImage、imageAlt、category 與 topic，並保留來源及查核／圖片授權紀錄。
 - Facebook 3–5 段、Instagram 以圖片及前兩行亮點為主、Threads 以具體數字／期限／變化／問題開場，各平台不得整份照抄。
