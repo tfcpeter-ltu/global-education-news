@@ -3,7 +3,7 @@
   "brandId": 6323205,
   "CTA": "閱讀全文",
   "historyIncomplete": true,
-  "status": "scheduled",
+  "status": "published",
   "items": [
     {
       "articleUrl": "https://globalednews.com/news/uk-lifelong-learning-entitlement-modular-study-2026/",
@@ -46,8 +46,10 @@
       "providers": [
         {
           "network": "facebook",
-          "status": "PENDING",
-          "detailedStatus": "Pending"
+          "id": "101904929207004_1059503796825818",
+          "status": "PUBLISHED",
+          "publicUrl": "https://facebook.com/686405994135602/posts/1059503796825818",
+          "detailedStatus": "Published"
         }
       ],
       "autoPublish": true,
@@ -84,8 +86,10 @@
       "providers": [
         {
           "network": "threads",
-          "status": "PENDING",
-          "detailedStatus": "Pending"
+          "id": "18112384939835691",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdMJ97SCLvA",
+          "detailedStatus": "Published"
         }
       ],
       "autoPublish": true,
@@ -119,13 +123,15 @@
         "dateTime": "2026-09-12T21:50:00",
         "timezone": "Asia/Taipei"
       },
-      "text": "四年高等教育額度，能分段使用？\n英格蘭 LLE 改革，台灣申請人先看資格！\n\n2027 年起符合條件的課程適用；須符合學生財務國籍與居住規定，並非一般國際學生獎學金。\nGlobal Education News 環球教育新聞，從台灣出發掌握國際教育。免費訂閱週報，追蹤海外招生、政策與獎學金。\n閱讀全文：前往 globalednews.com/news/，閱讀「LLE」報導。\n\n資料照：ChrisSampson87／CC BY-SA 4.0，未修改\nhttps://commons.wikimedia.org/wiki/File:University_college_London.jpg\nhttps://creativecommons.org/licenses/by-sa/4.0/",
+      "text": "四年高等教育額度，能分段使用？\n英格蘭 LLE 改革，台灣申請人先看資格！\n\n2027 年起符合條件的課程適用；須符合學生財務國籍與居住規定，並非一般國際學生獎學金。\nGlobal Education News 環球教育新聞，從台灣出發掌握國際教育。免費訂閱週報，追蹤海外招生、政策與獎學金。\n閱讀全文：前往 globalednews.com，搜尋「LLE」。\n\n資料照：ChrisSampson87／CC BY-SA 4.0，未修改\nhttps://commons.wikimedia.org/wiki/File:University_college_London.jpg\nhttps://creativecommons.org/licenses/by-sa/4.0/",
       "firstCommentText": "",
       "providers": [
         {
           "network": "instagram",
-          "status": "PENDING",
-          "detailedStatus": "Pending"
+          "id": "https://www.instagram.com/p/DdMKDvSDDNo/",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.instagram.com/p/DdMKDvSDDNo/",
+          "detailedStatus": "Published"
         }
       ],
       "media": [
@@ -134,7 +140,7 @@
       "autoPublish": true,
       "saveExternalMediaFiles": false,
       "mediaAltText": [
-        "倫敦大學學院 Wilkins Building 校舍資料照片"
+        null
       ],
       "shortener": false,
       "draft": false,
@@ -167,8 +173,10 @@
       "providers": [
         {
           "network": "facebook",
-          "status": "PENDING",
-          "detailedStatus": "Pending"
+          "id": "101904929207004_1059508973491967",
+          "status": "PUBLISHED",
+          "publicUrl": "https://facebook.com/686405994135602/posts/1059508973491967",
+          "detailedStatus": "Published"
         }
       ],
       "autoPublish": true,
@@ -205,8 +213,10 @@
       "providers": [
         {
           "network": "threads",
-          "status": "PENDING",
-          "detailedStatus": "Pending"
+          "id": "18024526622912873",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdMK0Y9ij48",
+          "detailedStatus": "Published"
         }
       ],
       "autoPublish": true,
@@ -240,13 +250,15 @@
         "dateTime": "2026-09-12T21:50:00",
         "timezone": "Asia/Taipei"
       },
-      "text": "香港博士獎學金申請中！\n2026/12/1 中午 12 時，先完成 RGC 初步申請。\n\n台灣學生可依全日制博士新生及校方資格申請，還要另向大學送件。Global Education News 環球教育新聞，從台灣出發掌握國際教育。免費訂閱週報，追蹤海外招生、政策與獎學金。\n閱讀全文：前往 globalednews.com/news/hong-kong-phd-fellowship-2027-28-open/ 閱讀申請整理。\n\n資料照：Adon3465／CC BY-SA 3.0，未修改\nhttps://commons.wikimedia.org/wiki/File:University_of_Hong_Kong_Main_Building.jpg\nhttps://creativecommons.org/licenses/by-sa/3.0/",
+      "text": "香港博士獎學金申請中！\n2026/12/1 中午 12 時，先完成 RGC 初步申請。\n\n台灣學生可依全日制博士新生及校方資格申請，還要另向大學送件。Global Education News 環球教育新聞，從台灣出發掌握國際教育。免費訂閱週報，追蹤海外招生、政策與獎學金。\n閱讀全文：前往 globalednews.com，搜尋「香港博士獎學金」。\n\n資料照：Adon3465／CC BY-SA 3.0，未修改\nhttps://commons.wikimedia.org/wiki/File:University_of_Hong_Kong_Main_Building.jpg\nhttps://creativecommons.org/licenses/by-sa/3.0/",
       "firstCommentText": "",
       "providers": [
         {
           "network": "instagram",
-          "status": "PENDING",
-          "detailedStatus": "Pending"
+          "id": "https://www.instagram.com/p/DdMK0aAjJZw/",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.instagram.com/p/DdMK0aAjJZw/",
+          "detailedStatus": "Published"
         }
       ],
       "media": [
@@ -255,7 +267,7 @@
       "autoPublish": true,
       "saveExternalMediaFiles": false,
       "mediaAltText": [
-        "香港大學本部大樓資料照片"
+        null
       ],
       "shortener": false,
       "draft": false,
@@ -274,5 +286,6 @@
       "creatorUserId": 4872872
     }
   ],
-  "verifiedAt": "2026-09-12T21:52:00+08:00"
+  "verifiedAt": "2026-09-12T22:18:00+08:00",
+  "verificationMethod": "Metricool per-provider PUBLISHED status and publicUrl; analytics rows not yet populated."
 }
