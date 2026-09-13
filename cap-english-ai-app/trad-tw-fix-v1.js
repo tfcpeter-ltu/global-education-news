@@ -1,0 +1,9 @@
+(function(){'use strict';
+const map=[
+['字义','字義'],['近义字','近義字'],['语境','語境'],['高频','高頻'],['结构','結構'],['错因','錯因'],['为什么','為什麼'],['选错','選錯'],['弱点','弱點'],['哪种','哪種'],['反复','反覆'],['阅读','閱讀'],['间隔复习','間隔複習'],['再验证','再驗證'],['笔记','筆記'],['账号','帳號'],['免费会员','免費會員'],['个人','個人'],['复习排程','複習排程'],['属于','屬於'],['正在读取','正在讀取'],['暂时无法读取','暫時無法讀取'],['请重新登入后再试','請重新登入後再試'],['题目','題目'],['掌握度','掌握度'],['下次','下次'],['这个我会了','這個我會了'],['今天已到复习时间','今天已到複習時間'],['建议先确认自己是否还记得这个观念','建議先確認自己是否還記得這個觀念'],['这个分类还没有笔记','這個分類還沒有筆記'],['完成错题后会自动整理','完成錯題後會自動整理'],['我的 AI 笔记','我的 AI 筆記'],['AI 笔记预览','AI 筆記預覽'],['错题会自动整理成个人重点','錯題會自動整理成個人重點'],['并安排下一次复习','並安排下一次複習'],['升级后才会建立个人 AI 笔记与间隔复习','升級後才會建立個人 AI 筆記與間隔複習'],['查看我的笔记','查看我的筆記'],['查看笔记范例','查看筆記範例'],['全部笔记','全部筆記'],['单字／片语','單字／片語'],['待复习','待複習'],['范例','範例'],['记忆','記憶'],['学习','學習'],['继续','繼續']
+];
+function convertText(s){let out=String(s||'');for(const [a,b] of map)out=out.split(a).join(b);return out}
+function convertDoc(d){if(!d?.body)return;const w=d.createTreeWalker(d.body,NodeFilter.SHOW_TEXT);let n;while((n=w.nextNode())){const x=convertText(n.nodeValue);if(x!==n.nodeValue)n.nodeValue=x}d.querySelectorAll('input[placeholder],textarea[placeholder],[title],[aria-label]').forEach(el=>{for(const a of ['placeholder','title','aria-label']){if(!el.hasAttribute(a))continue;const v=el.getAttribute(a),x=convertText(v);if(x!==v)el.setAttribute(a,x)}})}
+function deepest(){try{let d=document;for(let i=0;i<32;i++){convertDoc(d);const f=d.querySelector('iframe');if(!f||!f.contentDocument)break;d=f.contentDocument}convertDoc(d)}catch{}}
+setTimeout(deepest,250);setTimeout(deepest,900);setInterval(deepest,3000);window.addEventListener('ltu:product-refresh',()=>setTimeout(deepest,250));window.addEventListener('ltu:notebook-updated',()=>setTimeout(deepest,250));
+})();
