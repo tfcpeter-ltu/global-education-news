@@ -1,7 +1,7 @@
 {
   "date": "2026-09-13",
   "baseCommit": "b8fb21ad62fbe11d2cc589a7d61e6521fa4e55e6",
-  "status": "prepared-awaiting-deployment-verification",
+  "status": "published-live-verified",
   "items": [
     {
       "slug": "community-college-transfer-planning",
@@ -131,5 +131,14 @@
     "4829B9B8BD25A0880E1BFDA69747858C09D4D54593BE5117BEBEE69975955F29",
     "573CFBD28EF14B5F81484D9E0E7DBEFCC5A971BEBE241741D871EC3A7B03AFF4",
     "D78BA277E33ADEC0D6DE51B65FA575CA0D8AA977DAB72D627AA3BAFF62229096"
-  ]
+  ],
+  "verification": {
+    "date": "2026-09-13",
+    "contentCommit": "fe7fe4ce45f238b6439f3c701e175393a9087626",
+    "actionsRun": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/34731015258",
+    "actionsStatus": "success",
+    "astroBuild": "passed, 196 pages",
+    "production": "Three article URLs and /peter/ loaded; unique images loaded; mobile list and all three articles visually checked without horizontal document overflow; article navigation and return link checked; all three URLs present in live sitemap-0.xml.",
+    "dateLimitation": "Facebook absolute original publication dates remain unverified; original relative labels and observation date are displayed explicitly."
+  }
 }
