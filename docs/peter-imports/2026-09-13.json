@@ -1,0 +1,135 @@
+{
+  "date": "2026-09-13",
+  "baseCommit": "b8fb21ad62fbe11d2cc589a7d61e6521fa4e55e6",
+  "status": "prepared-awaiting-deployment-verification",
+  "items": [
+    {
+      "slug": "community-college-transfer-planning",
+      "title": "美國社區大學轉學：不是保送，也不是繞道，而是一套需要精算的升學策略",
+      "description": "Peter 從課程、GPA、學分承認與四年總成本，分析美國社區大學轉學的規劃重點。",
+      "sourceUrl": "https://www.facebook.com/photo/?fbid=122143509201172155",
+      "sourceId": "122143509201172155",
+      "originalDateLabel": "1 天前",
+      "topic": "美國升學",
+      "image": "/images/peter/community-college-transfer.jpg",
+      "imageAlt": "Peter 專欄原貼文：美國社區大學轉學規劃圖卡",
+      "note": "原文所說的「不是保送」應理解為：讀滿兩年不會自動取得指定大學或科系的錄取。UC 六個校區另設附條件的 Transfer Admission Guarantee（TAG），必須完成指定課程、GPA 與申請程序；這類正式保證方案不能與無條件錄取混為一談。推薦信也並非所有轉學申請的共同要求，須逐校確認。",
+      "sources": [
+        [
+          "EducationUSA｜Community College",
+          "https://educationusa.state.gov/node/2615"
+        ],
+        [
+          "UC Admissions｜Transfer Admission Guarantee",
+          "https://admission.universityofcalifornia.edu/admission-requirements/transfer-requirements/uc-transfer-programs/transfer-admission-guarantee-tag.html"
+        ],
+        [
+          "Moreno Valley College｜UC TAG",
+          "https://www.mvc.edu/student-support/career-transfer/uc/uc-tag.php"
+        ]
+      ],
+      "author": "Peter",
+      "importedAt": "2026-09-13",
+      "originalPublishedAt": null,
+      "originalDatePrecision": "relative",
+      "dateObservedAt": "2026-09-13",
+      "imageCredit": "Peterの國際教育講座原貼文圖卡",
+      "imageRights": "使用者授權搬運其粉絲專頁內容；非開放授權素材",
+      "articleUrl": "https://globalednews.com/peter/community-college-transfer-planning/",
+      "sourceDateLimitation": "Facebook 僅提供相對日期；保存原始標示與觀測日，未推算精確日期。"
+    },
+    {
+      "slug": "early-action-application-order",
+      "title": "Early Action 不是越早越好：美國大學申請如何排出最佳順序？",
+      "description": "Peter 分析 EA、ED、REA 與 RD 的承諾、財務比較與申請時間安排。",
+      "sourceUrl": "https://www.facebook.com/photo/?fbid=122143134255172155",
+      "sourceId": "122143134255172155",
+      "originalDateLabel": "4 天前",
+      "topic": "美國申請策略",
+      "image": "/images/peter/early-action-planning.jpg",
+      "imageAlt": "Peter 專欄原貼文：美國大學 Early Action 申請策略圖卡",
+      "note": "本文的選校數量與時間配置是 Peter 的建議，並非大學規定。ED 的承諾依各校協議及財務援助條款辦理；REA／SCEA 的例外也需逐校查核。另須特別注意：Net Price Calculator 不一定適用國際家庭，例如 Yale 明確說明其試算工具是為父母在美國工作、生活的家庭設計，不能準確估算台灣家庭的負擔；請向目標校財務援助辦公室確認。",
+      "sources": [
+        [
+          "College Board｜Early Decision and Early Action",
+          "https://counselors.collegeboard.org/college-application/early-decision-action"
+        ],
+        [
+          "Yale｜Admissions timelines",
+          "https://admissions.yale.edu/timelines"
+        ],
+        [
+          "Yale｜Estimate Your Cost",
+          "https://admissions.yale.edu/estimate-your-cost"
+        ]
+      ],
+      "author": "Peter",
+      "importedAt": "2026-09-13",
+      "originalPublishedAt": null,
+      "originalDatePrecision": "relative",
+      "dateObservedAt": "2026-09-13",
+      "imageCredit": "Peterの國際教育講座原貼文圖卡",
+      "imageRights": "使用者授權搬運其粉絲專頁內容；非開放授權素材",
+      "articleUrl": "https://globalednews.com/peter/early-action-application-order/",
+      "sourceDateLimitation": "Facebook 僅提供相對日期；保存原始標示與觀測日，未推算精確日期。"
+    },
+    {
+      "slug": "new-zealand-pathway-student-visa",
+      "title": "紐西蘭 Pathway Student Visa 升級：高中升大學，不必太早把科系鎖死",
+      "description": "Peter 分析紐西蘭 Pathway Student Visa 的學科彈性、英文銜接與家庭規劃。",
+      "sourceUrl": "https://www.facebook.com/photo/?fbid=122143057845172155",
+      "sourceId": "122143057845172155",
+      "originalDateLabel": "5 天前",
+      "topic": "紐西蘭升學",
+      "image": "/images/peter/new-zealand-pathway.jpg",
+      "imageAlt": "Peter 專欄原貼文：紐西蘭升學路徑更彈性圖卡",
+      "note": "30 週英文課程上限僅適用符合條件、首次持 PSV 並銜接 NZQCF Level 1–8 的部分學生，不是所有英文學生均適用。更換教育機構原則上須申請新簽證；PSV 仍限定參與方案的機構與核准路徑。原文約 20% 的申請增幅是移民局 2026 年 7 月 1 日公布的截至當時年內比較，不代表全年度結果。",
+      "sources": [
+        [
+          "Immigration New Zealand｜PSV improvements",
+          "https://www.immigration.govt.nz/about-us/news-centre/improvements-to-the-pathway-student-visa/"
+        ],
+        [
+          "Waikato Institute of Education｜English study planning",
+          "https://www.wie.ac.nz/study-english-news/pathway-student-visa-english-study-changes.htm"
+        ],
+        [
+          "Immigration New Zealand｜Midyear processing update",
+          "https://www.immigration.govt.nz/about-us/news-centre/student-visa-processing-update-midyear-intake-and-reminder-to-apply-early/"
+        ],
+        [
+          "Immigration New Zealand｜Check or change conditions",
+          "https://www.immigration.govt.nz/study/once-you-have-a-student-visa/check-or-change-your-student-visa-conditions/"
+        ],
+        [
+          "Kiwi Fern Immigration Services｜Midyear student visa analysis",
+          "https://www.kiwifern.com/posts/nz-student-visa-processing-times-2026"
+        ]
+      ],
+      "author": "Peter",
+      "importedAt": "2026-09-13",
+      "originalPublishedAt": null,
+      "originalDatePrecision": "relative",
+      "dateObservedAt": "2026-09-13",
+      "imageCredit": "Peterの國際教育講座原貼文圖卡",
+      "imageRights": "使用者授權搬運其粉絲專頁內容；非開放授權素材",
+      "articleUrl": "https://globalednews.com/peter/new-zealand-pathway-student-visa/",
+      "sourceDateLimitation": "Facebook 僅提供相對日期；保存原始標示與觀測日，未推算精確日期。"
+    }
+  ],
+  "skipped": [
+    {
+      "title": "孩子，現在的成績，還不能替你的人生下結論",
+      "reason": "影片引述與素材權利尚待確認。"
+    },
+    {
+      "title": "新加坡 OSSD 申請四大公立大學",
+      "reason": "錄取率與建議分數含未佐證數字，未通過上稿查核。"
+    }
+  ],
+  "imageSha256": [
+    "4829B9B8BD25A0880E1BFDA69747858C09D4D54593BE5117BEBEE69975955F29",
+    "573CFBD28EF14B5F81484D9E0E7DBEFCC5A971BEBE241741D871EC3A7B03AFF4",
+    "D78BA277E33ADEC0D6DE51B65FA575CA0D8AA977DAB72D627AA3BAFF62229096"
+  ]
+}

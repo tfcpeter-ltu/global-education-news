@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import articles from '../../data/peter-articles.json';
 const peterFacebook = 'https://www.facebook.com/profile.php?id=61585164670358';
 const peterPhoto = 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Instructor_speaking_to_students_in_classroom.jpg/1280px-Instructor_speaking_to_students_in_classroom.jpg';
 ---
@@ -18,6 +19,23 @@ const peterPhoto = 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/In
         </div>
       </div>
 
+      <section class="peter-archive" aria-labelledby="peter-archive-title">
+        <div class="kicker">LATEST COLUMNS</div>
+        <h2 id="peter-archive-title">Peter 專欄文章</h2>
+        <p>從 Facebook 收錄的完整文章，附原始連結與編輯查核補註。</p>
+        <div class="peter-grid">{articles.map(article => (
+          <article class="peter-card">
+            <a href={'/peter/' + article.slug + '/'}><img src={article.image} alt={article.imageAlt} loading="lazy" width="1200" height="675" /></a>
+            <div class="peter-card-body">
+              <p class="kicker">{article.topic} · PETER</p>
+              <h3><a href={'/peter/' + article.slug + '/'}>{article.title}</a></h3>
+              <p>{article.description}</p>
+              <p class="peter-import-date">網站收錄：{article.importedAt}</p>
+              <a href={'/peter/' + article.slug + '/'}>閱讀完整專欄 →</a>
+            </div>
+          </article>
+        ))}</div>
+      </section>
       <div class="kicker">ABOUT THE COLUMN</div>
       <h2>新聞之外，進一步理解制度與選擇</h2>
       <p>這個專欄將收錄具明確作者觀點的評論與深度文章，並與一般新聞報導區分。過去發表於 Facebook 的國際教育文章，會先重新分類、查證、補充官方資料與更新時效，再收入網站。</p>
@@ -37,3 +55,10 @@ const peterPhoto = 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/In
     </div>
   </section>
 </BaseLayout>
+
+<style>
+.peter-archive{margin:44px 0}.peter-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin:24px 0 48px}
+.peter-card{border:1px solid #d7ccbc;background:#fffdf8;min-width:0}.peter-card img{width:100%;height:auto;display:block}.peter-card-body{padding:20px}
+.peter-card h3{font-size:1.25rem;line-height:1.6;margin:14px 0}.peter-card p{font-size:.96rem;line-height:1.8}.peter-card a{overflow-wrap:anywhere}.peter-import-date{color:#606b70}
+@media(max-width:850px){.peter-grid{grid-template-columns:1fr}.peter-card h3{font-size:1.2rem}}
+</style>

@@ -1,0 +1,59 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import articles from '../../data/peter-articles.json';
+export function getStaticPaths() {
+  return articles.map(article => ({ params: { slug: article.slug }, props: { article } }));
+}
+const { article } = Astro.props;
+const url = new URL('/peter/' + article.slug + '/', Astro.site).toString();
+const schema = {
+  '@context': 'https://schema.org', '@type': 'BlogPosting',
+  headline: article.title, description: article.description, url,
+  author: { '@type': 'Person', name: article.author },
+  image: new URL(article.image, Astro.site).toString(),
+  isBasedOn: article.sourceUrl, inLanguage: 'zh-Hant-TW'
+};
+---
+<BaseLayout title={article.title + '｜Peter 專欄｜環球教育新聞'} description={article.description} image={article.image} type="article">
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify(schema)} />
+  <article class="peter-article">
+    <nav aria-label="麵包屑"><a href="/peter/">Peter的國際教育講座</a> ／ {article.topic}</nav>
+    <header>
+      <p class="kicker">PETER'S COLUMN · 觀點與分析</p>
+      <h1>{article.title}</h1>
+      <p class="summary">{article.description}</p>
+      <p class="metadata">作者：{article.author} · 網站收錄：<time datetime={article.importedAt}>{article.importedAt}</time></p>
+      <p class="source-date">原文日期：Facebook 於 {article.dateObservedAt} 顯示「{article.originalDateLabel}」。平台僅提供相對日期，未推算精確發布日；<a href={article.sourceUrl} target="_blank" rel="noopener noreferrer">查看原貼文 ↗</a></p>
+    </header>
+    <figure><img src={article.image} alt={article.imageAlt} width="1200" height="675" loading="eager" /><figcaption>{article.imageCredit}；專欄圖卡，非政策現場照片。</figcaption></figure>
+    <aside aria-labelledby="editor-note">
+      <h2 id="editor-note">編輯補註 · {article.importedAt}</h2>
+      <p>{article.note}</p>
+      <p>以下保留 Peter 原文觀點，僅調整網站段落、標題格式並還原來源網址。文中的「本週」等時間用語以原貼文時點為準。</p>
+    </aside>
+    <section class="prose" aria-label="Peter 原文">
+      {article.body.map(line => line.startsWith('### ') ? <h2>{line.slice(4)}</h2> : /^https:\/\//.test(line) ? <p><a href={line} target="_blank" rel="noopener noreferrer">{line}</a></p> : <p>{line}</p>)}
+    </section>
+    <section class="verification" aria-labelledby="verification-title">
+      <h2 id="verification-title">收錄時查核資料</h2>
+      <ul>{article.sources.map(([label, href]) => <li><a href={href} target="_blank" rel="noopener noreferrer">{label} ↗</a></li>)}</ul>
+      <a class="button button-primary" href={article.sourceUrl} target="_blank" rel="noopener noreferrer">閱讀 Facebook 原文 ↗</a>
+    </section>
+    <nav class="related" aria-label="更多 Peter 專欄">
+      <h2>繼續閱讀 Peter 專欄</h2>
+      {articles.filter(item => item.slug !== article.slug).slice(0,3).map(item => <p><a href={'/peter/' + item.slug + '/'}>{item.title} →</a></p>)}
+      <p><a href="/peter/">← 返回專欄列表</a></p>
+    </nav>
+  </article>
+</BaseLayout>
+<style>
+  .peter-article{max-width:840px;margin:auto;padding:36px 24px 72px;color:#182d40}
+  nav{font-size:.95rem;line-height:1.7}h1{font-size:clamp(1.9rem,4vw,3rem);line-height:1.45;margin:18px 0;overflow-wrap:anywhere}
+  .summary{font-size:1.2rem;line-height:1.9}.metadata,.source-date,figcaption{color:#56636f;font-size:.9rem;line-height:1.8}
+  header{margin:32px 0}figure{margin:28px 0}figure img{width:100%;height:auto;display:block}figcaption{margin-top:8px}
+  aside{background:#f4efe4;border-left:4px solid #a8874a;padding:20px 24px;margin:32px 0;line-height:1.9}
+  aside h2{font-size:1.15rem;margin-top:0}.prose{font-size:1.08rem;line-height:2}.prose h2{font-size:1.45rem;margin-top:36px;line-height:1.6}
+  p,li,a{overflow-wrap:anywhere}.verification,.related{border-top:1px solid #c9bfae;margin-top:40px;padding-top:24px;line-height:1.9}
+  li{margin-bottom:10px}a{text-decoration:underline;text-underline-offset:3px}.button{text-decoration:none;white-space:normal}
+  @media(max-width:600px){.peter-article{padding:24px 18px 50px}aside{padding:16px}.prose{font-size:1rem}.source-date{font-size:.85rem}}
+</style>
