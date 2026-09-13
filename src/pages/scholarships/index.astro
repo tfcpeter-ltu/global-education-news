@@ -6,7 +6,12 @@ const scholarships = Object.values(modules)
   .map((mod: any) => ({ ...mod.frontmatter, url: mod.url }))
   .sort((a: any, b: any) => new Date(b.date ?? 0).getTime() - new Date(a.date ?? 0).getTime());
 
-const featured = scholarships.slice(0, 3);
+const taiwanDate = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Taipei', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
+const featured = scholarships.filter((item: any) =>
+  item.featuredDate === taiwanDate && item.verificationDate === taiwanDate &&
+  item.status === '開放中' && String(item.eligibilityTW).includes('可申請') &&
+  Number.isFinite(Date.parse(item.featuredUntil)) && Date.parse(item.featuredUntil) > Date.now()
+).slice(0, 3);
 const countries = [...new Set(scholarships.map((item: any) => item.country).filter(Boolean))].sort((a: any, b: any) => String(a).localeCompare(String(b), 'zh-Hant'));
 const countryCount = countries.length;
 const today = new Intl.DateTimeFormat('zh-TW', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Taipei' }).format(new Date());
@@ -32,7 +37,7 @@ const statusClass = (status = '') => status.includes('開放中') ? 'open' : sta
         <div class="hero-copy">
           <div class="eyebrow">GLOBAL EDUCATION NEWS <span>◆</span> EUROPEAN SCHOLARSHIP REVIEW</div>
           <h1>台灣國際獎學金雷達</h1>
-          <p class="hero-subtitle">{scholarships.length}+ 全球獎學金資料庫 <span>｜</span> 每天更新 3 則</p>
+          <p class="hero-subtitle">{scholarships.length}+ 全球獎學金資料庫 <span>｜</span> 每日查核，最多新增 3 則</p>
           <p class="hero-description">從台灣學生的視角，整理全球獎學金、政府補助、研究資助與國際大學機會。以官方來源、台灣資格與截止日為核心，建立可以長期搜尋與追蹤的國際升學資料庫。</p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#all-opportunities"><span>▤</span> 立即查看獎學金</a>
@@ -46,7 +51,7 @@ const statusClass = (status = '') => status.includes('開放中') ? 'open' : sta
           <div class="stat-heading">BY THE NUMBERS</div>
           <div class="stat-item"><span class="stat-icon">◎</span><strong>{scholarships.length}+</strong><small>全球機會</small><em>SCHOLARSHIPS</em></div>
           <div class="stat-item"><span class="stat-icon">▥</span><strong>{countryCount}+</strong><small>國家與地區</small><em>COUNTRIES</em></div>
-          <div class="stat-item"><span class="stat-icon">◷</span><strong>Daily 3</strong><small>每日更新</small><em>CURATED DAILY</em></div>
+          <div class="stat-item"><span class="stat-icon">◷</span><strong>Daily</strong><small>每日更新</small><em>CURATED DAILY</em></div>
           <div class="stat-item"><span class="stat-icon">◇</span><strong>Verified</strong><small>官方查核</small><em>EDITORIAL REVIEW</em></div>
           <div class="panel-watermark" aria-hidden="true">ACADEMIA</div>
         </aside>
@@ -60,7 +65,7 @@ const statusClass = (status = '') => status.includes('開放中') ? 'open' : sta
           <strong>搜尋全球獎學金資料庫</strong>
           <p>輸入獎學金名稱、學校、國家或關鍵字，再依學位、補助與申請狀態縮小範圍。</p>
         </div>
-        <div class="search-panel">
+        <form id="scholarship-search-form" class="search-panel" role="search">
           <label class="search-box">
             <span class="search-icon" aria-hidden="true">⌕</span>
             <span class="search-copy">
@@ -68,6 +73,7 @@ const statusClass = (status = '') => status.includes('開放中') ? 'open' : sta
               <input id="scholarship-search" type="search" placeholder="搜尋獎學金、學校、國家或關鍵字…" autocomplete="off" />
             </span>
           </label>
+          <button class="search-submit" type="submit">搜尋獎學金</button>
           <div class="filter-grid">
             <label class="select-box"><span>◎</span><select id="country-filter" aria-label="國家"><option value="all">國家／地區</option>{countries.map((country: any) => <option value={country}>{country}</option>)}</select></label>
             <label class="select-box"><span>🎓</span><select id="level-filter" aria-label="學位"><option value="all">學位層級</option><option value="大學">大學</option><option value="學士">學士</option><option value="碩士">碩士</option><option value="博士">博士</option><option value="研究">研究</option></select></label>
@@ -75,7 +81,53 @@ const statusClass = (status = '') => status.includes('開放中') ? 'open' : sta
             <label class="select-box"><span>♢</span><select id="status-filter" aria-label="狀態"><option value="all">申請狀態</option><option value="開放中">開放中</option><option value="即將開放">即將開放</option><option value="下一輪">下一輪追蹤</option><option value="年度">年度制</option></select></label>
             <button id="clear-filters" class="clear-btn" type="button">↻ 清除篩選</button>
           </div>
+        </form>
+      </div>
+    </section>
+
+    <section id="all-opportunities" class="editorial-section catalog-section">
+      <div class="section-shell">
+        <div class="catalog-heading">
+          <div>
+            <div class="eyebrow dark">THE SCHOLARSHIP ARCHIVE</div>
+            <h2>探索全部獎學金</h2>
+            <p>Scholarships · Fellowships · Research Funding · International Mobility</p>
+          </div>
+          <div class="result-summary" aria-live="polite"><strong id="result-count">{scholarships.length}</strong><span>個符合條件的機會</span></div>
         </div>
+
+        <p id="empty-results" role="status" hidden>找不到符合條件的獎學金，請改用其他關鍵字或清除篩選。</p>
+        <div class="catalog-grid" id="catalog-grid">
+          {scholarships.map((item: any, index: number) => {
+            const searchText = [item.title, item.description, item.country, item.level, item.funding, item.status, item.sourceType, item.category].filter(Boolean).join(' ').toLowerCase();
+            return (
+              <article
+                class="catalog-card"
+                data-card
+                data-index={index}
+                data-search={searchText}
+                data-country={item.country ?? ''}
+                data-level={item.level ?? ''}
+                data-funding={item.funding ?? ''}
+                data-status={item.status ?? ''}
+              >
+                <div class="catalog-top">
+                  <span class="country-line"><b>{flagFor(item.country)}</b>{item.country}</span>
+                  <span class:list={['status-dot', statusClass(item.status)]}>{item.status}</span>
+                </div>
+                <h3><a href={item.url}>{item.title}</a></h3>
+                <div class="catalog-tags"><span>{item.level}</span><span>{item.sourceType}</span></div>
+                <dl>
+                  <div><dt>補助</dt><dd>{item.funding}</dd></div>
+                  <div><dt>截止</dt><dd>{item.deadline}</dd></div>
+                </dl>
+                <div class="catalog-bottom"><span>✓ 台灣資格已查核</span><a href={item.url}>詳情 →</a></div>
+              </article>
+            );
+          })}
+        </div>
+
+        <div class="load-row"><button id="load-more" type="button">顯示更多獎學金 <span>＋</span></button></div>
       </div>
     </section>
 
@@ -89,6 +141,7 @@ const statusClass = (status = '') => status.includes('開放中') ? 'open' : sta
           <div class="section-date">{today} · Curated &amp; Verified</div>
         </div>
 
+        {featured.length === 0 && <p>今天尚無完成當日查核的精選項目，請利用搜尋查閱資料並回到官方網站確認。</p>}
         <div class="spotlight-grid">
           {featured.map((item: any) => (
             <article class="spotlight-card">
@@ -135,50 +188,6 @@ const statusClass = (status = '') => status.includes('開放中') ? 'open' : sta
       </div>
     </section>
 
-    <section id="all-opportunities" class="editorial-section catalog-section">
-      <div class="section-shell">
-        <div class="catalog-heading">
-          <div>
-            <div class="eyebrow dark">THE SCHOLARSHIP ARCHIVE</div>
-            <h2>探索全部獎學金</h2>
-            <p>Scholarships · Fellowships · Research Funding · International Mobility</p>
-          </div>
-          <div class="result-summary"><strong id="result-count">{scholarships.length}</strong><span>個符合條件的機會</span></div>
-        </div>
-
-        <div class="catalog-grid" id="catalog-grid">
-          {scholarships.map((item: any, index: number) => {
-            const searchText = [item.title, item.description, item.country, item.level, item.funding, item.status, item.sourceType, item.category].filter(Boolean).join(' ').toLowerCase();
-            return (
-              <article
-                class="catalog-card"
-                data-card
-                data-index={index}
-                data-search={searchText}
-                data-country={item.country ?? ''}
-                data-level={item.level ?? ''}
-                data-funding={item.funding ?? ''}
-                data-status={item.status ?? ''}
-              >
-                <div class="catalog-top">
-                  <span class="country-line"><b>{flagFor(item.country)}</b>{item.country}</span>
-                  <span class:list={['status-dot', statusClass(item.status)]}>{item.status}</span>
-                </div>
-                <h3><a href={item.url}>{item.title}</a></h3>
-                <div class="catalog-tags"><span>{item.level}</span><span>{item.sourceType}</span></div>
-                <dl>
-                  <div><dt>補助</dt><dd>{item.funding}</dd></div>
-                  <div><dt>截止</dt><dd>{item.deadline}</dd></div>
-                </dl>
-                <div class="catalog-bottom"><span>✓ 台灣資格已查核</span><a href={item.url}>詳情 →</a></div>
-              </article>
-            );
-          })}
-        </div>
-
-        <div class="load-row"><button id="load-more" type="button">顯示更多獎學金 <span>＋</span></button></div>
-      </div>
-    </section>
 
     <section class="verification-section">
       <div class="section-shell verification-grid">
@@ -207,6 +216,8 @@ const statusClass = (status = '') => status.includes('開放中') ? 'open' : sta
       const clear = document.getElementById('clear-filters');
       const loadMore = document.getElementById('load-more');
       const count = document.getElementById('result-count');
+      const form = document.getElementById('scholarship-search-form');
+      const empty = document.getElementById('empty-results');
       let limit = 24;
 
       const valueOf = (el) => (el && 'value' in el ? String(el.value) : 'all');
@@ -227,12 +238,19 @@ const statusClass = (status = '') => status.includes('開放中') ? 'open' : sta
         });
         cards.forEach((card) => { card.hidden = true; });
         matches.slice(0, limit).forEach((card) => { card.hidden = false; });
+        if (empty) empty.hidden = matches.length !== 0;
         if (count) count.textContent = String(matches.length);
         if (loadMore) loadMore.hidden = matches.length <= limit;
       };
 
       [search, country, level, funding, status].forEach((el) => {
         el?.addEventListener(el === search ? 'input' : 'change', () => { limit = 24; apply(); });
+      });
+      form?.addEventListener('submit', (event) => {
+        event.preventDefault();
+        limit = 24;
+        apply();
+        document.getElementById('all-opportunities')?.scrollIntoView({ block: 'start' });
       });
       clear?.addEventListener('click', () => {
         if (search) search.value = '';
@@ -247,6 +265,9 @@ const statusClass = (status = '') => status.includes('開放中') ? 'open' : sta
 </BaseLayout>
 
 <style>
+  .search-submit{display:block;margin:12px 0 0;padding:12px 24px;background:#112b4c;color:white;border:1px solid #a97936;font:inherit;cursor:pointer}
+  #empty-results[hidden]{display:none} #empty-results{padding:24px;background:#fff4dd;border:1px solid #c8ad7d}
+
   :global(html){scroll-behavior:smooth}
   .scholarship-page{--ink:#112b4c;--navy:#071d38;--navy2:#0d3155;--gold:#a97936;--gold2:#d1ad6a;--ivory:#fbf8f0;--paper:#f3ecdf;--burgundy:#7a2632;--green:#2f754d;--line:#d8cab1;background:var(--ivory);color:#1f3047;font-family:"Noto Serif TC",Georgia,"Times New Roman",serif}
   .section-shell,.hero-inner{width:min(1280px,calc(100% - 40px));margin:0 auto}

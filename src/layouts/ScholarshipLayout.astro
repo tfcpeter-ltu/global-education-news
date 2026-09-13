@@ -18,6 +18,11 @@ const {
   eligibilityTW = '需依官方資格確認',
   taiwanNote = '',
   verificationDate = date,
+  image,
+  imageAlt,
+  imageCredit,
+  imageSource,
+  author,
   category = '國際獎學金'
 } = frontmatter;
 
@@ -26,7 +31,7 @@ const modified = updated ? new Date(updated) : published;
 const fmtDate = (value?: Date) => value ? new Intl.DateTimeFormat('zh-TW', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Taipei' }).format(value) : '';
 const titleText = `${title}｜台灣國際獎學金雷達`;
 ---
-<BaseLayout title={titleText} description={description} type="article">
+<BaseLayout title={titleText} description={description} type="article" image={image}>
   <article class="scholarship-article">
     <div class="scholarship-shell">
       <nav class="scholarship-breadcrumb" aria-label="麵包屑">
@@ -37,6 +42,8 @@ const titleText = `${title}｜台灣國際獎學金雷達`;
       <h1>{title}</h1>
       {description && <p class="lead">{description}</p>}
 
+      {image && <figure class="scholarship-photo"><img src={image} alt={imageAlt ?? title} /><figcaption>{imageCredit}{imageSource && <> · <a href={imageSource} target="_blank" rel="noopener noreferrer">圖片來源</a></>}</figcaption></figure>}
+      {author && <p class="scholarship-author">作者：{author}</p>}
       <div class="facts" aria-label="獎學金重點">
         <div><span>國家／地區</span><strong>{country}</strong></div>
         <div><span>適用學位</span><strong>{level}</strong></div>
@@ -72,5 +79,6 @@ const titleText = `${title}｜台灣國際獎學金雷達`;
 </BaseLayout>
 
 <style>
+  .scholarship-photo{margin:24px 0}.scholarship-photo img{display:block;width:100%;height:auto}.scholarship-photo figcaption,.scholarship-author{font-size:.85rem;color:#69768a;line-height:1.6}
   .scholarship-article{background:#f6f8fb;padding:38px 18px 64px;color:#172033}.scholarship-shell{max-width:920px;margin:0 auto;background:#fff;border:1px solid #e4e9f0;border-radius:22px;padding:36px;box-shadow:0 18px 50px rgba(23,32,51,.07)}.scholarship-breadcrumb{display:flex;gap:8px;font-size:.9rem;color:#69768a;margin-bottom:18px}.scholarship-breadcrumb a{color:#174ea6;text-decoration:none}.eyebrow{font-size:.78rem;font-weight:800;letter-spacing:.12em;color:#b45309;text-transform:uppercase;margin-bottom:10px}.scholarship-shell h1{font-size:clamp(2rem,4vw,3.2rem);line-height:1.14;margin:0 0 14px}.lead{font-size:1.18rem;line-height:1.75;color:#4a5668;margin:0 0 28px}.facts{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:24px 0}.facts div{background:#f8fafc;border:1px solid #e5eaf0;border-radius:14px;padding:16px}.facts span{display:block;font-size:.8rem;color:#748095;margin-bottom:7px}.facts strong{font-size:1rem;line-height:1.45}.taiwan-check{display:flex;gap:12px;background:#eef8f2;border:1px solid #cde8d7;border-radius:16px;padding:18px;margin:22px 0}.check-mark{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;background:#176b42;color:#fff;font-weight:900;flex:0 0 28px}.taiwan-check p{margin:4px 0 0;line-height:1.65}.taiwan-check .note{color:#53665c}.meta{display:flex;flex-wrap:wrap;gap:12px;color:#7a8493;font-size:.86rem;padding-bottom:22px;border-bottom:1px solid #e7ebf0}.article-body{font-size:1.05rem;line-height:1.9;margin-top:28px}.article-body :global(h2){font-size:1.45rem;margin:2rem 0 .7rem}.article-body :global(h3){font-size:1.15rem;margin:1.6rem 0 .55rem}.article-body :global(a){color:#174ea6}.source-box{margin-top:34px;padding:22px;background:#fff8ed;border:1px solid #f2d6a6;border-radius:16px}.source-box h2{font-size:1.15rem;margin:0 0 8px}.source-box p{margin:0 0 12px;line-height:1.7}.source-box ul{margin:0;padding-left:20px}.source-box a{color:#8a4b08}.back-row{margin-top:28px}.back-row a{font-weight:700;color:#174ea6;text-decoration:none}@media(max-width:760px){.scholarship-shell{padding:24px 20px}.facts{grid-template-columns:1fr 1fr}}@media(max-width:480px){.facts{grid-template-columns:1fr}}
 </style>

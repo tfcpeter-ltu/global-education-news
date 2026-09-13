@@ -1,0 +1,92 @@
+{
+  "date": "2026-09-13",
+  "baseCommit": "03dc9ff254d6904fa7991003d15f7a92191c15b4",
+  "status": "awaiting-deployment-verification",
+  "news": [
+    {
+      "title": "英國學生簽證主申請年減 16%：截至 8 月的 12 個月共 360,700 件",
+      "slug": "uk-study-visa-applications-year-ending-august-2026",
+      "sources": [
+        {
+          "label": "英國內政部｜Monthly entry clearance visa applications, August 2026（2026-09-10）",
+          "url": "https://www.gov.uk/government/statistics/monthly-entry-clearance-visa-applications-august-2026/monthly-entry-clearance-visa-applications-august-2026"
+        },
+        {
+          "label": "The PIE News｜簽證數據與 Russell Group 回應（2026-09-10）",
+          "url": "https://thepienews.com/august-applications-for-uk-study-visas-falls-16-in-just-a-year/"
+        }
+      ],
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Central_Hall,_University_of_York,_UK.jpg",
+      "imageLicense": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "title": "EC English 暫停接收 9 月 12–13 日新生：出發前須確認課程與住宿",
+      "slug": "ec-english-new-arrivals-suspended-september-2026",
+      "sources": [
+        {
+          "label": "English UK｜與 EC 管理團隊聯繫後發布的官方聲明（2026-09-11）",
+          "url": "https://www.englishuk.com/en/about-us/news-press/english-uk-news?newsId=3586"
+        },
+        {
+          "label": "Times of Malta｜查閱代理通知並詢問公司及監管單位的獨立採訪",
+          "url": "https://timesofmalta.com/article/ec-english-language-school-halts-student-arrivals-concerns-future.1133956"
+        }
+      ],
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Spinola_Bay_in_St_Julians.jpg",
+      "imageLicense": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    {
+      "title": "德國新研究估約 34% 國際新生留任至退休：學習與就業銜接成關鍵",
+      "slug": "germany-international-student-retention-iw-2026",
+      "sources": [
+        {
+          "label": "IW／DAAD｜Ermittlung und Analyse des Verbleibs internationaler Studierender（2026 研究）",
+          "url": "https://static.daad.de/media/daad_de/infos-services-fuer-hochschulen/expertise-zu-themen-laendern-regionen/iw-gutachten_2026_ermittlung_und_analyse_des_verbleibs.pdf"
+        },
+        {
+          "label": "The PIE News｜研究解讀及高教業者回應（2026-09-09）",
+          "url": "https://thepienews.com/1-in-3-international-students-stay-in-germany-until-retirement/"
+        }
+      ],
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Hauptgebaeude_13.jpg",
+      "imageLicense": "https://artlibre.org/licence/lal/en/"
+    }
+  ],
+  "scholarship": {
+    "action": "Updated existing Gates Cambridge 2027/28 entry after fresh verification; no new seed items counted.",
+    "official": "https://www.gatescambridge.org/apply/timeline/",
+    "independentSecondSource": "https://www.oxy.edu/academics/student-success/national-international-fellowships/awards-information/gates-cambridge",
+    "confirmed": "Applications open 11 September 2026; non-UK citizenship includes Taiwan; international deadlines depend on course, 8 December 2026 or 6 January 2027 at 23:59 UK. Excluded course categories and US-resident US citizens' earlier round retained.",
+    "excludedClaims": "Do not state a 2027 maintenance amount based on 2025/26 rate. Scholarship-count discrepancy between official pages not used."
+  },
+  "sourceIndependence": [
+    "Home Office statistics plus The PIE News reporting including Russell Group response.",
+    "English UK statement after direct management contact plus Times of Malta's examination of agent letter and interviews.",
+    "IW/DAAD original study plus The PIE News reporting with independent sector commentary.",
+    "Gates Cambridge eligibility, timeline and funding pages plus Occidental College's independent fellowship advising; Cambridge funding directory is supplemental, not counted as independent second source."
+  ],
+  "rejected": [
+    {
+      "candidate": "Chevening",
+      "reason": "Second source mixed qualification descriptions and award years; not used for today's promotion."
+    }
+  ],
+  "sunmoon": {
+    "url": "https://www.sunmoonnews.com.tw/",
+    "checked": "2026-09-13",
+    "result": "Homepage reviewed; no education candidate with independently verified official corroboration selected in this run."
+  },
+  "validation": {
+    "localAstroBuild": "passed, 199 pages",
+    "production": "pending"
+  },
+  "promotion": {
+    "selected": [
+      "ec-english-new-arrivals-suspended-september-2026",
+      "gates-cambridge-2027"
+    ],
+    "CTA": "收藏",
+    "previousDateCTA": "2026-09-12 閱讀全文",
+    "status": "awaiting-live-verification"
+  }
+}
