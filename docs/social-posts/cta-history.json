@@ -1,0 +1,22 @@
+{
+  "historyIncomplete": true,
+  "entries": [
+    {
+      "date": "2026-09-12",
+      "CTA": "閱讀全文",
+      "status": "published",
+      "evidence": "2026-09-12/promotion-publication-log.json"
+    },
+    {
+      "date": "2026-09-13",
+      "CTA": "收藏",
+      "status": "planned",
+      "contentFiles": [
+        "docs/social-posts/2026-09-13/uk-study-visa-applications-year-ending-august-2026.json",
+        "docs/social-posts/2026-09-13/ec-english-new-arrivals-suspended-september-2026.json",
+        "docs/social-posts/2026-09-13/germany-international-student-retention-iw-2026.json",
+        "docs/social-posts/2026-09-13/gates-cambridge-2027.json"
+      ]
+    }
+  ]
+}

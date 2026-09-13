@@ -25,6 +25,13 @@
   "imageSource": "https://commons.wikimedia.org/wiki/File:Spinola_Bay_in_St_Julians.jpg",
   "imageLicense": "https://creativecommons.org/licenses/by-sa/4.0/",
   "verificationDate": "2026-09-13",
-  "status": "awaiting-live-verification",
-  "selectedForDailyPromotion": true
+  "status": "ready",
+  "selectedForDailyPromotion": true,
+  "schemaVersion": 2,
+  "sourcePath": "src/pages/news/ec-english-new-arrivals-suspended-september-2026.md",
+  "articleCommit": "d6db2108421b0937b05d7676b2c7f517e04c0d3b",
+  "verifiedAt": "2026-09-13T10:09:00+08:00",
+  "ctaDate": "2026-09-13",
+  "plannedPublishDate": "2026-09-13",
+  "publishedPosts": []
 }
