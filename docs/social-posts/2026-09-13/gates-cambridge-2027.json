@@ -21,7 +21,7 @@
   "imageSource": "https://commons.wikimedia.org/wiki/File:Cambridge-University-Senate-House.jpg",
   "imageLicense": "Public domain",
   "verificationDate": "2026-09-13",
-  "status": "ready",
+  "status": "published",
   "selectedForDailyPromotion": true,
   "schemaVersion": 2,
   "sourcePath": "src/pages/scholarships/items/2026-09-gates-cambridge-2027.md",
@@ -29,6 +29,37 @@
   "verifiedAt": "2026-09-13T10:09:00+08:00",
   "ctaDate": "2026-09-13",
   "plannedPublishDate": "2026-09-13",
-  "publishedPosts": [],
+  "publishedPosts": [
+    {
+      "network": "facebook",
+      "id": "101904929207004_1059917906784407",
+      "url": "https://facebook.com/686405994135602/posts/1059917906784407",
+      "status": "PUBLISHED",
+      "publicationDate": {
+        "dateTime": "2026-09-13T10:13:00",
+        "timezone": "Asia/Taipei"
+      }
+    },
+    {
+      "network": "threads",
+      "id": "17990305143045110",
+      "url": "https://www.threads.com/@ltuossdtw/post/DdNdicviHh4",
+      "status": "PUBLISHED",
+      "publicationDate": {
+        "dateTime": "2026-09-13T10:13:00",
+        "timezone": "Asia/Taipei"
+      }
+    },
+    {
+      "network": "instagram",
+      "id": "https://www.instagram.com/p/DdNdinYCCKd/",
+      "url": "https://www.instagram.com/p/DdNdinYCCKd/",
+      "status": "PUBLISHED",
+      "publicationDate": {
+        "dateTime": "2026-09-13T10:13:00",
+        "timezone": "Asia/Taipei"
+      }
+    }
+  ],
   "selectionReason": "新年度正式開放申請，更新原有開放日及按課程截止日；台灣籍研究所申請者可依資格申請。"
 }

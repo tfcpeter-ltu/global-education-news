@@ -2,7 +2,7 @@
   "date": "2026-09-13",
   "brandId": "6323205",
   "CTA": "收藏",
-  "status": "scheduled",
+  "status": "published",
   "items": [
     {
       "articleTitle": "EC English 暫停接收 9 月 12–13 日新生：出發前須確認課程與住宿",
@@ -31,7 +31,7 @@
       "imageSource": "https://commons.wikimedia.org/wiki/File:Spinola_Bay_in_St_Julians.jpg",
       "imageLicense": "https://creativecommons.org/licenses/by-sa/4.0/",
       "verificationDate": "2026-09-13",
-      "status": "ready",
+      "status": "published",
       "selectedForDailyPromotion": true,
       "schemaVersion": 2,
       "sourcePath": "src/pages/news/ec-english-new-arrivals-suspended-september-2026.md",
@@ -39,7 +39,38 @@
       "verifiedAt": "2026-09-13T10:09:00+08:00",
       "ctaDate": "2026-09-13",
       "plannedPublishDate": "2026-09-13",
-      "publishedPosts": []
+      "publishedPosts": [
+        {
+          "network": "facebook",
+          "id": "101904929207004_1059917363451128",
+          "url": "https://facebook.com/686405994135602/posts/1059917363451128",
+          "status": "PUBLISHED",
+          "publicationDate": {
+            "dateTime": "2026-09-13T10:12:00",
+            "timezone": "Asia/Taipei"
+          }
+        },
+        {
+          "network": "threads",
+          "id": "17988247122101519",
+          "url": "https://www.threads.com/@ltuossdtw/post/DdNdbJliK8O",
+          "status": "PUBLISHED",
+          "publicationDate": {
+            "dateTime": "2026-09-13T10:12:00",
+            "timezone": "Asia/Taipei"
+          }
+        },
+        {
+          "network": "instagram",
+          "id": "https://www.instagram.com/p/DdNdbZnCFvV/",
+          "url": "https://www.instagram.com/p/DdNdbZnCFvV/",
+          "status": "PUBLISHED",
+          "publicationDate": {
+            "dateTime": "2026-09-13T10:12:00",
+            "timezone": "Asia/Taipei"
+          }
+        }
+      ]
     },
     {
       "articleTitle": "Gates Cambridge 2027/28 已開放：台灣申請者須按課程確認 12 月或 1 月截止日",
@@ -64,7 +95,7 @@
       "imageSource": "https://commons.wikimedia.org/wiki/File:Cambridge-University-Senate-House.jpg",
       "imageLicense": "Public domain",
       "verificationDate": "2026-09-13",
-      "status": "ready",
+      "status": "published",
       "selectedForDailyPromotion": true,
       "schemaVersion": 2,
       "sourcePath": "src/pages/scholarships/items/2026-09-gates-cambridge-2027.md",
@@ -72,7 +103,38 @@
       "verifiedAt": "2026-09-13T10:09:00+08:00",
       "ctaDate": "2026-09-13",
       "plannedPublishDate": "2026-09-13",
-      "publishedPosts": [],
+      "publishedPosts": [
+        {
+          "network": "facebook",
+          "id": "101904929207004_1059917906784407",
+          "url": "https://facebook.com/686405994135602/posts/1059917906784407",
+          "status": "PUBLISHED",
+          "publicationDate": {
+            "dateTime": "2026-09-13T10:13:00",
+            "timezone": "Asia/Taipei"
+          }
+        },
+        {
+          "network": "threads",
+          "id": "17990305143045110",
+          "url": "https://www.threads.com/@ltuossdtw/post/DdNdicviHh4",
+          "status": "PUBLISHED",
+          "publicationDate": {
+            "dateTime": "2026-09-13T10:13:00",
+            "timezone": "Asia/Taipei"
+          }
+        },
+        {
+          "network": "instagram",
+          "id": "https://www.instagram.com/p/DdNdinYCCKd/",
+          "url": "https://www.instagram.com/p/DdNdinYCCKd/",
+          "status": "PUBLISHED",
+          "publicationDate": {
+            "dateTime": "2026-09-13T10:13:00",
+            "timezone": "Asia/Taipei"
+          }
+        }
+      ],
       "selectionReason": "新年度正式開放申請，更新原有開放日及按課程截止日；台灣籍研究所申請者可依資格申請。"
     }
   ],
@@ -92,8 +154,10 @@
       "providers": [
         {
           "network": "facebook",
-          "status": "PENDING",
-          "detailedStatus": "Pending"
+          "id": "101904929207004_1059917363451128",
+          "status": "PUBLISHED",
+          "publicUrl": "https://facebook.com/686405994135602/posts/1059917363451128",
+          "detailedStatus": "Published"
         }
       ],
       "autoPublish": true,
@@ -113,8 +177,7 @@
       "hasNotReadNotes": false,
       "uuid": "-7576925241555923425",
       "creatorUserMail": "tfcpeter@gmail.com",
-      "creatorUserId": 4872872,
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=6323205&openWithPostUuid=-7576925241555923425"
+      "creatorUserId": 4872872
     },
     {
       "id": 375058155,
@@ -131,8 +194,10 @@
       "providers": [
         {
           "network": "threads",
-          "status": "PENDING",
-          "detailedStatus": "Pending"
+          "id": "17988247122101519",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdNdbJliK8O",
+          "detailedStatus": "Published"
         }
       ],
       "autoPublish": true,
@@ -154,8 +219,7 @@
         "replyControl": "EVERYONE",
         "type": "POST",
         "shareAsInstagramStory": false
-      },
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=6323205&openWithPostUuid=-628697436900340455"
+      }
     },
     {
       "id": 375058288,
@@ -172,8 +236,10 @@
       "providers": [
         {
           "network": "instagram",
-          "status": "PENDING",
-          "detailedStatus": "Pending"
+          "id": "https://www.instagram.com/p/DdNdbZnCFvV/",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.instagram.com/p/DdNdbZnCFvV/",
+          "detailedStatus": "Published"
         }
       ],
       "media": [
@@ -198,8 +264,7 @@
       "hasNotReadNotes": false,
       "uuid": "-4622104492633535594",
       "creatorUserMail": "tfcpeter@gmail.com",
-      "creatorUserId": 4872872,
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=6323205&openWithPostUuid=-4622104492633535594"
+      "creatorUserId": 4872872
     },
     {
       "id": 375058322,
@@ -216,8 +281,10 @@
       "providers": [
         {
           "network": "facebook",
-          "status": "PENDING",
-          "detailedStatus": "Pending"
+          "id": "101904929207004_1059917906784407",
+          "status": "PUBLISHED",
+          "publicUrl": "https://facebook.com/686405994135602/posts/1059917906784407",
+          "detailedStatus": "Published"
         }
       ],
       "autoPublish": true,
@@ -237,8 +304,7 @@
       "hasNotReadNotes": false,
       "uuid": "448023605515863654",
       "creatorUserMail": "tfcpeter@gmail.com",
-      "creatorUserId": 4872872,
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=6323205&openWithPostUuid=448023605515863654"
+      "creatorUserId": 4872872
     },
     {
       "id": 375058341,
@@ -255,8 +321,10 @@
       "providers": [
         {
           "network": "threads",
-          "status": "PENDING",
-          "detailedStatus": "Pending"
+          "id": "17990305143045110",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdNdicviHh4",
+          "detailedStatus": "Published"
         }
       ],
       "autoPublish": true,
@@ -278,8 +346,7 @@
         "replyControl": "EVERYONE",
         "type": "POST",
         "shareAsInstagramStory": false
-      },
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=6323205&openWithPostUuid=-3471317341137187787"
+      }
     },
     {
       "id": 375058370,
@@ -296,8 +363,10 @@
       "providers": [
         {
           "network": "instagram",
-          "status": "PENDING",
-          "detailedStatus": "Pending"
+          "id": "https://www.instagram.com/p/DdNdinYCCKd/",
+          "status": "PUBLISHED",
+          "publicUrl": "https://www.instagram.com/p/DdNdinYCCKd/",
+          "detailedStatus": "Published"
         }
       ],
       "media": [
@@ -322,9 +391,10 @@
       "hasNotReadNotes": false,
       "uuid": "3807910781995535338",
       "creatorUserMail": "tfcpeter@gmail.com",
-      "creatorUserId": 4872872,
-      "plannerUrl": "https://app.metricool.com/planner/calendar?blogId=6323205&openWithPostUuid=3807910781995535338"
+      "creatorUserId": 4872872
     }
   ],
-  "dedup": "Main records and today's Metricool scheduled list plus FB/IG/Threads analytics checked; no matching entries returned."
+  "dedup": "Main records and today's Metricool scheduled list plus FB/IG/Threads analytics checked; no matching entries returned.",
+  "verifiedAt": "2026-09-13T10:15:00+08:00",
+  "verificationMethod": "Metricool readback: all six provider statuses PUBLISHED with platform IDs and public URLs."
 }

@@ -1,7 +1,7 @@
 {
   "date": "2026-09-13",
   "baseCommit": "03dc9ff254d6904fa7991003d15f7a92191c15b4",
-  "status": "awaiting-deployment-verification",
+  "status": "published-live-verified",
   "news": [
     {
       "title": "英國學生簽證主申請年減 16%：截至 8 月的 12 個月共 360,700 件",
@@ -78,7 +78,14 @@
   },
   "validation": {
     "localAstroBuild": "passed, 199 pages",
-    "production": "pending"
+    "actions": [
+      "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/34732089064",
+      "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/34732466559"
+    ],
+    "actionsStatus": "both success",
+    "production": "Homepage and all four article URLs loaded with distinct images and matching canonical/OG. Desktop homepage and scholarship article checked; mobile homepage and all four articles checked, document width 381 at innerWidth 400, no document horizontal overflow. Radar Enter, button, zero-result, combined UK+PhD filters (4), clear (123), load more (24 to 48) checked; duplicate layout script removed and live page confirmed single search control.",
+    "seo": "sitemap-0.xml includes all four URLs; news-sitemap.xml and weekly-feed.xml include three new news URLs; robots.txt HTTP 200. Existing Search Console verification files untouched.",
+    "limitations": "Legacy scholarship catalog not comprehensively reverified today; only Gates Cambridge is today's curated selection. No promise of all 123 records being currently open."
   },
   "promotion": {
     "selected": [
@@ -87,6 +94,11 @@
     ],
     "CTA": "收藏",
     "previousDateCTA": "2026-09-12 閱讀全文",
-    "status": "awaiting-live-verification"
-  }
+    "status": "published",
+    "publishedCount": 6,
+    "log": "docs/social-posts/2026-09-13/promotion-publication-log.json"
+  },
+  "contentCommit": "d6db2108421b0937b05d7676b2c7f517e04c0d3b",
+  "followCommit": "b34cd0f490c23eb8dfe398a6df2c6eb4057b0d4a",
+  "verifiedAt": "2026-09-13T10:15:00+08:00"
 }
