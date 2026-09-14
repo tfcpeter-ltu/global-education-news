@@ -1,0 +1,28 @@
+(()=>{
+const special={
+'University of Waterloo|Computer Science':{focus:'數學與計算基礎＋Co-op 工作經驗',best:'想把科技就業與帶薪工作經驗放在學位核心的學生',signal:'加拿大科技雇主與 Co-op 網絡是重要選校價值',tradeoff:'若更重純研究聲望，可同時比較 U of T、UBC、McGill。'},
+'University of Toronto|Computer Science':{focus:'研究型電腦科學＋大型學術資源',best:'成績強、未來可能讀碩博或走研究／高階技術路線的學生',signal:'全球學術聲望與多倫多科技市場可以同時考量',tradeoff:'學士階段體驗較研究導向；若最重 Co-op，可另比較 Waterloo。'},
+'University of British Columbia|Computer Science':{focus:'研究＋西加拿大科技產業＋Co-op 選擇',best:'想兼顧研究、溫哥華產業與校園資源的學生',signal:'西加拿大品牌、研究與城市產業環境兼具',tradeoff:'申請競爭與生活成本需一起評估。'},
+'Carnegie Mellon University|Computer Science':{focus:'高強度電腦科學、AI、系統與研究',best:'數理、程式與學術背景很強，目標頂尖科技／研究的學生',signal:'在電腦專業圈的影響力遠高於只看綜合大學排序所得的印象',tradeoff:'競爭非常高，且學習強度與費用都要納入考量。'},
+'Northeastern University|Computer Science':{focus:'電腦課程＋Co-op／產業工作經驗',best:'明確以畢業就業與實際履歷為優先的學生',signal:'Boston 產業與 Co-op 模式是比綜合排名更值得看的指標',tradeoff:'若重學術研究品牌，可同時比較 CMU、Michigan、UIUC。'},
+'University of Bath|Business':{focus:'商學課程＋placement 工作年',best:'想在英國累積企業經驗、把就業放在排名之前的學生',signal:'英國雇主與 placement 價值值得單獨看，不宜只看世界綜合排名',tradeoff:'若重全球研究聲望，可同時比較 Warwick、Manchester、UCL。'},
+'University of Warwick|Business':{focus:'學術強度、經濟／金融／商學交叉',best:'數學能力好、目標金融、顧問或研究型商科的學生',signal:'英國商學與經濟專業聲望是重要價值',tradeoff:'若希望更明確的 placement 體驗，可比較 Bath。'},
+'Queen\'s University|Business':{focus:'商學訓練＋校友與企業網絡',best:'想在加拿大讀商學並重視企業招聘與校友資源的學生',signal:'加拿大本地商界與校友網絡的價值不應只用世界綜合排名衡量',tradeoff:'費用、城市與競爭度需和 Toronto／UBC／Western 一起比較。'},
+'Western University|Business':{focus:'商學／金融＋校友與招聘網絡',best:'目標加拿大企業、金融、顧問類就業的學生',signal:'當地商界認可與校友網絡可能比綜合排名更有就業意義',tradeoff:'具體商學院路線與附加申請需另查。'},
+'Imperial College London|Engineering':{focus:'高強度 STEM、工程研究與數理訓練',best:'數學與科學很強，目標研究、工程科技或碩博的學生',signal:'工程／STEM 專業聲望與研究環境是核心價值',tradeoff:'競爭極高；若更重 placement 或實務，可比較 Bath、Loughborough、UWE。'},
+'Loughborough University|Engineering':{focus:'工程實務、產業連結與 placement',best:'希望以英國工程就業和專案經驗為核心的學生',signal:'工程與雇主評價、placement 價值不能只看綜合世界排名',tradeoff:'若以研究和全球學術品牌為優先，可比較 Imperial、UCL、Manchester。'},
+'University of the West of England, Bristol|Engineering':{focus:'應用工程、專案與產業導向',best:'希望課程貼近實務、重視畢業就業與專案經驗的學生',signal:'當地雇主與應用型訓練是主要價值',tradeoff:'若以頂尖研究聲望為首要目標，需同時比較 Bristol、Imperial、Manchester。'},
+'University of Manchester|Psychology':{focus:'研究型心理學與大型大學資源',best:'未來考慮研究、碩博或進一步專業訓練的學生',signal:'學術研究資源是主要優勢',tradeoff:'心理學學士不等於臨床／諮商執照，後續專業路徑仍需另查。'},
+'University of Bath|Psychology':{focus:'心理學學術訓練＋就業／placement 思維',best:'希望兼顧學術與實務經歷的學生',signal:'英國本地就業與 placement 價值值得與研究型名校分開比較',tradeoff:'未來若要臨床／諮商資格，仍需依專業體系繼續訓練。'},
+'University of Adelaide|Medicine':{focus:'醫學專業訓練與臨床路徑',best:'明確以醫師職業為目標，並願意處理高門檻專業選拔的學生',signal:'專業認證、臨床訓練與國際生資格比綜合排名更重要',tradeoff:'需逐年確認國際生名額、先修、測驗與面試。'},
+'University of Manchester|Medicine':{focus:'英國醫學專業訓練',best:'學術與科學基礎強、能準備 UCAT／面試的學生',signal:'醫學應優先看專業訓練與執業路徑，不宜只比較 QS',tradeoff:'國際生競爭高，年度要求必須以官網為準。'},
+'University of the Arts London|Art & Design':{focus:'藝術設計專業訓練、作品集與倫敦創意產業',best:'作品明確、希望進入時尚／視覺／設計產業的學生',signal:'專業圈、城市與作品集訓練遠比綜合大學排名更有意義',tradeoff:'生活成本高，且申請成敗高度依賴作品與科系匹配。'},
+'Rhode Island School of Design|Art & Design':{focus:'高強度 studio、設計與藝術創作',best:'作品集強、以專業設計／藝術訓練為核心的學生',signal:'專業藝術設計聲望不能用綜合研究大學排名衡量',tradeoff:'費用高，作品集與創作能力是核心門檻。'},
+'RMIT University|Art & Design':{focus:'設計實務、專案與 Melbourne 創意產業',best:'重視作品、實務專案與產業連結的學生',signal:'設計專業評價與產業連結比綜合排名更有選校意義',tradeoff:'若目標純藝術研究或高學術研究，可另比較研究型大學。'},
+'Savannah College of Art and Design|Animation':{focus:'動畫、遊戲、影視與創意產業實務',best:'明確走動畫／遊戲／電影製作並希望大量累積作品的學生',signal:'專業訓練與作品就業導向是核心，不宜用綜合大學排名判斷',tradeoff:'需認真評估作品集、學費與目標產業。'},
+'Leeds Conservatoire|Music Performance':{focus:'表演訓練、師資、演出與專業音樂環境',best:'以音樂表演／製作／創作作為職業核心的學生',signal:'音樂院校應看師資、audition、演出與產業環境，而非綜合世界排名',tradeoff:'就業高度依賴個人作品、演出經驗與網絡。'},
+'University of Southern California|Music':{focus:'音樂／影視／娛樂產業與 Los Angeles 資源',best:'想把音樂、影視、製作與娛樂產業結合的學生',signal:'城市產業網絡是顯著優勢',tradeoff:'費用與競爭度高，需看具體學院／專業要求。'}
+};
+const fallback=(x,m)=>{const s=(m||'').toLowerCase();if(/computer|ai|data/.test(s))return {focus:'計算基礎、軟體／資料／AI 專精方向',best:'先決定偏研究、軟體工程、AI 還是就業／Co-op',signal:'比較課程深度、實習、Co-op、城市科技產業與研究資源',tradeoff:'不要只用大學綜合排名代替電腦專業判斷。'};if(/engineering/.test(s))return {focus:'數學科學基礎＋工程分支與專案訓練',best:'先確定電子、機械、土木、化工、航太等方向',signal:'比較專業認證、實驗設備、placement 與當地工程產業',tradeoff:'研究型名校和就業型工程學校價值不同。'};if(/business|finance|accounting|economics/.test(s))return {focus:'商業／金融／經濟課程與企業環境',best:'先決定金融、會計、管理、分析還是經濟研究',signal:'當地企業招聘、placement、校友網絡與城市市場很重要',tradeoff:'世界綜合排名不是商學就業的唯一指標。'};if(/psychology/.test(s))return {focus:'心理學理論、研究方法與統計',best:'先區分一般心理學、研究、臨床／諮商後續路徑',signal:'認證與後續研究所路徑比只看學士排名更重要',tradeoff:'心理學學士通常不直接等於專業執照。'};if(/medicine|dentistry|pharmacy|biomedical/.test(s))return {focus:'專業／生命科學訓練',best:'先確認是執照型專業還是研究型生命科學',signal:'專業認證、臨床訓練、國際生資格是第一優先',tradeoff:'醫療專業不應只用綜合世界排名選擇。'};if(/art|design|animation|film|fashion|architecture/.test(s))return {focus:'studio、作品集、專案與創意產業',best:'先決定專業媒介與作品方向',signal:'作品集指導、師資、設備、城市產業與校友網絡很重要',tradeoff:'綜合世界排名通常不能反映創意專業真實價值。'};if(/music|composition|musical/.test(s))return {focus:'表演／創作／製作／產業訓練',best:'先決定表演、作曲、製作還是音樂產業',signal:'師資、audition、演出、設備與產業網絡比綜合排名更關鍵',tradeoff:'職業發展高度依賴個人作品與經驗。'};return {focus:'依科系查看課程結構與專業方向',best:'把個人目標和課程實際內容對齊',signal:'同時比較全球聲望與當地專業／就業評價',tradeoff:'不要只用綜合排名做最後決定。'};};
+window.PROGRAM_INSIGHTS={get(x,m){const found=special[`${x.name}|${m}`];return {...(found||fallback(x,m)),scope:found?'本站選校判讀，非雇主調查':'科系通用建議，尚未核對此校課程'};}};
+})();

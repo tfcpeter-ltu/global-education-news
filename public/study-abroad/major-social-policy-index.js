@@ -1,0 +1,10 @@
+(()=>{const d=window.STUDY_NAV_DATA;if(!d||!Array.isArray(d.articles))return;const rows=[
+{slug:'major-demography',country:'global',major:'人口學 Demography Population Studies',title:'人口學 Demography：用資料理解出生、死亡、移民與人口老化',kind:'科系指南',stage:'選科系',status:'已完成官方查核',url:'articles/demography-major-guide.html'},
+{slug:'major-development-studies',country:'global',major:'發展研究 Development Studies',title:'發展研究 Development Studies：研究國家、社會與社區如何改變',kind:'科系指南',stage:'選科系',status:'已完成官方查核',url:'articles/development-studies-major-guide.html'},
+{slug:'major-social-policy',country:'global',major:'社會政策 Social Policy',title:'社會政策 Social Policy：研究社會問題，也研究政府如何回應',kind:'科系指南',stage:'選科系',status:'已完成官方查核',url:'articles/social-policy-major-guide.html'},
+{slug:'major-nonprofit-management',country:'global',major:'非營利管理 Nonprofit Management NGO Management',title:'非營利管理 Nonprofit Management：不是只靠熱情，而是要會治理、募款與管理',kind:'科系指南',stage:'選科系',status:'已完成官方查核',url:'articles/nonprofit-management-major-guide.html'},
+{slug:'major-urban-studies',country:'global',major:'城市研究 Urban Studies Urban and Regional Studies',title:'城市研究 Urban Studies：不是只學規劃，而是研究城市怎麼運作',kind:'科系指南',stage:'選科系',status:'已完成官方查核',url:'articles/urban-studies-major-guide.html'},
+{slug:'major-behavioural-science',country:'global',major:'行為科學 Behavioural Science Behavioral Science',title:'行為科學 Behavioural Science：研究人為什麼這樣想、這樣選、這樣做',kind:'科系指南',stage:'選科系',status:'已完成官方查核',url:'articles/behavioural-science-major-guide.html'},
+{slug:'major-human-services',country:'global',major:'人類服務 Human Services Community Services',title:'人類服務 Human Services：把助人工作、社區與福利服務連在一起',kind:'科系指南',stage:'選科系',status:'已完成官方查核',url:'articles/human-services-major-guide.html'},
+{slug:'major-community-development',country:'global',major:'社區發展 Community Development',title:'社區發展 Community Development：不是辦活動，而是讓社區有能力改變自己',kind:'科系指南',stage:'選科系',status:'已完成官方查核',url:'articles/community-development-major-guide.html'}
+];rows.forEach(x=>{if(!d.articles.some(a=>a.slug===x.slug))d.articles.push(x);});})();
