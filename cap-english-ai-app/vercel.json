@@ -16,6 +16,7 @@
     { "source": "/api/practice/:path*", "destination": "/api/practice?practiceRoute=:path*" },
     { "source": "/api/notebook/:path*", "destination": "/api/notebook?notebookRoute=:path*" },
     { "source": "/api/progress/:path*", "destination": "/api/progress?progressRoute=:path*" },
+    { "source": "/game-api", "destination": "/api/gamification" },
     { "source": "/api/:path*", "destination": "/api/index?route=:path*" }
   ]
 }
