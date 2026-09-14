@@ -220,14 +220,7 @@ const latest = internationalStories.slice(0, 6);
         </div>
       </details>
 
-      {ltuStories.length > 0 && (
-        <div class="ltu-site-latest">
-          <div class="kicker">GLOBAL EDUCATION NEWS · LTU</div>
-          {ltuStories.slice(0, 3).map((story: any) => (
-            <a href={story.url}>{story.title}</a>
-          ))}
-        </div>
-      )}
+      {/* Site LTU articles remain in the news archive; homepage uses the media rotation. */}
     </section>
 
     <div class="taiwan-entry"><a href={link('topics/taiwan/')}>台灣國際教育新聞 → 進入台灣專區</a></div>
@@ -407,20 +400,6 @@ const latest = internationalStories.slice(0, 6);
     line-height: 1.45;
   }
   .ltu-more-list b { color: var(--burgundy); }
-  .ltu-site-latest {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 9px 16px;
-    margin-top: 14px;
-    padding-top: 12px;
-    border-top: 1px solid var(--line);
-  }
-  .ltu-site-latest .kicker { width: 100%; }
-  .ltu-site-latest a {
-    color: var(--muted);
-    font-family: Arial, "Noto Sans TC", sans-serif;
-    font-size: .72rem;
-  }
   .section-more,
   .taiwan-entry {
     margin-top: 18px;
