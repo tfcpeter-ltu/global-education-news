@@ -26,3 +26,15 @@ run('decision-support.js');assert.match(context.window.STUDENT_DECISION_SUPPORT.
 for(const f of ['universities.js','university-detail.js','major-decision.js'])new vm.Script(read(f),{filename:f});
 assert(!read('university-detail.js').includes('<a href="${source.admissionsUrl}"')||read('university-detail.js').includes('source.admissionsUrl?'));
 console.log('PASS: 125 schools (51 US), 35 additions, 21 new majors, 214 sourced relationships; existing data/evidence preserved; all data consumers wired.');
+// Search must preserve the requested subject, including partial Chinese terms.
+const nodes=Object.fromEntries(['q','country','kind','results','count','more-schools'].map(id=>[id,{value:'',innerHTML:'',textContent:'',tagName:id==='q'?'INPUT':'SELECT',events:{},addEventListener(type,fn){this.events[type]=fn;},insertAdjacentHTML(_,html){this.innerHTML+=html;}}]));
+const search={window:context.window,document:{getElementById:id=>nodes[id]},URL,URLSearchParams,location:{search:'?country=us&kind='+encodeURIComponent('大學')+'&q='+encodeURIComponent('教育'),href:'https://globalednews.com/study-abroad/search.html'},history:{replaceState(){}}};
+vm.createContext(search);vm.runInContext(read('search-unified.js'),search);
+assert.match(nodes.count.textContent,/12 間大學/);
+const washington=nodes.results.innerHTML.split('<article').find(s=>s.includes('University of Washington'));
+assert(washington.includes('school=University%20of%20Washington&major=Education'),'Chinese search opens the requested program, not the first major');
+nodes.q.value='';nodes.q.events.input();assert.match(nodes.results.innerHTML,/顯示更多大學/);
+assert.equal((nodes.results.innerHTML.match(/university-hit/g)||[]).length,30);
+nodes['more-schools'].events.click();assert.equal((nodes.results.innerHTML.match(/university-hit/g)||[]).length,51);
+nodes.q.value='不存在的學校測試';nodes.q.events.input();assert.match(nodes.results.innerHTML,/目前沒有完全符合的結果/);
+console.log('PASS: Chinese subject search, matching detail links, all 51 search results and empty-state handling.');
