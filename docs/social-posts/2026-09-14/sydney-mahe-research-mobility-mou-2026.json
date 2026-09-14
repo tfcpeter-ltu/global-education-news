@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "status": "draft",
+  "status": "ready",
   "sourcePath": "src/pages/news/sydney-mahe-research-mobility-mou-2026.md",
   "articleTitle": "雪梨大學與印度 MAHE 簽合作備忘錄：聚焦博士研究及師生交流",
   "articleUrl": "https://globalednews.com/news/sydney-mahe-research-mobility-mou-2026/",
@@ -31,7 +31,7 @@
   "verifiedAt": "2026-09-14T11:01:00+08:00",
   "publishedPosts": [],
   "selectedForDailyPromotion": false,
-  "platformStatus": {
-    "instagram": "blocked: profile has no globalednews.com link"
-  }
+  "platformStatus": {},
+  "articleCommit": "90b1b9713c3a1d6fe050aa0eb0fd056e43eb2fb0",
+  "productionVerifiedAt": "2026-09-14T11:21:00+08:00"
 }

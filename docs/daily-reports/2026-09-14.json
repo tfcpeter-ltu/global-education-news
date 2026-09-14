@@ -1,0 +1,112 @@
+{
+  "date": "2026-09-14",
+  "status": "published-live-verified",
+  "baseCommit": "0318bd9b1cd69235caa5ccc1ec3b6834686267d0",
+  "contentCommit": "d3b1b3f90a6ebddb9c20ef51034383985b36e485",
+  "followCommit": "90b1b9713c3a1d6fe050aa0eb0fd056e43eb2fb0",
+  "news": [
+    {
+      "title": "UTS 越南跨國學位迎第二屆新生：AI、資訊科技課程由兩校共同授課",
+      "slug": "uts-hcmut-transnational-degree-second-cohort-2026",
+      "sources": [
+        {
+          "label": "UTS｜HCMUT 跨國學位官方課程說明",
+          "url": "https://www.uts.edu.au/about/uts-vision/initiatives/internationalisation/transnational-education/ho-chi-minh-city-university-of-technology"
+        },
+        {
+          "label": "Vietnam News｜2026-09-11 第二屆迎新報導",
+          "url": "https://vietnamnews.vn/society/1799478/hcmut-uts-mark-milestone-in-transnational-education-partnership.html"
+        }
+      ],
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Utstop.jpg",
+      "imageLicense": "https://creativecommons.org/licenses/by/3.0/"
+    },
+    {
+      "title": "澳洲國立大學被加註 4 項治理條件：TEQSA 要求改革校務監督",
+      "slug": "anu-teqsa-governance-conditions-september-2026",
+      "sources": [
+        {
+          "label": "TEQSA｜2026-09-02 ANU 合規評估與四項條件",
+          "url": "https://www.teqsa.gov.au/national-register/condition-decision/compliance-assessment-concluded-2-september-2026"
+        },
+        {
+          "label": "ANU Observer｜Sarah McCrea 的監管報導及校方回應",
+          "url": "https://anu-observer.org/2026/09/07/teqsa-imposes-governance-conditions-on-the-anu/"
+        }
+      ],
+      "imageSource": "https://commons.wikimedia.org/wiki/File:ANU_student_administration_office_March_2013.jpg",
+      "imageLicense": "https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "title": "雪梨大學與印度 MAHE 簽合作備忘錄：聚焦博士研究及師生交流",
+      "slug": "sydney-mahe-research-mobility-mou-2026",
+      "sources": [
+        {
+          "label": "University of Sydney｜2026-09-10 合作公告",
+          "url": "https://www.sydney.edu.au/news-opinion/news/2026/09/10/university-of-sydney-mahe-sign-mou.html"
+        },
+        {
+          "label": "The Indian Sun｜2026-09-05 獨立媒體報導及未公告事項",
+          "url": "https://www.theindiansun.com.au/2026/09/05/sydney-and-manipal-universities-deepen-research-ties-under-new-agreement/"
+        }
+      ],
+      "imageSource": "https://commons.wikimedia.org/wiki/File:The_Quadrangle_in_the_University_of_Sydney.jpg",
+      "imageLicense": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "scholarship": {
+    "action": "Updated existing HKPFS 2027/28 entry; no new catalog items counted.",
+    "url": "https://globalednews.com/scholarships/items/2026-09-hkpfs-2027/",
+    "sources": [
+      {
+        "label": "RGC",
+        "url": "https://cerg1.ugc.edu.hk/hkpfs/Explanatory/Explanatory_Init_App.jsp"
+      },
+      {
+        "label": "HKU",
+        "url": "https://gradsch.hku.hk/prospective_students/fees_scholarships_and_financial_support/hong_kong_phd_fellowship_scheme"
+      },
+      {
+        "label": "PolyU",
+        "url": "https://www.polyu.edu.hk/ls/news-and-events/news/2026/20260904_hkpfs-202728/"
+      }
+    ],
+    "confirmed": "Taiwan eligible subject to doctoral admission. RGC initial application deadline 2026-12-01 12:00 HKT; full university application also required. HKU and PolyU explicitly state 2027/28 amounts.",
+    "excludedClaims": "RGC homepage amount paragraph still labeled 2026/27: article attributes new-year amounts to HKU/PolyU only. No universal eight-university tuition or housing claims."
+  },
+  "sourceIndependence": [
+    "UTS course specifications plus Vietnam News reporting on September 11 second-cohort event.",
+    "TEQSA original conditions plus ANU Observer's reporting including institution-wide university response.",
+    "Sydney original MOU announcement plus The Indian Sun reporting on undisclosed commitments and timeline; syndicated university releases not counted.",
+    "RGC rules plus HKU and PolyU separately administered doctoral admissions and funding publications; dated PolyU 2027/28 announcement."
+  ],
+  "sunmoon": {
+    "url": "https://www.sunmoonnews.com.tw/",
+    "result": "Homepage opened during research; no Taiwan article published in this batch."
+  },
+  "validation": {
+    "localAstroBuild": "passed, 202 pages",
+    "actions": [
+      "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/34801266446",
+      "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/34801921669"
+    ],
+    "actionsStatus": "both success",
+    "production": "Homepage fresh three news headlines and distinct loaded images; all three articles and HKPFS opened with correct canonical, OG and source links. Desktop homepage and HKPFS screenshots reviewed. Mobile homepage screenshot reviewed; mobile four article DOM checks show content width 381 at innerWidth 400. Literal editorial Markdown markers fixed and live text verified.",
+    "search": "Enter HKPFS returns 1; search button with nonexistent keyword returns 0 and explicit message; Hong Kong + PhD returns 1; clear restores list; desktop load more shows 48 list cards plus 1 featured card. Results immediately follow search area.",
+    "seo": "Three news URLs present in weekly-feed.xml and news-sitemap.xml; sitemap-0.xml includes all four article URLs. No verification files changed.",
+    "limitations": "Repeated mobile article screenshot captures timed out; mobile article DOM checks passed, mobile homepage visual passed. Legacy 123-item catalog not comprehensively reverified; only today's selected HKPFS checked. Existing Sydney RTP entry past September 11 deadline still labels open in archive; not today's selection and needs subsequent archive cleanup."
+  },
+  "promotion": {
+    "selected": [
+      "uts-hcmut-transnational-degree-second-cohort-2026",
+      "hkpfs-2027"
+    ],
+    "CTA": "分享",
+    "publishedCount": 6,
+    "status": "published",
+    "log": "docs/social-posts/2026-09-14/promotion-publication-log.json",
+    "instagram": "Website bio link absent and desktop editor limits link editing to mobile. Resolved publication by truthful typed-domain/search CTA, no claim of link in bio."
+  },
+  "scope": "Today's news, scholarship refresh and social promotion catch-up; Peter imports not included in this batch.",
+  "verifiedAt": "2026-09-14T11:21:00+08:00"
+}
