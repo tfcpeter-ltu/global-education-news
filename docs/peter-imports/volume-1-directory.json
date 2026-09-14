@@ -1,0 +1,10 @@
+{
+  "sourceFile": "Peter國際教育講座_第一集_看懂制度選對世界.docx",
+  "sourceKind": "user-supplied collected essays",
+  "baseCommit": "e9cfad0e6f13106676546e68073c77b6c5355970",
+  "chapters": 50,
+  "action": "Expose existing complete volume archive from /peter/ with /peter/volume-1/ grouped directory. Existing article bodies, dates and images unchanged. Preface taken verbatim from supplied collection.",
+  "existingArchive": "public/study-abroad/peter-book-data.js",
+  "verification": "50 chapter markers and normalized titles match repository archive; this navigation change does not claim fresh policy verification of all legacy essays.",
+  "url": "https://globalednews.com/peter/volume-1/"
+}

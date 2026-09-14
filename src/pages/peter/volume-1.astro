@@ -1,0 +1,72 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import bookSource from '../../../public/study-abroad/peter-book-data.js?raw';
+// Read the existing archive as data; do not execute its browser script or duplicate article bodies.
+const rawRows = bookSource.split('const rows=')[1]?.split(';window.PETER_BOOK_ARTICLES')[0];
+if (!rawRows) throw new Error('Peter volume archive is missing');
+const chapters = JSON.parse(rawRows) as {bookNumber:number;title:string;url:string;country:string;countryLabel:string}[];
+if (chapters.length !== 50) throw new Error('Peter volume 1 must contain 50 chapters');
+const groups = [
+  {key:'uk',label:'第一部　英國：學制、申請與留學現場'},
+  {key:'us',label:'第二部　美國：招生趨勢與申請策略'},
+  {key:'canada',label:'第三部　加拿大：申請、就業與移民政策'},
+  {key:'australia',label:'第四部　澳洲：學制、申請與留學新選擇'},
+  {key:'singapore',label:'第五部　新加坡：亞洲國際教育樞紐'},
+  {key:'global',label:'第六部　跨國比較：把選擇放回學生身上'}
+];
+const schema = {
+  '@context':'https://schema.org','@type':'CollectionPage',
+  name:'看懂制度，選對世界｜Peter の國際教育講座 第一集',
+  url:new URL('/peter/volume-1/',Astro.site).toString(),
+  inLanguage:'zh-Hant-TW',
+  mainEntity:{'@type':'ItemList',numberOfItems:chapters.length,itemListElement:chapters.map(c=>({
+    '@type':'ListItem',position:c.bookNumber,name:c.title,url:new URL('/study-abroad/'+c.url,Astro.site).toString()
+  }))}
+};
+---
+<BaseLayout title="看懂制度，選對世界｜Peter 國際教育講座第一集" description="Peter 著《看懂制度，選對世界》第一集，50 篇國際教育文章，依英國、美國、加拿大、澳洲、新加坡與跨國比較分類，逐篇閱讀全文。">
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify(schema)} />
+  <article class="volume">
+    <nav aria-label="麵包屑"><a href="/peter/">Peter的國際教育講座</a> ／ 第一集</nav>
+    <header>
+      <p class="kicker">PETER'S COLLECTED ESSAYS · VOLUME 01</p>
+      <h1>看懂制度，選對世界</h1>
+      <p class="subtitle">英語系留學的升學路徑與關鍵選擇</p>
+      <p>Peter の國際教育講座 第一集 · Peter 著 · 50 篇</p>
+    </header>
+    <section class="intro" aria-labelledby="intro-title">
+      <h2 id="intro-title">編者序｜留學不是選一個國家，而是理解一套制度</h2>
+      <p>面對國際教育，家長與學生最容易先問排名、學費與錄取率，但真正影響選擇的，往往是制度：學制如何銜接、成績如何解讀、招生政策如何變動，以及畢業後能走向哪裡。</p>
+      <p>本書從英國、美國、加拿大、澳洲與新加坡的代表議題出發，收錄五十篇文章，依學制、申請、政策、就業與跨國比較重新編排，幫助讀者建立完整的國際升學判斷框架。</p>
+      <p>政策與數字會持續更新。本書保留每篇文章的 Facebook 永久連結，方便讀者回到原始貼文追蹤後續資訊。閱讀時，請把內容視為建立判斷框架的起點，而不是取代學校與政府的最新官方公告。</p>
+    </section>
+    <nav class="contents-nav" aria-label="第一集分部目錄">
+      {groups.map(group=><a href={'#'+group.key}>{group.label.split('　')[1].split('：')[0]} <span>{chapters.filter(c=>c.country===group.key).length} 篇</span></a>)}
+    </nav>
+    {groups.map(group=>(
+      <section class="chapter-group" id={group.key} aria-labelledby={group.key+'-title'}>
+        <h2 id={group.key+'-title'}>{group.label}</h2>
+        <ol start={chapters.find(c=>c.country===group.key)?.bookNumber}>
+          {chapters.filter(c=>c.country===group.key).map(chapter=>(
+            <li><a href={'/study-abroad/'+chapter.url}>{chapter.title}<span aria-hidden="true"> →</span></a></li>
+          ))}
+        </ol>
+      </section>
+    ))}
+    <p class="back"><a href="/peter/">← 返回 Peter 的國際教育講座</a></p>
+  </article>
+</BaseLayout>
+<style>
+.volume{max-width:960px;margin:auto;padding:36px 28px 72px;color:#182d40}
+.volume header{padding:38px 0 30px;border-bottom:1px solid #cbbba5}
+.volume h1{font-size:clamp(2rem,5vw,3.5rem);line-height:1.4;margin:14px 0;overflow-wrap:anywhere}
+.volume h2{font-size:clamp(1.3rem,3vw,1.8rem);line-height:1.6;overflow-wrap:anywhere}
+.volume p{font-size:1.05rem;line-height:1.95}.volume .subtitle{font-size:1.25rem}
+.intro{margin:34px 0}.contents-nav{display:flex;flex-wrap:wrap;gap:12px;margin:32px 0}
+.contents-nav a{border:1px solid #cbbba5;padding:12px 16px;line-height:1.6;background:#f5efe5;text-decoration:none}
+.contents-nav span{color:#5c605f;margin-left:6px;font-size:.9rem}.chapter-group{scroll-margin-top:24px;padding-top:18px;margin-top:24px;border-top:1px solid #cbbba5}
+.chapter-group ol{padding-left:2.4rem}.chapter-group li{padding:6px 0;font-size:1.08rem;line-height:1.8}
+.chapter-group a{display:block;padding:8px 4px;text-decoration:underline;text-underline-offset:4px;overflow-wrap:anywhere}
+.volume a:focus-visible{outline:3px solid #8b3e36;outline-offset:4px}.back{margin-top:48px}
+@media(max-width:600px){.volume{padding:24px 18px 48px}.volume header{padding:24px 0}.contents-nav{gap:8px}.contents-nav a{flex:1 1 40%;padding:10px}.chapter-group li{font-size:1rem}.chapter-group ol{padding-left:1.8rem}}
+</style>
