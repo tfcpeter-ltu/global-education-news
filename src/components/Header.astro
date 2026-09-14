@@ -2,7 +2,6 @@
 const rawBase = import.meta.env.BASE_URL;
 const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
 const link = (path = '') => `${base}${path}`;
-const peterFacebook = 'https://www.facebook.com/profile.php?id=61585164670358';
 const isScholarshipRadar = Astro.url.pathname === '/scholarships/' || Astro.url.pathname === '/scholarships';
 ---
 {isScholarshipRadar && <link rel="stylesheet" href={link('scholarship-royal.css')} />}
@@ -49,7 +48,6 @@ const isScholarshipRadar = Astro.url.pathname === '/scholarships/' || Astro.url.
       <a href={link('insight/')}>深度專題</a>
       <a class="peter-nav" href={link('peter/')}>Peter的國際教育講座</a>
       <a class="peter-nav" href={link('newsletter/')}>免費電子報</a>
-      <a class="facebook-nav" href={peterFacebook} target="_blank" rel="noopener noreferrer">Facebook ↗</a>
       <a class="intelligence-nav" href={link('intelligence/')}>教育情報 GEI</a>
     </div>
   </nav>

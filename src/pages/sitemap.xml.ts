@@ -6,6 +6,7 @@ export async function GET() {
   <sitemap><loc>${SITE}/sitemap-0.xml</loc></sitemap>
   <sitemap><loc>${SITE}/article-sitemap.xml</loc></sitemap>
   <sitemap><loc>${SITE}/news-sitemap.xml</loc></sitemap>
+  <sitemap><loc>${SITE}/study-abroad/sitemap.xml</loc></sitemap>
 </sitemapindex>`;
 
   return new Response(body, {

@@ -21,3 +21,10 @@ h1,h2,h3{font-family:"Iowan Old Style","Baskerville",Georgia,"Noto Serif TC","Ti
 .feature-cards article,.ltu-section,.verify-card,footer{background:#071d34}.decision-band{background-image:linear-gradient(115deg,#071d34,#123b52)}.compare-table{border-collapse:separate;border-spacing:0;background:#fff;box-shadow:0 12px 34px rgba(7,29,52,.08)}.compare-table th{background:#0a2943;color:#fff;border-color:#365168!important}.compare-table td{border-color:#ddd3c3!important}.compare-table tr:nth-child(even) td{background:#f6f2e9}footer{border-top:5px solid var(--gold);background-image:linear-gradient(110deg,#06182a,#0c2e48)}
 @media(max-width:1050px){.topbar{height:auto;min-height:72px}.desktop-nav{background:rgba(7,29,52,.98)!important;border-color:rgba(180,147,85,.5)!important}.desktop-nav a{color:#fff!important;padding:10px 0!important;border:0}.nav-cta{margin-left:auto}}
 @media(max-width:700px){.page-intro{padding:76px 22px 62px;background-position:62% center}.page-intro:after{left:22px;right:auto;bottom:14px;font-size:8px}.page-intro h1{font-size:clamp(39px,12vw,55px)}.country-card,.major-card,.uni-card,.hub-card,.quick article{border-top-width:2px!important}.section:before,.mvp-section:before{left:22px;top:25px}}
+
+/* Links between the three public education resources. */
+.network-shortcuts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;padding:18px max(4vw,calc((100vw - 1400px)/2));background:#f2eee4;border-bottom:1px solid var(--line)}
+.network-shortcuts a{display:flex;min-height:54px;align-items:center;justify-content:center;padding:12px 18px;border:1px solid #b49355;background:#fffdf8;color:var(--navy);font-weight:800;text-align:center;transition:transform .2s,box-shadow .2s}
+.network-shortcuts a:first-child{background:var(--navy);color:#fff}
+.network-shortcuts a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(7,29,52,.12)}
+@media(max-width:700px){.network-shortcuts{grid-template-columns:1fr;padding:14px 18px}.network-shortcuts a{min-height:50px}}

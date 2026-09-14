@@ -61,7 +61,6 @@ img { max-width: 100%; display: block; }
 .nav a { position: relative; }
 .nav a:hover { color: var(--burgundy); }
 .nav .peter-nav { color: var(--burgundy); }
-.nav .facebook-nav { font-weight: 600; color: #4a4640; }
 
 .hero { display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(290px, .72fr); gap: 34px; padding: 34px 0 30px; border-bottom: 3px double var(--line-dark); }
 .hero-main { padding-right: 34px; border-right: 1px solid var(--line-dark); }
