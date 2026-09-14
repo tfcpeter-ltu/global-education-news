@@ -1,0 +1,12 @@
+import { mkdir, writeFile, readFile } from 'node:fs/promises';
+const base='https://raw.githubusercontent.com/tfcpeter-ltu/global-education-news/cap-ai-preview/cap-ai-preview/';
+const cache='20260914-game-v4';
+await mkdir('public',{recursive:true});
+const mainParts=[];for(let i=1;i<=7;i++)mainParts.push((await readFile(`main-hero-v17-part-${String(i).padStart(2,'0')}.b64`,'utf8')).replace(/\s+/g,''));
+const mainHero=Buffer.from(mainParts.join(''),'base64');await writeFile('public/cap-main-hero-v17.webp',mainHero);
+const r=await fetch(base+'final-v3.html?v='+cache);if(!r.ok)throw new Error('base fetch failed');await writeFile('public/final-v3.html',await r.text(),'utf8');
+const assets=['ltu-refine-v3.js','ltu-refine-v4.js','remove-hero.js','question-engine-v2.js','practice-ui-v4.js','notebook-ui-v2.js','auth-ui-v2.js','product-core-v1.js','launch-ui-v1.js','complete-preview-v1.js','complete-portal-v1.js','membership-sync-v1.js','membership-merge-v1.js','remove-duplicate-plans-v1.js','flow-ux-v1.js','trad-tw-fix-v1.js','cute-theme-v1.js','gamification-v1.js','gamification-v2.js','boss-ui-v1.js'];
+for(const a of assets)await writeFile('public/'+a,await readFile(a,'utf8'),'utf8');
+const scripts=['question-engine-v2.js','ltu-refine-v3.js','ltu-refine-v4.js','remove-hero.js','practice-ui-v4.js','notebook-ui-v2.js','auth-ui-v2.js','product-core-v1.js','launch-ui-v1.js','complete-preview-v1.js','membership-sync-v1.js','membership-merge-v1.js','remove-duplicate-plans-v1.js','cute-theme-v1.js','flow-ux-v1.js','gamification-v1.js','gamification-v2.js','boss-ui-v1.js','trad-tw-fix-v1.js'].map(a=>`<script src="/${a}?v=${cache}"></script>`).join('');
+await writeFile('public/index.html',`<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CAP English AI</title></head><body><iframe src="/final-v3.html?v=${cache}" style="border:0;width:100%;height:100vh"></iframe>${scripts}</body></html>`,'utf8');
+console.log('game v4 build ready');
