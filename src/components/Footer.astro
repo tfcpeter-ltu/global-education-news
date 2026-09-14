@@ -10,6 +10,11 @@ const editorialEmail = 'editor.jsti.ltu@gmail.com';
     <div>
       <h3>環球教育新聞 | Global Education News</h3>
       <p>聚焦國際教育新聞、留學政策、全球大學招生、學生簽證與高等教育趨勢，整理各國官方教育動態與深度分析。</p>
+      <a class="footer-navigator" href={link('study-abroad/')} aria-label="開啟留學DIY導航 Study Abroad Navigator">
+        <strong>留學DIY導航</strong>
+        <span>Study Abroad Navigator</span>
+        <b aria-hidden="true">→</b>
+      </a>
       <p><a href={link('newsletter/')}><strong>Global Education Weekly｜免費電子報</strong></a></p>
       <p><a href={link('peter/')}><strong>Peter的國際教育講座</strong></a></p>
       <p><a href={peterFacebook} target="_blank" rel="noopener noreferrer">Facebook 粉絲專頁 ↗</a></p>
@@ -72,6 +77,39 @@ const editorialEmail = 'editor.jsti.ltu@gmail.com';
     font-size: .7rem;
     letter-spacing: .08em;
     color: #aaa397;
+  }
+  .footer-navigator {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 1px 14px;
+    align-items: center;
+    margin: 20px 0;
+    padding: 14px 16px;
+    border: 1px solid #9f8353;
+    background: #102c4a;
+    color: #fff;
+  }
+  .footer-navigator:hover {
+    border-color: #d6b777;
+    background: #173b61;
+    color: #fff;
+  }
+  .footer-navigator strong {
+    font-family: "Noto Serif TC", Georgia, serif;
+    font-size: 1rem;
+    letter-spacing: .06em;
+  }
+  .footer-navigator span {
+    color: #d7bd86;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: .7rem;
+    letter-spacing: .08em;
+  }
+  .footer-navigator b {
+    grid-column: 2;
+    grid-row: 1 / 3;
+    color: #d7bd86;
+    font-size: 1.35rem;
   }
   .readership-counter {
     margin-top: 22px;
