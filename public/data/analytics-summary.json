@@ -1,13 +1,13 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-13T01:23:18.379Z",
+  "updatedAt": "2026-09-14T01:24:40.367Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
     {
       "title": "香港 2027/28 博士獎學金開放申請：400 名額、每年 HK$344,400 津貼，12/1 截止｜環球教育新聞 Global Education News",
       "path": "/news/hong-kong-phd-fellowship-2027-28-open/",
-      "views": 36
+      "views": 49
     },
     {
       "title": "加拿大啟動 2027 學簽名額規劃：國際學生新入境目標 15 萬，秋季將設定 Study Permit Cap｜環球教育新聞 Global Education News",
@@ -15,81 +15,81 @@
       "views": 24
     },
     {
+      "title": "EC English 暫停接收 9 月 12–13 日新生：出發前須確認課程與住宿｜環球教育新聞 Global Education News",
+      "path": "/news/ec-english-new-arrivals-suspended-september-2026/",
+      "views": 17
+    },
+    {
       "title": "最新國際教育新聞",
       "path": "/news/",
-      "views": 10
+      "views": 8
     },
     {
-      "title": "英國 Student visa 11月底提高財力門檻：倫敦最高須備 £14,130，Erasmus+ 規則同步放寬｜環球教育新聞 Global Education News",
-      "path": "/news/uk-student-visa-maintenance-erasmus-rules-september-2026/",
-      "views": 10
-    },
-    {
-      "title": "加拿大國際學生返加注意：有 Study Permit 不代表一定能重新入境｜環球教育新聞 Global Education News",
-      "path": "/news/canada-international-student-reentry-2026/",
-      "views": 4
+      "title": "早稻田大學 SILS 2027 海外 AO 9月8日截止：招收約100名、4月入學｜環球教育新聞 Global Education News",
+      "path": "/news/waseda-sils-2027-april-overseas-ao-deadline/",
+      "views": 6
     }
   ],
   "countries": [
     {
       "name": "台灣",
       "mapName": "Taiwan",
-      "sessions": 462,
-      "share": 67.4
+      "sessions": 538,
+      "share": 71.6
     },
     {
       "name": "美國",
       "mapName": "United States",
-      "sessions": 67,
-      "share": 9.8
-    },
-    {
-      "name": "加拿大",
-      "mapName": "Canada",
-      "sessions": 41,
+      "sessions": 45,
       "share": 6
-    },
-    {
-      "name": "香港",
-      "mapName": "Hong Kong",
-      "sessions": 28,
-      "share": 4.1
     },
     {
       "name": "英國",
       "mapName": "United Kingdom",
-      "sessions": 17,
-      "share": 2.5
+      "sessions": 39,
+      "share": 5.2
+    },
+    {
+      "name": "香港",
+      "mapName": "Hong Kong",
+      "sessions": 37,
+      "share": 4.9
+    },
+    {
+      "name": "加拿大",
+      "mapName": "Canada",
+      "sessions": 28,
+      "share": 3.7
     },
     {
       "name": "德國",
       "mapName": "Germany",
-      "sessions": 14,
-      "share": 2
+      "sessions": 13,
+      "share": 1.7
     },
     {
       "name": "澳洲",
       "mapName": "Australia",
-      "sessions": 13,
-      "share": 1.9
+      "sessions": 8,
+      "share": 1.1
     },
     {
-      "name": "日本",
-      "mapName": "Japan",
+      "name": "南韓",
+      "mapName": "South Korea",
       "sessions": 8,
-      "share": 1.2
+      "share": 1.1
+    },
+    {
+      "name": "愛爾蘭",
+      "mapName": "Ireland",
+      "sessions": 6,
+      "share": 0.8
     },
     {
       "name": "中國",
       "mapName": "China",
       "sessions": 5,
       "share": 0.7
-    },
-    {
-      "name": "Belgium",
-      "mapName": "Belgium",
-      "sessions": 4,
-      "share": 0.6
     }
   ]
 }
