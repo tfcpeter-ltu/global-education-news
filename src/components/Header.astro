@@ -32,12 +32,17 @@ const isScholarshipRadar = Astro.url.pathname === '/scholarships/' || Astro.url.
     <div class="container">
       <a href={link()}>首頁</a>
       <a href={link('news/')}>最新新聞</a>
-      <a href={link('topics/taiwan/')}>台灣</a>
-      <a href={link('topics/us/')}>美國</a>
-      <a href={link('topics/canada/')}>加拿大</a>
-      <a href={link('topics/uk/')}>英國</a>
-      <a href={link('topics/australia/')}>澳洲</a>
-      <a href={link('topics/asia/')}>亞洲</a>
+      <a href={link('topics/taiwan/')}>台灣高教</a>
+      <details class="overseas-menu">
+        <summary>海外教育 <span aria-hidden="true">▾</span></summary>
+        <div class="overseas-options">
+          <a href={link('topics/us/')}>美國</a>
+          <a href={link('topics/canada/')}>加拿大</a>
+          <a href={link('topics/uk/')}>英國</a>
+          <a href={link('topics/australia/')}>澳洲</a>
+          <a href={link('topics/asia/')}>亞洲</a>
+        </div>
+      </details>
       <a class="domestic-university-nav" href={link('taiwan-universities/')} aria-label="國內大學選校選系資料庫">
         <span>國內大學選校選系</span>
         <small>University Explorer</small>
@@ -54,7 +59,32 @@ const isScholarshipRadar = Astro.url.pathname === '/scholarships/' || Astro.url.
   </nav>
 </header>
 
+<script>
+  document.querySelectorAll<HTMLDetailsElement>('.overseas-menu').forEach((menu) => {
+    document.addEventListener('click', (event) => {
+      if (event.target instanceof Node && !menu.contains(event.target)) menu.open = false;
+    });
+    menu.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') {
+        menu.open = false;
+        menu.querySelector('summary')?.focus();
+      }
+    });
+  });
+</script>
+
 <style>
+  .nav { overflow: visible; white-space: normal; position: relative; z-index: 20; }
+  .nav .container { flex-wrap: wrap; gap: 8px 22px; padding-top: 8px; padding-bottom: 8px; }
+  .overseas-menu { position: relative; }
+  .overseas-menu summary { cursor: pointer; list-style: none; padding: 10px 0; white-space: nowrap; }
+  .overseas-menu summary::-webkit-details-marker { display: none; }
+  .overseas-menu summary:focus-visible { outline: 2px solid var(--burgundy); outline-offset: 4px; }
+  .overseas-menu[open] summary { color: var(--burgundy); }
+  .overseas-options { position: absolute; top: 100%; left: 0; min-width: 140px; padding: 6px; background: var(--sheet); border: 1px solid var(--line); box-shadow: 0 8px 20px #0002; }
+  .overseas-options a { display: block; padding: 11px 16px; white-space: nowrap; }
+  .overseas-options a:hover, .overseas-options a:focus-visible { background: var(--soft); }
+
   .version-c-masthead {
     grid-template-columns: minmax(145px, .72fr) minmax(0, 5.2fr) minmax(145px, .72fr);
     gap: 22px;
