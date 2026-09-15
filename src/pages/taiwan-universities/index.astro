@@ -1,0 +1,135 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const categories = [
+  ['中文／國文', 24], ['外國語文', 13], ['醫療健康專業', 13], ['企管／資管', 12], ['電機工程', 12],
+  ['社會工作', 11], ['資訊工程', 11], ['會計／會資', 10], ['化學／應用化學', 8], ['土木／營建', 8],
+  ['心理', 8], ['法律', 8], ['社會學', 8], ['經濟', 8], ['護理', 8], ['財金／金融', 8],
+  ['機械工程', 7], ['哲學', 6], ['政治', 6], ['獸醫', 4]
+];
+
+const databaseUrl = 'https://taiwan-university-review.cfb5f6a8-a379-4cbf-98d4-1752fdaecae0.chatgpt.site';
+---
+<BaseLayout
+  title="國內大學選校選系資料庫｜環球國際教育新聞"
+  description="從 70 所台灣大學、193 個科系深度頁、課程特色、研究方向、就業發展到學生網路評價，一站完成國內大學選校選系比較。"
+>
+  <section class="domestic-db-hero">
+    <div class="container domestic-db-hero-inner">
+      <div>
+        <div class="kicker">TAIWAN UNIVERSITY & MAJOR EXPLORER</div>
+        <h1>國內大學選校選系資料庫</h1>
+        <p class="hero-brand">環球國際教育新聞</p>
+        <p class="hero-deck">從 70 所大學、熱門科系、課程特色、研究方向、就業發展到學生真實網路評價，一站完成選校選系比較。</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#database">開始找學校與科系</a>
+          <a class="button" href="#method">資料怎麼整理？</a>
+        </div>
+      </div>
+      <div class="database-stats" aria-label="資料庫規模">
+        <div><strong>70</strong><span>所大學</span></div>
+        <div><strong>193</strong><span>個科系深度頁</span></div>
+        <div><strong>70</strong><span>校學生網路評價</span></div>
+        <div><strong>20</strong><span>個已整理科系類別</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container domestic-intro" id="method">
+    <div class="section-heading">
+      <h2>不只看排名，也看你四年會學到什麼</h2>
+      <span class="muted">OFFICIAL DATA + STUDENT EXPERIENCE</span>
+    </div>
+    <div class="principle-grid">
+      <article>
+        <span>01</span>
+        <h3>官方與可驗證資料</h3>
+        <p>整理課程、師資研究方向、實習、證照、升學、產學與就業。數字沒有同年度、同科系、可追溯來源時，一律標示待查，不推估、不填 0。</p>
+      </article>
+      <article>
+        <span>02</span>
+        <h3>學生網路評價</h3>
+        <p>彙整 Dcard 與公開學生討論的高頻正負面主題、生活面、課業面與評價分歧。單一匿名留言不會直接變成結論。</p>
+      </article>
+      <article>
+        <span>03</span>
+        <h3>選校與選系分開看</h3>
+        <p>學校生活、交通、住宿與校風是一層；真正的科系課程、研究、實作與職涯又是另一層。資料庫把兩者拆開，避免只靠校名選系。</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="container category-section">
+    <div class="section-heading">
+      <h2>目前已完成的科系類別</h2>
+      <span class="muted">193 DEPARTMENT PROFILES</span>
+    </div>
+    <div class="category-grid">
+      {categories.map(([name, count]) => (
+        <a href="#database" class="category-card">
+          <strong>{name}</strong>
+          <span>{count} 個深度頁</span>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="database-shell" id="database">
+    <div class="container database-shell-head">
+      <div>
+        <div class="kicker">INTERACTIVE DATABASE</div>
+        <h2>開始查 70 所大學與科系</h2>
+        <p>可搜尋學校、科系、比較研究與就業方向，並查看學生網路評價摘要。</p>
+      </div>
+      <a class="button" href={databaseUrl} target="_blank" rel="noopener noreferrer">另開完整資料庫 ↗</a>
+    </div>
+    <div class="database-frame-wrap">
+      <iframe
+        src={databaseUrl}
+        title="國內大學選校選系資料庫"
+        loading="eager"
+        referrerpolicy="strict-origin-when-cross-origin"
+      ></iframe>
+      <noscript>
+        <p>請啟用 JavaScript，或<a href={databaseUrl}>直接開啟完整資料庫</a>。</p>
+      </noscript>
+    </div>
+  </section>
+
+  <section class="container editorial-note">
+    <div class="note-rule"></div>
+    <p><strong>資料使用提醒：</strong>學生網路評價反映部分學生經驗，不代表全體學生或校方立場。軍警、遠距、藝術、體育、技職、餐旅與醫護專業型學校，會依其制度與專業訓練型態分開評估，不直接套用一般綜合大學標準。</p>
+    <p>本資料庫由環球教育新聞編輯部持續整理。LTU 國際學術中心提供升學規劃與諮詢服務，資料內容與顧問服務分開呈現。</p>
+  </section>
+</BaseLayout>
+
+<style>
+  .domestic-db-hero{background:linear-gradient(180deg,#fffdf8 0%,#eee7da 100%);border-bottom:3px double var(--line-dark)}
+  .domestic-db-hero-inner{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(310px,.7fr);gap:50px;align-items:center;padding:64px 0 54px}
+  .domestic-db-hero h1{margin:8px 0 5px;font-size:clamp(2.65rem,5vw,5.2rem);line-height:1.03;letter-spacing:-.045em}
+  .hero-brand{margin:0 0 18px;color:var(--burgundy);font-weight:800;letter-spacing:.1em}
+  .hero-deck{max-width:760px;font-size:1.14rem;color:#514c45}
+  .hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px}
+  .database-stats{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--line-dark);background:var(--sheet)}
+  .database-stats div{padding:22px 18px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .database-stats div:nth-child(2n){border-right:0}.database-stats div:nth-child(n+3){border-bottom:0}
+  .database-stats strong{display:block;font-size:2.35rem;line-height:1;color:var(--burgundy)}
+  .database-stats span{display:block;margin-top:7px;font-family:Arial,"Noto Sans TC",sans-serif;font-size:.72rem;color:var(--muted)}
+  .domestic-intro,.category-section,.editorial-note{padding-top:42px;padding-bottom:42px}
+  .principle-grid{display:grid;grid-template-columns:repeat(3,1fr);border-left:1px solid var(--line);border-top:1px solid var(--line)}
+  .principle-grid article{padding:24px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--sheet)}
+  .principle-grid article>span{font-family:Georgia,serif;color:var(--gold);font-weight:700;font-size:1.5rem}
+  .principle-grid h3{margin:7px 0 10px;font-size:1.25rem}.principle-grid p{margin:0;color:#5c574f;font-size:.92rem}
+  .category-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid var(--line);border-left:1px solid var(--line)}
+  .category-card{padding:17px 16px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--sheet);transition:.18s ease}
+  .category-card:hover{background:#fff;color:var(--burgundy)}
+  .category-card strong{display:block;font-size:1rem}.category-card span{display:block;margin-top:4px;color:var(--muted);font-family:Arial,"Noto Sans TC",sans-serif;font-size:.7rem}
+  .database-shell{padding:48px 0 0;background:#dfd8cb;border-top:3px double var(--line-dark);border-bottom:3px double var(--line-dark)}
+  .database-shell-head{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:22px}
+  .database-shell-head h2{font-size:2rem;margin:5px 0 5px}.database-shell-head p{margin:0;color:#575149}
+  .database-frame-wrap{width:min(calc(100% - 24px),1480px);margin:0 auto 18px;background:#fff;border:1px solid #292621;box-shadow:0 18px 45px rgba(30,26,20,.14)}
+  .database-frame-wrap iframe{display:block;width:100%;height:1100px;border:0;background:#fff}
+  .editorial-note{font-size:.91rem;color:#5a554e}.note-rule{border-top:3px double var(--line-dark);margin-bottom:20px}
+  @media(max-width:980px){.domestic-db-hero-inner{grid-template-columns:1fr}.category-grid{grid-template-columns:repeat(2,1fr)}.principle-grid{grid-template-columns:1fr}.database-frame-wrap iframe{height:900px}}
+  @media(max-width:620px){.domestic-db-hero-inner{padding:42px 0 38px}.database-stats strong{font-size:1.85rem}.category-grid{grid-template-columns:1fr}.database-shell-head{align-items:flex-start;flex-direction:column}.database-frame-wrap{width:100%;border-left:0;border-right:0}.database-frame-wrap iframe{height:780px}}
+</style>
