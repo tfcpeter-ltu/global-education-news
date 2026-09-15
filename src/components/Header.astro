@@ -38,6 +38,10 @@ const isScholarshipRadar = Astro.url.pathname === '/scholarships/' || Astro.url.
       <a href={link('topics/uk/')}>英國</a>
       <a href={link('topics/australia/')}>澳洲</a>
       <a href={link('topics/asia/')}>亞洲</a>
+      <a class="domestic-university-nav" href={link('taiwan-universities/')} aria-label="國內大學選校選系資料庫">
+        <span>國內大學選校選系</span>
+        <small>University Explorer</small>
+      </a>
       <a class="navigator-nav" href={link('study-abroad/')} aria-label="留學DIY導航 Study Abroad Navigator">
         <span>留學DIY導航</span>
         <small>Study Abroad Navigator</small>
@@ -105,7 +109,7 @@ const isScholarshipRadar = Astro.url.pathname === '/scholarships/' || Astro.url.
     color: #7a7268;
   }
 
-
+  .nav .domestic-university-nav,
   .nav .navigator-nav {
     display: inline-flex;
     min-height: 43px;
@@ -118,6 +122,7 @@ const isScholarshipRadar = Astro.url.pathname === '/scholarships/' || Astro.url.
     line-height: 1.1;
   }
 
+  .nav .domestic-university-nav small,
   .nav .navigator-nav small {
     color: #87652f;
     font-family: Georgia, "Times New Roman", serif;
@@ -126,6 +131,7 @@ const isScholarshipRadar = Astro.url.pathname === '/scholarships/' || Astro.url.
     letter-spacing: .04em;
   }
 
+  .nav .domestic-university-nav::after,
   .nav .navigator-nav::after {
     content: '';
     position: absolute;
