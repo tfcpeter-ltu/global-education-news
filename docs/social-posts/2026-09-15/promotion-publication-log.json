@@ -210,7 +210,9 @@
   "resolution": "使用者開啟檔案網址權限後，直接上傳兩圖成功；IG 兩則均回讀已分享及公開貼文。Metricool 額度問題仍存在。",
   "additionalCampaign": {
     "campaign": "study-abroad",
-    "status": "not-published",
-    "note": "後續新增每日導航宣傳，本紀錄六則不包含導航三則。"
+    "status": "published",
+    "publishedCount": 3,
+    "log": "docs/social-posts/2026-09-15/study-abroad--canada--waterloo--launch.json",
+    "note": "本紀錄六則新聞／獎學金維持不變；另已完成三則導航宣傳。"
   }
 }

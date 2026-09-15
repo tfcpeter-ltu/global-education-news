@@ -3,5 +3,50 @@
   "campaign": "study-abroad",
   "timezone": "Asia/Taipei",
   "createdAt": "2026-09-15",
-  "entries": []
+  "entries": [
+    {
+      "date": "2026-09-15",
+      "country": "canada",
+      "schoolName": "University of Waterloo",
+      "storyAngle": "1957-coop-launch",
+      "CTA": "追蹤",
+      "contentPath": "docs/social-posts/2026-09-15/study-abroad--canada--waterloo--launch.json",
+      "status": "published",
+      "publishedPosts": [
+        {
+          "network": "facebook",
+          "id": "pfbid02wnYEV8xW7ZZQaTY5hQ8ZcbDSUJiojbioe9kRf7uU8VsjEdgBbNEpJeTVehjUrdS6l",
+          "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02wnYEV8xW7ZZQaTY5hQ8ZcbDSUJiojbioe9kRf7uU8VsjEdgBbNEpJeTVehjUrdS6l",
+          "status": "PUBLISHED",
+          "method": "direct-browser",
+          "verifiedAt": "2026-09-15 05:27:55 UTC",
+          "publishedTimePrecision": "observed-only",
+          "imageCount": 2,
+          "crosspost": false
+        },
+        {
+          "network": "threads",
+          "id": "DdS87uKE1lZ",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdS87uKE1lZ",
+          "status": "PUBLISHED",
+          "method": "direct-browser",
+          "verifiedAt": "2026-09-15 05:27:55 UTC",
+          "publishedTimePrecision": "observed-only",
+          "imageCount": 2,
+          "crosspost": false
+        },
+        {
+          "network": "instagram",
+          "id": "DdS9RLsk5v2",
+          "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdS9RLsk5v2/",
+          "status": "PUBLISHED",
+          "method": "direct-browser",
+          "verifiedAt": "2026-09-15 05:27:55 UTC",
+          "publishedTimePrecision": "observed-only",
+          "imageCount": 2,
+          "crosspost": false
+        }
+      ]
+    }
+  ]
 }

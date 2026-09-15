@@ -1,6 +1,6 @@
 {
   "date": "2026-09-15",
-  "status": "website-and-news-scholarship-social-published-diy-pending",
+  "status": "website-and-all-three-social-campaigns-published",
   "baseCommit": "91e3962ff3a9d778fd58cba20c1b851208f4461f",
   "contentCommit": "96ea5533de3dd0a8e2e29b901c998b0c3c1a4f15",
   "peterCommit": "b6475f6ce28c43d0d26d6abdd8e8736ebb9d494f",
@@ -229,8 +229,13 @@
     "scope": "news-and-scholarship",
     "studyAbroad": {
       "targetCount": 3,
-      "publishedCount": 0,
-      "status": "pending"
+      "publishedCount": 3,
+      "status": "published",
+      "log": "docs/social-posts/2026-09-15/study-abroad--canada--waterloo--launch.json"
+    },
+    "totalIncludingStudyAbroad": {
+      "targetCount": 9,
+      "publishedCount": 9
     }
   },
   "automation": {
@@ -240,5 +245,5 @@
     "scope": "至少三篇合格新聞、獎學金、Peter三篇、六則社群及正式站驗收",
     "runtime": "需電腦與 Codex app 運作；不是 GitHub 雲端新聞查核程式。"
   },
-  "verifiedAt": "2026-09-15T04:48:23Z"
+  "verifiedAt": "2026-09-15 05:27:55 UTC"
 }

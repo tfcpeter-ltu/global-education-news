@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 2,
+  "campaign": "study-abroad",
+  "country": "canada",
+  "schoolName": "University of Waterloo",
+  "storyAngle": "1957-coop-launch",
+  "articleTitle": "留學 DIY 導航每日學校故事啟動：從滑鐵盧 Co-op 看選校",
+  "articleUrl": "https://globalednews.com/study-abroad/university-detail.html?school=University%20of%20Waterloo&major=",
+  "navigatorUrl": "https://globalednews.com/study-abroad/",
+  "destinationUrl": "https://globalednews.com/study-abroad/university-detail.html?school=University%20of%20Waterloo&major=",
+  "shortHook": "1957 年，滑鐵盧把工程學習與工作經驗接在一起。你的選校清單，也只剩排名嗎？",
+  "facebookCopy": "1957 年，滑鐵盧把工程學習與工作經驗接在一起。你的選校清單，也只剩排名嗎？\n\n今天正式啟動「留學 DIY 導航」每日學校故事宣傳！第一站是加拿大 University of Waterloo：校方校史與加拿大統計局出版資料都記載，1957 年的工程課程已導入合作教育（Co-op）。這段歷史提醒我們，認識一所學校，也要看它如何安排學習。\n\n對台灣學生與家長，下一步可以很具體：進入導航搜尋 Waterloo，閱讀學校分析，再比較科系、申請文件與官方課程來源。Co-op 不代表保證取得工作；實際課程與申請條件仍須回查校方。附圖是今天的正式網站截圖，背景為網站裝飾，並非滑鐵盧校園照片。\n\n開始探索：https://globalednews.com/study-abroad/\n滑鐵盧頁：https://globalednews.com/study-abroad/university-detail.html?school=University%20of%20Waterloo&major=\n\n追蹤 Global Education News 環球教育新聞，從國際教育新聞延伸到自己的留學規劃。免費加入會員，每週接收國際教育政策、海外大學招生與獎學金消息： https://globalednews.com/",
+  "threadsCopy": "1957 年，滑鐵盧已把 Co-op 放進工程教育；你選校只看排名嗎？\n今天啟動「留學 DIY 導航」每日學校故事，第一站加拿大 Waterloo！搜尋學校、看科系與官方來源，再做自己的選校清單。\n截圖為導航介面，背景非滑鐵盧校園；Co-op 不保證工作。\nhttps://globalednews.com/study-abroad/\n追蹤環球教育新聞 Global Education News，接著看政策、招生與獎學金；免費會員每週收到重點整理。\nhttps://globalednews.com/",
+  "instagramCopy": "1957 年的滑鐵盧，給今天選校的一個提醒：別只看排名。\n留學 DIY 導航｜每日學校故事，今天啟動！\n\n第一站加拿大 University of Waterloo。從早期工程合作教育（Co-op）的故事，開始研究一所學校怎麼把學習與工作經驗接起來。\n\n滑動看今天的網站截圖 → 進導航搜尋 Waterloo → 看科系、文件與官方來源。Co-op 不保證取得工作，條件請回查校方。\nhttps://globalednews.com/study-abroad/\n\n追蹤 Global Education News 環球教育新聞，把國際政策、海外招生與獎學金消息接到自己的留學規劃。免費加入會員，每週收重點：\nhttps://globalednews.com/\n\n截圖：留學 DIY 導航正式網站，2026/9/15。畫面背景為網站裝飾，並非滑鐵盧校園照片。\n#留學DIY導航 #滑鐵盧大學 #加拿大留學 #國際教育 #環球教育新聞",
+  "xCopy": "1957 年，滑鐵盧已把 Co-op 放進工程教育；你選校只看排名嗎？\n今天啟動「留學 DIY 導航」每日學校故事，第一站加拿大 Waterloo！搜尋學校、看科系與官方來源，再做自己的選校清單。\n截圖為導航介面，背景非滑鐵盧校園；Co-op 不保證工作。\nhttps://globalednews.com/study-abroad/\n追蹤環球教育新聞 Global Education News，接著看政策、招生與獎學金；免費會員每週收到重點整理。\nhttps://globalednews.com/",
+  "CTA": "追蹤",
+  "ctaDate": "2026-09-15",
+  "category": "留學DIY導航",
+  "topic": "canada-coop",
+  "selectionReason": "使用者要求今天啟動，選已收錄學校的可交叉查證歷史並以正式網站截圖導流。",
+  "sourcePath": "public/study-abroad/university-data.js",
+  "articleCommit": "d2bac77b850183136306661fe5fd2aff3a54db5e",
+  "sources": [
+    {
+      "role": "official",
+      "url": "https://uwaterloo.ca/engineering/about/our-history",
+      "supports": "1957 工程合作教育起點"
+    },
+    {
+      "role": "independent-official-publication",
+      "url": "https://publications.gc.ca/collections/collection_2018/statcan/81-230/CS81-230-1977.pdf",
+      "page": 276,
+      "supports": "1957 年7月工程合作教育課程開課"
+    },
+    {
+      "role": "official-current-program",
+      "url": "https://uwaterloo.ca/future-students/programs/computer-science",
+      "supports": "現行 CS 有 Co-op 選項；不在宣傳新增競爭分數與收入保證"
+    }
+  ],
+  "verifiedAt": "2026-09-15",
+  "socialImage": "study-abroad-launch-home.png",
+  "additionalImages": [
+    "study-abroad-launch-waterloo.png"
+  ],
+  "imageAlt": "留學 DIY 導航正式首頁截圖，包含 LTU 標誌、選校規劃入口與環球教育新聞連結",
+  "imageSource": "https://globalednews.com/study-abroad/",
+  "imageCredit": "Global Education News／LTU 留學 DIY 導航正式網站截圖",
+  "imageLicense": "使用者授權擷取與宣傳自有網站介面；不將背景裝飾當作學校實景",
+  "status": "published",
+  "plannedPublishDate": "2026-09-15",
+  "publishedPosts": [
+    {
+      "network": "facebook",
+      "id": "pfbid02wnYEV8xW7ZZQaTY5hQ8ZcbDSUJiojbioe9kRf7uU8VsjEdgBbNEpJeTVehjUrdS6l",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02wnYEV8xW7ZZQaTY5hQ8ZcbDSUJiojbioe9kRf7uU8VsjEdgBbNEpJeTVehjUrdS6l",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "verifiedAt": "2026-09-15 05:27:55 UTC",
+      "publishedTimePrecision": "observed-only",
+      "imageCount": 2,
+      "crosspost": false
+    },
+    {
+      "network": "threads",
+      "id": "DdS87uKE1lZ",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdS87uKE1lZ",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "verifiedAt": "2026-09-15 05:27:55 UTC",
+      "publishedTimePrecision": "observed-only",
+      "imageCount": 2,
+      "crosspost": false
+    },
+    {
+      "network": "instagram",
+      "id": "DdS9RLsk5v2",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdS9RLsk5v2/",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "verifiedAt": "2026-09-15 05:27:55 UTC",
+      "publishedTimePrecision": "observed-only",
+      "imageCount": 2,
+      "crosspost": false
+    }
+  ],
+  "platformIntents": [
+    {
+      "network": "facebook",
+      "account": "LTUOSSDTaiwan",
+      "status": "published"
+    },
+    {
+      "network": "threads",
+      "account": "ltuossdtw",
+      "status": "published"
+    },
+    {
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "status": "published"
+    }
+  ],
+  "publishedVerifiedAt": "2026-09-15 05:27:55 UTC",
+  "paidAds": false
+}

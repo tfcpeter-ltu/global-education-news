@@ -143,3 +143,8 @@
 ## IG 補發已完成（2026-09-15 後續更新）
 
 使用者已開啟 Chrome 檔案網址權限，實測兩張圖片上傳成功。美國 D/S 新聞與台達氣候獎學金已直接發布至 @ltuossdtw，公開 ID 分別為 DdS4TtLkzLP、DdS4skHk4tC，回讀時間 2026-09-15T04:48:23Z。本更新取代上述 IG 待授權／待補兩則的狀態；不得再次補發。新聞與獎學金六則已完成，新增 DIY 宣傳另行記錄，尚未發布。Metricool 額度阻礙仍保留，直接平台可用；每則 IG 關閉 Threads 同步避免重複。詳見 docs/social-posts/2026-09-15/promotion-publication-log.json。
+
+
+## 導航宣傳啟動已完成（2026-09-15 後續更新）
+
+今日加拿大滑鐵盧 1957 Co-op 故事已發布 FB、Threads、IG，每平台兩張正式站截圖，附導航與環球教育新聞連結。此更新取代上述 DIY 尚未發布狀態。公開貼文、來源與文案見 `docs/social-posts/2026-09-15/study-abroad--canada--waterloo--launch.json`，輪換見 `docs/social-posts/study-abroad-history.json`；今日三類宣傳共九則已完成，不得重送。未來每日更換國家／學校與角度，保留故事、實際截圖及兩站連結。
