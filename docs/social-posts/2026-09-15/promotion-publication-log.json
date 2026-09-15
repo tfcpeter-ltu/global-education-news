@@ -1,9 +1,9 @@
 {
   "date": "2026-09-15",
-  "status": "partially-published-instagram-blocked",
+  "status": "published",
   "CTA": "追蹤",
   "targetCount": 6,
-  "publishedCount": 4,
+  "publishedCount": 6,
   "publishedPosts": [
     {
       "article": "news",
@@ -44,6 +44,30 @@
       "method": "direct-browser",
       "publishedTimePrecision": "observed-only",
       "verifiedAt": "2026-09-15T04:04:38Z"
+    },
+    {
+      "article": "news",
+      "id": "DdS4TtLkzLP",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdS4TtLkzLP/",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "verifiedAt": "2026-09-15T04:48:23Z",
+      "publishedTimePrecision": "observed-only",
+      "crosspostThreads": false
+    },
+    {
+      "article": "scholarship",
+      "id": "DdS4skHk4tC",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdS4skHk4tC/",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "verifiedAt": "2026-09-15T04:48:23Z",
+      "publishedTimePrecision": "observed-only",
+      "crosspostThreads": false
     }
   ],
   "metricoolAttempts": [
@@ -154,7 +178,12 @@
       "text": "10 月 6 日 19:00 截止：台灣 1–2 名英國碩士全額學費機會。\n全額學費，不等於所有留學費用全包。\n\n需符合畢業後工作經驗與返台承諾，詳細資格見全文。\n\n追蹤環球教育新聞 Global Education News。前往 globalednews.com 搜尋「台達」閱讀完整內容。\n台灣出發的國際教育新聞；免費會員週報整理政策、海外招生與獎學金。\n\n圖片：英國雷丁大學圖書館資料照，非限定申請學校。Tim Landy／Wikimedia Commons，CC BY-SA 4.0；原圖，版面可能裁切。\n來源：https://commons.wikimedia.org/wiki/File:University_of_Reading_library.jpg\n授權：https://creativecommons.org/licenses/by-sa/4.0/"
     }
   ],
-  "blockers": [
+  "blockers": [],
+  "duplicates": "六則 Metricool 均已確認 ERROR，沒有重送排程；FB 與 Threads 透過直接介面各補兩則並回讀成功。",
+  "paidAds": false,
+  "verifiedAt": "2026-09-15T04:48:23Z",
+  "scope": "news-and-scholarship",
+  "resolvedBlockers": [
     {
       "platform": "instagram",
       "count": 2,
@@ -178,8 +207,10 @@
       ]
     }
   ],
-  "duplicates": "六則 Metricool 均已確認 ERROR，沒有重送排程；FB 與 Threads 透過直接介面各補兩則並回讀成功。",
-  "paidAds": false,
-  "verifiedAt": "2026-09-15T04:04:38Z"
+  "resolution": "使用者開啟檔案網址權限後，直接上傳兩圖成功；IG 兩則均回讀已分享及公開貼文。Metricool 額度問題仍存在。",
+  "additionalCampaign": {
+    "campaign": "study-abroad",
+    "status": "not-published",
+    "note": "後續新增每日導航宣傳，本紀錄六則不包含導航三則。"
+  }
 }
-

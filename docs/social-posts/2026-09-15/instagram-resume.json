@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-15",
+  "account": "ltuossdtw",
+  "status": "published",
+  "permission": "User enabled file URL access; both uploads verified",
+  "items": [
+    {
+      "article": "news",
+      "id": "DdS4TtLkzLP",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdS4TtLkzLP/",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "verifiedAt": "2026-09-15T04:48:23Z",
+      "publishedTimePrecision": "observed-only",
+      "crosspostThreads": false
+    },
+    {
+      "article": "scholarship",
+      "id": "DdS4skHk4tC",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdS4skHk4tC/",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "verifiedAt": "2026-09-15T04:48:23Z",
+      "publishedTimePrecision": "observed-only",
+      "crosspostThreads": false
+    }
+  ],
+  "crosspostThreads": false,
+  "verifiedAt": "2026-09-15T04:48:23Z"
+}

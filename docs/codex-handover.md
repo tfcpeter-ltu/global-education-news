@@ -57,3 +57,6 @@
 - 兩張原圖來源、授權與 IG caption 均已保存；若新的工作目錄沒有本機圖片，可依已查核來源重新下載。Metricool 工具的 mediaFiles 在本日驗證接受本機絕對路徑，直接傳 Wikimedia URL 會在上傳階段失敗。
 - 下一個新發布日 CTA 為「免費加入會員」；9 月 15 日補發沿用「追蹤」。排程仍為 ACTIVE，但平台與本機權限阻礙必須如實回報。
 
+## IG 補發已完成（2026-09-15 後續更新）
+
+使用者已開啟 Chrome 檔案網址權限，實測兩張圖片上傳成功。美國 D/S 新聞與台達氣候獎學金已直接發布至 @ltuossdtw，公開 ID 分別為 DdS4TtLkzLP、DdS4skHk4tC，回讀時間 2026-09-15T04:48:23Z。本更新取代上述 IG 待授權／待補兩則的狀態；不得再次補發。新聞與獎學金六則已完成，新增 DIY 宣傳另行記錄，尚未發布。Metricool 額度阻礙仍保留，直接平台可用；每則 IG 關閉 Threads 同步避免重複。詳見 docs/social-posts/2026-09-15/promotion-publication-log.json。
