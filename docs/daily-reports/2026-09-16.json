@@ -1,0 +1,43 @@
+{
+  "date": "2026-09-16",
+  "timezone": "Asia/Taipei",
+  "status": "initial-research-incomplete",
+  "baselineCommit": "a2f65a42bff9ebe481205d583cecba5bfee95248",
+  "completedChecks": [
+    {
+      "url": "https://globalednews.com/",
+      "result": "已讀正式首頁；本回合未發布新文章。"
+    },
+    {
+      "url": "https://www.sunmoonnews.com.tw/",
+      "result": "已實際開啟首頁；近期可見教育相關標題尚未取得雙重來源，不刊登。"
+    }
+  ],
+  "researchLeads": [
+    {
+      "topic": "University College Birmingham 餐旅教學設施",
+      "official": "https://www.ucb.ac.uk/about-us/news-and-insights/university-acquires-former-the-cube-hotel-and-marco-pierre-white-restaurant-as-part-of-major-hospitality-investment-programme/",
+      "secondary": "https://www.hospitalityandcateringnews.com/2026/09/university-college-birmingham-unveils-new-restaurant-and-summer-row-campus-changes/",
+      "status": "搜尋線索，尚未完整閱讀兩來源；官方早期投資公告為七月，不得寫成九月新宣布。"
+    },
+    {
+      "topic": "紐西蘭國際教育復甦",
+      "official": "https://www.enz.govt.nz/news-and-research/ed-news/latest-data-shows-continued-growth-in-international-enrolments",
+      "secondary": "https://thepienews.com/",
+      "status": "候選，尚待開啟第二來源文章並核對時點。"
+    }
+  ],
+  "newsPublished": [],
+  "scholarshipChecks": [],
+  "peterImports": [],
+  "socialPosts": [],
+  "remaining": [
+    "完成三篇新聞雙重查核、獨立授權圖片、上稿與部署驗收",
+    "獎學金當日雙重查核",
+    "Peter來源去重與三則收錄",
+    "新聞、獎學金、導航各四平台共十二則；目前全數未發布"
+  ],
+  "notes": [
+    "本紀錄不是完成報告。後續回合應接續此日紀錄，不把搜尋摘要當已查核來源。"
+  ]
+}
