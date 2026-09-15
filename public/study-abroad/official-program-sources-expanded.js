@@ -106,9 +106,9 @@ const records=[
     "checked": "2026-09-13",
     "curriculum": "四年整合碩士；最後一年含進階教學與團隊研究專案。",
     "experience": "課程資訊可支持研究訓練判斷，不能直接推導畢業就業率。",
-    "requirements": "官方列 A-level A*AA／AAA（適用条件須展開核對）；UCAS G700。",
+    "requirements": "官方列 A-level A*AA／AAA（適用條件須展開核對）；UCAS G700。",
     "documents": "確認 Mathematics 等指定科目與資格換算；準備 UCAS 所需資料。",
-    "interpretation": "適合願意多讀一年、深化 AI 研究與分析能力的学生。",
+    "interpretation": "適合願意多讀一年、深化 AI 研究與分析能力的學生。",
     "limitation": "MComp 是四年整合學位，不應與三年 BSc 當成相同成本或深度。",
     "sources": [
       "https://sheffield.ac.uk/undergraduate/courses/2027/computer-science-artificial-intelligence-mcomp"
@@ -189,7 +189,7 @@ const records=[
     "programUrl": "https://www.arts.ac.uk/subjects/fashion-design/undergraduate/ba-hons-fashion-design-womenswear-csm",
     "checked": "2026-09-13",
     "curriculum": "女裝設計的實際學位，不代表所有 Fashion 或時尚管理課程。",
-    "experience": "應檢視作品研究、發展过程與最終呈現，而非只選城市或校名。",
+    "experience": "應檢視作品研究、發展過程與最終呈現，而非只選城市或校名。",
     "requirements": "課程指定數位作品集最多 25 頁，包含研究、發展草圖與彩色時裝插畫。",
     "documents": "依本課程作品要求；UAL 數位作品透過 PebblePad 提交。",
     "interpretation": "適合希望以服裝設計作品建立專業方向的學生。",
@@ -355,7 +355,7 @@ const records=[
     "experience": "以臨床訓練與未來執業可行性作為決策核心。",
     "requirements": "按該年度醫學課程確認科學先修、UCAT 及面試。",
     "documents": "除一般 UCAS 文件外，提早安排測驗與面試準備。",
-    "interpretation": "適合已確認医師方向，且願意投入專業甄選準備的學生。",
+    "interpretation": "適合已確認醫師方向，且願意投入專業甄選準備的學生。",
     "limitation": "本紀錄不是各學制分數換算；國際生條件、後續註冊與執業地需再核對。",
     "sources": [
       "https://www.manchester.ac.uk/study/undergraduate/courses/2027/01428/mbchb-medicine/"
