@@ -23,15 +23,15 @@ const schema = {
       <h1>{article.title}</h1>
       <p class="summary">{article.description}</p>
       <p class="metadata">作者：{article.author} · 網站收錄：<time datetime={article.importedAt}>{article.importedAt}</time></p>
-      <p class="source-date">原文日期：Facebook 於 {article.dateObservedAt} 顯示「{article.originalDateLabel}」。平台僅提供相對日期，未推算精確發布日；<a href={article.sourceUrl} target="_blank" rel="noopener noreferrer">查看原貼文 ↗</a></p>
+      <p class="source-date">原文日期：Facebook 於 {article.dateObservedAt} 顯示「{article.originalDateLabel}」。{article.originalDatePrecision === 'relative' ? '平台僅提供相對日期，未推算精確發布日；' : '依平台顯示記錄，未補推未顯示的年份與時區；'}<a href={article.sourceUrl} target="_blank" rel="noopener noreferrer">查看原貼文 ↗</a></p>
     </header>
     <figure><img src={article.image} alt={article.imageAlt} width="1200" height="675" loading="eager" /><figcaption>{article.imageCredit}；專欄圖卡，非政策現場照片。</figcaption></figure>
     <aside aria-labelledby="editor-note">
       <h2 id="editor-note">編輯補註 · {article.importedAt}</h2>
       <p>{article.note}</p>
-      <p>以下保留 Peter 原文觀點，僅調整網站段落、標題格式並還原來源網址。文中的「本週」等時間用語以原貼文時點為準。</p>
+      <p>{article.edition === 'verified-edit' ? '以下為 Peter 原貼文的查核整理版：保留核心觀點，更新或釐清事實，並刪除尚未確認的細節；完整原文可由下方連結閱讀。' : '以下保留 Peter 原文觀點，僅調整網站段落、標題格式並還原來源網址。文中的「本週」等時間用語以原貼文時點為準。'}</p>
     </aside>
-    <section class="prose" aria-label="Peter 原文">
+    <section class="prose" aria-label={article.edition === 'verified-edit' ? 'Peter 專欄查核整理版' : 'Peter 原文'}>
       {article.body.map(line => line.startsWith('### ') ? <h2>{line.slice(4)}</h2> : /^https:\/\//.test(line) ? <p><a href={line} target="_blank" rel="noopener noreferrer">{line}</a></p> : <p>{line}</p>)}
     </section>
     <section class="verification" aria-labelledby="verification-title">
@@ -57,3 +57,4 @@ const schema = {
   li{margin-bottom:10px}a{text-decoration:underline;text-underline-offset:3px}.button{text-decoration:none;white-space:normal}
   @media(max-width:600px){.peter-article{padding:24px 18px 50px}aside{padding:16px}.prose{font-size:1rem}.source-date{font-size:.85rem}}
 </style>
+
