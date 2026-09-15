@@ -1,0 +1,43 @@
+---
+const rawBase = import.meta.env.BASE_URL;
+const base = rawBase.endsWith('/') ? rawBase : `${rawBase}/`;
+---
+<section class="study-entry" aria-labelledby="study-entry-title">
+  <div class="study-copy">
+    <p class="eyebrow">STUDY ABROAD NAVIGATOR</p>
+    <h2 id="study-entry-title">留學 DIY 導航</h2>
+    <p class="lead">世界很大，從找到適合你的科系開始。</p>
+    <p class="description">想出國念書，卻不知道從哪一所大學、哪一個科系開始？從國家與興趣出發，探索海外大學、比較科系方向，整理申請條件與準備文件。把心動的學校收藏起來，逐步建立自己的留學計畫。</p>
+    <div class="actions">
+      <a class="primary" href={`${base}study-abroad/`}>開始探索留學方向 →</a>
+      <a href={`${base}study-abroad/universities.html`}>找海外大學</a>
+      <a href={`${base}study-abroad/majors.html`}>探索適合的科系</a>
+    </div>
+  </div>
+  <div class="study-route" aria-label="留學探索步驟">
+    <p class="route-title">把留學想法，變成下一步</p>
+    <div><span>01</span><p><strong>探索國家與科系</strong><small>從興趣出發，找到值得研究的方向</small></p></div>
+    <div><span>02</span><p><strong>收藏與比較大學</strong><small>看課程、校區與不同入學途徑</small></p></div>
+    <div><span>03</span><p><strong>整理申請準備</strong><small>掌握文件與待確認事項，安排下一步</small></p></div>
+  </div>
+</section>
+<style>
+.study-entry{display:grid;grid-template-columns:minmax(0,1.8fr) minmax(260px,1fr);gap:40px;align-items:center;margin:32px 0 42px;padding:44px;background:linear-gradient(120deg,#173f39,#2c5349);color:#fffdf5;border-top:3px solid #c5a66a;box-shadow:0 12px 28px #173f3914}
+.eyebrow{margin:0 0 12px;color:#e9cf97;font:700 .76rem Arial,sans-serif;letter-spacing:.16em}
+.study-entry h2{margin:0 0 16px;font-size:clamp(2rem,3.6vw,3.1rem);line-height:1.25;color:#fffdf5}
+.lead{font-size:1.2rem;font-weight:700;color:#f2dfb6;margin:0 0 12px;line-height:1.6}
+.description{margin:0;line-height:1.9;color:#edf1e9}
+.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+.actions a{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:11px 16px;border:1px solid #b9c9b6;color:#fffdf5;font-size:.86rem;font-weight:700;text-decoration:none}
+.actions .primary{background:#ead7ae;border-color:#ead7ae;color:#193b34}
+.actions a:hover{background:#fff8e9;color:#193b34}
+.actions a:focus-visible{outline:3px solid #fff;outline-offset:4px}
+.study-route{padding:24px;border:1px solid #afc0a780;background:#ffffff08}
+.route-title{margin:0 0 10px;color:#eedab1;font-weight:700;font-size:1.04rem}
+.study-route>div{display:flex;gap:16px;align-items:flex-start;padding:16px 0;border-top:1px solid #ffffff25}
+.study-route>div:last-child{padding-bottom:0}
+.study-route span{font:700 1.7rem Georgia,serif;color:#e3c58b}
+.study-route p{margin:0}.study-route strong{display:block;color:#fffdf5;line-height:1.5}
+.study-route small{display:block;color:#dce7dc;font-size:.8rem;line-height:1.7;margin-top:4px}
+@media(max-width:760px){.study-entry{grid-template-columns:1fr;padding:28px 22px;gap:26px}.study-route{padding:20px}.actions a{flex:1 1 auto}.actions .primary{flex-basis:100%}}
+</style>
