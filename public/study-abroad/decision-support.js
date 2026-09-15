@@ -46,7 +46,7 @@ window.STUDENT_DECISION_SUPPORT={
    const local=localStrong.includes(x.name)?'當地產業／實務評價通常比單看世界排名更有參考價值':'當地評價需看科系、城市與雇主市場';
    const research=hasGoal(x,/名校|研究/)?'研究導向較強':'研究強度依科系判讀';
    const employment=hasGoal(x,/就業|Co-op|實務|科技|藝術設計|音樂|placement/)?'就業／實務連結值得重點比較':'需再比較實習、placement 與城市產業';
-   const competition=x.catalogOnly?'尚未核對此校系招生競爭度':prestigeNames.includes(x.name)?'高到非常高':hasGoal(x,/名校/)?'高':'中高；仍需依科系與學生背景判斷';
+   const competition=(x.catalogOnly||window.OFFICIAL_PROGRAM_SOURCES?.get(x.name,major)?.verificationScope==='program-availability')?'尚未核對此校系招生競爭度':prestigeNames.includes(x.name)?'高到非常高':hasGoal(x,/名校/)?'高':'中高；仍需依科系與學生背景判斷';
    const profileNotes=[];
    if(profile.curriculum)profileNotes.push(`你的課程體系：${profile.curriculum}`);
    if(profile.grade)profileNotes.push(`成績區間：${profile.grade}`);

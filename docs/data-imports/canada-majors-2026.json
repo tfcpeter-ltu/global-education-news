@@ -1,0 +1,1726 @@
+{
+  "importDate": "2026-09-15",
+  "baseCommit": "147ac0be96808135e5ef7318cbac9abcd809fd28",
+  "workbook": "加拿大熱門科系Top10大學_a8c8b44f.xlsx",
+  "workbookRows": 100,
+  "categories": 10,
+  "newSchools": [
+    "Université de Montréal",
+    "McMaster University",
+    "Polytechnique Montréal",
+    "HEC Montréal",
+    "Dalhousie University"
+  ],
+  "newRelationships": [
+    "Université de Montréal|Computer Science",
+    "McMaster University|Computer Science",
+    "McMaster University|Engineering",
+    "Polytechnique Montréal|Engineering",
+    "HEC Montréal|Business",
+    "McMaster University|Business",
+    "University of Toronto|Data Science",
+    "McGill University|Statistics",
+    "University of Alberta|Data Science",
+    "University of British Columbia|Data Science",
+    "McMaster University|Mathematics",
+    "Queen’s University|AI",
+    "Toronto Metropolitan University|Mathematics",
+    "University of Toronto|Nursing",
+    "University of British Columbia|Nursing",
+    "McMaster University|Nursing",
+    "McGill University|Nursing",
+    "University of Alberta|Nursing",
+    "Western University|Nursing",
+    "Queen’s University|Nursing",
+    "University of Calgary|Nursing",
+    "University of Ottawa|Nursing",
+    "Dalhousie University|Nursing",
+    "McMaster University|Health Sciences",
+    "University of Toronto|Health Sciences",
+    "Queen’s University|Health Sciences",
+    "Western University|Health Sciences",
+    "University of British Columbia|Kinesiology",
+    "University of Ottawa|Health Sciences",
+    "University of Waterloo|Health Sciences",
+    "University of Calgary|Health Sciences",
+    "University of Alberta|Health Sciences",
+    "University of Toronto|Biology",
+    "University of British Columbia|Biology",
+    "McGill University|Biology",
+    "McMaster University|Biology",
+    "University of Alberta|Biology",
+    "Queen’s University|Biology",
+    "Western University|Biomedical Sciences",
+    "University of Waterloo|Biology",
+    "University of Calgary|Biology",
+    "University of Ottawa|Biology",
+    "University of Waterloo|Psychology",
+    "McMaster University|Psychology",
+    "Western University|Economics",
+    "University of Waterloo|Economics",
+    "McMaster University|Economics",
+    "Simon Fraser University|Economics",
+    "Toronto Metropolitan University|Journalism",
+    "University of British Columbia|Communication",
+    "Western University|Communication",
+    "McGill University|Communication",
+    "Concordia University|Communication",
+    "University of Ottawa|Communication",
+    "Queen’s University|Communication"
+  ],
+  "rows": [
+    {
+      "sheet": "Computer Science 電腦科學",
+      "row": 3,
+      "originalSchool": "University of Toronto (多倫多大學)",
+      "originalCategory": "資訊工程／電腦科學",
+      "programKeys": [
+        "University of Toronto|Computer Science"
+      ]
+    },
+    {
+      "sheet": "Computer Science 電腦科學",
+      "row": 4,
+      "originalSchool": "University of Waterloo (滑鐵盧大學)",
+      "originalCategory": "資訊工程／電腦科學",
+      "programKeys": [
+        "University of Waterloo|Computer Science"
+      ]
+    },
+    {
+      "sheet": "Computer Science 電腦科學",
+      "row": 5,
+      "originalSchool": "University of British Columbia (UBC)",
+      "originalCategory": "資訊工程／電腦科學",
+      "programKeys": [
+        "University of British Columbia|Computer Science"
+      ]
+    },
+    {
+      "sheet": "Computer Science 電腦科學",
+      "row": 6,
+      "originalSchool": "McGill University (麥基爾大學)",
+      "originalCategory": "資訊工程／電腦科學",
+      "programKeys": [
+        "McGill University|Computer Science"
+      ]
+    },
+    {
+      "sheet": "Computer Science 電腦科學",
+      "row": 7,
+      "originalSchool": "University of Alberta (亞伯達大學)",
+      "originalCategory": "資訊工程／電腦科學",
+      "programKeys": [
+        "University of Alberta|Computer Science"
+      ]
+    },
+    {
+      "sheet": "Computer Science 電腦科學",
+      "row": 8,
+      "originalSchool": "Université de Montréal (蒙特婁大學)",
+      "originalCategory": "資訊工程／電腦科學",
+      "programKeys": [
+        "Université de Montréal|Computer Science"
+      ]
+    },
+    {
+      "sheet": "Computer Science 電腦科學",
+      "row": 9,
+      "originalSchool": "McMaster University (麥馬士達大學)",
+      "originalCategory": "資訊工程／電腦科學",
+      "programKeys": [
+        "McMaster University|Computer Science"
+      ]
+    },
+    {
+      "sheet": "Computer Science 電腦科學",
+      "row": 10,
+      "originalSchool": "Simon Fraser University (西門菲莎大學)",
+      "originalCategory": "資訊工程／電腦科學",
+      "programKeys": [
+        "Simon Fraser University|Computer Science"
+      ]
+    },
+    {
+      "sheet": "Computer Science 電腦科學",
+      "row": 11,
+      "originalSchool": "Queen's University (皇后大學)",
+      "originalCategory": "資訊工程／電腦科學",
+      "programKeys": [
+        "Queen’s University|Computer Science"
+      ]
+    },
+    {
+      "sheet": "Computer Science 電腦科學",
+      "row": 12,
+      "originalSchool": "University of Ottawa (渥太華大學)",
+      "originalCategory": "資訊工程／電腦科學",
+      "programKeys": [
+        "University of Ottawa|Computer Science"
+      ]
+    },
+    {
+      "sheet": "Engineering 工程",
+      "row": 3,
+      "originalSchool": "University of Toronto",
+      "originalCategory": "工程",
+      "programKeys": [
+        "University of Toronto|Engineering"
+      ]
+    },
+    {
+      "sheet": "Engineering 工程",
+      "row": 4,
+      "originalSchool": "University of Waterloo",
+      "originalCategory": "工程",
+      "programKeys": [
+        "University of Waterloo|Engineering"
+      ]
+    },
+    {
+      "sheet": "Engineering 工程",
+      "row": 5,
+      "originalSchool": "University of British Columbia",
+      "originalCategory": "工程",
+      "programKeys": [
+        "University of British Columbia|Engineering"
+      ]
+    },
+    {
+      "sheet": "Engineering 工程",
+      "row": 6,
+      "originalSchool": "McGill University",
+      "originalCategory": "工程",
+      "programKeys": [
+        "McGill University|Engineering"
+      ]
+    },
+    {
+      "sheet": "Engineering 工程",
+      "row": 7,
+      "originalSchool": "McMaster University",
+      "originalCategory": "工程",
+      "programKeys": [
+        "McMaster University|Engineering"
+      ]
+    },
+    {
+      "sheet": "Engineering 工程",
+      "row": 8,
+      "originalSchool": "University of Alberta",
+      "originalCategory": "工程",
+      "programKeys": [
+        "University of Alberta|Engineering"
+      ]
+    },
+    {
+      "sheet": "Engineering 工程",
+      "row": 9,
+      "originalSchool": "Queen's University",
+      "originalCategory": "工程",
+      "programKeys": [
+        "Queen’s University|Engineering"
+      ]
+    },
+    {
+      "sheet": "Engineering 工程",
+      "row": 10,
+      "originalSchool": "University of Calgary",
+      "originalCategory": "工程",
+      "programKeys": [
+        "University of Calgary|Engineering"
+      ]
+    },
+    {
+      "sheet": "Engineering 工程",
+      "row": 11,
+      "originalSchool": "Western University",
+      "originalCategory": "工程",
+      "programKeys": [
+        "Western University|Engineering"
+      ]
+    },
+    {
+      "sheet": "Engineering 工程",
+      "row": 12,
+      "originalSchool": "Concordia / Polytechnique Montréal",
+      "originalCategory": "工程",
+      "programKeys": [
+        "Concordia University|Engineering",
+        "Polytechnique Montréal|Engineering"
+      ]
+    },
+    {
+      "sheet": "Business 商學",
+      "row": 3,
+      "originalSchool": "Western University – Ivey Business School",
+      "originalCategory": "商學／商務管理",
+      "programKeys": [
+        "Western University|Business"
+      ]
+    },
+    {
+      "sheet": "Business 商學",
+      "row": 4,
+      "originalSchool": "University of Toronto – Rotman",
+      "originalCategory": "商學／商務管理",
+      "programKeys": [
+        "University of Toronto|Business"
+      ]
+    },
+    {
+      "sheet": "Business 商學",
+      "row": 5,
+      "originalSchool": "UBC – Sauder School of Business",
+      "originalCategory": "商學／商務管理",
+      "programKeys": [
+        "University of British Columbia|Business"
+      ]
+    },
+    {
+      "sheet": "Business 商學",
+      "row": 6,
+      "originalSchool": "McGill University – Desautels",
+      "originalCategory": "商學／商務管理",
+      "programKeys": [
+        "McGill University|Business"
+      ]
+    },
+    {
+      "sheet": "Business 商學",
+      "row": 7,
+      "originalSchool": "York University – Schulich",
+      "originalCategory": "商學／商務管理",
+      "programKeys": [
+        "York University|Business"
+      ]
+    },
+    {
+      "sheet": "Business 商學",
+      "row": 8,
+      "originalSchool": "Queen's University – Smith School of Business",
+      "originalCategory": "商學／商務管理",
+      "programKeys": [
+        "Queen’s University|Business"
+      ]
+    },
+    {
+      "sheet": "Business 商學",
+      "row": 9,
+      "originalSchool": "HEC Montréal",
+      "originalCategory": "商學／商務管理",
+      "programKeys": [
+        "HEC Montréal|Business"
+      ]
+    },
+    {
+      "sheet": "Business 商學",
+      "row": 10,
+      "originalSchool": "McMaster University – DeGroote",
+      "originalCategory": "商學／商務管理",
+      "programKeys": [
+        "McMaster University|Business"
+      ]
+    },
+    {
+      "sheet": "Business 商學",
+      "row": 11,
+      "originalSchool": "University of Alberta – Alberta School of Business",
+      "originalCategory": "商學／商務管理",
+      "programKeys": [
+        "University of Alberta|Business"
+      ]
+    },
+    {
+      "sheet": "Business 商學",
+      "row": 12,
+      "originalSchool": "University of Ottawa – Telfer",
+      "originalCategory": "商學／商務管理",
+      "programKeys": [
+        "University of Ottawa|Business"
+      ]
+    },
+    {
+      "sheet": "Data Science AI",
+      "row": 3,
+      "originalSchool": "University of Toronto",
+      "originalCategory": "資料科學／人工智慧",
+      "programKeys": [
+        "University of Toronto|Data Science"
+      ]
+    },
+    {
+      "sheet": "Data Science AI",
+      "row": 4,
+      "originalSchool": "University of Waterloo",
+      "originalCategory": "資料科學／人工智慧",
+      "programKeys": [
+        "University of Waterloo|Data Science"
+      ]
+    },
+    {
+      "sheet": "Data Science AI",
+      "row": 5,
+      "originalSchool": "Université de Montréal",
+      "originalCategory": "資料科學／人工智慧",
+      "programKeys": [
+        "Université de Montréal|Computer Science"
+      ]
+    },
+    {
+      "sheet": "Data Science AI",
+      "row": 6,
+      "originalSchool": "McGill University",
+      "originalCategory": "資料科學／人工智慧",
+      "programKeys": [
+        "McGill University|Statistics"
+      ]
+    },
+    {
+      "sheet": "Data Science AI",
+      "row": 7,
+      "originalSchool": "University of Alberta",
+      "originalCategory": "資料科學／人工智慧",
+      "programKeys": [
+        "University of Alberta|Data Science"
+      ]
+    },
+    {
+      "sheet": "Data Science AI",
+      "row": 8,
+      "originalSchool": "University of British Columbia",
+      "originalCategory": "資料科學／人工智慧",
+      "programKeys": [
+        "University of British Columbia|Data Science"
+      ]
+    },
+    {
+      "sheet": "Data Science AI",
+      "row": 9,
+      "originalSchool": "Simon Fraser University",
+      "originalCategory": "資料科學／人工智慧",
+      "programKeys": [
+        "Simon Fraser University|Data Science"
+      ]
+    },
+    {
+      "sheet": "Data Science AI",
+      "row": 10,
+      "originalSchool": "McMaster University",
+      "originalCategory": "資料科學／人工智慧",
+      "programKeys": [
+        "McMaster University|Mathematics"
+      ]
+    },
+    {
+      "sheet": "Data Science AI",
+      "row": 11,
+      "originalSchool": "Queen's University",
+      "originalCategory": "資料科學／人工智慧",
+      "programKeys": [
+        "Queen’s University|AI"
+      ]
+    },
+    {
+      "sheet": "Data Science AI",
+      "row": 12,
+      "originalSchool": "Toronto Metropolitan University (TMU)",
+      "originalCategory": "資料科學／人工智慧",
+      "programKeys": [
+        "Toronto Metropolitan University|Mathematics"
+      ]
+    },
+    {
+      "sheet": "Nursing 護理",
+      "row": 3,
+      "originalSchool": "University of Toronto – Bloomberg Faculty of Nursing",
+      "originalCategory": "護理學",
+      "programKeys": [
+        "University of Toronto|Nursing"
+      ]
+    },
+    {
+      "sheet": "Nursing 護理",
+      "row": 4,
+      "originalSchool": "University of British Columbia",
+      "originalCategory": "護理學",
+      "programKeys": [
+        "University of British Columbia|Nursing"
+      ]
+    },
+    {
+      "sheet": "Nursing 護理",
+      "row": 5,
+      "originalSchool": "McMaster University",
+      "originalCategory": "護理學",
+      "programKeys": [
+        "McMaster University|Nursing"
+      ]
+    },
+    {
+      "sheet": "Nursing 護理",
+      "row": 6,
+      "originalSchool": "McGill University – Ingram School of Nursing",
+      "originalCategory": "護理學",
+      "programKeys": [
+        "McGill University|Nursing"
+      ]
+    },
+    {
+      "sheet": "Nursing 護理",
+      "row": 7,
+      "originalSchool": "University of Alberta",
+      "originalCategory": "護理學",
+      "programKeys": [
+        "University of Alberta|Nursing"
+      ]
+    },
+    {
+      "sheet": "Nursing 護理",
+      "row": 8,
+      "originalSchool": "Western University – Arthur Labatt Family School of Nursing",
+      "originalCategory": "護理學",
+      "programKeys": [
+        "Western University|Nursing"
+      ]
+    },
+    {
+      "sheet": "Nursing 護理",
+      "row": 9,
+      "originalSchool": "Queen's University",
+      "originalCategory": "護理學",
+      "programKeys": [
+        "Queen’s University|Nursing"
+      ]
+    },
+    {
+      "sheet": "Nursing 護理",
+      "row": 10,
+      "originalSchool": "University of Calgary",
+      "originalCategory": "護理學",
+      "programKeys": [
+        "University of Calgary|Nursing"
+      ]
+    },
+    {
+      "sheet": "Nursing 護理",
+      "row": 11,
+      "originalSchool": "University of Ottawa",
+      "originalCategory": "護理學",
+      "programKeys": [
+        "University of Ottawa|Nursing"
+      ]
+    },
+    {
+      "sheet": "Nursing 護理",
+      "row": 12,
+      "originalSchool": "Dalhousie University",
+      "originalCategory": "護理學",
+      "programKeys": [
+        "Dalhousie University|Nursing"
+      ]
+    },
+    {
+      "sheet": "Health Sciences 健康科學",
+      "row": 3,
+      "originalSchool": "McMaster University – BHSc (Honours)",
+      "originalCategory": "健康科學",
+      "programKeys": [
+        "McMaster University|Health Sciences"
+      ]
+    },
+    {
+      "sheet": "Health Sciences 健康科學",
+      "row": 4,
+      "originalSchool": "University of Toronto – HSc / Health & Disease",
+      "originalCategory": "健康科學",
+      "programKeys": [
+        "University of Toronto|Health Sciences"
+      ]
+    },
+    {
+      "sheet": "Health Sciences 健康科學",
+      "row": 5,
+      "originalSchool": "Queen's University – Bachelor of Health Sciences",
+      "originalCategory": "健康科學",
+      "programKeys": [
+        "Queen’s University|Health Sciences"
+      ]
+    },
+    {
+      "sheet": "Health Sciences 健康科學",
+      "row": 6,
+      "originalSchool": "Western University – BHSc / Medical Sciences",
+      "originalCategory": "健康科學",
+      "programKeys": [
+        "Western University|Health Sciences"
+      ]
+    },
+    {
+      "sheet": "Health Sciences 健康科學",
+      "row": 7,
+      "originalSchool": "University of British Columbia – Bachelor of Health Sciences",
+      "originalCategory": "健康科學",
+      "programKeys": [
+        "University of British Columbia|Kinesiology"
+      ]
+    },
+    {
+      "sheet": "Health Sciences 健康科學",
+      "row": 8,
+      "originalSchool": "University of Ottawa – BSc Health Sciences (Honours)",
+      "originalCategory": "健康科學",
+      "programKeys": [
+        "University of Ottawa|Health Sciences"
+      ]
+    },
+    {
+      "sheet": "Health Sciences 健康科學",
+      "row": 9,
+      "originalSchool": "McGill University – Anatomy & Cell Biology / Physiology",
+      "originalCategory": "健康科學",
+      "programKeys": [
+        "McGill University|Biomedical Sciences"
+      ]
+    },
+    {
+      "sheet": "Health Sciences 健康科學",
+      "row": 10,
+      "originalSchool": "University of Waterloo – Health Sciences / Kinesiology",
+      "originalCategory": "健康科學",
+      "programKeys": [
+        "University of Waterloo|Health Sciences"
+      ]
+    },
+    {
+      "sheet": "Health Sciences 健康科學",
+      "row": 11,
+      "originalSchool": "University of Calgary – Health Sciences (BHSc Honours)",
+      "originalCategory": "健康科學",
+      "programKeys": [
+        "University of Calgary|Health Sciences"
+      ]
+    },
+    {
+      "sheet": "Health Sciences 健康科學",
+      "row": 12,
+      "originalSchool": "University of Alberta – Bachelor of Science in Health Sciences",
+      "originalCategory": "健康科學",
+      "programKeys": [
+        "University of Alberta|Health Sciences"
+      ]
+    },
+    {
+      "sheet": "Life Sciences 生命科學",
+      "row": 3,
+      "originalSchool": "University of Toronto",
+      "originalCategory": "生命科學／生物學",
+      "programKeys": [
+        "University of Toronto|Biology"
+      ]
+    },
+    {
+      "sheet": "Life Sciences 生命科學",
+      "row": 4,
+      "originalSchool": "University of British Columbia",
+      "originalCategory": "生命科學／生物學",
+      "programKeys": [
+        "University of British Columbia|Biology"
+      ]
+    },
+    {
+      "sheet": "Life Sciences 生命科學",
+      "row": 5,
+      "originalSchool": "McGill University",
+      "originalCategory": "生命科學／生物學",
+      "programKeys": [
+        "McGill University|Biology"
+      ]
+    },
+    {
+      "sheet": "Life Sciences 生命科學",
+      "row": 6,
+      "originalSchool": "McMaster University",
+      "originalCategory": "生命科學／生物學",
+      "programKeys": [
+        "McMaster University|Biology"
+      ]
+    },
+    {
+      "sheet": "Life Sciences 生命科學",
+      "row": 7,
+      "originalSchool": "University of Alberta",
+      "originalCategory": "生命科學／生物學",
+      "programKeys": [
+        "University of Alberta|Biology"
+      ]
+    },
+    {
+      "sheet": "Life Sciences 生命科學",
+      "row": 8,
+      "originalSchool": "Queen's University",
+      "originalCategory": "生命科學／生物學",
+      "programKeys": [
+        "Queen’s University|Biology"
+      ]
+    },
+    {
+      "sheet": "Life Sciences 生命科學",
+      "row": 9,
+      "originalSchool": "Western University – BMSc",
+      "originalCategory": "生命科學／生物學",
+      "programKeys": [
+        "Western University|Biomedical Sciences"
+      ]
+    },
+    {
+      "sheet": "Life Sciences 生命科學",
+      "row": 10,
+      "originalSchool": "University of Waterloo",
+      "originalCategory": "生命科學／生物學",
+      "programKeys": [
+        "University of Waterloo|Biology"
+      ]
+    },
+    {
+      "sheet": "Life Sciences 生命科學",
+      "row": 11,
+      "originalSchool": "University of Calgary",
+      "originalCategory": "生命科學／生物學",
+      "programKeys": [
+        "University of Calgary|Biology"
+      ]
+    },
+    {
+      "sheet": "Life Sciences 生命科學",
+      "row": 12,
+      "originalSchool": "University of Ottawa",
+      "originalCategory": "生命科學／生物學",
+      "programKeys": [
+        "University of Ottawa|Biology"
+      ]
+    },
+    {
+      "sheet": "Psychology 心理學",
+      "row": 3,
+      "originalSchool": "University of British Columbia",
+      "originalCategory": "心理學",
+      "programKeys": [
+        "University of British Columbia|Psychology"
+      ]
+    },
+    {
+      "sheet": "Psychology 心理學",
+      "row": 4,
+      "originalSchool": "McGill University",
+      "originalCategory": "心理學",
+      "programKeys": [
+        "McGill University|Psychology"
+      ]
+    },
+    {
+      "sheet": "Psychology 心理學",
+      "row": 5,
+      "originalSchool": "University of Toronto",
+      "originalCategory": "心理學",
+      "programKeys": [
+        "University of Toronto|Psychology"
+      ]
+    },
+    {
+      "sheet": "Psychology 心理學",
+      "row": 6,
+      "originalSchool": "University of Waterloo",
+      "originalCategory": "心理學",
+      "programKeys": [
+        "University of Waterloo|Psychology"
+      ]
+    },
+    {
+      "sheet": "Psychology 心理學",
+      "row": 7,
+      "originalSchool": "Western University",
+      "originalCategory": "心理學",
+      "programKeys": [
+        "Western University|Psychology"
+      ]
+    },
+    {
+      "sheet": "Psychology 心理學",
+      "row": 8,
+      "originalSchool": "McMaster University",
+      "originalCategory": "心理學",
+      "programKeys": [
+        "McMaster University|Psychology"
+      ]
+    },
+    {
+      "sheet": "Psychology 心理學",
+      "row": 9,
+      "originalSchool": "Queen's University",
+      "originalCategory": "心理學",
+      "programKeys": [
+        "Queen’s University|Psychology"
+      ]
+    },
+    {
+      "sheet": "Psychology 心理學",
+      "row": 10,
+      "originalSchool": "York University",
+      "originalCategory": "心理學",
+      "programKeys": [
+        "York University|Psychology"
+      ]
+    },
+    {
+      "sheet": "Psychology 心理學",
+      "row": 11,
+      "originalSchool": "University of Alberta",
+      "originalCategory": "心理學",
+      "programKeys": [
+        "University of Alberta|Psychology"
+      ]
+    },
+    {
+      "sheet": "Psychology 心理學",
+      "row": 12,
+      "originalSchool": "Simon Fraser University",
+      "originalCategory": "心理學",
+      "programKeys": [
+        "Simon Fraser University|Psychology"
+      ]
+    },
+    {
+      "sheet": "Economics 經濟金融",
+      "row": 3,
+      "originalSchool": "University of Toronto",
+      "originalCategory": "經濟學／金融",
+      "programKeys": [
+        "University of Toronto|Economics"
+      ]
+    },
+    {
+      "sheet": "Economics 經濟金融",
+      "row": 4,
+      "originalSchool": "University of British Columbia – Vancouver School of Economics",
+      "originalCategory": "經濟學／金融",
+      "programKeys": [
+        "University of British Columbia|Economics"
+      ]
+    },
+    {
+      "sheet": "Economics 經濟金融",
+      "row": 5,
+      "originalSchool": "Queen's University",
+      "originalCategory": "經濟學／金融",
+      "programKeys": [
+        "Queen’s University|Economics"
+      ]
+    },
+    {
+      "sheet": "Economics 經濟金融",
+      "row": 6,
+      "originalSchool": "Western University",
+      "originalCategory": "經濟學／金融",
+      "programKeys": [
+        "Western University|Economics"
+      ]
+    },
+    {
+      "sheet": "Economics 經濟金融",
+      "row": 7,
+      "originalSchool": "McGill University",
+      "originalCategory": "經濟學／金融",
+      "programKeys": [
+        "McGill University|Economics"
+      ]
+    },
+    {
+      "sheet": "Economics 經濟金融",
+      "row": 8,
+      "originalSchool": "University of Waterloo",
+      "originalCategory": "經濟學／金融",
+      "programKeys": [
+        "University of Waterloo|Economics"
+      ]
+    },
+    {
+      "sheet": "Economics 經濟金融",
+      "row": 9,
+      "originalSchool": "McMaster University",
+      "originalCategory": "經濟學／金融",
+      "programKeys": [
+        "McMaster University|Economics"
+      ]
+    },
+    {
+      "sheet": "Economics 經濟金融",
+      "row": 10,
+      "originalSchool": "University of Alberta",
+      "originalCategory": "經濟學／金融",
+      "programKeys": [
+        "University of Alberta|Economics"
+      ]
+    },
+    {
+      "sheet": "Economics 經濟金融",
+      "row": 11,
+      "originalSchool": "Simon Fraser University",
+      "originalCategory": "經濟學／金融",
+      "programKeys": [
+        "Simon Fraser University|Economics"
+      ]
+    },
+    {
+      "sheet": "Economics 經濟金融",
+      "row": 12,
+      "originalSchool": "University of Ottawa",
+      "originalCategory": "經濟學／金融",
+      "programKeys": [
+        "University of Ottawa|Economics"
+      ]
+    },
+    {
+      "sheet": "Communications 傳播",
+      "row": 3,
+      "originalSchool": "Toronto Metropolitan University (前 Ryerson)",
+      "originalCategory": "傳播／媒體／新聞",
+      "programKeys": [
+        "Toronto Metropolitan University|Journalism"
+      ]
+    },
+    {
+      "sheet": "Communications 傳播",
+      "row": 4,
+      "originalSchool": "Carleton University",
+      "originalCategory": "傳播／媒體／新聞",
+      "programKeys": [
+        "Carleton University|Journalism"
+      ]
+    },
+    {
+      "sheet": "Communications 傳播",
+      "row": 5,
+      "originalSchool": "University of British Columbia",
+      "originalCategory": "傳播／媒體／新聞",
+      "programKeys": [
+        "University of British Columbia|Communication"
+      ]
+    },
+    {
+      "sheet": "Communications 傳播",
+      "row": 6,
+      "originalSchool": "Western University – Faculty of Information & Media Studies",
+      "originalCategory": "傳播／媒體／新聞",
+      "programKeys": [
+        "Western University|Communication"
+      ]
+    },
+    {
+      "sheet": "Communications 傳播",
+      "row": 7,
+      "originalSchool": "McGill University",
+      "originalCategory": "傳播／媒體／新聞",
+      "programKeys": [
+        "McGill University|Communication"
+      ]
+    },
+    {
+      "sheet": "Communications 傳播",
+      "row": 8,
+      "originalSchool": "Concordia University",
+      "originalCategory": "傳播／媒體／新聞",
+      "programKeys": [
+        "Concordia University|Communication"
+      ]
+    },
+    {
+      "sheet": "Communications 傳播",
+      "row": 9,
+      "originalSchool": "York University",
+      "originalCategory": "傳播／媒體／新聞",
+      "programKeys": [
+        "York University|Communication"
+      ]
+    },
+    {
+      "sheet": "Communications 傳播",
+      "row": 10,
+      "originalSchool": "Simon Fraser University",
+      "originalCategory": "傳播／媒體／新聞",
+      "programKeys": [
+        "Simon Fraser University|Communication"
+      ]
+    },
+    {
+      "sheet": "Communications 傳播",
+      "row": 11,
+      "originalSchool": "University of Ottawa",
+      "originalCategory": "傳播／媒體／新聞",
+      "programKeys": [
+        "University of Ottawa|Communication"
+      ]
+    },
+    {
+      "sheet": "Communications 傳播",
+      "row": 12,
+      "originalSchool": "Queen's University",
+      "originalCategory": "傳播／媒體／新聞",
+      "programKeys": [
+        "Queen’s University|Communication"
+      ]
+    }
+  ],
+  "programs": {
+    "McGill University|Computer Science": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Computer Science BSc",
+      "programUrl": "https://www.cs.mcgill.ca/academic/undergrad/bsc/",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "比較程式設計、演算法與軟體系統課程。"
+      ]
+    },
+    "Université de Montréal|Computer Science": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Baccalauréat en informatique",
+      "programUrl": "https://admission.umontreal.ca/programmes/baccalaureat-en-informatique/description/",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "比較程式設計、演算法與軟體系統課程。",
+        "授課與法語要求須依校方規定確認。",
+        "比較統計、數學與資訊基礎，區分獨立主修、專修與研究方向。",
+        "資料科學／AI 在此列為資訊學士內的課程方向，不另宣稱有同名獨立學士主修。"
+      ]
+    },
+    "McMaster University|Computer Science": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Computer Science",
+      "programUrl": "https://future.mcmaster.ca/programs/",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "比較程式設計、演算法與軟體系統課程。"
+      ]
+    },
+    "McMaster University|Engineering": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Engineering 學士課程",
+      "programUrl": "https://future.mcmaster.ca/programs/",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "機械、土木、電機與軟體工程的課程及認證不同，先選定工程分支。"
+      ]
+    },
+    "Polytechnique Montréal|Engineering": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Engineering 學士課程",
+      "programUrl": "https://www.polymtl.ca/futur/bac/programmes",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "機械、土木、電機與軟體工程的課程及認證不同，先選定工程分支。"
+      ]
+    },
+    "Western University|Business": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Ivey HBA",
+      "programUrl": "https://welcome.uwo.ca/what-can-i-study/undergraduate-programs/index.html",
+      "programKind": "second-entry",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "區分商學院、商業主修及專修方向，確認入學後分流規則。",
+        "Ivey HBA 與高中申請的 AEO 身分需分清；先完成大學前期課程並滿足後續條件。"
+      ]
+    },
+    "HEC Montréal|Business": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Bachelor of Business Administration",
+      "programUrl": "https://www.hec.ca/en/programs/bachelors",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "區分商學院、商業主修及專修方向，確認入學後分流規則。",
+        "依國際學歷確認預備年、語言及入學要求。"
+      ]
+    },
+    "McMaster University|Business": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Business / Commerce 學士課程",
+      "programUrl": "https://future.mcmaster.ca/programs/",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "區分商學院、商業主修及專修方向，確認入學後分流規則。"
+      ]
+    },
+    "University of Toronto|Data Science": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Data Science HBSc Specialist",
+      "programUrl": "https://future.utoronto.ca/program/data-science",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "比較統計、數學與資訊基礎，區分獨立主修、專修與研究方向。"
+      ]
+    },
+    "University of Waterloo|Data Science": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Data Science BCS / BMath",
+      "programUrl": "https://uwaterloo.ca/future-students/programs/data-science",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "比較統計、數學與資訊基礎，區分獨立主修、專修與研究方向。",
+        "需依原入學學程及校內選讀規則申請。"
+      ]
+    },
+    "McGill University|Statistics": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Joint Honours Statistics and Computer Science",
+      "programUrl": "https://www.cs.mcgill.ca/academic/undergrad/bsc/",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "比較統計、數學與資訊基礎，區分獨立主修、專修與研究方向。",
+        "以統計與資訊聯合學程收錄，不以 AI 研究聲望推定獨立資料科學學位。"
+      ]
+    },
+    "University of Alberta|Data Science": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Data Science — Statistics Option",
+      "programUrl": "https://www.ualberta.ca/en/undergraduate-programs/bachelor-of-science-with-major-data-science-statistics-option.html",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "比較統計、數學與資訊基礎，區分獨立主修、專修與研究方向。"
+      ]
+    },
+    "University of British Columbia|Data Science": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Data Science Major — Vancouver",
+      "programUrl": "https://datascience.ubc.ca/",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "比較統計、數學與資訊基礎，區分獨立主修、專修與研究方向。",
+        "主修與輔修的入學／校內選讀條件不同，請先確認所選校區。"
+      ]
+    },
+    "McMaster University|Mathematics": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Mathematics & Statistics Gateway",
+      "programUrl": "https://math.mcmaster.ca/undergraduate/prospective-students/",
+      "programKind": "gateway",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "比較統計、數學與資訊基礎，區分獨立主修、專修與研究方向。",
+        "數學與統計入學途徑，可進一步研究資料分析課程；不等於獨立 AI 學位。"
+      ]
+    },
+    "Queen’s University|AI": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Computing — Artificial Intelligence sub-plan",
+      "programUrl": "https://www.cs.queensu.ca/undergraduate/programs/sub-plans/artificial-intelligence.php",
+      "programKind": "option",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "比較統計、數學與資訊基礎，區分獨立主修、專修與研究方向。",
+        "AI 為 Computing 內的專修方向，需核對校內選讀規則。"
+      ]
+    },
+    "Toronto Metropolitan University|Mathematics": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Mathematics and Its Applications BSc (Honours)",
+      "programUrl": "https://www.torontomu.ca/calendar/2026-2027/programs/science/mathematics/",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "比較統計、數學與資訊基礎，區分獨立主修、專修與研究方向。",
+        "以數學與應用學士收錄；不要把資料科學職涯方向或研究所課程當成同名學士。"
+      ]
+    },
+    "University of Toronto|Nursing": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Bachelor of Science in Nursing — 先修後入學",
+      "programUrl": "https://bloomberg.nursing.utoronto.ca/learn-with-us/bachelor-of-science-in-nursing/",
+      "programKind": "second-entry",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "申請前另核對國際生資格、先修、語言、臨床實習與執照規定。",
+        "此為加速、先修後入學課程，不能視為高中畢業直接入讀的兩年制學位；須另查大學先修與申請資格。"
+      ]
+    },
+    "University of British Columbia|Nursing": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Bachelor of Science in Nursing — Okanagan",
+      "programUrl": "https://nursing.ok.ubc.ca/undergraduate/nursing/",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "申請前另核對國際生資格、先修、語言、臨床實習與執照規定。",
+        "此處收錄 Okanagan 四年制課程。Vancouver 的先修後入學 BSN 不接受一般國際學生；兩校區不可混用。"
+      ],
+      "restrictionSource": "https://macisaacnursing.ubc.ca/bsn-admission-requirements"
+    },
+    "McMaster University|Nursing": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Nursing 學士課程",
+      "programUrl": "https://future.mcmaster.ca/programs/",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "申請前另核對國際生資格、先修、語言、臨床實習與執照規定。"
+      ]
+    },
+    "McGill University|Nursing": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Bachelor of Science in Nursing (BScN)",
+      "programUrl": "https://www.mcgill.ca/nursing/programs/bachelor-programs/bscn",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "申請前另核對國際生資格、先修、語言、臨床實習與執照規定。",
+        "請核對臨床實習、語言與國際生規定；勿與供既有護理資格者修讀的 BNI 混淆。"
+      ]
+    },
+    "University of Alberta|Nursing": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Bachelor of Science in Nursing",
+      "programUrl": "https://www.ualberta.ca/en/undergraduate-programs/bachelor-of-science-in-nursing-nursing.html",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "申請前另核對國際生資格、先修、語言、臨床實習與執照規定。",
+        "基礎護理學位與 After Degree 為不同途徑；實際校址、語言及國際生資格另查。"
+      ]
+    },
+    "Western University|Nursing": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Nursing 學士課程",
+      "programUrl": "https://welcome.uwo.ca/what-can-i-study/undergraduate-programs/index.html",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "申請前另核對國際生資格、先修、語言、臨床實習與執照規定。"
+      ]
+    },
+    "Queen’s University|Nursing": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Bachelor of Nursing Science — 4-Year Track",
+      "programUrl": "https://www.queensu.ca/academic-calendar/nursing/",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "申請前另核對國際生資格、先修、語言、臨床實習與執照規定。",
+        "四年制與 Accelerated Standing Track 是不同途徑。"
+      ]
+    },
+    "University of Calgary|Nursing": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Bachelor of Science in Nursing (BScN)",
+      "programUrl": "https://nursing.ucalgary.ca/future-students/undergraduate/routes/BScN",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "申請前另核對國際生資格、先修、語言、臨床實習與執照規定。",
+        "請核對當年度入學途徑與甄選制度，不沿用舊 BN 入學資訊。"
+      ]
+    },
+    "University of Ottawa|Nursing": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Nursing 學士課程",
+      "programUrl": "https://catalogue.uottawa.ca/en/programs/",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "申請前另核對國際生資格、先修、語言、臨床實習與執照規定。"
+      ]
+    },
+    "Dalhousie University|Nursing": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Nursing 學士課程",
+      "programUrl": "https://www.dal.ca/study/programs/undergraduate/nursing-bscn.html",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "申請前另核對國際生資格、先修、語言、臨床實習與執照規定。"
+      ]
+    },
+    "McMaster University|Health Sciences": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Health Sciences 學士課程",
+      "programUrl": "https://future.mcmaster.ca/programs/",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "健康科學與醫學預備並不保證升讀醫學院或取得醫師資格。"
+      ]
+    },
+    "University of Toronto|Health Sciences": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Human Biology: Health and Disease — St. George",
+      "programUrl": "https://www.utoronto.ca/academics/undergraduate-programs",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "健康科學與醫學預備並不保證升讀醫學院或取得醫師資格。",
+        "健康科學為本站學科分類，校方主修名稱為 Human Biology: Health and Disease；不是醫學士或醫師資格課程。"
+      ]
+    },
+    "Queen’s University|Health Sciences": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Bachelor of Health Sciences",
+      "programUrl": "https://www.queensu.ca/academic-calendar/health-sciences/bhsc/",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "健康科學與醫學預備並不保證升讀醫學院或取得醫師資格。"
+      ]
+    },
+    "Western University|Health Sciences": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Health Sciences 學士課程",
+      "programUrl": "https://welcome.uwo.ca/what-can-i-study/undergraduate-programs/index.html",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "健康科學與醫學預備並不保證升讀醫學院或取得醫師資格。"
+      ]
+    },
+    "University of British Columbia|Kinesiology": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Bachelor of Health and Exercise Sciences — Okanagan",
+      "programUrl": "https://hes.ok.ubc.ca/undergraduate/bachelor-of-health-and-exercise-sciences/",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "健康科學與醫學預備並不保證升讀醫學院或取得醫師資格。",
+        "校方學位為健康與運動科學，歸入運動科學；不是檔案泛稱的 Bachelor of Health Sciences。"
+      ]
+    },
+    "University of Ottawa|Health Sciences": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Health Sciences 學士課程",
+      "programUrl": "https://catalogue.uottawa.ca/en/programs/",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "健康科學與醫學預備並不保證升讀醫學院或取得醫師資格。"
+      ]
+    },
+    "McGill University|Biomedical Sciences": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Anatomy and Cell Biology Major",
+      "programUrl": "https://www.mcgill.ca/anatomy/undergraduate/programs/major",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "健康科學與醫學預備並不保證升讀醫學院或取得醫師資格。",
+        "以解剖與細胞生物學主修對應生物醫學分類；不等於醫學院錄取資格。"
+      ]
+    },
+    "University of Waterloo|Health Sciences": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Health Sciences 學士課程",
+      "programUrl": "https://uwaterloo.ca/future-students/programs",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "健康科學與醫學預備並不保證升讀醫學院或取得醫師資格。"
+      ]
+    },
+    "University of Calgary|Health Sciences": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Health Sciences 學士課程",
+      "programUrl": "https://www.ucalgary.ca/future-students/undergraduate/programs",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "健康科學與醫學預備並不保證升讀醫學院或取得醫師資格。"
+      ]
+    },
+    "University of Alberta|Health Sciences": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Bachelor of Health Sciences",
+      "programUrl": "https://www.ualberta.ca/en/undergraduate-programs/bachelor-of-health-sciences.html",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "健康科學與醫學預備並不保證升讀醫學院或取得醫師資格。",
+        "新課程須依當年度招生公告確認入學梯次與國際資格；不沿用檔案中的舊課程名稱。"
+      ]
+    },
+    "University of Toronto|Biology": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Biology / Life Sciences 學士課程",
+      "programUrl": "https://www.utoronto.ca/academics/undergraduate-programs",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "比較分子、細胞、生態與生命科學課程及實驗訓練。"
+      ]
+    },
+    "University of British Columbia|Biology": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Biology BSc — Vancouver",
+      "programUrl": "https://you.ubc.ca/programs/biology-vancouver/",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "比較分子、細胞、生態與生命科學課程及實驗訓練。"
+      ]
+    },
+    "McGill University|Biology": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Biology Major",
+      "programUrl": "https://www.mcgill.ca/biology/undergraduate/undergraduate-programs",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "比較分子、細胞、生態與生命科學課程及實驗訓練。"
+      ]
+    },
+    "McMaster University|Biology": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Life Sciences Gateway",
+      "programUrl": "https://future.mcmaster.ca/programs/",
+      "programKind": "gateway",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "比較分子、細胞、生態與生命科學課程及實驗訓練。",
+        "先修生命科學入門課程，再依條件選擇後續主修。"
+      ]
+    },
+    "University of Alberta|Biology": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Biological Sciences Major",
+      "programUrl": "https://www.ualberta.ca/en/undergraduate-programs/bachelor-of-science-with-major-biological-sciences.html",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "比較分子、細胞、生態與生命科學課程及實驗訓練。"
+      ]
+    },
+    "Queen’s University|Biology": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Biology",
+      "programUrl": "https://www.queensu.ca/artsci/programs-and-degrees",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "比較分子、細胞、生態與生命科學課程及實驗訓練。"
+      ]
+    },
+    "Western University|Biomedical Sciences": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Bachelor of Medical Sciences",
+      "programUrl": "https://welcome.uwo.ca/what-can-i-study/undergraduate-programs/medical-sciences.html",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "比較分子、細胞、生態與生命科學課程及實驗訓練。",
+        "生物醫學學士並非醫師資格課程；各專修與升讀要求另查。"
+      ]
+    },
+    "University of Waterloo|Biology": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Biology / Life Sciences 學士課程",
+      "programUrl": "https://uwaterloo.ca/future-students/programs",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "比較分子、細胞、生態與生命科學課程及實驗訓練。"
+      ]
+    },
+    "University of Calgary|Biology": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Biology / Life Sciences 學士課程",
+      "programUrl": "https://www.ucalgary.ca/future-students/undergraduate/programs",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "比較分子、細胞、生態與生命科學課程及實驗訓練。"
+      ]
+    },
+    "University of Ottawa|Biology": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Biology / Life Sciences 學士課程",
+      "programUrl": "https://catalogue.uottawa.ca/en/programs/",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "比較分子、細胞、生態與生命科學課程及實驗訓練。"
+      ]
+    },
+    "University of Waterloo|Psychology": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Psychology",
+      "programUrl": "https://uwaterloo.ca/future-students/programs",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "心理學學士不等於臨床心理師資格，專業執業需另查。"
+      ]
+    },
+    "McMaster University|Psychology": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Psychology, Neuroscience & Behaviour",
+      "programUrl": "https://pnb.mcmaster.ca/undergraduate/",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "心理學學士不等於臨床心理師資格，專業執業需另查。",
+        "確認第一年入學途徑及後續主修甄選，不能把研究方向當作保證分發。"
+      ]
+    },
+    "Western University|Economics": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Economics",
+      "programUrl": "https://welcome.uwo.ca/what-can-i-study/undergraduate-programs/index.html",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "經濟學與金融是不同主修，依實際學程比較，不以分類名稱推定兩者均開設。"
+      ]
+    },
+    "University of Waterloo|Economics": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Economics",
+      "programUrl": "https://uwaterloo.ca/future-students/programs",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "經濟學與金融是不同主修，依實際學程比較，不以分類名稱推定兩者均開設。"
+      ]
+    },
+    "McMaster University|Economics": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Economics",
+      "programUrl": "https://future.mcmaster.ca/programs/",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "經濟學與金融是不同主修，依實際學程比較，不以分類名稱推定兩者均開設。"
+      ]
+    },
+    "Simon Fraser University|Economics": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Economics",
+      "programUrl": "https://www.sfu.ca/students/admission/programs/a-z.html",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "經濟學與金融是不同主修，依實際學程比較，不以分類名稱推定兩者均開設。"
+      ]
+    },
+    "Toronto Metropolitan University|Journalism": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Journalism BA",
+      "programUrl": "https://www.torontomu.ca/programs/undergraduate/",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "區分新聞採訪、媒體研究、影視製作與傳播輔修。",
+        "新聞學與專業傳播為不同課程，依官方課程名稱選擇。"
+      ]
+    },
+    "Carleton University|Journalism": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Journalism",
+      "programUrl": "https://admissions.carleton.ca/programs/",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "區分新聞採訪、媒體研究、影視製作與傳播輔修。"
+      ]
+    },
+    "University of British Columbia|Communication": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Bachelor of Media Studies — Vancouver",
+      "programUrl": "https://you.ubc.ca/programs/media-studies/",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "區分新聞採訪、媒體研究、影視製作與傳播輔修。",
+        "媒體研究學士，不等於新聞學研究所。"
+      ]
+    },
+    "Western University|Communication": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Media, Information & Technoculture",
+      "programUrl": "https://welcome.uwo.ca/what-can-i-study/undergraduate-programs/index.html",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "區分新聞採訪、媒體研究、影視製作與傳播輔修。"
+      ]
+    },
+    "McGill University|Communication": {
+      "status": "已核對官方輔修",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Communication Studies Minor — 輔修",
+      "programUrl": "https://www.mcgill.ca/ahcs/undergraduate/cs",
+      "programKind": "minor",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "區分新聞採訪、媒體研究、影視製作與傳播輔修。",
+        "此項是輔修，需搭配其他主修；不是獨立傳播學士主修。"
+      ]
+    },
+    "Concordia University|Communication": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Communication",
+      "programUrl": "https://www.concordia.ca/academics/undergraduate.html",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "區分新聞採訪、媒體研究、影視製作與傳播輔修。"
+      ]
+    },
+    "University of Ottawa|Communication": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Communication",
+      "programUrl": "https://catalogue.uottawa.ca/en/programs/",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "區分新聞採訪、媒體研究、影視製作與傳播輔修。"
+      ]
+    },
+    "Queen’s University|Communication": {
+      "status": "已核對官方學程",
+      "checked": "2026-09-15",
+      "verificationScope": "program-availability",
+      "program": "Film and Media — BA",
+      "programUrl": "https://www.queensu.ca/filmandmedia/undergraduate/undergraduate-program-overview",
+      "programKind": "major",
+      "highlights": [
+        "核對範圍為學程開設與類型；費用、名額、期限及個人申請資格仍須逐項確認。",
+        "區分新聞採訪、媒體研究、影視製作與傳播輔修。",
+        "歸入傳播／媒體領域；實際課程涵蓋影視理論、歷史與媒體製作。"
+      ]
+    }
+  },
+  "policy": "保留原始列到校系的映射，不發布工作簿排名、薪資、錄取或就業保證。"
+}
