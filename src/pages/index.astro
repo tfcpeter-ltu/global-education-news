@@ -361,8 +361,6 @@ const latest = internationalStories.slice(0, 6);
   }
   .ltu-more-reports {
     margin-top: 16px;
-    border-top: 1px solid var(--line);
-    border-bottom: 1px solid var(--line);
   }
   .ltu-more-reports summary {
     padding: 13px 2px;
@@ -412,7 +410,10 @@ const latest = internationalStories.slice(0, 6);
   }
   .section-more a,
   .taiwan-entry a { color: var(--burgundy); }
-  .taiwan-entry { margin-bottom: 8px; }
+  .taiwan-entry {
+    margin-bottom: 8px;
+    border-top: 0;
+  }
 
   @media (max-width: 760px) {
     .ltu-more-list { grid-template-columns: 1fr; }
