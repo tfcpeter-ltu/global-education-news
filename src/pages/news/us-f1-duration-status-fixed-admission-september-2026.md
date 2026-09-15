@@ -1,72 +1,46 @@
 ---
 layout: '../../layouts/ArticleLayout.astro'
-title: '美國 F-1 身分 9 月 15 日重大改制：取消 D/S、改採固定入境停留期限'
-description: '美國國土安全部最終規則預定自 2026 年 9 月 15 日生效，F-1 學生與 J-1 交流訪客將不再以 Duration of Status（D/S）作為主要停留框架；9 月 3 日聯邦法院已就暫時阻止規則生效的聲請進行言詞辯論，目前尚待裁定。'
+title: '美國 D/S 改制追蹤：法院已暫緩原定 9 月 15 日生效的新規'
+description: '2026 年 9 月 15 日更新：聯邦法院於 9 月 14 日暫緩固定停留期限規則生效，D/S 框架暫時維持；案件尚未終結。本文保留原始發布日期並更新政策狀態。'
 date: 2026-09-02T08:00:00+08:00
-updated: 2026-09-06T08:08:00+08:00
+updated: 2026-09-15T11:32:00+08:00
 author: 'LTU Global Education News 編輯部'
 category: '美國留學政策'
 topic: 'us'
 image: 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Royce%20Hall%20original.jpg?width=1280'
-imageAlt: '美國加州大學洛杉磯分校 UCLA Royce Hall，象徵美國高等教育與國際學生政策'
+imageAlt: '美國 UCLA Royce Hall 校園資料照，非本案法院或開庭現場'
 imageCredit: '資料照片：Wikimedia Commons／NativeForeigner（CC BY-SA 3.0）'
 imageSource: 'https://commons.wikimedia.org/wiki/File:Royce_Hall_original.jpg'
 sources:
-  - label: 'U.S. Federal Register / GovInfo｜Final Rule 2026-14439（2026-07-17）'
-    url: 'https://www.govinfo.gov/content/pkg/FR-2026-07-17/pdf/2026-14439.pdf'
-  - label: 'UC Berkeley International Office｜DHS Policy Update: End of Duration of Status'
-    url: 'https://internationaloffice.berkeley.edu/news/dhs-policy-update-end-duration-status-ds-f-and-j-nonimmigrants'
-  - label: 'Harvard International Office｜2026 D/S Rule Change（updated 2026-08-19）'
-    url: 'https://www.hio.harvard.edu/visas-immigration/ds-rule-change'
-  - label: 'NAFSA｜Statement: Court Hearing on DHS Rule Ending Duration of Status（2026-09-03）'
-    url: 'https://www.nafsa.org/about/about-nafsa/statement-court-hearing-dhs-rule-ending-duration-status-international-students'
-  - label: 'Times of India｜US court hears challenge to rule ending Duration of Status（2026-09-04）'
-    url: 'https://timesofindia.indiatimes.com/nri/us-canada-news/us-court-hears-challenge-to-trump-administration-rule-ending-duration-of-status-for-international-students/articleshow/133763484.cms'
+  - label: '法院 2026-09-14 裁定｜第 46–48 頁，原告組織公開副本'
+    url: 'https://www.presidentsalliance.org/wp-content/uploads/2026/09/9.14.26-opinion-in-DS-case.pdf'
+  - label: 'Presidents’ Alliance｜9 月 14 日正式聲明'
+    url: 'https://www.presidentsalliance.org/press/plaintiffs-statement-on-nationwide-preliminary-relief-in-duration-of-status-lawsuit/'
+  - label: 'The PIE News｜9 月 15 日法院裁定報導'
+    url: 'https://thepienews.com/temporary-win-for-sector-taking-on-duration-of-status-in-court/'
 ---
-美國國際學生身分管理將迎來重大變化。美國國土安全部（DHS）已發布最終規則，預定自 **2026 年 9 月 15 日**起，將 F 類學生、J 類交流訪客及 I 類外國媒體人員由長年使用的 **Duration of Status（D/S）** 框架，改為具有明確到期日的固定停留期間。
+> **2026 年 9 月 15 日重要更新：**美國聯邦法院已於 9 月 14 日暫緩本規則生效。本文先前所述「9 月 15 日可能如期生效、尚待法院裁定」已被新的法院命令取代，不能作為現行要求。完整進展請見[法院暫緩 D/S 改制最新報導](/news/us-duration-status-rule-court-postponed-2026/)。
 
-這項規則不是單純「把學生簽證改成四年」。它改變的是學生入境後的 **合法停留期間與延期程序**。對準備赴美、正在美國就學，或未來可能轉學、升學、延長課程與申請實習的學生，都需要重新理解 I-94 到期日的重要性。
+## 最新狀態
 
-> **9 月 6 日更新：**美國麻薩諸塞州聯邦地方法院已於 **9 月 3 日**就原告要求暫時阻止規則生效的 preliminary injunction 聲請進行言詞辯論。NAFSA 與獨立媒體報導均確認聽證已完成；截至目前公開資訊，法院尚未作出是否暫停 9 月 15 日新制的裁定。因此，申請人仍應依「9 月 15 日可能如期生效」準備，不應自行假設訴訟已使規則停止。
+麻薩諸塞州聯邦地方法院法官 F. Dennis Saylor IV 依《行政程序法》5 U.S.C. § 705 延後最終規則生效。救濟適用全國；Presidents’ Alliance 與獨立媒體確認現行 D/S 框架暫時維持。
 
-## 最重要的改變：I-94 將出現固定到期日
+這不是永久撤銷規則，也不表示案件已終結。法院沒有在此階段批准撤銷規則等其他請求，後續仍須追蹤法院與主管機關正式文件。
 
-依 DHS 最終規則及美國大學國際學生辦公室的最新說明，2026 年 9 月 15 日起新入境的 F-1 與 J-1 身分持有人，原則上會依 Form I-20 或 DS-2019 所載的課程／計畫期限獲准停留，但**單次許可期間最長不超過 4 年**。
+## 背景與日期
 
-換句話說，學生不能把「四年」理解為所有 F-1 都固定只能讀四年；若課程本身較短，I-94 到期日可能更早；若課程需要超過既有獲准期限，則可能需要辦理 Extension of Stay（EOS）或依規定離境後重新入境取得新的停留期限。
+受到挑戰的 DHS 最終規則於 **2026 年 7 月 17 日**公布，原定 **9 月 15 日**生效，涉及 F、J、I 類非移民身分的停留期限管理。**9 月 14 日**法院命令改變了這個時程。
 
-## D/S 為什麼重要？
-
-過去，多數 F-1 與 J-1 持有人入境後的 I-94 會標示 D/S，代表只要持續符合身分規定，合法停留通常與學校或交流計畫文件的有效狀態連動，不會在 I-94 上直接列出一個固定離境日期。
-
-新制下，I-94 的 **Admit Until Date（AUD）** 將成為學生必須主動追蹤的期限。學生若需要比原核准期間更久的時間完成學業或符合其他合法停留目的，不能只假設學校更新 I-20 後就一定足夠，還必須確認新的移民程序要求。
-
-## F-1 新入境者的畢業後緩衝期也縮短
-
-UC Berkeley 對最終規則的整理指出，對 9 月 15 日後依新制入境或重新入境的 F-1 學生，課程完成後的離境緩衝期將由原本常見的 **60 天縮短為 30 天**。J-1 原有的 30 天安排則維持。
-
-現已在美國且於生效日前維持合法 D/S 身分者，另有過渡規則，不應直接套用「新入境者」的全部做法。Harvard International Office 也提醒，若現有學生在生效日後離境再入境，可能在重新入境時轉入新的固定期限框架。
-
-## 轉學、換科系與升學也受到新限制
-
-最終規則除停留期限外，也增加 F-1 學生在轉學、變更學業層級與教育目標上的限制。不同學生的入境日、目前學位階段、是否已在美國、是否進行 OPT，以及未來是否離境再入境，都可能影響適用方式。
-
-因此，正在規劃「大學畢業後直接念研究所」、「轉校」、「改主修」、「延長畢業時間」或 OPT／STEM OPT 的學生，應在作決定前先向學校的 DSO／International Student Office 核對個案時程，不宜只依過去 D/S 制度的經驗處理。
-
-## 9 月 3 日法院已開庭，現在等裁定
-
-由 NAFSA、Presidents’ Alliance on Higher Education and Immigration 等高等教育與工會組織組成的原告團體，已向麻薩諸塞州聯邦地方法院提告，主張 DHS 最終規則涉及 Administrative Procedure Act 等法律問題，並要求法院在案件審理期間先發布 preliminary injunction。
-
-NAFSA 9 月 3 日的第一手聲明確認，聯邦法院當天已就此案進行 oral argument。Times of India 其後報導亦指出，法院當時**尚未發布裁定**。
-
-這一點對學生很重要：**法院開庭不等於規則已被停止。** 只有法院正式發布具有法律效力的 injunction、stay 或其他命令，或 DHS／Federal Register 另行改變生效安排，才會改變目前 9 月 15 日的時程。
-
-因此，準備近期赴美或進出美國的台灣學生，現階段仍應按照新制可能如期實施的前提做好準備，同時持續確認法院與 DHS 是否在生效日前發布新的命令。
+舊版本文整理的固定停留期限、延期程序及其他新制條件，均屬這份被暫緩規則的內容，不能當成今日已實施的新要求。
 
 ## 對台灣學生與家長的影響
 
-這項改制最需要改變的是留學規劃方式。未來不能只管理護照、簽證頁與 I-20，**I-94 的 Admit Until Date 也會成為核心期限**。
+學生仍須維持合格就學及工作身分。D/S、護照簽證有效期限、I-20 與 I-94 是不同文件與概念；個別轉學、實習、出入境或延期安排，請向本人學校 DSO／國際學生辦公室確認。
 
-家長若規劃孩子赴美完成四年以上的長學程、先讀語言或預科再升大學、學士後接研究所，或學生可能因研究、實習、雙學位而延長時間，都應把身分延期的行政時間與費用納入留學計畫。
+請勿因舊網頁仍顯示原生效日就自行套用新制，也不要把本次暫緩理解為所有移民程序都停止。本文與[最新報導](/news/us-duration-status-rule-court-postponed-2026/)一併保留可回查來源。
 
-本站建議赴美學生在每次入境後主動下載並檢查 I-94，確認姓名、身分類別與到期日是否正確；涉及轉學、延畢、OPT 或跨學位升學時，則應及早向學校國際學生辦公室確認，不要等到期限接近才處理。
+## 更新紀錄
+
+- **9 月 2 日：**首次報導原定改制安排。
+- **9 月 6 日：**補充 9 月 3 日聽證後尚待裁定的當時狀態。
+- **9 月 15 日：**讀取 9 月 14 日法院裁定後更新標題、摘要及全文，撤下已過時的現行操作建議，保留原發布日期。

@@ -10,11 +10,14 @@ imageCredit: "Williamross93／Wikimedia Commons，CC BY-SA 4.0；原圖，版面
 imageSource: "https://commons.wikimedia.org/wiki/File:Spinola_Bay_in_St_Julians.jpg"
 sources: [{"label":"English UK｜與 EC 管理團隊聯繫後發布的官方聲明（2026-09-11）","url":"https://www.englishuk.com/en/about-us/news-press/english-uk-news?newsId=3586"},{"label":"Times of Malta｜查閱代理通知並詢問公司及監管單位的獨立採訪","url":"https://timesofmalta.com/article/ec-english-language-school-halts-student-arrivals-concerns-future.1133956"}]
 date: "2026-09-13T10:00:00+08:00"
+updated: "2026-09-15T11:32:00+08:00"
 author: "LTU Global Education News 編輯部"
 tags: ["policy","international-education"]
 ---
 
 英語教學機構協會 **English UK** 於 2026 年 9 月 11 日確認，EC English 暫停接收 **9 月 12–13 日**於全球各校新抵達的學生。協會表示已與 EC 管理團隊聯繫，正持續了解情況。
+
+> **9 月 15 日更新：**本篇保留 9 月 11 日通知的歷史內容。English UK 已於 9 月 14 日確認英國四校關閉並啟動在學學生安置，請優先閱讀[最新後續報導](/news/ec-english-uk-student-emergency-support-2026/)。以下「尚待確認」描述為原查核當時的狀態。
 
 ## 主要變化
 
