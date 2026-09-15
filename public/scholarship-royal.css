@@ -383,3 +383,19 @@
   .scholarship-radar-page .scholarship-page .archive-heading::before { width:62px !important; height:72px !important; }
   .scholarship-radar-page .scholarship-page .spotlight-card { padding:26px 20px 22px !important; }
 }
+
+/* Keep the introduction above the statistics at every viewport width. */
+.scholarship-radar-page .scholarship-page .hero-inner {
+  grid-template-columns:minmax(0,1fr);
+  gap:28px;
+}
+.scholarship-radar-page .scholarship-page .hero-copy,
+.scholarship-radar-page .scholarship-page .stat-panel { min-width:0; }
+.scholarship-radar-page .scholarship-page .stat-panel::before {
+  position:absolute; top:18px; left:20px; pointer-events:none;
+}
+.scholarship-radar-page .scholarship-page .stat-item { border-right:1px dotted rgba(209,173,106,.52); }
+.scholarship-radar-page .scholarship-page .stat-item:last-of-type { border-right:0; }
+@media(max-width:760px) {
+  .scholarship-radar-page .scholarship-page .stat-item:nth-of-type(odd) { border-right:0; }
+}
