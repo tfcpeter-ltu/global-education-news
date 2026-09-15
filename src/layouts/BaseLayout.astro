@@ -21,7 +21,7 @@ const absolute = (path = '') => new URL(`${base}${path}`, origin).toString();
 const isHomepage = Astro.url.pathname === base || Astro.url.pathname === base.replace(/\/$/, '');
 const isScholarshipRadar = Astro.url.pathname === '/scholarships/' || Astro.url.pathname === '/scholarships';
 
-const brandDescription = '環球教育新聞網（Global Education News）涵蓋國內外國際教育新聞、大學科系選擇與申請、獎學金雷達，以及深度探討文章（Peter 的國際教育講座）。';
+const brandDescription = '環球教育新聞網（Global Education News）涵蓋國內外國際教育新聞、大學科系選擇與申請、獎學金雷達，以及深度探討文章-Peter 的國際教育講座。';
 
 const {
   title = '環球教育新聞網｜國際教育新聞、大學科系選擇與申請、獎學金雷達',
