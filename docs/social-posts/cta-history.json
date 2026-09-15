@@ -23,6 +23,15 @@
       "CTA": "分享",
       "status": "published",
       "evidence": "2026-09-14/promotion-publication-log.json"
+    },
+    {
+      "date": "2026-09-15",
+      "CTA": "追蹤",
+      "status": "partially-published",
+      "publishedCount": 4,
+      "pendingCount": 2,
+      "evidence": "2026-09-15/promotion-publication-log.json"
     }
   ]
 }
+

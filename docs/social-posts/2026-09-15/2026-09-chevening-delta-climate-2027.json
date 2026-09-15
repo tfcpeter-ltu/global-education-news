@@ -32,8 +32,37 @@
       "readAt": "2026-09-15"
     }
   ],
-  "status": "draft",
+  "status": "partially-published",
   "publicationIntent": "today-selected",
-  "publishedPosts": [],
-  "articleCommit": null
+  "publishedPosts": [
+    {
+      "article": "scholarship",
+      "network": "facebook",
+      "id": "pfbid022bgVqcbiJK8QWj7fiuCyfL3mVmy59r2YckWoBiUfmJmqpUusyNWMPyxTTjkWSsbil",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid022bgVqcbiJK8QWj7fiuCyfL3mVmy59r2YckWoBiUfmJmqpUusyNWMPyxTTjkWSsbil",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "publishedTimePrecision": "observed-only",
+      "verifiedAt": "2026-09-15T04:04:38Z"
+    },
+    {
+      "article": "scholarship",
+      "network": "threads",
+      "id": "DdSzZyTk0SQ",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdSzZyTk0SQ",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "publishedTimePrecision": "observed-only",
+      "verifiedAt": "2026-09-15T04:04:38Z"
+    }
+  ],
+  "articleCommit": "96ea5533de3dd0a8e2e29b901c998b0c3c1a4f15",
+  "pendingPlatforms": [
+    {
+      "network": "instagram",
+      "status": "blocked",
+      "reason": "Chrome file upload permission; Metricool account limit"
+    }
+  ]
 }
+

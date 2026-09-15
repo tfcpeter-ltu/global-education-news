@@ -27,8 +27,9 @@
       "readAt": "2026-09-15"
     }
   ],
-  "status": "draft",
+  "status": "ready",
   "publicationIntent": "prepared-only",
   "publishedPosts": [],
-  "articleCommit": null
+  "articleCommit": "96ea5533de3dd0a8e2e29b901c998b0c3c1a4f15"
 }
+

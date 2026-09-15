@@ -1,0 +1,74 @@
+{
+  "date": "2026-09-15",
+  "articles": [
+    {
+      "title": "英國、澳洲航太工程怎麼選？先分清學位、主修與專業方向",
+      "url": "https://globalednews.com/peter/aerospace-uk-australia-program-planning/",
+      "sourceUrl": "https://www.facebook.com/photo/?fbid=122142912585172155",
+      "sources": [
+        [
+          "Imperial｜Aeronautical Engineering MEng",
+          "https://www.imperial.ac.uk/study/courses/undergraduate/aeronautical-engineering/"
+        ],
+        [
+          "University of Bristol｜BEng Aerospace Engineering（2026）",
+          "https://www.bristol.ac.uk/study/undergraduate/2026/aerospace/beng-aerospace-engineering/"
+        ],
+        [
+          "Monash｜Aerospace engineering specialisation",
+          "https://www.monash.edu/study/courses/majors-minors-specialisations/specialisations/aerospace-engineering-xs0001"
+        ],
+        [
+          "UQ｜Aerospace Engineering major（2027，工程／數學雙學位頁）",
+          "https://study.uq.edu.au/study-options/programs/bachelors-engineering-honours-mathematics-2492/aerospace-engineering-aeroec2492?year=2027"
+        ]
+      ]
+    },
+    {
+      "title": "想去加拿大念觀光、未來當導遊？先比較課程與實務訓練",
+      "url": "https://globalednews.com/peter/canada-tourism-degree-guide/",
+      "sourceUrl": "https://www.facebook.com/photo/?fbid=122142909855172155",
+      "sources": [
+        [
+          "Thompson Rivers University｜Bachelor of Tourism Management",
+          "https://www.tru.ca/programs/catalogue/bachelor-of-tourism-management.html"
+        ],
+        [
+          "Capilano University｜Bachelor of Tourism Management",
+          "https://www.capilanou.ca/programs--courses/program-profiles/bachelor-of-tourism-management-degree/"
+        ],
+        [
+          "Vancouver Island University｜Bachelor of Tourism Management",
+          "https://www.viu.ca/programs/tourism-recreation-hospitality/bachelor-tourism-management"
+        ]
+      ]
+    },
+    {
+      "title": "澳洲護理系畢業就能當 RN？先看懂申請、課程、實習與註冊",
+      "url": "https://globalednews.com/peter/australia-nursing-registration-four-gates/",
+      "sourceUrl": "https://www.facebook.com/photo/?fbid=122142732111172155",
+      "sources": [
+        [
+          "UQ｜Bachelor of Nursing",
+          "https://study.uq.edu.au/study-options/programs/bachelor-nursing-2241"
+        ],
+        [
+          "Ahpra｜Graduate registration FAQs",
+          "https://www.ahpra.gov.au/Registration/Graduate-registration/Graduate-FAQ.aspx"
+        ]
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "sourceId": "122143855467172155",
+      "reason": "稱 D/S 新規今日開始，與 9 月 14 日法院暫緩裁定矛盾，不搬入。"
+    },
+    {
+      "sourceId": "122143336743172155",
+      "reason": "新加坡招生比例、錄取率與成績門檻缺獨立官方核對，不搬入。"
+    }
+  ],
+  "edition": "查核整理版，保留核心觀點、修正或刪除未確認細節；各有原圖及 Facebook 原文連結。"
+}
+

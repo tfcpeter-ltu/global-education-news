@@ -1,0 +1,120 @@
+{
+  "checkedAt": "2026-09-15",
+  "pages": [
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-09-chevening-delta-climate-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-09-chevening-delta-climate-2027/",
+      "hasOgImage": true,
+      "hasArticle": true,
+      "hasSourceLinks": true
+    },
+    {
+      "url": "https://globalednews.com/news/ec-english-uk-student-emergency-support-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/ec-english-uk-student-emergency-support-2026/",
+      "hasOgImage": true,
+      "hasArticle": true,
+      "hasSourceLinks": true
+    },
+    {
+      "url": "https://globalednews.com/news/scotland-eaie-erasmus-international-cooperation-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/scotland-eaie-erasmus-international-cooperation-2026/",
+      "hasOgImage": true,
+      "hasArticle": true,
+      "hasSourceLinks": true
+    },
+    {
+      "url": "https://globalednews.com/news/us-duration-status-rule-court-postponed-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/us-duration-status-rule-court-postponed-2026/",
+      "hasOgImage": true,
+      "hasArticle": true,
+      "hasSourceLinks": true
+    },
+    {
+      "url": "https://globalednews.com/peter/aerospace-uk-australia-program-planning/",
+      "status": 200,
+      "canonical": "https://globalednews.com/peter/aerospace-uk-australia-program-planning/",
+      "hasOgImage": true,
+      "hasArticle": true,
+      "hasSourceLinks": true
+    },
+    {
+      "url": "https://globalednews.com/peter/canada-tourism-degree-guide/",
+      "status": 200,
+      "canonical": "https://globalednews.com/peter/canada-tourism-degree-guide/",
+      "hasOgImage": true,
+      "hasArticle": true,
+      "hasSourceLinks": true
+    },
+    {
+      "url": "https://globalednews.com/peter/australia-nursing-registration-four-gates/",
+      "status": 200,
+      "canonical": "https://globalednews.com/peter/australia-nursing-registration-four-gates/",
+      "hasOgImage": true,
+      "hasArticle": true,
+      "hasSourceLinks": true
+    }
+  ],
+  "feeds": {
+    "sitemap.xml": {
+      "status": 200,
+      "articleMatches": [],
+      "peterMatches": []
+    },
+    "sitemap-index.xml": {
+      "status": 200,
+      "articleMatches": [],
+      "peterMatches": []
+    },
+    "sitemap-0.xml": {
+      "status": 200,
+      "articleMatches": [
+        "https://globalednews.com/scholarships/items/2026-09-chevening-delta-climate-2027/",
+        "https://globalednews.com/news/ec-english-uk-student-emergency-support-2026/",
+        "https://globalednews.com/news/scotland-eaie-erasmus-international-cooperation-2026/",
+        "https://globalednews.com/news/us-duration-status-rule-court-postponed-2026/"
+      ],
+      "peterMatches": [
+        "https://globalednews.com/peter/aerospace-uk-australia-program-planning/",
+        "https://globalednews.com/peter/canada-tourism-degree-guide/",
+        "https://globalednews.com/peter/australia-nursing-registration-four-gates/"
+      ]
+    },
+    "article-sitemap.xml": {
+      "status": 200,
+      "articleMatches": [
+        "https://globalednews.com/news/ec-english-uk-student-emergency-support-2026/",
+        "https://globalednews.com/news/scotland-eaie-erasmus-international-cooperation-2026/",
+        "https://globalednews.com/news/us-duration-status-rule-court-postponed-2026/"
+      ],
+      "peterMatches": []
+    },
+    "news-sitemap.xml": {
+      "status": 200,
+      "articleMatches": [
+        "https://globalednews.com/news/ec-english-uk-student-emergency-support-2026/",
+        "https://globalednews.com/news/scotland-eaie-erasmus-international-cooperation-2026/",
+        "https://globalednews.com/news/us-duration-status-rule-court-postponed-2026/"
+      ],
+      "peterMatches": []
+    },
+    "weekly-feed.xml": {
+      "status": 200,
+      "articleMatches": [
+        "https://globalednews.com/news/ec-english-uk-student-emergency-support-2026/",
+        "https://globalednews.com/news/scotland-eaie-erasmus-international-cooperation-2026/",
+        "https://globalednews.com/news/us-duration-status-rule-court-postponed-2026/"
+      ],
+      "peterMatches": []
+    },
+    "robots.txt": {
+      "status": 200,
+      "articleMatches": [],
+      "peterMatches": []
+    }
+  }
+}
+

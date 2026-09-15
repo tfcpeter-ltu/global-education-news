@@ -1,0 +1,185 @@
+{
+  "date": "2026-09-15",
+  "status": "partially-published-instagram-blocked",
+  "CTA": "追蹤",
+  "targetCount": 6,
+  "publishedCount": 4,
+  "publishedPosts": [
+    {
+      "article": "news",
+      "network": "facebook",
+      "id": "pfbid027JVJ5svjNG3KrEcvkTMfV3jV4sTQ5Xb1S9KKTNTRjdceVMjW5fyhDk4NbsMXBiMHl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid027JVJ5svjNG3KrEcvkTMfV3jV4sTQ5Xb1S9KKTNTRjdceVMjW5fyhDk4NbsMXBiMHl",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "publishedTimePrecision": "observed-only",
+      "verifiedAt": "2026-09-15T04:04:38Z"
+    },
+    {
+      "article": "news",
+      "network": "threads",
+      "id": "DdSzSoME3JV",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdSzSoME3JV",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "publishedTimePrecision": "observed-only",
+      "verifiedAt": "2026-09-15T04:04:38Z"
+    },
+    {
+      "article": "scholarship",
+      "network": "facebook",
+      "id": "pfbid022bgVqcbiJK8QWj7fiuCyfL3mVmy59r2YckWoBiUfmJmqpUusyNWMPyxTTjkWSsbil",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid022bgVqcbiJK8QWj7fiuCyfL3mVmy59r2YckWoBiUfmJmqpUusyNWMPyxTTjkWSsbil",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "publishedTimePrecision": "observed-only",
+      "verifiedAt": "2026-09-15T04:04:38Z"
+    },
+    {
+      "article": "scholarship",
+      "network": "threads",
+      "id": "DdSzZyTk0SQ",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdSzZyTk0SQ",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "publishedTimePrecision": "observed-only",
+      "verifiedAt": "2026-09-15T04:04:38Z"
+    }
+  ],
+  "metricoolAttempts": [
+    {
+      "id": 376070863,
+      "uuid": "1505744282847102964",
+      "publicationDate": {
+        "dateTime": "2026-09-15T11:48:00",
+        "timezone": "Asia/Taipei"
+      },
+      "providers": [
+        {
+          "network": "facebook",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ],
+      "media": [],
+      "text": "9 月 15 日沒有如期改制：美國法院暫緩 D/S 新規。\n\n美國聯邦法院於 9 月 14 日延後固定停留期限規則生效，現行 D/S 框架暫時維持。案件仍在進行，不能解讀為新規永久撤銷。\n\n台灣赴美學生及家長，請以學校最新通知確認本人身分、轉學、實習與出入境安排；別再把舊公告的生效日當成今日要求。\n\n追蹤 Global Education News 環球教育新聞，從台灣持續看見國際教育變化。免費加入會員，每週接收政策、海外招生與國際獎學金消息。\n完整查核：https://globalednews.com/news/us-duration-status-rule-court-postponed-2026/"
+    },
+    {
+      "id": 376070886,
+      "uuid": "7865025827312584218",
+      "publicationDate": {
+        "dateTime": "2026-09-15T11:48:00",
+        "timezone": "Asia/Taipei"
+      },
+      "providers": [
+        {
+          "network": "threads",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ],
+      "media": [],
+      "text": "9 月 15 日沒有如期改制：美國法院暫緩 D/S 新規。\nD/S 框架暫時維持，這不是永久撤銷規則；個別安排請向學校確認。\n追蹤 Global Education News 環球教育新聞，掌握與台灣家庭相關的國際教育。免費會員週報彙整政策、海外招生與獎學金。\nhttps://globalednews.com/news/us-duration-status-rule-court-postponed-2026/"
+    },
+    {
+      "id": 376070908,
+      "uuid": "-4671847998459722868",
+      "publicationDate": {
+        "dateTime": "2026-09-15T11:51:00",
+        "timezone": "Asia/Taipei"
+      },
+      "providers": [
+        {
+          "network": "facebook",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ],
+      "media": [],
+      "text": "10 月 6 日 19:00 截止：台灣 1–2 名英國碩士全額學費機會。\n\n台達基金會公布 2027/28 Chevening Delta Climate Scholarship，支持台灣青年赴英國修讀一年制碩士並投入環境永續。當期提供全額學費，其他費用須另核對。\n\n須符合學士畢業後工作經驗、Chevening 完整資格與返台承諾；應屆大學生不能只看國籍就認為符合。先整理工作時數、課程選擇與永續職涯計畫。\n\n追蹤 Global Education News 環球教育新聞，從台灣持續看見國際教育變化。免費加入會員，每週接收政策、海外招生與國際獎學金消息。\n完整查核：https://globalednews.com/scholarships/items/2026-09-chevening-delta-climate-2027/"
+    },
+    {
+      "id": 376070921,
+      "uuid": "-5109223329623945881",
+      "publicationDate": {
+        "dateTime": "2026-09-15T11:51:00",
+        "timezone": "Asia/Taipei"
+      },
+      "providers": [
+        {
+          "network": "threads",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ],
+      "media": [],
+      "text": "10 月 6 日 19:00 截止：台灣 1–2 名英國碩士全額學費機會。\n台達 2027/28 方案支持一年制碩士，需符合畢業後工作經驗與返台承諾；補助為全額學費。\n追蹤 Global Education News 環球教育新聞，掌握與台灣家庭相關的國際教育。免費會員週報彙整政策、海外招生與獎學金。\nhttps://globalednews.com/scholarships/items/2026-09-chevening-delta-climate-2027/"
+    },
+    {
+      "id": 376071094,
+      "uuid": "-6190902487023402530",
+      "publicationDate": {
+        "dateTime": "2026-09-15T11:50:00",
+        "timezone": "Asia/Taipei"
+      },
+      "providers": [
+        {
+          "network": "instagram",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202609/6323205-file-1817710226243602767.jpeg"
+      ],
+      "text": "9 月 15 日沒有如期改制：美國法院暫緩 D/S 新規。\n最新變化與適用範圍，先看清楚。\n\nD/S 暫時維持，訴訟未終結。請向學校確認個別安排。\n\n追蹤環球教育新聞 Global Education News。前往 globalednews.com 搜尋「D/S」閱讀完整內容。\n台灣出發的國際教育新聞；免費會員週報整理政策、海外招生與獎學金。\n\n圖片：波士頓 Moakley 聯邦法院銘牌資料照，非本案開庭現場。MarkBuckawicki／Wikimedia Commons，CC0。\n來源：https://commons.wikimedia.org/wiki/File:Federal_Court_of_Appeals.jpg\n授權：https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    {
+      "id": 376071168,
+      "uuid": "114166010738986634",
+      "publicationDate": {
+        "dateTime": "2026-09-15T11:53:00",
+        "timezone": "Asia/Taipei"
+      },
+      "providers": [
+        {
+          "network": "instagram",
+          "status": "ERROR",
+          "detailedStatus": "You have reached your Metricool account limit."
+        }
+      ],
+      "media": [
+        "https://static.metricool.com/planner/202609/6323205-file-8909826517705884862.jpeg"
+      ],
+      "text": "10 月 6 日 19:00 截止：台灣 1–2 名英國碩士全額學費機會。\n全額學費，不等於所有留學費用全包。\n\n需符合畢業後工作經驗與返台承諾，詳細資格見全文。\n\n追蹤環球教育新聞 Global Education News。前往 globalednews.com 搜尋「台達」閱讀完整內容。\n台灣出發的國際教育新聞；免費會員週報整理政策、海外招生與獎學金。\n\n圖片：英國雷丁大學圖書館資料照，非限定申請學校。Tim Landy／Wikimedia Commons，CC BY-SA 4.0；原圖，版面可能裁切。\n來源：https://commons.wikimedia.org/wiki/File:University_of_Reading_library.jpg\n授權：https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ],
+  "blockers": [
+    {
+      "platform": "instagram",
+      "count": 2,
+      "reason": "Metricool 六則排程均回報 You have reached your Metricool account limit.；改採直接平台補發。Chrome 上傳 IG 圖片回報 fileChooser.setFiles Not allowed，依工具文件需使用者啟用 ChatGPT 擴充功能的 Allow access to file URLs。",
+      "requiredAction": "Chrome 擴充功能 → ChatGPT → 詳細資料 → 開啟允許存取檔案網址；完成後重新檢查 IG 最新貼文去重，僅補兩則。",
+      "fallbackAssets": [
+        "public/images/news/us-ds-court-20260915.jpg",
+        "public/images/news/chevening-delta-2027.jpg"
+      ],
+      "assetSources": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Federal_Court_of_Appeals.jpg",
+          "credit": "MarkBuckawicki／Wikimedia Commons，CC0。",
+          "license": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/University_of_Reading_library.jpg",
+          "credit": "Tim Landy／Wikimedia Commons，CC BY-SA 4.0；原圖，版面可能裁切。",
+          "license": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    }
+  ],
+  "duplicates": "六則 Metricool 均已確認 ERROR，沒有重送排程；FB 與 Threads 透過直接介面各補兩則並回讀成功。",
+  "paidAds": false,
+  "verifiedAt": "2026-09-15T04:04:38Z"
+}
+
