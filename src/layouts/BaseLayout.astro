@@ -21,10 +21,10 @@ const absolute = (path = '') => new URL(`${base}${path}`, origin).toString();
 const isHomepage = Astro.url.pathname === base || Astro.url.pathname === base.replace(/\/$/, '');
 const isScholarshipRadar = Astro.url.pathname === '/scholarships/' || Astro.url.pathname === '/scholarships';
 
-const brandDescription = '環球教育新聞（Global Education News）聚焦國際教育新聞、留學政策、全球大學招生、學生簽證與高等教育趨勢，提供各國教育動態、官方政策整理與深度分析。';
+const brandDescription = '環球教育新聞網（Global Education News）涵蓋國內外國際教育新聞、大學科系選擇與申請、獎學金雷達，以及深度探討文章（Peter 的國際教育講座）。';
 
 const {
-  title = '環球教育新聞｜國際教育新聞、留學政策、全球大學招生',
+  title = '環球教育新聞網｜國際教育新聞、大學科系選擇與申請、獎學金雷達',
   description = brandDescription,
   image = `${base}images/news-og.jpg`,
   type = 'website',
@@ -42,7 +42,7 @@ const publisherLd = {
   '@context': 'https://schema.org',
   '@type': 'NewsMediaOrganization',
   '@id': publisherId,
-  name: '環球教育新聞',
+  name: '環球教育新聞網',
   alternateName: ['Global Education News', 'LTU Global Education News'],
   description: brandDescription,
   url: absolute(),
@@ -67,7 +67,7 @@ const websiteLd = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
   '@id': websiteId,
-  name: '環球教育新聞',
+  name: '環球教育新聞網',
   alternateName: 'Global Education News',
   description: brandDescription,
   url: absolute(),
@@ -88,7 +88,7 @@ const websiteLd = {
     <link rel="icon" href={faviconUrl} type="image/svg+xml" sizes="any" />
     <link rel="shortcut icon" href={faviconUrl} />
     <link rel="alternate" type="application/rss+xml" title="Global Education Weekly｜環球教育週報" href={weeklyFeedUrl} />
-    <meta property="og:site_name" content="環球教育新聞 | Global Education News" />
+    <meta property="og:site_name" content="環球教育新聞網 | Global Education News" />
     <meta property="og:locale" content="zh_TW" />
     <meta property="og:type" content={type} />
     <meta property="og:title" content={title} />
