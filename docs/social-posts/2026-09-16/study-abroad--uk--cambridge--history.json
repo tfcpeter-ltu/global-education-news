@@ -16,8 +16,8 @@
   "threadsCopy": "1209 年，學者在劍橋聚集求學。準備留學的你，第一份選校清單會放進哪些問題？\n\n今天用英國劍橋示範：先查科系、先修與文件，再比較學校。導航是研究起點，當年度資格須回查官方，沒有錄取保證。\n\n免費加入環球教育新聞會員，接收國際教育與獎學金週報。\n導航：https://globalednews.com/study-abroad/\n新聞：https://globalednews.com/\n圖：今日正式網站截圖。校史：Cambridge History、QS TopUniversities。",
   "linkedinCopy": "從 1209 年的學者聚集，到今天的留學研究清單，劍橋的校史可以成為理解大學的一個入口。\n\n對學生與家庭而言，下一步是把興趣落實成可查證的問題：課程內容、先修科目、文件與年度條件。留學 DIY 導航提供學校研究與比較入口；站內判讀不代表官方評等或錄取預測，申請前應回到大學當年度頁面核對。\n\nGlobal Education News 環球教育新聞持續整理國際教育與獎學金。歡迎免費加入會員，透過週報建立自己的資訊節奏。\n\n導航：https://globalednews.com/study-abroad/\n新聞：https://globalednews.com/\n劍橋學校頁：https://globalednews.com/study-abroad/university-detail.html?school=University%20of%20Cambridge&major=\n\n圖為 2026/9/16 正式網站截圖，非校園現場照片。校史來源：Cambridge History／QS TopUniversities。",
   "socialImage": [
-    "assets/diy-home.png",
-    "assets/diy-cambridge.png"
+    "docs/social-posts/2026-09-16/assets/diy-home.png",
+    "docs/social-posts/2026-09-16/assets/diy-cambridge.png"
   ],
   "imageAlt": "留學 DIY 導航正式網站截圖，包含操作入口與 University of Cambridge 學校頁，非校園現場照片",
   "imageSource": [
@@ -39,6 +39,41 @@
     }
   ],
   "verifiedAt": "2026-09-16T05:40:36.898Z",
-  "status": "ready",
-  "publishedPosts": []
+  "status": "PUBLISHED",
+  "publishedPosts": [
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "id": "DdVj1iKk3yw",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdVj1iKk3yw",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T05:51:22.380Z"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "id": "pfbid0g5ctrNthhMkEHt2DUAPQy5PgZJU9sGAqRMGxZP3UeZYHhtYFKgiPVPk8qkP232Mpl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0g5ctrNthhMkEHt2DUAPQy5PgZJU9sGAqRMGxZP3UeZYHhtYFKgiPVPk8qkP232Mpl",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T05:52:58.449Z"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "id": "7505866309402808321",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7505866309402808321/",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T05:55:18.333Z",
+      "imageMode": "two-website-screenshots"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "id": "DdVlg1Ak-Fz",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdVlg1Ak-Fz/",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T05:59:32.757Z"
+    }
+  ],
+  "completedAt": "2026-09-16T06:10:30.972Z"
 }

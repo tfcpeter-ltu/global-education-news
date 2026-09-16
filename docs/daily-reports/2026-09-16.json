@@ -1,7 +1,7 @@
 {
   "date": "2026-09-16",
   "timezone": "Asia/Taipei",
-  "status": "recovery-in-progress",
+  "status": "completed-late",
   "baselineCommit": "ce56471a2e609bad1ab91ddff987eb3bd152b91d",
   "completedChecks": [
     {
@@ -18,30 +18,33 @@
       "topic": "University College Birmingham 餐旅教學設施",
       "official": "https://www.ucb.ac.uk/about-us/news-and-insights/university-acquires-former-the-cube-hotel-and-marco-pierre-white-restaurant-as-part-of-major-hospitality-investment-programme/",
       "secondary": "https://www.hospitalityandcateringnews.com/2026/09/university-college-birmingham-unveils-new-restaurant-and-summer-row-campus-changes/",
-      "status": "搜尋線索，尚未完整閱讀兩來源；官方早期投資公告為七月，不得寫成九月新宣布。"
+      "status": "已完整核對官方及獨立來源，依原公告與後續更新時點刊登。"
     },
     {
       "topic": "紐西蘭國際教育復甦",
       "official": "https://www.enz.govt.nz/news-and-research/ed-news/latest-data-shows-continued-growth-in-international-enrolments",
       "secondary": "https://thepienews.com/",
-      "status": "候選，尚待開啟第二來源文章並核對時點。"
+      "status": "未選用，未刊登。"
     }
   ],
   "newsPublished": [
     {
       "url": "https://globalednews.com/news/ec-canada-student-placements-september-2026/",
-      "status": "deployed",
-      "verification": "homepage confirmed; individual acceptance pending"
+      "status": "published",
+      "verification": "Live desktop/mobile article, image, canonical and NewsArticle schema verified",
+      "verifiedAt": "2026-09-16T06:10:30.972Z"
     },
     {
       "url": "https://globalednews.com/news/london-international-student-welcome-2026/",
-      "status": "deployed",
-      "verification": "homepage confirmed; individual acceptance pending"
+      "status": "published",
+      "verification": "Live desktop/mobile article, image, canonical and NewsArticle schema verified",
+      "verifiedAt": "2026-09-16T06:10:30.972Z"
     },
     {
       "url": "https://globalednews.com/news/ucb-hospitality-summer-row-followup-2026/",
-      "status": "deployed",
-      "verification": "homepage confirmed; individual acceptance pending"
+      "status": "published",
+      "verification": "Live desktop/mobile article, image, canonical and NewsArticle schema verified",
+      "verifiedAt": "2026-09-16T06:10:30.972Z"
     }
   ],
   "scholarshipChecks": [
@@ -59,7 +62,65 @@
       ]
     }
   ],
-  "peterImports": [],
+  "peterImports": [
+    {
+      "sourceId": "122143336743172155",
+      "sourceUrl": "https://www.facebook.com/photo/?fbid=122143336743172155",
+      "url": "https://globalednews.com/peter/singapore-ossd-qualification-planning/",
+      "originalDateLabel": "5天",
+      "originalDatePrecision": "relative",
+      "edition": "verified-edit",
+      "note": "2026-09-16 查核整理版，非逐字轉載。保留 Peter 提早安排選課與逐校比較的觀點。原文的國際生名額比例、錄取率、實務錄取均分、排名與各校加分效果未取得足夠證據，不予轉載。NUS 官方頁仍列 2026 年日期，不能當成 2027 年已公告規則。封面為本站另製文字圖，不是原貼文圖卡。",
+      "sources": [
+        [
+          "NUS｜Canadian High School Diploma",
+          "https://nus.edu.sg/oam/admissions/international-qualifications-for-foreigners/international-qualifications/canadian-high-school-diploma"
+        ]
+      ],
+      "image": "/images/peter/singapore-ossd-qualification-planning.svg",
+      "imageRights": "本站原創向量文字版面；非原作者照片",
+      "status": "published",
+      "verifiedAt": "2026-09-16T06:10:30.972Z"
+    },
+    {
+      "sourceId": "122142619767172155",
+      "sourceUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid0uGdsQ4oxvbzoxta3WZ79CErbQTtJ2CvmmuWDtaduWNptZuo3goeUj4fWNWgLZD8Ml&id=61585164670358",
+      "url": "https://globalednews.com/peter/cambridge-degree-ceremony-traditions/",
+      "originalDateLabel": "9月4日上午6:01",
+      "originalDatePrecision": "month-day-minute",
+      "edition": "verified-edit",
+      "note": "2026-09-16 查核整理版。以 Peter 原文及劍橋官方典禮說明交叉核對，聚焦劍橋，不把單一學校做法泛化為所有英國大學。原頁未顯示年份，保留畫面日期文字。新增編輯補註：跪下、伸手與宗教措辭均有選擇，並非所有畢業生必做。封面為本站文字圖，非典禮照片。",
+      "sources": [
+        [
+          "University of Cambridge｜The ceremony",
+          "https://www.cambridgestudents.cam.ac.uk/graduation/degree-ceremonies/ceremony"
+        ]
+      ],
+      "image": "/images/peter/cambridge-degree-ceremony-traditions.svg",
+      "imageRights": "本站原創向量文字版面；非原作者照片",
+      "status": "published",
+      "verifiedAt": "2026-09-16T06:10:30.972Z"
+    },
+    {
+      "sourceId": "122142569079172155",
+      "sourceUrl": "https://www.facebook.com/photo/?fbid=122142569079172155",
+      "url": "https://globalednews.com/peter/geography-gis-spatial-data-study/",
+      "originalDateLabel": "9月3日下午2:28",
+      "originalDatePrecision": "month-day-minute",
+      "edition": "verified-edit",
+      "note": "2026-09-16 查核整理版。保留原文地理、GIS、遙測及程式學習的選系觀點；原文尼泊爾災害日期、傷亡數字與研究敘述未取得足夠證據，不予轉載。NOAA 應用例為編輯補充，不冒充 Peter 原句。原頁顯示月日與時間但未顯示年份，網站收錄日期不替代原日期。封面為本站另製文字圖，非災害現場圖。",
+      "sources": [
+        [
+          "NOAA｜What is a geographic information system?",
+          "https://oceanservice.noaa.gov/facts/gis.html"
+        ]
+      ],
+      "image": "/images/peter/geography-gis-spatial-data-study.svg",
+      "imageRights": "本站原創向量文字版面；非原作者照片",
+      "status": "published",
+      "verifiedAt": "2026-09-16T06:10:30.972Z"
+    }
+  ],
   "socialPosts": [
     {
       "campaign": "news",
@@ -153,22 +214,45 @@
       "status": "PUBLISHED",
       "verifiedAt": "2026-09-16T05:55:18.333Z",
       "imageMode": "two-website-screenshots"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "id": "DdVlg1Ak-Fz",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdVlg1Ak-Fz/",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T05:59:32.757Z"
     }
   ],
-  "remaining": [
-    "Peter 三則上線與桌面手機驗收",
-    "最後一則 Instagram DIY 結果確認",
-    "新聞與獎學金 SEO／互動／手機驗收"
-  ],
+  "remaining": [],
   "notes": [
     "今天08:00期限未達成，本批為使用者要求的實際補發，不回填成準時完成。",
     "已修正自動化：05/06/07準備、08期限核對、09/12/18缺項接續；需電腦與Codex運作。",
     "發布只按公開URL、ID與核驗时间記錄；已成功平台不得重送。"
   ],
   "deployment": {
-    "commit": "4b32900d19ab41a49cd10814df85759fd2f3d5ca",
+    "commit": "1a42539bcb10a952aee1c790f17e318824ce99fb",
     "status": "success",
-    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/35055938542",
-    "verifiedAt": "2026-09-16T05:57:25.173Z"
+    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/35062499701",
+    "verifiedAt": "2026-09-16T06:11:43.221Z"
+  },
+  "completedAt": "2026-09-16T06:10:30.972Z",
+  "deadlineMet": false,
+  "acceptance": {
+    "desktop": true,
+    "mobile": true,
+    "seo": true,
+    "verifiedAt": "2026-09-16T06:10:30.972Z",
+    "details": [
+      "7個更新內容頁：桌面與390px手機無橫向溢出，圖片完整載入",
+      "獎學金：Gates 搜尋、英國與開放篩選、零結果、清除、載入更多均通過",
+      "三篇新聞均在新聞 sitemap、文章 sitemap 與 weekly RSS；四個索引 HTTP 200",
+      "canonical 與結構化資料檢查通過",
+      "EC 手機段落格式修正已在正式站確認，不再出現 Markdown 星號"
+    ],
+    "build": {
+      "pages": 217,
+      "result": "success"
+    }
   }
 }

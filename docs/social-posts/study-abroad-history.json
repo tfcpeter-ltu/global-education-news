@@ -47,6 +47,50 @@
           "crosspost": false
         }
       ]
+    },
+    {
+      "date": "2026-09-16",
+      "country": "uk",
+      "schoolName": "University of Cambridge",
+      "storyAngle": "1209-history",
+      "CTA": "免費加入會員",
+      "contentPath": "docs/social-posts/2026-09-16/study-abroad--uk--cambridge--history.json",
+      "status": "published",
+      "publishedPosts": [
+        {
+          "campaign": "study-abroad",
+          "network": "threads",
+          "id": "DdVj1iKk3yw",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdVj1iKk3yw",
+          "status": "PUBLISHED",
+          "verifiedAt": "2026-09-16T05:51:22.380Z"
+        },
+        {
+          "campaign": "study-abroad",
+          "network": "facebook",
+          "id": "pfbid0g5ctrNthhMkEHt2DUAPQy5PgZJU9sGAqRMGxZP3UeZYHhtYFKgiPVPk8qkP232Mpl",
+          "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0g5ctrNthhMkEHt2DUAPQy5PgZJU9sGAqRMGxZP3UeZYHhtYFKgiPVPk8qkP232Mpl",
+          "status": "PUBLISHED",
+          "verifiedAt": "2026-09-16T05:52:58.449Z"
+        },
+        {
+          "campaign": "study-abroad",
+          "network": "linkedin",
+          "id": "7505866309402808321",
+          "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7505866309402808321/",
+          "status": "PUBLISHED",
+          "verifiedAt": "2026-09-16T05:55:18.333Z",
+          "imageMode": "two-website-screenshots"
+        },
+        {
+          "campaign": "study-abroad",
+          "network": "instagram",
+          "id": "DdVlg1Ak-Fz",
+          "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdVlg1Ak-Fz/",
+          "status": "PUBLISHED",
+          "verifiedAt": "2026-09-16T05:59:32.757Z"
+        }
+      ]
     }
   ]
 }

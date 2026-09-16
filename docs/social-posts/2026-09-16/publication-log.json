@@ -92,6 +92,14 @@
       "status": "PUBLISHED",
       "verifiedAt": "2026-09-16T05:55:18.333Z",
       "imageMode": "two-website-screenshots"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "id": "DdVlg1Ak-Fz",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdVlg1Ak-Fz/",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T05:59:32.757Z"
     }
   ],
   "intents": [
@@ -127,5 +135,5 @@
     }
   ],
   "date": "2026-09-16",
-  "status": "publishing"
+  "status": "PUBLISHED"
 }

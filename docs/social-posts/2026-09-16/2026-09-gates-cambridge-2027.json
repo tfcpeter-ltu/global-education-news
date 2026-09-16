@@ -18,13 +18,49 @@
   "imageSource": "https://commons.wikimedia.org/wiki/File:Cambridge-University-Senate-House.jpg",
   "license": "https://creativecommons.org/publicdomain/mark/1.0/",
   "verifiedAt": "2026-09-16T04:29:16.956Z",
-  "status": "prepared-awaiting-live-verification",
-  "publishedPosts": [],
+  "status": "PUBLISHED",
+  "publishedPosts": [
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "id": "DdVhKV1Exs9",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdVhKV1Exs9",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T05:19:28.745Z",
+      "publishedTimePrecision": "observed-only"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "id": "pfbid0FvtbZj2Eb3jEL3fnvHop8sw2ZteXtAFAfyaHhegx4gzJruRM29q4eDFch6gx87r6l",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0FvtbZj2Eb3jEL3fnvHop8sw2ZteXtAFAfyaHhegx4gzJruRM29q4eDFch6gx87r6l",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T05:24:16.037Z"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "id": "DdViwvSE-2B",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdViwvSE-2B/",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T05:33:57.381Z"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "id": "7505862836309377024",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:share:7505862836309377024/",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T05:39:51.114Z",
+      "imageMode": "article-link-preview"
+    }
+  ],
   "sources": [
     "https://www.gatescambridge.org/apply/timeline/",
     "https://www.gatescambridge.org/apply/eligibility/",
     "https://www.gatescambridge.org/programme/the-scholarship/",
     "https://www.student-funding.cam.ac.uk/fund/gates-cambridge-scholarship-2026",
     "https://www.oxy.edu/academics/student-success/national-international-fellowships/awards-information/gates-cambridge"
-  ]
+  ],
+  "completedAt": "2026-09-16T06:10:30.972Z"
 }

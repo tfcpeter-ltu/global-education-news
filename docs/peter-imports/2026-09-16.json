@@ -1,6 +1,6 @@
 {
   "date": "2026-09-16",
-  "status": "prepared",
+  "status": "published",
   "articles": [
     {
       "sourceId": "122143336743172155",
@@ -17,7 +17,9 @@
         ]
       ],
       "image": "/images/peter/singapore-ossd-qualification-planning.svg",
-      "imageRights": "本站原創向量文字版面；非原作者照片"
+      "imageRights": "本站原創向量文字版面；非原作者照片",
+      "status": "published",
+      "verifiedAt": "2026-09-16T06:10:30.972Z"
     },
     {
       "sourceId": "122142619767172155",
@@ -34,7 +36,9 @@
         ]
       ],
       "image": "/images/peter/cambridge-degree-ceremony-traditions.svg",
-      "imageRights": "本站原創向量文字版面；非原作者照片"
+      "imageRights": "本站原創向量文字版面；非原作者照片",
+      "status": "published",
+      "verifiedAt": "2026-09-16T06:10:30.972Z"
     },
     {
       "sourceId": "122142569079172155",
@@ -51,7 +55,10 @@
         ]
       ],
       "image": "/images/peter/geography-gis-spatial-data-study.svg",
-      "imageRights": "本站原創向量文字版面；非原作者照片"
+      "imageRights": "本站原創向量文字版面；非原作者照片",
+      "status": "published",
+      "verifiedAt": "2026-09-16T06:10:30.972Z"
     }
-  ]
+  ],
+  "verifiedAt": "2026-09-16T06:10:30.972Z"
 }

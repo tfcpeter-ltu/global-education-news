@@ -18,12 +18,48 @@
   "imageSource": "https://commons.wikimedia.org/wiki/File:Vancouver_Skyline_01.jpg",
   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
   "verifiedAt": "2026-09-16T04:29:16.947Z",
-  "status": "prepared-awaiting-live-verification",
-  "publishedPosts": [],
+  "status": "PUBLISHED",
+  "publishedPosts": [
+    {
+      "campaign": "news",
+      "network": "threads",
+      "id": "DdVg_GDEzaM",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdVg_GDEzaM",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T05:18:03.668Z",
+      "publishedTimePrecision": "observed-only"
+    },
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "id": "pfbid0cJyrUduu6bd75Lx1FnGPh1JHKbrqJ2iRD7QjAvjKpCBHqqezxXyAo1MBeJLLA8xnl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0cJyrUduu6bd75Lx1FnGPh1JHKbrqJ2iRD7QjAvjKpCBHqqezxXyAo1MBeJLLA8xnl",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T05:21:46.791Z"
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "id": "DdVh3sSEw2-",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdVh3sSEw2-/",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T05:30:45.204Z"
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "id": "7505862345878056960",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:share:7505862345878056960/",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T05:38:04.754Z",
+      "imageMode": "article-link-preview"
+    }
+  ],
   "sources": [
     "https://www.languescanada.ca/en/blog/blog/languages-canada-statement-on-ec-english",
     "https://thepienews.com/ec-english-closes-all-global-schools/",
     "https://commons.wikimedia.org/wiki/File:Vancouver_Skyline_01.jpg",
     "https://creativecommons.org/licenses/by-sa/4.0/"
-  ]
+  ],
+  "completedAt": "2026-09-16T06:10:30.972Z"
 }

@@ -18,7 +18,7 @@
   "imageSource": "https://commons.wikimedia.org/wiki/File:Summer_Row_Campus.jpg",
   "license": "https://creativecommons.org/licenses/by-sa/4.0/",
   "verifiedAt": "2026-09-16T04:29:16.955Z",
-  "status": "prepared-not-selected",
+  "status": "reserve-not-selected",
   "publishedPosts": [],
   "sources": [
     "https://www.ucb.ac.uk/about-us/news-and-insights/university-acquires-former-the-cube-hotel-and-marco-pierre-white-restaurant-as-part-of-major-hospitality-investment-programme/",
@@ -26,5 +26,6 @@
     "https://www.hospitalityandcateringnews.com/2026/09/university-college-birmingham-unveils-new-restaurant-and-summer-row-campus-changes/",
     "https://commons.wikimedia.org/wiki/File:Summer_Row_Campus.jpg",
     "https://creativecommons.org/licenses/by-sa/4.0/"
-  ]
+  ],
+  "note": "網站新聞已發布；今日社群新聞宣傳選用 EC 加拿大安置進展，不應補發此備選稿造成重複任務。"
 }
