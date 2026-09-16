@@ -10,11 +10,13 @@ else {
  if(!(r.scholarshipChecks||[]).some(x=>x.url && x.verifiedAt && x.eligibleTaiwan===true && x.open===true)) fail('missing eligible open scholarship verified today');
  if(new Set((r.peterImports||[]).filter(x=>x.url&&x.sourceId&&x.verifiedAt).map(x=>x.sourceId)).size<3) fail('fewer than 3 verified distinct Peter imports');
  const posts=r.socialPosts||[];
- for(const campaign of ['news','scholarship','study-abroad']) for(const network of ['facebook','instagram','threads','linkedin']) {
+ const requirements = ['news','scholarship','study-abroad'].flatMap(campaign => ['facebook','instagram','threads','linkedin'].map(network => [campaign,network]));
+ if(date >= '2026-09-16') requirements.push(...['threads','instagram','linkedin'].map(network => ['taiwan-universities',network]));
+ for(const [campaign,network] of requirements) {
   const matches=posts.filter(x=>x.campaign===campaign&&x.network===network&&x.status==='PUBLISHED'&&x.id&&x.publicUrl&&x.verifiedAt);
   if(matches.length!==1) fail(`${campaign}/${network}: expected one verified published post, got ${matches.length}`);
  }
  if(!r.deployment?.commit || r.deployment.status!=='success' || !r.deployment.verifiedAt) fail('missing deployment evidence');
  if(!r.acceptance?.desktop || !r.acceptance?.mobile || !r.acceptance?.seo || !r.acceptance?.verifiedAt) fail('missing live acceptance evidence');
- if(!process.exitCode) console.log(`COMPLETE ${date}: 3 news, scholarship, 3 Peter imports, 12 social posts and deployment evidence present. Evidence presence does not replace live verification.`);
+ if(!process.exitCode) console.log(`COMPLETE ${date}: 3 news, scholarship, 3 Peter imports, ${requirements.length} social posts and deployment evidence present. Evidence presence does not replace live verification.`);
 }

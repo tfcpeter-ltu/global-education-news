@@ -100,6 +100,34 @@
       "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdVlg1Ak-Fz/",
       "status": "PUBLISHED",
       "verifiedAt": "2026-09-16T05:59:32.757Z"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "id": "DdVpiy7Ez1Q",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdVpiy7Ez1Q",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T06:39:41.263Z",
+      "imageCount": 2
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "id": "DdVqPIKk6QJ",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdVqPIKk6QJ/",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T06:39:41.263Z",
+      "imageCount": 2,
+      "crosspost": false
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "id": "7505878167883251712",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7505878167883251712/",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T06:41:34.152Z",
+      "imageCount": 2
     }
   ],
   "intents": [
@@ -135,5 +163,13 @@
     }
   ],
   "date": "2026-09-16",
-  "status": "PUBLISHED"
+  "status": "PUBLISHED",
+  "incidents": [
+    {
+      "network": "threads",
+      "note": "上傳失敗通知與實際發布結果不一致；稍後核對原附圖版已成功，多出的連結版典藏後刷新確認不再公開。",
+      "archivedDuplicateId": "DdVp1_pE89x",
+      "verifiedAt": "2026-09-16T06:39:41.263Z"
+    }
+  ]
 }

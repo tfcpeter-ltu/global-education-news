@@ -1,0 +1,43 @@
+{
+  "campaign": "taiwan-universities",
+  "timezone": "Asia/Taipei",
+  "entries": [
+    {
+      "date": "2026-09-16",
+      "topic": "從想學的事搜尋科系",
+      "CTA": "免費加入會員",
+      "contentPath": "docs/social-posts/2026-09-16/taiwan-universities--major-search.json",
+      "status": "published",
+      "publishedPosts": [
+        {
+          "campaign": "taiwan-universities",
+          "network": "threads",
+          "id": "DdVpiy7Ez1Q",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdVpiy7Ez1Q",
+          "status": "PUBLISHED",
+          "verifiedAt": "2026-09-16T06:39:41.263Z",
+          "imageCount": 2
+        },
+        {
+          "campaign": "taiwan-universities",
+          "network": "instagram",
+          "id": "DdVqPIKk6QJ",
+          "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdVqPIKk6QJ/",
+          "status": "PUBLISHED",
+          "verifiedAt": "2026-09-16T06:39:41.263Z",
+          "imageCount": 2,
+          "crosspost": false
+        },
+        {
+          "campaign": "taiwan-universities",
+          "network": "linkedin",
+          "id": "7505878167883251712",
+          "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7505878167883251712/",
+          "status": "PUBLISHED",
+          "verifiedAt": "2026-09-16T06:41:34.152Z",
+          "imageCount": 2
+        }
+      ]
+    }
+  ]
+}

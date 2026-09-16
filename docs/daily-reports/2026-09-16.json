@@ -222,13 +222,42 @@
       "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdVlg1Ak-Fz/",
       "status": "PUBLISHED",
       "verifiedAt": "2026-09-16T05:59:32.757Z"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "id": "DdVpiy7Ez1Q",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdVpiy7Ez1Q",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T06:39:41.263Z",
+      "imageCount": 2
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "id": "DdVqPIKk6QJ",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdVqPIKk6QJ/",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T06:39:41.263Z",
+      "imageCount": 2,
+      "crosspost": false
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "id": "7505878167883251712",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7505878167883251712/",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T06:41:34.152Z",
+      "imageCount": 2
     }
   ],
   "remaining": [],
   "notes": [
     "今天08:00期限未達成，本批為使用者要求的實際補發，不回填成準時完成。",
     "已修正自動化：05/06/07準備、08期限核對、09/12/18缺項接續；需電腦與Codex運作。",
-    "發布只按公開URL、ID與核驗时间記錄；已成功平台不得重送。"
+    "發布只按公開URL、ID與核驗时间記錄；已成功平台不得重送。",
+    "下午使用者新增國內大學資料庫三平台宣傳，已補發；後續每日共十五則。Threads 暫時錯誤訊息導致重複，已典藏多出版本並刷新核對。"
   ],
   "deployment": {
     "commit": "1a42539bcb10a952aee1c790f17e318824ce99fb",
@@ -254,5 +283,11 @@
       "pages": 217,
       "result": "success"
     }
+  },
+  "additionalScope": {
+    "campaign": "taiwan-universities",
+    "authorizedAt": "2026-09-16 afternoon Asia/Taipei",
+    "completedAt": "2026-09-16T06:41:34.152Z",
+    "expectedPosts": 3
   }
 }

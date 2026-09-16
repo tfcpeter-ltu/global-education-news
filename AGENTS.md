@@ -153,3 +153,8 @@
 ## 2026-09-16 補發與排程修正
 
 自本日起，以 docs/linkedin-publishing.md 的四平台十二則規格為準：新聞、獎學金、DIY 各 FB／IG／Threads／LinkedIn 一則。既有 heartbeat 08-00 已更新為台灣時間 05、06、07、08、09、12、18 時接續同一批；08:00 仍為期限，其後只補缺項，完整成功則保持安靜。新增 scripts/verify-daily-delivery.mjs 檢查報告證據，須在實際回讀後執行；未通過不得報全部完成。此檢查僅驗證資料存在，不替代來源查核與正式站／社群驗收。LinkedIn 個人頁舊編輯器的檔案選擇器未回傳時，改用 /feed/ 的「照片」入口；已測試可上傳兩張網站截圖。新聞及獎學金本日使用正式文章圖文預覽。
+
+
+## 2026-09-16 新增國內大學資料庫宣傳
+
+使用者要求把 /taiwan-universities/ 加入每日 Threads、Instagram、LinkedIn，各一則。依 docs/taiwan-universities-social.md 執行，既有十二則加本項三則，共十五則；台灣08:00前完成。既有自動化08-00已更新，缺項補發與去重維持。此最新規格優先於上方九／十二則舊文。

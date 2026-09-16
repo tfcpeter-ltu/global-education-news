@@ -1,0 +1,84 @@
+{
+  "date": "2026-09-16",
+  "campaign": "taiwan-universities",
+  "topic": "從想學的事搜尋科系",
+  "articleTitle": "選大學前，先從你想學的事找科系",
+  "articleUrl": "https://globalednews.com/taiwan-universities/",
+  "CTA": "免費加入會員",
+  "threadsCopy": "選大學，你先看校名，還是先想四年要學什麼？\n\n環球教育新聞「國內大學選校選系資料庫」提供學校與科系探索入口。試著搜尋「心理」，再看各系內容、來源與待補項目，建立自己的比較清單。資料仍持續補齊，站內判讀不是錄取或就業保證。\n\n免費加入環球教育新聞會員，透過週報持續探索升學資訊。\nhttps://globalednews.com/taiwan-universities/\n\n圖：9/16 正式網站操作截圖。",
+  "instagramCopy": "先想四年要學什麼，再決定把哪些大學放進清單。\n選校選系，從一個關鍵字開始。\n\n打開環球教育新聞「國內大學選校選系資料庫」，在「想學什麼？」輸入有興趣的領域，例如心理，再查看科系內容、資料來源與未完成項目。\n\n學校名稱是一個入口，課程與自己的興趣也值得一起比較。各系資料持續補齊；索引不等於完整查核，站內判讀不是錄取或就業保證。\n\n免費加入環球教育新聞會員，透過週報持續探索升學資訊。\n資料庫：https://globalednews.com/taiwan-universities/\n環球教育新聞：https://globalednews.com/\n\n圖片為 2026/9/16 正式網站操作截圖。\n#選校選系 #大學科系 #高中生 #升學規劃 #環球教育新聞",
+  "linkedinCopy": "選校諮詢的起點，可以是一個更具體的問題：學生希望在大學四年學到什麼？\n\nGlobal Education News 環球教育新聞的「國內大學選校選系資料庫」，提供從學校與科系展開研究的入口。今天實際以「心理」搜尋，查看科系內容、資料來源與未完成項目，示範如何建立第一輪比較清單。\n\n對學生、家長與輔導工作者而言，資料完成度也應納入閱讀：索引不等於已完成特色查核，各系資料持續補齊；站內分析是探索起點，並非錄取或就業預測。正式申請條件仍應回查當年度校系公告。\n\n歡迎免費加入環球教育新聞會員，透過週報持續掌握教育與升學資訊。\n資料庫：https://globalednews.com/taiwan-universities/\n環球教育新聞：https://globalednews.com/\n\n附圖：2026/9/16 正式網站操作截圖。",
+  "socialImage": [
+    "docs/social-posts/2026-09-16/assets/taiwan-database.png",
+    "docs/social-posts/2026-09-16/assets/taiwan-search.png"
+  ],
+  "imageAlt": [
+    "國內大學選校選系資料庫的探索入口與科系類別",
+    "在想學什麼欄位輸入心理的實際搜尋畫面，顯示結果及資料完成度提醒"
+  ],
+  "imageLicense": "使用者授權宣傳其網站；實際介面截圖，非校園現場照片",
+  "sources": [
+    {
+      "url": "https://globalednews.com/taiwan-universities/",
+      "supports": "實際讀取入口、搜尋心理並核對結果與資料限制",
+      "verifiedAt": "2026-09-16T06:30:35.669Z"
+    }
+  ],
+  "status": "PUBLISHED",
+  "publishedPosts": [
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "id": "DdVpiy7Ez1Q",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdVpiy7Ez1Q",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T06:39:41.263Z",
+      "imageCount": 2
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "id": "DdVqPIKk6QJ",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdVqPIKk6QJ/",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T06:39:41.263Z",
+      "imageCount": 2,
+      "crosspost": false
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "id": "7505878167883251712",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7505878167883251712/",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T06:41:34.152Z",
+      "imageCount": 2
+    }
+  ],
+  "intents": [
+    {
+      "network": "threads",
+      "state": "sending",
+      "at": "2026-09-16T06:32:12.089Z"
+    },
+    {
+      "network": "instagram",
+      "state": "sending",
+      "at": "2026-09-16T06:38:11.153Z"
+    },
+    {
+      "network": "linkedin",
+      "state": "sending",
+      "at": "2026-09-16T06:40:03.781Z"
+    }
+  ],
+  "incidents": [
+    {
+      "network": "threads",
+      "note": "上傳失敗通知與實際發布結果不一致；稍後核對原附圖版已成功，多出的連結版典藏後刷新確認不再公開。",
+      "archivedDuplicateId": "DdVp1_pE89x",
+      "verifiedAt": "2026-09-16T06:39:41.263Z"
+    }
+  ],
+  "completedAt": "2026-09-16T06:41:34.152Z"
+}
