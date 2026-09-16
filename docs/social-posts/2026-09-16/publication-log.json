@@ -1,0 +1,131 @@
+{
+  "publishedPosts": [
+    {
+      "campaign": "news",
+      "network": "threads",
+      "id": "DdVg_GDEzaM",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdVg_GDEzaM",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T05:18:03.668Z",
+      "publishedTimePrecision": "observed-only"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "id": "DdVhKV1Exs9",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdVhKV1Exs9",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T05:19:28.745Z",
+      "publishedTimePrecision": "observed-only"
+    },
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "id": "pfbid0cJyrUduu6bd75Lx1FnGPh1JHKbrqJ2iRD7QjAvjKpCBHqqezxXyAo1MBeJLLA8xnl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0cJyrUduu6bd75Lx1FnGPh1JHKbrqJ2iRD7QjAvjKpCBHqqezxXyAo1MBeJLLA8xnl",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T05:21:46.791Z"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "id": "pfbid0FvtbZj2Eb3jEL3fnvHop8sw2ZteXtAFAfyaHhegx4gzJruRM29q4eDFch6gx87r6l",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0FvtbZj2Eb3jEL3fnvHop8sw2ZteXtAFAfyaHhegx4gzJruRM29q4eDFch6gx87r6l",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T05:24:16.037Z"
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "id": "DdVh3sSEw2-",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdVh3sSEw2-/",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T05:30:45.204Z"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "id": "DdViwvSE-2B",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdViwvSE-2B/",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T05:33:57.381Z"
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "id": "7505862345878056960",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:share:7505862345878056960/",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T05:38:04.754Z",
+      "imageMode": "article-link-preview"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "id": "7505862836309377024",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:share:7505862836309377024/",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T05:39:51.114Z",
+      "imageMode": "article-link-preview"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "id": "DdVj1iKk3yw",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdVj1iKk3yw",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T05:51:22.380Z"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "id": "pfbid0g5ctrNthhMkEHt2DUAPQy5PgZJU9sGAqRMGxZP3UeZYHhtYFKgiPVPk8qkP232Mpl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0g5ctrNthhMkEHt2DUAPQy5PgZJU9sGAqRMGxZP3UeZYHhtYFKgiPVPk8qkP232Mpl",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T05:52:58.449Z"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "id": "7505866309402808321",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7505866309402808321/",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T05:55:18.333Z",
+      "imageMode": "two-website-screenshots"
+    }
+  ],
+  "intents": [
+    {
+      "at": "2026-09-16T05:16:11.4300328Z",
+      "network": "threads",
+      "state": "prepared",
+      "campaign": "news"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "state": "sending",
+      "at": "2026-09-16T05:18:40.268Z"
+    },
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "state": "prepared",
+      "at": "2026-09-16T05:18:40.268Z"
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "state": "prepared",
+      "at": "2026-09-16T05:21:46.791Z"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "state": "sending",
+      "at": "2026-09-16T05:23:05.000Z"
+    }
+  ],
+  "date": "2026-09-16",
+  "status": "publishing"
+}

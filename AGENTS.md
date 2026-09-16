@@ -148,3 +148,8 @@
 ## 導航宣傳啟動已完成（2026-09-15 後續更新）
 
 今日加拿大滑鐵盧 1957 Co-op 故事已發布 FB、Threads、IG，每平台兩張正式站截圖，附導航與環球教育新聞連結。此更新取代上述 DIY 尚未發布狀態。公開貼文、來源與文案見 `docs/social-posts/2026-09-15/study-abroad--canada--waterloo--launch.json`，輪換見 `docs/social-posts/study-abroad-history.json`；今日三類宣傳共九則已完成，不得重送。未來每日更換國家／學校與角度，保留故事、實際截圖及兩站連結。
+
+
+## 2026-09-16 補發與排程修正
+
+自本日起，以 docs/linkedin-publishing.md 的四平台十二則規格為準：新聞、獎學金、DIY 各 FB／IG／Threads／LinkedIn 一則。既有 heartbeat 08-00 已更新為台灣時間 05、06、07、08、09、12、18 時接續同一批；08:00 仍為期限，其後只補缺項，完整成功則保持安靜。新增 scripts/verify-daily-delivery.mjs 檢查報告證據，須在實際回讀後執行；未通過不得報全部完成。此檢查僅驗證資料存在，不替代來源查核與正式站／社群驗收。LinkedIn 個人頁舊編輯器的檔案選擇器未回傳時，改用 /feed/ 的「照片」入口；已測試可上傳兩張網站截圖。新聞及獎學金本日使用正式文章圖文預覽。

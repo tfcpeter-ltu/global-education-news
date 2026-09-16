@@ -1,12 +1,12 @@
 {
   "date": "2026-09-16",
   "timezone": "Asia/Taipei",
-  "status": "initial-research-incomplete",
-  "baselineCommit": "a2f65a42bff9ebe481205d583cecba5bfee95248",
+  "status": "recovery-in-progress",
+  "baselineCommit": "ce56471a2e609bad1ab91ddff987eb3bd152b91d",
   "completedChecks": [
     {
       "url": "https://globalednews.com/",
-      "result": "已讀正式首頁；本回合未發布新文章。"
+      "result": "補發三篇新聞後，正式首頁已顯示三篇內容與獨立圖片。"
     },
     {
       "url": "https://www.sunmoonnews.com.tw/",
@@ -27,17 +27,148 @@
       "status": "候選，尚待開啟第二來源文章並核對時點。"
     }
   ],
-  "newsPublished": [],
-  "scholarshipChecks": [],
+  "newsPublished": [
+    {
+      "url": "https://globalednews.com/news/ec-canada-student-placements-september-2026/",
+      "status": "deployed",
+      "verification": "homepage confirmed; individual acceptance pending"
+    },
+    {
+      "url": "https://globalednews.com/news/london-international-student-welcome-2026/",
+      "status": "deployed",
+      "verification": "homepage confirmed; individual acceptance pending"
+    },
+    {
+      "url": "https://globalednews.com/news/ucb-hospitality-summer-row-followup-2026/",
+      "status": "deployed",
+      "verification": "homepage confirmed; individual acceptance pending"
+    }
+  ],
+  "scholarshipChecks": [
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-09-gates-cambridge-2027/",
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-09-16T04:29:16.956Z",
+      "sources": [
+        "https://www.gatescambridge.org/apply/timeline/",
+        "https://www.gatescambridge.org/apply/eligibility/",
+        "https://www.gatescambridge.org/programme/the-scholarship/",
+        "https://www.student-funding.cam.ac.uk/fund/gates-cambridge-scholarship-2026",
+        "https://www.oxy.edu/academics/student-success/national-international-fellowships/awards-information/gates-cambridge"
+      ]
+    }
+  ],
   "peterImports": [],
-  "socialPosts": [],
+  "socialPosts": [
+    {
+      "campaign": "news",
+      "network": "threads",
+      "id": "DdVg_GDEzaM",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdVg_GDEzaM",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T05:18:03.668Z",
+      "publishedTimePrecision": "observed-only"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "id": "DdVhKV1Exs9",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdVhKV1Exs9",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T05:19:28.745Z",
+      "publishedTimePrecision": "observed-only"
+    },
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "id": "pfbid0cJyrUduu6bd75Lx1FnGPh1JHKbrqJ2iRD7QjAvjKpCBHqqezxXyAo1MBeJLLA8xnl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0cJyrUduu6bd75Lx1FnGPh1JHKbrqJ2iRD7QjAvjKpCBHqqezxXyAo1MBeJLLA8xnl",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T05:21:46.791Z"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "id": "pfbid0FvtbZj2Eb3jEL3fnvHop8sw2ZteXtAFAfyaHhegx4gzJruRM29q4eDFch6gx87r6l",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0FvtbZj2Eb3jEL3fnvHop8sw2ZteXtAFAfyaHhegx4gzJruRM29q4eDFch6gx87r6l",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T05:24:16.037Z"
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "id": "DdVh3sSEw2-",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdVh3sSEw2-/",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T05:30:45.204Z"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "id": "DdViwvSE-2B",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdViwvSE-2B/",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T05:33:57.381Z"
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "id": "7505862345878056960",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:share:7505862345878056960/",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T05:38:04.754Z",
+      "imageMode": "article-link-preview"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "id": "7505862836309377024",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:share:7505862836309377024/",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T05:39:51.114Z",
+      "imageMode": "article-link-preview"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "id": "DdVj1iKk3yw",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdVj1iKk3yw",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T05:51:22.380Z"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "id": "pfbid0g5ctrNthhMkEHt2DUAPQy5PgZJU9sGAqRMGxZP3UeZYHhtYFKgiPVPk8qkP232Mpl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0g5ctrNthhMkEHt2DUAPQy5PgZJU9sGAqRMGxZP3UeZYHhtYFKgiPVPk8qkP232Mpl",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T05:52:58.449Z"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "id": "7505866309402808321",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7505866309402808321/",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-16T05:55:18.333Z",
+      "imageMode": "two-website-screenshots"
+    }
+  ],
   "remaining": [
-    "完成三篇新聞雙重查核、獨立授權圖片、上稿與部署驗收",
-    "獎學金當日雙重查核",
-    "Peter來源去重與三則收錄",
-    "新聞、獎學金、導航各四平台共十二則；目前全數未發布"
+    "Peter 三則上線與桌面手機驗收",
+    "最後一則 Instagram DIY 結果確認",
+    "新聞與獎學金 SEO／互動／手機驗收"
   ],
   "notes": [
-    "本紀錄不是完成報告。後續回合應接續此日紀錄，不把搜尋摘要當已查核來源。"
-  ]
+    "今天08:00期限未達成，本批為使用者要求的實際補發，不回填成準時完成。",
+    "已修正自動化：05/06/07準備、08期限核對、09/12/18缺項接續；需電腦與Codex運作。",
+    "發布只按公開URL、ID與核驗时间記錄；已成功平台不得重送。"
+  ],
+  "deployment": {
+    "commit": "4b32900d19ab41a49cd10814df85759fd2f3d5ca",
+    "status": "success",
+    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/35055938542",
+    "verifiedAt": "2026-09-16T05:57:25.173Z"
+  }
 }

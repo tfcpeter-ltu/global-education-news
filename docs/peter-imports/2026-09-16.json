@@ -1,0 +1,57 @@
+{
+  "date": "2026-09-16",
+  "status": "prepared",
+  "articles": [
+    {
+      "sourceId": "122143336743172155",
+      "sourceUrl": "https://www.facebook.com/photo/?fbid=122143336743172155",
+      "url": "https://globalednews.com/peter/singapore-ossd-qualification-planning/",
+      "originalDateLabel": "5天",
+      "originalDatePrecision": "relative",
+      "edition": "verified-edit",
+      "note": "2026-09-16 查核整理版，非逐字轉載。保留 Peter 提早安排選課與逐校比較的觀點。原文的國際生名額比例、錄取率、實務錄取均分、排名與各校加分效果未取得足夠證據，不予轉載。NUS 官方頁仍列 2026 年日期，不能當成 2027 年已公告規則。封面為本站另製文字圖，不是原貼文圖卡。",
+      "sources": [
+        [
+          "NUS｜Canadian High School Diploma",
+          "https://nus.edu.sg/oam/admissions/international-qualifications-for-foreigners/international-qualifications/canadian-high-school-diploma"
+        ]
+      ],
+      "image": "/images/peter/singapore-ossd-qualification-planning.svg",
+      "imageRights": "本站原創向量文字版面；非原作者照片"
+    },
+    {
+      "sourceId": "122142619767172155",
+      "sourceUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid0uGdsQ4oxvbzoxta3WZ79CErbQTtJ2CvmmuWDtaduWNptZuo3goeUj4fWNWgLZD8Ml&id=61585164670358",
+      "url": "https://globalednews.com/peter/cambridge-degree-ceremony-traditions/",
+      "originalDateLabel": "9月4日上午6:01",
+      "originalDatePrecision": "month-day-minute",
+      "edition": "verified-edit",
+      "note": "2026-09-16 查核整理版。以 Peter 原文及劍橋官方典禮說明交叉核對，聚焦劍橋，不把單一學校做法泛化為所有英國大學。原頁未顯示年份，保留畫面日期文字。新增編輯補註：跪下、伸手與宗教措辭均有選擇，並非所有畢業生必做。封面為本站文字圖，非典禮照片。",
+      "sources": [
+        [
+          "University of Cambridge｜The ceremony",
+          "https://www.cambridgestudents.cam.ac.uk/graduation/degree-ceremonies/ceremony"
+        ]
+      ],
+      "image": "/images/peter/cambridge-degree-ceremony-traditions.svg",
+      "imageRights": "本站原創向量文字版面；非原作者照片"
+    },
+    {
+      "sourceId": "122142569079172155",
+      "sourceUrl": "https://www.facebook.com/photo/?fbid=122142569079172155",
+      "url": "https://globalednews.com/peter/geography-gis-spatial-data-study/",
+      "originalDateLabel": "9月3日下午2:28",
+      "originalDatePrecision": "month-day-minute",
+      "edition": "verified-edit",
+      "note": "2026-09-16 查核整理版。保留原文地理、GIS、遙測及程式學習的選系觀點；原文尼泊爾災害日期、傷亡數字與研究敘述未取得足夠證據，不予轉載。NOAA 應用例為編輯補充，不冒充 Peter 原句。原頁顯示月日與時間但未顯示年份，網站收錄日期不替代原日期。封面為本站另製文字圖，非災害現場圖。",
+      "sources": [
+        [
+          "NOAA｜What is a geographic information system?",
+          "https://oceanservice.noaa.gov/facts/gis.html"
+        ]
+      ],
+      "image": "/images/peter/geography-gis-spatial-data-study.svg",
+      "imageRights": "本站原創向量文字版面；非原作者照片"
+    }
+  ]
+}
