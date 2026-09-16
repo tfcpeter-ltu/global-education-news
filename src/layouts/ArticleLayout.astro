@@ -81,7 +81,7 @@ const relatedStories = Object.entries(relatedModules)
   .sort((a: any, b: any) => new Date(b.date ?? 0).getTime() - new Date(a.date ?? 0).getTime())
   .slice(0, 3);
 
-const fmtDate = (value?: Date) => value ? new Intl.DateTimeFormat('zh-TW', { year: 'numeric', month: 'long', day: 'numeric' }).format(value) : '';
+const fmtDate = (value?: Date) => value ? new Intl.DateTimeFormat('zh-TW', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Taipei' }).format(value) : '';
 const fmtTime = (value?: Date) => value ? new Intl.DateTimeFormat('zh-TW', { hour: '2-digit', minute: '2-digit', hour12: false, timeZone: 'Asia/Taipei' }).format(value) : '';
 ---
 <BaseLayout title={`${title}｜環球教育新聞網 Global Education News`} description={description} image={articleImage} type="article">

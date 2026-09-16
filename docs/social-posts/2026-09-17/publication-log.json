@@ -1,0 +1,71 @@
+{
+  "date": "2026-09-17",
+  "status": "in-progress",
+  "posts": [],
+  "intents": [
+    {
+      "campaign": "news",
+      "network": "threads",
+      "articleUrl": "https://globalednews.com/news/canada-graduate-student-policy-september-2026/",
+      "version": "2026-09-17-membership-v1",
+      "state": "prepared",
+      "at": "2026-09-16T23:06:14.745Z"
+    },
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "articleUrl": "https://globalednews.com/news/canada-graduate-student-policy-september-2026/",
+      "version": "2026-09-17-membership-v1",
+      "state": "prepared",
+      "at": "2026-09-16T23:06:14.746Z"
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "articleUrl": "https://globalednews.com/news/canada-graduate-student-policy-september-2026/",
+      "version": "2026-09-17-membership-v1",
+      "state": "prepared",
+      "at": "2026-09-16T23:06:14.746Z"
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "articleUrl": "https://globalednews.com/news/canada-graduate-student-policy-september-2026/",
+      "version": "2026-09-17-membership-v1",
+      "state": "prepared",
+      "at": "2026-09-16T23:06:14.746Z"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-knight-hennessy-2027",
+      "version": "2026-09-17-membership-v1",
+      "state": "prepared",
+      "at": "2026-09-16T23:06:14.746Z"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-knight-hennessy-2027",
+      "version": "2026-09-17-membership-v1",
+      "state": "prepared",
+      "at": "2026-09-16T23:06:14.746Z"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-knight-hennessy-2027",
+      "version": "2026-09-17-membership-v1",
+      "state": "prepared",
+      "at": "2026-09-16T23:06:14.746Z"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-knight-hennessy-2027",
+      "version": "2026-09-17-membership-v1",
+      "state": "prepared",
+      "at": "2026-09-16T23:06:14.746Z"
+    }
+  ]
+}
