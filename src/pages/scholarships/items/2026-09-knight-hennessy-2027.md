@@ -6,15 +6,23 @@ date: 2026-09-04
 country: "美國"
 level: "碩士／博士／專業學位"
 funding: "最長三年：學費與相關費用、生活及學術費用津貼、年度往返旅費；依學位長度與官方規定"
-deadline: "2026-10-06 13:00 Pacific Time"
+deadline: "2026-10-06 13:00 PDT／台灣時間 2026-10-07 04:00"
 status: "開放中"
 sourceType: "大學／基金會"
 sourceName: "Knight-Hennessy Scholars, Stanford University"
 officialUrl: "https://knight-hennessy.stanford.edu/admission"
-secondSourceUrl: "https://knight-hennessy.stanford.edu/program-overview/funding"
-eligibilityTW: "可申請；官方無地區、學校、領域或職涯方向配額限制"
+secondSourceUrl: "https://scholarships.berkeley.edu/knight-hennessy/"
+eligibilityTW: "台灣學生可申請；須符合第一個學士學位取得年限及 Stanford 合格全日制研究所入學條件"
 taiwanNote: "台灣申請者可直接依國際申請者身分申請。KHS 與 Stanford 研究所課程是兩份不同申請，除 KHS 截止日外，還必須在所申請系所的 KHS 專用或一般研究所截止日前完成 Stanford degree application。"
-verificationDate: "2026-09-04"
+verificationDate: "2026-09-17"
+updated: 2026-09-17
+featuredDate: "2026-09-17"
+featuredUntil: "2026-10-06T20:00:00Z"
+author: "LTU Global Education News 編輯部"
+image: "https://upload.wikimedia.org/wikipedia/commons/1/1f/Stanford_Memorial_Church.jpg"
+imageAlt: "Stanford Memorial Church 校園建築資料照，非獎學金活動現場"
+imageCredit: "Jawed Karim／Wikimedia Commons／CC BY-SA 3.0，2004 年資料照，原圖未修改"
+imageSource: "https://commons.wikimedia.org/wiki/File:Stanford_Memorial_Church.jpg"
 category: "大學全額型獎學金"
 ---
 
@@ -54,3 +62,20 @@ KHS 官方要求 Stanford degree program application 必須在該課程針對 KH
 2. KHS 與研究所申請文件分開規劃，避免把兩套文件當成同一份內容。
 3. 優先整理履歷、推薦人、個人經歷與領導／公共影響力案例。
 4. 不要以 10 月 6 日作為所有材料的唯一截止日；Stanford 各系所時程必須另外確認。
+
+## 2026 年 9 月 17 日重新查核：先看資格與兩套期限
+
+官方資格頁明列所有國家公民及居民均可申請；UC Berkeley 獎學金辦公室亦獨立列出全球國籍資格與本期開放狀態。這不是台灣專屬名額，也不代表申請即獲獎。
+
+2027 梯次原則要求第一個學士學位於 **2020 年 1 月或之後**取得；曾服兵役者的年限可延至 2018 年 1 月。在學者須於 2027 年 9 月前取得第一個學位。另須符合合格全日制研究所課程及開始年度要求；部分課程不適用，請使用官方資格頁逐項檢查。
+
+KHS 截止為美國太平洋日光時間 2026 年 10 月 6 日 13:00，換算台灣為 **10 月 7 日凌晨 04:00**。研究所申請另採該課程 KHS 指定期限或 2026 年 12 月 1 日兩者較早者；MBA 必須使用 Round 1。請勿等到獎學金截止才確認系所是否已關閉申請。
+
+### 本次查核來源
+
+- [Stanford 官方資格與學位年限](https://knight-hennessy.stanford.edu/admission/before-you-apply/eligibility)
+- [Stanford 官方申請截止與 MBA 例外](https://knight-hennessy.stanford.edu/admission/preparing-your-applications/application-deadlines)
+- [Stanford 官方資助內容](https://knight-hennessy.stanford.edu/program-overview/funding)
+- [獨立第二來源：UC Berkeley OURS National Scholarships](https://scholarships.berkeley.edu/knight-hennessy/)
+
+圖片採用 [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) 授權校園資料照。
