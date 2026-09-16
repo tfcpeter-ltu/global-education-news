@@ -1,0 +1,58 @@
+{
+  "checked": "2026-09-16",
+  "schools": 130,
+  "majors": 58,
+  "schoolMajorFlows": 733,
+  "subjectSwitches": 58,
+  "architectureRecords": [
+    {
+      "school": "University of Cambridge",
+      "source": "https://www.undergraduate.study.cam.ac.uk/courses/architecture-ba-hons-march"
+    },
+    {
+      "school": "University College London (UCL)",
+      "source": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/architecture-bsc"
+    },
+    {
+      "school": "University of Manchester",
+      "source": "https://www.msa.ac.uk/study/ba/"
+    },
+    {
+      "school": "University of Sheffield",
+      "source": "https://sheffield.ac.uk/undergraduate/courses/2027/architecture-ba"
+    },
+    {
+      "school": "University of the West of England, Bristol",
+      "source": "https://courses.uwe.ac.uk/k100"
+    },
+    {
+      "school": "Rhode Island School of Design",
+      "source": "https://www.risd.edu/academics/architecture/bachelors-program"
+    },
+    {
+      "school": "University of Sydney",
+      "source": "https://www.sydney.edu.au/handbooks/architecture/undergraduate/b-design-architecture/unit-of-study-table.html"
+    },
+    {
+      "school": "UNSW Sydney",
+      "source": "https://www.unsw.edu.au/study/undergraduate/bachelor-of-architectural-studies"
+    },
+    {
+      "school": "RMIT University",
+      "source": "https://www.rmit.edu.au/study-with-us/levels-of-study/undergraduate-study/bachelor-degrees/bp250"
+    },
+    {
+      "school": "Delft University of Technology",
+      "source": "https://ocw.tudelft.nl/programs/bachelor/architecture/"
+    },
+    {
+      "school": "Singapore University of Technology and Design",
+      "source": "https://www.sutd.edu.sg/wp-content/uploads/2026/01/ASD.pdf"
+    },
+    {
+      "school": "University College London",
+      "source": "https://www.ucl.ac.uk/study/prospective-students/undergraduate/courses/architecture-bsc"
+    }
+  ],
+  "scope": "Automated JavaScript rendering/event regression; not an audit of every current admission requirement."
+}

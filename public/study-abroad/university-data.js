@@ -53,3 +53,6 @@ window.UNIVERSITY_FINDER_DATA=[
 {country:'australia',countryLabel:'澳洲',name:'Deakin University',city:'Melbourne / Geelong',url:'https://www.deakin.edu.au/',majors:['Business','Computer Science','Psychology','Communication','Sport Management'],goals:['實務導向','就業'],note:'應用與職涯導向，Sport、商學、傳播與科技可列入比較。',apply:'依校方國際生申請流程辦理。'},
 {country:'australia',countryLabel:'澳洲',name:'Griffith University',city:'Brisbane / Gold Coast',url:'https://www.griffith.edu.au/',majors:['Business','Communication','Film Production','Music Performance','Psychology'],goals:['實務導向','藝術設計','音樂／表演'],note:'創意藝術、音樂、影視與應用科系選項多。',apply:'依校方國際生申請流程與藝術專業要求辦理。'}
 ];
+
+// Official programme omissions corrected 2026-09-16; see architecture source records.
+for(const school of window.UNIVERSITY_FINDER_DATA){if(['University of Cambridge','University of Manchester'].includes(school.name)&&!school.majors.includes('Architecture'))school.majors.push('Architecture');}
