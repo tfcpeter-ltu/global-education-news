@@ -3,7 +3,7 @@ layout: "../../../layouts/ScholarshipLayout.astro"
 title: "Gates Cambridge 2027/28 已開放：台灣申請者須按課程確認 12 月或 1 月截止日"
 description: "Gates Cambridge 官方確認 2027/28 申請自 2026 年 9 月 11 日開放。台灣申請者通常走國際輪，截止日依課程為 12 月 8 日或 2027 年 1 月 6 日，均為英國時間 23:59。"
 date: "2026-09-02"
-updated: "2026-09-13"
+updated: "2026-09-16"
 author: "LTU Global Education News 編輯部"
 country: "英國"
 level: "碩士／博士"
@@ -16,8 +16,8 @@ officialUrl: "https://www.gatescambridge.org/apply/timeline/"
 secondSourceUrl: "https://www.oxy.edu/academics/student-success/national-international-fellowships/awards-information/gates-cambridge"
 eligibilityTW: "台灣籍可申請；須符合非英國公民與課程資格"
 taiwanNote: "同時具美國公民身分且居住美國者須走較早的美國輪；不能只用台灣身分忽略另一國籍及居住條件。"
-verificationDate: "2026-09-13"
-featuredDate: "2026-09-13"
+verificationDate: "2026-09-16"
+featuredDate: "2026-09-16"
 featuredUntil: "2026-12-08T23:59:00Z"
 category: "大學全額獎學金"
 image: "https://upload.wikimedia.org/wikipedia/commons/5/5e/Cambridge-University-Senate-House.jpg"
@@ -51,6 +51,8 @@ Gates Cambridge 支持具學術能力、明確選課理由、領導潛力及改�
 **編輯建議：**先在劍橋 Applicant Portal 及課程目錄確認課程已受理、學術條件與資助截止日，再安排推薦人及研究計畫。獎學金申請不等於取得課程錄取，也不能保證獲獎。
 
 ## 查核來源與更新紀錄
+
+2026 年 9 月 16 日重新開啟官方時程、資格、資助頁及 Occidental College 指引查核：本期仍開放。官方目前列示每年 £23,152 的生活津貼為 **2026/27 學年標準**，不直接當成 2027/28 保證給付；保留原文章發布日期。
 
 - [Gates Cambridge 官方時程](https://www.gatescambridge.org/apply/timeline/)
 - [官方資格及排除課程](https://www.gatescambridge.org/apply/eligibility/)
