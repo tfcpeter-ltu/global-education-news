@@ -1,0 +1,71 @@
+{
+  "date": "2026-09-17",
+  "timezone": "Asia/Taipei",
+  "status": "in-progress",
+  "baselineCommit": "53129b6d196e2b95467e802712a83a72d82d132d",
+  "startedAt": "2026-09-16T21:00:18Z",
+  "completedChecks": [
+    {
+      "url": "https://www.sunmoonnews.com.tw/",
+      "result": "已實際開啟，未取得本日合格雙重來源教育選題，暫不刊登。"
+    }
+  ],
+  "newsPublished": [],
+  "newsPrepared": [
+    {
+      "url": "https://globalednews.com/news/germany-eaie-fit-student-career-support-2026/",
+      "sources": [
+        {
+          "label": "DAAD｜FIT 官方計畫說明",
+          "url": "https://www.daad.de/en/information-services-for-higher-education-institutions/further-information-on-daad-programmes/fit/"
+        },
+        {
+          "label": "The PIE News｜EAIE 現場採訪（9 月 15 日）",
+          "url": "https://thepienews.com/eaie-national-strategies-sharpen-focus-on-talent-but-autonomy-stays-non-negotiable/"
+        }
+      ],
+      "status": "prepared-awaiting-deploy"
+    },
+    {
+      "url": "https://globalednews.com/news/canada-graduate-student-policy-september-2026/",
+      "sources": [
+        {
+          "label": "IRCC｜研究生學習許可申請官方指引",
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/graduate-student/how-to-apply.html"
+        },
+        {
+          "label": "The PIE News｜IRCC、UBC 及 U15 採訪（9 月 16 日）",
+          "url": "https://thepienews.com/number-of-new-international-grad-students-soars-in-canada/"
+        }
+      ],
+      "status": "prepared-awaiting-deploy"
+    },
+    {
+      "url": "https://globalednews.com/news/australia-go8-migration-proposal-response-2026/",
+      "sources": [
+        {
+          "label": "Group of Eight｜9 月 15 日官方聲明",
+          "url": "https://go8.edu.au/media-statement-on-migration-policy-from-group-of-eight-chief-executive-vicki-thomson"
+        },
+        {
+          "label": "AAP｜獨立採訪，The Queenslander 刊載（9 月 15 日）",
+          "url": "https://theqldr.com.au/education/2026/09/15/migration-22/"
+        }
+      ],
+      "status": "prepared-awaiting-deploy"
+    }
+  ],
+  "scholarshipChecks": [],
+  "peterImports": [],
+  "socialPosts": [],
+  "remaining": [
+    "正式站三篇新聞驗收",
+    "合格獎學金當日查核",
+    "Peter三則去重收錄",
+    "四主題十五則宣傳及回讀",
+    "每日驗證腳本"
+  ],
+  "notes": [
+    "不沿用昨日完成結果計入今天。"
+  ]
+}
