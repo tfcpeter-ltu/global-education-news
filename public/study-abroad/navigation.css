@@ -1,0 +1,9 @@
+.topbar.study-nav{height:auto;min-height:88px;padding:14px 4vw;display:flex;flex-wrap:wrap;gap:12px 28px;background:#12283a;color:#fff;overflow:visible}
+.study-nav .brand{min-width:0;flex-shrink:0;color:#fff}.study-nav .brand .ltu-logo{display:block;width:56px;height:56px;object-fit:contain;background:#fff;border-radius:4px}.study-nav .brand strong{font-size:18px}.study-nav .brand small{color:#bac7d1}
+.study-main-nav{display:flex;align-items:center;justify-content:flex-end;flex-wrap:wrap;gap:8px 17px;margin-left:auto;font-size:14px}
+.study-main-nav a,.study-more summary{display:block;padding:8px 0;white-space:nowrap;color:#fff}.study-main-nav a:hover,.study-main-nav a[aria-current=page]{color:#edcf91;text-decoration:underline;text-underline-offset:6px}
+.study-more{position:relative}.study-more summary{cursor:pointer;list-style:revert}.study-more>div{position:absolute;right:0;top:100%;width:245px;max-height:65vh;overflow:auto;padding:12px 20px;background:#12283a;border:1px solid #b8995b;box-shadow:0 12px 24px #0003;z-index:100}.study-main-nav a:focus-visible,.study-more summary:focus-visible{outline:2px solid #edcf91;outline-offset:4px}
+@media(max-width:1100px){.study-main-nav{width:100%;justify-content:flex-start;margin:0;gap:4px 18px}.topbar.study-nav{position:relative}}
+@media(max-width:600px){.topbar.study-nav{padding:12px 18px}.study-main-nav{font-size:13px;gap:2px 16px}.study-more>div{right:auto;left:0;width:min(245px,calc(100vw - 36px))}.study-nav .brand strong{font-size:18px}}
+
+@media(max-width:600px){.study-more{position:static}.study-more>div{left:18px;right:18px;top:auto;width:auto}}

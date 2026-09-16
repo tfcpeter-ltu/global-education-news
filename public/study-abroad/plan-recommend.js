@@ -8,7 +8,7 @@ const get=k=>p.get(k)||saved[k]||'';
 const profile={country:get('country'),major:get('major'),goal:get('goal'),curriculum:get('curriculum'),grade:get('grade'),english:get('english'),budget:get('budget'),priority:get('priority'),need:get('need')};
 const gradeBand=profile.grade;
 const gradeStrength=/90%|A 水準/.test(gradeBand)?3:/85–89/.test(gradeBand)?2:/80–84/.test(gradeBand)?1:/75–79/.test(gradeBand)?0:-1;
-const goalTerms=[profile.goal,profile.priority].filter(Boolean).join(' ');
+const goalTerms=p.has('goal')?p.get('goal'):p.has('priority')?p.get('priority'):profile.goal||profile.priority;
 const matchesMajor=x=>!profile.major||(x.majors||[]).includes(profile.major);
 const matchesCountry=x=>!profile.country||x.country===profile.country;
 const goalScore=x=>{let s=0;const gs=(x.goals||[]).join(' ');if(/研究|世界排名|名校/.test(goalTerms)&&/名校|研究/.test(gs))s+=3;if(/就業|企業評價/.test(goalTerms)&&/就業|Co-op|實務|科技/.test(gs))s+=3;if(/Co-op|實習/.test(goalTerms)&&/Co-op|實務|就業/.test(gs))s+=3;if(/專業執照/.test(goalTerms)&&/醫療|工程|就業/.test(gs))s+=2;if(/藝術|產業/.test(goalTerms)&&/藝術|音樂|實務/.test(gs))s+=3;return s;};
