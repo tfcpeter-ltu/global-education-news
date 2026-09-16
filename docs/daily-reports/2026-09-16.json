@@ -289,5 +289,12 @@
     "authorizedAt": "2026-09-16 afternoon Asia/Taipei",
     "completedAt": "2026-09-16T06:41:34.152Z",
     "expectedPosts": 3
+  },
+  "membershipCopyRevision": {
+    "verifiedAt": "2026-09-16T07:01:12.045Z",
+    "verifiedEdits": 11,
+    "notEditableThreads": 4,
+    "log": "docs/social-posts/2026-09-16/membership-copy-revision-log.json",
+    "automationUpdated": true
   }
 }

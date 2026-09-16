@@ -158,3 +158,8 @@
 ## 2026-09-16 新增國內大學資料庫宣傳
 
 使用者要求把 /taiwan-universities/ 加入每日 Threads、Instagram、LinkedIn，各一則。依 docs/taiwan-universities-social.md 執行，既有十二則加本項三則，共十五則；台灣08:00前完成。既有自動化08-00已更新，缺項補發與去重維持。此最新規格優先於上方九／十二則舊文。
+
+
+## 2026-09-16 宣傳改為會員導向固定格式
+
+使用者最新要求：所有平台第一行網站專區主題、第二行專區 URL，接著最新消息／本日精選與篩選內容，最後固定免費加入會員、週報價值與 https://globalednews.com/newsletter/。以 docs/social-copy-format.md 為準；取代舊 hook 開頭、品牌後置及主要 CTA 輪替規則。每日08:00及十五則配置不變。修改舊貼文另記錄實際修訂狀態；Threads 超時不能編輯，不重複發布。

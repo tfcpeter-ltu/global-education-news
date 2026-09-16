@@ -1,0 +1,221 @@
+{
+  "date": "2026-09-16",
+  "copyVersion": "membership-first-v2",
+  "verifiedAt": "2026-09-16T07:01:12.045Z",
+  "format": "網站主題 → 專區網址 → 最新消息／本日精選 → 精選內容 → 免費會員邀請、週報價值與訂閱連結",
+  "membershipUrl": "https://globalednews.com/newsletter/",
+  "membershipPageVerification": "Live page and Brevo email form visible; double opt-in required. No email submitted.",
+  "verifiedEdits": [
+    {
+      "index": 3,
+      "platform": "instagram",
+      "status": "verified",
+      "verifiedAt": "2026-09-16T06:52:09.678Z",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdVqPIKk6QJ/"
+    },
+    {
+      "index": 3,
+      "platform": "linkedin",
+      "status": "verified",
+      "verifiedAt": "2026-09-16T06:52:09.678Z",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7505878167883251712/"
+    },
+    {
+      "index": 0,
+      "platform": "instagram",
+      "status": "verified",
+      "verifiedAt": "2026-09-16T06:52:26.206Z",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdVh3sSEw2-/"
+    },
+    {
+      "index": 0,
+      "platform": "linkedin",
+      "status": "verified",
+      "verifiedAt": "2026-09-16T06:53:54.050Z",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:share:7505862345878056960/"
+    },
+    {
+      "index": 1,
+      "platform": "instagram",
+      "status": "verified",
+      "verifiedAt": "2026-09-16T06:54:17.968Z",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdViwvSE-2B/"
+    },
+    {
+      "index": 1,
+      "platform": "linkedin",
+      "status": "verified",
+      "verifiedAt": "2026-09-16T06:54:57.937Z",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:share:7505862836309377024/"
+    },
+    {
+      "index": 2,
+      "platform": "instagram",
+      "status": "verified",
+      "verifiedAt": "2026-09-16T06:55:36.907Z",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdVlg1Ak-Fz/"
+    },
+    {
+      "index": 2,
+      "platform": "linkedin",
+      "status": "verified",
+      "verifiedAt": "2026-09-16T06:56:06.660Z",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7505866309402808321/"
+    },
+    {
+      "index": 0,
+      "platform": "facebook",
+      "status": "verified",
+      "verifiedAt": "2026-09-16T06:58:19.414Z",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0cJyrUduu6bd75Lx1FnGPh1JHKbrqJ2iRD7QjAvjKpCBHqqezxXyAo1MBeJLLA8xnl"
+    },
+    {
+      "index": 1,
+      "platform": "facebook",
+      "status": "verified",
+      "verifiedAt": "2026-09-16T06:59:42.291Z",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0FvtbZj2Eb3jEL3fnvHop8sw2ZteXtAFAfyaHhegx4gzJruRM29q4eDFch6gx87r6l"
+    },
+    {
+      "index": 2,
+      "platform": "facebook",
+      "status": "verified",
+      "verifiedAt": "2026-09-16T07:00:50.685Z",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0g5ctrNthhMkEHt2DUAPQy5PgZJU9sGAqRMGxZP3UeZYHhtYFKgiPVPk8qkP232Mpl"
+    }
+  ],
+  "notEditable": [
+    {
+      "platform": "threads",
+      "status": "not-editable",
+      "reason": "Threads UI displayed 15分鐘編輯時間已結束。 All four existing posts exceeded this limit; no duplicate repost.",
+      "checkedAt": "2026-09-16T07:01:12.045Z",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdVg_GDEzaM"
+    },
+    {
+      "platform": "threads",
+      "status": "not-editable",
+      "reason": "Threads UI displayed 15分鐘編輯時間已結束。 All four existing posts exceeded this limit; no duplicate repost.",
+      "checkedAt": "2026-09-16T07:01:12.045Z",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdVhKV1Exs9"
+    },
+    {
+      "platform": "threads",
+      "status": "not-editable",
+      "reason": "Threads UI displayed 15分鐘編輯時間已結束。 All four existing posts exceeded this limit; no duplicate repost.",
+      "checkedAt": "2026-09-16T07:01:12.045Z",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdVj1iKk3yw"
+    },
+    {
+      "platform": "threads",
+      "status": "not-editable",
+      "reason": "Threads UI displayed 15分鐘編輯時間已結束。 All four existing posts exceeded this limit; no duplicate repost.",
+      "checkedAt": "2026-09-16T07:01:12.045Z",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdVpiy7Ez1Q"
+    }
+  ],
+  "formatChecks": [
+    {
+      "campaign": "news",
+      "field": "facebookCopy",
+      "characters": 582,
+      "pass": true
+    },
+    {
+      "campaign": "news",
+      "field": "instagramCopy",
+      "characters": 610,
+      "pass": true
+    },
+    {
+      "campaign": "news",
+      "field": "threadsCopy",
+      "characters": 284,
+      "pass": true
+    },
+    {
+      "campaign": "news",
+      "field": "linkedinCopy",
+      "characters": 595,
+      "pass": true
+    },
+    {
+      "campaign": "scholarship",
+      "field": "facebookCopy",
+      "characters": 611,
+      "pass": true
+    },
+    {
+      "campaign": "scholarship",
+      "field": "instagramCopy",
+      "characters": 639,
+      "pass": true
+    },
+    {
+      "campaign": "scholarship",
+      "field": "threadsCopy",
+      "characters": 313,
+      "pass": true
+    },
+    {
+      "campaign": "scholarship",
+      "field": "linkedinCopy",
+      "characters": 624,
+      "pass": true
+    },
+    {
+      "campaign": "study-abroad",
+      "field": "facebookCopy",
+      "characters": 350,
+      "pass": true
+    },
+    {
+      "campaign": "study-abroad",
+      "field": "instagramCopy",
+      "characters": 378,
+      "pass": true
+    },
+    {
+      "campaign": "study-abroad",
+      "field": "threadsCopy",
+      "characters": 216,
+      "pass": true
+    },
+    {
+      "campaign": "study-abroad",
+      "field": "linkedinCopy",
+      "characters": 363,
+      "pass": true
+    },
+    {
+      "campaign": "taiwan-universities",
+      "field": "instagramCopy",
+      "characters": 329,
+      "pass": true
+    },
+    {
+      "campaign": "taiwan-universities",
+      "field": "threadsCopy",
+      "characters": 261,
+      "pass": true
+    },
+    {
+      "campaign": "taiwan-universities",
+      "field": "linkedinCopy",
+      "characters": 314,
+      "pass": true
+    }
+  ],
+  "automation": {
+    "id": "08-00",
+    "updated": true,
+    "deadline": "08:00 Asia/Taipei",
+    "dailyPosts": 15
+  },
+  "notes": [
+    "Existing post IDs and images retained.",
+    "11 public edits verified: Facebook 3, Instagram 4, LinkedIn 4.",
+    "Threads new drafts prepared; four old posts cannot be edited after platform limit.",
+    "LinkedIn editor required explicit Control+A, Backspace and Control+V; content read back before final save."
+  ]
+}
