@@ -1,0 +1,89 @@
+{
+  "date": "2026-09-18",
+  "timezone": "Asia/Taipei",
+  "status": "partial",
+  "baselineCommit": "744b78e91cf3dca3b3a6911b9032fa803a666439",
+  "newsPublished": [],
+  "scholarshipChecks": [],
+  "peterImports": [],
+  "socialPosts": [],
+  "research": {
+    "news": [
+      {
+        "slug": "australia-student-family-course-reform-september-2026",
+        "title": "澳洲宣布收緊留學生攜眷與轉課規則：博士等例外、實施細節仍須追蹤",
+        "sources": [
+          {
+            "label": "澳洲內政部長｜9 月 17 日改革公告",
+            "url": "https://minister.homeaffairs.gov.au/TonyBurke/Pages/migration-reform-end-rorts-bring-skills-australia-needs-strong-economy.aspx"
+          },
+          {
+            "label": "澳洲內政部長｜全國新聞俱樂部演說",
+            "url": "https://minister.homeaffairs.gov.au/TonyBurke/Pages/speech-national-press-club-17092026.aspx"
+          },
+          {
+            "label": "ABC｜Clare Armstrong 獨立報導",
+            "url": "https://www.abc.net.au/news/2026-09-17/labor-immigration-crackdown-students-backpackers-overstay-visa/107164354"
+          }
+        ],
+        "status": "sources-read-draft-prepared"
+      },
+      {
+        "slug": "us-opt-fee-proposal-oira-review-september-2026",
+        "title": "美國 OPT 收費提案完成 OIRA 審查：仍是提案階段，金額與生效日未公布",
+        "sources": [
+          {
+            "label": "OIRA｜RIN 1653-AB01 官方審查紀錄",
+            "url": "https://www.reginfo.gov/public/do/eoDetails?rrid=1506461"
+          },
+          {
+            "label": "The PIE News｜OPT 收費提案報導（9 月 17 日）",
+            "url": "https://thepienews.com/opt-fee-proposal-clears-white-house-review/"
+          }
+        ],
+        "status": "sources-read-draft-prepared"
+      },
+      {
+        "slug": "qs-global-mba-2027-mit-sloan",
+        "title": "QS 2027 全球 MBA 排名公布：MIT Sloan 居首，選校仍須分清排名與個人適合度",
+        "sources": [
+          {
+            "label": "QS｜2027 全球 MBA 排名官方結果",
+            "url": "https://www.qs.com/insights/global-mba-rankings"
+          },
+          {
+            "label": "Poets&Quants｜Jeff Schmitt 獨立排名分析",
+            "url": "https://poetsandquants.com/2026/09/16/qs-global-mba-ranking-a-new-1-tops-stanford-harvard-wharton/"
+          }
+        ],
+        "status": "sources-read-draft-prepared"
+      }
+    ],
+    "rejected": [
+      {
+        "topic": "ACE Fall 2026 Pulse Point",
+        "reason": "媒體所述移民／簽證憂慮比例 59% 與官方報告 38%+25%=63% 不符，暫不刊登。"
+      }
+    ],
+    "sunmoon": {
+      "url": "https://www.sunmoonnews.com.tw/",
+      "checkedAt": "2026-09-18T04:53:00+08:00",
+      "result": "已閱讀首頁，最新 9/17 為地方美食及農產；未取得符合本批國際教育主題且雙重查核完成的新稿。"
+    }
+  },
+  "deployment": {
+    "status": "pending"
+  },
+  "acceptance": {
+    "desktop": false,
+    "mobile": false,
+    "seo": false
+  },
+  "remaining": [
+    "3 篇新聞待建置部署與正式站驗收",
+    "當日獎學金查核",
+    "Peter 新貼文讀取與去重收錄",
+    "四主題十五則社群發布及回讀",
+    "每日證據驗證"
+  ]
+}
