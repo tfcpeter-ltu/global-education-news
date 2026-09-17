@@ -227,10 +227,40 @@
       "articleUrl": "https://globalednews.com/scholarships/items/2026-09-knight-hennessy-2027",
       "verifiedAt": "2026-09-17T01:03:48.082Z",
       "version": "2026-09-17-membership-v1"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DdXpktgk5Bl",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdXpktgk5Bl",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "verifiedAt": "2026-09-17T01:12:20.750Z",
+      "version": "2026-09-17-membership-v1"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "id": "pfbid0qEARPQg3PjHWHS7PKcykQ2fazvWDQyZHVB8Qj6bvaUmDkuzYWnXmThM1usgzha5Bl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0qEARPQg3PjHWHS7PKcykQ2fazvWDQyZHVB8Qj6bvaUmDkuzYWnXmThM1usgzha5Bl",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "verifiedAt": "2026-09-17T01:15:31.455Z",
+      "version": "2026-09-17-membership-v1"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DdXp8QQky4W",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdXp8QQky4W",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "verifiedAt": "2026-09-17T01:15:31.455Z",
+      "version": "2026-09-17-membership-v1"
     }
   ],
   "remaining": [
-    "DIY四平台、國內資料庫三平台共7則社群",
+    "IG、LinkedIn各2則共4則社群",
     "桌面手機完整驗收與SEO",
     "每日驗證腳本"
   ],
