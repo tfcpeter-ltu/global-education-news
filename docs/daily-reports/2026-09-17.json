@@ -187,6 +187,26 @@
       "verifiedAt": "2026-09-17T00:48:38.681Z",
       "version": "2026-09-17-membership-v1",
       "threadsSync": false
+    },
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "id": "pfbid0SFaeyDkwb5jbkkxAexfTaTdTPA5ovGh79AB5qqkT1XyfJJACJYf94MocLu2BGunwl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0SFaeyDkwb5jbkkxAexfTaTdTPA5ovGh79AB5qqkT1XyfJJACJYf94MocLu2BGunwl",
+      "articleUrl": "https://globalednews.com/news/canada-graduate-student-policy-september-2026/",
+      "verifiedAt": "2026-09-17T00:53:26.484Z",
+      "version": "2026-09-17-membership-v1"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "id": "pfbid023GtYa5U76pLGnqjwDEmADe2yF84VFvSgj8tcxVhhTQfH5FNerh2guThTAW3ibZdHl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid023GtYa5U76pLGnqjwDEmADe2yF84VFvSgj8tcxVhhTQfH5FNerh2guThTAW3ibZdHl",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-knight-hennessy-2027",
+      "verifiedAt": "2026-09-17T00:56:05.758Z",
+      "version": "2026-09-17-membership-v1"
     }
   ],
   "remaining": [
