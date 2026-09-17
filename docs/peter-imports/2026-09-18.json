@@ -1,6 +1,6 @@
 {
   "date": "2026-09-18",
-  "status": "prepared",
+  "status": "published-verified",
   "sourcePage": "61585164670358",
   "articles": [
     {
@@ -51,8 +51,9 @@
       "image": "/images/peter/uk-computer-science-conversion-planning.svg",
       "imageAlt": "英國資工碩士：非本科轉領域，先看課程為誰設計，本站原創文字封面",
       "url": "https://globalednews.com/peter/uk-computer-science-conversion-planning/",
-      "status": "prepared",
-      "readAt": "2026-09-17T22:07:27.481Z"
+      "status": "published-verified",
+      "readAt": "2026-09-17T22:07:27.481Z",
+      "verifiedAt": "2026-09-17T22:18:41.774Z"
     },
     {
       "author": "Peter",
@@ -96,8 +97,9 @@
       "image": "/images/peter/learning-progress-not-defined-by-grades.svg",
       "imageAlt": "孩子，現在的成績還不能替人生下結論，本站原創文字封面",
       "url": "https://globalednews.com/peter/learning-progress-not-defined-by-grades/",
-      "status": "prepared",
-      "readAt": "2026-09-17T22:07:27.481Z"
+      "status": "published-verified",
+      "readAt": "2026-09-17T22:07:27.481Z",
+      "verifiedAt": "2026-09-17T22:18:41.774Z"
     },
     {
       "author": "Peter",
@@ -130,8 +132,9 @@
       "image": "/images/peter/ai-learning-interest-and-human-agency.svg",
       "imageAlt": "AI 時代先問自己想學什麼：Peter 談熱情與工具，本站原創文字封面",
       "url": "https://globalednews.com/peter/ai-learning-interest-and-human-agency/",
-      "status": "prepared",
-      "readAt": "2026-09-17T22:07:27.481Z"
+      "status": "published-verified",
+      "readAt": "2026-09-17T22:07:27.481Z",
+      "verifiedAt": "2026-09-17T22:18:41.774Z"
     }
   ],
   "excluded": [
@@ -154,5 +157,6 @@
       "reason": "Brock 說明會錄影分享非本批完整分析稿",
       "originalDateLabel": "3天"
     }
-  ]
+  ],
+  "verifiedAt": "2026-09-17T22:18:41.774Z"
 }

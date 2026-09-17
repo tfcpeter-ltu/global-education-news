@@ -1,6 +1,6 @@
 {
   "date": "2026-09-18",
-  "status": "partial",
+  "status": "completed",
   "posts": [
     {
       "campaign": "news",
@@ -99,7 +99,10 @@
       "observedAt": "2026-09-17T21:40:15.113Z",
       "verifiedAt": "2026-09-17T21:40:15.114Z",
       "articleUrl": "https://globalednews.com/study-abroad/",
-      "version": 1
+      "version": 1,
+      "imageCount": 2,
+      "screenshotAddedAt": "2026-09-17T22:18:41.774Z",
+      "screenshotPhotoId": "1064027049706826"
     },
     {
       "campaign": "news",

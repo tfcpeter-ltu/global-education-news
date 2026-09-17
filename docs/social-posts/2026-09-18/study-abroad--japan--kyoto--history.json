@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "campaign": "study-abroad",
-  "status": "PUBLISHED_SCREENSHOT_ARCHIVE_PENDING",
+  "status": "PUBLISHED",
   "articleTitle": "京都大學的1897年起點：從校史走到自己的選校問題",
   "articleUrl": "https://globalednews.com/study-abroad/",
   "country": "japan",
@@ -33,10 +33,61 @@
     }
   ],
   "verifiedAt": "2026-09-17T21:27:48.386Z",
-  "publishedPosts": [],
+  "publishedPosts": [
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DdZ1aLYE3Mf",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdZ1aLYE3Mf",
+      "publishedAt": "2026-09-17T21:32:50.000Z",
+      "verifiedAt": "2026-09-17T21:34:20.876Z",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "version": 1
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "DdZ170rkyav",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdZ170rkyav/",
+      "publishedAt": "2026-09-17T21:37:26.000Z",
+      "verifiedAt": "2026-09-17T21:39:50.741Z",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "version": 1
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "id": "pfbid02QsXfLgH5Vvc4jsxQmW2VQgFaH5cXHn719XpSen81reJSxa1HpCvo5zXtVMAPpVaWl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02QsXfLgH5Vvc4jsxQmW2VQgFaH5cXHn719XpSen81reJSxa1HpCvo5zXtVMAPpVaWl",
+      "observedAt": "2026-09-17T21:40:15.113Z",
+      "verifiedAt": "2026-09-17T21:40:15.114Z",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "version": 1,
+      "imageCount": 2,
+      "screenshotAddedAt": "2026-09-17T22:18:41.774Z",
+      "screenshotPhotoId": "1064027049706826"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "id": "7506472380643328000",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7506472380643328000/",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "version": 1,
+      "observedAt": "2026-09-17T22:02:12.886Z",
+      "verifiedAt": "2026-09-17T22:02:12.886Z",
+      "imageMode": "uploaded licensed Kyoto campus photo"
+    }
+  ],
   "imageRequest": {
-    "status": "screenshot-save-blocked",
-    "description": "當日導航及國內資料庫截圖已在瀏覽器產生，寫入檔案被只讀環境 EPERM 拒絕；不可用舊截圖代替。"
+    "status": "resolved",
+    "resolvedAt": "2026-09-17T22:18:41.774Z",
+    "asset": "public/images/social/2026-09-18/study-abroad-live.png",
+    "note": "今日正式站截圖已歸檔並補入既有 Facebook 貼文；其餘平台使用已核授權京都實景。"
   },
   "threadsCopy": "留學 DIY 導航｜海外大學選校與申請規劃\nhttps://globalednews.com/study-abroad/\n\n最新消息｜本日精選\n京都大學於 1897 年以京都帝國大學之名創立。校史可以開啟興趣，選校還要回到：你想學什麼、課程用哪種語言、資格如何確認？\n導航已收錄 Kyoto University，可從日本專區找學校；官方課程頁仍待逐校核對，不能把整理卡片當招生承諾。\n教育消息：https://globalednews.com/\n\n追蹤最新消息，請點擊免費加入環球教育新聞會員！每週一封教育新聞、招生政策與精選觀點；免費且可取消。\nhttps://globalednews.com/newsletter/\n圖：Soraie8288／Wikimedia Commons，2015 年京都大學時計台資料照，原圖未修改。CC BY-SA 4.0：https://creativecommons.org/licenses/by-sa/4.0/",
   "instagramCopy": "留學 DIY 導航｜海外大學選校與申請規劃\nhttps://globalednews.com/study-abroad/\n\n最新消息｜本日精選\n京都大學的故事，從 1897 年開始。\n看完校園，也把自己的選校問題寫下來：想讀的科系、授課語言、申請資格。\n在日本專區找到 Kyoto University，再回查當年度官方課程資料。站內仍標示課程頁待核對，不代表錄取保證。\n教育消息：https://globalednews.com/\n\n追蹤最新消息，請點擊免費加入環球教育新聞會員！每週一封教育新聞、招生政策與精選觀點；免費且可取消。\nhttps://globalednews.com/newsletter/\nIG 網址請複製至瀏覽器。\n圖：Soraie8288／Wikimedia Commons，2015 年京都大學時計台資料照，原圖未修改。CC BY-SA 4.0：https://creativecommons.org/licenses/by-sa/4.0/",
@@ -75,7 +126,10 @@
       "observedAt": "2026-09-17T21:40:15.113Z",
       "verifiedAt": "2026-09-17T21:40:15.114Z",
       "articleUrl": "https://globalednews.com/study-abroad/",
-      "version": 1
+      "version": 1,
+      "imageCount": 2,
+      "screenshotAddedAt": "2026-09-17T22:18:41.774Z",
+      "screenshotPhotoId": "1064027049706826"
     },
     {
       "campaign": "study-abroad",

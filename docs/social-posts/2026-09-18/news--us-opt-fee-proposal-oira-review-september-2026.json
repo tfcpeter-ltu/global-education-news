@@ -2,7 +2,7 @@
   "date": "2026-09-18",
   "campaign": "news",
   "version": 1,
-  "status": "DRAFT_PENDING_DEPLOYMENT_AND_PLATFORM_CHECK",
+  "status": "PUBLISHED",
   "selectedForDailyPromotion": true,
   "articleTitle": "美國 OPT 收費提案完成 OIRA 審查：仍是提案階段，金額與生效日未公布",
   "articleUrl": "https://globalednews.com/news/us-opt-fee-proposal-oira-review-september-2026/",
@@ -33,5 +33,98 @@
     "imageCredit": "Ed Brown / Wikimedia Commons，公有領域；版面可能裁切",
     "license": "Public domain dedication by author"
   },
-  "publicationResults": []
+  "publicationResults": [
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "DdZyoUHE7Cl",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdZyoUHE7Cl/",
+      "publishedAt": "2026-09-17T21:08:33.000Z",
+      "verifiedAt": "2026-09-17T21:09:27Z",
+      "articleUrl": "https://globalednews.com/news/us-opt-fee-proposal-oira-review-september-2026/",
+      "version": 1
+    },
+    {
+      "campaign": "news",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DdZzW-0EyPJ",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdZzW-0EyPJ",
+      "publishedAt": "2026-09-17T21:14:55.000Z",
+      "verifiedAt": "2026-09-17T21:15:46.552Z",
+      "articleUrl": "https://globalednews.com/news/us-opt-fee-proposal-oira-review-september-2026/",
+      "version": 1
+    },
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "id": "pfbid02JUDRocBM3adHwU1dGVAN2G9dxDUr5tiXS8EHrVtQy6PaXN5yNKuKi1URczYZYVAel",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02JUDRocBM3adHwU1dGVAN2G9dxDUr5tiXS8EHrVtQy6PaXN5yNKuKi1URczYZYVAel",
+      "verifiedAt": "2026-09-17T21:18:03.727Z",
+      "observedAt": "2026-09-17T21:18:03.727Z",
+      "articleUrl": "https://globalednews.com/news/us-opt-fee-proposal-oira-review-september-2026/",
+      "version": 1
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7506467714127826946",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7506467714127826946/",
+      "observedAt": "2026-09-17T21:44:01.333Z",
+      "verifiedAt": "2026-09-17T21:44:01.333Z",
+      "articleUrl": "https://globalednews.com/news/us-opt-fee-proposal-oira-review-september-2026/",
+      "version": 1,
+      "imageMode": "LinkedIn link-preview; article image shown in draft, final preview retitled homepage"
+    }
+  ],
+  "publishedPosts": [
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "DdZyoUHE7Cl",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdZyoUHE7Cl/",
+      "publishedAt": "2026-09-17T21:08:33.000Z",
+      "verifiedAt": "2026-09-17T21:09:27Z",
+      "articleUrl": "https://globalednews.com/news/us-opt-fee-proposal-oira-review-september-2026/",
+      "version": 1
+    },
+    {
+      "campaign": "news",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DdZzW-0EyPJ",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdZzW-0EyPJ",
+      "publishedAt": "2026-09-17T21:14:55.000Z",
+      "verifiedAt": "2026-09-17T21:15:46.552Z",
+      "articleUrl": "https://globalednews.com/news/us-opt-fee-proposal-oira-review-september-2026/",
+      "version": 1
+    },
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "id": "pfbid02JUDRocBM3adHwU1dGVAN2G9dxDUr5tiXS8EHrVtQy6PaXN5yNKuKi1URczYZYVAel",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02JUDRocBM3adHwU1dGVAN2G9dxDUr5tiXS8EHrVtQy6PaXN5yNKuKi1URczYZYVAel",
+      "verifiedAt": "2026-09-17T21:18:03.727Z",
+      "observedAt": "2026-09-17T21:18:03.727Z",
+      "articleUrl": "https://globalednews.com/news/us-opt-fee-proposal-oira-review-september-2026/",
+      "version": 1
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7506467714127826946",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7506467714127826946/",
+      "observedAt": "2026-09-17T21:44:01.333Z",
+      "verifiedAt": "2026-09-17T21:44:01.333Z",
+      "articleUrl": "https://globalednews.com/news/us-opt-fee-proposal-oira-review-september-2026/",
+      "version": 1,
+      "imageMode": "LinkedIn link-preview; article image shown in draft, final preview retitled homepage"
+    }
+  ]
 }

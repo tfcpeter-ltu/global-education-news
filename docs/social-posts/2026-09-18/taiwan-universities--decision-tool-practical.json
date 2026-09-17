@@ -61,5 +61,40 @@
     "source": "Formal live application, decision-tool",
     "method": "CUA screenshot pasted to own Threads post; download own published screenshot for cross-platform reuse",
     "publishedMediaUrl": "https://scontent.cdninstagram.com/v/t51.82787-15/814535092_17965479858178785_8473967255617064807_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=Mzk4ODQ2MjU3MDYxNzEyNzkyMQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuODEwLnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=UZiZERNIoh8Q7kNvwH2bPxA&_nc_oc=AdqexpmUiTT4YbFQBA4mKvUfqxitJBvj9iYcGXVcfYp315e1B0--cPsTWcigpsMKwCk&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=L7r8ojD-jwl4VzcXcgRbqg&_nc_ss=7b2a8&oh=00_AQIbv-_8tkAdruGskGGp7HLJ0M-wiAYpHqDKUAR_f7QCkg&oe=6AB21F7D"
-  }
+  },
+  "publishedPosts": [
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DdZ3ZOBk0Px",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdZ3ZOBk0Px",
+      "publishedAt": "2026-09-17T21:50:11.000Z",
+      "verifiedAt": "2026-09-17T21:51:31.877Z",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "version": 1
+    },
+    {
+      "network": "instagram",
+      "id": "DdZ4TVxE9o5",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdZ4TVxE9o5/",
+      "publishedAt": "2026-09-17T21:58:07.000Z",
+      "campaign": "taiwan-universities",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "version": 1,
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-17T21:59:17.147Z"
+    },
+    {
+      "network": "linkedin",
+      "id": "7506471681201192960",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7506471681201192960/",
+      "observedAt": "2026-09-17T21:59:17.147Z",
+      "campaign": "taiwan-universities",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "version": 1,
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-17T21:59:17.147Z"
+    }
+  ]
 }

@@ -38,6 +38,48 @@
           "imageCount": 2
         }
       ]
+    },
+    {
+      "date": "2026-09-18",
+      "topic": "實作取向科系決策工具",
+      "contentPath": "docs/social-posts/2026-09-18/taiwan-universities--decision-tool-practical.json",
+      "CTA": "免費加入會員",
+      "status": "published",
+      "publishedPosts": [
+        {
+          "campaign": "taiwan-universities",
+          "network": "threads",
+          "status": "PUBLISHED",
+          "id": "DdZ3ZOBk0Px",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdZ3ZOBk0Px",
+          "publishedAt": "2026-09-17T21:50:11.000Z",
+          "verifiedAt": "2026-09-17T21:51:31.877Z",
+          "articleUrl": "https://globalednews.com/taiwan-universities/",
+          "version": 1
+        },
+        {
+          "network": "instagram",
+          "id": "DdZ4TVxE9o5",
+          "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdZ4TVxE9o5/",
+          "publishedAt": "2026-09-17T21:58:07.000Z",
+          "campaign": "taiwan-universities",
+          "articleUrl": "https://globalednews.com/taiwan-universities/",
+          "version": 1,
+          "status": "PUBLISHED",
+          "verifiedAt": "2026-09-17T21:59:17.147Z"
+        },
+        {
+          "network": "linkedin",
+          "id": "7506471681201192960",
+          "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7506471681201192960/",
+          "observedAt": "2026-09-17T21:59:17.147Z",
+          "campaign": "taiwan-universities",
+          "articleUrl": "https://globalednews.com/taiwan-universities/",
+          "version": 1,
+          "status": "PUBLISHED",
+          "verifiedAt": "2026-09-17T21:59:17.147Z"
+        }
+      ]
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "date": "2026-09-18",
   "timezone": "Asia/Taipei",
-  "status": "partial",
+  "status": "completed",
   "baselineCommit": "744b78e91cf3dca3b3a6911b9032fa803a666439",
   "newsPublished": [
     {
@@ -37,7 +37,29 @@
       "limitations": "第一個學士學位原則2020年1月後；研究所獨立申請與更早期限另須符合，MBA Round 1。"
     }
   ],
-  "peterImports": [],
+  "peterImports": [
+    {
+      "sourceId": "122144117337172155",
+      "sourceUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid02ebEYTKH1bwqjTL7q7HW64pyNGtpecqKFhNcGWK9CTXnAqofoVXZNwesp7MU83d62l&id=61585164670358",
+      "url": "https://globalednews.com/peter/uk-computer-science-conversion-planning/",
+      "title": "英國資工碩士：非本科轉領域，先看課程為誰設計",
+      "verifiedAt": "2026-09-17T22:17:24.720Z"
+    },
+    {
+      "sourceId": "2310687056370566",
+      "sourceUrl": "https://www.facebook.com/reel/2310687056370566/",
+      "url": "https://globalednews.com/peter/learning-progress-not-defined-by-grades/",
+      "title": "孩子，現在的成績還不能替人生下結論",
+      "verifiedAt": "2026-09-17T22:17:24.720Z"
+    },
+    {
+      "sourceId": "1390544539723157",
+      "sourceUrl": "https://www.facebook.com/reel/1390544539723157/",
+      "url": "https://globalednews.com/peter/ai-learning-interest-and-human-agency/",
+      "title": "AI 時代先問自己想學什麼：Peter 談熱情與工具",
+      "verifiedAt": "2026-09-17T22:17:24.720Z"
+    }
+  ],
   "socialPosts": [
     {
       "campaign": "news",
@@ -136,7 +158,10 @@
       "observedAt": "2026-09-17T21:40:15.113Z",
       "verifiedAt": "2026-09-17T21:40:15.114Z",
       "articleUrl": "https://globalednews.com/study-abroad/",
-      "version": 1
+      "version": 1,
+      "imageCount": 2,
+      "screenshotAddedAt": "2026-09-17T22:18:41.774Z",
+      "screenshotPhotoId": "1064027049706826"
     },
     {
       "campaign": "news",
@@ -227,7 +252,7 @@
             "url": "https://www.abc.net.au/news/2026-09-17/labor-immigration-crackdown-students-backpackers-overstay-visa/107164354"
           }
         ],
-        "status": "sources-read-draft-prepared"
+        "status": "published-verified"
       },
       {
         "slug": "us-opt-fee-proposal-oira-review-september-2026",
@@ -242,7 +267,7 @@
             "url": "https://thepienews.com/opt-fee-proposal-clears-white-house-review/"
           }
         ],
-        "status": "sources-read-draft-prepared"
+        "status": "published-verified"
       },
       {
         "slug": "qs-global-mba-2027-mit-sloan",
@@ -257,7 +282,7 @@
             "url": "https://poetsandquants.com/2026/09/16/qs-global-mba-ranking-a-new-1-tops-stanford-harvard-wharton/"
           }
         ],
-        "status": "sources-read-draft-prepared"
+        "status": "published-verified"
       }
     ],
     "rejected": [
@@ -273,22 +298,20 @@
     }
   },
   "deployment": {
-    "commit": "5ba9bdbd6b44fe6c5cccc2130f5fff4548a6338f",
+    "commit": "adf0c23ded9e2c3e95c6b07cb9ad03af91f1d826",
     "status": "success",
-    "runUrl": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/35274292280",
-    "verifiedAt": "2026-09-17 21:06:08 UTC"
+    "runUrl": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/35280577166",
+    "verifiedAt": "2026-09-17T22:17:24.720Z"
   },
   "acceptance": {
-    "desktop": false,
+    "desktop": true,
     "mobile": true,
-    "seo": false,
-    "notes": "三篇正式網址及手機標題、圖檔已讀取；桌面及 sitemap/RSS 尚待完整核驗。"
+    "seo": true,
+    "verifiedAt": "2026-09-17T22:17:24.720Z",
+    "notes": "三篇新聞與三篇 Peter 正式頁：桌面1773、手機390檢查標題、主圖及頁寬無橫向溢出。新聞 canonical、OG、NewsArticle、NewsMediaOrganization、WebSite 皆存在；三篇均納入 sitemap-0.xml、news-sitemap.xml、weekly-feed.xml。獎學金 Enter 搜尋、按鈕、開放篩選、零筆提示及結果位置已實際操作；Peter 列表新增三篇可見；會員入口 Brevo 表單與每週、免費、可取消說明已回讀。",
+    "imageAudit": "今日三篇不同新聞主圖互異，正式首頁已載入；同一篇新聞會同時出現於頭條及最新列表，此為既有首頁重複文章呈現。"
   },
-  "remaining": [
-    "Peter 三則收錄與部署",
-    "完整SEO驗收與每日證據檢查",
-    "DIY 導航當日截圖歸檔"
-  ],
+  "remaining": [],
   "localBuild": {
     "status": "success",
     "completedAt": "2026-09-18T06:08:53+08:00",
@@ -296,5 +319,12 @@
     "navigationPages": 247,
     "command": "package.json build steps executed with bundled Node: generate-scholarship-seed, astro build, unify-study-navigation"
   },
-  "blockers": []
+  "blockers": [],
+  "completedAt": "2026-09-17T22:18:41.774Z",
+  "validation": {
+    "command": "node scripts/verify-daily-delivery.mjs 2026-09-18",
+    "exitCode": 0,
+    "verifiedAt": "2026-09-17T22:19:03.226Z",
+    "result": "COMPLETE: 3 news, scholarship, 3 Peter imports, 15 social posts and deployment evidence present; actual browser readback performed separately."
+  }
 }

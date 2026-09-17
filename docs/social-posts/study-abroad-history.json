@@ -91,6 +91,65 @@
           "verifiedAt": "2026-09-16T05:59:32.757Z"
         }
       ]
+    },
+    {
+      "date": "2026-09-18",
+      "country": "japan",
+      "schoolName": "Kyoto University",
+      "storyAngle": "1897-history-and-official-course-check",
+      "contentPath": "docs/social-posts/2026-09-18/study-abroad--japan--kyoto--history.json",
+      "CTA": "免費加入會員",
+      "status": "published",
+      "publishedPosts": [
+        {
+          "campaign": "study-abroad",
+          "network": "threads",
+          "status": "PUBLISHED",
+          "id": "DdZ1aLYE3Mf",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdZ1aLYE3Mf",
+          "publishedAt": "2026-09-17T21:32:50.000Z",
+          "verifiedAt": "2026-09-17T21:34:20.876Z",
+          "articleUrl": "https://globalednews.com/study-abroad/",
+          "version": 1
+        },
+        {
+          "campaign": "study-abroad",
+          "network": "instagram",
+          "status": "PUBLISHED",
+          "id": "DdZ170rkyav",
+          "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdZ170rkyav/",
+          "publishedAt": "2026-09-17T21:37:26.000Z",
+          "verifiedAt": "2026-09-17T21:39:50.741Z",
+          "articleUrl": "https://globalednews.com/study-abroad/",
+          "version": 1
+        },
+        {
+          "campaign": "study-abroad",
+          "network": "facebook",
+          "status": "PUBLISHED",
+          "id": "pfbid02QsXfLgH5Vvc4jsxQmW2VQgFaH5cXHn719XpSen81reJSxa1HpCvo5zXtVMAPpVaWl",
+          "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02QsXfLgH5Vvc4jsxQmW2VQgFaH5cXHn719XpSen81reJSxa1HpCvo5zXtVMAPpVaWl",
+          "observedAt": "2026-09-17T21:40:15.113Z",
+          "verifiedAt": "2026-09-17T21:40:15.114Z",
+          "articleUrl": "https://globalednews.com/study-abroad/",
+          "version": 1,
+          "imageCount": 2,
+          "screenshotAddedAt": "2026-09-17T22:18:41.774Z",
+          "screenshotPhotoId": "1064027049706826"
+        },
+        {
+          "campaign": "study-abroad",
+          "network": "linkedin",
+          "id": "7506472380643328000",
+          "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7506472380643328000/",
+          "status": "PUBLISHED",
+          "articleUrl": "https://globalednews.com/study-abroad/",
+          "version": 1,
+          "observedAt": "2026-09-17T22:02:12.886Z",
+          "verifiedAt": "2026-09-17T22:02:12.886Z",
+          "imageMode": "uploaded licensed Kyoto campus photo"
+        }
+      ]
     }
   ]
 }

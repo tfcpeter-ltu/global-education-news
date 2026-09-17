@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "campaign": "scholarship",
-  "status": "PARTIAL_LINKEDIN_LOGIN_REQUIRED",
+  "status": "PUBLISHED",
   "articleTitle": "Stanford Knight-Hennessy Scholars 2027：先核對資格與兩套截止日",
   "articleUrl": "https://globalednews.com/scholarships/items/2026-09-knight-hennessy-2027",
   "shortHook": "KHS 最長三年資助，不等於每個學位全程無上限。",
@@ -63,6 +63,18 @@
       "version": 1,
       "verifiedAt": "2026-09-17T21:25:03.131Z",
       "articleUrl": "https://globalednews.com/scholarships/items/2026-09-knight-hennessy-2027"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7506468696521953283",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7506468696521953283/",
+      "observedAt": "2026-09-17T21:47:35.321Z",
+      "verifiedAt": "2026-09-17T21:47:35.321Z",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-knight-hennessy-2027",
+      "version": 1,
+      "imageMode": "uploaded Stanford licensed photo"
     }
   ],
   "facebookCopy": "專屬台灣學生的國際留學獎學金雷達\nhttps://globalednews.com/scholarships/\n\n最新消息｜本日精選\n看見「全額型」獎學金，先問資助期間有多長。Stanford Knight-Hennessy Scholars 2027 已開放，最長提供三年資助，涵蓋學費、相關費用、生活及學術津貼與年度往返旅費。\n\n若學位超過三年，後續資助依各系所標準承諾，不能直接當成全程無上限。對台灣家庭，規劃預算時要把獎助範圍、年限與學位長度一起看。\n\n台灣學生可申請；一般須於 2020 年 1 月或之後取得第一個學士學位，另有兵役等例外。KHS 截止為台灣 10/7 凌晨 04:00；研究所須分開申請，依 KHS 指定課程期限或 12/1 較早者辦理，MBA 須 Round 1。\n\n今天重新比對 Stanford 官方與 UC Berkeley 獎學金辦公室。完整資格、限制與來源：https://globalednews.com/scholarships/items/2026-09-knight-hennessy-2027\n\n追蹤最新消息，請點擊免費加入環球教育新聞會員！每週一封教育新聞、招生政策與精選觀點；免費且可取消。\nhttps://globalednews.com/newsletter/\n圖：Jawed Karim／Wikimedia Commons，2004 年校園資料照，原圖未修改。CC BY-SA 3.0：https://creativecommons.org/licenses/by-sa/3.0/",
@@ -72,5 +84,52 @@
   "xCopy": "專屬台灣學生的國際留學獎學金雷達\nhttps://globalednews.com/scholarships/\n\n最新消息\nStanford KHS 2027：台灣時間 10/7 凌晨 04:00 截止。台灣學生可申請，須符合學士年限及研究所條件；最長資助三年。系所另申請、期限可能更早，MBA 須 Round 1。\nhttps://globalednews.com/scholarships/items/2026-09-knight-hennessy-2027\n\n追蹤最新消息，請點擊免費加入環球教育新聞會員！\n每週一封教育新聞、招生政策與精選觀點；免費訂閱，隨時可取消。\nhttps://globalednews.com/newsletter/",
   "copyVersion": "2026-09-18-funding-limits",
   "date": "2026-09-18",
-  "storyAngle": "最長三年資助與研究所分開申請"
+  "storyAngle": "最長三年資助與研究所分開申請",
+  "publicationResults": [
+    {
+      "network": "threads",
+      "id": "DdZz7jlEy7d",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdZz7jlEy7d",
+      "publishedAt": "2026-09-17T21:19:55.000Z",
+      "campaign": "scholarship",
+      "status": "PUBLISHED",
+      "version": 1,
+      "verifiedAt": "2026-09-17T21:25:03.131Z",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-knight-hennessy-2027"
+    },
+    {
+      "network": "instagram",
+      "id": "DdZ0LkRE75n",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdZ0LkRE75n/",
+      "publishedAt": "2026-09-17T21:22:06.000Z",
+      "campaign": "scholarship",
+      "status": "PUBLISHED",
+      "version": 1,
+      "verifiedAt": "2026-09-17T21:25:03.131Z",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-knight-hennessy-2027"
+    },
+    {
+      "network": "facebook",
+      "id": "pfbid02Wqj2q8neRz5BT5BmVj3EcjDv1GFfdHLJVKrhxffurY5Sc5VDTdEUqKX7JaGDcdVHl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02Wqj2q8neRz5BT5BmVj3EcjDv1GFfdHLJVKrhxffurY5Sc5VDTdEUqKX7JaGDcdVHl",
+      "observedAt": "2026-09-17T21:25:03.131Z",
+      "campaign": "scholarship",
+      "status": "PUBLISHED",
+      "version": 1,
+      "verifiedAt": "2026-09-17T21:25:03.131Z",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-knight-hennessy-2027"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7506468696521953283",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7506468696521953283/",
+      "observedAt": "2026-09-17T21:47:35.321Z",
+      "verifiedAt": "2026-09-17T21:47:35.321Z",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-knight-hennessy-2027",
+      "version": 1,
+      "imageMode": "uploaded Stanford licensed photo"
+    }
+  ]
 }
