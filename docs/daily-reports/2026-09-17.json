@@ -127,7 +127,23 @@
       "verification": "Official2027eligibility/deadlines and independentBerkeley read; formal article Sep17updated verified"
     }
   ],
-  "peterImports": [],
+  "peterImports": [
+    {
+      "url": "https://globalednews.com/peter/uk-placement-year-planning/",
+      "sourceId": "122144024481172155",
+      "verifiedAt": "2026-09-17T00:28:00Z"
+    },
+    {
+      "url": "https://globalednews.com/peter/study-abroad-diy-five-step-planning/",
+      "sourceId": "122143976811172155",
+      "verifiedAt": "2026-09-17T00:28:00Z"
+    },
+    {
+      "url": "https://globalednews.com/peter/peter-study-abroad-reading-map/",
+      "sourceId": "pfbid024iYXoKbUEYrVkdB14jMEqnBMZfiGUsvVfm7K6G7kN778RdadZkWptKUwoAsXdTQNl",
+      "verifiedAt": "2026-09-17T00:28:00Z"
+    }
+  ],
   "socialPosts": [
     {
       "campaign": "news",
@@ -160,11 +176,21 @@
       "verifiedAt": "2026-09-17T00:18:09.209Z",
       "version": "2026-09-17-membership-v1",
       "threadsSync": false
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "DdXkVeVE2vI",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdXkVeVE2vI/",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-knight-hennessy-2027",
+      "verifiedAt": "2026-09-17T00:48:38.681Z",
+      "version": "2026-09-17-membership-v1",
+      "threadsSync": false
     }
   ],
   "remaining": [
-    "Peter三則部署驗收",
-    "剩餘12則社群發布",
+    "剩餘11則社群發布",
     "桌面手機完整驗收與SEO",
     "每日驗證腳本"
   ],

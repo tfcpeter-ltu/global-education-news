@@ -33,6 +33,17 @@
       "verifiedAt": "2026-09-17T00:18:09.209Z",
       "version": "2026-09-17-membership-v1",
       "threadsSync": false
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "DdXkVeVE2vI",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdXkVeVE2vI/",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-knight-hennessy-2027",
+      "verifiedAt": "2026-09-17T00:48:38.681Z",
+      "version": "2026-09-17-membership-v1",
+      "threadsSync": false
     }
   ],
   "intents": [
