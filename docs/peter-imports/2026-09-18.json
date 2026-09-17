@@ -1,0 +1,158 @@
+{
+  "date": "2026-09-18",
+  "status": "prepared",
+  "sourcePage": "61585164670358",
+  "articles": [
+    {
+      "author": "Peter",
+      "importedAt": "2026-09-18",
+      "dateObservedAt": "2026-09-18",
+      "originalPublishedAt": null,
+      "edition": "verified-edit",
+      "imageCredit": "環球教育新聞網編輯部製作／文字封面",
+      "imageRights": "本站原創向量文字版面；非原影片或第三方照片",
+      "slug": "uk-computer-science-conversion-planning",
+      "title": "英國資工碩士：非本科轉領域，先看課程為誰設計",
+      "description": "Peter 提醒跨領域不等於免準備；以 UCL、Birmingham 官方課程說明區分資格、數學準備與申請年度。",
+      "sourceId": "122144117337172155",
+      "sourceUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid02ebEYTKH1bwqjTL7q7HW64pyNGtpecqKFhNcGWK9CTXnAqofoVXZNwesp7MU83d62l&id=61585164670358",
+      "originalDateLabel": "41分鐘",
+      "originalDatePrecision": "relative",
+      "topic": "英國碩士與跨領域選系",
+      "note": "2026-09-18 查核整理版。原文已完整展開閱讀。本文保留規劃觀點，改以今日官方頁更新課程例子：UCL 已顯示 2027 入學、學費與截止日待公布，與原貼文提及的 2026 版本不同。原文將 Bristol 與 UWE Bristol 並列的資格段落不予沿用，以免混淆不同學校。本文不宣稱所有課程現在開放申請。",
+      "sources": [
+        [
+          "UCL｜Computer Science MSc（2027 入學頁）",
+          "https://www.ucl.ac.uk/study/prospective-students/graduate/courses/computer-science-msc"
+        ],
+        [
+          "University of Birmingham｜Computer Science MSc",
+          "https://www.birmingham.ac.uk/study/postgraduate/subjects/computer-science-and-data-science-courses/computer-science-msc"
+        ],
+        [
+          "Prospects／Jisc｜Conversion courses，Rachel Swain 獨立編輯指南",
+          "https://www.prospects.ac.uk/postgraduate-study/conversion-courses/"
+        ]
+      ],
+      "body": [
+        "大學不是讀資工，仍可以研究英國為非本科生設計的轉領域碩士。Peter 原文提醒：「接受跨領域」，不等於「完全不用準備」。第一步應確認課程為誰設計，而不是先追求校名或排名。",
+        "### 先分清轉領域與進階深造",
+        "原文區分建立資工基礎的 Conversion 課程與進階深造。這是學士之後的碩士路徑，不能當成高中畢業直接入讀的課程；也不能把所有 AI、資料科學或資工碩士都視為非本科入口。",
+        "### 編輯查核：兩個課程例子",
+        "UCL 的 Computer Science MSc 官方頁現列 2027 年 9 月開課、全日制一年。要求非資工或資訊科技相關學科的英國二等一學士學位或國際同等資格，並提出至少相當於 A-level 數學程度的數學與分析能力證據。校方也提醒程式設計是核心，申請人應具備基本運算思維。該頁學費與截止日期仍待公布。",
+        "Birmingham 的 Computer Science MSc 官方頁列非 computing 學科的二等一學位，並「建議」A-level 數學或至少 GCSE 數學 A 級程度；建議不能改寫成所有人一律必須達到的硬性條件。英語要求列 IELTS 總分 6.5、各項不低於 6.0，這不是其他學校的共同標準。",
+        "Prospects／Jisc 的獨立編輯指南將 conversion course 說明為轉向原本科之外領域的密集研究所課程，並強調各校入學條件、時程與費用不同。它可協助理解制度，但不能取代某校招生要求。",
+        "### Peter 的準備清單",
+        "Peter 建議整理成績單上的數學與分析課程、學習程式的實際紀錄，以及自己想解決的問題。原文以商管學生製作庫存分析工具為假設案例，重點是能說明資料整理、錯誤與修正過程；這不是校方保證加分的公式，也不能取代正式資格。",
+        "### 一年制仍要計算完整成本",
+        "原文提醒先試一門入門程式課與小作品，了解自己是否願意反覆除錯。家長可一起估算學費、生活費、放棄工作的收入與求職緩衝；學制短不等於每個人的總成本低，學位也不保證轉職或留英工作。",
+        "Peter 的核心觀點是讓原本專業多一套解決問題的能力。申請前先問自己缺少什麼技術、課程能補什麼，以及有哪些實際準備證據。台灣學歷等值、申請年度、開放狀態與文件要求仍須逐校回查。"
+      ],
+      "image": "/images/peter/uk-computer-science-conversion-planning.svg",
+      "imageAlt": "英國資工碩士：非本科轉領域，先看課程為誰設計，本站原創文字封面",
+      "url": "https://globalednews.com/peter/uk-computer-science-conversion-planning/",
+      "status": "prepared",
+      "readAt": "2026-09-17T22:07:27.481Z"
+    },
+    {
+      "author": "Peter",
+      "importedAt": "2026-09-18",
+      "dateObservedAt": "2026-09-18",
+      "originalPublishedAt": null,
+      "edition": "verified-edit",
+      "imageCredit": "環球教育新聞網編輯部製作／文字封面",
+      "imageRights": "本站原創向量文字版面；非原影片或第三方照片",
+      "slug": "learning-progress-not-defined-by-grades",
+      "title": "孩子，現在的成績還不能替人生下結論",
+      "description": "Peter 從學生的自我懷疑談學習支持，提醒家長與老師把責備改成一起尋找卡住的地方。",
+      "sourceId": "2310687056370566",
+      "sourceUrl": "https://www.facebook.com/reel/2310687056370566/",
+      "originalDateLabel": "5天",
+      "originalDatePrecision": "relative",
+      "topic": "學習動機與家庭支持",
+      "note": "2026-09-18 觀點整理版，來源為附有完整文字的原貼文，非只有影片。保留 Peter 對學習支持的觀點；未重新轉載或鑑定影片剪輯，也不把影片內人物的話改寫成已核實逐字引言。另列 2009 年官方演說與獨立查核供背景閱讀，不宣稱已確認原影片的拍攝日期。",
+      "sources": [
+        [
+          "歐巴馬白宮檔案｜2009 年對美國學生演說原文",
+          "https://obamawhitehouse.archives.gov/the-press-office/remarks-president-a-national-address-americas-schoolchildren"
+        ],
+        [
+          "FactCheck.org｜Obama’s Speech to Schools（2009-09-08）",
+          "https://www.factcheck.org/2009/09/obamas-speech-to-schools/"
+        ]
+      ],
+      "body": [
+        "「我英文不好。」「我們家沒有那麼多資源。」「我大概就只能這樣了。」Peter 在原貼文問：孩子還沒有真正嘗試以前，大人是否已經聽過他這樣形容自己？",
+        "### 先理解孩子的處境",
+        "原文提醒，家庭資源、學習環境與身邊有沒有大人支持，都會影響孩子。有些孩子光是跟上進度，就已經付出許多努力。這段觀點沒有否認現實差異，而是希望孩子仍能看見下一步。",
+        "### 三句可以帶走的提醒",
+        "今天還不會，可以開始學。一次考不好，可以找出問題再試。遇到困難，可以開口求助，不必一個人扛。",
+        "### 把責備換成一起找方法",
+        "Peter 建議家長與老師試著把「你怎麼又考這樣？」換成「你卡在哪裡？我們一起想辦法。」原文最期待的教育時刻，是孩子開始相信自己仍有進步的可能。",
+        "出身無法選擇，但接下來的一步仍值得為自己踏出去。這是原文送給正在懷疑自己的孩子，以及一路陪伴、偶爾疲憊的家長的鼓勵，不是對未來成績或人生結果的保證。",
+        "### 編輯補充：演說背景另行閱讀",
+        "原貼文由一段歐巴馬演說影片引發感想。白宮檔案保存的 2009 年 9 月 8 日學生演說，及 FactCheck.org 當日報導，均可用來了解責任、毅力與教育的重要性。此處只提供背景資料；未核定原貼文剪輯出處，不將兩者直接視為同一影片。"
+      ],
+      "image": "/images/peter/learning-progress-not-defined-by-grades.svg",
+      "imageAlt": "孩子，現在的成績還不能替人生下結論，本站原創文字封面",
+      "url": "https://globalednews.com/peter/learning-progress-not-defined-by-grades/",
+      "status": "prepared",
+      "readAt": "2026-09-17T22:07:27.481Z"
+    },
+    {
+      "author": "Peter",
+      "importedAt": "2026-09-18",
+      "dateObservedAt": "2026-09-18",
+      "originalPublishedAt": null,
+      "edition": "verified-edit",
+      "imageCredit": "環球教育新聞網編輯部製作／文字封面",
+      "imageRights": "本站原創向量文字版面；非原影片或第三方照片",
+      "slug": "ai-learning-interest-and-human-agency",
+      "title": "AI 時代先問自己想學什麼：Peter 談熱情與工具",
+      "description": "從 Peter 的 AI 教育觀點出發，將學習目標、提問、聆聽與美感放在工具之前。",
+      "sourceId": "1390544539723157",
+      "sourceUrl": "https://www.facebook.com/reel/1390544539723157/",
+      "originalDateLabel": "9月7日上午3:20",
+      "originalDatePrecision": "month-day-minute",
+      "topic": "AI 教育與學習方向",
+      "note": "2026-09-18 觀點整理版。已展開並讀取原貼文完整文字；收錄的是 Peter 的教育評論，不是影片逐字稿。原文對黃仁勳影片的轉述未找到可核對的完整訪談，本文不重刊人物引言、訪談細節或「某科系不重要」的普遍結論。沒有轉載第三方影片及畫面。",
+      "sources": [],
+      "body": [
+        "AI 時代，孩子到底該學什麼？Peter 的原貼文從一段訪談分享延伸到教育思考：除了學會工具，也要知道自己想學什麼、對什麼有熱情。",
+        "### 將注意力放回人的能力",
+        "原文談到事前準備、提出問題、認真聆聽與抓住重點，也提及講故事、藝術與美感。本文保留這些作為 Peter 的討論方向，不把它們寫成經查核的職涯預測，或任何人物的逐字引言。",
+        "### 從自己的興趣開始提問",
+        "原文列舉攝影、設計、汽車與電影等興趣，邀請年輕人思考 AI 如何幫助學習、精進技藝並接近自己的目標。不同興趣可以提出不同問題，並不表示使用同一工具就會得到相同成果。",
+        "### 工具與目標一起思考",
+        "Peter 的結論是：未來的孩子不只要會使用 AI，也要理解自己的學習方向，思考如何讓工具協助能力發展。這是一個教育觀點，而非指定學生必須選哪個科系或放棄哪個領域。",
+        "完整原貼文仍保留於下方 Facebook 來源。本站沒有取得完整訪談可逐字核對，因此不將原貼文中的人物轉述當作新聞事實重新傳播。"
+      ],
+      "image": "/images/peter/ai-learning-interest-and-human-agency.svg",
+      "imageAlt": "AI 時代先問自己想學什麼：Peter 談熱情與工具，本站原創文字封面",
+      "url": "https://globalednews.com/peter/ai-learning-interest-and-human-agency/",
+      "status": "prepared",
+      "readAt": "2026-09-17T22:07:27.481Z"
+    }
+  ],
+  "excluded": [
+    {
+      "reason": "昨日已收錄",
+      "sourceIds": [
+        "122144024481172155",
+        "122143976811172155",
+        "122143509201172155",
+        "122143336743172155",
+        "122143134255172155",
+        "122143057845172155"
+      ]
+    },
+    {
+      "reason": "美國留學規則正式改變之政策敘述未完成核定，不轉載",
+      "originalDateLabel": "2天"
+    },
+    {
+      "reason": "Brock 說明會錄影分享非本批完整分析稿",
+      "originalDateLabel": "3天"
+    }
+  ]
+}

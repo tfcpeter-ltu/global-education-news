@@ -291,10 +291,10 @@
   ],
   "localBuild": {
     "status": "success",
-    "completedAt": "2026-09-18T05:00:56+08:00",
-    "pages": 226,
+    "completedAt": "2026-09-18T06:08:53+08:00",
+    "pages": 229,
     "navigationPages": 247,
-    "command": "Executed package.json build steps directly with Node; npm unavailable, pnpm dependency installer returned ignored-build notice; direct Astro build completed."
+    "command": "package.json build steps executed with bundled Node: generate-scholarship-seed, astro build, unify-study-navigation"
   },
   "blockers": []
 }
