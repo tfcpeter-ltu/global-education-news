@@ -49,6 +49,61 @@
       "verifiedAt": "2026-09-17T21:09:27Z",
       "articleUrl": "https://globalednews.com/news/us-opt-fee-proposal-oira-review-september-2026/",
       "version": 1
+    },
+    {
+      "campaign": "news",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DdZzW-0EyPJ",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdZzW-0EyPJ",
+      "publishedAt": "2026-09-17T21:14:55.000Z",
+      "verifiedAt": "2026-09-17T21:15:46.552Z",
+      "articleUrl": "https://globalednews.com/news/us-opt-fee-proposal-oira-review-september-2026/",
+      "version": 1
+    },
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "id": "pfbid02JUDRocBM3adHwU1dGVAN2G9dxDUr5tiXS8EHrVtQy6PaXN5yNKuKi1URczYZYVAel",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02JUDRocBM3adHwU1dGVAN2G9dxDUr5tiXS8EHrVtQy6PaXN5yNKuKi1URczYZYVAel",
+      "verifiedAt": "2026-09-17T21:18:03.727Z",
+      "observedAt": "2026-09-17T21:18:03.727Z",
+      "articleUrl": "https://globalednews.com/news/us-opt-fee-proposal-oira-review-september-2026/",
+      "version": 1
+    },
+    {
+      "network": "threads",
+      "id": "DdZz7jlEy7d",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdZz7jlEy7d",
+      "publishedAt": "2026-09-17T21:19:55.000Z",
+      "campaign": "scholarship",
+      "status": "PUBLISHED",
+      "version": 1,
+      "verifiedAt": "2026-09-17T21:25:03.131Z",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-knight-hennessy-2027"
+    },
+    {
+      "network": "instagram",
+      "id": "DdZ0LkRE75n",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdZ0LkRE75n/",
+      "publishedAt": "2026-09-17T21:22:06.000Z",
+      "campaign": "scholarship",
+      "status": "PUBLISHED",
+      "version": 1,
+      "verifiedAt": "2026-09-17T21:25:03.131Z",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-knight-hennessy-2027"
+    },
+    {
+      "network": "facebook",
+      "id": "pfbid02Wqj2q8neRz5BT5BmVj3EcjDv1GFfdHLJVKrhxffurY5Sc5VDTdEUqKX7JaGDcdVHl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02Wqj2q8neRz5BT5BmVj3EcjDv1GFfdHLJVKrhxffurY5Sc5VDTdEUqKX7JaGDcdVHl",
+      "observedAt": "2026-09-17T21:25:03.131Z",
+      "campaign": "scholarship",
+      "status": "PUBLISHED",
+      "version": 1,
+      "verifiedAt": "2026-09-17T21:25:03.131Z",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-knight-hennessy-2027"
     }
   ],
   "research": {
@@ -139,5 +194,11 @@
     "pages": 226,
     "navigationPages": 247,
     "command": "Executed package.json build steps directly with Node; npm unavailable, pnpm dependency installer returned ignored-build notice; direct Astro build completed."
-  }
+  },
+  "blockers": [
+    {
+      "platform": "linkedin",
+      "reason": "今日直接介面出現 LinkedIn App 登入確認，待使用者手機確認；未發布四則。"
+    }
+  ]
 }

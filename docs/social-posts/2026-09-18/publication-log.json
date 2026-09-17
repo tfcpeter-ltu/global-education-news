@@ -12,6 +12,61 @@
       "verifiedAt": "2026-09-17T21:09:27Z",
       "articleUrl": "https://globalednews.com/news/us-opt-fee-proposal-oira-review-september-2026/",
       "version": 1
+    },
+    {
+      "campaign": "news",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DdZzW-0EyPJ",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdZzW-0EyPJ",
+      "publishedAt": "2026-09-17T21:14:55.000Z",
+      "verifiedAt": "2026-09-17T21:15:46.552Z",
+      "articleUrl": "https://globalednews.com/news/us-opt-fee-proposal-oira-review-september-2026/",
+      "version": 1
+    },
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "id": "pfbid02JUDRocBM3adHwU1dGVAN2G9dxDUr5tiXS8EHrVtQy6PaXN5yNKuKi1URczYZYVAel",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02JUDRocBM3adHwU1dGVAN2G9dxDUr5tiXS8EHrVtQy6PaXN5yNKuKi1URczYZYVAel",
+      "verifiedAt": "2026-09-17T21:18:03.727Z",
+      "observedAt": "2026-09-17T21:18:03.727Z",
+      "articleUrl": "https://globalednews.com/news/us-opt-fee-proposal-oira-review-september-2026/",
+      "version": 1
+    },
+    {
+      "network": "threads",
+      "id": "DdZz7jlEy7d",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdZz7jlEy7d",
+      "publishedAt": "2026-09-17T21:19:55.000Z",
+      "campaign": "scholarship",
+      "status": "PUBLISHED",
+      "version": 1,
+      "verifiedAt": "2026-09-17T21:25:03.131Z",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-knight-hennessy-2027"
+    },
+    {
+      "network": "instagram",
+      "id": "DdZ0LkRE75n",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdZ0LkRE75n/",
+      "publishedAt": "2026-09-17T21:22:06.000Z",
+      "campaign": "scholarship",
+      "status": "PUBLISHED",
+      "version": 1,
+      "verifiedAt": "2026-09-17T21:25:03.131Z",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-knight-hennessy-2027"
+    },
+    {
+      "network": "facebook",
+      "id": "pfbid02Wqj2q8neRz5BT5BmVj3EcjDv1GFfdHLJVKrhxffurY5Sc5VDTdEUqKX7JaGDcdVHl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02Wqj2q8neRz5BT5BmVj3EcjDv1GFfdHLJVKrhxffurY5Sc5VDTdEUqKX7JaGDcdVHl",
+      "observedAt": "2026-09-17T21:25:03.131Z",
+      "campaign": "scholarship",
+      "status": "PUBLISHED",
+      "version": 1,
+      "verifiedAt": "2026-09-17T21:25:03.131Z",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-knight-hennessy-2027"
     }
   ],
   "intents": [
@@ -24,6 +79,53 @@
       "createdAt": "2026-09-17 21:06:08 UTC",
       "status": "PUBLISHED",
       "dedup": "今日 Metricool 排程空白；IG 最近公開貼文最高仍為昨日 DdXkVeVE2vI"
+    },
+    {
+      "campaign": "news",
+      "network": "threads",
+      "version": 1,
+      "articleUrl": "https://globalednews.com/news/us-opt-fee-proposal-oira-review-september-2026/",
+      "destination": "ltuossdtw",
+      "createdAt": "2026-09-17T21:14:10.627Z",
+      "status": "PUBLISHED",
+      "dedup": "公開個人檔案最新串文為昨日 DdXp8QQky4W，今日無 OPT 宣傳；Metricool 當日排程空白。"
+    },
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "version": 1,
+      "articleUrl": "https://globalednews.com/news/us-opt-fee-proposal-oira-review-september-2026/",
+      "destination": "101904929207004",
+      "createdAt": "2026-09-17T21:15:46.558Z",
+      "status": "PUBLISHED",
+      "dedup": "公開專頁最新貼文19小時前 Predis Reel；Metricool今日排程空白。"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "version": 1,
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-knight-hennessy-2027",
+      "status": "PUBLISHED",
+      "createdAt": "2026-09-17T21:19:01.596Z",
+      "dedup": "當日 publication log 無本主題，各平台最新歷史已檢查；今日新資助年限角度。"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "version": 1,
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-knight-hennessy-2027",
+      "status": "PUBLISHED",
+      "createdAt": "2026-09-17T21:19:01.596Z",
+      "dedup": "當日 publication log 無本主題，各平台最新歷史已檢查；今日新資助年限角度。"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "version": 1,
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-knight-hennessy-2027",
+      "status": "PUBLISHED",
+      "createdAt": "2026-09-17T21:19:01.596Z",
+      "dedup": "當日 publication log 無本主題，各平台最新歷史已檢查；今日新資助年限角度。"
     }
   ]
 }
