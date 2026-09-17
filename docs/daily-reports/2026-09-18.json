@@ -149,6 +149,63 @@
       "articleUrl": "https://globalednews.com/news/us-opt-fee-proposal-oira-review-september-2026/",
       "version": 1,
       "imageMode": "LinkedIn link-preview; article image shown in draft, final preview retitled homepage"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7506468696521953283",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7506468696521953283/",
+      "observedAt": "2026-09-17T21:47:35.321Z",
+      "verifiedAt": "2026-09-17T21:47:35.321Z",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-knight-hennessy-2027",
+      "version": 1,
+      "imageMode": "uploaded Stanford licensed photo"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DdZ3ZOBk0Px",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdZ3ZOBk0Px",
+      "publishedAt": "2026-09-17T21:50:11.000Z",
+      "verifiedAt": "2026-09-17T21:51:31.877Z",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "version": 1
+    },
+    {
+      "network": "instagram",
+      "id": "DdZ4TVxE9o5",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdZ4TVxE9o5/",
+      "publishedAt": "2026-09-17T21:58:07.000Z",
+      "campaign": "taiwan-universities",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "version": 1,
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-17T21:59:17.147Z"
+    },
+    {
+      "network": "linkedin",
+      "id": "7506471681201192960",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7506471681201192960/",
+      "observedAt": "2026-09-17T21:59:17.147Z",
+      "campaign": "taiwan-universities",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "version": 1,
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-17T21:59:17.147Z"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "id": "7506472380643328000",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7506472380643328000/",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "version": 1,
+      "observedAt": "2026-09-17T22:02:12.886Z",
+      "verifiedAt": "2026-09-17T22:02:12.886Z",
+      "imageMode": "uploaded licensed Kyoto campus photo"
     }
   ],
   "research": {
@@ -228,10 +285,9 @@
     "notes": "三篇正式網址及手機標題、圖檔已讀取；桌面及 sitemap/RSS 尚待完整核驗。"
   },
   "remaining": [
-    "LinkedIn 四主題尚待完成（新聞已送出，待回讀，勿重送）",
-    "國內選校資料庫 Threads、Instagram 尚待取得今日實際截圖並發布",
-    "Peter 三則收錄：目前最新兩則為昨日已收錄，繼續查閱較舊未收錄內容",
-    "桌面與 SEO 完整驗收尚待紀錄"
+    "Peter 三則收錄與部署",
+    "完整SEO驗收與每日證據檢查",
+    "DIY 導航當日截圖歸檔"
   ],
   "localBuild": {
     "status": "success",

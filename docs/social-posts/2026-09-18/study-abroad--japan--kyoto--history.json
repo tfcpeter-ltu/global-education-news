@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "campaign": "study-abroad",
-  "status": "PARTIAL_LINKEDIN_AND_SCREENSHOT_PENDING",
+  "status": "PUBLISHED_SCREENSHOT_ARCHIVE_PENDING",
   "articleTitle": "京都大學的1897年起點：從校史走到自己的選校問題",
   "articleUrl": "https://globalednews.com/study-abroad/",
   "country": "japan",
@@ -76,6 +76,18 @@
       "verifiedAt": "2026-09-17T21:40:15.114Z",
       "articleUrl": "https://globalednews.com/study-abroad/",
       "version": 1
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "id": "7506472380643328000",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7506472380643328000/",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "version": 1,
+      "observedAt": "2026-09-17T22:02:12.886Z",
+      "verifiedAt": "2026-09-17T22:02:12.886Z",
+      "imageMode": "uploaded licensed Kyoto campus photo"
     }
   ]
 }
