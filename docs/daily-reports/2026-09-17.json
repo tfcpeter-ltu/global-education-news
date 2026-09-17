@@ -207,10 +207,30 @@
       "articleUrl": "https://globalednews.com/scholarships/items/2026-09-knight-hennessy-2027",
       "verifiedAt": "2026-09-17T00:56:05.758Z",
       "version": "2026-09-17-membership-v1"
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7506154277673910272",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7506154277673910272/",
+      "articleUrl": "https://globalednews.com/news/canada-graduate-student-policy-september-2026/",
+      "verifiedAt": "2026-09-17T01:00:01.612Z",
+      "version": "2026-09-17-membership-v1"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7506155470538043392",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7506155470538043392/",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-knight-hennessy-2027",
+      "verifiedAt": "2026-09-17T01:03:48.082Z",
+      "version": "2026-09-17-membership-v1"
     }
   ],
   "remaining": [
-    "剩餘11則社群發布",
+    "DIY四平台、國內資料庫三平台共7則社群",
     "桌面手機完整驗收與SEO",
     "每日驗證腳本"
   ],

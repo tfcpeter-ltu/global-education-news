@@ -64,6 +64,26 @@
       "articleUrl": "https://globalednews.com/scholarships/items/2026-09-knight-hennessy-2027",
       "verifiedAt": "2026-09-17T00:56:05.758Z",
       "version": "2026-09-17-membership-v1"
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7506154277673910272",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7506154277673910272/",
+      "articleUrl": "https://globalednews.com/news/canada-graduate-student-policy-september-2026/",
+      "verifiedAt": "2026-09-17T01:00:01.612Z",
+      "version": "2026-09-17-membership-v1"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7506155470538043392",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7506155470538043392/",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-knight-hennessy-2027",
+      "verifiedAt": "2026-09-17T01:03:48.082Z",
+      "version": "2026-09-17-membership-v1"
     }
   ],
   "intents": [
@@ -130,6 +150,62 @@
       "version": "2026-09-17-membership-v1",
       "state": "prepared",
       "at": "2026-09-16T23:06:14.746Z"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "version": "2026-09-17-membership-v1",
+      "state": "prepared",
+      "at": "2026-09-17T01:08:36.617Z"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "version": "2026-09-17-membership-v1",
+      "state": "prepared",
+      "at": "2026-09-17T01:08:36.617Z"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "version": "2026-09-17-membership-v1",
+      "state": "prepared",
+      "at": "2026-09-17T01:08:36.617Z"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "version": "2026-09-17-membership-v1",
+      "state": "prepared",
+      "at": "2026-09-17T01:08:36.617Z"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "version": "2026-09-17-membership-v1",
+      "state": "prepared",
+      "at": "2026-09-17T01:08:36.617Z"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "version": "2026-09-17-membership-v1",
+      "state": "prepared",
+      "at": "2026-09-17T01:08:36.617Z"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "version": "2026-09-17-membership-v1",
+      "state": "prepared",
+      "at": "2026-09-17T01:08:36.617Z"
     }
   ]
 }
