@@ -1,7 +1,29 @@
 {
   "date": "2026-09-17",
   "status": "in-progress",
-  "posts": [],
+  "posts": [
+    {
+      "campaign": "news",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DdXiPNqkwxw",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdXiPNqkwxw",
+      "articleUrl": "https://globalednews.com/news/canada-graduate-student-policy-september-2026/",
+      "verifiedAt": "2026-09-17T00:07:37.157Z",
+      "timeBasis": "profile readback: 1 minute",
+      "version": "2026-09-17-membership-v1"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DdXilnvk4-p",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdXilnvk4-p",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-knight-hennessy-2027",
+      "verifiedAt": "2026-09-17T00:10:26.633Z",
+      "version": "2026-09-17-membership-v1"
+    }
+  ],
   "intents": [
     {
       "campaign": "news",
