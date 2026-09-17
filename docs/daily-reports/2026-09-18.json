@@ -3,7 +3,23 @@
   "timezone": "Asia/Taipei",
   "status": "partial",
   "baselineCommit": "744b78e91cf3dca3b3a6911b9032fa803a666439",
-  "newsPublished": [],
+  "newsPublished": [
+    {
+      "url": "https://globalednews.com/news/australia-student-family-course-reform-september-2026/",
+      "verifiedAt": "2026-09-17 21:06:08 UTC",
+      "title": "澳洲宣布收緊留學生攜眷與轉課規則：博士等例外、實施細節仍須追蹤"
+    },
+    {
+      "url": "https://globalednews.com/news/us-opt-fee-proposal-oira-review-september-2026/",
+      "verifiedAt": "2026-09-17 21:06:08 UTC",
+      "title": "美國 OPT 收費提案完成 OIRA 審查：仍是提案階段，金額與生效日未公布"
+    },
+    {
+      "url": "https://globalednews.com/news/qs-global-mba-2027-mit-sloan/",
+      "verifiedAt": "2026-09-17 21:06:08 UTC",
+      "title": "QS 2027 全球 MBA 排名公布：MIT Sloan 居首，選校仍須分清排名與個人適合度"
+    }
+  ],
   "scholarshipChecks": [],
   "peterImports": [],
   "socialPosts": [],
@@ -72,12 +88,16 @@
     }
   },
   "deployment": {
-    "status": "pending"
+    "commit": "5ba9bdbd6b44fe6c5cccc2130f5fff4548a6338f",
+    "status": "success",
+    "runUrl": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/35274292280",
+    "verifiedAt": "2026-09-17 21:06:08 UTC"
   },
   "acceptance": {
     "desktop": false,
-    "mobile": false,
-    "seo": false
+    "mobile": true,
+    "seo": false,
+    "notes": "三篇正式網址及手機標題、圖檔已讀取；桌面及 sitemap/RSS 尚待完整核驗。"
   },
   "remaining": [
     "3 篇新聞待建置部署與正式站驗收",
@@ -85,5 +105,12 @@
     "Peter 新貼文讀取與去重收錄",
     "四主題十五則社群發布及回讀",
     "每日證據驗證"
-  ]
+  ],
+  "localBuild": {
+    "status": "success",
+    "completedAt": "2026-09-18T05:00:56+08:00",
+    "pages": 226,
+    "navigationPages": 247,
+    "command": "Executed package.json build steps directly with Node; npm unavailable, pnpm dependency installer returned ignored-build notice; direct Astro build completed."
+  }
 }
