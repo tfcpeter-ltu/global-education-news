@@ -1,7 +1,19 @@
 {
   "date": "2026-09-18",
   "status": "partial",
-  "posts": [],
+  "posts": [
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "DdZyoUHE7Cl",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdZyoUHE7Cl/",
+      "publishedAt": "2026-09-17T21:08:33.000Z",
+      "verifiedAt": "2026-09-17T21:09:27Z",
+      "articleUrl": "https://globalednews.com/news/us-opt-fee-proposal-oira-review-september-2026/",
+      "version": 1
+    }
+  ],
   "intents": [
     {
       "campaign": "news",
@@ -10,7 +22,7 @@
       "articleUrl": "https://globalednews.com/news/us-opt-fee-proposal-oira-review-september-2026/",
       "destination": "ltuossdtw",
       "createdAt": "2026-09-17 21:06:08 UTC",
-      "status": "PREPARED",
+      "status": "PUBLISHED",
       "dedup": "今日 Metricool 排程空白；IG 最近公開貼文最高仍為昨日 DdXkVeVE2vI"
     }
   ]

@@ -20,9 +20,37 @@
       "title": "QS 2027 全球 MBA 排名公布：MIT Sloan 居首，選校仍須分清排名與個人適合度"
     }
   ],
-  "scholarshipChecks": [],
+  "scholarshipChecks": [
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-09-knight-hennessy-2027/",
+      "verifiedAt": "2026-09-17T21:13:35.813Z",
+      "eligibleTaiwan": true,
+      "open": true,
+      "sources": [
+        "https://knight-hennessy.stanford.edu/admission/before-you-apply/eligibility",
+        "https://knight-hennessy.stanford.edu/admission/preparing-your-applications/application-deadlines",
+        "https://knight-hennessy.stanford.edu/program-overview/funding",
+        "https://scholarships.berkeley.edu/knight-hennessy/"
+      ],
+      "deadline": "2026-10-06T20:00:00Z",
+      "funding": "最長三年學費、相關費用、生活及學術津貼與年度旅費；超過三年的學位依系所資助規定。",
+      "limitations": "第一個學士學位原則2020年1月後；研究所獨立申請與更早期限另須符合，MBA Round 1。"
+    }
+  ],
   "peterImports": [],
-  "socialPosts": [],
+  "socialPosts": [
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "DdZyoUHE7Cl",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdZyoUHE7Cl/",
+      "publishedAt": "2026-09-17T21:08:33.000Z",
+      "verifiedAt": "2026-09-17T21:09:27Z",
+      "articleUrl": "https://globalednews.com/news/us-opt-fee-proposal-oira-review-september-2026/",
+      "version": 1
+    }
+  ],
   "research": {
     "news": [
       {
@@ -100,10 +128,9 @@
     "notes": "三篇正式網址及手機標題、圖檔已讀取；桌面及 sitemap/RSS 尚待完整核驗。"
   },
   "remaining": [
-    "3 篇新聞待建置部署與正式站驗收",
-    "當日獎學金查核",
+    "正式站桌面及完整 SEO 驗收",
     "Peter 新貼文讀取與去重收錄",
-    "四主題十五則社群發布及回讀",
+    "其餘十四則社群發布及回讀",
     "每日證據驗證"
   ],
   "localBuild": {
