@@ -1,7 +1,7 @@
 {
   "date": "2026-09-17",
   "timezone": "Asia/Taipei",
-  "status": "in-progress",
+  "status": "partial",
   "baselineCommit": "53129b6d196e2b95467e802712a83a72d82d132d",
   "startedAt": "2026-09-16T21:00:18Z",
   "completedChecks": [
@@ -10,7 +10,56 @@
       "result": "已實際開啟，未取得本日合格雙重來源教育選題，暫不刊登。"
     }
   ],
-  "newsPublished": [],
+  "newsPublished": [
+    {
+      "url": "https://globalednews.com/news/germany-eaie-fit-student-career-support-2026/",
+      "sources": [
+        {
+          "label": "DAAD｜FIT 官方計畫說明",
+          "url": "https://www.daad.de/en/information-services-for-higher-education-institutions/further-information-on-daad-programmes/fit/"
+        },
+        {
+          "label": "The PIE News｜EAIE 現場採訪（9 月 15 日）",
+          "url": "https://thepienews.com/eaie-national-strategies-sharpen-focus-on-talent-but-autonomy-stays-non-negotiable/"
+        }
+      ],
+      "status": "published",
+      "verifiedAt": "2026-09-17T00:13:59.698Z",
+      "verification": "Formal browser full article, author, sources, September17 display date and canonical readback"
+    },
+    {
+      "url": "https://globalednews.com/news/canada-graduate-student-policy-september-2026/",
+      "sources": [
+        {
+          "label": "IRCC｜研究生學習許可申請官方指引",
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/graduate-student/how-to-apply.html"
+        },
+        {
+          "label": "The PIE News｜IRCC、UBC 及 U15 採訪（9 月 16 日）",
+          "url": "https://thepienews.com/number-of-new-international-grad-students-soars-in-canada/"
+        }
+      ],
+      "status": "published",
+      "verifiedAt": "2026-09-17T00:13:59.698Z",
+      "verification": "Formal browser full article, author, sources, September17 display date and canonical readback"
+    },
+    {
+      "url": "https://globalednews.com/news/australia-go8-migration-proposal-response-2026/",
+      "sources": [
+        {
+          "label": "Group of Eight｜9 月 15 日官方聲明",
+          "url": "https://go8.edu.au/media-statement-on-migration-policy-from-group-of-eight-chief-executive-vicki-thomson"
+        },
+        {
+          "label": "AAP｜獨立採訪，The Queenslander 刊載（9 月 15 日）",
+          "url": "https://theqldr.com.au/education/2026/09/15/migration-22/"
+        }
+      ],
+      "status": "published",
+      "verifiedAt": "2026-09-17T00:13:59.698Z",
+      "verification": "Formal browser full article, author, sources, September17 display date and canonical readback"
+    }
+  ],
   "newsPrepared": [
     {
       "url": "https://globalednews.com/news/germany-eaie-fit-student-career-support-2026/",
@@ -55,17 +104,94 @@
       "status": "prepared-awaiting-deploy"
     }
   ],
-  "scholarshipChecks": [],
+  "scholarshipChecks": [
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-09-knight-hennessy-2027",
+      "verifiedAt": "2026-09-17T00:13:59.698Z",
+      "eligibleTaiwan": true,
+      "open": true,
+      "sources": [
+        {
+          "role": "official",
+          "url": "https://knight-hennessy.stanford.edu/admission/before-you-apply/eligibility"
+        },
+        {
+          "role": "official",
+          "url": "https://knight-hennessy.stanford.edu/admission/preparing-your-applications/application-deadlines"
+        },
+        {
+          "role": "independent",
+          "url": "https://scholarships.berkeley.edu/knight-hennessy/"
+        }
+      ],
+      "verification": "Official2027eligibility/deadlines and independentBerkeley read; formal article Sep17updated verified"
+    }
+  ],
   "peterImports": [],
-  "socialPosts": [],
+  "socialPosts": [
+    {
+      "campaign": "news",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DdXiPNqkwxw",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdXiPNqkwxw",
+      "articleUrl": "https://globalednews.com/news/canada-graduate-student-policy-september-2026/",
+      "verifiedAt": "2026-09-17T00:07:37.157Z",
+      "timeBasis": "profile readback: 1 minute",
+      "version": "2026-09-17-membership-v1"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DdXilnvk4-p",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdXilnvk4-p",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-knight-hennessy-2027",
+      "verifiedAt": "2026-09-17T00:10:26.633Z",
+      "version": "2026-09-17-membership-v1"
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "DdXjT_aEzmp",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdXjT_aEzmp/",
+      "articleUrl": "https://globalednews.com/news/canada-graduate-student-policy-september-2026/",
+      "verifiedAt": "2026-09-17T00:18:09.209Z",
+      "version": "2026-09-17-membership-v1",
+      "threadsSync": false
+    }
+  ],
   "remaining": [
-    "正式站三篇新聞驗收",
-    "合格獎學金當日查核",
-    "Peter三則去重收錄",
-    "四主題十五則宣傳及回讀",
+    "Peter三則部署驗收",
+    "剩餘12則社群發布",
+    "桌面手機完整驗收與SEO",
     "每日驗證腳本"
   ],
   "notes": [
     "不沿用昨日完成結果計入今天。"
+  ],
+  "deployment": {
+    "commit": "1bab5ef1ff2b85d1ac99b8c2d1bf3f0a0be875bc",
+    "status": "success",
+    "verifiedAt": "2026-09-17T00:13:59.699Z",
+    "runUrl": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/35160801682"
+  },
+  "peterPrepared": [
+    {
+      "slug": "uk-placement-year-planning",
+      "sourceId": "122144024481172155",
+      "status": "awaiting-deploy"
+    },
+    {
+      "slug": "study-abroad-diy-five-step-planning",
+      "sourceId": "122143976811172155",
+      "status": "awaiting-deploy"
+    },
+    {
+      "slug": "peter-study-abroad-reading-map",
+      "sourceId": "pfbid024iYXoKbUEYrVkdB14jMEqnBMZfiGUsvVfm7K6G7kN778RdadZkWptKUwoAsXdTQNl",
+      "status": "awaiting-deploy"
+    }
   ]
 }
