@@ -104,6 +104,51 @@
       "version": 1,
       "verifiedAt": "2026-09-17T21:25:03.131Z",
       "articleUrl": "https://globalednews.com/scholarships/items/2026-09-knight-hennessy-2027"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DdZ1aLYE3Mf",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdZ1aLYE3Mf",
+      "publishedAt": "2026-09-17T21:32:50.000Z",
+      "verifiedAt": "2026-09-17T21:34:20.876Z",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "version": 1
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "DdZ170rkyav",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdZ170rkyav/",
+      "publishedAt": "2026-09-17T21:37:26.000Z",
+      "verifiedAt": "2026-09-17T21:39:50.741Z",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "version": 1
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "id": "pfbid02QsXfLgH5Vvc4jsxQmW2VQgFaH5cXHn719XpSen81reJSxa1HpCvo5zXtVMAPpVaWl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02QsXfLgH5Vvc4jsxQmW2VQgFaH5cXHn719XpSen81reJSxa1HpCvo5zXtVMAPpVaWl",
+      "observedAt": "2026-09-17T21:40:15.113Z",
+      "verifiedAt": "2026-09-17T21:40:15.114Z",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "version": 1
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7506467714127826946",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7506467714127826946/",
+      "observedAt": "2026-09-17T21:44:01.333Z",
+      "verifiedAt": "2026-09-17T21:44:01.333Z",
+      "articleUrl": "https://globalednews.com/news/us-opt-fee-proposal-oira-review-september-2026/",
+      "version": 1,
+      "imageMode": "LinkedIn link-preview; article image shown in draft, final preview retitled homepage"
     }
   ],
   "research": {
@@ -183,10 +228,10 @@
     "notes": "三篇正式網址及手機標題、圖檔已讀取；桌面及 sitemap/RSS 尚待完整核驗。"
   },
   "remaining": [
-    "正式站桌面及完整 SEO 驗收",
-    "Peter 新貼文讀取與去重收錄",
-    "其餘十四則社群發布及回讀",
-    "每日證據驗證"
+    "LinkedIn 四主題尚待完成（新聞已送出，待回讀，勿重送）",
+    "國內選校資料庫 Threads、Instagram 尚待取得今日實際截圖並發布",
+    "Peter 三則收錄：目前最新兩則為昨日已收錄，繼續查閱較舊未收錄內容",
+    "桌面與 SEO 完整驗收尚待紀錄"
   ],
   "localBuild": {
     "status": "success",
@@ -195,10 +240,5 @@
     "navigationPages": 247,
     "command": "Executed package.json build steps directly with Node; npm unavailable, pnpm dependency installer returned ignored-build notice; direct Astro build completed."
   },
-  "blockers": [
-    {
-      "platform": "linkedin",
-      "reason": "今日直接介面出現 LinkedIn App 登入確認，待使用者手機確認；未發布四則。"
-    }
-  ]
+  "blockers": []
 }
