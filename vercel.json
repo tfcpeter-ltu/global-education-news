@@ -1,0 +1,14 @@
+{
+  "redirects": [
+    {
+      "source": "/ielts-ai-test",
+      "destination": "https://ltu-bandlab-2q78n2vpr-blythacademytaiwan-5234.vercel.app",
+      "permanent": true
+    },
+    {
+      "source": "/ielts-ai-test/:path*",
+      "destination": "https://ltu-bandlab-2q78n2vpr-blythacademytaiwan-5234.vercel.app",
+      "permanent": true
+    }
+  ]
+}
