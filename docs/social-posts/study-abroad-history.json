@@ -150,6 +150,62 @@
           "imageMode": "uploaded licensed Kyoto campus photo"
         }
       ]
+    },
+    {
+      "date": "2026-09-19",
+      "country": "australia",
+      "schoolName": "University of Melbourne",
+      "storyAngle": "1853-history-and-course-verification",
+      "contentPath": "docs/social-posts/2026-09-19/study-abroad--australia--melbourne.json",
+      "campaign": "study-abroad",
+      "CTA": "免費加入會員",
+      "status": "published",
+      "publishedPosts": [
+        {
+          "campaign": "study-abroad",
+          "network": "threads",
+          "id": "Ddd5DaEE86w",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/Ddd5DaEE86w",
+          "version": 1,
+          "status": "PUBLISHED",
+          "verifiedAt": "2026-09-19T11:22:21.630Z",
+          "articleUrl": "https://globalednews.com/study-abroad/",
+          "observedAt": "2026-09-19T11:22:21.630Z"
+        },
+        {
+          "campaign": "study-abroad",
+          "network": "facebook",
+          "id": "pfbid02Z5U6UNh71sgieS9beGiB3dT6AZGibU5JwVFJeWw1QhSaMTFJ33eDjKm8uEpdzXLQl",
+          "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02Z5U6UNh71sgieS9beGiB3dT6AZGibU5JwVFJeWw1QhSaMTFJ33eDjKm8uEpdzXLQl",
+          "version": 1,
+          "status": "PUBLISHED",
+          "verifiedAt": "2026-09-19T11:27:10.913Z",
+          "articleUrl": "https://globalednews.com/study-abroad/",
+          "observedAt": "2026-09-19T11:27:10.913Z"
+        },
+        {
+          "campaign": "study-abroad",
+          "network": "instagram",
+          "id": "Ddd51yEk0Vw",
+          "publicUrl": "https://www.instagram.com/ltuossdtw/p/Ddd51yEk0Vw/",
+          "version": 1,
+          "status": "PUBLISHED",
+          "verifiedAt": "2026-09-19T11:29:17.525Z",
+          "articleUrl": "https://globalednews.com/study-abroad/",
+          "observedAt": "2026-09-19T11:29:17.525Z"
+        },
+        {
+          "campaign": "study-abroad",
+          "network": "linkedin",
+          "id": "7507038377070759936",
+          "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7507038377070759936/",
+          "version": 1,
+          "status": "PUBLISHED",
+          "verifiedAt": "2026-09-19T11:30:45.559Z",
+          "articleUrl": "https://globalednews.com/study-abroad/",
+          "observedAt": "2026-09-19T11:30:45.559Z"
+        }
+      ]
     }
   ]
 }

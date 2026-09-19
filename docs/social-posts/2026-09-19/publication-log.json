@@ -1,6 +1,6 @@
 {
   "date": "2026-09-19",
-  "status": "partial",
+  "status": "completed",
   "posts": [
     {
       "campaign": "news",
@@ -10,7 +10,8 @@
       "publicUrl": "https://www.threads.com/@ltuossdtw/post/DddnBNOE8Rs",
       "verifiedAt": "2026-09-19T08:45:14.826Z",
       "articleUrl": "https://globalednews.com/news/canada-erasmus-proposal-september-2026/",
-      "version": 1
+      "version": 1,
+      "observedAt": "2026-09-19T08:45:14.826Z"
     },
     {
       "campaign": "news",
@@ -18,9 +19,10 @@
       "status": "PUBLISHED",
       "id": "Dddn9tjk4Ft",
       "publicUrl": "https://www.instagram.com/ltuossdtw/p/Dddn9tjk4Ft/",
-      "verifiedAt": "2026-09-19T08:56:12.470Z",
+      "verifiedAt": "2026-09-19T08:56:12.47Z",
       "articleUrl": "https://globalednews.com/news/canada-erasmus-proposal-september-2026/",
-      "version": 1
+      "version": 1,
+      "observedAt": "2026-09-19T08:56:12.47Z"
     },
     {
       "campaign": "news",
@@ -30,7 +32,140 @@
       "id": "pfbid02tikKtc61mULvxpDAC5afdD89WnNTvxKFfqQW9PPGVrZRzCDmZ5rHuoHG84D864gpl",
       "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02tikKtc61mULvxpDAC5afdD89WnNTvxKFfqQW9PPGVrZRzCDmZ5rHuoHG84D864gpl",
       "verifiedAt": "2026-09-19T10:05:20.247Z",
-      "articleUrl": "https://globalednews.com/news/canada-erasmus-proposal-september-2026/"
+      "articleUrl": "https://globalednews.com/news/canada-erasmus-proposal-september-2026/",
+      "observedAt": "2026-09-19T10:05:20.247Z"
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "version": 1,
+      "status": "PUBLISHED",
+      "id": "7507030718347407360",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7507030718347407360/",
+      "verifiedAt": "2026-09-19T11:00:27.5866063Z",
+      "articleUrl": "https://globalednews.com/news/canada-erasmus-proposal-september-2026/",
+      "observedAt": "2026-09-19T11:00:27.5866063Z"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "version": 1,
+      "status": "PUBLISHED",
+      "id": "7507031877367545856",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7507031877367545856/",
+      "verifiedAt": "2026-09-19T11:04:59.4278776Z",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-hkpfs-2027/",
+      "observedAt": "2026-09-19T11:04:59.4278776Z"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "version": 1,
+      "status": "PUBLISHED",
+      "id": "Ddd3tf4E3AU",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Ddd3tf4E3AU",
+      "verifiedAt": "2026-09-19T11:10:21.5404179Z",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-hkpfs-2027/",
+      "observedAt": "2026-09-19T11:10:21.5404179Z"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "version": 1,
+      "status": "PUBLISHED",
+      "id": "Ddd4FArk7o-",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Ddd4FArk7o-/",
+      "verifiedAt": "2026-09-19T11:13:57.9923245Z",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-hkpfs-2027/",
+      "observedAt": "2026-09-19T11:13:57.9923245Z"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "version": 1,
+      "status": "PUBLISHED",
+      "id": "pfbid0WU6yNhXdj1nBcSFZdcgmBvqE532Lw1bL6zFPcYTZALqdbmCsZsdJkwhKBzF3ybr5l",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0WU6yNhXdj1nBcSFZdcgmBvqE532Lw1bL6zFPcYTZALqdbmCsZsdJkwhKBzF3ybr5l",
+      "verifiedAt": "2026-09-19T11:16:04.9142057Z",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-hkpfs-2027/",
+      "observedAt": "2026-09-19T11:16:04.9142057Z"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "id": "Ddd5DaEE86w",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Ddd5DaEE86w",
+      "version": 1,
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-19T11:22:21.630Z",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "observedAt": "2026-09-19T11:22:21.630Z"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "id": "Ddd5Lork3ps",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Ddd5Lork3ps",
+      "version": 1,
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-19T11:23:25.103Z",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "observedAt": "2026-09-19T11:23:25.103Z"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "id": "pfbid02Z5U6UNh71sgieS9beGiB3dT6AZGibU5JwVFJeWw1QhSaMTFJ33eDjKm8uEpdzXLQl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02Z5U6UNh71sgieS9beGiB3dT6AZGibU5JwVFJeWw1QhSaMTFJ33eDjKm8uEpdzXLQl",
+      "version": 1,
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-19T11:27:10.913Z",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "observedAt": "2026-09-19T11:27:10.913Z"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "id": "Ddd51yEk0Vw",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Ddd51yEk0Vw/",
+      "version": 1,
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-19T11:29:17.525Z",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "observedAt": "2026-09-19T11:29:17.525Z"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "id": "7507038377070759936",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7507038377070759936/",
+      "version": 1,
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-19T11:30:45.559Z",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "observedAt": "2026-09-19T11:30:45.559Z"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "id": "Ddd6N4qk4Z1",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Ddd6N4qk4Z1/",
+      "version": 1,
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-19T11:32:48.273Z",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "observedAt": "2026-09-19T11:32:48.273Z"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "id": "7507038922829537280",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7507038922829537280/",
+      "version": 1,
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-19T11:32:59.210Z",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "observedAt": "2026-09-19T11:32:59.210Z"
     }
   ],
   "intents": [
@@ -59,6 +194,106 @@
       "status": "PUBLISHED",
       "preparedAt": "2026-09-19T10:04:31.548Z",
       "image": "public/images/news/2026-09-19/canada-parliament.jpg"
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "version": 1,
+      "status": "PUBLISHED",
+      "preparedAt": "2026-09-19T10:59:34.1260822Z",
+      "articleUrl": "https://globalednews.com/news/canada-erasmus-proposal-september-2026/"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "version": 1,
+      "status": "PUBLISHED",
+      "preparedAt": "2026-09-19T11:04:20.4242921Z",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-hkpfs-2027/"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "version": 1,
+      "status": "PUBLISHED",
+      "preparedAt": "2026-09-19T11:09:48.2690477Z",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-hkpfs-2027/"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "version": 1,
+      "status": "PUBLISHED",
+      "preparedAt": "2026-09-19T11:12:57.9519512Z",
+      "threadsSync": false,
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-hkpfs-2027/"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "version": 1,
+      "status": "PUBLISHED",
+      "preparedAt": "2026-09-19T11:15:07.1316693Z",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-hkpfs-2027/"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "version": 1,
+      "status": "PUBLISHED",
+      "preparedAt": "2026-09-19T11:21:27.332Z",
+      "articleUrl": "https://globalednews.com/study-abroad/"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "version": 1,
+      "status": "PUBLISHED",
+      "preparedAt": "2026-09-19T11:22:39.085Z",
+      "articleUrl": "https://globalednews.com/taiwan-universities/"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "version": 1,
+      "status": "PUBLISHED",
+      "preparedAt": "2026-09-19T11:23:25.442Z",
+      "articleUrl": "https://globalednews.com/study-abroad/"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "version": 1,
+      "status": "PUBLISHED",
+      "preparedAt": "2026-09-19T11:28:31.622Z",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "threadsSync": false
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "version": 1,
+      "status": "PUBLISHED",
+      "preparedAt": "2026-09-19T11:30:20.894Z",
+      "articleUrl": "https://globalednews.com/study-abroad/"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "version": 1,
+      "status": "PUBLISHED",
+      "preparedAt": "2026-09-19T11:31:49.599Z",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "threadsSync": false
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "version": 1,
+      "status": "PUBLISHED",
+      "preparedAt": "2026-09-19T11:32:32.759Z",
+      "articleUrl": "https://globalednews.com/taiwan-universities/"
     }
-  ]
+  ],
+  "completedAt": "2026-09-19T11:33:37.083Z"
 }

@@ -80,6 +80,49 @@
           "verifiedAt": "2026-09-17T21:59:17.147Z"
         }
       ]
+    },
+    {
+      "date": "2026-09-19",
+      "topic": "資訊工程搜尋與索引查核區分",
+      "contentPath": "docs/social-posts/2026-09-19/taiwan-universities--cs-search.json",
+      "campaign": "taiwan-universities",
+      "CTA": "免費加入會員",
+      "status": "published",
+      "publishedPosts": [
+        {
+          "campaign": "taiwan-universities",
+          "network": "threads",
+          "id": "Ddd5Lork3ps",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/Ddd5Lork3ps",
+          "version": 1,
+          "status": "PUBLISHED",
+          "verifiedAt": "2026-09-19T11:23:25.103Z",
+          "articleUrl": "https://globalednews.com/taiwan-universities/",
+          "observedAt": "2026-09-19T11:23:25.103Z"
+        },
+        {
+          "campaign": "taiwan-universities",
+          "network": "instagram",
+          "id": "Ddd6N4qk4Z1",
+          "publicUrl": "https://www.instagram.com/ltuossdtw/p/Ddd6N4qk4Z1/",
+          "version": 1,
+          "status": "PUBLISHED",
+          "verifiedAt": "2026-09-19T11:32:48.273Z",
+          "articleUrl": "https://globalednews.com/taiwan-universities/",
+          "observedAt": "2026-09-19T11:32:48.273Z"
+        },
+        {
+          "campaign": "taiwan-universities",
+          "network": "linkedin",
+          "id": "7507038922829537280",
+          "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7507038922829537280/",
+          "version": 1,
+          "status": "PUBLISHED",
+          "verifiedAt": "2026-09-19T11:32:59.210Z",
+          "articleUrl": "https://globalednews.com/taiwan-universities/",
+          "observedAt": "2026-09-19T11:32:59.210Z"
+        }
+      ]
     }
   ]
 }

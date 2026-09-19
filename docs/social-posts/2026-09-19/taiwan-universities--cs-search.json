@@ -1,0 +1,57 @@
+{
+  "date": "2026-09-19",
+  "campaign": "taiwan-universities",
+  "version": 1,
+  "articleTitle": "搜尋資訊工程，先閱讀資料完整度再比較",
+  "articleUrl": "https://globalednews.com/taiwan-universities/",
+  "shortHook": "同樣叫資訊工程，先用搜尋縮小研究範圍。",
+  "threadsCopy": "國內大學選校選系資料庫｜找到適合你的學習方向\nhttps://globalednews.com/taiwan-universities/\n\n最新消息｜本日精選\n今天實測「想學什麼？」輸入資訊工程，結果會顯示筆數，也可再選學制與學校。先開各系資料，再看來源與待補項目，別把清單順序當排名。\n圖：今日正式資料庫操作截圖。搜尋命中包含索引，不代表所有科系都已完成深度查核。\n\n追蹤最新消息，請點擊免費加入環球教育新聞會員！每週一封教育新聞、招生政策與精選觀點，免費且可取消。\nhttps://globalednews.com/newsletter/",
+  "instagramCopy": "國內大學選校選系資料庫｜找到適合你的學習方向\nhttps://globalednews.com/taiwan-universities/\n\n最新消息｜本日精選\n同樣叫資訊工程，先學會查資料。\n在「想學什麼？」輸入資訊工程，再依學制或學校縮小範圍。圖中是今天實際搜尋畫面。\n\n結果數是搜尋命中，不是推薦名次；索引與具來源的科系分析要分開閱讀。完整入口在上方，可複製網址開啟。\n\n追蹤最新消息，請點擊免費加入環球教育新聞會員！每週一封教育新聞、招生政策與精選觀點，免費且可取消。\nhttps://globalednews.com/newsletter/",
+  "linkedinCopy": "國內大學選校選系資料庫｜找到適合你的學習方向\nhttps://globalednews.com/taiwan-universities/\n\n最新消息｜本日精選\n高中選系輔導，可以先從可操作的資訊整理開始。今天在正式資料庫的「想學什麼？」輸入資訊工程，確認結果數與學制、學校篩選入口可用。\n\n建議學生先縮小研究範圍，再閱讀各系來源與尚待補齊的項目。搜尋命中含目錄索引，不能視為所有科系已完成深度查核；清單順序也不是官方排名、錄取或就業保證。\n\n附上今天的實際操作截圖。環球教育新聞以資料工具搭配教育消息，協助家長與學生建立持續查證的習慣。\n\n追蹤最新消息，請點擊免費加入環球教育新聞會員！每週一封教育新聞、招生政策與精選觀點，免費且可取消。\nhttps://globalednews.com/newsletter/",
+  "CTA": "免費加入會員",
+  "socialImage": "public/images/news/2026-09-19/taiwan-cs-screenshot.png",
+  "imageAlt": "2026年9月19日國內大學資料庫搜尋資訊工程，呈現搜尋欄、學制學校篩選及結果。",
+  "category": "國內選校選系",
+  "topic": "資訊工程關鍵字搜尋與資料完整度",
+  "sources": [
+    "https://globalednews.com/taiwan-universities/"
+  ],
+  "imageLicense": "使用者授權的正式資料庫操作截圖",
+  "verifiedAt": "2026-09-19T11:33:37.083Z",
+  "publicationResults": [
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "id": "Ddd5Lork3ps",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Ddd5Lork3ps",
+      "version": 1,
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-19T11:23:25.103Z",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "observedAt": "2026-09-19T11:23:25.103Z"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "id": "Ddd6N4qk4Z1",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Ddd6N4qk4Z1/",
+      "version": 1,
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-19T11:32:48.273Z",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "observedAt": "2026-09-19T11:32:48.273Z"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "id": "7507038922829537280",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7507038922829537280/",
+      "version": 1,
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-09-19T11:32:59.210Z",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "observedAt": "2026-09-19T11:32:59.210Z"
+    }
+  ],
+  "status": "published"
+}
