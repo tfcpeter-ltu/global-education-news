@@ -10,6 +10,7 @@
   const labels={subject:'關鍵字',level:'學位',country:'國家',institution:'院校'};
   const countryLabels={uk:'英國',canada:'加拿大',australia:'澳洲',ireland:'愛爾蘭',us:'美國',europe:'歐洲其他地區',japan:'日本',singapore:'新加坡','hong-kong':'香港'};
   const levelLabels={undergraduate:'大學學士',postgraduate:'研究所',doctorate:'博士',foundation:'預科／銜接課程',other:'其他／未標示'};
+  const legacyLevels={'高中／School':'other','大學預科／Foundation':'foundation','大學學士／Undergraduate':'undergraduate','研究所／Postgraduate':'postgraduate','博士／Doctorate':'doctorate','技職／VET':'other','語言課程／English':'other'};
   const schoolAliases={'University College London':'University College London (UCL)'};
   const schoolData=new Map((window.UNIVERSITY_FINDER_DATA||[]).map(item=>[item.name,item]));
   const allRecords=Object.entries(window.OFFICIAL_PROGRAM_SOURCES?.all||{}).map(([key,source])=>{
@@ -108,6 +109,7 @@
   }
 
   const saved=load();
+  if(saved.level&&legacyLevels[saved.level])saved.level=legacyLevels[saved.level];
   fieldIds.forEach(id=>{if(saved[id]===undefined)return;if(get(id).type==='checkbox')get(id).checked=Boolean(saved[id]);else get(id).value=saved[id]});
   render(saved,false);
   form.addEventListener('submit',event=>{event.preventDefault();const data=read();save(data);render(data)});
