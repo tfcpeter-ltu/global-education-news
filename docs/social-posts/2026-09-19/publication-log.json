@@ -1,0 +1,45 @@
+{
+  "date": "2026-09-19",
+  "status": "partial",
+  "posts": [
+    {
+      "campaign": "news",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DddnBNOE8Rs",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DddnBNOE8Rs",
+      "verifiedAt": "2026-09-19T08:45:14.826Z",
+      "articleUrl": "https://globalednews.com/news/canada-erasmus-proposal-september-2026/",
+      "version": 1
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "Dddn9tjk4Ft",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Dddn9tjk4Ft/",
+      "verifiedAt": "2026-09-19T08:56:12.470Z",
+      "articleUrl": "https://globalednews.com/news/canada-erasmus-proposal-september-2026/",
+      "version": 1
+    }
+  ],
+  "intents": [
+    {
+      "campaign": "news",
+      "network": "threads",
+      "articleUrl": "https://globalednews.com/news/canada-erasmus-proposal-september-2026/",
+      "version": 1,
+      "status": "PUBLISHED",
+      "copy": "環球教育新聞｜掌握國際教育最新動態\nhttps://globalednews.com/\n\n最新消息\n加拿大 9/17 倡議加入 Erasmus+，仍待協議，並非已開放新申請。台灣籍學生資格、補助及生效日尚未公布。\n全文：https://globalednews.com/news/canada-erasmus-proposal-september-2026/\n\n追蹤最新消息，免費加入環球教育新聞會員，每週一封教育新聞、招生政策與精選觀點，免費且可取消。\nhttps://globalednews.com/newsletter/\n\n圖：Robyn Gibbard／Wikimedia Commons，2014 資料照，未修改。CC BY-SA 3.0：https://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "articleUrl": "https://globalednews.com/news/canada-erasmus-proposal-september-2026/",
+      "version": 1,
+      "status": "PUBLISHED",
+      "image": "public/images/news/2026-09-19/canada-parliament.jpg",
+      "threadsSync": false
+    }
+  ]
+}

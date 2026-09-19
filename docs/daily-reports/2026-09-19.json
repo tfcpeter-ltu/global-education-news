@@ -1,12 +1,49 @@
 {
   "date": "2026-09-19",
   "timezone": "Asia/Taipei",
-  "status": "in-progress",
+  "status": "partial",
   "baselineCommit": "c613cbfa35b1251b9d61fa463ffe8a00f0e220e7",
-  "newsPublished": [],
+  "newsPublished": [
+    {
+      "url": "https://globalednews.com/news/canada-erasmus-proposal-september-2026/",
+      "title": "加拿大倡議加入 Erasmus+：跨大西洋學生交流仍待協議落實",
+      "verifiedAt": "2026-09-19T08:44:37.925Z"
+    },
+    {
+      "url": "https://globalednews.com/news/khiva-liaoning-normal-transnational-campus-2026/",
+      "title": "遼寧師範大學希瓦分校：烏茲別克跨國高教向首都以外延伸",
+      "verifiedAt": "2026-09-19T08:44:37.926Z"
+    },
+    {
+      "url": "https://globalednews.com/news/minerva-global-university-system-2026/",
+      "title": "Minerva 推出全球大學體系計畫：共享教學模式，招生細節仍待各校公布",
+      "verifiedAt": "2026-09-19T08:44:37.926Z"
+    }
+  ],
   "scholarshipChecks": [],
   "peterImports": [],
-  "socialPosts": [],
+  "socialPosts": [
+    {
+      "campaign": "news",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DddnBNOE8Rs",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DddnBNOE8Rs",
+      "verifiedAt": "2026-09-19T08:45:14.826Z",
+      "articleUrl": "https://globalednews.com/news/canada-erasmus-proposal-september-2026/",
+      "version": 1
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "Dddn9tjk4Ft",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Dddn9tjk4Ft/",
+      "verifiedAt": "2026-09-19T08:56:12.470Z",
+      "articleUrl": "https://globalednews.com/news/canada-erasmus-proposal-september-2026/",
+      "version": 1
+    }
+  ],
   "research": [
     {
       "title": "加拿大倡議加入 Erasmus+：跨大西洋學生交流仍待協議落實",
@@ -20,7 +57,7 @@
           "url": "https://calgary.citynews.ca/2026/09/17/carney-says-new-eu-partnership-will-go-to-debate-vote-in-parliament/"
         }
       ],
-      "status": "source-checked-awaiting-publication"
+      "status": "published-verified"
     },
     {
       "title": "遼寧師範大學希瓦分校：烏茲別克跨國高教向首都以外延伸",
@@ -34,7 +71,7 @@
           "url": "https://thepienews.com/the-other-side-of-chinas-tne-story-chinas-universities-go-overseas/"
         }
       ],
-      "status": "source-checked-awaiting-publication"
+      "status": "published-verified"
     },
     {
       "title": "Minerva 推出全球大學體系計畫：共享教學模式，招生細節仍待各校公布",
@@ -48,7 +85,17 @@
           "url": "https://thepienews.com/minerva-project-launches-global-university-system-to-scale-he-model/"
         }
       ],
-      "status": "source-checked-awaiting-publication"
+      "status": "published-verified"
+    },
+    {
+      "topic": "HKPFS",
+      "status": "source-checked",
+      "sources": [
+        "https://cerg1.ugc.edu.hk/hkpfs/Explanatory/Explanatory_Init_App.jsp",
+        "https://gradsch.hku.hk/prospective_students/fees_scholarships_and_financial_support/hong_kong_phd_fellowship_scheme",
+        "https://www.polyu.edu.hk/ls/news-and-events/news/2026/20260904_hkpfs-202728/"
+      ],
+      "notes": "2027/28 annual amounts verified for named HKU/PolyU offerings; RGC initial deadline 2026-12-01 noon Hong Kong/Taipei, university full application also mandatory. Local verification-date update built, not yet deployed."
     }
   ],
   "sunmoon": {
@@ -56,15 +103,28 @@
     "status": "homepage-read; no qualifying independently verified education story selected"
   },
   "deployment": {
-    "status": "not-started"
+    "commit": "11c7e8ee437e91d5b22f4e5ed173424a5f0cdae6",
+    "status": "success",
+    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/35432483315",
+    "verifiedAt": "2026-09-19T08:44:37.926Z"
   },
   "acceptance": {
-    "desktop": false,
+    "desktop": true,
     "mobile": false,
-    "seo": false
+    "seo": true,
+    "verifiedAt": "2026-09-19T08:44:37.926Z",
+    "notes": [
+      "Three live articles opened; all three images loaded; canonical/schema read; article sitemap, News sitemap and weekly-feed include all three.",
+      "Mobile screenshot needs further inspection; not marked passed."
+    ]
   },
   "notes": [
     "Baseline Astro build passed: 229 pages.",
     "No publication marked complete until live verification."
-  ]
+  ],
+  "peterReview": {
+    "sourceId": "pfbid02eu34ipaUbzWtKoKSddD7ScKH74pZDAc1PEpYPzq1LB3eJ8jsAma6wyu9ugZFGWnSl",
+    "status": "held-for-course-attribution-check",
+    "reason": "Post groups University of Bristol and UWE Bristol under one course requirement."
+  }
 }
