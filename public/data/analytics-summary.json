@@ -1,18 +1,18 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-18T01:22:48.740Z",
+  "updatedAt": "2026-09-19T05:50:29.888Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
     {
-      "title": "香港 2027/28 博士獎學金開放申請：400 名額、每年 HK$344,400 津貼，12/1 截止｜環球教育新聞 Global Education News",
-      "path": "/news/hong-kong-phd-fellowship-2027-28-open/",
-      "views": 46
-    },
-    {
       "title": "EC English 暫停接收 9 月 12–13 日新生：出發前須確認課程與住宿｜環球教育新聞 Global Education News",
       "path": "/news/ec-english-new-arrivals-suspended-september-2026/",
       "views": 36
+    },
+    {
+      "title": "香港 2027/28 博士獎學金開放申請：400 名額、每年 HK$344,400 津貼，12/1 截止｜環球教育新聞 Global Education News",
+      "path": "/news/hong-kong-phd-fellowship-2027-28-open/",
+      "views": 32
     },
     {
       "title": "EC 加拿大停校後安置進展：219 名學生已轉至其他會員學校｜環球教育新聞網 Global Education News",
@@ -22,38 +22,38 @@
     {
       "title": "最新國際教育新聞",
       "path": "/news/",
-      "views": 15
+      "views": 13
     },
     {
       "title": "美國加強 CPT 實習規範執行：部分大學暫停特定申請，國際學生要注意什麼？｜環球教育新聞網 Global Education News",
       "path": "/news/us-cpt-internship-enforcement-2026/",
-      "views": 10
+      "views": 12
     }
   ],
   "countries": [
     {
       "name": "台灣",
       "mapName": "Taiwan",
-      "sessions": 1052,
-      "share": 80.9
+      "sessions": 1095,
+      "share": 81.8
     },
     {
       "name": "美國",
       "mapName": "United States",
-      "sessions": 71,
-      "share": 5.5
+      "sessions": 67,
+      "share": 5
     },
     {
       "name": "英國",
       "mapName": "United Kingdom",
-      "sessions": 45,
-      "share": 3.5
+      "sessions": 46,
+      "share": 3.4
     },
     {
       "name": "香港",
       "mapName": "Hong Kong",
-      "sessions": 41,
-      "share": 3.2
+      "sessions": 36,
+      "share": 2.7
     },
     {
       "name": "加拿大",
@@ -64,8 +64,8 @@
     {
       "name": "印度",
       "mapName": "India",
-      "sessions": 9,
-      "share": 0.7
+      "sessions": 15,
+      "share": 1.1
     },
     {
       "name": "愛爾蘭",
@@ -86,10 +86,10 @@
       "share": 0.5
     },
     {
-      "name": "日本",
-      "mapName": "Japan",
+      "name": "新加坡",
+      "mapName": "Singapore",
       "sessions": 6,
-      "share": 0.5
+      "share": 0.4
     }
   ]
 }
