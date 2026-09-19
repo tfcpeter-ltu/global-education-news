@@ -40,15 +40,25 @@
 
   function renderCards(){
     const visible=currentMatches.slice(0,displayLimit);
-    results.innerHTML=visible.map(({school,major,source,university,level})=>{
+    results.innerHTML=visible.map(record=>{
+      const {school,major,source,university,level}=record;
       const highlights=(source.highlights||[]).slice(0,4);
       const location=university?[university.countryLabel,university.city].filter(Boolean).join('・'):'地區待核對';
+      const ossd=window.OSSD_ADMISSIONS.get(record);
       return `<article class="course-card">
         <div class="course-card-meta"><span>${escapeHtml(location)}</span><span>${escapeHtml(levelLabels[level])}</span></div>
         <p class="course-major">${escapeHtml(major)}</p>
         <h3>${escapeHtml(source.program||major)}</h3>
         <p class="course-school">${escapeHtml(school)}</p>
         ${highlights.length?`<ul>${highlights.map(item=>`<li>${escapeHtml(item)}</li>`).join('')}</ul>`:''}
+        <section class="ossd-box">
+          <div class="ossd-title"><strong>OSSD 申請規劃</strong><span>建議均分 ${escapeHtml(ossd.range)}</span></div>
+          <p><b>科目準備：</b>${escapeHtml(ossd.subjects)}</p>
+          <p><b>資格判讀：</b>${escapeHtml(ossd.destination)}</p>
+          <p><b>官方課程要求線索：</b>${escapeHtml(ossd.officialRequirement)}</p>
+          <p><b>${escapeHtml(ossd.clue.label)}：</b>${escapeHtml(ossd.clue.text)}</p>
+          <small>${escapeHtml(ossd.scope)}</small>
+        </section>
         <div class="course-card-foot"><span>${escapeHtml(source.status||'已建立官方來源')}・查核 ${escapeHtml(source.checked||'日期待補')}</span><a href="${escapeHtml(source.programUrl)}" target="_blank" rel="noopener noreferrer">查看大學官方課程頁 ↗</a></div>
       </article>`;
     }).join('')||'<div class="empty-result"><strong>目前沒有符合條件的紀錄</strong><p>可放寬國家或學位層級，或改用英文科目名稱搜尋。</p></div>';

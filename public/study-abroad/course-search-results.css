@@ -6,6 +6,13 @@
 .course-card h3{font-size:23px;margin:0;color:var(--navy);overflow-wrap:anywhere}
 .course-school{margin:6px 0 14px;font-weight:800}
 .course-card ul{padding-left:20px;margin:0 0 18px;color:var(--muted);font-size:13px;line-height:1.55}
+.ossd-box{background:#f4f7fa;border-left:4px solid #c39752;border-radius:6px;padding:14px;margin:0 0 18px}
+.ossd-title{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:9px}
+.ossd-title strong{color:var(--navy);font-size:17px}
+.ossd-title span{background:#0b2942;color:#fff;border-radius:999px;padding:5px 9px;font-size:12px;font-weight:800}
+.ossd-box p{margin:7px 0;font-size:12px;line-height:1.55;color:var(--muted)}
+.ossd-box b{color:var(--navy)}
+.ossd-box small{display:block;border-top:1px solid #d6e0e8;margin-top:10px;padding-top:9px;color:#6b737b;line-height:1.45}
 .course-card-foot{border-top:1px solid var(--line);padding-top:14px;margin-top:auto;display:flex;flex-direction:column;gap:10px}
 .course-card-foot span{font-size:11px;color:var(--muted)}
 .course-card-foot a{font-weight:800;color:var(--navy);overflow-wrap:anywhere}
