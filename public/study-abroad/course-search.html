@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>海外課程搜尋規劃器｜留學 DIY 導航</title>
+  <meta name="description" content="依科目、學位、國家、預算、授課方式、課程長度、IELTS、獎學金與實習條件，建立海外課程搜尋與官方核對清單。">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="mvp.css">
+  <link rel="stylesheet" href="course-search.css">
+  <link rel="canonical" href="https://globalednews.com/study-abroad/course-search.html">
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="index.html"><span class="brand-mark">SN</span><span><strong>留學導航</strong><small>Study Abroad Navigator</small></span></a></header>
+  <main>
+    <section class="page-intro course-intro">
+      <span class="overline">Course Search Planner</span>
+      <h1>先把課程條件寫清楚，再開始找學校。</h1>
+      <p>參考國際課程資料庫常用的搜尋方式，把科目、學位層級、目的地、預算、授課方式、課程長度、IELTS、獎學金與實習一次整理。系統會產生可帶到各校官網逐項查核的課程條件卡。</p>
+    </section>
+
+    <section class="course-shell">
+      <form id="course-form" class="course-form">
+        <div class="form-heading">
+          <div><span class="step-no">01</span><h2>設定我要找的課程</h2></div>
+          <button type="button" id="course-reset" class="text-button">清除全部</button>
+        </div>
+
+        <div class="course-fields">
+          <label class="field field-wide"><span>科目或課程關鍵字</span><input id="course-subject" type="search" placeholder="例如 Computer Science、Business、Psychology"></label>
+          <label class="field"><span>學位層級</span><select id="course-level"><option value="">尚未決定</option><option>高中／School</option><option>大學預科／Foundation</option><option>大學學士／Undergraduate</option><option>研究所／Postgraduate</option><option>博士／Doctorate</option><option>技職／VET</option><option>語言課程／English</option></select></label>
+          <label class="field"><span>留學目的地</span><select id="course-country"><option value="">全部國家</option><option value="uk">英國</option><option value="canada">加拿大</option><option value="australia">澳洲</option><option value="ireland">愛爾蘭</option><option value="us">美國</option><option value="europe">歐洲其他地區</option><option value="japan">日本</option><option value="singapore">新加坡</option><option value="hong-kong">香港</option></select></label>
+          <label class="field"><span>指定院校（選填）</span><input id="course-institution" type="search" placeholder="輸入大學或學院名稱"></label>
+          <label class="field"><span>每年學費預算</span><select id="course-budget"><option value="">尚未設定</option><option>新台幣 80 萬以下</option><option>新台幣 80–120 萬</option><option>新台幣 120–160 萬</option><option>新台幣 160 萬以上</option></select></label>
+          <label class="field"><span>授課方式</span><select id="course-mode"><option value="">不限</option><option>校園面授／On campus</option><option>線上／Online</option><option>混合／Hybrid</option><option>海外分校／Overseas campus</option></select></label>
+          <label class="field"><span>希望課程長度</span><select id="course-duration"><option value="">不限</option><option>少於 1 年</option><option>1–2 年</option><option>2–4 年</option><option>4 年以上</option></select></label>
+          <label class="field"><span>目前 IELTS</span><select id="course-ielts"><option value="">尚未考／不確定</option><option value="4.5">4.5</option><option value="5.0">5.0</option><option value="5.5">5.5</option><option value="6.0">6.0</option><option value="6.5">6.5</option><option value="7.0">7.0</option><option value="7.5">7.5 以上</option></select></label>
+        </div>
+
+        <fieldset class="preference-box">
+          <legend>我特別重視</legend>
+          <label><input id="course-scholarship" type="checkbox"> 有獎學金機會</label>
+          <label><input id="course-internship" type="checkbox"> 有實習、Co-op 或 placement</label>
+        </fieldset>
+
+        <div class="form-actions">
+          <button type="submit" class="primary course-submit">建立我的課程搜尋條件</button>
+          <p>不會以第三方資料直接判定錄取，也不會把指示性學費當成正式報價。</p>
+        </div>
+      </form>
+
+      <section id="course-output" class="course-output" aria-live="polite" hidden>
+        <div class="form-heading"><div><span class="step-no">02</span><h2>我的課程搜尋條件</h2></div><button type="button" id="copy-criteria" class="text-button">複製條件</button></div>
+        <div id="criteria-summary" class="criteria-summary"></div>
+        <div class="verification-list">
+          <h3>打開課程頁後，請逐項核對</h3>
+          <ol>
+            <li><strong>課程與資格名稱</strong><span>同一領域可能是 Certificate、Diploma、Bachelor、Master 或銜接課程，不能只看中文譯名。</span></li>
+            <li><strong>學費與資料年份</strong><span>確認幣別、計價單位、適用年度，以及是否另收設備、實驗、保險或學生服務費。</span></li>
+            <li><strong>校區、授課方式與長度</strong><span>確認實際上課城市、是否面授、是否可線上起讀，以及課程以年、學期或週計算。</span></li>
+            <li><strong>開課梯次與截止日</strong><span>「下一個 intake」不等於仍可申請；需回到校方招生頁核對國際生截止日期。</span></li>
+            <li><strong>英文與學術門檻</strong><span>IELTS 總分之外，確認單項分數、先修科目、作品集、面試、測驗及台灣高中／OSSD 資格。</span></li>
+            <li><strong>獎學金與實習資格</strong><span>確認國際生是否可申請、是否保證安排、是否計入學分，以及簽證與工時限制。</span></li>
+          </ol>
+        </div>
+        <div class="course-actions">
+          <a id="navigator-search" class="primary" href="universities.html">查看導航內的大學</a>
+          <a id="idp-search" class="dark-outline" href="https://www.idp.com/find-a-course/" target="_blank" rel="noopener noreferrer">前往 IDP 課程資料庫核對 ↗</a>
+        </div>
+        <p id="idp-coverage" class="coverage-note"></p>
+      </section>
+
+      <section class="course-method">
+        <div><span class="step-no">03</span><h2>把搜尋結果變成真正能比較的清單</h2></div>
+        <div class="method-grid">
+          <article><b>先選 8–12 個課程</b><p>不要一開始只留名校。先保留研究型、就業型、實習型與安全選項，再進入第二輪。</p></article>
+          <article><b>統一比較同一年度</b><p>學費、入學要求與開課日期必須使用同一申請年度，避免把不同年份放在同一張表。</p></article>
+          <article><b>回到大學官方頁</b><p>第三方平台適合探索；正式申請、繳費與資格判讀仍以大學官網和官方申請系統為準。</p></article>
+          <article><b>最後留下 4–8 個選項</b><p>把夢想、主申請與較穩妥選項分組，再到「我的選校」追蹤文件、截止日與申請狀態。</p></article>
+        </div>
+      </section>
+
+      <aside class="source-note">
+        <strong>資料方法說明</strong>
+        <p>本工具的篩選欄位參考 IDP「Find a course」目前公開顯示的課程科目、學位層級、目的地、院校、預算、授課方式、長度、IELTS、獎學金與實習等項目；未複製其課程資料庫。第三方課程頁上的費用常標示為指示性資料，正式申請前仍須回到大學官方來源核對。</p>
+        <a href="https://www.idp.com/find-a-course/" target="_blank" rel="noopener noreferrer">查看 IDP Find a course ↗</a>
+      </aside>
+    </section>
+  </main>
+  <footer><div><strong>留學 DIY 導航 Study Abroad Navigator</strong><p>Peter 的國際教育講座 × LTU 國際學術中心</p></div><div><p>本站協助學生研究與規劃；入學條件、學費、截止日、簽證等動態資訊，正式申請前必須回到官方來源核對。</p></div></footer>
+  <script src="course-search.js"></script>
+</body>
+</html>
