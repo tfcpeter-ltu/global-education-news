@@ -1,0 +1,70 @@
+{
+  "date": "2026-09-19",
+  "timezone": "Asia/Taipei",
+  "status": "in-progress",
+  "baselineCommit": "c613cbfa35b1251b9d61fa463ffe8a00f0e220e7",
+  "newsPublished": [],
+  "scholarshipChecks": [],
+  "peterImports": [],
+  "socialPosts": [],
+  "research": [
+    {
+      "title": "加拿大倡議加入 Erasmus+：跨大西洋學生交流仍待協議落實",
+      "sources": [
+        {
+          "label": "加拿大總理辦公室｜9 月 17 日歐洲議會演說",
+          "url": "https://www.pm.gc.ca/en/news/speeches/2026/09/17/prime-minister-carney-delivers-address-european-parliament"
+        },
+        {
+          "label": "The Canadian Press／CityNews｜9 月 17 日現場報導",
+          "url": "https://calgary.citynews.ca/2026/09/17/carney-says-new-eu-partnership-will-go-to-debate-vote-in-parliament/"
+        }
+      ],
+      "status": "source-checked-awaiting-publication"
+    },
+    {
+      "title": "遼寧師範大學希瓦分校：烏茲別克跨國高教向首都以外延伸",
+      "sources": [
+        {
+          "label": "烏茲別克總統府｜2026 年 8 月 17 日分校公告",
+          "url": "https://president.uz/en/lists/view/9505"
+        },
+        {
+          "label": "The PIE News｜David Prentice 跨國教育分析（9 月 18 日）",
+          "url": "https://thepienews.com/the-other-side-of-chinas-tne-story-chinas-universities-go-overseas/"
+        }
+      ],
+      "status": "source-checked-awaiting-publication"
+    },
+    {
+      "title": "Minerva 推出全球大學體系計畫：共享教學模式，招生細節仍待各校公布",
+      "sources": [
+        {
+          "label": "Minerva Project 官方新聞稿｜8 月 27 日",
+          "url": "https://pressreleases.responsesource.com/news/107558/new-universities-to-launch-within-minerva-university-system/"
+        },
+        {
+          "label": "The PIE News｜Beth Kennedy 獨立採訪（8 月 27 日）",
+          "url": "https://thepienews.com/minerva-project-launches-global-university-system-to-scale-he-model/"
+        }
+      ],
+      "status": "source-checked-awaiting-publication"
+    }
+  ],
+  "sunmoon": {
+    "url": "https://www.sunmoonnews.com.tw/",
+    "status": "homepage-read; no qualifying independently verified education story selected"
+  },
+  "deployment": {
+    "status": "not-started"
+  },
+  "acceptance": {
+    "desktop": false,
+    "mobile": false,
+    "seo": false
+  },
+  "notes": [
+    "Baseline Astro build passed: 229 pages.",
+    "No publication marked complete until live verification."
+  ]
+}
