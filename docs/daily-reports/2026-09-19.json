@@ -20,7 +20,20 @@
       "verifiedAt": "2026-09-19T08:44:37.926Z"
     }
   ],
-  "scholarshipChecks": [],
+  "scholarshipChecks": [
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-09-hkpfs-2027/",
+      "verifiedAt": "2026-09-19T10:05:52.532Z",
+      "eligibleTaiwan": true,
+      "open": true,
+      "sources": [
+        "https://cerg1.ugc.edu.hk/hkpfs/Explanatory/Explanatory_Init_App.jsp",
+        "https://gradsch.hku.hk/prospective_students/fees_scholarships_and_financial_support/hong_kong_phd_fellowship_scheme",
+        "https://www.polyu.edu.hk/ls/news-and-events/news/2026/20260904_hkpfs-202728/"
+      ],
+      "deadline": "2026-12-01T12:00:00+08:00"
+    }
+  ],
   "peterImports": [],
   "socialPosts": [
     {
@@ -42,6 +55,16 @@
       "verifiedAt": "2026-09-19T08:56:12.470Z",
       "articleUrl": "https://globalednews.com/news/canada-erasmus-proposal-september-2026/",
       "version": 1
+    },
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "version": 1,
+      "status": "PUBLISHED",
+      "id": "pfbid02tikKtc61mULvxpDAC5afdD89WnNTvxKFfqQW9PPGVrZRzCDmZ5rHuoHG84D864gpl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02tikKtc61mULvxpDAC5afdD89WnNTvxKFfqQW9PPGVrZRzCDmZ5rHuoHG84D864gpl",
+      "verifiedAt": "2026-09-19T10:05:20.247Z",
+      "articleUrl": "https://globalednews.com/news/canada-erasmus-proposal-september-2026/"
     }
   ],
   "research": [
@@ -103,10 +126,10 @@
     "status": "homepage-read; no qualifying independently verified education story selected"
   },
   "deployment": {
-    "commit": "11c7e8ee437e91d5b22f4e5ed173424a5f0cdae6",
+    "commit": "e9a2c96564c3a31f19a05aba83b2f68592747053",
     "status": "success",
-    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/35432483315",
-    "verifiedAt": "2026-09-19T08:44:37.926Z"
+    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/35436339525",
+    "verifiedAt": "2026-09-19T10:05:52.533Z"
   },
   "acceptance": {
     "desktop": true,

@@ -21,6 +21,16 @@
       "verifiedAt": "2026-09-19T08:56:12.470Z",
       "articleUrl": "https://globalednews.com/news/canada-erasmus-proposal-september-2026/",
       "version": 1
+    },
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "version": 1,
+      "status": "PUBLISHED",
+      "id": "pfbid02tikKtc61mULvxpDAC5afdD89WnNTvxKFfqQW9PPGVrZRzCDmZ5rHuoHG84D864gpl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02tikKtc61mULvxpDAC5afdD89WnNTvxKFfqQW9PPGVrZRzCDmZ5rHuoHG84D864gpl",
+      "verifiedAt": "2026-09-19T10:05:20.247Z",
+      "articleUrl": "https://globalednews.com/news/canada-erasmus-proposal-september-2026/"
     }
   ],
   "intents": [
@@ -40,6 +50,15 @@
       "status": "PUBLISHED",
       "image": "public/images/news/2026-09-19/canada-parliament.jpg",
       "threadsSync": false
+    },
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "version": 1,
+      "articleUrl": "https://globalednews.com/news/canada-erasmus-proposal-september-2026/",
+      "status": "PUBLISHED",
+      "preparedAt": "2026-09-19T10:04:31.548Z",
+      "image": "public/images/news/2026-09-19/canada-parliament.jpg"
     }
   ]
 }
