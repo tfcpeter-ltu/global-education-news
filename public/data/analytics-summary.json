@@ -1,95 +1,95 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-19T05:50:29.888Z",
+  "updatedAt": "2026-09-20T06:12:11.308Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
-    {
-      "title": "EC English 暫停接收 9 月 12–13 日新生：出發前須確認課程與住宿｜環球教育新聞 Global Education News",
-      "path": "/news/ec-english-new-arrivals-suspended-september-2026/",
-      "views": 36
-    },
-    {
-      "title": "香港 2027/28 博士獎學金開放申請：400 名額、每年 HK$344,400 津貼，12/1 截止｜環球教育新聞 Global Education News",
-      "path": "/news/hong-kong-phd-fellowship-2027-28-open/",
-      "views": 32
-    },
     {
       "title": "EC 加拿大停校後安置進展：219 名學生已轉至其他會員學校｜環球教育新聞網 Global Education News",
       "path": "/news/ec-canada-student-placements-september-2026/",
       "views": 20
     },
     {
-      "title": "最新國際教育新聞",
-      "path": "/news/",
-      "views": 13
+      "title": "EC English 暫停接收 9 月 12–13 日新生：出發前須確認課程與住宿｜環球教育新聞 Global Education News",
+      "path": "/news/ec-english-new-arrivals-suspended-september-2026/",
+      "views": 18
     },
     {
       "title": "美國加強 CPT 實習規範執行：部分大學暫停特定申請，國際學生要注意什麼？｜環球教育新聞網 Global Education News",
       "path": "/news/us-cpt-internship-enforcement-2026/",
       "views": 12
+    },
+    {
+      "title": "最新國際教育新聞",
+      "path": "/news/",
+      "views": 10
+    },
+    {
+      "title": "QS 2027 全球 MBA 排名公布：MIT Sloan 居首，選校仍須分清排名與個人適合度｜環球教育新聞網 Global Education News",
+      "path": "/news/qs-global-mba-2027-mit-sloan/",
+      "views": 8
     }
   ],
   "countries": [
     {
       "name": "台灣",
       "mapName": "Taiwan",
-      "sessions": 1095,
-      "share": 81.8
+      "sessions": 845,
+      "share": 81.6
     },
     {
       "name": "美國",
       "mapName": "United States",
       "sessions": 67,
-      "share": 5
+      "share": 6.5
     },
     {
       "name": "英國",
       "mapName": "United Kingdom",
-      "sessions": 46,
-      "share": 3.4
-    },
-    {
-      "name": "香港",
-      "mapName": "Hong Kong",
-      "sessions": 36,
-      "share": 2.7
-    },
-    {
-      "name": "加拿大",
-      "mapName": "Canada",
-      "sessions": 16,
-      "share": 1.2
+      "sessions": 32,
+      "share": 3.1
     },
     {
       "name": "印度",
       "mapName": "India",
+      "sessions": 18,
+      "share": 1.7
+    },
+    {
+      "name": "加拿大",
+      "mapName": "Canada",
       "sessions": 15,
+      "share": 1.4
+    },
+    {
+      "name": "香港",
+      "mapName": "Hong Kong",
+      "sessions": 11,
       "share": 1.1
     },
     {
       "name": "愛爾蘭",
       "mapName": "Ireland",
-      "sessions": 9,
-      "share": 0.7
-    },
-    {
-      "name": "瑞典",
-      "mapName": "Sweden",
-      "sessions": 7,
-      "share": 0.5
-    },
-    {
-      "name": "越南",
-      "mapName": "Vietnam",
-      "sessions": 7,
-      "share": 0.5
+      "sessions": 6,
+      "share": 0.6
     },
     {
       "name": "新加坡",
       "mapName": "Singapore",
       "sessions": 6,
-      "share": 0.4
+      "share": 0.6
+    },
+    {
+      "name": "越南",
+      "mapName": "Vietnam",
+      "sessions": 6,
+      "share": 0.6
+    },
+    {
+      "name": "中國",
+      "mapName": "China",
+      "sessions": 5,
+      "share": 0.5
     }
   ]
 }
