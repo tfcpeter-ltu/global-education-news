@@ -1,7 +1,7 @@
 ---
 layout: '../../layouts/ArticleLayout.astro'
 title: "ACE 調查：73% 受訪校長反映國際生減少衝擊收入"
-description: "美國教育委員會秋季調查呈現高校財務壓力。73% 受訪校長回報國際學生下降造成收入減少；選校仍須核對個別課程與資助。"
+description: "ACE 秋季調查中，在校內招收國際生的受訪校長裡，73% 回報國際生減少衝擊收入。選校仍須核對個別課程與資助。"
 date: "2026-09-21T19:45:00+08:00"
 author: "LTU Global Education News 編輯部"
 category: "美國國際教育"
@@ -12,17 +12,19 @@ imageAlt: "美國喬治城大學 Healy Hall，2007 年資料照；不表示該�
 imageCredit: "Rob Page III／Wikimedia Commons，CC BY 3.0；原圖"
 imageSource: "https://commons.wikimedia.org/wiki/File:0710AA22-Georgetown.jpg"
 sources:
+  - label: "ACE｜2026 秋季 Pulse Point 原始報告"
+    url: "https://www.acenet.edu/documents/pulse-point-survey-fall2026.pdf"
   - label: "ACE｜2026 年 9 月 10 日調查摘要"
     url: "https://www.acenet.edu/News-Room/Pages/Pulse-Point-Survey-Financial-Viability-and-Perceptions-of-Value.aspx"
   - label: "The PIE News｜2026 年 9 月 17 日報導"
     url: "https://thepienews.com/international-student-declines-hit-us-college-revenues-survey-finds/"
 ---
 
-美國教育委員會（ACE）9 月 10 日公布的秋季 Pulse Point 調查摘要指出，**73% 受訪校長表示，國際學生人數下降已造成校方收入減少**。本報於 9 月 21 日交叉核對 ACE 原文與《The PIE News》9 月 17 日報導；這是調查結果整理，並非今天生效的新招生規定。
+美國教育委員會（ACE）9 月 10 日公布的秋季 Pulse Point 調查摘要指出，國際學生人數下降正在影響高校收入。依原始報告，**在所屬機構招收國際學生的受訪校長中，73% 回報收入因此減少**。本報於 9 月 21 日交叉核對 ACE 原始報告、官方摘要與《The PIE News》9 月 17 日報導；這是調查結果整理，並非今天生效的新招生規定。
 
 ## 背景與關鍵數字
 
-ACE 表示，9 月 9 日發布的報告收集全美逾 300 名高校高階主管意見。高等教育的價值如何被公眾理解，以及機構長期財務能否維持，是受訪者最關切的議題。官方摘要將上述 73% 的分母表述為受訪校長；不應改寫為「全美 73% 大學」或「國際生減少 73%」。
+ACE 原始報告記載，調查於 2026 年 7 月 13–31 日進行，共有 328 名高校高階主管作答，其中 109 名為大學或大學系統校長。報告於 9 月 9 日發布。上述 73% 另限於招收國際學生機構的受訪校長，不是全體 328 名主管的比例；也不應改寫為「全美 73% 大學」或「國際生減少 73%」。
 
 ## 主要變化與限制
 

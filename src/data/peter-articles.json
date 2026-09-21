@@ -1,6 +1,135 @@
 [
   {
     "author": "Peter",
+    "importedAt": "2026-09-21",
+    "dateObservedAt": "2026-09-21",
+    "originalPublishedAt": null,
+    "edition": "verified-edit",
+    "imageCredit": "環球教育新聞網編輯部製作／文字封面",
+    "imageRights": "本站原創向量文字版面；非原影片或第三方照片",
+    "slug": "pearson-scholarship-school-nomination",
+    "title": "Pearson 獎學金：先確認高中提名，再安排大學申請",
+    "description": "Peter 提醒 2027 年加拿大升學家庭，把高中提名、大學申請與獎學金文件列成三個不同節點。",
+    "sourceId": "122144281731172155",
+    "sourceUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid02QVgwxKXf2UVBUGfmmd5EqPE4MQSHLy69mzrHGW29R4BAaXsHComb8zJrgH3vN81ml&id=61585164670358",
+    "originalDateLabel": "1天（初次讀取）；稍後顯示2天",
+    "originalDatePrecision": "relative",
+    "topic": "加拿大升學與獎學金",
+    "note": "2026-09-21 查核整理版。原文已完整展開閱讀。以多倫多大學官方頁的 2027 入學主文核對時程，不沿用頁內仍標舊年度的 FAQ 日期；相對日期不推算為精確發文日。",
+    "sources": [
+      [
+        "University of Toronto｜Lester B. Pearson International Scholarships",
+        "https://future.utoronto.ca/pearson-scholarships"
+      ],
+      [
+        "Mastere.tn｜Lester B. Pearson International Scholarship",
+        "https://www.mastere.tn/en/lester-b-pearson-international-scholarship/"
+      ]
+    ],
+    "body": [
+      "想爭取獎學金，等到收到錄取再研究，可能錯過更早的校內程序。Peter 以多倫多大學 Lester B. Pearson International Scholarship 為例，提醒家庭先找出誰負責高中提名、是否有校內遴選，以及校內截止日。",
+      "### 第一關在高中",
+      "Pearson 需要高中提名，每所高中每年只能提名一名學生。這與入學審查時自動考慮的獎項不同。學生應主動告訴升學老師自己的計畫，也要確認學校是否已參與提名程序。",
+      "### 2027 入學的三個節點",
+      "本次查閱官方主文列：2026 年 10 月 9 日高中提名截止、10 月 16 日完成這項獎學金所需的大學入學申請、11 月 6 日獎學金申請及文件截止。這是 Pearson 的安排，不是全校所有申請人的共同截止日。校內遴選可能更早，送件時間與時區應再回查官方通知。",
+      "學生獲提名後會收到獎學金申請連結，並須完成大學入學申請才能完成獎學金表格。符合條件的國際學生包括 2026／27 學年高中最後一年在學生，或不早於 2026 年 6 月畢業者，且須於 2027 年 9 月開始就讀。完整資格仍以校方規定為準。",
+      "### Peter 的規劃提醒",
+      "學生這週可以先約升學老師，確認提名流程；家長則與孩子一起列出沒有獲得資助時仍負擔得起的選項。獎學金是升學策略的一部分，不能把競爭性資助當成已確定收入。",
+      "Peter 重視的不是只敢爭取機會，而是知道每一步由誰處理、需要什麼資料，以及如何為不同結果保留選擇。"
+    ],
+    "image": "/images/peter/pearson-scholarship-school-nomination.svg",
+    "imageAlt": "Pearson 獎學金：先確認高中提名，再安排大學申請，本站原創文字封面"
+  },
+  {
+    "author": "Peter",
+    "importedAt": "2026-09-21",
+    "dateObservedAt": "2026-09-21",
+    "originalPublishedAt": null,
+    "edition": "verified-edit",
+    "imageCredit": "環球教育新聞網編輯部製作／文字封面",
+    "imageRights": "本站原創向量文字版面；非原影片或第三方照片",
+    "slug": "scholarship-radar-how-to-read-opportunities",
+    "title": "Peter 談獎學金雷達：先看台灣資格，再看補助與期限",
+    "description": "把散落的海外資助資訊轉成可比較的選項：國籍、學位、補助範圍、年度與申請狀態要一起閱讀。",
+    "sourceId": "122142552735172155",
+    "sourceUrl": "https://www.facebook.com/photo/?fbid=122142552735172155&set=a.122101120425172155",
+    "originalDateLabel": "9月3日上午10:29",
+    "originalDatePrecision": "month-day-minute",
+    "topic": "獎學金搜尋與升學規劃",
+    "note": "2026-09-21 觀點整理版，已完整閱讀 Peter 原貼文。本文為本站工具使用觀點，不是新增獎學金公告；不把資料庫總數或原貼文的更新承諾視為今日每筆資料皆已重新查核，也不宣稱所有收錄項目仍開放。",
+    "sources": [
+      [
+        "台灣國際獎學金雷達｜本站資料庫",
+        "https://globalednews.com/scholarships/"
+      ],
+      [
+        "環球教育新聞｜免費會員週報",
+        "https://globalednews.com/newsletter/"
+      ]
+    ],
+    "body": [
+      "海外資助資訊分散在政府、大學與基金會網站。Peter 在介紹台灣國際獎學金雷達的原文中，提出一個實際問題：看起來適合的機會，是否真的接受台灣學生、符合自己的學位與申請年度？",
+      "### 從資格開始縮小範圍",
+      "Peter 希望讀者一起看國籍、學位層級、補助範圍與截止日期。全額、部分學費與生活補助代表不同的財務安排；即將開放、開放中與下一輪追蹤也不是同一件事。",
+      "### 資料庫是研究起點",
+      "本站雷達提供關鍵字搜尋，以及國家、學位、補助和狀態篩選。每個候選項目應再點進詳情，閱讀官方來源與查核日期；資料庫有收錄，不代表申請資格已替個人核定。",
+      "Peter 原文也提醒不要忽略台灣官方海外學習與研究資源。不同計畫有各自的身分、學校推薦或申請程序，不能把名稱放在一起就當成相同補助。",
+      "### 用資助機會重新思考選校",
+      "Peter 建議規劃較長期海外升學的家庭，也可以從獎學金反向研究國家與大學。原本沒有列入的學校，可能值得進一步比較；但適合的課程、完整成本與沒有獲獎時的備案仍要一起評估。",
+      "原文邀請讀者分享資料庫，並訂閱環球教育新聞的免費會員週報。每週一封整理教育新聞、招生政策與精選觀點，免費且可取消；這裡不把電子報訂閱描述成已具備跨裝置選校存檔功能。"
+    ],
+    "image": "/images/peter/scholarship-radar-how-to-read-opportunities.svg",
+    "imageAlt": "Peter 談獎學金雷達：先看台灣資格，再看補助與期限，本站原創文字封面"
+  },
+  {
+    "author": "Peter",
+    "importedAt": "2026-09-21",
+    "dateObservedAt": "2026-09-21",
+    "originalPublishedAt": null,
+    "edition": "verified-edit",
+    "imageCredit": "環球教育新聞網編輯部製作／文字封面",
+    "imageRights": "本站原創向量文字版面；非原影片或第三方照片",
+    "slug": "common-app-activities-evidence",
+    "title": "Common App 活動整理：用投入與影響說明自己",
+    "description": "Peter 談活動列表的排序與寫法：最多十項不代表必須填滿，工作、家庭責任與長期興趣都值得認真整理。",
+    "sourceId": "122141882241172155",
+    "sourceUrl": "https://www.facebook.com/photo/?fbid=122141882241172155&set=a.122101120425172155",
+    "originalDateLabel": "原頁未顯示可確認日期",
+    "originalDatePrecision": "unknown",
+    "topic": "美國申請與活動列表",
+    "note": "2026-09-21 查核整理版，已完整展開原貼文。以 Common App 官方活動指南及 Tufts 招生辦公室文章交叉閱讀。原文建議保留 6–10 項屬個人策略，本版不把它寫成最低門檻；各校審查與當期表單以官方要求為準。",
+    "sources": [
+      [
+        "Common App｜Approaching the Activities Section",
+        "https://www.commonapp.org/files/FY-Apply-College-Activities-Section-Common-App.pdf"
+      ],
+      [
+        "Common App｜First-year application guide",
+        "https://www.commonapp.org/apply/first-year-students/"
+      ],
+      [
+        "Tufts Admissions｜Extracurriculars: What Counts?",
+        "https://admissions.tufts.edu/blogs/inside-admissions/post/extracurriculars-what-counts-4/"
+      ]
+    ],
+    "body": [
+      "活動列表可以讓大學理解課堂之外的你。Peter 原文提醒，不要把申請當成填滿格子的競賽，而應說明自己如何分配時間、承擔工作與累積成長。",
+      "### 最多十項，不是最低要求",
+      "Common App 官方活動指南明確說明最多可填十項，但不需要填滿。官方第一年申請指南也列出工作、興趣、社團、社區參與及其他責任，提醒學生呈現自己的實際經驗。",
+      "Tufts 招生辦公室另舉家庭照顧、家務、翻譯協助、打工、藝術與自主專案等例子。這支持活動不只限於校內頭銜的理解，不能推論任何一項經驗必然勝過另一項。",
+      "### 排序先看投入",
+      "Peter 建議用投入時間、主動程度、具體影響與申請敘事的關聯整理優先順序。前幾項應能讓讀者理解你重視什麼，而非只依名稱是否響亮排列。這是寫作建議，不是招生評分公式。",
+      "### 用動作、對象與結果描述",
+      "先寫自己做了什麼，再交代服務對象與可以證明的成果。Peter 提醒不要為了看起來厲害而湊數字；沒有精確統計時，可如實說明頻率、產出與前後變化。時數與週數也應依實際投入填寫。",
+      "### 家庭可以如何協助",
+      "先列出所有經驗，再刪除重複或沒有實質投入的內容。家長能協助孩子回想被忽略的照顧責任、打工與長期興趣，而不是在申請前臨時塞入營隊或證書。",
+      "Peter 的重點是：拿掉漂亮名稱後，仍能清楚說明自己做了什麼、為誰創造價值。依各校要求誠實呈現，比用固定數量包裝自己更有意義。"
+    ],
+    "image": "/images/peter/common-app-activities-evidence.svg",
+    "imageAlt": "Common App 活動整理：用投入與影響說明自己，本站原創文字封面"
+  },
+  {
+    "author": "Peter",
     "importedAt": "2026-09-18",
     "dateObservedAt": "2026-09-18",
     "originalPublishedAt": null,
