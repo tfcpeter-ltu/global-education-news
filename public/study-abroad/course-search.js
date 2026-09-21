@@ -110,7 +110,7 @@
       (!data.level||record.level===data.level)&&
       (!data.internship||hasExperience(record))&&
       (!data.qsBand||(qs?.rankBand(qs?.get(record.school)?.rank||qs?.get(schoolAliases[record.school])?.rank)===data.qsBand))&&
-      (!data.qsArea||(qs?.hasArea(record.school,data.qsArea)||qs?.hasArea(schoolAliases[record.school],data.qsArea)))
+      (!data.qsArea&&(qs?.areaForMajor(record.major)===data.qsArea)&&(qs?.hasArea(record.school,data.qsArea)||qs?.hasArea(schoolAliases[record.school],data.qsArea)))
     ));
     displayLimit=60;
     const params=new URLSearchParams();
