@@ -1,6 +1,6 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-20T06:12:11.308Z",
+  "updatedAt": "2026-09-21T06:17:50.464Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
@@ -10,23 +10,23 @@
       "views": 20
     },
     {
-      "title": "EC English 暫停接收 9 月 12–13 日新生：出發前須確認課程與住宿｜環球教育新聞 Global Education News",
-      "path": "/news/ec-english-new-arrivals-suspended-september-2026/",
-      "views": 18
-    },
-    {
       "title": "美國加強 CPT 實習規範執行：部分大學暫停特定申請，國際學生要注意什麼？｜環球教育新聞網 Global Education News",
       "path": "/news/us-cpt-internship-enforcement-2026/",
-      "views": 12
+      "views": 15
     },
     {
-      "title": "最新國際教育新聞",
-      "path": "/news/",
-      "views": 10
+      "title": "EC English 暫停接收 9 月 12–13 日新生：出發前須確認課程與住宿｜環球教育新聞 Global Education News",
+      "path": "/news/ec-english-new-arrivals-suspended-september-2026/",
+      "views": 13
     },
     {
       "title": "QS 2027 全球 MBA 排名公布：MIT Sloan 居首，選校仍須分清排名與個人適合度｜環球教育新聞網 Global Education News",
       "path": "/news/qs-global-mba-2027-mit-sloan/",
+      "views": 9
+    },
+    {
+      "title": "最新國際教育新聞",
+      "path": "/news/",
       "views": 8
     }
   ],
@@ -34,62 +34,62 @@
     {
       "name": "台灣",
       "mapName": "Taiwan",
-      "sessions": 845,
-      "share": 81.6
+      "sessions": 721,
+      "share": 80.8
     },
     {
       "name": "美國",
       "mapName": "United States",
-      "sessions": 67,
-      "share": 6.5
-    },
-    {
-      "name": "英國",
-      "mapName": "United Kingdom",
-      "sessions": 32,
-      "share": 3.1
+      "sessions": 62,
+      "share": 7
     },
     {
       "name": "印度",
       "mapName": "India",
-      "sessions": 18,
-      "share": 1.7
+      "sessions": 24,
+      "share": 2.7
+    },
+    {
+      "name": "英國",
+      "mapName": "United Kingdom",
+      "sessions": 21,
+      "share": 2.4
     },
     {
       "name": "加拿大",
       "mapName": "Canada",
-      "sessions": 15,
-      "share": 1.4
+      "sessions": 13,
+      "share": 1.5
     },
     {
       "name": "香港",
       "mapName": "Hong Kong",
-      "sessions": 11,
-      "share": 1.1
+      "sessions": 12,
+      "share": 1.3
     },
     {
       "name": "愛爾蘭",
       "mapName": "Ireland",
       "sessions": 6,
-      "share": 0.6
-    },
-    {
-      "name": "新加坡",
-      "mapName": "Singapore",
-      "sessions": 6,
-      "share": 0.6
-    },
-    {
-      "name": "越南",
-      "mapName": "Vietnam",
-      "sessions": 6,
-      "share": 0.6
+      "share": 0.7
     },
     {
       "name": "中國",
       "mapName": "China",
       "sessions": 5,
-      "share": 0.5
+      "share": 0.6
+    },
+    {
+      "name": "新加坡",
+      "mapName": "Singapore",
+      "sessions": 5,
+      "share": 0.6
+    },
+    {
+      "name": "日本",
+      "mapName": "Japan",
+      "sessions": 4,
+      "share": 0.4
     }
   ]
 }
