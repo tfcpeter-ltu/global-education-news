@@ -30,10 +30,23 @@
   const insert=(table,row)=>request(`/rest/v1/${table}`,{method:'POST',body:row,headers:{Prefer:'return=minimal'}});
   const collectState=()=>{const state={};for(let i=0;i<localStorage.length;i++){const k=localStorage.key(i);if(k?.startsWith(PREFIX)&&k!==SESSION_KEY){try{state[k]=JSON.parse(localStorage.getItem(k))}catch{state[k]=localStorage.getItem(k)}}}return state};
   const applyState=state=>Object.entries(state||{}).forEach(([k,v])=>{if(k.startsWith(PREFIX)&&k!==SESSION_KEY)localStorage.setItem(k,typeof v==='string'?v:JSON.stringify(v))});
+  function showStorageNotice(){
+    const header=document.querySelector('.topbar');
+    if(!header||document.querySelector('.storage-notice'))return;
+    const style=document.createElement('style');
+    style.textContent='.storage-notice{display:flex;align-items:center;justify-content:center;gap:10px;padding:10px 18px;background:#f5ead1;border-bottom:1px solid #d8c28f;color:#17324d;font-size:14px;line-height:1.5;text-align:center}.storage-notice strong{font-weight:850}.storage-notice a{color:#17324d;font-weight:850;text-decoration:underline;text-underline-offset:3px}@media(max-width:620px){.storage-notice{display:block;padding:10px 14px}.storage-notice a{display:inline-block;margin-left:4px}}';
+    document.head.appendChild(style);
+    const notice=document.createElement('aside');
+    notice.className='storage-notice';
+    notice.setAttribute('aria-label','資料儲存方式');
+    notice.innerHTML='<span><strong>免註冊也能使用。</strong>未登入時資料只保存在目前瀏覽器；免費註冊後可雲端儲存、長期保留，並跨裝置繼續規劃。</span><a href="/study-abroad/member.html">註冊／登入 →</a>';
+    header.insertAdjacentElement('afterend',notice);
+  }
   let syncTimer=null,syncing=false,patched=false;
   async function saveNavigatorState(){const u=await user();if(!u)return;await upsert('navigator_states',{user_id:u.id,state:collectState(),updated_at:new Date().toISOString()})}
   async function syncNavigator(){if(syncing)return;syncing=true;try{const u=await user();if(!u)return null;const remote=await select('navigator_states');const local=collectState();if(remote?.state&&Object.keys(remote.state).length){applyState({...remote.state,...local});await saveNavigatorState()}else if(Object.keys(local).length){await upsert('navigator_states',{user_id:u.id,state:local,imported_local_data_at:new Date().toISOString(),updated_at:new Date().toISOString()})}patchStorage();return u}finally{syncing=false}}
   function patchStorage(){if(patched)return;patched=true;const original=Storage.prototype.setItem;Storage.prototype.setItem=function(k,v){original.call(this,k,v);if(this===localStorage&&String(k).startsWith(PREFIX)&&k!==SESSION_KEY){clearTimeout(syncTimer);syncTimer=setTimeout(()=>saveNavigatorState().catch(()=>{}),900)}}}
   window.StudyMember={signUp,signIn,signOut,user,select,upsert,insert,syncNavigator,saveNavigatorState,readSession};
+  showStorageNotice();
   if(readSession())syncNavigator().catch(()=>{});
 })();
