@@ -7,7 +7,9 @@ const countryDocs={
  europe:{platform:'各國中央平台／校方直申',docs:['高中成績單','畢業／在學證明','英文或當地語言成績','動機文件／CV（依校）'],note:'歐洲不是單一制度；資格認定、學費與語言要求必須依國家查。'},
  japan:{platform:'校方申請',docs:['高中成績單','畢業／在學證明','志望理由','英文／日文成績','EJU／校內選考（依學程）'],note:'先分英文授課與日文授課，再判斷 EJU、JLPT、面試與書審要求。'},
  singapore:{platform:'各校校方申請',docs:['高中成績單','畢業／在學證明','英文成績','補充資料／面試（依校系）'],note:'NUS、NTU、SMU 等校各自招生，國際資格與面試要求不同。'},
- 'hong-kong':{platform:'校方 International／Non-JUPAS 申請',docs:['高中成績單','畢業／在學證明','英文成績','Personal Statement／補充資料（依校系）'],note:'國際生與 Non-JUPAS 規則要依學校判讀，醫學等科系通常有額外要求。'}
+ 'hong-kong':{platform:'校方 International／Non-JUPAS 申請',docs:['高中成績單','畢業／在學證明','英文成績','Personal Statement／補充資料（依校系）'],note:'國際生與 Non-JUPAS 規則要依學校判讀，醫學等科系通常有額外要求。'},
+ 'south-korea':{platform:'各校國際生申請',docs:['OSSD 完整成績單','畢業／在學證明','IELTS／TOEFL 或 TOPIK','學業計畫／推薦信','財力證明'],note:'英文軌與韓文軌的語言、面試及文件要求不同，依各校當年度 international admissions guide 為準。'},
+ china:{platform:'各校國際學生申請系統',docs:['OSSD 完整成績單','畢業證明','HSK 或英文成績','個人陳述／推薦信','財力與身分文件'],note:'中文與英文授課路徑分開審查；部分校系另有入學測驗、面試、國籍與年齡規則。'}
 };
 const familyReq=(m='')=>{
  const s=m.toLowerCase();

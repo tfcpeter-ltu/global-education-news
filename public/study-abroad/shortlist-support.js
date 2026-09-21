@@ -3,11 +3,21 @@
   const get=()=>{try{const value=JSON.parse(localStorage.getItem(KEY)||'[]');return Array.isArray(value)?value:[]}catch{return []}};
   const set=value=>localStorage.setItem(KEY,JSON.stringify(value));
   const qs=window.QS_RANKING_DATA;
+  const global=window.GLOBAL_RANKING_DATA;
   let applying=false;
 
   function addRankingControls(){
     const box=document.querySelector('.finder-box');
-    if(!box||document.getElementById('uni-qs-band')||!qs)return;
+    if(!box||document.getElementById('uni-qs-band'))return;
+    if(global){
+      const ranking=document.createElement('select');
+      ranking.id='uni-ranking-list';
+      ranking.setAttribute('aria-label','指定大學榜單');
+      ranking.innerHTML='<option value="">全部榜單</option>'+Object.values(global.groups).map(g=>`<option value="${g.id}">${g.label}（${g.entries.length} 所）</option>`).join('');
+      box.append(ranking);
+      ranking.addEventListener('change',applyRankingView);
+    }
+    if(!qs)return;
     const band=document.createElement('select');
     band.id='uni-qs-band';
     band.setAttribute('aria-label','QS 2027 世界大學排名');
@@ -19,24 +29,30 @@
     box.append(band,area);
     const note=document.createElement('div');
     note.className='qs-method-note';
-    note.innerHTML='<strong>排名版本：</strong>整體名次採 QS 世界大學排名 2027；學術領域採目前最新的 QS 世界大學學科排名 2026。本站僅顯示已保留來源並逐筆查核的資料，排名不等於錄取條件。';
+    note.innerHTML='<strong>榜單版本與方法：</strong>英國採 THE 2026、加拿大採 Maclean’s 2026 三類型、美國採 U.S. News 2026 National Universities、澳洲／日本／韓國／中國內地採 QS 2027；新加坡私立教育機構是 SSG／EduTrust 查核清單，不是排名。QS 學術領域採 2026。不同榜單不互相換算；排名也不等於錄取條件。';
     box.after(note);
     band.addEventListener('change',applyRankingView);
     area.addEventListener('change',applyRankingView);
   }
 
   function addRankingBadge(card,name){
-    if(card.querySelector('.qs-ranking-panel')||!qs)return;
-    const entry=qs.get(name);
-    if(!entry)return;
+    if(card.querySelector('.qs-ranking-panel,.ossd-planning-panel'))return;
+    const entry=qs?.get(name);
+    const memberships=global?.get(name)||[];
     const selectedMajor=document.getElementById('uni-major')?.value||'';
-    const matched=qs.subjectFor(name,selectedMajor);
-    const strengths=Object.entries(entry.subjects||{});
-    const panel=document.createElement('div');
-    panel.className='qs-ranking-panel';
-    panel.innerHTML=`<b>QS 世界大學排名 2027：第 ${entry.rank} 名</b>${matched?`<span>${matched.area}｜QS 學科排名 2026 第 ${matched.rank} 名</span>`:strengths.length?`<span>${strengths.map(([area,rank])=>`${area} #${rank}`).join('・')}（QS 2026）</span>`:entry.highlights?.length?`<span>${entry.highlights.join('・')}（QS 2026）</span>`:'<span>學科領域資料持續逐校查核</span>'}`;
+    const matched=qs?.subjectFor(name,selectedMajor);
+    const strengths=Object.entries(entry?.subjects||{});
     const badge=card.querySelector('.verify-badge');
-    (badge||card.querySelector('h3'))?.insertAdjacentElement('afterend',panel);
+    let anchor=badge||card.querySelector('h3');
+    if(entry||memberships.length){
+      const panel=document.createElement('div');
+      panel.className='qs-ranking-panel';
+      panel.innerHTML=`${entry?`<b>QS 世界大學排名 2027：第 ${entry.rank} 名</b>`:''}${memberships.map(m=>`<b>${m.label}${m.showRank?'：第 '+m.rank+' 名':'：入榜／收錄'}</b>`).join('')}${entry?(matched?`<span>${matched.area}｜QS 學科排名 2026 第 ${matched.rank} 名</span>`:strengths.length?`<span>${strengths.map(([area,rank])=>`${area} #${rank}`).join('・')}（QS 2026）</span>`:entry.highlights?.length?`<span>${entry.highlights.join('・')}（QS 2026）</span>`:'<span>學科領域資料持續逐校查核</span>'):''}`;
+      anchor?.insertAdjacentElement('afterend',panel); anchor=panel;
+    }
+    const country=[...(window.UNIVERSITY_FINDER_DATA||[])].find(x=>x.name===name)?.country;
+    const p=global?.profile(country);
+    if(p){const box=document.createElement('div');box.className='ossd-planning-panel';box.innerHTML=`<strong>OSSD 申請規劃｜建議 ${p.range}</strong><span>${p.courses}</span><span>${p.language}</span><span>${p.extra}</span><small>這是本站用來建立選校梯度的規劃區間，不是校方保證錄取線；正式條件依年度、校系與個人背景為準。</small>`;anchor?.insertAdjacentElement('afterend',box);}
   }
 
   function applyRankingView(){
@@ -44,16 +60,18 @@
     applying=true;
     const band=document.getElementById('uni-qs-band')?.value||'';
     const area=document.getElementById('uni-qs-area')?.value||'';
+    const list=document.getElementById('uni-ranking-list')?.value||'';
     let visible=0;
     document.querySelectorAll('#uni-results .uni-card').forEach(card=>{
       const name=card.querySelector('h3')?.textContent?.trim()||'';
       const entry=qs?.get(name);
       addRankingBadge(card,name);
-      const show=(!band||(entry&&qs.rankBand(entry.rank)===band))&&(!area||qs?.hasArea(name,area));
+      const memberships=global?.get(name)||[];
+      const show=(!list||memberships.some(m=>m.id===list))&&(!band||(entry&&qs.rankBand(entry.rank)===band))&&(!area||qs?.hasArea(name,area));
       card.hidden=!show;
       if(show)visible+=1;
     });
-    if(band||area){
+    if(list||band||area){
       const count=document.getElementById('uni-count');
       if(count)count.textContent=`目前顯示 ${visible} 間已完成 QS 版本與來源查核的大學；未顯示不代表未進榜，而是本站尚未完成逐筆核對。`;
     }
@@ -88,7 +106,7 @@
   }
 
   const style=document.createElement('style');
-  style.textContent='.qs-method-note{margin:12px 0 20px;padding:12px 15px;border:1px solid #cbd9e6;border-radius:13px;background:#eef4f8;color:#33485d;font-size:13px;line-height:1.65}.qs-ranking-panel{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin:8px 0 10px}.qs-ranking-panel b,.qs-ranking-panel span{border-radius:999px;padding:5px 9px;font-size:12px}.qs-ranking-panel b{background:#10243d;color:#fff}.qs-ranking-panel span{background:#edf3f8;color:#314b63;border:1px solid #cfdae4}.uni-card[hidden]{display:none!important}@media(min-width:1001px){.finder-box{grid-template-columns:repeat(3,minmax(0,1fr))!important}}';
+  style.textContent='.qs-method-note{margin:12px 0 20px;padding:12px 15px;border:1px solid #cbd9e6;border-radius:13px;background:#eef4f8;color:#33485d;font-size:13px;line-height:1.65}.qs-ranking-panel{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin:8px 0 10px}.qs-ranking-panel b,.qs-ranking-panel span{border-radius:999px;padding:5px 9px;font-size:12px}.qs-ranking-panel b{background:#10243d;color:#fff}.qs-ranking-panel span{background:#edf3f8;color:#314b63;border:1px solid #cfdae4}.ossd-planning-panel{display:grid;gap:6px;background:#f8f3e9;border:1px solid #e5d6b8;border-radius:13px;padding:12px 14px;margin:10px 0;font-size:12px;line-height:1.55}.ossd-planning-panel strong{color:#10243d}.ossd-planning-panel span:before{content:"✓ ";color:#47694f}.ossd-planning-panel small{color:#6b655d}.uni-card[hidden]{display:none!important}@media(min-width:1001px){.finder-box{grid-template-columns:repeat(3,minmax(0,1fr))!important}}';
   document.head.appendChild(style);
   const target=document.getElementById('uni-results')||document.body;
   const observer=new MutationObserver(()=>{inject();renderBadge()});
