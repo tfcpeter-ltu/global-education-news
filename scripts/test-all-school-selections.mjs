@@ -4,7 +4,7 @@ import assert from 'node:assert/strict';
 const dir='public/study-abroad/';
 const loaded={window:{}};vm.createContext(loaded);
 const html=fs.readFileSync(dir+'compare.html','utf8');
-for(const m of html.matchAll(/src="([^"?]+\.js)[^"]*"/g))if(m[1]!=='compare.js')vm.runInContext(fs.readFileSync(dir+m[1],'utf8'),loaded,{filename:m[1]});
+for(const m of html.matchAll(/src="([^"?]+\.js)[^"]*"/g))if(!['compare.js','study-cloud-sync.js','member-access.js'].includes(m[1]))vm.runInContext(fs.readFileSync(dir+m[1],'utf8'),loaded,{filename:m[1]});
 const data=loaded.window.UNIVERSITY_FINDER_DATA;
 const decode=s=>s.replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>');
 const sources=Object.fromEntries(['universities','shortlist','compare','university-detail'].map(n=>[n,fs.readFileSync(dir+n+'.js','utf8')]));

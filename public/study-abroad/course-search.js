@@ -30,7 +30,7 @@
     const university=schoolData.get(school)||schoolData.get(schoolAliases[school]);
     const searchable=[school,major,source.program,source.status,...(source.highlights||[]),...Object.values(source.evidence||{})].join(' ').toLowerCase();
     return {key,school,major,source,university,searchable,level:inferLevel(source.program||'')};
-  }).sort((a,b)=>(b.source.checked||'').localeCompare(a.source.checked||'')||a.school.localeCompare(b.school));
+  }).filter(record=>window.STUDY_ACCESS?.canUseSchool(record.school)??true).sort((a,b)=>(b.source.checked||'').localeCompare(a.source.checked||'')||a.school.localeCompare(b.school));
   let displayLimit=60;
   let currentMatches=[];
 
