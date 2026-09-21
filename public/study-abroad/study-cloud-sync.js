@@ -47,7 +47,7 @@
   async function saveNavigatorState(){const u=await user();if(!u)return;await upsert('navigator_states',{user_id:u.id,state:collectState(),updated_at:new Date().toISOString()})}
   async function syncNavigator(){if(syncing)return;syncing=true;try{const u=await user();if(!u)return null;const remote=await select('navigator_states');const local=collectState();if(remote?.state&&Object.keys(remote.state).length){applyState({...remote.state,...local});await saveNavigatorState()}else if(Object.keys(local).length){await upsert('navigator_states',{user_id:u.id,state:local,imported_local_data_at:new Date().toISOString(),updated_at:new Date().toISOString()})}patchStorage();return u}finally{syncing=false}}
   function patchStorage(){if(patched)return;patched=true;const original=Storage.prototype.setItem;Storage.prototype.setItem=function(k,v){original.call(this,k,v);if(this===localStorage&&String(k).startsWith(PREFIX)&&k!==SESSION_KEY){clearTimeout(syncTimer);syncTimer=setTimeout(()=>saveNavigatorState().catch(()=>{}),900)}}}
-  window.StudyMember={signUp,signIn,signOut,user,select,upsert,insert,syncNavigator,saveNavigatorState,readSession};
+  window.StudyMember={signUp,signIn,signOut,user,select,upsert,insert,request,syncNavigator,saveNavigatorState,readSession};
   showStorageNotice();
   if(readSession())syncNavigator().catch(()=>{});
 })();
