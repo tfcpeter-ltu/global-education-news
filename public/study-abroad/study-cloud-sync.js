@@ -40,7 +40,7 @@
     const notice=document.createElement('aside');
     notice.className='storage-notice';
     notice.setAttribute('aria-label','資料儲存方式');
-    notice.innerHTML='<span><strong>免註冊也能使用。</strong>未登入時資料只保存在目前瀏覽器；免費註冊後可雲端儲存、長期保留，並跨裝置繼續規劃。</span><a href="/study-abroad/member.html">註冊／登入 →</a>';
+    notice.innerHTML='<span><strong>免註冊可使用基本功能與 110 間大學資料。</strong>免費註冊後可搜尋完整 328 間大學，並將查詢與規劃結果雲端儲存、長期保留。</span><a href="/study-abroad/member.html">免費註冊／登入 →</a>';
     main.insertAdjacentElement('beforebegin',notice);
   }
   let syncTimer=null,syncing=false,patched=false;
