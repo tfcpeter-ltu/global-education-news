@@ -38,7 +38,12 @@
     tr('適合學生（本站判讀）',o=>!o.listed?missing(o):esc(o.src?.evidence?.interpretation||o.pi?.best||'將個人目標與官方課程內容對照。'))+
     tr('限制與待確認事項',o=>pending(o,'limitation'))+
     tr('查核來源',o=>o.src?(o.src.evidence?.sources||[o.src.programUrl]).map((u,i)=>'<a href="'+esc(u)+'" target="_blank" rel="noopener">官方／課程依據 '+(i+1)+'</a>').join('<br>'):sourceLink(o))+
-    tr('科系研究方向（通用建議）',o=>o.listed?esc(o.pi?.focus||'比較課程結構與專業方向。'):missing(o))+
+    tr('學校 × 科系定位',o=>o.listed?esc(o.pi?.focus||'比較課程結構與專業方向。'):missing(o))+
+    tr('研究／實務取向',o=>o.listed?esc(o.pi?.orientation||'待核對'):missing(o))+
+    tr('課程比較重點',o=>o.listed?esc(o.pi?.learning||'逐校核對課程結構。'):missing(o))+
+    tr('可能職涯與升學',o=>o.listed?esc(o.pi?.careers||'依專業分支規劃。'):missing(o))+
+    tr('同類學校比較',o=>o.listed?esc(o.pi?.compare||'加入同國同科系學校比較。'):missing(o))+
+    tr('比較資料證據狀態',o=>o.listed?esc(o.pi?.evidence||'官方課程待查核')+'<br><a href="'+esc(o.pi?.sourceUrl||o.x.url)+'" target="_blank" rel="noopener">核對官方來源 →</a>':missing(o))+
     tr('學校已收錄科系',({x})=>(x.majors||[]).map(esc).join('、'))+
     tr('研究／就業判讀',o=>o.d?esc(o.d.prestige)+'；'+esc(o.d.local)+'<br><small>研究提示，非雇主調查或錄取率。</small>':missing(o))+
     tr('下一步',o=>o.listed?'<a href="university-detail.html?school='+encodeURIComponent(o.x.name)+'&major='+encodeURIComponent(major)+'">完整分析</a><br><a href="documents.html?country='+encodeURIComponent(o.x.country)+'&major='+encodeURIComponent(major)+'&school='+encodeURIComponent(o.x.name)+'">文件清單</a><br>'+sourceLink(o):'<a href="'+findLink(major)+'">找有此方向的大學 →</a><br>'+sourceLink(o))+

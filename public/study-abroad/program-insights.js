@@ -24,6 +24,53 @@ const special={
 'University of Southern California|Music':{focus:'音樂／影視／娛樂產業與 Los Angeles 資源',best:'想把音樂、影視、製作與娛樂產業結合的學生',signal:'城市產業網絡是顯著優勢',tradeoff:'費用與競爭度高，需看具體學院／專業要求。'}
 };
 const subjectGuides=[[["Mathematics","Statistics"],"數學分析、機率、統計推論與建模","比較純數學、應用數學與統計的課程比重","想用嚴謹推理或數據方法解決問題"],[["Biology","Chemistry","Physics","Science"],"基礎科學理論、實驗與研究方法","比較實驗課、研究專題及選擇主修的時間","願意投入實驗、數理分析與科學研究"],[["Agriculture","Environmental Science"],"生物與環境系統、資源利用與永續議題","核對田野、實驗、產業專案與量化課程","關心生態、食物、資源或環境問題"],[["Health Sciences","Public Health","Nutrition","Nursing","Kinesiology"],"健康、人體、研究方法與專業實務","先確認學位是否通往專業資格，以及國際生實習限制","希望把科學知識應用於健康或運動領域"],[["Education","Social Work"],"教育／社會服務理論、研究方法與實務","核對實習安排、語言要求及當地專業資格","重視人際互動、教學或社會支持"],[["English","History","Humanities","Theatre"],"文本、歷史、文化研究與表達","比較閱讀寫作、研究專題、表演或創作課程比重","喜歡閱讀、思辨、研究或創作表達"],[["Sociology","Criminology","Human Development"],"社會、人類發展、制度與研究方法","比較質性訪談、統計及實地研究課程","對人與社會的互動及制度問題有興趣"],[["Public Policy","Political Science","International Relations"],"政治制度、公共議題與政策分析","比較經濟、統計、語言、區域研究與實務專案","希望研究公共事務或國際議題"],[["Communication","Journalism"],"媒體、傳播理論、採訪與內容製作","區分研究型傳播、新聞採訪與實作製作路線","重視寫作、查證、敘事或媒體分析"],[["Interdisciplinary Studies"],"跨領域課程組合與整合專題","核對能否自訂主修，以及必修、學分及畢業專題規則","希望結合兩個以上領域並能說明學習目標"],[["Aviation"],"航空產業、營運及相關技術","分清航空管理、飛行訓練與工程，另查執照與體檢要求","對航空營運或專業技術有明確目標"],[["Hospitality","Tourism","Sport Management"],"服務產業、營運、管理與實務專案","比較實習是否必修、合作範圍與國際生參加資格","偏好服務、營運及組織管理"],[["Game Design"],"遊戲設計、互動原型與製作專案","區分程式、遊戲美術與設計路線，核對作品集要求","希望以互動作品與團隊專案累積能力"]];
-const fallback=(x,m)=>{const s=(m||'').toLowerCase();if(/computer|ai|data/.test(s))return {focus:'計算基礎、軟體／資料／AI 專精方向',best:'先決定偏研究、軟體工程、AI 還是就業／Co-op',signal:'比較課程深度、實習、Co-op、城市科技產業與研究資源',tradeoff:'不要只用大學綜合排名代替電腦專業判斷。'};if(/engineering/.test(s))return {focus:'數學科學基礎＋工程分支與專案訓練',best:'先確定電子、機械、土木、化工、航太等方向',signal:'比較專業認證、實驗設備、placement 與當地工程產業',tradeoff:'研究型名校和就業型工程學校價值不同。'};if(/business|finance|accounting|economics/.test(s))return {focus:'商業／金融／經濟課程與企業環境',best:'先決定金融、會計、管理、分析還是經濟研究',signal:'當地企業招聘、placement、校友網絡與城市市場很重要',tradeoff:'世界綜合排名不是商學就業的唯一指標。'};if(/psychology/.test(s))return {focus:'心理學理論、研究方法與統計',best:'先區分一般心理學、研究、臨床／諮商後續路徑',signal:'認證與後續研究所路徑比只看學士排名更重要',tradeoff:'心理學學士通常不直接等於專業執照。'};if(/medicine|dentistry|pharmacy|biomedical/.test(s))return {focus:'專業／生命科學訓練',best:'先確認是執照型專業還是研究型生命科學',signal:'專業認證、臨床訓練、國際生資格是第一優先',tradeoff:'醫療專業不應只用綜合世界排名選擇。'};if(s==='architecture')return {focus:'建築設計工作室、結構與環境、建築史及空間表達',best:'喜歡空間設計，願意持續製作模型、繪圖並接受設計評議',signal:'比較工作室教學、工坊資源、專業學位路徑及實務安排',tradeoff:'先區分建築研究學士、專業 BArch 與後續 MArch；學位不等於執照。'};if(/art|design|animation|film|fashion/.test(s))return {focus:'studio、作品集、專案與創意產業',best:'先決定專業媒介與作品方向',signal:'作品集指導、師資、設備、城市產業與校友網絡很重要',tradeoff:'綜合世界排名通常不能反映創意專業真實價值。'};if(/music|composition|musical/.test(s))return {focus:'表演／創作／製作／產業訓練',best:'先決定表演、作曲、製作還是音樂產業',signal:'師資、audition、演出、設備與產業網絡比綜合排名更關鍵',tradeoff:'職業發展高度依賴個人作品與經驗。'};const guide=subjectGuides.find(g=>g[0].includes(m));if(guide)return {focus:guide[1],best:guide[3],signal:guide[2],tradeoff:'這是科系研究方向；各校實際課程、資格與實習須以官方資料確認。'};return {focus:'依科系查看課程結構與專業方向',best:'把個人目標和課程實際內容對齊',signal:'同時比較全球聲望與當地專業／就業評價',tradeoff:'不要只用綜合排名做最後決定。'};};
-window.PROGRAM_INSIGHTS={get(x,m){const found=special[`${x.name}|${m}`];return {...(found||fallback(x,m)),scope:found?'本站選校判讀，非雇主調查':'科系通用建議，尚未核對此校課程'};}};
+const fallback=(x,m)=>{const s=(m||'').toLowerCase();if(/computer|ai|data/.test(s))return {focus:'計算基礎、軟體工程、資料方法與 AI 專精方向',learning:'比較演算法、系統、程式專案、數學深度與專題研究的比重',best:'希望在研究、軟體工程、AI／資料或 Co-op 就業之間建立清楚主軸的學生',signal:'課程深度、實習／Co-op、城市科技產業與研究資源',careers:'軟體工程、資料分析、AI、資安、產品或研究所'};if(/engineering/.test(s))return {focus:'數學科學基礎、工程分支、實驗與設計專案',learning:'比較電子、機械、土木、化工、航太等分流，以及實驗、capstone 與 placement',best:'願意投入數學、物理與團隊設計，並希望把理論轉為工程解決方案的學生',signal:'專業認證、實驗設備、產業專案、placement 與當地工程產業',careers:'工程設計、研發、製造、顧問、專案管理或研究所'};if(/business|finance|accounting|economics/.test(s))return {focus:'商業決策、金融／經濟分析、量化方法與企業環境',learning:'比較會計、金融、管理、行銷、商業分析與經濟理論的必選修比例',best:'希望把分析能力、企業實務與國際商業環境結合的學生',signal:'企業招聘、placement、校友網絡、專業認證與城市市場',careers:'金融、會計、顧問、行銷、營運、商業分析或研究所'};if(/psychology/.test(s))return {focus:'心理學理論、研究方法、統計與人類行為',learning:'比較認知、發展、社會、生物心理及研究專題；另查專業認證',best:'對人類行為有興趣，願意學習研究設計與統計的學生',signal:'認證、研究機會與臨床／諮商等後續研究所路徑',careers:'研究、教育、人力資源、使用者研究或後續專業訓練'};if(/medicine|dentistry|pharmacy|biomedical|health|nursing|nutrition|kinesiology/.test(s))return {focus:'生命科學、健康研究、臨床或專業實務訓練',learning:'先區分執照型專業、健康科學與研究型生命科學，再核對實習及臨床安排',best:'科學基礎穩定、能承擔高強度專業訓練並重視倫理與人際互動的學生',signal:'專業認證、臨床訓練、國際生資格與畢業後執業路徑',careers:'醫療健康專業、生命科學研究、公共健康或研究所'};if(s==='architecture')return {focus:'建築設計工作室、結構環境、建築史與空間表達',learning:'比較 studio 時數、工坊、數位製造、專業學位路徑與實務安排',best:'喜歡空間設計，願意持續製作模型、繪圖並接受設計評議的學生',signal:'工作室文化、專業認證、作品集、工坊與城市建築環境',careers:'建築、都市設計、空間／展覽設計或後續 MArch'};if(/art|design|animation|film|fashion|game/.test(s))return {focus:'studio、作品集、創意製作與跨媒體專案',learning:'比較專業媒介、設備、個人與團隊專案、業界 brief 及畢業作品',best:'已有創作方向，願意反覆修改作品並累積個人作品集的學生',signal:'作品集指導、師資、設備、城市創意產業與校友網絡',careers:'設計、動畫、影視、時尚、遊戲或自由創作'};if(/music|composition|musical/.test(s))return {focus:'表演、創作、製作、音樂科技與產業訓練',learning:'比較主修師資、一對一教學、ensemble、錄音設備、演出與產業專案',best:'能持續練習與公開演出，並希望建立作品、舞台或製作履歷的學生',signal:'主修師資、audition、演出、設備與音樂產業網絡',careers:'表演、作曲、製作、音樂商務、教育或研究所'};const guide=subjectGuides.find(g=>g[0].includes(m));if(guide)return {focus:guide[1],learning:guide[2],best:guide[3],signal:guide[2],careers:'依專業分支進入產業、公共部門、研究或研究所'};return {focus:`${m||'本科系'}的核心理論、方法、專題與跨領域選修`,learning:'比較必修深度、選修彈性、研究／實作專題、實習與畢業成果',best:'希望把個人興趣、能力與可驗證的課程內容對齊的學生',signal:'課程結構、師資方向、實習／研究機會、城市環境與畢業路徑',careers:'依細分專業進入就業、專業資格或研究所路徑'};};
+
+const countrySignals={
+ uk:'英國學制通常專業聚焦較早，應特別比較 placement、專業認證與 UCAS 科系設定',
+ canada:'加拿大選校需把 Co-op、校區、城市產業與省別就業環境和研究聲望一起看',
+ us:'美國課程常保留通識與轉換主修彈性，也要比較校內資源、實習及整體成本',
+ australia:'澳洲應同時檢查專業認證、實習、城市產業與國際生畢業後路徑',
+ europe:'歐洲各國制度差異大，授課語言、學位結構、實習與資格認定必須逐國確認',
+ japan:'日本要先分英文授課與日文授課，再比較實驗室、企業連結與語言門檻',
+ singapore:'新加坡應分清自治大學與私立教育機構，並核對授位學校、EduTrust 與實習資格',
+ 'hong-kong':'香港課程與城市產業連結緊密，應同時比較專業認證、交換與國際生就業規則',
+ 'south-korea':'韓國要先分英文軌與韓文軌，再比較研究資源、企業連結及 TOPIK 要求',
+ china:'中國大陸要先分中文與英文授課，並比較學院實力、城市產業、實驗室與國際生規則'
+};
+const orientation=x=>{
+ const goals=(x.goals||[]).join(' '), memberships=x.rankingMemberships||[];
+ if(memberships.some(r=>r.id==='singapore-private'))return {label:'實務／授位合作導向',detail:'比較授位夥伴、課程交付、實習支援與 EduTrust 狀態'};
+ if(/Co-op|實務|就業|placement|產業/.test(`${goals} ${x.note||''}`))return {label:'實務與就業取向較明確',detail:'把實習、Co-op／placement、專案與雇主連結列為主要比較項'};
+ if(memberships.length||/名校|研究/.test(goals))return {label:'研究資源與學術能見度取向',detail:'適合把研究方法、學術深度、實驗室與碩博銜接列為主要比較項'};
+ return {label:'研究與實務並重',detail:'需從實際課表確認理論、研究、專案與實習的比例'};
+};
+const peers=(x,m)=>{
+ const all=window.UNIVERSITY_FINDER_DATA||[];
+ const candidates=all.filter(v=>v!==x&&v.country===x.country&&(v.majors||[]).includes(m));
+ const ranked=candidates.sort((a,b)=>(b.rankingMemberships?.length||0)-(a.rankingMemberships?.length||0));
+ return ranked.slice(0,3).map(v=>v.name);
+};
+const build=(x,m)=>{
+ const base=fallback(x,m), type=orientation(x), compare=peers(x,m), city=x.city?`${x.city} 的城市／生活與產業環境`:'所在地的生活與產業環境';
+ const source=window.OFFICIAL_PROGRAM_SOURCES?.get?.(x.name,m);
+ const compareText=compare.length?`同國同科系可先與 ${compare.join('、')} 對照；比較時不要只看綜合排名，應逐項核對課程、實習／研究、成本與申請要求。`:'目前本站同國同科系樣本較少，建議再加入其他國家或同領域課程交叉比較。';
+ return {
+   focus:`${x.name} × ${m}：${base.focus}。本校目前的比較定位為「${type.label}」。`,
+   learning:base.learning,
+   orientation:type.label,
+   best:base.best,
+   signal:`${base.signal}；另把${city}納入判斷。${countrySignals[x.country]||'並確認當地產業、實習與專業資格。'}`,
+   careers:base.careers,
+   compare:compareText,
+   tradeoff:`${type.detail}；${source?'本站已連結對應官方課程，仍須以申請年度頁面為準。':'目前只完成學校層級與科系方向比較，正式學位名稱、課表、師資與實習仍待官方課程頁逐項核對。'}`,
+   evidence:source?`已連結官方課程：${source.program}（查核 ${source.checked}）`:'尚未完成此校此科系的逐課程官方查核，不把方向性比較當成已確認開課。',
+   sourceUrl:source?.programUrl||x.url,
+   scope:source?'學校 × 科系比較；已有官方課程來源':'學校 × 科系方向性比較；官方課程待查'
+ };
+};
+window.PROGRAM_INSIGHTS={
+ get(x,m){const generated=build(x,m), found=special[`${x.name}|${m}`];return found?{...generated,...found,focus:`${x.name} × ${m}：${found.focus}`,learning:generated.learning,orientation:generated.orientation,careers:generated.careers,compare:generated.compare,evidence:generated.evidence,sourceUrl:generated.sourceUrl,scope:generated.scope}:generated;},
+ coverage(){const all=window.UNIVERSITY_FINDER_DATA||[];return {schools:all.length,majors:new Set(all.flatMap(x=>x.majors||[])).size,pairs:all.reduce((n,x)=>n+(x.majors||[]).length,0)};}
+};
 })();
