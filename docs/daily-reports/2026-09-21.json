@@ -1,0 +1,69 @@
+{
+  "peterImports": [],
+  "scholarshipChecks": [
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-09-gates-cambridge-2027/",
+      "verifiedAt": "2026-09-21T11:42:33.791Z",
+      "eligibleTaiwan": true,
+      "open": true,
+      "sources": [
+        "https://www.gatescambridge.org/apply/timeline/",
+        "https://www.gatescambridge.org/apply/eligibility/",
+        "https://www.gatescambridge.org/programme/the-scholarship/",
+        "https://www.oxy.edu/academics/student-success/national-international-fellowships/awards-information/gates-cambridge"
+      ],
+      "method": "Official timeline, eligibility and funding read through live Chrome; independent Occidental guide read via web."
+    }
+  ],
+  "acceptance": {
+    "mobile": false,
+    "seo": false,
+    "desktop": false
+  },
+  "notes": [
+    "No same-day report or publication log found on main at initial inspection. Prior-day completion does not count today.",
+    "Taiwan database loaded in the live embedded page; interaction validation pending."
+  ],
+  "research": [
+    {
+      "status": "two sources read; image and article pending",
+      "topic": "ILAC closure",
+      "sources": [
+        "https://www.languescanada.ca/en/blog/blog/languages-canada-statement-on-ilac-closure",
+        "https://thepienews.com/breaking-ilac-education-group-in-canada-files-for-bankruptcy/"
+      ]
+    }
+  ],
+  "newsPublished": [
+    {
+      "url": "https://globalednews.com/news/ilac-language-student-placement-september-2026/",
+      "verifiedAt": "2026-09-21T11:31:22.002Z"
+    }
+  ],
+  "sunmoon": {
+    "status": "homepage read",
+    "url": "https://www.sunmoonnews.com.tw/"
+  },
+  "status": "partial",
+  "timezone": "Asia/Taipei",
+  "socialPosts": [
+    {
+      "campaign": "news",
+      "network": "threads",
+      "version": 1,
+      "status": "PUBLISHED",
+      "id": "DdjDoOOkzy2",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdjDoOOkzy2",
+      "articleUrl": "https://globalednews.com/news/ilac-language-student-placement-september-2026/",
+      "verifiedAt": "2026-09-21T11:31:22.002Z"
+    }
+  ],
+  "baselineCommit": "e5ef7d292130ac80c6f1c2e54e3afbcf0094754b",
+  "date": "2026-09-21",
+  "deployment": {
+    "commit": "fe7f3ad714b79508767034f4cbbc8277072bc7d1",
+    "status": "success",
+    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/35594183352",
+    "verifiedAt": "2026-09-21T11:31:22.002Z"
+  }
+}
