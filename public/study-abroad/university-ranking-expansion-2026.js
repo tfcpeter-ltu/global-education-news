@@ -2,6 +2,7 @@
   const data=window.UNIVERSITY_FINDER_DATA||(window.UNIVERSITY_FINDER_DATA=[]);
   const norm=value=>String(value||'').toLowerCase().normalize('NFKD').replace(/&/g,'and').replace(/[^a-z0-9]+/g,' ').trim();
   const broad=['Computer Science','Engineering','Business','Economics','Mathematics','Data Science','Biology','Chemistry','Physics','Psychology','Social Sciences','Humanities'];
+  window.STUDY_MAJOR_LABELS={...(window.STUDY_MAJOR_LABELS||{}),'Social Sciences':'社會科學'};
   const profiles={
     uk:{label:'英國',range:'80–95%+',courses:'6 門 Grade 12 U／M；競爭科系通常更看重相關先修與高分科目',language:'IELTS／TOEFL 或校方認可替代證明；依課程確認',extra:'多數學士經 UCAS；醫學、牙醫、法律、藝術等另有測驗、面試或作品集'},
     canada:{label:'加拿大',range:'80–95%+',courses:'OSSD、30 credits、40 小時志工與 OSSLT／替代要求；常以 6 門 Grade 12 U／M 計算',language:'依大學英文豁免規則；未符合時準備 IELTS／TOEFL／Duolingo',extra:'工程、商學、護理、健康與電腦科學常要求指定 4U 先修且實際門檻高於最低資格'},
