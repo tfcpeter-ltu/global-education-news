@@ -123,6 +123,49 @@
           "observedAt": "2026-09-19T11:32:59.210Z"
         }
       ]
+    },
+    {
+      "date": "2026-09-21",
+      "campaign": "taiwan-universities",
+      "topic": "decision-tool",
+      "CTA": "免費加入會員",
+      "contentPath": "docs/social-posts/2026-09-21/taiwan-universities--explore-interests.json",
+      "status": "published",
+      "publishedPosts": [
+        {
+          "campaign": "taiwan-universities",
+          "network": "linkedin",
+          "version": 1,
+          "status": "PUBLISHED",
+          "articleUrl": "https://globalednews.com/taiwan-universities/",
+          "attemptedAt": "2026-09-21T11:56:12.136Z",
+          "id": "7507769658155122688",
+          "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7507769658155122688/",
+          "verifiedAt": "2026-09-21T11:56:33.551Z"
+        },
+        {
+          "campaign": "taiwan-universities",
+          "network": "threads",
+          "version": 1,
+          "status": "PUBLISHED",
+          "articleUrl": "https://globalednews.com/taiwan-universities/",
+          "attemptedAt": "2026-09-21T12:02:27.241Z",
+          "id": "DdjHUFcE2kp",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdjHUFcE2kp",
+          "verifiedAt": "2026-09-21T12:03:16.263Z"
+        },
+        {
+          "campaign": "taiwan-universities",
+          "network": "instagram",
+          "version": 1,
+          "status": "PUBLISHED",
+          "articleUrl": "https://globalednews.com/taiwan-universities/",
+          "attemptedAt": "2026-09-21T12:23:36.306Z",
+          "id": "DdjJvDSkwPN",
+          "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdjJvDSkwPN/",
+          "verifiedAt": "2026-09-21T12:24:50.579Z"
+        }
+      ]
     }
   ]
 }

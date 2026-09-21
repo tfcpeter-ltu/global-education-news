@@ -10,6 +10,170 @@
       "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdjDoOOkzy2",
       "articleUrl": "https://globalednews.com/news/ilac-language-student-placement-september-2026/",
       "verifiedAt": "2026-09-21T11:31:22.002Z"
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "version": 1,
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/news/ilac-language-student-placement-september-2026/",
+      "attemptedAt": "2026-09-21T11:50:26.343Z",
+      "id": "7507768208142168064",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7507768208142168064/",
+      "verifiedAt": "2026-09-21T11:51:07.723Z"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "version": 1,
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-gates-cambridge-2027/",
+      "attemptedAt": "2026-09-21T11:52:46.429Z",
+      "id": "7507768794442956800",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7507768794442956800/",
+      "verifiedAt": "2026-09-21T11:53:16.434Z"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "version": 1,
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "attemptedAt": "2026-09-21T11:56:12.136Z",
+      "id": "7507769658155122688",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7507769658155122688/",
+      "verifiedAt": "2026-09-21T11:56:33.551Z"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "version": 1,
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/study-abroad/university-detail.html?school=Singapore%20University%20of%20Technology%20and%20Design&major=AI",
+      "attemptedAt": "2026-09-21T11:57:25.670Z",
+      "id": "7507769963118657537",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7507769963118657537/",
+      "verifiedAt": "2026-09-21T11:57:50.760Z"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "version": 1,
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-gates-cambridge-2027/",
+      "attemptedAt": "2026-09-21T11:58:36.928Z",
+      "id": "DdjG4AME6zx",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdjG4AME6zx",
+      "verifiedAt": "2026-09-21T11:59:03.030Z"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "version": 1,
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/study-abroad/university-detail.html?school=Singapore%20University%20of%20Technology%20and%20Design&major=AI",
+      "attemptedAt": "2026-09-21T11:59:56.119Z",
+      "id": "DdjHBtqkyx6",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdjHBtqkyx6",
+      "verifiedAt": "2026-09-21T12:00:21.643Z"
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "version": 1,
+      "status": "FAILED",
+      "articleUrl": "https://globalednews.com/news/ilac-language-student-placement-september-2026/",
+      "attemptedAt": "2026-09-21T12:01:38.784Z",
+      "error": "Uploaded image is not in an allowed aspect ratio; will retry with Instagram 16:9 crop."
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "version": 1,
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "attemptedAt": "2026-09-21T12:02:27.241Z",
+      "id": "DdjHUFcE2kp",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdjHUFcE2kp",
+      "verifiedAt": "2026-09-21T12:03:16.263Z"
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "version": 1,
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/news/ilac-language-student-placement-september-2026/",
+      "attemptedAt": "2026-09-21T12:06:42.756Z",
+      "note": "Retry with platform 16:9 crop",
+      "id": "DdjHzYsk86s",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdjHzYsk86s/",
+      "verifiedAt": "2026-09-21T12:07:30.900Z"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "version": 1,
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-gates-cambridge-2027/",
+      "attemptedAt": "2026-09-21T12:10:41.309Z",
+      "id": "DdjIQeSk0T_",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdjIQeSk0T_/",
+      "verifiedAt": "2026-09-21T12:11:38.346Z"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "version": 1,
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/study-abroad/university-detail.html?school=Singapore%20University%20of%20Technology%20and%20Design&major=AI",
+      "attemptedAt": "2026-09-21T12:15:00.375Z",
+      "id": "DdjIv-jkwb_",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdjIv-jkwb_/",
+      "verifiedAt": "2026-09-21T12:16:01.250Z"
+    },
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "version": 1,
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/news/ilac-language-student-placement-september-2026/",
+      "attemptedAt": "2026-09-21T12:23:10.960Z",
+      "id": "pfbid034Af1j6WcuvL7bhunjLiFPhX45eHPbvi8AS8uDe2gZkNqpVeWX7h7YiuJMmc5D395l",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid034Af1j6WcuvL7bhunjLiFPhX45eHPbvi8AS8uDe2gZkNqpVeWX7h7YiuJMmc5D395l",
+      "verifiedAt": "2026-09-21T12:24:14.542Z"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "version": 1,
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "attemptedAt": "2026-09-21T12:23:36.306Z",
+      "id": "DdjJvDSkwPN",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdjJvDSkwPN/",
+      "verifiedAt": "2026-09-21T12:24:50.579Z"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "version": 1,
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-gates-cambridge-2027/",
+      "attemptedAt": "2026-09-21T12:28:32.712Z",
+      "id": "pfbid07CAAqEAmfqKBmFde8M6PNg5wBqFWMgAh91CGJrzxFTgS8799fEn32UVPJD6NLmdZl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid07CAAqEAmfqKBmFde8M6PNg5wBqFWMgAh91CGJrzxFTgS8799fEn32UVPJD6NLmdZl",
+      "verifiedAt": "2026-09-21T12:29:06.042Z"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "version": 1,
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/study-abroad/university-detail.html?school=Singapore%20University%20of%20Technology%20and%20Design&major=AI",
+      "attemptedAt": "2026-09-21T12:30:32.040Z",
+      "id": "pfbid0318cJePsvPB7B4zyPsYCcSp47odsNwCe1qWe6kkjffz647JpU5HGpkzxTdvBXv2bMl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0318cJePsvPB7B4zyPsYCcSp47odsNwCe1qWe6kkjffz647JpU5HGpkzxTdvBXv2bMl",
+      "verifiedAt": "2026-09-21T12:31:01.703Z"
     }
   ]
 }

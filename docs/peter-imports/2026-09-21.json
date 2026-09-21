@@ -1,6 +1,6 @@
 {
   "date": "2026-09-21",
-  "status": "ready",
+  "status": "published-verified",
   "sourcePage": "61585164670358",
   "articles": [
     {
@@ -44,8 +44,9 @@
       "image": "/images/peter/pearson-scholarship-school-nomination.svg",
       "imageAlt": "Pearson 獎學金：先確認高中提名，再安排大學申請，本站原創文字封面",
       "url": "https://globalednews.com/peter/pearson-scholarship-school-nomination/",
-      "status": "ready",
-      "readAt": "2026-09-21T12:17:51.123Z"
+      "status": "published-verified",
+      "readAt": "2026-09-21T12:17:51.123Z",
+      "verifiedAt": "2026-09-21T12:32:10.366Z"
     },
     {
       "author": "Peter",
@@ -88,8 +89,9 @@
       "image": "/images/peter/scholarship-radar-how-to-read-opportunities.svg",
       "imageAlt": "Peter 談獎學金雷達：先看台灣資格，再看補助與期限，本站原創文字封面",
       "url": "https://globalednews.com/peter/scholarship-radar-how-to-read-opportunities/",
-      "status": "ready",
-      "readAt": "2026-09-21T12:17:51.124Z"
+      "status": "published-verified",
+      "readAt": "2026-09-21T12:17:51.124Z",
+      "verifiedAt": "2026-09-21T12:32:10.366Z"
     },
     {
       "author": "Peter",
@@ -138,8 +140,9 @@
       "image": "/images/peter/common-app-activities-evidence.svg",
       "imageAlt": "Common App 活動整理：用投入與影響說明自己，本站原創文字封面",
       "url": "https://globalednews.com/peter/common-app-activities-evidence/",
-      "status": "ready",
-      "readAt": "2026-09-21T12:17:51.124Z"
+      "status": "published-verified",
+      "readAt": "2026-09-21T12:17:51.124Z",
+      "verifiedAt": "2026-09-21T12:32:10.366Z"
     }
   ]
 }

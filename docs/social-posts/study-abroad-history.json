@@ -206,6 +206,63 @@
           "observedAt": "2026-09-19T11:30:45.559Z"
         }
       ]
+    },
+    {
+      "date": "2026-09-21",
+      "campaign": "study-abroad",
+      "country": "新加坡",
+      "schoolName": "Singapore University of Technology and Design",
+      "storyAngle": "從歷史畢業專題看跨領域設計",
+      "topic": "singapore",
+      "CTA": "免費加入會員",
+      "contentPath": "docs/social-posts/2026-09-21/study-abroad--singapore--sutd--capstone.json",
+      "status": "published",
+      "publishedPosts": [
+        {
+          "campaign": "study-abroad",
+          "network": "linkedin",
+          "version": 1,
+          "status": "PUBLISHED",
+          "articleUrl": "https://globalednews.com/study-abroad/university-detail.html?school=Singapore%20University%20of%20Technology%20and%20Design&major=AI",
+          "attemptedAt": "2026-09-21T11:57:25.670Z",
+          "id": "7507769963118657537",
+          "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7507769963118657537/",
+          "verifiedAt": "2026-09-21T11:57:50.760Z"
+        },
+        {
+          "campaign": "study-abroad",
+          "network": "threads",
+          "version": 1,
+          "status": "PUBLISHED",
+          "articleUrl": "https://globalednews.com/study-abroad/university-detail.html?school=Singapore%20University%20of%20Technology%20and%20Design&major=AI",
+          "attemptedAt": "2026-09-21T11:59:56.119Z",
+          "id": "DdjHBtqkyx6",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdjHBtqkyx6",
+          "verifiedAt": "2026-09-21T12:00:21.643Z"
+        },
+        {
+          "campaign": "study-abroad",
+          "network": "instagram",
+          "version": 1,
+          "status": "PUBLISHED",
+          "articleUrl": "https://globalednews.com/study-abroad/university-detail.html?school=Singapore%20University%20of%20Technology%20and%20Design&major=AI",
+          "attemptedAt": "2026-09-21T12:15:00.375Z",
+          "id": "DdjIv-jkwb_",
+          "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdjIv-jkwb_/",
+          "verifiedAt": "2026-09-21T12:16:01.250Z"
+        },
+        {
+          "campaign": "study-abroad",
+          "network": "facebook",
+          "version": 1,
+          "status": "PUBLISHED",
+          "articleUrl": "https://globalednews.com/study-abroad/university-detail.html?school=Singapore%20University%20of%20Technology%20and%20Design&major=AI",
+          "attemptedAt": "2026-09-21T12:30:32.040Z",
+          "id": "pfbid0318cJePsvPB7B4zyPsYCcSp47odsNwCe1qWe6kkjffz647JpU5HGpkzxTdvBXv2bMl",
+          "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0318cJePsvPB7B4zyPsYCcSp47odsNwCe1qWe6kkjffz647JpU5HGpkzxTdvBXv2bMl",
+          "verifiedAt": "2026-09-21T12:31:01.703Z"
+        }
+      ]
     }
   ]
 }
