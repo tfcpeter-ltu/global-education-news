@@ -8,8 +8,11 @@ const sql=fs.readFileSync('supabase/migrations/20260921213000_remove_insecure_st
 assert.match(html,/學生會員管理/);
 assert.match(html,/noindex,nofollow/);
 assert.match(html,/student-admin\.js/);
+assert.match(html,/登入管理後台/);
+assert.match(html,/註冊學生/);
 assert.match(js,/editor\.jsti\.ltu@gmail\.com/);
 assert.match(js,/student-admin-overview/);
+assert.match(js,/admin-login-button/);
 assert.match(js,/replace\(\/\[&<>'\"\]\/g/);
 assert.match(sql,/drop view if exists public\.admin_student_overview/);
 assert.doesNotMatch(`${html}\n${js}`,/service_role|sb_secret_/);
@@ -19,6 +22,7 @@ assert.match(edge,/EDITOR\.JSTI\.LTU@GMAIL\.COM/i);
 assert.match(edge,/SUPABASE_SERVICE_ROLE_KEY/);
 assert.match(edge,/\/auth\/v1\/user/);
 assert.match(edge,/管理員權限/);
+assert.match(edge,/toLowerCase\(\)!==adminEmail/);
 assert.doesNotMatch(edge,/service_role\s*=\s*['"]/i);
 
 console.log('student admin dashboard checks passed');

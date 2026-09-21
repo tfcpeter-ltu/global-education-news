@@ -16,8 +16,9 @@
   }
   async function load(){
     const user=await M.user();
-    if(!user){$('admin-status').textContent='請先登入管理員帳號。';$('login-help').classList.remove('hidden');return}
-    if((user.email||'').toLowerCase()!==ADMIN_EMAIL){$('admin-status').textContent='這個帳號沒有管理員權限。';$('login-help').classList.remove('hidden');return}
+    if(!user){$('admin-status').textContent='請使用管理員帳號登入。';$('admin-login').classList.remove('hidden');return}
+    if((user.email||'').toLowerCase()!==ADMIN_EMAIL){await M.signOut();$('admin-status').textContent='這個帳號沒有管理員權限。';$('admin-login').classList.remove('hidden');return}
+    $('admin-login').classList.add('hidden');
     $('admin-status').textContent='正在載入學生資料…';
     try{
       students=await M.request('/functions/v1/student-admin-overview',{method:'POST',body:{}})||[];
@@ -32,5 +33,8 @@
   }
   $('student-search').addEventListener('input',render);
   $('refresh-button').addEventListener('click',load);
+  $('admin-login-button').addEventListener('click',async()=>{const email=$('admin-email').value.trim(),password=$('admin-password').value;$('admin-status').textContent='正在登入管理後台…';try{await M.signIn(email,password);$('admin-password').value='';await load()}catch(error){$('admin-status').textContent=error.message}});
+  $('admin-password').addEventListener('keydown',event=>{if(event.key==='Enter')$('admin-login-button').click()});
+  $('admin-logout-button').addEventListener('click',async()=>{await M.signOut();location.reload()});
   load().catch(error=>{$('admin-status').textContent=error.message});
 })();

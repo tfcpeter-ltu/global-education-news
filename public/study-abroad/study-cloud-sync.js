@@ -6,6 +6,15 @@
   const jsonHeaders={'apikey':KEY,'Content-Type':'application/json'};
   const readSession=()=>{try{return JSON.parse(localStorage.getItem(SESSION_KEY)||'null')}catch{return null}};
   const saveSession=s=>s?localStorage.setItem(SESSION_KEY,JSON.stringify(s)):localStorage.removeItem(SESSION_KEY);
+  function acceptAuthCallback(){
+    const params=new URLSearchParams(location.hash.replace(/^#/,''));
+    const access_token=params.get('access_token'),refresh_token=params.get('refresh_token');
+    if(!access_token||!refresh_token)return false;
+    saveSession({access_token,refresh_token,token_type:params.get('token_type')||'bearer',expires_in:Number(params.get('expires_in')||3600),expires_at:Math.floor(Date.now()/1000)+Number(params.get('expires_in')||3600)});
+    history.replaceState(null,'',location.pathname+location.search);
+    return true;
+  }
+  const authCallbackAccepted=acceptAuthCallback();
   async function request(path,{method='GET',body,auth=true,headers={}}={}){
     let session=readSession();
     const h={...jsonHeaders,...headers};
@@ -47,7 +56,7 @@
   async function saveNavigatorState(){const u=await user();if(!u)return;await upsert('navigator_states',{user_id:u.id,state:collectState(),updated_at:new Date().toISOString()})}
   async function syncNavigator(){if(syncing)return;syncing=true;try{const u=await user();if(!u)return null;const remote=await select('navigator_states');const local=collectState();if(remote?.state&&Object.keys(remote.state).length){applyState({...remote.state,...local});await saveNavigatorState()}else if(Object.keys(local).length){await upsert('navigator_states',{user_id:u.id,state:local,imported_local_data_at:new Date().toISOString(),updated_at:new Date().toISOString()})}patchStorage();return u}finally{syncing=false}}
   function patchStorage(){if(patched)return;patched=true;const original=Storage.prototype.setItem;Storage.prototype.setItem=function(k,v){original.call(this,k,v);if(this===localStorage&&String(k).startsWith(PREFIX)&&k!==SESSION_KEY){clearTimeout(syncTimer);syncTimer=setTimeout(()=>saveNavigatorState().catch(()=>{}),900)}}}
-  window.StudyMember={signUp,signIn,signOut,user,select,upsert,insert,request,syncNavigator,saveNavigatorState,readSession};
+  window.StudyMember={signUp,signIn,signOut,user,select,upsert,insert,request,syncNavigator,saveNavigatorState,readSession,authCallbackAccepted};
   showStorageNotice();
   if(readSession())syncNavigator().catch(()=>{});
 })();
