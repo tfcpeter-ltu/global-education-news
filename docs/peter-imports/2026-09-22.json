@@ -1,6 +1,6 @@
 {
   "date": "2026-09-22",
-  "status": "prepared",
+  "status": "published",
   "entries": [
     {
       "slug": "us-2027-application-materials-planning",
@@ -42,7 +42,9 @@
       "image": "/images/peter/us-2027-application-materials-planning.svg",
       "imageAlt": "2027 美國大學申請：把準備拆成可以完成的步驟，本站原創文字封面",
       "imageCredit": "環球教育新聞編輯部製作／文字封面",
-      "imageRights": "本站原創向量文字版面；非第三方照片"
+      "imageRights": "本站原創向量文字版面；非第三方照片",
+      "url": "https://globalednews.com/peter/us-2027-application-materials-planning/",
+      "verifiedAt": "2026-09-21T21:48:14.090Z"
     },
     {
       "slug": "ai-study-abroad-industry-context",
@@ -83,7 +85,9 @@
       "image": "/images/peter/ai-study-abroad-industry-context.svg",
       "imageAlt": "同樣念 AI，Peter 為什麼建議一起看產業與另一項專業？，本站原創文字封面",
       "imageCredit": "環球教育新聞編輯部製作／文字封面",
-      "imageRights": "本站原創向量文字版面；非第三方照片"
+      "imageRights": "本站原創向量文字版面；非第三方照片",
+      "url": "https://globalednews.com/peter/ai-study-abroad-industry-context/",
+      "verifiedAt": "2026-09-21T21:48:14.335Z"
     },
     {
       "slug": "hku-non-jupas-prepare-before-opening",
@@ -124,7 +128,9 @@
       "image": "/images/peter/hku-non-jupas-prepare-before-opening.svg",
       "imageAlt": "HKU 2027 申請開放前，Peter 提醒先弄清楚自己的學歷路徑，本站原創文字封面",
       "imageCredit": "環球教育新聞編輯部製作／文字封面",
-      "imageRights": "本站原創向量文字版面；非第三方照片"
+      "imageRights": "本站原創向量文字版面；非第三方照片",
+      "url": "https://globalednews.com/peter/hku-non-jupas-prepare-before-opening/",
+      "verifiedAt": "2026-09-21T21:48:14.572Z"
     }
   ]
 }

@@ -166,6 +166,50 @@
           "verifiedAt": "2026-09-21T12:24:50.579Z"
         }
       ]
+    },
+    {
+      "date": "2026-09-22",
+      "campaign": "taiwan-universities",
+      "topic": "psychology",
+      "storyAngle": "心理八系比較",
+      "CTA": "免費加入會員",
+      "contentPath": "docs/social-posts/2026-09-22/taiwan-universities--psychology.json",
+      "status": "published",
+      "publishedPosts": [
+        {
+          "campaign": "taiwan-universities",
+          "network": "linkedin",
+          "version": 1,
+          "articleUrl": "https://globalednews.com/taiwan-universities/",
+          "status": "PUBLISHED",
+          "attemptedAt": "2026-09-21T21:44:18.067Z",
+          "id": "7507917677143687168",
+          "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7507917677143687168/",
+          "verifiedAt": "2026-09-21T21:45:32.186Z"
+        },
+        {
+          "campaign": "taiwan-universities",
+          "network": "threads",
+          "version": 1,
+          "articleUrl": "https://globalednews.com/taiwan-universities/",
+          "status": "PUBLISHED",
+          "attemptedAt": "2026-09-21T21:49:18.962Z",
+          "id": "DdkKerJE4_b",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdkKerJE4_b",
+          "verifiedAt": "2026-09-21T21:50:05.446Z"
+        },
+        {
+          "campaign": "taiwan-universities",
+          "network": "instagram",
+          "version": 1,
+          "articleUrl": "https://globalednews.com/taiwan-universities/",
+          "status": "PUBLISHED",
+          "attemptedAt": "2026-09-21T22:05:07.945Z",
+          "id": "DdkMSsPEzht",
+          "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdkMSsPEzht/",
+          "verifiedAt": "2026-09-21T22:05:51.037Z"
+        }
+      ]
     }
   ]
 }

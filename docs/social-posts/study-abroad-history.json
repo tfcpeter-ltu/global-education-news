@@ -263,6 +263,63 @@
           "verifiedAt": "2026-09-21T12:31:01.703Z"
         }
       ]
+    },
+    {
+      "date": "2026-09-22",
+      "campaign": "study-abroad",
+      "country": "荷蘭",
+      "schoolName": "Delft University of Technology",
+      "storyAngle": "1842 皇家學院與工程教育傳統",
+      "topic": "netherlands",
+      "CTA": "免費加入會員",
+      "contentPath": "docs/social-posts/2026-09-22/study-abroad--netherlands--delft.json",
+      "status": "published",
+      "publishedPosts": [
+        {
+          "campaign": "study-abroad",
+          "network": "linkedin",
+          "version": 1,
+          "articleUrl": "https://globalednews.com/study-abroad/",
+          "status": "PUBLISHED",
+          "attemptedAt": "2026-09-21T21:41:57.364Z",
+          "id": "7507917087625965568",
+          "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7507917087625965568/",
+          "verifiedAt": "2026-09-21T21:42:35.952Z"
+        },
+        {
+          "campaign": "study-abroad",
+          "network": "facebook",
+          "version": 1,
+          "articleUrl": "https://globalednews.com/study-abroad/",
+          "status": "PUBLISHED",
+          "attemptedAt": "2026-09-21T21:44:39.219Z",
+          "id": "pfbid0EgpEPr1naUywWq5Nwsc6j4yjvyhvei7q7iZNB5LH2EAnocDRvadHVeJW7SKj2atjl",
+          "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0EgpEPr1naUywWq5Nwsc6j4yjvyhvei7q7iZNB5LH2EAnocDRvadHVeJW7SKj2atjl",
+          "verifiedAt": "2026-09-21T21:45:32.187Z"
+        },
+        {
+          "campaign": "study-abroad",
+          "network": "threads",
+          "version": 1,
+          "articleUrl": "https://globalednews.com/study-abroad/",
+          "status": "PUBLISHED",
+          "attemptedAt": "2026-09-21T21:47:31.480Z",
+          "id": "DdkKRkjk-mN",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdkKRkjk-mN",
+          "verifiedAt": "2026-09-21T21:48:28.630Z"
+        },
+        {
+          "campaign": "study-abroad",
+          "network": "instagram",
+          "version": 1,
+          "articleUrl": "https://globalednews.com/study-abroad/",
+          "status": "PUBLISHED",
+          "attemptedAt": "2026-09-21T22:00:38.356Z",
+          "id": "DdkLxznk6hS",
+          "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdkLxznk6hS/",
+          "verifiedAt": "2026-09-21T22:01:33.869Z"
+        }
+      ]
     }
   ]
 }

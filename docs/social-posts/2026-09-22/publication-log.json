@@ -1,4 +1,170 @@
 {
   "date": "2026-09-22",
-  "entries": []
+  "entries": [
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "version": 1,
+      "articleUrl": "https://globalednews.com/news/uk-public-first-international-recruitment-model-2026/",
+      "status": "PUBLISHED",
+      "attemptedAt": "2026-09-21T21:35:50.543Z",
+      "id": "7507915563961282578",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7507915563961282578/",
+      "verifiedAt": "2026-09-21T21:36:17.141Z"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "version": 1,
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-chevening-delta-climate-2027/",
+      "status": "PUBLISHED",
+      "attemptedAt": "2026-09-21T21:39:49.395Z",
+      "id": "7507916556933373952",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7507916556933373952/",
+      "verifiedAt": "2026-09-21T21:40:23.261Z"
+    },
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "version": 1,
+      "articleUrl": "https://globalednews.com/news/uk-public-first-international-recruitment-model-2026/",
+      "status": "PUBLISHED",
+      "attemptedAt": "2026-09-21T21:40:04.472Z",
+      "id": "pfbid08uKdrV7EU6D27xyXzAmdcyP7pPwVuk51t6QtzJWW6oBuvwBzcWiByNpwD9TcyjJnl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid08uKdrV7EU6D27xyXzAmdcyP7pPwVuk51t6QtzJWW6oBuvwBzcWiByNpwD9TcyjJnl",
+      "verifiedAt": "2026-09-21T21:41:03.422Z"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "version": 1,
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "status": "PUBLISHED",
+      "attemptedAt": "2026-09-21T21:41:57.364Z",
+      "id": "7507917087625965568",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7507917087625965568/",
+      "verifiedAt": "2026-09-21T21:42:35.952Z"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "version": 1,
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-chevening-delta-climate-2027/",
+      "status": "PUBLISHED",
+      "attemptedAt": "2026-09-21T21:42:14.841Z",
+      "id": "pfbid02TjrkXWwLc3FqC9Vg2x46fL6fpNEHMUoySrZRYXHrdC5LW52zLds6DJn6XYEGHxHjl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02TjrkXWwLc3FqC9Vg2x46fL6fpNEHMUoySrZRYXHrdC5LW52zLds6DJn6XYEGHxHjl",
+      "verifiedAt": "2026-09-21T21:42:59.798Z"
+    },
+    {
+      "campaign": "news",
+      "network": "threads",
+      "version": 1,
+      "articleUrl": "https://globalednews.com/news/uk-public-first-international-recruitment-model-2026/",
+      "status": "PUBLISHED",
+      "attemptedAt": "2026-09-21T21:43:21.877Z",
+      "id": "DdkJzDNk9Gk",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdkJzDNk9Gk",
+      "verifiedAt": "2026-09-21T21:44:02.929Z"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "version": 1,
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "status": "PUBLISHED",
+      "attemptedAt": "2026-09-21T21:44:18.067Z",
+      "id": "7507917677143687168",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7507917677143687168/",
+      "verifiedAt": "2026-09-21T21:45:32.186Z"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "version": 1,
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "status": "PUBLISHED",
+      "attemptedAt": "2026-09-21T21:44:39.219Z",
+      "id": "pfbid0EgpEPr1naUywWq5Nwsc6j4yjvyhvei7q7iZNB5LH2EAnocDRvadHVeJW7SKj2atjl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0EgpEPr1naUywWq5Nwsc6j4yjvyhvei7q7iZNB5LH2EAnocDRvadHVeJW7SKj2atjl",
+      "verifiedAt": "2026-09-21T21:45:32.187Z"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "version": 1,
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-chevening-delta-climate-2027/",
+      "status": "PUBLISHED",
+      "attemptedAt": "2026-09-21T21:45:37.626Z",
+      "id": "DdkKD0yE4Ew",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdkKD0yE4Ew",
+      "verifiedAt": "2026-09-21T21:46:06.101Z"
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "version": 1,
+      "articleUrl": "https://globalednews.com/news/uk-public-first-international-recruitment-model-2026/",
+      "status": "PUBLISHED",
+      "attemptedAt": "2026-09-21T21:47:17.029Z",
+      "id": "DdkKQkBEwJA",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdkKQkBEwJA/",
+      "verifiedAt": "2026-09-21T21:48:59.716Z"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "version": 1,
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "status": "PUBLISHED",
+      "attemptedAt": "2026-09-21T21:47:31.480Z",
+      "id": "DdkKRkjk-mN",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdkKRkjk-mN",
+      "verifiedAt": "2026-09-21T21:48:28.630Z"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "version": 1,
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "status": "PUBLISHED",
+      "attemptedAt": "2026-09-21T21:49:18.962Z",
+      "id": "DdkKerJE4_b",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdkKerJE4_b",
+      "verifiedAt": "2026-09-21T21:50:05.446Z"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "version": 1,
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-chevening-delta-climate-2027/",
+      "status": "PUBLISHED",
+      "attemptedAt": "2026-09-21T21:52:24.475Z",
+      "id": "DdkK1fOEwRl",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdkK1fOEwRl/",
+      "verifiedAt": "2026-09-21T21:57:15.125Z"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "version": 1,
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "status": "PUBLISHED",
+      "attemptedAt": "2026-09-21T22:00:38.356Z",
+      "id": "DdkLxznk6hS",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdkLxznk6hS/",
+      "verifiedAt": "2026-09-21T22:01:33.869Z"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "version": 1,
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "status": "PUBLISHED",
+      "attemptedAt": "2026-09-21T22:05:07.945Z",
+      "id": "DdkMSsPEzht",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdkMSsPEzht/",
+      "verifiedAt": "2026-09-21T22:05:51.037Z"
+    }
+  ]
 }

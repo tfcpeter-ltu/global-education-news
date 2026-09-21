@@ -1,0 +1,127 @@
+{
+  "date": "2026-09-22",
+  "verifiedAt": "2026-09-21T22:05:58.708Z",
+  "desktop": {
+    "passed": true,
+    "scope": "正式首頁三篇新主圖均載入；Peter 索引三篇新文章；DIY 搜尋 Delft 並開啟詳細頁；國內資料庫心理八系比較",
+    "screenshot": "work/daily-20260922/assets/homepage-desktop.png"
+  },
+  "mobile": {
+    "passed": true,
+    "scope": "正式首頁實際手機寬度 416 CSS px；scrollWidth 與 clientWidth 相同，無橫向溢出；主圖與文字可讀",
+    "screenshot": "work/daily-20260922/assets/homepage-mobile.png"
+  },
+  "seo": {
+    "passed": true,
+    "pages": [
+      {
+        "url": "https://globalednews.com/news/uk-public-first-international-recruitment-model-2026/",
+        "status": 200,
+        "titleFound": true,
+        "canonical": "<link rel=\"canonical\" href=\"https://globalednews.com/news/uk-public-first-international-recruitment-model-2026/\">",
+        "og": true,
+        "description": true,
+        "verifiedAt": "2026-09-21T21:48:13.380Z"
+      },
+      {
+        "url": "https://globalednews.com/news/netherlands-nuffic-international-students-2026/",
+        "status": 200,
+        "titleFound": true,
+        "canonical": "<link rel=\"canonical\" href=\"https://globalednews.com/news/netherlands-nuffic-international-students-2026/\">",
+        "og": true,
+        "description": true,
+        "verifiedAt": "2026-09-21T21:48:13.608Z"
+      },
+      {
+        "url": "https://globalednews.com/news/france-senate-university-excellence-proposals-2026/",
+        "status": 200,
+        "titleFound": true,
+        "canonical": "<link rel=\"canonical\" href=\"https://globalednews.com/news/france-senate-university-excellence-proposals-2026/\">",
+        "og": true,
+        "description": true,
+        "verifiedAt": "2026-09-21T21:48:13.840Z"
+      },
+      {
+        "url": "https://globalednews.com/peter/us-2027-application-materials-planning/",
+        "status": 200,
+        "titleFound": true,
+        "canonical": "<link rel=\"canonical\" href=\"https://globalednews.com/peter/us-2027-application-materials-planning/\">",
+        "og": true,
+        "description": true,
+        "verifiedAt": "2026-09-21T21:48:14.090Z"
+      },
+      {
+        "url": "https://globalednews.com/peter/ai-study-abroad-industry-context/",
+        "status": 200,
+        "titleFound": true,
+        "canonical": "<link rel=\"canonical\" href=\"https://globalednews.com/peter/ai-study-abroad-industry-context/\">",
+        "og": true,
+        "description": true,
+        "verifiedAt": "2026-09-21T21:48:14.335Z"
+      },
+      {
+        "url": "https://globalednews.com/peter/hku-non-jupas-prepare-before-opening/",
+        "status": 200,
+        "titleFound": true,
+        "canonical": "<link rel=\"canonical\" href=\"https://globalednews.com/peter/hku-non-jupas-prepare-before-opening/\">",
+        "og": true,
+        "description": true,
+        "verifiedAt": "2026-09-21T21:48:14.572Z"
+      },
+      {
+        "url": "https://globalednews.com/scholarships/items/2026-09-chevening-delta-climate-2027/",
+        "status": 200,
+        "titleFound": true,
+        "canonical": "<link rel=\"canonical\" href=\"https://globalednews.com/scholarships/items/2026-09-chevening-delta-climate-2027/\">",
+        "og": true,
+        "description": true,
+        "verifiedAt": "2026-09-21T21:48:14.800Z"
+      },
+      {
+        "url": "https://globalednews.com/sitemap.xml",
+        "status": 200,
+        "allNews": false,
+        "verifiedAt": "2026-09-21T21:48:15.044Z"
+      },
+      {
+        "url": "https://globalednews.com/article-sitemap.xml",
+        "status": 200,
+        "allNews": true,
+        "verifiedAt": "2026-09-21T21:48:15.282Z"
+      }
+    ],
+    "feeds": [
+      {
+        "path": "sitemap.xml",
+        "status": 200,
+        "isIndex": true,
+        "includesNews": false,
+        "verifiedAt": "2026-09-21T21:51:05.164Z"
+      },
+      {
+        "path": "article-sitemap.xml",
+        "status": 200,
+        "isIndex": false,
+        "includesNews": true,
+        "verifiedAt": "2026-09-21T21:51:05.389Z"
+      },
+      {
+        "path": "news-sitemap.xml",
+        "status": 200,
+        "isIndex": false,
+        "includesNews": true,
+        "verifiedAt": "2026-09-21T21:51:05.626Z"
+      },
+      {
+        "path": "weekly-feed.xml",
+        "status": 200,
+        "isIndex": false,
+        "includesNews": true,
+        "verifiedAt": "2026-09-21T21:51:05.861Z"
+      }
+    ]
+  },
+  "limitations": [
+    "今天未重新測試會員驗證信、跨裝置儲存或全校全科系資料；這些不列為本次日更完成項目。"
+  ]
+}
