@@ -1,22 +1,26 @@
 ---
 layout: ../../../layouts/ScholarshipLayout.astro
 title: "Harvard Academy Scholars Program 2027：兩年博士後研究獎助"
-description: "Harvard Academy for International and Area Studies 2027–2029 Academy Scholars Program 現正開放申請，對所有國籍開放，台灣近年博士畢業生與即將完成博士學位者可依研究領域資格申請。"
+description: "Harvard Academy for International and Area Studies 2027–2029 Academy Scholars Program 申請人送件已截止，對所有國籍開放，台灣近年博士畢業生與即將完成博士學位者可依研究領域資格申請。"
 date: 2026-09-09
 country: "美國"
 level: "博士後／博士候選人"
 funding: "兩年 residential fellowship；每年 stipend US$80,000，另每年 US$6,000 research support"
 deadline: "2026-09-18 23:59 EDT；推薦信最遲 2026-09-28 23:59 EDT"
-status: "開放中"
+status: "已截止"
 sourceType: "國際大學／研究機構"
 sourceName: "Harvard Academy for International and Area Studies"
 officialUrl: "https://academy.wcfia.harvard.edu/programs/academy_scholar"
 secondSourceUrl: "https://academy.wcfia.harvard.edu/faq/who-eligible-apply-academy-scholars-program"
 eligibilityTW: "可申請；計畫對所有國籍與公民身分開放，台灣近年取得或即將完成符合領域 PhD／DPhil／SJD 者可申請"
 taiwanNote: "研究須屬社會科學，且區域研究重點應在美國或加拿大以外；已完成博士者原則上須於 2025-08-01 之後取得學位。"
-verificationDate: "2026-09-09"
+verificationDate: "2026-09-22"
 category: "研究獎學金"
 ---
+
+## 2026 年 9 月 22 日狀態更新
+
+申請人送件已於 9 月 18 日 23:59 EDT 截止，不接受遲交；9 月 28 日的期限只適用於已送件申請者的推薦信，不代表仍可新增申請。以下保留本輪資料供查閱。
 
 ## 申請重點
 

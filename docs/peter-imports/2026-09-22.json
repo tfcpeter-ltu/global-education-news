@@ -1,0 +1,130 @@
+{
+  "date": "2026-09-22",
+  "status": "prepared",
+  "entries": [
+    {
+      "slug": "us-2027-application-materials-planning",
+      "sourceId": "122144492361172155",
+      "title": "2027 美國大學申請：把準備拆成可以完成的步驟",
+      "description": "Peter 建議先完成學校清單與文件初稿，並提早協調推薦人及學校送件。",
+      "topic": "美國升學與文件規劃",
+      "originalDateLabel": "7小時",
+      "originalDatePrecision": "relative",
+      "sources": [
+        [
+          "Common App｜首次申請指南",
+          "https://www.commonapp.org/apply/first-year-students/"
+        ],
+        [
+          "Tufts Admissions｜申請清單與期限",
+          "https://admissions.tufts.edu/apply/applying-to-tufts/checklist-and-deadlines/"
+        ]
+      ],
+      "note": "原文已完整展開閱讀。保留準備與寫作觀點；不沿用未在本次獨立核對的申請季開放日期或概括截止月份。Tufts 清單僅作各校文件不同的例子，不套用到所有大學。",
+      "body": [
+        "準備申請美國大學，不必等到每項資料都完美才開始。Peter 提醒有意申請 2027 年秋季入學的學生，把工作拆成學校清單、成績資料、推薦信與文書，再逐步完成。",
+        "### 先建立有理由的學校清單",
+        "Peter 建議同時考慮課程、城市、校園環境、國際生支援與總成本。不同難度的學校都應該是自己願意就讀、家庭可以負擔的選項，而不是只為填滿名額。",
+        "### 文件不是全部由學生自己送",
+        "Common App 官方指南提醒逐校檢視要求；成績單、考試、推薦人與文書可能有不同安排。Tufts 的官方清單另列學校推薦、教師推薦、成績及特定藝術課程作品集，並指出助學金是另一套申請程序。這些例子說明同一平台不代表所有學校規定相同。",
+        "### 文書先寫具體經驗",
+        "Peter 認為，好的文書要說清楚發生了什麼、自己如何回應，以及經驗如何影響現在的選擇。與其堆疊形容詞，不如找出一個能展現思考與成長的真實事件。",
+        "### 提早與推薦人協調",
+        "將申請方向、重要經歷、各校期限和提交方式整理給推薦老師。家庭可以協助學生整理行程，讓學生自己理解每個步驟，而不是等到最後一天才追文件。",
+        "這是規劃建議，不能保證錄取。請以目標大學當期頁面和申請系統為準。"
+      ],
+      "author": "Peter",
+      "importedAt": "2026-09-22",
+      "dateObservedAt": "2026-09-22",
+      "originalPublishedAt": null,
+      "edition": "verified-edit",
+      "sourceUrl": "https://www.facebook.com/photo/?fbid=122144492361172155&set=a.122101120425172155",
+      "image": "/images/peter/us-2027-application-materials-planning.svg",
+      "imageAlt": "2027 美國大學申請：把準備拆成可以完成的步驟，本站原創文字封面",
+      "imageCredit": "環球教育新聞編輯部製作／文字封面",
+      "imageRights": "本站原創向量文字版面；非第三方照片"
+    },
+    {
+      "slug": "ai-study-abroad-industry-context",
+      "sourceId": "122141964693172155",
+      "title": "同樣念 AI，Peter 為什麼建議一起看產業與另一項專業？",
+      "description": "AI 與資料科學選校，不只比較科系名稱，也要研究應用領域、基礎訓練與職涯方向。",
+      "topic": "AI 選系與跨領域規劃",
+      "sources": [
+        [
+          "美國 BLS｜Data Scientists 職業指南",
+          "https://www.bls.gov/ooh/math/data-scientists.htm"
+        ],
+        [
+          "Prospects／Jisc｜Data scientist 編輯指南",
+          "https://www.prospects.ac.uk/job-profiles/data-scientist/"
+        ]
+      ],
+      "note": "完整閱讀原文後整理核心觀點。原文各國薪資、人才數及成長預測的年度與口徑不同，本版不重刊這些數字，也不將國家特色概括視為每校課程或就業結果。BLS 頁面已採較新年度，故不沿用原文舊數據。",
+      "body": [
+        "同樣名為 AI 或資料科學的課程，可能連到不同的研究題目與產業問題。Peter 原文提醒家長與學生，不應只看到熱門科系名稱，就假定各國學習與發展路徑相同。",
+        "### 把應用領域放進選校問題",
+        "Peter 以軟體、金融、醫療、製造等方向說明 AI 可以與其他專業結合。這是研究選項的切入點，不是用國家替所有學校貼標籤，更不是預測十年後個人一定會走向哪裡。",
+        "### 先看需要哪些基礎",
+        "美國 BLS 職業指南提到數學、統計與電腦科學訓練，以及部分雇主對產業經驗的需求。Prospects 的獨立編輯指南也強調程式、分析、溝通與理解業務問題。兩份資料談的是職業準備，不能當成某所大學的招生門檻。",
+        "### Peter 的核心建議",
+        "Peter 提出 AI 加上另一項專業的思路，也特別關注 AI 與工程、半導體及國際教育背景的結合。讀者可把它當成探索方向，再比較自己真正願意投入的課程、專題和工作內容。",
+        "### 從科系名稱走到課程內容",
+        "選校時可以列出：數理基礎課有哪些、能做什麼專題、是否需要領域知識，以及學校提供何種實習與職涯支援。個人的技能、經驗與適用工作規定仍需各別核對，熱門名稱本身不提供就業保證。"
+      ],
+      "author": "Peter",
+      "importedAt": "2026-09-22",
+      "dateObservedAt": "2026-09-22",
+      "originalPublishedAt": null,
+      "edition": "verified-edit",
+      "sourceUrl": "https://www.facebook.com/photo/?fbid=122141964693172155&set=a.122101120425172155",
+      "originalDateLabel": "原頁未顯示可確認日期",
+      "originalDatePrecision": "unknown",
+      "image": "/images/peter/ai-study-abroad-industry-context.svg",
+      "imageAlt": "同樣念 AI，Peter 為什麼建議一起看產業與另一項專業？，本站原創文字封面",
+      "imageCredit": "環球教育新聞編輯部製作／文字封面",
+      "imageRights": "本站原創向量文字版面；非第三方照片"
+    },
+    {
+      "slug": "hku-non-jupas-prepare-before-opening",
+      "sourceId": "122142042123172155",
+      "title": "HKU 2027 申請開放前，Peter 提醒先弄清楚自己的學歷路徑",
+      "description": "Non-JUPAS 是申請管道；先確認學歷、科目與文件，比等待系統開放更有幫助。",
+      "topic": "香港升學與申請準備",
+      "sources": [
+        [
+          "HKU Admissions｜International Qualifications",
+          "https://admissions.hku.hk/apply/international-qualifications"
+        ],
+        [
+          "Grove Education｜Non-JUPAS 申請指南",
+          "https://www.grove-education.com/en-hk/blog/484/hku-non-jupas-gpa-guide-admission-requirements"
+        ]
+      ],
+      "note": "原文已完整閱讀。9 月 22 日查核，港大官方首頁提示與外部指南均列 2027 入學於 2026 年 9 月 23 日開放。官方頁仍含 2026 參考資料，第二來源其他截止日與官方表格不同；本版只保留一致的開放日與申請準備觀點，不引用未釐清的期限、分數或費用。",
+      "body": [
+        "Peter 原文提醒想申請香港大學的台灣學生，先弄清楚自己用哪一種學歷申請，而不是看到 Non-JUPAS 這個名稱就認為與自己無關。",
+        "### Non-JUPAS 是管道，不是錄取保證",
+        "港大 International／Non-JUPAS 頁面說明，國際或其他指定國家考試資格可經相關途徑申請，具體仍依身分與學歷規則。最低條件、科目要求與個別課程審查須分開核對。",
+        "### 開放日之前可以做什麼",
+        "本次查核的官方提示列 2027 入學於 2026 年 9 月 23 日開放申請。Peter 建議在系統開放前先選出想讀的科系、整理高中成績與學習經歷、準備英文能力證明及個人陳述，並與推薦人協調。",
+        "### 不同學制要分別核對",
+        "台灣高中、OSSD、IB、A-Level 或美國高中課程，不能只用同一張成績表相互套用。Peter 的重點是先確認自己的學歷制度、預估成績與科目準備，再研究申請志願。",
+        "### 家庭的下一步",
+        "把課程官網、學歷規則、文件分工與送件節點整理在一起。開放日只是開始，不代表可以忽略後續截止日；本版不採用尚有差異的外部日期，請於正式系統開放後回查當期公告。"
+      ],
+      "author": "Peter",
+      "importedAt": "2026-09-22",
+      "dateObservedAt": "2026-09-22",
+      "originalPublishedAt": null,
+      "edition": "verified-edit",
+      "sourceUrl": "https://www.facebook.com/photo/?fbid=122142042123172155&set=a.122101120425172155",
+      "originalDateLabel": "原頁未顯示可確認日期",
+      "originalDatePrecision": "unknown",
+      "image": "/images/peter/hku-non-jupas-prepare-before-opening.svg",
+      "imageAlt": "HKU 2027 申請開放前，Peter 提醒先弄清楚自己的學歷路徑，本站原創文字封面",
+      "imageCredit": "環球教育新聞編輯部製作／文字封面",
+      "imageRights": "本站原創向量文字版面；非第三方照片"
+    }
+  ]
+}
