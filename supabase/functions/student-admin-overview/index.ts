@@ -38,7 +38,7 @@ Deno.serve(async request=>{
     ]);
     const byUser=(rows:Record<string,unknown>[])=>new Map(rows.map(row=>[row.user_id,row]));
     const profileMap=byUser(profiles), preferenceMap=byUser(preferences), navigatorMap=byUser(navigators);
-    const rows=(authData.users||[]).filter((item:Record<string,unknown>)=>item.email_confirmed_at).map((item:Record<string,unknown>)=>{
+    const rows=(authData.users||[]).filter((item:Record<string,unknown>)=>item.email_confirmed_at&&String(item.email||'').toLowerCase()!==adminEmail).map((item:Record<string,unknown>)=>{
       const id=item.id as string;
       const profile=profileMap.get(id)||{}, preference=preferenceMap.get(id)||{}, navigator=navigatorMap.get(id)||{};
       return {
