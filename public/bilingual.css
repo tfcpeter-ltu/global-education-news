@@ -1,0 +1,19 @@
+.language-bar{position:relative;z-index:90;background:#102b46;color:#f5eedf;font:14px/1.4 Arial,sans-serif;border-bottom:1px solid #bea16b}
+.language-inner{max-width:1280px;margin:auto;padding:9px 20px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.language-inner nav{display:flex;gap:6px;flex-shrink:0}.language-inner a{color:#fff;text-decoration:none;padding:7px 12px;border:1px solid #8391a0;border-radius:4px;white-space:nowrap}
+.language-inner a[aria-current=page]{background:#f4e6c8;color:#102b46;border-color:#f4e6c8;font-weight:700}
+.language-inner a:focus-visible{outline:3px solid #e8c480;outline-offset:3px}
+.translation-note{box-sizing:border-box;margin:14px auto;padding:10px 16px;max-width:1280px;font:13px/1.65 Arial,sans-serif;color:#4d5660;background:#f5f1e8;border-left:3px solid #ae8952;letter-spacing:normal;text-transform:none}
+.translation-note a{color:#174568;text-decoration:underline}
+html[lang=en] body{overflow-wrap:break-word}
+html[lang=en] .nav .container{gap:8px 18px}
+html[lang=en] .nav a,html[lang=en] .nav summary{white-space:normal;letter-spacing:normal}
+html[lang=en] .brand-zh-secondary{display:none}
+html[lang=en] .navigator-nav small{display:none}
+html[lang=en] .brand-subtitle{letter-spacing:.025em}
+html[lang=en] .study-main-nav{flex-wrap:wrap}
+html[lang=en] .study-main-nav a{white-space:normal}
+html[lang=en] h1,html[lang=en] h2,html[lang=en] h3{letter-spacing:normal!important;overflow-wrap:break-word}
+html[lang=en] .scholarship-radar-page .hero-copy h1{font-size:clamp(2.2rem,4.5vw,4.5rem)!important;line-height:1.12}
+html[lang=en] .scholarship-radar-page .search-box input::placeholder{font-size:1rem!important}
+@media(max-width:680px){.language-inner{padding:8px 12px}.language-label{font-size:12px}.language-inner a{padding:7px 9px}.translation-note{margin:10px 12px;font-size:12px}html[lang=en] .brand-zh-secondary{display:none}html[lang=en] .nav .container{gap:5px 13px}html[lang=en] .scholarship-radar-page .hero-copy h1{font-size:2.2rem!important}}

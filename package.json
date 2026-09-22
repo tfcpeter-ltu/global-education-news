@@ -5,11 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "node scripts/generate-scholarship-seed.mjs && node scripts/unify-study-navigation.mjs public/study-abroad && astro dev",
-    "build": "node scripts/generate-scholarship-seed.mjs && astro build && node scripts/unify-study-navigation.mjs",
+    "build": "node scripts/generate-scholarship-seed.mjs && astro build && node scripts/unify-study-navigation.mjs && node scripts/bilingual-extract-js.mjs && python scripts/build-bilingual.py",
     "preview": "astro preview"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.4.1",
-    "astro": "^5.13.5"
+    "astro": "^5.13.5",
+    "acorn": "^8.18.0"
   }
 }

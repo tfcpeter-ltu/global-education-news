@@ -26,8 +26,23 @@ jobs:
           node-version: 22
       - name: Install dependencies
         run: npm install
+      - name: Set up Python for bilingual editions
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: scripts/bilingual-requirements.txt
+      - name: Install offline translation dependencies
+        run: python -m pip install -r scripts/bilingual-requirements.txt
+      - name: Cache offline translation model
+        uses: actions/cache@v4
+        with:
+          path: .bilingual/model
+          key: argos-zh-en-1.9
       - name: Build
         run: npm run build
+      - name: Verify bilingual routes and form values
+        run: python scripts/test-bilingual.py
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
