@@ -64,7 +64,16 @@ if missing:
  model=pathlib.Path(os.environ.get('BILINGUAL_MODEL',ROOT/'.bilingual/model/translate-zh_en-1_9'))
  if not (model/'model/model.bin').exists():
   model.parent.mkdir(parents=True,exist_ok=True); archive=model.parent/'model.zip'
-  urllib.request.urlretrieve('https://argos-net.com/v1/translate-zh_en-1_9.argosmodel',archive)
+  sources=['https://data.argosopentech.com/argospm/v1/translate-zh_en-1_9.argosmodel','https://argos-net.com/v1/translate-zh_en-1_9.argosmodel']
+  errors=[]
+  for source in sources:
+   try:
+    request=urllib.request.Request(source,headers={'User-Agent':'GlobalEducationNews-BilingualBuild/1.0'})
+    with urllib.request.urlopen(request,timeout=60) as response:archive.write_bytes(response.read())
+    if hashlib.sha256(archive.read_bytes()).hexdigest()!='62e7af5a3a48b530e47b7b3e5c78c2de79073ecd815750d2bf3ab35b4a67da2d':raise ValueError('Translation model checksum mismatch')
+    break
+   except Exception as error:errors.append(str(error))
+  else:raise RuntimeError('Official translation model download failed: '+'; '.join(errors))
   with zipfile.ZipFile(archive) as z:z.extractall(model.parent)
  sp=sentencepiece.SentencePieceProcessor(model_proto=(model/'sentencepiece.model').read_bytes())
  translator=ctranslate2.Translator(os.path.relpath(model/'model'),compute_type='int8',inter_threads=2,intra_threads=4)
