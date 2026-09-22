@@ -65,7 +65,7 @@ const partnerStories = articles
                 <div class="partner-label">{story.partnerName} · PARTNER NEWS</div>
                 <h3><a href={story.url}>{story.title}</a></h3>
                 <p>{story.description}</p>
-                <time datetime={new Date(story.date).toISOString()}>{new Intl.DateTimeFormat('zh-TW').format(new Date(story.date))}</time>
+                <time datetime={new Date(story.date).toISOString()}>{new Intl.DateTimeFormat('zh-TW', { timeZone: 'Asia/Taipei' }).format(new Date(story.date))}</time>
               </div>
             </article>
           );

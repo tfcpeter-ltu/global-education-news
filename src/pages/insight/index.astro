@@ -24,7 +24,7 @@ const articles = Object.values(modules)
                 <div class="kicker">{story.category ?? '深度專題'}</div>
                 <h3><a href={story.url}>{story.title}</a></h3>
                 <p>{story.description}</p>
-                <div class="card-meta">{new Intl.DateTimeFormat('zh-TW').format(new Date(story.date))}</div>
+                <div class="card-meta">{new Intl.DateTimeFormat('zh-TW', { timeZone: 'Asia/Taipei' }).format(new Date(story.date))}</div>
               </div>
             </article>
           );

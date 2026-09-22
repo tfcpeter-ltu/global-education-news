@@ -48,7 +48,7 @@ articles = articles.filter((story: any) => {
                   <div class="kicker">{story.category}</div>
                   <h3><a href={story.url}>{story.title}</a></h3>
                   <p>{story.description}</p>
-                  <div class="card-meta">{new Intl.DateTimeFormat('zh-TW').format(new Date(story.date))}</div>
+                  <div class="card-meta">{new Intl.DateTimeFormat('zh-TW', { timeZone: 'Asia/Taipei' }).format(new Date(story.date))}</div>
                 </div>
               </article>
             );

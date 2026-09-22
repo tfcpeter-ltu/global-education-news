@@ -40,7 +40,7 @@ const signals = articles
           <article class="admission-row" data-admission-row data-search={searchText}>
             <div class="admission-category">{story.category}</div>
             <div class="admission-main">
-              <div class="admission-date">Last signal · {new Intl.DateTimeFormat('zh-TW').format(new Date(story.date))}</div>
+              <div class="admission-date">Last signal · {new Intl.DateTimeFormat('zh-TW', { timeZone: 'Asia/Taipei' }).format(new Date(story.date))}</div>
               <h3><a href={story.url}>{story.title}</a></h3>
               <p>{story.description}</p>
             </div>

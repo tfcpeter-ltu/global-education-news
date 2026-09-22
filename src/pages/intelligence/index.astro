@@ -112,7 +112,7 @@ const geiModules = [
           <div class="signal-heading"><span>POLICY RADAR</span><a href={link('intelligence/policy/')}>全部政策訊號 →</a></div>
           {policySignals.length > 0 ? policySignals.map((story: any) => (
             <article class="signal-item">
-              <div class="signal-meta">{story.category} · {new Intl.DateTimeFormat('zh-TW').format(new Date(story.date))}</div>
+              <div class="signal-meta">{story.category} · {new Intl.DateTimeFormat('zh-TW', { timeZone: 'Asia/Taipei' }).format(new Date(story.date))}</div>
               <h3><a href={story.url}>{story.title}</a></h3>
               <p>{story.description}</p>
             </article>
@@ -123,7 +123,7 @@ const geiModules = [
           <div class="signal-heading"><span>ADMISSION TRACKER</span><a href={link('intelligence/admissions/')}>全部招生訊號 →</a></div>
           {admissionSignals.length > 0 ? admissionSignals.map((story: any) => (
             <article class="signal-item">
-              <div class="signal-meta">{story.category} · {new Intl.DateTimeFormat('zh-TW').format(new Date(story.date))}</div>
+              <div class="signal-meta">{story.category} · {new Intl.DateTimeFormat('zh-TW', { timeZone: 'Asia/Taipei' }).format(new Date(story.date))}</div>
               <h3><a href={story.url}>{story.title}</a></h3>
               <p>{story.description}</p>
             </article>

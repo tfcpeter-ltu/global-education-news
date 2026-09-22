@@ -44,8 +44,8 @@ const signals = articles
           return (
             <article class="policy-card">
               <div class="policy-date">
-                <strong>{new Intl.DateTimeFormat('zh-TW', { month: '2-digit', day: '2-digit' }).format(new Date(story.date))}</strong>
-                <span>{new Intl.DateTimeFormat('zh-TW', { year: 'numeric' }).format(new Date(story.date))}</span>
+                <strong>{new Intl.DateTimeFormat('zh-TW', { month: '2-digit', day: '2-digit', timeZone: 'Asia/Taipei' }).format(new Date(story.date))}</strong>
+                <span>{new Intl.DateTimeFormat('zh-TW', { year: 'numeric', timeZone: 'Asia/Taipei' }).format(new Date(story.date))}</span>
               </div>
               <div class="policy-copy">
                 <div class="policy-meta">{story.category}</div>

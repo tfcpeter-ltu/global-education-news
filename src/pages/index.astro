@@ -129,7 +129,7 @@ const latest = internationalStories.slice(0, 6);
           <p class="hero-deck">{lead.description}</p>
           <div class="hero-meta">
             <span>{lead.author ?? 'LTU Global Education News 編輯部'}</span>
-            <span>{new Intl.DateTimeFormat('zh-TW').format(new Date(lead.date))}</span>
+            <span>{new Intl.DateTimeFormat('zh-TW', { timeZone: 'Asia/Taipei' }).format(new Date(lead.date))}</span>
           </div>
         </div>
         <div class="hero-side">
@@ -179,7 +179,7 @@ const latest = internationalStories.slice(0, 6);
                 <div class="kicker">{story.category}</div>
                 <h3><a href={story.url}>{story.title}</a></h3>
                 <p>{story.description}</p>
-                <div class="card-meta">{new Intl.DateTimeFormat('zh-TW').format(new Date(story.date))}</div>
+                <div class="card-meta">{new Intl.DateTimeFormat('zh-TW', { timeZone: 'Asia/Taipei' }).format(new Date(story.date))}</div>
               </div>
             </article>
           );
