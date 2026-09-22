@@ -160,5 +160,30 @@
       "status": "needed",
       "reason": "Current browser screenshot and artifact export unavailable; obtain and verify a licensed school image or actual navigation screenshot before publication."
     }
-  }
+  },
+  "recoveryChecks": [
+    {
+      "startedAt": "2026-09-23T06:01:17+08:00",
+      "finishedAt": "2026-09-23T06:58:33+08:00",
+      "baselineCommit": "bf00ff3a968edf9628794a7a4ea90b77bd2c35a6",
+      "status": "partial",
+      "visualEvidence": [
+        "IAB screenshot recovered; 390x844 homepage and Hong Kong article title/image/body visually inspected, no overlapping text observed.",
+        "Desktop capture still clips right side; full desktop acceptance not marked complete."
+      ],
+      "blockers": [
+        "IAB pageAssets.bundle failed EPERM creating browser-use asset directory after approximately 54 minutes.",
+        "Direct download of licensed Wikimedia image returned HTTP 403."
+      ],
+      "deliveryVerification": {
+        "exitCode": 1,
+        "missing": [
+          "Peter imports 3",
+          "social posts 15",
+          "complete live visual acceptance"
+        ]
+      },
+      "postsSent": 0
+    }
+  ]
 }
