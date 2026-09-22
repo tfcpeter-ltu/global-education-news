@@ -3,7 +3,35 @@
   "timezone": "Asia/Taipei",
   "baselineCommit": "0c2e6b4773fb9f8b75c7cfd5d258b1fabeb5e2a9",
   "status": "partial",
-  "newsPublished": [],
+  "newsPublished": [
+    {
+      "url": "https://globalednews.com/news/hong-kong-hung-shui-kiu-university-land-2026/",
+      "status": 200,
+      "titleFound": true,
+      "canonical": "<link rel=\"canonical\" href=\"https://globalednews.com/news/hong-kong-hung-shui-kiu-university-land-2026/\">",
+      "og": true,
+      "schema": true,
+      "verifiedAt": "2026-09-22T21:22:14.897782+00:00"
+    },
+    {
+      "url": "https://globalednews.com/news/uwa-mumbai-campus-approval-chennai-pending-2026/",
+      "status": 200,
+      "titleFound": true,
+      "canonical": "<link rel=\"canonical\" href=\"https://globalednews.com/news/uwa-mumbai-campus-approval-chennai-pending-2026/\">",
+      "og": true,
+      "schema": true,
+      "verifiedAt": "2026-09-22T21:22:14.897782+00:00"
+    },
+    {
+      "url": "https://globalednews.com/news/idp-blackstone-proposal-rejected-september-2026/",
+      "status": 200,
+      "titleFound": true,
+      "canonical": "<link rel=\"canonical\" href=\"https://globalednews.com/news/idp-blackstone-proposal-rejected-september-2026/\">",
+      "og": true,
+      "schema": true,
+      "verifiedAt": "2026-09-22T21:22:14.897782+00:00"
+    }
+  ],
   "peterImports": [],
   "socialPosts": [],
   "scholarshipChecks": [
@@ -26,9 +54,111 @@
     "verifiedAt": "2026-09-22T21:12:33.475739+00:00"
   },
   "notes": [
-    "三篇雙重查核新聞與人工校訂英文已在本機準備；尚未部署，不能計為發布成功。",
-    "本機Astro與英文建置通過；英文校訂後仍待重建與正式站驗收。",
-    "Peter最新馬拉拉影片貼文文字已展開閱讀，尚待取得乾淨公開來源與匯入。",
-    "今日十五則社群尚未發送。"
-  ]
+    "Three bilingual news articles deployed and HTTP verified.",
+    "Scholarship search Enter, button and zero-results message verified in live browser.",
+    "Desktop and mobile screenshots repeatedly timed out; visual acceptance remains incomplete.",
+    "No social post sent today. No blind retry or duplicate scheduled post created.",
+    "Peter photo asset export failed due to EPERM. Imports remain uncompleted.",
+    "Homepage LTU pool showed three rotating reports; pool contains 12 items."
+  ],
+  "deployment": {
+    "commit": "a9784cd593d5075260fb03698dc2402e3c2a81c1",
+    "runUrl": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/35785906028",
+    "status": "success",
+    "verifiedAt": "2026-09-22T21:23:30.183266+00:00",
+    "taipeiDateVisible": true
+  },
+  "seoChecks": {
+    "sitemap-0.xml": {
+      "hong-kong-hung-shui-kiu-university-land-2026": true,
+      "uwa-mumbai-campus-approval-chennai-pending-2026": true,
+      "idp-blackstone-proposal-rejected-september-2026": true
+    },
+    "news-sitemap.xml": {
+      "hong-kong-hung-shui-kiu-university-land-2026": true,
+      "uwa-mumbai-campus-approval-chennai-pending-2026": true,
+      "idp-blackstone-proposal-rejected-september-2026": true
+    },
+    "weekly-feed.xml": {
+      "https://globalednews.com/news/hong-kong-hung-shui-kiu-university-land-2026/": true,
+      "https://globalednews.com/news/uwa-mumbai-campus-approval-chennai-pending-2026/": true,
+      "https://globalednews.com/news/idp-blackstone-proposal-rejected-september-2026/": true
+    }
+  },
+  "dateFix": {
+    "commit": "a9784cd593d5075260fb03698dc2402e3c2a81c1",
+    "runUrl": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/35785906028",
+    "status": "success",
+    "verifiedAt": "2026-09-22T21:23:30.183266+00:00",
+    "taipeiDateVisible": true
+  },
+  "acceptance": {
+    "desktop": false,
+    "mobile": false,
+    "seo": true,
+    "verifiedAt": "2026-09-22T21:23:30.183266+00:00",
+    "limitations": [
+      "Browser screenshot capture timed out repeatedly, including alternative screenshot API. Visual acceptance incomplete."
+    ],
+    "imageLoading": "Three new article images loaded successfully, naturalWidth > 0, checked in live browser.",
+    "scholarshipSearch": {
+      "enter": "Chevening returned 2 results",
+      "button": "zero-match query returned 0 and explanatory message",
+      "status": "passed"
+    }
+  },
+  "platformPreflight": {
+    "metricool": {
+      "brandId": "6323205",
+      "facebook": "101904929207004",
+      "instagram": "ltuossdtw",
+      "threads": "ltuossdtw",
+      "scheduledToday": 0,
+      "quota": "not verified; browser login required"
+    },
+    "threads": {
+      "account": "ltuossdtw",
+      "latestVisible": "previous-day post DdkKerJE4_b; no today post seen"
+    },
+    "linkedin": {
+      "account": "Peter Chen",
+      "profile": "https://www.linkedin.com/in/peter-chen-26a754228/",
+      "latestVisible": "previous-day activity 7507917677143687168"
+    },
+    "verifiedAt": "2026-09-22T21:23:30.183266+00:00"
+  },
+  "peterResearch": [
+    {
+      "sourceId": "122144492631172155",
+      "sourceUrl": "https://www.facebook.com/photo/?fbid=122144492631172155&set=a.122101120425172155",
+      "status": "read; not imported",
+      "officialCrosscheck": "https://future.utoronto.ca/pearson-scholarships",
+      "imageExport": "EPERM creating browser asset artifact directory"
+    },
+    {
+      "sourceId": "4418228248488367",
+      "status": "Malala text read; clean source URL and image still need verification; not imported"
+    }
+  ],
+  "missing": [
+    "3 verified Peter imports",
+    "15 published social posts",
+    "desktop and mobile visual acceptance"
+  ],
+  "deliveryVerification": {
+    "command": "node scripts/verify-daily-delivery.mjs 2026-09-23",
+    "exitCode": 1,
+    "result": "INCOMPLETE: 3 Peter imports, 15 social posts and desktop/mobile acceptance missing"
+  },
+  "studyAbroadResearch": {
+    "school": "University of St Andrews",
+    "country": "United Kingdom",
+    "status": "not publishable yet",
+    "officialSourceRead": "https://www.st-andrews.ac.uk/about/history/",
+    "secondSource": "Britannica page could not be opened; independent cross-check still pending",
+    "imageRequest": {
+      "status": "needed",
+      "reason": "Current browser screenshot and artifact export unavailable; obtain and verify a licensed school image or actual navigation screenshot before publication."
+    }
+  }
 }
