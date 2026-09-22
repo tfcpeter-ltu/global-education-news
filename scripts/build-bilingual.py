@@ -140,6 +140,8 @@ for p,doc in docs:
  for option in doc.xpath('//option[not(@value)]'):option.set('value',option.text_content())
  for el,a,s in list(texts(doc)):
   value=tr(s)
+  # Chinese inline emphasis needs no word separators; English does.
+  if a in ['text','tail'] and CJK.search(s):value=' '+value.strip()+' '
   if a in ['text','tail']:setattr(el,a,value)
   else:el.set(a,value)
  for el in doc.xpath('//script[@type="application/ld+json"]'):
