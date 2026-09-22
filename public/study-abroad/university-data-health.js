@@ -1,6 +1,0 @@
-(()=>{const d=window.UNIVERSITY_FINDER_DATA||(window.UNIVERSITY_FINDER_DATA=[]);d.push(
-{country:'uk',countryLabel:'英國',name:'University of Manchester — Medicine',city:'Manchester',url:'https://www.manchester.ac.uk/',majors:['Medicine','Dentistry'],goals:['醫療專業','名校／研究'],note:'醫學與牙醫屬高競爭專業課程，適合已確認化學／生物等先修、入學測驗與臨床職涯方向的學生。',apply:'通常經 UCAS；需依當年度醫牙課程確認 UCAT、先修科目、英文、面試與國際生名額。'},
-{country:'uk',countryLabel:'英國',name:'University of Bristol — Medicine',city:'Bristol',url:'https://www.bristol.ac.uk/',majors:['Medicine','Dentistry'],goals:['醫療專業','名校／研究'],note:'適合希望走臨床專業、並能承受高競爭申請與嚴格科目要求的學生。',apply:'通常經 UCAS；醫牙必須逐年核對 UCAT、學術要求、面試及國際生條件。'},
-{country:'australia',countryLabel:'澳洲',name:'Monash University — Medicine',city:'Melbourne',url:'https://www.monash.edu/',majors:['Medicine','Pharmacy','Biomedical Sciences'],goals:['醫療專業','名校／研究'],note:'Monash 的醫療與生命科學路線完整，適合希望把 Medicine、Pharmacy、Biomedical Sciences 放在同一所大學比較的學生。',apply:'依當年度國際生 Medicine 課程確認高中資格、指定科目、入學測驗／面試與申請時程。'},
-{country:'australia',countryLabel:'澳洲',name:'University of Adelaide — Medicine',city:'Adelaide',url:'https://www.adelaide.edu.au/',majors:['Medicine','Dentistry','Health Sciences'],goals:['醫療專業'],note:'可作為澳洲醫牙專業路線的比較選項之一，申請時要特別核對國際生資格與測驗流程。',apply:'依當年度醫牙課程官方頁確認學術條件、測驗、面試與申請平台。'}
-);})();

@@ -1,8 +1,0 @@
-(()=>{const d=window.STUDY_NAV_DATA;if(!d||!Array.isArray(d.articles))return;const rows=[
-{slug:'core-computer-it-map',country:'global',major:'電腦／IT Computer & IT',title:'電腦／IT 科系怎麼選？CS、Software Engineering、AI、Data Science、Cybersecurity、Game Programming',kind:'主幹導航',stage:'選科系',status:'已完成整理',url:'articles/computer-it-major-map.html'},
-{slug:'core-business-map',country:'global',major:'商學 Business',title:'商學科系怎麼選？Business、Finance、Accounting、Marketing、Business Analytics、Supply Chain',kind:'主幹導航',stage:'選科系',status:'已完成整理',url:'articles/business-major-map.html'},
-{slug:'core-medical-professional-map',country:'global',major:'醫療專業 Medical & Health',title:'醫療專業科系怎麼選？Medicine、Dentistry、Pharmacy、Nursing、Physiotherapy、OT、Biomedical Sciences、Public Health',kind:'主幹導航',stage:'選科系',status:'已完成整理',url:'articles/medical-professional-major-map.html'},
-{slug:'core-academic-research-map',country:'global',major:'名校／學術研究 Academic & Research',title:'名校／學術研究型科系怎麼選？Economics、Mathematics、Physics、Chemistry、Biology、Psychology、IR、PPE',kind:'主幹導航',stage:'選科系',status:'已完成整理',url:'articles/academic-research-major-map.html'},
-{slug:'core-music-map',country:'global',major:'音樂 Music',title:'音樂科系怎麼選？Performance、Composition、Music Production、Music Business、Screen Scoring、Musical Theatre',kind:'主幹導航',stage:'選科系',status:'已完成整理',url:'articles/music-major-map.html'},
-{slug:'core-art-design-map',country:'global',major:'藝術設計 Art & Design',title:'藝術設計科系怎麼選？Graphic Design、Animation、Film、Fashion、Architecture、Interior Design',kind:'主幹導航',stage:'選科系',status:'已完成整理',url:'articles/art-design-major-map.html'}
-];rows.forEach(x=>{if(!d.articles.some(a=>a.slug===x.slug))d.articles.unshift(x);});})();
