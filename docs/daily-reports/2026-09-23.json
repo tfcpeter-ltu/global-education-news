@@ -153,9 +153,9 @@
   "studyAbroadResearch": {
     "school": "University of St Andrews",
     "country": "United Kingdom",
-    "status": "not publishable yet",
+    "status": "Two sources read; social copy prepared; image and live navigation check pending",
     "officialSourceRead": "https://www.st-andrews.ac.uk/about/history/",
-    "secondSource": "Britannica page could not be opened; independent cross-check still pending",
+    "secondSource": "https://www.visitscotland.com/places-to-go/st-andrews/things-to-do?page=1",
     "imageRequest": {
       "status": "needed",
       "reason": "Current browser screenshot and artifact export unavailable; obtain and verify a licensed school image or actual navigation screenshot before publication."
@@ -183,6 +183,18 @@
           "complete live visual acceptance"
         ]
       },
+      "postsSent": 0
+    },
+    {
+      "startedAt": "2026-09-23T07:01:18+08:00",
+      "status": "partial",
+      "progress": [
+        "Prepared distinct St Andrews social copy after reading independent VisitScotland source."
+      ],
+      "blockers": [
+        "Native browser image download triggered; saved file path unknown.",
+        "chrome://downloads blocked by browser security policy; no workaround attempted; user asked for downloaded file path."
+      ],
       "postsSent": 0
     }
   ]
