@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-23",
+  "timezone": "Asia/Taipei",
+  "baselineCommit": "0c2e6b4773fb9f8b75c7cfd5d258b1fabeb5e2a9",
+  "status": "partial",
+  "newsPublished": [],
+  "peterImports": [],
+  "socialPosts": [],
+  "scholarshipChecks": [
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-09-chevening-delta-climate-2027/",
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-09-22T21:12:33.475739+00:00",
+      "deadline": "2026-10-06T19:00:00+08:00",
+      "sources": [
+        "https://www.deefund.org/newsdetail/1815",
+        "https://www.chevening.org/scholarship/taiwan/",
+        "https://www.chevening.org/resource-hub/guidance/eligibility/"
+      ]
+    }
+  ],
+  "sunmoon": {
+    "url": "https://www.sunmoonnews.com.tw/",
+    "status": "homepage opened; no additional story selected",
+    "verifiedAt": "2026-09-22T21:12:33.475739+00:00"
+  },
+  "notes": [
+    "三篇雙重查核新聞與人工校訂英文已在本機準備；尚未部署，不能計為發布成功。",
+    "本機Astro與英文建置通過；英文校訂後仍待重建與正式站驗收。",
+    "Peter最新馬拉拉影片貼文文字已展開閱讀，尚待取得乾淨公開來源與匯入。",
+    "今日十五則社群尚未發送。"
+  ]
+}

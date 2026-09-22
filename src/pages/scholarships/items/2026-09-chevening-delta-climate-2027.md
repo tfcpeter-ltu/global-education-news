@@ -15,9 +15,9 @@ officialUrl: "https://www.deefund.org/newsdetail/1815"
 secondSourceUrl: "https://www.chevening.org/scholarship/taiwan/"
 eligibilityTW: "可申請；限符合當期 Chevening 與台達方案條件的台灣申請者"
 taiwanNote: "具大學畢業後至少兩年、累計 2,800 小時工作經驗，完成學士至少兩年，並承諾學成返回台灣投入環境永續。仍須核對完整排除條款。"
-verificationDate: "2026-09-22"
-featuredDate: "2026-09-22"
-featuredUntil: "2026-09-23T00:00:00+08:00"
+verificationDate: "2026-09-23"
+featuredDate: "2026-09-23"
+featuredUntil: "2026-09-24T00:00:00+08:00"
 category: "國際碩士獎學金"
 image: "https://upload.wikimedia.org/wikipedia/commons/3/3b/University_of_Reading_library.jpg"
 imageAlt: "英國雷丁大學圖書館資料照，僅示意英國學習環境，非限定申請學校"
@@ -27,7 +27,7 @@ imageSource: "https://commons.wikimedia.org/wiki/File:University_of_Reading_libr
 
 ## 今日查核結果與背景
 
-**2026 年 9 月 22 日**重新查核，台達基金會 **8 月 25 日**公告的 **2027/28 Chevening Delta Climate Scholarship** 仍在申請期。基金會公告與 Chevening Taiwan 當期入口的年度、台灣申請路徑及截止日期一致；兩個機構分別提供合作獎項條件與申請制度。
+**2026 年 9 月 23 日**重新查核，台達基金會 **8 月 25 日**公告的 **2027/28 Chevening Delta Climate Scholarship** 仍在申請期。基金會公告與 Chevening Taiwan 當期入口的年度、台灣申請路徑及截止日期一致；兩個機構分別提供合作獎項條件與申請制度。
 
 這項合作自 2008 年開始，支持有志投入環境保護、氣候行動及永續發展的台灣人才赴英國進修。
 
