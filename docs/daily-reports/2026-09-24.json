@@ -35,6 +35,18 @@
       "observedAt": "2026-09-24T07:35:36+08:00",
       "articleUrl": "https://globalednews.com/news/dundee-strike-student-guidance-september-2026/",
       "version": "v1"
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "DdpgpI9k5bZ",
+      "publicUrl": "https://www.instagram.com/p/DdpgpI9k5bZ/",
+      "verifiedAt": "2026-09-23 23:40:44 UTC",
+      "observedAt": "2026-09-23 23:40:44 UTC",
+      "articleUrl": "https://globalednews.com/news/dundee-strike-student-guidance-september-2026/",
+      "version": "v1",
+      "threadsSync": false
     }
   ],
   "scholarshipChecks": [
@@ -72,7 +84,8 @@
   "research": {
     "status": "in-progress",
     "approvedDrafts": [
-      "dundee-strike-student-guidance-september-2026"
+      "dundee-strike-student-guidance-september-2026",
+      "australia-student-safety-survey-2026"
     ],
     "held": [
       {
@@ -99,11 +112,11 @@
   "missing": [
     "2 additional verified international news articles",
     "3 verified Peter imports or documented source shortfall",
-    "13 verified social publications",
+    "12 verified social publications",
     "today LTU media rotation",
     "deployment and complete live acceptance"
   ],
-  "updatedAt": "2026-09-24T07:35:36+08:00",
+  "updatedAt": "2026-09-24T07:46:00+08:00",
   "maintenance": [
     {
       "type": "scholarship-expired-status-correction",
@@ -140,5 +153,11 @@
     "localAstro": true,
     "bilingualPairs": 501,
     "verifiedAt": "2026-09-24T07:28:00+08:00"
-  }
+  },
+  "platformBlockers": [
+    {
+      "network": "facebook",
+      "reason": "Existing unrelated Peter-task unsent draft and Peter-page identity observed. Preserved without interference; authorized LTU destination not yet restored."
+    }
+  ]
 }
