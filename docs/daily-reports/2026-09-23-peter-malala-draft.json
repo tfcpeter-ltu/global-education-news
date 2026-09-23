@@ -1,0 +1,35 @@
+{
+  "status": "draft-not-published",
+  "sourceId": "4418228248488367",
+  "sourceUrl": "https://www.facebook.com/reel/4418228248488367/",
+  "sourcePageId": "61585164670358",
+  "originalReadAt": "2026-09-23T08:14:00+08:00",
+  "title": "從馬拉拉的故事，重新理解教育與選擇的權利",
+  "description": "Peter 以女孩受教權為題，提醒讀者教育的價值不只在考試與就業。",
+  "body": [
+    "Peter 在原貼文中以馬拉拉的故事，談女孩受教育的權利。他關注的不只是走進教室，而是孩子能否透過學習，理解世界、表達想法並為自己的未來作選擇。",
+    "原文把教育與尊嚴、獨立思考及和平對話連在一起。這些是 Peter 對教育意義的觀點，不應把文中的敘事性台詞當成已有來源證明的當事人逐字發言。",
+    "編輯查核：Malala Fund 官方生平將基金會成立放在 2013 年段落，並記載馬拉拉於 2014 年 12 月獲頒諾貝爾和平獎。因此，正式整理時必須更正原文可能讓讀者誤以為基金會在獲獎後才成立的順序。"
+  ],
+  "sources": [
+    {
+      "url": "https://malala.org/malalas-story",
+      "read": true
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/peace/2014/yousafzai/facts/",
+      "read": false,
+      "error": "403"
+    }
+  ],
+  "requirementsBeforePublication": [
+    "Confirm additional independent source for the retained historical facts.",
+    "Obtain suitable authorized image and inspect it.",
+    "Check existing Peter source IDs again before import.",
+    "Build, deploy and inspect Chinese/English production pages."
+  ],
+  "imageRequest": {
+    "status": "needed",
+    "description": "指定原貼文可用的授權圖像，或授權清楚的相關照片；不得假稱已取得。"
+  }
+}

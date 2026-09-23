@@ -167,7 +167,7 @@
     "command": "node scripts/verify-daily-delivery.mjs 2026-09-23",
     "exitCode": 1,
     "result": "INCOMPLETE: fewer than 3 verified Peter imports; 15 social posts; full visual acceptance",
-    "verifiedAt": "2026-09-23T09:00:27+08:00"
+    "verifiedAt": "2026-09-23T12:02:00+08:00"
   },
   "studyAbroadResearch": {
     "school": "University of St Andrews",
@@ -246,6 +246,20 @@
         "Browser runtime could not initialize: registered runtime ownership is missing. No platform history or posting actions possible in this recovery.",
         "Default shell runtime also failed to initialize; approved escalated read-only verification succeeded.",
         "Formal Peter URLs could not be read through web fallback. Prior successful verification retained, not claimed as fresh."
+      ],
+      "postsSent": 0
+    },
+    {
+      "startedAt": "2026-09-23T12:02:00+08:00",
+      "baselineCommit": "781310b0fa479ef2217282a051e4894a21af233c",
+      "status": "partial",
+      "progress": [
+        "Confirmed previous main workflow build and deployment succeeded (35804599233).",
+        "Re-ran daily delivery verifier; exit 1 with unchanged missing items.",
+        "Saved an editorial draft for Malala, preserving the read original post and requiring image/chronology verification before import."
+      ],
+      "blockers": [
+        "Browser runtime exited on initialization twice. Cannot read platform history, upload or publish through direct UI; no send attempted."
       ],
       "postsSent": 0
     }
