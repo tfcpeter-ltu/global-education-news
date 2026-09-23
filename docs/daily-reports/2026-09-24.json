@@ -11,7 +11,7 @@
       "url": "https://globalednews.com/scholarships/items/2026-09-chevening-delta-climate-2027/",
       "eligibleTaiwan": true,
       "open": true,
-      "verifiedAt": "2026-09-23 22:57:34 UTC",
+      "verifiedAt": "2026-09-24T07:11:00+08:00",
       "deadline": "2026-10-06T19:00:00+08:00",
       "sources": [
         "https://www.deefund.org/newsdetail/1815",
@@ -39,10 +39,19 @@
     "countedTowardToday": false
   },
   "research": {
-    "status": "unfinished",
-    "notes": [
-      "Latest formal news listing checked to avoid duplication.",
-      "New search results largely overlap prior D/S injunction and Australian dependant-policy coverage; no new article approved yet."
+    "status": "in-progress",
+    "approvedDrafts": [
+      "dundee-strike-student-guidance-september-2026"
+    ],
+    "held": [
+      {
+        "topic": "UK visa refusals",
+        "reason": "THE completion-rate threshold differs from official 2026 transitional core requirements; hold numeric policy story pending reconciliation.",
+        "sources": [
+          "https://www.timeshighereducation.com/news/v-cs-seek-answers-over-late-surge-uk-student-visa-refusals",
+          "https://www.gov.uk/government/publications/student-sponsor-guidance/student-sponsor-compliance-accessible"
+        ]
+      }
     ]
   },
   "deployment": null,
@@ -58,15 +67,42 @@
     "today LTU media rotation",
     "deployment and complete live acceptance"
   ],
-  "updatedAt": "2026-09-23 22:57:34 UTC",
+  "updatedAt": "2026-09-24T07:16:00+08:00",
   "maintenance": [
     {
       "type": "scholarship-expired-status-correction",
       "url": "https://globalednews.com/scholarships/items/2026-09-sydney-rtp-international-2027/",
       "source": "https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-international.html",
-      "verifiedAt": "2026-09-23 23:03:56 UTC",
-      "status": "prepared; deployment pending",
-      "fact": "Research Period 1/2 submission deadline was 2026-09-11; remove open status and stale urgency."
+      "verifiedAt": "2026-09-24T07:08:00+08:00",
+      "status": "deployed-and-verified",
+      "fact": "Research Period 1/2 submission deadline was 2026-09-11; remove open status and stale urgency.",
+      "commit": "62199227d5f1945703df141fddfc5a10c7522a1c",
+      "workflow": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/35931689493",
+      "deploymentStatus": "success",
+      "desktop": true,
+      "mobile": true
     }
-  ]
+  ],
+  "searchAcceptance": {
+    "verifiedAt": "2026-09-24T07:03:00+08:00",
+    "enter": {
+      "query": "Chevening",
+      "results": 2
+    },
+    "button": {
+      "query": "zz-no-match-20260924",
+      "results": 0,
+      "emptyMessage": true
+    },
+    "clear": {
+      "results": 124
+    },
+    "mobileFilters": "not-yet-tested"
+  },
+  "build": {
+    "status": "success",
+    "localAstro": true,
+    "bilingualPairs": 501,
+    "verifiedAt": "2026-09-24T07:18:00+08:00"
+  }
 }
