@@ -153,7 +153,9 @@
     {
       "sourceId": "4418228248488367",
       "status": "Clean reel URL and source page 61585164670358 verified; full text read. Not imported: chronology and unverified quotations require editorial corrections and suitable image.",
-      "sourceUrl": "https://www.facebook.com/reel/4418228248488367/"
+      "sourceUrl": "https://www.facebook.com/reel/4418228248488367/",
+      "officialSourceRead": "https://malala.org/malalas-story",
+      "editorialNotes": "Official story places the foundation establishment in the 2013 section, before December 2014 Nobel recognition. Original Reel wording implies establishment afterwards; correct chronology, omit unverified direct quotations. Nobel facts page returned 403; no new import claimed."
     }
   ],
   "missing": [
@@ -164,8 +166,8 @@
   "deliveryVerification": {
     "command": "node scripts/verify-daily-delivery.mjs 2026-09-23",
     "exitCode": 1,
-    "result": "INCOMPLETE: fewer than 3 Peter imports, all 15 social publications and full visual acceptance",
-    "verifiedAt": "2026-09-23 00:14:44 UTC"
+    "result": "INCOMPLETE: fewer than 3 verified Peter imports; 15 social posts; full visual acceptance",
+    "verifiedAt": "2026-09-23T09:00:27+08:00"
   },
   "studyAbroadResearch": {
     "school": "University of St Andrews",
@@ -228,6 +230,22 @@
       "blockers": [
         "Actual Edge fileChooser.setFiles returned Not allowed. Browser upload troubleshooting requires enabling Allow access to file URLs for the ChatGPT Edge extension. Chrome's earlier permission does not cover Edge.",
         "Screenshot captures remain clipped; full visual acceptance not claimed."
+      ],
+      "postsSent": 0
+    },
+    {
+      "startedAt": "2026-09-23T09:00:27+08:00",
+      "baselineCommit": "766e600b9798ed60056dc9863efedb12e91c5dd2",
+      "status": "partial",
+      "progress": [
+        "Confirmed previous report commit CI and Pages deployment succeeded (35801198751).",
+        "Ran daily verification through approved read-only escalated process; exit 1, same 2 Peter/15 social/full visual gaps.",
+        "Read Malala Fund original biography; documented chronology correction needed before import."
+      ],
+      "blockers": [
+        "Browser runtime could not initialize: registered runtime ownership is missing. No platform history or posting actions possible in this recovery.",
+        "Default shell runtime also failed to initialize; approved escalated read-only verification succeeded.",
+        "Formal Peter URLs could not be read through web fallback. Prior successful verification retained, not claimed as fresh."
       ],
       "postsSent": 0
     }
