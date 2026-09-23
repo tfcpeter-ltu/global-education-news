@@ -5,12 +5,15 @@
     "platform": "threads",
     "account": "ltuossdtw",
     "articleUrl": "https://globalednews.com/news/hong-kong-hung-shui-kiu-university-land-2026/",
-    "status": "blocked-before-publish",
-    "publishClicked": false,
-    "platformPostId": null,
-    "platformPostUrl": null,
-    "reason": "Edge fileChooser.setFiles failed Not allowed. Draft retained in tab 592612233. User notified to enable ChatGPT extension file URL access.",
+    "status": "published",
+    "publishClicked": true,
+    "platformPostId": "DdpZ78Vk06F",
+    "platformPostUrl": "https://www.threads.com/@ltuossdtw/post/DdpZ78Vk06F",
+    "reason": "Recovered using Chrome; published and verified.",
     "imageReady": true,
-    "verifiedAt": "2026-09-23 00:14:44 UTC"
+    "verifiedAt": "2026-09-24T06:41:30+08:00",
+    "observedPublishedAt": "2026-09-24T06:40:00+08:00",
+    "timeEvidence": "Observed publish click, 已發佈 toast and 幾秒前 profile item; exact server timestamp unavailable",
+    "backfill": true
   }
 ]
