@@ -1,0 +1,61 @@
+{
+  "date": "2026-09-24",
+  "timezone": "Asia/Taipei",
+  "baselineCommit": "42752104baa3c8d9e2c2d6db347badeef7a8dccb",
+  "status": "partial",
+  "newsPublished": [],
+  "peterImports": [],
+  "socialPosts": [],
+  "scholarshipChecks": [
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-09-chevening-delta-climate-2027/",
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-09-23 22:57:34 UTC",
+      "deadline": "2026-10-06T19:00:00+08:00",
+      "sources": [
+        "https://www.deefund.org/newsdetail/1815",
+        "https://www.chevening.org/scholarship/taiwan/"
+      ],
+      "notes": "Read this session; general work-experience criteria still require full current eligibility review before detailed promotion."
+    }
+  ],
+  "sunmoon": {
+    "url": "https://www.sunmoonnews.com.tw/",
+    "status": "homepage read; no additional international story selected",
+    "verifiedAt": "2026-09-23 22:57:34 UTC"
+  },
+  "backfillCompleted": {
+    "date": "2026-09-23",
+    "campaign": "news",
+    "platforms": [
+      "threads",
+      "linkedin",
+      "instagram",
+      "facebook"
+    ],
+    "evidence": "docs/daily-reports/2026-09-23.json",
+    "countedTowardToday": false
+  },
+  "research": {
+    "status": "unfinished",
+    "notes": [
+      "Latest formal news listing checked to avoid duplication.",
+      "New search results largely overlap prior D/S injunction and Australian dependant-policy coverage; no new article approved yet."
+    ]
+  },
+  "deployment": null,
+  "acceptance": {
+    "desktop": false,
+    "mobile": false,
+    "seo": false
+  },
+  "missing": [
+    "3 new verified international news articles",
+    "3 verified Peter imports or documented source shortfall",
+    "15 verified social publications",
+    "today LTU media rotation",
+    "deployment and complete live acceptance"
+  ],
+  "updatedAt": "2026-09-23 22:57:34 UTC"
+}
