@@ -13,7 +13,30 @@
     }
   ],
   "peterImports": [],
-  "socialPosts": [],
+  "socialPosts": [
+    {
+      "campaign": "news",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DdpfnUTE9Hv",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdpfnUTE9Hv",
+      "verifiedAt": "2026-09-24T07:31:34+08:00",
+      "observedAt": "2026-09-24T07:31:34+08:00",
+      "articleUrl": "https://globalednews.com/news/dundee-strike-student-guidance-september-2026/",
+      "version": "v1"
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7508670284271611904",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7508670284271611904/",
+      "verifiedAt": "2026-09-24T07:35:36+08:00",
+      "observedAt": "2026-09-24T07:35:36+08:00",
+      "articleUrl": "https://globalednews.com/news/dundee-strike-student-guidance-september-2026/",
+      "version": "v1"
+    }
+  ],
   "scholarshipChecks": [
     {
       "url": "https://globalednews.com/scholarships/items/2026-09-chevening-delta-climate-2027/",
@@ -63,10 +86,10 @@
     ]
   },
   "deployment": {
-    "commit": "90037d1d5ea73f93965c3c2e210f0edd5e326bf1",
+    "commit": "5d8d7fab01d6632db2a2d756b5b2703fdfb9650b",
     "status": "success",
-    "verifiedAt": "2026-09-24T07:24:17+08:00",
-    "workflow": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/35932954568"
+    "verifiedAt": "2026-09-24T07:35:36+08:00",
+    "workflow": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/35933650174"
   },
   "acceptance": {
     "desktop": false,
@@ -76,11 +99,11 @@
   "missing": [
     "2 additional verified international news articles",
     "3 verified Peter imports or documented source shortfall",
-    "15 verified social publications",
+    "13 verified social publications",
     "today LTU media rotation",
     "deployment and complete live acceptance"
   ],
-  "updatedAt": "2026-09-24T07:16:00+08:00",
+  "updatedAt": "2026-09-24T07:35:36+08:00",
   "maintenance": [
     {
       "type": "scholarship-expired-status-correction",
@@ -116,6 +139,6 @@
     "status": "success",
     "localAstro": true,
     "bilingualPairs": 501,
-    "verifiedAt": "2026-09-24T07:18:00+08:00"
+    "verifiedAt": "2026-09-24T07:28:00+08:00"
   }
 }
