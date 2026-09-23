@@ -10,6 +10,15 @@
       "englishUrl": "https://globalednews.com/en/news/dundee-strike-student-guidance-september-2026/",
       "desktop": true,
       "mobile": false
+    },
+    {
+      "url": "https://globalednews.com/news/australia-student-safety-survey-2026/",
+      "englishUrl": "https://globalednews.com/en/news/australia-student-safety-survey-2026/",
+      "verifiedAt": "2026-09-24T07:49:00+08:00",
+      "desktop": false,
+      "mobile": false,
+      "domVerified": true,
+      "imageLoaded": true
     }
   ],
   "peterImports": [],
@@ -85,7 +94,8 @@
     "status": "in-progress",
     "approvedDrafts": [
       "dundee-strike-student-guidance-september-2026",
-      "australia-student-safety-survey-2026"
+      "australia-student-safety-survey-2026",
+      "coventry-almaty-campus-opening-2026"
     ],
     "held": [
       {
@@ -99,10 +109,10 @@
     ]
   },
   "deployment": {
-    "commit": "5d8d7fab01d6632db2a2d756b5b2703fdfb9650b",
+    "commit": "1489ff6ffb6fa49428c723848987725fba04d885",
     "status": "success",
-    "verifiedAt": "2026-09-24T07:35:36+08:00",
-    "workflow": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/35933650174"
+    "verifiedAt": "2026-09-24T07:56:00+08:00",
+    "workflow": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/35935315878"
   },
   "acceptance": {
     "desktop": false,
@@ -110,13 +120,13 @@
     "seo": false
   },
   "missing": [
-    "2 additional verified international news articles",
-    "3 verified Peter imports or documented source shortfall",
+    "1 additional news deployment/read-back",
+    "Peter import deployment plus 2 other eligible new posts or source shortfall",
     "12 verified social publications",
-    "today LTU media rotation",
-    "deployment and complete live acceptance"
+    "LTU rotation verification",
+    "desktop/mobile/SEO acceptance"
   ],
-  "updatedAt": "2026-09-24T07:46:00+08:00",
+  "updatedAt": "2026-09-24T07:56:00+08:00",
   "maintenance": [
     {
       "type": "scholarship-expired-status-correction",
@@ -159,5 +169,15 @@
       "network": "facebook",
       "reason": "Existing unrelated Peter-task unsent draft and Peter-page identity observed. Preserved without interference; authorized LTU destination not yet restored."
     }
-  ]
+  ],
+  "peterCheck": {
+    "observedAt": "2026-09-24T07:56:00+08:00",
+    "source": "https://www.facebook.com/profile.php?id=61585164670358",
+    "newCandidate": "4418228248488367",
+    "alreadyImported": [
+      "122144492439172155 (photo alias 122144492361172155)",
+      "122144281731172155 (photo alias 122144492631172155)"
+    ],
+    "note": "Latest visible new candidate is Malala; other two recent articles already imported. Does not establish entire archive exhausted."
+  }
 }

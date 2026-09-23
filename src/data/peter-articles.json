@@ -1,5 +1,56 @@
 [
   {
+    "slug": "malala-education-and-choice",
+    "sourceId": "4418228248488367",
+    "sourceAliases": [
+      "122144636055172155"
+    ],
+    "sourceUrl": "https://www.facebook.com/reel/4418228248488367/",
+    "title": "從馬拉拉的故事，重新理解教育與選擇的權利",
+    "description": "Peter 以女孩受教權為題，提醒讀者教育的價值不只在考試與就業。",
+    "topic": "教育平權與學習價值",
+    "author": "Peter",
+    "importedAt": "2026-09-24",
+    "dateObservedAt": "2026-09-24",
+    "originalDateLabel": "1 天前",
+    "originalDatePrecision": "relative",
+    "originalPublishedAt": null,
+    "edition": "verified-edit",
+    "note": "已閱讀指定粉專原貼文。基金會在2013年已運作，早於2014年諾貝爾和平獎；本版釐清時序，並移除未獨立確認的敘事性對話，避免當成逐字引述。",
+    "body": [
+      "Peter 在原貼文中以馬拉拉的故事，談女孩受教育的權利。他關注的不只是走進教室，而是孩子能否透過學習，理解世界、表達想法並為自己的未來作選擇。",
+      "### 教育不只為考試與工作",
+      "原文把教育與尊嚴、獨立思考及和平對話連在一起。Peter 認為，孩子拿起書本，也是在爭取人生的選擇權；家長談升學時，可以把學習的意義放進成績與職涯之外的討論。",
+      "### 釐清基金會與獲獎時序",
+      "Malala Fund 官方生平將基金會成立列在2013年段落，ITV於2013年4月5日已報導該基金宣布首筆補助。基金會並不是在2014年獲諾貝爾和平獎之後才成立。",
+      "### 保留觀點，不把敘事當逐字發言",
+      "本版保留 Peter 對教育平權的核心觀點，未重述原文中尚未查明出處的內心獨白與對話。讀者可由原貼文連結閱讀完整敘事，並由下列查核資料核對歷史時序。"
+    ],
+    "sources": [
+      [
+        "Malala Fund｜官方生平",
+        "https://malala.org/malalas-story"
+      ],
+      [
+        "ITV News｜2013年首筆補助報導",
+        "https://www.itv.com/news/2013-04-05/malala-announces-first-grant-from-fund-set-up-in-her-name"
+      ],
+      [
+        "資料照來源與作者",
+        "https://commons.wikimedia.org/wiki/File:Malala_Yousafzai.jpg"
+      ],
+      [
+        "CC BY 2.0 圖片授權",
+        "https://creativecommons.org/licenses/by/2.0/"
+      ]
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Malala_Yousafzai.jpg",
+    "imageAlt": "馬拉拉出席2014年WOW活動的資料照",
+    "imageCredit": "Southbank Centre／Sarah Jeynes，Wikimedia Commons，CC BY 2.0；2014年資料照，版面可能裁切",
+    "imageRights": "CC BY 2.0; inspected source and photograph 2026-09-24",
+    "imageCaption": "人物資料照，非原貼文影片截圖。"
+  },
+  {
     "slug": "pearson-2027-school-nomination-first",
     "sourceId": "122144492631172155",
     "title": "多倫多大學 Pearson 獎學金：先拿高中提名，再談申請",

@@ -25,7 +25,7 @@ const schema = {
       <p class="metadata">作者：{article.author} · 網站收錄：<time datetime={article.importedAt}>{article.importedAt}</time></p>
       <p class="source-date">原文日期：Facebook 於 {article.dateObservedAt} 顯示「{article.originalDateLabel}」。{article.originalDatePrecision === 'relative' ? '平台僅提供相對日期，未推算精確發布日；' : '依平台顯示記錄，未補推未顯示的年份與時區；'}<a href={article.sourceUrl} target="_blank" rel="noopener noreferrer">查看原貼文 ↗</a></p>
     </header>
-    <figure><img src={article.image} alt={article.imageAlt} width="1200" height="675" loading="eager" /><figcaption>{article.imageCredit}；專欄圖卡，非政策現場照片。</figcaption></figure>
+    <figure><img src={article.image} alt={article.imageAlt} width="1200" height="675" loading="eager" /><figcaption>{article.imageCredit}；{article.imageCaption || '專欄圖卡，非政策現場照片。'}</figcaption></figure>
     <aside aria-labelledby="editor-note">
       <h2 id="editor-note">編輯補註 · {article.importedAt}</h2>
       <p>{article.note}</p>
