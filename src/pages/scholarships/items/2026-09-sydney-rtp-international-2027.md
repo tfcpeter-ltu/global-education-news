@@ -1,20 +1,20 @@
 ---
 layout: ../../../layouts/ScholarshipLayout.astro
 title: "University of Sydney 2027 RTP 國際研究獎學金：9/11 前完成申請"
-description: "雪梨大學 Australian Government Research Training Program（RTP）國際研究獎學金目前仍可申請，適合準備 2027 年開始 Master by Research 或 PhD 的台灣學生；本輪 Research Period 1/2 截止日為 2026 年 9 月 11 日。"
+description: "雪梨大學 Australian Government Research Training Program（RTP）國際研究獎學金本輪已截止，適合準備 2027 年開始 Master by Research 或 PhD 的台灣學生；本輪 Research Period 1/2 截止日為 2026 年 9 月 11 日。"
 date: 2026-09-08
 country: "澳洲"
 level: "研究型碩士／博士"
 funding: "2027 年 stipend AUD 44,293/年；RTP Fee Offset 可涵蓋 100% 學費，另依方案提供 OSHC、搬遷與論文補助"
 deadline: "2026-09-11"
-status: "開放中"
+status: "已截止（2027 Research Period 1/2）"
 sourceType: "各國政府／大學"
 sourceName: "Australian Government RTP / University of Sydney"
 officialUrl: "https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-international.html"
 secondSourceUrl: "https://www.sydney.edu.au/scholarships/international.html"
 eligibilityTW: "可申請；台灣學生可依 international student 身分競爭"
 taiwanNote: "本輪適用預計於 2027 年 Research Period 1 或 2 開始研究的國際申請者。新生需同時完成 HDR admission 所需文件與 scholarship application；RTP 屬競爭型獎學金，並非取得研究所 offer 即自動獲獎。"
-verificationDate: "2026-09-08"
+verificationDate: "2026-09-24"
 category: "研究獎學金"
 ---
 
@@ -35,8 +35,8 @@ University of Sydney 的 Australian Government Research Training Program（RTP�
 1. 先確認自己的研究主題與指導教授安排是否符合 Sydney HDR admission 要求。
 2. 新生需完成研究學位 admission application，並依官方流程提交 scholarship application。
 3. 研究成果、學術成績、研究經驗與推薦資料會直接影響競爭力。
-4. 距離 9 月 11 日已非常接近，尚未完成文件者應立即檢查系所與 scholarship portal 的提交狀態。
+4. 本輪已於 2026 年 9 月 11 日截止，不應再按本輪開放申請安排文件。
 
 ## 行動建議
 
-如果你已經準備 2027 年赴澳攻讀 PhD 或研究型碩士，這一則應列為本週最高優先級。若來不及趕上本輪，Sydney 官方另列 2027 Research Period 3/4 的下一個 submission deadline 為 **2026 年 12 月 18 日**，可改以後續研究期為目標。
+截至 2026 年 9 月 24 日，本頁所列 Research Period 1/2 輪次已截止。Sydney 官方另列 2027 Research Period 3/4 的下一個 submission deadline 為 **2026 年 12 月 18 日**，可改以後續研究期為目標。

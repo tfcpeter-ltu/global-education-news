@@ -15,9 +15,10 @@
       "deadline": "2026-10-06T19:00:00+08:00",
       "sources": [
         "https://www.deefund.org/newsdetail/1815",
-        "https://www.chevening.org/scholarship/taiwan/"
+        "https://www.chevening.org/scholarship/taiwan/",
+        "https://www.chevening.org/resource-hub/guidance/eligibility/"
       ],
-      "notes": "Read this session; general work-experience criteria still require full current eligibility review before detailed promotion."
+      "notes": "Full current Chevening eligibility read: post-degree 2800 hours, undergraduate studies completed at least two years before deadline, return home two years, three eligible courses. Image and platform publishing still pending."
     }
   ],
   "sunmoon": {
@@ -57,5 +58,15 @@
     "today LTU media rotation",
     "deployment and complete live acceptance"
   ],
-  "updatedAt": "2026-09-23 22:57:34 UTC"
+  "updatedAt": "2026-09-23 22:57:34 UTC",
+  "maintenance": [
+    {
+      "type": "scholarship-expired-status-correction",
+      "url": "https://globalednews.com/scholarships/items/2026-09-sydney-rtp-international-2027/",
+      "source": "https://www.sydney.edu.au/scholarships/australian-government-research-training-program/rtp-international.html",
+      "verifiedAt": "2026-09-23 23:03:56 UTC",
+      "status": "prepared; deployment pending",
+      "fact": "Research Period 1/2 submission deadline was 2026-09-11; remove open status and stale urgency."
+    }
+  ]
 }
