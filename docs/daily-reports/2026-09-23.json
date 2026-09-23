@@ -32,7 +32,21 @@
       "verifiedAt": "2026-09-22T21:22:14.897782+00:00"
     }
   ],
-  "peterImports": [],
+  "peterImports": [
+    {
+      "sourceId": "122144492631172155",
+      "url": "https://globalednews.com/peter/pearson-2027-school-nomination-first/",
+      "verifiedAt": "2026-09-23 00:13:00 UTC",
+      "sourceUrl": "https://www.facebook.com/photo/?fbid=122144492631172155&set=a.122101120425172155",
+      "commit": "59aaa99a3e3c6baf3690de24c8cd866965959e5a",
+      "runUrl": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/35800828994",
+      "imageLoaded": true,
+      "visualAcceptance": "partial; screenshot capture cropped",
+      "englishVerifiedAt": "2026-09-23 00:13:00 UTC",
+      "englishFixCommit": "23cca1ec2c1124778f054eefe94385cb061c0930",
+      "englishFixRun": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/35801034618"
+    }
+  ],
   "socialPosts": [],
   "scholarshipChecks": [
     {
@@ -59,7 +73,8 @@
     "Desktop and mobile screenshots repeatedly timed out; visual acceptance remains incomplete.",
     "No social post sent today. No blind retry or duplicate scheduled post created.",
     "Peter photo asset export failed due to EPERM. Imports remain uncompleted.",
-    "Homepage LTU pool showed three rotating reports; pool contains 12 items."
+    "Homepage LTU pool showed three rotating reports; pool contains 12 items.",
+    "08:00 recovery: original image export now works. Current social blocker is specifically Edge file URL upload permission, confirmed by setFiles failure, not old Chrome/IG permission."
   ],
   "deployment": {
     "commit": "a9784cd593d5075260fb03698dc2402e3c2a81c1",
@@ -131,24 +146,26 @@
     {
       "sourceId": "122144492631172155",
       "sourceUrl": "https://www.facebook.com/photo/?fbid=122144492631172155&set=a.122101120425172155",
-      "status": "read; not imported",
+      "status": "imported; Chinese live page and original image verified",
       "officialCrosscheck": "https://future.utoronto.ca/pearson-scholarships",
-      "imageExport": "EPERM creating browser asset artifact directory"
+      "imageExport": "success"
     },
     {
       "sourceId": "4418228248488367",
-      "status": "Malala text read; clean source URL and image still need verification; not imported"
+      "status": "Clean reel URL and source page 61585164670358 verified; full text read. Not imported: chronology and unverified quotations require editorial corrections and suitable image.",
+      "sourceUrl": "https://www.facebook.com/reel/4418228248488367/"
     }
   ],
   "missing": [
-    "3 verified Peter imports",
+    "2 more verified Peter imports",
     "15 published social posts",
-    "desktop and mobile visual acceptance"
+    "complete desktop and mobile visual acceptance"
   ],
   "deliveryVerification": {
     "command": "node scripts/verify-daily-delivery.mjs 2026-09-23",
     "exitCode": 1,
-    "result": "INCOMPLETE: 3 Peter imports, 15 social posts and desktop/mobile acceptance missing"
+    "result": "INCOMPLETE: fewer than 3 Peter imports, all 15 social publications and full visual acceptance",
+    "verifiedAt": "2026-09-23 00:14:44 UTC"
   },
   "studyAbroadResearch": {
     "school": "University of St Andrews",
@@ -194,6 +211,23 @@
       "blockers": [
         "Native browser image download triggered; saved file path unknown.",
         "chrome://downloads blocked by browser security policy; no workaround attempted; user asked for downloaded file path."
+      ],
+      "postsSent": 0
+    },
+    {
+      "startedAt": "2026-09-23T08:01:19+08:00",
+      "baselineCommit": "01307c718ddeaec688c072752beee03f09c5d356",
+      "status": "partial",
+      "progress": [
+        "Recovered Edge DOM interaction; Threads @ltuossdtw draft preserved, no post sent.",
+        "Original Peter Pearson post fully reread and image bundled successfully; obsolete artifact export error resolved.",
+        "Published verified Pearson column and manual English body translations. Formal Chinese page and image reread after successful Pages deployment.",
+        "Prepared scholarship copies for four platforms.",
+        "Fixed an automated mistranslation in the shared Peter author label; successful deployment 35801034618, English body and corrected attribution read on production."
+      ],
+      "blockers": [
+        "Actual Edge fileChooser.setFiles returned Not allowed. Browser upload troubleshooting requires enabling Allow access to file URLs for the ChatGPT Edge extension. Chrome's earlier permission does not cover Edge.",
+        "Screenshot captures remain clipped; full visual acceptance not claimed."
       ],
       "postsSent": 0
     }
