@@ -3,7 +3,15 @@
   "timezone": "Asia/Taipei",
   "baselineCommit": "42752104baa3c8d9e2c2d6db347badeef7a8dccb",
   "status": "partial",
-  "newsPublished": [],
+  "newsPublished": [
+    {
+      "url": "https://globalednews.com/news/dundee-strike-student-guidance-september-2026/",
+      "verifiedAt": "2026-09-24T07:24:17+08:00",
+      "englishUrl": "https://globalednews.com/en/news/dundee-strike-student-guidance-september-2026/",
+      "desktop": true,
+      "mobile": false
+    }
+  ],
   "peterImports": [],
   "socialPosts": [],
   "scholarshipChecks": [
@@ -54,14 +62,19 @@
       }
     ]
   },
-  "deployment": null,
+  "deployment": {
+    "commit": "90037d1d5ea73f93965c3c2e210f0edd5e326bf1",
+    "status": "success",
+    "verifiedAt": "2026-09-24T07:24:17+08:00",
+    "workflow": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/35932954568"
+  },
   "acceptance": {
     "desktop": false,
     "mobile": false,
     "seo": false
   },
   "missing": [
-    "3 new verified international news articles",
+    "2 additional verified international news articles",
     "3 verified Peter imports or documented source shortfall",
     "15 verified social publications",
     "today LTU media rotation",
