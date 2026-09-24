@@ -3,7 +3,7 @@ interface Props { placement: string; format?: 'banner' | 'card'; }
 const { placement, format = 'banner' } = Astro.props;
 const inquiry = '/advertise/';
 const labels: Record<string, string> = {
-  H2: '首頁新聞後', N1: '新聞列表', N4: '文章閱讀後',
+  H2: '首頁頭條後', N1: '新聞列表', N4: '文章閱讀後',
   S1: '獎學金專區', U1: '台灣大學選校'
 };
 const description = labels[placement] ?? '國際教育';
