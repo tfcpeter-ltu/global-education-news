@@ -295,7 +295,8 @@
       ],
       "notes": "All four social platforms published and read back.",
       "updateSummary": "Rechecked application deadline, Taiwan eligibility, post-degree work experience and degree timing; published today.",
-      "publishedVerifiedAt": "2026-09-24T11:10:00+08:00"
+      "publishedVerifiedAt": "2026-09-24T12:16:21+08:00",
+      "publicationStatus": "deployed-and-content-verified"
     },
     {
       "url": "https://globalednews.com/scholarships/items/2026-09-hkpfs-2027/",
@@ -310,7 +311,8 @@
         "https://www.polyu.edu.hk/ls/news-and-events/news/2026/20260904_hkpfs-202728/"
       ],
       "updateSummary": "Rechecked unrestricted origin eligibility, one initial application/two choices, RGC noon versus university deadline, current HKU/PolyU stipend and travel allowance. Participating universities supply their independently administered funding packages; not merely copies of the RGC notice.",
-      "publicationStatus": "pending-deployment"
+      "publicationStatus": "deployed-and-content-verified",
+      "publishedVerifiedAt": "2026-09-24T12:16:21+08:00"
     },
     {
       "url": "https://globalednews.com/scholarships/items/2026-09-gates-cambridge-2027/",
@@ -325,7 +327,8 @@
         "https://www.oxy.edu/academics/student-success/national-international-fellowships/awards-information/gates-cambridge"
       ],
       "updateSummary": "Rechecked course-dependent international deadline including references, non-UK citizenship, US resident citizenship exception and old-year allowance limitation. Gates pages read directly in Chrome after web fetch 410; Occidental independently confirms non-UK eligibility and course-dependent international round.",
-      "publicationStatus": "pending-deployment"
+      "publicationStatus": "deployed-and-content-verified",
+      "publishedVerifiedAt": "2026-09-24T12:16:21+08:00"
     }
   ],
   "sunmoon": {
@@ -364,16 +367,16 @@
     ]
   },
   "deployment": {
-    "commit": "8a85a98f0c2dcf0f550f2f420d687d9c67ad7f72",
+    "commit": "c185cd26f804c99bad2dda158fe2c2445a6cf729",
     "status": "success",
-    "workflow": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/35949883624",
-    "verifiedAt": "2026-09-24T11:07:00+08:00"
+    "workflow": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/35954758683",
+    "verifiedAt": "2026-09-24T12:16:21+08:00"
   },
   "acceptance": {
-    "desktop": true,
+    "desktop": false,
     "mobile": false,
     "seo": true,
-    "blocker": "Browser viewport set(390,844) returned without error but DOM innerWidth remained1743; mobile capture is not valid mobile evidence.",
+    "blocker": "Current scholarship screenshot blank/timeouts; mobile override ineffective. Earlier news desktop evidence retained, but current full visual acceptance remains incomplete.",
     "seoVerifiedAt": "2026-09-24 00:24:52 UTC",
     "seoEvidence": [
       "docs/daily-reports/2026-09-24-seo.json",
@@ -388,10 +391,11 @@
     ]
   },
   "missing": [
-    "Peter: 1 further eligible, distinct unimported post missing",
-    "mobile visual acceptance and mobile scholarship filter test: viewport override requested390x844 but actual1743px in existing/new tabs"
+    "Peter: one further eligible distinct post not confirmed; latest public item already imported and subsequent feed stalled",
+    "Mobile visual acceptance and mobile scholarship filters: viewport override ineffective",
+    "Updated scholarship desktop visual capture: blank capture / screenshot timeout; live DOM and interactions passed"
   ],
-  "updatedAt": "2026-09-24T12:07:00+08:00",
+  "updatedAt": "2026-09-24T12:16:21+08:00",
   "maintenance": [
     {
       "type": "scholarship-expired-status-correction",
@@ -427,7 +431,8 @@
     "status": "success",
     "localAstro": true,
     "bilingualPairs": 505,
-    "verifiedAt": "2026-09-24T11:05:00+08:00"
+    "verifiedAt": "2026-09-24T12:16:21+08:00",
+    "note": "Full Astro build, navigation unification, bilingual extraction/build and 505-pair test passed. Running bilingual conversion twice on existing output failed link checks; clean Astro regeneration resolved it. Remote clean build and tests passed."
   },
   "platformBlockers": [],
   "peterCheck": {
@@ -442,7 +447,9 @@
     "newCandidates": [
       "4418228248488367",
       "122144809005172155"
-    ]
+    ],
+    "recheckedAt": "2026-09-24T12:16:21+08:00",
+    "latestRecovery": "Read live page and scrolled: latest recommendation post already imported; subsequent feed still loading. No additional distinct source confirmed."
   },
   "ltuMedia": {
     "poolCount": 12,
@@ -463,6 +470,32 @@
       "Rechecked HKPFS and Gates Cambridge; three open scholarship updates including morning Chevening",
       "Updated daily requirement and verifier to require three same-day scholarship updates; expired correction excluded"
     ],
-    "verifier": "pending deployment and final verification"
+    "verifier": "Scholarship3/3 and social15/15 evidence present; Peter2/3 and visual acceptance incomplete."
+  },
+  "scholarshipRecovery": {
+    "verifiedAt": "2026-09-24T12:16:21+08:00",
+    "openUpdated": 3,
+    "newArticles": 0,
+    "expiredCorrections": 1,
+    "featuredTitles": [
+      "Chevening–Delta",
+      "HKPFS",
+      "Gates Cambridge"
+    ],
+    "websiteReadback": true,
+    "englishReadback": true,
+    "englishCorrections": "Replaced misleading machine translations of future deadline, eligibility, application rounds and guarantees with reviewed English overrides.",
+    "desktopInteractions": {
+      "enterGates": 1,
+      "zeroResults": 0,
+      "zeroMessage": true,
+      "countryHongKong": 1,
+      "clear": 124
+    },
+    "visualAcceptance": "pending: new desktop captures returned blank or timed out; mobile override390x844 left actual1743x950. DOM content/interaction verification does not substitute for visual acceptance.",
+    "commits": [
+      "b65aa32b10979d813a6b4169b5979ab492e39075",
+      "c185cd26f804c99bad2dda158fe2c2445a6cf729"
+    ]
   }
 }
