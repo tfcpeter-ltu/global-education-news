@@ -399,6 +399,64 @@
       "country": "uk",
       "schoolName": "University of Manchester",
       "storyAngle": "2004 merger and researching current courses"
+    },
+    {
+      "date": "2026-09-25",
+      "campaign": "study-abroad",
+      "country": "canada",
+      "schoolName": "McGill University",
+      "storyAngle": "1821 charter and current course/city research",
+      "status": "published",
+      "version": "v1",
+      "CTA": "免費加入會員",
+      "contentPath": "docs/social-posts/2026-09-25/study-abroad--mcgill-history.json",
+      "publishedPosts": [
+        {
+          "campaign": "study-abroad",
+          "network": "threads",
+          "version": "v1",
+          "articleUrl": "https://globalednews.com/study-abroad/",
+          "observedAt": "2026-09-25T05:56:15.222422+08:00",
+          "status": "PUBLISHED",
+          "id": "Ddr5kKSExxq",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/Ddr5kKSExxq",
+          "verifiedAt": "2026-09-25T05:56:15.222422+08:00"
+        },
+        {
+          "campaign": "study-abroad",
+          "network": "instagram",
+          "version": "v1",
+          "articleUrl": "https://globalednews.com/study-abroad/",
+          "observedAt": "2026-09-25T06:15:58.798574+08:00",
+          "status": "PUBLISHED",
+          "id": "Ddr7v5_k6CX",
+          "publicUrl": "https://www.instagram.com/p/Ddr7v5_k6CX/",
+          "verifiedAt": "2026-09-25T06:15:58.798574+08:00",
+          "threadsSync": false
+        },
+        {
+          "campaign": "study-abroad",
+          "network": "linkedin",
+          "version": "v1",
+          "articleUrl": "https://globalednews.com/study-abroad/",
+          "observedAt": "2026-09-25T06:21:28.958836+08:00",
+          "status": "PUBLISHED",
+          "id": "7509013976647790612",
+          "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7509013976647790612/",
+          "verifiedAt": "2026-09-25T06:21:28.958836+08:00"
+        },
+        {
+          "campaign": "study-abroad",
+          "network": "facebook",
+          "version": "v1",
+          "articleUrl": "https://globalednews.com/study-abroad/",
+          "observedAt": "2026-09-25T06:40:45.786849+08:00",
+          "status": "PUBLISHED",
+          "id": "pfbid0kQhV98hn6FFLt1RDgMKNpYFSd3EuJcLQ9bByYtzfi1ZJUhU1fh9xUnJS5rSydSv4l",
+          "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0kQhV98hn6FFLt1RDgMKNpYFSd3EuJcLQ9bByYtzfi1ZJUhU1fh9xUnJS5rSydSv4l",
+          "verifiedAt": "2026-09-25T06:40:45.786849+08:00"
+        }
+      ]
     }
   ]
 }

@@ -2,7 +2,7 @@
   "date": "2026-09-25",
   "timezone": "Asia/Taipei",
   "baselineCommit": "5c35f7090e443578484b7dba6f658d02c488103e",
-  "status": "in-progress",
+  "status": "partial",
   "newsPublished": [
     {
       "verification": "live HTTP 200, canonical, OG and schema checked",
@@ -131,11 +131,11 @@
       "network": "threads",
       "version": "v1",
       "articleUrl": "https://globalednews.com/taiwan-universities/",
-      "observedAt": "2026-09-25T05:57:35.636880+08:00",
+      "observedAt": "2026-09-25T05:57:35.63688+08:00",
       "status": "PUBLISHED",
       "id": "Ddr5vObE5DC",
       "publicUrl": "https://www.threads.com/@ltuossdtw/post/Ddr5vObE5DC",
-      "verifiedAt": "2026-09-25T05:57:35.636880+08:00"
+      "verifiedAt": "2026-09-25T05:57:35.63688+08:00"
     },
     {
       "campaign": "news",
@@ -224,6 +224,39 @@
       "id": "7509015018030469120",
       "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7509015018030469120/",
       "verifiedAt": "2026-09-25T06:26:20.298262+08:00"
+    },
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/news/ireland-university-budget-2027-funding-appeal/",
+      "observedAt": "2026-09-25T06:29:21.662659+08:00",
+      "status": "PUBLISHED",
+      "id": "pfbid02XokiZTN35hqFoY9xmZwCUA4MgN16jtHqVsriHv4LWf2gDv9wwjEJUgVyP931tgJ1l",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02XokiZTN35hqFoY9xmZwCUA4MgN16jtHqVsriHv4LWf2gDv9wwjEJUgVyP931tgJ1l",
+      "verifiedAt": "2026-09-25T06:29:21.662659+08:00"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-utoronto-lester-b-pearson-2027/",
+      "observedAt": "2026-09-25T06:34:12.554697+08:00",
+      "status": "PUBLISHED",
+      "id": "pfbid0zeYbui1WRVuc26Q91bm3pT36gQJ4RcV1Ypq4whQ6cQX2wDKA1pWJU4GamTF4qnGQl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0zeYbui1WRVuc26Q91bm3pT36gQJ4RcV1Ypq4whQ6cQX2wDKA1pWJU4GamTF4qnGQl",
+      "verifiedAt": "2026-09-25T06:34:12.554697+08:00"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "observedAt": "2026-09-25T06:40:45.786849+08:00",
+      "status": "PUBLISHED",
+      "id": "pfbid0kQhV98hn6FFLt1RDgMKNpYFSd3EuJcLQ9bByYtzfi1ZJUhU1fh9xUnJS5rSydSv4l",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0kQhV98hn6FFLt1RDgMKNpYFSd3EuJcLQ9bByYtzfi1ZJUhU1fh9xUnJS5rSydSv4l",
+      "verifiedAt": "2026-09-25T06:40:45.786849+08:00"
     }
   ],
   "research": [
@@ -240,7 +273,7 @@
         }
       ],
       "checkedAt": "2026-09-25T05:18:00+08:00",
-      "status": "checked-written-build-passed-awaiting-deploy",
+      "status": "published-live-verified",
       "imageSource": "https://commons.wikimedia.org/wiki/File:Campanile_Trinity_College_Dublin_(2).JPG",
       "imageCredit": "Etiennekd／Wikimedia Commons／CC BY-SA 3.0；原圖未修改",
       "imageObserved": true
@@ -258,7 +291,7 @@
         }
       ],
       "checkedAt": "2026-09-25T05:18:00+08:00",
-      "status": "checked-written-build-passed-awaiting-deploy",
+      "status": "published-live-verified",
       "imageSource": "https://commons.wikimedia.org/wiki/File:Radcliffe_Camera,_Oxfordshire.jpg",
       "imageCredit": "Tristan Surtel／Wikimedia Commons／CC BY-SA 4.0；原圖未修改",
       "imageObserved": true
@@ -276,7 +309,7 @@
         }
       ],
       "checkedAt": "2026-09-25T05:18:00+08:00",
-      "status": "checked-written-build-passed-awaiting-deploy",
+      "status": "published-live-verified",
       "imageSource": "https://commons.wikimedia.org/wiki/File:Mtl_from_mont_royal.jpg",
       "imageCredit": "Vreee／Wikimedia Commons／CC BY-SA 4.0；原圖未修改",
       "imageObserved": true
@@ -289,10 +322,8 @@
     }
   ],
   "remaining": [
-    "Peter new original content check",
-    "LTU rotation check",
-    "15 platform posts",
-    "complete desktop/mobile/SEO acceptance"
+    "Peter: zero new original posts in reviewed feed; three-new-import requirement unmet, no duplicates created.",
+    "Complete desktop image/crop coverage and genuine mobile viewport acceptance when browser capture/viewport works."
   ],
   "scholarshipDrafts": [
     {
@@ -341,10 +372,10 @@
     "checkedAt": "2026-09-25T05:31:00+08:00"
   },
   "peterCheck": {
-    "checkedAt": "2026-09-25T05:22:00+08:00",
+    "checkedAt": "2026-09-25T06:35:00+08:00",
     "sourcePage": "https://www.facebook.com/61585164670358",
-    "latestObserved": "Recommendation letter post/photo 122144808921172155 already imported 2026-09-24; next visible item is shared site promotion",
-    "status": "no-new-original-in-initial-feed",
+    "latestObserved": "Latest recommendation-letter original (19 hours ago) already imported September 24; subsequent visible GEN share, Malala (2 days) and US applications (3 days) also already recorded. No duplicate imports.",
+    "status": "no-new-original-in-reviewed-feed",
     "newImports": 0
   },
   "platformConnectionCheck": {
@@ -366,5 +397,49 @@
     "commit": "934761550798f9892a92858deebbbcf7b8fd2e27",
     "workflowUrl": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/36063082138",
     "status": "success"
+  },
+  "updatedAt": "2026-09-25T06:43:07.959357+08:00",
+  "ltuMediaCheck": {
+    "checkedAt": "2026-09-25T06:36:00+08:00",
+    "url": "https://globalednews.com/",
+    "poolSize": 12,
+    "visibleCount": 3,
+    "visibleIndices": [
+      5,
+      6,
+      7
+    ],
+    "titles": [
+      "NOWnews：擴展海外升學路 布萊斯學院台加雙聯生今夏赴加暑修",
+      "聯合新聞網：僑泰高中雙語班傳捷報！5學子前進世界百大名校 打破校史紀錄",
+      "三立新聞網：LTU OSSD攜手皇冠高中舉辦暑期籃球ESL領袖營"
+    ]
+  },
+  "acceptance": {
+    "desktop": false,
+    "mobile": false,
+    "seo": true,
+    "verifiedAt": "2026-09-25T06:43:07.959357+08:00",
+    "seoEvidence": "docs/daily-reports/2026-09-25-live-http.json",
+    "desktopEvidence": [
+      "Scholarship Enter search Pearson: 2 results; search button zzzz: zero-result prompt; Canada filter: 8 results.",
+      "Today picks re-read 06:28: three qualified cards Pearson, Yenching, Knight-Hennessy.",
+      "Taiwan database private filter 20, technology combined filter 2; actual screenshot used for social.",
+      "McGill Canada with all majors/goals: 1 result and official university link.",
+      "UCAS live article image complete with naturalWidth > 0, rendered 820 x 560, page scrollWidth 1726 < innerWidth 1743. Partial header/title screenshot readable."
+    ],
+    "limitations": [
+      "Full desktop visual coverage incomplete: repeated Page.captureScreenshot timeouts; one clipped screenshot succeeded.",
+      "Mobile override requested 390 x 844 twice, but observed viewport stayed 1743 x 950; override reset. Cannot claim mobile verification."
+    ]
+  },
+  "dailyVerification": {
+    "checkedAt": "2026-09-25T06:43:37.4379946+08:00",
+    "missing": [
+      "fewer than 3 verified distinct Peter imports",
+      "missing live acceptance evidence"
+    ],
+    "command": "node scripts/verify-daily-delivery.mjs 2026-09-25",
+    "exitCode": 1
   }
 }

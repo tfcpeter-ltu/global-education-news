@@ -2,7 +2,7 @@
   "date": "2026-09-25",
   "campaign": "taiwan-universities",
   "version": "v1",
-  "status": "ready",
+  "status": "published",
   "articleTitle": "用設立別與辦學類型組合篩選選校清單",
   "articleUrl": "https://globalednews.com/taiwan-universities/",
   "shortHook": "兩個條件，縮小你的研究清單。",
@@ -48,7 +48,8 @@
       "status": "PUBLISHED",
       "id": "Ddr8bV4k4Ug",
       "publicUrl": "https://www.instagram.com/p/Ddr8bV4k4Ug/",
-      "verifiedAt": "2026-09-25T06:21:29.016357+08:00"
+      "verifiedAt": "2026-09-25T06:21:29.016357+08:00",
+      "threadsSync": false
     },
     {
       "campaign": "taiwan-universities",
@@ -61,5 +62,6 @@
       "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7509015018030469120/",
       "verifiedAt": "2026-09-25T06:26:20.298262+08:00"
     }
-  ]
+  ],
+  "publicationVerifiedAt": "2026-09-25T06:43:07.959357+08:00"
 }

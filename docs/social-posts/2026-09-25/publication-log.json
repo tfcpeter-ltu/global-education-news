@@ -133,6 +133,39 @@
       "id": "7509015018030469120",
       "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7509015018030469120/",
       "verifiedAt": "2026-09-25T06:26:20.298262+08:00"
+    },
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/news/ireland-university-budget-2027-funding-appeal/",
+      "observedAt": "2026-09-25T06:29:21.662659+08:00",
+      "status": "PUBLISHED",
+      "id": "pfbid02XokiZTN35hqFoY9xmZwCUA4MgN16jtHqVsriHv4LWf2gDv9wwjEJUgVyP931tgJ1l",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02XokiZTN35hqFoY9xmZwCUA4MgN16jtHqVsriHv4LWf2gDv9wwjEJUgVyP931tgJ1l",
+      "verifiedAt": "2026-09-25T06:29:21.662659+08:00"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-utoronto-lester-b-pearson-2027/",
+      "observedAt": "2026-09-25T06:34:12.554697+08:00",
+      "status": "PUBLISHED",
+      "id": "pfbid0zeYbui1WRVuc26Q91bm3pT36gQJ4RcV1Ypq4whQ6cQX2wDKA1pWJU4GamTF4qnGQl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0zeYbui1WRVuc26Q91bm3pT36gQJ4RcV1Ypq4whQ6cQX2wDKA1pWJU4GamTF4qnGQl",
+      "verifiedAt": "2026-09-25T06:34:12.554697+08:00"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "observedAt": "2026-09-25T06:40:45.786849+08:00",
+      "status": "PUBLISHED",
+      "id": "pfbid0kQhV98hn6FFLt1RDgMKNpYFSd3EuJcLQ9bByYtzfi1ZJUhU1fh9xUnJS5rSydSv4l",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0kQhV98hn6FFLt1RDgMKNpYFSd3EuJcLQ9bByYtzfi1ZJUhU1fh9xUnJS5rSydSv4l",
+      "verifiedAt": "2026-09-25T06:40:45.786849+08:00"
     }
   ],
   "intents": [
@@ -261,6 +294,26 @@
       "observedAt": "2026-09-25T06:26:20.351862+08:00",
       "status": "INTENT",
       "createdAt": "2026-09-25T06:26:20.351862+08:00",
+      "dedupe": "Latest platform history and current-day schedules checked"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-utoronto-lester-b-pearson-2027/",
+      "observedAt": "2026-09-25T06:29:21.710665+08:00",
+      "status": "INTENT",
+      "createdAt": "2026-09-25T06:29:21.710665+08:00",
+      "dedupe": "Latest platform history and current-day schedules checked"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "observedAt": "2026-09-25T06:34:12.604696+08:00",
+      "status": "INTENT",
+      "createdAt": "2026-09-25T06:34:12.604696+08:00",
       "dedupe": "Latest platform history and current-day schedules checked"
     }
   ]
