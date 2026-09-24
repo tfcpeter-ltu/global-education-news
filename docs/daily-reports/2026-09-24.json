@@ -36,6 +36,24 @@
       "domVerified": true,
       "desktop": true,
       "mobile": false
+    },
+    {
+      "url": "https://globalednews.com/peter/teacher-recommendations-evidence-over-titles/",
+      "englishUrl": "https://globalednews.com/en/peter/teacher-recommendations-evidence-over-titles/",
+      "sourceId": "122144809005172155",
+      "sourceAliases": [
+        "122144808921172155",
+        "122144808927172155"
+      ],
+      "verifiedAt": "2026-09-24T11:07:00+08:00",
+      "desktop": true,
+      "mobile": false,
+      "domVerified": true,
+      "imageLoaded": true,
+      "sources": [
+        "https://mitadmissions.org/apply/firstyear/letters-of-recommendation/",
+        "https://admissions.yale.edu/recommendation-letters"
+      ]
     }
   ],
   "socialPosts": [
@@ -314,10 +332,10 @@
     ]
   },
   "deployment": {
-    "commit": "c732cc1412457af6f0bb168efa272eba42af985f",
+    "commit": "8a85a98f0c2dcf0f550f2f420d687d9c67ad7f72",
     "status": "success",
-    "workflow": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/35936072557",
-    "verifiedAt": "2026-09-24T07:59:22+08:00"
+    "workflow": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/35949883624",
+    "verifiedAt": "2026-09-24T11:07:00+08:00"
   },
   "acceptance": {
     "desktop": true,
@@ -329,18 +347,19 @@
       "docs/daily-reports/2026-09-24-seo.json",
       "docs/daily-reports/2026-09-24-sitemap.json"
     ],
-    "verifiedAt": "2026-09-24T10:58:00+08:00",
+    "verifiedAt": "2026-09-24T11:07:00+08:00",
     "desktopEvidence": [
       "australia-desktop-20260924.png",
       "coventry-desktop-20260924.png",
-      "peter-desktop-20260924.png"
+      "peter-desktop-20260924.png",
+      "recommendations-desktop-20260924.png"
     ]
   },
   "missing": [
-    "Peter: 2 new eligible posts missing",
-    "mobile visual acceptance: requested390 but existing and new tabs remained1743; mobile scholarship filter check also pending"
+    "Peter: 1 further eligible, distinct unimported post missing",
+    "mobile visual acceptance and mobile scholarship filter test: viewport override requested390x844 but actual1743px in existing/new tabs"
   ],
-  "updatedAt": "2026-09-24T10:55:00+08:00",
+  "updatedAt": "2026-09-24T11:07:00+08:00",
   "maintenance": [
     {
       "type": "scholarship-expired-status-correction",
@@ -375,19 +394,23 @@
   "build": {
     "status": "success",
     "localAstro": true,
-    "bilingualPairs": 504,
-    "verifiedAt": "2026-09-24T07:55:25+08:00"
+    "bilingualPairs": 505,
+    "verifiedAt": "2026-09-24T11:05:00+08:00"
   },
   "platformBlockers": [],
   "peterCheck": {
-    "observedAt": "2026-09-24T07:56:00+08:00",
+    "observedAt": "2026-09-24T11:06:00+08:00",
     "source": "https://www.facebook.com/profile.php?id=61585164670358",
     "newCandidate": "4418228248488367",
     "alreadyImported": [
       "122144492439172155 (photo alias 122144492361172155)",
       "122144281731172155 (photo alias 122144492631172155)"
     ],
-    "note": "Latest visible new candidate is Malala; other two recent articles already imported. Does not establish entire archive exhausted."
+    "note": "Newly public recommendation-letter post imported after11:00. Other observed fresh item is a share of today's Dundee news, not a distinct Peter column. Older visible recent US2027/Pearson already imported. Pagination stalled on loading placeholders; do not claim full archive exhausted.",
+    "newCandidates": [
+      "4418228248488367",
+      "122144809005172155"
+    ]
   },
   "ltuMedia": {
     "poolCount": 12,
@@ -410,6 +433,6 @@
       "Website desktop visual checks passed",
       "Viewport override ineffective in both existing and new tabs; mobile not marked passed"
     ],
-    "verifier": "pending"
+    "verifier": "partial: 15/15 social passed; Peter2/3, mobile acceptance incomplete"
   }
 }

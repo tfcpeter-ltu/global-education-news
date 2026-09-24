@@ -1,0 +1,8 @@
+2026-09-24 Asia/Taipei; checked 11:07
+node scripts/verify-daily-delivery.mjs 2026-09-24
+Exit1
+INCOMPLETE: fewer than3 verified distinct Peter imports (2/3)
+INCOMPLETE: missing live acceptance evidence (mobile viewport override ineffective; desktop and SEO verified)
+15/15 social publications have IDs, public URLs and readbacks.
+Astro build and test-bilingual.py passed505 CN/EN pairs.
+GitHub Pages run35949883624 successful; content commit8a85a98f0c2dcf0f550f2f420d687d9c67ad7f72.
