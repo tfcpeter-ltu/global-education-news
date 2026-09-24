@@ -4,13 +4,13 @@ Never translate program identifiers, form values, URLs, stored member data or so
 import os, re, json, hashlib, pathlib, urllib.request, zipfile, time, sys
 from lxml import html, etree
 ROOT=pathlib.Path(__file__).resolve().parents[1]
-DIST=ROOT/'dist'; CACHE=ROOT/'src/data/i18n/en.json'; OVERRIDES=ROOT/'src/data/i18n/en-overrides.json'
+DIST=ROOT/'dist'; CACHE=ROOT/'src/data/i18n/en.json'; OVERRIDES=ROOT/'src/data/i18n/en-overrides.json'; AD_OVERRIDES=ROOT/'src/data/i18n/advertise-overrides.json'
 CJK=re.compile(r'[\u3400-\u9fff]'); SKIP={'script','style','code','pre','textarea','svg'}
 ATTRS=['title','alt','aria-label','placeholder']; SITE='https://globalednews.com'
 def norm(s):return re.sub(r'\s+',' ',s or '').strip()
 def parts(s):return [x for x in re.split(r'(?<=[。！？；])|\n+',s) if x.strip()]
 def load(p):return json.loads(p.read_text(encoding='utf-8')) if p.exists() else {}
-cache=load(CACHE); overrides=load(OVERRIDES); cache.update(overrides); wanted=set()
+cache=load(CACHE); overrides=load(OVERRIDES); overrides.update(load(AD_OVERRIDES)); cache.update(overrides); wanted=set()
 def collect(s):
  s=norm(s)
  if s and CJK.search(s):
