@@ -19,9 +19,25 @@
       "mobile": false,
       "domVerified": true,
       "imageLoaded": true
+    },
+    {
+      "url": "https://globalednews.com/news/coventry-almaty-campus-opening-2026/",
+      "verifiedAt": "2026-09-24 00:12:58 UTC",
+      "domVerified": true,
+      "desktop": false,
+      "mobile": false
     }
   ],
-  "peterImports": [],
+  "peterImports": [
+    {
+      "url": "https://globalednews.com/peter/malala-education-and-choice/",
+      "sourceId": "4418228248488367",
+      "verifiedAt": "2026-09-24 00:19:44 UTC",
+      "domVerified": true,
+      "desktop": false,
+      "mobile": false
+    }
+  ],
   "socialPosts": [
     {
       "campaign": "news",
@@ -56,6 +72,34 @@
       "articleUrl": "https://globalednews.com/news/dundee-strike-student-guidance-september-2026/",
       "version": "v1",
       "threadsSync": false
+    },
+    {
+      "date": "2026-09-24",
+      "campaign": "scholarship",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-chevening-delta-climate-2027/",
+      "version": "v1-eligibility",
+      "status": "PUBLISHED",
+      "createdAt": "2026-09-24T07:58:00+08:00",
+      "dedupe": "Refreshed profile latest Dundee and HK backfill; no Sep24 scholarship. Today's Metricool schedule checked earlier empty.",
+      "id": "Ddpjd3_E_hv",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Ddpjd3_E_hv",
+      "verifiedAt": "2026-09-24 00:04:12 UTC"
+    },
+    {
+      "date": "2026-09-24",
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "account": "https://www.linkedin.com/in/peter-chen-26a754228/",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-chevening-delta-climate-2027/",
+      "version": "v1-eligibility",
+      "status": "PUBLISHED",
+      "createdAt": "2026-09-24 00:09:27 UTC",
+      "dedupe": "Profile activity read: latest Dundee, HK; latest scholarship Sep22 distinct angle; no Sep24 scholarship.",
+      "id": "7508679452906831872",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7508679452906831872/",
+      "verifiedAt": "2026-09-24 00:12:58 UTC"
     }
   ],
   "scholarshipChecks": [
@@ -109,24 +153,24 @@
     ]
   },
   "deployment": {
-    "commit": "1489ff6ffb6fa49428c723848987725fba04d885",
+    "commit": "c732cc1412457af6f0bb168efa272eba42af985f",
     "status": "success",
-    "verifiedAt": "2026-09-24T07:56:00+08:00",
-    "workflow": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/35935315878"
+    "workflow": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/35936072557",
+    "verifiedAt": "2026-09-24T07:59:22+08:00"
   },
   "acceptance": {
     "desktop": false,
     "mobile": false,
-    "seo": false
+    "seo": false,
+    "blocker": "CDP Page.captureScreenshot repeatedly times out on formal-site and IG compose, including new tab and clipped capture. LinkedIn compose clipped capture succeeded."
   },
   "missing": [
-    "1 additional news deployment/read-back",
-    "Peter import deployment plus 2 other eligible new posts or source shortfall",
-    "12 verified social publications",
-    "LTU rotation verification",
+    "2 further Peter imports or verified source shortfall",
+    "10 social publications",
+    "LTU rotation",
     "desktop/mobile/SEO acceptance"
   ],
-  "updatedAt": "2026-09-24T07:56:00+08:00",
+  "updatedAt": "2026-09-24 00:12:58 UTC",
   "maintenance": [
     {
       "type": "scholarship-expired-status-correction",
@@ -161,8 +205,8 @@
   "build": {
     "status": "success",
     "localAstro": true,
-    "bilingualPairs": 501,
-    "verifiedAt": "2026-09-24T07:28:00+08:00"
+    "bilingualPairs": 504,
+    "verifiedAt": "2026-09-24T07:55:25+08:00"
   },
   "platformBlockers": [
     {
