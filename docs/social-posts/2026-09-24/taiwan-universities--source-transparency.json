@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-24",
+  "campaign": "taiwan-universities",
+  "version": "v1",
+  "articleTitle": "看電機跨校比較，也打開判斷依據",
+  "articleUrl": "https://globalednews.com/taiwan-universities/",
+  "shortHook": "把選系建議背後的依據一起讀。",
+  "threadsCopy": "國內大學選校選系資料庫｜找到適合你的學習方向\nhttps://globalednews.com/taiwan-universities/\n\n最新消息｜本日精選\n今天實測：進入電機跨校比較，點開「這個判斷的依據」，可閱讀整理依據並找到官方說明入口。「適合誰」是本站編輯判讀，作為探索起點，並非排名或錄取保證。\n\n追蹤最新消息，點擊免費加入環球教育新聞會員：https://globalednews.com/newsletter/\n每週一封教育新聞、招生政策與精選觀點，免費且可取消。",
+  "instagramCopy": "國內大學選校選系資料庫｜找到適合你的學習方向\nhttps://globalednews.com/taiwan-universities/\n\n最新消息｜本日精選\n選系時，別只停在卡片標題。\n打開電機比較的「這個判斷的依據」，再沿官方說明入口核對。今天已實際操作展開功能；本站判讀不能代替當年度招生與課程規定。\n\n追蹤最新消息，點擊免費加入環球教育新聞會員：https://globalednews.com/newsletter/\n每週一封教育新聞、招生政策與精選觀點，免費且可取消。",
+  "linkedinCopy": "國內大學選校選系資料庫｜找到適合你的學習方向\nhttps://globalednews.com/taiwan-universities/\n\n最新消息｜本日精選\n陪伴學生選系時，建議把「結論」與「依據」一起閱讀。\n\n今天在本站電機跨校比較頁實測展開「這個判斷的依據」，可看到整理依據與官方說明入口。這個操作適合用於輔導討論：判讀從何而來？還有哪些問題需要向系方確認？\n\n「適合誰」屬本站編輯判讀，不是官方排名、錄取或就業保證。\n\n追蹤最新消息，點擊免費加入環球教育新聞會員：https://globalednews.com/newsletter/\n每週一封教育新聞、招生政策與精選觀點，免費且可取消。",
+  "CTA": "免費加入會員",
+  "socialImage": null,
+  "imageAlt": null,
+  "category": "國內大學",
+  "topic": "source-transparency",
+  "status": "needs-image",
+  "verifiedAt": "2026-09-24 00:24:52 UTC",
+  "evidence": {
+    "entryClicked": "電機：6校",
+    "action": "Expanded first 這個判斷的依據",
+    "result": "Visible explanatory text and 學系／招生官方說明 link",
+    "claims": "Feature operation only; no university-specific curriculum claims published"
+  },
+  "imageRequest": {
+    "status": "needed",
+    "reason": "Current live screenshot required; page screenshots repeatedly timed out."
+  },
+  "publishedPosts": []
+}

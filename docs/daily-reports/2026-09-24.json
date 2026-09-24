@@ -114,7 +114,7 @@
         "https://www.chevening.org/scholarship/taiwan/",
         "https://www.chevening.org/resource-hub/guidance/eligibility/"
       ],
-      "notes": "Full current Chevening eligibility read: post-degree 2800 hours, undergraduate studies completed at least two years before deadline, return home two years, three eligible courses. Image and platform publishing still pending."
+      "notes": "Current eligibility verified; Threads and LinkedIn published; IG photo/caption/alt prepared with Threads sync off, not sent pending visual crop validation."
     }
   ],
   "sunmoon": {
@@ -161,16 +161,20 @@
   "acceptance": {
     "desktop": false,
     "mobile": false,
-    "seo": false,
-    "blocker": "CDP Page.captureScreenshot repeatedly times out on formal-site and IG compose, including new tab and clipped capture. LinkedIn compose clipped capture succeeded."
+    "seo": true,
+    "blocker": "CDP Page.captureScreenshot repeatedly times out on formal-site and IG compose, including new tab and clipped capture. LinkedIn compose clipped capture succeeded.",
+    "seoVerifiedAt": "2026-09-24 00:24:52 UTC",
+    "seoEvidence": [
+      "docs/daily-reports/2026-09-24-seo.json",
+      "docs/daily-reports/2026-09-24-sitemap.json"
+    ]
   },
   "missing": [
-    "2 further Peter imports or verified source shortfall",
-    "10 social publications",
-    "LTU rotation",
-    "desktop/mobile/SEO acceptance"
+    "Peter: only 1 new eligible post imported; two other latest visible posts already imported",
+    "10 social publications remain (including IG scholarship draft preserved, not sent)",
+    "desktop/mobile visual acceptance"
   ],
-  "updatedAt": "2026-09-24 00:12:58 UTC",
+  "updatedAt": "2026-09-24 00:24:52 UTC",
   "maintenance": [
     {
       "type": "scholarship-expired-status-correction",
@@ -212,6 +216,10 @@
     {
       "network": "facebook",
       "reason": "Existing unrelated Peter-task unsent draft and Peter-page identity observed. Preserved without interference; authorized LTU destination not yet restored."
+    },
+    {
+      "network": "instagram",
+      "reason": "Photo preview captures time out even scoped to composer; draft preserved, no Share click."
     }
   ],
   "peterCheck": {
@@ -223,5 +231,16 @@
       "122144281731172155 (photo alias 122144492631172155)"
     ],
     "note": "Latest visible new candidate is Malala; other two recent articles already imported. Does not establish entire archive exhausted."
+  },
+  "ltuMedia": {
+    "poolCount": 12,
+    "visibleCount": 3,
+    "indices": [
+      4,
+      5,
+      6
+    ],
+    "verifiedAt": "2026-09-24 00:24:52 UTC",
+    "method": "live DOM count and visible cards; Taipei date rotation source reviewed"
   }
 }

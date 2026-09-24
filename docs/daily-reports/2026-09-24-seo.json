@@ -1,0 +1,128 @@
+{
+  "checkedAt": "2026-09-24T00:23:04.012380+00:00",
+  "results": [
+    {
+      "path": "news/dundee-strike-student-guidance-september-2026/",
+      "status": 200,
+      "canonical": [
+        "https://globalednews.com/news/dundee-strike-student-guidance-september-2026/"
+      ],
+      "og": [
+        "鄧迪大學五週罷工至10月23日：留學生仍須依課程通知出席｜環球教育新聞網 Global Education News",
+        "https://globalednews.com/news/dundee-strike-student-guidance-september-2026/",
+        "https://upload.wikimedia.org/wikipedia/commons/9/93/University_of_Dundee_-_Tower_Building.jpg"
+      ],
+      "schema": true,
+      "lang": [
+        "zh-Hant-TW"
+      ]
+    },
+    {
+      "path": "news/australia-student-safety-survey-2026/",
+      "status": 200,
+      "canonical": [
+        "https://globalednews.com/news/australia-student-safety-survey-2026/"
+      ],
+      "og": [
+        "澳洲學生安全調查開放：符合資格的留學生可參與，墨爾本大學10月6日截止｜環球教育新聞網 Global Education News",
+        "https://globalednews.com/news/australia-student-safety-survey-2026/",
+        "https://upload.wikimedia.org/wikipedia/commons/7/7a/Old_Arts_Building._Parkville_Campus_of_University_of_Melbourne_%28cropped%29.JPG"
+      ],
+      "schema": true,
+      "lang": [
+        "zh-Hant-TW"
+      ]
+    },
+    {
+      "path": "news/coventry-almaty-campus-opening-2026/",
+      "status": 200,
+      "canonical": [
+        "https://globalednews.com/news/coventry-almaty-campus-opening-2026/"
+      ],
+      "og": [
+        "Coventry阿拉木圖校區啟用：先開基礎課程，後續學位課程分階段推出｜環球教育新聞網 Global Education News",
+        "https://globalednews.com/news/coventry-almaty-campus-opening-2026/",
+        "https://upload.wikimedia.org/wikipedia/commons/8/87/Cityscape_of_Almaty.jpg"
+      ],
+      "schema": true,
+      "lang": [
+        "zh-Hant-TW"
+      ]
+    },
+    {
+      "path": "en/news/dundee-strike-student-guidance-september-2026/",
+      "status": 200,
+      "canonical": [
+        "https://globalednews.com/en/news/dundee-strike-student-guidance-september-2026/"
+      ],
+      "og": [
+        "Dundee strike runs until 23 October: students should follow class notices | Global Education News",
+        "https://globalednews.com/en/news/dundee-strike-student-guidance-september-2026/",
+        "https://upload.wikimedia.org/wikipedia/commons/9/93/University_of_Dundee_-_Tower_Building.jpg"
+      ],
+      "schema": true,
+      "lang": [
+        "en"
+      ]
+    },
+    {
+      "path": "en/news/australia-student-safety-survey-2026/",
+      "status": 200,
+      "canonical": [
+        "https://globalednews.com/en/news/australia-student-safety-survey-2026/"
+      ],
+      "og": [
+        "Australia's student safety survey includes eligible international students; Melbourne closes on 6 October | Global Education News",
+        "https://globalednews.com/en/news/australia-student-safety-survey-2026/",
+        "https://upload.wikimedia.org/wikipedia/commons/7/7a/Old_Arts_Building._Parkville_Campus_of_University_of_Melbourne_%28cropped%29.JPG"
+      ],
+      "schema": true,
+      "lang": [
+        "en"
+      ]
+    },
+    {
+      "path": "en/news/coventry-almaty-campus-opening-2026/",
+      "status": 200,
+      "canonical": [
+        "https://globalednews.com/en/news/coventry-almaty-campus-opening-2026/"
+      ],
+      "og": [
+        "Coventry opens Almaty campus, starting with foundation courses | Global Education News",
+        "https://globalednews.com/en/news/coventry-almaty-campus-opening-2026/",
+        "https://upload.wikimedia.org/wikipedia/commons/8/87/Cityscape_of_Almaty.jpg"
+      ],
+      "schema": true,
+      "lang": [
+        "en"
+      ]
+    },
+    {
+      "path": "sitemap.xml",
+      "status": 200,
+      "articles": {
+        "dundee-strike-student-guidance-september-2026": false,
+        "australia-student-safety-survey-2026": false,
+        "coventry-almaty-campus-opening-2026": false
+      }
+    },
+    {
+      "path": "news-sitemap.xml",
+      "status": 200,
+      "articles": {
+        "dundee-strike-student-guidance-september-2026": true,
+        "australia-student-safety-survey-2026": true,
+        "coventry-almaty-campus-opening-2026": true
+      }
+    },
+    {
+      "path": "weekly-feed.xml",
+      "status": 200,
+      "articles": {
+        "dundee-strike-student-guidance-september-2026": true,
+        "australia-student-safety-survey-2026": true,
+        "coventry-almaty-campus-opening-2026": true
+      }
+    }
+  ]
+}
