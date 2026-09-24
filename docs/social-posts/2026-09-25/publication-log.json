@@ -1,6 +1,267 @@
 {
   "date": "2026-09-25",
   "status": "in-progress",
-  "posts": [],
-  "intents": []
+  "posts": [
+    {
+      "id": "Ddr5IRGE5Gk",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/news/ireland-university-budget-2027-funding-appeal/",
+      "network": "threads",
+      "version": "v1",
+      "observedAt": "2026-09-25T05:52:20.9292853+08:00",
+      "verifiedAt": "2026-09-25T05:52:20.9292853+08:00",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Ddr5IRGE5Gk",
+      "campaign": "news"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-utoronto-lester-b-pearson-2027/",
+      "observedAt": "2026-09-25T05:54:37.574371+08:00",
+      "status": "PUBLISHED",
+      "id": "Ddr5Xfak9dk",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Ddr5Xfak9dk",
+      "verifiedAt": "2026-09-25T05:54:37.574371+08:00"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "observedAt": "2026-09-25T05:56:15.222422+08:00",
+      "status": "PUBLISHED",
+      "id": "Ddr5kKSExxq",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Ddr5kKSExxq",
+      "verifiedAt": "2026-09-25T05:56:15.222422+08:00"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "observedAt": "2026-09-25T05:57:35.63688+08:00",
+      "status": "PUBLISHED",
+      "id": "Ddr5vObE5DC",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Ddr5vObE5DC",
+      "verifiedAt": "2026-09-25T05:57:35.63688+08:00"
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/news/ireland-university-budget-2027-funding-appeal/",
+      "observedAt": "2026-09-25T06:01:37.619998+08:00",
+      "status": "PUBLISHED",
+      "id": "Ddr6IW_k3FS",
+      "publicUrl": "https://www.instagram.com/p/Ddr6IW_k3FS/",
+      "verifiedAt": "2026-09-25T06:01:37.619998+08:00"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-utoronto-lester-b-pearson-2027/",
+      "observedAt": "2026-09-25T06:07:38.804436+08:00",
+      "status": "PUBLISHED",
+      "id": "Ddr60Krk3WX",
+      "publicUrl": "https://www.instagram.com/p/Ddr60Krk3WX/",
+      "verifiedAt": "2026-09-25T06:07:38.804436+08:00"
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/news/ireland-university-budget-2027-funding-appeal/",
+      "observedAt": "2026-09-25T06:12:06.716403+08:00",
+      "status": "PUBLISHED",
+      "id": "7509011607423770624",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7509011607423770624/",
+      "verifiedAt": "2026-09-25T06:12:06.716403+08:00"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "observedAt": "2026-09-25T06:15:58.798574+08:00",
+      "status": "PUBLISHED",
+      "id": "Ddr7v5_k6CX",
+      "publicUrl": "https://www.instagram.com/p/Ddr7v5_k6CX/",
+      "verifiedAt": "2026-09-25T06:15:58.798574+08:00"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-utoronto-lester-b-pearson-2027/",
+      "observedAt": "2026-09-25T06:16:37.277063+08:00",
+      "status": "PUBLISHED",
+      "id": "7509012768155553792",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7509012768155553792/",
+      "verifiedAt": "2026-09-25T06:16:37.277063+08:00"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "observedAt": "2026-09-25T06:21:28.958836+08:00",
+      "status": "PUBLISHED",
+      "id": "7509013976647790612",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7509013976647790612/",
+      "verifiedAt": "2026-09-25T06:21:28.958836+08:00"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "observedAt": "2026-09-25T06:21:29.016357+08:00",
+      "status": "PUBLISHED",
+      "id": "Ddr8bV4k4Ug",
+      "publicUrl": "https://www.instagram.com/p/Ddr8bV4k4Ug/",
+      "verifiedAt": "2026-09-25T06:21:29.016357+08:00"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "observedAt": "2026-09-25T06:26:20.298262+08:00",
+      "status": "PUBLISHED",
+      "id": "7509015018030469120",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7509015018030469120/",
+      "verifiedAt": "2026-09-25T06:26:20.298262+08:00"
+    }
+  ],
+  "intents": [
+    {
+      "dedupe": "Profile latest posts through Sept24 checked; Sept25 schedules empty",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/news/ireland-university-budget-2027-funding-appeal/",
+      "status": "INTENT",
+      "network": "threads",
+      "createdAt": "2026-09-25T05:49:49.9634604+08:00",
+      "campaign": "news"
+    },
+    {
+      "createdAt": "2026-09-25T05:52:20.9292853+08:00",
+      "campaign": "scholarship",
+      "version": "v1",
+      "dedupe": "Profile recent history and empty current-day schedules checked",
+      "network": "threads",
+      "status": "INTENT"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "observedAt": "2026-09-25T05:54:37.61907+08:00",
+      "status": "INTENT",
+      "createdAt": "2026-09-25T05:54:37.61907+08:00",
+      "dedupe": "Latest platform history and current-day schedules checked"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "observedAt": "2026-09-25T05:55:33.542242+08:00",
+      "status": "INTENT",
+      "createdAt": "2026-09-25T05:55:33.542242+08:00",
+      "dedupe": "Latest platform history and current-day schedules checked"
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/news/ireland-university-budget-2027-funding-appeal/",
+      "observedAt": "2026-09-25T05:57:35.708387+08:00",
+      "status": "INTENT",
+      "createdAt": "2026-09-25T05:57:35.708387+08:00",
+      "dedupe": "Latest platform history and current-day schedules checked"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-utoronto-lester-b-pearson-2027/",
+      "observedAt": "2026-09-25T06:01:37.663505+08:00",
+      "status": "INTENT",
+      "createdAt": "2026-09-25T06:01:37.663505+08:00",
+      "dedupe": "Latest platform history and current-day schedules checked"
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/news/ireland-university-budget-2027-funding-appeal/",
+      "observedAt": "2026-09-25T06:04:44.335383+08:00",
+      "status": "INTENT",
+      "createdAt": "2026-09-25T06:04:44.335383+08:00",
+      "dedupe": "Latest platform history and current-day schedules checked"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "observedAt": "2026-09-25T06:07:38.851962+08:00",
+      "status": "INTENT",
+      "createdAt": "2026-09-25T06:07:38.851962+08:00",
+      "dedupe": "Latest platform history and current-day schedules checked"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-utoronto-lester-b-pearson-2027/",
+      "observedAt": "2026-09-25T06:14:39.314812+08:00",
+      "status": "INTENT",
+      "createdAt": "2026-09-25T06:14:39.314812+08:00",
+      "dedupe": "Latest platform history and current-day schedules checked"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "observedAt": "2026-09-25T06:15:58.850569+08:00",
+      "status": "INTENT",
+      "createdAt": "2026-09-25T06:15:58.850569+08:00",
+      "dedupe": "Latest platform history and current-day schedules checked"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "observedAt": "2026-09-25T06:17:56.695583+08:00",
+      "status": "INTENT",
+      "createdAt": "2026-09-25T06:17:56.695583+08:00",
+      "dedupe": "Latest platform history and current-day schedules checked"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "observedAt": "2026-09-25T06:21:29.077073+08:00",
+      "status": "INTENT",
+      "createdAt": "2026-09-25T06:21:29.077073+08:00",
+      "dedupe": "Latest platform history and current-day schedules checked"
+    },
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/news/ireland-university-budget-2027-funding-appeal/",
+      "observedAt": "2026-09-25T06:26:20.351862+08:00",
+      "status": "INTENT",
+      "createdAt": "2026-09-25T06:26:20.351862+08:00",
+      "dedupe": "Latest platform history and current-day schedules checked"
+    }
+  ]
 }

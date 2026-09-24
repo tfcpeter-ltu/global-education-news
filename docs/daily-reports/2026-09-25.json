@@ -3,10 +3,229 @@
   "timezone": "Asia/Taipei",
   "baselineCommit": "5c35f7090e443578484b7dba6f658d02c488103e",
   "status": "in-progress",
-  "newsPublished": [],
-  "scholarshipChecks": [],
+  "newsPublished": [
+    {
+      "verification": "live HTTP 200, canonical, OG and schema checked",
+      "verifiedAt": "2026-09-25T05:49:49.9634604+08:00",
+      "url": "https://globalednews.com/news/ireland-university-budget-2027-funding-appeal/",
+      "sources": [
+        {
+          "label": "IUA：六校主席預算倡議原文（2026-09-20）",
+          "url": "https://www.iua.ie/press-releases/budget-2027-must-tackle-irelands-universities-e250m-funding-gap-university-chairs-opinion-piece/"
+        },
+        {
+          "label": "The PIE News：獨立採訪與高教財務背景（2026-09-24）",
+          "url": "https://thepienews.com/irish-uni-chairs-seek-e190m-as-funding-pressures-mount/"
+        }
+      ]
+    },
+    {
+      "verification": "live HTTP 200, canonical, OG and schema checked",
+      "verifiedAt": "2026-09-25T05:49:49.9634604+08:00",
+      "url": "https://globalednews.com/news/ucas-2027-october-early-application-deadline/",
+      "sources": [
+        {
+          "label": "UCAS：2027 申請時程",
+          "url": "https://www.ucas.com/discover/advice-for-parents-guardians-and-carers/key-dates-and-the-application-journey"
+        },
+        {
+          "label": "Oxford：2027 招生與考試、書面作業時程",
+          "url": "https://www.ox.ac.uk/admissions/undergraduate/applying/admissions-timeline"
+        }
+      ]
+    },
+    {
+      "verification": "live HTTP 200, canonical, OG and schema checked",
+      "verifiedAt": "2026-09-25T05:49:49.9634604+08:00",
+      "url": "https://globalednews.com/news/canada-language-programs-2025-survey-decline/",
+      "sources": [
+        {
+          "label": "Languages Canada：2025 年度調查摘要（2026 年 6 月）",
+          "url": "https://www.languagescanada.ca/vi/research"
+        },
+        {
+          "label": "The PIE News：Canada’s language students fall 13%（2026 年 8 月 14 日）",
+          "url": "https://thepienews.com/canadas-language-students-fall-13/"
+        }
+      ]
+    }
+  ],
+  "scholarshipChecks": [
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-09-knight-hennessy-2027/",
+      "verifiedAt": "2026-09-25T05:12:00+08:00",
+      "eligibleTaiwan": true,
+      "open": true,
+      "sources": [
+        "https://knight-hennessy.stanford.edu/admission",
+        "https://scholarships.berkeley.edu/knight-hennessy/"
+      ],
+      "updateSummary": "MBA Round 1 deadline passed; deferral/current PhD exceptions clarified",
+      "status": "published",
+      "publishedVerifiedAt": "2026-09-25T05:49:49.9634604+08:00"
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-09-utoronto-lester-b-pearson-2027/",
+      "verifiedAt": "2026-09-25T05:12:00+08:00",
+      "eligibleTaiwan": true,
+      "open": true,
+      "sources": [
+        "https://future.utoronto.ca/pearson-scholarships",
+        "https://sites.google.com/tdsb.on.ca/fhciguidancesite/post-secondary/scholarships"
+      ],
+      "updateSummary": "FHCI internal nomination deadline distinguished; first-choice award restriction and stale FAQ resolved",
+      "status": "published",
+      "publishedVerifiedAt": "2026-09-25T05:49:49.9634604+08:00"
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-09-yenching-academy-2027-taiwan/",
+      "verifiedAt": "2026-09-25T05:12:00+08:00",
+      "eligibleTaiwan": true,
+      "open": true,
+      "sources": [
+        "https://yenchingacademy.pku.edu.cn/ADMISSIONS.htm",
+        "https://scholarships.berkeley.edu/yenching-scholars/"
+      ],
+      "updateSummary": "Taiwan English evidence, two application systems, internal deadline and second-year Beijing requirement clarified",
+      "status": "published",
+      "publishedVerifiedAt": "2026-09-25T05:49:49.9634604+08:00"
+    }
+  ],
   "peterImports": [],
-  "socialPosts": [],
+  "socialPosts": [
+    {
+      "id": "Ddr5IRGE5Gk",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/news/ireland-university-budget-2027-funding-appeal/",
+      "network": "threads",
+      "version": "v1",
+      "observedAt": "2026-09-25T05:52:20.9292853+08:00",
+      "verifiedAt": "2026-09-25T05:52:20.9292853+08:00",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Ddr5IRGE5Gk",
+      "campaign": "news"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-utoronto-lester-b-pearson-2027/",
+      "observedAt": "2026-09-25T05:54:37.574371+08:00",
+      "status": "PUBLISHED",
+      "id": "Ddr5Xfak9dk",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Ddr5Xfak9dk",
+      "verifiedAt": "2026-09-25T05:54:37.574371+08:00"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "observedAt": "2026-09-25T05:56:15.222422+08:00",
+      "status": "PUBLISHED",
+      "id": "Ddr5kKSExxq",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Ddr5kKSExxq",
+      "verifiedAt": "2026-09-25T05:56:15.222422+08:00"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "observedAt": "2026-09-25T05:57:35.636880+08:00",
+      "status": "PUBLISHED",
+      "id": "Ddr5vObE5DC",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Ddr5vObE5DC",
+      "verifiedAt": "2026-09-25T05:57:35.636880+08:00"
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/news/ireland-university-budget-2027-funding-appeal/",
+      "observedAt": "2026-09-25T06:01:37.619998+08:00",
+      "status": "PUBLISHED",
+      "id": "Ddr6IW_k3FS",
+      "publicUrl": "https://www.instagram.com/p/Ddr6IW_k3FS/",
+      "verifiedAt": "2026-09-25T06:01:37.619998+08:00"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-utoronto-lester-b-pearson-2027/",
+      "observedAt": "2026-09-25T06:07:38.804436+08:00",
+      "status": "PUBLISHED",
+      "id": "Ddr60Krk3WX",
+      "publicUrl": "https://www.instagram.com/p/Ddr60Krk3WX/",
+      "verifiedAt": "2026-09-25T06:07:38.804436+08:00"
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/news/ireland-university-budget-2027-funding-appeal/",
+      "observedAt": "2026-09-25T06:12:06.716403+08:00",
+      "status": "PUBLISHED",
+      "id": "7509011607423770624",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7509011607423770624/",
+      "verifiedAt": "2026-09-25T06:12:06.716403+08:00"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "observedAt": "2026-09-25T06:15:58.798574+08:00",
+      "status": "PUBLISHED",
+      "id": "Ddr7v5_k6CX",
+      "publicUrl": "https://www.instagram.com/p/Ddr7v5_k6CX/",
+      "verifiedAt": "2026-09-25T06:15:58.798574+08:00"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-utoronto-lester-b-pearson-2027/",
+      "observedAt": "2026-09-25T06:16:37.277063+08:00",
+      "status": "PUBLISHED",
+      "id": "7509012768155553792",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7509012768155553792/",
+      "verifiedAt": "2026-09-25T06:16:37.277063+08:00"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "observedAt": "2026-09-25T06:21:28.958836+08:00",
+      "status": "PUBLISHED",
+      "id": "7509013976647790612",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7509013976647790612/",
+      "verifiedAt": "2026-09-25T06:21:28.958836+08:00"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "observedAt": "2026-09-25T06:21:29.016357+08:00",
+      "status": "PUBLISHED",
+      "id": "Ddr8bV4k4Ug",
+      "publicUrl": "https://www.instagram.com/p/Ddr8bV4k4Ug/",
+      "verifiedAt": "2026-09-25T06:21:29.016357+08:00"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "observedAt": "2026-09-25T06:26:20.298262+08:00",
+      "status": "PUBLISHED",
+      "id": "7509015018030469120",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7509015018030469120/",
+      "verifiedAt": "2026-09-25T06:26:20.298262+08:00"
+    }
+  ],
   "research": [
     {
       "slug": "ireland-university-budget-2027-funding-appeal",
@@ -70,13 +289,10 @@
     }
   ],
   "remaining": [
-    "3 international news with licensed distinct photos",
-    "3 scholarship substantive updates and live verification",
-    "Peter source imports up to 3",
-    "LTU pool rotation check",
-    "15 social publications with platform readback",
-    "Build and Pages deployment",
-    "desktop/mobile/SEO/search verification"
+    "Peter new original content check",
+    "LTU rotation check",
+    "15 platform posts",
+    "complete desktop/mobile/SEO acceptance"
   ],
   "scholarshipDrafts": [
     {
@@ -89,7 +305,8 @@
         "https://scholarships.berkeley.edu/knight-hennessy/"
       ],
       "updateSummary": "MBA Round 1 deadline passed; deferral/current PhD exceptions clarified",
-      "status": "awaiting-deployment"
+      "status": "published",
+      "publishedVerifiedAt": "2026-09-25T05:49:49.9634604+08:00"
     },
     {
       "url": "https://globalednews.com/scholarships/items/2026-09-utoronto-lester-b-pearson-2027/",
@@ -101,7 +318,8 @@
         "https://sites.google.com/tdsb.on.ca/fhciguidancesite/post-secondary/scholarships"
       ],
       "updateSummary": "FHCI internal nomination deadline distinguished; first-choice award restriction and stale FAQ resolved",
-      "status": "awaiting-deployment"
+      "status": "published",
+      "publishedVerifiedAt": "2026-09-25T05:49:49.9634604+08:00"
     },
     {
       "url": "https://globalednews.com/scholarships/items/2026-09-yenching-academy-2027-taiwan/",
@@ -113,7 +331,8 @@
         "https://scholarships.berkeley.edu/yenching-scholars/"
       ],
       "updateSummary": "Taiwan English evidence, two application systems, internal deadline and second-year Beijing requirement clarified",
-      "status": "awaiting-deployment"
+      "status": "published",
+      "publishedVerifiedAt": "2026-09-25T05:49:49.9634604+08:00"
     }
   ],
   "localBuild": {
@@ -141,5 +360,11 @@
     "url": "https://www.sunmoonnews.com.tw/",
     "status": "homepage-read",
     "finding": "Visible recent content is local news; no qualifying international education item selected."
+  },
+  "deployment": {
+    "verifiedAt": "2026-09-25T05:49:49.9634604+08:00",
+    "commit": "934761550798f9892a92858deebbbcf7b8fd2e27",
+    "workflowUrl": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/36063082138",
+    "status": "success"
   }
 }

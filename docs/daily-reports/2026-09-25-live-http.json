@@ -1,0 +1,144 @@
+[
+  {
+    "url": "https://globalednews.com/news/ireland-university-budget-2027-funding-appeal/",
+    "status": 200,
+    "canonical": [
+      "https://globalednews.com/news/ireland-university-budget-2027-funding-appeal/"
+    ],
+    "og": true,
+    "schema": true,
+    "hasToday": false,
+    "newsSlugs": [
+      "ireland-university-budget-2027-funding-appeal"
+    ],
+    "length": 21872
+  },
+  {
+    "url": "https://globalednews.com/news/ucas-2027-october-early-application-deadline/",
+    "status": 200,
+    "canonical": [
+      "https://globalednews.com/news/ucas-2027-october-early-application-deadline/"
+    ],
+    "og": true,
+    "schema": true,
+    "hasToday": false,
+    "newsSlugs": [
+      "ucas-2027-october-early-application-deadline"
+    ],
+    "length": 21934
+  },
+  {
+    "url": "https://globalednews.com/news/canada-language-programs-2025-survey-decline/",
+    "status": 200,
+    "canonical": [
+      "https://globalednews.com/news/canada-language-programs-2025-survey-decline/"
+    ],
+    "og": true,
+    "schema": true,
+    "hasToday": false,
+    "newsSlugs": [
+      "canada-language-programs-2025-survey-decline"
+    ],
+    "length": 21814
+  },
+  {
+    "url": "https://globalednews.com/scholarships/items/2026-09-knight-hennessy-2027/",
+    "status": 200,
+    "canonical": [
+      "https://globalednews.com/scholarships/items/2026-09-knight-hennessy-2027/"
+    ],
+    "og": true,
+    "schema": true,
+    "hasToday": true,
+    "newsSlugs": [],
+    "length": 25041
+  },
+  {
+    "url": "https://globalednews.com/scholarships/items/2026-09-utoronto-lester-b-pearson-2027/",
+    "status": 200,
+    "canonical": [
+      "https://globalednews.com/scholarships/items/2026-09-utoronto-lester-b-pearson-2027/"
+    ],
+    "og": true,
+    "schema": true,
+    "hasToday": true,
+    "newsSlugs": [],
+    "length": 23396
+  },
+  {
+    "url": "https://globalednews.com/scholarships/items/2026-09-yenching-academy-2027-taiwan/",
+    "status": 200,
+    "canonical": [
+      "https://globalednews.com/scholarships/items/2026-09-yenching-academy-2027-taiwan/"
+    ],
+    "og": true,
+    "schema": true,
+    "hasToday": true,
+    "newsSlugs": [],
+    "length": 23516
+  },
+  {
+    "url": "https://globalednews.com/sitemap-0.xml",
+    "status": 200,
+    "canonical": [],
+    "og": false,
+    "schema": false,
+    "hasToday": false,
+    "newsSlugs": [
+      "ireland-university-budget-2027-funding-appeal",
+      "ucas-2027-october-early-application-deadline",
+      "canada-language-programs-2025-survey-decline"
+    ],
+    "length": 23645
+  },
+  {
+    "url": "https://globalednews.com/news-sitemap.xml",
+    "status": 200,
+    "canonical": [],
+    "og": false,
+    "schema": false,
+    "hasToday": false,
+    "newsSlugs": [
+      "ireland-university-budget-2027-funding-appeal",
+      "ucas-2027-october-early-application-deadline",
+      "canada-language-programs-2025-survey-decline"
+    ],
+    "length": 2685
+  },
+  {
+    "url": "https://globalednews.com/weekly-feed.xml",
+    "status": 200,
+    "canonical": [],
+    "og": false,
+    "schema": false,
+    "hasToday": false,
+    "newsSlugs": [
+      "ireland-university-budget-2027-funding-appeal",
+      "ucas-2027-october-early-application-deadline",
+      "canada-language-programs-2025-survey-decline"
+    ],
+    "length": 4534
+  },
+  {
+    "url": "https://globalednews.com/googleb616a8306847fc2b.html",
+    "status": 200,
+    "canonical": [],
+    "og": false,
+    "schema": false,
+    "hasToday": false,
+    "newsSlugs": [],
+    "length": 53
+  },
+  {
+    "url": "https://globalednews.com/newsletter/",
+    "status": 200,
+    "canonical": [
+      "https://globalednews.com/newsletter/"
+    ],
+    "og": true,
+    "schema": true,
+    "hasToday": false,
+    "newsSlugs": [],
+    "length": 18618
+  }
+]
