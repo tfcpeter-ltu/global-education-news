@@ -40,7 +40,6 @@
   close.addEventListener('click', () => {
     ad.remove();
   });
-  const reveal = () => { if (preview || window.scrollY > 450) ad.hidden = false; };
-  window.addEventListener('scroll', reveal, { passive: true });
-  reveal();
+  if (preview) ad.hidden = false;
+  else window.setTimeout(() => { if (ad.isConnected) ad.hidden = false; }, 1500);
 })();
