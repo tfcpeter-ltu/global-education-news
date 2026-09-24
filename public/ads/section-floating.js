@@ -4,11 +4,7 @@
   const study = /^\/(?:en\/)?study-abroad\/(?:$|index\.html$|countries\/[^/]+\.html$)/.test(path);
   if (!scholarship && !study) return;
   const section = scholarship ? 'scholarships' : 'study-abroad';
-  const key = `globalednews-${section}-floating-ad-closed`;
   const preview = new URLSearchParams(location.search).get('ad-preview') === '1';
-  let dismissed = false;
-  try { dismissed = sessionStorage.getItem(key) === '1'; } catch {}
-  if (dismissed && !preview) return;
   const english = document.documentElement.lang.toLowerCase().startsWith('en') || path.startsWith('/en/');
   const ad = document.createElement('aside');
   ad.className = 'news-floating-ad';
@@ -43,7 +39,6 @@
   document.body.append(ad);
   close.addEventListener('click', () => {
     ad.remove();
-    try { sessionStorage.setItem(key, '1'); } catch {}
   });
   const reveal = () => { if (preview || window.scrollY > 450) ad.hidden = false; };
   window.addEventListener('scroll', reveal, { passive: true });

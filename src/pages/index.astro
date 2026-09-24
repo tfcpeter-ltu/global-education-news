@@ -152,11 +152,27 @@ const latest = internationalStories.slice(0, 6);
 
           <aside class="advertising-rail" aria-label="廣告">
             <div class="ad-label">ADVERTISEMENT · 廣告</div>
-            <div class="ad-box">
+            <div class="ad-box" data-ad-placement="H1">
               <div class="ad-kicker">GLOBAL EDUCATION MARKETPLACE</div>
               <h3>國際教育廣告版位</h3>
               <p>大學、國際高中、國際課程、教育活動與專業服務。</p>
               <a href={link('advertise/')}>廣告合作資訊 →</a>
+            </div>
+            <div class="rail-extra">
+              <div class="ad-box rail-card" data-ad-placement="H3">
+                <div class="ad-label">ADVERTISEMENT · 廣告</div>
+                <div class="ad-kicker">UNIVERSITY SPOTLIGHT</div>
+                <h3>學校招生資訊</h3>
+                <p>在國際教育新聞旁介紹學校課程與申請活動。</p>
+                <a href={link('advertise/')}>洽詢此版位 →</a>
+              </div>
+              <div class="ad-box rail-card" data-ad-placement="H4">
+                <div class="ad-label">ADVERTISEMENT · 廣告</div>
+                <div class="ad-kicker">STUDENT OPPORTUNITIES</div>
+                <h3>獎學金與活動</h3>
+                <p>讓讀者看到學校提供的資助與招生活動。</p>
+                <a href={link('advertise/')}>洽詢此版位 →</a>
+              </div>
             </div>
           </aside>
         </div>
@@ -302,6 +318,12 @@ const latest = internationalStories.slice(0, 6);
     background: rgba(255, 253, 248, .45);
     text-align: center;
   }
+  .rail-extra { display: grid; gap: 16px; margin-top: 16px; }
+  .rail-card { padding: 18px 16px; }
+  .rail-card .ad-label { text-align: left; margin-bottom: 12px; }
+  .rail-card h3 { font-size: 1.12rem; }
+  @media (max-width: 760px) { .rail-extra { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (max-width: 460px) { .rail-extra { grid-template-columns: 1fr; } }
   .ad-kicker {
     font-family: Arial, "Noto Sans TC", sans-serif;
     font-size: .61rem;

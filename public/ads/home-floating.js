@@ -2,10 +2,6 @@
   const ad = document.querySelector('.news-floating-ad');
   if (!ad) return;
   const preview = new URLSearchParams(location.search).get('ad-preview') === '1';
-  const key = 'globalednews-news-floating-ad-closed';
-  let dismissed = false;
-  try { dismissed = sessionStorage.getItem(key) === '1'; } catch {}
-  if (dismissed && !preview) { ad.remove(); return; }
 
   const english = document.documentElement.lang.toLowerCase().startsWith('en') || location.pathname.startsWith('/en/');
   if (english) {
@@ -21,7 +17,6 @@
   }
   ad.querySelector('button').addEventListener('click', () => {
     ad.remove();
-    try { sessionStorage.setItem(key, '1'); } catch {}
   });
   const reveal = () => {
     if (preview || window.scrollY > 420) ad.hidden = false;
