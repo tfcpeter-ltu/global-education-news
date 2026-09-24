@@ -1,6 +1,6 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-23T05:56:12.472Z",
+  "updatedAt": "2026-09-24T06:09:00.490Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
@@ -10,38 +10,38 @@
       "views": 15
     },
     {
-      "title": "香港大學 2027 Non-JUPAS 9月23日開放：國際資格申請與 Rolling Admissions 重點｜環球教育新聞網 Global Education News",
-      "path": "/news/hku-2027-non-jupas-opens-september-23/",
+      "title": "QS 2027 全球 MBA 排名公布：MIT Sloan 居首，選校仍須分清排名與個人適合度｜環球教育新聞網 Global Education News",
+      "path": "/news/qs-global-mba-2027-mit-sloan/",
       "views": 10
     },
     {
-      "title": "QS 2027 全球 MBA 排名公布：MIT Sloan 居首，選校仍須分清排名與個人適合度｜環球教育新聞網 Global Education News",
-      "path": "/news/qs-global-mba-2027-mit-sloan/",
+      "title": "香港大學 2027 Non-JUPAS 9月23日開放：國際資格申請與 Rolling Admissions 重點｜環球教育新聞網 Global Education News",
+      "path": "/news/hku-2027-non-jupas-opens-september-23/",
       "views": 9
+    },
+    {
+      "title": "英國國際招生還能往哪裡成長？Public First 模型指出穩定與機會難兼得｜環球教育新聞網 Global Education News",
+      "path": "/news/uk-public-first-international-recruitment-model-2026/",
+      "views": 8
     },
     {
       "title": "ILAC 停辦：加拿大啟動語言學生安置，住宿與旅費不在保障範圍｜環球教育新聞網 Global Education News",
       "path": "/news/ilac-language-student-placement-september-2026/",
       "views": 7
-    },
-    {
-      "title": "美國 OPT 收費提案完成 OIRA 審查：仍是提案階段，金額與生效日未公布｜環球教育新聞網 Global Education News",
-      "path": "/news/us-opt-fee-proposal-oira-review-september-2026/",
-      "views": 6
     }
   ],
   "countries": [
     {
       "name": "台灣",
       "mapName": "Taiwan",
-      "sessions": 230,
-      "share": 65.3
+      "sessions": 222,
+      "share": 63.1
     },
     {
       "name": "美國",
       "mapName": "United States",
-      "sessions": 54,
-      "share": 15.3
+      "sessions": 65,
+      "share": 18.5
     },
     {
       "name": "印度",
@@ -58,18 +58,12 @@
     {
       "name": "香港",
       "mapName": "Hong Kong",
-      "sessions": 8,
-      "share": 2.3
-    },
-    {
-      "name": "愛爾蘭",
-      "mapName": "Ireland",
       "sessions": 6,
       "share": 1.7
     },
     {
-      "name": "中國",
-      "mapName": "China",
+      "name": "愛爾蘭",
+      "mapName": "Ireland",
       "sessions": 5,
       "share": 1.4
     },
@@ -80,8 +74,14 @@
       "share": 1.1
     },
     {
-      "name": "日本",
-      "mapName": "Japan",
+      "name": "中國",
+      "mapName": "China",
+      "sessions": 4,
+      "share": 1.1
+    },
+    {
+      "name": "Macao",
+      "mapName": "Macao",
       "sessions": 3,
       "share": 0.9
     },
