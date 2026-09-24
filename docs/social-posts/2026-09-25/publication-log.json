@@ -1,6 +1,6 @@
 {
   "date": "2026-09-25",
-  "status": "in-progress",
+  "status": "completed",
   "posts": [
     {
       "id": "Ddr5IRGE5Gk",
@@ -316,5 +316,7 @@
       "createdAt": "2026-09-25T06:34:12.604696+08:00",
       "dedupe": "Latest platform history and current-day schedules checked"
     }
-  ]
+  ],
+  "completedAt": "2026-09-25T06:44:45.5339436+08:00"
 }
+
