@@ -398,7 +398,7 @@
     "workflowUrl": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/36063082138",
     "status": "success"
   },
-  "updatedAt": "2026-09-25T06:56:20.4058086+08:00",
+  "updatedAt": "2026-09-25T07:05:37.4929322+08:00",
   "ltuMediaCheck": {
     "checkedAt": "2026-09-25T06:36:00+08:00",
     "url": "https://globalednews.com/",
@@ -428,7 +428,8 @@
       "McGill Canada with all majors/goals: 1 result and official university link.",
       "UCAS live article image complete with naturalWidth > 0, rendered 820 x 560, page scrollWidth 1726 < innerWidth 1743. Partial header/title screenshot readable.",
       "Full desktop screenshots reviewed for Ireland and UCAS at innerWidth 1743.",
-      "Canada and Pearson desktop screenshot attempts again timed out; complete desktop coverage remains pending."
+      "Canada and Pearson desktop screenshot attempts again timed out; complete desktop coverage remains pending.",
+      "07:00 recovery: Canada and Pearson desktop header/title screenshots reviewed using 1200 x 850 clips; full-page and lower-image captures still timed out. Browser scroll attempts left scrollY at 0. Full visual coverage remains pending."
     ],
     "limitations": [
       "Desktop full visual coverage incomplete due intermittent Page.captureScreenshot timeout. Mobile acceptance recovered in new CUA-created tab."
@@ -441,7 +442,7 @@
     ]
   },
   "dailyVerification": {
-    "checkedAt": "2026-09-25T06:56:20.4058086+08:00",
+    "checkedAt": "2026-09-25T07:05:37.4929322+08:00",
     "missing": [
       "fewer than 3 verified distinct Peter imports",
       "missing live acceptance evidence"
@@ -451,12 +452,12 @@
   },
   "recoveryCheck": {
     "verifiedPublishedPosts": 15,
-    "workflowRun": "36069139750",
+    "workflowRun": "36070179475",
     "workflowConclusion": "success",
-    "checkedAt": "2026-09-25T06:56:20.4058086+08:00",
+    "checkedAt": "2026-09-25T07:05:37.4929322+08:00",
     "resentPosts": 0,
     "socialLogStatus": "completed",
-    "baselineCommit": "b0410f5841b5944ad85afa606b2a514e81fdfe7e"
+    "baselineCommit": "cb2b650f9ea7c810e92ae3c2ece25c7543487e76"
   }
 }
 
