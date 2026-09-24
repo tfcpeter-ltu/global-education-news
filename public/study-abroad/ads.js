@@ -16,9 +16,10 @@
   if (firstSection) firstSection.insertAdjacentElement('afterend', slot);
 
   const key = 'globalednews-floating-ad-closed';
+  const preview = new URLSearchParams(location.search).get('ad-preview') === '1';
   let dismissed = false;
   try { dismissed = sessionStorage.getItem(key) === '1'; } catch {}
-  if (dismissed) return;
+  if (dismissed && !preview) return;
   const float = document.createElement('aside');
   float.className = 'education-ad-float';
   float.dataset.adPlacement = 'F';
@@ -33,7 +34,7 @@
     try { sessionStorage.setItem(key, '1'); } catch {}
   });
   const reveal = () => {
-    if (window.innerWidth > 760 && window.scrollY > 240 && document.body.contains(float)) float.hidden = false;
+    if ((preview || window.scrollY > (window.innerWidth > 760 ? 240 : 400)) && document.body.contains(float)) float.hidden = false;
   };
   window.addEventListener('scroll', reveal, { passive: true });
   reveal();

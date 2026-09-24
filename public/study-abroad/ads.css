@@ -14,5 +14,5 @@
 .education-ad-float a{display:block;padding:10px 12px;background:#173651;color:#fff;text-align:center;text-decoration:none;font-weight:700}
 .education-ad-close{position:absolute;top:9px;right:9px;width:32px;height:32px;border:0;background:transparent;color:#173651;font-size:23px;line-height:1;cursor:pointer}
 .education-ad-close:focus-visible{outline:2px solid #173651}
-@media(max-width:760px){.education-ad{margin:24px 12px;padding:14px}.education-ad-body{align-items:flex-start;flex-direction:column}.education-ad-body a{box-sizing:border-box;width:100%;text-align:center}.education-ad-float{display:none!important}}
+@media(max-width:760px){.education-ad{margin:24px 12px;padding:14px}.education-ad-body{align-items:flex-start;flex-direction:column}.education-ad-body a{box-sizing:border-box;width:100%;text-align:center}.education-ad-float{right:12px;bottom:max(12px,env(safe-area-inset-bottom));width:min(260px,calc(100vw - 24px));padding:11px 12px 12px}.education-ad-float img{display:none}.education-ad-float strong{font-size:16px;margin-bottom:4px}.education-ad-float p{font-size:12px;margin-bottom:8px}.education-ad-float a{font-size:12px;padding:8px}.education-ad-float .education-ad-label{font-size:9px;margin-bottom:5px}}
 @media(prefers-reduced-motion:reduce){.education-ad-float{scroll-behavior:auto}}
