@@ -14,9 +14,9 @@ officialUrl: "https://knight-hennessy.stanford.edu/admission"
 secondSourceUrl: "https://scholarships.berkeley.edu/knight-hennessy/"
 eligibilityTW: "台灣學生可申請；須符合第一個學士學位取得年限及 Stanford 合格全日制研究所入學條件"
 taiwanNote: "台灣申請者可直接依國際申請者身分申請。KHS 與 Stanford 研究所課程是兩份不同申請，除 KHS 截止日外，還必須在所申請系所的 KHS 專用或一般研究所截止日前完成 Stanford degree application。"
-verificationDate: "2026-09-18"
-updated: 2026-09-18
-featuredDate: "2026-09-18"
+verificationDate: "2026-09-25"
+updated: 2026-09-25
+featuredDate: "2026-09-25"
 featuredUntil: "2026-10-06T20:00:00Z"
 author: "LTU Global Education News 編輯部"
 image: "https://upload.wikimedia.org/wikipedia/commons/1/1f/Stanford_Memorial_Church.jpg"
@@ -45,7 +45,7 @@ Stanford University 的 **Knight-Hennessy Scholars（KHS）2027 cohort** 已正�
 
 ## 台灣學生要特別注意什麼？
 
-KHS 不是 Stanford 研究所申請的替代品。你必須同時完成：
+KHS 不是 Stanford 研究所申請的替代品。一般新申請者必須分別完成（已獲准延後至 2027 入學者及符合規定的在學博士生另有例外）：
 
 1. **Knight-Hennessy Scholars 申請**
 2. **Stanford 研究所學位申請**
@@ -63,7 +63,15 @@ KHS 官方要求 Stanford degree program application 必須在該課程針對 KH
 3. 優先整理履歷、推薦人、個人經歷與領導／公共影響力案例。
 4. 不要以 10 月 6 日作為所有材料的唯一截止日；Stanford 各系所時程必須另外確認。
 
-## 2026 年 9 月 18 日重新查核：先看資格與兩套期限
+## 2026 年 9 月 25 日實質更新：MBA 期限已過，其他課程仍須逐項確認
+
+Stanford 商學院目前明列：搭配 KHS 2027 的 MBA 入學申請，必須於 **2026 年 9 月 9 日 16:00（美國太平洋時間）**完成 Round 1。這個期限已過；若未依規定完成 MBA 第一輪，不能把仍開放的 KHS 表單解讀為 MBA 也可補件或改用第二輪。
+
+官方另區分兩種例外：已取得 Stanford 入學許可且獲准延後至 2027 入學者，以及 2026 年入學、2027 年將進入第二年的合格 Stanford 博士生，可依規定只送 KHS 申請。是否符合例外，仍須核對學位、入學年度及官方資格頁。
+
+今日重新開啟 Stanford 資格、截止日與資助頁，並以 UC Berkeley 獎學金辦公室的本期資訊交叉查核。其他合格學位的 KHS 申請仍開放；這項更新不代表所有 Stanford 系所都仍接受申請。
+
+## 資格與兩套期限
 
 官方資格頁明列所有國家公民及居民均可申請；UC Berkeley 獎學金辦公室亦獨立列出全球國籍資格與本期開放狀態。這不是台灣專屬名額，也不代表申請即獲獎。
 
@@ -76,6 +84,7 @@ KHS 截止為美國太平洋日光時間 2026 年 10 月 6 日 13:00，換算台
 - [Stanford 官方資格與學位年限](https://knight-hennessy.stanford.edu/admission/before-you-apply/eligibility)
 - [Stanford 官方申請截止與 MBA 例外](https://knight-hennessy.stanford.edu/admission/preparing-your-applications/application-deadlines)
 - [Stanford 官方資助內容](https://knight-hennessy.stanford.edu/program-overview/funding)
+- [Stanford 商學院：KHS 與 MBA 第一輪截止日](https://www.gsb.stanford.edu/programs/mba/tuition-financial-aid/types-aid)
 - [獨立第二來源：UC Berkeley OURS National Scholarships](https://scholarships.berkeley.edu/knight-hennessy/)
 
 圖片採用 [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) 授權校園資料照。

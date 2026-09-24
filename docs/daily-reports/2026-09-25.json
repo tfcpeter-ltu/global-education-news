@@ -1,0 +1,145 @@
+{
+  "date": "2026-09-25",
+  "timezone": "Asia/Taipei",
+  "baselineCommit": "5c35f7090e443578484b7dba6f658d02c488103e",
+  "status": "in-progress",
+  "newsPublished": [],
+  "scholarshipChecks": [],
+  "peterImports": [],
+  "socialPosts": [],
+  "research": [
+    {
+      "slug": "ireland-university-budget-2027-funding-appeal",
+      "sources": [
+        {
+          "label": "IUA：六校主席預算倡議原文（2026-09-20）",
+          "url": "https://www.iua.ie/press-releases/budget-2027-must-tackle-irelands-universities-e250m-funding-gap-university-chairs-opinion-piece/"
+        },
+        {
+          "label": "The PIE News：獨立採訪與高教財務背景（2026-09-24）",
+          "url": "https://thepienews.com/irish-uni-chairs-seek-e190m-as-funding-pressures-mount/"
+        }
+      ],
+      "checkedAt": "2026-09-25T05:18:00+08:00",
+      "status": "checked-written-build-passed-awaiting-deploy",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Campanile_Trinity_College_Dublin_(2).JPG",
+      "imageCredit": "Etiennekd／Wikimedia Commons／CC BY-SA 3.0；原圖未修改",
+      "imageObserved": true
+    },
+    {
+      "slug": "ucas-2027-october-early-application-deadline",
+      "sources": [
+        {
+          "label": "UCAS：2027 申請時程",
+          "url": "https://www.ucas.com/discover/advice-for-parents-guardians-and-carers/key-dates-and-the-application-journey"
+        },
+        {
+          "label": "Oxford：2027 招生與考試、書面作業時程",
+          "url": "https://www.ox.ac.uk/admissions/undergraduate/applying/admissions-timeline"
+        }
+      ],
+      "checkedAt": "2026-09-25T05:18:00+08:00",
+      "status": "checked-written-build-passed-awaiting-deploy",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Radcliffe_Camera,_Oxfordshire.jpg",
+      "imageCredit": "Tristan Surtel／Wikimedia Commons／CC BY-SA 4.0；原圖未修改",
+      "imageObserved": true
+    },
+    {
+      "slug": "canada-language-programs-2025-survey-decline",
+      "sources": [
+        {
+          "label": "Languages Canada：2025 年度調查摘要（2026 年 6 月）",
+          "url": "https://www.languagescanada.ca/vi/research"
+        },
+        {
+          "label": "The PIE News：Canada’s language students fall 13%（2026 年 8 月 14 日）",
+          "url": "https://thepienews.com/canadas-language-students-fall-13/"
+        }
+      ],
+      "checkedAt": "2026-09-25T05:18:00+08:00",
+      "status": "checked-written-build-passed-awaiting-deploy",
+      "imageSource": "https://commons.wikimedia.org/wiki/File:Mtl_from_mont_royal.jpg",
+      "imageCredit": "Vreee／Wikimedia Commons／CC BY-SA 4.0；原圖未修改",
+      "imageObserved": true
+    }
+  ],
+  "excludedCandidates": [
+    {
+      "topic": "NTU Taiwan January 2027",
+      "reason": "Official scholarships page announces January 2027 but eligibility terms retain January/September 2026; independent current evidence insufficient. Not today's selection."
+    }
+  ],
+  "remaining": [
+    "3 international news with licensed distinct photos",
+    "3 scholarship substantive updates and live verification",
+    "Peter source imports up to 3",
+    "LTU pool rotation check",
+    "15 social publications with platform readback",
+    "Build and Pages deployment",
+    "desktop/mobile/SEO/search verification"
+  ],
+  "scholarshipDrafts": [
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-09-knight-hennessy-2027/",
+      "verifiedAt": "2026-09-25T05:12:00+08:00",
+      "eligibleTaiwan": true,
+      "open": true,
+      "sources": [
+        "https://knight-hennessy.stanford.edu/admission",
+        "https://scholarships.berkeley.edu/knight-hennessy/"
+      ],
+      "updateSummary": "MBA Round 1 deadline passed; deferral/current PhD exceptions clarified",
+      "status": "awaiting-deployment"
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-09-utoronto-lester-b-pearson-2027/",
+      "verifiedAt": "2026-09-25T05:12:00+08:00",
+      "eligibleTaiwan": true,
+      "open": true,
+      "sources": [
+        "https://future.utoronto.ca/pearson-scholarships",
+        "https://sites.google.com/tdsb.on.ca/fhciguidancesite/post-secondary/scholarships"
+      ],
+      "updateSummary": "FHCI internal nomination deadline distinguished; first-choice award restriction and stale FAQ resolved",
+      "status": "awaiting-deployment"
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-09-yenching-academy-2027-taiwan/",
+      "verifiedAt": "2026-09-25T05:12:00+08:00",
+      "eligibleTaiwan": true,
+      "open": true,
+      "sources": [
+        "https://yenchingacademy.pku.edu.cn/ADMISSIONS.htm",
+        "https://scholarships.berkeley.edu/yenching-scholars/"
+      ],
+      "updateSummary": "Taiwan English evidence, two application systems, internal deadline and second-year Beijing requirement clarified",
+      "status": "awaiting-deployment"
+    }
+  ],
+  "localBuild": {
+    "astro": "passed 256 pages",
+    "bilingual": "passed 508 route pairs; manual corrections for amounts, names and eligibility",
+    "checkedAt": "2026-09-25T05:31:00+08:00"
+  },
+  "peterCheck": {
+    "checkedAt": "2026-09-25T05:22:00+08:00",
+    "sourcePage": "https://www.facebook.com/61585164670358",
+    "latestObserved": "Recommendation letter post/photo 122144808921172155 already imported 2026-09-24; next visible item is shared site promotion",
+    "status": "no-new-original-in-initial-feed",
+    "newImports": 0
+  },
+  "platformConnectionCheck": {
+    "checkedAt": "2026-09-25T05:20:00+08:00",
+    "brandId": 6323205,
+    "facebook": "101904929207004",
+    "instagram": "ltuossdtw",
+    "threads": "ltuossdtw",
+    "scheduledPosts": 0
+  },
+  "sunmoonCheck": {
+    "date": "2026-09-25",
+    "url": "https://www.sunmoonnews.com.tw/",
+    "status": "homepage-read",
+    "finding": "Visible recent content is local news; no qualifying international education item selected."
+  }
+}
