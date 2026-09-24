@@ -7,7 +7,9 @@ else {
  const r=JSON.parse(fs.readFileSync(reportPath,'utf8'));
  const news=(r.newsPublished||[]).filter(x=>x.url && x.verifiedAt);
  if(new Set(news.map(x=>x.url)).size<3) fail('fewer than 3 verified news URLs');
- if(!(r.scholarshipChecks||[]).some(x=>x.url && x.verifiedAt && x.eligibleTaiwan===true && x.open===true)) fail('missing eligible open scholarship verified today');
+ const scholarships=(r.scholarshipChecks||[]).filter(x=>x.url && x.verifiedAt && x.eligibleTaiwan===true && x.open===true);
+ const todayScholarships=scholarships.filter(x=>{const t=new Date(x.verifiedAt);return Number.isFinite(t.getTime()) && new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Taipei'}).format(t)===date && x.sources?.length>=2 && x.updateSummary && x.publishedVerifiedAt;});
+ if(date >= '2026-09-24' ? new Set(todayScholarships.map(x=>x.url)).size<3 : scholarships.length<1) fail('missing required verified scholarship updates (3 daily from 2026-09-24)');
  if(new Set((r.peterImports||[]).filter(x=>x.url&&x.sourceId&&x.verifiedAt).map(x=>x.sourceId)).size<3) fail('fewer than 3 verified distinct Peter imports');
  const posts=r.socialPosts||[];
  const requirements = ['news','scholarship','study-abroad'].flatMap(campaign => ['facebook','instagram','threads','linkedin'].map(network => [campaign,network]));

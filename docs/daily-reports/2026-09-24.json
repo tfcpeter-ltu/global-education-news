@@ -293,7 +293,39 @@
         "https://www.chevening.org/scholarship/taiwan/",
         "https://www.chevening.org/resource-hub/guidance/eligibility/"
       ],
-      "notes": "All four social platforms published and read back."
+      "notes": "All four social platforms published and read back.",
+      "updateSummary": "Rechecked application deadline, Taiwan eligibility, post-degree work experience and degree timing; published today.",
+      "publishedVerifiedAt": "2026-09-24T11:10:00+08:00"
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-09-hkpfs-2027/",
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-09-24T12:07:00+08:00",
+      "deadline": "2026-12-01T12:00:00+08:00",
+      "sources": [
+        "https://cerg1.ugc.edu.hk/hkpfs/Explanatory/Explanatory_Init_App.jsp",
+        "https://cerg1.ugc.edu.hk/hkpfs/index.html",
+        "https://gradsch.hku.hk/prospective_students/fees_scholarships_and_financial_support/hong_kong_phd_fellowship_scheme",
+        "https://www.polyu.edu.hk/ls/news-and-events/news/2026/20260904_hkpfs-202728/"
+      ],
+      "updateSummary": "Rechecked unrestricted origin eligibility, one initial application/two choices, RGC noon versus university deadline, current HKU/PolyU stipend and travel allowance. Participating universities supply their independently administered funding packages; not merely copies of the RGC notice.",
+      "publicationStatus": "pending-deployment"
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-09-gates-cambridge-2027/",
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-09-24T12:07:00+08:00",
+      "deadline": "2026-12-08 or 2027-01-06 23:59 UK",
+      "sources": [
+        "https://www.gatescambridge.org/apply/timeline/",
+        "https://www.gatescambridge.org/apply/eligibility/",
+        "https://www.gatescambridge.org/programme/the-scholarship/",
+        "https://www.oxy.edu/academics/student-success/national-international-fellowships/awards-information/gates-cambridge"
+      ],
+      "updateSummary": "Rechecked course-dependent international deadline including references, non-UK citizenship, US resident citizenship exception and old-year allowance limitation. Gates pages read directly in Chrome after web fetch 410; Occidental independently confirms non-UK eligibility and course-dependent international round.",
+      "publicationStatus": "pending-deployment"
     }
   ],
   "sunmoon": {
@@ -359,7 +391,7 @@
     "Peter: 1 further eligible, distinct unimported post missing",
     "mobile visual acceptance and mobile scholarship filter test: viewport override requested390x844 but actual1743px in existing/new tabs"
   ],
-  "updatedAt": "2026-09-24T11:07:00+08:00",
+  "updatedAt": "2026-09-24T12:07:00+08:00",
   "maintenance": [
     {
       "type": "scholarship-expired-status-correction",
@@ -424,15 +456,13 @@
     "method": "live DOM count and visible cards; Taipei date rotation source reviewed"
   },
   "recoveryCheck": {
-    "time": "2026-09-24T10:58:00+08:00",
-    "baselineCommit": "73915fe281ea4e917ae33b10be50731795b2b7e3",
-    "additionalPublications": 10,
+    "time": "2026-09-24T12:07:00+08:00",
+    "baselineCommit": "73219ad7f63d6fdd280a4383e2fe6a092cc55489",
+    "additionalPublications": 0,
     "actions": [
-      "Completed all15 social publications and read back public URLs",
-      "Business Suite authorizedasset101904929207004 resolves FB destination without touching other-task Peter draft",
-      "Website desktop visual checks passed",
-      "Viewport override ineffective in both existing and new tabs; mobile not marked passed"
+      "Rechecked HKPFS and Gates Cambridge; three open scholarship updates including morning Chevening",
+      "Updated daily requirement and verifier to require three same-day scholarship updates; expired correction excluded"
     ],
-    "verifier": "partial: 15/15 social passed; Peter2/3, mobile acceptance incomplete"
+    "verifier": "pending deployment and final verification"
   }
 }
