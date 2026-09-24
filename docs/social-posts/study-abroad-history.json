@@ -320,6 +320,85 @@
           "verifiedAt": "2026-09-21T22:01:33.869Z"
         }
       ]
+    },
+    {
+      "date": "2026-09-24",
+      "campaign": "study-abroad",
+      "status": "published",
+      "version": "v1",
+      "CTA": "免費加入會員",
+      "contentPath": "docs/social-posts/2026-09-24/study-abroad--uk--manchester-history.json",
+      "publishedPosts": [
+        {
+          "date": "2026-09-24",
+          "campaign": "study-abroad",
+          "schoolName": "University of Manchester",
+          "network": "threads",
+          "account": "ltuossdtw",
+          "version": "v1",
+          "status": "PUBLISHED",
+          "createdAt": "2026-09-24T09:07:00+08:00",
+          "dedupe": "Refreshed profile latest Chevening and Dundee. No Manchester in local social/history records; no other study-abroad send today.",
+          "id": "Ddpquo0E6Ij",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/Ddpquo0E6Ij",
+          "verifiedAt": "2026-09-24T09:07:35+08:00",
+          "articleUrl": "https://globalednews.com/study-abroad/",
+          "previewVerified": true
+        },
+        {
+          "date": "2026-09-24",
+          "campaign": "study-abroad",
+          "schoolName": "University of Manchester",
+          "network": "instagram",
+          "account": "ltuossdtw",
+          "version": "v1",
+          "status": "PUBLISHED",
+          "createdAt": "2026-09-24T09:13:00+08:00",
+          "dedupe": "Latest IG profile checked: Chevening, Dundee, HK; no Manchester. No IG send for this campaign today.",
+          "articleUrl": "https://globalednews.com/study-abroad/",
+          "id": "Ddprv29k59e",
+          "publicUrl": "https://www.instagram.com/ltuossdtw/p/Ddprv29k59e/",
+          "verifiedAt": "2026-09-24T09:16:00+08:00",
+          "threadsSync": false,
+          "previewVerified": true
+        },
+        {
+          "date": "2026-09-24",
+          "campaign": "study-abroad",
+          "schoolName": "University of Manchester",
+          "network": "linkedin",
+          "account": "https://www.linkedin.com/in/peter-chen-26a754228/",
+          "version": "v1",
+          "status": "PUBLISHED",
+          "createdAt": "2026-09-24T09:16:00+08:00",
+          "dedupe": "Profile latest scholarship/news; latest DIY Delft two days ago. No Manchester.",
+          "articleUrl": "https://globalednews.com/study-abroad/",
+          "id": "7508697739606794242",
+          "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7508697739606794242/",
+          "verifiedAt": "2026-09-24T09:24:31+08:00",
+          "previewVerified": true
+        },
+        {
+          "date": "2026-09-24",
+          "campaign": "study-abroad",
+          "schoolName": "University of Manchester",
+          "network": "facebook",
+          "account": "101904929207004",
+          "version": "v1",
+          "status": "PUBLISHED",
+          "createdAt": "2026-09-24T10:51:00+08:00",
+          "articleUrl": "https://globalednews.com/study-abroad/",
+          "dedupe": "Business Suite published latest Chevening/Dundee/HK; no Manchester FB; schedule empty",
+          "id": "1069342385841959",
+          "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/1069342385841959",
+          "publishedAt": "2026-09-24T10:52:00+08:00",
+          "verifiedAt": "2026-09-24T10:54:00+08:00",
+          "previewVerified": true
+        }
+      ],
+      "country": "uk",
+      "schoolName": "University of Manchester",
+      "storyAngle": "2004 merger and researching current courses"
     }
   ]
 }

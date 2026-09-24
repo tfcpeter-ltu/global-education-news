@@ -210,6 +210,64 @@
           "verifiedAt": "2026-09-21T22:05:51.037Z"
         }
       ]
+    },
+    {
+      "date": "2026-09-24",
+      "campaign": "taiwan-universities",
+      "status": "published",
+      "version": "v1",
+      "CTA": "免費加入會員",
+      "contentPath": "docs/social-posts/2026-09-24/taiwan-universities--source-transparency.json",
+      "publishedPosts": [
+        {
+          "date": "2026-09-24",
+          "campaign": "taiwan-universities",
+          "network": "threads",
+          "account": "ltuossdtw",
+          "articleUrl": "https://globalednews.com/taiwan-universities/",
+          "version": "v1",
+          "status": "PUBLISHED",
+          "createdAt": "2026-09-24T09:28:00+08:00",
+          "dedupe": "Profile latest Manchester, Chevening, Dundee; no today's Taiwan campaign",
+          "id": "DdptO04EyYZ",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdptO04EyYZ",
+          "verifiedAt": "2026-09-24T09:31:00+08:00",
+          "previewVerified": true
+        },
+        {
+          "date": "2026-09-24",
+          "campaign": "taiwan-universities",
+          "network": "linkedin",
+          "account": "Peter Chen",
+          "articleUrl": "https://globalednews.com/taiwan-universities/",
+          "version": "v1",
+          "status": "PUBLISHED",
+          "createdAt": "2026-09-24T09:31:00+08:00",
+          "dedupe": "Latest profile Manchester, Chevening, Dundee; latest Taiwan campaign Sep22",
+          "previewVerified": true,
+          "id": "7508699679992274944",
+          "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7508699679992274944/",
+          "verifiedAt": "2026-09-24T09:33:00+08:00"
+        },
+        {
+          "date": "2026-09-24",
+          "campaign": "taiwan-universities",
+          "network": "instagram",
+          "account": "ltuossdtw",
+          "version": "v1",
+          "status": "PUBLISHED",
+          "createdAt": "2026-09-24T09:33:00+08:00",
+          "articleUrl": "https://globalednews.com/taiwan-universities/",
+          "dedupe": "Profile latest Manchester, Chevening, Dundee; no today Taiwan campaign",
+          "id": "DdpuFz8E7Tj",
+          "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdpuFz8E7Tj/",
+          "verifiedAt": "2026-09-24T09:38:00+08:00",
+          "publishedAt": "2026-09-24T09:36:00+08:00",
+          "threadsSync": false,
+          "previewVerified": true
+        }
+      ],
+      "topic": "電機比較的判斷依據與官方來源入口"
     }
   ]
 }

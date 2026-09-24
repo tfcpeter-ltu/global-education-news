@@ -2,7 +2,7 @@
   "date": "2026-09-24",
   "campaign": "scholarship",
   "version": "v1-eligibility",
-  "status": "partial",
+  "status": "published",
   "articleTitle": "Chevening–台達2027/28：先核對畢業後工作經驗",
   "articleUrl": "https://globalednews.com/scholarships/items/2026-09-chevening-delta-climate-2027/",
   "shortHook": "10/6台灣19:00截止，2800小時必須是大學畢業後累積。",
@@ -58,6 +58,68 @@
       "id": "7508679452906831872",
       "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7508679452906831872/",
       "verifiedAt": "2026-09-24 00:12:58 UTC"
+    }
+  ],
+  "publishedPosts": [
+    {
+      "date": "2026-09-24",
+      "campaign": "scholarship",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-chevening-delta-climate-2027/",
+      "version": "v1-eligibility",
+      "status": "PUBLISHED",
+      "createdAt": "2026-09-24T07:58:00+08:00",
+      "dedupe": "Refreshed profile latest Dundee and HK backfill; no Sep24 scholarship. Today's Metricool schedule checked earlier empty.",
+      "id": "Ddpjd3_E_hv",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Ddpjd3_E_hv",
+      "verifiedAt": "2026-09-24 00:04:12 UTC"
+    },
+    {
+      "date": "2026-09-24",
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "account": "https://www.linkedin.com/in/peter-chen-26a754228/",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-chevening-delta-climate-2027/",
+      "version": "v1-eligibility",
+      "status": "PUBLISHED",
+      "createdAt": "2026-09-24 00:09:27 UTC",
+      "dedupe": "Profile activity read: latest Dundee, HK; latest scholarship Sep22 distinct angle; no Sep24 scholarship.",
+      "id": "7508679452906831872",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7508679452906831872/",
+      "verifiedAt": "2026-09-24 00:12:58 UTC"
+    },
+    {
+      "date": "2026-09-24",
+      "campaign": "scholarship",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-chevening-delta-climate-2027/",
+      "version": "v1-eligibility",
+      "status": "PUBLISHED",
+      "createdAt": "2026-09-24 00:16:47 UTC",
+      "dedupe": "Profile newest Dundee/HK; older scholarship Sep22; no today scholarship.",
+      "threadsSync": false,
+      "id": "Ddpq9GFk9uT",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Ddpq9GFk9uT/",
+      "verifiedAt": "2026-09-24T09:10:00+08:00",
+      "previewVerified": true
+    },
+    {
+      "date": "2026-09-24",
+      "campaign": "scholarship",
+      "network": "facebook",
+      "account": "101904929207004",
+      "version": "v1-eligibility",
+      "status": "PUBLISHED",
+      "createdAt": "2026-09-24T10:45:00+08:00",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-chevening-delta-climate-2027/",
+      "dedupe": "BS Sep24 latest FB Dundee/HK, no scholarship; scheduled tab empty",
+      "id": "1069340339175497",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/1069340339175497",
+      "publishedAt": "2026-09-24T10:49:00+08:00",
+      "verifiedAt": "2026-09-24T10:51:00+08:00",
+      "previewVerified": true
     }
   ]
 }

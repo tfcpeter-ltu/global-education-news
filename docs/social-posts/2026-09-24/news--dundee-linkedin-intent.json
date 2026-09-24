@@ -5,10 +5,7 @@
   "account": "Peter Chen https://www.linkedin.com/in/peter-chen-26a754228/",
   "articleUrl": "https://globalednews.com/news/dundee-strike-student-guidance-september-2026/",
   "version": "v1",
-  "status": "PUBLISHED",
+  "status": "intent-recorded",
   "createdAt": "2026-09-24T07:32:00+08:00",
-  "dedupe": "Refreshed recent activity: HK backfill latest, no Dundee; Metricool LinkedIn disconnected.",
-  "id": "7508670284271611904",
-  "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7508670284271611904/",
-  "verifiedAt": "2026-09-24T07:35:36+08:00"
+  "dedupe": "Refreshed recent activity: HK backfill latest, no Dundee; Metricool LinkedIn disconnected."
 }

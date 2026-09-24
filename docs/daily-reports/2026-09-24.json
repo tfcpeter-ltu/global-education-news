@@ -15,7 +15,7 @@
       "url": "https://globalednews.com/news/australia-student-safety-survey-2026/",
       "englishUrl": "https://globalednews.com/en/news/australia-student-safety-survey-2026/",
       "verifiedAt": "2026-09-24T07:49:00+08:00",
-      "desktop": false,
+      "desktop": true,
       "mobile": false,
       "domVerified": true,
       "imageLoaded": true
@@ -24,7 +24,7 @@
       "url": "https://globalednews.com/news/coventry-almaty-campus-opening-2026/",
       "verifiedAt": "2026-09-24 00:12:58 UTC",
       "domVerified": true,
-      "desktop": false,
+      "desktop": true,
       "mobile": false
     }
   ],
@@ -34,7 +34,7 @@
       "sourceId": "4418228248488367",
       "verifiedAt": "2026-09-24 00:19:44 UTC",
       "domVerified": true,
-      "desktop": false,
+      "desktop": true,
       "mobile": false
     }
   ],
@@ -100,6 +100,167 @@
       "id": "7508679452906831872",
       "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7508679452906831872/",
       "verifiedAt": "2026-09-24 00:12:58 UTC"
+    },
+    {
+      "date": "2026-09-24",
+      "campaign": "study-abroad",
+      "schoolName": "University of Manchester",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "version": "v1",
+      "status": "PUBLISHED",
+      "createdAt": "2026-09-24T09:07:00+08:00",
+      "dedupe": "Refreshed profile latest Chevening and Dundee. No Manchester in local social/history records; no other study-abroad send today.",
+      "id": "Ddpquo0E6Ij",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Ddpquo0E6Ij",
+      "verifiedAt": "2026-09-24T09:07:35+08:00",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "previewVerified": true
+    },
+    {
+      "date": "2026-09-24",
+      "campaign": "scholarship",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-chevening-delta-climate-2027/",
+      "version": "v1-eligibility",
+      "status": "PUBLISHED",
+      "createdAt": "2026-09-24 00:16:47 UTC",
+      "dedupe": "Profile newest Dundee/HK; older scholarship Sep22; no today scholarship.",
+      "threadsSync": false,
+      "id": "Ddpq9GFk9uT",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Ddpq9GFk9uT/",
+      "verifiedAt": "2026-09-24T09:10:00+08:00",
+      "previewVerified": true
+    },
+    {
+      "date": "2026-09-24",
+      "campaign": "study-abroad",
+      "schoolName": "University of Manchester",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "version": "v1",
+      "status": "PUBLISHED",
+      "createdAt": "2026-09-24T09:13:00+08:00",
+      "dedupe": "Latest IG profile checked: Chevening, Dundee, HK; no Manchester. No IG send for this campaign today.",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "id": "Ddprv29k59e",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Ddprv29k59e/",
+      "verifiedAt": "2026-09-24T09:16:00+08:00",
+      "threadsSync": false,
+      "previewVerified": true
+    },
+    {
+      "date": "2026-09-24",
+      "campaign": "study-abroad",
+      "schoolName": "University of Manchester",
+      "network": "linkedin",
+      "account": "https://www.linkedin.com/in/peter-chen-26a754228/",
+      "version": "v1",
+      "status": "PUBLISHED",
+      "createdAt": "2026-09-24T09:16:00+08:00",
+      "dedupe": "Profile latest scholarship/news; latest DIY Delft two days ago. No Manchester.",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "id": "7508697739606794242",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7508697739606794242/",
+      "verifiedAt": "2026-09-24T09:24:31+08:00",
+      "previewVerified": true
+    },
+    {
+      "date": "2026-09-24",
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "version": "v1",
+      "status": "PUBLISHED",
+      "createdAt": "2026-09-24T09:28:00+08:00",
+      "dedupe": "Profile latest Manchester, Chevening, Dundee; no today's Taiwan campaign",
+      "id": "DdptO04EyYZ",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DdptO04EyYZ",
+      "verifiedAt": "2026-09-24T09:31:00+08:00",
+      "previewVerified": true
+    },
+    {
+      "date": "2026-09-24",
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "account": "Peter Chen",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "version": "v1",
+      "status": "PUBLISHED",
+      "createdAt": "2026-09-24T09:31:00+08:00",
+      "dedupe": "Latest profile Manchester, Chevening, Dundee; latest Taiwan campaign Sep22",
+      "previewVerified": true,
+      "id": "7508699679992274944",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7508699679992274944/",
+      "verifiedAt": "2026-09-24T09:33:00+08:00"
+    },
+    {
+      "date": "2026-09-24",
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "version": "v1",
+      "status": "PUBLISHED",
+      "createdAt": "2026-09-24T09:33:00+08:00",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "dedupe": "Profile latest Manchester, Chevening, Dundee; no today Taiwan campaign",
+      "id": "DdpuFz8E7Tj",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DdpuFz8E7Tj/",
+      "verifiedAt": "2026-09-24T09:38:00+08:00",
+      "publishedAt": "2026-09-24T09:36:00+08:00",
+      "threadsSync": false,
+      "previewVerified": true
+    },
+    {
+      "date": "2026-09-24",
+      "campaign": "news",
+      "network": "facebook",
+      "account": "101904929207004",
+      "version": "v1",
+      "status": "PUBLISHED",
+      "createdAt": "2026-09-24T09:42:00+08:00",
+      "articleUrl": "https://globalednews.com/news/dundee-strike-student-guidance-september-2026/",
+      "dedupe": "Business Suite published grid latest FB Hong Kong backfill; scheduled tab empty; no Dundee FB",
+      "id": "1069336922509172",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/1069336922509172",
+      "verifiedAt": "2026-09-24T10:45:00+08:00",
+      "publishedAt": "2026-09-24T10:43:00+08:00",
+      "previewVerified": true
+    },
+    {
+      "date": "2026-09-24",
+      "campaign": "scholarship",
+      "network": "facebook",
+      "account": "101904929207004",
+      "version": "v1-eligibility",
+      "status": "PUBLISHED",
+      "createdAt": "2026-09-24T10:45:00+08:00",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-chevening-delta-climate-2027/",
+      "dedupe": "BS Sep24 latest FB Dundee/HK, no scholarship; scheduled tab empty",
+      "id": "1069340339175497",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/1069340339175497",
+      "publishedAt": "2026-09-24T10:49:00+08:00",
+      "verifiedAt": "2026-09-24T10:51:00+08:00",
+      "previewVerified": true
+    },
+    {
+      "date": "2026-09-24",
+      "campaign": "study-abroad",
+      "schoolName": "University of Manchester",
+      "network": "facebook",
+      "account": "101904929207004",
+      "version": "v1",
+      "status": "PUBLISHED",
+      "createdAt": "2026-09-24T10:51:00+08:00",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "dedupe": "Business Suite published latest Chevening/Dundee/HK; no Manchester FB; schedule empty",
+      "id": "1069342385841959",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/1069342385841959",
+      "publishedAt": "2026-09-24T10:52:00+08:00",
+      "verifiedAt": "2026-09-24T10:54:00+08:00",
+      "previewVerified": true
     }
   ],
   "scholarshipChecks": [
@@ -114,7 +275,7 @@
         "https://www.chevening.org/scholarship/taiwan/",
         "https://www.chevening.org/resource-hub/guidance/eligibility/"
       ],
-      "notes": "Current eligibility verified; Threads and LinkedIn published; IG photo/caption/alt prepared with Threads sync off, not sent pending visual crop validation."
+      "notes": "All four social platforms published and read back."
     }
   ],
   "sunmoon": {
@@ -159,22 +320,27 @@
     "verifiedAt": "2026-09-24T07:59:22+08:00"
   },
   "acceptance": {
-    "desktop": false,
+    "desktop": true,
     "mobile": false,
     "seo": true,
-    "blocker": "CDP Page.captureScreenshot repeatedly times out on formal-site and IG compose, including new tab and clipped capture. LinkedIn compose clipped capture succeeded.",
+    "blocker": "Browser viewport set(390,844) returned without error but DOM innerWidth remained1743; mobile capture is not valid mobile evidence.",
     "seoVerifiedAt": "2026-09-24 00:24:52 UTC",
     "seoEvidence": [
       "docs/daily-reports/2026-09-24-seo.json",
       "docs/daily-reports/2026-09-24-sitemap.json"
+    ],
+    "verifiedAt": "2026-09-24T10:58:00+08:00",
+    "desktopEvidence": [
+      "australia-desktop-20260924.png",
+      "coventry-desktop-20260924.png",
+      "peter-desktop-20260924.png"
     ]
   },
   "missing": [
-    "Peter: only 1 new eligible post imported; two other latest visible posts already imported",
-    "10 social publications remain (including IG scholarship draft preserved, not sent)",
-    "desktop/mobile visual acceptance"
+    "Peter: 2 new eligible posts missing",
+    "mobile visual acceptance: requested390 but existing and new tabs remained1743; mobile scholarship filter check also pending"
   ],
-  "updatedAt": "2026-09-24T08:35:28+08:00",
+  "updatedAt": "2026-09-24T10:55:00+08:00",
   "maintenance": [
     {
       "type": "scholarship-expired-status-correction",
@@ -212,16 +378,7 @@
     "bilingualPairs": 504,
     "verifiedAt": "2026-09-24T07:55:25+08:00"
   },
-  "platformBlockers": [
-    {
-      "network": "facebook",
-      "reason": "Existing unrelated Peter-task unsent draft and Peter-page identity observed. Preserved without interference; authorized LTU destination not yet restored."
-    },
-    {
-      "network": "instagram",
-      "reason": "Photo preview captures time out even scoped to composer; draft preserved, no Share click."
-    }
-  ],
+  "platformBlockers": [],
   "peterCheck": {
     "observedAt": "2026-09-24T07:56:00+08:00",
     "source": "https://www.facebook.com/profile.php?id=61585164670358",
@@ -244,17 +401,15 @@
     "method": "live DOM count and visible cards; Taipei date rotation source reviewed"
   },
   "recoveryCheck": {
-    "time": "2026-09-24T08:35:28+08:00",
-    "baselineCommit": "9cbc18496e8b23a0e88fe7229ca4530b05ff2e8d",
-    "additionalPublications": 0,
+    "time": "2026-09-24T10:58:00+08:00",
+    "baselineCommit": "73915fe281ea4e917ae33b10be50731795b2b7e3",
+    "additionalPublications": 10,
     "actions": [
-      "IG composer clipped screenshot timed out; no Share click",
-      "Fresh formal navigation tab screenshot also timed out",
-      "Facebook existing Peter recommendation-letter draft remains; untouched",
-      "St Andrews guest search UK/all majors/all goals returned zero; school exists in expansion source; social held for access verification or replacement",
-      "Acquired Oliverkeenan 2008 St Andrews campus photo, CC BY 3.0; locally inspected, no recent matching image record"
+      "Completed all15 social publications and read back public URLs",
+      "Business Suite authorizedasset101904929207004 resolves FB destination without touching other-task Peter draft",
+      "Website desktop visual checks passed",
+      "Viewport override ineffective in both existing and new tabs; mobile not marked passed"
     ],
-    "userActionRequested": "Restore Chrome window and keep desktop unlocked to help recover image capture; no response yet",
-    "verifier": "failed: Peter 2 missing, social 10 missing, desktop/mobile acceptance missing"
+    "verifier": "pending"
   }
 }
