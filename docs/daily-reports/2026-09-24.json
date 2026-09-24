@@ -174,7 +174,7 @@
     "10 social publications remain (including IG scholarship draft preserved, not sent)",
     "desktop/mobile visual acceptance"
   ],
-  "updatedAt": "2026-09-24 00:24:52 UTC",
+  "updatedAt": "2026-09-24T08:35:28+08:00",
   "maintenance": [
     {
       "type": "scholarship-expired-status-correction",
@@ -242,5 +242,19 @@
     ],
     "verifiedAt": "2026-09-24 00:24:52 UTC",
     "method": "live DOM count and visible cards; Taipei date rotation source reviewed"
+  },
+  "recoveryCheck": {
+    "time": "2026-09-24T08:35:28+08:00",
+    "baselineCommit": "9cbc18496e8b23a0e88fe7229ca4530b05ff2e8d",
+    "additionalPublications": 0,
+    "actions": [
+      "IG composer clipped screenshot timed out; no Share click",
+      "Fresh formal navigation tab screenshot also timed out",
+      "Facebook existing Peter recommendation-letter draft remains; untouched",
+      "St Andrews guest search UK/all majors/all goals returned zero; school exists in expansion source; social held for access verification or replacement",
+      "Acquired Oliverkeenan 2008 St Andrews campus photo, CC BY 3.0; locally inspected, no recent matching image record"
+    ],
+    "userActionRequested": "Restore Chrome window and keep desktop unlocked to help recover image capture; no response yet",
+    "verifier": "failed: Peter 2 missing, social 10 missing, desktop/mobile acceptance missing"
   }
 }
