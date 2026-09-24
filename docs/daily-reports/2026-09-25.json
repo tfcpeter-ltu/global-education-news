@@ -323,7 +323,7 @@
   ],
   "remaining": [
     "Peter: zero new original posts in reviewed feed; three-new-import requirement unmet, no duplicates created.",
-    "Complete desktop image/crop coverage and genuine mobile viewport acceptance when browser capture/viewport works."
+    "Complete remaining desktop visual coverage for Canada news and three scholarship pages; capture intermittently times out."
   ],
   "scholarshipDrafts": [
     {
@@ -372,9 +372,9 @@
     "checkedAt": "2026-09-25T05:31:00+08:00"
   },
   "peterCheck": {
-    "checkedAt": "2026-09-25T06:35:00+08:00",
+    "checkedAt": "2026-09-25T06:56:20.4058086+08:00",
     "sourcePage": "https://www.facebook.com/61585164670358",
-    "latestObserved": "Latest recommendation-letter original (19 hours ago) already imported September 24; subsequent visible GEN share, Malala (2 days) and US applications (3 days) also already recorded. No duplicate imports.",
+    "latestObserved": "Reopened specified page; latest original still recommendation-letter post 20 hours ago, photo 122144808921172155, already imported September 24. No newer original in current feed.",
     "status": "no-new-original-in-reviewed-feed",
     "newImports": 0
   },
@@ -398,7 +398,7 @@
     "workflowUrl": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/36063082138",
     "status": "success"
   },
-  "updatedAt": "2026-09-25T06:43:07.959357+08:00",
+  "updatedAt": "2026-09-25T06:56:20.4058086+08:00",
   "ltuMediaCheck": {
     "checkedAt": "2026-09-25T06:36:00+08:00",
     "url": "https://globalednews.com/",
@@ -417,29 +417,46 @@
   },
   "acceptance": {
     "desktop": false,
-    "mobile": false,
+    "mobile": true,
     "seo": true,
-    "verifiedAt": "2026-09-25T06:43:07.959357+08:00",
+    "verifiedAt": "2026-09-25T06:56:20.4058086+08:00",
     "seoEvidence": "docs/daily-reports/2026-09-25-live-http.json",
     "desktopEvidence": [
       "Scholarship Enter search Pearson: 2 results; search button zzzz: zero-result prompt; Canada filter: 8 results.",
       "Today picks re-read 06:28: three qualified cards Pearson, Yenching, Knight-Hennessy.",
       "Taiwan database private filter 20, technology combined filter 2; actual screenshot used for social.",
       "McGill Canada with all majors/goals: 1 result and official university link.",
-      "UCAS live article image complete with naturalWidth > 0, rendered 820 x 560, page scrollWidth 1726 < innerWidth 1743. Partial header/title screenshot readable."
+      "UCAS live article image complete with naturalWidth > 0, rendered 820 x 560, page scrollWidth 1726 < innerWidth 1743. Partial header/title screenshot readable.",
+      "Full desktop screenshots reviewed for Ireland and UCAS at innerWidth 1743.",
+      "Canada and Pearson desktop screenshot attempts again timed out; complete desktop coverage remains pending."
     ],
     "limitations": [
-      "Full desktop visual coverage incomplete: repeated Page.captureScreenshot timeouts; one clipped screenshot succeeded.",
-      "Mobile override requested 390 x 844 twice, but observed viewport stayed 1743 x 950; override reset. Cannot claim mobile verification."
+      "Desktop full visual coverage incomplete due intermittent Page.captureScreenshot timeout. Mobile acceptance recovered in new CUA-created tab."
+    ],
+    "mobileEvidence": [
+      "New Chrome tab under viewport override measured innerWidth 433 and height 937; all six article pages had scrollWidth <= 433.",
+      "Actual screenshots reviewed for all three news stories and Knight-Hennessy, Pearson, Yenching: titles, main photos, credits and layout readable.",
+      "Scholarship Enter search Pearson returned 2; button search zzzz-no-scholarship returned 0 with message; after scrolling settled results y=17.47; Canada filter returned 8.",
+      "Language switch visible at upper right on mobile. Override reset after testing."
     ]
   },
   "dailyVerification": {
-    "checkedAt": "2026-09-25T06:43:37.4379946+08:00",
+    "checkedAt": "2026-09-25T06:56:20.4058086+08:00",
     "missing": [
       "fewer than 3 verified distinct Peter imports",
       "missing live acceptance evidence"
     ],
     "command": "node scripts/verify-daily-delivery.mjs 2026-09-25",
     "exitCode": 1
+  },
+  "recoveryCheck": {
+    "verifiedPublishedPosts": 15,
+    "workflowRun": "36069139750",
+    "workflowConclusion": "success",
+    "checkedAt": "2026-09-25T06:56:20.4058086+08:00",
+    "resentPosts": 0,
+    "socialLogStatus": "completed",
+    "baselineCommit": "b0410f5841b5944ad85afa606b2a514e81fdfe7e"
   }
 }
+
