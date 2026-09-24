@@ -1,0 +1,33 @@
+---
+interface Props { placement: string; format?: 'banner' | 'card'; }
+const { placement, format = 'banner' } = Astro.props;
+const inquiry = '/advertise/';
+const labels: Record<string, string> = {
+  H2: '首頁新聞後', N1: '新聞列表', N4: '文章閱讀後',
+  S1: '獎學金專區', U1: '台灣大學選校'
+};
+const description = labels[placement] ?? '國際教育';
+---
+<aside class:list={['ad-placement', format]} aria-label={`廣告：${description}`} data-ad-placement={placement}>
+  <div class="ad-placement-label">ADVERTISEMENT · 廣告</div>
+  <div class="ad-placement-content">
+    <div>
+      <span class="ad-placement-kicker">GLOBAL EDUCATION NEWS</span>
+      <strong>大學與國際教育招生合作</strong>
+      <p>讓有興趣的學生在探索學校與申請資訊時，看見您的課程與活動。</p>
+    </div>
+    <a href={inquiry}>洽詢此版位 <span aria-hidden="true">↗</span></a>
+  </div>
+</aside>
+<style>
+  .ad-placement{box-sizing:border-box;max-width:1240px;margin:38px auto;padding:14px 20px 20px;border:1px solid #d5c7b1;border-top:3px double #aa854e;background:#f8f5ee;color:#18334d}
+  .ad-placement-label{font:700 .68rem/1.4 Arial,sans-serif;letter-spacing:.18em;color:#6c604f}
+  .ad-placement-content{display:flex;align-items:center;justify-content:space-between;gap:24px;padding-top:12px}
+  .ad-placement-kicker{display:block;font:700 .68rem/1.4 Arial,sans-serif;letter-spacing:.15em;color:#86673b}
+  .ad-placement strong{display:block;margin:6px 0;font:700 clamp(1.15rem,2vw,1.45rem)/1.3 Georgia,"Noto Serif TC",serif}
+  .ad-placement p{margin:0;color:#4b5861;font-size:.9rem;line-height:1.6}
+  .ad-placement a{flex:none;padding:11px 16px;border:1px solid #213d57;color:#18334d;text-decoration:none;font-weight:700;font-size:.88rem}
+  .ad-placement a:hover,.ad-placement a:focus-visible{background:#18334d;color:#fff}
+  .ad-placement.card{max-width:760px}
+  @media(max-width:640px){.ad-placement{margin:28px 12px;padding:13px 15px 16px}.ad-placement-content{align-items:flex-start;flex-direction:column;gap:13px}.ad-placement a{width:100%;box-sizing:border-box;text-align:center}}
+</style>

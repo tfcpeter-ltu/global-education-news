@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 232" role="img" aria-labelledby="t">
+<title id="t">University advertising space</title>
+<rect width="540" height="232" fill="#15334d"/>
+<path d="M25 186H515M25 193H515" stroke="#c6a26c" stroke-width="2"/>
+<path d="M50 155V80L270 32L490 80V155M79 155V92M461 155V92" fill="none" stroke="#c6a26c" stroke-width="3"/>
+<text x="270" y="122" text-anchor="middle" fill="#fffaf0" font-family="Georgia,serif" font-size="35">UNIVERSITY</text>
+<text x="270" y="150" text-anchor="middle" fill="#d5b67f" font-family="Arial,sans-serif" font-size="15" letter-spacing="5">ADVERTISING SPACE</text>
+</svg>

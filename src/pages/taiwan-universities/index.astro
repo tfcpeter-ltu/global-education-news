@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import AdPlacement from '../../components/AdPlacement.astro';
 
 const categories = [
   ['中文／國文', 24], ['外國語文', 13], ['醫療健康專業', 13], ['企管／資管', 12], ['電機工程', 12],
@@ -35,6 +36,7 @@ const databaseUrl = 'https://taiwan-university-review.cfb5f6a8-a379-4cbf-98d4-17
     </div>
   </section>
 
+  <AdPlacement placement="U1" />
   <section class="container domestic-intro" id="method">
     <div class="section-heading">
       <h2>不只看排名，也看你四年會學到什麼</h2>

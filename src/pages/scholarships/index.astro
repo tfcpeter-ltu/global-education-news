@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import AdPlacement from '../../components/AdPlacement.astro';
 
 const modules = import.meta.glob('./items/*.md', { eager: true });
 const scholarships = Object.values(modules)
@@ -167,6 +168,7 @@ const statusClass = (status = '') => status.includes('開放中') ? 'open' : sta
       </div>
     </section>
 
+    <AdPlacement placement="S1" />
     <section id="taiwan-programs" class="taiwan-programs">
       <div class="taiwan-watermark left" aria-hidden="true">MOBILITY</div>
       <div class="taiwan-watermark right" aria-hidden="true">TAIWAN</div>
