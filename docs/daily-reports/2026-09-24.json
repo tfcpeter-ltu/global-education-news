@@ -395,7 +395,7 @@
     "Mobile visual acceptance and mobile scholarship filters: viewport override ineffective",
     "Updated scholarship desktop visual capture: blank capture / screenshot timeout; live DOM and interactions passed"
   ],
-  "updatedAt": "2026-09-24T12:16:21+08:00",
+  "updatedAt": "2026-09-24T18:05:30+08:00",
   "maintenance": [
     {
       "type": "scholarship-expired-status-correction",
@@ -448,8 +448,8 @@
       "4418228248488367",
       "122144809005172155"
     ],
-    "recheckedAt": "2026-09-24T12:16:21+08:00",
-    "latestRecovery": "Read live page and scrolled: latest recommendation post already imported; subsequent feed still loading. No additional distinct source confirmed."
+    "recheckedAt": "2026-09-24T18:05:30+08:00",
+    "latestRecovery": "Latest public feed item remains recommendation-letter column, displayed 7 hours ago; already imported. End navigation still leaves subsequent feed loading. No third distinct eligible post confirmed."
   },
   "ltuMedia": {
     "poolCount": 12,
@@ -497,5 +497,14 @@
       "b65aa32b10979d813a6b4169b5979ab492e39075",
       "c185cd26f804c99bad2dda158fe2c2445a6cf729"
     ]
+  },
+  "eveningRecovery": {
+    "verifiedAt": "2026-09-24T18:05:30+08:00",
+    "baselineCommit": "12937febf7fc24cab060b308e96f13ba42166264",
+    "additionalPublications": 0,
+    "scholarships": "Live page confirmed 124 opportunities and all three September24 picks, with updated deadline and eligibility text.",
+    "peter": "Latest public feed item remains recommendation-letter column, displayed 7 hours ago; already imported. End navigation still leaves subsequent feed loading. No third distinct eligible post confirmed.",
+    "visual": "Scholarship desktop header screenshot successfully rendered after focus, but today-picks screenshot blank then capture timeout. 390x844 override returned DOM433x937 once, subsequent screenshot remained desktop; reset completed. Full desktop/mobile acceptance remains unverified.",
+    "concurrentChanges": "Seven commits since noon include advertising placements; left unchanged."
   }
 }
