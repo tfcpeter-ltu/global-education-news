@@ -14,28 +14,4 @@
   const main = document.querySelector('main');
   const firstSection = main?.querySelector('section');
   if (firstSection) firstSection.insertAdjacentElement('afterend', slot);
-
-  const key = 'globalednews-floating-ad-closed';
-  const preview = new URLSearchParams(location.search).get('ad-preview') === '1';
-  let dismissed = false;
-  try { dismissed = sessionStorage.getItem(key) === '1'; } catch {}
-  if (dismissed && !preview) return;
-  const float = document.createElement('aside');
-  float.className = 'education-ad-float';
-  float.dataset.adPlacement = 'F';
-  float.setAttribute('aria-label', english ? 'Advertisement' : '廣告');
-  float.hidden = true;
-  float.innerHTML = english
-    ? '<button class="education-ad-close" type="button" aria-label="Close advertisement">×</button><div class="education-ad-label">ADVERTISEMENT</div><img src="/study-abroad/ad-university.svg" width="540" height="232" alt="University advertising space"><strong>Reach prospective students</strong><p>University programmes and admissions events.</p><a href="/en/advertise/">Advertising enquiries ↗</a>'
-    : '<button class="education-ad-close" type="button" aria-label="關閉廣告">×</button><div class="education-ad-label">ADVERTISEMENT · 廣告</div><img src="/study-abroad/ad-university.svg" width="540" height="232" alt="大學招生廣告版位"><strong>讓學生看見您的學校</strong><p>大學招生與說明會合作版位。</p><a href="/advertise/">了解廣告合作 ↗</a>';
-  document.body.append(float);
-  float.querySelector('button').addEventListener('click', () => {
-    float.remove();
-    try { sessionStorage.setItem(key, '1'); } catch {}
-  });
-  const reveal = () => {
-    if ((preview || window.scrollY > (window.innerWidth > 760 ? 240 : 400)) && document.body.contains(float)) float.hidden = false;
-  };
-  window.addEventListener('scroll', reveal, { passive: true });
-  reveal();
 })();
