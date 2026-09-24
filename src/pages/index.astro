@@ -115,6 +115,7 @@ const ltuMediaStories = [
 const peterPhoto = 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Instructor_speaking_to_students_in_classroom.jpg/1280px-Instructor_speaking_to_students_in_classroom.jpg';
 const lead = internationalStories[0] ?? ltuStories[0];
 const side = internationalStories.filter((story: any) => story.url !== lead?.url).slice(0, 2);
+const heroFollowups = internationalStories.filter((story: any) => story.url !== lead?.url && !side.some((item: any) => item.url === story.url)).slice(0, 3);
 const latest = internationalStories.slice(0, 6);
 ---
 <BaseLayout>
@@ -134,6 +135,13 @@ const latest = internationalStories.slice(0, 6);
             <span>{lead.author ?? 'LTU Global Education News 編輯部'}</span>
             <span>{new Intl.DateTimeFormat('zh-TW', { timeZone: 'Asia/Taipei' }).format(new Date(lead.date))}</span>
           </div>
+          {heroFollowups.length > 0 && <div class="hero-followups">
+            <h2>更多國際教育新聞</h2>
+            {heroFollowups.map((story: any) => <article class="hero-followup">
+              <span>{story.category}</span>
+              <div><h3><a href={story.url}>{story.title}</a></h3><p>{story.description}</p></div>
+            </article>)}
+          </div>}
         </div>
         <div class="hero-side">
           <div class="kicker">LATEST · GLOBAL</div>
@@ -299,6 +307,14 @@ const latest = internationalStories.slice(0, 6);
 </BaseLayout>
 
 <style>
+  .hero-followups{margin-top:28px;border-top:3px double var(--line-dark);padding-top:17px}
+  .hero-followups h2{margin:0 0 7px;font:700 .82rem Arial,"Noto Sans TC",sans-serif;letter-spacing:.08em;color:var(--burgundy)}
+  .hero-followup{display:grid;grid-template-columns:105px minmax(0,1fr);gap:16px;padding:15px 0;border-bottom:1px solid var(--line)}
+  .hero-followup span{font:700 .73rem/1.6 Arial,"Noto Sans TC",sans-serif;color:var(--burgundy)}
+  .hero-followup h3{margin:0 0 5px;font:700 1.12rem/1.35 Georgia,"Noto Serif TC",serif}
+  .hero-followup h3 a{color:inherit;text-decoration:none}.hero-followup h3 a:hover{text-decoration:underline}
+  .hero-followup p{margin:0;color:var(--muted);font-size:.83rem;line-height:1.55;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  @media(max-width:600px){.hero-followup{grid-template-columns:1fr;gap:4px}}
   .advertising-rail {
     margin-top: 24px;
     padding-top: 13px;
