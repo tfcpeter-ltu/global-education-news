@@ -372,9 +372,9 @@
     "checkedAt": "2026-09-25T05:31:00+08:00"
   },
   "peterCheck": {
-    "checkedAt": "2026-09-25T06:56:20.4058086+08:00",
+    "checkedAt": "2026-09-25T08:02:49.6159524+08:00",
     "sourcePage": "https://www.facebook.com/61585164670358",
-    "latestObserved": "Reopened specified page; latest original still recommendation-letter post 20 hours ago, photo 122144808921172155, already imported September 24. No newer original in current feed.",
+    "latestObserved": "08:00 recovery: specified page latest original is still recommendation-letter post 21 hours ago, story pfbid0FT3gAsEuvqf325ZzmBKYJY3CDpK3AejgG3Ets3gRMbFx8isEtqYSDayN3zLrwrVil, photo 122144808921172155; matched src/data/peter-articles.json and September 24 report. No newer original visible.",
     "status": "no-new-original-in-reviewed-feed",
     "newImports": 0
   },
@@ -398,7 +398,7 @@
     "workflowUrl": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/36063082138",
     "status": "success"
   },
-  "updatedAt": "2026-09-25T07:05:37.4929322+08:00",
+  "updatedAt": "2026-09-25T08:02:49.6159524+08:00",
   "ltuMediaCheck": {
     "checkedAt": "2026-09-25T06:36:00+08:00",
     "url": "https://globalednews.com/",
@@ -429,7 +429,8 @@
       "UCAS live article image complete with naturalWidth > 0, rendered 820 x 560, page scrollWidth 1726 < innerWidth 1743. Partial header/title screenshot readable.",
       "Full desktop screenshots reviewed for Ireland and UCAS at innerWidth 1743.",
       "Canada and Pearson desktop screenshot attempts again timed out; complete desktop coverage remains pending.",
-      "07:00 recovery: Canada and Pearson desktop header/title screenshots reviewed using 1200 x 850 clips; full-page and lower-image captures still timed out. Browser scroll attempts left scrollY at 0. Full visual coverage remains pending."
+      "07:00 recovery: Canada and Pearson desktop header/title screenshots reviewed using 1200 x 850 clips; full-page and lower-image captures still timed out. Browser scroll attempts left scrollY at 0. Full visual coverage remains pending.",
+      "08:00 recovery: Knight-Hennessy live title, summary and upper image region reviewed in 1200 x 850 desktop screenshot. Full-page capture again timed out after 5000ms; desktop remains incomplete."
     ],
     "limitations": [
       "Desktop full visual coverage incomplete due intermittent Page.captureScreenshot timeout. Mobile acceptance recovered in new CUA-created tab."
@@ -442,7 +443,7 @@
     ]
   },
   "dailyVerification": {
-    "checkedAt": "2026-09-25T07:05:37.4929322+08:00",
+    "checkedAt": "2026-09-25T08:02:49.6159524+08:00",
     "missing": [
       "fewer than 3 verified distinct Peter imports",
       "missing live acceptance evidence"
@@ -452,12 +453,12 @@
   },
   "recoveryCheck": {
     "verifiedPublishedPosts": 15,
-    "workflowRun": "36070179475",
+    "workflowRun": "36071004725",
     "workflowConclusion": "success",
-    "checkedAt": "2026-09-25T07:05:37.4929322+08:00",
+    "checkedAt": "2026-09-25T08:02:49.6159524+08:00",
     "resentPosts": 0,
     "socialLogStatus": "completed",
-    "baselineCommit": "cb2b650f9ea7c810e92ae3c2ece25c7543487e76"
+    "baselineCommit": "b1177834aa751521c3fb604f61413556132aec67"
   }
 }
 
