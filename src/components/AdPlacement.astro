@@ -3,8 +3,10 @@ interface Props { placement: string; format?: 'banner' | 'card'; }
 const { placement, format = 'banner' } = Astro.props;
 const inquiry = '/advertise/';
 const labels: Record<string, string> = {
-  H2: '首頁頭條後', N1: '新聞列表', N4: '文章閱讀後',
-  S1: '獎學金專區', U1: '台灣大學選校', U2: '台灣大學資料庫後'
+  H1: '首頁頭條後', N1: '新聞列表', N2: '新聞列表後', N4: '文章閱讀後',
+  S1: '獎學金精選區後', S2: '獎學金資料庫後',
+  U1: '台灣大學選校', U2: '台灣大學資料庫後',
+  P1: 'Peter 專欄精選區後', P2: 'Peter 文章列表後'
 };
 const description = labels[placement] ?? '國際教育';
 ---

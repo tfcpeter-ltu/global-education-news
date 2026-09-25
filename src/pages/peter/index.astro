@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import AdPlacement from '../../components/AdPlacement.astro';
 import articles from '../../data/peter-articles.json';
 const peterFacebook = 'https://www.facebook.com/profile.php?id=61585164670358';
 const peterPhoto = 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Instructor_speaking_to_students_in_classroom.jpg/1280px-Instructor_speaking_to_students_in_classroom.jpg';
@@ -23,6 +24,7 @@ const peterPhoto = 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/In
         <p>英語系留學的升學路徑與關鍵選擇。50 篇文章，從英國、美國、加拿大、澳洲、新加坡到跨國比較，依主題逐篇閱讀。</p>
         <a class="button button-primary" href="/peter/volume-1/">閱讀第一集・50 篇完整目錄 →</a>
       </section>
+      <AdPlacement placement="P1" />
 
       <section class="peter-archive" aria-labelledby="peter-archive-title">
         <div class="kicker">LATEST COLUMNS</div>
@@ -41,6 +43,7 @@ const peterPhoto = 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/In
           </article>
         ))}</div>
       </section>
+      <AdPlacement placement="P2" format="card" />
       <div class="kicker">ABOUT THE COLUMN</div>
       <h2>新聞之外，進一步理解制度與選擇</h2>
       <p>這個專欄將收錄具明確作者觀點的評論與深度文章，並與一般新聞報導區分。過去發表於 Facebook 的國際教育文章，會先重新分類、查證、補充官方資料與更新時效，再收入網站。</p>
@@ -59,6 +62,8 @@ const peterPhoto = 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/In
       </div>
     </div>
   </section>
+  <link rel="stylesheet" href="/ads/home-floating.css?v=20260925-p1" />
+  <script is:inline src="/ads/section-floating.js?v=20260925-p1"></script>
 </BaseLayout>
 
 <style>
