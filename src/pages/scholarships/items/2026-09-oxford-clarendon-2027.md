@@ -7,48 +7,44 @@ country: "英國"
 level: "碩士／博士"
 funding: "全額型：課程學費＋就學期間生活費補助"
 deadline: "依課程：2026 年 12 月或 2027 年 1 月指定截止日"
-status: "即將開放"
+status: "開放中"
 sourceType: "國際大學"
 sourceName: "University of Oxford – Clarendon Fund"
 officialUrl: "https://www.ox.ac.uk/admissions/graduate/fees-and-funding/funding/clarendon"
-secondSourceUrl: "https://www.ox.ac.uk/admissions/graduate/application-guide/starting-your-application"
+secondSourceUrl: "https://drexel.edu/pennoni/urep/fellowships/finding-fellowships/clarendon_scholarship"
 eligibilityTW: "可申請；Clarendon 不限制國籍、通常居住地或研究領域"
-taiwanNote: "台灣申請者不需另填 Clarendon 表格，只要申請新的 Oxford Master's 或 DPhil，並在該課程指定的 December/January funding deadline 前完成完整申請，即會自動被考慮。多數 2027-28 graduate courses 預計 2026 年 9 月中旬開放。"
-verificationDate: "2026-09-04"
+taiwanNote: "台灣申請者不需另填 Clarendon 表格，只要申請新的 Oxford Master's 或 DPhil，並在該課程指定的 December/January funding deadline 前完成完整申請，即會自動被考慮。2027/28 已有課程開放；請逐一確認所選課程狀態，不代表全部課程同時受理。"
+verificationDate: "2026-09-26"
+updated: "2026-09-26"
+featuredDate: "2026-09-26"
+featuredUntil: "2026-09-27T00:00:00+08:00"
+author: "LTU Global Education News 編輯部"
 category: "大學全額獎學金"
 ---
 
-## Clarendon 為什麼值得列入 2027 申請清單？
+## 9 月 26 日實質更新：已開放課程可角逐資助
 
-**Clarendon Fund** 是 University of Oxford 規模最大的研究所獎學金計畫之一，每年提供超過 200 個新的 fully-funded scholarships。官方說明中最重要的一點是：**不限制國籍、通常居住地或研究領域**，因此台灣學生可以申請。
+牛津已有 2027/28 研究所課程開放申請，本頁將「即將開放」修正為「開放中」。Clarendon 不限制國籍或通常居住地，台灣學生可申請新的碩士或 DPhil，並須符合課程入學條件。
 
-Clarendon 適用於符合資格的新申請者，包括 Oxford 的 Master's 與 DPhil 課程。只要在自己課程對應的 **2026 年 12 月或 2027 年 1 月申請截止日**前完成申請，就會自動被納入 Clarendon 評選，不需要另外提交一份 Clarendon 申請表。
+在所選課程的 12 月或 1 月資助期限內送出完整入學申請，即自動納入評選，無須另填獎學金表格。各課程可能不同時開放，不能用本頁狀態代替課程頁。
 
-## 獎助內容
+## 補助及例外
 
-依 Oxford 官方 Clarendon Fund 說明，獎學金包含：
+資助涵蓋課程學費；全日制另有生活津貼，兼讀制為依課程訂定的學習補助。通常以課程須繳學費期間為限，不涵蓋其後的 continuation charges。官方仍列舊學年津貼示例，本文不把舊金額當成 2027/28 保證。
 
-- 課程學費（course fees）
-- 就學期間的生活費補助（grant for living expenses）
+持延後入學錄取者，以及繼續就讀同一學位的在校生，不在本項新學位申請資格內。符合條件不代表必然獲獎。
 
-實際資助期間依課程 fee liability 與學位長度而定。
+## 具體課程範例與台灣時間
 
-## 2027-28 申請何時開始？
+官方「跨領域生命與環境科學 DPhil」2027/28 全日制及兼讀制頁面均顯示 Open，截止為 **2027 年 1 月 6 日英國時間中午 12:00，即台灣時間晚間 20:00**。此日期只是該課程範例，不是所有牛津課程的統一期限。
 
-Oxford Graduate Admissions 已公告，**多數 2027-28 課程預計於 2026 年 9 月 16 日起開放申請**。不同系所與課程的正式截止日不完全相同，但中央申請指南說明，幾乎所有課程的重要 funding deadline 都落在 12 月或 1 月。
+編輯建議：先確認課程的研究方向、完整文件與資助期限，再倒排推薦函準備時間；不要等一般最終招生期限才申請獎學金。
 
-因此，本頁目前標示為「即將開放」，待 Oxford 於 9 月中旬更新 2027-28 各課程頁後，應再逐步更新相關截止日期。
+## 查核來源
 
-## 台灣學生要注意什麼？
+- [Oxford Clarendon 官方規則](https://www.ox.ac.uk/admissions/graduate/fees-and-funding/funding/clarendon)
+- [官方申請資格、補助及例外](https://www.ox.ac.uk/admissions/graduate/fees-and-funding/funding/clarendon/applicants)
+- [已開放的 DPhil 課程與期限](https://www.ox.ac.uk/admissions/graduate/courses/dphil-interdisciplinary-life-environmental-science)
+- [Drexel University 獨立獎助指引](https://drexel.edu/pennoni/urep/fellowships/finding-fellowships/clarendon_scholarship)
 
-1. **沒有另外的 Clarendon 申請表。** 關鍵是 Oxford 課程申請本身必須在 funding deadline 前完成。
-2. 不同課程截止日可能不同，不能只記一個全校統一日期。
-3. Oxford 官方建議申請者盡量在截止日前至少兩週完成所有表格與 supporting documents。
-4. Clarendon 評選高度重視學術表現與研究／學習潛力，競爭非常激烈。
-
-## 現在可以做的事
-
-1. 先確定預計申請的 Oxford Master's 或 DPhil 課程。
-2. 準備成績單、推薦人、CV、研究計畫或 statement 等文件。
-3. 9 月中旬課程頁更新後，立即確認自己的正確申請與 funding deadline。
-4. 若課程另有其他需要單獨申請的 Oxford scholarships，也應同步檢查，不要只依賴 Clarendon 自動評選。
+Drexel 可交叉核對不限國籍、資助範圍與自動評選，但其「January」概述未涵蓋所有 12 月期限；本頁依牛津當期課程頁呈現，不將其泛用敘述當成統一截止日。保留原始發布日期。

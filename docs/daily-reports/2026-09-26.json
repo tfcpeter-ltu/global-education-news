@@ -1,0 +1,113 @@
+{
+  "date": "2026-09-26",
+  "timezone": "Asia/Taipei",
+  "baselineCommit": "ea200ddd01dc90ceac02972cbf494b47179195a0",
+  "status": "partial",
+  "updatedAt": "2026-09-26T05:14:58.633828+08:00",
+  "newsPublished": [],
+  "scholarshipChecks": [
+    {
+      "slug": "2026-09-hkpfs-2027",
+      "title": "HKPFS：初步申請不收費，不代表各校免申請費",
+      "sources": [
+        "https://cerg1.ugc.edu.hk/hkpfs/Explanatory/Explanatory_Init_App.jsp",
+        "https://gradsch.hku.hk/prospective_students/fees_scholarships_and_financial_support/hong_kong_phd_fellowship_scheme"
+      ],
+      "updateSummary": "本日補查申請費與志願順序：RGC 不收 HKPFS 初步申請費，但各校可能另收申請或處理費；若兩校皆提名，RGC 按申請人優先順序處理。HKU 明列拒絕第一志願的資助，不會自動轉給第二志願。這些限制應在送出兩個選擇前確認，不能把兩個志願當成可自由轉換的兩份獎助。HKU 當期每月 HK$28,700 及每年 HK$14,400 旅費仍列於 2027/28 公告；校方加碼依校別，台灣籍仍符合不限原籍條件。",
+      "url": "https://globalednews.com/scholarships/items/2026-09-hkpfs-2027/",
+      "verifiedAt": "2026-09-26T05:14:58.633828+08:00",
+      "eligibleTaiwan": true,
+      "open": true,
+      "publishedVerifiedAt": null
+    },
+    {
+      "slug": "2026-09-gates-cambridge-2027",
+      "title": "Gates Cambridge：薪資、其他獎助與家屬預算限制",
+      "sources": [
+        "https://www.gatescambridge.org/apply/timeline/",
+        "https://www.gatescambridge.org/apply/eligibility/",
+        "https://www.gatescambridge.org/programme/the-scholarship/",
+        "https://www.oxy.edu/academics/student-success/national-international-fellowships/awards-information/gates-cambridge"
+      ],
+      "updateSummary": "本日補查資助例外：若同時領有雇主薪資或其他大額獎學金，Trust 保留減少或不給付標準生活津貼的權利，應主動告知。額外子女補助須申請審核，不提供伴侶補助；實驗室使用費、科學設備等也不能假定另由此獎學金支付。官方生活津貼 £23,152 仍註明 2026/27，不能套用為新年度保證。2027/28 仍開放；台灣籍申請者依非英國公民規則及課程資格申請，國際輪依課程為 12 月 8 日或 1 月 6 日英國時間 23:59。",
+      "url": "https://globalednews.com/scholarships/items/2026-09-gates-cambridge-2027/",
+      "verifiedAt": "2026-09-26T05:14:58.633828+08:00",
+      "eligibleTaiwan": true,
+      "open": true,
+      "publishedVerifiedAt": null
+    },
+    {
+      "slug": "2026-09-oxford-clarendon-2027",
+      "title": "Clarendon：修正開放狀態，補充兼讀補助與排除資格",
+      "sources": [
+        "https://www.ox.ac.uk/admissions/graduate/fees-and-funding/funding/clarendon",
+        "https://www.ox.ac.uk/admissions/graduate/fees-and-funding/funding/clarendon/applicants",
+        "https://www.ox.ac.uk/admissions/graduate/courses/dphil-interdisciplinary-life-environmental-science",
+        "https://drexel.edu/pennoni/urep/fellowships/finding-fellowships/clarendon_scholarship"
+      ],
+      "updateSummary": "已開放課程狀態、具體課程截止時間、兼讀補助及延後入學／繼續同學位排除資格。",
+      "url": "https://globalednews.com/scholarships/items/2026-09-oxford-clarendon-2027/",
+      "verifiedAt": "2026-09-26T05:14:58.633828+08:00",
+      "eligibleTaiwan": true,
+      "open": true,
+      "publishedVerifiedAt": null
+    }
+  ],
+  "peterImports": [],
+  "socialPosts": [],
+  "deployment": {
+    "status": "pending"
+  },
+  "acceptance": {
+    "desktop": false,
+    "mobile": false,
+    "seo": false
+  },
+  "localBuild": {
+    "astro": "passed:256 pages",
+    "bilingual": "passed:508 Chinese/English page pairs after 21 manual translation overrides"
+  },
+  "sunmoonCheck": {
+    "url": "https://www.sunmoonnews.com.tw/",
+    "checkedAt": "2026-09-26T05:14:58.633828+08:00",
+    "status": "homepage-read",
+    "note": "首頁實際開啟；未將一般台灣地方內容列入國際首頁。"
+  },
+  "peterCheck": {
+    "status": "blocked",
+    "reason": "今日 CUA 初始化與重置後皆 Windows CreateProcessWithLogonW 1920；未能重新讀取指定粉專，不能沿用昨日候選當今日新匯入。"
+  },
+  "newsCandidates": [
+    {
+      "title": "英國警方更新大學生防詐指南",
+      "sources": [
+        "https://www.reportfraud.police.uk/university-students-booklet/",
+        "https://www.ukcisa.org.uk/student-advice/life-in-the-uk/frauds-and-scams/"
+      ],
+      "status": "sources-read-needs-image-and-final-edit",
+      "facts": "警方指南發布7月19日、更新9月10日；UKCISA2月3日指引獨立記錄假冒Home Office案例。不得宣稱9月26日剛發布。"
+    },
+    {
+      "title": "澳洲大學協會倡議國際生交通優惠",
+      "sources": [
+        "https://universitiesaustralia.edu.au/media-item/concession-cards-for-all-students-as-cost-of-living-pressures-bite/",
+        "https://www.uow.edu.au/student/admin/travel-passes/"
+      ],
+      "status": "sources-read-needs-independent-news-check-and-image",
+      "facts": "9月8日為倡議，不能寫成政府已實施；UOW現行Opal資格有條件。"
+    }
+  ],
+  "blockers": [
+    "CUA runtime exits before opening a browser; reset reproduces Windows CreateProcessWithLogonW 1920. Requires desktop tool/runtime recovery for platform history, previews, live visual and interaction acceptance.",
+    "Three international news items not yet qualified/published; two source leads saved.",
+    "Peter new imports not checked today.",
+    "15 social posts not sent; DIY and domestic-database themes and screenshots pending."
+  ],
+  "nextSteps": [
+    "Read this date’s report and publication log before resuming.",
+    "Complete three international news stories with sources and licensed unique images.",
+    "Recover browser and verify scholarships search/filters and desktop/mobile views.",
+    "Read Peter source and deduplicate.",
+    "Prepare DIY and Taiwan database campaign, check platform history, publish only missing 15 posts."
+  ]
+}

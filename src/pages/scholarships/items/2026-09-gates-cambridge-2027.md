@@ -3,7 +3,7 @@ layout: "../../../layouts/ScholarshipLayout.astro"
 title: "Gates Cambridge 2027/28 已開放：台灣申請者須按課程確認 12 月或 1 月截止日"
 description: "Gates Cambridge 官方確認 2027/28 申請自 2026 年 9 月 11 日開放。台灣申請者通常走國際輪，截止日依課程為 12 月 8 日或 2027 年 1 月 6 日，均為英國時間 23:59。"
 date: "2026-09-02"
-updated: "2026-09-24"
+updated: "2026-09-26"
 author: "LTU Global Education News 編輯部"
 country: "英國"
 level: "碩士／博士"
@@ -16,15 +16,20 @@ officialUrl: "https://www.gatescambridge.org/apply/timeline/"
 secondSourceUrl: "https://www.oxy.edu/academics/student-success/national-international-fellowships/awards-information/gates-cambridge"
 eligibilityTW: "台灣籍可申請；須符合非英國公民與課程資格"
 taiwanNote: "同時具美國公民身分且居住美國者須走較早的美國輪；不能只用台灣身分忽略另一國籍及居住條件。"
-verificationDate: "2026-09-24"
-featuredDate: "2026-09-24"
-featuredUntil: "2026-09-25T00:00:00+08:00"
+verificationDate: "2026-09-26"
+featuredDate: "2026-09-26"
+featuredUntil: "2026-09-27T00:00:00+08:00"
 category: "大學全額獎學金"
 image: "https://upload.wikimedia.org/wikipedia/commons/5/5e/Cambridge-University-Senate-House.jpg"
 imageAlt: "劍橋大學 Senate House 校園建築資料照，非獲獎者或頒獎現場"
 imageCredit: "Ben Mills／Wikimedia Commons，Public domain"
 imageSource: "https://commons.wikimedia.org/wiki/File:Cambridge-University-Senate-House.jpg"
 ---
+
+## 9 月 26 日查核更新
+
+本日補查資助例外：若同時領有雇主薪資或其他大額獎學金，Trust 保留減少或不給付標準生活津貼的權利，應主動告知。額外子女補助須申請審核，不提供伴侶補助；實驗室使用費、科學設備等也不能假定另由此獎學金支付。官方生活津貼 £23,152 仍註明 2026/27，不能套用為新年度保證。2027/28 仍開放；台灣籍申請者依非英國公民規則及課程資格申請，國際輪依課程為 12 月 8 日或 1 月 6 日英國時間 23:59。
+
 
 ## 9 月 24 日查核更新
 
