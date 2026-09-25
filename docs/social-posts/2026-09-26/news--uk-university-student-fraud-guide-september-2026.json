@@ -1,0 +1,44 @@
+{
+  "date": "2026-09-26",
+  "campaign": "news",
+  "version": 1,
+  "status": "needs-visual-review",
+  "articleTitle": "英國警方更新大學生防詐指南：假學費折扣與假移民罰款須先向學校查證",
+  "articleUrl": "https://globalednews.com/news/uk-university-student-fraud-guide-september-2026/",
+  "shortHook": "假學費折扣與移民罰款：付款前先向學校查證。",
+  "facebookCopy": "環球教育新聞｜掌握國際教育最新動態\nhttps://globalednews.com/\n\n最新消息｜本日精選\n英國 Report Fraud 大學生防詐指南於9月10日更新，提醒學生留意陌生學費折扣、假冒移民官員與租屋付款要求。\n\nUKCISA 也接獲假冒 Home Office 的來電案例；但純粹的簽證到期提醒可能是真實，不能一概視為詐騙。\n\n留學家庭可先保存學校正式聯絡方式，遇到緊急匯款要求，先中止聯繫再獨立查證。閱讀查核整理：https://globalednews.com/news/uk-university-student-fraud-guide-september-2026/\n\n追蹤最新消息，點擊免費加入環球教育新聞會員：https://globalednews.com/newsletter/ 。每週一封教育新聞、招生政策與精選觀點，免費且可取消。",
+  "instagramCopy": "環球教育新聞｜掌握國際教育最新動態\nhttps://globalednews.com/\n\n最新消息｜本日精選\n留英開學季，把學校正式聯絡方式存好。陌生人提供的學費折扣、要求立即繳交的「移民罰款」，先查證再處理。\n\n指南9月10日更新；本文9月26日查核。校園圖為里茲大學資料照，非事件現場。完整整理：https://globalednews.com/news/uk-university-student-fraud-guide-september-2026/\n\n追蹤最新消息，點擊免費加入環球教育新聞會員：https://globalednews.com/newsletter/ 。每週一封教育新聞、招生政策與精選觀點，免費且可取消。",
+  "threadsCopy": "環球教育新聞｜掌握國際教育最新動態\nhttps://globalednews.com/\n\n最新消息｜本日精選\n9月10日更新的英國學生防詐指南提醒：學費折扣與移民罰款要求，先向學校查證。UKCISA 另提醒，沒有要求回覆的純到期通知可能是真實。\nhttps://globalednews.com/news/uk-university-student-fraud-guide-september-2026/\n\n追蹤最新消息，點擊免費加入環球教育新聞會員：https://globalednews.com/newsletter/ 。每週一封教育新聞、招生政策與精選觀點，免費且可取消。",
+  "linkedinCopy": "環球教育新聞｜掌握國際教育最新動態\nhttps://globalednews.com/\n\n最新消息｜本日精選\n國際學生支持也包括辨識付款風險。英國警方9月10日更新的指南，搭配 UKCISA 獨立接獲的假冒來電案例，提供學校與家庭可共同採用的查證方向。\n\n教育工作者可提醒學生：遇到陌生付款指示，循學校正式窗口核對；同時區分純粹簽證到期提醒，避免過度概括。查核整理：https://globalednews.com/news/uk-university-student-fraud-guide-september-2026/\n\n追蹤最新消息，點擊免費加入環球教育新聞會員：https://globalednews.com/newsletter/ 。每週一封教育新聞、招生政策與精選觀點，免費且可取消。",
+  "xCopy": "英國學生防詐指南9月10日更新：陌生學費折扣與假移民罰款須先查證。https://globalednews.com/news/uk-university-student-fraud-guide-september-2026/",
+  "CTA": "追蹤最新消息，點擊免費加入環球教育新聞會員：https://globalednews.com/newsletter/ 。每週一封教育新聞、招生政策與精選觀點，免費且可取消。",
+  "socialImage": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Parkinson_Building.jpg",
+  "imageAlt": "英國里茲大學 Parkinson Building 校園資料照，非詐騙事件現場",
+  "category": "英國留學",
+  "topic": "uk",
+  "verification": {
+    "checkedAt": "2026-09-26T06:06:59.570210+08:00",
+    "sources": [
+      {
+        "label": "Report Fraud 官方大學生防詐指南（2026年9月10日更新）",
+        "url": "https://www.reportfraud.police.uk/university-students-booklet/"
+      },
+      {
+        "label": "UKCISA：Frauds and scams（2026年2月3日更新）",
+        "url": "https://www.ukcisa.org.uk/student-advice/life-in-the-uk/frauds-and-scams/"
+      }
+    ],
+    "independence": "官方指南與UKCISA自行接獲案例交叉核對；未將交互連結視為獨立證據。"
+  },
+  "imageLicense": {
+    "source": "https://commons.wikimedia.org/wiki/File:Parkinson_Building.jpg",
+    "author": "Andreamanx",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "changes": "none",
+    "photoDate": "2020-11-08",
+    "checkedAt": "2026-09-26T06:06:59.570210+08:00",
+    "duplicateCheck": "No Parkinson/Leeds match in existing news source files"
+  },
+  "visualAcceptance": false
+}

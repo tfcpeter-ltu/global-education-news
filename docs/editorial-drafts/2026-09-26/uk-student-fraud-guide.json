@@ -1,5 +1,5 @@
 {
-  "status": "needs-image-and-final-review",
+  "status": "edited-needs-build-and-live-acceptance",
   "title": "英國警方更新大學生防詐指南：假學費折扣與假移民罰款須先向學校查證",
   "date": "2026-09-26",
   "author": "LTU Global Education News 編輯部",
@@ -16,8 +16,19 @@
     "https://www.ukcisa.org.uk/student-advice/life-in-the-uk/frauds-and-scams/"
   ],
   "imageRequest": {
-    "status": "needed",
+    "status": "licensed-image-found-needs-visual-review",
     "subject": "英國大學校園或學生安全相關授權照片",
     "requirements": "獨立授權明確主圖；不得使用官方可見但未確認再利用權的照片；須核對近期縮圖及視覺驗收。"
+  },
+  "articleUrl": "https://globalednews.com/news/uk-university-student-fraud-guide-september-2026/",
+  "imageLicense": {
+    "source": "https://commons.wikimedia.org/wiki/File:Parkinson_Building.jpg",
+    "author": "Andreamanx",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "changes": "none",
+    "photoDate": "2020-11-08",
+    "checkedAt": "2026-09-26T06:06:59.570210+08:00",
+    "duplicateCheck": "No Parkinson/Leeds match in existing news source files"
   }
 }
