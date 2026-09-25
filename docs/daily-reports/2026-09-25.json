@@ -372,10 +372,10 @@
     "checkedAt": "2026-09-25T05:31:00+08:00"
   },
   "peterCheck": {
-    "checkedAt": "2026-09-25T12:02:22.5831299+08:00",
+    "checkedAt": "2026-09-25T10:04:34.088Z",
     "sourcePage": "https://www.facebook.com/61585164670358",
-    "latestObserved": "12:00 recovery: latest visible original remains recommendation-letter post 1 day ago, story pfbid0FT3gAsEuvqf325ZzmBKYJY3CDpK3AejgG3Ets3gRMbFx8isEtqYSDayN3zLrwrVil, already imported September 24. No newer original visible.",
-    "status": "no-new-original-in-reviewed-feed",
+    "latestObserved": "New original observed about 1 hour ago: undergraduate abroad versus postgraduate abroad; sourceId 122144934435172155, photo 122144936739172155. Full text read after expanding photo-page caption. Not yet imported; original contains unverified credential insinuations and broad language/cost/employment claims.",
+    "status": "new-original-pending-editorial-verification",
     "newImports": 0
   },
   "platformConnectionCheck": {
@@ -398,7 +398,7 @@
     "workflowUrl": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/36063082138",
     "status": "success"
   },
-  "updatedAt": "2026-09-25T12:02:22.5831299+08:00",
+  "updatedAt": "2026-09-25T10:04:34.088Z",
   "ltuMediaCheck": {
     "checkedAt": "2026-09-25T06:36:00+08:00",
     "url": "https://globalednews.com/",
@@ -432,7 +432,8 @@
       "07:00 recovery: Canada and Pearson desktop header/title screenshots reviewed using 1200 x 850 clips; full-page and lower-image captures still timed out. Browser scroll attempts left scrollY at 0. Full visual coverage remains pending.",
       "08:00 recovery: Knight-Hennessy live title, summary and upper image region reviewed in 1200 x 850 desktop screenshot. Full-page capture again timed out after 5000ms; desktop remains incomplete.",
       "09:00 recovery: Yenching live page content read successfully; complete desktop screenshot failed again with Page.captureScreenshot timeout. No additional visual acceptance claimed.",
-      "12:00 recovery: Yenching live content read; alternative fullPage capture clipped to x300 y400 width900 height1400 also timed out. Desktop image/layout acceptance remains incomplete."
+      "12:00 recovery: Yenching live content read; alternative fullPage capture clipped to x300 y400 width900 height1400 also timed out. Desktop image/layout acceptance remains incomplete.",
+      "18:00 recovery: fresh browser session opened Yenching live page, but standard viewport screenshot again failed with Page.captureScreenshot timeout. No viewport override was applied."
     ],
     "limitations": [
       "Desktop full visual coverage incomplete due intermittent Page.captureScreenshot timeout. Mobile acceptance recovered in new CUA-created tab."
@@ -445,7 +446,7 @@
     ]
   },
   "dailyVerification": {
-    "checkedAt": "2026-09-25T12:02:22.5831299+08:00",
+    "checkedAt": "2026-09-25T10:04:34.088Z",
     "missing": [
       "fewer than 3 verified distinct Peter imports",
       "missing live acceptance evidence"
@@ -455,12 +456,21 @@
   },
   "recoveryCheck": {
     "verifiedPublishedPosts": 15,
-    "workflowRun": "36080324812",
+    "workflowRun": "36101600247",
     "workflowConclusion": "success",
-    "checkedAt": "2026-09-25T12:02:22.5831299+08:00",
+    "checkedAt": "2026-09-25T10:04:34.088Z",
     "resentPosts": 0,
     "socialLogStatus": "completed",
-    "baselineCommit": "205c93bba95fd9ef6546a96b7c4eb2b7bb9ff404"
-  }
+    "baselineCommit": "5bcf8dfe8e2793a84eaa7c23681ff9438737f7e6"
+  },
+  "peterCandidates": [
+    {
+      "sourceId": "122144934435172155",
+      "sourceUrl": "https://www.facebook.com/photo/?fbid=122144936739172155",
+      "title": "高中畢業就出國讀大學，或大學畢業後再出國讀研究所？",
+      "observedAt": "2026-09-25T10:04:34.088Z",
+      "status": "pending-editorial-verification",
+      "requiredWork": "Verify general study-duration/cost/employment statements or produce a clearly attributed educational opinion adaptation without unsupported credential allegations; obtain image and complete build/deploy/live acceptance before counting import."
+    }
+  ]
 }
-
