@@ -1,22 +1,12 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-24T06:09:00.490Z",
+  "updatedAt": "2026-09-25T06:09:11.429Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
     {
-      "title": "美國加強 CPT 實習規範執行：部分大學暫停特定申請，國際學生要注意什麼？｜環球教育新聞網 Global Education News",
-      "path": "/news/us-cpt-internship-enforcement-2026/",
-      "views": 15
-    },
-    {
-      "title": "QS 2027 全球 MBA 排名公布：MIT Sloan 居首，選校仍須分清排名與個人適合度｜環球教育新聞網 Global Education News",
-      "path": "/news/qs-global-mba-2027-mit-sloan/",
-      "views": 10
-    },
-    {
-      "title": "香港大學 2027 Non-JUPAS 9月23日開放：國際資格申請與 Rolling Admissions 重點｜環球教育新聞網 Global Education News",
-      "path": "/news/hku-2027-non-jupas-opens-september-23/",
+      "title": "愛爾蘭六所大學主席籲增撥經費：2027、2028 預算各增 1.9 億歐元仍屬倡議｜環球教育新聞網 Global Education News",
+      "path": "/news/ireland-university-budget-2027-funding-appeal/",
       "views": 9
     },
     {
@@ -25,8 +15,18 @@
       "views": 8
     },
     {
+      "title": "香港大學 2027 Non-JUPAS 9月23日開放：國際資格申請與 Rolling Admissions 重點｜環球教育新聞網 Global Education News",
+      "path": "/news/hku-2027-non-jupas-opens-september-23/",
+      "views": 8
+    },
+    {
       "title": "ILAC 停辦：加拿大啟動語言學生安置，住宿與旅費不在保障範圍｜環球教育新聞網 Global Education News",
       "path": "/news/ilac-language-student-placement-september-2026/",
+      "views": 7
+    },
+    {
+      "title": "最新國際教育新聞",
+      "path": "/news/",
       "views": 7
     }
   ],
@@ -34,26 +34,32 @@
     {
       "name": "台灣",
       "mapName": "Taiwan",
-      "sessions": 222,
-      "share": 63.1
+      "sessions": 216,
+      "share": 62.2
     },
     {
       "name": "美國",
       "mapName": "United States",
-      "sessions": 65,
-      "share": 18.5
+      "sessions": 58,
+      "share": 16.7
     },
     {
       "name": "印度",
       "mapName": "India",
-      "sessions": 17,
-      "share": 4.8
+      "sessions": 18,
+      "share": 5.2
     },
     {
       "name": "英國",
       "mapName": "United Kingdom",
-      "sessions": 15,
-      "share": 4.3
+      "sessions": 12,
+      "share": 3.5
+    },
+    {
+      "name": "加拿大",
+      "mapName": "Canada",
+      "sessions": 8,
+      "share": 2.3
     },
     {
       "name": "香港",
@@ -68,28 +74,22 @@
       "share": 1.4
     },
     {
-      "name": "加拿大",
-      "mapName": "Canada",
-      "sessions": 4,
-      "share": 1.1
-    },
-    {
       "name": "中國",
       "mapName": "China",
       "sessions": 4,
-      "share": 1.1
+      "share": 1.2
     },
     {
-      "name": "Macao",
-      "mapName": "Macao",
+      "name": "紐西蘭",
+      "mapName": "New Zealand",
+      "sessions": 4,
+      "share": 1.2
+    },
+    {
+      "name": "日本",
+      "mapName": "Japan",
       "sessions": 3,
       "share": 0.9
-    },
-    {
-      "name": "澳洲",
-      "mapName": "Australia",
-      "sessions": 2,
-      "share": 0.6
     }
   ]
 }
