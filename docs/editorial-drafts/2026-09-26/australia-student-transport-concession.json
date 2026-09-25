@@ -1,0 +1,24 @@
+{
+  "status": "needs-independent-news-check-and-image",
+  "title": "澳洲大學協會呼籲擴大學生交通優惠：國際生仍須按州別查資格",
+  "date": "2026-09-26",
+  "author": "LTU Global Education News 編輯部",
+  "description": "9月8日的大學協會倡議尚不能當成已實施政策；留學生規劃交通預算仍須核對各州現行辦法。",
+  "body": [
+    "Universities Australia 於2026年9月8日呼籲政府提供學生生活成本支持，其中包括讓國際學生公平取得公共運輸學生優惠。這是產業組織提出的政策倡議，不代表澳洲已實施全國統一的新優惠。",
+    "University of Wollongong 的現行 Opal 指引顯示，一般學生優惠有修課與身分等條件；國際生的符合資格政府全額獎學金例外須另查。本文不將協會訴求改寫成所有台灣留學生現在都能取得折扣。",
+    "給台灣家庭的編輯建議：比較學校時，把校區位置、通勤方式與實際可用票種列入預算。未取得申請資格確認前，先按一般票價估算，避免把倡議中的優惠列為確定收入或折扣。"
+  ],
+  "sources": [
+    "https://universitiesaustralia.edu.au/media-item/concession-cards-for-all-students-as-cost-of-living-pressures-bite/",
+    "https://www.uow.edu.au/student/admin/travel-passes/"
+  ],
+  "remainingChecks": [
+    "須再核對 Transport NSW 官方現行例外的完整用語及獨立報導，不照抄UOW可能造成誤解的條件排列。"
+  ],
+  "imageRequest": {
+    "status": "needed",
+    "subject": "澳洲校園公共運輸授權照片",
+    "requirements": "獨立授權明確主圖與近期縮圖去重；完成視覺驗收。"
+  }
+}

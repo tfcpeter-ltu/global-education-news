@@ -3,7 +3,7 @@
   "timezone": "Asia/Taipei",
   "baselineCommit": "ea200ddd01dc90ceac02972cbf494b47179195a0",
   "status": "partial",
-  "updatedAt": "2026-09-26T05:14:58.633828+08:00",
+  "updatedAt": "2026-09-26T05:18:56.831639+08:00",
   "newsPublished": [],
   "scholarshipChecks": [
     {
@@ -18,7 +18,8 @@
       "verifiedAt": "2026-09-26T05:14:58.633828+08:00",
       "eligibleTaiwan": true,
       "open": true,
-      "publishedVerifiedAt": null
+      "publishedVerifiedAt": "2026-09-26T05:18:56.831639+08:00",
+      "publicationVerification": "HTTP 200, updated content and canonical; visual and interaction checks pending"
     },
     {
       "slug": "2026-09-gates-cambridge-2027",
@@ -34,7 +35,8 @@
       "verifiedAt": "2026-09-26T05:14:58.633828+08:00",
       "eligibleTaiwan": true,
       "open": true,
-      "publishedVerifiedAt": null
+      "publishedVerifiedAt": "2026-09-26T05:18:56.831639+08:00",
+      "publicationVerification": "HTTP 200, updated content and canonical; visual and interaction checks pending"
     },
     {
       "slug": "2026-09-oxford-clarendon-2027",
@@ -50,13 +52,17 @@
       "verifiedAt": "2026-09-26T05:14:58.633828+08:00",
       "eligibleTaiwan": true,
       "open": true,
-      "publishedVerifiedAt": null
+      "publishedVerifiedAt": "2026-09-26T05:18:56.831639+08:00",
+      "publicationVerification": "HTTP 200, updated content and canonical; visual and interaction checks pending"
     }
   ],
   "peterImports": [],
   "socialPosts": [],
   "deployment": {
-    "status": "pending"
+    "commit": "901b313fda3e9009c1affc000bdf374f16b099bc",
+    "status": "success",
+    "workflowUrl": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/36190628692",
+    "verifiedAt": "2026-09-26T05:18:56.831639+08:00"
   },
   "acceptance": {
     "desktop": false,
@@ -85,7 +91,8 @@
         "https://www.ukcisa.org.uk/student-advice/life-in-the-uk/frauds-and-scams/"
       ],
       "status": "sources-read-needs-image-and-final-edit",
-      "facts": "警方指南發布7月19日、更新9月10日；UKCISA2月3日指引獨立記錄假冒Home Office案例。不得宣稱9月26日剛發布。"
+      "facts": "警方指南發布7月19日、更新9月10日；UKCISA2月3日指引獨立記錄假冒Home Office案例。不得宣稱9月26日剛發布。",
+      "draftPath": "docs/editorial-drafts/2026-09-26/uk-student-fraud-guide.json"
     },
     {
       "title": "澳洲大學協會倡議國際生交通優惠",
@@ -94,7 +101,8 @@
         "https://www.uow.edu.au/student/admin/travel-passes/"
       ],
       "status": "sources-read-needs-independent-news-check-and-image",
-      "facts": "9月8日為倡議，不能寫成政府已實施；UOW現行Opal資格有條件。"
+      "facts": "9月8日為倡議，不能寫成政府已實施；UOW現行Opal資格有條件。",
+      "draftPath": "docs/editorial-drafts/2026-09-26/australia-student-transport-concession.json"
     }
   ],
   "blockers": [
@@ -109,5 +117,62 @@
     "Recover browser and verify scholarships search/filters and desktop/mobile views.",
     "Read Peter source and deduplicate.",
     "Prepare DIY and Taiwan database campaign, check platform history, publish only missing 15 posts."
-  ]
+  ],
+  "liveHttpChecks": [
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-09-hkpfs-2027/",
+      "http": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-09-hkpfs-2027/",
+      "hasOG": true,
+      "updatedContent": true
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-09-gates-cambridge-2027/",
+      "http": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-09-gates-cambridge-2027/",
+      "hasOG": true,
+      "updatedContent": true
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-09-oxford-clarendon-2027/",
+      "http": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-09-oxford-clarendon-2027/",
+      "hasOG": true,
+      "updatedContent": true
+    }
+  ],
+  "scholarshipIndexCheck": {
+    "checkedAt": "2026-09-26T05:18:56.831639+08:00",
+    "allThreeLinked": true,
+    "formMarkupPresent": true,
+    "interactionVerified": false
+  },
+  "ltuCheck": {
+    "poolCount": 12,
+    "codeRead": true,
+    "date": "2026-09-26",
+    "expectedIndices": [
+      6,
+      7,
+      8
+    ],
+    "visualVerified": false
+  },
+  "newsRejectedCandidates": [
+    {
+      "title": "UKCISA English language requirements research",
+      "reason": "6月22日研究，尚未找到今日新進展；不以舊研究充當今日新消息。"
+    }
+  ],
+  "dailyVerification": {
+    "command": "node scripts/verify-daily-delivery.mjs 2026-09-26",
+    "exitCode": 1,
+    "missing": [
+      "3 verified news",
+      "3 Peter imports",
+      "15 verified social posts",
+      "desktop/mobile live acceptance"
+    ],
+    "checkedAt": "2026-09-26T05:19:23.947602+08:00"
+  }
 }
