@@ -15,7 +15,14 @@ const isRoyalCrownHomeBanner = placement === 'H1';
   <aside class="ad-placement royal-crown-banner" aria-label="廣告：Royal Crown School 加拿大皇冠高中" data-ad-placement={placement}>
     <div class="ad-placement-label">ADVERTISEMENT · 廣告</div>
     <a class="royal-crown-banner-link" href="https://www.ossdtw.com/" target="_blank" rel="sponsored noopener" aria-label="前往 Royal Crown School 加拿大皇冠高中台灣資訊網站">
-      <img src="/ads/images/royal-crown-school-home-banner.webp" width="1800" height="696" alt="Royal Crown School 加拿大皇冠高中校內體育館實景，OSSD 國際升學與個人化支持" loading="lazy" decoding="async" />
+      <img src="/ads/images/royal-crown-school-home-banner.webp" width="1500" height="750" alt="" loading="lazy" decoding="async" />
+      <span class="royal-crown-banner-copy">
+        <span class="royal-crown-banner-eyebrow">加拿大多倫多・安大略省高中</span>
+        <strong>ROYAL CROWN SCHOOL</strong>
+        <span class="royal-crown-banner-feature">OSSD 國際升學・個人化支持</span>
+        <span class="royal-crown-banner-detail">現代校園｜小班教學｜銜接全球大學</span>
+      </span>
+      <span class="royal-crown-banner-cta">探索加拿大升學 <span aria-hidden="true">↗</span></span>
     </a>
   </aside>
 ) : (
@@ -43,10 +50,17 @@ const isRoyalCrownHomeBanner = placement === 'H1';
   .ad-placement.card{max-width:760px}
   .royal-crown-banner{padding:11px 11px 12px;background:#071c43;border-color:#c9a552;border-top-color:#c9a552}
   .royal-crown-banner .ad-placement-label{margin:0 5px 8px;color:#ead69b}
-  .royal-crown-banner-link{display:block;padding:0;border:0;overflow:hidden;background:#071c43}
+  .royal-crown-banner-link{position:relative;display:flex;align-items:center;justify-content:space-between;gap:22px;height:126px;padding:0 24px;border:0;overflow:hidden;background:#071c43;color:#fff;text-align:left}
   .royal-crown-banner-link:hover,.royal-crown-banner-link:focus-visible{background:#071c43;outline:3px solid #e4bc5d;outline-offset:3px}
-  .royal-crown-banner img{display:block;width:100%;height:126px;object-fit:cover;object-position:center 63%;transition:transform .25s ease}
+  .royal-crown-banner-link::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(5,24,62,.97) 0%,rgba(5,24,62,.83) 43%,rgba(5,24,62,.22) 69%,rgba(5,24,62,.38) 100%);pointer-events:none}
+  .royal-crown-banner img{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover;object-position:center 15%;transition:transform .25s ease}
   .royal-crown-banner-link:hover img{transform:scale(1.008)}
+  .royal-crown-banner-copy{position:relative;z-index:1;display:flex;min-width:0;flex-direction:column;justify-content:center}
+  .royal-crown-banner-eyebrow{margin-bottom:2px;color:#e9c86b;font:700 .64rem/1.2 Arial,sans-serif;letter-spacing:.11em}
+  .royal-crown-banner-copy strong{margin:0;color:#f4d67e;font:700 clamp(1.35rem,2.4vw,2.15rem)/1 Georgia,"Times New Roman",serif;letter-spacing:.025em;white-space:nowrap}
+  .royal-crown-banner-feature{margin-top:4px;color:#fff;font:700 clamp(.84rem,1.45vw,1.18rem)/1.15 Georgia,"Noto Serif TC",serif;white-space:nowrap}
+  .royal-crown-banner-detail{margin-top:3px;color:#eef3fa;font:600 .7rem/1.2 Arial,"Noto Sans TC",sans-serif;letter-spacing:.035em}
+  .royal-crown-banner-cta{position:relative;z-index:1;flex:none;padding:10px 16px;border:1px solid #e4bc5d;border-radius:999px;background:rgba(5,24,62,.8);color:#f8df99;font:700 .8rem/1 Arial,"Noto Sans TC",sans-serif;white-space:nowrap}
   @media(max-width:640px){.ad-placement{margin:28px 12px;padding:13px 15px 16px}.ad-placement-content{align-items:flex-start;flex-direction:column;gap:13px}.ad-placement a{width:100%;box-sizing:border-box;text-align:center}}
-  @media(max-width:640px){.royal-crown-banner{padding:9px}.royal-crown-banner-link{width:auto}.royal-crown-banner img{height:90px;object-position:center 63%}}
+  @media(max-width:640px){.royal-crown-banner{padding:9px}.royal-crown-banner-link{width:auto;height:90px;padding:0 10px;gap:8px;text-align:left}.royal-crown-banner img{object-position:center 15%}.royal-crown-banner-link::after{background:linear-gradient(90deg,rgba(5,24,62,.97) 0%,rgba(5,24,62,.8) 62%,rgba(5,24,62,.24) 100%)}.royal-crown-banner-eyebrow,.royal-crown-banner-detail{display:none}.royal-crown-banner-copy strong{font-size:1rem}.royal-crown-banner-feature{font-size:.7rem}.royal-crown-banner-cta{padding:7px 8px;font-size:.62rem}}
 </style>
