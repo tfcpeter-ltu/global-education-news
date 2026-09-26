@@ -1,35 +1,40 @@
 ---
 layout: ../../../layouts/ScholarshipLayout.astro
-title: "Macquarie Vice-Chancellor’s International Scholarship 2027：最高 AUD 10,000"
-description: "Macquarie Vice-Chancellor’s International Scholarship 2027：最高 AUD 10,000；2026 年 9 月 26 日已依官方與第二來源重新查核，台灣學生可依國際生資格申請。"
+title: "Macquarie VCIS 2027：最高 AUD 10,000，全年開放申請"
+description: "Macquarie University Vice-Chancellor’s International Scholarship 全年開放，國際學士與授課型碩士新生最高可獲 AUD 10,000 一次性學費減免。"
 date: 2026-09-26
 author: "LTU Global Education News 編輯部"
 country: "澳洲"
-level: "學士、授課型研究所"
-funding: "一次性學費減免最高 AUD 10,000"
-deadline: "依 2027 課程申請與獎學金時程"
+level: "學士、授課型碩士"
+funding: "最高 AUD 10,000 一次性學費減免"
+deadline: "全年開放；名額有限，取得完整錄取後另行申請"
 status: "開放中"
 sourceType: "大學獎學金"
-sourceName: "大學官方；獨立留學資訊"
+sourceName: "Macquarie University；獎學金條款"
 officialUrl: "https://www.mq.edu.au/study/admissions-and-entry/scholarships/international/vice-chancellor-s-international-scholarship/"
-secondSourceUrl: "https://www.idp.com/australia/study-to-migrate/international-scholarships-in-australia-for-2026-intakes/"
-eligibilityTW: "可申請；台灣學生屬國際申請人，仍須符合課程與獎學金條件"
-taiwanNote: "須先取得合格課程錄取並達學術門檻；金額依評選結果。"
+secondSourceUrl: "https://students.mq.edu.au/__data/assets/pdf_file/0010/367291/Vice-Chancellors_International_Scholarship_Conditions.pdf"
+eligibilityTW: "可申請；全日制國際新生，研究所 WAM 相當 65 或學士 ATAR 相當 85 起"
+taiwanNote: "須先取得完整課程錄取再送短版獎學金申請；金額為最高值且名額有限。"
 verificationDate: "2026-09-26"
-featuredDate: "2026-09-26"
-featuredUntil: "2026-09-29T00:00:00+08:00"
 category: "大學國際生獎學金"
+image: "/images/scholarships/macquarie-vcis-2027.svg"
+imageAlt: "Macquarie VCIS 2027 獎學金資訊圖"
+imageCredit: "LTU Global Education News 編輯部原創資訊圖"
+imageSource: "https://globalednews.com/"
 ---
 
 ## 今天查核結果
 
-官方頁面確認本項獎學金目前適用於符合條件的國際新生，補助為 **一次性學費減免最高 AUD 10,000**。台灣申請人可依國際生身分進入審查，但仍須符合目標課程的學術、英文、先修與排除條款。
+Macquarie 官方頁面標示申請 **全年開放**，獎額最高 **AUD 10,000**，作為一次性學費減免。適用全日制國際學士或授課型碩士新生，台灣學生未被國籍條件排除。
 
-## 台灣學生申請提醒
+## 申請門檻與程序
 
-須先取得合格課程錄取並達學術門檻；金額依評選結果。 學費減免不包含住宿、保險、簽證、交通與生活費；自動審查也不代表保證獲獎。請以正式錄取信或獎學金通知確認金額、適用期間與維持條件。
+研究所申請人須達相當於 WAM 65，學士申請人須達相當於 ATAR 85。申請人先取得完整課程錄取與學號，再填寫獎學金申請；課程及獎學金須在通知所列梯次開始。
+
+「最高 AUD 10,000」不代表每位得主均取得最高額，也不是每年重複發放。名額有限，應在取得錄取後及早完成申請。
 
 ## 官方與交叉查核來源
 
-- [官方獎學金頁](https://www.mq.edu.au/study/admissions-and-entry/scholarships/international/vice-chancellor-s-international-scholarship/)
-- [第二查核來源](https://www.idp.com/australia/study-to-migrate/international-scholarships-in-australia-for-2026-intakes/)
+- [Macquarie VCIS 官方頁](https://www.mq.edu.au/study/admissions-and-entry/scholarships/international/vice-chancellor-s-international-scholarship/)
+- [Macquarie VCIS 條款](https://students.mq.edu.au/__data/assets/pdf_file/0010/367291/Vice-Chancellors_International_Scholarship_Conditions.pdf)
+

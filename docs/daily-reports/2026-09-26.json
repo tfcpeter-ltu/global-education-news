@@ -97,6 +97,18 @@
       "publicationVerification": "HTTP 200、更新內容、canonical；獎學金搜尋篩選桌面與手機互動已驗收，Clarendon正式頁面本回合再次閱讀與截圖。"
     }
   ],
+  "scholarshipAdditions": [
+    {"slug":"2026-09-adelaide-merit-2027","status":"prepared","eligibleTaiwan":true,"open":true,"verificationDate":"2026-09-26"},
+    {"slug":"2026-09-adelaide-academic-excellence-2027","status":"prepared","eligibleTaiwan":true,"open":true,"verificationDate":"2026-09-26"},
+    {"slug":"2026-09-deakin-vice-chancellor-international-2027","status":"prepared","eligibleTaiwan":true,"open":true,"verificationDate":"2026-09-26"},
+    {"slug":"2026-09-deakin-excellence-international-2027","status":"prepared","eligibleTaiwan":true,"open":true,"verificationDate":"2026-09-26"},
+    {"slug":"2026-09-deakin-international-merit-2027","status":"prepared","eligibleTaiwan":true,"open":true,"verificationDate":"2026-09-26"},
+    {"slug":"2026-09-macquarie-vcis-2027","status":"prepared","eligibleTaiwan":true,"open":true,"verificationDate":"2026-09-26"},
+    {"slug":"2026-09-tasmanian-international-scholarship-2027","status":"prepared","eligibleTaiwan":true,"open":true,"verificationDate":"2026-09-26"},
+    {"slug":"2026-09-latrobe-high-achiever-2027","status":"prepared","eligibleTaiwan":true,"open":true,"verificationDate":"2026-09-26"},
+    {"slug":"2026-09-uow-university-excellence-2027","status":"prepared","eligibleTaiwan":true,"open":true,"verificationDate":"2026-09-26"},
+    {"slug":"2026-09-uow-postgraduate-academic-excellence-2027","status":"prepared","eligibleTaiwan":true,"open":true,"verificationDate":"2026-09-26"}
+  ],
   "peterImports": [
     {
       "slug": "undergraduate-or-postgraduate-abroad-planning",

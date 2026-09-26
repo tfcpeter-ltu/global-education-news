@@ -1,7 +1,7 @@
 ---
 layout: ../../../layouts/ScholarshipLayout.astro
-title: "UOW Postgraduate Academic Excellence Scholarship 2027：研究所學費減免 30%"
-description: "UOW Postgraduate Academic Excellence Scholarship 2027：研究所學費減免 30%；2026 年 9 月 26 日已依官方與第二來源重新查核，台灣學生可依國際生資格申請。"
+title: "UOW Postgraduate Academic Excellence Scholarship 2027：授課型研究所學費減免 30%"
+description: "University of Wollongong 2027 Postgraduate Academic Excellence Scholarship 為符合條件國際授課型研究所新生提供 30% 學費減免並自動審查。"
 date: 2026-09-26
 author: "LTU Global Education News 編輯部"
 country: "澳洲"
@@ -10,26 +10,31 @@ funding: "合格課程最低修業期間學費減免 30%"
 deadline: "隨 2027 入學申請自動審查"
 status: "開放中"
 sourceType: "大學獎學金"
-sourceName: "大學官方；獨立留學資訊"
+sourceName: "University of Wollongong；UOW 國際獎學金清單"
 officialUrl: "https://www.uow.edu.au/study/scholarships/international/"
 secondSourceUrl: "https://www.uow.edu.au/study/international/"
-eligibilityTW: "可申請；台灣學生屬國際申請人，仍須符合課程與獎學金條件"
-taiwanNote: "符合條件的國際授課型研究所新生可接受自動審查；部分課程排除。"
+eligibilityTW: "可申請；符合條件的國際授課型研究所新生，部分課程排除"
+taiwanNote: "免另行申請不代表保證獲獎；須核對課程排除、學術門檻及不得重複領取規定。"
 verificationDate: "2026-09-26"
-featuredDate: "2026-09-26"
-featuredUntil: "2026-09-29T00:00:00+08:00"
 category: "大學國際生獎學金"
+image: "/images/scholarships/uow-postgrad-2027.svg"
+imageAlt: "UOW Postgraduate Academic Excellence Scholarship 2027 資訊圖"
+imageCredit: "LTU Global Education News 編輯部原創資訊圖"
+imageSource: "https://globalednews.com/"
 ---
 
 ## 今天查核結果
 
-官方頁面確認本項獎學金目前適用於符合條件的國際新生，補助為 **合格課程最低修業期間學費減免 30%**。台灣申請人可依國際生身分進入審查，但仍須符合目標課程的學術、英文、先修與排除條款。
+UOW 官方國際獎學金清單列出 Postgraduate Academic Excellence Scholarship，適用澳洲校區的合格授課型研究所課程。2027 入學者由校方依入學資料自動評估，獎助為最低修業期間 **30% 學費減免**。
 
 ## 台灣學生申請提醒
 
-符合條件的國際授課型研究所新生可接受自動審查；部分課程排除。 學費減免不包含住宿、保險、簽證、交通與生活費；自動審查也不代表保證獲獎。請以正式錄取信或獎學金通知確認金額、適用期間與維持條件。
+台灣學士畢業生可按國際生程序申請，但仍須符合目標碩士的學術、英文及先修要求。部分課程有排除條款，也不能假設可與其他 UOW 學費獎助同時使用。
+
+申請人應在錄取信確認獎學金名稱、比例及維持條件；生活費、保險、簽證與延長修業費用不包含在 30% 減免內。
 
 ## 官方與交叉查核來源
 
-- [官方獎學金頁](https://www.uow.edu.au/study/scholarships/international/)
-- [第二查核來源](https://www.uow.edu.au/study/international/)
+- [UOW 國際學生獎學金清單](https://www.uow.edu.au/study/scholarships/international/)
+- [UOW 國際學生申請資訊](https://www.uow.edu.au/study/international/)
+

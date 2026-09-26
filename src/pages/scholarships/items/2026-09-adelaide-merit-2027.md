@@ -19,6 +19,10 @@ verificationDate: "2026-09-26"
 featuredDate: "2026-09-26"
 featuredUntil: "2026-09-29T00:00:00+08:00"
 category: "大學國際生獎學金"
+image: "/images/scholarships/adelaide-merit-2027.svg"
+imageAlt: "Adelaide Merit Scholarship 2027 獎學金資訊圖"
+imageCredit: "LTU Global Education News 編輯部原創資訊圖"
+imageSource: "https://globalednews.com/"
 ---
 
 ## 今天查核結果
@@ -27,9 +31,12 @@ Adelaide University 官方頁面確認，此獎學金提供國際新生 **15% �
 
 ## 申請條件與台灣學生提醒
 
-申請人須以國際學生身分入學，課程在抵免後仍須符合官方規定的最低修業量。先前學業成績須達校方對應標準，部分課程、其他獎助或 Australia Awards 得主可能不適用。15% 是學費減免，不含住宿、保險、簽證、交通與生活費。
+申請人須以國際學生身分入學，課程在抵免後仍須符合官方規定的最低修業量。先前學業成績須達校方對應標準，部分課程、其他獎助或 Australia Awards 得主可能不適用。
+
+對台灣學生而言，重點是先完成合格課程的入學申請，並讓校方依正式成績單換算。**15% 是學費減免，不含住宿、保險、簽證、交通與生活費。**
 
 ## 官方與交叉查核來源
 
 - [Adelaide University 官方獎學金頁](https://adelaide.edu.au/study/scholarships/int/adelaide-merit-scholarship-15/)
 - [Adelaide University 國際學生指南](https://adelaide.edu.au/content/dam/adelaideuniversity/documents/about/pdfs/Adelaide%20University_2026%20International%20Student%20Guide_FW_July_2025_2.pdf)
+
