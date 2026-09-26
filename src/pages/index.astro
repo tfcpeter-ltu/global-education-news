@@ -154,10 +154,21 @@ const latest = internationalStories.slice(0, 6);
           <aside class="advertising-rail" aria-label="廣告">
             <div class="ad-label">ADVERTISEMENT · 廣告</div>
             <div class="ad-box" data-ad-placement="H2">
-              <div class="ad-kicker">GLOBAL EDUCATION MARKETPLACE</div>
-              <h3>國際教育廣告版位</h3>
-              <p>大學、國際高中、國際課程、教育活動與專業服務。</p>
-              <a href={link('advertise/')}>廣告合作資訊 →</a>
+              <a class="cambridge-ad" href="https://zh.enjoy-abc.online/cambridge" target="_blank" rel="sponsored noopener" aria-label="前往 Cambridge and Enjoy ABC 官方網站">
+                <img class="cambridge-ad-photo" src={link('ads/images/cambridge-enjoyabc-business.webp')} alt="Cambridge and Enjoy ABC 企業英語課程形象" loading="lazy" />
+                <span class="cambridge-ad-shade" aria-hidden="true"></span>
+                <span class="cambridge-ad-content">
+                  <span class="cambridge-ad-brands">
+                    <img src={link('ads/images/cambridge-language-logo.png')} alt="Cambridge" loading="lazy" />
+                    <span aria-hidden="true">×</span>
+                    <img src={link('ads/images/enjoyabc-logo.png')} alt="Enjoy ABC" loading="lazy" />
+                  </span>
+                  <span class="cambridge-ad-eyebrow">CAMBRIDGE AND ENJOY ABC</span>
+                  <strong>盡情享受英文</strong>
+                  <span class="cambridge-ad-copy">企業英語培訓｜全英語環境｜彈性線上學習</span>
+                  <span class="cambridge-ad-cta">探索 Cambridge 課程 ↗</span>
+                </span>
+              </a>
             </div>
           </aside>
         </div>
@@ -317,45 +328,25 @@ const latest = internationalStories.slice(0, 6);
     text-align: center;
   }
   .ad-box {
-    padding: 22px 20px 20px;
-    border: 1px solid var(--line);
-    background: rgba(255, 253, 248, .45);
-    text-align: center;
+    border: 1px solid #173c68;
+    background: #0d3158;
     flex: 1;
     min-height: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
   }
-  .ad-kicker {
-    font-family: Arial, "Noto Sans TC", sans-serif;
-    font-size: .61rem;
-    letter-spacing: .13em;
-    color: var(--burgundy);
-    font-weight: 800;
-  }
-  .ad-box h3 {
-    margin: 9px 0 8px;
-    font-family: Georgia, "Noto Serif TC", serif;
-    font-size: 1.35rem;
-    line-height: 1.2;
-  }
-  .ad-box p {
-    margin: 0 0 13px;
-    color: var(--muted);
-    font-size: .86rem;
-    line-height: 1.55;
-  }
-  .ad-box a {
-    display: inline-block;
-    padding-top: 9px;
-    border-top: 1px solid var(--line);
-    font-family: Arial, "Noto Sans TC", sans-serif;
-    font-size: .72rem;
-    font-weight: 800;
-    color: var(--burgundy);
-  }
+  .cambridge-ad{position:relative;display:block;min-height:300px;height:100%;overflow:hidden;color:#fff;text-decoration:none;isolation:isolate}
+  .cambridge-ad-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;transition:transform .35s ease}
+  .cambridge-ad-shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,28,51,.22) 0%,rgba(5,28,51,.72) 44%,rgba(5,28,51,.97) 100%);z-index:1}
+  .cambridge-ad-content{position:relative;z-index:2;min-height:300px;padding:18px 18px 17px;display:flex;flex-direction:column;justify-content:flex-end;align-items:flex-start;text-align:left;box-sizing:border-box}
+  .cambridge-ad-brands{position:absolute;top:14px;left:14px;right:14px;display:flex;align-items:center;gap:8px;padding:7px 9px;background:rgba(255,255,255,.93);box-shadow:0 3px 14px rgba(0,0,0,.18)}
+  .cambridge-ad-brands img:first-child{width:39px;height:35px;object-fit:contain}
+  .cambridge-ad-brands img:last-child{width:104px;height:auto;object-fit:contain}
+  .cambridge-ad-brands span{color:#1d4b78;font:700 .8rem Arial,sans-serif}
+  .cambridge-ad-eyebrow{font:800 .58rem/1.3 Arial,"Noto Sans TC",sans-serif;letter-spacing:.14em;color:#ffd54f;margin-bottom:5px}
+  .cambridge-ad-content strong{font:900 clamp(1.75rem,2.6vw,2.15rem)/1.04 Georgia,"Noto Serif TC",serif;letter-spacing:.03em;text-shadow:0 2px 8px rgba(0,0,0,.45)}
+  .cambridge-ad-copy{margin-top:8px;font:700 .76rem/1.55 Arial,"Noto Sans TC",sans-serif;color:#f4f8fc}
+  .cambridge-ad-cta{margin-top:12px;padding-top:9px;border-top:1px solid rgba(255,255,255,.55);font:800 .71rem/1.2 Arial,"Noto Sans TC",sans-serif;color:#ffd54f}
+  .cambridge-ad:hover .cambridge-ad-photo{transform:scale(1.035)}
+  .cambridge-ad:focus-visible{outline:3px solid #f7c44a;outline-offset:3px}
   .ltu-news-section {
     padding-top: 22px;
     border-top: 3px double var(--line-dark);
@@ -450,7 +441,9 @@ const latest = internationalStories.slice(0, 6);
   }
 
   @media (max-width: 760px) {
-    .ad-box { min-height: 220px; }
+    .ad-box,.cambridge-ad,.cambridge-ad-content { min-height: 240px; }
+    .cambridge-ad-content{padding:16px}
+    .cambridge-ad-content strong{font-size:1.8rem}
     .ltu-more-list { grid-template-columns: 1fr; }
     .ltu-more-list a { grid-template-columns: 64px 1fr auto; }
   }
