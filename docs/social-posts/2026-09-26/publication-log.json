@@ -22,7 +22,8 @@
       "url": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02L17jCAZzyJvXaNbDowAFAH8N2K1hChETR3MJP2FMxALpPcVem8S4JEdTeoRZ6oLdl",
       "verifiedAt": "2026-09-26T01:11:18.638Z",
       "observedAt": "2026-09-26T01:11:18.638Z",
-      "proofScreenshot": "fb-news-published26.png"
+      "proofScreenshot": "fb-news-published26.png",
+      "proofRepositoryPath": "docs/social-posts/2026-09-26/evidence/fb-news-published26.png"
     },
     {
       "campaign": "news",
@@ -41,7 +42,8 @@
       "evidence": "ig-news-published26.png",
       "verification": "分享成功後重新開啟公開貼文，核對帳號、全文、圖片、會員 CTA；發送時 Threads 同步關閉。",
       "id": "DduyKnREzvo",
-      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DduyKnREzvo/"
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DduyKnREzvo/",
+      "proofRepositoryPath": "docs/social-posts/2026-09-26/evidence/ig-news-published26.png"
     },
     {
       "campaign": "news",
@@ -75,7 +77,8 @@
       "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7509419812725407744/",
       "verifiedAt": "2026-09-26T01:14:24.274Z",
       "observedAt": "2026-09-26T01:14:24.274Z",
-      "proofScreenshot": "li-news-published26.png"
+      "proofScreenshot": "li-news-published26.png",
+      "proofRepositoryPath": "docs/social-posts/2026-09-26/evidence/li-news-published26.png"
     },
     {
       "campaign": "scholarship",
@@ -88,7 +91,8 @@
       "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0zqo2LakJ3XL6sJp6Tn3GZ5uXkGXQtbWTTbdkPVKxuD6z6pX9KupyQT2mFwjyBNXbl",
       "verifiedAt": "2026-09-26T01:16:09.217Z",
       "observedAt": "2026-09-26T01:16:09.217Z",
-      "proofScreenshot": "fb-scholarship-published26.png"
+      "proofScreenshot": "fb-scholarship-published26.png",
+      "proofRepositoryPath": "docs/social-posts/2026-09-26/evidence/fb-scholarship-published26.png"
     },
     {
       "campaign": "scholarship",
@@ -114,7 +118,8 @@
       "url": "https://www.instagram.com/ltuossdtw/p/Ddu0Quwk572/",
       "verifiedAt": "2026-09-26T01:07:54.724Z",
       "observedAt": "2026-09-26T01:07:54.724Z",
-      "proofScreenshot": "ig-scholarship-published26.png"
+      "proofScreenshot": "ig-scholarship-published26.png",
+      "proofRepositoryPath": "docs/social-posts/2026-09-26/evidence/ig-scholarship-published26.png"
     },
     {
       "campaign": "scholarship",
@@ -131,7 +136,8 @@
       "publicUrl": "https://www.threads.com/@ltuossdtw/post/DduzPb_k9d5",
       "verifiedAt": "2026-09-26T00:58:31.298Z",
       "observedAt": "2026-09-26T00:58:31.298Z",
-      "evidence": "threads-scholarship-published26.png"
+      "evidence": "threads-scholarship-published26.png",
+      "proofRepositoryPath": "docs/social-posts/2026-09-26/evidence/threads-scholarship-published26.png"
     },
     {
       "campaign": "scholarship",
@@ -144,7 +150,8 @@
       "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7509420456874070016/",
       "verifiedAt": "2026-09-26T01:17:13.436Z",
       "observedAt": "2026-09-26T01:17:13.436Z",
-      "proofScreenshot": "li-scholarship-published26.png"
+      "proofScreenshot": "li-scholarship-published26.png",
+      "proofRepositoryPath": "docs/social-posts/2026-09-26/evidence/li-scholarship-published26.png"
     },
     {
       "campaign": "study-abroad",
@@ -155,7 +162,8 @@
       "id": "pfbid02HKbr5ZpvySCtkqD9XZAUSx2Fe5RiwxAeK1AsfRnYz89UAoZgZb8mksDAHuR1stC2l",
       "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02HKbr5ZpvySCtkqD9XZAUSx2Fe5RiwxAeK1AsfRnYz89UAoZgZb8mksDAHuR1stC2l",
       "verifiedAt": "2026-09-26T01:36:47.339Z",
-      "proof": "fb-diy-published26.png"
+      "proof": "fb-diy-published26.png",
+      "proofRepositoryPath": "docs/social-posts/2026-09-26/evidence/fb-diy-published26.png"
     },
     {
       "campaign": "study-abroad",
@@ -171,7 +179,8 @@
       "id": "Ddu2rkNkzgE",
       "publicUrl": "https://www.instagram.com/ltuossdtw/p/Ddu2rkNkzgE/",
       "verifiedAt": "2026-09-26T01:31:51.790Z",
-      "proof": "ig-diy-published26.png"
+      "proof": "ig-diy-published26.png",
+      "proofRepositoryPath": "docs/social-posts/2026-09-26/evidence/ig-diy-published26.png"
     },
     {
       "campaign": "study-abroad",
@@ -187,7 +196,8 @@
       "publicUrl": "https://www.threads.com/@ltuossdtw/post/Ddu2PwkE5ue",
       "verifiedAt": "2026-09-26T01:24:44.170Z",
       "observedAt": "2026-09-26T01:24:44.170Z",
-      "proofScreenshot": "threads-diy-published26.png"
+      "proofScreenshot": "threads-diy-published26.png",
+      "proofRepositoryPath": "docs/social-posts/2026-09-26/evidence/threads-diy-published26.png"
     },
     {
       "campaign": "study-abroad",
@@ -198,7 +208,8 @@
       "id": "7509424503492415489",
       "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7509424503492415489/",
       "verifiedAt": "2026-09-26T01:32:48.179Z",
-      "proof": "li-diy-published26.png"
+      "proof": "li-diy-published26.png",
+      "proofRepositoryPath": "docs/social-posts/2026-09-26/evidence/li-diy-published26.png"
     },
     {
       "campaign": "taiwan-universities",
@@ -214,7 +225,8 @@
       "publicUrl": "https://www.threads.com/@ltuossdtw/post/Ddu2a5nkzpq",
       "verifiedAt": "2026-09-26T01:26:38.503Z",
       "observedAt": "2026-09-26T01:26:38.503Z",
-      "proofScreenshot": "threads-taiwan-published26.png"
+      "proofScreenshot": "threads-taiwan-published26.png",
+      "proofRepositoryPath": "docs/social-posts/2026-09-26/evidence/threads-taiwan-published26.png"
     },
     {
       "campaign": "taiwan-universities",
@@ -226,7 +238,8 @@
       "id": "Ddu3kO_E_5-",
       "publicUrl": "https://www.instagram.com/ltuossdtw/p/Ddu3kO_E_5-/",
       "verifiedAt": "2026-09-26T01:36:47.493Z",
-      "proof": "ig-taiwan-published26.png"
+      "proof": "ig-taiwan-published26.png",
+      "proofRepositoryPath": "docs/social-posts/2026-09-26/evidence/ig-taiwan-published26.png"
     },
     {
       "campaign": "taiwan-universities",
@@ -237,7 +250,8 @@
       "id": "7509425907749634048",
       "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7509425907749634048/",
       "verifiedAt": "2026-09-26T01:38:02.095Z",
-      "proof": "li-taiwan-published26.png"
+      "proof": "li-taiwan-published26.png",
+      "proofRepositoryPath": "docs/social-posts/2026-09-26/evidence/li-taiwan-published26.png"
     }
   ],
   "metricool": {
