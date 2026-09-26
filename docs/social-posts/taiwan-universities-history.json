@@ -268,6 +268,56 @@
         }
       ],
       "topic": "電機比較的判斷依據與官方來源入口"
+    },
+    {
+      "date": "2026-09-26",
+      "campaign": "taiwan-universities",
+      "topic": "護理關鍵字搜尋與零筆結果判讀",
+      "status": "published",
+      "version": "v1",
+      "CTA": "免費加入會員",
+      "contentPath": "docs/social-posts/2026-09-26/taiwan-universities--nursing-search.json",
+      "publishedPosts": [
+        {
+          "campaign": "taiwan-universities",
+          "network": "threads",
+          "status": "PUBLISHED",
+          "intentAt": "2026-09-26T01:25:29.901Z",
+          "articleUrl": "https://globalednews.com/taiwan-universities/",
+          "account": "ltuossdtw",
+          "version": 1,
+          "dedupeCheck": "今日最新只有新聞、Clarendon及剛發布Sydney，昨日資料庫為私立科技型，無本日護理搜尋。",
+          "socialImage": "taiwan-nursing-search26.png",
+          "id": "Ddu2a5nkzpq",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/Ddu2a5nkzpq",
+          "verifiedAt": "2026-09-26T01:26:38.503Z",
+          "observedAt": "2026-09-26T01:26:38.503Z",
+          "proofScreenshot": "threads-taiwan-published26.png"
+        },
+        {
+          "campaign": "taiwan-universities",
+          "network": "instagram",
+          "status": "PUBLISHED",
+          "intentAt": "2026-09-26T01:35:26.914Z",
+          "copy": "國內大學選校選系資料庫｜找到適合你的學習方向\nhttps://globalednews.com/taiwan-universities/\n\n最新消息｜本日精選\n用「護理」試試科系搜尋，再看每張卡片的資料範圍。\n\n今天已實測搜尋、零筆提示與重設條件。若找不到結果，先換關鍵字或清除條件；這不代表學校沒開設該系。\n索引、站內判讀與匿名評論都不是官方排名，也不是錄取或就業保證。\n\n追蹤最新消息，點擊免費加入環球教育新聞會員：\nhttps://globalednews.com/newsletter/\n每週一封教育新聞、招生政策與精選觀點，免費且可隨時取消。\n（IG 文字網址未必可直接點擊；本文保留完整入口。）\n圖片：2026/9/26 本站資料庫實際操作截圖。",
+          "threadsSync": false,
+          "id": "Ddu3kO_E_5-",
+          "publicUrl": "https://www.instagram.com/ltuossdtw/p/Ddu3kO_E_5-/",
+          "verifiedAt": "2026-09-26T01:36:47.493Z",
+          "proof": "ig-taiwan-published26.png"
+        },
+        {
+          "campaign": "taiwan-universities",
+          "network": "linkedin",
+          "status": "PUBLISHED",
+          "intentAt": "2026-09-26T01:37:31.029Z",
+          "copy": "國內大學選校選系資料庫｜找到適合你的學習方向\nhttps://globalednews.com/taiwan-universities/\n\n最新消息｜本日精選\n選系工具最需要說清楚的，是「搜尋結果代表什麼」。今天以護理作為關鍵字，實際操作本站的科系搜尋、無匹配結果提示與重設條件，確認讀者能縮小範圍，也能重新開始。\n\n輔導學生時，建議把搜尋當作建立問題清單的起點：找到的內容涵蓋本站已建檔資料，不代表全台完整名單；找不到，也不能據此推論某校沒有開設。下一步應回查學校官方課程、招生與資格資訊。\n\n這則介紹的是本站操作功能，不是護理校系排名或就業評比。資料卡片的未完成項目與來源，仍應一併閱讀；站內分析與匿名評論不能當成錄取或就業保證。\n\n追蹤最新消息，點擊免費加入環球教育新聞會員：\nhttps://globalednews.com/newsletter/\n每週一封教育新聞、招生政策與精選觀點，免費且可隨時取消。\n\n圖片：2026/9/26 本站資料庫實際操作截圖。",
+          "id": "7509425907749634048",
+          "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7509425907749634048/",
+          "verifiedAt": "2026-09-26T01:38:02.095Z",
+          "proof": "li-taiwan-published26.png"
+        }
+      ]
     }
   ]
 }

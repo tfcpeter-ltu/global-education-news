@@ -1,97 +1,243 @@
 {
   "date": "2026-09-26",
   "timezone": "Asia/Taipei",
-  "status": "partial",
+  "status": "published",
   "posts": [
     {
       "campaign": "news",
       "network": "facebook",
-      "status": "NOT_SENT",
-      "reason": "尚未送出；今日平台歷史、登入與圖文驗收未齊。替代乾淨瀏覽器不具已核實登入；後續本地瀏覽器操作被自動核准審查使用額度錯誤擋下。"
+      "status": "PUBLISHED",
+      "intentAt": "2026-09-26T01:10:11.405Z",
+      "socialImage": "news-social26.png",
+      "dedupeCheck": "指定專頁最新為18小時前短片，其後為昨日McGill、Pearson與新聞；本日無相同文章；先前已查今日Metricool排程。",
+      "attempts": [
+        {
+          "status": "UPLOAD_FAILED",
+          "file": "Parkinson_Building.jpg",
+          "error": "Facebook 無法上傳你的檔案；未送出貼文。"
+        }
+      ],
+      "id": "1071200042322860",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02L17jCAZzyJvXaNbDowAFAH8N2K1hChETR3MJP2FMxALpPcVem8S4JEdTeoRZ6oLdl",
+      "url": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02L17jCAZzyJvXaNbDowAFAH8N2K1hChETR3MJP2FMxALpPcVem8S4JEdTeoRZ6oLdl",
+      "verifiedAt": "2026-09-26T01:11:18.638Z",
+      "observedAt": "2026-09-26T01:11:18.638Z",
+      "proofScreenshot": "fb-news-published26.png"
     },
     {
       "campaign": "news",
       "network": "instagram",
-      "status": "NOT_SENT",
-      "reason": "尚未送出；今日平台歷史、登入與圖文驗收未齊。替代乾淨瀏覽器不具已核實登入；後續本地瀏覽器操作被自動核准審查使用額度錯誤擋下。"
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/news/uk-university-student-fraud-guide-september-2026/",
+      "account": "ltuossdtw",
+      "version": 1,
+      "intentAt": "2026-09-26T00:48:23.363Z",
+      "threadsSync": false,
+      "dedupe": "個人頁最新仍為9月25日資料庫、McGill、Pearson；今日排程空。",
+      "platformPostId": "DduyKnREzvo",
+      "url": "https://www.instagram.com/ltuossdtw/p/DduyKnREzvo/",
+      "verifiedAt": "2026-09-26T00:52:09.318Z",
+      "observedAt": "2026-09-26T00:52:09.318Z",
+      "evidence": "ig-news-published26.png",
+      "verification": "分享成功後重新開啟公開貼文，核對帳號、全文、圖片、會員 CTA；發送時 Threads 同步關閉。",
+      "id": "DduyKnREzvo",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DduyKnREzvo/"
     },
     {
       "campaign": "news",
       "network": "threads",
-      "status": "NOT_SENT",
-      "reason": "尚未送出；今日平台歷史、登入與圖文驗收未齊。替代乾淨瀏覽器不具已核實登入；後續本地瀏覽器操作被自動核准審查使用額度錯誤擋下。"
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/news/uk-university-student-fraud-guide-september-2026/",
+      "account": "ltuossdtw",
+      "version": 1,
+      "intentAt": "2026-09-26T00:39:14.791Z",
+      "dedupe": "今日紀錄無發送；個人頁最新三則為昨日國內資料庫、McGill、Pearson；今日Metricool排程空。",
+      "imagePath": "C:/Users/User/.codex/visualizations/2026/09/12/01a097a5-665a-7bf0-ac94-3780d5d16075/gen-daily-20260926/tfcpeter-ltu-global-education-news-ea200dd/news-social26.png",
+      "id": "DduxHXqk8qB",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DduxHXqk8qB",
+      "verifiedAt": "2026-09-26T00:39:52.593Z",
+      "previewVerified": true
     },
     {
       "campaign": "news",
       "network": "linkedin",
-      "status": "NOT_SENT",
-      "reason": "尚未送出；今日平台歷史、登入與圖文驗收未齊。替代乾淨瀏覽器不具已核實登入；後續本地瀏覽器操作被自動核准審查使用額度錯誤擋下。"
+      "status": "PUBLISHED",
+      "intentAt": "2026-09-26T00:53:20.926Z",
+      "articleUrl": "https://globalednews.com/news/uk-university-student-fraud-guide-september-2026/",
+      "account": "Peter Chen / peter-chen-26a754228",
+      "version": 1,
+      "dedupe": "已回讀本人近期活動，最新仍為9月25日四主題，無今日防詐新聞。",
+      "failedAt": "2026-09-26T00:54:42.397Z",
+      "retryAt": "2026-09-26T01:13:17.226Z",
+      "socialImage": "news-social26.png",
+      "priorFailure": "原始照片遭LinkedIn圖片上傳錯誤；返回草稿更換正式站截圖，未重複發文。",
+      "id": "7509419812725407744",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7509419812725407744/",
+      "verifiedAt": "2026-09-26T01:14:24.274Z",
+      "observedAt": "2026-09-26T01:14:24.274Z",
+      "proofScreenshot": "li-news-published26.png"
     },
     {
       "campaign": "scholarship",
       "network": "facebook",
-      "status": "NOT_SENT",
-      "reason": "尚未送出；今日平台歷史、登入與圖文驗收未齊。替代乾淨瀏覽器不具已核實登入；後續本地瀏覽器操作被自動核准審查使用額度錯誤擋下。"
+      "status": "PUBLISHED",
+      "intentAt": "2026-09-26T01:14:04.473Z",
+      "socialImage": "clarendon-social26.png",
+      "dedupeCheck": "已讀指定FB專頁近期貼文，本日僅剛發布新聞；前日Pearson獎學金，不重複Clarendon。",
+      "id": "pfbid0zqo2LakJ3XL6sJp6Tn3GZ5uXkGXQtbWTTbdkPVKxuD6z6pX9KupyQT2mFwjyBNXbl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0zqo2LakJ3XL6sJp6Tn3GZ5uXkGXQtbWTTbdkPVKxuD6z6pX9KupyQT2mFwjyBNXbl",
+      "verifiedAt": "2026-09-26T01:16:09.217Z",
+      "observedAt": "2026-09-26T01:16:09.217Z",
+      "proofScreenshot": "fb-scholarship-published26.png"
     },
     {
       "campaign": "scholarship",
       "network": "instagram",
-      "status": "NOT_SENT",
-      "reason": "尚未送出；今日平台歷史、登入與圖文驗收未齊。替代乾淨瀏覽器不具已核實登入；後續本地瀏覽器操作被自動核准審查使用額度錯誤擋下。"
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-oxford-clarendon-2027/",
+      "intentAt": "2026-09-26T01:00:37.852Z",
+      "threadsSync": false,
+      "version": 1,
+      "account": "ltuossdtw",
+      "dedupe": "今日IG僅新聞，昨日Pearson，無本日Clarendon。",
+      "attempts": [
+        {
+          "status": "FAILED",
+          "reason": "Uploaded image is not in an allowed aspect ratio"
+        }
+      ],
+      "retryAt": "2026-09-26T01:03:46.080Z",
+      "crop": "Instagram 16:9",
+      "id": "Ddu0Quwk572",
+      "platformPostId": "Ddu0Quwk572",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Ddu0Quwk572/",
+      "url": "https://www.instagram.com/ltuossdtw/p/Ddu0Quwk572/",
+      "verifiedAt": "2026-09-26T01:07:54.724Z",
+      "observedAt": "2026-09-26T01:07:54.724Z",
+      "proofScreenshot": "ig-scholarship-published26.png"
     },
     {
       "campaign": "scholarship",
       "network": "threads",
-      "status": "NOT_SENT",
-      "reason": "尚未送出；今日平台歷史、登入與圖文驗收未齊。替代乾淨瀏覽器不具已核實登入；後續本地瀏覽器操作被自動核准審查使用額度錯誤擋下。"
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-oxford-clarendon-2027/",
+      "intentAt": "2026-09-26T00:57:47.540Z",
+      "version": 1,
+      "account": "ltuossdtw",
+      "dedupe": "今日個人頁僅新聞；昨日為Pearson獎學金，無Clarendon今日貼文。",
+      "id": "DduzPb_k9d5",
+      "platformPostId": "DduzPb_k9d5",
+      "url": "https://www.threads.com/@ltuossdtw/post/DduzPb_k9d5",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DduzPb_k9d5",
+      "verifiedAt": "2026-09-26T00:58:31.298Z",
+      "observedAt": "2026-09-26T00:58:31.298Z",
+      "evidence": "threads-scholarship-published26.png"
     },
     {
       "campaign": "scholarship",
       "network": "linkedin",
-      "status": "NOT_SENT",
-      "reason": "尚未送出；今日平台歷史、登入與圖文驗收未齊。替代乾淨瀏覽器不具已核實登入；後續本地瀏覽器操作被自動核准審查使用額度錯誤擋下。"
+      "status": "PUBLISHED",
+      "intentAt": "2026-09-26T01:15:38.433Z",
+      "socialImage": "clarendon-social26.png",
+      "dedupeCheck": "本日已查Peter Chen個人檔案，昨日Pearson／McGill；本日僅已發布英國防詐新聞，無Clarendon。",
+      "id": "7509420456874070016",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7509420456874070016/",
+      "verifiedAt": "2026-09-26T01:17:13.436Z",
+      "observedAt": "2026-09-26T01:17:13.436Z",
+      "proofScreenshot": "li-scholarship-published26.png"
     },
     {
       "campaign": "study-abroad",
       "network": "facebook",
-      "status": "NOT_SENT",
-      "reason": "尚未送出；今日平台歷史、登入與圖文驗收未齊。替代乾淨瀏覽器不具已核實登入；後續本地瀏覽器操作被自動核准審查使用額度錯誤擋下。"
+      "status": "PUBLISHED",
+      "intentAt": "2026-09-26T01:34:55.845Z",
+      "copy": "留學 DIY 導航｜海外大學選校與申請規劃\nhttps://globalednews.com/study-abroad/\n\n最新消息｜本日精選\n雪梨大學於1850年創立。校方校史與澳洲國家博物館的歷史時間軸，都能交叉確認這個年份；博物館也說明它是澳洲第一所大學。這是一段校史，不是新的招生政策。\n\n認識一所老牌大學之後，台灣家庭更需要問：孩子想讀的課程，當年度究竟教什麼？需要哪些先修科目與英文條件？校史與校名不能代替這些核對。\n\n今天已實際在留學 DIY 導航找到 University of Sydney，並開啟學校分析頁的官方課程與申請入口。可先用導航整理問題，再回校方核對當年度要求；站內研究判讀不是錄取或就業保證。\n\n追蹤最新消息，點擊免費加入環球教育新聞會員：\nhttps://globalednews.com/newsletter/\n每週一封教育新聞、招生政策與精選觀點，免費且可隨時取消。\n\n圖片：Yumin6048／Wikimedia Commons，CC BY-SA 4.0；平台裁切。\nhttps://commons.wikimedia.org/wiki/File:The_Quadrangle_in_the_University_of_Sydney.jpg\nhttps://creativecommons.org/licenses/by-sa/4.0/",
+      "id": "pfbid02HKbr5ZpvySCtkqD9XZAUSx2Fe5RiwxAeK1AsfRnYz89UAoZgZb8mksDAHuR1stC2l",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02HKbr5ZpvySCtkqD9XZAUSx2Fe5RiwxAeK1AsfRnYz89UAoZgZb8mksDAHuR1stC2l",
+      "verifiedAt": "2026-09-26T01:36:47.339Z",
+      "proof": "fb-diy-published26.png"
     },
     {
       "campaign": "study-abroad",
       "network": "instagram",
-      "status": "NOT_SENT",
-      "reason": "尚未送出；今日平台歷史、登入與圖文驗收未齊。替代乾淨瀏覽器不具已核實登入；後續本地瀏覽器操作被自動核准審查使用額度錯誤擋下。"
+      "status": "PUBLISHED",
+      "intentAt": "2026-09-26T01:27:43.848Z",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "account": "ltuossdtw",
+      "version": 1,
+      "threadsSync": false,
+      "socialImage": "sydney-social26.jpg",
+      "dedupeCheck": "IG最新為本日Clarendon、防詐，其後昨日資料庫/McGill；無Sydney。",
+      "id": "Ddu2rkNkzgE",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Ddu2rkNkzgE/",
+      "verifiedAt": "2026-09-26T01:31:51.790Z",
+      "proof": "ig-diy-published26.png"
     },
     {
       "campaign": "study-abroad",
       "network": "threads",
-      "status": "NOT_SENT",
-      "reason": "尚未送出；今日平台歷史、登入與圖文驗收未齊。替代乾淨瀏覽器不具已核實登入；後續本地瀏覽器操作被自動核准審查使用額度錯誤擋下。"
+      "status": "PUBLISHED",
+      "intentAt": "2026-09-26T01:23:38.269Z",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "account": "ltuossdtw",
+      "version": 1,
+      "dedupeCheck": "今日最新Clarendon與防詐新聞，後接昨日資料庫；今日紀錄與排程無雪梨主題。",
+      "socialImage": "sydney-social26.jpg",
+      "id": "Ddu2PwkE5ue",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Ddu2PwkE5ue",
+      "verifiedAt": "2026-09-26T01:24:44.170Z",
+      "observedAt": "2026-09-26T01:24:44.170Z",
+      "proofScreenshot": "threads-diy-published26.png"
     },
     {
       "campaign": "study-abroad",
       "network": "linkedin",
-      "status": "NOT_SENT",
-      "reason": "尚未送出；今日平台歷史、登入與圖文驗收未齊。替代乾淨瀏覽器不具已核實登入；後續本地瀏覽器操作被自動核准審查使用額度錯誤擋下。"
+      "status": "PUBLISHED",
+      "intentAt": "2026-09-26T01:31:52.251Z",
+      "copy": "留學 DIY 導航｜海外大學選校與申請規劃\nhttps://globalednews.com/study-abroad/\n\n最新消息｜本日精選\n雪梨大學的1850年創校史，可以成為選校討論的起點。校方校史與澳洲國家博物館的歷史時間軸提供了兩個獨立來源，確認這所澳洲大學的創立年份。\n\n對教育工作者與台灣家長而言，歷史背景的價值在於幫助學生形成研究問題。真正做申請決定時，仍須回到當年度課程、先修要求、英文條件與文件期限，不宜把學校聲望直接轉成適合度或錄取推論。\n\n今天實際操作環球教育新聞的留學 DIY 導航，確認已收錄 University of Sydney，學校頁也提供官方課程及申請入口。歡迎用導航整理比較問題，再逐項回查校方；站內分析不構成錄取或就業保證。\n\n追蹤最新消息，點擊免費加入環球教育新聞會員：\nhttps://globalednews.com/newsletter/\n每週一封教育新聞、招生政策與精選觀點，免費且可隨時取消。\n\n圖片：Yumin6048／Wikimedia Commons，CC BY-SA 4.0；平台裁切。\nhttps://commons.wikimedia.org/wiki/File:The_Quadrangle_in_the_University_of_Sydney.jpg\nhttps://creativecommons.org/licenses/by-sa/4.0/",
+      "id": "7509424503492415489",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7509424503492415489/",
+      "verifiedAt": "2026-09-26T01:32:48.179Z",
+      "proof": "li-diy-published26.png"
     },
     {
       "campaign": "taiwan-universities",
       "network": "threads",
-      "status": "NOT_SENT",
-      "reason": "尚未送出；今日平台歷史、登入與圖文驗收未齊。替代乾淨瀏覽器不具已核實登入；後續本地瀏覽器操作被自動核准審查使用額度錯誤擋下。"
+      "status": "PUBLISHED",
+      "intentAt": "2026-09-26T01:25:29.901Z",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "account": "ltuossdtw",
+      "version": 1,
+      "dedupeCheck": "今日最新只有新聞、Clarendon及剛發布Sydney，昨日資料庫為私立科技型，無本日護理搜尋。",
+      "socialImage": "taiwan-nursing-search26.png",
+      "id": "Ddu2a5nkzpq",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Ddu2a5nkzpq",
+      "verifiedAt": "2026-09-26T01:26:38.503Z",
+      "observedAt": "2026-09-26T01:26:38.503Z",
+      "proofScreenshot": "threads-taiwan-published26.png"
     },
     {
       "campaign": "taiwan-universities",
       "network": "instagram",
-      "status": "NOT_SENT",
-      "reason": "尚未送出；今日平台歷史、登入與圖文驗收未齊。替代乾淨瀏覽器不具已核實登入；後續本地瀏覽器操作被自動核准審查使用額度錯誤擋下。"
+      "status": "PUBLISHED",
+      "intentAt": "2026-09-26T01:35:26.914Z",
+      "copy": "國內大學選校選系資料庫｜找到適合你的學習方向\nhttps://globalednews.com/taiwan-universities/\n\n最新消息｜本日精選\n用「護理」試試科系搜尋，再看每張卡片的資料範圍。\n\n今天已實測搜尋、零筆提示與重設條件。若找不到結果，先換關鍵字或清除條件；這不代表學校沒開設該系。\n索引、站內判讀與匿名評論都不是官方排名，也不是錄取或就業保證。\n\n追蹤最新消息，點擊免費加入環球教育新聞會員：\nhttps://globalednews.com/newsletter/\n每週一封教育新聞、招生政策與精選觀點，免費且可隨時取消。\n（IG 文字網址未必可直接點擊；本文保留完整入口。）\n圖片：2026/9/26 本站資料庫實際操作截圖。",
+      "threadsSync": false,
+      "id": "Ddu3kO_E_5-",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Ddu3kO_E_5-/",
+      "verifiedAt": "2026-09-26T01:36:47.493Z",
+      "proof": "ig-taiwan-published26.png"
     },
     {
       "campaign": "taiwan-universities",
       "network": "linkedin",
-      "status": "NOT_SENT",
-      "reason": "尚未送出；今日平台歷史、登入與圖文驗收未齊。替代乾淨瀏覽器不具已核實登入；後續本地瀏覽器操作被自動核准審查使用額度錯誤擋下。"
+      "status": "PUBLISHED",
+      "intentAt": "2026-09-26T01:37:31.029Z",
+      "copy": "國內大學選校選系資料庫｜找到適合你的學習方向\nhttps://globalednews.com/taiwan-universities/\n\n最新消息｜本日精選\n選系工具最需要說清楚的，是「搜尋結果代表什麼」。今天以護理作為關鍵字，實際操作本站的科系搜尋、無匹配結果提示與重設條件，確認讀者能縮小範圍，也能重新開始。\n\n輔導學生時，建議把搜尋當作建立問題清單的起點：找到的內容涵蓋本站已建檔資料，不代表全台完整名單；找不到，也不能據此推論某校沒有開設。下一步應回查學校官方課程、招生與資格資訊。\n\n這則介紹的是本站操作功能，不是護理校系排名或就業評比。資料卡片的未完成項目與來源，仍應一併閱讀；站內分析與匿名評論不能當成錄取或就業保證。\n\n追蹤最新消息，點擊免費加入環球教育新聞會員：\nhttps://globalednews.com/newsletter/\n每週一封教育新聞、招生政策與精選觀點，免費且可隨時取消。\n\n圖片：2026/9/26 本站資料庫實際操作截圖。",
+      "id": "7509425907749634048",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7509425907749634048/",
+      "verifiedAt": "2026-09-26T01:38:02.095Z",
+      "proof": "li-taiwan-published26.png"
     }
   ],
   "metricool": {
@@ -103,5 +249,5 @@
     "scheduledToday": 0,
     "quotaStatus": "not established; no test post sent"
   },
-  "updatedAt": "2026-09-26T08:12:00+08:00"
+  "updatedAt": "2026-09-26T01:38:02.229Z"
 }
