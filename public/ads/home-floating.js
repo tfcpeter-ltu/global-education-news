@@ -8,12 +8,10 @@
     ad.setAttribute('aria-label', 'Advertisement');
     ad.querySelector('button').setAttribute('aria-label', 'Close advertisement');
     ad.querySelector('.news-floating-ad-label').textContent = 'ADVERTISEMENT';
-    ad.querySelector('img').alt = 'University advertising space';
-    ad.querySelector('strong').textContent = 'University advertising space';
-    ad.querySelector('p').textContent = 'Introduce your university to readers exploring international education.';
-    const link = ad.querySelector('a');
-    link.href = '/en/advertise/';
-    link.textContent = 'Advertising enquiries ↗';
+    ad.querySelector('img').alt = 'UWE Bristol recruitment advertisement featuring the Clifton Suspension Bridge';
+    ad.querySelector('strong').textContent = 'UWE Bristol | Turn learning into a real career';
+    ad.querySelector('p').textContent = 'Practical learning, industry connections and modern facilities in Bristol, one of the UK’s most creative cities.';
+    ad.querySelector('.news-floating-ad-cta').textContent = 'Explore UWE Bristol ↗';
   }
   ad.querySelector('button').addEventListener('click', () => {
     ad.remove();
