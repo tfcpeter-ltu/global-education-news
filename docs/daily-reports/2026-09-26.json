@@ -3,8 +3,43 @@
   "timezone": "Asia/Taipei",
   "baselineCommit": "ea200ddd01dc90ceac02972cbf494b47179195a0",
   "status": "partial",
-  "updatedAt": "2026-09-26T05:18:56.831639+08:00",
-  "newsPublished": [],
+  "updatedAt": "2026-09-26T08:12:00+08:00",
+  "newsPublished": [
+    {
+      "slug": "uk-university-student-fraud-guide-september-2026",
+      "url": "https://globalednews.com/news/uk-university-student-fraud-guide-september-2026/",
+      "commit": "68f02b840422ecfc78119847803403793b1c394a",
+      "status": "live-verified",
+      "desktopVerified": true,
+      "mobileVerified": true,
+      "seoVerified": true,
+      "sources": [
+        "https://www.reportfraud.police.uk/university-students-booklet/",
+        "https://www.ukcisa.org.uk/student-advice/life-in-the-uk/frauds-and-scams/"
+      ],
+      "evidence": "本日先前實際 HTTP 200、canonical、OG、NewsArticle、sitemap-0、News sitemap、weekly-feed.xml 查核；1200×800 與390×844正式文章截圖已檢視。"
+    },
+    {
+      "slug": "australia-student-transport-concessions-advocacy-2026",
+      "url": "https://globalednews.com/news/australia-student-transport-concessions-advocacy-2026/",
+      "commit": "1d37cdfbce72e15c17592ba61a97680664546ffc",
+      "status": "deployed-live-acceptance-pending",
+      "desktopVerified": false,
+      "mobileVerified": false,
+      "seoVerified": false,
+      "evidence": "本地Astro與雙語檢查通過；GitHub Actions成功。08:11 web工具實際開啟失敗，不能據此認定正式網址失效或通過驗收。"
+    },
+    {
+      "slug": "uk-esag-international-education-sector-action-plans-2026",
+      "url": "https://globalednews.com/news/uk-esag-international-education-sector-action-plans-2026/",
+      "commit": "1d37cdfbce72e15c17592ba61a97680664546ffc",
+      "status": "deployed-live-acceptance-pending",
+      "desktopVerified": false,
+      "mobileVerified": false,
+      "seoVerified": false,
+      "evidence": "本地Astro與雙語檢查通過；GitHub Actions成功。08:11 web工具實際開啟失敗，不能據此認定正式網址失效或通過驗收。"
+    }
+  ],
   "scholarshipChecks": [
     {
       "slug": "2026-09-hkpfs-2027",
@@ -59,10 +94,10 @@
   "peterImports": [],
   "socialPosts": [],
   "deployment": {
-    "commit": "901b313fda3e9009c1affc000bdf374f16b099bc",
+    "commit": "1d37cdfbce72e15c17592ba61a97680664546ffc",
     "status": "success",
-    "workflowUrl": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/36190628692",
-    "verifiedAt": "2026-09-26T05:18:56.831639+08:00"
+    "workflowUrl": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/36196483142",
+    "verifiedAt": "2026-09-26T08:12:00+08:00"
   },
   "acceptance": {
     "desktop": false,
@@ -70,8 +105,8 @@
     "seo": false
   },
   "localBuild": {
-    "astro": "passed:256 pages",
-    "bilingual": "passed:508 Chinese/English page pairs after 21 manual translation overrides"
+    "astro": "passed before content commit 1d37cdf",
+    "bilingual": "passed:511 Chinese/English page pairs"
   },
   "sunmoonCheck": {
     "url": "https://www.sunmoonnews.com.tw/",
@@ -80,8 +115,8 @@
     "note": "首頁實際開啟；未將一般台灣地方內容列入國際首頁。"
   },
   "peterCheck": {
-    "status": "blocked",
-    "reason": "今日 CUA 初始化與重置後皆 Windows CreateProcessWithLogonW 1920；未能重新讀取指定粉專，不能沿用昨日候選當今日新匯入。"
+    "status": "partial-source-view-no-import",
+    "reason": "替代乾淨瀏覽器已開啟指定61585164670358，辨識Peterの國際教育講座，但登入遮罩下未完成來源貼文讀取去重；最後一次後續操作被自動核准審查額度錯誤擋下，未執行。"
   },
   "newsCandidates": [
     {
@@ -90,33 +125,35 @@
         "https://www.reportfraud.police.uk/university-students-booklet/",
         "https://www.ukcisa.org.uk/student-advice/life-in-the-uk/frauds-and-scams/"
       ],
-      "status": "sources-read-needs-image-and-final-edit",
+      "status": "published",
       "facts": "警方指南發布7月19日、更新9月10日；UKCISA2月3日指引獨立記錄假冒Home Office案例。不得宣稱9月26日剛發布。",
-      "draftPath": "docs/editorial-drafts/2026-09-26/uk-student-fraud-guide.json"
+      "draftPath": "docs/editorial-drafts/2026-09-26/uk-student-fraud-guide.json",
+      "articleUrl": "https://globalednews.com/news/uk-university-student-fraud-guide-september-2026/"
     },
     {
       "title": "澳洲大學協會倡議國際生交通優惠",
       "sources": [
         "https://universitiesaustralia.edu.au/media-item/concession-cards-for-all-students-as-cost-of-living-pressures-bite/",
-        "https://www.uow.edu.au/student/admin/travel-passes/"
+        "https://transportnsw.info/tickets-fares/eligibility-concessions/tertiary-tafe-students"
       ],
-      "status": "sources-read-needs-independent-news-check-and-image",
+      "status": "published",
       "facts": "9月8日為倡議，不能寫成政府已實施；UOW現行Opal資格有條件。",
-      "draftPath": "docs/editorial-drafts/2026-09-26/australia-student-transport-concession.json"
+      "draftPath": "docs/editorial-drafts/2026-09-26/australia-student-transport-concession.json",
+      "articleUrl": "https://globalednews.com/news/australia-student-transport-concessions-advocacy-2026/"
     }
   ],
   "blockers": [
-    "CUA runtime exits before opening a browser; reset reproduces Windows CreateProcessWithLogonW 1920. Requires desktop tool/runtime recovery for platform history, previews, live visual and interaction acceptance.",
-    "Three international news items not yet qualified/published; two source leads saved.",
-    "Peter new imports not checked today.",
-    "15 social posts not sent; DIY and domestic-database themes and screenshots pending."
+    "自動核准審查回傳使用額度已達上限，瀏覽器CLI後續操作未執行；不繞過審查。",
+    "CUA曾回傳Windows1920；替代乾淨瀏覽器可操作公開網站，但LinkedIn指定個人檔案轉authwall，未核實已授權平台登入及今日歷史；不能推論使用者既有Chrome已登出。",
+    "Peter三則新匯入尚未完成；十五則社群均未送出。",
+    "後兩篇新聞正式站桌面手機SEO驗收、LTU輪換視覺、DIY與國內資料庫今日題材截圖仍缺。"
   ],
   "nextSteps": [
-    "Read this date’s report and publication log before resuming.",
-    "Complete three international news stories with sources and licensed unique images.",
-    "Recover browser and verify scholarships search/filters and desktop/mobile views.",
-    "Read Peter source and deduplicate.",
-    "Prepare DIY and Taiwan database campaign, check platform history, publish only missing 15 posts."
+    "先回讀同日報告和publication log，三則獎學金不重做。",
+    "恢復核准審查可用性後，驗收後兩篇新聞正式站桌面手機SEO與LTU輪換。",
+    "確認授權平台登入與歷史；讀Peter原始貼文去重。",
+    "完成DIY與國內資料庫題材及圖文，發布缺少十五則並回讀ID與URL。",
+    "重新執行node scripts/verify-daily-delivery.mjs 2026-09-26，仍缺項維持partial。"
   ],
   "liveHttpChecks": [
     {
@@ -145,7 +182,15 @@
     "checkedAt": "2026-09-26T05:18:56.831639+08:00",
     "allThreeLinked": true,
     "formMarkupPresent": true,
-    "interactionVerified": false
+    "interactionVerified": true,
+    "evidence": "本日實際以agent-browser測試Clarendon Enter搜尋得2筆、搜尋按鈕零筆提示、英國篩選維持2筆及結果位置；桌面與390px手機畫面已檢視。",
+    "screenshots": [
+      "scholar-enter26.png",
+      "scholar-zero26.png",
+      "scholar-mobile26.jpg",
+      "scholar-mobile-results26.jpg"
+    ],
+    "screenshotLocation": "本地工作根目錄，尚未上傳GitHub"
   },
   "ltuCheck": {
     "poolCount": 12,
@@ -173,6 +218,9 @@
       "15 verified social posts",
       "desktop/mobile live acceptance"
     ],
-    "checkedAt": "2026-09-26T05:19:23.947602+08:00"
-  }
+    "checkedAt": "2026-09-26T05:19:23.947602+08:00",
+    "rerunStatus": "blocked-not-executed",
+    "rerunReason": "本日05:19 exit1是最後實際執行，後續新增內容後尚未重跑；本地操作自動核准審查額度阻礙。保留原結果，不冒稱新驗證通過。"
+  },
+  "latestMainObserved": "1d37cdfbce72e15c17592ba61a97680664546ffc"
 }
