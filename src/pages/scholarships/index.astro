@@ -27,7 +27,7 @@ const flagMap: Record<string, string> = {
 const flagFor = (country = '') => flagMap[country] ?? '🌐';
 const statusClass = (status = '') => status.includes('開放中') ? 'open' : status.includes('即將') ? 'soon' : 'watch';
 ---
-<BaseLayout title="台灣國際獎學金雷達｜100+ 全球獎學金資料庫" description={description}>
+<BaseLayout title={`台灣國際獎學金雷達｜${scholarships.length}+ 全球獎學金資料庫`} description={description}>
   <main class="scholarship-page">
     <section class="editorial-hero">
       <div class="ornament ornament-left" aria-hidden="true">✦</div>
