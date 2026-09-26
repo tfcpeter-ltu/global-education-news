@@ -9,18 +9,28 @@ const labels: Record<string, string> = {
   P1: 'Peter 專欄精選區後', P2: 'Peter 文章列表後'
 };
 const description = labels[placement] ?? '國際教育';
+const isRoyalCrownHomeBanner = placement === 'H1';
 ---
-<aside class:list={['ad-placement', format]} aria-label={`廣告：${description}`} data-ad-placement={placement}>
-  <div class="ad-placement-label">ADVERTISEMENT · 廣告</div>
-  <div class="ad-placement-content">
-    <div>
-      <span class="ad-placement-kicker">GLOBAL EDUCATION NEWS</span>
-      <strong>大學與國際教育招生合作</strong>
-      <p>讓有興趣的學生在探索學校與申請資訊時，看見您的課程與活動。</p>
+{isRoyalCrownHomeBanner ? (
+  <aside class="ad-placement royal-crown-banner" aria-label="廣告：Royal Crown School 加拿大皇冠高中" data-ad-placement={placement}>
+    <div class="ad-placement-label">ADVERTISEMENT · 廣告</div>
+    <a class="royal-crown-banner-link" href="https://www.ossdtw.com/" target="_blank" rel="sponsored noopener" aria-label="前往 Royal Crown School 加拿大皇冠高中台灣資訊網站">
+      <img src="/ads/images/royal-crown-school-home-banner.webp" width="1800" height="696" alt="Royal Crown School 加拿大皇冠高中校內體育館實景，OSSD 國際升學與個人化支持" loading="lazy" decoding="async" />
+    </a>
+  </aside>
+) : (
+  <aside class:list={['ad-placement', format]} aria-label={`廣告：${description}`} data-ad-placement={placement}>
+    <div class="ad-placement-label">ADVERTISEMENT · 廣告</div>
+    <div class="ad-placement-content">
+      <div>
+        <span class="ad-placement-kicker">GLOBAL EDUCATION NEWS</span>
+        <strong>大學與國際教育招生合作</strong>
+        <p>讓有興趣的學生在探索學校與申請資訊時，看見您的課程與活動。</p>
+      </div>
+      <a href={inquiry}>洽詢此版位 <span aria-hidden="true">↗</span></a>
     </div>
-    <a href={inquiry}>洽詢此版位 <span aria-hidden="true">↗</span></a>
-  </div>
-</aside>
+  </aside>
+)}
 <style>
   .ad-placement{box-sizing:border-box;max-width:1240px;margin:38px auto;padding:14px 20px 20px;border:1px solid #d5c7b1;border-top:3px double #aa854e;background:#f8f5ee;color:#18334d}
   .ad-placement-label{font:700 .68rem/1.4 Arial,sans-serif;letter-spacing:.18em;color:#6c604f}
@@ -31,5 +41,12 @@ const description = labels[placement] ?? '國際教育';
   .ad-placement a{flex:none;padding:11px 16px;border:1px solid #213d57;color:#18334d;text-decoration:none;font-weight:700;font-size:.88rem}
   .ad-placement a:hover,.ad-placement a:focus-visible{background:#18334d;color:#fff}
   .ad-placement.card{max-width:760px}
+  .royal-crown-banner{padding:11px 11px 12px;background:#071c43;border-color:#c9a552;border-top-color:#c9a552}
+  .royal-crown-banner .ad-placement-label{margin:0 5px 8px;color:#ead69b}
+  .royal-crown-banner-link{display:block;padding:0;border:0;overflow:hidden;background:#071c43}
+  .royal-crown-banner-link:hover,.royal-crown-banner-link:focus-visible{background:#071c43;outline:3px solid #e4bc5d;outline-offset:3px}
+  .royal-crown-banner img{display:block;width:100%;height:auto;transition:transform .25s ease}
+  .royal-crown-banner-link:hover img{transform:scale(1.008)}
   @media(max-width:640px){.ad-placement{margin:28px 12px;padding:13px 15px 16px}.ad-placement-content{align-items:flex-start;flex-direction:column;gap:13px}.ad-placement a{width:100%;box-sizing:border-box;text-align:center}}
+  @media(max-width:640px){.royal-crown-banner{padding:9px}.royal-crown-banner-link{width:auto}.royal-crown-banner img{min-height:150px;object-fit:cover;object-position:center}}
 </style>
