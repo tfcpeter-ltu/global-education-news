@@ -1,6 +1,6 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-25T06:09:11.429Z",
+  "updatedAt": "2026-09-26T06:08:25.935Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
@@ -10,13 +10,13 @@
       "views": 9
     },
     {
-      "title": "英國國際招生還能往哪裡成長？Public First 模型指出穩定與機會難兼得｜環球教育新聞網 Global Education News",
-      "path": "/news/uk-public-first-international-recruitment-model-2026/",
-      "views": 8
+      "title": "最新國際教育新聞",
+      "path": "/news/",
+      "views": 9
     },
     {
-      "title": "香港大學 2027 Non-JUPAS 9月23日開放：國際資格申請與 Rolling Admissions 重點｜環球教育新聞網 Global Education News",
-      "path": "/news/hku-2027-non-jupas-opens-september-23/",
+      "title": "英國國際招生還能往哪裡成長？Public First 模型指出穩定與機會難兼得｜環球教育新聞網 Global Education News",
+      "path": "/news/uk-public-first-international-recruitment-model-2026/",
       "views": 8
     },
     {
@@ -25,8 +25,8 @@
       "views": 7
     },
     {
-      "title": "最新國際教育新聞",
-      "path": "/news/",
+      "title": "紐西蘭 NCEA 將退場：2028 啟動新制，2029 導入 NZCE、2030 NZACE｜環球教育新聞網 Global Education News",
+      "path": "/news/new-zealand-ncea-replacement-nzce-nzace-2028-2030/",
       "views": 7
     }
   ],
@@ -34,62 +34,62 @@
     {
       "name": "台灣",
       "mapName": "Taiwan",
-      "sessions": 216,
-      "share": 62.2
+      "sessions": 222,
+      "share": 63.4
     },
     {
       "name": "美國",
       "mapName": "United States",
-      "sessions": 58,
-      "share": 16.7
-    },
-    {
-      "name": "印度",
-      "mapName": "India",
-      "sessions": 18,
-      "share": 5.2
+      "sessions": 59,
+      "share": 16.9
     },
     {
       "name": "英國",
       "mapName": "United Kingdom",
-      "sessions": 12,
-      "share": 3.5
+      "sessions": 14,
+      "share": 4
     },
     {
       "name": "加拿大",
       "mapName": "Canada",
-      "sessions": 8,
-      "share": 2.3
+      "sessions": 10,
+      "share": 2.9
+    },
+    {
+      "name": "印度",
+      "mapName": "India",
+      "sessions": 10,
+      "share": 2.9
     },
     {
       "name": "香港",
       "mapName": "Hong Kong",
-      "sessions": 6,
-      "share": 1.7
+      "sessions": 7,
+      "share": 2
+    },
+    {
+      "name": "澳洲",
+      "mapName": "Australia",
+      "sessions": 4,
+      "share": 1.1
     },
     {
       "name": "愛爾蘭",
       "mapName": "Ireland",
-      "sessions": 5,
-      "share": 1.4
+      "sessions": 4,
+      "share": 1.1
     },
     {
-      "name": "中國",
-      "mapName": "China",
+      "name": "日本",
+      "mapName": "Japan",
       "sessions": 4,
-      "share": 1.2
+      "share": 1.1
     },
     {
       "name": "紐西蘭",
       "mapName": "New Zealand",
       "sessions": 4,
-      "share": 1.2
-    },
-    {
-      "name": "日本",
-      "mapName": "Japan",
-      "sessions": 3,
-      "share": 0.9
+      "share": 1.1
     }
   ]
 }
