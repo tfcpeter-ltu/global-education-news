@@ -1,95 +1,95 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-26T06:08:25.935Z",
+  "updatedAt": "2026-09-27T06:35:40.629Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
     {
-      "title": "愛爾蘭六所大學主席籲增撥經費：2027、2028 預算各增 1.9 億歐元仍屬倡議｜環球教育新聞網 Global Education News",
-      "path": "/news/ireland-university-budget-2027-funding-appeal/",
-      "views": 9
-    },
-    {
       "title": "最新國際教育新聞",
       "path": "/news/",
-      "views": 9
+      "views": 151
     },
     {
-      "title": "英國國際招生還能往哪裡成長？Public First 模型指出穩定與機會難兼得｜環球教育新聞網 Global Education News",
-      "path": "/news/uk-public-first-international-recruitment-model-2026/",
-      "views": 8
+      "title": "英國警方更新大學生防詐指南：假學費折扣與假移民罰款須先向學校查證｜環球教育新聞網 Global Education News",
+      "path": "/news/uk-university-student-fraud-guide-september-2026/",
+      "views": 115
     },
     {
-      "title": "ILAC 停辦：加拿大啟動語言學生安置，住宿與旅費不在保障範圍｜環球教育新聞網 Global Education News",
-      "path": "/news/ilac-language-student-placement-september-2026/",
-      "views": 7
+      "title": "英國ESAG提出國際教育行動計畫：七大方向推進2030目標，並非新簽證規則｜環球教育新聞網 Global Education News",
+      "path": "/news/uk-esag-international-education-sector-action-plans-2026/",
+      "views": 113
     },
     {
       "title": "紐西蘭 NCEA 將退場：2028 啟動新制，2029 導入 NZCE、2030 NZACE｜環球教育新聞網 Global Education News",
       "path": "/news/new-zealand-ncea-replacement-nzce-nzace-2028-2030/",
-      "views": 7
+      "views": 9
+    },
+    {
+      "title": "愛爾蘭六所大學主席籲增撥經費：2027、2028 預算各增 1.9 億歐元仍屬倡議｜環球教育新聞網 Global Education News",
+      "path": "/news/ireland-university-budget-2027-funding-appeal/",
+      "views": 8
     }
   ],
   "countries": [
     {
       "name": "台灣",
       "mapName": "Taiwan",
-      "sessions": 222,
-      "share": 63.4
+      "sessions": 249,
+      "share": 29.3
     },
     {
       "name": "美國",
       "mapName": "United States",
-      "sessions": 59,
-      "share": 16.9
+      "sessions": 163,
+      "share": 19.2
     },
     {
       "name": "英國",
       "mapName": "United Kingdom",
-      "sessions": 14,
-      "share": 4
+      "sessions": 127,
+      "share": 14.9
     },
     {
       "name": "加拿大",
       "mapName": "Canada",
-      "sessions": 10,
-      "share": 2.9
+      "sessions": 115,
+      "share": 13.5
     },
     {
-      "name": "印度",
-      "mapName": "India",
-      "sessions": 10,
-      "share": 2.9
+      "name": "Netherlands",
+      "mapName": "Netherlands",
+      "sessions": 51,
+      "share": 6
+    },
+    {
+      "name": "澳洲",
+      "mapName": "Australia",
+      "sessions": 43,
+      "share": 5.1
+    },
+    {
+      "name": "愛爾蘭",
+      "mapName": "Ireland",
+      "sessions": 33,
+      "share": 3.9
+    },
+    {
+      "name": "新加坡",
+      "mapName": "Singapore",
+      "sessions": 15,
+      "share": 1.8
+    },
+    {
+      "name": "(not set)",
+      "mapName": "(not set)",
+      "sessions": 13,
+      "share": 1.5
     },
     {
       "name": "香港",
       "mapName": "Hong Kong",
       "sessions": 7,
-      "share": 2
-    },
-    {
-      "name": "澳洲",
-      "mapName": "Australia",
-      "sessions": 4,
-      "share": 1.1
-    },
-    {
-      "name": "愛爾蘭",
-      "mapName": "Ireland",
-      "sessions": 4,
-      "share": 1.1
-    },
-    {
-      "name": "日本",
-      "mapName": "Japan",
-      "sessions": 4,
-      "share": 1.1
-    },
-    {
-      "name": "紐西蘭",
-      "mapName": "New Zealand",
-      "sessions": 4,
-      "share": 1.1
+      "share": 0.8
     }
   ]
 }
