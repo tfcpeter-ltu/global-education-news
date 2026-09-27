@@ -1,0 +1,227 @@
+{
+  "date": "2026-09-27",
+  "timezone": "Asia/Taipei",
+  "baselineCommit": "5721795fe772ea56e357ab40c249fdcca3f1e047",
+  "status": "partial",
+  "updatedAt": "2026-09-27T10:03:59.4133066+08:00",
+  "scholarshipBaselineSlugs": [
+    "2026-08-bristol-think-big",
+    "2026-08-manchester-global-futures-taiwan-2027",
+    "2026-08-mcgill-mccall-macbain",
+    "2026-08-melbourne-graduate-research",
+    "2026-08-melbourne-international-excellence-graduate-2027",
+    "2026-08-moe-eu-scholarship",
+    "2026-08-moe-government-sponsored-study",
+    "2026-08-moe-new-southbound-internship",
+    "2026-08-moe-overseas-scholarship",
+    "2026-08-moe-study-abroad-fly",
+    "2026-08-moe-study-abroad-internship",
+    "2026-08-moe-study-abroad-needy",
+    "2026-08-moe-top100-phd",
+    "2026-08-monash-awards-2027",
+    "2026-08-oxford-clarendon",
+    "2026-08-sydney-vcis-2027",
+    "2026-08-tgpi-dream-factory",
+    "2026-08-tgpi-global-flight",
+    "2026-08-ubc-four-year-doctoral-fellowship",
+    "2026-08-ubc-imes",
+    "2026-08-ubc-international-scholars-2027",
+    "2026-08-ubc-killam-doctoral-2027",
+    "2026-08-ucl-global-masters",
+    "2026-08-ucl-global-undergraduate",
+    "2026-08-unsw-scientia-2027",
+    "2026-08-uq-international-high-achievers-2027",
+    "2026-08-utoronto-pearson-2027",
+    "2026-09-adelaide-academic-excellence-2027",
+    "2026-09-adelaide-merit-2027",
+    "2026-09-auckland-international-student-excellence-2027",
+    "2026-09-chevening-delta-climate-2027",
+    "2026-09-chevening-taiwan",
+    "2026-09-daad-architecture-masters",
+    "2026-09-deakin-excellence-international-2027",
+    "2026-09-deakin-international-merit-2027",
+    "2026-09-deakin-vice-chancellor-international-2027",
+    "2026-09-erasmus-mundus-2027",
+    "2026-09-eth-zurich-esop-2027",
+    "2026-09-fulbright-experience-america-research-award",
+    "2026-09-fulbright-non-academic-professional-award",
+    "2026-09-fulbright-senior-research-award",
+    "2026-09-gates-cambridge-2027",
+    "2026-09-harvard-academy-scholars-2027",
+    "2026-09-harvard-radcliffe-fellowship-2027",
+    "2026-09-hkpfs-2027",
+    "2026-09-imperial-presidents-phd-2027",
+    "2026-09-knight-hennessy-2027",
+    "2026-09-latrobe-high-achiever-2027",
+    "2026-09-leicester-global-excellence-jan-apr-2027",
+    "2026-09-macquarie-vcis-2027",
+    "2026-09-ntu-taiwan-scholarship-jan-2027",
+    "2026-09-ntu-taiwan-stem-scholarship-jan-2027",
+    "2026-09-oxford-clarendon-2027",
+    "2026-09-strathclyde-sbs-international-masters-jan-2027",
+    "2026-09-sydney-rtp-international-2027",
+    "2026-09-taiwan-anu-phd-scholarship-2027",
+    "2026-09-tasmanian-international-scholarship-2027",
+    "2026-09-ubc-international-scholars-2027",
+    "2026-09-uc-berkeley-beahrs-elp-2027",
+    "2026-09-unsw-international-scientia-2027",
+    "2026-09-uow-postgraduate-academic-excellence-2027",
+    "2026-09-uow-university-excellence-2027",
+    "2026-09-utoronto-lester-b-pearson-2027",
+    "2026-09-yenching-academy-2027-taiwan"
+  ],
+  "newsPublished": [
+    {
+      "slug": "australia-international-student-june-2026-data",
+      "url": "https://globalednews.com/news/australia-international-student-june-2026-data/",
+      "sources": [
+        "https://www.education.gov.au/international-education-data-and-research/international-student-monthly-summary-and-data-tables",
+        "https://www.reddit.com/r/MavenStudyAbroad/comments/1wopnta/australia_international_students_down_69_but/"
+      ],
+      "verifiedAt": "2026-09-27T10:03:59.4133066+08:00",
+      "status": "prepared-build-passed"
+    },
+    {
+      "slug": "australia-windsor-college-tps-closure-2026",
+      "url": "https://globalednews.com/news/australia-windsor-college-tps-closure-2026/",
+      "sources": [
+        "https://www.education.gov.au/tps/closures/windsor-college-australia",
+        "https://windsorcollege.edu.au/en/file/refund-policy-and-procedures"
+      ],
+      "verifiedAt": "2026-09-27T10:03:59.4133066+08:00",
+      "status": "prepared-build-passed"
+    },
+    {
+      "slug": "us-duke-und-foreign-funding-investigations-2026",
+      "url": "https://globalednews.com/news/us-duke-und-foreign-funding-investigations-2026/",
+      "sources": [
+        "https://www.ed.gov/about/news/press-release/us-department-of-education-and-us-department-of-state-open-foreign-funding-investigations-duke-university-and-university-of-north-dakota",
+        "https://blogs.und.edu/uletter/2026/09/letter-from-president-armacost-regarding-doe-investigation/",
+        "https://www.wral.com/news/education/trump-administration-investigating-duke-wuhan-relationship-september-2026/"
+      ],
+      "verifiedAt": "2026-09-27T10:03:59.4133066+08:00",
+      "status": "prepared-build-passed"
+    }
+  ],
+  "scholarshipChecks": [
+    {
+      "slug": "2026-09-monash-international-merit-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-09-monash-international-merit-2027/",
+      "sources": [
+        "https://www.monash.edu/study/fees-scholarships/scholarships/find-a-scholarship/international-merit-5770",
+        "https://english.wsu.ac.kr/site/main_eng/down/DualDegreeHandbook_260202.pdf"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-09-27T10:03:59.4133066+08:00",
+      "publishedVerifiedAt": null,
+      "updateSummary": "2026-09-27 新增頁面；已雙重查核資格、金額、期限與例外，待正式站部署回讀。"
+    },
+    {
+      "slug": "2026-09-uni-iowa-partner-state-taiwan-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-09-uni-iowa-partner-state-taiwan-2027/",
+      "sources": [
+        "https://admissions.uni.edu/international/undergraduate-students/scholarships",
+        "https://english.wsu.ac.kr/site/main_eng/down/DualDegreeHandbook_260202.pdf"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-09-27T10:03:59.4133066+08:00",
+      "publishedVerifiedAt": null,
+      "updateSummary": "2026-09-27 新增頁面；已雙重查核資格、金額、期限與例外，待正式站部署回讀。"
+    },
+    {
+      "slug": "2026-09-university-iowa-national-scholars-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-09-university-iowa-national-scholars-2027/",
+      "sources": [
+        "https://admissions.uiowa.edu/scholarship/national-scholars-award-nsa",
+        "https://educationusa.state.gov/scholarships/international-distinction-education-idea-award"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-09-27T10:03:59.4133066+08:00",
+      "publishedVerifiedAt": null,
+      "updateSummary": "2026-09-27 新增頁面；已雙重查核資格、金額、期限與例外，待正式站部署回讀。"
+    }
+  ],
+  "scholarshipAdditions": [
+    {
+      "slug": "2026-09-monash-international-merit-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-09-monash-international-merit-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-09-monash-international-merit-2027.md",
+      "sources": [
+        "https://www.monash.edu/study/fees-scholarships/scholarships/find-a-scholarship/international-merit-5770",
+        "https://english.wsu.ac.kr/site/main_eng/down/DualDegreeHandbook_260202.pdf"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-09-27T10:03:59.4133066+08:00",
+      "publishedVerifiedAt": null,
+      "isNew": true,
+      "baselineAbsent": true
+    },
+    {
+      "slug": "2026-09-uni-iowa-partner-state-taiwan-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-09-uni-iowa-partner-state-taiwan-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-09-uni-iowa-partner-state-taiwan-2027.md",
+      "sources": [
+        "https://admissions.uni.edu/international/undergraduate-students/scholarships",
+        "https://english.wsu.ac.kr/site/main_eng/down/DualDegreeHandbook_260202.pdf"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-09-27T10:03:59.4133066+08:00",
+      "publishedVerifiedAt": null,
+      "isNew": true,
+      "baselineAbsent": true
+    },
+    {
+      "slug": "2026-09-university-iowa-national-scholars-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-09-university-iowa-national-scholars-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-09-university-iowa-national-scholars-2027.md",
+      "sources": [
+        "https://admissions.uiowa.edu/scholarship/national-scholars-award-nsa",
+        "https://educationusa.state.gov/scholarships/international-distinction-education-idea-award"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-09-27T10:03:59.4133066+08:00",
+      "publishedVerifiedAt": null,
+      "isNew": true,
+      "baselineAbsent": true
+    }
+  ],
+  "sunMoonNews": {
+    "checkedAt": "2026-09-27T10:03:59.4133066+08:00",
+    "url": "https://www.sunmoonnews.com.tw/",
+    "result": "首頁最新相關內容以台灣產業與一般新聞為主，未選入國際首頁三篇。"
+  },
+  "peterImports": [],
+  "socialPosts": [],
+  "ltuMediaRotation": {
+    "status": "existing-date-rotation-retained",
+    "poolCount": 12
+  },
+  "build": {
+    "astro": true,
+    "pages": 206,
+    "fullBuild": false,
+    "note": "Astro build passed. Full bilingual stage stopped locally because python command is unavailable; CI remains required."
+  },
+  "deployment": {
+    "status": "pending",
+    "commit": null,
+    "verifiedAt": null
+  },
+  "acceptance": {
+    "desktop": false,
+    "mobile": false,
+    "seo": false,
+    "verifiedAt": null
+  },
+  "blockers": [
+    "Peter 指定粉專尚未完成三則新文回讀",
+    "15 則社群尚未發布",
+    "尚未提交、部署與正式站驗收"
+  ]
+}
