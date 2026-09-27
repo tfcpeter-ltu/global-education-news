@@ -3,7 +3,7 @@
   "timezone": "Asia/Taipei",
   "baselineCommit": "5721795fe772ea56e357ab40c249fdcca3f1e047",
   "status": "partial",
-  "updatedAt": "2026-09-27T10:03:59.4133066+08:00",
+  "updatedAt": "2026-09-27T10:23:27.524931+08:00",
   "scholarshipBaselineSlugs": [
     "2026-08-bristol-think-big",
     "2026-08-manchester-global-futures-taiwan-2027",
@@ -79,7 +79,8 @@
         "https://www.reddit.com/r/MavenStudyAbroad/comments/1wopnta/australia_international_students_down_69_but/"
       ],
       "verifiedAt": "2026-09-27T10:03:59.4133066+08:00",
-      "status": "prepared-build-passed"
+      "status": "published-live-verified",
+      "publishedVerifiedAt": "2026-09-27T10:23:27.524931+08:00"
     },
     {
       "slug": "australia-windsor-college-tps-closure-2026",
@@ -89,7 +90,8 @@
         "https://windsorcollege.edu.au/en/file/refund-policy-and-procedures"
       ],
       "verifiedAt": "2026-09-27T10:03:59.4133066+08:00",
-      "status": "prepared-build-passed"
+      "status": "published-live-verified",
+      "publishedVerifiedAt": "2026-09-27T10:23:27.524931+08:00"
     },
     {
       "slug": "us-duke-und-foreign-funding-investigations-2026",
@@ -100,7 +102,8 @@
         "https://www.wral.com/news/education/trump-administration-investigating-duke-wuhan-relationship-september-2026/"
       ],
       "verifiedAt": "2026-09-27T10:03:59.4133066+08:00",
-      "status": "prepared-build-passed"
+      "status": "published-live-verified",
+      "publishedVerifiedAt": "2026-09-27T10:23:27.524931+08:00"
     }
   ],
   "scholarshipChecks": [
@@ -114,8 +117,8 @@
       "eligibleTaiwan": true,
       "open": true,
       "verifiedAt": "2026-09-27T10:03:59.4133066+08:00",
-      "publishedVerifiedAt": null,
-      "updateSummary": "2026-09-27 新增頁面；已雙重查核資格、金額、期限與例外，待正式站部署回讀。"
+      "publishedVerifiedAt": "2026-09-27T10:23:27.524931+08:00",
+      "updateSummary": "2026-09-27 新增頁面；已雙重查核資格、金額、期限與例外，正式站已回讀。"
     },
     {
       "slug": "2026-09-uni-iowa-partner-state-taiwan-2027",
@@ -127,8 +130,8 @@
       "eligibleTaiwan": true,
       "open": true,
       "verifiedAt": "2026-09-27T10:03:59.4133066+08:00",
-      "publishedVerifiedAt": null,
-      "updateSummary": "2026-09-27 新增頁面；已雙重查核資格、金額、期限與例外，待正式站部署回讀。"
+      "publishedVerifiedAt": "2026-09-27T10:23:27.524931+08:00",
+      "updateSummary": "2026-09-27 新增頁面；已雙重查核資格、金額、期限與例外，正式站已回讀。"
     },
     {
       "slug": "2026-09-university-iowa-national-scholars-2027",
@@ -140,8 +143,8 @@
       "eligibleTaiwan": true,
       "open": true,
       "verifiedAt": "2026-09-27T10:03:59.4133066+08:00",
-      "publishedVerifiedAt": null,
-      "updateSummary": "2026-09-27 新增頁面；已雙重查核資格、金額、期限與例外，待正式站部署回讀。"
+      "publishedVerifiedAt": "2026-09-27T10:23:27.524931+08:00",
+      "updateSummary": "2026-09-27 新增頁面；已雙重查核資格、金額、期限與例外，正式站已回讀。"
     }
   ],
   "scholarshipAdditions": [
@@ -156,7 +159,7 @@
       "eligibleTaiwan": true,
       "open": true,
       "verifiedAt": "2026-09-27T10:03:59.4133066+08:00",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-09-27T10:23:27.524931+08:00",
       "isNew": true,
       "baselineAbsent": true
     },
@@ -171,7 +174,7 @@
       "eligibleTaiwan": true,
       "open": true,
       "verifiedAt": "2026-09-27T10:03:59.4133066+08:00",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-09-27T10:23:27.524931+08:00",
       "isNew": true,
       "baselineAbsent": true
     },
@@ -186,7 +189,7 @@
       "eligibleTaiwan": true,
       "open": true,
       "verifiedAt": "2026-09-27T10:03:59.4133066+08:00",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-09-27T10:23:27.524931+08:00",
       "isNew": true,
       "baselineAbsent": true
     }
@@ -205,23 +208,25 @@
   "build": {
     "astro": true,
     "pages": 206,
-    "fullBuild": false,
-    "note": "Astro build passed. Full bilingual stage stopped locally because python command is unavailable; CI remains required."
+    "fullBuild": true,
+    "note": "本地 Astro 建置通過；GitHub Actions 雙語建置與路由驗證通過。"
   },
   "deployment": {
-    "status": "pending",
-    "commit": null,
-    "verifiedAt": null
+    "status": "success",
+    "commit": "969a22bde9dc7a5f0c89cd8fa1afe3f20e180c6f",
+    "workflowRun": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/36288261536",
+    "verifiedAt": "2026-09-27T10:23:27.524931+08:00"
   },
   "acceptance": {
-    "desktop": false,
+    "desktop": true,
     "mobile": false,
-    "seo": false,
-    "verifiedAt": null
+    "seo": true,
+    "verifiedAt": "2026-09-27T10:23:27.524931+08:00",
+    "evidence": "6 個新增網址均回傳 200；canonical、OG、schema 均存在；sitemap-0、News sitemap、weekly-feed 均含新增新聞；三張本地主圖回傳 image/jpeg 並完成桌面瀏覽器回讀。尚未完成手機版視覺驗收。"
   },
   "blockers": [
     "Peter 指定粉專尚未完成三則新文回讀",
     "15 則社群尚未發布",
-    "尚未提交、部署與正式站驗收"
+    "手機版視覺驗收尚未完成"
   ]
 }
