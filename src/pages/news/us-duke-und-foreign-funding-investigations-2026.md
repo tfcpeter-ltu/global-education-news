@@ -4,10 +4,10 @@ title: "美國調查 Duke、UND 外國資金揭露：30 天內交資料，門檻
 description: "美國教育部與國務院調查 Duke University 與 University of North Dakota 的 Section 117 外國資金申報；兩校被要求在 30 天內提供合作、贈款與合約紀錄。"
 category: "高教治理"
 topic: "us"
-image: "https://upload.wikimedia.org/wikipedia/commons/2/29/Duke_Chapel_2.jpg"
+image: "/images/news/us-duke-und-foreign-funding-investigations-2026.jpg"
 imageAlt: "美國 Duke University 校園教堂資料照"
-imageCredit: "Ildar Sagdejev／Wikimedia Commons，CC BY-SA 4.0；版面可能裁切"
-imageSource: "https://commons.wikimedia.org/wiki/File:Duke_Chapel_2.jpg"
+imageCredit: "LibertyEditor／Wikimedia Commons，CC BY-SA 4.0；版面可能裁切"
+imageSource: "https://commons.wikimedia.org/wiki/File:Duke_Chapel_Duke_University.JPG"
 sources: [{"label":"美國教育部｜Duke 與 UND 外國資金調查公告","url":"https://www.ed.gov/about/news/press-release/us-department-of-education-and-us-department-of-state-open-foreign-funding-investigations-duke-university-and-university-of-north-dakota"},{"label":"UND 校長 9 月 22 日公開回應","url":"https://blogs.und.edu/uletter/2026/09/letter-from-president-armacost-regarding-doe-investigation/"},{"label":"WRAL｜Duke 調查與校方回應","url":"https://www.wral.com/news/education/trump-administration-investigating-duke-wuhan-relationship-september-2026/"}]
 date: "2026-09-27T10:40:00+08:00"
 author: "LTU Global Education News 編輯部"
@@ -28,4 +28,4 @@ UND 校長 Andrew Armacost 於 9 月 22 日表示將配合調查，同時否認�
 
 對考慮美國研究型大學的台灣學生，這項事件主要屬校務治理與研究合作透明度議題。申請人若參與敏感科技、受限制實驗室或跨國聯合研究，應另向學校核對研究准入、出口管制與資助條件；本文不把調查本身解讀為學位或學生身分受限。
 
-圖片：[Wikimedia Commons 原圖與授權](https://commons.wikimedia.org/wiki/File:Duke_Chapel_2.jpg)。
+圖片：[Wikimedia Commons 原圖與授權](https://commons.wikimedia.org/wiki/File:Duke_Chapel_Duke_University.JPG)。

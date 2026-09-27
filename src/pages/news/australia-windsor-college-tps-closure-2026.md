@@ -4,10 +4,10 @@ title: "Windsor College Australia 停辦：TPS 接手協助，學生應先保存
 description: "Windsor College Australia 與 Smart English Melbourne 於 8 月 18 日停辦，澳洲 Tuition Protection Service 自 9 月 8 日協助受影響國際學生。"
 category: "國際學生保障"
 topic: "australia"
-image: "https://upload.wikimedia.org/wikipedia/commons/1/19/Flinders_Street_Station_Melbourne_Australia.jpg"
+image: "/images/news/australia-windsor-college-tps-closure-2026.jpg"
 imageAlt: "澳洲墨爾本 Flinders Street Station 市區實景資料照，非停辦學校校舍"
-imageCredit: "Diliff／Wikimedia Commons，CC BY-SA 3.0；版面可能裁切"
-imageSource: "https://commons.wikimedia.org/wiki/File:Flinders_Street_Station_Melbourne_Australia.jpg"
+imageCredit: "Doug Beckers／Wikimedia Commons，CC BY-SA 2.0；版面可能裁切"
+imageSource: "https://commons.wikimedia.org/wiki/File:Flinders_Street_Station,_Melbourne,_Australia.jpg"
 sources: [{"label":"澳洲教育部 TPS｜Windsor College Australia 停辦公告","url":"https://www.education.gov.au/tps/closures/windsor-college-australia"},{"label":"Windsor College｜退款與 TPS 程序文件","url":"https://windsorcollege.edu.au/en/file/refund-policy-and-procedures"}]
 date: "2026-09-27T10:50:00+08:00"
 author: "LTU Global Education News 編輯部"
@@ -26,4 +26,4 @@ Windsor College 既有退款政策也記載提供者停辦時須通知 ESOS Agen
 
 受影響的台灣學生應保存錄取、CoE、繳費收據、修課與出席紀錄，並直接使用政府公告聯絡方式確認 TPS 案件。簽證狀態、工作條件與旅行安排屬 Home Affairs 權責，不能把 TPS 安置結果直接視為簽證已延長或自動轉校。
 
-圖片：[Wikimedia Commons 原圖與授權](https://commons.wikimedia.org/wiki/File:Flinders_Street_Station_Melbourne_Australia.jpg)。
+圖片：[Wikimedia Commons 原圖與授權](https://commons.wikimedia.org/wiki/File:Flinders_Street_Station,_Melbourne,_Australia.jpg)。

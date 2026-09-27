@@ -4,9 +4,9 @@ title: "澳洲國際學生人數年減 7%：高教註冊逆勢成長 2%，ELICOS
 description: "澳洲教育部 9 月 25 日更新 2026 年截至 6 月數據：687,810 名國際學生、年減 7%；新生年減 8%，但高教註冊仍成長 2%。"
 category: "國際學生政策"
 topic: "australia"
-image: "https://upload.wikimedia.org/wikipedia/commons/2/2e/Sydney_Opera_House_and_Harbour_Bridge_Dusk_%282%29_2019-06-21.jpg"
+image: "/images/news/australia-international-student-june-2026-data.jpg"
 imageAlt: "澳洲雪梨港與歌劇院實景資料照"
-imageCredit: "Dietmar Rabich／Wikimedia Commons，CC BY-SA 4.0；版面可能裁切"
+imageCredit: "Benh LIEU SONG／Wikimedia Commons，CC BY-SA 4.0；版面可能裁切"
 imageSource: "https://commons.wikimedia.org/wiki/File:Sydney_Opera_House_and_Harbour_Bridge_Dusk_(2)_2019-06-21.jpg"
 sources: [{"label":"澳洲教育部｜2026 年國際學生月報","url":"https://www.education.gov.au/international-education-data-and-research/international-student-monthly-summary-and-data-tables"},{"label":"Maven Study Abroad｜分部門數據討論","url":"https://www.reddit.com/r/MavenStudyAbroad/comments/1wopnta/australia_international_students_down_69_but/"}]
 date: "2026-09-27T10:30:00+08:00"
