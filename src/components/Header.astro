@@ -30,11 +30,23 @@ const isScholarshipRadar = Astro.url.pathname === '/scholarships/' || Astro.url.
 
   <nav class="nav" aria-label="主要導覽">
     <div class="container">
-      <a href={link()}>首頁</a>
-      <a href={link('news/')}>最新新聞</a>
-      <a href={link('topics/taiwan/')}>台灣高教</a>
+      <a class="bilingual-nav" href={link()} aria-label="首頁 Home">
+        <span>首頁</span>
+        <small>Home</small>
+      </a>
+      <a class="bilingual-nav" href={link('news/')} aria-label="最新新聞 Latest News">
+        <span>最新新聞</span>
+        <small>Latest News</small>
+      </a>
+      <a class="bilingual-nav" href={link('topics/taiwan/')} aria-label="台灣高教 Taiwan Higher Ed">
+        <span>台灣高教</span>
+        <small>Taiwan Higher Ed</small>
+      </a>
       <details class="overseas-menu">
-        <summary>海外教育 <span aria-hidden="true">▾</span></summary>
+        <summary class="bilingual-nav" aria-label="海外教育 Global Education">
+          <span>海外教育 <span aria-hidden="true">▾</span></span>
+          <small>Global Education</small>
+        </summary>
         <div class="overseas-options">
           <a href={link('topics/us/')}>美國</a>
           <a href={link('topics/canada/')}>加拿大</a>
@@ -43,18 +55,30 @@ const isScholarshipRadar = Astro.url.pathname === '/scholarships/' || Astro.url.
           <a href={link('topics/asia/')}>亞洲</a>
         </div>
       </details>
-      <a class="domestic-university-nav" href={link('taiwan-universities/')} aria-label="國內大學選校選系資料庫">
+      <a class="bilingual-nav domestic-university-nav" href={link('taiwan-universities/')} aria-label="國內大學選校選系 University Explorer">
         <span>國內大學選校選系</span>
         <small>University Explorer</small>
       </a>
-      <a class="navigator-nav" href={link('study-abroad/')} aria-label="留學DIY導航 Study Abroad Navigator">
+      <a class="bilingual-nav navigator-nav" href={link('study-abroad/')} aria-label="留學DIY導航 Study Abroad Navigator">
         <span>留學DIY導航</span>
         <small>Study Abroad Navigator</small>
       </a>
-      <a class="scholarship-nav" href={link('scholarships/')}>台灣國際獎學金雷達</a>
-      <a class="peter-nav" href={link('peter/')}>Peter的國際教育講座</a>
-      <a class="peter-nav" href={link('newsletter/')}>免費電子報</a>
-      <a class="intelligence-nav" href={link('intelligence/')}>教育情報 GEI</a>
+      <a class="bilingual-nav scholarship-nav" href={link('scholarships/')} aria-label="台灣國際獎學金雷達 Scholarship Radar">
+        <span>台灣國際獎學金雷達</span>
+        <small>Scholarship Radar</small>
+      </a>
+      <a class="bilingual-nav peter-nav" href={link('peter/')} aria-label="Peter的國際教育講座 Peter’s Education Talk">
+        <span>Peter的國際教育講座</span>
+        <small>Peter’s Education Talk</small>
+      </a>
+      <a class="bilingual-nav peter-nav" href={link('newsletter/')} aria-label="免費電子報 Free Newsletter">
+        <span>免費電子報</span>
+        <small>Free Newsletter</small>
+      </a>
+      <a class="bilingual-nav intelligence-nav" href={link('intelligence/')} aria-label="教育情報 GEI Education Intelligence">
+        <span>教育情報 GEI</span>
+        <small>Education Intelligence</small>
+      </a>
     </div>
   </nav>
 </header>
@@ -75,9 +99,9 @@ const isScholarshipRadar = Astro.url.pathname === '/scholarships/' || Astro.url.
 
 <style>
   .nav { overflow: visible; white-space: normal; position: relative; z-index: 20; }
-  .nav .container { flex-wrap: wrap; gap: 8px 22px; padding-top: 8px; padding-bottom: 8px; }
+  .nav .container { flex-wrap: wrap; gap: 8px 18px; padding-top: 8px; padding-bottom: 8px; }
   .overseas-menu { position: relative; }
-  .overseas-menu summary { cursor: pointer; list-style: none; padding: 10px 0; white-space: nowrap; }
+  .overseas-menu summary { cursor: pointer; list-style: none; padding: 0; white-space: nowrap; }
   .overseas-menu summary::-webkit-details-marker { display: none; }
   .overseas-menu summary:focus-visible { outline: 2px solid var(--burgundy); outline-offset: 4px; }
   .overseas-menu[open] summary { color: var(--burgundy); }
@@ -139,26 +163,31 @@ const isScholarshipRadar = Astro.url.pathname === '/scholarships/' || Astro.url.
     color: #7a7268;
   }
 
-  .nav .domestic-university-nav,
-  .nav .navigator-nav {
+  .nav .bilingual-nav {
     display: inline-flex;
     min-height: 43px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 1px;
-    color: #0f3b5f;
-    font-weight: 900;
+    font-weight: 800;
     line-height: 1.1;
+    text-align: center;
   }
 
-  .nav .domestic-university-nav small,
-  .nav .navigator-nav small {
+  .nav .bilingual-nav small {
     color: #87652f;
     font-family: Georgia, "Times New Roman", serif;
     font-size: .54rem;
     font-weight: 700;
     letter-spacing: .04em;
+    white-space: nowrap;
+  }
+
+  .nav .domestic-university-nav,
+  .nav .navigator-nav {
+    color: #0f3b5f;
+    font-weight: 900;
   }
 
   .nav .domestic-university-nav::after,
@@ -222,6 +251,18 @@ const isScholarshipRadar = Astro.url.pathname === '/scholarships/' || Astro.url.
   }
 
   @media (max-width: 680px) {
+    .nav .container {
+      gap: 7px 16px;
+    }
+
+    .nav .bilingual-nav {
+      min-height: 40px;
+    }
+
+    .nav .bilingual-nav small {
+      font-size: .52rem;
+    }
+
     .brand-en-primary {
       font-size: clamp(2.25rem, 11vw, 3.25rem);
       white-space: normal;
