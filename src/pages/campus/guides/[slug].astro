@@ -5,11 +5,11 @@ import '../../../styles/campus.css';
 export function getStaticPaths(){return guides.map(guide=>({params:{slug:guide.slug},props:{guide}}));}
 const {guide}=Astro.props;
 ---
-<BaseLayout title={`${guide.name}｜校園國際機會`} description={guide.intro}>
- <div class="container campus"><nav class="campus-breadcrumb" aria-label="麵包屑"><a href="/campus/">校園國際機會</a> / 準備指南</nav><section class="campus-hero"><div><span class="campus-tag">{levelName(guide.level)} · 準備指南</span><h1>{guide.name}</h1><p class="campus-deck">{guide.intro}</p><p>適合對象：{guide.audience}</p></div><aside class="campus-note"><h2>先找對窗口</h2><p>{guide.office}</p><p class="campus-meta">本頁為編輯整理的通用準備建議，不是特定計畫的招生條件。申請時請回到當期官方公告核對。</p></aside></section>
+<BaseLayout title={`${guide.name}｜台灣校園國際新聞`} description={guide.intro}>
+ <div class="container campus"><nav class="campus-breadcrumb" aria-label="麵包屑"><a href="/topics/taiwan/#campus">台灣校園國際新聞</a> / 準備指南</nav><section class="campus-hero"><div><span class="campus-tag">{levelName(guide.level)} · 準備指南</span><h1>{guide.name}</h1><p class="campus-deck">{guide.intro}</p><p>適合對象：{guide.audience}</p></div><aside class="campus-note"><h2>先找對窗口</h2><p>{guide.office}</p><p class="campus-meta">本頁為編輯整理的通用準備建議，不是特定計畫的招生條件。申請時請回到當期官方公告核對。</p></aside></section>
  <section class="campus-section"><h2>依序完成三個步驟</h2><ol class="campus-steps">{guide.steps.map(([title,body]:string[])=><li><h3>{title}</h3><p>{body}</p></li>)}</ol></section>
  <section class="campus-section"><h2>我的準備清單</h2><p class="campus-meta">可在本頁勾選檢視進度；重新載入後不保留，也不會傳送個人資料。</p><ul class="campus-checks">{guide.checks.map((item:string)=><li><label><input type="checkbox"/><span>{item}</span></label></li>)}</ul></section>
  <section class="campus-section"><h2>費用怎麼看？</h2><p>{guide.costs}</p><aside class="campus-note"><strong>申請前再確認</strong><p>{guide.pitfall}</p></aside></section>
- <section class="campus-section"><h2>接著可以做什麼？</h2><div class="campus-actions"><a class="primary" href={`/campus/?level=${guide.level}#schools`}>找學校官方入口 →</a><a href="/scholarships/">查找獎學金 →</a><a href="/study-abroad/">探索目的地與科系 →</a></div><p class="campus-meta">環球教育新聞網編輯整理 · 2026 年 9 月 28 日</p></section>
+ <section class="campus-section"><h2>接著可以做什麼？</h2><div class="campus-actions"><a class="primary" href={`/topics/taiwan/?level=${guide.level}#schools`}>找學校官方入口 →</a><a href="/scholarships/">查找獎學金 →</a><a href="/study-abroad/">探索目的地與科系 →</a></div><p class="campus-meta">環球教育新聞網編輯整理 · 2026 年 9 月 28 日</p></section>
  </div>
 </BaseLayout>

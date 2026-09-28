@@ -1,10 +1,11 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import CampusHub from '../../components/CampusHub.astro';
 import { getStoryImageInfo } from '../../lib/storyImages';
 
 export function getStaticPaths() {
   const topics: Record<string, { label: string; description: string }> = {
-    taiwan: { label: '台灣', description: '台灣國際教育、雙聯學制、海外升學、交換生、國際課程、教育部政策與大學國際化新聞。' },
+    taiwan: { label: '台灣校園國際新聞', description: '追蹤台灣高中與大學的國際教育新聞，查找學校國際交流入口、海外升學、交換、雙聯學位與獎學金準備指南。' },
     us: { label: '美國', description: '美國大學、國際學生、簽證、實習與招生政策。' },
     canada: { label: '加拿大', description: '加拿大國際教育、學簽、大學與學生政策。' },
     uk: { label: '英國', description: '英國大學、學生簽證、招生與高等教育政策。' },
@@ -30,13 +31,15 @@ articles = articles.filter((story: any) => {
   return false;
 });
 ---
-<BaseLayout title={`${data.label}國際教育新聞｜Global Education News`} description={data.description}>
+<BaseLayout title={topic === 'taiwan' ? '台灣校園國際新聞｜Global Education News' : `${data.label}國際教育新聞｜Global Education News`} description={data.description}>
   <section class="page">
     <div class="container">
       <div class="kicker">TOPIC</div>
       <h1>{data.label}</h1>
       <p class="hero-deck">{data.description}</p>
+      {topic === 'taiwan' && <nav class="taiwan-sections" aria-label="專區內容"><a href="#taiwan-news">最新校園新聞 ↓</a><a href="#campus">校園國際機會 ↓</a><a href="#schools">找學校 ↓</a><a href="#guides">出國準備指南 ↓</a></nav>}
       <hr class="rule" />
+      {topic === 'taiwan' && <h2 id="taiwan-news">最新台灣校園新聞</h2>}
       {articles.length > 0 ? (
         <div class="grid-3">
           {articles.map((story: any) => {
@@ -59,4 +62,8 @@ articles = articles.filter((story: any) => {
       )}
     </div>
   </section>
+  {topic === 'taiwan' && <CampusHub />}
 </BaseLayout>
+<style>
+.taiwan-sections{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0}.taiwan-sections a{padding:12px 18px;border:1px solid var(--line-dark);color:var(--burgundy);font-weight:700}.taiwan-sections a:focus-visible{outline:2px solid var(--burgundy);outline-offset:3px}#taiwan-news{margin:24px 0}html{scroll-padding-top:80px}
+</style>
