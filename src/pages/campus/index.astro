@@ -4,7 +4,7 @@ import {schools,guides,levelName} from '../../data/campus';
 import '../../styles/campus.css';
 ---
 <BaseLayout title="校園國際機會｜高中生・大學生出國準備" description="從你的學校找到國際交流官方入口，探索高中海外升學、大學交換、雙聯學位、海外實習與獎學金準備指南。">
- <main class="container campus">
+ <div class="container campus">
   <div class="kicker">CAMPUS TO WORLD</div>
   <section class="campus-hero">
    <div><h1>從你的學校，<br/>找到通往世界的機會。</h1><p class="campus-deck">先找學校，再選方向。把海外交流、交換申請與出國費用，一步一步準備好。</p><div class="campus-actions"><a class="primary" href="?level=high-school#schools">我是高中生 →</a><a href="?level=university#schools">我是大學生 →</a></div></div>
@@ -19,7 +19,7 @@ import '../../styles/campus.css';
   <section class="campus-section" id="guides"><h2>選一個出國方向</h2><p>以下是準備指南，不是正在招生的計畫；幫你在申請前問對問題。</p><div class="campus-grid">{guides.map(g=><article class="campus-card" data-guide data-level={g.level}><span class="campus-tag">{levelName(g.level)} · {g.tag}</span><h3>{g.name}</h3><p>{g.intro}</p><a href={`/campus/guides/${g.slug}/`}>閱讀指南與準備清單 →</a></article>)}</div></section>
   <section class="campus-section"><h2>把下一步接起來</h2><div class="campus-grid"><article class="campus-card"><h3>找補助</h3><p>從台灣學生資格出發，查找獎學金與官方申請資訊。</p><a href="/scholarships/">獎學金雷達 →</a></article><article class="campus-card"><h3>看國家與科系</h3><p>比較目的地與學習方向，建立自己的海外學校清單。</p><a href="/study-abroad/">留學 DIY 導航 →</a></article><article class="campus-card"><h3>先探索國內大學</h3><p>了解課程與科系特色，再規劃大學期間的海外學習。</p><a href="/taiwan-universities/">國內大學選校選系 →</a></article></div></section>
   <section class="campus-section"><h2>讓你的校園故事被看見</h2><p>歡迎學校提供官方交流公告，也歡迎學生分享親身出國經驗。請透過聯絡頁提供來源與聯絡方式，編輯確認內容及授權後再刊登。</p><div class="campus-actions"><a href="/contact/">提供校園資訊或分享經驗 →</a><a href="/newsletter/">免費訂閱國際教育週報 →</a></div></section>
- </main>
+ </div>
 </BaseLayout>
 <script>
 const form=document.querySelector<HTMLFormElement>('#campus-filter');
