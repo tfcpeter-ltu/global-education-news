@@ -1,13 +1,13 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-27T06:35:40.629Z",
+  "updatedAt": "2026-09-28T06:49:59.721Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
     {
       "title": "最新國際教育新聞",
       "path": "/news/",
-      "views": 151
+      "views": 165
     },
     {
       "title": "英國警方更新大學生防詐指南：假學費折扣與假移民罰款須先向學校查證｜環球教育新聞網 Global Education News",
@@ -20,64 +20,64 @@
       "views": 113
     },
     {
-      "title": "紐西蘭 NCEA 將退場：2028 啟動新制，2029 導入 NZCE、2030 NZACE｜環球教育新聞網 Global Education News",
-      "path": "/news/new-zealand-ncea-replacement-nzce-nzace-2028-2030/",
-      "views": 9
+      "title": "澳洲國際學生人數年減 7%：高教註冊逆勢成長 2%，ELICOS 減 27%｜環球教育新聞網 Global Education News",
+      "path": "/news/australia-international-student-june-2026-data/",
+      "views": 16
     },
     {
-      "title": "愛爾蘭六所大學主席籲增撥經費：2027、2028 預算各增 1.9 億歐元仍屬倡議｜環球教育新聞網 Global Education News",
-      "path": "/news/ireland-university-budget-2027-funding-appeal/",
-      "views": 8
+      "title": "紐西蘭 NCEA 將退場：2028 啟動新制，2029 導入 NZCE、2030 NZACE｜環球教育新聞網 Global Education News",
+      "path": "/news/new-zealand-ncea-replacement-nzce-nzace-2028-2030/",
+      "views": 10
     }
   ],
   "countries": [
     {
       "name": "台灣",
       "mapName": "Taiwan",
-      "sessions": 249,
-      "share": 29.3
+      "sessions": 253,
+      "share": 28.6
     },
     {
       "name": "美國",
       "mapName": "United States",
-      "sessions": 163,
-      "share": 19.2
+      "sessions": 157,
+      "share": 17.7
     },
     {
       "name": "英國",
       "mapName": "United Kingdom",
-      "sessions": 127,
-      "share": 14.9
+      "sessions": 126,
+      "share": 14.2
     },
     {
       "name": "加拿大",
       "mapName": "Canada",
-      "sessions": 115,
-      "share": 13.5
-    },
-    {
-      "name": "Netherlands",
-      "mapName": "Netherlands",
-      "sessions": 51,
-      "share": 6
+      "sessions": 114,
+      "share": 12.9
     },
     {
       "name": "澳洲",
       "mapName": "Australia",
-      "sessions": 43,
-      "share": 5.1
+      "sessions": 61,
+      "share": 6.9
+    },
+    {
+      "name": "Netherlands",
+      "mapName": "Netherlands",
+      "sessions": 61,
+      "share": 6.9
     },
     {
       "name": "愛爾蘭",
       "mapName": "Ireland",
-      "sessions": 33,
-      "share": 3.9
+      "sessions": 35,
+      "share": 4
     },
     {
       "name": "新加坡",
       "mapName": "Singapore",
-      "sessions": 15,
-      "share": 1.8
+      "sessions": 20,
+      "share": 2.3
     },
     {
       "name": "(not set)",
@@ -88,8 +88,8 @@
     {
       "name": "香港",
       "mapName": "Hong Kong",
-      "sessions": 7,
-      "share": 0.8
+      "sessions": 9,
+      "share": 1
     }
   ]
 }
