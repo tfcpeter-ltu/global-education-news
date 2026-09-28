@@ -4,10 +4,13 @@ import {schools,guides,levelName} from '../../../data/campus';
 import '../../../styles/campus.css';
 export function getStaticPaths(){return schools.map(school=>({params:{slug:school.slug},props:{school}}));}
 const {school}=Astro.props;
+const reportModules = import.meta.glob('../../news/*.md', { eager: true });
+const reports = Object.values(reportModules).map((m:any)=>({...m.frontmatter,url:m.url})).filter((r:any)=>r.campusFeature===true && Array.isArray(r.schoolSlugs) && r.schoolSlugs.includes(school.slug)).sort((a:any,b:any)=>new Date(b.date).getTime()-new Date(a.date).getTime());
 const relevant=guides.filter(g=>g.level==='all'||g.level===school.level);
 ---
 <BaseLayout title={`${school.name}・國際機會入口｜環球教育新聞網`} description={school.intro}>
  <div class="container campus"><nav class="campus-breadcrumb" aria-label="麵包屑"><a href="/topics/taiwan/#campus">台灣校園國際新聞</a> / {school.name}</nav><section class="campus-hero"><div><span class="campus-tag">{levelName(school.level)} · {school.city}</span><h1>{school.name}<br/>國際機會入口</h1><p class="campus-deck">{school.intro}</p><div class="campus-actions"><a class="primary" href={school.url} target="_blank" rel="noopener noreferrer">前往{school.office}官方網站 ↗</a></div></div><aside class="campus-note"><h2>從官方公告開始</h2><p>本頁為申請入口與準備指引，不是招生公告。是否開放申請、名額、資格與費用，請向校方確認。</p><p class="campus-meta">官方入口查核：2026 年 9 月 28 日<br/>環球教育新聞網獨立整理，非學校官方頁面。</p></aside></section>
+ <section class="campus-section"><h2>{school.name}・出國特別報導</h2>{reports.length ? <div class="campus-grid">{reports.map((r:any)=><article class="campus-card"><h3><a href={r.url}>{r.title}</a></h3><p>{r.description}</p></article>)}</div> : <p>本校的海外學習路徑與學長姐故事正在蒐集，完成查核與必要授權後刊登。</p>}<a href="/campus/reports/">查看校園出國特別報導 →</a></section>
  <section class="campus-section"><h2>聯絡學校前，先問這三件事</h2><ol class="campus-steps">{school.questions.map((q:string)=><li>{q}</li>)}</ol><p>洽詢時提供目前年級、系所或學部，以及想出國的時間，方便承辦單位確認適用計畫。</p></section>
  <section class="campus-section"><h2>官方資訊與查核來源</h2><ul><li><a href={school.url} target="_blank" rel="noopener noreferrer">{school.name}・{school.office} ↗</a></li>{school.extra&&<li><a href={school.extra} target="_blank" rel="noopener noreferrer">{school.extraLabel} ↗</a></li>}</ul><p class="campus-meta">官方社群請由上述校方網站進入，避免混淆非官方帳號；外校學生是否能參加，須依個別公告確認。</p></section>
  <section class="campus-section"><h2>適合你的準備指南</h2><div class="campus-grid">{relevant.map(g=><article class="campus-card"><span class="campus-tag">{g.tag}</span><h3>{g.name}</h3><p>{g.intro}</p><a href={`/campus/guides/${g.slug}/`}>開始準備 →</a></article>)}</div></section>

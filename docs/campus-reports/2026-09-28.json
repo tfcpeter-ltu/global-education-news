@@ -1,0 +1,14 @@
+{
+  "date": "2026-09-28",
+  "reviewedSchools": ["ntut", "ncyu", "wzu"],
+  "candidates": [
+    {"schoolSlug":"ntut","angle":"北科大學生海外學習與雙聯路徑","sources":["https://oia.ntut.edu.tw/"],"reviewedAt":"2026-09-28","status":"needs-research","nextStep":"從中文國際處確認本國學生出國管道，區分來臺與赴外交換，補獨立第二來源。"},
+    {"schoolSlug":"ncyu","angle":"嘉義大學系所國際化與學生交流機會","sources":["https://www.ncyu.edu.tw/oia/"],"reviewedAt":"2026-09-28","status":"needs-research","nextStep":"選定具體系所及赴外計畫，核對正式公告、學生適用資格與獨立第二來源。"},
+    {"schoolSlug":"wzu","angle":"文藻學生如何準備115-2校級交換申請","sources":["https://a001.wzu.edu.tw/article/529353"],"reviewedAt":"2026-09-28","status":"needs-research","nextStep":"核對原始甄選附件、期限及獨立第二來源；若採訪交換經驗須先取得本人同意。"}
+  ],
+  "published": [],
+  "pendingConsent": [],
+  "outreachDrafts": [],
+  "gaps": ["首批為待查核選題，尚未完成雙重查核與人物授權，未作為正式特別報導刊登。"],
+  "setup": {"automationId":"08-00","schedule":"每天06:00 Asia/Taipei，沿用既有批次","section":"/campus/reports/"}
+}

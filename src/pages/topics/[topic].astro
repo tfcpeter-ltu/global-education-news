@@ -37,7 +37,7 @@ articles = articles.filter((story: any) => {
       <div class="kicker">TOPIC</div>
       <h1>{data.label}</h1>
       <p class="hero-deck">{data.description}</p>
-      {topic === 'taiwan' && <nav class="taiwan-sections" aria-label="專區內容"><a href="#taiwan-news">最新校園新聞 ↓</a><a href="#campus">校園國際機會 ↓</a><a href="#schools">找學校 ↓</a><a href="#guides">出國準備指南 ↓</a></nav>}
+      {topic === 'taiwan' && <nav class="taiwan-sections" aria-label="專區內容"><a href="#taiwan-news">最新校園新聞 ↓</a><a href="/campus/reports/">校園出國特別報導 →</a><a href="#campus">校園國際機會 ↓</a><a href="#schools">找學校 ↓</a><a href="#guides">出國準備指南 ↓</a></nav>}
       <hr class="rule" />
       {topic === 'taiwan' && <h2 id="taiwan-news">最新台灣校園新聞</h2>}
       {articles.length > 0 ? (

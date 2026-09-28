@@ -1,0 +1,22 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import '../../../styles/campus.css';
+const modules = import.meta.glob('../../news/*.md', { eager: true });
+const reports = Object.values(modules).map((m:any)=>({...m.frontmatter,url:m.url})).filter((a:any)=>a.campusFeature===true).sort((a:any,b:any)=>new Date(b.date).getTime()-new Date(a.date).getTime());
+---
+<BaseLayout title="校園 × 出國特別報導｜環球教育新聞網" description="以校名找到海外升學、交換與研究所路徑，閱讀學長姐故事、校園國際交流及有來源可查的合作紀錄。">
+ <main class="container campus">
+  <nav class="campus-breadcrumb" aria-label="麵包屑"><a href="/topics/taiwan/">台灣校園國際新聞</a> / 特別報導</nav>
+  <div class="kicker">CAMPUS SPECIAL REPORTS</div><h1>校園 × 出國特別報導</h1>
+  <p class="campus-deck">從你的學校出發，看海外升學路徑、學長姐經驗與校園國際交流。</p>
+  <section class="campus-section"><h2>最新特別報導</h2>
+   {reports.length ? <div class="campus-grid">{reports.map((r:any)=><article class="campus-card"><span class="campus-tag">{r.category}</span><h3><a href={r.url}>{r.title}</a></h3><p>{r.description}</p><a href={r.url}>閱讀報導 →</a></article>)}</div> : <p>首批報導正在蒐集與查核。人物故事會在取得本人同意後刊登；你也可以先從學校入口查找官方公告。</p>}
+  </section>
+  <section class="campus-section"><h2>我們關注的校園故事</h2><div class="campus-grid">
+   <article class="campus-card"><h3>學校 × 出國路徑</h3><p>從校方公告與有年份的公開資料，整理海外升學、交換、雙聯學位與研究所準備方向。</p></article>
+   <article class="campus-card"><h3>學長姐親身經驗</h3><p>在取得本人同意後，分享申請準備、海外學習與文化適應的真實經歷。</p></article>
+   <article class="campus-card"><h3>校園交流與合作紀錄</h3><p>追蹤輔導室、國際處與學生社團活動；涉及 LTU 的合作會說明實際角色、時間與查核來源。</p></article>
+  </div></section>
+  <div class="campus-actions"><a class="primary" href="/topics/taiwan/#schools">找你的學校 →</a><a href="/contact/">提供校園線索或分享經驗 →</a></div>
+ </main>
+</BaseLayout>
