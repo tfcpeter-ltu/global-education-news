@@ -251,6 +251,10 @@ const isScholarshipRadar = Astro.url.pathname === '/scholarships/' || Astro.url.
   }
 
   @media (max-width: 680px) {
+    .nav {
+      overflow-x: hidden;
+    }
+
     .nav .container {
       gap: 7px 16px;
     }
@@ -267,6 +271,7 @@ const isScholarshipRadar = Astro.url.pathname === '/scholarships/' || Astro.url.
       font-size: clamp(2.25rem, 11vw, 3.25rem);
       white-space: normal;
       line-height: .98;
+      overflow-wrap: anywhere;
     }
 
     .brand-zh-secondary {
