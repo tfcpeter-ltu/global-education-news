@@ -1,0 +1,34 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import {schools,guides,levelName} from '../../data/campus';
+import '../../styles/campus.css';
+---
+<BaseLayout title="校園國際機會｜高中生・大學生出國準備" description="從你的學校找到國際交流官方入口，探索高中海外升學、大學交換、雙聯學位、海外實習與獎學金準備指南。">
+ <main class="container campus">
+  <div class="kicker">CAMPUS TO WORLD</div>
+  <section class="campus-hero">
+   <div><h1>從你的學校，<br/>找到通往世界的機會。</h1><p class="campus-deck">先找學校，再選方向。把海外交流、交換申請與出國費用，一步一步準備好。</p><div class="campus-actions"><a class="primary" href="?level=high-school#schools">我是高中生 →</a><a href="?level=university#schools">我是大學生 →</a></div></div>
+   <aside class="campus-note"><div class="kicker">YOUR NEXT STEP</div><h2>還沒決定去哪裡？</h2><p>從六份準備指南開始，確認適合自己的學習方式，再查找校內窗口與官方公告。</p><a href="#guides">選一個出國方向 ↓</a><p class="campus-meta">本專區由環球教育新聞網整理，非學校官方網站；收錄不代表合作或推薦。</p></aside>
+  </section>
+  <section class="campus-section" id="schools"><h2>找你的學校</h2><p>先收錄五所學校的官方入口與申請前提問清單。校內資格、名額與截止日期，請以各校當期公告為準。</p>
+   <form class="campus-filter" id="campus-filter" role="search"><label for="campus-query">學校名稱或地區<input id="campus-query" name="q" type="search" placeholder="例如：台大、明道、新竹"/></label><label for="campus-level">就讀階段<select id="campus-level" name="level"><option value="all">全部</option><option value="high-school">高中生</option><option value="university">大學生</option></select></label><button type="submit">搜尋</button><button type="reset">清除</button></form>
+   <p role="status" aria-live="polite">符合條件的學校：<strong id="campus-count">{schools.length}</strong> 所</p>
+   <div class="campus-grid" id="school-results">{schools.map(s=><article class="campus-card" data-school data-level={s.level} data-search={`${s.name} ${s.aliases} ${s.city} ${s.office}`}><span class="campus-tag">{levelName(s.level)} · {s.city}</span><h3>{s.name}</h3><p>{s.intro}</p><a href={`/campus/schools/${s.slug}/`}>查看學校國際機會入口 →</a></article>)}</div>
+   <div class="campus-empty" id="campus-empty" hidden><h3>目前沒有符合的學校</h3><p>可清除條件，或先閱讀下方準備指南。學校尚未收錄，不代表沒有海外機會。</p><a href="/contact/">提供學校官方資訊 →</a></div>
+  </section>
+  <section class="campus-section" id="guides"><h2>選一個出國方向</h2><p>以下是準備指南，不是正在招生的計畫；幫你在申請前問對問題。</p><div class="campus-grid">{guides.map(g=><article class="campus-card" data-guide data-level={g.level}><span class="campus-tag">{levelName(g.level)} · {g.tag}</span><h3>{g.name}</h3><p>{g.intro}</p><a href={`/campus/guides/${g.slug}/`}>閱讀指南與準備清單 →</a></article>)}</div></section>
+  <section class="campus-section"><h2>把下一步接起來</h2><div class="campus-grid"><article class="campus-card"><h3>找補助</h3><p>從台灣學生資格出發，查找獎學金與官方申請資訊。</p><a href="/scholarships/">獎學金雷達 →</a></article><article class="campus-card"><h3>看國家與科系</h3><p>比較目的地與學習方向，建立自己的海外學校清單。</p><a href="/study-abroad/">留學 DIY 導航 →</a></article><article class="campus-card"><h3>先探索國內大學</h3><p>了解課程與科系特色，再規劃大學期間的海外學習。</p><a href="/taiwan-universities/">國內大學選校選系 →</a></article></div></section>
+  <section class="campus-section"><h2>讓你的校園故事被看見</h2><p>歡迎學校提供官方交流公告，也歡迎學生分享親身出國經驗。請透過聯絡頁提供來源與聯絡方式，編輯確認內容及授權後再刊登。</p><div class="campus-actions"><a href="/contact/">提供校園資訊或分享經驗 →</a><a href="/newsletter/">免費訂閱國際教育週報 →</a></div></section>
+ </main>
+</BaseLayout>
+<script>
+const form=document.querySelector<HTMLFormElement>('#campus-filter');
+const query=document.querySelector<HTMLInputElement>('#campus-query');
+const level=document.querySelector<HTMLSelectElement>('#campus-level');
+if(form&&query&&level){
+ const params=new URLSearchParams(location.search);query.value=params.get('q')||'';const initial=params.get('level');if(initial==='high-school'||initial==='university')level.value=initial;
+ const norm=(s:string)=>s.normalize('NFKC').toLowerCase().replaceAll('台','臺').replace(/\s+/g,'');
+ function filter(updateUrl=true){let count=0;const q=norm(query!.value);document.querySelectorAll<HTMLElement>('[data-school]').forEach(card=>{const show=(level!.value==='all'||card.dataset.level===level!.value)&&norm(card.dataset.search||'').includes(q);card.hidden=!show;if(show)count++;});document.querySelectorAll<HTMLElement>('[data-guide]').forEach(card=>{card.hidden=!(level!.value==='all'||card.dataset.level==='all'||card.dataset.level===level!.value);});document.querySelector('#campus-count')!.textContent=String(count);(document.querySelector('#campus-empty') as HTMLElement).hidden=count>0;if(updateUrl){const url=new URL(location.href);url.searchParams.delete('q');url.searchParams.delete('level');if(query!.value.trim())url.searchParams.set('q',query!.value.trim());if(level!.value!=='all')url.searchParams.set('level',level!.value);history.replaceState(null,'',url);}}
+ form.addEventListener('submit',e=>{e.preventDefault();filter();});query.addEventListener('input',()=>filter());level.addEventListener('change',()=>filter());form.addEventListener('reset',()=>{query.value='';level.value='all';filter();});filter(false);
+}
+</script>
