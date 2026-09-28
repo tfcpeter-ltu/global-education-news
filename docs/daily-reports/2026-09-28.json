@@ -3,7 +3,7 @@
   "timezone": "Asia/Taipei",
   "baselineCommit": "721210a",
   "status": "partial",
-  "updatedAt": "2026-09-28T09:05:00+08:00",
+  "updatedAt": "2026-09-28T10:42:00+08:00",
   "scholarshipBaselineSlugs": [
     "2026-08-bristol-think-big",
     "2026-08-manchester-global-futures-taiwan-2027",
@@ -214,7 +214,207 @@
     "checkedAt": "2026-09-28T06:15:00+08:00"
   },
   "peterImports": [],
-  "socialPosts": [],
+  "socialPosts": [
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/news/canada-international-student-arrivals-july-2026/",
+      "status": "PUBLISHED",
+      "id": "pfbid02oXzFS3aoGfqZAREaWvFCzkjfu7XpNG9Q5vbazKcCSGgCzbHQADP84BGUnsr2tLzRl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02oXzFS3aoGfqZAREaWvFCzkjfu7XpNG9Q5vbazKcCSGgCzbHQADP84BGUnsr2tLzRl",
+      "verifiedAt": "2026-09-28T10:42:00+08:00",
+      "observedAt": "2026-09-28T10:42:00+08:00",
+      "account": "101904929207004",
+      "verification": "發布後由平台公開頁或成功通知回讀帳號、貼文與公開網址。"
+    },
+    {
+      "campaign": "news",
+      "network": "threads",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/news/canada-international-student-arrivals-july-2026/",
+      "status": "PUBLISHED",
+      "id": "Ddz-rfvE2Fj",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Ddz-rfvE2Fj",
+      "verifiedAt": "2026-09-28T10:42:00+08:00",
+      "observedAt": "2026-09-28T10:42:00+08:00",
+      "account": "ltuossdtw",
+      "verification": "發布後由平台公開頁或成功通知回讀帳號、貼文與公開網址。"
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/news/canada-international-student-arrivals-july-2026/",
+      "status": "PUBLISHED",
+      "id": "Ddz-8BhkwY0",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Ddz-8BhkwY0/",
+      "verifiedAt": "2026-09-28T10:42:00+08:00",
+      "observedAt": "2026-09-28T10:42:00+08:00",
+      "account": "ltuossdtw",
+      "threadsSync": false,
+      "verification": "發布後由平台公開頁或成功通知回讀帳號、貼文與公開網址。"
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/news/canada-international-student-arrivals-july-2026/",
+      "status": "PUBLISHED",
+      "id": "7510146451180732417",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7510146451180732417/",
+      "verifiedAt": "2026-09-28T10:42:00+08:00",
+      "observedAt": "2026-09-28T10:42:00+08:00",
+      "account": "Peter Chen / peter-chen-26a754228",
+      "verification": "發布後由平台公開頁或成功通知回讀帳號、貼文與公開網址。"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-rmit-up-academic-english-bursary-2027/",
+      "status": "PUBLISHED",
+      "id": "pfbid02TPYpEwKAV82yhifU6wS52Gq5qikbocCdxNTJu5ZX2Yo4yqbkfhk5Y5xjt683Dgj3l",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02TPYpEwKAV82yhifU6wS52Gq5qikbocCdxNTJu5ZX2Yo4yqbkfhk5Y5xjt683Dgj3l",
+      "verifiedAt": "2026-09-28T10:42:00+08:00",
+      "observedAt": "2026-09-28T10:42:00+08:00",
+      "account": "101904929207004",
+      "verification": "發布後由平台公開頁或成功通知回讀帳號、貼文與公開網址。"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-rmit-up-academic-english-bursary-2027/",
+      "status": "PUBLISHED",
+      "id": "Ddz-uXYkzTt",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Ddz-uXYkzTt",
+      "verifiedAt": "2026-09-28T10:42:00+08:00",
+      "observedAt": "2026-09-28T10:42:00+08:00",
+      "account": "ltuossdtw",
+      "verification": "發布後由平台公開頁或成功通知回讀帳號、貼文與公開網址。"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-rmit-up-academic-english-bursary-2027/",
+      "status": "PUBLISHED",
+      "id": "Ddz_DXwE0Ye",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Ddz_DXwE0Ye/",
+      "verifiedAt": "2026-09-28T10:42:00+08:00",
+      "observedAt": "2026-09-28T10:42:00+08:00",
+      "account": "ltuossdtw",
+      "threadsSync": false,
+      "verification": "發布後由平台公開頁或成功通知回讀帳號、貼文與公開網址。"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-09-rmit-up-academic-english-bursary-2027/",
+      "status": "PUBLISHED",
+      "id": "7510146622538846209",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7510146622538846209/",
+      "verifiedAt": "2026-09-28T10:42:00+08:00",
+      "observedAt": "2026-09-28T10:42:00+08:00",
+      "account": "Peter Chen / peter-chen-26a754228",
+      "verification": "發布後由平台公開頁或成功通知回讀帳號、貼文與公開網址。"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "status": "PUBLISHED",
+      "id": "pfbid0JShA1HU5EVvD2CnZXJxaKd4foYjWiEikjr5Yd4z6VHGMCbxtCFkaxD3h5HWDL7eUl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0JShA1HU5EVvD2CnZXJxaKd4foYjWiEikjr5Yd4z6VHGMCbxtCFkaxD3h5HWDL7eUl",
+      "verifiedAt": "2026-09-28T10:42:00+08:00",
+      "observedAt": "2026-09-28T10:42:00+08:00",
+      "account": "101904929207004",
+      "verification": "發布後由平台公開頁或成功通知回讀帳號、貼文與公開網址。"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "status": "PUBLISHED",
+      "id": "Ddz-ySnE_-A",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Ddz-ySnE_-A",
+      "verifiedAt": "2026-09-28T10:42:00+08:00",
+      "observedAt": "2026-09-28T10:42:00+08:00",
+      "account": "ltuossdtw",
+      "verification": "發布後由平台公開頁或成功通知回讀帳號、貼文與公開網址。"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "status": "PUBLISHED",
+      "id": "Ddz_KwcE6vE",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Ddz_KwcE6vE/",
+      "verifiedAt": "2026-09-28T10:42:00+08:00",
+      "observedAt": "2026-09-28T10:42:00+08:00",
+      "account": "ltuossdtw",
+      "threadsSync": false,
+      "verification": "發布後由平台公開頁或成功通知回讀帳號、貼文與公開網址。"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "status": "PUBLISHED",
+      "id": "7510146795281334272",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7510146795281334272/",
+      "verifiedAt": "2026-09-28T10:42:00+08:00",
+      "observedAt": "2026-09-28T10:42:00+08:00",
+      "account": "Peter Chen / peter-chen-26a754228",
+      "verification": "發布後由平台公開頁或成功通知回讀帳號、貼文與公開網址。"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "status": "PUBLISHED",
+      "id": "Ddz-0zVk5zA",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Ddz-0zVk5zA",
+      "verifiedAt": "2026-09-28T10:42:00+08:00",
+      "observedAt": "2026-09-28T10:42:00+08:00",
+      "account": "ltuossdtw",
+      "verification": "發布後由平台公開頁或成功通知回讀帳號、貼文與公開網址。"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "status": "PUBLISHED",
+      "id": "Ddz_UuXk0WG",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Ddz_UuXk0WG/",
+      "verifiedAt": "2026-09-28T10:42:00+08:00",
+      "observedAt": "2026-09-28T10:42:00+08:00",
+      "account": "ltuossdtw",
+      "threadsSync": false,
+      "verification": "發布後由平台公開頁或成功通知回讀帳號、貼文與公開網址。"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "version": "v1",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "status": "PUBLISHED",
+      "id": "7510147299449364480",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7510147299449364480/",
+      "verifiedAt": "2026-09-28T10:42:00+08:00",
+      "observedAt": "2026-09-28T10:42:00+08:00",
+      "account": "Peter Chen / peter-chen-26a754228",
+      "verification": "發布後由平台公開頁或成功通知回讀帳號、貼文與公開網址。"
+    }
+  ],
   "ltuMediaRotation": {
     "status": "pending",
     "poolCount": 12
@@ -239,12 +439,11 @@
       "六頁列入 sitemap；三篇新聞列入 News sitemap 與 weekly-feed.xml",
       "390×844 初查發現水平溢出後，以 b922cbb 修正 mobile header/article overflow，Actions #507 成功"
     ],
-    "verifiedAt": "2026-09-28T09:05:00+08:00"
+    "verifiedAt": "2026-09-28T10:42:00+08:00"
   },
   "blockers": [
-    "Peter 指定粉專最近僅 1 則未收錄新文；其餘兩則已收錄，今日尚未完成新文雙重查核與上稿",
-    "15 則社群尚未發布與回讀平台 ID／公開 URL",
-    "LTU 媒體池輪換尚未完成"
+    "Peter 指定粉專最近僅 1 則未收錄新文；其餘兩則已收錄，不能重複充數。候選新文尚待完整雙重查核與上稿。",
+    "LTU 媒體池輪換尚未完成。"
   ],
   "peterCheck": {
     "checkedAt": "2026-09-28T09:05:00+08:00",
@@ -253,5 +452,11 @@
     "candidateUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid02r6jSFKAwYqbf1x7HUnEsp9MoMZ4wMVUJvPBDCaik5mW3RdsxpzF8ukRW74NsKv5Cl&id=61585164670358",
     "candidateTitle": "2027 跨國留學新賽局：美、英、加三大主流升學標準嚴格化變革深度解析",
     "note": "最近三則中，其餘兩則「高中畢業或研究所再出國」與「大學推薦信」已收錄，不能重複充數；候選新文尚待完整雙重查核與上稿。"
+  },
+  "socialDelivery": {
+    "status": "completed",
+    "expected": 15,
+    "published": 15,
+    "verifiedAt": "2026-09-28T10:42:00+08:00"
   }
 }
