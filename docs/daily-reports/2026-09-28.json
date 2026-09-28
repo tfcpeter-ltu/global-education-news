@@ -3,7 +3,7 @@
   "timezone": "Asia/Taipei",
   "baselineCommit": "721210a",
   "status": "partial",
-  "updatedAt": "2026-09-28T08:48:00+08:00",
+  "updatedAt": "2026-09-28T09:05:00+08:00",
   "scholarshipBaselineSlugs": [
     "2026-08-bristol-think-big",
     "2026-08-manchester-global-futures-taiwan-2027",
@@ -76,33 +76,36 @@
   "newsPublished": [
     {
       "url": "https://globalednews.com/news/canada-international-student-arrivals-july-2026/",
-      "status": "prepared",
+      "status": "published",
       "slug": "canada-international-student-arrivals-july-2026",
       "sources": [
         "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/reports-statistics/statistics-open-data/immigration-stats/students-workers.html",
         "https://moving2canada.com/2026/09/new-student-arrivals-up-92-percent-in-july-but-worker-arrivals-decline/"
       ],
-      "verifiedAt": "2026-09-28T06:15:00+08:00"
+      "verifiedAt": "2026-09-28T06:15:00+08:00",
+      "publishedVerifiedAt": "2026-09-28T09:05:00+08:00"
     },
     {
       "url": "https://globalednews.com/news/philippines-eduphil-international-students-2026/",
-      "status": "prepared",
+      "status": "published",
       "slug": "philippines-eduphil-international-students-2026",
       "sources": [
         "https://pco.gov.ph/news_releases/pbbm-establishes-eduphil-program-to-promote-ph-as-destination-for-intl-students/",
         "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/5/102878"
       ],
-      "verifiedAt": "2026-09-28T06:15:00+08:00"
+      "verifiedAt": "2026-09-28T06:15:00+08:00",
+      "publishedVerifiedAt": "2026-09-28T09:05:00+08:00"
     },
     {
       "url": "https://globalednews.com/news/new-zealand-international-education-exports-2026/",
-      "status": "prepared",
+      "status": "published",
       "slug": "new-zealand-international-education-exports-2026",
       "sources": [
         "https://www.beehive.govt.nz/release/international-education-exports-surge-past-pre-covid-levels",
         "https://gslglobal.com/2026/09/13/new-zealands-4-98bn-recovery-puts-the-spotlight-back-on-asia-pacific/"
       ],
-      "verifiedAt": "2026-09-28T06:15:00+08:00"
+      "verifiedAt": "2026-09-28T06:15:00+08:00",
+      "publishedVerifiedAt": "2026-09-28T09:05:00+08:00"
     }
   ],
   "scholarshipChecks": [
@@ -112,13 +115,13 @@
         "https://www.idp.com/find-a-scholarship/english-language/all-study-level/australia/"
       ],
       "verifiedAt": "2026-09-28T06:15:00+08:00",
-      "updateSummary": "2026-09-28 全新頁面；已查核資格、金額、期限與例外，等待部署後正式站回讀。",
+      "updateSummary": "2026-09-28 全新頁面；已查核資格、金額、期限與例外，正式站回讀 HTTP 200。",
       "isNew": true,
       "baselineAbsent": true,
       "eligibleTaiwan": true,
       "publishedPath": "src/pages/scholarships/items/2026-09-rmit-up-academic-english-bursary-2027.md",
       "slug": "2026-09-rmit-up-academic-english-bursary-2027",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-09-28T09:05:00+08:00",
       "open": true,
       "url": "https://globalednews.com/scholarships/items/2026-09-rmit-up-academic-english-bursary-2027/"
     },
@@ -128,13 +131,13 @@
         "https://www.masterscompare.co.uk/opportunity/january-start-masters-degrees-scholarships-available/111742"
       ],
       "verifiedAt": "2026-09-28T06:15:00+08:00",
-      "updateSummary": "2026-09-28 全新頁面；已查核資格、金額、期限與例外，等待部署後正式站回讀。",
+      "updateSummary": "2026-09-28 全新頁面；已查核資格、金額、期限與例外，正式站回讀 HTTP 200。",
       "isNew": true,
       "baselineAbsent": true,
       "eligibleTaiwan": true,
       "publishedPath": "src/pages/scholarships/items/2026-09-exeter-pgt-taiwan-january-2027.md",
       "slug": "2026-09-exeter-pgt-taiwan-january-2027",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-09-28T09:05:00+08:00",
       "open": true,
       "url": "https://globalednews.com/scholarships/items/2026-09-exeter-pgt-taiwan-january-2027/"
     },
@@ -144,13 +147,13 @@
         "https://scholarshipsignal.com/opportunities/vice-chancellor-s-east-asia-undergraduate-scholarship-january-2027"
       ],
       "verifiedAt": "2026-09-28T06:15:00+08:00",
-      "updateSummary": "2026-09-28 全新頁面；已查核資格、金額、期限與例外，等待部署後正式站回讀。",
+      "updateSummary": "2026-09-28 全新頁面；已查核資格、金額、期限與例外，正式站回讀 HTTP 200。",
       "isNew": true,
       "baselineAbsent": true,
       "eligibleTaiwan": true,
       "publishedPath": "src/pages/scholarships/items/2026-09-dundee-east-asia-undergraduate-january-2027.md",
       "slug": "2026-09-dundee-east-asia-undergraduate-january-2027",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-09-28T09:05:00+08:00",
       "open": true,
       "url": "https://globalednews.com/scholarships/items/2026-09-dundee-east-asia-undergraduate-january-2027/"
     }
@@ -162,13 +165,13 @@
         "https://www.idp.com/find-a-scholarship/english-language/all-study-level/australia/"
       ],
       "verifiedAt": "2026-09-28T06:15:00+08:00",
-      "updateSummary": "2026-09-28 全新頁面；已查核資格、金額、期限與例外，等待部署後正式站回讀。",
+      "updateSummary": "2026-09-28 全新頁面；已查核資格、金額、期限與例外，正式站回讀 HTTP 200。",
       "isNew": true,
       "baselineAbsent": true,
       "eligibleTaiwan": true,
       "publishedPath": "src/pages/scholarships/items/2026-09-rmit-up-academic-english-bursary-2027.md",
       "slug": "2026-09-rmit-up-academic-english-bursary-2027",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-09-28T09:05:00+08:00",
       "open": true,
       "url": "https://globalednews.com/scholarships/items/2026-09-rmit-up-academic-english-bursary-2027/"
     },
@@ -178,13 +181,13 @@
         "https://www.masterscompare.co.uk/opportunity/january-start-masters-degrees-scholarships-available/111742"
       ],
       "verifiedAt": "2026-09-28T06:15:00+08:00",
-      "updateSummary": "2026-09-28 全新頁面；已查核資格、金額、期限與例外，等待部署後正式站回讀。",
+      "updateSummary": "2026-09-28 全新頁面；已查核資格、金額、期限與例外，正式站回讀 HTTP 200。",
       "isNew": true,
       "baselineAbsent": true,
       "eligibleTaiwan": true,
       "publishedPath": "src/pages/scholarships/items/2026-09-exeter-pgt-taiwan-january-2027.md",
       "slug": "2026-09-exeter-pgt-taiwan-january-2027",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-09-28T09:05:00+08:00",
       "open": true,
       "url": "https://globalednews.com/scholarships/items/2026-09-exeter-pgt-taiwan-january-2027/"
     },
@@ -194,13 +197,13 @@
         "https://scholarshipsignal.com/opportunities/vice-chancellor-s-east-asia-undergraduate-scholarship-january-2027"
       ],
       "verifiedAt": "2026-09-28T06:15:00+08:00",
-      "updateSummary": "2026-09-28 全新頁面；已查核資格、金額、期限與例外，等待部署後正式站回讀。",
+      "updateSummary": "2026-09-28 全新頁面；已查核資格、金額、期限與例外，正式站回讀 HTTP 200。",
       "isNew": true,
       "baselineAbsent": true,
       "eligibleTaiwan": true,
       "publishedPath": "src/pages/scholarships/items/2026-09-dundee-east-asia-undergraduate-january-2027.md",
       "slug": "2026-09-dundee-east-asia-undergraduate-january-2027",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-09-28T09:05:00+08:00",
       "open": true,
       "url": "https://globalednews.com/scholarships/items/2026-09-dundee-east-asia-undergraduate-january-2027/"
     }
@@ -217,22 +220,38 @@
     "poolCount": 12
   },
   "build": {
-    "fullBuild": false,
-    "astro": false,
-    "note": "內容格式檢查通過；本機 Astro 建置受 OneDrive/pnpm 硬連結依賴缺檔阻礙，未冒稱通過。"
+    "fullBuild": true,
+    "astro": true,
+    "note": "GitHub Actions Deploy Astro site to GitHub Pages #506 與手機修補 #507 均成功。"
   },
   "deployment": {
-    "status": "blocked-git-credential"
+    "status": "success",
+    "commit": "b922cbbde9f96654a8d33fd2ca9b44ca951b3910",
+    "workflowRun": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/36364221024",
+    "verifiedAt": "2026-09-28T09:05:00+08:00"
   },
   "acceptance": {
-    "desktop": false,
-    "seo": false,
-    "mobile": false
+    "desktop": true,
+    "seo": true,
+    "mobile": true,
+    "evidence": [
+      "六個新增頁面 HTTP 200；canonical、OG、schema 通過",
+      "六頁列入 sitemap；三篇新聞列入 News sitemap 與 weekly-feed.xml",
+      "390×844 初查發現水平溢出後，以 b922cbb 修正 mobile header/article overflow，Actions #507 成功"
+    ],
+    "verifiedAt": "2026-09-28T09:05:00+08:00"
   },
   "blockers": [
-    "GitHub 瀏覽器已登入，但 Git Credential Manager 未取得 CLI push 憑證；遠端 main 仍為 721210a",
-    "Peter 指定粉專三則新文尚未完成",
-    "15 則社群尚未發布",
-    "正式站桌面、手機與 SEO 驗收待部署後完成"
-  ]
+    "Peter 指定粉專最近僅 1 則未收錄新文；其餘兩則已收錄，今日尚未完成新文雙重查核與上稿",
+    "15 則社群尚未發布與回讀平台 ID／公開 URL",
+    "LTU 媒體池輪換尚未完成"
+  ],
+  "peterCheck": {
+    "checkedAt": "2026-09-28T09:05:00+08:00",
+    "sourcePage": "61585164670358",
+    "newPostCount": 1,
+    "candidateUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid02r6jSFKAwYqbf1x7HUnEsp9MoMZ4wMVUJvPBDCaik5mW3RdsxpzF8ukRW74NsKv5Cl&id=61585164670358",
+    "candidateTitle": "2027 跨國留學新賽局：美、英、加三大主流升學標準嚴格化變革深度解析",
+    "note": "最近三則中，其餘兩則「高中畢業或研究所再出國」與「大學推薦信」已收錄，不能重複充數；候選新文尚待完整雙重查核與上稿。"
+  }
 }
