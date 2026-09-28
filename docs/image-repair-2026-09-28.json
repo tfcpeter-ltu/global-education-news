@@ -1,0 +1,54 @@
+{
+  "reason": "Invalid external URLs for three latest articles; self-host verified licensed originals and homepage classroom image.",
+  "verifiedAt": "2026-09-28T10:50:42.654Z",
+  "images": [
+    {
+      "slug": "new-zealand-international-education-exports-2026",
+      "file": "University_of_Auckland_Clock_Tower.jpg",
+      "dir": "5/5b",
+      "credit": "Colin Rose／CC BY 2.0（https://creativecommons.org/licenses/by/2.0/）；資料照，版面裁切",
+      "source": "https://commons.wikimedia.org/wiki/File:University_of_Auckland_Clock_Tower.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/University_of_Auckland_Clock_Tower.jpg",
+      "local": "/images/news/new-zealand-international-education-exports-2026.jpg",
+      "bytes": 168066,
+      "originalBytes": 802793,
+      "modifications": "Resized to fit 1280 × 1280 and JPEG compression; display may crop"
+    },
+    {
+      "slug": "philippines-eduphil-international-students-2026",
+      "file": "University_of_the_Philippines_-_Quezon_Hall_(Diliman,_Quezon_City;_07-27-2020).jpg",
+      "dir": "2/2e",
+      "credit": "patrickroque01／CC BY-SA 4.0（https://creativecommons.org/licenses/by-sa/4.0/）；資料照，版面裁切",
+      "source": "https://commons.wikimedia.org/wiki/File:University_of_the_Philippines_-_Quezon_Hall_(Diliman%2C_Quezon_City%3B_07-27-2020).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/University_of_the_Philippines_-_Quezon_Hall_(Diliman%2C_Quezon_City%3B_07-27-2020).jpg",
+      "local": "/images/news/philippines-eduphil-international-students-2026.jpg",
+      "bytes": 145776,
+      "originalBytes": 3800939,
+      "modifications": "Resized to fit 1280 × 1280 and JPEG compression; display may crop"
+    },
+    {
+      "slug": "canada-international-student-arrivals-july-2026",
+      "file": "University_College,_University_of_Toronto.jpg",
+      "dir": "2/2d",
+      "credit": "Nat；色彩修訂 DavidArthur／CC BY-SA 3.0（https://creativecommons.org/licenses/by-sa/3.0/）；資料照，版面裁切",
+      "source": "https://commons.wikimedia.org/wiki/File:University_College%2C_University_of_Toronto.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/University_College%2C_University_of_Toronto.jpg",
+      "local": "/images/news/canada-international-student-arrivals-july-2026.jpg",
+      "bytes": 128424,
+      "originalBytes": 3118247,
+      "modifications": "Resized to fit 1280 × 1280 and JPEG compression; display may crop"
+    },
+    {
+      "slug": "peter-classroom",
+      "file": "Instructor_speaking_to_students_in_classroom.jpg",
+      "dir": "3/38",
+      "credit": "Ryan Hagerty／U.S. Fish and Wildlife Service；Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Instructor_speaking_to_students_in_classroom.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Instructor_speaking_to_students_in_classroom.jpg",
+      "local": "/images/news/peter-classroom.jpg",
+      "bytes": 112509,
+      "originalBytes": 752657,
+      "modifications": "Resized to fit 1280 × 1280 and JPEG compression; display may crop"
+    }
+  ]
+}

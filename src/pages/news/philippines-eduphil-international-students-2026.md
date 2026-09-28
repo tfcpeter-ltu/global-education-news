@@ -4,10 +4,10 @@ title: "菲律賓成立 EduPhil：整合國際學生入境、留學與政府服�
 description: "菲律賓總統於2026年9月8日簽署第124號行政命令，成立Education Philippines計畫與跨部會工作小組，並規劃EduPhil Portal。"
 category: "國際教育政策"
 topic: "asia"
-image: "https://upload.wikimedia.org/wikipedia/commons/1/13/University_of_the_Philippines_Diliman_Quezon_Hall.jpg"
+image: "/images/news/philippines-eduphil-international-students-2026.jpg"
 imageAlt: "菲律賓大學 Diliman 校區 Quezon Hall 資料照"
-imageCredit: "Wikimedia Commons／CC BY-SA；資料照，版面可能裁切"
-imageSource: "https://commons.wikimedia.org/wiki/File:University_of_the_Philippines_Diliman_Quezon_Hall.jpg"
+imageCredit: "patrickroque01／CC BY-SA 4.0（https://creativecommons.org/licenses/by-sa/4.0/）；資料照，縮圖壓縮及版面裁切"
+imageSource: "https://commons.wikimedia.org/wiki/File:University_of_the_Philippines_-_Quezon_Hall_(Diliman%2C_Quezon_City%3B_07-27-2020).jpg"
 sources: [{"label":"菲律賓總統通訊辦公室｜EduPhil 公告","url":"https://pco.gov.ph/news_releases/pbbm-establishes-eduphil-program-to-promote-ph-as-destination-for-intl-students/"},{"label":"菲律賓最高法院電子圖書館｜Executive Order No. 124","url":"https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/5/102878"}]
 date: "2026-09-28T05:40:00+08:00"
 author: "LTU Global Education News 編輯部"

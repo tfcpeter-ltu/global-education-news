@@ -112,7 +112,7 @@ const ltuMediaStories = [
   }
 ];
 
-const peterPhoto = 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Instructor_speaking_to_students_in_classroom.jpg/1280px-Instructor_speaking_to_students_in_classroom.jpg';
+const peterPhoto = '/images/news/peter-classroom.jpg';
 const lead = internationalStories[0] ?? ltuStories[0];
 const side = internationalStories.filter((story: any) => story.url !== lead?.url).slice(0, 2);
 const heroFollowups = internationalStories.filter((story: any) => story.url !== lead?.url && !side.some((item: any) => item.url === story.url)).slice(0, 2);
