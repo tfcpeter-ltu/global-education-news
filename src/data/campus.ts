@@ -1,3 +1,4 @@
+import addedUniversities from './campus-universities.json';
 import partnerSchools from './campus-partner-schools.json';
 // School list supplied by LTU; current programmes remain subject to school announcements.
 export const schools = [
@@ -12,6 +13,11 @@ export const schools = [
   {slug:'nthu',name:'國立清華大學',aliases:'清大 清華 NTHU',level:'university',city:'新竹',office:'全球事務處',url:'https://oga.site.nthu.edu.tw/',extra:'https://law.site.nthu.edu.tw/p/450-1326-141098%2Cc0.php',extraLabel:'出國交換生甄選辦法',intro:'從全球事務處查找出國交流管道，先確認適用計畫與所屬系所的修課安排。',questions:['目前公告屬於哪一個交換計畫及申請梯次？','我的學位別、年級及語言證明是否符合要求？','海外學期與本校課程、住宿及返校時間如何銜接？']},
   {slug:'nccu',name:'國立政治大學',aliases:'政大 政治大學 NCCU',level:'university',city:'臺北',office:'國際合作事務處',url:'https://oic.nccu.edu.tw/',extra:'',extraLabel:'',intro:'從國合處公告與海外留學資訊出發，確認申請語組、甄選程序及目的地選擇。',questions:['申請語組與目標學校的語言要求是否相同？','校級與院系級機會有哪些不同的申請窗口？','出國前有哪些學籍、學分與補助事項要完成？']},
   {slug:'ntua',name:'國立臺灣藝術大學',aliases:'台藝大 臺藝大 NTUA',level:'university',city:'新北',office:'國際事務處',url:'https://international.ntua.edu.tw/',extra:'',extraLabel:'',intro:'關注國際事務處的交換與交流資訊，提早整理能呈現學習方向的作品與修課計畫。',questions:['目標學校是否另要求作品集、面試或特定創作形式？','交換期間的工作室、設備與課程是否開放給交換生？','展演、材料與運送費用應如何列入預算？']},
+  ...addedUniversities.map(school => ({
+    ...school, level: 'university', extra: '', extraLabel: '',
+    intro: `從${school.name}的官方入口查找出國交換、短期交流與海外學習公告，先確認校內甄選與修課安排。`,
+    questions: ['有哪些適用我的系所、學位別與年級的海外學習計畫？', '校內甄選與海外學校申請的截止日、語言要求及文件有哪些？', '如何確認學分抵免、完整費用、獎助金與返校後的畢業進度？'],
+  })),
 ];
 export const guides = [
  {slug:'high-school-start',level:'high-school',name:'高中生出國準備',tag:'海外升學',intro:'把目的地、科系、課程與家庭預算放在同一張準備清單上。',audience:'正在探索海外大學或國際課程的高中生與家長',office:'輔導室、國際教育承辦單位與目標大學招生處',steps:[['先選學習方向','列出有興趣的科系與目的地，使用留學 DIY 導航比較課程；先了解自己想學什麼，再縮小學校名單。'],['逐校列出要求','逐一查看官方招生頁，記錄適用學歷、必修科目、語言證明、作品集或面試要求，不把某一校規定套用到所有學校。'],['排出準備順序','從目標截止日往前安排考試、成績單、推薦信與文件準備；與家人討論費用和住宿安排。']],checks:['列出三個想探索的科系或方向','確認目標學校接受的學歷與科目','整理各校截止日與文件','與家人一起檢視整體預算'],costs:'除學費外，也要列入住宿、生活、交通、保險、考試及申請文件費用。',pitfall:'短期營隊、參訪或競賽的參加資格，不等於海外大學的入學資格。'},

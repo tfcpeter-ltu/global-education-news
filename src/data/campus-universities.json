@@ -1,0 +1,162 @@
+[
+  {
+    "slug": "ntut",
+    "name": "國立臺北科技大學",
+    "city": "臺北市",
+    "aliases": "北科大 台北科大 NTUT",
+    "office": "國際事務處",
+    "url": "https://oia.ntut.edu.tw/"
+  },
+  {
+    "slug": "ntnu",
+    "name": "國立臺灣師範大學",
+    "city": "臺北市",
+    "aliases": "臺師大 台師大 師大 NTNU",
+    "office": "國際事務處",
+    "url": "https://www.ntnu.edu.tw/oia/"
+  },
+  {
+    "slug": "shu",
+    "name": "世新大學",
+    "city": "臺北市",
+    "aliases": "世新 SHU",
+    "office": "國際暨兩岸事務處",
+    "url": "https://ocse.web.shu.edu.tw/"
+  },
+  {
+    "slug": "mcu",
+    "name": "銘傳大學",
+    "city": "臺北市・桃園市",
+    "aliases": "銘傳 MCU",
+    "office": "國際教育交流處",
+    "url": "https://iee.mcu.edu.tw/"
+  },
+  {
+    "slug": "usc",
+    "name": "實踐大學",
+    "city": "臺北市・高雄市",
+    "aliases": "實踐 USC",
+    "office": "國際事務處",
+    "url": "https://uscoia.usc.edu.tw/"
+  },
+  {
+    "slug": "cycu",
+    "name": "中原大學",
+    "city": "桃園市",
+    "aliases": "中原 中壢 CYCU",
+    "office": "國際暨兩岸教育處",
+    "url": "https://oia.cycu.edu.tw/"
+  },
+  {
+    "slug": "knu",
+    "name": "開南大學",
+    "city": "桃園市",
+    "aliases": "開南 蘆竹 KNU",
+    "office": "國際及兩岸事務處",
+    "url": "https://knuoica.knu.edu.tw/"
+  },
+  {
+    "slug": "ncu",
+    "name": "國立中央大學",
+    "city": "桃園市",
+    "aliases": "中央 中大 中壢 NCU",
+    "office": "國際事務處",
+    "url": "https://oia.ncu.edu.tw/"
+  },
+  {
+    "slug": "chu",
+    "name": "中華大學",
+    "city": "新竹市",
+    "aliases": "中華 香山 CHU",
+    "office": "國際暨兩岸事務處",
+    "url": "https://international.chu.edu.tw/"
+  },
+  {
+    "slug": "thu",
+    "name": "東海大學",
+    "city": "臺中市",
+    "aliases": "東海 THU Tunghai",
+    "office": "國際暨兩岸合作處",
+    "url": "https://oir.thu.edu.tw/"
+  },
+  {
+    "slug": "ntcust",
+    "name": "國立臺中科技大學",
+    "city": "臺中市",
+    "aliases": "台中科技大學 中科大 台中科大 臺中科大 NTCUST NUTC",
+    "office": "國際事務處",
+    "url": "https://oia.nutc.edu.tw/"
+  },
+  {
+    "slug": "nchu",
+    "name": "國立中興大學",
+    "city": "臺中市",
+    "aliases": "中興 興大 NCHU",
+    "office": "國際事務處",
+    "url": "https://oia.nchu.edu.tw/"
+  },
+  {
+    "slug": "ncue",
+    "name": "國立彰化師範大學",
+    "city": "彰化縣",
+    "aliases": "彰師大 彰化師大 NCUE",
+    "office": "國際暨兩岸事務處",
+    "url": "https://oicaweb.ncue.edu.tw/"
+  },
+  {
+    "slug": "ncyu",
+    "name": "國立嘉義大學",
+    "city": "嘉義市・嘉義縣",
+    "aliases": "嘉大 民雄 蘭潭 新民 NCYU",
+    "office": "國際事務處",
+    "url": "https://www.ncyu.edu.tw/oia/"
+  },
+  {
+    "slug": "ncku",
+    "name": "國立成功大學",
+    "city": "臺南市",
+    "aliases": "成大 成功 NCKU",
+    "office": "國際事務處",
+    "url": "https://oia.ncku.edu.tw/?Lang=zh-tw"
+  },
+  {
+    "slug": "tut",
+    "name": "台南應用科技大學",
+    "city": "臺南市",
+    "aliases": "台南應用大學 南應大 TUT 永康",
+    "office": "國際暨兩岸事務中心",
+    "url": "https://oiss-rd.tut.edu.tw/"
+  },
+  {
+    "slug": "ksu",
+    "name": "崑山科技大學",
+    "city": "臺南市",
+    "aliases": "崑山 崑大 KSU 永康",
+    "office": "國際暨兩岸交流處",
+    "url": "https://web.ksu.edu.tw/DAIO000/bulletin/"
+  },
+  {
+    "slug": "ctbc",
+    "name": "中信金融管理學院",
+    "city": "臺南市",
+    "aliases": "中信管理學院 中信學院 中金院 CTBC 安南",
+    "office": "學校",
+    "url": "https://www.ctbc.edu.tw/"
+  },
+  {
+    "slug": "nkust",
+    "name": "國立高雄科技大學",
+    "city": "高雄市",
+    "aliases": "高科大 高雄科大 NKUST",
+    "office": "國際事務處",
+    "url": "https://oia.nkust.edu.tw/"
+  },
+  {
+    "slug": "wzu",
+    "name": "文藻外語大學",
+    "city": "高雄市",
+    "aliases": "文藻大學 文藻 WZU Wenzao",
+    "office": "國際暨兩岸合作處",
+    "url": "https://c015.wzu.edu.tw/"
+  }
+]
