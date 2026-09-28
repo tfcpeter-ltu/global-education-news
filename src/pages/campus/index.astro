@@ -20,7 +20,6 @@ import '../../styles/campus.css';
   <section class="campus-section"><h2>把下一步接起來</h2><div class="campus-grid"><article class="campus-card"><h3>找補助</h3><p>從台灣學生資格出發，查找獎學金與官方申請資訊。</p><a href="/scholarships/">獎學金雷達 →</a></article><article class="campus-card"><h3>看國家與科系</h3><p>比較目的地與學習方向，建立自己的海外學校清單。</p><a href="/study-abroad/">留學 DIY 導航 →</a></article><article class="campus-card"><h3>先探索國內大學</h3><p>了解課程與科系特色，再規劃大學期間的海外學習。</p><a href="/taiwan-universities/">國內大學選校選系 →</a></article></div></section>
   <section class="campus-section"><h2>讓你的校園故事被看見</h2><p>歡迎學校提供官方交流公告，也歡迎學生分享親身出國經驗。請透過聯絡頁提供來源與聯絡方式，編輯確認內容及授權後再刊登。</p><div class="campus-actions"><a href="/contact/">提供校園資訊或分享經驗 →</a><a href="/newsletter/">免費訂閱國際教育週報 →</a></div></section>
  </div>
-</BaseLayout>
 <script>
 const form=document.querySelector<HTMLFormElement>('#campus-filter');
 const query=document.querySelector<HTMLInputElement>('#campus-query');
@@ -32,3 +31,6 @@ if(form&&query&&level){
  form.addEventListener('submit',e=>{e.preventDefault();filter();});query.addEventListener('input',()=>filter());level.addEventListener('change',()=>filter());form.addEventListener('reset',()=>{query.value='';level.value='all';filter();});filter(false);
 }
 </script>
+
+</BaseLayout>
+
