@@ -1,0 +1,240 @@
+[
+  {
+    "slug": "yanping",
+    "name": "延平高中",
+    "city": "臺北市",
+    "aliases": "延平中學 YPHS",
+    "url": "https://www.yphs.tp.edu.tw/"
+  },
+  {
+    "slug": "fuxing",
+    "name": "臺北市立復興高中",
+    "city": "臺北市",
+    "aliases": "復興高中 FHSH",
+    "url": "https://www.fhsh.tp.edu.tw/"
+  },
+  {
+    "slug": "wanfang",
+    "name": "萬芳高中",
+    "city": "臺北市",
+    "aliases": "萬芳 WFHS",
+    "url": "https://www.wfsh.tp.edu.tw/"
+  },
+  {
+    "slug": "gezhi",
+    "name": "格致中學",
+    "city": "新北市",
+    "aliases": "格致高中 GJSH",
+    "url": "https://www.gjsh.ntpc.edu.tw/"
+  },
+  {
+    "slug": "zhulin",
+    "name": "竹林高中",
+    "city": "新北市",
+    "aliases": "竹林中學 CLSH",
+    "url": "https://www.clsh.ntpc.edu.tw/"
+  },
+  {
+    "slug": "tsushiou",
+    "name": "辭修高中",
+    "city": "新北市",
+    "aliases": "辭修中學 TSSHS",
+    "url": "https://www.tsshs.ntpc.edu.tw/"
+  },
+  {
+    "slug": "kuangjen",
+    "name": "光仁中學",
+    "city": "新北市",
+    "aliases": "光仁高中 KJSH",
+    "url": "https://www.kjsh.ntpc.edu.tw/"
+  },
+  {
+    "slug": "beida",
+    "name": "北大高中",
+    "city": "新北市",
+    "aliases": "北大 BDSH",
+    "url": "https://www.bdsh.ntpc.edu.tw/"
+  },
+  {
+    "slug": "wuling",
+    "name": "武陵高中",
+    "city": "桃園市",
+    "aliases": "武陵中學 WLSH",
+    "url": "https://www.wlsh.tyc.edu.tw/"
+  },
+  {
+    "slug": "zhubei",
+    "name": "陽明交大附中（竹北高中）",
+    "city": "新竹縣",
+    "aliases": "國立陽明交通大學附屬竹北高級中等學校 陽明大附中 竹北高中 CPHS",
+    "url": "https://www.cphs.nycu.edu.tw/"
+  },
+  {
+    "slug": "miaoli-datong",
+    "name": "苗栗縣立大同高中",
+    "city": "苗栗縣",
+    "aliases": "大同中學 大同高中 竹南 DTSH",
+    "url": "https://dtsh.mlc.edu.tw/"
+  },
+  {
+    "slug": "qingshui",
+    "name": "清水高中",
+    "city": "臺中市",
+    "aliases": "清水 CSHS",
+    "url": "https://cshs.tc.edu.tw/"
+  },
+  {
+    "slug": "zhongming",
+    "name": "忠明高中",
+    "city": "臺中市",
+    "aliases": "忠明中學 CMSH",
+    "url": "https://cmsh.tc.edu.tw/"
+  },
+  {
+    "slug": "mingdao",
+    "name": "明道中學",
+    "city": "臺中市",
+    "aliases": "明道高中 MDHS Mingdao",
+    "url": "https://sites.google.com/ms.mingdao.edu.tw/mdiden/home"
+  },
+  {
+    "slug": "xiaoming",
+    "name": "曉明女中",
+    "city": "臺中市",
+    "aliases": "曉明女子高中 曉明女子高級中學 SMGSH",
+    "url": "https://www.smgsh.tc.edu.tw/"
+  },
+  {
+    "slug": "chiaotai",
+    "name": "僑泰高中",
+    "city": "臺中市",
+    "aliases": "僑泰中學 CTAS",
+    "url": "https://www.ctas.tc.edu.tw/"
+  },
+  {
+    "slug": "shinmin",
+    "name": "新民高中",
+    "city": "臺中市",
+    "aliases": "新民中學 Shinmin",
+    "url": "https://www.shinmin.tc.edu.tw/"
+  },
+  {
+    "slug": "zhengde",
+    "name": "正德高中",
+    "city": "彰化縣",
+    "aliases": "正德中學 ZDHS",
+    "url": "https://www.zdhs.chc.edu.tw/bin/home.php"
+  },
+  {
+    "slug": "changhua-industrial",
+    "name": "彰化高工（彰師附工）",
+    "city": "彰化縣",
+    "aliases": "國立彰化師範大學附屬高級工業職業學校 師大附工 SIVS",
+    "url": "https://w3.sivs.chc.edu.tw/"
+  },
+  {
+    "slug": "changhua-commercial",
+    "name": "彰化高商",
+    "city": "彰化縣",
+    "aliases": "國立彰化高級商業職業學校 彰商 CHSC",
+    "url": "https://www.chsc.chc.edu.tw/"
+  },
+  {
+    "slug": "victoria",
+    "name": "維多利亞實驗高中",
+    "city": "雲林縣",
+    "aliases": "維多利亞高中 維多利亞中學 Victoria Academy",
+    "url": "https://sites.google.com/a/victoria.ylc.edu.tw/senior/"
+  },
+  {
+    "slug": "hungjen",
+    "name": "宏仁高中",
+    "city": "嘉義市",
+    "aliases": "宏仁女中 宏仁中學 HJGS",
+    "url": "https://www.hjgs.cy.edu.tw/"
+  },
+  {
+    "slug": "chiayi-science",
+    "name": "嘉科實中",
+    "city": "嘉義縣",
+    "aliases": "國立嘉科實驗高級中等學校 嘉科實驗高中 NEHS",
+    "url": "https://www.nehs.cyc.edu.tw/"
+  },
+  {
+    "slug": "concordia",
+    "name": "協同高中",
+    "city": "嘉義縣",
+    "aliases": "協同中學 基督教協同高級中學 CMSH Concordia",
+    "url": "https://www.cmsh.cyc.edu.tw/"
+  },
+  {
+    "slug": "tainan-first",
+    "name": "臺南一中",
+    "city": "臺南市",
+    "aliases": "國立臺南第一高級中學 南一中 TNFSH",
+    "url": "https://www.tnfsh.tn.edu.tw/"
+  },
+  {
+    "slug": "tainan-second",
+    "name": "臺南二中",
+    "city": "臺南市",
+    "aliases": "國立臺南第二高級中學 南二中 TNSSH",
+    "url": "https://www.tnssh.tn.edu.tw/"
+  },
+  {
+    "slug": "chiachi",
+    "name": "家齊高中",
+    "city": "臺南市",
+    "aliases": "國立臺南家齊高級中等學校 家齊女中 CCSH",
+    "url": "https://www.ccsh.tn.edu.tw/"
+  },
+  {
+    "slug": "yinghai",
+    "name": "瀛海中學",
+    "city": "臺南市",
+    "aliases": "瀛海高中 YHSH",
+    "url": "https://www.yhsh.tn.edu.tw/"
+  },
+  {
+    "slug": "tainan-commercial",
+    "name": "臺南高商",
+    "city": "臺南市",
+    "aliases": "國立臺南高級商業職業學校 南商 TNCVS",
+    "url": "https://www.tncvs.tn.edu.tw/"
+  },
+  {
+    "slug": "chungshan-industrial",
+    "name": "中山工商",
+    "city": "高雄市",
+    "aliases": "高雄市私立中山高級工商職業學校 CSIC",
+    "url": "https://www.csic.khc.edu.tw/"
+  },
+  {
+    "slug": "kaohsiung-girls",
+    "name": "高雄女中",
+    "city": "高雄市",
+    "aliases": "高雄女子高級中學 雄女 KGHS",
+    "url": "https://www.kghs.kh.edu.tw/"
+  },
+  {
+    "slug": "daoming",
+    "name": "道明中學",
+    "city": "高雄市",
+    "aliases": "道明高中 DMHS",
+    "url": "https://www2.dmhs.kh.edu.tw/"
+  },
+  {
+    "slug": "pingtung",
+    "name": "屏東高中",
+    "city": "屏東縣",
+    "aliases": "國立屏東高級中學 屏中 PTHS",
+    "url": "https://www.pths.ptc.edu.tw/home"
+  },
+  {
+    "slug": "pingtung-girls",
+    "name": "屏東女中",
+    "city": "屏東縣",
+    "aliases": "國立屏東女子高級中學 屏女 PTGSH",
+    "url": "https://www.ptgsh.ptc.edu.tw/"
+  }
+]

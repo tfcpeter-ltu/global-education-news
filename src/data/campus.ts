@@ -1,5 +1,13 @@
+import partnerSchools from './campus-partner-schools.json';
+// School list supplied by LTU; current programmes remain subject to school announcements.
 export const schools = [
-  {slug:'mingdao',name:'明道中學',aliases:'明道 MDHS Mingdao',level:'high-school',city:'臺中',office:'國際部／國際教育',url:'https://sites.google.com/ms.mingdao.edu.tw/mdiden/home',extra:'https://sites.google.com/ms.mingdao.edu.tw/i18n',extraLabel:'國際教育與交流資訊',intro:'從國際部課程與校內交流資訊出發，釐清自己的海外學習方向。',questions:['我目前的學部與年級可以參加哪些活動？','國際課程、短期交流與海外升學各需要哪些準備？','活動的帶隊、住宿安排與家長同意程序是什麼？']},
+  ...partnerSchools.map(school => ({
+    ...school, level: 'high-school', office: school.slug === 'mingdao' ? '國際部／國際教育' : '學校',
+    extra: school.slug === 'mingdao' ? 'https://sites.google.com/ms.mingdao.edu.tw/i18n' : '',
+    extraLabel: school.slug === 'mingdao' ? '國際教育與交流資訊' : '',
+    intro: `從${school.name}官方網站查找國際教育與交流公告，準備適合自己的海外學習計畫。`,
+    questions: ['校內目前有哪些國際交流、海外課程或雙聯學制可供申請？', '我的年級與學籍是否符合資格，需要準備哪些文件及語言證明？', '申請期限、完整費用、學分認定與校內承辦窗口為何？'],
+  })),
   {slug:'ntu',name:'國立臺灣大學',aliases:'台大 臺大 NTU',level:'university',city:'臺北',office:'國際事務處',url:'https://oia.ntu.edu.tw/',extra:'https://studyabroad.ntu.edu.tw/exchange-student/faq/',extraLabel:'出國交換常見問答',intro:'先分清校級與院系級申請管道，再核對交換資格、提名流程與學分安排。',questions:['校級與院系級交換的甄選是否分開？','校內提名後，還需要完成哪些海外學校申請？','交換課程如何事先確認抵免與畢業進度？']},
   {slug:'nthu',name:'國立清華大學',aliases:'清大 清華 NTHU',level:'university',city:'新竹',office:'全球事務處',url:'https://oga.site.nthu.edu.tw/',extra:'https://law.site.nthu.edu.tw/p/450-1326-141098%2Cc0.php',extraLabel:'出國交換生甄選辦法',intro:'從全球事務處查找出國交流管道，先確認適用計畫與所屬系所的修課安排。',questions:['目前公告屬於哪一個交換計畫及申請梯次？','我的學位別、年級及語言證明是否符合要求？','海外學期與本校課程、住宿及返校時間如何銜接？']},
   {slug:'nccu',name:'國立政治大學',aliases:'政大 政治大學 NCCU',level:'university',city:'臺北',office:'國際合作事務處',url:'https://oic.nccu.edu.tw/',extra:'',extraLabel:'',intro:'從國合處公告與海外留學資訊出發，確認申請語組、甄選程序及目的地選擇。',questions:['申請語組與目標學校的語言要求是否相同？','校級與院系級機會有哪些不同的申請窗口？','出國前有哪些學籍、學分與補助事項要完成？']},
