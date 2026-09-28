@@ -95,8 +95,7 @@ const analyticsUrl = `${base}data/analytics-summary.json`;
           articleList.innerHTML = articles.map((item, index) => {
             const title = esc(item.title || '未命名文章');
             const path = esc(item.path || '#');
-            const views = Number(item.views || 0).toLocaleString('zh-TW');
-            return `<li><span class="popular-rank">${String(index + 1).padStart(2, '0')}</span><a href="${path}">${title}</a><span class="popular-views">${views} views</span></li>`;
+            return `<li><span class="popular-rank">${String(index + 1).padStart(2, '0')}</span><a href="${path}">${title}</a></li>`;
           }).join('');
         }
 
@@ -128,17 +127,16 @@ const analyticsUrl = `${base}data/analytics-summary.json`;
   .insights-panel { padding: 22px 28px 25px 0; }
   .audience-panel { padding-left: 28px; padding-right: 0; border-left: 1px solid var(--line-dark); }
   .popular-list { list-style: none; margin: 13px 0 0; padding: 0; }
-  .popular-list li {
+  .popular-list :global(li) {
     display: grid;
-    grid-template-columns: 36px minmax(0, 1fr) auto;
+    grid-template-columns: 36px minmax(0, 1fr);
     gap: 12px;
     align-items: baseline;
     padding: 11px 0;
     border-bottom: 1px solid var(--line);
   }
-  .popular-rank { font-family: Georgia, serif; font-size: 1.08rem; color: var(--burgundy); }
-  .popular-list a { font-size: .98rem; line-height: 1.42; font-weight: 700; }
-  .popular-views { font-family: Arial, "Noto Sans TC", sans-serif; font-size: .64rem; color: var(--muted); white-space: nowrap; }
+  .popular-list :global(.popular-rank) { font-family: Georgia, serif; font-size: 1.08rem; color: var(--burgundy); }
+  .popular-list :global(a) { font-size: .98rem; line-height: 1.42; font-weight: 700; }
 
   .audience-layout { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(260px, .75fr); gap: 24px; margin-top: 15px; align-items: start; }
   .geo-wrap { min-width: 0; }
@@ -163,7 +161,6 @@ const analyticsUrl = `${base}data/analytics-summary.json`;
   @media (max-width: 720px) {
     .audience-layout { grid-template-columns: 1fr; }
     .geo-map { min-height: 240px; }
-    .popular-list li { grid-template-columns: 30px minmax(0, 1fr); }
-    .popular-views { grid-column: 2; }
+    .popular-list :global(li) { grid-template-columns: 30px minmax(0, 1fr); }
   }
 </style>
