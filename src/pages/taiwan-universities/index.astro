@@ -36,6 +36,16 @@ const databaseUrl = 'https://taiwan-university-review.cfb5f6a8-a379-4cbf-98d4-17
     </div>
   </section>
 
+  <section class="container gsat-entry" aria-labelledby="gsat-heading">
+    <div>
+      <div class="kicker">115 GSAT · ADMISSIONS TOOL</div>
+      <h2 id="gsat-heading">學測校系落點試算</h2>
+      <p>輸入實際應考科目與級分，對照 115 學年度申請入學校系分則、檢定與一階門檻，再查看接近門檻的校系及每科差一級分的變化。</p>
+      <p class="gsat-caveat">資料驗證中：一階門檻由官方圖表辨識，尚未逐筆複核；結果不代表最終錄取或分發名額。</p>
+    </div>
+    <a class="button button-primary" href="/taiwan-universities/gsat-analysis/">試用學測校系分析 →</a>
+  </section>
+
   <AdPlacement placement="U1" />
   <section class="container domestic-intro" id="method">
     <div class="section-heading">
@@ -109,6 +119,9 @@ const databaseUrl = 'https://taiwan-university-review.cfb5f6a8-a379-4cbf-98d4-17
 </BaseLayout>
 
 <style>
+  .gsat-entry{display:flex;gap:32px;align-items:center;justify-content:space-between;padding-top:30px;padding-bottom:30px;border-bottom:1px solid var(--line)}
+  .gsat-entry>div{max-width:760px}.gsat-entry h2{margin:5px 0 10px;font-size:1.8rem}.gsat-entry p{margin:0 0 8px;color:#514c45}.gsat-entry .gsat-caveat{font-size:.84rem;color:var(--muted)}
+  .gsat-entry .button{flex:none}
   .domestic-db-hero{background:linear-gradient(180deg,#fffdf8 0%,#eee7da 100%);border-bottom:3px double var(--line-dark)}
   .domestic-db-hero-inner{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(310px,.7fr);gap:50px;align-items:center;padding:64px 0 54px}
   .domestic-db-hero h1{margin:8px 0 5px;font-size:clamp(2.65rem,5vw,5.2rem);line-height:1.03;letter-spacing:-.045em}
@@ -136,5 +149,5 @@ const databaseUrl = 'https://taiwan-university-review.cfb5f6a8-a379-4cbf-98d4-17
   .database-frame-wrap iframe{display:block;width:100%;height:1100px;border:0;background:#fff}
   .editorial-note{font-size:.91rem;color:#5a554e}.note-rule{border-top:3px double var(--line-dark);margin-bottom:20px}
   @media(max-width:980px){.domestic-db-hero-inner{grid-template-columns:1fr}.category-grid{grid-template-columns:repeat(2,1fr)}.principle-grid{grid-template-columns:1fr}.database-frame-wrap iframe{height:900px}}
-  @media(max-width:620px){.domestic-db-hero-inner{padding:42px 0 38px}.database-stats strong{font-size:1.85rem}.category-grid{grid-template-columns:1fr}.database-shell-head{align-items:flex-start;flex-direction:column}.database-frame-wrap{width:100%;border-left:0;border-right:0}.database-frame-wrap iframe{height:780px}}
+  @media(max-width:620px){.gsat-entry{align-items:flex-start;flex-direction:column;gap:12px}.domestic-db-hero-inner{padding:42px 0 38px}.database-stats strong{font-size:1.85rem}.category-grid{grid-template-columns:1fr}.database-shell-head{align-items:flex-start;flex-direction:column}.database-frame-wrap{width:100%;border-left:0;border-right:0}.database-frame-wrap iframe{height:780px}}
 </style>
