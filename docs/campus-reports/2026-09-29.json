@@ -1,0 +1,51 @@
+{
+  "date": "2026-09-29",
+  "reviewedSchools": [
+    "ntu",
+    "nthu",
+    "nccu"
+  ],
+  "candidates": [
+    {
+      "schoolSlug": "ntu",
+      "angle": "臺大交換學生與海外學習申請路徑",
+      "sources": [
+        "https://oia.ntu.edu.tw/students/abroad/exchange"
+      ],
+      "reviewedAt": "2026-09-29",
+      "status": "needs-research",
+      "nextStep": "核對當期甄選簡章與獨立第二來源，若採學生經驗需先取得同意。"
+    },
+    {
+      "schoolSlug": "nthu",
+      "angle": "清大校級交換與出國研修準備",
+      "sources": [
+        "https://oga.site.nthu.edu.tw/"
+      ],
+      "reviewedAt": "2026-09-29",
+      "status": "needs-research",
+      "nextStep": "選定當期公告、確認資格期限及第二來源。"
+    },
+    {
+      "schoolSlug": "nccu",
+      "angle": "政大國際交換及雙聯學位查核",
+      "sources": [
+        "https://oic.nccu.edu.tw/"
+      ],
+      "reviewedAt": "2026-09-29",
+      "status": "needs-research",
+      "nextStep": "區分交換與雙聯路徑，補當期公告與獨立第二來源。"
+    }
+  ],
+  "published": [],
+  "pendingConsent": [],
+  "outreachDrafts": [],
+  "gaps": [
+    "三個線索仍缺完整雙重查核或人物同意，本日不刊登校園特別報導。"
+  ],
+  "setup": {
+    "automationId": "08-00",
+    "schedule": "每日單一批次 Asia/Taipei",
+    "section": "/campus/reports/"
+  }
+}
