@@ -1,6 +1,6 @@
 {
   "status": "ready",
-  "updatedAt": "2026-09-29T06:52:48.317Z",
+  "updatedAt": "2026-09-30T06:40:12.770Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
@@ -27,57 +27,57 @@
     {
       "title": "紐西蘭 NCEA 將退場：2028 啟動新制，2029 導入 NZCE、2030 NZACE｜環球教育新聞網 Global Education News",
       "path": "/news/new-zealand-ncea-replacement-nzce-nzace-2028-2030/",
-      "views": 10
+      "views": 11
     }
   ],
   "countries": [
     {
       "name": "台灣",
       "mapName": "Taiwan",
-      "sessions": 232,
-      "share": 27.5
+      "sessions": 245,
+      "share": 28.4
     },
     {
       "name": "美國",
       "mapName": "United States",
       "sessions": 142,
-      "share": 16.8
+      "share": 16.5
     },
     {
       "name": "英國",
       "mapName": "United Kingdom",
-      "sessions": 127,
-      "share": 15.1
+      "sessions": 128,
+      "share": 14.8
     },
     {
       "name": "加拿大",
       "mapName": "Canada",
-      "sessions": 112,
-      "share": 13.3
+      "sessions": 113,
+      "share": 13.1
     },
     {
       "name": "澳洲",
       "mapName": "Australia",
-      "sessions": 62,
+      "sessions": 64,
       "share": 7.4
     },
     {
       "name": "Netherlands",
       "mapName": "Netherlands",
       "sessions": 61,
-      "share": 7.2
+      "share": 7.1
     },
     {
       "name": "愛爾蘭",
       "mapName": "Ireland",
-      "sessions": 32,
+      "sessions": 33,
       "share": 3.8
     },
     {
       "name": "新加坡",
       "mapName": "Singapore",
       "sessions": 20,
-      "share": 2.4
+      "share": 2.3
     },
     {
       "name": "(not set)",
@@ -86,8 +86,8 @@
       "share": 1.5
     },
     {
-      "name": "香港",
-      "mapName": "Hong Kong",
+      "name": "中國",
+      "mapName": "China",
       "sessions": 8,
       "share": 0.9
     }
