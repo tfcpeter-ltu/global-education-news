@@ -4,10 +4,10 @@ title: "加拿大工作許可持有人可免學簽短期進修：最長6個月�
 description: "加拿大自2026年9月4日起允許合格工作許可持有人修讀最長6個月課程而免另申請學習許可，但全日制就讀期間的工作經驗不計入CEC與CRS加拿大經驗分數。"
 category: "國際學生政策"
 topic: "canada"
-image: "https://upload.wikimedia.org/wikipedia/commons/c/c7/Parliament_Hill_from_Wellington_Street%2C_Ottawa%2C_Ontario%2C_Canada.jpg"
+image: "/images/news/canada-parliament-hill-2026.jpg"
 imageAlt: "加拿大渥太華國會山莊資料照"
-imageCredit: "Wikimedia Commons／CC BY-SA；資料照，版面可能裁切"
-imageSource: "https://commons.wikimedia.org/wiki/File:Parliament_Hill_from_Wellington_Street,_Ottawa,_Ontario,_Canada.jpg"
+imageCredit: "Robert Linsdell／Wikimedia Commons／CC BY 2.0；資料照，版面可能裁切"
+imageSource: "https://commons.wikimedia.org/wiki/File:Parliament_Hill,_Wellington_St,_Ottawa_(480392)_(9447372951).jpg"
 sources: [{"label":"加拿大 IRCC｜工作許可持有人免學簽短期進修政策","url":"https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada/special-instructions/workers-study-without-study-permit.html"},{"label":"CIC News｜政策條件與實務影響","url":"https://www.cicnews.com/2026/09/canada-expands-foreign-workers-authorization-to-study-without-a-permit-0980163.html/amp"}]
 date: "2026-09-29T06:20:00+08:00"
 author: "LTU Global Education News 編輯部"

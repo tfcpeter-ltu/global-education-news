@@ -4,10 +4,10 @@ title: "澳洲8月高教學生簽證核准率降至同期新低：申請者須�
 description: "澳洲內政部長期資料顯示，2026年8月多個來源國的高等教育學生簽證核准率降至同期低點；整體趨勢不能直接套用到每一名申請者。"
 category: "學生簽證"
 topic: "australia"
-image: "https://upload.wikimedia.org/wikipedia/commons/5/5e/University_of_Sydney_Main_Quadrangle.jpg"
+image: "/images/news/australia-sydney-main-quadrangle-2026.png"
 imageAlt: "澳洲雪梨大學主方庭資料照"
-imageCredit: "Wikimedia Commons／CC BY-SA；資料照，版面可能裁切"
-imageSource: "https://commons.wikimedia.org/wiki/File:University_of_Sydney_Main_Quadrangle.jpg"
+imageCredit: "Jason Tong／Wikimedia Commons／CC BY-SA 3.0；資料照，版面可能裁切"
+imageSource: "https://commons.wikimedia.org/wiki/File:The_Main_Quadrangle_of_the_University_of_Sydney.png"
 sources: [{"label":"澳洲內政部｜Student visa grant rates 開放資料","url":"https://researchdata.edu.au/student-visa-program/3785788"},{"label":"Times Higher Education｜2026年8月學生簽證核准分析","url":"https://www.timeshighereducation.com/news/inexplicable-australian-student-visa-refusals-record-high"}]
 date: "2026-09-29T06:30:00+08:00"
 author: "LTU Global Education News 編輯部"

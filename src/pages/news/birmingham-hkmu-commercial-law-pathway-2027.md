@@ -4,10 +4,10 @@ title: "伯明罕大學與香港都會大學開商業法銜接：2027年起提�
 description: "University of Birmingham 與香港都會大學簽署跨國教育協議，2027年起讓HKMU世界商業工商管理學生依英國或香港職涯方向銜接LLB Commercial Law。"
 category: "跨國高等教育"
 topic: "uk"
-image: "https://upload.wikimedia.org/wikipedia/commons/4/4b/University_of_Birmingham_-_Aston_Webb_Building.jpg"
+image: "/images/news/birmingham-aston-webb-2026.jpg"
 imageAlt: "英國伯明罕大學 Aston Webb Building 資料照"
-imageCredit: "Wikimedia Commons／CC BY-SA；資料照，版面可能裁切"
-imageSource: "https://commons.wikimedia.org/wiki/File:University_of_Birmingham_-_Aston_Webb_Building.jpg"
+imageCredit: "Stephen Boisvert／Wikimedia Commons／CC BY 2.0；資料照，版面可能裁切"
+imageSource: "https://commons.wikimedia.org/wiki/File:University_of_Birmingham_-_Aston_Webb.jpg"
 sources: [{"label":"University of Birmingham｜跨國教育協議公告","url":"https://www.birmingham.ac.uk/news/2026/university-of-birmingham-and-hong-kong-metropolitan-university-sign-transnational-education-contract"},{"label":"HKMU｜BBA in World Business 課程資料","url":"https://www.hkmu.edu.hk/ba/bbawm/"}]
 date: "2026-09-29T06:40:00+08:00"
 author: "LTU Global Education News 編輯部"
