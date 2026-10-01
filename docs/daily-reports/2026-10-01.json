@@ -119,7 +119,7 @@
         "https://collegedunia.com/uk/university/864-oxford-brookes-university-oxford/scholarship"
       ],
       "baselineAbsent": true,
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-10-01T09:48:00+08:00",
       "publishedPath": "src/pages/scholarships/items/2026-10-oxford-brookes-january-2027.md",
       "eligibleTaiwan": true,
       "slug": "2026-10-oxford-brookes-january-2027"
@@ -134,7 +134,7 @@
         "https://www.ndtv.com/education/strathclydes-2027-international-masters-scholarship-applications-now-open-for-students-11732957"
       ],
       "baselineAbsent": true,
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-10-01T09:48:00+08:00",
       "publishedPath": "src/pages/scholarships/items/2026-10-strathclyde-science-january-2027.md",
       "eligibleTaiwan": true,
       "slug": "2026-10-strathclyde-science-january-2027"
@@ -149,7 +149,7 @@
         "https://www.scholarshipca.com/masters"
       ],
       "baselineAbsent": true,
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-10-01T09:48:00+08:00",
       "publishedPath": "src/pages/scholarships/items/2026-10-qub-pgt-january-2027.md",
       "eligibleTaiwan": true,
       "slug": "2026-10-qub-pgt-january-2027"
@@ -168,15 +168,57 @@
     "note": "Local OneDrive build blocked by filesystem access error; corresponding GitHub Actions build required after push."
   },
   "deployment": {
-    "status": "pending"
+    "status": "success",
+    "commit": "dc78b39e1cbd4fc94e4a3059fc5b592314eb1e62",
+    "workflowUrl": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/36797358206",
+    "verifiedAt": "2026-10-01T09:47:00+08:00"
   },
   "acceptance": {
-    "desktop": false,
+    "desktop": true,
     "mobile": false,
-    "seo": false
+    "seo": true,
+    "verifiedAt": "2026-10-01T09:48:00+08:00",
+    "note": "Six production URLs returned HTTP 200 with image markup; mobile visual acceptance remains pending."
   },
   "blockers": [
-    "Peter專欄、15則社群發布、校園特別報導與正式站驗收尚待完成"
+    "Peter專欄3則、15則社群發布、校園特別報導、手機版視覺驗收尚待完成"
   ],
-  "scholarshipChecks": []
+  "scholarshipChecks": [
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-10-oxford-brookes-january-2027/",
+      "verifiedAt": "2026-10-01T08:45:00+08:00",
+      "eligibleTaiwan": true,
+      "open": true,
+      "sources": [
+        "https://www.brookes.ac.uk/study/funding/international-student-scholarship-january-entry",
+        "https://collegedunia.com/uk/university/864-oxford-brookes-university-oxford/scholarship"
+      ],
+      "updateSummary": "2026-10-01淨新增並雙重查核",
+      "publishedVerifiedAt": "2026-10-01T09:48:00+08:00"
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-10-strathclyde-science-january-2027/",
+      "verifiedAt": "2026-10-01T08:50:00+08:00",
+      "eligibleTaiwan": true,
+      "open": true,
+      "sources": [
+        "https://www.strath.ac.uk/studywithus/scholarships/facultyofscienceinternationalmastersscholarshipjanuaryintake/",
+        "https://www.ndtv.com/education/strathclydes-2027-international-masters-scholarship-applications-now-open-for-students-11732957"
+      ],
+      "updateSummary": "2026-10-01淨新增並雙重查核",
+      "publishedVerifiedAt": "2026-10-01T09:48:00+08:00"
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-10-qub-pgt-january-2027/",
+      "verifiedAt": "2026-10-01T08:55:00+08:00",
+      "eligibleTaiwan": true,
+      "open": true,
+      "sources": [
+        "https://www.qub.ac.uk/Study/international-students/international-scholarships/jan-2027-starts/international-office-postgraduate-taught-scholarship-january-2027/",
+        "https://www.scholarshipca.com/masters"
+      ],
+      "updateSummary": "2026-10-01淨新增並雙重查核",
+      "publishedVerifiedAt": "2026-10-01T09:48:00+08:00"
+    }
+  ]
 }
