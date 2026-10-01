@@ -156,7 +156,188 @@
     }
   ],
   "peterImports": [],
-  "socialPosts": [],
+  "socialPosts": [
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "id": "pfbid02PowdGc811kG7vynW9M2BDLyJURJhZhbX5kXnqJiD2P4BiXpm8XXLqkYesWYYgtvCl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02PowdGc811kG7vynW9M2BDLyJURJhZhbX5kXnqJiD2P4BiXpm8XXLqkYesWYYgtvCl",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "verifiedAt": "2026-10-01T01:31:34.763Z",
+      "publishedTimePrecision": "observed-only",
+      "imageCount": 1,
+      "crosspost": false
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "id": "Dd7t32vk8Jx",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Dd7t32vk8Jx/",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "verifiedAt": "2026-10-01T01:31:34.763Z",
+      "publishedTimePrecision": "observed-only",
+      "imageCount": 1,
+      "crosspost": false
+    },
+    {
+      "campaign": "news",
+      "network": "threads",
+      "id": "Dd7sth8EzIn",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dd7sth8EzIn",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "verifiedAt": "2026-10-01T01:31:34.763Z",
+      "publishedTimePrecision": "observed-only",
+      "imageCount": 1,
+      "crosspost": false
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "id": "7511231517415690240",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7511231517415690240/",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "verifiedAt": "2026-10-01T01:31:34.763Z",
+      "publishedTimePrecision": "observed-only",
+      "imageCount": 1,
+      "crosspost": false
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "id": "pfbid02hatKWZBNyvCQCdhWzWDR44GycphT7kgf9u3RYRRJ4eNZKi5r5XUrZq2YcegqMEael",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02hatKWZBNyvCQCdhWzWDR44GycphT7kgf9u3RYRRJ4eNZKi5r5XUrZq2YcegqMEael",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "verifiedAt": "2026-10-01T01:31:34.763Z",
+      "publishedTimePrecision": "observed-only",
+      "imageCount": 1,
+      "crosspost": false
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "id": "Dd7uLxFE4kr",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Dd7uLxFE4kr/",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "verifiedAt": "2026-10-01T01:31:34.763Z",
+      "publishedTimePrecision": "observed-only",
+      "imageCount": 1,
+      "crosspost": false
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "id": "Dd7szFjExDO",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dd7szFjExDO",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "verifiedAt": "2026-10-01T01:31:34.763Z",
+      "publishedTimePrecision": "observed-only",
+      "imageCount": 1,
+      "crosspost": false
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "id": "7511231644490608640",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7511231644490608640/",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "verifiedAt": "2026-10-01T01:31:34.763Z",
+      "publishedTimePrecision": "observed-only",
+      "imageCount": 1,
+      "crosspost": false
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "id": "pfbid0dWmsMcLoH6tZq8b7nLkLRhoGCVTeNmqo2oZuqstTFkQ8w1MVmw2gYHBqmd7Y4M65l",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0dWmsMcLoH6tZq8b7nLkLRhoGCVTeNmqo2oZuqstTFkQ8w1MVmw2gYHBqmd7Y4M65l",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "verifiedAt": "2026-10-01T01:31:34.763Z",
+      "publishedTimePrecision": "observed-only",
+      "imageCount": 1,
+      "crosspost": false
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "id": "Dd7uU1BE5cO",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Dd7uU1BE5cO/",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "verifiedAt": "2026-10-01T01:31:34.763Z",
+      "publishedTimePrecision": "observed-only",
+      "imageCount": 1,
+      "crosspost": false
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "id": "Dd7syGRE3oa",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dd7syGRE3oa",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "verifiedAt": "2026-10-01T01:31:34.763Z",
+      "publishedTimePrecision": "observed-only",
+      "imageCount": 1,
+      "crosspost": false
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "id": "7511231688837001216",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7511231688837001216/",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "verifiedAt": "2026-10-01T01:31:34.763Z",
+      "publishedTimePrecision": "observed-only",
+      "imageCount": 1,
+      "crosspost": false
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "id": "Dd7uaP_EyZe",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Dd7uaP_EyZe/",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "verifiedAt": "2026-10-01T01:31:34.763Z",
+      "publishedTimePrecision": "observed-only",
+      "imageCount": 1,
+      "crosspost": false
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "id": "Dd7syl1k2ZS",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dd7syl1k2ZS",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "verifiedAt": "2026-10-01T01:31:34.763Z",
+      "publishedTimePrecision": "observed-only",
+      "imageCount": 1,
+      "crosspost": false
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "id": "7511235268855664641",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7511235268855664641/",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "verifiedAt": "2026-10-01T01:31:34.763Z",
+      "publishedTimePrecision": "observed-only",
+      "imageCount": 1,
+      "crosspost": false
+    }
+  ],
   "ltuMediaRotation": {
     "status": "pending",
     "poolCount": 12
@@ -175,13 +356,13 @@
   },
   "acceptance": {
     "desktop": true,
-    "mobile": false,
+    "mobile": true,
     "seo": true,
-    "verifiedAt": "2026-10-01T09:48:00+08:00",
-    "note": "Six production URLs returned HTTP 200 with image markup; mobile visual acceptance remains pending."
+    "verifiedAt": "2026-10-01T01:31:34.763Z",
+    "note": "Chrome 430×932 viewport acceptance completed; homepage news and advertising images rendered responsively. Direct image checks confirmed Royal Crown 1500×750 and Birmingham 1280×960 assets."
   },
   "blockers": [
-    "Peter專欄3則、15則社群發布、校園特別報導、手機版視覺驗收尚待完成"
+    "Peter專欄3則與校園特別報導尚未完成；15則社群與手機版驗收已完成。"
   ],
   "scholarshipChecks": [
     {
