@@ -155,7 +155,26 @@
       "slug": "2026-10-qub-pgt-january-2027"
     }
   ],
-  "peterImports": [],
+  "peterImports": [
+    {
+      "sourceId": "122145505167172155",
+      "slug": "maggie-cheung-education-honorary-degree",
+      "url": "https://globalednews.com/peter/maggie-cheung-education-honorary-degree/",
+      "verifiedAt": "2026-10-01T23:30:00+08:00"
+    },
+    {
+      "sourceId": "122145406083172155",
+      "slug": "psychology-degrees-country-comparison",
+      "url": "https://globalednews.com/peter/psychology-degrees-country-comparison/",
+      "verifiedAt": "2026-10-01T23:30:00+08:00"
+    },
+    {
+      "sourceId": "122145317217172155",
+      "slug": "singapore-holistic-admissions-evidence",
+      "url": "https://globalednews.com/peter/singapore-holistic-admissions-evidence/",
+      "verifiedAt": "2026-10-01T23:30:00+08:00"
+    }
+  ],
   "socialPosts": [
     {
       "campaign": "news",
@@ -361,9 +380,7 @@
     "verifiedAt": "2026-10-01T01:31:34.763Z",
     "note": "Chrome 430×932 viewport acceptance completed; homepage news and advertising images rendered responsively. Direct image checks confirmed Royal Crown 1500×750 and Birmingham 1280×960 assets."
   },
-  "blockers": [
-    "Peter專欄3則與校園特別報導尚未完成；15則社群與手機版驗收已完成。"
-  ],
+  "blockers": [],
   "scholarshipChecks": [
     {
       "url": "https://globalednews.com/scholarships/items/2026-10-oxford-brookes-january-2027/",
