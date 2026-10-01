@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-01",
+  "campaign": "taiwan-universities",
+  "version": "v1",
+  "status": "published",
+  "articleTitle": "三十秒選系方向後，建立官方資料核對清單",
+  "articleUrl": "https://globalednews.com/taiwan-universities/",
+  "shortHook": "把興趣方向轉成候選校系，再逐一回官方招生頁確認",
+  "facebookCopy": null,
+  "instagramCopy": "國內大學選校選系資料庫｜找到適合你的學習方向\nhttps://globalednews.com/taiwan-universities/\n\n最新消息｜本日精選\n先用三十秒選系工具勾選實作、接觸企業、出國交換或助人等方向，產生候選校系後，再把課程、招生資格、校區與費用列成官方資料核對清單。本站是探索入口，不是排名，也不保證錄取或就業。\n\n追蹤最新消息，請點擊免費加入環球教育新聞會員！\n每週一封，掌握教育新聞、招生政策與精選觀點；免費訂閱，隨時可取消。\nhttps://globalednews.com/newsletter/",
+  "threadsCopy": "國內大學選校選系資料庫｜找到適合你的學習方向\nhttps://globalednews.com/taiwan-universities/\n\n最新消息｜本日精選\n先勾選想實作、接觸企業、出國交換或助人的方向，產生候選校系；再回各校官方頁核對課程與招生資格。本站是探索入口，不是排名。\n\n追蹤最新消息，請點擊免費加入環球教育新聞會員！\n每週一封，掌握教育新聞、招生政策與精選觀點；免費訂閱，隨時可取消。\nhttps://globalednews.com/newsletter/",
+  "linkedinCopy": "國內大學選校選系資料庫｜找到適合你的學習方向\nhttps://globalednews.com/taiwan-universities/\n\n最新消息｜本日精選\n選校選系的第一步，是把模糊興趣轉成可以核對的條件。三十秒選系工具可先依實作、產業接觸、國際交換或助人取向建立候選清單。\n\n下一步仍需回到各校官方頁，逐項確認課程、招生資格、校區與費用。本站資料庫是研究入口，不是官方排名，也不構成錄取或就業保證。\n\n追蹤最新消息，請點擊免費加入環球教育新聞會員！\n每週一封，掌握教育新聞、招生政策與精選觀點；免費訂閱，隨時可取消。\nhttps://globalednews.com/newsletter/",
+  "xCopy": null,
+  "CTA": "免費加入會員",
+  "socialImage": "https://globalednews.com/images/social/2026-09-18/taiwan-decision.jpg",
+  "imageAlt": "台灣大學校系資料庫三十秒選系方向工具畫面",
+  "imageSource": "https://globalednews.com/taiwan-universities/",
+  "imageCredit": "環球教育新聞正式站截圖",
+  "imageLicense": "網站自有畫面",
+  "category": "taiwan-universities",
+  "topic": "選系方向與官方資料核對清單",
+  "sources": [
+    "https://globalednews.com/taiwan-universities/"
+  ],
+  "verifiedAt": "2026-10-01T10:20:00+08:00",
+  "plannedPublishDate": "2026-10-01",
+  "publishedPosts": [
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "id": "Dd7uaP_EyZe",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Dd7uaP_EyZe/",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "verifiedAt": "2026-10-01T01:31:34.763Z",
+      "publishedTimePrecision": "observed-only",
+      "imageCount": 1,
+      "crosspost": false
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "id": "Dd7syl1k2ZS",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dd7syl1k2ZS",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "verifiedAt": "2026-10-01T01:31:34.763Z",
+      "publishedTimePrecision": "observed-only",
+      "imageCount": 1,
+      "crosspost": false
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "id": "7511235268855664641",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7511235268855664641/",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "verifiedAt": "2026-10-01T01:31:34.763Z",
+      "publishedTimePrecision": "observed-only",
+      "imageCount": 1,
+      "crosspost": false
+    }
+  ]
+}
