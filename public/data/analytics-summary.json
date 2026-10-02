@@ -1,6 +1,6 @@
 {
   "status": "ready",
-  "updatedAt": "2026-10-01T07:10:13.064Z",
+  "updatedAt": "2026-10-02T06:59:06.573Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
@@ -34,32 +34,32 @@
     {
       "name": "台灣",
       "mapName": "Taiwan",
-      "sessions": 225,
-      "share": 27.2
+      "sessions": 232,
+      "share": 28.2
     },
     {
       "name": "美國",
       "mapName": "United States",
-      "sessions": 135,
+      "sessions": 134,
       "share": 16.3
     },
     {
       "name": "英國",
       "mapName": "United Kingdom",
-      "sessions": 128,
-      "share": 15.5
+      "sessions": 127,
+      "share": 15.4
     },
     {
       "name": "加拿大",
       "mapName": "Canada",
-      "sessions": 109,
-      "share": 13.2
+      "sessions": 108,
+      "share": 13.1
     },
     {
       "name": "澳洲",
       "mapName": "Australia",
-      "sessions": 65,
-      "share": 7.9
+      "sessions": 66,
+      "share": 8
     },
     {
       "name": "Netherlands",
@@ -70,14 +70,14 @@
     {
       "name": "愛爾蘭",
       "mapName": "Ireland",
-      "sessions": 33,
-      "share": 4
+      "sessions": 34,
+      "share": 4.1
     },
     {
       "name": "新加坡",
       "mapName": "Singapore",
-      "sessions": 20,
-      "share": 2.4
+      "sessions": 19,
+      "share": 2.3
     },
     {
       "name": "(not set)",
