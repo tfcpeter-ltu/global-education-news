@@ -357,13 +357,16 @@
     {
       "campaign": "taiwan-universities",
       "network": "threads",
-      "id": "Dd-YmS2E4Tf",
-      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dd-YmS2E4Tf",
+      "id": "Dd-en0OE2oK",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dd-en0OE2oK",
       "status": "PUBLISHED",
       "method": "direct-browser",
-      "verifiedAt": "2026-10-02T11:35:00+08:00",
+      "verifiedAt": "2026-10-02T11:07:37+08:00",
       "publishedTimePrecision": "observed-only",
       "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-02T11:07:37+08:00",
+      "mediaEvidence": "公開頁存在 /post/Dd-en0OE2oK/media，且已目視確認實際操作截圖顯示正常",
       "crosspost": false
     },
     {

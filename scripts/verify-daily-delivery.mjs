@@ -32,6 +32,11 @@ else {
  for(const [campaign,network] of requirements) {
   const matches=posts.filter(x=>x.campaign===campaign&&x.network===network&&x.status==='PUBLISHED'&&x.id&&x.publicUrl&&x.verifiedAt);
   if(matches.length!==1) fail(`${campaign}/${network}: expected one verified published post, got ${matches.length}`);
+  if(date >= '2026-10-03' && matches.length===1) {
+   const post=matches[0];
+   if(!(Number(post.imageCount)>=1) || post.mediaStatus!=='VERIFIED' || !post.mediaVerifiedAt)
+    fail(`${campaign}/${network}: published post is missing verified visible image evidence`);
+  }
  }
  if(!r.deployment?.commit || r.deployment.status!=='success' || !r.deployment.verifiedAt) fail('missing deployment evidence');
  if(!r.acceptance?.desktop || !r.acceptance?.mobile || !r.acceptance?.seo || !r.acceptance?.verifiedAt) fail('missing live acceptance evidence');

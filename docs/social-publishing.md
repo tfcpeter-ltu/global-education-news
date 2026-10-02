@@ -55,6 +55,8 @@
 
 status 使用 draft、needs-image、ready、published 或 needs-revision。publishedPosts 記錄實際成功的各平台 URL／時間；只完成部分平台時仍保留各平台明細，不把未送出平台寫成成功。
 
+自 2026-10-03 起，每則平台紀錄另須保存 `imageCount >= 1`、`mediaStatus: "VERIFIED"` 與 `mediaVerifiedAt`。發布後必須回讀公開貼文，確認頁面存在平台原生媒體項目；網址展開卡片、OG 預覽或破圖不可算圖片。Threads 貼文應確認公開頁存在 `/media` 連結；沒有媒體時一律標為 `needs-revision`，不得寫成 `PUBLISHED`。上傳前先移除網址自動產生的預覽卡，再附加實際圖檔；發布後先驗圖，再清理錯誤版本。
+
 ## 品牌定位與平台差異
 
 每個平台版本都要保留以下兩個定位的意義，依內容輪換語句、位置及長短，不每篇逐字貼上同一段：
