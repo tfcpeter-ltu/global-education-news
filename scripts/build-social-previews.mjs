@@ -32,9 +32,12 @@ for await (const file of pages(root)) {
   if (!rawTitle || !/<\/head>/i.test(html) || /<meta[^>]*name=["']robots["'][^>]*content=["'][^"']*noindex/i.test(html)) continue;
   const title = decode(rawTitle).replace(/\s*[｜|]\s*(?:環球教育新聞網.*|Global Education News.*)$/i, '').trim();
   const english = path.relative(root, file).split(path.sep)[0] === 'en';
-  const lines = wrap(title, 18);
-  if (lines.length > 5) throw new Error(`Share title too long: ${file}`);
-  const size = lines.length > 3 ? 42 : 50;
+  let size = 50, lines = wrap(title, 18);
+  while (lines.length > 4 && size > 30) {
+    size -= 4;
+    lines = wrap(title, 900 / size);
+  }
+  if (lines.length > 6) lines = [...lines.slice(0, 5), lines[5].slice(0, -1) + '…'];
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630"><rect width="1200" height="630" fill="#f3f0e7"/><rect width="18" height="630" fill="#173d4a"/><path d="M64 146H1136" stroke="#c4b68d" stroke-width="2"/><g font-family="Noto Sans CJK TC,Microsoft JhengHei,sans-serif"><text x="64" y="73" font-size="30" fill="#173d4a">${english ? 'Global Education News' : '環球教育新聞網'}</text><text x="64" y="112" font-size="19" letter-spacing="3" fill="#66777b">GLOBAL EDUCATION · POLICY · ADMISSIONS</text>${lines.map((line, i) => `<text x="64" y="${215 + i * (size + 18)}" font-size="${size}" font-weight="700" fill="#142e39">${escape(line)}</text>`).join('')}<rect x="64" y="542" width="1072" height="2" fill="#c4b68d"/><text x="64" y="589" font-size="23" fill="#173d4a">globalednews.com</text><text x="1136" y="589" text-anchor="end" font-size="22" fill="#66777b">${english ? 'News · Universities · Scholarships' : '國際教育新聞・大學申請・獎學金'}</text></g></svg>`;
   const filename = createHash('sha256').update(svg).digest('hex').slice(0, 24) + '.png';
   const output = path.join(root, 'images/share', filename);
