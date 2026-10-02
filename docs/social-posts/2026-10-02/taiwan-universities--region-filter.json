@@ -2,7 +2,7 @@
   "date": "2026-10-02",
   "campaign": "taiwan-universities",
   "version": "v1",
-  "status": "ready",
+  "status": "published",
   "articleTitle": "國內大學選校選系資料庫：地區與科系交叉篩選",
   "articleUrl": "https://globalednews.com/taiwan-universities/",
   "shortHook": "先用地區縮小生活圈，再比較科系與官方招生資料",
@@ -21,5 +21,42 @@
   "topic": "選校選系工具",
   "verifiedAt": "2026-10-02T09:50:00+08:00",
   "plannedPublishDate": "2026-10-02",
-  "publishedPosts": []
+  "publishedPosts": [
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "id": "Dd-ZDCIE_HL",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Dd-ZDCIE_HL/",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "verifiedAt": "2026-10-02T11:35:00+08:00",
+      "publishedTimePrecision": "observed-only",
+      "imageCount": 1,
+      "crosspost": false
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "id": "Dd-YmS2E4Tf",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dd-YmS2E4Tf",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "verifiedAt": "2026-10-02T11:35:00+08:00",
+      "publishedTimePrecision": "observed-only",
+      "imageCount": 1,
+      "crosspost": false
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "id": "7511610626666917888",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7511610626666917888/",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "verifiedAt": "2026-10-02T11:35:00+08:00",
+      "publishedTimePrecision": "observed-only",
+      "imageCount": 1,
+      "crosspost": false
+    }
+  ]
 }

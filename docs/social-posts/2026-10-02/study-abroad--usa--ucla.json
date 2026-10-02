@@ -2,7 +2,7 @@
   "date": "2026-10-02",
   "campaign": "study-abroad",
   "version": "v1",
-  "status": "ready",
+  "status": "published",
   "articleTitle": "留學DIY導航：UCLA選校故事",
   "articleUrl": "https://globalednews.com/study-abroad/",
   "shortHook": "從公立研究型大學、科系與申請條件三步建立選校清單",
@@ -21,5 +21,54 @@
   "topic": "美國留學選校",
   "verifiedAt": "2026-10-02T09:50:00+08:00",
   "plannedPublishDate": "2026-10-02",
-  "publishedPosts": []
+  "publishedPosts": [
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "id": "1077080995068098",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/1077080995068098",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "verifiedAt": "2026-10-02T11:35:00+08:00",
+      "publishedTimePrecision": "observed-only",
+      "imageCount": 1,
+      "crosspost": false
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "id": "Dd-Y9vmk_cW",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Dd-Y9vmk_cW/",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "verifiedAt": "2026-10-02T11:35:00+08:00",
+      "publishedTimePrecision": "observed-only",
+      "imageCount": 1,
+      "crosspost": false
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "id": "Dd-YlCGk_js",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dd-YlCGk_js",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "verifiedAt": "2026-10-02T11:35:00+08:00",
+      "publishedTimePrecision": "observed-only",
+      "imageCount": 1,
+      "crosspost": false
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "id": "7511610550053703680",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7511610550053703680/",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "verifiedAt": "2026-10-02T11:35:00+08:00",
+      "publishedTimePrecision": "observed-only",
+      "imageCount": 1,
+      "crosspost": false
+    }
+  ]
 }

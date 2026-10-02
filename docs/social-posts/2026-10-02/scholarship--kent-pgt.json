@@ -2,7 +2,7 @@
   "date": "2026-10-02",
   "campaign": "scholarship",
   "version": "v1",
-  "status": "ready",
+  "status": "published",
   "articleTitle": "Kent 2027年1月國際碩士獎學金",
   "articleUrl": "https://globalednews.com/scholarships/items/2026-10-kent-pgt-january-2027/",
   "shortHook": "台灣學生符合資格可獲£5,000學費減免，12月11日截止",
@@ -21,5 +21,54 @@
   "topic": "英國碩士獎學金",
   "verifiedAt": "2026-10-02T09:50:00+08:00",
   "plannedPublishDate": "2026-10-02",
-  "publishedPosts": []
+  "publishedPosts": [
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "id": "17881196535690821",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/17881196535690821",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "verifiedAt": "2026-10-02T11:35:00+08:00",
+      "publishedTimePrecision": "observed-only",
+      "imageCount": 1,
+      "crosspost": false
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "id": "Dd-Y3xak5Cd",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Dd-Y3xak5Cd/",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "verifiedAt": "2026-10-02T11:35:00+08:00",
+      "publishedTimePrecision": "observed-only",
+      "imageCount": 1,
+      "crosspost": false
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "id": "Dd-Yjx8kxtx",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dd-Yjx8kxtx",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "verifiedAt": "2026-10-02T11:35:00+08:00",
+      "publishedTimePrecision": "observed-only",
+      "imageCount": 1,
+      "crosspost": false
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "id": "7511610476947046401",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7511610476947046401/",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "verifiedAt": "2026-10-02T11:35:00+08:00",
+      "publishedTimePrecision": "observed-only",
+      "imageCount": 1,
+      "crosspost": false
+    }
+  ]
 }

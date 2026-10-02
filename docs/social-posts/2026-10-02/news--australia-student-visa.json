@@ -2,7 +2,7 @@
   "date": "2026-10-02",
   "campaign": "news",
   "version": "v1",
-  "status": "ready",
+  "status": "published",
   "articleTitle": "澳洲學生簽證新規10月2日生效",
   "articleUrl": "https://globalednews.com/news/australia-student-visa-onshore-family-rules-2026/",
   "shortHook": "多數境內續簽須離境，家屬規則同步收緊",
@@ -21,5 +21,54 @@
   "topic": "澳洲學生簽證",
   "verifiedAt": "2026-10-02T09:50:00+08:00",
   "plannedPublishDate": "2026-10-02",
-  "publishedPosts": []
+  "publishedPosts": [
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "id": "1077080151734849",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/1077080151734849",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "verifiedAt": "2026-10-02T11:35:00+08:00",
+      "publishedTimePrecision": "observed-only",
+      "imageCount": 1,
+      "crosspost": false
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "id": "Dd-Yv8RE7n-",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Dd-Yv8RE7n-/",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "verifiedAt": "2026-10-02T11:35:00+08:00",
+      "publishedTimePrecision": "observed-only",
+      "imageCount": 1,
+      "crosspost": false
+    },
+    {
+      "campaign": "news",
+      "network": "threads",
+      "id": "Dd-YfQ6k6st",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dd-YfQ6k6st",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "verifiedAt": "2026-10-02T11:35:00+08:00",
+      "publishedTimePrecision": "observed-only",
+      "imageCount": 1,
+      "crosspost": false
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "id": "7511610338551795712",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7511610338551795712/",
+      "status": "PUBLISHED",
+      "method": "direct-browser",
+      "verifiedAt": "2026-10-02T11:35:00+08:00",
+      "publishedTimePrecision": "observed-only",
+      "imageCount": 1,
+      "crosspost": false
+    }
+  ]
 }
