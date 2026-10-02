@@ -49,13 +49,16 @@
     {
       "campaign": "scholarship",
       "network": "threads",
-      "id": "Dd-Yjx8kxtx",
-      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dd-Yjx8kxtx",
+      "id": "Dd-dcXVk9vw",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dd-dcXVk9vw",
       "status": "PUBLISHED",
       "method": "direct-browser",
-      "verifiedAt": "2026-10-02T11:35:00+08:00",
+      "verifiedAt": "2026-10-02T15:57:20+08:00",
       "publishedTimePrecision": "observed-only",
       "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-02T15:57:20+08:00",
+      "mediaEvidence": "公開貼文含 /post/Dd-dcXVk9vw/media，已確認獎學金圖片正常顯示。",
       "crosspost": false
     },
     {
