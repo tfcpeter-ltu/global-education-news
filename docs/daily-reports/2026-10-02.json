@@ -225,13 +225,16 @@
     {
       "campaign": "news",
       "network": "threads",
-      "id": "Dd-YfQ6k6st",
-      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dd-YfQ6k6st",
+      "id": "Dd-b9CbEx3Q",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dd-b9CbEx3Q",
       "status": "PUBLISHED",
       "method": "direct-browser",
-      "verifiedAt": "2026-10-02T11:35:00+08:00",
+      "verifiedAt": "2026-10-02T15:57:20+08:00",
       "publishedTimePrecision": "observed-only",
       "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-02T15:57:20+08:00",
+      "mediaEvidence": "公開貼文含 /post/Dd-b9CbEx3Q/media，已確認新聞圖片正常顯示。",
       "crosspost": false
     },
     {
@@ -273,13 +276,16 @@
     {
       "campaign": "scholarship",
       "network": "threads",
-      "id": "Dd-Yjx8kxtx",
-      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dd-Yjx8kxtx",
+      "id": "Dd-dcXVk9vw",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dd-dcXVk9vw",
       "status": "PUBLISHED",
       "method": "direct-browser",
-      "verifiedAt": "2026-10-02T11:35:00+08:00",
+      "verifiedAt": "2026-10-02T15:57:20+08:00",
       "publishedTimePrecision": "observed-only",
       "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-02T15:57:20+08:00",
+      "mediaEvidence": "公開貼文含 /post/Dd-dcXVk9vw/media，已確認獎學金圖片正常顯示。",
       "crosspost": false
     },
     {
@@ -321,13 +327,16 @@
     {
       "campaign": "study-abroad",
       "network": "threads",
-      "id": "Dd-YlCGk_js",
-      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dd-YlCGk_js",
+      "id": "Dd-_mi7k7it",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dd-_mi7k7it",
       "status": "PUBLISHED",
       "method": "direct-browser",
-      "verifiedAt": "2026-10-02T11:35:00+08:00",
+      "verifiedAt": "2026-10-02T15:57:20+08:00",
       "publishedTimePrecision": "observed-only",
       "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-02T15:57:20+08:00",
+      "mediaEvidence": "公開貼文含 /post/Dd-_mi7k7it/media，已目視確認 Royce Hall 圖片正常顯示。",
       "crosspost": false
     },
     {
