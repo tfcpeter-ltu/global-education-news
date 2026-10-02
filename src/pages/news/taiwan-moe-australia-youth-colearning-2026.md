@@ -7,10 +7,11 @@ author: 'LTU Global Education News 編輯部'
 category: '台灣國際教育'
 topic: 'taiwan'
 tags: ['policy', 'exchange']
-image: 'https://www.service.tas.gov.au/__data/assets/image/0022/291550/DoE-school-students.jpg'
-imageAlt: '澳洲塔斯馬尼亞中學生校園學習情境'
-imageCredit: '資料照片：Service Tasmania'
-imageSource: 'https://www.service.tas.gov.au/services/education-and-skills'
+image: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Hobart%20College%2C%20Tasmania.jpg?width=1280"
+imageAlt: "塔斯馬尼亞 Hobart College 校園資料照，非本次交流活動照片"
+imageCredit: "JTdale／Wikimedia Commons（CC0；分享預覽裁切）"
+imageSource: "https://commons.wikimedia.org/wiki/File:Hobart_College%2C_Tasmania.jpg"
+imageLicense: "CC0"
 sources:
   - label: '教育部全球資訊網｜國家搭台學生圓夢！教育部帶領學生赴澳洲海港城市共學（2026-08-29）'
     url: 'https://www.moe.gov.tw/News_Content.aspx?n=9E7AC85F1954DDA8&s=B10CA82FD36E1CAB'

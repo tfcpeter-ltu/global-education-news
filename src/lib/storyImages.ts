@@ -38,10 +38,10 @@ const rules: Array<{ test: RegExp; image: StoryImageInfo }> = [
   {
     test: /香港大學|HKU|Non-JUPAS/i,
     image: {
-      url: 'https://admissions.hku.hk/sites/default/files/styles/hkuad_lpm_1_1_image_mobile/public/2021-02/0419152830_DSC00399.jpg?itok=koKNSY4C',
-      alt: '香港大學校園 University Street 的國際學生',
-      credit: '圖片來源：The University of Hong Kong Admissions',
-      source: 'https://admissions.hku.hk/apply/international-qualifications'
+      url: commons('University of Hong Kong Main Building.jpg'),
+      alt: '香港大學本部大樓資料照',
+      credit: 'Adon3465／Wikimedia Commons（CC BY-SA 3.0）',
+      source: 'https://commons.wikimedia.org/wiki/File:University_of_Hong_Kong_Main_Building.jpg'
     }
   },
   {

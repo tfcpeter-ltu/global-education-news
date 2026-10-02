@@ -6,9 +6,11 @@ for (const url of urls) {
   const page = await fetch(url, { headers: { 'User-Agent': 'facebookexternalhit/1.1' }, signal: AbortSignal.timeout(30000) });
   if (!page.ok || !page.headers.get('content-type')?.includes('text/html')) throw new Error(`Page inaccessible: ${url}`);
   const html = await page.text();
+  if (!html.includes('name="social-preview-kind" content="photograph"')) throw new Error(`Photographic preview required: ${url}`);
   const images = [...html.matchAll(/<meta\s+property="og:image"\s+content="([^"]+)"/g)];
   if (images.length !== 1) throw new Error(`Expected one preview image: ${url}`);
   const image = new URL(images[0][1]);
+  if (!image.pathname.startsWith('/images/share-photos/')) throw new Error(`Text cards and unrelated images are not valid photo previews: ${image}`);
   if (image.origin !== new URL(url).origin) throw new Error(`Preview image must be self-hosted: ${image}`);
   const response = await fetch(image, { redirect: 'error', headers: { 'User-Agent': 'facebookexternalhit/1.1' }, signal: AbortSignal.timeout(30000) });
   if (!response.ok || !/^image\/(png|jpeg)$/.test(response.headers.get('content-type') || '')) throw new Error(`Invalid image response: ${image}`);

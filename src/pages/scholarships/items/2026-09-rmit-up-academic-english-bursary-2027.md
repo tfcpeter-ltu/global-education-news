@@ -19,10 +19,10 @@ updated: 2026-09-28
 featuredDate: "2026-09-28"
 featuredUntil: "2026-09-28T23:59:59+08:00"
 author: "LTU Global Education News 編輯部"
-image: "https://upload.wikimedia.org/wikipedia/commons/5/51/RMIT_Storey_Hall.jpg"
-imageAlt: "RMIT University Storey Hall 校舍資料照"
-imageCredit: "Wikimedia Commons／CC BY-SA；資料照，版面可能裁切"
-imageSource: "https://commons.wikimedia.org/wiki/File:RMIT_Storey_Hall.jpg"
+image: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Storeyhall1.JPG?width=1280"
+imageAlt: "澳洲 RMIT 大學 Storey Hall 資料照"
+imageCredit: "S3335142／Wikimedia Commons（CC BY-SA 3.0；分享預覽裁切）"
+imageSource: "https://commons.wikimedia.org/wiki/File:Storeyhall1.JPG"
 category: "語言課程學費減免"
 ---
 

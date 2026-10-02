@@ -19,10 +19,10 @@ updated: 2026-09-29
 featuredDate: "2026-09-29"
 featuredUntil: "2026-09-29T23:59:59+08:00"
 author: "LTU Global Education News 編輯部"
-image: "https://upload.wikimedia.org/wikipedia/commons/6/66/University_of_Dundee_Tower_Building.jpg"
-imageAlt: "University of Dundee Tower Building 校園資料照"
-imageCredit: "Wikimedia Commons／CC BY-SA；資料照，版面可能裁切"
-imageSource: "https://commons.wikimedia.org/wiki/File:University_of_Dundee_Tower_Building.jpg"
+image: "https://commons.wikimedia.org/wiki/Special:Redirect/file/University%20of%20Dundee%20-%20Tower%20Building.jpg?width=1280"
+imageAlt: "英國鄧迪大學 Tower Building 校園資料照"
+imageCredit: "John Lord／Wikimedia Commons（CC BY 2.0；分享預覽裁切）"
+imageSource: "https://commons.wikimedia.org/wiki/File:University_of_Dundee_-_Tower_Building.jpg"
 category: "大學學費獎學金"
 ---
 

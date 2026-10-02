@@ -19,10 +19,10 @@ updated: 2026-09-28
 featuredDate: "2026-09-28"
 featuredUntil: "2026-09-28T23:59:59+08:00"
 author: "LTU Global Education News 編輯部"
-image: "https://upload.wikimedia.org/wikipedia/commons/0/0e/Reed_Hall%2C_University_of_Exeter.jpg"
-imageAlt: "英國 University of Exeter Reed Hall 校園資料照"
-imageCredit: "Wikimedia Commons／CC BY-SA；資料照，版面可能裁切"
-imageSource: "https://commons.wikimedia.org/wiki/File:Reed_Hall,_University_of_Exeter.jpg"
+image: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Reed%20Hall%202.jpg?width=1280"
+imageAlt: "英國艾希特大學 Reed Hall 校園資料照"
+imageCredit: "Benjamin Evans／Wikimedia Commons（Public domain；分享預覽裁切）"
+imageSource: "https://commons.wikimedia.org/wiki/File:Reed_Hall_2.jpg"
 category: "大學學費獎學金"
 ---
 

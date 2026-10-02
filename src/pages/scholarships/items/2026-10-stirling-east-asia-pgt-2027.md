@@ -19,10 +19,10 @@ updated: 2026-10-02
 featuredDate: "2026-10-02"
 featuredUntil: "2026-10-02T23:59:59+08:00"
 author: "LTU Global Education News 編輯部"
-image: "https://commons.wikimedia.org/wiki/Special:Redirect/file/University_of_Stirling_-_geograph.org.uk_-_303373.jpg?width=1200"
-imageAlt: "University of Stirling 校園資料照"
-imageCredit: "Wikimedia Commons 授權資料照"
-imageSource: "https://commons.wikimedia.org/wiki/File:University_of_Stirling_-_geograph.org.uk_-_303373.jpg"
+image: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fmstirlinguni.jpg?width=1280"
+imageAlt: "英國史特靈大學校園與 Airthrey Loch 資料照"
+imageCredit: "Finlay McWalter／Wikimedia Commons（CC BY-SA 3.0；分享預覽裁切）"
+imageSource: "https://commons.wikimedia.org/wiki/File:Fmstirlinguni.jpg"
 category: "大學學費獎學金"
 ---
 

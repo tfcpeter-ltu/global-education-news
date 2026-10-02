@@ -19,10 +19,10 @@ updated: 2026-10-02
 featuredDate: "2026-10-02"
 featuredUntil: "2026-10-02T23:59:59+08:00"
 author: "LTU Global Education News 編輯部"
-image: "https://commons.wikimedia.org/wiki/Special:Redirect/file/University_of_Kent_-_Darwin_College.jpg?width=1200"
-imageAlt: "University of Kent Darwin College 校園資料照"
-imageCredit: "Wikimedia Commons／CC BY-SA 資料照"
-imageSource: "https://commons.wikimedia.org/wiki/File:University_of_Kent_-_Darwin_College.jpg"
+image: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Darwinhouses.jpg?width=1280"
+imageAlt: "英國肯特大學 Darwin Houses 校園資料照"
+imageCredit: "Misternuge／Wikimedia Commons（Public domain；分享預覽裁切）"
+imageSource: "https://commons.wikimedia.org/wiki/File:Darwinhouses.jpg"
 category: "大學學費獎學金"
 ---
 

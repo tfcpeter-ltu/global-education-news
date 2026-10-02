@@ -30,7 +30,8 @@ CTA 欄位固定為「免費加入會員」，停止原來的主要 CTA 輪替�
 ## 平台與驗收
 
 - 2026-10-03 空白預覽修正：Facebook 貼文包含多個網址時可能選到文末電子報連結。發文必須另上傳至少一張已查核圖片，不得只靠連結卡片；選擇主要文章的卡片，確認會員連結沒有取代它。文案仍保留會員入口。
-- 發布前執行 `node scripts/verify-social-preview.mjs <文章正式網址> https://globalednews.com/newsletter/`；未通過不得發布。本站所有可分享頁面在建置末段自動產生獨立、帶標題的本站 PNG 預覽圖，不再讓社群爬蟲直接依賴外站圖片轉址。
+- 發布前執行 `node scripts/verify-social-preview.mjs <文章正式網址> https://globalednews.com/newsletter/`；未通過不得發布。分享預覽必須包含實際照片，純文字卡片、空白框及截圖不得代替照片。文章使用該篇主圖；專區入口使用校園實景資料照。圖片由本站 JPEG 提供，不依賴外站轉址。
+- 新增外站照片後，先執行 `node scripts/build-social-previews.mjs --prepare`，檢查照片實景、來源及授權，提交 `public/images/share-photos/` 的快取及來源紀錄；正式建置不從外網下載照片，未備妥就阻止部署，不默默退回純文字。
 - 發布後回讀公開 Facebook 貼文，圖片實際可見才記錄 `mediaKind=uploaded-photo`、`mediaStatus=VERIFIED`、`mediaEvidence`、`mediaVerifiedAt`、`previewStatus=VERIFIED`、`previewVerifiedAt`。只有 imageCount 或連結卡片存在不算通過。
 - 舊 Facebook 卡片可能保留平台快取；網站部署成功不代表舊貼文已修復。需另外回讀原貼文，能編輯時修復原貼文並記錄；不能編輯則記為待處理，禁止以重發冒充修復。
 
