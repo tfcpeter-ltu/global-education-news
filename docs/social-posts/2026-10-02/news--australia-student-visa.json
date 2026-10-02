@@ -31,8 +31,14 @@
       "method": "direct-browser",
       "verifiedAt": "2026-10-02T11:35:00+08:00",
       "publishedTimePrecision": "observed-only",
-      "imageCount": 1,
-      "crosspost": false
+      "imageCount": 0,
+      "crosspost": false,
+      "mediaKind": "link-preview",
+      "mediaStatus": "FAILED",
+      "previewStatus": "BLANK",
+      "mediaEvidence": "2026-10-03 使用者提供公開貼文截圖：電子報連結卡片上方為空白，原 imageCount=1 不能作為可見圖片證據。",
+      "repairStatus": "PENDING_BROWSER_ACCESS",
+      "repairNote": "網站 OG 修正不代表原 Facebook 貼文已修復；需回讀原文並修正卡片或附圖。"
     },
     {
       "campaign": "news",
