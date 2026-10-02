@@ -36,6 +36,8 @@ else {
    const post=matches[0];
    if(!(Number(post.imageCount)>=1) || post.mediaStatus!=='VERIFIED' || !post.mediaVerifiedAt)
     fail(`${campaign}/${network}: published post is missing verified visible image evidence`);
+   if(network==='facebook' && (!post.mediaEvidence || post.mediaKind!=='uploaded-photo' || !post.previewVerifiedAt || post.previewStatus!=='VERIFIED'))
+    fail(`${campaign}/facebook: require an uploaded photo and observed nonblank public preview; link counts are not image evidence`);
   }
  }
  if(!r.deployment?.commit || r.deployment.status!=='success' || !r.deployment.verifiedAt) fail('missing deployment evidence');
