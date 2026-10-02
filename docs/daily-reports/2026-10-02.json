@@ -123,7 +123,7 @@
       "eligibleTaiwan": true,
       "open": true,
       "verifiedAt": "2026-10-02T09:40:00+08:00",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-10-02T10:06:37+08:00",
       "isNew": true,
       "baselineAbsent": true
     },
@@ -138,7 +138,7 @@
       "eligibleTaiwan": true,
       "open": true,
       "verifiedAt": "2026-10-02T09:40:00+08:00",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-10-02T10:06:37+08:00",
       "isNew": true,
       "baselineAbsent": true
     },
@@ -153,7 +153,7 @@
       "eligibleTaiwan": true,
       "open": true,
       "verifiedAt": "2026-10-02T09:40:00+08:00",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-10-02T10:06:37+08:00",
       "isNew": true,
       "baselineAbsent": true
     }
@@ -169,7 +169,7 @@
         "https://www.globaladmissions.com/scholarships-for/taiwan/united-kingdom"
       ],
       "updateSummary": "2026-10-02淨新增並雙重查核",
-      "publishedVerifiedAt": null
+      "publishedVerifiedAt": "2026-10-02T10:06:37+08:00"
     },
     {
       "url": "https://globalednews.com/scholarships/items/2026-10-stirling-east-asia-pgt-2027/",
@@ -181,7 +181,7 @@
         "https://www.17liuxue.com/unistirling/news/"
       ],
       "updateSummary": "2026-10-02淨新增並雙重查核",
-      "publishedVerifiedAt": null
+      "publishedVerifiedAt": "2026-10-02T10:06:37+08:00"
     },
     {
       "url": "https://globalednews.com/scholarships/items/2026-10-london-met-east-asia-2027/",
@@ -193,14 +193,15 @@
         "https://londonglobalonline.net/applying/funding-your-studies/scholarships/"
       ],
       "updateSummary": "2026-10-02淨新增並雙重查核",
-      "publishedVerifiedAt": null
+      "publishedVerifiedAt": "2026-10-02T10:06:37+08:00"
     }
   ],
   "peterImports": [],
   "socialPosts": [],
   "ltuMediaRotation": {
-    "status": "pending",
-    "poolCount": 12
+    "status": "verified",
+    "poolCount": 12,
+    "evidence": "首頁顯示3則、媒體池共12則；日期輪播區塊正式站回讀正常。"
   },
   "campusReport": "docs/campus-reports/2026-10-02.json",
   "sourceChecks": {
@@ -212,19 +213,35 @@
   },
   "build": {
     "verifiedAt": "2026-10-02T09:56:34+08:00",
-    "fullBuild": false,
-    "note": "Astro build passed in isolated temp workspace; bilingual post-build steps pending final verification.",
+    "fullBuild": true,
+    "note": "GitHub Actions Astro／雙語完整建置成功；本機隔離建置另因缺 ctranslate2 僅完成 Astro 與前置步驟。",
     "astro": true
   },
   "deployment": {
-    "status": "pending"
+    "status": "success",
+    "commit": "d173095b6dbbf566a11dae333c3f8c30b879cf8f",
+    "workflowUrl": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/36953685615",
+    "verifiedAt": "2026-10-02T10:06:37+08:00"
   },
   "acceptance": {
     "mobile": false,
-    "desktop": false,
-    "seo": false
+    "desktop": true,
+    "seo": true,
+    "verifiedAt": "2026-10-02T10:06:37+08:00",
+    "note": "正式站桌面回讀顯示3篇新新聞、3則新獎學金與149+總數；canonical、OG、schema、sitemap、News sitemap、RSS及會員入口通過。手機視覺尚待獨立 viewport 驗收。"
   },
   "blockers": [
-    "尚待提交部署、正式站回讀、Peter三則匯入及15則社群發布"
-  ]
+    "15則社群貼文尚未送出；依瀏覽器操作政策，實際發布前需要一次性確認。",
+    "手機版獨立視窗尺寸的視覺驗收尚未完成。"
+  ],
+  "peterReview": {
+    "status": "no-new-posts",
+    "checkedAt": "2026-10-02T10:06:37+08:00",
+    "note": "指定粉專目前最新三則（張曼玉、心理學系比較、新加坡全人審查）已於2026-10-01匯入 peter-articles.json；今日無未收錄新文。",
+    "sourceUrls": [
+      "https://www.facebook.com/reel/2152038912053470/",
+      "https://www.facebook.com/permalink.php?story_fbid=pfbid036YGS9kS4R64SJXVaWkPL99MYtc4nHT4zx6Mfw2va5fWs1fQpnxa1GrTZVbjXScKpl&id=61585164670358",
+      "https://www.facebook.com/permalink.php?story_fbid=pfbid02gS3r6zZWVtBkGCZvyRKZAuANvqrQ7s5KxLzAckiq21a7pqZCAhN1ptAGJyPkdGKyl&id=61585164670358"
+    ]
+  }
 }
