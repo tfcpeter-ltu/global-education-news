@@ -1,23 +1,13 @@
 {
   "status": "ready",
-  "updatedAt": "2026-10-02T06:59:06.573Z",
+  "updatedAt": "2026-10-03T06:29:09.827Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
     {
       "title": "最新國際教育新聞",
       "path": "/news/",
-      "views": 160
-    },
-    {
-      "title": "英國警方更新大學生防詐指南：假學費折扣與假移民罰款須先向學校查證｜環球教育新聞網 Global Education News",
-      "path": "/news/uk-university-student-fraud-guide-september-2026/",
-      "views": 115
-    },
-    {
-      "title": "英國ESAG提出國際教育行動計畫：七大方向推進2030目標，並非新簽證規則｜環球教育新聞網 Global Education News",
-      "path": "/news/uk-esag-international-education-sector-action-plans-2026/",
-      "views": 113
+      "views": 21
     },
     {
       "title": "澳洲國際學生人數年減 7%：高教註冊逆勢成長 2%，ELICOS 減 27%｜環球教育新聞網 Global Education News",
@@ -28,68 +18,78 @@
       "title": "美國調查 Duke、UND 外國資金揭露：30 天內交資料，門檻為年度 25 萬美元｜環球教育新聞網 Global Education News",
       "path": "/news/us-duke-und-foreign-funding-investigations-2026/",
       "views": 10
+    },
+    {
+      "title": "澳洲學生簽證新規10月2日生效：多數境內續簽須離境，攜帶家屬範圍收緊｜環球教育新聞網 Global Education News",
+      "path": "/news/australia-student-visa-onshore-family-rules-2026/",
+      "views": 6
+    },
+    {
+      "title": "伯明罕大學與香港都會大學開商業法銜接：2027年起提供兩條入學路徑｜環球教育新聞網 Global Education News",
+      "path": "/news/birmingham-hkmu-commercial-law-pathway-2027/",
+      "views": 3
     }
   ],
   "countries": [
     {
       "name": "台灣",
       "mapName": "Taiwan",
-      "sessions": 232,
-      "share": 28.2
+      "sessions": 204,
+      "share": 65.8
     },
     {
       "name": "美國",
       "mapName": "United States",
-      "sessions": 134,
-      "share": 16.3
-    },
-    {
-      "name": "英國",
-      "mapName": "United Kingdom",
-      "sessions": 127,
-      "share": 15.4
-    },
-    {
-      "name": "加拿大",
-      "mapName": "Canada",
-      "sessions": 108,
-      "share": 13.1
+      "sessions": 29,
+      "share": 9.4
     },
     {
       "name": "澳洲",
       "mapName": "Australia",
-      "sessions": 66,
-      "share": 8
+      "sessions": 27,
+      "share": 8.7
     },
     {
       "name": "Netherlands",
       "mapName": "Netherlands",
-      "sessions": 61,
-      "share": 7.4
+      "sessions": 10,
+      "share": 3.2
     },
     {
-      "name": "愛爾蘭",
-      "mapName": "Ireland",
-      "sessions": 34,
-      "share": 4.1
+      "name": "英國",
+      "mapName": "United Kingdom",
+      "sessions": 9,
+      "share": 2.9
     },
     {
       "name": "新加坡",
       "mapName": "Singapore",
-      "sessions": 19,
+      "sessions": 7,
       "share": 2.3
-    },
-    {
-      "name": "(not set)",
-      "mapName": "(not set)",
-      "sessions": 13,
-      "share": 1.6
     },
     {
       "name": "中國",
       "mapName": "China",
-      "sessions": 8,
-      "share": 1
+      "sessions": 5,
+      "share": 1.6
+    },
+    {
+      "name": "愛爾蘭",
+      "mapName": "Ireland",
+      "sessions": 5,
+      "share": 1.6
+    },
+    {
+      "name": "香港",
+      "mapName": "Hong Kong",
+      "sessions": 4,
+      "share": 1.3
+    },
+    {
+      "name": "印度",
+      "mapName": "India",
+      "sessions": 4,
+      "share": 1.3
     }
   ]
 }
