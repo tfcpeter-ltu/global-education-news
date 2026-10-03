@@ -40,6 +40,16 @@ else {
     fail(`${campaign}/facebook: require an uploaded photo and observed nonblank public preview; link counts are not image evidence`);
   }
  }
+ if(date >= '2026-10-04') {
+  const pagePost=r.newFacebookPagePost;
+  if(!pagePost || pagePost.pageId!=='61595164194381' || pagePost.status!=='PUBLISHED' ||
+   !pagePost.id || !pagePost.publicUrl || !pagePost.verifiedAt || !pagePost.articleUrl ||
+   !(Number(pagePost.imageCount)>=1) || pagePost.mediaStatus!=='VERIFIED' ||
+   !pagePost.mediaVerifiedAt || !pagePost.mediaEvidence ||
+   pagePost.mediaKind!=='uploaded-photo' || pagePost.previewStatus!=='VERIFIED' ||
+   !pagePost.previewVerifiedAt)
+   fail('new Facebook page 61595164194381: missing one verified new daily post with a visible uploaded photo');
+ }
  if(!r.deployment?.commit || r.deployment.status!=='success' || !r.deployment.verifiedAt) fail('missing deployment evidence');
  if(!r.acceptance?.desktop || !r.acceptance?.mobile || !r.acceptance?.seo || !r.acceptance?.verifiedAt) fail('missing live acceptance evidence');
  if(!process.exitCode) console.log(`COMPLETE ${date}: 3 news, 3 new scholarships, Peter review (${peterImportCount} imports${peterNoNewPosts?', no new source posts':''}), ${requirements.length} social posts and deployment evidence present. Evidence presence does not replace live verification.`);
