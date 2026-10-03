@@ -1,0 +1,265 @@
+{
+  "date": "2026-10-03",
+  "timezone": "Asia/Taipei",
+  "baselineCommit": "4ba2bab74e01afa055aee0799e8736f85c36721a",
+  "status": "partial",
+  "startedAt": "2026-10-03T06:01:41+08:00",
+  "scholarshipBaselineSlugs": [
+    "2026-08-bristol-think-big",
+    "2026-08-manchester-global-futures-taiwan-2027",
+    "2026-08-mcgill-mccall-macbain",
+    "2026-08-melbourne-graduate-research",
+    "2026-08-melbourne-international-excellence-graduate-2027",
+    "2026-08-moe-eu-scholarship",
+    "2026-08-moe-government-sponsored-study",
+    "2026-08-moe-new-southbound-internship",
+    "2026-08-moe-overseas-scholarship",
+    "2026-08-moe-study-abroad-fly",
+    "2026-08-moe-study-abroad-internship",
+    "2026-08-moe-study-abroad-needy",
+    "2026-08-moe-top100-phd",
+    "2026-08-monash-awards-2027",
+    "2026-08-oxford-clarendon",
+    "2026-08-sydney-vcis-2027",
+    "2026-08-tgpi-dream-factory",
+    "2026-08-tgpi-global-flight",
+    "2026-08-ubc-four-year-doctoral-fellowship",
+    "2026-08-ubc-imes",
+    "2026-08-ubc-international-scholars-2027",
+    "2026-08-ubc-killam-doctoral-2027",
+    "2026-08-ucl-global-masters",
+    "2026-08-ucl-global-undergraduate",
+    "2026-08-unsw-scientia-2027",
+    "2026-08-uq-international-high-achievers-2027",
+    "2026-08-utoronto-pearson-2027",
+    "2026-09-adelaide-academic-excellence-2027",
+    "2026-09-adelaide-merit-2027",
+    "2026-09-auckland-international-student-excellence-2027",
+    "2026-09-cardiff-vice-chancellor-taiwan-january-2027",
+    "2026-09-chevening-delta-climate-2027",
+    "2026-09-chevening-taiwan",
+    "2026-09-daad-architecture-masters",
+    "2026-09-deakin-excellence-international-2027",
+    "2026-09-deakin-international-merit-2027",
+    "2026-09-deakin-vice-chancellor-international-2027",
+    "2026-09-dundee-east-asia-undergraduate-january-2027",
+    "2026-09-dundee-global-excellence-undergraduate-january-2027",
+    "2026-09-erasmus-mundus-2027",
+    "2026-09-eth-zurich-esop-2027",
+    "2026-09-exeter-pgt-taiwan-january-2027",
+    "2026-09-fulbright-experience-america-research-award",
+    "2026-09-fulbright-non-academic-professional-award",
+    "2026-09-fulbright-senior-research-award",
+    "2026-09-gates-cambridge-2027",
+    "2026-09-harvard-academy-scholars-2027",
+    "2026-09-harvard-radcliffe-fellowship-2027",
+    "2026-09-hkpfs-2027",
+    "2026-09-imperial-presidents-phd-2027",
+    "2026-09-kent-international-undergraduate-january-2027",
+    "2026-09-knight-hennessy-2027",
+    "2026-09-latrobe-high-achiever-2027",
+    "2026-09-leicester-global-excellence-jan-apr-2027",
+    "2026-09-macquarie-vcis-2027",
+    "2026-09-monash-international-merit-2027",
+    "2026-09-ntu-taiwan-scholarship-jan-2027",
+    "2026-09-ntu-taiwan-stem-scholarship-jan-2027",
+    "2026-09-oxford-clarendon-2027",
+    "2026-09-rmit-up-academic-english-bursary-2027",
+    "2026-09-strathclyde-sbs-international-masters-jan-2027",
+    "2026-09-sydney-rtp-international-2027",
+    "2026-09-taiwan-anu-phd-scholarship-2027",
+    "2026-09-tasmanian-international-scholarship-2027",
+    "2026-09-ubc-international-scholars-2027",
+    "2026-09-uc-berkeley-beahrs-elp-2027",
+    "2026-09-uni-iowa-partner-state-taiwan-2027",
+    "2026-09-university-iowa-national-scholars-2027",
+    "2026-09-unsw-international-scientia-2027",
+    "2026-09-uow-postgraduate-academic-excellence-2027",
+    "2026-09-uow-university-excellence-2027",
+    "2026-09-utoronto-lester-b-pearson-2027",
+    "2026-09-yenching-academy-2027-taiwan",
+    "2026-10-kent-pgt-january-2027",
+    "2026-10-london-met-east-asia-2027",
+    "2026-10-oxford-brookes-january-2027",
+    "2026-10-qub-pgt-january-2027",
+    "2026-10-stirling-east-asia-pgt-2027",
+    "2026-10-strathclyde-science-january-2027"
+  ],
+  "newsPublished": [
+    {
+      "slug": "uk-bloomsbury-institute-sponsor-licence-revoked-2026",
+      "sources": [
+        "https://www.gov.uk/government/news/bloomsbury-institutes-student-sponsor-licence-revoked",
+        "https://www.birketts.co.uk/legal-update/bloomsbury-institute-sponsor-licence-revocation/"
+      ],
+      "verifiedAt": "2026-10-03T06:35:00+08:00",
+      "url": "https://globalednews.com/news/uk-bloomsbury-institute-sponsor-licence-revoked-2026/"
+    },
+    {
+      "slug": "hong-kong-non-local-student-cap-50-percent-2026",
+      "sources": [
+        "https://www.edb.gov.hk/attachment/en/about-edb/press/legco/replies-to-fc/edb-e-2627.pdf",
+        "https://news.rthk.hk/rthk/en/component/k2/1843827-20260214.htm"
+      ],
+      "verifiedAt": "2026-10-03T06:40:00+08:00",
+      "url": "https://globalednews.com/news/hong-kong-non-local-student-cap-50-percent-2026/"
+    },
+    {
+      "slug": "hku-non-local-applications-record-2026",
+      "sources": [
+        "https://lead.hku.hk/en/article/2026/09/cultural-carnival-2026/",
+        "https://www.thestandard.com.hk/news/article/343531/HKU-admits-1800-non-local-students-amid-shifting-geopolitics"
+      ],
+      "verifiedAt": "2026-10-03T06:45:00+08:00",
+      "url": "https://globalednews.com/news/hku-non-local-applications-record-2026/"
+    }
+  ],
+  "scholarshipAdditions": [
+    {
+      "open": true,
+      "publishedPath": "src/pages/scholarships/items/2026-10-bangor-vice-chancellor-january-2027.md",
+      "baselineAbsent": true,
+      "isNew": true,
+      "slug": "2026-10-bangor-vice-chancellor-january-2027",
+      "sources": [
+        "https://www.bangor.ac.uk/international/future/vice-chancellor-scholarship",
+        "https://youapply.com/en/universities/united-kingdom/bangor-university"
+      ],
+      "eligibleTaiwan": true,
+      "url": "https://globalednews.com/scholarships/items/2026-10-bangor-vice-chancellor-january-2027/",
+      "publishedVerifiedAt": null,
+      "verifiedAt": "2026-10-03T06:50:00+08:00"
+    },
+    {
+      "open": true,
+      "publishedPath": "src/pages/scholarships/items/2026-10-lancaster-regional-taiwan-2027.md",
+      "baselineAbsent": true,
+      "isNew": true,
+      "slug": "2026-10-lancaster-regional-taiwan-2027",
+      "sources": [
+        "https://www.lancaster.ac.uk/study/fees-and-funding/scholarships-and-bursaries/postgraduate-international-regional-scholarship/",
+        "https://hands-on.co.th/scholarships/lancaster-university-2027/"
+      ],
+      "eligibleTaiwan": true,
+      "url": "https://globalednews.com/scholarships/items/2026-10-lancaster-regional-taiwan-2027/",
+      "publishedVerifiedAt": null,
+      "verifiedAt": "2026-10-03T06:52:00+08:00"
+    },
+    {
+      "open": true,
+      "publishedPath": "src/pages/scholarships/items/2026-10-cumbria-international-undergraduate-january-2027.md",
+      "baselineAbsent": true,
+      "isNew": true,
+      "slug": "2026-10-cumbria-international-undergraduate-january-2027",
+      "sources": [
+        "https://www.cumbria.ac.uk/media/2026-Cumbria-International-UG-Scholarships-Terms-Conditions.pdf",
+        "https://www.scholarshiptab.com/scholarships/university-of-cumbria-international-undergraduate-scholarships-2026"
+      ],
+      "eligibleTaiwan": true,
+      "url": "https://globalednews.com/scholarships/items/2026-10-cumbria-international-undergraduate-january-2027/",
+      "publishedVerifiedAt": null,
+      "verifiedAt": "2026-10-03T06:54:00+08:00"
+    }
+  ],
+  "scholarshipChecks": [
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-10-bangor-vice-chancellor-january-2027/",
+      "verifiedAt": "2026-10-03T06:50:00+08:00",
+      "eligibleTaiwan": true,
+      "open": true,
+      "sources": [
+        "https://www.bangor.ac.uk/international/future/vice-chancellor-scholarship",
+        "https://youapply.com/en/universities/united-kingdom/bangor-university"
+      ],
+      "updateSummary": "2026-10-03淨新增並雙重查核",
+      "publishedVerifiedAt": null
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-10-lancaster-regional-taiwan-2027/",
+      "verifiedAt": "2026-10-03T06:52:00+08:00",
+      "eligibleTaiwan": true,
+      "open": true,
+      "sources": [
+        "https://www.lancaster.ac.uk/study/fees-and-funding/scholarships-and-bursaries/postgraduate-international-regional-scholarship/",
+        "https://hands-on.co.th/scholarships/lancaster-university-2027/"
+      ],
+      "updateSummary": "2026-10-03淨新增並雙重查核",
+      "publishedVerifiedAt": null
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-10-cumbria-international-undergraduate-january-2027/",
+      "verifiedAt": "2026-10-03T06:54:00+08:00",
+      "eligibleTaiwan": true,
+      "open": true,
+      "sources": [
+        "https://www.cumbria.ac.uk/media/2026-Cumbria-International-UG-Scholarships-Terms-Conditions.pdf",
+        "https://www.scholarshiptab.com/scholarships/university-of-cumbria-international-undergraduate-scholarships-2026"
+      ],
+      "updateSummary": "2026-10-03淨新增並雙重查核",
+      "publishedVerifiedAt": null
+    }
+  ],
+  "peterImports": [],
+  "socialPosts": [],
+  "sourceReview": {
+    "sunmoon": {
+      "checkedAt": "2026-10-03T06:08:00+08:00",
+      "url": "https://www.sunmoonnews.com.tw/",
+      "result": "未找到可通過本日國際教育雙重查核且未重複的題材"
+    },
+    "duplicateNewsExcluded": [
+      "australia-international-student-transfer-12-month-rule-2026",
+      "canada-work-permit-study-without-permit-2026",
+      "us-f1-duration-status-fixed-admission-september-2026",
+      "us-duration-status-rule-court-postponed-2026"
+    ],
+    "candidateNews": [
+      {
+        "topic": "名古屋大學 2028 私費國際生入試調整",
+        "official": "https://en.nagoya-u.ac.jp/news/articles/advance-notice-nagoya-university-to-change-the-privately-financed-international-student-admissions-category-for-april-entry-undergraduate-admissions-effective-ay2028/",
+        "result": "尚無符合獨立性要求的第二來源，未刊登"
+      }
+    ],
+    "candidateScholarships": [
+      {
+        "topic": "Bangor Vice-Chancellor Scholarship January 2027",
+        "official": "https://www.bangor.ac.uk/international/future/vice-chancellor-scholarship",
+        "result": "官方確認開放、£10,000、12月11日截止、國際生可申請；獨立第二來源完成核對，已刊登"
+      },
+      {
+        "topic": "Lancaster Postgraduate International Regional Scholarship 2027",
+        "official": "https://www.lancaster.ac.uk/study/fees-and-funding/scholarships-and-bursaries/postgraduate-international-regional-scholarship/",
+        "result": "官方明列台灣與£10,000；獨立第二來源完成核對，已刊登"
+      },
+      {
+        "topic": "University of Cumbria International Undergraduate Scholarship January 2027",
+        "official": "https://www.cumbria.ac.uk/media/2026-Cumbria-International-UG-Scholarships-Terms-Conditions.pdf",
+        "result": "官方條款與獨立來源完成核對；台灣未被排除、£1,500每年、12月16日前完成條件，已刊登"
+      }
+    ]
+  },
+  "peterReview": {
+    "status": "not-completed",
+    "checkedAt": null,
+    "sourceUrls": [
+      "https://www.facebook.com/profile.php?id=61585164670358"
+    ]
+  },
+  "campusReport": "docs/campus-reports/2026-10-03.json",
+  "deployment": {
+    "status": "not-run",
+    "commit": null,
+    "verifiedAt": null
+  },
+  "acceptance": {
+    "desktop": false,
+    "mobile": false,
+    "seo": false,
+    "verifiedAt": null
+  },
+  "gaps": [
+    "Peter專欄、LTU媒體池、15則社群尚未執行",
+    "尚未提交、部署及正式站驗收",
+    "校園×出國特別報導尚未完成3校輪換查核"
+  ]
+}
