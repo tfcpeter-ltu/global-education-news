@@ -127,7 +127,7 @@
       ],
       "eligibleTaiwan": true,
       "url": "https://globalednews.com/scholarships/items/2026-10-bangor-vice-chancellor-january-2027/",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-10-03T09:01:00+08:00",
       "verifiedAt": "2026-10-03T06:50:00+08:00"
     },
     {
@@ -142,7 +142,7 @@
       ],
       "eligibleTaiwan": true,
       "url": "https://globalednews.com/scholarships/items/2026-10-lancaster-regional-taiwan-2027/",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-10-03T09:01:00+08:00",
       "verifiedAt": "2026-10-03T06:52:00+08:00"
     },
     {
@@ -157,7 +157,7 @@
       ],
       "eligibleTaiwan": true,
       "url": "https://globalednews.com/scholarships/items/2026-10-cumbria-international-undergraduate-january-2027/",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-10-03T09:01:00+08:00",
       "verifiedAt": "2026-10-03T06:54:00+08:00"
     }
   ],
@@ -172,7 +172,7 @@
         "https://youapply.com/en/universities/united-kingdom/bangor-university"
       ],
       "updateSummary": "2026-10-03淨新增並雙重查核",
-      "publishedVerifiedAt": null
+      "publishedVerifiedAt": "2026-10-03T09:01:00+08:00"
     },
     {
       "url": "https://globalednews.com/scholarships/items/2026-10-lancaster-regional-taiwan-2027/",
@@ -184,7 +184,7 @@
         "https://hands-on.co.th/scholarships/lancaster-university-2027/"
       ],
       "updateSummary": "2026-10-03淨新增並雙重查核",
-      "publishedVerifiedAt": null
+      "publishedVerifiedAt": "2026-10-03T09:01:00+08:00"
     },
     {
       "url": "https://globalednews.com/scholarships/items/2026-10-cumbria-international-undergraduate-january-2027/",
@@ -196,7 +196,7 @@
         "https://www.scholarshiptab.com/scholarships/university-of-cumbria-international-undergraduate-scholarships-2026"
       ],
       "updateSummary": "2026-10-03淨新增並雙重查核",
-      "publishedVerifiedAt": null
+      "publishedVerifiedAt": "2026-10-03T09:01:00+08:00"
     }
   ],
   "peterImports": [],
@@ -247,19 +247,26 @@
   },
   "campusReport": "docs/campus-reports/2026-10-03.json",
   "deployment": {
-    "status": "not-run",
-    "commit": null,
-    "verifiedAt": null
+    "status": "success",
+    "commit": "81d763af2c772dbd85c94c311551451f83e49e18",
+    "workflowRun": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/37084174005",
+    "verifiedAt": "2026-10-03T09:01:00+08:00"
   },
   "acceptance": {
-    "desktop": false,
+    "desktop": true,
     "mobile": false,
-    "seo": false,
-    "verifiedAt": null
+    "seo": true,
+    "verifiedAt": "2026-10-03T09:01:00+08:00",
+    "evidence": [
+      "六個新頁面 HTTP 200",
+      "canonical、OG image、schema 已回讀",
+      "sitemap、News sitemap、RSS HTTP 200",
+      "桌面文章主圖 1200×630 成功載入"
+    ]
   },
   "gaps": [
     "Peter專欄、LTU媒體池、15則社群尚未執行",
-    "尚未提交、部署及正式站驗收",
+    "手機版視覺驗收尚未完成",
     "校園×出國特別報導尚未完成3校輪換查核"
   ]
 }
