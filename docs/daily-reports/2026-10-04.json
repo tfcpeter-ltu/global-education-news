@@ -2,7 +2,7 @@
   "date": "2026-10-04",
   "timezone": "Asia/Taipei",
   "baselineCommit": "6c51e908a22417d65c812838ad13e2d2aadaddf0",
-  "status": "in-progress",
+  "status": "partial",
   "startedAt": "2026-10-04T09:00:00+08:00",
   "scholarshipBaselineSlugs": [
     "2026-08-bristol-think-big",
@@ -129,7 +129,7 @@
       "eligibleTaiwan": true,
       "open": true,
       "verifiedAt": "2026-10-04T09:20:00+08:00",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-10-04T10:15:00+08:00",
       "isNew": true,
       "baselineAbsent": true
     },
@@ -144,7 +144,7 @@
       "eligibleTaiwan": true,
       "open": true,
       "verifiedAt": "2026-10-04T09:20:00+08:00",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-10-04T10:15:00+08:00",
       "isNew": true,
       "baselineAbsent": true
     },
@@ -159,7 +159,7 @@
       "eligibleTaiwan": true,
       "open": true,
       "verifiedAt": "2026-10-04T09:20:00+08:00",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-10-04T10:15:00+08:00",
       "isNew": true,
       "baselineAbsent": true
     }
@@ -175,7 +175,7 @@
         "https://www.ucas.com/explore/scholarships-and-bursaries/446dec9f-d100-46ce-b114-91a0ac2f4201/bu-academic-excellence-scholarship"
       ],
       "updateSummary": "2026-10-04淨新增並雙重查核",
-      "publishedVerifiedAt": null
+      "publishedVerifiedAt": "2026-10-04T10:15:00+08:00"
     },
     {
       "url": "https://globalednews.com/scholarships/items/2026-10-swansea-international-excellence-january-2027/",
@@ -187,7 +187,7 @@
         "https://inquota.com.my/wp-content/uploads/2025/10/2026-January-March-Scholarship_Swansea-University.pdf"
       ],
       "updateSummary": "2026-10-04淨新增並雙重查核",
-      "publishedVerifiedAt": null
+      "publishedVerifiedAt": "2026-10-04T10:15:00+08:00"
     },
     {
       "url": "https://globalednews.com/scholarships/items/2026-10-sheffield-international-undergraduate-2027/",
@@ -199,7 +199,7 @@
         "https://www.ucas.com/explore/scholarships-and-bursaries/90c381ba-d0dd-473f-a06f-cb0edef711b4/international-undergraduate-scholarship-2026"
       ],
       "updateSummary": "2026-10-04淨新增並雙重查核",
-      "publishedVerifiedAt": null
+      "publishedVerifiedAt": "2026-10-04T10:15:00+08:00"
     }
   ],
   "peterImports": [
@@ -211,15 +211,257 @@
     }
   ],
   "peterReview": {
-    "status": "one-new-post-found",
+    "status": "no-new-posts",
     "checkedAt": "2026-10-04T09:25:00+08:00",
     "sourceUrls": [
       "https://www.facebook.com/permalink.php?story_fbid=pfbid033b8qbsgXBLfSaCxx8fw7PwWVHsrrmaza6QE1YhqTkEBeBPm7JjSoW7yQhC5NrDarl&id=61585164670358"
     ],
-    "note": "指定粉專目前僅1則未收錄新文；其餘近期貼文已匯入。"
+    "note": "已匯入今日唯一1則未收錄新文；指定粉專沒有其他可匯入新文。"
   },
-  "socialPosts": [],
-  "newFacebookPagePost": null,
+  "socialPosts": [
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "id": "pfbid02QnJAY887QctsPKetC6s2vCFSdCPEwbDgHpCpTA5k3ificoPZb725yFeQCl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02QnJAY887QctsPKetC6s2vCFSdCPEwbDgHpCpTA5k3ificoPZb725yFeQCl",
+      "verifiedAt": "2026-10-04T10:45:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-04T10:45:00+08:00",
+      "mediaEvidence": "Public Facebook post showed the uploaded image.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-04T10:45:00+08:00"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "id": "pfbid02DR16NXNLCxtVCZXwK3mMFbHTG7aygvyicosJbWbpewt5kuYiiZ7tuQtXcSQT3Pfl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02DR16NXNLCxtVCZXwK3mMFbHTG7aygvyicosJbWbpewt5kuYiiZ7tuQtXcSQT3Pfl",
+      "verifiedAt": "2026-10-04T10:45:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-04T10:45:00+08:00",
+      "mediaEvidence": "Public Facebook post showed the uploaded image.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-04T10:45:00+08:00"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "id": "pfbid0ykTU6d37pofaxh4PusqsWEq5XUSTt2LkRqZDNrbBoZ5JfmepFAHC8so15HigCn58l",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0ykTU6d37pofaxh4PusqsWEq5XUSTt2LkRqZDNrbBoZ5JfmepFAHC8so15HigCn58l",
+      "verifiedAt": "2026-10-04T10:45:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-04T10:45:00+08:00",
+      "mediaEvidence": "Public Facebook post showed the uploaded image.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-04T10:45:00+08:00"
+    },
+    {
+      "campaign": "news",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DeDfevXE1Ws",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DeDfevXE1Ws",
+      "verifiedAt": "2026-10-04T10:45:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-04T10:45:00+08:00",
+      "mediaEvidence": "Public Threads post showed the uploaded bridge/news image.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-04T10:45:00+08:00"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DeDfvIHE8Nq",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DeDfvIHE8Nq",
+      "verifiedAt": "2026-10-04T10:45:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-04T10:45:00+08:00",
+      "mediaEvidence": "Public Threads post showed the uploaded scholarship image.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-04T10:45:00+08:00"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DeDfzYzk7Ye",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DeDfzYzk7Ye",
+      "verifiedAt": "2026-10-04T10:45:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-04T10:45:00+08:00",
+      "mediaEvidence": "Public Threads post showed the uploaded Swansea image.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-04T10:45:00+08:00"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DeDf0UYE-On",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DeDf0UYE-On",
+      "verifiedAt": "2026-10-04T10:45:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-04T10:45:00+08:00",
+      "mediaEvidence": "Public Threads post showed the uploaded database image.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-04T10:45:00+08:00"
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "DeDgG_Bkw-1",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DeDgG_Bkw-1/",
+      "verifiedAt": "2026-10-04T10:45:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-04T10:45:00+08:00",
+      "mediaEvidence": "Public Instagram grid showed the uploaded news image.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-04T10:45:00+08:00"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "DeDgXxBE1H6",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DeDgXxBE1H6/",
+      "verifiedAt": "2026-10-04T10:45:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-04T10:45:00+08:00",
+      "mediaEvidence": "Public Instagram grid showed the uploaded scholarship image.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-04T10:45:00+08:00"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "DeDgfZQEyfd",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DeDgfZQEyfd/",
+      "verifiedAt": "2026-10-04T10:45:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-04T10:45:00+08:00",
+      "mediaEvidence": "Public Instagram grid showed the uploaded Swansea image.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-04T10:45:00+08:00"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "DeDgjn1E1j-",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DeDgjn1E1j-/",
+      "verifiedAt": "2026-10-04T10:45:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-04T10:45:00+08:00",
+      "mediaEvidence": "Public Instagram grid showed the uploaded database image.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-04T10:45:00+08:00"
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7512330765846888448",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7512330765846888448/",
+      "verifiedAt": "2026-10-04T10:45:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-04T10:45:00+08:00",
+      "mediaEvidence": "Public LinkedIn post returned a live activity URL with uploaded image.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-04T10:45:00+08:00"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7512331129887076352",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7512331129887076352/",
+      "verifiedAt": "2026-10-04T10:45:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-04T10:45:00+08:00",
+      "mediaEvidence": "Public LinkedIn post returned a live activity URL with uploaded image.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-04T10:45:00+08:00"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7512331264658599936",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7512331264658599936/",
+      "verifiedAt": "2026-10-04T10:45:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-04T10:45:00+08:00",
+      "mediaEvidence": "Public LinkedIn post returned a live activity URL with uploaded image.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-04T10:45:00+08:00"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7512331306572140544",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7512331306572140544/",
+      "verifiedAt": "2026-10-04T10:45:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-04T10:45:00+08:00",
+      "mediaEvidence": "Public LinkedIn post returned a live activity URL with uploaded image.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-04T10:45:00+08:00"
+    }
+  ],
+  "newFacebookPagePost": {
+    "platform": "facebook",
+    "pageId": "61595164194381",
+    "campaign": "news",
+    "status": "PARTIAL",
+    "id": "pfbid05cKWrYfvLsgem92gdnAUPh6k33HFYMWWxhjynyaCF5zkr92f8c8gmisywk4ApTpPl",
+    "publicUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid05cKWrYfvLsgem92gdnAUPh6k33HFYMWWxhjynyaCF5zkr92f8c8gmisywk4ApTpPl&id=61595164194381",
+    "articleUrl": "https://globalednews.com/news/australia-international-student-transfer-12-month-rule-2026/",
+    "verifiedAt": "2026-10-04T10:45:00+08:00",
+    "imageCount": 0,
+    "mediaStatus": "MISSING",
+    "mediaVerifiedAt": "2026-10-04T10:45:00+08:00",
+    "mediaEvidence": "Public post text and URL are visible, but no uploaded photo is present.",
+    "mediaKind": "link-preview",
+    "previewStatus": "VERIFIED",
+    "previewVerifiedAt": "2026-10-04T10:45:00+08:00"
+  },
   "sourceReview": {
     "sunmoon": {
       "checkedAt": "2026-10-04T09:18:00+08:00",
@@ -228,17 +470,29 @@
     }
   },
   "deployment": {
-    "status": "pending"
+    "status": "success",
+    "commit": "8b186b5fe2d14a6d17a0eb321f0bdd0a98a34054",
+    "verifiedAt": "2026-10-04T10:15:00+08:00",
+    "evidence": "Live article, scholarship and Peter URLs opened successfully."
   },
   "acceptance": {
-    "desktop": false,
-    "mobile": false,
-    "seo": false
+    "desktop": true,
+    "mobile": true,
+    "seo": true,
+    "evidence": {
+      "desktop": "Live article rendered with 1200x630 hero image.",
+      "mobile": "390x844 DOM check showed headline and hero image.",
+      "seo": "Canonical, og:image and JSON-LD present; hero naturalWidth=1200."
+    },
+    "verifiedAt": "2026-10-04T10:45:00+08:00"
   },
   "build": {
     "astro": "success",
     "pages": 379,
     "photoPreviews": 627,
     "bilingual": "blocked-existing-runtime-missing-ctranslate2"
-  }
+  },
+  "gaps": [
+    "新增 Facebook 粉專的當日新聞文字與連結已上線，但該則沒有實際上傳照片；其餘15則既定社群均已發布並回讀圖片。"
+  ]
 }
