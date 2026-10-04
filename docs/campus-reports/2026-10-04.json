@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-04",
+  "timezone": "Asia/Taipei",
+  "reviewedSchools": [
+    "ntu",
+    "nthu",
+    "nccu"
+  ],
+  "candidates": [
+    {
+      "schoolSlug": "ntu",
+      "result": "國際處公開資訊可作後續交換與海外學習題材來源",
+      "official": "https://oia.ntu.edu.tw/"
+    },
+    {
+      "schoolSlug": "nthu",
+      "result": "全球事務處公開資訊可作後續交換與海外學習題材來源",
+      "official": "https://oga.site.nthu.edu.tw/"
+    },
+    {
+      "schoolSlug": "nccu",
+      "result": "國際合作事務處公開資訊可作後續交換與海外學習題材來源",
+      "official": "https://oic.nccu.edu.tw/"
+    }
+  ],
+  "published": [],
+  "pendingConsent": [],
+  "outreachDrafts": [],
+  "gaps": [
+    "本批次未取得可直接刊登的學生本人訪談、姓名、圖片或引言授權，因此不刊登特別報導。"
+  ],
+  "verifiedAt": "2026-10-04T09:35:00+08:00"
+}

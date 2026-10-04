@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="t d">
+  <title id="t">英美澳電腦科學申請比較</title><desc id="d">英國重學科準備、美國重完整敘事、澳洲重條件與文件鏈。</desc>
+  <rect width="1200" height="630" fill="#071d3e"/>
+  <path d="M0 510L1200 330V630H0Z" fill="#143f6f"/>
+  <text x="74" y="92" fill="#f2b64b" font-family="Arial,sans-serif" font-size="24" font-weight="700">PETER'S EDUCATION TALK</text>
+  <text x="74" y="166" fill="#fff" font-family="Arial,sans-serif" font-size="54" font-weight="700">電腦科學申請，三國怎麼選？</text>
+  <g font-family="Arial,sans-serif">
+    <rect x="74" y="232" width="320" height="218" rx="18" fill="#fff" opacity=".96"/><text x="108" y="288" font-size="34" font-weight="700" fill="#071d3e">英國</text><text x="108" y="340" font-size="25" fill="#1c3554">學科準備</text><text x="108" y="380" font-size="25" fill="#1c3554">課程匹配</text>
+    <rect x="440" y="232" width="320" height="218" rx="18" fill="#fff" opacity=".96"/><text x="474" y="288" font-size="34" font-weight="700" fill="#071d3e">美國</text><text x="474" y="340" font-size="25" fill="#1c3554">活動脈絡</text><text x="474" y="380" font-size="25" fill="#1c3554">選擇與反思</text>
+    <rect x="806" y="232" width="320" height="218" rx="18" fill="#fff" opacity=".96"/><text x="840" y="288" font-size="34" font-weight="700" fill="#071d3e">澳洲</text><text x="840" y="340" font-size="25" fill="#1c3554">入學條件</text><text x="840" y="380" font-size="25" fill="#1c3554">文件與簽證鏈</text>
+    <text x="74" y="552" fill="#fff" font-size="28" font-weight="700">先分流準備，再逐校核對官方要求</text>
+  </g>
+</svg>

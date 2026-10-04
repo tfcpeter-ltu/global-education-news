@@ -1,0 +1,244 @@
+{
+  "date": "2026-10-04",
+  "timezone": "Asia/Taipei",
+  "baselineCommit": "6c51e908a22417d65c812838ad13e2d2aadaddf0",
+  "status": "in-progress",
+  "startedAt": "2026-10-04T09:00:00+08:00",
+  "scholarshipBaselineSlugs": [
+    "2026-08-bristol-think-big",
+    "2026-08-manchester-global-futures-taiwan-2027",
+    "2026-08-mcgill-mccall-macbain",
+    "2026-08-melbourne-graduate-research",
+    "2026-08-melbourne-international-excellence-graduate-2027",
+    "2026-08-moe-eu-scholarship",
+    "2026-08-moe-government-sponsored-study",
+    "2026-08-moe-new-southbound-internship",
+    "2026-08-moe-overseas-scholarship",
+    "2026-08-moe-study-abroad-fly",
+    "2026-08-moe-study-abroad-internship",
+    "2026-08-moe-study-abroad-needy",
+    "2026-08-moe-top100-phd",
+    "2026-08-monash-awards-2027",
+    "2026-08-oxford-clarendon",
+    "2026-08-sydney-vcis-2027",
+    "2026-08-tgpi-dream-factory",
+    "2026-08-tgpi-global-flight",
+    "2026-08-ubc-four-year-doctoral-fellowship",
+    "2026-08-ubc-imes",
+    "2026-08-ubc-international-scholars-2027",
+    "2026-08-ubc-killam-doctoral-2027",
+    "2026-08-ucl-global-masters",
+    "2026-08-ucl-global-undergraduate",
+    "2026-08-unsw-scientia-2027",
+    "2026-08-uq-international-high-achievers-2027",
+    "2026-08-utoronto-pearson-2027",
+    "2026-09-adelaide-academic-excellence-2027",
+    "2026-09-adelaide-merit-2027",
+    "2026-09-auckland-international-student-excellence-2027",
+    "2026-09-cardiff-vice-chancellor-taiwan-january-2027",
+    "2026-09-chevening-delta-climate-2027",
+    "2026-09-chevening-taiwan",
+    "2026-09-daad-architecture-masters",
+    "2026-09-deakin-excellence-international-2027",
+    "2026-09-deakin-international-merit-2027",
+    "2026-09-deakin-vice-chancellor-international-2027",
+    "2026-09-dundee-east-asia-undergraduate-january-2027",
+    "2026-09-dundee-global-excellence-undergraduate-january-2027",
+    "2026-09-erasmus-mundus-2027",
+    "2026-09-eth-zurich-esop-2027",
+    "2026-09-exeter-pgt-taiwan-january-2027",
+    "2026-09-fulbright-experience-america-research-award",
+    "2026-09-fulbright-non-academic-professional-award",
+    "2026-09-fulbright-senior-research-award",
+    "2026-09-gates-cambridge-2027",
+    "2026-09-harvard-academy-scholars-2027",
+    "2026-09-harvard-radcliffe-fellowship-2027",
+    "2026-09-hkpfs-2027",
+    "2026-09-imperial-presidents-phd-2027",
+    "2026-09-kent-international-undergraduate-january-2027",
+    "2026-09-knight-hennessy-2027",
+    "2026-09-latrobe-high-achiever-2027",
+    "2026-09-leicester-global-excellence-jan-apr-2027",
+    "2026-09-macquarie-vcis-2027",
+    "2026-09-monash-international-merit-2027",
+    "2026-09-ntu-taiwan-scholarship-jan-2027",
+    "2026-09-ntu-taiwan-stem-scholarship-jan-2027",
+    "2026-09-oxford-clarendon-2027",
+    "2026-09-rmit-up-academic-english-bursary-2027",
+    "2026-09-strathclyde-sbs-international-masters-jan-2027",
+    "2026-09-sydney-rtp-international-2027",
+    "2026-09-taiwan-anu-phd-scholarship-2027",
+    "2026-09-tasmanian-international-scholarship-2027",
+    "2026-09-ubc-international-scholars-2027",
+    "2026-09-uc-berkeley-beahrs-elp-2027",
+    "2026-09-uni-iowa-partner-state-taiwan-2027",
+    "2026-09-university-iowa-national-scholars-2027",
+    "2026-09-unsw-international-scientia-2027",
+    "2026-09-uow-postgraduate-academic-excellence-2027",
+    "2026-09-uow-university-excellence-2027",
+    "2026-09-utoronto-lester-b-pearson-2027",
+    "2026-09-yenching-academy-2027-taiwan",
+    "2026-10-bangor-vice-chancellor-january-2027",
+    "2026-10-cumbria-international-undergraduate-january-2027",
+    "2026-10-kent-pgt-january-2027",
+    "2026-10-lancaster-regional-taiwan-2027",
+    "2026-10-london-met-east-asia-2027",
+    "2026-10-oxford-brookes-january-2027",
+    "2026-10-qub-pgt-january-2027",
+    "2026-10-stirling-east-asia-pgt-2027",
+    "2026-10-strathclyde-science-january-2027"
+  ],
+  "newsPublished": [
+    {
+      "slug": "australia-international-student-transfer-12-month-rule-2026",
+      "url": "https://globalednews.com/news/australia-international-student-transfer-12-month-rule-2026/",
+      "verifiedAt": "2026-10-04T09:10:00+08:00",
+      "sources": [
+        "https://www.education.gov.au/esos-framework/changes-legislative-framework-overseas-students",
+        "https://www.theguardian.com/australia-news/2026/oct/02/labor-migration-crackdown-international-students"
+      ]
+    },
+    {
+      "slug": "australia-student-visa-course-provider-change-rules-2026",
+      "url": "https://globalednews.com/news/australia-student-visa-course-provider-change-rules-2026/",
+      "verifiedAt": "2026-10-04T09:12:00+08:00",
+      "sources": [
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/changes-to-student-visa-application-rules-500-590",
+        "https://www.theguardian.com/australia-news/2026/oct/02/labor-migration-crackdown-international-students"
+      ]
+    },
+    {
+      "slug": "uk-student-sponsor-compliance-thresholds-2026",
+      "url": "https://globalednews.com/news/uk-student-sponsor-compliance-thresholds-2026/",
+      "verifiedAt": "2026-10-04T09:14:00+08:00",
+      "sources": [
+        "https://www.gov.uk/government/publications/student-sponsor-guidance/student-sponsor-compliance-accessible",
+        "https://monitor.icef.com/2026/06/report-international-students-already-studying-in-the-uk-or-offshore-through-tne-represent-an-increasingly-important-recruitment-opportunity/"
+      ]
+    }
+  ],
+  "scholarshipAdditions": [
+    {
+      "slug": "2026-10-bournemouth-academic-excellence-january-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-10-bournemouth-academic-excellence-january-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-bournemouth-academic-excellence-january-2027.md",
+      "sources": [
+        "https://www.bournemouth.ac.uk/study/undergraduate/fees-funding/scholarships/international-student-scholarships/bu-academic-excellence-scholarship-international",
+        "https://www.ucas.com/explore/scholarships-and-bursaries/446dec9f-d100-46ce-b114-91a0ac2f4201/bu-academic-excellence-scholarship"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-04T09:20:00+08:00",
+      "publishedVerifiedAt": null,
+      "isNew": true,
+      "baselineAbsent": true
+    },
+    {
+      "slug": "2026-10-swansea-international-excellence-january-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-10-swansea-international-excellence-january-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-swansea-international-excellence-january-2027.md",
+      "sources": [
+        "https://www.swansea.ac.uk/international-students/my-finances/international-scholarships/ug-scholarships/",
+        "https://inquota.com.my/wp-content/uploads/2025/10/2026-January-March-Scholarship_Swansea-University.pdf"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-04T09:20:00+08:00",
+      "publishedVerifiedAt": null,
+      "isNew": true,
+      "baselineAbsent": true
+    },
+    {
+      "slug": "2026-10-sheffield-international-undergraduate-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-10-sheffield-international-undergraduate-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-sheffield-international-undergraduate-2027.md",
+      "sources": [
+        "https://sheffield.ac.uk/international/fees-and-funding/scholarships/undergraduate",
+        "https://www.ucas.com/explore/scholarships-and-bursaries/90c381ba-d0dd-473f-a06f-cb0edef711b4/international-undergraduate-scholarship-2026"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-04T09:20:00+08:00",
+      "publishedVerifiedAt": null,
+      "isNew": true,
+      "baselineAbsent": true
+    }
+  ],
+  "scholarshipChecks": [
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-10-bournemouth-academic-excellence-january-2027/",
+      "verifiedAt": "2026-10-04T09:20:00+08:00",
+      "eligibleTaiwan": true,
+      "open": true,
+      "sources": [
+        "https://www.bournemouth.ac.uk/study/undergraduate/fees-funding/scholarships/international-student-scholarships/bu-academic-excellence-scholarship-international",
+        "https://www.ucas.com/explore/scholarships-and-bursaries/446dec9f-d100-46ce-b114-91a0ac2f4201/bu-academic-excellence-scholarship"
+      ],
+      "updateSummary": "2026-10-04淨新增並雙重查核",
+      "publishedVerifiedAt": null
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-10-swansea-international-excellence-january-2027/",
+      "verifiedAt": "2026-10-04T09:20:00+08:00",
+      "eligibleTaiwan": true,
+      "open": true,
+      "sources": [
+        "https://www.swansea.ac.uk/international-students/my-finances/international-scholarships/ug-scholarships/",
+        "https://inquota.com.my/wp-content/uploads/2025/10/2026-January-March-Scholarship_Swansea-University.pdf"
+      ],
+      "updateSummary": "2026-10-04淨新增並雙重查核",
+      "publishedVerifiedAt": null
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-10-sheffield-international-undergraduate-2027/",
+      "verifiedAt": "2026-10-04T09:20:00+08:00",
+      "eligibleTaiwan": true,
+      "open": true,
+      "sources": [
+        "https://sheffield.ac.uk/international/fees-and-funding/scholarships/undergraduate",
+        "https://www.ucas.com/explore/scholarships-and-bursaries/90c381ba-d0dd-473f-a06f-cb0edef711b4/international-undergraduate-scholarship-2026"
+      ],
+      "updateSummary": "2026-10-04淨新增並雙重查核",
+      "publishedVerifiedAt": null
+    }
+  ],
+  "peterImports": [
+    {
+      "sourceId": "pfbid033b8qbsgXBLfSaCxx8fw7PwWVHsrrmaza6QE1YhqTkEBeBPm7JjSoW7yQhC5NrDarl",
+      "url": "https://globalednews.com/peter/computer-science-uk-us-australia-applications/",
+      "sourceUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid033b8qbsgXBLfSaCxx8fw7PwWVHsrrmaza6QE1YhqTkEBeBPm7JjSoW7yQhC5NrDarl&id=61585164670358",
+      "verifiedAt": "2026-10-04T09:30:00+08:00"
+    }
+  ],
+  "peterReview": {
+    "status": "one-new-post-found",
+    "checkedAt": "2026-10-04T09:25:00+08:00",
+    "sourceUrls": [
+      "https://www.facebook.com/permalink.php?story_fbid=pfbid033b8qbsgXBLfSaCxx8fw7PwWVHsrrmaza6QE1YhqTkEBeBPm7JjSoW7yQhC5NrDarl&id=61585164670358"
+    ],
+    "note": "指定粉專目前僅1則未收錄新文；其餘近期貼文已匯入。"
+  },
+  "socialPosts": [],
+  "newFacebookPagePost": null,
+  "sourceReview": {
+    "sunmoon": {
+      "checkedAt": "2026-10-04T09:18:00+08:00",
+      "url": "https://www.sunmoonnews.com.tw/",
+      "result": "首頁直接讀取逾時；站內教育關鍵字搜尋未找到符合國際首頁雙重查核且未重複的題材。"
+    }
+  },
+  "deployment": {
+    "status": "pending"
+  },
+  "acceptance": {
+    "desktop": false,
+    "mobile": false,
+    "seo": false
+  },
+  "build": {
+    "astro": "success",
+    "pages": 379,
+    "photoPreviews": 627,
+    "bilingual": "blocked-existing-runtime-missing-ctranslate2"
+  }
+}

@@ -1,5 +1,43 @@
 [
   {
+    "slug": "computer-science-uk-us-australia-applications",
+    "sourceId": "pfbid033b8qbsgXBLfSaCxx8fw7PwWVHsrrmaza6QE1YhqTkEBeBPm7JjSoW7yQhC5NrDarl",
+    "sourceAliases": ["122145701793172155"],
+    "sourceUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid033b8qbsgXBLfSaCxx8fw7PwWVHsrrmaza6QE1YhqTkEBeBPm7JjSoW7yQhC5NrDarl&id=61585164670358",
+    "title": "電腦科學申請比較：英國、美國與澳洲看重什麼？",
+    "description": "Peter 比較英、美、澳電腦科學大學申請的材料邏輯，提醒學生依各校官方要求分流準備。",
+    "topic": "電腦科學與跨國大學申請",
+    "author": "Peter",
+    "importedAt": "2026-10-04",
+    "dateObservedAt": "2026-10-04",
+    "originalDateLabel": "1天前",
+    "originalDatePrecision": "relative",
+    "originalPublishedAt": null,
+    "edition": "verified-edit",
+    "note": "已完整展開並閱讀指定粉專原貼文。本文保留英美澳申請材料分流觀點；實際期限、文書及簽證要求仍以申請年度和個別學校官方頁面為準。",
+    "body": [
+      "Peter 指出，同樣申請電腦科學學士，英國、美國與澳洲並不是把同一份文件換校名即可。三地大學的評估重點、申請平台與補件方式不同，學生應先決定申請組合，再整理對應證據。",
+      "### 英國：把學科準備與課程連起來",
+      "英國申請應具體呈現數學、程式、專題或閱讀如何形成電腦科學興趣，並回到課程模組與學習方法。UCAS日期只代表整體週期；個別課程仍可能有不同條件與截止日。",
+      "### 美國：讓活動、選擇與反思形成一條線",
+      "美國大學各自決定essay、推薦信、測驗與財務援助規則。活動數量不能取代可追蹤的選擇過程；申請者可用專案中的問題、失敗、合作與改進，說明自己如何學習及參與社群。",
+      "### 澳洲：先確認明確條件與文件鏈",
+      "澳洲國際生申請常先檢查學歷、英文、身分及課程條件，再依個人背景要求履歷、作品集或補充說明。收到有條件錄取後，還要完成條件、接受錄取、繳費、取得eCoE並銜接OSHC與學生簽證。",
+      "三套申請可共用真實經歷，但不應共用完全相同的說法。所有日期、學科先修、文件與簽證規則，應回到目標學校及主管機關的當年度官方頁面核對。"
+    ],
+    "sources": [
+      ["Peter｜Facebook 原貼文", "https://www.facebook.com/permalink.php?story_fbid=pfbid033b8qbsgXBLfSaCxx8fw7PwWVHsrrmaza6QE1YhqTkEBeBPm7JjSoW7yQhC5NrDarl&id=61585164670358"],
+      ["UCAS｜2026 cycle dates and deadlines", "https://www.ucas.com/advisers/guides-and-resources/adviser-news/news/ucas-dates-and-deadlines-2026-cycle"],
+      ["Common App｜2026–27 season launch", "https://www.commonapp.org/blog/common-app-opens-application-launch-2026-27-season/"],
+      ["University of Sydney｜International application guidance", "https://www.sydney.edu.au/study/applying/how-to-apply/international-students.html"]
+    ],
+    "image": "/images/peter/computer-science-country-comparison-20261004.svg",
+    "imageAlt": "英國、美國與澳洲電腦科學申請重點比較圖卡",
+    "imageCredit": "LTU Global Education News 編輯設計",
+    "imageRights": "Original editorial SVG created for Global Education News; no third-party photograph used.",
+    "imageCaption": "編輯設計圖，整理三地申請材料的不同重點。"
+  },
+  {
     "slug": "singapore-holistic-admissions-evidence",
     "sourceId": "122145317217172155",
     "sourceAliases": [
