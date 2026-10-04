@@ -2,7 +2,7 @@
   "date": "2026-10-04",
   "timezone": "Asia/Taipei",
   "baselineCommit": "6c51e908a22417d65c812838ad13e2d2aadaddf0",
-  "status": "partial",
+  "status": "complete",
   "startedAt": "2026-10-04T09:00:00+08:00",
   "scholarshipBaselineSlugs": [
     "2026-08-bristol-think-big",
@@ -449,16 +449,16 @@
     "platform": "facebook",
     "pageId": "61595164194381",
     "campaign": "news",
-    "status": "PARTIAL",
-    "id": "pfbid05cKWrYfvLsgem92gdnAUPh6k33HFYMWWxhjynyaCF5zkr92f8c8gmisywk4ApTpPl",
-    "publicUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid05cKWrYfvLsgem92gdnAUPh6k33HFYMWWxhjynyaCF5zkr92f8c8gmisywk4ApTpPl&id=61595164194381",
-    "articleUrl": "https://globalednews.com/news/australia-international-student-transfer-12-month-rule-2026/",
-    "verifiedAt": "2026-10-04T10:45:00+08:00",
-    "imageCount": 0,
-    "mediaStatus": "MISSING",
-    "mediaVerifiedAt": "2026-10-04T10:45:00+08:00",
-    "mediaEvidence": "Public post text and URL are visible, but no uploaded photo is present.",
-    "mediaKind": "link-preview",
+    "status": "PUBLISHED",
+    "id": "122095737777505473",
+    "publicUrl": "https://www.facebook.com/permalink.php?story_fbid=122095737777505473&id=61595164194381",
+    "articleUrl": "https://globalednews.com/news/australia-student-visa-course-provider-change-rules-2026/",
+    "verifiedAt": "2026-10-04T10:55:00+08:00",
+    "imageCount": 1,
+    "mediaStatus": "VERIFIED",
+    "mediaVerifiedAt": "2026-10-04T10:55:00+08:00",
+    "mediaEvidence": "Public permalink showed the uploaded news-australia-transfer.jpg image (Facebook photo id 122095737441505473).",
+    "mediaKind": "uploaded-photo",
     "previewStatus": "VERIFIED",
     "previewVerifiedAt": "2026-10-04T10:45:00+08:00"
   },
@@ -492,7 +492,5 @@
     "photoPreviews": 627,
     "bilingual": "blocked-existing-runtime-missing-ctranslate2"
   },
-  "gaps": [
-    "新增 Facebook 粉專的當日新聞文字與連結已上線，但該則沒有實際上傳照片；其餘15則既定社群均已發布並回讀圖片。"
-  ]
+  "gaps": []
 }
