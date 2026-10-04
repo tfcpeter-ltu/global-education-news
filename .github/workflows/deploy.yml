@@ -45,6 +45,13 @@ jobs:
         run: npm run build
       - name: Verify bilingual routes and form values
         run: python scripts/test-bilingual.py
+      - name: Prepare changed URLs for IndexNow
+        run: node scripts/indexnow.mjs prepare
+      - name: Save IndexNow submission
+        uses: actions/upload-artifact@v4
+        with:
+          name: indexnow-submission
+          path: indexnow-submission.json
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
@@ -62,3 +69,18 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  indexnow:
+    runs-on: ubuntu-latest
+    needs: deploy
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: actions/download-artifact@v4
+        with:
+          name: indexnow-submission
+      - name: Notify search engines after live deployment
+        run: node scripts/indexnow.mjs submit
+
