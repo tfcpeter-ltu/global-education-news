@@ -7,7 +7,7 @@ author: "LTU Global Education News 編輯部"
 category: "國際高等教育"
 topic: "global"
 tags: ["國際教育", "學生交換", "大學合作"]
-image: "https://upload.wikimedia.org/wikipedia/commons/7/76/Glasgow_University.jpg"
+image: "/images/share-photos/65dde3254ccbbb74511095ef.jpg"
 imageAlt: "英國格拉斯哥大學校園資料照，非EAIE會場"
 imageCredit: "Wikimedia Commons 授權資料照"
 imageSource: "https://commons.wikimedia.org/wiki/File:Glasgow_University.jpg"
