@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "node scripts/generate-scholarship-seed.mjs && node scripts/unify-study-navigation.mjs public/study-abroad && astro dev",
-    "build": "node scripts/generate-scholarship-seed.mjs && astro build && node scripts/unify-study-navigation.mjs && node scripts/bilingual-extract-js.mjs && python scripts/build-bilingual.py && node scripts/build-social-previews.mjs",
+    "build": "python -m pip install --disable-pip-version-check lxml && node scripts/generate-scholarship-seed.mjs && astro build && node scripts/unify-study-navigation.mjs && node scripts/bilingual-extract-js.mjs && python scripts/build-bilingual.py && node scripts/build-social-previews.mjs",
     "preview": "astro preview"
   },
   "dependencies": {
