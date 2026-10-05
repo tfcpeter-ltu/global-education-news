@@ -7,7 +7,7 @@ author: "LTU Global Education News 編輯部"
 category: "英國高等教育"
 topic: "uk"
 tags: ["英國", "高等教育", "國際學生"]
-image: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Old_College_of_Edinburgh_University.JPG"
+image: "/images/share-photos/34d246978020b92ab1a267af.jpg"
 imageAlt: "愛丁堡大學Old College資料照，非罷工現場"
 imageCredit: "Wikimedia Commons 授權資料照"
 imageSource: "https://commons.wikimedia.org/wiki/File:Old_College_of_Edinburgh_University.JPG"
