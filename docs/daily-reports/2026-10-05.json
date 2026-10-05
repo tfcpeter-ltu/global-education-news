@@ -2,7 +2,7 @@
   "date": "2026-10-05",
   "timezone": "Asia/Taipei",
   "baselineCommit": "3f2412e18f69e8c568967dff28d542758a5f1d9e",
-  "status": "in-progress",
+  "status": "partial",
   "startedAt": "2026-10-05T08:20:00+08:00",
   "scholarshipBaselineSlugs": [
     "2026-08-bristol-think-big",
@@ -202,7 +202,7 @@
       "eligibleTaiwan": true,
       "open": true,
       "verifiedAt": "2026-10-05T08:40:00+08:00",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-10-05T18:20:00+08:00",
       "isNew": true,
       "baselineAbsent": true
     },
@@ -217,7 +217,7 @@
       "eligibleTaiwan": true,
       "open": true,
       "verifiedAt": "2026-10-05T08:40:00+08:00",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-10-05T18:20:00+08:00",
       "isNew": true,
       "baselineAbsent": true
     },
@@ -232,7 +232,7 @@
       "eligibleTaiwan": true,
       "open": true,
       "verifiedAt": "2026-10-05T08:40:00+08:00",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-10-05T18:20:00+08:00",
       "isNew": true,
       "baselineAbsent": true
     }
@@ -248,7 +248,7 @@
         "https://www.ucas.com/explore/scholarships-and-bursaries/3d30fffc-5fe3-4a0f-aef6-d8ab48d899ff/vice-chancellor-s-international-scholarship"
       ],
       "updateSummary": "2026-10-05淨新增並雙重查核",
-      "publishedVerifiedAt": null
+      "publishedVerifiedAt": "2026-10-05T18:20:00+08:00"
     },
     {
       "url": "https://globalednews.com/scholarships/items/2026-10-portsmouth-chancellor-merit-january-2027/",
@@ -260,7 +260,7 @@
         "https://www.ucas.com/explore/unis/33ad2814/university-of-portsmouth"
       ],
       "updateSummary": "2026-10-05淨新增並雙重查核",
-      "publishedVerifiedAt": null
+      "publishedVerifiedAt": "2026-10-05T18:20:00+08:00"
     },
     {
       "url": "https://globalednews.com/scholarships/items/2026-10-stirling-vice-chancellor-pgt-january-2027/",
@@ -272,16 +272,88 @@
         "https://www.ucas.com/explore/unis/20b2137b/university-of-stirling/courses?studyYear=current"
       ],
       "updateSummary": "2026-10-05淨新增並雙重查核",
-      "publishedVerifiedAt": null
+      "publishedVerifiedAt": "2026-10-05T18:20:00+08:00"
     }
   ],
-  "peterImports": [],
+  "peterImports": [
+    {
+      "slug": "uk-study-family-risk-checklist",
+      "url": "https://globalednews.com/peter/uk-study-family-risk-checklist/",
+      "sourcePostId": "122145938727172155",
+      "sourceUrl": "https://www.facebook.com/permalink.php?story_fbid=122145938727172155&id=61585164670358",
+      "verifiedAt": "2026-10-05T18:20:00+08:00"
+    }
+  ],
   "peterReview": {
-    "status": "pending",
-    "checkedAt": null,
-    "sourceUrls": []
+    "status": "no-new-posts",
+    "checkedAt": "2026-10-05T18:20:00+08:00",
+    "sourceUrls": [
+      "https://www.facebook.com/profile.php?id=61585164670358"
+    ],
+    "note": "今日僅找到並匯入 1 則可讀取的新貼文；其餘沒有可確認的新原文。"
   },
-  "socialPosts": [],
+  "socialPosts": [
+    {
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-10-05T18:20:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-05T18:20:00+08:00",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-05T18:20:00+08:00",
+      "campaign": "news",
+      "network": "facebook",
+      "id": "pfbid02LaKcnbghGkfF2dLEGPTiHqUpXw1hPuJDtcvKDDqC2JxqR85rNJRUvBuRCMnCNgXgl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02LaKcnbghGkfF2dLEGPTiHqUpXw1hPuJDtcvKDDqC2JxqR85rNJRUvBuRCMnCNgXgl",
+      "mediaKind": "uploaded-photo",
+      "mediaEvidence": "Facebook 貼文回讀顯示已上傳相片"
+    },
+    {
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-10-05T18:20:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-05T18:20:00+08:00",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-05T18:20:00+08:00",
+      "campaign": "scholarship",
+      "network": "facebook",
+      "id": "pfbid02zZxq22j7uv5DtSSqHnCNv2pzhnHTdyLkuE9vnPNFL3ZwsXt5F5NFW2DvKYB15ouBl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02zZxq22j7uv5DtSSqHnCNv2pzhnHTdyLkuE9vnPNFL3ZwsXt5F5NFW2DvKYB15ouBl",
+      "mediaKind": "uploaded-photo",
+      "mediaEvidence": "Facebook 貼文回讀顯示已上傳相片"
+    },
+    {
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-10-05T18:20:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-05T18:20:00+08:00",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-05T18:20:00+08:00",
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "id": "pfbid0V9tEKBA4MbBBTaHRBDzzpKE95ARy3JDPpvvg6RauZFB5aGcoikn6hXzFQ5tAvKtEl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0V9tEKBA4MbBBTaHRBDzzpKE95ARy3JDPpvvg6RauZFB5aGcoikn6hXzFQ5tAvKtEl",
+      "mediaKind": "uploaded-photo",
+      "mediaEvidence": "Facebook 貼文回讀顯示已上傳相片"
+    },
+    {
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-10-05T18:20:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-05T18:20:00+08:00",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-05T18:20:00+08:00",
+      "campaign": "news",
+      "network": "threads",
+      "id": "DeF_Q8ZE08n",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DeF_Q8ZE08n",
+      "mediaKind": "link-preview",
+      "mediaEvidence": "Threads 公開貼文回讀顯示文章實景圖預覽"
+    }
+  ],
   "newFacebookPagePost": null,
   "sourceReview": {
     "sunmoon": {
@@ -291,17 +363,24 @@
     }
   },
   "deployment": {
-    "status": "pending"
+    "status": "in-progress",
+    "commit": "1736c7d",
+    "runUrl": "https://github.com/tfcpeter-ltu/global-education-news/actions"
   },
   "acceptance": {
-    "desktop": false,
+    "desktop": true,
     "mobile": false,
-    "seo": false
+    "seo": true,
+    "evidence": "新文章 HTTP 200，canonical、OG、schema、sitemap 與 News sitemap 已回讀；手機視窗覆寫未生效，尚待重新驗收。"
   },
   "build": {
-    "astro": "partial"
+    "astro": "success",
+    "socialPreviewValidation": "success",
+    "bilingual": "blocked-existing-missing-ctranslate2"
   },
   "gaps": [
-    "Peter來源頁、15則社群、新粉專貼文、部署與正式站驗收待完成"
+    "Threads 尚缺獎學金、留學 DIY、國內資料庫 3 則；獎學金預覽仍顯示空白圖，未送出。",
+    "Instagram 4 則、LinkedIn 4 則與新 Facebook 粉專 1 則尚未發布。",
+    "手機版驗收未通過；格拉斯哥外部圖片破圖已改成本地圖片，等待新部署。"
   ]
 }
