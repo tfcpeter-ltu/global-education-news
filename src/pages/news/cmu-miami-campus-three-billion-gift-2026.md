@@ -7,7 +7,7 @@ author: "LTU Global Education News 編輯部"
 category: "美國高等教育"
 topic: "usa"
 tags: ["美國", "高等教育", "大學校區"]
-image: "https://commons.wikimedia.org/wiki/Special:Redirect/file/CMU-Campus-Photo-Sphere.jpg"
+image: "/images/share-photos/cdf850699f0f134927253308.jpg"
 imageAlt: "卡內基美隆大學匹茲堡校園資料照，非邁阿密新校區"
 imageCredit: "Wikimedia Commons 授權資料照"
 imageSource: "https://commons.wikimedia.org/wiki/File:CMU-Campus-Photo-Sphere.jpg"
