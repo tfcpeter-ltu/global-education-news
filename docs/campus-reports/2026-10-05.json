@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-05",
+  "timezone": "Asia/Taipei",
+  "reviewedSchools": ["ntut", "ntnu", "shu"],
+  "candidates": [
+    {"schoolSlug":"ntut","result":"國際事務處公開交換與國際合作資訊可作後續查核線索","official":"https://oia.ntut.edu.tw/"},
+    {"schoolSlug":"ntnu","result":"國際事務處公開海外交流資訊可作後續查核線索","official":"https://bds.oia.ntnu.edu.tw/"},
+    {"schoolSlug":"shu","result":"國際事務處公開交換與姊妹校資訊可作後續查核線索","official":"https://oia.web.shu.edu.tw/"}
+  ],
+  "published": [],
+  "pendingConsent": [],
+  "outreachDrafts": [],
+  "gaps": ["本批次沒有取得可直接刊登的學生訪談、姓名、圖片或引言授權，因此不刊登特別報導。"],
+  "verifiedAt": "2026-10-05T09:05:00+08:00"
+}
