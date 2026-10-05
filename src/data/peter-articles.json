@@ -1,8 +1,57 @@
 [
   {
+    "slug": "uk-study-family-risk-checklist",
+    "sourceId": "122145938727172155",
+    "sourceAliases": [
+      "122145938457172155"
+    ],
+    "sourceUrl": "https://www.facebook.com/permalink.php?story_fbid=122145938727172155&id=61585164670358",
+    "title": "英國留學前家長清單：簽證、租屋、醫療與畢業後路徑",
+    "description": "Peter整理英國留學家庭常忽略的制度責任；本版保留核心提醒並要求以GOV.UK、UKCISA與學校當期規則為準。",
+    "topic": "英國留學風險管理",
+    "author": "Peter",
+    "importedAt": "2026-10-05",
+    "dateObservedAt": "2026-10-05",
+    "originalDateLabel": "4小時前",
+    "originalDatePrecision": "relative",
+    "originalPublishedAt": null,
+    "edition": "verified-edit",
+    "note": "已完整展開並閱讀指定粉專原貼文。簽證、財力、工作、醫療、租屋與Graduate visa會變動，申請及出發前須回到官方最新規則。",
+    "body": [
+      "英國大學通常提供國際學生支援，但學生仍須自行維持簽證、出席、住宿契約、醫療與學業責任。家長可協助建立資料備份與緊急預算，但孩子本人必須能讀懂並處理文件。",
+      "### 簽證與財務要分開規劃",
+      "簽證財力只是法規門檻，不等於完整生活預算。除了學費與房租，還要預留押金、帳單、醫療、搬家、匯率與臨時返台費用；打工收入不應成為家庭財務的必要前提。",
+      "### 租屋、醫療與學業都需要主動確認",
+      "簽約前要核對租期、解約、押金與帳單責任；抵英後應了解GP、NHS 111、急診與學校支援入口。英國課程重視自主學習，學生也需保存作業、資料來源與AI使用紀錄。",
+      "### 畢業後路徑要在入學前先畫好",
+      "Graduate visa屬過渡性安排，申請時間、期限與轉換條件必須依GOV.UK最新公告。家庭可同時準備英國求職、返台與第三國等方案，降低臨近簽證期限才決策的風險。"
+    ],
+    "sources": [
+      [
+        "Peter｜Facebook 原貼文",
+        "https://www.facebook.com/permalink.php?story_fbid=122145938727172155&id=61585164670358"
+      ],
+      [
+        "GOV.UK｜Student visa",
+        "https://www.gov.uk/student-visa"
+      ],
+      [
+        "UKCISA｜Student advice",
+        "https://www.ukcisa.org.uk/Information--Advice"
+      ]
+    ],
+    "image": "/images/peter/uk-study-family-risk-checklist-20261005.svg",
+    "imageAlt": "英國留學家庭風險清單編輯圖卡",
+    "imageCredit": "LTU Global Education News 編輯設計",
+    "imageRights": "Original editorial SVG created for Global Education News; no third-party photograph used.",
+    "imageCaption": "編輯圖卡整理簽證、租屋、醫療、學業與畢業後路徑。"
+  },
+  {
     "slug": "computer-science-uk-us-australia-applications",
     "sourceId": "pfbid033b8qbsgXBLfSaCxx8fw7PwWVHsrrmaza6QE1YhqTkEBeBPm7JjSoW7yQhC5NrDarl",
-    "sourceAliases": ["122145701793172155"],
+    "sourceAliases": [
+      "122145701793172155"
+    ],
     "sourceUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid033b8qbsgXBLfSaCxx8fw7PwWVHsrrmaza6QE1YhqTkEBeBPm7JjSoW7yQhC5NrDarl&id=61585164670358",
     "title": "電腦科學申請比較：英國、美國與澳洲看重什麼？",
     "description": "Peter 比較英、美、澳電腦科學大學申請的材料邏輯，提醒學生依各校官方要求分流準備。",
@@ -26,10 +75,22 @@
       "三套申請可共用真實經歷，但不應共用完全相同的說法。所有日期、學科先修、文件與簽證規則，應回到目標學校及主管機關的當年度官方頁面核對。"
     ],
     "sources": [
-      ["Peter｜Facebook 原貼文", "https://www.facebook.com/permalink.php?story_fbid=pfbid033b8qbsgXBLfSaCxx8fw7PwWVHsrrmaza6QE1YhqTkEBeBPm7JjSoW7yQhC5NrDarl&id=61585164670358"],
-      ["UCAS｜2026 cycle dates and deadlines", "https://www.ucas.com/advisers/guides-and-resources/adviser-news/news/ucas-dates-and-deadlines-2026-cycle"],
-      ["Common App｜2026–27 season launch", "https://www.commonapp.org/blog/common-app-opens-application-launch-2026-27-season/"],
-      ["University of Sydney｜International application guidance", "https://www.sydney.edu.au/study/applying/how-to-apply/international-students.html"]
+      [
+        "Peter｜Facebook 原貼文",
+        "https://www.facebook.com/permalink.php?story_fbid=pfbid033b8qbsgXBLfSaCxx8fw7PwWVHsrrmaza6QE1YhqTkEBeBPm7JjSoW7yQhC5NrDarl&id=61585164670358"
+      ],
+      [
+        "UCAS｜2026 cycle dates and deadlines",
+        "https://www.ucas.com/advisers/guides-and-resources/adviser-news/news/ucas-dates-and-deadlines-2026-cycle"
+      ],
+      [
+        "Common App｜2026–27 season launch",
+        "https://www.commonapp.org/blog/common-app-opens-application-launch-2026-27-season/"
+      ],
+      [
+        "University of Sydney｜International application guidance",
+        "https://www.sydney.edu.au/study/applying/how-to-apply/international-students.html"
+      ]
     ],
     "image": "/images/peter/computer-science-country-comparison-20261004.svg",
     "imageAlt": "英國、美國與澳洲電腦科學申請重點比較圖卡",
