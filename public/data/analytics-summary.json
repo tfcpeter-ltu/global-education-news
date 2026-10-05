@@ -1,13 +1,13 @@
 {
   "status": "ready",
-  "updatedAt": "2026-10-04T06:48:56.374Z",
+  "updatedAt": "2026-10-05T06:59:52.423Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
     {
       "title": "最新國際教育新聞",
       "path": "/news/",
-      "views": 13
+      "views": 12
     },
     {
       "title": "澳洲學生簽證新規10月2日生效：多數境內續簽須離境，攜帶家屬範圍收緊｜環球教育新聞網 Global Education News",
@@ -20,13 +20,13 @@
       "views": 5
     },
     {
-      "title": "伯明罕大學與香港都會大學開商業法銜接：2027年起提供兩條入學路徑｜環球教育新聞網 Global Education News",
-      "path": "/news/birmingham-hkmu-commercial-law-pathway-2027/",
-      "views": 3
+      "title": "卡內基美隆獲30億美元捐贈：邁阿密新校區規劃2028招生、仍待監管核准｜環球教育新聞網 Global Education News",
+      "path": "/news/cmu-miami-campus-three-billion-gift-2026/",
+      "views": 4
     },
     {
-      "title": "澳洲學生簽證改革10月2日生效：換課程或學校須重新檢視簽證｜環球教育新聞網 Global Education News",
-      "path": "/news/australia-student-visa-course-provider-change-rules-2026/",
+      "title": "伯明罕大學與香港都會大學開商業法銜接：2027年起提供兩條入學路徑｜環球教育新聞網 Global Education News",
+      "path": "/news/birmingham-hkmu-commercial-law-pathway-2027/",
       "views": 3
     }
   ],
@@ -34,62 +34,62 @@
     {
       "name": "台灣",
       "mapName": "Taiwan",
-      "sessions": 206,
-      "share": 73.3
+      "sessions": 185,
+      "share": 72.5
     },
     {
       "name": "美國",
       "mapName": "United States",
-      "sessions": 35,
-      "share": 12.5
+      "sessions": 39,
+      "share": 15.3
     },
     {
       "name": "澳洲",
       "mapName": "Australia",
-      "sessions": 10,
-      "share": 3.6
-    },
-    {
-      "name": "英國",
-      "mapName": "United Kingdom",
-      "sessions": 7,
-      "share": 2.5
+      "sessions": 9,
+      "share": 3.5
     },
     {
       "name": "法國",
       "mapName": "France",
       "sessions": 4,
-      "share": 1.4
+      "share": 1.6
     },
     {
       "name": "愛爾蘭",
       "mapName": "Ireland",
       "sessions": 4,
-      "share": 1.4
-    },
-    {
-      "name": "Netherlands",
-      "mapName": "Netherlands",
-      "sessions": 4,
-      "share": 1.4
-    },
-    {
-      "name": "香港",
-      "mapName": "Hong Kong",
-      "sessions": 3,
-      "share": 1.1
+      "share": 1.6
     },
     {
       "name": "瑞典",
       "mapName": "Sweden",
-      "sessions": 3,
-      "share": 1.1
+      "sessions": 4,
+      "share": 1.6
+    },
+    {
+      "name": "英國",
+      "mapName": "United Kingdom",
+      "sessions": 4,
+      "share": 1.6
     },
     {
       "name": "加拿大",
       "mapName": "Canada",
       "sessions": 2,
-      "share": 0.7
+      "share": 0.8
+    },
+    {
+      "name": "香港",
+      "mapName": "Hong Kong",
+      "sessions": 1,
+      "share": 0.4
+    },
+    {
+      "name": "日本",
+      "mapName": "Japan",
+      "sessions": 1,
+      "share": 0.4
     }
   ]
 }
