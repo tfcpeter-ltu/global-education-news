@@ -2,7 +2,7 @@
   "date": "2026-10-06",
   "timezone": "Asia/Taipei",
   "baselineCommit": "e7795967affca5e8e1665a50f55ea82f1b7d0894",
-  "status": "in-progress",
+  "status": "partial",
   "startedAt": "2026-10-06T06:00:00+08:00",
   "scholarshipBaselineSlugs": [
     "2026-08-bristol-think-big",
@@ -135,7 +135,7 @@
         "https://collegedunia.com/uk/university/783-robert-gordon-university-aberdeen/programs"
       ],
       "slug": "2026-10-rgu-january-2027",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-10-06T09:00:00+08:00",
       "publishedPath": "src/pages/scholarships/items/2026-10-rgu-january-2027.md",
       "isNew": true,
       "verifiedAt": "2026-10-06T09:10:00+08:00",
@@ -150,7 +150,7 @@
         "https://www.ucas.com/explore/scholarships-and-bursaries/67df27a9-a8f3-4601-8772-f86eccb1aaf3/international-pg-merit-scholarships"
       ],
       "slug": "2026-10-uea-pg-merit-2027",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-10-06T09:00:00+08:00",
       "publishedPath": "src/pages/scholarships/items/2026-10-uea-pg-merit-2027.md",
       "isNew": true,
       "verifiedAt": "2026-10-06T09:10:00+08:00",
@@ -165,7 +165,7 @@
         "https://www.globalpathways.co.uk/universities/robert-gordon-university/"
       ],
       "slug": "2026-10-rgu-early-payment-january-2027",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-10-06T09:00:00+08:00",
       "publishedPath": "src/pages/scholarships/items/2026-10-rgu-early-payment-january-2027.md",
       "isNew": true,
       "verifiedAt": "2026-10-06T09:10:00+08:00",
@@ -184,12 +184,22 @@
     }
   },
   "deployment": {
-    "status": "pending"
+    "status": "success",
+    "commit": "c8d13ae3e609f2df52db1c7b287a9c524934c867",
+    "runUrl": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/37396445978",
+    "verifiedAt": "2026-10-06T09:00:00+08:00"
   },
   "acceptance": {
-    "desktop": false,
-    "mobile": false,
-    "seo": false
+    "desktop": true,
+    "mobile": true,
+    "seo": true,
+    "verifiedAt": "2026-10-06T09:04:00+08:00",
+    "evidence": [
+      "正式文章桌面版圖片、字體與版面可見",
+      "390x844手機版標題與主圖可見",
+      "canonical與OG存在，schema 4組",
+      "article-sitemap、News sitemap與weekly-feed皆含新文章"
+    ]
   },
   "build": {
     "astro": "success",
@@ -197,6 +207,7 @@
     "pages": 394
   },
   "gaps": [
-    "Peter專欄、社群發布、新粉專貼文、部署與正式站驗收尚待完成。"
+    "Peter粉專未有3則適合新增且仍具時效的完整教育文章。",
+    "15則社群宣傳與新粉專每日貼文尚待最終發布及公開回讀。"
   ]
 }
