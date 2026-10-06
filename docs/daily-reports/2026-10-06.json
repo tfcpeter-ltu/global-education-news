@@ -209,5 +209,15 @@
   "gaps": [
     "Peter粉專未有3則適合新增且仍具時效的完整教育文章。",
     "15則社群宣傳與新粉專每日貼文尚待最終發布及公開回讀。"
-  ]
+  ],
+  "peterReview": {
+    "status": "insufficient-new-posts",
+    "checkedAt": "2026-10-06T09:02:00+08:00",
+    "sourceUrls": [
+      "https://www.facebook.com/photo/?fbid=122145778887172155",
+      "https://www.facebook.com/photo/?fbid=122145720297172155",
+      "https://www.facebook.com/photo/?fbid=122145701793172155"
+    ],
+    "note": "粉專目前可讀的最近內容為10月5日已結束之UBC面談、粉專成立公告及已收錄的電腦科學比較；沒有3則適合新增且仍具時效的完整教育文章。未虛構匯入。"
+  }
 }
