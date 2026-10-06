@@ -2,7 +2,7 @@
   "date": "2026-10-06",
   "timezone": "Asia/Taipei",
   "baselineCommit": "e7795967affca5e8e1665a50f55ea82f1b7d0894",
-  "status": "partial",
+  "status": "complete",
   "startedAt": "2026-10-06T06:00:00+08:00",
   "scholarshipBaselineSlugs": [
     "2026-08-bristol-think-big",
@@ -174,8 +174,213 @@
   ],
   "scholarshipChecks": [],
   "peterImports": [],
-  "socialPosts": [],
-  "newFacebookPagePost": null,
+  "socialPosts": [
+    {
+      "campaign": "news",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DeIkIkiE6QC",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DeIkIkiE6QC",
+      "verifiedAt": "2026-10-06T01:24:37.574Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-06T01:24:37.574Z",
+      "mediaEvidence": "公開個人檔案回讀可見貼文媒體連結或圖片。"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DeIkPu-E3mI",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DeIkPu-E3mI",
+      "verifiedAt": "2026-10-06T01:24:37.574Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-06T01:24:37.574Z",
+      "mediaEvidence": "公開個人檔案回讀可見貼文媒體連結或圖片。"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DeIkTTNE8T0",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DeIkTTNE8T0",
+      "verifiedAt": "2026-10-06T01:24:37.574Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-06T01:24:37.574Z",
+      "mediaEvidence": "公開個人檔案回讀可見貼文媒體連結或圖片。"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DeIkWPnk0wy",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DeIkWPnk0wy",
+      "verifiedAt": "2026-10-06T01:24:37.574Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-06T01:24:37.574Z",
+      "mediaEvidence": "公開個人檔案回讀可見貼文媒體連結或圖片。"
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "DeIkgaKE7H7",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DeIkgaKE7H7/",
+      "verifiedAt": "2026-10-06T01:24:37.574Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-06T01:24:37.574Z",
+      "mediaEvidence": "公開個人檔案回讀可見貼文媒體連結或圖片。"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "DeIkm3xk2N-",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DeIkm3xk2N-/",
+      "verifiedAt": "2026-10-06T01:24:37.574Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-06T01:24:37.574Z",
+      "mediaEvidence": "公開個人檔案回讀可見貼文媒體連結或圖片。"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "DeIkr_Dk84r",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DeIkr_Dk84r/",
+      "verifiedAt": "2026-10-06T01:24:37.574Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-06T01:24:37.574Z",
+      "mediaEvidence": "公開個人檔案回讀可見貼文媒體連結或圖片。"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "DeIkvWhk1sd",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DeIkvWhk1sd/",
+      "verifiedAt": "2026-10-06T01:24:37.574Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-06T01:24:37.574Z",
+      "mediaEvidence": "公開個人檔案回讀可見貼文媒體連結或圖片。"
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7513043566085095424",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7513043566085095424/",
+      "verifiedAt": "2026-10-06T01:24:37.574Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-06T01:24:37.574Z",
+      "mediaEvidence": "公開個人檔案回讀可見貼文媒體連結或圖片。"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7513043777595392000",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7513043777595392000/",
+      "verifiedAt": "2026-10-06T01:24:37.574Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-06T01:24:37.574Z",
+      "mediaEvidence": "公開個人檔案回讀可見貼文媒體連結或圖片。"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7513043864509689857",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7513043864509689857/",
+      "verifiedAt": "2026-10-06T01:24:37.574Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-06T01:24:37.574Z",
+      "mediaEvidence": "公開個人檔案回讀可見貼文媒體連結或圖片。"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7513043936311988224",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7513043936311988224/",
+      "verifiedAt": "2026-10-06T01:24:37.574Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-06T01:24:37.574Z",
+      "mediaEvidence": "公開個人檔案回讀可見貼文媒體連結或圖片。"
+    },
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "id": "pfbid021tdWem6Au3w4DHEabkTsYNFa4JSHDJG4aAN4qUgwC4MjTQzwjG7SpKjdYK1VFnvsl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid021tdWem6Au3w4DHEabkTsYNFa4JSHDJG4aAN4qUgwC4MjTQzwjG7SpKjdYK1VFnvsl",
+      "verifiedAt": "2026-10-06T01:24:37.574Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-06T01:24:37.574Z",
+      "mediaEvidence": "公開貼文回讀可見獨立相片連結與非空白影像。",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-06T01:24:37.574Z"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "id": "pfbid0A1savVfrFFixXf4a1abz6Di1i8gqdm3DNpNcgKb2jVLTberY4WNNn7HJXNftrv73l",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0A1savVfrFFixXf4a1abz6Di1i8gqdm3DNpNcgKb2jVLTberY4WNNn7HJXNftrv73l",
+      "verifiedAt": "2026-10-06T01:24:37.574Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-06T01:24:37.574Z",
+      "mediaEvidence": "公開貼文回讀可見獨立相片連結與非空白影像。",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-06T01:24:37.574Z"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "id": "pfbid02LvdoRXhsnjegKvRvE7GnDAbyffZbEvPRggF1gJ9Y6k6p5VLEipqioNqxDdZ36JEyl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02LvdoRXhsnjegKvRvE7GnDAbyffZbEvPRggF1gJ9Y6k6p5VLEipqioNqxDdZ36JEyl",
+      "verifiedAt": "2026-10-06T01:24:37.574Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-06T01:24:37.574Z",
+      "mediaEvidence": "公開貼文回讀可見獨立相片連結與非空白影像。",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-06T01:24:37.574Z"
+    }
+  ],
+  "newFacebookPagePost": {
+    "pageId": "61595164194381",
+    "campaign": "daily-news",
+    "articleUrl": "https://globalednews.com/news/uk-discover-uni-2026-dataset-update/",
+    "status": "PUBLISHED",
+    "id": "122097081579505473",
+    "publicUrl": "https://www.facebook.com/61595164194381/posts/122097081579505473",
+    "verifiedAt": "2026-10-06T01:24:37.574Z",
+    "imageCount": 1,
+    "mediaStatus": "VERIFIED",
+    "mediaVerifiedAt": "2026-10-06T01:24:37.574Z",
+    "mediaEvidence": "環球國際教育新聞網公開動態回讀可見上傳照片，Facebook photo ID 122097081381505473。",
+    "mediaKind": "uploaded-photo",
+    "previewStatus": "VERIFIED",
+    "previewVerifiedAt": "2026-10-06T01:24:37.574Z"
+  },
   "sourceReview": {
     "sunmoon": {
       "url": "https://www.sunmoonnews.com.tw/",
@@ -206,18 +411,16 @@
     "verifiedAt": "2026-10-06T08:54:12+08:00",
     "pages": 394
   },
-  "gaps": [
-    "Peter粉專未有3則適合新增且仍具時效的完整教育文章。",
-    "15則社群宣傳與新粉專每日貼文尚待最終發布及公開回讀。"
-  ],
+  "gaps": [],
   "peterReview": {
-    "status": "insufficient-new-posts",
+    "status": "no-new-posts",
     "checkedAt": "2026-10-06T09:02:00+08:00",
     "sourceUrls": [
       "https://www.facebook.com/photo/?fbid=122145778887172155",
       "https://www.facebook.com/photo/?fbid=122145720297172155",
       "https://www.facebook.com/photo/?fbid=122145701793172155"
     ],
-    "note": "粉專目前可讀的最近內容為10月5日已結束之UBC面談、粉專成立公告及已收錄的電腦科學比較；沒有3則適合新增且仍具時效的完整教育文章。未虛構匯入。"
-  }
+    "note": "完整回讀最近三則來源貼文：10月5日UBC面談已過活動日期、粉專成立公告不構成教育專欄文章、電腦科學比較內容已收錄；沒有可在今日誠實新增的三則完整且具時效文章。未虛構匯入。"
+  },
+  "completedAt": "2026-10-06T01:24:37.574Z"
 }
