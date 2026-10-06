@@ -1,0 +1,199 @@
+{
+  "date": "2026-10-06",
+  "timezone": "Asia/Taipei",
+  "baselineCommit": "e7795967affca5e8e1665a50f55ea82f1b7d0894",
+  "status": "in-progress",
+  "startedAt": "2026-10-06T06:00:00+08:00",
+  "scholarshipBaselineSlugs": [
+    "2026-08-bristol-think-big",
+    "2026-08-manchester-global-futures-taiwan-2027",
+    "2026-08-mcgill-mccall-macbain",
+    "2026-08-melbourne-graduate-research",
+    "2026-08-melbourne-international-excellence-graduate-2027",
+    "2026-08-moe-eu-scholarship",
+    "2026-08-moe-government-sponsored-study",
+    "2026-08-moe-new-southbound-internship",
+    "2026-08-moe-overseas-scholarship",
+    "2026-08-moe-study-abroad-fly",
+    "2026-08-moe-study-abroad-internship",
+    "2026-08-moe-study-abroad-needy",
+    "2026-08-moe-top100-phd",
+    "2026-08-monash-awards-2027",
+    "2026-08-oxford-clarendon",
+    "2026-08-sydney-vcis-2027",
+    "2026-08-tgpi-dream-factory",
+    "2026-08-tgpi-global-flight",
+    "2026-08-ubc-four-year-doctoral-fellowship",
+    "2026-08-ubc-imes",
+    "2026-08-ubc-international-scholars-2027",
+    "2026-08-ubc-killam-doctoral-2027",
+    "2026-08-ucl-global-masters",
+    "2026-08-ucl-global-undergraduate",
+    "2026-08-unsw-scientia-2027",
+    "2026-08-uq-international-high-achievers-2027",
+    "2026-08-utoronto-pearson-2027",
+    "2026-09-adelaide-academic-excellence-2027",
+    "2026-09-adelaide-merit-2027",
+    "2026-09-auckland-international-student-excellence-2027",
+    "2026-09-cardiff-vice-chancellor-taiwan-january-2027",
+    "2026-09-chevening-delta-climate-2027",
+    "2026-09-chevening-taiwan",
+    "2026-09-daad-architecture-masters",
+    "2026-09-deakin-excellence-international-2027",
+    "2026-09-deakin-international-merit-2027",
+    "2026-09-deakin-vice-chancellor-international-2027",
+    "2026-09-dundee-east-asia-undergraduate-january-2027",
+    "2026-09-dundee-global-excellence-undergraduate-january-2027",
+    "2026-09-erasmus-mundus-2027",
+    "2026-09-eth-zurich-esop-2027",
+    "2026-09-exeter-pgt-taiwan-january-2027",
+    "2026-09-fulbright-experience-america-research-award",
+    "2026-09-fulbright-non-academic-professional-award",
+    "2026-09-fulbright-senior-research-award",
+    "2026-09-gates-cambridge-2027",
+    "2026-09-harvard-academy-scholars-2027",
+    "2026-09-harvard-radcliffe-fellowship-2027",
+    "2026-09-hkpfs-2027",
+    "2026-09-imperial-presidents-phd-2027",
+    "2026-09-kent-international-undergraduate-january-2027",
+    "2026-09-knight-hennessy-2027",
+    "2026-09-latrobe-high-achiever-2027",
+    "2026-09-leicester-global-excellence-jan-apr-2027",
+    "2026-09-macquarie-vcis-2027",
+    "2026-09-monash-international-merit-2027",
+    "2026-09-ntu-taiwan-scholarship-jan-2027",
+    "2026-09-ntu-taiwan-stem-scholarship-jan-2027",
+    "2026-09-oxford-clarendon-2027",
+    "2026-09-rmit-up-academic-english-bursary-2027",
+    "2026-09-strathclyde-sbs-international-masters-jan-2027",
+    "2026-09-sydney-rtp-international-2027",
+    "2026-09-taiwan-anu-phd-scholarship-2027",
+    "2026-09-tasmanian-international-scholarship-2027",
+    "2026-09-ubc-international-scholars-2027",
+    "2026-09-uc-berkeley-beahrs-elp-2027",
+    "2026-09-uni-iowa-partner-state-taiwan-2027",
+    "2026-09-university-iowa-national-scholars-2027",
+    "2026-09-unsw-international-scientia-2027",
+    "2026-09-uow-postgraduate-academic-excellence-2027",
+    "2026-09-uow-university-excellence-2027",
+    "2026-09-utoronto-lester-b-pearson-2027",
+    "2026-09-yenching-academy-2027-taiwan",
+    "2026-10-bangor-vice-chancellor-january-2027",
+    "2026-10-bournemouth-academic-excellence-january-2027",
+    "2026-10-cardiff-vice-chancellor-january-2027",
+    "2026-10-cumbria-international-undergraduate-january-2027",
+    "2026-10-kent-pgt-january-2027",
+    "2026-10-lancaster-regional-taiwan-2027",
+    "2026-10-london-met-east-asia-2027",
+    "2026-10-oxford-brookes-january-2027",
+    "2026-10-portsmouth-chancellor-merit-january-2027",
+    "2026-10-qub-pgt-january-2027",
+    "2026-10-sheffield-international-undergraduate-2027",
+    "2026-10-stirling-east-asia-pgt-2027",
+    "2026-10-stirling-vice-chancellor-pgt-january-2027",
+    "2026-10-strathclyde-science-january-2027",
+    "2026-10-swansea-international-excellence-january-2027"
+  ],
+  "newsPublished": [
+    {
+      "verifiedAt": "2026-10-06T09:05:00+08:00",
+      "sources": [
+        "https://www.discoveruni.gov.uk/about-our-data/",
+        "https://www.hesa.ac.uk/data-and-analysis/discover-uni-dataset"
+      ],
+      "slug": "uk-discover-uni-2026-dataset-update",
+      "url": "https://globalednews.com/news/uk-discover-uni-2026-dataset-update/"
+    },
+    {
+      "verifiedAt": "2026-10-06T09:05:00+08:00",
+      "sources": [
+        "https://uac.edu.au/index.php/current-applicants/international-applications-and-offers",
+        "https://uac.edu.au/current-applicants/undergraduate-applications-and-offers/institutions-in-offer-rounds"
+      ],
+      "slug": "australia-uac-international-offers-october-2026",
+      "url": "https://globalednews.com/news/australia-uac-international-offers-october-2026/"
+    },
+    {
+      "verifiedAt": "2026-10-06T09:05:00+08:00",
+      "sources": [
+        "https://consult.education.gov.uk/international-student-levy-unit/international-student-levy/",
+        "https://assets.publishing.service.gov.uk/media/696a6164448fedc1eb4248ef/international-education-strategy-2026.pdf"
+      ],
+      "slug": "uk-international-student-levy-2028-draft",
+      "url": "https://globalednews.com/news/uk-international-student-levy-2028-draft/"
+    }
+  ],
+  "scholarshipAdditions": [
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-10-rgu-january-2027/",
+      "eligibleTaiwan": true,
+      "baselineAbsent": true,
+      "sources": [
+        "https://www.rgu.ac.uk/study/finance-funding/funding-and-scholarships/rgu-international-student-january-scholarship-for-masters-students",
+        "https://collegedunia.com/uk/university/783-robert-gordon-university-aberdeen/programs"
+      ],
+      "slug": "2026-10-rgu-january-2027",
+      "publishedVerifiedAt": null,
+      "publishedPath": "src/pages/scholarships/items/2026-10-rgu-january-2027.md",
+      "isNew": true,
+      "verifiedAt": "2026-10-06T09:10:00+08:00",
+      "open": true
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-10-uea-pg-merit-2027/",
+      "eligibleTaiwan": true,
+      "baselineAbsent": true,
+      "sources": [
+        "https://www.uea.ac.uk/study/fees-and-funding/scholarships-finder/international-pg-merit-scholarship-c-2026-7",
+        "https://www.ucas.com/explore/scholarships-and-bursaries/67df27a9-a8f3-4601-8772-f86eccb1aaf3/international-pg-merit-scholarships"
+      ],
+      "slug": "2026-10-uea-pg-merit-2027",
+      "publishedVerifiedAt": null,
+      "publishedPath": "src/pages/scholarships/items/2026-10-uea-pg-merit-2027.md",
+      "isNew": true,
+      "verifiedAt": "2026-10-06T09:10:00+08:00",
+      "open": true
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-10-rgu-early-payment-january-2027/",
+      "eligibleTaiwan": true,
+      "baselineAbsent": true,
+      "sources": [
+        "https://www.rgu.ac.uk/study/international-students/international-fees-costs-funding",
+        "https://www.globalpathways.co.uk/universities/robert-gordon-university/"
+      ],
+      "slug": "2026-10-rgu-early-payment-january-2027",
+      "publishedVerifiedAt": null,
+      "publishedPath": "src/pages/scholarships/items/2026-10-rgu-early-payment-january-2027.md",
+      "isNew": true,
+      "verifiedAt": "2026-10-06T09:10:00+08:00",
+      "open": true
+    }
+  ],
+  "scholarshipChecks": [],
+  "peterImports": [],
+  "socialPosts": [],
+  "newFacebookPagePost": null,
+  "sourceReview": {
+    "sunmoon": {
+      "url": "https://www.sunmoonnews.com.tw/",
+      "checkedAt": "2026-10-06T09:15:00+08:00",
+      "result": "已檢查；未選用未達雙重來源門檻的題材。"
+    }
+  },
+  "deployment": {
+    "status": "pending"
+  },
+  "acceptance": {
+    "desktop": false,
+    "mobile": false,
+    "seo": false
+  },
+  "build": {
+    "verifiedAt": "2026-10-06T09:42:31+08:00",
+    "astro": "success"
+  },
+  "gaps": [
+    "Peter專欄、社群發布、新粉專貼文、部署與正式站驗收尚待完成。"
+  ]
+}
