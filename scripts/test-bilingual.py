@@ -1,10 +1,17 @@
-import pathlib,json
+import pathlib,json,re
 from urllib.parse import urlsplit,unquote
 from lxml import html,etree
 root=pathlib.Path(__file__).resolve().parents[1];dist=root/'dist';failures=[];count=0
 for english in (dist/'en').rglob('*.html'):
  original=dist/english.relative_to(dist/'en');en=html.parse(str(english));zh=html.parse(str(original));count+=1
  if en.getroot().get('lang')!='en':failures.append(str(english)+' lang')
+ if en.xpath('//div[contains(concat(" ",normalize-space(@class)," ")," language-bar ")]//a[@data-language="zh"]/text()')!=['Traditional Chinese']:failures.append(str(english)+' English switch label')
+ if '\u2047' in ''.join(en.getroot().itertext()):failures.append(str(english)+' broken translation glyph')
+ # Scripts can contain Chinese source data for client-side filtering. Visible
+ # static English copy must not contain Chinese outside explicitly untranslated
+ # third-party or private regions.
+ for node in en.xpath('//text()[not(ancestor::script) and not(ancestor::style) and not(ancestor::code) and not(ancestor::pre) and not(ancestor::textarea) and not(ancestor::svg) and not(ancestor::*[@translate="no"]) and not(ancestor::*[contains(concat(" ",normalize-space(@class)," ")," notranslate ")])]'):
+  if re.search(r'[\u3400-\u9fff]',str(node)):failures.append(str(english)+' visible Chinese '+str(node).strip()[:80])
  for doc in [en,zh]:
   if len(doc.xpath('//a[@data-language="en"]'))!=1:failures.append(str(english)+' switch')
   if len(doc.xpath('//link[@hreflang="en"]'))!=1:failures.append(str(english)+' hreflang')

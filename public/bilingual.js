@@ -32,6 +32,7 @@
     const translate = value => {
       if (!chinese.test(value)) return value;
       const key = normalize(value);
+      const clean = translated => String(translated).replaceAll('\u2047', '·');
       const patterns = [
         [/^免費版開放 (\d+) 間大學。$/, 'The free version includes $1 universities.'],
         [/^註冊後可再解鎖 (\d+) 間，搜尋完整 (\d+) 間大學，並雲端保存查詢與規劃結果。$/, 'Register free to unlock $1 more universities, search all $2, and save your searches and plans to the cloud.'],
@@ -39,9 +40,9 @@
       ];
       for (const [pattern, replacement] of patterns) if (pattern.test(key)) return key.replace(pattern, replacement);
       const exact = dictionary[key];
-      if (exact) return value.replace(value.trim(), exact);
+      if (exact) return value.replace(value.trim(), clean(exact));
       // Template fragments (e.g. a live count) retain their numeric values.
-      return value.replace(/[\u3400-\u9fff]+/g, part => dictionary[part] ? ' ' + dictionary[part] + ' ' : part);
+      return value.replace(/[\u3400-\u9fff]+/g, part => dictionary[part] ? ' ' + clean(dictionary[part]) + ' ' : part);
     };
     const localizeLink = el => {
       if (!el.href || el.hasAttribute('data-language') || el.closest('[translate="no"]')) return;

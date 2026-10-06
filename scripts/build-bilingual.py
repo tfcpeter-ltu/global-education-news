@@ -96,6 +96,9 @@ def tr(s):
  if not CJK.search(key):return s
  translated=cache.get(key)
  if not translated:raise ValueError('Untranslated static string: '+key[:150])
+ # Older machine-generated cache entries used U+2047 as a placeholder for
+ # punctuation and symbols. Never expose that broken glyph in English pages.
+ translated=translated.replace('\u2047','·')
  return (' ' if s[:1].isspace() else '')+translated+(' ' if s[-1:].isspace() else '')
 def page_url(p):
  rel=p.relative_to(DIST).as_posix()
@@ -124,7 +127,8 @@ def decorate(doc,original,is_en):
  for lang,url in [('zh-Hant',zh),('en',en),('x-default',zh)]:etree.SubElement(head,'link',rel='alternate',hreflang=lang,href=url)
  etree.SubElement(head,'link',rel='stylesheet',href='/bilingual.css?v='+asset_version)
  etree.SubElement(head,'script',src='/bilingual.js?v='+asset_version,defer='defer')
- bar=html.fragment_fromstring('<div class="language-bar" translate="no"><div class="language-inner"><span class="language-label">'+('Choose your language' if is_en else '選擇閱讀語言')+'</span><nav aria-label="Language"><a data-language="zh" href="'+original+'" lang="zh-Hant"'+(' aria-current="page"' if not is_en else '')+'>繁體中文</a><a data-language="en" href="/en'+original+'" lang="en"'+(' aria-current="page"' if is_en else '')+'>English</a></nav></div></div>')
+ chinese_label='Traditional Chinese' if is_en else '繁體中文'
+ bar=html.fragment_fromstring('<div class="language-bar" translate="no"><div class="language-inner"><span class="language-label">'+('Choose your language' if is_en else '選擇閱讀語言')+'</span><nav aria-label="Language"><a data-language="zh" href="'+original+'" lang="zh-Hant"'+(' aria-current="page"' if not is_en else '')+'>'+chinese_label+'</a><a data-language="en" href="/en'+original+'" lang="en"'+(' aria-current="page"' if is_en else '')+'>English</a></nav></div></div>')
  body.insert(0,bar)
  if is_en:
   notice=html.fragment_fromstring('<aside class="translation-note" translate="no">English translation · This edition uses automated translation. For exact eligibility, deadlines and policy wording, consult the linked official sources. <a data-language="zh" href="'+original+'">Read the Chinese original</a>.</aside>')
