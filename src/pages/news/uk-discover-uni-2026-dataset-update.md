@@ -7,10 +7,10 @@ author: "LTU Global Education News 編輯部"
 category: "英國高等教育"
 topic: "uk"
 tags: ["英國", "大學選校", "Discover Uni"]
-image: "https://upload.wikimedia.org/wikipedia/commons/4/41/University_of_London_Senate_House.jpg"
+image: "/images/share-photos/a1490fb61fc7c4c121134072.jpg"
 imageAlt: "英國倫敦大學 Senate House 資料照"
-imageCredit: "Wikimedia Commons 授權資料照"
-imageSource: "https://commons.wikimedia.org/wiki/File:University_of_London_Senate_House.jpg"
+imageCredit: "Spudgun67／CC BY-SA 4.0；裁切為社群預覽尺寸"
+imageSource: "https://commons.wikimedia.org/wiki/File:Senate_House_University_of_London_Malet_Street_London_WC1E_7HU_-_front_elevation.jpg"
 sources:
   - label: "Discover Uni｜About our data"
     url: "https://www.discoveruni.gov.uk/about-our-data/"

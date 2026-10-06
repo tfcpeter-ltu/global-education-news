@@ -7,15 +7,17 @@ author: "LTU Global Education News 編輯部"
 category: "澳洲高等教育"
 topic: "australia"
 tags: ["澳洲", "國際學生", "大學申請"]
-image: "https://upload.wikimedia.org/wikipedia/commons/5/5e/University_of_Sydney_Main_Quadrangle.jpg"
+image: "/images/share-photos/69f611d8fea853f7bd7bab3a.jpg"
 imageAlt: "澳洲雪梨大學校園資料照"
-imageCredit: "Wikimedia Commons 授權資料照"
-imageSource: "https://commons.wikimedia.org/wiki/File:University_of_Sydney_Main_Quadrangle.jpg"
+imageCredit: "Jason Tong／CC BY 2.0；裁切為社群預覽尺寸"
+imageSource: "https://commons.wikimedia.org/wiki/File:Main_Quadrangle%2C_University_of_Sydney_(cropped).jpg"
 sources:
   - label: "UAC｜International applications and offers"
     url: "https://uac.edu.au/index.php/current-applicants/international-applications-and-offers"
   - label: "UAC｜Institutions participating in offer rounds"
     url: "https://uac.edu.au/current-applicants/undergraduate-applications-and-offers/institutions-in-offer-rounds"
+  - label: "Charles Sturt University｜How university offer rounds work"
+    url: "https://insight.study.csu.edu.au/uni-offer-rounds-how-do-they-work/"
 ---
 
 澳洲 Universities Admissions Centre（UAC）公布，國際申請者下一個無條件錄取輪次將於 **2026 年 10 月 16 日 07:30**發布；要參與該輪次，須在 **10 月 11 日 23:59**前完成志願調整。

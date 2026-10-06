@@ -108,7 +108,8 @@
       "verifiedAt": "2026-10-06T09:05:00+08:00",
       "sources": [
         "https://uac.edu.au/index.php/current-applicants/international-applications-and-offers",
-        "https://uac.edu.au/current-applicants/undergraduate-applications-and-offers/institutions-in-offer-rounds"
+        "https://uac.edu.au/current-applicants/undergraduate-applications-and-offers/institutions-in-offer-rounds",
+        "https://insight.study.csu.edu.au/uni-offer-rounds-how-do-they-work/"
       ],
       "slug": "australia-uac-international-offers-october-2026",
       "url": "https://globalednews.com/news/australia-uac-international-offers-october-2026/"
@@ -117,7 +118,8 @@
       "verifiedAt": "2026-10-06T09:05:00+08:00",
       "sources": [
         "https://consult.education.gov.uk/international-student-levy-unit/international-student-levy/",
-        "https://assets.publishing.service.gov.uk/media/696a6164448fedc1eb4248ef/international-education-strategy-2026.pdf"
+        "https://assets.publishing.service.gov.uk/media/696a6164448fedc1eb4248ef/international-education-strategy-2026.pdf",
+        "https://www.universitiesuk.ac.uk/topics/international/understanding-uks-new-levy-universities"
       ],
       "slug": "uk-international-student-levy-2028-draft",
       "url": "https://globalednews.com/news/uk-international-student-levy-2028-draft/"
@@ -159,7 +161,7 @@
       "eligibleTaiwan": true,
       "baselineAbsent": true,
       "sources": [
-        "https://www.rgu.ac.uk/study/international-students/international-fees-costs-funding",
+        "https://www.rgu.ac.uk/study/finance-funding/funding-and-scholarships/rgu-early-deposit-payment-discount",
         "https://www.globalpathways.co.uk/universities/robert-gordon-university/"
       ],
       "slug": "2026-10-rgu-early-payment-january-2027",
@@ -190,8 +192,9 @@
     "seo": false
   },
   "build": {
-    "verifiedAt": "2026-10-06T09:42:31+08:00",
-    "astro": "success"
+    "astro": "success",
+    "verifiedAt": "2026-10-06T08:54:12+08:00",
+    "pages": 394
   },
   "gaps": [
     "Peter專欄、社群發布、新粉專貼文、部署與正式站驗收尚待完成。"

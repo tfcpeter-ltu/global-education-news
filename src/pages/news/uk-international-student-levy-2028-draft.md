@@ -7,15 +7,17 @@ author: "LTU Global Education News 編輯部"
 category: "英國高等教育"
 topic: "uk"
 tags: ["英國", "國際學生", "高教政策"]
-image: "https://upload.wikimedia.org/wikipedia/commons/6/6d/Department_for_Education%2C_London.jpg"
-imageAlt: "英國教育部所在政府建築資料照"
-imageCredit: "Wikimedia Commons 授權資料照"
-imageSource: "https://commons.wikimedia.org/wiki/File:Department_for_Education,_London.jpg"
+image: "/images/share-photos/6c41431cf70c0bcefc6d3bab.jpg"
+imageAlt: "英國大學校園資料照"
+imageCredit: "Frb12／CC BY-SA 4.0；裁切為社群預覽尺寸"
+imageSource: "https://commons.wikimedia.org/wiki/File:Central_Hall%2C_University_of_York%2C_UK.jpg"
 sources:
   - label: "UK Department for Education｜International Student Levy consultation"
     url: "https://consult.education.gov.uk/international-student-levy-unit/international-student-levy/"
   - label: "UK Government｜International Education Strategy 2026"
     url: "https://assets.publishing.service.gov.uk/media/696a6164448fedc1eb4248ef/international-education-strategy-2026.pdf"
+  - label: "Universities UK｜Understanding the UK's new levy on universities"
+    url: "https://www.universitiesuk.ac.uk/topics/international/understanding-uks-new-levy-universities"
 ---
 
 英國教育部公布的國際學生徵費草案規劃於 **2028 年 8 月 1 日**起實施，適用於英格蘭高等教育提供者。2026國際教育策略列出的政策額度為每名國際學生、每學年 **£925**，收入規劃支應特定生活費補助。
