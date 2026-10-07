@@ -2,7 +2,7 @@
   "date": "2026-10-07",
   "timezone": "Asia/Taipei",
   "baselineCommit": "a8513d750bb1acf43e449e845814835395f0f154",
-  "status": "partial",
+  "status": "completed",
   "startedAt": "2026-10-07T05:01:54+08:00",
   "scholarshipBaselineSlugs": [
     "2026-08-bristol-think-big",
@@ -308,46 +308,46 @@
       "campaign": "news",
       "network": "facebook",
       "status": "PUBLISHED",
-      "id": "1081886284587569",
-      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/1081886284587569",
-      "verifiedAt": "2026-10-07T15:25:00+08:00",
+      "id": "1081908571252007",
+      "publicUrl": "https://www.facebook.com/photo/?fbid=1081908571252007",
+      "verifiedAt": "2026-10-07T16:08:08+08:00",
       "imageCount": 1,
       "mediaStatus": "VERIFIED",
-      "mediaVerifiedAt": "2026-10-07T15:25:00+08:00",
-      "mediaEvidence": "Facebook內容庫回讀已發布貼文，正式站連結預覽圖片可見。",
-      "mediaKind": "link-preview",
+      "mediaVerifiedAt": "2026-10-07T16:08:08+08:00",
+      "mediaEvidence": "Facebook粉絲專頁公開回讀顯示單張直接上傳照片可見，文案與正式站網址完整。",
+      "mediaKind": "uploaded-photo",
       "previewStatus": "VERIFIED",
-      "previewVerifiedAt": "2026-10-07T15:25:00+08:00"
+      "previewVerifiedAt": "2026-10-07T16:08:08+08:00"
     },
     {
       "campaign": "scholarship",
       "network": "facebook",
       "status": "PUBLISHED",
-      "id": "1081886567920874",
-      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/1081886567920874",
-      "verifiedAt": "2026-10-07T15:25:00+08:00",
+      "id": "1081909101251954",
+      "publicUrl": "https://www.facebook.com/photo/?fbid=1081909101251954",
+      "verifiedAt": "2026-10-07T16:08:08+08:00",
       "imageCount": 1,
       "mediaStatus": "VERIFIED",
-      "mediaVerifiedAt": "2026-10-07T15:25:00+08:00",
-      "mediaEvidence": "Facebook內容庫回讀已發布貼文，正式站連結預覽圖片可見。",
-      "mediaKind": "link-preview",
+      "mediaVerifiedAt": "2026-10-07T16:08:08+08:00",
+      "mediaEvidence": "Facebook粉絲專頁公開回讀顯示單張直接上傳照片可見，文案與正式站網址完整。",
+      "mediaKind": "uploaded-photo",
       "previewStatus": "VERIFIED",
-      "previewVerifiedAt": "2026-10-07T15:25:00+08:00"
+      "previewVerifiedAt": "2026-10-07T16:08:08+08:00"
     },
     {
       "campaign": "study-abroad",
       "network": "facebook",
       "status": "PUBLISHED",
-      "id": "1081886741254190",
-      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/1081886741254190",
-      "verifiedAt": "2026-10-07T15:25:00+08:00",
+      "id": "1081909397918591",
+      "publicUrl": "https://www.facebook.com/photo/?fbid=1081909397918591",
+      "verifiedAt": "2026-10-07T16:08:08+08:00",
       "imageCount": 1,
       "mediaStatus": "VERIFIED",
-      "mediaVerifiedAt": "2026-10-07T15:25:00+08:00",
-      "mediaEvidence": "Facebook內容庫回讀已發布貼文，正式站連結預覽圖片可見。",
-      "mediaKind": "link-preview",
+      "mediaVerifiedAt": "2026-10-07T16:08:08+08:00",
+      "mediaEvidence": "Facebook粉絲專頁公開回讀顯示單張直接上傳照片可見，文案與正式站網址完整。",
+      "mediaKind": "uploaded-photo",
       "previewStatus": "VERIFIED",
-      "previewVerifiedAt": "2026-10-07T15:25:00+08:00"
+      "previewVerifiedAt": "2026-10-07T16:08:08+08:00"
     },
     {
       "campaign": "news",
@@ -410,10 +410,7 @@
       "previewVerifiedAt": "2026-10-07T15:52:39+08:00"
     }
   ],
-  "gaps": [
-    "四則Facebook貼文均有可見圖片預覽，但不是驗證規格要求的直接上傳照片。",
-    "手機版視覺驗收尚未取得可保存證據。"
-  ],
+  "gaps": [],
   "sourceReview": {
     "sunmoon": {
       "url": "https://www.sunmoonnews.com.tw/",
@@ -429,10 +426,10 @@
   },
   "acceptance": {
     "desktop": true,
-    "mobile": false,
+    "mobile": true,
     "seo": true,
-    "verifiedAt": "2026-10-07T10:00:00+08:00",
-    "evidence": "6個新頁200；canonical、OG、schema、article/news sitemap及RSS回讀成功；英文CPT頁視覺回讀無中文混入。"
+    "verifiedAt": "2026-10-07T16:08:08+08:00",
+    "evidence": "桌面與390x844手機視窗正式站回讀完成；首頁主圖、新聞縮圖、字體、導覽換行及廣告裁切皆可見；canonical、OG、schema、sitemap、News sitemap與RSS已驗收。"
   },
   "peterReview": {
     "status": "completed",
@@ -461,15 +458,16 @@
     "network": "facebook",
     "pageId": "61595164194381",
     "status": "PUBLISHED",
-    "id": "122097816891505473",
-    "publicUrl": "https://www.facebook.com/61595164194381/posts/122097816891505473",
-    "verifiedAt": "2026-10-07T10:18:00+08:00",
+    "id": "122097974229505473",
+    "publicUrl": "https://www.facebook.com/photo/?fbid=122097974229505473",
+    "verifiedAt": "2026-10-07T16:08:08+08:00",
     "imageCount": 1,
     "mediaStatus": "VERIFIED",
-    "mediaVerifiedAt": "2026-10-07T10:18:00+08:00",
-    "mediaEvidence": "粉絲專頁公開動態回讀顯示CPT文章預覽圖片與標題",
-    "mediaKind": "link-preview",
+    "mediaVerifiedAt": "2026-10-07T16:08:08+08:00",
+    "mediaEvidence": "環球國際教育新聞網粉絲專頁公開回讀顯示單張直接上傳照片可見，文案與正式站網址完整。",
+    "mediaKind": "uploaded-photo",
     "previewStatus": "VERIFIED",
-    "previewVerifiedAt": "2026-10-07T10:18:00+08:00"
+    "previewVerifiedAt": "2026-10-07T16:08:08+08:00",
+    "articleUrl": "https://globalednews.com/news/us-cpt-guidance-lawsuit-october-2026/"
   }
 }
