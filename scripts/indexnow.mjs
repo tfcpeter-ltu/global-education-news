@@ -16,10 +16,12 @@ if (process.argv[2] === 'prepare') {
       else if (entry.name.endsWith('.html')) {
         const html = await fs.readFile(file, 'utf8');
         if (/<meta\b[^>]*name=["']robots["'][^>]*content=["'][^"']*noindex/i.test(html)) continue;
+        if (/<meta\b[^>]*http-equiv=["']refresh["']/i.test(html)) continue;
         const href = html.match(/<link\b[^>]*rel=["']canonical["'][^>]*href=["']([^"']+)/i)?.[1];
         const pageUrl = new URL(path.relative('dist', file).split(path.sep).join('/'), site + '/');
         const canonical = href ? new URL(href, pageUrl) : null;
-        if (canonical?.origin === site)
+        const routeUrl = new URL(pageUrl.href.replace(/\/index\.html$/, '/'));
+        if (canonical?.origin === site && canonical.href === routeUrl.href)
           pages[canonical.href] = createHash('sha256').update(html).digest('hex');
       }
     }
