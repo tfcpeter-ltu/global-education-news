@@ -1,25 +1,30 @@
 {
   "date": "2026-10-08",
   "timezone": "Asia/Taipei",
-  "status": "ready",
+  "status": "ready-with-copy-and-images",
   "expectedCount": 15,
   "selections": {
     "news": {
-      "url": "https://globalednews.com/news/australia-overseas-student-transfer-12-months-2026/",
-      "image": "/images/news/australia-transfer-restriction-2026.jpg"
+      "url": "https://globalednews.com/news/us-opt-proposed-school-fee-2026/",
+      "image": "/images/news/us-opt-proposed-fee-2026.jpg",
+      "copyFile": "news--us-opt-fee.json"
     },
     "scholarship": {
       "url": "https://globalednews.com/scholarships/items/2026-10-massey-toroa-undergraduate-2027/",
-      "image": "/images/news/massey-toroa-2027.jpg"
+      "image": "/images/news/massey-toroa-2027.jpg",
+      "copyFile": "scholarship--massey-toroa.json"
     },
     "studyAbroad": {
       "url": "https://globalednews.com/study-abroad/",
-      "image": "/images/news/canterbury-first-year-2027.jpg"
+      "image": "/images/news/australia-sydney-main-quadrangle-2026.png",
+      "copyFile": "study-abroad--australia-sydney.json"
     },
     "taiwanUniversities": {
       "url": "https://globalednews.com/taiwan-universities/",
-      "image": "/images/social/taiwan-universities-2026-09-16.png"
+      "image": "/images/social/2026-10-04/taiwan-universities-compare.jpg",
+      "copyFile": "taiwan-universities--cross-check.json"
     }
   },
   "newsletter": "https://globalednews.com/newsletter/"
 }
+
