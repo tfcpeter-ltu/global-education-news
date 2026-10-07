@@ -303,11 +303,56 @@
       "mediaVerifiedAt": "2026-10-07T10:18:00+08:00",
       "mediaEvidence": "個人活動頁回讀顯示正式站預覽圖片",
       "mediaKind": "link-preview"
+    },
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "id": "1081886284587569",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/1081886284587569",
+      "verifiedAt": "2026-10-07T15:25:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-07T15:25:00+08:00",
+      "mediaEvidence": "Facebook內容庫回讀已發布貼文，正式站連結預覽圖片可見。",
+      "mediaKind": "link-preview",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-07T15:25:00+08:00"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "id": "1081886567920874",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/1081886567920874",
+      "verifiedAt": "2026-10-07T15:25:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-07T15:25:00+08:00",
+      "mediaEvidence": "Facebook內容庫回讀已發布貼文，正式站連結預覽圖片可見。",
+      "mediaKind": "link-preview",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-07T15:25:00+08:00"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "id": "1081886741254190",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/1081886741254190",
+      "verifiedAt": "2026-10-07T15:25:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-07T15:25:00+08:00",
+      "mediaEvidence": "Facebook內容庫回讀已發布貼文，正式站連結預覽圖片可見。",
+      "mediaKind": "link-preview",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-07T15:25:00+08:00"
     }
   ],
   "gaps": [
-    "Facebook既定新聞、獎學金、留學DIY三則尚未發布。",
     "Instagram四則尚未發布：目前瀏覽器自動化無法將本機圖片交給原生檔案選擇器。",
+    "四則Facebook貼文均有可見圖片預覽，但不是驗證規格要求的直接上傳照片。",
     "手機版視覺驗收尚未取得可保存證據。"
   ],
   "sourceReview": {
