@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-07",
+  "timezone": "Asia/Taipei",
+  "reviewedSchools": [
+    {
+      "slug": "ntu",
+      "name": "國立臺灣大學",
+      "officialUrl": "https://oia.ntu.edu.tw/",
+      "checkedAt": "2026-10-07T07:00:00+08:00"
+    },
+    {
+      "slug": "nccu",
+      "name": "國立政治大學",
+      "officialUrl": "https://oic.nccu.edu.tw/",
+      "checkedAt": "2026-10-07T07:02:00+08:00"
+    },
+    {
+      "slug": "nthu",
+      "name": "國立清華大學",
+      "officialUrl": "https://oga.site.nthu.edu.tw/",
+      "checkedAt": "2026-10-07T07:04:00+08:00"
+    }
+  ],
+  "candidates": [
+    {
+      "schoolSlug": "ntu",
+      "topic": "交換學生與海外教育資訊入口",
+      "sourceUrl": "https://oia.ntu.edu.tw/",
+      "status": "research-only",
+      "note": "僅保存官方入口，未找到同日足以雙重查核的新事件。"
+    },
+    {
+      "schoolSlug": "nccu",
+      "topic": "國際合作與交換資訊入口",
+      "sourceUrl": "https://oic.nccu.edu.tw/",
+      "status": "research-only",
+      "note": "僅保存官方入口，未取得學生本人授權故事。"
+    },
+    {
+      "schoolSlug": "nthu",
+      "topic": "全球事務處海外學習資訊",
+      "sourceUrl": "https://oga.site.nthu.edu.tw/",
+      "status": "research-only",
+      "note": "僅保存官方入口，未找到同日足以正式刊登的新事件。"
+    }
+  ],
+  "published": [],
+  "pendingConsent": [],
+  "outreachDrafts": [],
+  "gaps": [
+    "今日三校均無同時具備官方來源、獨立第二來源及必要人物授權的新報導，未勉強刊登。"
+  ],
+  "acceptance": {
+    "verifiedAt": "2026-10-07T07:05:00+08:00",
+    "status": "research-recorded"
+  }
+}

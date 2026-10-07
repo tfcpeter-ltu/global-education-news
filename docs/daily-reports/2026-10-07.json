@@ -1,0 +1,219 @@
+{
+  "date": "2026-10-07",
+  "timezone": "Asia/Taipei",
+  "baselineCommit": "a8513d750bb1acf43e449e845814835395f0f154",
+  "status": "partial",
+  "startedAt": "2026-10-07T05:01:54+08:00",
+  "scholarshipBaselineSlugs": [
+    "2026-08-bristol-think-big",
+    "2026-08-manchester-global-futures-taiwan-2027",
+    "2026-08-mcgill-mccall-macbain",
+    "2026-08-melbourne-graduate-research",
+    "2026-08-melbourne-international-excellence-graduate-2027",
+    "2026-08-moe-eu-scholarship",
+    "2026-08-moe-government-sponsored-study",
+    "2026-08-moe-new-southbound-internship",
+    "2026-08-moe-overseas-scholarship",
+    "2026-08-moe-study-abroad-fly",
+    "2026-08-moe-study-abroad-internship",
+    "2026-08-moe-study-abroad-needy",
+    "2026-08-moe-top100-phd",
+    "2026-08-monash-awards-2027",
+    "2026-08-oxford-clarendon",
+    "2026-08-sydney-vcis-2027",
+    "2026-08-tgpi-dream-factory",
+    "2026-08-tgpi-global-flight",
+    "2026-08-ubc-four-year-doctoral-fellowship",
+    "2026-08-ubc-imes",
+    "2026-08-ubc-international-scholars-2027",
+    "2026-08-ubc-killam-doctoral-2027",
+    "2026-08-ucl-global-masters",
+    "2026-08-ucl-global-undergraduate",
+    "2026-08-unsw-scientia-2027",
+    "2026-08-uq-international-high-achievers-2027",
+    "2026-08-utoronto-pearson-2027",
+    "2026-09-adelaide-academic-excellence-2027",
+    "2026-09-adelaide-merit-2027",
+    "2026-09-auckland-international-student-excellence-2027",
+    "2026-09-cardiff-vice-chancellor-taiwan-january-2027",
+    "2026-09-chevening-delta-climate-2027",
+    "2026-09-chevening-taiwan",
+    "2026-09-daad-architecture-masters",
+    "2026-09-deakin-excellence-international-2027",
+    "2026-09-deakin-international-merit-2027",
+    "2026-09-deakin-vice-chancellor-international-2027",
+    "2026-09-dundee-east-asia-undergraduate-january-2027",
+    "2026-09-dundee-global-excellence-undergraduate-january-2027",
+    "2026-09-erasmus-mundus-2027",
+    "2026-09-eth-zurich-esop-2027",
+    "2026-09-exeter-pgt-taiwan-january-2027",
+    "2026-09-fulbright-experience-america-research-award",
+    "2026-09-fulbright-non-academic-professional-award",
+    "2026-09-fulbright-senior-research-award",
+    "2026-09-gates-cambridge-2027",
+    "2026-09-harvard-academy-scholars-2027",
+    "2026-09-harvard-radcliffe-fellowship-2027",
+    "2026-09-hkpfs-2027",
+    "2026-09-imperial-presidents-phd-2027",
+    "2026-09-kent-international-undergraduate-january-2027",
+    "2026-09-knight-hennessy-2027",
+    "2026-09-latrobe-high-achiever-2027",
+    "2026-09-leicester-global-excellence-jan-apr-2027",
+    "2026-09-macquarie-vcis-2027",
+    "2026-09-monash-international-merit-2027",
+    "2026-09-ntu-taiwan-scholarship-jan-2027",
+    "2026-09-ntu-taiwan-stem-scholarship-jan-2027",
+    "2026-09-oxford-clarendon-2027",
+    "2026-09-rmit-up-academic-english-bursary-2027",
+    "2026-09-strathclyde-sbs-international-masters-jan-2027",
+    "2026-09-sydney-rtp-international-2027",
+    "2026-09-taiwan-anu-phd-scholarship-2027",
+    "2026-09-tasmanian-international-scholarship-2027",
+    "2026-09-ubc-international-scholars-2027",
+    "2026-09-uc-berkeley-beahrs-elp-2027",
+    "2026-09-uni-iowa-partner-state-taiwan-2027",
+    "2026-09-university-iowa-national-scholars-2027",
+    "2026-09-unsw-international-scientia-2027",
+    "2026-09-uow-postgraduate-academic-excellence-2027",
+    "2026-09-uow-university-excellence-2027",
+    "2026-09-utoronto-lester-b-pearson-2027",
+    "2026-09-yenching-academy-2027-taiwan",
+    "2026-10-bangor-vice-chancellor-january-2027",
+    "2026-10-bournemouth-academic-excellence-january-2027",
+    "2026-10-cardiff-vice-chancellor-january-2027",
+    "2026-10-cumbria-international-undergraduate-january-2027",
+    "2026-10-kent-pgt-january-2027",
+    "2026-10-lancaster-regional-taiwan-2027",
+    "2026-10-london-met-east-asia-2027",
+    "2026-10-oxford-brookes-january-2027",
+    "2026-10-portsmouth-chancellor-merit-january-2027",
+    "2026-10-qub-pgt-january-2027",
+    "2026-10-rgu-early-payment-january-2027",
+    "2026-10-rgu-january-2027",
+    "2026-10-sheffield-international-undergraduate-2027",
+    "2026-10-stirling-east-asia-pgt-2027",
+    "2026-10-stirling-vice-chancellor-pgt-january-2027",
+    "2026-10-strathclyde-science-january-2027",
+    "2026-10-swansea-international-excellence-january-2027",
+    "2026-10-uea-pg-merit-2027"
+  ],
+  "newsPublished": [
+    {
+      "slug": "us-cpt-guidance-lawsuit-october-2026",
+      "url": "https://globalednews.com/news/us-cpt-guidance-lawsuit-october-2026/",
+      "verifiedAt": "2026-10-07T06:10:00+08:00",
+      "sources": [
+        "https://www.aau.edu/resource-library/aau-files-lawsuit-challenging-changes-to-the-curricular-practical-training-cpt-program-for-international-students",
+        "https://www.washington.edu/provost/federal-policy-updates/international-students-and-scholars/",
+        "https://www.rnlawgroup.com/a-case-to-watch-universities-challenge-sevps-new-restrictions-on-curricular-practical-training/"
+      ]
+    },
+    {
+      "slug": "cu-denver-hyderabad-campus-2027",
+      "url": "https://globalednews.com/news/cu-denver-hyderabad-campus-2027/",
+      "verifiedAt": "2026-10-07T06:20:00+08:00",
+      "sources": [
+        "https://news.ucdenver.edu/university-of-colorado-denver-to-establish-india-location-in-hyderabad/",
+        "https://www.ugc.gov.in/",
+        "https://www.timeshighereducation.com/"
+      ]
+    },
+    {
+      "slug": "australia-coalition-student-cuts-response-2026",
+      "url": "https://globalednews.com/news/australia-coalition-student-cuts-response-2026/",
+      "verifiedAt": "2026-10-07T06:30:00+08:00",
+      "sources": [
+        "https://universitiesaustralia.edu.au/media/archive/",
+        "https://thepienews.com/australias-coalition-pledges-to-scrap-temporary-graduate-visas-cut-student-numbers/",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500"
+      ]
+    }
+  ],
+  "scholarshipAdditions": [
+    {
+      "slug": "2026-10-ntu-taiwan-january-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-10-ntu-taiwan-january-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-ntu-taiwan-january-2027.md",
+      "sources": [
+        "https://www.ntu.ac.uk/international/scholarships",
+        "https://collegedunia.com/uk/university/862-nottingham-trent-university-nottingham/programs"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-07T06:50:00+08:00",
+      "publishedVerifiedAt": null,
+      "isNew": true,
+      "baselineAbsent": true
+    },
+    {
+      "slug": "2026-10-herts-chancellor-january-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-10-herts-chancellor-january-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-herts-chancellor-january-2027.md",
+      "sources": [
+        "https://www.herts.ac.uk/international/scholarships-and-fees/scholarships",
+        "https://www.studyu.org/en/university-hertfordshire"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-07T06:50:00+08:00",
+      "publishedVerifiedAt": null,
+      "isNew": true,
+      "baselineAbsent": true
+    },
+    {
+      "slug": "2026-10-boise-state-international-fall-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-10-boise-state-international-fall-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-boise-state-international-fall-2027.md",
+      "sources": [
+        "https://www.boisestate.edu/global-international/cost-and-scholarships/undergraduate-scholarships/",
+        "https://oldskoolmates.com/post/609"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-07T06:50:00+08:00",
+      "publishedVerifiedAt": null,
+      "isNew": true,
+      "baselineAbsent": true
+    }
+  ],
+  "peterImports": [],
+  "socialPosts": [],
+  "gaps": [
+    "Peter指定粉專查核尚未完成。",
+    "15則社群與新粉專貼文尚未發布。",
+    "網站尚未提交、部署與正式站回讀。"
+  ],
+  "sourceReview": {
+    "sunmoon": {
+      "url": "https://www.sunmoonnews.com.tw/",
+      "checkedAt": "2026-10-07T05:20:00+08:00",
+      "result": "已列入今日來源查核；尚無符合國際新聞雙重來源門檻的題材。"
+    }
+  },
+  "deployment": {
+    "status": "not-started"
+  },
+  "acceptance": {
+    "desktop": false,
+    "mobile": false,
+    "seo": false
+  },
+  "peterReview": {
+    "status": "not-checked",
+    "checkedAt": "2026-10-07T05:20:00+08:00",
+    "sourceUrls": []
+  },
+  "campusReview": {
+    "path": "docs/campus-reports/2026-10-07.json",
+    "reviewed": 3,
+    "published": 0,
+    "verifiedAt": "2026-10-07T07:05:00+08:00"
+  },
+  "build": {
+    "astro": "success",
+    "bilingual": "success",
+    "pages": 400,
+    "englishPages": 653,
+    "verifiedAt": "2026-10-07T09:52:00+08:00"
+  }
+}
