@@ -70,13 +70,17 @@ root = etree.Element('urlset', nsmap={None: NS})
 for url in sorted(pages):
     node = etree.SubElement(root, 'url')
     etree.SubElement(node, 'loc').text = url
-etree.ElementTree(root).write(str(DIST/'pages-sitemap.xml'), encoding='utf-8', xml_declaration=True)
+# Use the established sitemap endpoint already fetched successfully by Google.
+# Keep the recently submitted alternate URL available without depending on it.
+for name in ['sitemap-0.xml', 'pages-sitemap.xml']:
+    etree.ElementTree(root).write(str(DIST/name), encoding='utf-8', xml_declaration=True)
 for name in ['sitemap.xml', 'sitemap-index.xml']:
     file = DIST / name
     tree = etree.parse(str(file))
-    if SITE+'/pages-sitemap.xml' not in tree.xpath('//*[local-name()="loc"]/text()'):
-        node = etree.SubElement(tree.getroot(), '{'+NS+'}sitemap')
-        etree.SubElement(node, '{'+NS+'}loc').text = SITE+'/pages-sitemap.xml'
+    for node in list(tree.getroot()):
+        loc = node.find('{'+NS+'}loc')
+        if loc is not None and loc.text == SITE+'/pages-sitemap.xml':
+            tree.getroot().remove(node)
     tree.write(str(file), encoding='utf-8', xml_declaration=True)
 print(json.dumps({'canonicalPages': len(pages), 'addedCanonicals': added_canonicals,
                   'removedSitemapEntries': removed, 'excludedPages': excluded}, ensure_ascii=False))

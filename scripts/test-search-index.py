@@ -28,6 +28,8 @@ for sitemap in dist.rglob('*sitemap*.xml'):
         checked.add(url)
 assert site+'/study-abroad/majors.html' in checked
 assert site+'/en/study-abroad/majors.html' in checked
+primary = set(etree.parse(str(dist/'sitemap-0.xml')).xpath('//*[local-name()="loc"]/text()'))
+assert primary == checked, 'Established sitemap must cover all canonical pages'
 assert site+'/image-credits/' not in checked
 assert site+'/news/us-f1-j1-fixed-admission-period-2026/' not in checked
 redirect = html.document_fromstring((dist/'news/us-f1-j1-fixed-admission-period-2026/index.html').read_bytes())
