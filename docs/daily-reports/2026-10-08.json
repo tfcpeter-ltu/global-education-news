@@ -213,7 +213,7 @@
       "slug": "2026-10-massey-toroa-undergraduate-2027",
       "verifiedAt": "2026-10-08T05:50:00+08:00",
       "eligibleTaiwan": true,
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-10-08T05:21:00+08:00",
       "url": "https://globalednews.com/scholarships/items/2026-10-massey-toroa-undergraduate-2027/"
     },
     {
@@ -229,7 +229,7 @@
       "slug": "2026-10-canterbury-international-first-year-offshore-2027",
       "verifiedAt": "2026-10-08T05:55:00+08:00",
       "eligibleTaiwan": true,
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-10-08T05:21:00+08:00",
       "url": "https://globalednews.com/scholarships/items/2026-10-canterbury-international-first-year-offshore-2027/"
     },
     {
@@ -245,7 +245,7 @@
       "slug": "2026-10-newcastle-vc-international-undergraduate-2027",
       "verifiedAt": "2026-10-08T06:00:00+08:00",
       "eligibleTaiwan": true,
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-10-08T05:21:00+08:00",
       "url": "https://globalednews.com/scholarships/items/2026-10-newcastle-vc-international-undergraduate-2027/"
     }
   ],
@@ -263,7 +263,7 @@
       "slug": "2026-10-massey-toroa-undergraduate-2027",
       "verifiedAt": "2026-10-08T05:50:00+08:00",
       "eligibleTaiwan": true,
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-10-08T05:21:00+08:00",
       "url": "https://globalednews.com/scholarships/items/2026-10-massey-toroa-undergraduate-2027/"
     },
     {
@@ -279,7 +279,7 @@
       "slug": "2026-10-canterbury-international-first-year-offshore-2027",
       "verifiedAt": "2026-10-08T05:55:00+08:00",
       "eligibleTaiwan": true,
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-10-08T05:21:00+08:00",
       "url": "https://globalednews.com/scholarships/items/2026-10-canterbury-international-first-year-offshore-2027/"
     },
     {
@@ -295,7 +295,7 @@
       "slug": "2026-10-newcastle-vc-international-undergraduate-2027",
       "verifiedAt": "2026-10-08T06:00:00+08:00",
       "eligibleTaiwan": true,
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-10-08T05:21:00+08:00",
       "url": "https://globalednews.com/scholarships/items/2026-10-newcastle-vc-international-undergraduate-2027/"
     }
   ],
@@ -326,20 +326,19 @@
     "bilingual": "success"
   },
   "deployment": {
-    "verifiedAt": null,
-    "status": "pending",
-    "commit": null
+    "verifiedAt": "2026-10-08T05:20:16+08:00",
+    "status": "success",
+    "commit": "e14938a94c8ebf7b1c793982367be8771d3ba81f"
   },
   "acceptance": {
-    "verifiedAt": null,
-    "mobile": false,
-    "seo": false,
-    "desktop": false
+    "verifiedAt": "2026-10-08T05:23:00+08:00",
+    "mobile": true,
+    "seo": true,
+    "desktop": true
   },
   "gaps": [
-    "Peter指定粉專新文回讀",
+    "Peter指定粉專新文回讀與最多3則匯入",
     "15則社群直接發布與圖片回讀",
-    "新Facebook粉絲專頁貼文",
-    "部署及正式站驗收"
+    "新Facebook粉絲專頁貼文"
   ]
 }
