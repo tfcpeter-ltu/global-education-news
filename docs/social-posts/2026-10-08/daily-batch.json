@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-08",
+  "timezone": "Asia/Taipei",
+  "status": "ready",
+  "expectedCount": 15,
+  "selections": {
+    "news": {
+      "url": "https://globalednews.com/news/australia-overseas-student-transfer-12-months-2026/",
+      "image": "/images/news/australia-transfer-restriction-2026.jpg"
+    },
+    "scholarship": {
+      "url": "https://globalednews.com/scholarships/items/2026-10-massey-toroa-undergraduate-2027/",
+      "image": "/images/news/massey-toroa-2027.jpg"
+    },
+    "studyAbroad": {
+      "url": "https://globalednews.com/study-abroad/",
+      "image": "/images/news/canterbury-first-year-2027.jpg"
+    },
+    "taiwanUniversities": {
+      "url": "https://globalednews.com/taiwan-universities/",
+      "image": "/images/social/taiwan-universities-2026-09-16.png"
+    }
+  },
+  "newsletter": "https://globalednews.com/newsletter/"
+}

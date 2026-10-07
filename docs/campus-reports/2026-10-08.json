@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-08",
+  "timezone": "Asia/Taipei",
+  "reviewedSchools": [
+    {
+      "name": "臺北市立第一女子高級中學",
+      "source": "https://www.fg.tp.edu.tw/",
+      "result": "未找到具備人物與圖片授權的新報導。"
+    },
+    {
+      "name": "臺北市立建國高級中學",
+      "source": "https://www.ck.tp.edu.tw/",
+      "result": "未找到完成雙重查核且可直接刊登的新題材。"
+    },
+    {
+      "name": "國立臺灣大學",
+      "source": "https://oia.ntu.edu.tw/",
+      "result": "公告列為線索；未使用未授權學生資料。"
+    }
+  ],
+  "candidates": [],
+  "published": [],
+  "pendingConsent": [],
+  "outreachDrafts": [],
+  "gaps": [
+    "今日未取得足以刊登的新授權與第二來源。"
+  ],
+  "verifiedAt": "2026-10-08T06:05:00+08:00"
+}
