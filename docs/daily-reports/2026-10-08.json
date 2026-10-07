@@ -299,13 +299,24 @@
       "url": "https://globalednews.com/scholarships/items/2026-10-newcastle-vc-international-undergraduate-2027/"
     }
   ],
-  "peterImports": [],
+  "peterImports": [
+    {
+      "sourceId": "122146217205172155",
+      "url": "https://globalednews.com/peter/australia-student-arrival-six-pitfalls/",
+      "sourceUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid0gckrZxYPdJY2zenohqrqFiZ3kftLGhPdQ3e8QaP4VBmXb6rXScP3TqaHrszt9CcWl&id=61585164670358",
+      "verifiedAt": "2026-10-08T06:45:00+08:00",
+      "imageSourceId": "122146217205172155"
+    }
+  ],
   "peterReview": {
-    "status": "source-access-pending",
-    "note": "公開搜尋無法可靠回讀指定粉專今日完整貼文與來源ID，未虛構匯入。",
-    "checkedAt": "2026-10-08T06:05:00+08:00",
+    "status": "fewer-new-posts",
+    "availableNewCount": 1,
+    "importedCount": 1,
+    "note": "已回讀指定粉專近期貼文：今日僅1則比昨日批次更新，已完整匯入；其餘可見貼文為2至3天前且已於前次批次處理或不屬今日新增。",
+    "checkedAt": "2026-10-08T06:45:00+08:00",
     "sourceUrls": [
-      "https://www.facebook.com/profile.php?id=61585164670358"
+      "https://www.facebook.com/permalink.php?story_fbid=pfbid0gckrZxYPdJY2zenohqrqFiZ3kftLGhPdQ3e8QaP4VBmXb6rXScP3TqaHrszt9CcWl&id=61585164670358",
+      "https://www.facebook.com/permalink.php?story_fbid=pfbid0YzEi1WiW2znBijeuWADBBZZadYubAze6vjspoEfaF8uc4weWRD9vf9XgmfiN2FSml&id=61585164670358"
     ]
   },
   "ltuMediaRotation": {
@@ -337,7 +348,6 @@
     "desktop": true
   },
   "gaps": [
-    "Peter指定粉專新文回讀與最多3則匯入",
     "15則社群直接發布與圖片回讀",
     "新Facebook粉絲專頁貼文"
   ]

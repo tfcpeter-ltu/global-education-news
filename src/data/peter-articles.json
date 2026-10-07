@@ -1,5 +1,57 @@
 [
   {
+    "slug": "australia-student-arrival-six-pitfalls",
+    "sourceId": "122146217205172155",
+    "sourceAliases": [
+      "pfbid0gckrZxYPdJY2zenohqrqFiZ3kftLGhPdQ3e8QaP4VBmXb6rXScP3TqaHrszt9CcWl"
+    ],
+    "sourceUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid0gckrZxYPdJY2zenohqrqFiZ3kftLGhPdQ3e8QaP4VBmXb6rXScP3TqaHrszt9CcWl&id=61585164670358",
+    "title": "飛澳洲前後最容易踩雷的 6 件事：從 CoE、OSHC 到落地住址",
+    "description": "Peter整理澳洲留學生出發前與落地後常見風險；本站依官方規則整理 CoE、OSHC、GS、住址與未成年住宿重點。",
+    "topic": "澳洲留學準備",
+    "author": "Peter",
+    "importedAt": "2026-10-08",
+    "dateObservedAt": "2026-10-08",
+    "originalDateLabel": "13小時前",
+    "originalDatePrecision": "relative",
+    "originalPublishedAt": null,
+    "edition": "verified-edit",
+    "note": "來源貼文完整內容與來源ID已回讀；簽證條件及表格仍以澳洲內政部最新公告為準。",
+    "body": [
+      "澳洲新學年準備牽涉入學確認、學生簽證、健康保險、住宿與落地後通報。任何一環漏掉，都可能拖慢開學安排。",
+      "### 1. 先取得 CoE，再遞交學生簽證",
+      "Offer 不等於入學確認書。遞交學生簽證前須取得 CoE，並逐字核對姓名、出生日期與護照資料。",
+      "### 2. 文件與補件期限",
+      "準備 CoE、OSHC、GS 陳述、英語成績、體檢資料及有效護照；非英文文件須附合格翻譯。收到補件要求後應依通知期限回覆。",
+      "### 3. OSHC 要涵蓋完整期間",
+      "保險開始與結束日期會影響簽證安排。合併多段 CoE 時，OSHC 應完整涵蓋整段就學期間。",
+      "### 4. GS 陳述要說明背景、選課理由與未來用途",
+      "有澳洲就學史或由其他簽證轉學生簽證者，更應清楚交代學習規劃與課程合理性。",
+      "### 5. 落地後先完成手機、住宿、交通、銀行與保險設定",
+      "入住當天拍攝屋況，保存合約與門禁資料；同時確認 OSHC 保單號碼、附近診所及緊急流程。",
+      "### 6. 住址與未成年住宿安排要即時通報",
+      "簽證條件可能要求學生在抵達或搬家後於期限內通知學校。未滿 18 歲學生的住宿與福利安排，須符合學校與移民規定並取得必要書面同意。"
+    ],
+    "sources": [
+      [
+        "Peter｜Facebook原貼文",
+        "https://www.facebook.com/permalink.php?story_fbid=pfbid0gckrZxYPdJY2zenohqrqFiZ3kftLGhPdQ3e8QaP4VBmXb6rXScP3TqaHrszt9CcWl&id=61585164670358"
+      ],
+      [
+        "Australian Department of Home Affairs｜Student visa",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500"
+      ],
+      [
+        "Australian Department of Home Affairs｜Change in situation",
+        "https://immi.homeaffairs.gov.au/change-in-situation/contact-details"
+      ]
+    ],
+    "image": "/images/news/australia-sydney-main-quadrangle-2026.png",
+    "imageAlt": "澳洲大學校園建築資料照",
+    "imageCredit": "Wikimedia Commons 授權資料照；裁切使用",
+    "imageSource": "https://commons.wikimedia.org/"
+  },
+  {
     "slug": "ubc-okanagan-admissions-interview-checklist",
     "sourceId": "122145720297172155",
     "sourceAliases": [],
