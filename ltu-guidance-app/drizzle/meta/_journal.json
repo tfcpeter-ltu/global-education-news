@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1789822306616,
+      "tag": "0000_moaning_unicorn",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1789824186358,
+      "tag": "0001_cuddly_wasp",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1790006400000,
+      "tag": "0002_counselling_sept21",
+      "breakpoints": true
+    }
+  ]
+}
