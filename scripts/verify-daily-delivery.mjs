@@ -1,3 +1,4 @@
+import { facebookPhotoErrors } from './facebook-photo-evidence.mjs';
 import fs from 'node:fs';
 const date = process.argv[2] || new Intl.DateTimeFormat('en-CA', {timeZone:'Asia/Taipei'}).format(new Date());
 const reportPath = `docs/daily-reports/${date}.json`;
@@ -35,6 +36,7 @@ else {
   if(matches.length!==1) fail(`${campaign}/${network}: expected one verified published post, got ${matches.length}`);
   if(date >= '2026-10-03' && matches.length===1) {
    const post=matches[0];
+   if(network==='facebook' && date >= '2026-10-09') for(const error of facebookPhotoErrors(post)) fail(`${campaign}/facebook: ${error}`);
    if(!(Number(post.imageCount)>=1) || post.mediaStatus!=='VERIFIED' || !post.mediaVerifiedAt)
     fail(`${campaign}/${network}: published post is missing verified visible image evidence`);
    if(network==='facebook' && (!post.mediaEvidence || post.mediaKind!=='uploaded-photo' || !post.previewVerifiedAt || post.previewStatus!=='VERIFIED'))
@@ -43,6 +45,7 @@ else {
  }
  if(date >= '2026-10-04') {
   const pagePost=r.newFacebookPagePost;
+  if(date >= '2026-10-09') for(const error of facebookPhotoErrors(pagePost)) fail(`new Facebook page: ${error}`);
   if(!pagePost || pagePost.pageId!=='61595164194381' || pagePost.status!=='PUBLISHED' ||
    !pagePost.id || !pagePost.publicUrl || !pagePost.verifiedAt || !pagePost.articleUrl ||
    !(Number(pagePost.imageCount)>=1) || pagePost.mediaStatus!=='VERIFIED' ||

@@ -184,3 +184,13 @@ status 使用 draft、needs-image、ready、published 或 needs-revision。publi
 - 每平台留存發布意圖、目的帳號、回傳 ID、狀態、貼文 URL 與時間。先記錄意圖再送出，回讀平台結果後才記為成功。
 - 排定不等於已發布；部分成功時分平台記錄。逾時或結果不明時先查平台，不盲目重送。
 - X 尚未連線或圖片不合格時標記該平台 blocked／needs-image，保留可用文案；不把其他已完成的平台回滾或重發。
+
+
+## 2026-10-09 空白預覽修正與發布關卡
+
+- Facebook 的網址卡片不能算原生照片；禁止只把貼文 URL 填入 mediaEvidence 就標 VERIFIED。公開驗收保存 photoAttachments（每張照片的 id 與含相同 fbid 的 Facebook /photo/ URL）和 publicPhotoScreenshot（已保存截圖路徑）；先實際看見照片，再填驗收時間。
+- 新發布必須保存 photoAttachedAt、copyAddedAt、photoReadyEvidence，照片就緒時間早於文案加入時間。未觀察到的時間不可事後推算或補造。API 必須先上傳媒體，再綁定貼文，並回讀原生照片附件。
+- 送出前沒有照片，停止在 needs-image；發布後無原生附件或照片空白，標 needs-revision。不退回網址貼文，也不把另一則照片貼文的證據掛到錯誤 ID。
+- 送出前檢查同日同主題原生照片貼文，包含 Instagram 同步分享至 Facebook 的版本；已有成功版本即回讀並記錄其真正 ID，不再新增重複貼文。
+- 舊網址貼文的「新增相片／影片」停用時，保留原 ID 和失敗證據。若已存在照片版本，記錄 replacementPublicUrl 並提供正確連結；不得宣稱原貼文已補圖，亦不自行刪除。
+- 執行 node scripts/test-facebook-photo-evidence.mjs；每日驗證自 2026-10-09 起強制檢查原生照片證據及先圖後文案順序。結構驗證仍不能代替公開畫面的照片目視驗收。

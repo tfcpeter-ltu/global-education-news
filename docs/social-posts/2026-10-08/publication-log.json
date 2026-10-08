@@ -134,18 +134,19 @@
     {
       "campaign": "study-abroad",
       "network": "facebook",
-      "status": "PUBLISHED",
+      "status": "needs-revision",
       "id": "1082544304521767",
       "publicUrl": "https://facebook.com/686405994135602/posts/1082544304521767",
       "publishedAt": "2026-10-08T08:30:00+08:00",
       "verifiedAt": "2026-10-08T07:53:20.299Z",
-      "imageCount": 1,
-      "mediaStatus": "VERIFIED",
-      "mediaVerifiedAt": "2026-10-08T07:53:20.299Z",
-      "mediaEvidence": "https://facebook.com/686405994135602/posts/1082544304521767",
-      "mediaKind": "uploaded-photo",
-      "previewStatus": "VERIFIED",
-      "previewVerifiedAt": "2026-10-08T07:53:20.299Z"
+      "imageCount": 0,
+      "mediaStatus": "FAILED",
+      "mediaVerifiedAt": null,
+      "mediaEvidence": "公開頁只有 newsletter 網址預覽；Meta 編輯器新增相片／影片停用，原貼文未補圖。",
+      "mediaKind": "link-preview",
+      "previewStatus": "FAILED",
+      "previewVerifiedAt": null,
+      "replacementPublicUrl": "https://www.facebook.com/686405994135602/posts/1082546144521583"
     },
     {
       "campaign": "study-abroad",
@@ -262,5 +263,24 @@
     "previewStatus": "VERIFIED",
     "previewVerifiedAt": "2026-10-08T07:53:20.299Z"
   },
-  "note": "15則既定社群均已發布並回讀；新粉專貼文公開且圖片可見，但為文章預覽圖，未達 uploaded-photo 證據規格。"
+  "note": "Facebook DIY 原貼文為空白網址預覽，原 uploaded-photo 驗證已撤回；既有照片版本另見 facebookPhotoCorrection。其他平台保留原紀錄，本次未重驗。",
+  "facebookPhotoCorrection": {
+    "checkedAt": "2026-10-09",
+    "originalId": "1082544304521767",
+    "originalPublicUrl": "https://www.facebook.com/686405994135602/posts/1082544304521767",
+    "originalStatus": "needs-revision",
+    "mediaKind": "link-preview",
+    "imageCount": 0,
+    "reason": "公開頁只有 newsletter 網址預覽；Meta 編輯器新增相片／影片停用，原貼文未補圖。",
+    "replacementId": "1082546144521583",
+    "replacementPublicUrl": "https://www.facebook.com/686405994135602/posts/1082546144521583",
+    "photoAttachments": [
+      {
+        "id": "1082546134521584",
+        "url": "https://www.facebook.com/photo/?fbid=1082546134521584"
+      }
+    ],
+    "publicPhotoScreenshot": "output/facebook-20261009/photo-post.jpg",
+    "replacementNote": "既有照片版本公開可見，並非本次重發；歷史上傳順序沒有證據，不補造。"
+  }
 }
