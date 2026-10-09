@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-09",
+  "timezone": "Asia/Taipei",
+  "status": "ready-with-copy-and-images",
+  "expectedCount": 15,
+  "selections": {
+    "news": {"url": "https://globalednews.com/news/unsw-international-admissions-diversity-pathway-2027/", "image": "/images/social/2026-10-09/news-unsw.jpg", "copyFile": "news--unsw-pathway.json"},
+    "scholarship": {"url": "https://globalednews.com/scholarships/items/2026-10-essex-international-undergraduate-2027/", "image": "/images/social/2026-10-09/scholarship-essex.jpg", "copyFile": "scholarship--essex.json"},
+    "studyAbroad": {"url": "https://globalednews.com/study-abroad/", "image": "/images/social/2026-10-09/study-abroad-toronto.jpg", "copyFile": "study-abroad--canada-toronto.json"},
+    "taiwanUniversities": {"url": "https://globalednews.com/taiwan-universities/", "image": "/images/social/2026-10-09/taiwan-universities-fields.jpg", "copyFile": "taiwan-universities--field-keyword.json"}
+  },
+  "newsletter": "https://globalednews.com/newsletter/"
+}

@@ -1,0 +1,274 @@
+{
+  "date": "2026-10-09",
+  "timezone": "Asia/Taipei",
+  "baselineCommit": "4a8fe24f",
+  "status": "in-progress",
+  "startedAt": "2026-10-09T09:16:25.141697+08:00",
+  "scholarshipBaselineSlugs": [
+    "2026-08-bristol-think-big",
+    "2026-08-manchester-global-futures-taiwan-2027",
+    "2026-08-mcgill-mccall-macbain",
+    "2026-08-melbourne-graduate-research",
+    "2026-08-melbourne-international-excellence-graduate-2027",
+    "2026-08-moe-eu-scholarship",
+    "2026-08-moe-government-sponsored-study",
+    "2026-08-moe-new-southbound-internship",
+    "2026-08-moe-overseas-scholarship",
+    "2026-08-moe-study-abroad-fly",
+    "2026-08-moe-study-abroad-internship",
+    "2026-08-moe-study-abroad-needy",
+    "2026-08-moe-top100-phd",
+    "2026-08-monash-awards-2027",
+    "2026-08-oxford-clarendon",
+    "2026-08-sydney-vcis-2027",
+    "2026-08-tgpi-dream-factory",
+    "2026-08-tgpi-global-flight",
+    "2026-08-ubc-four-year-doctoral-fellowship",
+    "2026-08-ubc-imes",
+    "2026-08-ubc-international-scholars-2027",
+    "2026-08-ubc-killam-doctoral-2027",
+    "2026-08-ucl-global-masters",
+    "2026-08-ucl-global-undergraduate",
+    "2026-08-unsw-scientia-2027",
+    "2026-08-uq-international-high-achievers-2027",
+    "2026-08-utoronto-pearson-2027",
+    "2026-09-adelaide-academic-excellence-2027",
+    "2026-09-adelaide-merit-2027",
+    "2026-09-auckland-international-student-excellence-2027",
+    "2026-09-cardiff-vice-chancellor-taiwan-january-2027",
+    "2026-09-chevening-delta-climate-2027",
+    "2026-09-chevening-taiwan",
+    "2026-09-daad-architecture-masters",
+    "2026-09-deakin-excellence-international-2027",
+    "2026-09-deakin-international-merit-2027",
+    "2026-09-deakin-vice-chancellor-international-2027",
+    "2026-09-dundee-east-asia-undergraduate-january-2027",
+    "2026-09-dundee-global-excellence-undergraduate-january-2027",
+    "2026-09-erasmus-mundus-2027",
+    "2026-09-eth-zurich-esop-2027",
+    "2026-09-exeter-pgt-taiwan-january-2027",
+    "2026-09-fulbright-experience-america-research-award",
+    "2026-09-fulbright-non-academic-professional-award",
+    "2026-09-fulbright-senior-research-award",
+    "2026-09-gates-cambridge-2027",
+    "2026-09-harvard-academy-scholars-2027",
+    "2026-09-harvard-radcliffe-fellowship-2027",
+    "2026-09-hkpfs-2027",
+    "2026-09-imperial-presidents-phd-2027",
+    "2026-09-kent-international-undergraduate-january-2027",
+    "2026-09-knight-hennessy-2027",
+    "2026-09-latrobe-high-achiever-2027",
+    "2026-09-leicester-global-excellence-jan-apr-2027",
+    "2026-09-macquarie-vcis-2027",
+    "2026-09-monash-international-merit-2027",
+    "2026-09-ntu-taiwan-scholarship-jan-2027",
+    "2026-09-ntu-taiwan-stem-scholarship-jan-2027",
+    "2026-09-oxford-clarendon-2027",
+    "2026-09-rmit-up-academic-english-bursary-2027",
+    "2026-09-strathclyde-sbs-international-masters-jan-2027",
+    "2026-09-sydney-rtp-international-2027",
+    "2026-09-taiwan-anu-phd-scholarship-2027",
+    "2026-09-tasmanian-international-scholarship-2027",
+    "2026-09-ubc-international-scholars-2027",
+    "2026-09-uc-berkeley-beahrs-elp-2027",
+    "2026-09-uni-iowa-partner-state-taiwan-2027",
+    "2026-09-university-iowa-national-scholars-2027",
+    "2026-09-unsw-international-scientia-2027",
+    "2026-09-uow-postgraduate-academic-excellence-2027",
+    "2026-09-uow-university-excellence-2027",
+    "2026-09-utoronto-lester-b-pearson-2027",
+    "2026-09-yenching-academy-2027-taiwan",
+    "2026-10-bangor-vice-chancellor-january-2027",
+    "2026-10-boise-state-international-fall-2027",
+    "2026-10-bournemouth-academic-excellence-january-2027",
+    "2026-10-canterbury-international-first-year-offshore-2027",
+    "2026-10-cardiff-vice-chancellor-january-2027",
+    "2026-10-cumbria-international-undergraduate-january-2027",
+    "2026-10-herts-chancellor-january-2027",
+    "2026-10-kent-pgt-january-2027",
+    "2026-10-lancaster-regional-taiwan-2027",
+    "2026-10-london-met-east-asia-2027",
+    "2026-10-massey-toroa-undergraduate-2027",
+    "2026-10-newcastle-vc-international-undergraduate-2027",
+    "2026-10-ntu-taiwan-january-2027",
+    "2026-10-oxford-brookes-january-2027",
+    "2026-10-portsmouth-chancellor-merit-january-2027",
+    "2026-10-qub-pgt-january-2027",
+    "2026-10-rgu-early-payment-january-2027",
+    "2026-10-rgu-january-2027",
+    "2026-10-sheffield-international-undergraduate-2027",
+    "2026-10-stirling-east-asia-pgt-2027",
+    "2026-10-stirling-vice-chancellor-pgt-january-2027",
+    "2026-10-strathclyde-science-january-2027",
+    "2026-10-swansea-international-excellence-january-2027",
+    "2026-10-uea-pg-merit-2027"
+  ],
+  "newsPublished": [
+    {
+      "slug": "unsw-international-admissions-diversity-pathway-2027",
+      "url": "https://globalednews.com/news/unsw-international-admissions-diversity-pathway-2027/",
+      "sources": [
+        "https://www.unsw.edu.au/study/international-students/admissions-info",
+        "https://collegedunia.com/australia/news/unsw-gives-indian-applicants-5-extra-atar-points-ahead-of-august-20-term-1-2027-deadline"
+      ],
+      "verifiedAt": "2026-10-09T11:10:00+08:00"
+    },
+    {
+      "slug": "france-high-school-dialogue-consultation-october-2026",
+      "url": "https://globalednews.com/news/france-high-school-dialogue-consultation-october-2026/",
+      "sources": [
+        "https://www.education.gouv.fr/temps-lyceens-un-temps-de-dialogue-pour-exprimer-ses-difficultes-et-ses-attentes-506155",
+        "https://www.lemonde.fr/en/france/article/2026/10/09/high-school-protests-draw-tens-of-thousands-across-france-for-second-time-in-a-week_6758404_7.html"
+      ],
+      "verifiedAt": "2026-10-09T11:20:00+08:00"
+    },
+    {
+      "slug": "malaysia-higher-education-blueprint-international-students-2035",
+      "url": "https://globalednews.com/news/malaysia-higher-education-blueprint-international-students-2035/",
+      "sources": [
+        "https://www.mohe.gov.my/en/download/publications-journals-and-reports/malaysia-higher-education-blueprint/1821-malaysiahighereducationblueprintdocument-pdf",
+        "https://www.iseas.edu.sg/articles-commentaries/iseas-perspective/2026-42-becoming-a-global-education-hub-malaysia-needs-to-focus-on-domestic-needs-and-regional-strengths-by-koh-sin-yee/"
+      ],
+      "verifiedAt": "2026-10-09T11:30:00+08:00"
+    }
+  ],
+  "scholarshipChecks": [
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-10-essex-international-undergraduate-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-essex-international-undergraduate-2027.md",
+      "isNew": true,
+      "publishedVerifiedAt": null,
+      "sources": [
+        "https://www.essex.ac.uk/scholarships/international-undergraduate-scholarship",
+        "https://www.essex.ac.uk/undergraduate/fees-and-funding/scholarships-and-funding"
+      ],
+      "open": true,
+      "verifiedAt": "2026-10-09T10:40:00+08:00",
+      "baselineAbsent": true,
+      "slug": "2026-10-essex-international-undergraduate-2027",
+      "eligibleTaiwan": true
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-10-waterloo-international-entrance-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-waterloo-international-entrance-2027.md",
+      "isNew": true,
+      "publishedVerifiedAt": null,
+      "sources": [
+        "https://uwaterloo.ca/future-students/financing/international-scholarships",
+        "https://www.ouac.on.ca/guide/undergrad-waterloo/"
+      ],
+      "open": true,
+      "verifiedAt": "2026-10-09T10:45:00+08:00",
+      "baselineAbsent": true,
+      "slug": "2026-10-waterloo-international-entrance-2027",
+      "eligibleTaiwan": true
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-10-dundee-global-excellence-september-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-dundee-global-excellence-september-2027.md",
+      "isNew": true,
+      "publishedVerifiedAt": null,
+      "sources": [
+        "https://www.dundee.ac.uk/scholarships/global-excellence-scholarship-undergraduate-september-2027",
+        "https://www.educations.com/articles-and-advice/bachelor-studies/uk-bachelors-scholarships"
+      ],
+      "open": true,
+      "verifiedAt": "2026-10-09T10:50:00+08:00",
+      "baselineAbsent": true,
+      "slug": "2026-10-dundee-global-excellence-september-2027",
+      "eligibleTaiwan": true
+    }
+  ],
+  "scholarshipAdditions": [
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-10-essex-international-undergraduate-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-essex-international-undergraduate-2027.md",
+      "isNew": true,
+      "publishedVerifiedAt": null,
+      "sources": [
+        "https://www.essex.ac.uk/scholarships/international-undergraduate-scholarship",
+        "https://www.essex.ac.uk/undergraduate/fees-and-funding/scholarships-and-funding"
+      ],
+      "open": true,
+      "verifiedAt": "2026-10-09T10:40:00+08:00",
+      "baselineAbsent": true,
+      "slug": "2026-10-essex-international-undergraduate-2027",
+      "eligibleTaiwan": true
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-10-waterloo-international-entrance-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-waterloo-international-entrance-2027.md",
+      "isNew": true,
+      "publishedVerifiedAt": null,
+      "sources": [
+        "https://uwaterloo.ca/future-students/financing/international-scholarships",
+        "https://www.ouac.on.ca/guide/undergrad-waterloo/"
+      ],
+      "open": true,
+      "verifiedAt": "2026-10-09T10:45:00+08:00",
+      "baselineAbsent": true,
+      "slug": "2026-10-waterloo-international-entrance-2027",
+      "eligibleTaiwan": true
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-10-dundee-global-excellence-september-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-dundee-global-excellence-september-2027.md",
+      "isNew": true,
+      "publishedVerifiedAt": null,
+      "sources": [
+        "https://www.dundee.ac.uk/scholarships/global-excellence-scholarship-undergraduate-september-2027",
+        "https://www.educations.com/articles-and-advice/bachelor-studies/uk-bachelors-scholarships"
+      ],
+      "open": true,
+      "verifiedAt": "2026-10-09T10:50:00+08:00",
+      "baselineAbsent": true,
+      "slug": "2026-10-dundee-global-excellence-september-2027",
+      "eligibleTaiwan": true
+    }
+  ],
+  "peterImports": [
+    {
+      "sourceId": "122146462995172155",
+      "url": "https://globalednews.com/peter/uk-ucas-2027-application-documents-fees-deadlines/",
+      "sourceUrl": "https://www.facebook.com/photo/?fbid=122146462995172155",
+      "verifiedAt": "2026-10-09T12:35:00+08:00",
+      "imageSourceId": "replacement-licensed-photo"
+    }
+  ],
+  "socialPosts": [],
+  "newFacebookPagePost": null,
+  "gaps": [
+    "15則社群",
+    "新Facebook粉絲專頁貼文",
+    "部署與正式站驗收"
+  ],
+  "peterReview": {
+    "status": "fewer-new-posts",
+    "availableNewCount": 1,
+    "importedCount": 1,
+    "note": "已回讀指定粉專；10月9日可見1則新貼文「2027英國大學申請已啟動」，完整原文及圖片來源ID已核對並匯入。",
+    "checkedAt": "2026-10-09T12:35:00+08:00",
+    "sourceUrls": [
+      "https://www.facebook.com/photo/?fbid=122146462995172155"
+    ]
+  },
+  "ltuMediaRotation": {
+    "verifiedAt": "2026-10-09T12:38:00+08:00",
+    "status": "verified-by-existing-daily-rotation",
+    "poolSize": 12
+  },
+  "campusReview": {
+    "path": "docs/campus-reports/2026-10-09.json",
+    "reviewedSchools": 3,
+    "published": 0,
+    "verifiedAt": "2026-10-09T12:25:00+08:00"
+  },
+  "build": {
+    "verifiedAt": "2026-10-09T09:34:25+08:00",
+    "astro": "success",
+    "socialPreviews": "success",
+    "bilingual": "success",
+    "pages": 418,
+    "bilingualPages": 672
+  }
+}

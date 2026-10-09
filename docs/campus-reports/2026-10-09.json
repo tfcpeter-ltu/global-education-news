@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-09",
+  "timezone": "Asia/Taipei",
+  "reviewedSchools": [
+    {
+      "name": "臺北市立大直高級中學",
+      "slug": "taipei-dazhi-high-school",
+      "source": "https://www.dcsh.tp.edu.tw/news/115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E6%9C%AC%E6%A0%A1%E8%88%87%E6%97%A5%E6%9C%AC%E6%B5%B7%E9%99%BD%E5%AD%B8%E5%9C%92%E5%90%88%E4%BD%9C%E7%9F%AD%E6%9C%9F%E5%9C%8B%E9%9A%9B%E4%BA%A4%E6%8F%9B%E5%AD%B8/",
+      "result": "校方10月5日公告日本海陽學園短期交換，限符合條件男學生，10月19日16:10截止；保留為新線索，尚未取得參與學生與圖片授權。"
+    },
+    {
+      "name": "臺北市立成功高級中學",
+      "slug": "taipei-chenggong-high-school",
+      "source": "https://www.cksh.tp.edu.tw/news/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AB%8B%E6%88%90%E5%8A%9F%E9%AB%98%E7%B4%9A%E4%B8%AD%E5%AD%B82026%E5%B9%B4%E5%BA%A6%E5%9C%8B%E9%9A%9B%E5%AD%B8%E8%A1%93%E4%BA%A4%E6%B5%81%E5%AD%B8%E7%94%9F%E7%94%84/",
+      "result": "校方2026國際學術交流包含韓國金泉高中及日本松山高校，10月有線上與實體交流；保留為活動線索，未以舊甄選公告冒充今日新聞。"
+    },
+    {
+      "name": "國立東華大學",
+      "slug": "national-dong-hwa-university",
+      "source": "https://oia.ndhu.edu.tw/p/412-1027-21507.php?Lang=zh-tw",
+      "result": "國際處頁面確認2027第一次出國交換系統與學校一覽表，申請已於10月5日17時截止；可作交換準備題材，不再宣傳為開放申請。"
+    }
+  ],
+  "candidates": [
+    {"schoolSlug": "taipei-dazhi-high-school", "topic": "日本海陽學園短期交換", "status": "pendingConsent", "sourceUrl": "https://www.dcsh.tp.edu.tw/news/115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E6%9C%AC%E6%A0%A1%E8%88%87%E6%97%A5%E6%9C%AC%E6%B5%B7%E9%99%BD%E5%AD%B8%E5%9C%92%E5%90%88%E4%BD%9C%E7%9F%AD%E6%9C%9F%E5%9C%8B%E9%9A%9B%E4%BA%A4%E6%8F%9B%E5%AD%B8/"},
+    {"schoolSlug": "taipei-chenggong-high-school", "topic": "韓日高中國際學術交流", "status": "research", "sourceUrl": "https://www.cksh.tp.edu.tw/news/%E8%87%BA%E5%8C%97%E5%B8%82%E7%AB%8B%E6%88%90%E5%8A%9F%E9%AB%98%E7%B4%9A%E4%B8%AD%E5%AD%B82026%E5%B9%B4%E5%BA%A6%E5%9C%8B%E9%9A%9B%E5%AD%B8%E8%A1%93%E4%BA%A4%E6%B5%81%E5%AD%B8%E7%94%9F%E7%94%84/"},
+    {"schoolSlug": "national-dong-hwa-university", "topic": "2027第一次出國交換", "status": "deadline-passed-reference", "sourceUrl": "https://oia.ndhu.edu.tw/p/412-1027-21507.php?Lang=zh-tw"}
+  ],
+  "published": [],
+  "pendingConsent": [
+    {"schoolSlug": "taipei-dazhi-high-school", "need": "學生姓名、訪談、活動照片與使用範圍授權"}
+  ],
+  "outreachDrafts": [],
+  "gaps": ["今日3個線索均不足以直接刊登完整人物特別報導；未搬運未授權學生內容。"],
+  "verifiedAt": "2026-10-09T12:25:00+08:00"
+}

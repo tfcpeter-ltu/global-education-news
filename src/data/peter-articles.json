@@ -1,5 +1,59 @@
 [
   {
+    "slug": "uk-ucas-2027-application-documents-fees-deadlines",
+    "title": "2027 英國大學申請啟動：UCAS 文件、費用與截止日一次看懂",
+    "description": "Peter 整理 2027 UCAS 申請開放、文件上傳、34.50 英鎊申請費、截止日與三問式個人陳述。",
+    "sourceUrl": "https://www.facebook.com/photo/?fbid=122146462995172155",
+    "sourceId": "122146462995172155",
+    "originalDateLabel": "2026年10月9日",
+    "topic": "英國大學申請",
+    "image": "/images/peter/uk-ucas-2027-application.jpg",
+    "imageAlt": "英國大學校園資料照，搭配2027 UCAS申請資訊",
+    "note": "UCAS 2027 申請費為34.50英鎊、最多五個選擇；牛津、劍橋及多數醫牙獸醫課程 equal consideration deadline 為2026年10月15日英國時間18:00。台灣時間僅供換算，送件仍以UCAS與課程頁顯示為準。",
+    "sources": [
+      [
+        "UCAS｜2027 cycle toolkit",
+        "https://www.ucas.com/advisers/help-and-training/toolkits/2027-cycle-toolkit"
+      ],
+      [
+        "UCAS｜Key dates timeline",
+        "https://www.ucas.com/applying/applying-university/dates-and-deadlines-uni-applications"
+      ],
+      [
+        "UCAS｜International student FAQs",
+        "https://www.ucas.com/international/international-students/faqs-for-international-students"
+      ],
+      [
+        "UCAS｜Personal statement from 2026 entry",
+        "https://www.ucas.com/undergraduate/applying-university/writing-your-personal-statement/how-write-your-undergraduate-personal-statement"
+      ]
+    ],
+    "body": [
+      "2027 年英國大學申請已經可以正式送出；但今年若仍沿用舊版清單，很可能在文件、費用或送件時間上出錯。",
+      "### 2027 申請已經可以正式提交",
+      "UCAS 已於 2026 年 9 月 1 日開放 2027 入學申請正式送件，大學也可開始對收到的申請作出決定。推薦信、三問式個人陳述與選校順序，都應進入定稿。越早送出不一定越有利，但越早完成可送件版本，就越能保留修改與處理突發問題的空間。",
+      "### 國際生可在 UCAS 上傳部分佐證文件",
+      "UCAS 為 2027 入學申請導入文件上傳功能，國際生說明列舉英文能力證明、護照或移民身分證明。但可以上傳不等於所有資料都應一次塞進去；學生仍須確認各大學是否要求額外成績單、作品集、測驗結果或透過校方系統補件。",
+      "### 申請費與選校成本要重新計算",
+      "2027 入學的 UCAS 申請費為 34.50 英鎊，可填最多五個志願。對國際生而言，部分課程還可能產生入學測驗、作品集製作、英文檢定、面試交通或後續留位訂金。五個選擇應形成合理的衝刺、匹配與相對穩健組合。",
+      "### 截止時間必須換算成台灣時間",
+      "牛津、劍橋，以及多數醫學、牙醫與獸醫課程的 equal consideration deadline，是 2026 年 10 月 15 日英國時間 18:00。多數其他大學部課程則是 2027 年 1 月 13 日英國時間 18:00。台灣時間換算僅供規劃，實際送件仍應以 UCAS 與目標課程頁面為準。",
+      "### 個人陳述仍是三個問題，一份整體判斷",
+      "2027 申請延續三問式個人陳述：為何想讀這個科系、既有學習如何為課程做準備，以及課外還做了哪些準備。總字數上限仍為 4,000 characters，每題至少 350 characters；大學會把三題合在一起閱讀。",
+      "### Peter 觀點",
+      "好的 UCAS 申請不是把欄位填滿，而是讓科系選擇、修課、閱讀、活動、個人陳述與推薦信指向同一個學術方向。文件上傳功能只是工具，真正決定品質的，仍是證據之間能不能互相支持。",
+      "學生現在可以完成三問式陳述初稿、確認推薦人時程，並逐一核對五個課程的截止日、先修科目、測驗與補件方式。家長可建立含申請費、考試、語言檢定、訂金及預估學費的完整預算表。",
+      "#Peter觀點實戰申請乾貨 #Peter觀點全球攻略 #UCAS申請 #英國留學 #英國大學申請 #國際教育 #海外升學"
+    ],
+    "author": "Peter",
+    "importedAt": "2026-10-09",
+    "originalPublishedAt": "2026-10-09",
+    "originalDatePrecision": "day",
+    "dateObservedAt": "2026-10-09",
+    "imageCredit": "Wikimedia Commons 校園資料照；裁切替換",
+    "imageRights": "CC授權照片，詳見網站圖片來源頁"
+  },
+  {
     "slug": "australia-student-arrival-six-pitfalls",
     "sourceId": "122146217205172155",
     "sourceAliases": [
