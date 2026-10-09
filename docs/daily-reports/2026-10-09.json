@@ -137,7 +137,7 @@
       "url": "https://globalednews.com/scholarships/items/2026-10-essex-international-undergraduate-2027/",
       "publishedPath": "src/pages/scholarships/items/2026-10-essex-international-undergraduate-2027.md",
       "isNew": true,
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-10-09T09:44:18+08:00",
       "sources": [
         "https://www.essex.ac.uk/scholarships/international-undergraduate-scholarship",
         "https://www.essex.ac.uk/undergraduate/fees-and-funding/scholarships-and-funding"
@@ -152,7 +152,7 @@
       "url": "https://globalednews.com/scholarships/items/2026-10-waterloo-international-entrance-2027/",
       "publishedPath": "src/pages/scholarships/items/2026-10-waterloo-international-entrance-2027.md",
       "isNew": true,
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-10-09T09:44:18+08:00",
       "sources": [
         "https://uwaterloo.ca/future-students/financing/international-scholarships",
         "https://www.ouac.on.ca/guide/undergrad-waterloo/"
@@ -167,7 +167,7 @@
       "url": "https://globalednews.com/scholarships/items/2026-10-dundee-global-excellence-september-2027/",
       "publishedPath": "src/pages/scholarships/items/2026-10-dundee-global-excellence-september-2027.md",
       "isNew": true,
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-10-09T09:44:18+08:00",
       "sources": [
         "https://www.dundee.ac.uk/scholarships/global-excellence-scholarship-undergraduate-september-2027",
         "https://www.educations.com/articles-and-advice/bachelor-studies/uk-bachelors-scholarships"
@@ -184,7 +184,7 @@
       "url": "https://globalednews.com/scholarships/items/2026-10-essex-international-undergraduate-2027/",
       "publishedPath": "src/pages/scholarships/items/2026-10-essex-international-undergraduate-2027.md",
       "isNew": true,
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-10-09T09:44:18+08:00",
       "sources": [
         "https://www.essex.ac.uk/scholarships/international-undergraduate-scholarship",
         "https://www.essex.ac.uk/undergraduate/fees-and-funding/scholarships-and-funding"
@@ -199,7 +199,7 @@
       "url": "https://globalednews.com/scholarships/items/2026-10-waterloo-international-entrance-2027/",
       "publishedPath": "src/pages/scholarships/items/2026-10-waterloo-international-entrance-2027.md",
       "isNew": true,
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-10-09T09:44:18+08:00",
       "sources": [
         "https://uwaterloo.ca/future-students/financing/international-scholarships",
         "https://www.ouac.on.ca/guide/undergrad-waterloo/"
@@ -214,7 +214,7 @@
       "url": "https://globalednews.com/scholarships/items/2026-10-dundee-global-excellence-september-2027/",
       "publishedPath": "src/pages/scholarships/items/2026-10-dundee-global-excellence-september-2027.md",
       "isNew": true,
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-10-09T09:44:18+08:00",
       "sources": [
         "https://www.dundee.ac.uk/scholarships/global-excellence-scholarship-undergraduate-september-2027",
         "https://www.educations.com/articles-and-advice/bachelor-studies/uk-bachelors-scholarships"
@@ -239,8 +239,7 @@
   "newFacebookPagePost": null,
   "gaps": [
     "15則社群",
-    "新Facebook粉絲專頁貼文",
-    "部署與正式站驗收"
+    "新Facebook粉絲專頁貼文"
   ],
   "peterReview": {
     "status": "fewer-new-posts",
@@ -270,5 +269,28 @@
     "bilingual": "success",
     "pages": 418,
     "bilingualPages": 672
+  },
+  "deployment": {
+    "status": "success",
+    "commit": "42f0ea4e5915d1cedf826b7029c2ba7e65f24cf4",
+    "workflowRun": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/37870600284",
+    "verifiedAt": "2026-10-09T09:44:18+08:00"
+  },
+  "acceptance": {
+    "desktop": true,
+    "mobile": true,
+    "searchEnter": true,
+    "searchButton": true,
+    "filterResultCount": true,
+    "zeroResultPrompt": true,
+    "canonical": true,
+    "openGraph": true,
+    "schema": true,
+    "sitemap": true,
+    "newsSitemap": true,
+    "rss": true,
+    "images": true,
+    "verifiedAt": "2026-10-09T09:44:18+08:00",
+    "seo": true
   }
 }
