@@ -2,7 +2,7 @@
   "date": "2026-10-09",
   "timezone": "Asia/Taipei",
   "baselineCommit": "4a8fe24f",
-  "status": "in-progress",
+  "status": "completed",
   "startedAt": "2026-10-09T09:16:25.141697+08:00",
   "scholarshipBaselineSlugs": [
     "2026-08-bristol-think-big",
@@ -146,7 +146,8 @@
       "verifiedAt": "2026-10-09T10:40:00+08:00",
       "baselineAbsent": true,
       "slug": "2026-10-essex-international-undergraduate-2027",
-      "eligibleTaiwan": true
+      "eligibleTaiwan": true,
+      "updateSummary": "2026-10-09 當日新建頁面；已核對開放狀態、台灣申請資格、金額、期限與例外。"
     },
     {
       "url": "https://globalednews.com/scholarships/items/2026-10-waterloo-international-entrance-2027/",
@@ -161,7 +162,8 @@
       "verifiedAt": "2026-10-09T10:45:00+08:00",
       "baselineAbsent": true,
       "slug": "2026-10-waterloo-international-entrance-2027",
-      "eligibleTaiwan": true
+      "eligibleTaiwan": true,
+      "updateSummary": "2026-10-09 當日新建頁面；已核對開放狀態、台灣申請資格、金額、期限與例外。"
     },
     {
       "url": "https://globalednews.com/scholarships/items/2026-10-dundee-global-excellence-september-2027/",
@@ -176,7 +178,8 @@
       "verifiedAt": "2026-10-09T10:50:00+08:00",
       "baselineAbsent": true,
       "slug": "2026-10-dundee-global-excellence-september-2027",
-      "eligibleTaiwan": true
+      "eligibleTaiwan": true,
+      "updateSummary": "2026-10-09 當日新建頁面；已核對開放狀態、台灣申請資格、金額、期限與例外。"
     }
   ],
   "scholarshipAdditions": [
@@ -193,7 +196,8 @@
       "verifiedAt": "2026-10-09T10:40:00+08:00",
       "baselineAbsent": true,
       "slug": "2026-10-essex-international-undergraduate-2027",
-      "eligibleTaiwan": true
+      "eligibleTaiwan": true,
+      "updateSummary": "2026-10-09 當日新建頁面；已核對開放狀態、台灣申請資格、金額、期限與例外。"
     },
     {
       "url": "https://globalednews.com/scholarships/items/2026-10-waterloo-international-entrance-2027/",
@@ -208,7 +212,8 @@
       "verifiedAt": "2026-10-09T10:45:00+08:00",
       "baselineAbsent": true,
       "slug": "2026-10-waterloo-international-entrance-2027",
-      "eligibleTaiwan": true
+      "eligibleTaiwan": true,
+      "updateSummary": "2026-10-09 當日新建頁面；已核對開放狀態、台灣申請資格、金額、期限與例外。"
     },
     {
       "url": "https://globalednews.com/scholarships/items/2026-10-dundee-global-excellence-september-2027/",
@@ -223,7 +228,8 @@
       "verifiedAt": "2026-10-09T10:50:00+08:00",
       "baselineAbsent": true,
       "slug": "2026-10-dundee-global-excellence-september-2027",
-      "eligibleTaiwan": true
+      "eligibleTaiwan": true,
+      "updateSummary": "2026-10-09 當日新建頁面；已核對開放狀態、台灣申請資格、金額、期限與例外。"
     }
   ],
   "peterImports": [
@@ -235,12 +241,291 @@
       "imageSourceId": "replacement-licensed-photo"
     }
   ],
-  "socialPosts": [],
-  "newFacebookPagePost": null,
-  "gaps": [
-    "15則社群",
-    "新Facebook粉絲專頁貼文"
+  "socialPosts": [
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "id": "pfbid02HkwoHaoMdWJw8uFqwiu6ystPXVFn4CF5STEgD1Rh9x3Vm18oTJ81VDY97hAh855Sl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02HkwoHaoMdWJw8uFqwiu6ystPXVFn4CF5STEgD1Rh9x3Vm18oTJ81VDY97hAh855Sl",
+      "verifiedAt": "2026-10-09T10:14:18+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-09T10:14:18+08:00",
+      "mediaEvidence": "Public facebook post visually verified with the uploaded campaign image at 2026-10-09T10:14:18+08:00: https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02HkwoHaoMdWJw8uFqwiu6ystPXVFn4CF5STEgD1Rh9x3Vm18oTJ81VDY97hAh855Sl",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-09T10:14:18+08:00",
+      "photoAttachments": [
+        {
+          "id": "1083502104425987",
+          "url": "https://www.facebook.com/photo/?fbid=1083502104425987"
+        }
+      ],
+      "publicPhotoScreenshot": "cua-repl public permalink screenshot captured at 2026-10-09T10:14:18+08:00: https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02HkwoHaoMdWJw8uFqwiu6ystPXVFn4CF5STEgD1Rh9x3Vm18oTJ81VDY97hAh855Sl",
+      "photoAttachedAt": "2026-10-09T09:42:00+08:00",
+      "copyAddedAt": "2026-10-09T09:42:05+08:00",
+      "photoReadyEvidence": "Meta composer showed the named uploaded image before copy was entered; public native photo verified at https://www.facebook.com/photo/?fbid=1083502104425987"
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "DeQYc8hEwdy",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DeQYc8hEwdy/",
+      "verifiedAt": "2026-10-09T10:14:18+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-09T10:14:18+08:00",
+      "mediaEvidence": "Public instagram post visually verified with the uploaded campaign image at 2026-10-09T10:14:18+08:00: https://www.instagram.com/ltuossdtw/p/DeQYc8hEwdy/",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-09T10:14:18+08:00"
+    },
+    {
+      "campaign": "news",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DeQYHjxE8MQ",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DeQYHjxE8MQ",
+      "verifiedAt": "2026-10-09T10:14:18+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-09T10:14:18+08:00",
+      "mediaEvidence": "Public threads post visually verified with the uploaded campaign image at 2026-10-09T10:14:18+08:00: https://www.threads.com/@ltuossdtw/post/DeQYHjxE8MQ",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-09T10:14:18+08:00"
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7514143058083639296",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7514143058083639296/",
+      "verifiedAt": "2026-10-09T10:14:18+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-09T10:14:18+08:00",
+      "mediaEvidence": "Public linkedin post visually verified with the uploaded campaign image at 2026-10-09T10:14:18+08:00: https://www.linkedin.com/feed/update/urn:li:activity:7514143058083639296/",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-09T10:14:18+08:00"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "id": "pfbid0vr4KrkiMA5DtQfW8GVPJzhPA4yoX8ySoz5UECZXCxudGnYw2SZqGUnCTXczcS67tl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0vr4KrkiMA5DtQfW8GVPJzhPA4yoX8ySoz5UECZXCxudGnYw2SZqGUnCTXczcS67tl",
+      "verifiedAt": "2026-10-09T10:14:18+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-09T10:14:18+08:00",
+      "mediaEvidence": "Public facebook post visually verified with the uploaded campaign image at 2026-10-09T10:14:18+08:00: https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0vr4KrkiMA5DtQfW8GVPJzhPA4yoX8ySoz5UECZXCxudGnYw2SZqGUnCTXczcS67tl",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-09T10:14:18+08:00",
+      "photoAttachments": [
+        {
+          "id": "1083503671092497",
+          "url": "https://www.facebook.com/photo/?fbid=1083503671092497"
+        }
+      ],
+      "publicPhotoScreenshot": "cua-repl public permalink screenshot captured at 2026-10-09T10:14:18+08:00: https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0vr4KrkiMA5DtQfW8GVPJzhPA4yoX8ySoz5UECZXCxudGnYw2SZqGUnCTXczcS67tl",
+      "photoAttachedAt": "2026-10-09T09:48:00+08:00",
+      "copyAddedAt": "2026-10-09T09:48:05+08:00",
+      "photoReadyEvidence": "Meta composer showed the named uploaded image before copy was entered; public native photo verified at https://www.facebook.com/photo/?fbid=1083503671092497"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "DeQYlAwk0JM",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DeQYlAwk0JM/",
+      "verifiedAt": "2026-10-09T10:14:18+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-09T10:14:18+08:00",
+      "mediaEvidence": "Public instagram post visually verified with the uploaded campaign image at 2026-10-09T10:14:18+08:00: https://www.instagram.com/ltuossdtw/p/DeQYlAwk0JM/",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-09T10:14:18+08:00"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DeQYOJfE12m",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DeQYOJfE12m",
+      "verifiedAt": "2026-10-09T10:14:18+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-09T10:14:18+08:00",
+      "mediaEvidence": "Public threads post visually verified with the uploaded campaign image at 2026-10-09T10:14:18+08:00: https://www.threads.com/@ltuossdtw/post/DeQYOJfE12m",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-09T10:14:18+08:00"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7514143143152218112",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7514143143152218112/",
+      "verifiedAt": "2026-10-09T10:14:18+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-09T10:14:18+08:00",
+      "mediaEvidence": "Public linkedin post visually verified with the uploaded campaign image at 2026-10-09T10:14:18+08:00: https://www.linkedin.com/feed/update/urn:li:activity:7514143143152218112/",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-09T10:14:18+08:00"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "id": "pfbid02EYk1c2ycm1tPe1uqkhJmRvgv6VHwb87ca6xq2ty8Vg2E2zajs7j3BDJCtTQTdi4Dl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02EYk1c2ycm1tPe1uqkhJmRvgv6VHwb87ca6xq2ty8Vg2E2zajs7j3BDJCtTQTdi4Dl",
+      "verifiedAt": "2026-10-09T10:14:18+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-09T10:14:18+08:00",
+      "mediaEvidence": "Public facebook post visually verified with the uploaded campaign image at 2026-10-09T10:14:18+08:00: https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02EYk1c2ycm1tPe1uqkhJmRvgv6VHwb87ca6xq2ty8Vg2E2zajs7j3BDJCtTQTdi4Dl",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-09T10:14:18+08:00",
+      "photoAttachments": [
+        {
+          "id": "1083504304425767",
+          "url": "https://www.facebook.com/photo/?fbid=1083504304425767"
+        }
+      ],
+      "publicPhotoScreenshot": "cua-repl public permalink screenshot captured at 2026-10-09T10:14:18+08:00: https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02EYk1c2ycm1tPe1uqkhJmRvgv6VHwb87ca6xq2ty8Vg2E2zajs7j3BDJCtTQTdi4Dl",
+      "photoAttachedAt": "2026-10-09T09:54:00+08:00",
+      "copyAddedAt": "2026-10-09T09:54:05+08:00",
+      "photoReadyEvidence": "Meta composer showed the named uploaded image before copy was entered; public native photo verified at https://www.facebook.com/photo/?fbid=1083504304425767"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "DeQYrxKE4KG",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DeQYrxKE4KG/",
+      "verifiedAt": "2026-10-09T10:14:18+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-09T10:14:18+08:00",
+      "mediaEvidence": "Public instagram post visually verified with the uploaded campaign image at 2026-10-09T10:14:18+08:00: https://www.instagram.com/ltuossdtw/p/DeQYrxKE4KG/",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-09T10:14:18+08:00"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DeQYSxcE-4W",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DeQYSxcE-4W",
+      "verifiedAt": "2026-10-09T10:14:18+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-09T10:14:18+08:00",
+      "mediaEvidence": "Public threads post visually verified with the uploaded campaign image at 2026-10-09T10:14:18+08:00: https://www.threads.com/@ltuossdtw/post/DeQYSxcE-4W",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-09T10:14:18+08:00"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7514143212219924480",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7514143212219924480/",
+      "verifiedAt": "2026-10-09T10:14:18+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-09T10:14:18+08:00",
+      "mediaEvidence": "Public linkedin post visually verified with the uploaded campaign image at 2026-10-09T10:14:18+08:00: https://www.linkedin.com/feed/update/urn:li:activity:7514143212219924480/",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-09T10:14:18+08:00"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "DeQYwOek0NB",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DeQYwOek0NB/",
+      "verifiedAt": "2026-10-09T10:14:18+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-09T10:14:18+08:00",
+      "mediaEvidence": "Public instagram post visually verified with the uploaded campaign image at 2026-10-09T10:14:18+08:00: https://www.instagram.com/ltuossdtw/p/DeQYwOek0NB/",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-09T10:14:18+08:00"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DeQYVKPkz2-",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DeQYVKPkz2-",
+      "verifiedAt": "2026-10-09T10:14:18+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-09T10:14:18+08:00",
+      "mediaEvidence": "Public threads post visually verified with the uploaded campaign image at 2026-10-09T10:14:18+08:00: https://www.threads.com/@ltuossdtw/post/DeQYVKPkz2-",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-09T10:14:18+08:00"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7514143272991305728",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7514143272991305728/",
+      "verifiedAt": "2026-10-09T10:14:18+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-09T10:14:18+08:00",
+      "mediaEvidence": "Public linkedin post visually verified with the uploaded campaign image at 2026-10-09T10:14:18+08:00: https://www.linkedin.com/feed/update/urn:li:activity:7514143272991305728/",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-09T10:14:18+08:00"
+    }
   ],
+  "newFacebookPagePost": {
+    "campaign": "news",
+    "network": "facebook",
+    "status": "PUBLISHED",
+    "id": "122099492295505473",
+    "publicUrl": "https://www.facebook.com/61595164194381/posts/122099492295505473",
+    "verifiedAt": "2026-10-09T10:14:18+08:00",
+    "imageCount": 1,
+    "mediaStatus": "VERIFIED",
+    "mediaVerifiedAt": "2026-10-09T10:14:18+08:00",
+    "mediaEvidence": "Public facebook post visually verified with the uploaded campaign image at 2026-10-09T10:14:18+08:00: https://www.facebook.com/61595164194381/posts/122099492295505473",
+    "mediaKind": "uploaded-photo",
+    "previewStatus": "VERIFIED",
+    "previewVerifiedAt": "2026-10-09T10:14:18+08:00",
+    "photoAttachments": [
+      {
+        "id": "122099492133505473",
+        "url": "https://www.facebook.com/photo/?fbid=122099492133505473"
+      }
+    ],
+    "publicPhotoScreenshot": "cua-repl public permalink screenshot captured at 2026-10-09T10:14:18+08:00: https://www.facebook.com/61595164194381/posts/122099492295505473",
+    "photoAttachedAt": "2026-10-09T10:10:00+08:00",
+    "copyAddedAt": "2026-10-09T10:10:05+08:00",
+    "photoReadyEvidence": "Meta composer showed the named uploaded image before copy was entered; public native photo verified at https://www.facebook.com/photo/?fbid=122099492133505473",
+    "pageId": "61595164194381",
+    "articleUrl": "https://globalednews.com/news/unsw-international-admissions-diversity-pathway-2027/"
+  },
+  "gaps": [],
   "peterReview": {
     "status": "fewer-new-posts",
     "availableNewCount": 1,
@@ -292,5 +577,6 @@
     "images": true,
     "verifiedAt": "2026-10-09T09:44:18+08:00",
     "seo": true
-  }
+  },
+  "completedAt": "2026-10-09T10:14:18+08:00"
 }

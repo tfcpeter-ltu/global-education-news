@@ -2,7 +2,7 @@
   "date": "2026-10-09",
   "campaign": "scholarship",
   "version": "v1",
-  "status": "READY",
+  "status": "PUBLISHED",
   "articleTitle": "艾塞克斯大學 2027 國際本科獎學金",
   "articleUrl": "https://globalednews.com/scholarships/items/2026-10-essex-international-undergraduate-2027/",
   "shortHook": "官方適用名單明列台灣，首年學費減免 5,000 英鎊，由校方自動審核。",
@@ -16,9 +16,83 @@
   "imageAlt": "艾塞克斯大學校園，上有台灣學生適用與首年減免5000英鎊標題",
   "category": "scholarship",
   "topic": "英國本科獎學金",
-  "sources": ["https://www.essex.ac.uk/scholarships/international-undergraduate-scholarship", "https://www.essex.ac.uk/undergraduate/fees-and-funding/scholarships-and-funding"],
+  "sources": [
+    "https://www.essex.ac.uk/scholarships/international-undergraduate-scholarship",
+    "https://www.essex.ac.uk/undergraduate/fees-and-funding/scholarships-and-funding"
+  ],
   "imageRights": "University of Essex／Wikimedia Commons，CC BY-SA 4.0；裁切並加標題",
   "verifiedAt": "2026-10-09T12:10:00+08:00",
   "plannedPublishDate": "2026-10-09",
-  "publishedPosts": []
+  "publishedPosts": [
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "id": "pfbid0vr4KrkiMA5DtQfW8GVPJzhPA4yoX8ySoz5UECZXCxudGnYw2SZqGUnCTXczcS67tl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0vr4KrkiMA5DtQfW8GVPJzhPA4yoX8ySoz5UECZXCxudGnYw2SZqGUnCTXczcS67tl",
+      "verifiedAt": "2026-10-09T10:14:18+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-09T10:14:18+08:00",
+      "mediaEvidence": "Public facebook post visually verified with the uploaded campaign image at 2026-10-09T10:14:18+08:00: https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0vr4KrkiMA5DtQfW8GVPJzhPA4yoX8ySoz5UECZXCxudGnYw2SZqGUnCTXczcS67tl",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-09T10:14:18+08:00",
+      "photoAttachments": [
+        {
+          "id": "1083503671092497",
+          "url": "https://www.facebook.com/photo/?fbid=1083503671092497"
+        }
+      ],
+      "publicPhotoScreenshot": "cua-repl public permalink screenshot captured at 2026-10-09T10:14:18+08:00: https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0vr4KrkiMA5DtQfW8GVPJzhPA4yoX8ySoz5UECZXCxudGnYw2SZqGUnCTXczcS67tl",
+      "photoAttachedAt": "2026-10-09T09:48:00+08:00",
+      "copyAddedAt": "2026-10-09T09:48:05+08:00",
+      "photoReadyEvidence": "Meta composer showed the named uploaded image before copy was entered; public native photo verified at https://www.facebook.com/photo/?fbid=1083503671092497"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "DeQYlAwk0JM",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DeQYlAwk0JM/",
+      "verifiedAt": "2026-10-09T10:14:18+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-09T10:14:18+08:00",
+      "mediaEvidence": "Public instagram post visually verified with the uploaded campaign image at 2026-10-09T10:14:18+08:00: https://www.instagram.com/ltuossdtw/p/DeQYlAwk0JM/",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-09T10:14:18+08:00"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DeQYOJfE12m",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DeQYOJfE12m",
+      "verifiedAt": "2026-10-09T10:14:18+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-09T10:14:18+08:00",
+      "mediaEvidence": "Public threads post visually verified with the uploaded campaign image at 2026-10-09T10:14:18+08:00: https://www.threads.com/@ltuossdtw/post/DeQYOJfE12m",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-09T10:14:18+08:00"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7514143143152218112",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7514143143152218112/",
+      "verifiedAt": "2026-10-09T10:14:18+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-09T10:14:18+08:00",
+      "mediaEvidence": "Public linkedin post visually verified with the uploaded campaign image at 2026-10-09T10:14:18+08:00: https://www.linkedin.com/feed/update/urn:li:activity:7514143143152218112/",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-09T10:14:18+08:00"
+    }
+  ]
 }

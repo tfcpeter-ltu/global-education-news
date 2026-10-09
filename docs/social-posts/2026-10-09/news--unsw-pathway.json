@@ -2,7 +2,7 @@
   "date": "2026-10-09",
   "campaign": "news",
   "version": "v1",
-  "status": "READY",
+  "status": "PUBLISHED",
   "articleTitle": "UNSW 2027 國際本科新增多元入學途徑",
   "articleUrl": "https://globalednews.com/news/unsw-international-admissions-diversity-pathway-2027/",
   "shortHook": "符合指定護照資格且原始 International ATAR 至少 75，校方自動加 5 點；醫學課程排除。",
@@ -16,9 +16,83 @@
   "imageAlt": "UNSW 校園與雪梨市景，上有合格申請自動加5點標題",
   "category": "news",
   "topic": "澳洲國際招生",
-  "sources": ["https://www.unsw.edu.au/study/international-students/admissions-info", "https://collegedunia.com/australia/news/unsw-gives-indian-applicants-5-extra-atar-points-ahead-of-august-20-term-1-2027-deadline"],
+  "sources": [
+    "https://www.unsw.edu.au/study/international-students/admissions-info",
+    "https://collegedunia.com/australia/news/unsw-gives-indian-applicants-5-extra-atar-points-ahead-of-august-20-term-1-2027-deadline"
+  ],
   "imageRights": "Witty lama／Wikimedia Commons，CC BY-SA 3.0；裁切並加標題",
   "verifiedAt": "2026-10-09T12:10:00+08:00",
   "plannedPublishDate": "2026-10-09",
-  "publishedPosts": []
+  "publishedPosts": [
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "id": "pfbid02HkwoHaoMdWJw8uFqwiu6ystPXVFn4CF5STEgD1Rh9x3Vm18oTJ81VDY97hAh855Sl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02HkwoHaoMdWJw8uFqwiu6ystPXVFn4CF5STEgD1Rh9x3Vm18oTJ81VDY97hAh855Sl",
+      "verifiedAt": "2026-10-09T10:14:18+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-09T10:14:18+08:00",
+      "mediaEvidence": "Public facebook post visually verified with the uploaded campaign image at 2026-10-09T10:14:18+08:00: https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02HkwoHaoMdWJw8uFqwiu6ystPXVFn4CF5STEgD1Rh9x3Vm18oTJ81VDY97hAh855Sl",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-09T10:14:18+08:00",
+      "photoAttachments": [
+        {
+          "id": "1083502104425987",
+          "url": "https://www.facebook.com/photo/?fbid=1083502104425987"
+        }
+      ],
+      "publicPhotoScreenshot": "cua-repl public permalink screenshot captured at 2026-10-09T10:14:18+08:00: https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02HkwoHaoMdWJw8uFqwiu6ystPXVFn4CF5STEgD1Rh9x3Vm18oTJ81VDY97hAh855Sl",
+      "photoAttachedAt": "2026-10-09T09:42:00+08:00",
+      "copyAddedAt": "2026-10-09T09:42:05+08:00",
+      "photoReadyEvidence": "Meta composer showed the named uploaded image before copy was entered; public native photo verified at https://www.facebook.com/photo/?fbid=1083502104425987"
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "DeQYc8hEwdy",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DeQYc8hEwdy/",
+      "verifiedAt": "2026-10-09T10:14:18+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-09T10:14:18+08:00",
+      "mediaEvidence": "Public instagram post visually verified with the uploaded campaign image at 2026-10-09T10:14:18+08:00: https://www.instagram.com/ltuossdtw/p/DeQYc8hEwdy/",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-09T10:14:18+08:00"
+    },
+    {
+      "campaign": "news",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DeQYHjxE8MQ",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DeQYHjxE8MQ",
+      "verifiedAt": "2026-10-09T10:14:18+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-09T10:14:18+08:00",
+      "mediaEvidence": "Public threads post visually verified with the uploaded campaign image at 2026-10-09T10:14:18+08:00: https://www.threads.com/@ltuossdtw/post/DeQYHjxE8MQ",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-09T10:14:18+08:00"
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7514143058083639296",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7514143058083639296/",
+      "verifiedAt": "2026-10-09T10:14:18+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-09T10:14:18+08:00",
+      "mediaEvidence": "Public linkedin post visually verified with the uploaded campaign image at 2026-10-09T10:14:18+08:00: https://www.linkedin.com/feed/update/urn:li:activity:7514143058083639296/",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-09T10:14:18+08:00"
+    }
+  ]
 }

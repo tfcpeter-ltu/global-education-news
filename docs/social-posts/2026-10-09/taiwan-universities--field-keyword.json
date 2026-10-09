@@ -2,7 +2,7 @@
   "date": "2026-10-09",
   "campaign": "taiwan-universities",
   "version": "v1",
-  "status": "READY",
+  "status": "PUBLISHED",
   "articleTitle": "國內大學選校選系資料庫：用興趣關鍵字跨校找科系",
   "articleUrl": "https://globalednews.com/taiwan-universities/",
   "shortHook": "用學習興趣建立候選校系，再回官方招生頁逐項核對課程與採計方式。",
@@ -16,9 +16,57 @@
   "imageAlt": "陽明交通大學校園，上有同一興趣如何跨校找科系標題",
   "category": "taiwan-universities",
   "topic": "興趣關鍵字跨校找科系",
-  "sources": ["https://globalednews.com/taiwan-universities/"],
+  "sources": [
+    "https://globalednews.com/taiwan-universities/"
+  ],
   "imageRights": "Wikimedia Commons 授權校園照片；裁切並加標題，授權詳見站內圖片來源頁",
   "verifiedAt": "2026-10-09T12:15:00+08:00",
   "plannedPublishDate": "2026-10-09",
-  "publishedPosts": []
+  "publishedPosts": [
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "DeQYwOek0NB",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DeQYwOek0NB/",
+      "verifiedAt": "2026-10-09T10:14:18+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-09T10:14:18+08:00",
+      "mediaEvidence": "Public instagram post visually verified with the uploaded campaign image at 2026-10-09T10:14:18+08:00: https://www.instagram.com/ltuossdtw/p/DeQYwOek0NB/",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-09T10:14:18+08:00"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DeQYVKPkz2-",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DeQYVKPkz2-",
+      "verifiedAt": "2026-10-09T10:14:18+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-09T10:14:18+08:00",
+      "mediaEvidence": "Public threads post visually verified with the uploaded campaign image at 2026-10-09T10:14:18+08:00: https://www.threads.com/@ltuossdtw/post/DeQYVKPkz2-",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-09T10:14:18+08:00"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7514143272991305728",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7514143272991305728/",
+      "verifiedAt": "2026-10-09T10:14:18+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-09T10:14:18+08:00",
+      "mediaEvidence": "Public linkedin post visually verified with the uploaded campaign image at 2026-10-09T10:14:18+08:00: https://www.linkedin.com/feed/update/urn:li:activity:7514143272991305728/",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-09T10:14:18+08:00"
+    }
+  ]
 }
