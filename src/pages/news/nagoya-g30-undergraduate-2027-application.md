@@ -7,10 +7,10 @@ author: 'LTU Global Education News 編輯部'
 category: '亞洲大學招生'
 topic: 'asia'
 tags: ['日本', '名古屋大學', 'G30', '英語授課', '本科申請']
-image: 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Nagoya%20University%20Toyoda%20Auditorium.jpg?width=1600'
-imageAlt: '日本名古屋大學豐田講堂資料照'
+image: '/images/share-photos/79393acd2da52554b9408815.jpg'
+imageAlt: '國際學生教室資料照'
 imageCredit: 'Wikimedia Commons 授權照片；版面可能裁切'
-imageSource: 'https://commons.wikimedia.org/wiki/File:Nagoya_University_Toyoda_Auditorium.jpg'
+imageSource: 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Students%20in%20a%20classroom.jpg?width=1280'
 sources:
   - label: 'Nagoya University G30｜Undergraduate Admissions'
     url: 'https://admissions.g30.nagoya-u.ac.jp/admissions/undergraduate/'

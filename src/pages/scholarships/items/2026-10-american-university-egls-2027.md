@@ -16,10 +16,10 @@ secondSourceUrl: 'https://www.commonapp.org/explore/american-university'
 eligibilityTW: '台灣籍、需要F-1或J-1身分且未開始大專學業的國際高中申請人可依官方條件申請。'
 taiwanNote: '須在同一期限完成Common Application、全部文件、EGLS表格與短文；較早於2024年高中畢業或已開始大專者不適用。'
 verificationDate: '2026-10-10'
-image: 'https://commons.wikimedia.org/wiki/Special:Redirect/file/American%20University%20campus.jpg?width=1600'
-imageAlt: '美國 American University 校園資料照'
+image: '/images/share-photos/240ffd4655279ed30090ec6d.jpg'
+imageAlt: '美國華盛頓特區大學校園資料照'
 imageCredit: 'Wikimedia Commons 授權照片；版面可能裁切'
-imageSource: 'https://commons.wikimedia.org/wiki/File:American_University_campus.jpg'
+imageSource: 'https://upload.wikimedia.org/wikipedia/commons/a/a8/0710AA22-Georgetown.jpg'
 ---
 
 ## 2027 年獎助內容

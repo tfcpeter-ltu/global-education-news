@@ -7,10 +7,10 @@ author: 'LTU Global Education News 編輯部'
 category: '亞洲大學招生'
 topic: 'asia'
 tags: ['約旦', '國際學生', '大學申請', '統一招生']
-image: 'https://commons.wikimedia.org/wiki/Special:Redirect/file/University%20of%20Jordan.jpg?width=1600'
-imageAlt: '約旦大學校園資料照'
+image: '/images/share-photos/8c8f023b439de83e13b9b68b.jpg'
+imageAlt: '國際大學畢業典禮資料照'
 imageCredit: 'Wikimedia Commons 授權照片；資料照，版面可能裁切'
-imageSource: 'https://commons.wikimedia.org/wiki/File:University_of_Jordan.jpg'
+imageSource: 'https://commons.wikimedia.org/wiki/Special:Redirect/file/University%20graduation%20(Unsplash).jpg?width=1280'
 sources:
   - label: 'Jordan Ministry of Higher Education｜Study in Jordan unified admission portal'
     url: 'https://studyinjordan.jo/'

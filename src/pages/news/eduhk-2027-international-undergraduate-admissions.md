@@ -7,10 +7,10 @@ author: 'LTU Global Education News 編輯部'
 category: '亞洲大學招生'
 topic: 'asia'
 tags: ['香港', '香港教育大學', '國際學生', '本科申請']
-image: 'https://commons.wikimedia.org/wiki/Special:Redirect/file/The%20Education%20University%20of%20Hong%20Kong.jpg?width=1600'
-imageAlt: '香港教育大學校園資料照'
+image: '/images/share-photos/ea7f9a062122f6f2c44c2e85.jpg'
+imageAlt: '香港大學校園資料照'
 imageCredit: 'Wikimedia Commons 授權照片；版面可能裁切'
-imageSource: 'https://commons.wikimedia.org/wiki/File:The_Education_University_of_Hong_Kong.jpg'
+imageSource: 'https://upload.wikimedia.org/wikipedia/commons/4/44/The_Hong_Kong_Polytechnic_University_east.jpg'
 sources:
   - label: 'EdUHK｜International Qualifications Important Dates'
     url: 'https://www.apply.eduhk.hk/ug/nonlocal_dates'
