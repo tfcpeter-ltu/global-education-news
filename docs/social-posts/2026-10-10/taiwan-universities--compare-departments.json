@@ -2,7 +2,7 @@
   "date": "2026-10-10",
   "campaign": "taiwan-universities",
   "version": "v1",
-  "status": "READY",
+  "status": "PUBLISHED",
   "articleTitle": "用校系比較縮小台灣大學選擇範圍",
   "articleUrl": "https://globalednews.com/taiwan-universities/",
   "shortHook": "先用地區與學群縮小範圍，再比較相近校系的課程方向與官方招生資訊。本站資料庫可協助建立清單，最終資格仍以各校最新簡章為準。",
@@ -21,5 +21,52 @@
   "topic": "台灣大學校系比較",
   "verifiedAt": "2026-10-10T10:35:00+08:00",
   "plannedPublishDate": "2026-10-10",
-  "publishedPosts": []
+  "publishedPosts": [
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "DeS9XBnEySl",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DeS9XBnEySl/",
+      "verifiedAt": "2026-10-10T10:16:21.917+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-10T10:16:21.917+08:00",
+      "mediaEvidence": "Public instagram post and visible uploaded campaign image re-read at 2026-10-10T10:16:21.917+08:00: https://www.instagram.com/ltuossdtw/p/DeS9XBnEySl/",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-10T10:16:21.917+08:00"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DeS-ylKk_zk",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DeS-ylKk_zk",
+      "verifiedAt": "2026-10-10T10:16:21.917+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-10T10:16:21.917+08:00",
+      "mediaEvidence": "Public threads post and visible uploaded campaign image re-read at 2026-10-10T10:16:21.917+08:00: https://www.threads.com/@ltuossdtw/post/DeS-ylKk_zk",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-10T10:16:21.917+08:00"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7514505899915296769",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7514505899915296769/",
+      "verifiedAt": "2026-10-10T10:16:21.917+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-10T10:16:21.917+08:00",
+      "mediaEvidence": "Public linkedin post and visible uploaded campaign image re-read at 2026-10-10T10:16:21.917+08:00: https://www.linkedin.com/feed/update/urn:li:activity:7514505899915296769/",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-10T10:16:21.917+08:00"
+    }
+  ],
+  "publishedAt": "2026-10-10T10:16:21.917+08:00"
 }

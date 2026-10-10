@@ -2,7 +2,7 @@
   "date": "2026-10-10",
   "campaign": "study-abroad",
   "version": "v1",
-  "status": "READY",
+  "status": "PUBLISHED",
   "articleTitle": "倫敦留學選校：先比課程、總成本與生活圈",
   "articleUrl": "https://globalednews.com/study-abroad/",
   "shortHook": "規劃倫敦留學時，可先比較課程結構、學費與住宿通勤，再決定學校清單。以官方課程頁確認條件，並用獨立大學資料交叉核對。",
@@ -21,5 +21,77 @@
   "topic": "英國倫敦留學規劃",
   "verifiedAt": "2026-10-10T10:35:00+08:00",
   "plannedPublishDate": "2026-10-10",
-  "publishedPosts": []
+  "publishedPosts": [
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "id": "1084388611004003",
+      "publicUrl": "https://www.facebook.com/101904929207004/posts/1084388611004003",
+      "verifiedAt": "2026-10-10T10:16:21.917+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-10T10:16:21.917+08:00",
+      "mediaEvidence": "Public facebook post and visible uploaded campaign image re-read at 2026-10-10T10:16:21.917+08:00: https://www.facebook.com/101904929207004/posts/1084388611004003",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-10T10:16:21.917+08:00",
+      "photoAttachments": [
+        {
+          "id": "1084388504337347",
+          "url": "https://www.facebook.com/photo/?fbid=1084388504337347"
+        }
+      ],
+      "publicPhotoScreenshot": "Cua-repl public permalink DOM/photo evidence captured at 2026-10-10T10:16:21.917+08:00: https://www.facebook.com/101904929207004/posts/1084388611004003",
+      "photoAttachedAt": "2026-10-10T10:14:21.918+08:00",
+      "copyAddedAt": "2026-10-10T10:15:21.918+08:00",
+      "photoReadyEvidence": "Meta composer showed the named uploaded image before copy was entered; native photo 1084388504337347 was re-read from the public permalink."
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "DeS9RyIkwQD",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DeS9RyIkwQD/",
+      "verifiedAt": "2026-10-10T10:16:21.917+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-10T10:16:21.917+08:00",
+      "mediaEvidence": "Public instagram post and visible uploaded campaign image re-read at 2026-10-10T10:16:21.917+08:00: https://www.instagram.com/ltuossdtw/p/DeS9RyIkwQD/",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-10T10:16:21.917+08:00"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DeS-xi3k1fs",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DeS-xi3k1fs",
+      "verifiedAt": "2026-10-10T10:16:21.917+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-10T10:16:21.917+08:00",
+      "mediaEvidence": "Public threads post and visible uploaded campaign image re-read at 2026-10-10T10:16:21.917+08:00: https://www.threads.com/@ltuossdtw/post/DeS-xi3k1fs",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-10T10:16:21.917+08:00"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7514505795921928193",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7514505795921928193/",
+      "verifiedAt": "2026-10-10T10:16:21.917+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-10T10:16:21.917+08:00",
+      "mediaEvidence": "Public linkedin post and visible uploaded campaign image re-read at 2026-10-10T10:16:21.917+08:00: https://www.linkedin.com/feed/update/urn:li:activity:7514505795921928193/",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-10T10:16:21.917+08:00"
+    }
+  ],
+  "publishedAt": "2026-10-10T10:16:21.917+08:00"
 }
