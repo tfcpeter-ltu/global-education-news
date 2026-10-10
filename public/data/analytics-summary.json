@@ -1,14 +1,9 @@
 {
   "status": "ready",
-  "updatedAt": "2026-10-09T07:21:20.635Z",
+  "updatedAt": "2026-10-10T07:02:37.879Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
-    {
-      "title": "最新國際教育新聞",
-      "path": "/news/",
-      "views": 13
-    },
     {
       "title": "美國擬向OPT收取每名7萬美元初次費用：目前仍屬提案，學校將是付款人｜環球教育新聞網 Global Education News",
       "path": "/news/us-opt-proposed-school-fee-2026/",
@@ -20,13 +15,18 @@
       "views": 9
     },
     {
+      "title": "最新國際教育新聞",
+      "path": "/news/",
+      "views": 7
+    },
+    {
       "title": "澳洲反對黨提出削減國際學生與畢業簽證：大學團體警告衝擊校園與經濟｜環球教育新聞網 Global Education News",
       "path": "/news/australia-coalition-student-cuts-response-2026/",
       "views": 7
     },
     {
-      "title": "澳洲國際學生轉校限制暫增至12個月：2027年6月底前適用｜環球教育新聞網 Global Education News",
-      "path": "/news/australia-international-student-transfer-12-month-rule-2026/",
+      "title": "UNSW 2027 國際本科新增多元入學途徑：合格國家自動加 5 點，醫學課程除外｜環球教育新聞網 Global Education News",
+      "path": "/news/unsw-international-admissions-diversity-pathway-2027/",
       "views": 5
     }
   ],
@@ -34,24 +34,24 @@
     {
       "name": "台灣",
       "mapName": "Taiwan",
-      "sessions": 212,
-      "share": 67.3
+      "sessions": 210,
+      "share": 67.1
     },
     {
       "name": "美國",
       "mapName": "United States",
       "sessions": 52,
-      "share": 16.5
-    },
-    {
-      "name": "瑞典",
-      "mapName": "Sweden",
-      "sessions": 8,
-      "share": 2.5
+      "share": 16.6
     },
     {
       "name": "加拿大",
       "mapName": "Canada",
+      "sessions": 8,
+      "share": 2.6
+    },
+    {
+      "name": "瑞典",
+      "mapName": "Sweden",
       "sessions": 7,
       "share": 2.2
     },
@@ -76,18 +76,18 @@
     {
       "name": "中國",
       "mapName": "China",
-      "sessions": 3,
-      "share": 1
+      "sessions": 4,
+      "share": 1.3
     },
     {
       "name": "香港",
       "mapName": "Hong Kong",
-      "sessions": 3,
-      "share": 1
+      "sessions": 4,
+      "share": 1.3
     },
     {
-      "name": "新加坡",
-      "mapName": "Singapore",
+      "name": "紐西蘭",
+      "mapName": "New Zealand",
       "sessions": 3,
       "share": 1
     }
