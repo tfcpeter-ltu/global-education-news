@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-10",
+  "timezone": "Asia/Taipei",
+  "status": "reviewed-no-publishable-feature",
+  "reviewedSchools": [
+    {
+      "school": "國立清華大學",
+      "schoolSlug": "nthu",
+      "source": "https://oga.site.nthu.edu.tw/p/406-1524-314332%2Cr8945.php?Lang=zh-tw",
+      "finding": "校方公告海外交換甄選相關資訊；本次未取得可公開學生訪談或影像授權。"
+    },
+    {
+      "school": "國立臺灣大學",
+      "schoolSlug": "ntu",
+      "source": "https://admissions.ntu.edu.tw/news/2027-september-entry-first-round-of-international-student-applications-open-on-september-29th/",
+      "finding": "校方公布2027年國際學生第一梯次申請；屬國際招生線索，未取得個人故事授權。"
+    },
+    {
+      "school": "國立臺灣海洋大學",
+      "schoolSlug": "ntou",
+      "source": "https://r021.ntou.edu.tw/p/412-1022-7231.php?Lang=en",
+      "finding": "校方公布國際學生春季班申請資訊；未取得可公開學生訪談或影像授權。"
+    }
+  ],
+  "candidates": [],
+  "published": [],
+  "pendingConsent": [],
+  "outreachDrafts": [],
+  "gaps": [
+    "今日3校皆有官方國際教育資訊，但缺少已授權的學生第一手故事與照片，因此不刊登特別報導。"
+  ],
+  "verifiedAt": "2026-10-10T10:40:00+08:00"
+}
