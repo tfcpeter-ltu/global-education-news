@@ -195,6 +195,93 @@
       "mediaKind": "uploaded-photo",
       "previewStatus": "VERIFIED",
       "previewVerifiedAt": "2026-10-11T08:55:00+08:00"
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7515016940982136832",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7515016940982136832/",
+      "verifiedAt": "2026-10-11T10:02:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-11T10:02:00+08:00",
+      "mediaEvidence": "LinkedIn success alert returned the public activity URL after the uploaded news image and copy were published.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-11T10:02:00+08:00"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7515017171094368256",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7515017171094368256/",
+      "verifiedAt": "2026-10-11T10:02:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-11T10:02:00+08:00",
+      "mediaEvidence": "LinkedIn success alert returned the public activity URL after the uploaded scholarship image and copy were published.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-11T10:02:00+08:00"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7515017276727656448",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7515017276727656448/",
+      "verifiedAt": "2026-10-11T10:02:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-11T10:02:00+08:00",
+      "mediaEvidence": "LinkedIn success alert returned the public activity URL after the uploaded study-abroad image and copy were published.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-11T10:02:00+08:00"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7515017354905333760",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7515017354905333760/",
+      "verifiedAt": "2026-10-11T10:02:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-11T10:02:00+08:00",
+      "mediaEvidence": "LinkedIn success alert returned the public activity URL after the uploaded university-filter image and copy were published.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-11T10:02:00+08:00"
+    },
+    {
+      "campaign": "new-facebook-page",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "id": "122101335225505473",
+      "pageId": "61595164194381",
+      "articleUrl": "https://globalednews.com/news/australia-international-student-demand-below-allocations-2026/",
+      "publicUrl": "https://www.facebook.com/photo/?fbid=122101335225505473",
+      "verifiedAt": "2026-10-11T10:02:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-11T10:02:00+08:00",
+      "mediaEvidence": "The new page timeline was re-read after publishing and showed the 29.5 萬 headline with the native photo link.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-11T10:02:00+08:00",
+      "photoAttachments": [
+        {
+          "id": "122101335225505473",
+          "url": "https://www.facebook.com/photo/?fbid=122101335225505473"
+        }
+      ],
+      "publicPhotoScreenshot": "New Facebook page timeline re-read showed the uploaded news-australia-enrolment.jpg image and copy under page 61595164194381.",
+      "photoAttachedAt": "2026-10-11T10:00:00+08:00",
+      "copyAddedAt": "2026-10-11T10:01:00+08:00",
+      "photoReadyEvidence": "Composer displayed news-australia-enrolment.jpg in 已附加的影音內容 before the copy was added and the post was published."
     }
   ]
 }
