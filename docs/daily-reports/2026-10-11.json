@@ -186,7 +186,7 @@
     }
   ],
   "peterImports": [],
-  "socialPosts": [],
+  "socialPosts": null,
   "gaps": [
     {
       "item": "Peter imports",
@@ -197,5 +197,5 @@
       "reason": "Pending site deployment and platform publication."
     }
   ],
-  "currentPhase": "COMMIT_DEPLOY"
+  "currentPhase": "PUBLISH"
 }
