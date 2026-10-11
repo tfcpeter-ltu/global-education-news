@@ -1,0 +1,200 @@
+{
+  "date": "2026-10-11",
+  "posts": [
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "id": "1085228117586719",
+      "publicUrl": "https://facebook.com/686405994135602/posts/1085228117586719",
+      "verifiedAt": "2026-10-11T08:35:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-11T08:35:00+08:00",
+      "mediaEvidence": "Metricool returned PUBLISHED with uploaded media https://static.metricool.com/planner/202610/6323205-file-7346774510256016653.jpeg; public URL re-read on 2026-10-11.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-11T08:35:00+08:00",
+      "photoAttachments": [
+        {
+          "id": "1085228117586719",
+          "url": "https://www.facebook.com/photo/?fbid=1085228117586719"
+        }
+      ],
+      "publicPhotoScreenshot": "Public Facebook post was opened in the logged-in browser and the visible native photo was checked on 2026-10-11: https://facebook.com/686405994135602/posts/1085228117586719",
+      "photoAttachedAt": "2026-10-11T07:55:00+08:00",
+      "copyAddedAt": "2026-10-11T07:56:00+08:00",
+      "photoReadyEvidence": "Metricool creation record contains uploaded JPEG https://static.metricool.com/planner/202610/6323205-file-7346774510256016653.jpeg before the 08:35 publication; public post was re-read."
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "https://www.instagram.com/p/DeVYzkVHwb5/",
+      "publicUrl": "https://www.instagram.com/p/DeVYzkVHwb5/",
+      "verifiedAt": "2026-10-11T08:37:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-11T08:37:00+08:00",
+      "mediaEvidence": "Metricool returned PUBLISHED with uploaded media https://static.metricool.com/planner/202610/6323205-file-9257414247875974753.jpeg; public URL re-read on 2026-10-11.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-11T08:37:00+08:00"
+    },
+    {
+      "campaign": "news",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "18116379593044007",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DeVZCfLipLm",
+      "verifiedAt": "2026-10-11T08:39:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-11T08:39:00+08:00",
+      "mediaEvidence": "Metricool returned PUBLISHED with uploaded media https://static.metricool.com/planner/202610/6323205-file-6163353474157787090.jpeg; public URL re-read on 2026-10-11.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-11T08:39:00+08:00"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "id": "1085231437586387",
+      "publicUrl": "https://facebook.com/686405994135602/posts/1085231437586387",
+      "verifiedAt": "2026-10-11T08:41:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-11T08:41:00+08:00",
+      "mediaEvidence": "Metricool returned PUBLISHED with uploaded media https://static.metricool.com/planner/202610/6323205-file-14059238062562567492.jpeg; public URL re-read on 2026-10-11.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-11T08:41:00+08:00",
+      "photoAttachments": [
+        {
+          "id": "1085231437586387",
+          "url": "https://www.facebook.com/photo/?fbid=1085231437586387"
+        }
+      ],
+      "publicPhotoScreenshot": "Public Facebook post was opened in the logged-in browser and the visible native photo was checked on 2026-10-11: https://facebook.com/686405994135602/posts/1085231437586387",
+      "photoAttachedAt": "2026-10-11T07:55:00+08:00",
+      "copyAddedAt": "2026-10-11T07:56:00+08:00",
+      "photoReadyEvidence": "Metricool creation record contains uploaded JPEG https://static.metricool.com/planner/202610/6323205-file-14059238062562567492.jpeg before the 08:41 publication; public post was re-read."
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "https://www.instagram.com/p/DeVZfkHHJ9k/",
+      "publicUrl": "https://www.instagram.com/p/DeVZfkHHJ9k/",
+      "verifiedAt": "2026-10-11T08:43:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-11T08:43:00+08:00",
+      "mediaEvidence": "Metricool returned PUBLISHED with uploaded media https://static.metricool.com/planner/202610/6323205-file-16601990948057683671.jpeg; public URL re-read on 2026-10-11.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-11T08:43:00+08:00"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "18117692174066148",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DeVZuoHCs3H",
+      "verifiedAt": "2026-10-11T08:45:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-11T08:45:00+08:00",
+      "mediaEvidence": "Metricool returned PUBLISHED with uploaded media https://static.metricool.com/planner/202610/6323205-file-14741485694813900668.jpeg; public URL re-read on 2026-10-11.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-11T08:45:00+08:00"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "id": "1085234834252714",
+      "publicUrl": "https://facebook.com/686405994135602/posts/1085234834252714",
+      "verifiedAt": "2026-10-11T08:47:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-11T08:47:00+08:00",
+      "mediaEvidence": "Metricool returned PUBLISHED with uploaded media https://static.metricool.com/planner/202610/6323205-file-6202846835794531476.jpeg; public URL re-read on 2026-10-11.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-11T08:47:00+08:00",
+      "photoAttachments": [
+        {
+          "id": "1085234834252714",
+          "url": "https://www.facebook.com/photo/?fbid=1085234834252714"
+        }
+      ],
+      "publicPhotoScreenshot": "Public Facebook post was opened in the logged-in browser and the visible native photo was checked on 2026-10-11: https://facebook.com/686405994135602/posts/1085234834252714",
+      "photoAttachedAt": "2026-10-11T07:55:00+08:00",
+      "copyAddedAt": "2026-10-11T07:56:00+08:00",
+      "photoReadyEvidence": "Metricool creation record contains uploaded JPEG https://static.metricool.com/planner/202610/6323205-file-6202846835794531476.jpeg before the 08:47 publication; public post was re-read."
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "https://www.instagram.com/p/DeVaLcWDpO3/",
+      "publicUrl": "https://www.instagram.com/p/DeVaLcWDpO3/",
+      "verifiedAt": "2026-10-11T08:49:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-11T08:49:00+08:00",
+      "mediaEvidence": "Metricool returned PUBLISHED with uploaded media https://static.metricool.com/planner/202610/6323205-file-7586465121118311217.jpeg; public URL re-read on 2026-10-11.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-11T08:49:00+08:00"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "17985007107116190",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DeVaaLyirys",
+      "verifiedAt": "2026-10-11T08:51:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-11T08:51:00+08:00",
+      "mediaEvidence": "Metricool returned PUBLISHED with uploaded media https://static.metricool.com/planner/202610/6323205-file-16421633914639352129.jpeg; public URL re-read on 2026-10-11.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-11T08:51:00+08:00"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "https://www.instagram.com/p/DeVaozvjoYV/",
+      "publicUrl": "https://www.instagram.com/p/DeVaozvjoYV/",
+      "verifiedAt": "2026-10-11T08:53:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-11T08:53:00+08:00",
+      "mediaEvidence": "Metricool returned PUBLISHED with uploaded media https://static.metricool.com/planner/202610/6323205-file-2941291805052145530.jpeg; public URL re-read on 2026-10-11.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-11T08:53:00+08:00"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "18373842088212493",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DeVa3tXiGpr",
+      "verifiedAt": "2026-10-11T08:55:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-11T08:55:00+08:00",
+      "mediaEvidence": "Metricool returned PUBLISHED with uploaded media https://static.metricool.com/planner/202610/6323205-file-14077720121342190249.jpeg; public URL re-read on 2026-10-11.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-11T08:55:00+08:00"
+    }
+  ]
+}
