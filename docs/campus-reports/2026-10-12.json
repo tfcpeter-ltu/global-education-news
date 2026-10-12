@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-12",
+  "timezone": "Asia/Taipei",
+  "status": "reviewed-no-publishable-feature",
+  "reviewedSchools": [
+    {
+      "school": "國立臺灣大學",
+      "schoolSlug": "ntu",
+      "source": "https://oia.ntu.edu.tw/",
+      "finding": "查核國際事務處交換與海外學習公開資訊；今日未取得可公開學生訪談或影像授權。"
+    },
+    {
+      "school": "臺北市立建國高級中學",
+      "schoolSlug": "cksh",
+      "source": "https://www.ck.tp.edu.tw/",
+      "finding": "查核校方公開國際交流資訊；未取得學生本人訪談與照片同意。"
+    },
+    {
+      "school": "臺北市立第一女子高級中學",
+      "schoolSlug": "tfgh",
+      "source": "https://www.fg.tp.edu.tw/",
+      "finding": "查核校方公開國際交流資訊；未取得學生本人訪談與照片同意。"
+    }
+  ],
+  "candidates": [],
+  "published": [],
+  "pendingConsent": [],
+  "outreachDrafts": [],
+  "gaps": [
+    "三校皆有公開國際教育資料，但沒有取得本人同意的學生訪談與照片，今日不刊登特別報導。"
+  ],
+  "verifiedAt": "2026-10-12T07:30:00+08:00"
+}
