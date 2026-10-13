@@ -1,8 +1,8 @@
 {
   "date": "2026-10-13",
   "timezone": "Asia/Taipei",
-  "status": "in-progress",
-  "currentPhase": "COMMIT_DEPLOY",
+  "status": "completed",
+  "currentPhase": "VERIFY",
   "baselineCommit": "256f59eb2ead2c75e2a4f90e530511aaaee7c07b",
   "scholarshipBaselineSlugs": [
     "2026-08-bristol-think-big",
@@ -153,9 +153,10 @@
       "eligibleTaiwan": true,
       "open": true,
       "verifiedAt": "2026-10-13T06:55:00+08:00",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-10-13T10:13:43+08:00",
       "isNew": true,
-      "baselineAbsent": true
+      "baselineAbsent": true,
+      "updateSummary": "2026-10-13當日新建；已核對開放狀態、台灣資格、金額、期限與例外。"
     },
     {
       "slug": "2026-10-uwa-global-excellence-2027",
@@ -168,9 +169,10 @@
       "eligibleTaiwan": true,
       "open": true,
       "verifiedAt": "2026-10-13T06:55:00+08:00",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-10-13T10:13:43+08:00",
       "isNew": true,
-      "baselineAbsent": true
+      "baselineAbsent": true,
+      "updateSummary": "2026-10-13當日新建；已核對開放狀態、台灣資格、金額、期限與例外。"
     },
     {
       "slug": "2026-10-unisq-international-excellence-2027",
@@ -183,9 +185,10 @@
       "eligibleTaiwan": true,
       "open": true,
       "verifiedAt": "2026-10-13T06:55:00+08:00",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-10-13T10:13:43+08:00",
       "isNew": true,
-      "baselineAbsent": true
+      "baselineAbsent": true,
+      "updateSummary": "2026-10-13當日新建；已核對開放狀態、台灣資格、金額、期限與例外。"
     }
   ],
   "peterImports": [
@@ -193,13 +196,271 @@
       "slug": "harvard-application-casebook-preview-2026",
       "sourceId": "122147120055172155",
       "sourceUrl": "https://www.facebook.com/photo/?fbid=122147120055172155",
-      "importedAt": "2026-10-13T07:45:00+08:00"
+      "importedAt": "2026-10-13T07:45:00+08:00",
+      "url": "https://globalednews.com/peter/harvard-application-casebook-preview-2026/",
+      "verifiedAt": "2026-10-13T07:45:00+08:00"
     }
   ],
-  "socialPosts": [],
+  "socialPosts": [
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7515597255110762496",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7515597256088035328/",
+      "verifiedAt": "2026-10-13T10:36:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-13T10:36:00+08:00",
+      "mediaEvidence": "linkedin public profile/content list was re-read after publication and showed the news copy with a visible uploaded campaign image.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-13T10:36:00+08:00"
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "DeavJfWk8i_",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DeavJfWk8i_/",
+      "verifiedAt": "2026-10-13T10:36:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-13T10:36:00+08:00",
+      "mediaEvidence": "instagram public profile/content list was re-read after publication and showed the news copy with a visible uploaded campaign image.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-13T10:36:00+08:00"
+    },
+    {
+      "campaign": "news",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DeavJhyE8sS",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DeavJhyE8sS",
+      "verifiedAt": "2026-10-13T10:36:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-13T10:36:00+08:00",
+      "mediaEvidence": "threads public profile/content list was re-read after publication and showed the news copy with a visible uploaded campaign image.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-13T10:36:00+08:00"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7515597375592136704",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7515597376724848640/",
+      "verifiedAt": "2026-10-13T10:36:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-13T10:36:00+08:00",
+      "mediaEvidence": "linkedin public profile/content list was re-read after publication and showed the scholarship copy with a visible uploaded campaign image.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-13T10:36:00+08:00"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "DeavQsGE1BV",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DeavQsGE1BV/",
+      "verifiedAt": "2026-10-13T10:36:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-13T10:36:00+08:00",
+      "mediaEvidence": "instagram public profile/content list was re-read after publication and showed the scholarship copy with a visible uploaded campaign image.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-13T10:36:00+08:00"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DeavQp3E_jj",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DeavQp3E_jj",
+      "verifiedAt": "2026-10-13T10:36:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-13T10:36:00+08:00",
+      "mediaEvidence": "threads public profile/content list was re-read after publication and showed the scholarship copy with a visible uploaded campaign image.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-13T10:36:00+08:00"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7515597551253917696",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7515597552289783808/",
+      "verifiedAt": "2026-10-13T10:36:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-13T10:36:00+08:00",
+      "mediaEvidence": "linkedin public profile/content list was re-read after publication and showed the study-abroad copy with a visible uploaded campaign image.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-13T10:36:00+08:00"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "DeavcmfE7cn",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DeavcmfE7cn/",
+      "verifiedAt": "2026-10-13T10:36:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-13T10:36:00+08:00",
+      "mediaEvidence": "instagram public profile/content list was re-read after publication and showed the study-abroad copy with a visible uploaded campaign image.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-13T10:36:00+08:00"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "Deavck3k30s",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Deavck3k30s",
+      "verifiedAt": "2026-10-13T10:36:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-13T10:36:00+08:00",
+      "mediaEvidence": "threads public profile/content list was re-read after publication and showed the study-abroad copy with a visible uploaded campaign image.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-13T10:36:00+08:00"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7515598046613635073",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:share:7515598046613635073/",
+      "verifiedAt": "2026-10-13T10:36:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-13T10:36:00+08:00",
+      "mediaEvidence": "linkedin public profile/content list was re-read after publication and showed the taiwan-universities copy with a visible uploaded campaign image.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-13T10:36:00+08:00"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "DeavlnTk18t",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DeavlnTk18t/",
+      "verifiedAt": "2026-10-13T10:36:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-13T10:36:00+08:00",
+      "mediaEvidence": "instagram public profile/content list was re-read after publication and showed the taiwan-universities copy with a visible uploaded campaign image.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-13T10:36:00+08:00"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DeavlkJE4lQ",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DeavlkJE4lQ",
+      "verifiedAt": "2026-10-13T10:36:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-13T10:36:00+08:00",
+      "mediaEvidence": "threads public profile/content list was re-read after publication and showed the taiwan-universities copy with a visible uploaded campaign image.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-13T10:36:00+08:00"
+    },
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "id": "1087257494050448",
+      "publicUrl": "https://www.facebook.com/photo/?fbid=1087257494050448",
+      "verifiedAt": "2026-10-13T10:28:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-13T10:28:00+08:00",
+      "mediaEvidence": "facebook public profile/content list was re-read after publication and showed the news copy with a visible uploaded campaign image.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-13T10:28:00+08:00",
+      "photoAttachments": [
+        {
+          "id": "1087257494050448",
+          "url": "https://www.facebook.com/photo/?fbid=1087257494050448"
+        }
+      ],
+      "publicPhotoScreenshot": "Meta Business Suite published-content row was re-read and showed the news post marked 相片 and cross-published to Facebook and Instagram.",
+      "photoAttachedAt": "2026-10-13T10:26:00+08:00",
+      "copyAddedAt": "2026-10-13T10:27:00+08:00",
+      "photoReadyEvidence": "Meta composer displayed the 1200x630 uploaded campaign photo before the copy was entered and publication was submitted."
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "id": "1087258237383707",
+      "publicUrl": "https://www.facebook.com/photo/?fbid=1087258237383707",
+      "verifiedAt": "2026-10-13T10:29:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-13T10:29:00+08:00",
+      "mediaEvidence": "facebook public profile/content list was re-read after publication and showed the scholarship copy with a visible uploaded campaign image.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-13T10:29:00+08:00",
+      "photoAttachments": [
+        {
+          "id": "1087258237383707",
+          "url": "https://www.facebook.com/photo/?fbid=1087258237383707"
+        }
+      ],
+      "publicPhotoScreenshot": "Meta Business Suite published-content row was re-read and showed the scholarship post marked 相片 and cross-published to Facebook and Instagram.",
+      "photoAttachedAt": "2026-10-13T10:27:00+08:00",
+      "copyAddedAt": "2026-10-13T10:28:00+08:00",
+      "photoReadyEvidence": "Meta composer displayed the 1200x630 uploaded campaign photo before the copy was entered and publication was submitted."
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "id": "1087259517383579",
+      "publicUrl": "https://www.facebook.com/photo/?fbid=1087259517383579",
+      "verifiedAt": "2026-10-13T10:31:00+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-13T10:31:00+08:00",
+      "mediaEvidence": "facebook public profile/content list was re-read after publication and showed the study-abroad copy with a visible uploaded campaign image.",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-13T10:31:00+08:00",
+      "photoAttachments": [
+        {
+          "id": "1087259517383579",
+          "url": "https://www.facebook.com/photo/?fbid=1087259517383579"
+        }
+      ],
+      "publicPhotoScreenshot": "Meta Business Suite published-content row was re-read and showed the study-abroad post marked 相片 and cross-published to Facebook and Instagram.",
+      "photoAttachedAt": "2026-10-13T10:29:00+08:00",
+      "copyAddedAt": "2026-10-13T10:30:00+08:00",
+      "photoReadyEvidence": "Meta composer displayed the 1200x630 uploaded campaign photo before the copy was entered and publication was submitted."
+    }
+  ],
   "gaps": [],
   "peterReview": {
-    "status": "completed-one-new-post",
+    "status": "fewer-new-posts",
     "checkedAt": "2026-10-13T07:40:00+08:00",
     "availableNewCount": 1,
     "sourceUrls": [
@@ -215,11 +476,29 @@
     "socialPreviews": "passed"
   },
   "deployment": {
-    "status": "pending"
+    "status": "success",
+    "commit": "86f10f4160f1c6b22b98da0a16a53cc872cab437",
+    "workflowRun": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/38335344778",
+    "verifiedAt": "2026-10-13T10:13:43+08:00"
   },
   "acceptance": {
-    "desktop": false,
-    "mobile": false
+    "desktop": true,
+    "mobile": true,
+    "verifiedAt": "2026-10-13T10:13:43+08:00",
+    "canonical": true,
+    "og": true,
+    "schema": true,
+    "sitemap": true,
+    "newsSitemap": true,
+    "rss": true,
+    "searchEnter": true,
+    "searchButton": true,
+    "zeroResult": true,
+    "englishCjkChecked": true,
+    "evidence": "7個新增正式頁面均無破圖，canonical、OG、schema正常；390x844無橫向溢出；搜尋Enter與按鈕各驗證，零筆顯示0及提示；sitemap-0.xml、news-sitemap.xml、weekly-feed.xml均HTTP 200且含今日新聞。",
+    "seo": true,
+    "openGraph": true,
+    "images": true
   },
   "ltuMediaRotation": {
     "status": "rotated",
@@ -237,5 +516,118 @@
     "url": "https://www.sunmoonnews.com.tw/",
     "checkedAt": "2026-10-13T06:45:00+08:00",
     "status": "checked-no-qualified-international-item"
-  }
+  },
+  "newsPublished": [
+    {
+      "slug": "us-cpt-lawsuit-court-status-october-13-2026",
+      "url": "https://globalednews.com/news/us-cpt-lawsuit-court-status-october-13-2026/",
+      "sources": [
+        "https://www.aau.edu/resource-library/aau-files-lawsuit-challenging-changes-to-the-curricular-practical-training-cpt-program-for-international-students",
+        "https://iso.mit.edu/news/higher-education-associations-file-lawsuit-challenging-new-cpt-guidance/"
+      ],
+      "publishedPath": "src/pages/news/us-cpt-lawsuit-court-status-october-13-2026.md",
+      "verifiedAt": "2026-10-13T10:13:43+08:00"
+    },
+    {
+      "slug": "uk-student-sponsor-guidance-october-2026",
+      "url": "https://globalednews.com/news/uk-student-sponsor-guidance-october-2026/",
+      "sources": [
+        "https://www.gov.uk/government/publications/student-sponsor-guidance",
+        "https://sponsorrecord.com/"
+      ],
+      "publishedPath": "src/pages/news/uk-student-sponsor-guidance-october-2026.md",
+      "verifiedAt": "2026-10-13T10:13:43+08:00"
+    },
+    {
+      "slug": "fsu-international-student-insurance-2026",
+      "url": "https://globalednews.com/news/fsu-international-student-insurance-2026/",
+      "sources": [
+        "https://studentinsurance.fsu.edu/international-requirements",
+        "https://www.flbog.edu/wp-content/uploads/6_009-Admiss-of-Intern-Students-1.pdf"
+      ],
+      "publishedPath": "src/pages/news/fsu-international-student-insurance-2026.md",
+      "verifiedAt": "2026-10-13T10:13:43+08:00"
+    }
+  ],
+  "scholarshipChecks": [
+    {
+      "slug": "2026-10-newcastle-australia-international-excellence-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-10-newcastle-australia-international-excellence-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-newcastle-australia-international-excellence-2027.md",
+      "sources": [
+        "https://www.newcastle.edu.au/scholarships/UNI_053",
+        "https://forsaedu.com/en/opportunities/253-university-of-newcastle-international-excellence-scholarship-2027"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-13T06:55:00+08:00",
+      "publishedVerifiedAt": "2026-10-13T10:13:43+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "2026-10-13當日新建；已核對開放狀態、台灣資格、金額、期限與例外。"
+    },
+    {
+      "slug": "2026-10-uwa-global-excellence-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-10-uwa-global-excellence-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-uwa-global-excellence-2027.md",
+      "sources": [
+        "https://www.uwa.edu.au/study/scholarships-and-fees/scholarships/international-scholarships/global-excellence-scholarship",
+        "https://www.timeshighereducation.com/sites/default/files/institution_downloads/2024_ug_pg_international_course_guide_-_the_university_of_westrn_australia.pdf"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-13T06:55:00+08:00",
+      "publishedVerifiedAt": "2026-10-13T10:13:43+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "2026-10-13當日新建；已核對開放狀態、台灣資格、金額、期限與例外。"
+    },
+    {
+      "slug": "2026-10-unisq-international-excellence-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-10-unisq-international-excellence-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-unisq-international-excellence-2027.md",
+      "sources": [
+        "https://www.unisq.edu.au/scholarships/unisqi-international-excellence-scholarship",
+        "https://www.topuniversities.com/scholarships/international-excellence-scholarship-1"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-13T06:55:00+08:00",
+      "publishedVerifiedAt": "2026-10-13T10:13:43+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "2026-10-13當日新建；已核對開放狀態、台灣資格、金額、期限與例外。"
+    }
+  ],
+  "newFacebookPagePost": {
+    "campaign": "new-facebook-page",
+    "network": "facebook",
+    "status": "PUBLISHED",
+    "id": "122102838399505473",
+    "pageId": "61595164194381",
+    "articleUrl": "https://globalednews.com/news/us-cpt-lawsuit-court-status-october-13-2026/",
+    "publicUrl": "https://www.facebook.com/photo/?fbid=122102838399505473",
+    "verifiedAt": "2026-10-13T10:25:00+08:00",
+    "imageCount": 1,
+    "mediaStatus": "VERIFIED",
+    "mediaVerifiedAt": "2026-10-13T10:25:00+08:00",
+    "mediaEvidence": "New Facebook page published-content row was re-read and showed the CPT article copy with a visible native uploaded photo.",
+    "mediaKind": "uploaded-photo",
+    "previewStatus": "VERIFIED",
+    "previewVerifiedAt": "2026-10-13T10:25:00+08:00",
+    "photoAttachments": [
+      {
+        "id": "122102838399505473",
+        "url": "https://www.facebook.com/photo/?fbid=122102838399505473"
+      }
+    ],
+    "publicPhotoScreenshot": "Meta Business Suite row showed page 61595164194381, post ID 122102838399505473, 相片, and the full CPT copy.",
+    "photoAttachedAt": "2026-10-13T10:23:00+08:00",
+    "copyAddedAt": "2026-10-13T10:24:00+08:00",
+    "photoReadyEvidence": "Composer displayed the uploaded CPT campaign photo before the copy was entered and the post was published."
+  },
+  "completedAt": "2026-10-13T10:36:00+08:00",
+  "notes": [
+    "Metricool plan limits rejected or left pending scheduled delivery; all required destinations were published through authorized direct platform interfaces and re-read with visible uploaded photos."
+  ]
 }
