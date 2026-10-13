@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-14",
+  "timezone": "Asia/Taipei",
+  "status": "three-public-leads-reviewed",
+  "verifiedAt": "2026-10-13T21:16:58.250Z",
+  "reviewedSchools": [
+    {
+      "school": "國立臺灣大學",
+      "schoolSlug": "ntu",
+      "source": "https://management.ntu.edu.tw/en/ia/board/detail/sn/21320",
+      "finding": "管理學院2027–28院級交換甄選公告，名額表預計2026-10-15公布；可追蹤院級與校級差異。"
+    },
+    {
+      "school": "國立臺灣藝術大學",
+      "schoolSlug": "ntua",
+      "source": "https://international.ntua.edu.tw/#/Post/1079/85",
+      "finding": "2027秋季交換甄選：線上11/2 23:59、系所紙本11/3 17:00、結果12/30；可追蹤作品集與交換修課準備。"
+    },
+    {
+      "school": "國立成功大學",
+      "schoolSlug": "ncku",
+      "source": "https://oia.ncku.edu.tw/p/404-1032-236485.php?Lang=zh-tw",
+      "finding": "公開交換公告及行前說明資料可作後續出國準備線索；不把既有115學年度公告寫為新開放輪次。"
+    }
+  ],
+  "candidates": [
+    "院級與校級交換名額如何比較",
+    "藝術類交換作品與修課準備",
+    "交換生行前支援"
+  ],
+  "published": [],
+  "pendingConsent": [],
+  "outreachDrafts": [],
+  "gaps": [],
+  "note": "保存公開機構線索；未捏造訪談、人物引言或寄送邀訪。"
+}
