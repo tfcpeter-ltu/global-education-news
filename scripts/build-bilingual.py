@@ -135,6 +135,11 @@ def decorate(doc,original,is_en):
   main=doc.find('.//main');(main if main is not None else body).insert(0 if main is not None else 1,notice)
   # Embedded partner sites remain separate services, and are clearly identified.
   for iframe in doc.xpath('//iframe'):
+   if 'newsletter-embed' in iframe.get('class','').split():
+    link=etree.Element('a',href=iframe.get('src'),target='_blank',rel='noopener noreferrer',style='display:block;padding:28px')
+    link.text='Subscribe to Global Education Weekly (opens the external Chinese-language signup form)'
+    iframe.getparent().replace(iframe,link)
+    continue
    note=html.fragment_fromstring('<p class="translation-note" translate="no">Embedded external service: its language is controlled by the provider.</p>');iframe.addprevious(note)
 for p,doc in docs:
  original=page_url(p)
