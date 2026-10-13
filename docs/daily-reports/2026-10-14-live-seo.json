@@ -1,0 +1,111 @@
+{
+  "verifiedAt": "2026-10-13T21:48:37.802557+00:00",
+  "pages": [
+    {
+      "url": "https://globalednews.com/news/toronto-presidents-impact-phd-scholarship-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/toronto-presidents-impact-phd-scholarship-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/76441ce31578d3356e56294d.jpg",
+      "schema": true
+    },
+    {
+      "url": "https://globalednews.com/news/england-assessment-only-qts-five-year-rule-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/england-assessment-only-qts-five-year-rule-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/572e74aec099d2cb50aa2520.jpg",
+      "schema": true
+    },
+    {
+      "url": "https://globalednews.com/news/australia-bsb80120-overseas-enrolment-stop-october-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/australia-bsb80120-overseas-enrolment-stop-october-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/bb5c01b8f62ae8dc059db904.jpg",
+      "schema": true
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-10-aut-north-asia-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-10-aut-north-asia-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/ae2c88b9b0cd632ac5ba6554.jpg",
+      "schema": true
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-10-vuw-undergraduate-international-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-10-vuw-undergraduate-international-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/b8613612bfbb975c301859cf.jpg",
+      "schema": true
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-10-vuw-postgraduate-international-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-10-vuw-postgraduate-international-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/36c5858bf6021a8a42d831c1.jpg",
+      "schema": true
+    },
+    {
+      "url": "https://globalednews.com/study-abroad/wellington-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/study-abroad/wellington-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/36c5858bf6021a8a42d831c1.jpg",
+      "schema": true
+    },
+    {
+      "url": "https://globalednews.com/en/news/toronto-presidents-impact-phd-scholarship-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/toronto-presidents-impact-phd-scholarship-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/76441ce31578d3356e56294d.jpg",
+      "schema": true
+    },
+    {
+      "url": "https://globalednews.com/en/news/england-assessment-only-qts-five-year-rule-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/england-assessment-only-qts-five-year-rule-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/572e74aec099d2cb50aa2520.jpg",
+      "schema": true
+    },
+    {
+      "url": "https://globalednews.com/en/news/australia-bsb80120-overseas-enrolment-stop-october-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/australia-bsb80120-overseas-enrolment-stop-october-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/bb5c01b8f62ae8dc059db904.jpg",
+      "schema": true
+    },
+    {
+      "url": "https://globalednews.com/en/scholarships/items/2026-10-aut-north-asia-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/scholarships/items/2026-10-aut-north-asia-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/ae2c88b9b0cd632ac5ba6554.jpg",
+      "schema": true
+    },
+    {
+      "url": "https://globalednews.com/en/scholarships/items/2026-10-vuw-undergraduate-international-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/scholarships/items/2026-10-vuw-undergraduate-international-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/b8613612bfbb975c301859cf.jpg",
+      "schema": true
+    },
+    {
+      "url": "https://globalednews.com/en/scholarships/items/2026-10-vuw-postgraduate-international-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/scholarships/items/2026-10-vuw-postgraduate-international-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/36c5858bf6021a8a42d831c1.jpg",
+      "schema": true
+    },
+    {
+      "url": "https://globalednews.com/en/study-abroad/wellington-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/study-abroad/wellington-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/36c5858bf6021a8a42d831c1.jpg",
+      "schema": true
+    }
+  ],
+  "feeds": [
+    "sitemap.xml",
+    "sitemap-0.xml",
+    "news-sitemap.xml",
+    "weekly-feed.xml",
+    "robots.txt"
+  ],
+  "newsInFeeds": 3
+}

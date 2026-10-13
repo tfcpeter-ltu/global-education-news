@@ -524,6 +524,98 @@
           "proof": "li-diy-published26.png"
         }
       ]
+    },
+    {
+      "date": "2026-10-14",
+      "campaign": "study-abroad",
+      "country": "new-zealand",
+      "schoolName": "Victoria University of Wellington",
+      "storyAngle": "2027 course-specific applications and funding planning",
+      "status": "published",
+      "version": "v1",
+      "contentPath": "docs\\social-posts\\2026-10-14\\study-abroad--wellington-planning.json",
+      "publishedPosts": [
+        {
+          "campaign": "study-abroad",
+          "platform": "facebook",
+          "status": "PUBLISHED",
+          "id": "1088031740639690",
+          "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02pdEHeZeXGV4pM2Pt7wmB22Pr6Ao7MRhv1nz1zBhMJRV1VWWXrQTPRjhmABG8dLXTl",
+          "articleUrl": "https://globalednews.com/study-abroad/wellington-2027/",
+          "publishedAt": "2026-10-14T05:34:12.077000+08:00",
+          "verifiedAt": "2026-10-14T05:34:12.077000+08:00",
+          "imageCount": 1,
+          "mediaStatus": "VERIFIED",
+          "mediaVerifiedAt": "2026-10-14T05:34:12.077000+08:00",
+          "mediaKind": "uploaded-photo",
+          "mediaEvidence": "Public photo viewer shows Wellington planning card and public audience.",
+          "previewStatus": "VERIFIED",
+          "photoAttachments": [
+            {
+              "id": "1088031350639729",
+              "url": "https://www.facebook.com/photo/?fbid=1088031350639729"
+            }
+          ],
+          "publicPhotoScreenshot": "docs/social-posts/2026-10-14/evidence/facebook-study-abroad-public.jpg",
+          "photoAttachedAt": "2026-10-14T05:33:06.790000+08:00",
+          "photoReadyEvidence": "docs/social-posts/2026-10-14/evidence/facebook-study-abroad-photo-ready.jpg",
+          "copyAddedAt": "2026-10-14T05:33:06.915000+08:00",
+          "previewVerifiedAt": "2026-10-14T05:33:27.426000+08:00",
+          "network": "facebook",
+          "publishedAtBasis": "Observed publication/readback time; platform displayed a relative seconds/minutes timestamp."
+        },
+        {
+          "platform": "threads",
+          "campaign": "study-abroad",
+          "id": "DecyNOhE33z",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DecyNOhE33z",
+          "articleUrl": "https://globalednews.com/study-abroad/wellington-2027/",
+          "status": "PUBLISHED",
+          "publishedAt": "2026-10-14T05:34:51.938000+08:00",
+          "verifiedAt": "2026-10-14T05:34:51.938000+08:00",
+          "imageCount": 1,
+          "mediaStatus": "VERIFIED",
+          "mediaVerifiedAt": "2026-10-14T05:34:51.938000+08:00",
+          "mediaEvidence": "Public post read back with correct account, caption and visible uploaded photo card.",
+          "publicPhotoScreenshot": "docs/social-posts/2026-10-14/evidence/threads-study-abroad-public.jpg",
+          "network": "threads",
+          "publishedAtBasis": "Observed publication/readback time; platform displayed a relative seconds/minutes timestamp."
+        },
+        {
+          "platform": "linkedin",
+          "campaign": "study-abroad",
+          "id": "7515889540931407872",
+          "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7515889540931407872/",
+          "articleUrl": "https://globalednews.com/study-abroad/wellington-2027/",
+          "status": "PUBLISHED",
+          "publishedAt": "2026-10-14T05:42:08.992000+08:00",
+          "verifiedAt": "2026-10-14T05:42:08.992000+08:00",
+          "imageCount": 1,
+          "mediaStatus": "VERIFIED",
+          "mediaVerifiedAt": "2026-10-14T05:42:08.992000+08:00",
+          "mediaEvidence": "Public post read back with correct account, caption and visible uploaded photo card.",
+          "publicPhotoScreenshot": "docs/social-posts/2026-10-14/evidence/linkedin-study-abroad-public.jpg",
+          "network": "linkedin",
+          "publishedAtBasis": "Observed publication/readback time; platform displayed a relative seconds/minutes timestamp."
+        },
+        {
+          "platform": "instagram",
+          "campaign": "study-abroad",
+          "id": "DeczGAOE4A2",
+          "publicUrl": "https://www.instagram.com/ltuossdtw/p/DeczGAOE4A2/",
+          "articleUrl": "https://globalednews.com/study-abroad/wellington-2027/",
+          "status": "PUBLISHED",
+          "publishedAt": "2026-10-14T05:43:11.802000+08:00",
+          "verifiedAt": "2026-10-14T05:43:11.802000+08:00",
+          "imageCount": 1,
+          "mediaStatus": "VERIFIED",
+          "mediaVerifiedAt": "2026-10-14T05:43:11.802000+08:00",
+          "mediaEvidence": "Public post read back with correct account, caption and visible uploaded photo card.",
+          "publicPhotoScreenshot": "docs/social-posts/2026-10-14/evidence/instagram-study-abroad-public.jpg",
+          "network": "instagram",
+          "publishedAtBasis": "Observed publication/readback time; platform displayed a relative seconds/minutes timestamp."
+        }
+      ]
     }
   ]
 }

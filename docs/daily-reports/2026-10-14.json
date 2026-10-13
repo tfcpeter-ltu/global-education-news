@@ -1,10 +1,10 @@
 {
   "date": "2026-10-14",
   "timezone": "Asia/Taipei",
-  "status": "in-progress",
-  "currentPhase": "COMMIT_DEPLOY",
+  "status": "completed",
+  "currentPhase": "VERIFY",
   "baselineCommit": "e3aa87de8cffc9a770074e8b0acdd1d040c45c55",
-  "startedAt": "2026-10-14T05:03:04.8808183+08:00",
+  "startedAt": "2026-10-14T05:03:04.880818+08:00",
   "scholarshipBaselineSlugs": [
     "2026-08-bristol-think-big",
     "2026-08-manchester-global-futures-taiwan-2027",
@@ -198,8 +198,9 @@
         "https://www.utoronto.ca/news/u-t-transforms-phd-education-launch-presidents-impact-scholarship-program",
         "https://toronto.citynews.ca/2026/10/05/university-of-toronto-scholarship-program-phd/"
       ],
-      "verifiedAt": "2026-10-13T21:16:58.246Z",
-      "verificationMethod": "Full official text and separately authored reporting/analysis read; not two reprints."
+      "verifiedAt": "2026-10-14T05:16:58.246000+08:00",
+      "verificationMethod": "Full official text and separately authored reporting/analysis read; not two reprints.",
+      "publishedVerifiedAt": "2026-10-14T05:50:07.525911+08:00"
     },
     {
       "slug": "england-assessment-only-qts-five-year-rule-2026",
@@ -209,8 +210,9 @@
         "https://www.gov.uk/government/publications/the-assessment-only-route-to-qts/assessment-only-route-to-qualified-teacher-status-criteria-and-supporting-advice",
         "https://www.tes.com/magazine/news/general/dfe-relaxes-qts-rules-experienced-teachers"
       ],
-      "verifiedAt": "2026-10-13T21:16:58.247Z",
-      "verificationMethod": "Full official text and separately authored reporting/analysis read; not two reprints."
+      "verifiedAt": "2026-10-14T05:16:58.247000+08:00",
+      "verificationMethod": "Full official text and separately authored reporting/analysis read; not two reprints.",
+      "publishedVerifiedAt": "2026-10-14T05:50:07.525911+08:00"
     },
     {
       "slug": "australia-bsb80120-overseas-enrolment-stop-october-2026",
@@ -221,8 +223,9 @@
         "https://www.education.gov.au/esos-framework/changes-legislative-framework-overseas-students",
         "https://nationwidemigration.com.au/post/graduate-diploma-of-management-learning-cancelled-what-students-need-to-do"
       ],
-      "verifiedAt": "2026-10-13T21:16:58.248Z",
-      "verificationMethod": "Full official text and separately authored reporting/analysis read; not two reprints."
+      "verifiedAt": "2026-10-14T05:16:58.248000+08:00",
+      "verificationMethod": "Full official text and separately authored reporting/analysis read; not two reprints.",
+      "publishedVerifiedAt": "2026-10-14T05:50:07.525911+08:00"
     }
   ],
   "scholarshipChecks": [
@@ -237,10 +240,11 @@
       ],
       "eligibleTaiwan": true,
       "open": true,
-      "verifiedAt": "2026-10-13T21:16:58.248Z",
+      "verifiedAt": "2026-10-14T05:16:58.248000+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "當日淨新增；核對當期開放入口、2027課程例證、台灣國籍/居留排除條件、資助與申請流程。"
+      "updateSummary": "當日淨新增；核對當期開放入口、2027課程例證、台灣國籍/居留排除條件、資助與申請流程。",
+      "publishedVerifiedAt": "2026-10-14T05:50:07.525911+08:00"
     },
     {
       "slug": "2026-10-vuw-undergraduate-international-2027",
@@ -253,10 +257,11 @@
       ],
       "eligibleTaiwan": true,
       "open": true,
-      "verifiedAt": "2026-10-13T21:16:58.249Z",
+      "verifiedAt": "2026-10-14T05:16:58.249000+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "當日淨新增；核對當期開放入口、2027課程例證、台灣國籍/居留排除條件、資助與申請流程。"
+      "updateSummary": "當日淨新增；核對當期開放入口、2027課程例證、台灣國籍/居留排除條件、資助與申請流程。",
+      "publishedVerifiedAt": "2026-10-14T05:50:07.525911+08:00"
     },
     {
       "slug": "2026-10-vuw-postgraduate-international-2027",
@@ -269,10 +274,11 @@
       ],
       "eligibleTaiwan": true,
       "open": true,
-      "verifiedAt": "2026-10-13T21:16:58.250Z",
+      "verifiedAt": "2026-10-14T05:16:58.250000+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "當日淨新增；核對當期開放入口、2027課程例證、台灣國籍/居留排除條件、資助與申請流程。"
+      "updateSummary": "當日淨新增；核對當期開放入口、2027課程例證、台灣國籍/居留排除條件、資助與申請流程。",
+      "publishedVerifiedAt": "2026-10-14T05:50:07.525911+08:00"
     }
   ],
   "scholarshipAdditions": [
@@ -287,10 +293,11 @@
       ],
       "eligibleTaiwan": true,
       "open": true,
-      "verifiedAt": "2026-10-13T21:16:58.248Z",
+      "verifiedAt": "2026-10-14T05:16:58.248000+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "當日淨新增；核對當期開放入口、2027課程例證、台灣國籍/居留排除條件、資助與申請流程。"
+      "updateSummary": "當日淨新增；核對當期開放入口、2027課程例證、台灣國籍/居留排除條件、資助與申請流程。",
+      "publishedVerifiedAt": "2026-10-14T05:50:07.525911+08:00"
     },
     {
       "slug": "2026-10-vuw-undergraduate-international-2027",
@@ -303,10 +310,11 @@
       ],
       "eligibleTaiwan": true,
       "open": true,
-      "verifiedAt": "2026-10-13T21:16:58.249Z",
+      "verifiedAt": "2026-10-14T05:16:58.249000+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "當日淨新增；核對當期開放入口、2027課程例證、台灣國籍/居留排除條件、資助與申請流程。"
+      "updateSummary": "當日淨新增；核對當期開放入口、2027課程例證、台灣國籍/居留排除條件、資助與申請流程。",
+      "publishedVerifiedAt": "2026-10-14T05:50:07.525911+08:00"
     },
     {
       "slug": "2026-10-vuw-postgraduate-international-2027",
@@ -319,19 +327,312 @@
       ],
       "eligibleTaiwan": true,
       "open": true,
-      "verifiedAt": "2026-10-13T21:16:58.250Z",
+      "verifiedAt": "2026-10-14T05:16:58.250000+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "當日淨新增；核對當期開放入口、2027課程例證、台灣國籍/居留排除條件、資助與申請流程。"
+      "updateSummary": "當日淨新增；核對當期開放入口、2027課程例證、台灣國籍/居留排除條件、資助與申請流程。",
+      "publishedVerifiedAt": "2026-10-14T05:50:07.525911+08:00"
     }
   ],
   "peterImports": [],
-  "socialPosts": [],
+  "socialPosts": [
+    {
+      "campaign": "news",
+      "platform": "facebook",
+      "status": "PUBLISHED",
+      "id": "1088029697306561",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid036WdpNUM3vToW9RvMDgXaywwaGk3V7chUBpQnoR54GYdYkX3ATjWU8VFXw7mGCAY2l",
+      "articleUrl": "https://globalednews.com/news/toronto-presidents-impact-phd-scholarship-2027/",
+      "publishedAt": "2026-10-14T05:30:32.582000+08:00",
+      "verifiedAt": "2026-10-14T05:30:32.582000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-14T05:30:32.582000+08:00",
+      "mediaKind": "uploaded-photo",
+      "mediaEvidence": "Public Facebook photo viewer shows the uploaded Toronto card and public audience.",
+      "previewStatus": "VERIFIED",
+      "photoAttachments": [
+        {
+          "id": "1088029157306615",
+          "url": "https://www.facebook.com/photo/?fbid=1088029157306615"
+        }
+      ],
+      "publicPhotoScreenshot": "docs/social-posts/2026-10-14/evidence/facebook-news-public.jpg",
+      "photoAttachedAt": "2026-10-14T05:29:20.103000+08:00",
+      "photoReadyEvidence": "docs/social-posts/2026-10-14/evidence/facebook-news-photo-ready.jpg",
+      "copyAddedAt": "2026-10-14T05:29:20.548000+08:00",
+      "previewVerifiedAt": "2026-10-14T05:29:57.024000+08:00",
+      "network": "facebook",
+      "publishedAtBasis": "Observed publication/readback time; platform displayed a relative seconds/minutes timestamp."
+    },
+    {
+      "platform": "threads",
+      "campaign": "news",
+      "id": "Decx3h-kzz5",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Decx3h-kzz5",
+      "articleUrl": "https://globalednews.com/news/toronto-presidents-impact-phd-scholarship-2027/",
+      "status": "PUBLISHED",
+      "publishedAt": "2026-10-14T05:31:45+08:00",
+      "verifiedAt": "2026-10-14T05:31:45+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-14T05:31:45+08:00",
+      "mediaEvidence": "Public post read back with correct account, caption and visible uploaded photo card.",
+      "publicPhotoScreenshot": "docs/social-posts/2026-10-14/evidence/threads-news-public.jpg",
+      "network": "threads",
+      "publishedAtBasis": "Observed publication/readback time; platform displayed a relative seconds/minutes timestamp."
+    },
+    {
+      "campaign": "scholarship",
+      "platform": "facebook",
+      "status": "PUBLISHED",
+      "id": "1088030733973124",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02D58BXnk1o1qzVasxRC5JgEhkUxzWcuGHhpE7RT3Q6M2Q7Fa4cxr3QukW5RdUAGZVl",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-aut-north-asia-2027/",
+      "publishedAt": "2026-10-14T05:32:32.959000+08:00",
+      "verifiedAt": "2026-10-14T05:32:32.959000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-14T05:32:32.959000+08:00",
+      "mediaKind": "uploaded-photo",
+      "mediaEvidence": "Public photo viewer shows AUT scholarship card and public audience.",
+      "previewStatus": "VERIFIED",
+      "photoAttachments": [
+        {
+          "id": "1088030327306498",
+          "url": "https://www.facebook.com/photo/?fbid=1088030327306498"
+        }
+      ],
+      "publicPhotoScreenshot": "docs/social-posts/2026-10-14/evidence/facebook-scholarship-public.jpg",
+      "photoAttachedAt": "2026-10-14T05:31:16.793000+08:00",
+      "photoReadyEvidence": "docs/social-posts/2026-10-14/evidence/facebook-scholarship-photo-ready.jpg",
+      "copyAddedAt": "2026-10-14T05:31:16.950000+08:00",
+      "previewVerifiedAt": "2026-10-14T05:31:45.001000+08:00",
+      "network": "facebook",
+      "publishedAtBasis": "Observed publication/readback time; platform displayed a relative seconds/minutes timestamp."
+    },
+    {
+      "platform": "threads",
+      "campaign": "scholarship",
+      "id": "DecyBgOEzdd",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DecyBgOEzdd",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-aut-north-asia-2027/",
+      "status": "PUBLISHED",
+      "publishedAt": "2026-10-14T05:33:06.789000+08:00",
+      "verifiedAt": "2026-10-14T05:33:06.789000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-14T05:33:06.789000+08:00",
+      "mediaEvidence": "Public post read back with correct account, caption and visible uploaded photo card.",
+      "publicPhotoScreenshot": "docs/social-posts/2026-10-14/evidence/threads-scholarship-public.jpg",
+      "network": "threads",
+      "publishedAtBasis": "Observed publication/readback time; platform displayed a relative seconds/minutes timestamp."
+    },
+    {
+      "campaign": "study-abroad",
+      "platform": "facebook",
+      "status": "PUBLISHED",
+      "id": "1088031740639690",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02pdEHeZeXGV4pM2Pt7wmB22Pr6Ao7MRhv1nz1zBhMJRV1VWWXrQTPRjhmABG8dLXTl",
+      "articleUrl": "https://globalednews.com/study-abroad/wellington-2027/",
+      "publishedAt": "2026-10-14T05:34:12.077000+08:00",
+      "verifiedAt": "2026-10-14T05:34:12.077000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-14T05:34:12.077000+08:00",
+      "mediaKind": "uploaded-photo",
+      "mediaEvidence": "Public photo viewer shows Wellington planning card and public audience.",
+      "previewStatus": "VERIFIED",
+      "photoAttachments": [
+        {
+          "id": "1088031350639729",
+          "url": "https://www.facebook.com/photo/?fbid=1088031350639729"
+        }
+      ],
+      "publicPhotoScreenshot": "docs/social-posts/2026-10-14/evidence/facebook-study-abroad-public.jpg",
+      "photoAttachedAt": "2026-10-14T05:33:06.790000+08:00",
+      "photoReadyEvidence": "docs/social-posts/2026-10-14/evidence/facebook-study-abroad-photo-ready.jpg",
+      "copyAddedAt": "2026-10-14T05:33:06.915000+08:00",
+      "previewVerifiedAt": "2026-10-14T05:33:27.426000+08:00",
+      "network": "facebook",
+      "publishedAtBasis": "Observed publication/readback time; platform displayed a relative seconds/minutes timestamp."
+    },
+    {
+      "platform": "threads",
+      "campaign": "study-abroad",
+      "id": "DecyNOhE33z",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DecyNOhE33z",
+      "articleUrl": "https://globalednews.com/study-abroad/wellington-2027/",
+      "status": "PUBLISHED",
+      "publishedAt": "2026-10-14T05:34:51.938000+08:00",
+      "verifiedAt": "2026-10-14T05:34:51.938000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-14T05:34:51.938000+08:00",
+      "mediaEvidence": "Public post read back with correct account, caption and visible uploaded photo card.",
+      "publicPhotoScreenshot": "docs/social-posts/2026-10-14/evidence/threads-study-abroad-public.jpg",
+      "network": "threads",
+      "publishedAtBasis": "Observed publication/readback time; platform displayed a relative seconds/minutes timestamp."
+    },
+    {
+      "platform": "instagram",
+      "campaign": "news",
+      "id": "DecyTD3E_sd",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DecyTD3E_sd/",
+      "articleUrl": "https://globalednews.com/news/toronto-presidents-impact-phd-scholarship-2027/",
+      "status": "PUBLISHED",
+      "publishedAt": "2026-10-14T05:36:27.413000+08:00",
+      "verifiedAt": "2026-10-14T05:36:27.414000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-14T05:36:27.414000+08:00",
+      "mediaEvidence": "Public post read back with correct account, caption and visible uploaded photo card.",
+      "publicPhotoScreenshot": "docs/social-posts/2026-10-14/evidence/instagram-news-public.jpg",
+      "network": "instagram",
+      "publishedAtBasis": "Observed publication/readback time; platform displayed a relative seconds/minutes timestamp."
+    },
+    {
+      "platform": "threads",
+      "campaign": "taiwan-universities",
+      "id": "DecyfrrkwCA",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DecyfrrkwCA",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "status": "PUBLISHED",
+      "publishedAt": "2026-10-14T05:37:04.747000+08:00",
+      "verifiedAt": "2026-10-14T05:37:04.747000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-14T05:37:04.747000+08:00",
+      "mediaEvidence": "Public post read back with correct account, caption and visible uploaded photo card.",
+      "publicPhotoScreenshot": "docs/social-posts/2026-10-14/evidence/threads-taiwan-universities-public.jpg",
+      "network": "threads",
+      "publishedAtBasis": "Observed publication/readback time; platform displayed a relative seconds/minutes timestamp."
+    },
+    {
+      "platform": "linkedin",
+      "campaign": "news",
+      "id": "7515888498541809664",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7515888498541809664/",
+      "articleUrl": "https://globalednews.com/news/toronto-presidents-impact-phd-scholarship-2027/",
+      "status": "PUBLISHED",
+      "publishedAt": "2026-10-14T05:38:25.772000+08:00",
+      "verifiedAt": "2026-10-14T05:38:25.772000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-14T05:38:25.772000+08:00",
+      "mediaEvidence": "Public post read back with correct account, caption and visible uploaded photo card.",
+      "publicPhotoScreenshot": "docs/social-posts/2026-10-14/evidence/linkedin-news-public.jpg",
+      "network": "linkedin",
+      "publishedAtBasis": "Observed publication/readback time; platform displayed a relative seconds/minutes timestamp."
+    },
+    {
+      "platform": "instagram",
+      "campaign": "scholarship",
+      "id": "DecyvaME3yc",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DecyvaME3yc/",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-aut-north-asia-2027/",
+      "status": "PUBLISHED",
+      "publishedAt": "2026-10-14T05:39:33.628000+08:00",
+      "verifiedAt": "2026-10-14T05:39:33.628000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-14T05:39:33.628000+08:00",
+      "mediaEvidence": "Public post read back with correct account, caption and visible uploaded photo card.",
+      "publicPhotoScreenshot": "docs/social-posts/2026-10-14/evidence/instagram-scholarship-public.jpg",
+      "network": "instagram",
+      "publishedAtBasis": "Observed publication/readback time; platform displayed a relative seconds/minutes timestamp."
+    },
+    {
+      "platform": "linkedin",
+      "campaign": "scholarship",
+      "id": "7515888923567456257",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7515888923567456257/",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-aut-north-asia-2027/",
+      "status": "PUBLISHED",
+      "publishedAt": "2026-10-14T05:39:56.137000+08:00",
+      "verifiedAt": "2026-10-14T05:39:56.137000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-14T05:39:56.137000+08:00",
+      "mediaEvidence": "Public post read back with correct account, caption and visible uploaded photo card.",
+      "publicPhotoScreenshot": "docs/social-posts/2026-10-14/evidence/linkedin-scholarship-public.jpg",
+      "network": "linkedin",
+      "publishedAtBasis": "Observed publication/readback time; platform displayed a relative seconds/minutes timestamp."
+    },
+    {
+      "platform": "linkedin",
+      "campaign": "study-abroad",
+      "id": "7515889540931407872",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7515889540931407872/",
+      "articleUrl": "https://globalednews.com/study-abroad/wellington-2027/",
+      "status": "PUBLISHED",
+      "publishedAt": "2026-10-14T05:42:08.992000+08:00",
+      "verifiedAt": "2026-10-14T05:42:08.992000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-14T05:42:08.992000+08:00",
+      "mediaEvidence": "Public post read back with correct account, caption and visible uploaded photo card.",
+      "publicPhotoScreenshot": "docs/social-posts/2026-10-14/evidence/linkedin-study-abroad-public.jpg",
+      "network": "linkedin",
+      "publishedAtBasis": "Observed publication/readback time; platform displayed a relative seconds/minutes timestamp."
+    },
+    {
+      "platform": "instagram",
+      "campaign": "study-abroad",
+      "id": "DeczGAOE4A2",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DeczGAOE4A2/",
+      "articleUrl": "https://globalednews.com/study-abroad/wellington-2027/",
+      "status": "PUBLISHED",
+      "publishedAt": "2026-10-14T05:43:11.802000+08:00",
+      "verifiedAt": "2026-10-14T05:43:11.802000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-14T05:43:11.802000+08:00",
+      "mediaEvidence": "Public post read back with correct account, caption and visible uploaded photo card.",
+      "publicPhotoScreenshot": "docs/social-posts/2026-10-14/evidence/instagram-study-abroad-public.jpg",
+      "network": "instagram",
+      "publishedAtBasis": "Observed publication/readback time; platform displayed a relative seconds/minutes timestamp."
+    },
+    {
+      "platform": "linkedin",
+      "campaign": "taiwan-universities",
+      "id": "7515889978589999104",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7515889978589999104/",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "status": "PUBLISHED",
+      "publishedAt": "2026-10-14T05:44:48.962000+08:00",
+      "verifiedAt": "2026-10-14T05:44:48.962000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-14T05:44:48.962000+08:00",
+      "mediaEvidence": "Public post read back with correct account, caption and visible uploaded photo card.",
+      "publicPhotoScreenshot": "docs/social-posts/2026-10-14/evidence/linkedin-taiwan-universities-public.jpg",
+      "network": "linkedin",
+      "publishedAtBasis": "Observed publication/readback time; platform displayed a relative seconds/minutes timestamp."
+    },
+    {
+      "platform": "instagram",
+      "campaign": "taiwan-universities",
+      "id": "Deczc60E4m4",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Deczc60E4m4/",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "status": "PUBLISHED",
+      "publishedAt": "2026-10-14T05:45:45.632000+08:00",
+      "verifiedAt": "2026-10-14T05:45:45.632000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-14T05:45:45.632000+08:00",
+      "mediaEvidence": "Public post read back with correct account, caption and visible uploaded photo card.",
+      "publicPhotoScreenshot": "docs/social-posts/2026-10-14/evidence/instagram-taiwan-universities-public.jpg",
+      "network": "instagram",
+      "publishedAtBasis": "Observed publication/readback time; platform displayed a relative seconds/minutes timestamp."
+    }
+  ],
   "gaps": [],
-  "researchCompletedAt": "2026-10-13T21:16:58.235Z",
+  "researchCompletedAt": "2026-10-14T05:16:58.235000+08:00",
   "peterReview": {
     "status": "no-new-posts",
-    "checkedAt": "2026-10-13T21:16:58.250Z",
+    "checkedAt": "2026-10-14T05:16:58.250000+08:00",
     "availableNewCount": 0,
     "sourceUrls": [
       "https://www.facebook.com/profile.php?id=61585164670358",
@@ -356,18 +657,24 @@
   ],
   "sunmoonReview": {
     "url": "https://www.sunmoonnews.com.tw/",
-    "checkedAt": "2026-10-13T21:16:58.250Z",
+    "checkedAt": "2026-10-14T05:16:58.250000+08:00",
     "finding": "已讀當前首頁；可見教育/科技線索未取得足夠獨立當日教育新聞證據，未另稿。"
   },
   "ltuReview": {
-    "checkedAt": "2026-10-13T21:16:58.250Z",
+    "checkedAt": "2026-10-14T05:16:58.250000+08:00",
     "poolSize": 12,
     "expectedVisibleIndices": [
       10,
       11,
       0
     ],
-    "method": "現有程式使用Asia/Taipei日期輪換三則，保留完整12則池；待正式站回讀。"
+    "method": "Read live home rotation and all three original media pages; corrected original media name and exact titles.",
+    "publishedVerifiedAt": "2026-10-14T05:50:07.525911+08:00",
+    "visibleSources": [
+      "https://udn.com/news/story/6929/8583109",
+      "https://www.yuanfengmedia.tw/detail.php?type=lastest&id=52990",
+      "https://www.ctee.com.tw/news/20250623700886-431204"
+    ]
   },
   "studyAbroadReview": {
     "country": "New Zealand",
@@ -378,13 +685,13 @@
       "https://www.wgtn.ac.nz/explore/postgraduate-programmes/master-of-data-science/apply-contact?international=true&programme=master-of-data-science",
       "https://www.studyu.org/en/university-victoria-wellington"
     ],
-    "verifiedAt": "2026-10-13T21:19:07.474Z",
+    "verifiedAt": "2026-10-14T05:19:07.474000+08:00",
     "rotation": "No Wellington school story found in saved history; new sourced guide added to navigator."
   },
-  "preparedAt": "2026-10-13T21:19:07.474Z",
+  "preparedAt": "2026-10-14T05:19:07.474000+08:00",
   "build": {
     "status": "success",
-    "completedAt": "2026-10-13T21:21:57.795Z",
+    "completedAt": "2026-10-14T05:21:57.795000+08:00",
     "checks": [
       "Astro 452 pages",
       "706 bilingual page pairs",
@@ -393,5 +700,78 @@
       "Facebook native-photo evidence regression"
     ],
     "method": "Executed package.json build stages directly using installed Node/Python; npm is unavailable and pnpm attempted an unnecessary dependency install."
+  },
+  "newFacebookPagePost": {
+    "campaign": "news",
+    "platform": "facebook",
+    "status": "PUBLISHED",
+    "id": "122103548697505473",
+    "publicUrl": "https://www.facebook.com/photo/?fbid=122103547635505473",
+    "articleUrl": "https://globalednews.com/news/toronto-presidents-impact-phd-scholarship-2027/",
+    "publishedAt": "2026-10-14T05:38:02.397000+08:00",
+    "verifiedAt": "2026-10-14T05:38:02.397000+08:00",
+    "imageCount": 1,
+    "mediaStatus": "VERIFIED",
+    "mediaVerifiedAt": "2026-10-14T05:38:02.397000+08:00",
+    "mediaKind": "uploaded-photo",
+    "mediaEvidence": "Public photo viewer shows Toronto card under 環球國際教育新聞網, audience everyone.",
+    "previewStatus": "VERIFIED",
+    "photoAttachments": [
+      {
+        "id": "122103547635505473",
+        "url": "https://www.facebook.com/photo/?fbid=122103547635505473"
+      }
+    ],
+    "publicPhotoScreenshot": "docs/social-posts/2026-10-14/evidence/facebook-newpage-public.jpg",
+    "photoAttachedAt": "2026-10-14T05:36:27.415000+08:00",
+    "photoReadyEvidence": "docs/social-posts/2026-10-14/evidence/facebook-newpage-photo-ready.jpg",
+    "copyAddedAt": "2026-10-14T05:36:27.829000+08:00",
+    "previewVerifiedAt": "2026-10-14T05:36:46.505000+08:00",
+    "pageId": "61595164194381",
+    "network": "facebook",
+    "publishedAtBasis": "Observed publication/readback time; platform displayed a relative seconds/minutes timestamp."
+  },
+  "deployment": {
+    "commit": "f8f106342b88d0486c80d7667255d021e2cf66e7",
+    "status": "success",
+    "verifiedAt": "2026-10-14T05:50:07.525911+08:00",
+    "runId": "38472613762",
+    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/38472613762",
+    "site": "https://globalednews.com/"
+  },
+  "acceptance": {
+    "desktop": true,
+    "mobile": true,
+    "seo": true,
+    "verifiedAt": "2026-10-14T05:50:07.525911+08:00",
+    "liveSeoEvidence": "docs/daily-reports/2026-10-14-live-seo.json",
+    "screenshots": [
+      "docs\\social-posts\\2026-10-14\\evidence\\site-desktop-home.jpg",
+      "docs\\social-posts\\2026-10-14\\evidence\\site-mobile-home.jpg",
+      "docs\\social-posts\\2026-10-14\\evidence\\site-mobile-aut.jpg"
+    ],
+    "desktopChecks": [
+      "Home shows three distinct news photos; no horizontal overflow (2311/2311 CSS px).",
+      "Scholarship AUT + New Zealand returns 1; Enter, search button, zero-result message, clear and load-more 24 to 48 passed.",
+      "Today picks contains all three new, open scholarships.",
+      "LTU rotation shows indices 10,11,0 with checked source titles."
+    ],
+    "mobileChecks": [
+      "Viewport requested 390x844; browser CSS width 468 with scrollWidth 468. Home and AUT article visually checked; image loaded and title wraps.",
+      "Scholarship VUW + New Zealand returns 2; zero-result message, clear and load-more 24 to 48 passed.",
+      "Today picks DOM confirms all three entries. Long scholarship-list screenshot capture failed; successful home and article screenshots retained."
+    ],
+    "seoChecks": [
+      "14 new Chinese/English URLs HTTP 200, exact canonical, OG image 200, JSON-LD and H1.",
+      "All seven new URLs in sitemap; three news in News sitemap and RSS; XML valid; robots 200.",
+      "New English pages contain no Chinese text."
+    ]
+  },
+  "campusReport": "docs/campus-reports/2026-10-14.json",
+  "completedAt": "2026-10-14T05:50:32.831702+08:00",
+  "verification": {
+    "status": "COMPLETE",
+    "verifiedAt": "2026-10-14T05:50:32.831702+08:00",
+    "command": "node scripts/verify-daily-delivery.mjs 2026-10-14"
   }
 }
