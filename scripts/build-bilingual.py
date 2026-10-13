@@ -26,7 +26,7 @@ def texts(doc):
   if not ignored(el):
    for a in ATTRS:
     if el.get(a):yield el,a,el.get(a)
-  if el.tag=='meta' and el.get('content') and el.get('name',el.get('property','')) in ['description','og:title','og:description','og:site_name','twitter:title','twitter:description']:yield el,'content',el.get('content')
+  if el.tag=='meta' and el.get('content') and el.get('name',el.get('property','')) in ['description','article:section','og:title','og:description','og:site_name','og:image:alt','twitter:title','twitter:description','twitter:image:alt']:yield el,'content',el.get('content')
 def schema_strings(v):
  if isinstance(v,str):collect(v)
  elif isinstance(v,list):
