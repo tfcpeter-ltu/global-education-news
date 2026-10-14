@@ -1,0 +1,13 @@
+import {readFile} from 'node:fs/promises';
+import vm from 'node:vm';
+import assert from 'node:assert/strict';
+const c={CustomEvent:class{constructor(type,x){this.type=type;this.detail=x.detail}},dispatchEvent:()=>{}};c.window=c;vm.createContext(c);
+for(const f of ['question-engine-v2.js','mock-listening.js','mock-groups.js','explanation-engine.js'])vm.runInContext(await readFile(f,'utf8'),c);
+const p=await readFile('product-core-v1.js','utf8');vm.runInContext(p.slice(p.indexOf('function mockQuestions('),p.indexOf('\nfunction weekly')),c);
+const qs=c.mockQuestions(c.LTUQuestionEngine,new Set());assert.equal(qs.length,64);assert.equal(new Set(qs.map(q=>q.id)).size,64);
+assert(qs.slice(0,43).every(q=>q.type!=='listening'&&q.options.length===4));assert.equal(qs.slice(0,43).filter(q=>q.meta.groupId).length,24);
+const ls=qs.slice(43);assert(ls.every(q=>q.type==='listening'&&q.options.length===3));assert.equal(ls.filter(q=>q.meta.section==='辨識句意').length,3);assert.equal(ls.filter(q=>q.meta.section==='基本問答').length,7);assert.equal(ls.filter(q=>q.meta.section==='言談理解').length,11);
+for(const q of ls){assert(q.meta.audioText);assert(!c.LTUMockGroups.panel(q).includes(q.meta.audioText));if(q.meta.diagrams)for(let i=0;i<3;i++)assert(c.LTUMockGroups.option(q,i).includes('<svg'));const t=c.LTUExplanation.explain(q,q.answer);assert.equal(t.options.length,3);assert.equal(new Set(t.options.map(x=>x.reason)).size,3);assert.equal(t.options[q.answer].reason,q.explanation);assert.equal(c.LTUMockGroups.byId(q.id),c.LTUMockListening.byId(q.id));const n=c.LTUExplanation.forNote({question_id:q.id,category:'weakness',detail:{stem:q.stem,options:q.options,correctAnswerIndex:q.answer,selectedIndex:0,audioText:q.meta.audioText,type:'listening'}},null);assert(n.text.includes(q.meta.audioText));assert(n.text.includes(q.explanation));}
+const ans={0:qs[0].answer,1:(qs[1].answer+1)%4};const review=c.LTUMockGroups.review(qs,ans);assert.equal((review.match(/<details /g)||[]).length,64);assert(review.includes('答對'));assert(review.includes('答錯'));assert(review.includes('未作答'));assert(review.includes('練習正確率不等於官方會考等級'));assert(review.includes(ls[0].meta.audioText));
+const resume=await readFile('launch-ui-v1.js','utf8');assert(p.includes('LTUMockGroups.review(qs,ans)'));assert(resume.includes('LTUMockGroups.review(qs,ans)'));assert(p.includes("sec.querySelector('#pcMock .pcMock,#pcMock .pcResult')"));
+console.log('PASS: official-range 43+21; reading four choices; listening 3+7+11 with three choices and images; 64 detailed reviews; safe audio snapshots; results survive refresh.');
