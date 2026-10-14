@@ -6,7 +6,7 @@ const files=['final-v3.html'];
 const cache='20261014-victorian-v1';
 await mkdir('public',{recursive:true});
 await writeFile('public/collegiate-linework.svg',await readFile('assets/collegiate-linework.svg'));
-for(const asset of ['victorian-corner.svg','victorian-floral.svg'])await writeFile('public/'+asset,await readFile('assets/'+asset));
+for(const asset of ['victorian-corner.svg','victorian-corner-reverse.svg','victorian-floral.svg'])await writeFile('public/'+asset,await readFile('assets/'+asset));
 await sharp('assets/academic-students-gate.png').resize({width:1280,withoutEnlargement:true}).webp({quality:86}).toFile('public/academic-students-gate.webp');
 
 const mainParts=[];
