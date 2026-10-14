@@ -5,10 +5,16 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build-ui.mjs",
+    "qa:math": "node scripts/math.test.mjs && node scripts/math-flow.test.mjs",
+    "dev:math:qa": "node scripts/math-qa-preview.mjs",
     "qa": "node --check api/index.js && node --check api/auth-me.js && node --check api/payment.js && node --check api/practice.js && node --check api/notebook.js && node --check api/progress.js && node scripts/qa-product.mjs"
   },
   "dependencies": {
     "pg": "^8.16.3",
     "sharp": "^0.34.4"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.5.9",
+    "@electric-sql/pglite-socket": "^0.2.12"
   }
 }
