@@ -3,9 +3,10 @@ import sharp from 'sharp';
 
 const base='https://raw.githubusercontent.com/tfcpeter-ltu/global-education-news/7deeac6b0ab4c85de9e18a2ec7e47a8d94648942/cap-ai-preview/';
 const files=['final-v3.html'];
-const cache='20261014-topic-hero-v1';
+const cache='20261014-victorian-v1';
 await mkdir('public',{recursive:true});
 await writeFile('public/collegiate-linework.svg',await readFile('assets/collegiate-linework.svg'));
+for(const asset of ['victorian-corner.svg','victorian-floral.svg'])await writeFile('public/'+asset,await readFile('assets/'+asset));
 await sharp('assets/academic-students-gate.png').resize({width:1280,withoutEnlargement:true}).webp({quality:86}).toFile('public/academic-students-gate.webp');
 
 const mainParts=[];
