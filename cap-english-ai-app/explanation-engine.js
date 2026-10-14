@@ -77,5 +77,16 @@ function escape(v){return String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':
 function render(q,selected,full=true){const e=explain(q,selected),correct=q.options[q.answer];if(!full)return `<b>正確答案：${escape(correct)}</b><p>${escape(e.steps[1])}</p><p><b>複習重點：</b>${escape(e.memory)}</p>`;
 return `<div class="exTeaching"><section><h3>01 · 找到題目線索</h3><blockquote>${escape(e.evidence)}</blockquote><p>${escape(e.summary)}</p></section><section><h3>02 · 一步一步判斷</h3><ol>${e.steps.map(s=>`<li>${escape(s)}</li>`).join('')}</ol></section><section><h3>03 · 比較四個選項</h3><div class="exOptions">${e.options.map(o=>`<article class="exOption ${o.correct?'exCorrect':''}"><h4>${String.fromCharCode(65+o.index)}. ${escape(o.text)} <small>${o.correct?'正確答案':o.index===selected?'你的選擇':''}</small></h4><p>${escape(o.reason)}</p></article>`).join('')}</div></section><section><h3>04 · 記住這個觀念</h3><p><b>${escape(e.rule)}</b></p>${e.example?`<p class="exExample">${escape(e.example)}</p>`:''}<p>${escape(e.trap||e.memory)}</p><p class="exMemory">下次遇到類似題目：${escape(e.memory)}</p></section></div>`;}
 function toText(q,selected){const e=explain(q,selected);return[`正確答案：${q.options[q.answer]}`,`題目線索：${e.evidence}`,...e.steps.map((s,i)=>`${i+1}. ${s}`),...e.options.map(o=>`${String.fromCharCode(65+o.index)}. ${o.text}${o.index===selected?'（你的選擇）':''}：${o.reason}`),`觀念：${e.rule}`,e.example?`例句：${e.example}`:'',`易錯提醒：${e.trap}`,`下次複習：${e.memory}`].filter(Boolean).join('\n\n');}
-g.LTUExplanation={explain,render,toText};
+function forNote(n,bank){const d=n.detail||{},options=d.options,answer=d.correctAnswerIndex;const valid=typeof d.stem==='string'&&d.stem.trim()&&Array.isArray(options)&&options.length>=2&&Number.isInteger(answer)&&answer>=0&&answer<options.length;
+ if(!valid)return{text:String(n.content||'')+'\n\n此筆舊紀錄缺少原始題目或答案，無法可靠補出詳解。請重新練習此能力，新的錯題會保存完整資料。',complete:false};
+ const id=Number(String(n.question_id||'').split('-').pop())-1;let q={id:n.question_id,type:d.type,stem:d.stem,options,answer,explanation:['weakness'].includes(n.category)?'':String(n.content||''),meta:{competency:d.skill||d.type,grammarFocus:d.grammarFocus||'',audioText:d.audioText||'',rule:''}};
+ if(bank&&Number.isInteger(id)&&id>=0&&id<20000){const current=bank.make(id);if(current.stem===d.stem&&JSON.stringify(current.options)===JSON.stringify(options)&&current.answer===answer)q=current;}
+ const selected=Number.isInteger(d.selectedIndex)&&d.selectedIndex>=0&&d.selectedIndex<options.length?d.selectedIndex:null;
+ const header=['原題：'+q.stem,selected===null?'此筆紀錄未保存當時選項。':'你的選擇：'+String.fromCharCode(65+selected)+'. '+options[selected]].join('\n\n');
+ if(q.type==='listening'&&!q.meta.audioText)return{text:header+'\n\n正確答案：'+options[answer]+'\n\n'+String(n.content||'')+'\n\n這筆舊紀錄沒有保存原始錄音文字，不能可靠重建聽力線索。新的作答會保留錄音文字與完整解析。',complete:false};
+ const e=explain(q,selected);if(n.category==='mistake'||n.category==='weakness')return{text:header+'\n\n'+toText(q,selected),complete:true};
+ if(n.category==='strategy')return{text:[e.memory,e.steps[1]].join('\n\n'),complete:true};
+ if(['grammar','vocabulary','phrase','sentence_pattern'].includes(n.category))return{text:[e.rule,e.steps[1],e.example].filter(Boolean).join('\n\n'),complete:true};return{text:n.content,complete:true};
+}
+g.LTUExplanation={explain,render,toText,forNote};
 })(typeof window==='undefined'?globalThis:window);

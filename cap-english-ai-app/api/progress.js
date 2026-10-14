@@ -23,15 +23,15 @@ function buildMockNotes(items){
  const rows=[];
  for(const x of items){
   if(x.correct)continue;
-  const id=safe(x.id,80),skill=safe(x.competency||x.type||'general',100),type=safe(x.type,40),ex=safe(x.explanation,800);
-  const detail={type,skill,stem:safe(x.stem,900),options:Array.isArray(x.options)?x.options.slice(0,5).map(v=>safe(v,180)):[],selectedIndex:Number.isInteger(x.selectedIndex)?x.selectedIndex:null,correctAnswerIndex:Number.isInteger(x.answer)?x.answer:null,source:'weekly_mock'};
-  const notes=[['mistake',`模考錯因｜${skill}`,ex||'重新確認題目線索與選項差異。'],['weakness',`模考弱點｜${skill}`,`Weekly Mock 顯示「${skill}」仍需要補強，下一輪會增加同能力題。`]];
+  const id=safe(x.id,80),skill=safe(x.competency||x.type||'general',100),type=safe(x.type,40),ex=safe(x.explanation,5000);
+  const detail={type,skill,audioText:safe(x.audioText,1600),stem:safe(x.stem,900),options:Array.isArray(x.options)?x.options.slice(0,5).map(v=>safe(v,180)):[],selectedIndex:Number.isInteger(x.selectedIndex)?x.selectedIndex:null,correctAnswerIndex:Number.isInteger(x.answer)?x.answer:null,source:'weekly_mock'};
+  const notes=[['mistake',`模考錯因｜${skill}`,ex||'重新確認題目線索與選項差異。'],['weakness',`模考弱點｜${skill}`,ex||'這筆模考紀錄未保存原始解析，請核對對應題目。']];
   if(type==='grammar')notes.push(['grammar',`文法｜${skill}`,ex]);
   if(type==='vocabulary')notes.push(['vocabulary',`單字｜${skill}`,ex]);
   if(['collocation','connectors','cloze'].includes(type))notes.push(['phrase',`片語／搭配｜${skill}`,ex]);
   if(type==='sentencePattern')notes.push(['sentence_pattern',`句型｜${skill}`,ex]);
   if(['detail','mainIdea','reference','inference','sequence','listening'].includes(type))notes.push(['strategy',`解題策略｜${skill}`,ex]);
-  for(const [category,title,content] of notes)rows.push({question_id:id,category,title:safe(title,160),content:safe(content,900),detail});
+  for(const [category,title,content] of notes)rows.push({question_id:id,category,title:safe(title,160),content:safe(content,5000),detail});
  }
  return rows;
 }

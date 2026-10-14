@@ -40,3 +40,13 @@ test('teaching HTML escapes external text and supports a concise Free explanatio
  const html=teaching.render(q,0,true);assert(!html.includes('<script>bad'));assert(html.includes('&lt;img'));
  const brief=teaching.render(bank.make(0),0,false);assert(!brief.includes('比較四個選項'));assert(brief.includes('複習重點'));
 });
+test('weakness tracking notices become full explanations from the original snapshot',()=>{
+ const q=bank.make(37),note={question_id:q.id,category:'weakness',content:'之後會安排同能力題',detail:{type:q.type,skill:q.meta.competency,stem:q.stem,options:q.options,correctAnswerIndex:q.answer,selectedIndex:q.options.indexOf('will finish')}};
+ const result=teaching.forNote(note,bank);assert(result.complete);assert(result.text.includes('原題：'));assert(result.text.includes('你的選擇：'));assert(result.text.includes('不在 if 子句')||result.text.includes('不是在 if 子句'));assert(result.text.includes('下次複習：'));
+ const changed=structuredClone(note);changed.detail.stem=changed.detail.stem.replaceAll('David','Nancy');const historic=teaching.forNote(changed,bank);assert(historic.text.includes('Nancy'));assert(!historic.text.includes('David'));assert(historic.complete);
+});
+test('incomplete historical listening notes do not invent a transcript',()=>{
+ const q=bank.make(8),note={question_id:'legacy-record',category:'weakness',content:'安排弱點追蹤',detail:{type:'listening',stem:q.stem,options:q.options,correctAnswerIndex:q.answer,selectedIndex:0}};
+ const result=teaching.forNote(note,bank);assert(!result.complete);assert(result.text.includes('沒有保存原始錄音文字'));assert(!result.text.includes('Could you help me'));
+ assert(!teaching.forNote({category:'weakness',content:'追蹤',detail:{}},bank).complete);
+});
