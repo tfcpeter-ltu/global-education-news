@@ -1,0 +1,63 @@
+/* Warm paper, collegiate navy, and restrained antique gold. */
+:root{--paper:#f5edd5;--sheet:#fffaf0;--ink:#213b49;--gold:#ad873e;--ltu:#213b49;--blue:#2b4958;--soft:#f3ead2;--line:#d9ccaa;--muted:#6b716b}
+html:root body[data-academic]{background:#f5edd5!important;background-image:radial-gradient(ellipse at 0 0,#fff7dd 0,transparent 60%),linear-gradient(180deg,#f7f0dc,#f0e6c9)!important;color:#213b49!important;line-height:1.65}
+body[data-academic] h1,body[data-academic] h2,body[data-academic] h3{font-family:Georgia,"Times New Roman","Noto Serif TC","PMingLiU",serif!important;letter-spacing:.02em;line-height:1.4}
+body[data-academic] h1{font-weight:700!important}body[data-academic] h2{font-weight:700!important}
+body[data-academic] a{color:#2c5669}body[data-academic] button{transition:background-color .18s,box-shadow .18s}
+body[data-academic] :is(button,a,input,select):focus-visible{outline:3px solid #ad873e;outline-offset:3px}
+body[data-academic] :is(.card,.v3Card,.v3Note,.v3QuickCard,.pcPlan,.pcore,.cpGate,#completePreviewV1){background:#fffaf0!important;border-color:#dacdab!important;border-radius:12px!important;box-shadow:0 5px 18px #6551210a!important}
+body[data-academic] :is(.v3nav,.cpTop,header){background:#f7f0dfee!important;border-color:#cdbc92!important;backdrop-filter:blur(10px)}
+body[data-academic] :is(.v3logo,.cpBrand,header strong){color:#243e4d!important;font-family:Georgia,"Times New Roman",serif!important}
+body[data-academic] :is(.v3brandtext small,.cpBrand span){color:#8d6b2d!important;letter-spacing:.055em}
+body[data-academic] :is(.v3links button,.v3links a,.cpLinks button,.cpLinks a){color:#304b57!important;border-radius:7px!important}
+body[data-academic] :is(.v3links button:hover,.v3links a:hover,.cpLinks button:hover,.cpLinks a:hover){background:#ede1bd!important}
+body[data-academic] :is(.v3links .primary,.v3Action,.fxBtn,.pcBtn,.cpBtn,.a2btn,.lp4action,.lp4next,.nbOpen,.nb2review,.btn.primary,#dashboard button:not(.secondary),#login button){background:#2b4958!important;color:#fff9e9!important;border-radius:7px!important;box-shadow:none!important}
+body[data-academic] :is(.v3Action.secondary,.pcBtn.sec,.a2btn.sec,.lp4action.secondary,.secondary){background:#eee3c5!important;color:#334e5a!important}
+body[data-academic] :is(.v4completeMenu,.v3menu,.a2box,.v3modalBox,.v4memberCard,.lp4,.nb2box){background:#fffaf0!important;border:1px solid #d8c99f!important;border-radius:14px!important}
+body[data-academic] :is(.v4previewGrid div,.v3sample div,.a2user,.lp4box,.nb2item,.cpAction,.pcYear){background:#f7f0de!important;border-color:#ded0ad!important;border-radius:9px!important}
+body[data-academic] :is(.a2plan,.nb2filters button,.pcStat,.nb2stat,.fxPill,.v3NoteChip){background:#f6eed9!important;border-color:#dacdaa!important;border-radius:9px!important}
+body[data-academic] :is(.nb2filters button.on,.a2tabs button.on){background:#2b4958!important;color:#fff8e6!important}
+body[data-academic] :is(.a2f input,.a2f select,input,select){background:#fffcf4;border-color:#cdbd96!important;color:#213b49}
+body[data-academic] :is(.lp4opt,.pcOpt):not(.good):not(.bad):not(.sel){background:#fffaf0!important;border-color:#d6c8a6!important;color:#243e4d!important;border-radius:9px!important}
+body[data-academic] :is(.lp4ex,.lp4notice,.nb2empty,.nb2due,.pcLock,.pcWeakItem,.message){background:#f3e8c8!important;border-color:#d7c493!important;color:#4e513e!important}
+body[data-academic] .message.error{background:#fce9df!important;color:#893c2b!important}
+body[data-academic] :is(.pcTag,.fxEyebrow,.v4eyebrow,.nb2cat,.lp4tag){background:#efe2bd!important;color:#806329!important;letter-spacing:.06em}
+body[data-academic] :is(.pcPlan.pro,.v3Card.complete){border:1px solid #aa8844!important;background:#f6ecd1!important}
+body[data-academic] #flowUxCard{background:linear-gradient(115deg,#f3e4b9,#faf3df)!important;border:1px solid #ccb77e!important;border-left:4px solid #ad873e!important;border-radius:10px!important;box-shadow:none!important;margin:16px 0!important}
+body[data-academic] #ltuHomeV3{padding-bottom:18px!important}
+body[data-academic] .hero{padding-top:24px!important;padding-bottom:22px!important;gap:24px!important}
+body[data-academic] :is(.wrap,.membermain,.cpWrap){max-width:1160px!important;margin-inline:auto!important}
+body[data-academic] #completePreviewV1{margin:18px 0 24px!important;padding:20px!important}
+body[data-academic] .section{padding-block:24px!important}
+body[data-academic] :is(#analysis,#weekly,#history){margin-top:20px!important;padding:22px!important;border:1px solid #d7c8a2!important;border-top:3px solid #ad873e!important;border-radius:10px!important;scroll-margin-top:88px!important}
+body[data-academic] .cpHero{background:linear-gradient(130deg,#233d49,#34525c)!important;border-radius:12px!important;border-top:4px solid #b99850;padding:24px!important}
+body[data-academic] .cpHero h1{color:#fff7df!important}
+body[data-academic] .cpHero :is(p,.cpStat small){color:#e9dfc4!important}
+body[data-academic] .cpHero .cpStat{background:#ffffff0d!important;border:1px solid #ffffff22!important;color:#fff7df}
+body[data-academic] .cpHero .cpTag{background:#a98c4b22!important;border-color:#c6ad70!important;color:#e7d39e!important}
+body[data-academic] .cpAction{padding:12px!important;min-height:0!important}
+body[data-academic] .cpAction :is(b,span){color:#2e4856!important}
+body[data-academic] .cpGrid{gap:10px!important}
+body[data-academic] .cpNav{flex-wrap:wrap;gap:8px!important}
+body[data-academic] .cpLinks{flex-wrap:wrap}
+body[data-academic] .pcSub{line-height:1.7!important}
+body[data-academic] .pcStats{gap:10px!important;margin-block:12px!important}
+body[data-academic] #ltuNotebookCompact{max-width:1124px!important;margin:20px auto!important;padding:22px 24px 22px 38px!important;border-radius:10px!important;border-color:#cbb680!important;background:#f8efd4!important;box-shadow:none!important}
+body[data-academic] .nb2stats{gap:9px!important}
+body[data-academic] .nb2item{padding:16px!important}
+body[data-academic] :is(.nb2head,.lp4top,.a2top){gap:12px}
+body[data-academic] :is(.pcMock,.pcResult){background:#fffaf0!important;border-radius:10px!important}
+body[data-academic] .pcTop{background:#ede2c4!important;color:#2b4653!important}
+body[data-academic] .pcYear{padding:14px!important}
+body[data-academic] #cuteHeroV1{margin-bottom:14px!important;border-radius:12px!important;box-shadow:none!important}
+body[data-academic] #cuteFeatureHeroV15{max-width:1000px!important;margin-bottom:16px!important;border-radius:12px!important;box-shadow:none!important}
+body[data-academic] .v3hero:empty,body[data-academic] #pcMock:empty{display:none!important}
+body[data-academic] .membermain{padding-top:22px!important;padding-bottom:32px!important}
+body[data-academic] .membermain #pcoreMembership{display:none!important}
+body[data-academic] .membermain .cpSection{margin-top:20px!important}
+body[data-academic] table th{background:#f0e4c4!important;color:#344c57}
+body[data-academic] table :is(td,th){border-bottom-color:#e1d5b6!important}
+body[data-academic] .badge{background:#e7eddb;color:#3b6544}
+@media(max-width:850px){body[data-academic] .cpNav{align-items:flex-start}body[data-academic] .cpLinks{margin-left:0;width:100%;gap:3px}body[data-academic] .cpLinks a{display:inline-block!important}body[data-academic] .cpLinks :is(a,button){font-size:12px!important;padding:7px 8px!important}body[data-academic] :is(#analysis,#weekly,#history){scroll-margin-top:120px!important}}
+@media(max-width:620px){body[data-academic] #ltuHomeV3{padding-inline:14px!important;padding-bottom:12px!important}body[data-academic] :is(.wrap,.membermain){padding-inline:14px!important}body[data-academic] :is(#analysis,#weekly,#history){padding:18px!important}body[data-academic] .cpHero{padding:20px!important}body[data-academic] .cpHero h1{font-size:26px!important}body[data-academic] .cpGrid{grid-template-columns:1fr 1fr!important}body[data-academic] .cpAction:last-child{grid-column:1/-1}body[data-academic] #ltuNotebookCompact{padding:18px 18px 18px 30px!important;margin:16px auto!important}body[data-academic] :is(.nb2head,.fxRow){flex-wrap:wrap}body[data-academic] .v3brandtext{font-size:11px!important}body[data-academic] .v3links button{font-size:11px!important;padding:8px!important}body[data-academic] .hero{padding-top:20px!important}body[data-academic] :is(.a2box,.lp4,.nb2box){padding:18px!important}}
+@media(prefers-reduced-motion:reduce){body[data-academic] *{scroll-behavior:auto!important;transition:none!important}}
