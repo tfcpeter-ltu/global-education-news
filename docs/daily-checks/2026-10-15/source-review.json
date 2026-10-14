@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-15",
+  "verifiedAt": "2026-10-15T05:06:17.611541+08:00",
+  "news": [
+    {
+      "slug": "wa-three-university-merger-business-case-2026",
+      "url": "https://globalednews.com/news/wa-three-university-merger-business-case-2026/",
+      "sources": [
+        {
+          "label": "Western Australian Government | Reform and FAQ",
+          "url": "https://www.wa.gov.au/government/university-reform-western-australia"
+        },
+        {
+          "label": "Curtin University | Statement, 11 October 2026",
+          "url": "https://www.curtin.edu.au/news/media-release/curtin-opposes-forced-merger-of-universities/"
+        },
+        {
+          "label": "The PIE | Independent reporting, 12 October 2026",
+          "url": "https://thepienews.com/curtin-vows-to-fight-wa-mega-university-merger/"
+        }
+      ],
+      "verifiedAt": "2026-10-15T05:06:17.611541+08:00",
+      "title": "西澳評估三校合併：2027年完成商業論證，Curtin表態反對"
+    },
+    {
+      "slug": "australia-teqsa-fees-consultation-october-2026",
+      "url": "https://globalednews.com/news/australia-teqsa-fees-consultation-october-2026/",
+      "sources": [
+        {
+          "label": "TEQSA | Current fees and charges consultation",
+          "url": "https://www.teqsa.gov.au/About-us/engagement/consultation"
+        },
+        {
+          "label": "The PIE | Sector response, 13 October 2026",
+          "url": "https://thepienews.com/iteca-warns-australian-policy-is-choking-international-education-and-skills-pipeline/"
+        }
+      ],
+      "verifiedAt": "2026-10-15T05:06:17.611541+08:00",
+      "title": "澳洲TEQSA收費調整徵詢意見：10月16日截止，擬2027年實施"
+    },
+    {
+      "slug": "ireland-trusted-quality-and-access-october-2026",
+      "url": "https://globalednews.com/news/ireland-trusted-quality-and-access-october-2026/",
+      "sources": [
+        {
+          "label": "QQI | TrustEd Ireland framework and first cohort",
+          "url": "https://www.qqi.ie/news/qqi-announces-first-28-higher-education-institutions-authorised-to-use-trusted-ireland-quality"
+        },
+        {
+          "label": "The PIE | Ireland forum reporting, 14 October 2026",
+          "url": "https://thepienews.com/irelands-international-education-challenge-is-access-not-demand/"
+        }
+      ],
+      "verifiedAt": "2026-10-15T05:06:17.611541+08:00",
+      "title": "愛爾蘭教育界關切入境程序：選校同時查TrustEd品質認證"
+    }
+  ],
+  "scholarships": [
+    {
+      "slug": "2026-10-otago-global-undergraduate-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-10-otago-global-undergraduate-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-otago-global-undergraduate-2027.md",
+      "sources": [
+        "https://www.otago.ac.nz/international/future-students/subjects-courses/postgraduate-study/scholarships/global-scholarships",
+        "https://www.idp.com/scholarship/the-university-of-otago/global-scholarships/162134/",
+        "https://www.otago.ac.nz/international/future-students/fees-scholarships/international-scholarships"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-15T05:06:17.611541+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New scholarship page; verified current entry window, Taiwan eligibility, funding and exclusions."
+    },
+    {
+      "slug": "2026-10-otago-global-masters-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-10-otago-global-masters-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-otago-global-masters-2027.md",
+      "sources": [
+        "https://www.otago.ac.nz/international/future-students/subjects-courses/postgraduate-study/scholarships/university-of-otago-global-masters-scholarship",
+        "https://byronnz.com/insights/new-zealand-international-scholarships-2027-2028",
+        "https://www.otago.ac.nz/international/future-students/fees-scholarships/international-scholarships"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-15T05:06:17.611541+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New scholarship page; verified current entry window, Taiwan eligibility, funding and exclusions."
+    },
+    {
+      "slug": "2026-10-otago-international-academic-excellence-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-10-otago-international-academic-excellence-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-otago-international-academic-excellence-2027.md",
+      "sources": [
+        "https://www.otago.ac.nz/international/future-students/subjects-courses/postgraduate-study/scholarships/international-academic-excellence-scholarship",
+        "https://www.hotcoursesabroad.com/study/scourse/null/international-academic-excellence-scholarship/162135/program.html",
+        "https://www.otago.ac.nz/international/future-students/fees-scholarships/international-scholarships"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-15T05:06:17.611541+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New scholarship page; verified current entry window, Taiwan eligibility, funding and exclusions."
+    }
+  ],
+  "sourceAccessNotes": [
+    "Otago and Curtin read via web tool; direct requests returned HTTP403/certificate-chain error, with no security bypass.",
+    "IDP and Hotcourses full pages successfully read by direct HTTPS; search renderer returned HTTP403.",
+    "The PIE independent reporting distinguished from institutional statements."
+  ]
+}

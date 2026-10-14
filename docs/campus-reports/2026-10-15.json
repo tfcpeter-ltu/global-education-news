@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-15",
+  "timezone": "Asia/Taipei",
+  "status": "three-public-leads-reviewed",
+  "verifiedAt": "2026-10-15T05:07:41.185243+08:00",
+  "reviewedSchools": [
+    {
+      "school": "國立政治大學",
+      "schoolSlug": "nccu",
+      "source": "https://oic.nccu.edu.tw/Post/16148",
+      "finding": "2027/28台聯大交換說明會已結束；公告星期與日期不一致，不轉刊為招生截止；追蹤正式甄選公告。"
+    },
+    {
+      "school": "國立清華大學",
+      "schoolSlug": "nthu",
+      "source": "https://oga-exchange.vm.nthu.edu.tw/outexchange/index/index/puid/11521",
+      "finding": "報名10/8已截止，志願選填11/10 16:00截止；可追蹤兩階段日期與姊妹校專業限制。"
+    },
+    {
+      "school": "國立臺灣大學",
+      "schoolSlug": "ntu",
+      "source": "https://management.ntu.edu.tw/en/ia/board/detail/sn/21320",
+      "finding": "管理學院116學年度院級交換公告；名額資訊與校級流程分開追蹤。"
+    }
+  ],
+  "published": [],
+  "pendingConsent": [],
+  "outreachDrafts": [],
+  "gaps": [],
+  "note": "公開機構線索，未寄送邀訪、未捏造採訪或新公告。"
+}

@@ -1,0 +1,453 @@
+{
+  "date": "2026-10-15",
+  "timezone": "Asia/Taipei",
+  "status": "in-progress",
+  "currentPhase": "COMMIT_DEPLOY",
+  "baselineCommit": "49779a0d8598c213285aea4d05d4127e3c8dfd55",
+  "startedAt": "2026-10-15T04:59:29.8956219+08:00",
+  "scholarshipBaselineSlugs": [
+    "2026-08-bristol-think-big",
+    "2026-08-manchester-global-futures-taiwan-2027",
+    "2026-08-mcgill-mccall-macbain",
+    "2026-08-melbourne-graduate-research",
+    "2026-08-melbourne-international-excellence-graduate-2027",
+    "2026-08-moe-eu-scholarship",
+    "2026-08-moe-government-sponsored-study",
+    "2026-08-moe-new-southbound-internship",
+    "2026-08-moe-overseas-scholarship",
+    "2026-08-moe-study-abroad-fly",
+    "2026-08-moe-study-abroad-internship",
+    "2026-08-moe-study-abroad-needy",
+    "2026-08-moe-top100-phd",
+    "2026-08-monash-awards-2027",
+    "2026-08-oxford-clarendon",
+    "2026-08-sydney-vcis-2027",
+    "2026-08-tgpi-dream-factory",
+    "2026-08-tgpi-global-flight",
+    "2026-08-ubc-four-year-doctoral-fellowship",
+    "2026-08-ubc-imes",
+    "2026-08-ubc-international-scholars-2027",
+    "2026-08-ubc-killam-doctoral-2027",
+    "2026-08-ucl-global-masters",
+    "2026-08-ucl-global-undergraduate",
+    "2026-08-unsw-scientia-2027",
+    "2026-08-uq-international-high-achievers-2027",
+    "2026-08-utoronto-pearson-2027",
+    "2026-09-adelaide-academic-excellence-2027",
+    "2026-09-adelaide-merit-2027",
+    "2026-09-auckland-international-student-excellence-2027",
+    "2026-09-cardiff-vice-chancellor-taiwan-january-2027",
+    "2026-09-chevening-delta-climate-2027",
+    "2026-09-chevening-taiwan",
+    "2026-09-daad-architecture-masters",
+    "2026-09-deakin-excellence-international-2027",
+    "2026-09-deakin-international-merit-2027",
+    "2026-09-deakin-vice-chancellor-international-2027",
+    "2026-09-dundee-east-asia-undergraduate-january-2027",
+    "2026-09-dundee-global-excellence-undergraduate-january-2027",
+    "2026-09-erasmus-mundus-2027",
+    "2026-09-eth-zurich-esop-2027",
+    "2026-09-exeter-pgt-taiwan-january-2027",
+    "2026-09-fulbright-experience-america-research-award",
+    "2026-09-fulbright-non-academic-professional-award",
+    "2026-09-fulbright-senior-research-award",
+    "2026-09-gates-cambridge-2027",
+    "2026-09-harvard-academy-scholars-2027",
+    "2026-09-harvard-radcliffe-fellowship-2027",
+    "2026-09-hkpfs-2027",
+    "2026-09-imperial-presidents-phd-2027",
+    "2026-09-kent-international-undergraduate-january-2027",
+    "2026-09-knight-hennessy-2027",
+    "2026-09-latrobe-high-achiever-2027",
+    "2026-09-leicester-global-excellence-jan-apr-2027",
+    "2026-09-macquarie-vcis-2027",
+    "2026-09-monash-international-merit-2027",
+    "2026-09-ntu-taiwan-scholarship-jan-2027",
+    "2026-09-ntu-taiwan-stem-scholarship-jan-2027",
+    "2026-09-oxford-clarendon-2027",
+    "2026-09-rmit-up-academic-english-bursary-2027",
+    "2026-09-strathclyde-sbs-international-masters-jan-2027",
+    "2026-09-sydney-rtp-international-2027",
+    "2026-09-taiwan-anu-phd-scholarship-2027",
+    "2026-09-tasmanian-international-scholarship-2027",
+    "2026-09-ubc-international-scholars-2027",
+    "2026-09-uc-berkeley-beahrs-elp-2027",
+    "2026-09-uni-iowa-partner-state-taiwan-2027",
+    "2026-09-university-iowa-national-scholars-2027",
+    "2026-09-unsw-international-scientia-2027",
+    "2026-09-uow-postgraduate-academic-excellence-2027",
+    "2026-09-uow-university-excellence-2027",
+    "2026-09-utoronto-lester-b-pearson-2027",
+    "2026-09-yenching-academy-2027-taiwan",
+    "2026-10-american-university-egls-2027",
+    "2026-10-aut-north-asia-2027",
+    "2026-10-bangor-vice-chancellor-january-2027",
+    "2026-10-bath-international-excellence-ug-2027",
+    "2026-10-boise-state-international-fall-2027",
+    "2026-10-bournemouth-academic-excellence-january-2027",
+    "2026-10-canterbury-international-first-year-offshore-2027",
+    "2026-10-cardiff-vice-chancellor-january-2027",
+    "2026-10-cumbria-international-undergraduate-january-2027",
+    "2026-10-dundee-global-excellence-september-2027",
+    "2026-10-essex-international-undergraduate-2027",
+    "2026-10-exeter-taiwan-pgt-2027",
+    "2026-10-herts-chancellor-january-2027",
+    "2026-10-kent-pgt-january-2027",
+    "2026-10-lancaster-regional-taiwan-2027",
+    "2026-10-london-met-east-asia-2027",
+    "2026-10-massey-creative-excellence-masters-2027",
+    "2026-10-massey-toroa-undergraduate-2027",
+    "2026-10-newcastle-australia-international-excellence-2027",
+    "2026-10-newcastle-vc-international-undergraduate-2027",
+    "2026-10-ntu-taiwan-january-2027",
+    "2026-10-oxford-brookes-january-2027",
+    "2026-10-portsmouth-chancellor-merit-january-2027",
+    "2026-10-qmul-global-talent-pgt-2027",
+    "2026-10-qub-pgt-january-2027",
+    "2026-10-rgu-early-payment-january-2027",
+    "2026-10-rgu-january-2027",
+    "2026-10-sheffield-international-pgt-2027",
+    "2026-10-sheffield-international-undergraduate-2027",
+    "2026-10-st-andrews-tesol-january-2027",
+    "2026-10-stirling-east-asia-pgt-2027",
+    "2026-10-stirling-vice-chancellor-pgt-january-2027",
+    "2026-10-strathclyde-science-january-2027",
+    "2026-10-swansea-international-excellence-january-2027",
+    "2026-10-uea-pg-merit-2027",
+    "2026-10-unisq-international-excellence-2027",
+    "2026-10-uwa-global-excellence-2027",
+    "2026-10-vuw-postgraduate-international-2027",
+    "2026-10-vuw-undergraduate-international-2027",
+    "2026-10-waterloo-international-entrance-2027",
+    "2026-10-western-sydney-international-undergraduate-2027",
+    "2026-10-westminster-pg-excellence-january-2027",
+    "catalog-aalto-excellence",
+    "catalog-berea-international-aid",
+    "catalog-bocconi-access-100",
+    "catalog-bocconi-access-80-60",
+    "catalog-bocconi-boost",
+    "catalog-bocconi-sport",
+    "catalog-chalmers-ipoet",
+    "catalog-daad-all-disciplines",
+    "catalog-daad-fine-art",
+    "catalog-daad-music",
+    "catalog-daad-performing-arts",
+    "catalog-duke-karsh",
+    "catalog-eiffel-master",
+    "catalog-eiffel-phd",
+    "catalog-emory-scholars",
+    "catalog-epfl-excellence",
+    "catalog-erasmus-mundus",
+    "catalog-eth-esop",
+    "catalog-geneva-excellence",
+    "catalog-gks-graduate",
+    "catalog-gks-undergraduate",
+    "catalog-goh-keng-swee",
+    "catalog-goi-ies",
+    "catalog-harvard-international-aid",
+    "catalog-helsinki-scholarship",
+    "catalog-jasso-honors",
+    "catalog-kaist-graduate",
+    "catalog-kaist-undergraduate",
+    "catalog-knight-hennessy",
+    "catalog-kth-scholarship",
+    "catalog-kyoto-iup",
+    "catalog-lund-global",
+    "catalog-maastricht-brightlands",
+    "catalog-maastricht-global-studies",
+    "catalog-maastricht-high-potential",
+    "catalog-maastricht-social-justice",
+    "catalog-maeci-italy",
+    "catalog-master-mind-flanders",
+    "catalog-mext-japanese-studies",
+    "catalog-mext-kosen-2027",
+    "catalog-mext-research-2027",
+    "catalog-mext-specialized-training-2027",
+    "catalog-mext-teacher-training",
+    "catalog-mext-undergraduate-2027",
+    "catalog-miami-stamps",
+    "catalog-mit-international-aid",
+    "catalog-nl-scholarship",
+    "catalog-nus-international-undergraduate",
+    "catalog-nus-science-technology",
+    "catalog-padua-excellence",
+    "catalog-paris-saclay-idex",
+    "catalog-radboud-nl-scholarship",
+    "catalog-radboud-scholarship",
+    "catalog-science-leuven",
+    "catalog-sciencespo-boutmy",
+    "catalog-snu-gsfs",
+    "catalog-swiss-phd",
+    "catalog-swiss-research-fellowship",
+    "catalog-taiwan-kaist-phd",
+    "catalog-tampere-scholarship",
+    "catalog-trinity-global-excellence",
+    "catalog-tudelft-justus",
+    "catalog-turku-merit",
+    "catalog-ucd-global-excellence",
+    "catalog-uppsala-global",
+    "catalog-utokyo-fellowship",
+    "catalog-utwente-scholarship",
+    "catalog-vanderbilt-cornelius",
+    "catalog-vanderbilt-ingram",
+    "catalog-yale-international-aid"
+  ],
+  "newsPublished": [],
+  "scholarshipChecks": [
+    {
+      "slug": "2026-10-otago-global-undergraduate-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-10-otago-global-undergraduate-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-otago-global-undergraduate-2027.md",
+      "sources": [
+        "https://www.otago.ac.nz/international/future-students/subjects-courses/postgraduate-study/scholarships/global-scholarships",
+        "https://www.idp.com/scholarship/the-university-of-otago/global-scholarships/162134/",
+        "https://www.otago.ac.nz/international/future-students/fees-scholarships/international-scholarships"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-15T05:06:17.611541+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New scholarship page; verified current entry window, Taiwan eligibility, funding and exclusions."
+    },
+    {
+      "slug": "2026-10-otago-global-masters-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-10-otago-global-masters-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-otago-global-masters-2027.md",
+      "sources": [
+        "https://www.otago.ac.nz/international/future-students/subjects-courses/postgraduate-study/scholarships/university-of-otago-global-masters-scholarship",
+        "https://byronnz.com/insights/new-zealand-international-scholarships-2027-2028",
+        "https://www.otago.ac.nz/international/future-students/fees-scholarships/international-scholarships"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-15T05:06:17.611541+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New scholarship page; verified current entry window, Taiwan eligibility, funding and exclusions."
+    },
+    {
+      "slug": "2026-10-otago-international-academic-excellence-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-10-otago-international-academic-excellence-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-otago-international-academic-excellence-2027.md",
+      "sources": [
+        "https://www.otago.ac.nz/international/future-students/subjects-courses/postgraduate-study/scholarships/international-academic-excellence-scholarship",
+        "https://www.hotcoursesabroad.com/study/scourse/null/international-academic-excellence-scholarship/162135/program.html",
+        "https://www.otago.ac.nz/international/future-students/fees-scholarships/international-scholarships"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-15T05:06:17.611541+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New scholarship page; verified current entry window, Taiwan eligibility, funding and exclusions."
+    }
+  ],
+  "scholarshipAdditions": [
+    {
+      "slug": "2026-10-otago-global-undergraduate-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-10-otago-global-undergraduate-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-otago-global-undergraduate-2027.md",
+      "sources": [
+        "https://www.otago.ac.nz/international/future-students/subjects-courses/postgraduate-study/scholarships/global-scholarships",
+        "https://www.idp.com/scholarship/the-university-of-otago/global-scholarships/162134/",
+        "https://www.otago.ac.nz/international/future-students/fees-scholarships/international-scholarships"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-15T05:06:17.611541+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New scholarship page; verified current entry window, Taiwan eligibility, funding and exclusions."
+    },
+    {
+      "slug": "2026-10-otago-global-masters-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-10-otago-global-masters-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-otago-global-masters-2027.md",
+      "sources": [
+        "https://www.otago.ac.nz/international/future-students/subjects-courses/postgraduate-study/scholarships/university-of-otago-global-masters-scholarship",
+        "https://byronnz.com/insights/new-zealand-international-scholarships-2027-2028",
+        "https://www.otago.ac.nz/international/future-students/fees-scholarships/international-scholarships"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-15T05:06:17.611541+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New scholarship page; verified current entry window, Taiwan eligibility, funding and exclusions."
+    },
+    {
+      "slug": "2026-10-otago-international-academic-excellence-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-10-otago-international-academic-excellence-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-otago-international-academic-excellence-2027.md",
+      "sources": [
+        "https://www.otago.ac.nz/international/future-students/subjects-courses/postgraduate-study/scholarships/international-academic-excellence-scholarship",
+        "https://www.hotcoursesabroad.com/study/scourse/null/international-academic-excellence-scholarship/162135/program.html",
+        "https://www.otago.ac.nz/international/future-students/fees-scholarships/international-scholarships"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-15T05:06:17.611541+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New scholarship page; verified current entry window, Taiwan eligibility, funding and exclusions."
+    }
+  ],
+  "peterImports": [],
+  "socialPosts": [],
+  "gaps": [
+    "COMMIT_DEPLOY",
+    "PUBLISH",
+    "ACCEPTANCE",
+    "VERIFY"
+  ],
+  "newsPrepared": [
+    {
+      "slug": "wa-three-university-merger-business-case-2026",
+      "url": "https://globalednews.com/news/wa-three-university-merger-business-case-2026/",
+      "sources": [
+        {
+          "label": "Western Australian Government | Reform and FAQ",
+          "url": "https://www.wa.gov.au/government/university-reform-western-australia"
+        },
+        {
+          "label": "Curtin University | Statement, 11 October 2026",
+          "url": "https://www.curtin.edu.au/news/media-release/curtin-opposes-forced-merger-of-universities/"
+        },
+        {
+          "label": "The PIE | Independent reporting, 12 October 2026",
+          "url": "https://thepienews.com/curtin-vows-to-fight-wa-mega-university-merger/"
+        }
+      ],
+      "verifiedAt": "2026-10-15T05:06:17.611541+08:00",
+      "title": "西澳評估三校合併：2027年完成商業論證，Curtin表態反對"
+    },
+    {
+      "slug": "australia-teqsa-fees-consultation-october-2026",
+      "url": "https://globalednews.com/news/australia-teqsa-fees-consultation-october-2026/",
+      "sources": [
+        {
+          "label": "TEQSA | Current fees and charges consultation",
+          "url": "https://www.teqsa.gov.au/About-us/engagement/consultation"
+        },
+        {
+          "label": "The PIE | Sector response, 13 October 2026",
+          "url": "https://thepienews.com/iteca-warns-australian-policy-is-choking-international-education-and-skills-pipeline/"
+        }
+      ],
+      "verifiedAt": "2026-10-15T05:06:17.611541+08:00",
+      "title": "澳洲TEQSA收費調整徵詢意見：10月16日截止，擬2027年實施"
+    },
+    {
+      "slug": "ireland-trusted-quality-and-access-october-2026",
+      "url": "https://globalednews.com/news/ireland-trusted-quality-and-access-october-2026/",
+      "sources": [
+        {
+          "label": "QQI | TrustEd Ireland framework and first cohort",
+          "url": "https://www.qqi.ie/news/qqi-announces-first-28-higher-education-institutions-authorised-to-use-trusted-ireland-quality"
+        },
+        {
+          "label": "The PIE | Ireland forum reporting, 14 October 2026",
+          "url": "https://thepienews.com/irelands-international-education-challenge-is-access-not-demand/"
+        }
+      ],
+      "verifiedAt": "2026-10-15T05:06:17.611541+08:00",
+      "title": "愛爾蘭教育界關切入境程序：選校同時查TrustEd品質認證"
+    }
+  ],
+  "researchCompletedAt": "2026-10-15T05:06:17.611541+08:00",
+  "peterReview": {
+    "status": "no-new-posts",
+    "checkedAt": "2026-10-15T05:06:17.611541+08:00",
+    "availableNewCount": 0,
+    "sourceUrls": [
+      "https://www.facebook.com/profile.php?id=61585164670358",
+      "https://www.facebook.com/photo/?fbid=122147120055172155",
+      "https://www.facebook.com/photo/?fbid=122146802781172155"
+    ],
+    "scope": "直接核對指定粉專至4天前；最新電子書預告、Legacy及青年嘗試題材已在既有收錄範圍，置頂目錄排除。"
+  },
+  "rejectedCandidates": [
+    {
+      "topic": "US CPT",
+      "reason": "Same guidance and lawsuit already covered; no sufficiently distinct confirmed event."
+    },
+    {
+      "topic": "ITECA visa refusal statistic",
+      "reason": "Did not independently verify current denominator; excluded from story."
+    }
+  ],
+  "ltuReview": {
+    "checkedAt": "2026-10-15T05:06:17.611541+08:00",
+    "poolSize": 12,
+    "expectedVisibleIndices": [
+      11,
+      0,
+      1
+    ],
+    "visibleSources": [
+      "https://www.yuanfengmedia.tw/detail.php?type=lastest&id=52990",
+      "https://www.ctee.com.tw/news/20250623700886-431204",
+      "https://money.udn.com/money/story/5723/8815124"
+    ]
+  },
+  "studyAbroadReview": {
+    "country": "New Zealand",
+    "school": "University of Otago",
+    "angle": "Course and campus before scholarship comparison",
+    "url": "https://globalednews.com/study-abroad/otago-course-campus-scholarship-planning-2027/",
+    "verifiedAt": "2026-10-15T05:06:17.611541+08:00"
+  },
+  "campusReport": {
+    "date": "2026-10-15",
+    "timezone": "Asia/Taipei",
+    "status": "three-public-leads-reviewed",
+    "verifiedAt": "2026-10-15T05:07:41.185243+08:00",
+    "reviewedSchools": [
+      {
+        "school": "國立政治大學",
+        "schoolSlug": "nccu",
+        "source": "https://oic.nccu.edu.tw/Post/16148",
+        "finding": "2027/28台聯大交換說明會已結束；公告星期與日期不一致，不轉刊為招生截止；追蹤正式甄選公告。"
+      },
+      {
+        "school": "國立清華大學",
+        "schoolSlug": "nthu",
+        "source": "https://oga-exchange.vm.nthu.edu.tw/outexchange/index/index/puid/11521",
+        "finding": "報名10/8已截止，志願選填11/10 16:00截止；可追蹤兩階段日期與姊妹校專業限制。"
+      },
+      {
+        "school": "國立臺灣大學",
+        "schoolSlug": "ntu",
+        "source": "https://management.ntu.edu.tw/en/ia/board/detail/sn/21320",
+        "finding": "管理學院116學年度院級交換公告；名額資訊與校級流程分開追蹤。"
+      }
+    ],
+    "published": [],
+    "pendingConsent": [],
+    "outreachDrafts": [],
+    "gaps": [],
+    "note": "公開機構線索，未寄送邀訪、未捏造採訪或新公告。"
+  },
+  "preparedAt": "2026-10-15T05:07:41.185243+08:00",
+  "sunmoonReview": {
+    "checkedAt": "2026-10-15T05:07:41.185243+08:00",
+    "source": "https://www.sunmoonnews.com.tw/",
+    "status": "source-unavailable-alternative-reviewed",
+    "attempts": [
+      "Repeated direct web opens returned internal error.",
+      "Yuanfeng current home and LTU source read; education category timed out."
+    ],
+    "alternative": "https://www.yuanfengmedia.tw/",
+    "decision": "No new article imported from a single unverified media lead; international quota covered by independently verified alternatives."
+  },
+  "build": {
+    "status": "success",
+    "verifiedAt": "2026-10-15T05:12:07.484465+08:00",
+    "astroPages": 459,
+    "englishPages": 714,
+    "photoPreviews": 1420,
+    "sitemapUrls": 1414,
+    "newEnglishPagesCjkCount": 0
+  }
+}
