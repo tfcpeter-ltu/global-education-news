@@ -318,6 +318,85 @@
           "proof": "li-taiwan-published26.png"
         }
       ]
+    },
+    {
+      "date": "2026-10-15",
+      "topic": "exchange-deadline-separation",
+      "CTA": "免費加入會員",
+      "contentPath": "docs/social-posts/2026-10-15/taiwan-universities--exchange-deadline-separation.json",
+      "status": "published",
+      "publishedPosts": [
+        {
+          "campaign": "taiwan-universities",
+          "network": "threads",
+          "articleUrl": "https://globalednews.com/taiwan-universities/",
+          "version": "v1",
+          "status": "PUBLISHED",
+          "startedAt": "2026-10-15T05:22:53.666+08:00",
+          "publishClickedAt": "2026-10-15T05:23:23.790+08:00",
+          "id": "DefVywNE_PU",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DefVywNE_PU",
+          "publishedAt": "2026-10-15T05:23:41.307+08:00",
+          "publicPhotoScreenshot": "docs/social-posts/2026-10-15/evidence/threads-taiwan-universities-public.png",
+          "verifiedAt": "2026-10-15T05:23:50.856+08:00",
+          "imageCount": 1,
+          "mediaStatus": "VERIFIED",
+          "mediaVerifiedAt": "2026-10-15T05:23:50.856+08:00",
+          "mediaKind": "uploaded-photo",
+          "mediaEvidence": "Public permalink visually shows correct account, readable photograph card and matching copy.",
+          "publishedAtBasis": "Observed publication/readback time; platform relative time also checked.",
+          "method": "direct-browser",
+          "accountVerified": true,
+          "visibility": "public"
+        },
+        {
+          "campaign": "taiwan-universities",
+          "network": "linkedin",
+          "articleUrl": "https://globalednews.com/taiwan-universities/",
+          "version": "v1",
+          "status": "PUBLISHED",
+          "startedAt": "2026-10-15T05:22:54.208+08:00",
+          "publishClickedAt": "2026-10-15T05:23:32.452+08:00",
+          "id": "7516247358985146368",
+          "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7516247358985146368/",
+          "publishedAt": "2026-10-15T05:23:48.848+08:00",
+          "publicPhotoScreenshot": "docs/social-posts/2026-10-15/evidence/linkedin-taiwan-universities-public.png",
+          "verifiedAt": "2026-10-15T05:23:58.815+08:00",
+          "imageCount": 1,
+          "mediaStatus": "VERIFIED",
+          "mediaVerifiedAt": "2026-10-15T05:23:58.815+08:00",
+          "mediaKind": "uploaded-photo",
+          "mediaEvidence": "Public permalink visually shows correct account, readable photograph card and matching copy.",
+          "publishedAtBasis": "Observed publication/readback time; platform relative time also checked.",
+          "method": "direct-browser",
+          "accountVerified": true,
+          "visibility": "public"
+        },
+        {
+          "campaign": "taiwan-universities",
+          "network": "instagram",
+          "articleUrl": "https://globalednews.com/taiwan-universities/",
+          "version": "v1",
+          "status": "PUBLISHED",
+          "startedAt": "2026-10-15T05:25:31.963+08:00",
+          "publishClickedAt": "2026-10-15T05:29:04.231+08:00",
+          "threadsSync": false,
+          "id": "DefWclnk-lo",
+          "publicUrl": "https://www.instagram.com/ltuossdtw/p/DefWclnk-lo/",
+          "publishedAt": "2026-10-15T05:29:31.156+08:00",
+          "publicPhotoScreenshot": "docs/social-posts/2026-10-15/evidence/instagram-taiwan-universities-public.png",
+          "verifiedAt": "2026-10-15T05:29:39.045+08:00",
+          "imageCount": 1,
+          "mediaStatus": "VERIFIED",
+          "mediaVerifiedAt": "2026-10-15T05:29:39.045+08:00",
+          "mediaKind": "uploaded-photo",
+          "mediaEvidence": "Public permalink visually shows correct account, readable photograph card and matching copy.",
+          "publishedAtBasis": "Observed publication/readback time; platform relative time also checked.",
+          "method": "direct-browser",
+          "accountVerified": true,
+          "visibility": "public"
+        }
+      ]
     }
   ]
 }
