@@ -1,5 +1,6 @@
 import { mkdir, writeFile, readFile } from 'node:fs/promises';
 import sharp from 'sharp';
+import {makeMath,skills} from '../lib/math-bank.mjs';
 
 const base='https://raw.githubusercontent.com/tfcpeter-ltu/global-education-news/7deeac6b0ab4c85de9e18a2ec7e47a8d94648942/cap-ai-preview/';
 const files=['final-v3.html'];
@@ -46,3 +47,14 @@ await writeFile('public/index.html',index.replace('</head>',brandMeta+shareMeta+
 const complete=`<!doctype html><html lang="zh-Hant"><head><link id="academic-theme" rel="stylesheet" href="/academic-theme.css?v=${cache}"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>AI Complete 會員中心｜CAP English AI</title><meta name="robots" content="noindex,nofollow"><style>.membermain{max-width:1180px;margin:auto;padding:0 18px 60px}section{scroll-margin-top:72px}</style></head><body data-academic="1"><main class="membermain"><div id="completePortal"></div><section id="weekly" class="cpSection"><h2>Weekly Mock</h2></section><section id="history" class="cpSection"><h2>歷屆題</h2></section><section id="analysis" class="cpSection"><h2>弱點分析</h2></section></main><script src="/question-engine-v2.js?v=${cache}"></script><script src="/mock-listening.js?v=${cache}"></script><script src="/mock-groups.js?v=${cache}"></script><script src="/explanation-engine.js?v=${cache}"></script><script src="/practice-ui-v4.js?v=${cache}"></script><script src="/notebook-ui-v2.js?v=${cache}"></script><script src="/auth-ui-v2.js?v=${cache}"></script><script src="/product-core-v1.js?v=${cache}"></script><script src="/complete-portal-v1.js?v=${cache}"></script><script src="/membership-sync-v1.js?v=${cache}"></script><script src="/trad-tw-fix-v1.js?v=${cache}"></script><script src="/academic-theme.js?v=${cache}"></script></body></html>`;
 await writeFile('public/complete.html',complete.replace('</head>',brandMeta+'</head>'),'utf8');
 console.log('CAP English AI built: warm academic theme + HTML feature board');
+await writeFile('public/math.html',await readFile('math-site/index.html'));
+await writeFile('public/math-ui.mjs',await readFile('math-site/app.mjs'));
+await writeFile('public/math-style.css',await readFile('math-site/style.css'));
+await writeFile('public/math-demo.mjs',`export const skills=${JSON.stringify(skills)};export const demoQuestions=${JSON.stringify([0,7,11].map(i=>({...makeMath(`MATH-${String(i).padStart(4,'0')}`),id:'DEMO-'+i})))};`);
+const mathLogo=logo.toString().replace(/CAP/g,'MATH');
+await writeFile('public/math-logo.svg',mathLogo);
+const mathShare=shareSvg.replace('CAP ENGLISH AI','CAP MATH AI').replace('國中會考英文 AI','國中會考數學 AI').replace('每日練習 · 閱讀聽力 · 模考解析','每日練習 · 逐步詳解 · 數學模考');
+await sharp(Buffer.from(mathShare)).composite([{input:await sharp(Buffer.from(mathLogo)).resize(128,128).png().toBuffer(),left:70,top:70},{input:art,left:782,top:65}]).png().toFile('public/math-share.png');
+const mathHtml=await readFile('public/math.html','utf8');
+await writeFile('public/math.html',mathHtml.replace('</head>','<meta property="og:title" content="2027 國中會考數學 × AI 個人化學習"><meta property="og:image" content="https://cap-ai.ossdtw.com/math-share.png"><meta property="og:url" content="https://cap-ai.ossdtw.com/math"><meta name="twitter:card" content="summary_large_image"></head>'));
+console.log('CAP Math AI standalone site built');

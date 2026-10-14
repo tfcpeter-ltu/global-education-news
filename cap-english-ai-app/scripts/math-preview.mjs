@@ -1,0 +1,6 @@
+import http from 'node:http';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import math from '../api/math.js';
+const root=path.resolve('public');
+http.createServer(async(req,res)=>{try{const url=new URL(req.url,'http://127.0.0.1:4318');if(url.pathname.startsWith('/api/math/')){req.query={action:url.pathname.split('/').at(-1)};let body='';for await(const part of req)body+=part;req.body=body?JSON.parse(body):{};res.status=n=>{res.statusCode=n;return res;};res.json=d=>{res.setHeader('Content-Type','application/json');res.end(JSON.stringify(d));};return await math(req,res);}const file=path.resolve(root,url.pathname==='/math'||url.pathname==='/'?'math.html':'.'+url.pathname);if(!file.startsWith(root+path.sep)){res.writeHead(403);return res.end();}const data=await fs.readFile(file);res.setHeader('Content-Type',({'.html':'text/html; charset=utf-8','.css':'text/css','.js':'text/javascript','.mjs':'text/javascript','.svg':'image/svg+xml','.webp':'image/webp','.png':'image/png'})[path.extname(file)]||'application/octet-stream');res.end(data);}catch(e){res.writeHead(404);res.end('Not found');}}).listen(4318,'127.0.0.1',()=>console.log('Math preview http://127.0.0.1:4318/math'));

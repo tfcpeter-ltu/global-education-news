@@ -10,13 +10,46 @@
   "outputDirectory": "public",
   "cleanUrls": true,
   "rewrites": [
-    { "source": "/api/admin/:path*", "destination": "/api/admin?adminRoute=:path*" },
-    { "source": "/api/auth/me", "destination": "/api/auth-me" },
-    { "source": "/api/paypal/:path*", "destination": "/api/payment?provider=paypal&paymentRoute=:path*" },
-    { "source": "/api/newebpay/:path*", "destination": "/api/payment?provider=newebpay&paymentRoute=:path*" },
-    { "source": "/api/practice/:path*", "destination": "/api/practice?practiceRoute=:path*" },
-    { "source": "/api/notebook/:path*", "destination": "/api/notebook?notebookRoute=:path*" },
-    { "source": "/api/progress/:path*", "destination": "/api/progress?progressRoute=:path*" },
-    { "source": "/api/:path*", "destination": "/api/index?route=:path*" }
+    {"source":"/api/math/:action","destination":"/api/math?action=:action"},
+    {
+      "source": "/api/math-paypal/:path*",
+      "destination": "/api/math-payment?provider=paypal&paymentRoute=:path*"
+    },
+    {
+      "source": "/api/math-newebpay/:path*",
+      "destination": "/api/math-payment?provider=newebpay&paymentRoute=:path*"
+    },
+    {
+      "source": "/api/admin/:path*",
+      "destination": "/api/admin?adminRoute=:path*"
+    },
+    {
+      "source": "/api/auth/me",
+      "destination": "/api/auth-me"
+    },
+    {
+      "source": "/api/paypal/:path*",
+      "destination": "/api/payment?provider=paypal&paymentRoute=:path*"
+    },
+    {
+      "source": "/api/newebpay/:path*",
+      "destination": "/api/payment?provider=newebpay&paymentRoute=:path*"
+    },
+    {
+      "source": "/api/practice/:path*",
+      "destination": "/api/practice?practiceRoute=:path*"
+    },
+    {
+      "source": "/api/notebook/:path*",
+      "destination": "/api/notebook?notebookRoute=:path*"
+    },
+    {
+      "source": "/api/progress/:path*",
+      "destination": "/api/progress?progressRoute=:path*"
+    },
+    {
+      "source": "/api/:path*",
+      "destination": "/api/index?route=:path*"
+    }
   ]
 }
