@@ -118,3 +118,58 @@ body[data-academic] .exMemory{background:#eadfbf;border-radius:7px;padding:12px;
 body[data-academic] .exFeedback p{margin:8px 0}
 body[data-academic] .nb2item p{white-space:pre-line;line-height:1.85}
 @media(max-width:620px){body[data-academic] #cuteFeatureHeroV15{padding:18px!important}body[data-academic] .academicFeatureGrid{grid-template-columns:1fr;gap:14px;padding-top:14px}body[data-academic] .academicFeatureGrid article{display:grid;grid-template-columns:32px 1fr;column-gap:10px}body[data-academic] .academicFeatureGrid article+article{border-left:0;border-top:1px solid #d5c391;padding-left:0;padding-top:14px}body[data-academic] .academicNumber{grid-row:1/3}body[data-academic] .academicFeatureGrid h3{margin:0 0 4px}body[data-academic] .academicFeatureGrid p{grid-column:2}body[data-academic] .academicFeatureHead h2{font-size:22px}}
+
+/* Collegiate redesign: limestone, library green, copperplate lines and archways. */
+:root{--paper:#f3efe3;--sheet:#fcfaf3;--ink:#1e3934;--gold:#aa8e58;--ltu:#1e3934;--blue:#294d43;--soft:#ebe4d1;--line:#d1c4a5;--muted:#666d61}
+html:root body[data-academic]{background-color:#f3efe3!important;background-image:radial-gradient(ellipse at 10% 0,#fbf8eb 0,transparent 62%),repeating-linear-gradient(0deg,#8e805a03 0 1px,transparent 1px 5px)!important;color:#233c36!important}
+body[data-academic] :is(#ltuHomeV3,main.wrap,.membermain){max-width:1180px!important;padding-inline:32px!important}
+body[data-academic] :is(h1,h2,h3){font-family:Georgia,"Times New Roman","Noto Serif TC","PMingLiU",serif!important;color:#203d35!important}
+body[data-academic] :is(.v3nav,.cpNav){border-bottom:1px solid #b8a16f!important;padding-block:16px!important;position:relative}
+body[data-academic] .v3nav:after,body[data-academic] .cpNav:after{content:'';position:absolute;bottom:4px;left:0;right:0;border-bottom:1px solid #c9b99166;pointer-events:none}
+body[data-academic] :is(.v3logo,.cpBrand){color:#24473b!important;font-weight:700!important;letter-spacing:-.04em}
+body[data-academic] :is(.v3brandtext small,.cpBrand span){font-weight:500!important;letter-spacing:.13em!important;color:#8c7449!important}
+body[data-academic] :is(.v3Action,.fxBtn,.pcBtn,.cpBtn,.a2btn,.lp4action,.lp4next,.nbOpen,.nb2review,.btn.primary){background:#264d3e!important;border-radius:3px!important;padding:12px 18px!important;font-weight:700!important;box-shadow:0 2px 0 #18352922!important}
+body[data-academic] :is(.v3Action.secondary,.pcBtn.sec,.a2btn.sec,.lp4action.secondary,.secondary){background:#ede7d6!important;color:#29463b!important;border:1px solid #c9b992!important;border-radius:3px!important}
+body[data-academic] :is(.v3links button,.v3links a,.cpLinks button,.cpLinks a){border-radius:3px!important;color:#314c3f!important}
+body[data-academic] main.wrap>.hero{position:relative;isolation:isolate;align-items:center!important;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr)!important;padding:48px 0 50px!important;gap:48px!important;border-bottom:1px solid #b9a375}
+body[data-academic] main.wrap>.hero:before{content:'';position:absolute;inset:0 -32px;z-index:-1;pointer-events:none;background:url('/collegiate-linework.svg') center bottom / 100% auto no-repeat;opacity:.13}
+body[data-academic] .hero h1{font-size:clamp(36px,3.7vw,52px)!important;line-height:1.38!important;letter-spacing:.015em!important;color:#203e34!important;margin-block:20px 24px!important}
+body[data-academic] .hero h1 span{color:#846c40!important;font-weight:500!important}
+body[data-academic] .hero .tag{border:0!important;border-bottom:1px solid #b79c66!important;border-radius:0!important;background:transparent!important;padding:6px 0 9px!important;color:#816942!important;letter-spacing:.16em!important;font-size:11px!important}
+body[data-academic] .hero .lead{font-size:15px!important;line-height:1.95!important;color:#5d6b60!important;max-width:490px}
+body[data-academic] .heroCard{padding:19px 19px 17px!important;border-radius:2px!important;border:1px solid #c8b78e!important;background:#fcfaf3!important;box-shadow:7px 7px 0 #e8dfc922,0 14px 34px #3247370c!important;position:relative}
+body[data-academic] .heroCard:after{content:'';position:absolute;inset:6px;border:1px solid #c9b58a60;pointer-events:none}
+body[data-academic] .academicIllustration{padding:6px 10px 0!important}
+body[data-academic] .academicIllustration img{border-radius:49% 49% 2px 2px / 28% 28% 2px 2px!important;aspect-ratio:1.18!important;object-fit:cover!important;object-position:center!important;filter:saturate(.72) contrast(.98)!important;border:1px solid #bfa77b!important;box-shadow:0 0 0 5px #faf6e9,0 0 0 6px #c7b58e!important}
+body[data-academic] .academicIllustration figcaption{padding-top:17px!important;color:#927749!important;font-size:9px!important;letter-spacing:.23em!important}
+body[data-academic] .heroCard h3{font-size:18px!important;font-weight:500!important;border-top:1px solid #d6c9a9;padding-top:14px!important;margin-top:14px!important}
+body[data-academic] .heroCard .stats{gap:0!important;border-top:1px solid #cebf9a;margin-top:18px!important}
+body[data-academic] .heroCard .stat{border:0!important;border-right:1px solid #d6cbae!important;background:transparent!important;border-radius:0!important;padding:13px 6px 3px!important}
+body[data-academic] .heroCard .stat:last-child{border-right:0!important}
+body[data-academic] .heroCard .stat b{font-family:Georgia,serif!important;font-size:22px!important;color:#846b3b!important;font-weight:500!important}
+body[data-academic] .heroCard .stat span{font-size:9px!important;color:#677062!important}
+body[data-academic] :is(.card,.v3Card,.v3Note,.v3QuickCard,.pcPlan,.pcore,.cpGate,#completePreviewV1,.price,.phase){border-radius:3px!important;background:#fcfaf3!important;border-color:#d3c7ab!important;box-shadow:0 8px 22px #37493206!important}
+body[data-academic] #cuteFeatureHeroV15{background:#faf6e9!important;border:1px solid #cabb97!important;border-top:1px solid #aa8e58!important;border-radius:2px!important;padding:30px!important;margin-top:24px!important;position:relative}
+body[data-academic] .academicFeatureHead>span{letter-spacing:.2em!important;font-weight:500!important;color:#8e764a!important}
+body[data-academic] .academicFeatureHead h2{font-size:27px!important;font-weight:500!important;color:#264237!important;margin-block:10px!important}
+body[data-academic] .academicFeatureHead:after{content:'✦';font-size:29px!important;color:#a28b5c!important;top:8px!important}
+body[data-academic] .academicFeatureGrid{border-top-color:#cfbf9b!important;gap:28px!important;padding-top:22px!important}
+body[data-academic] .academicNumber{color:#a28b60!important;font-size:28px!important;font-weight:400}
+body[data-academic] .academicFeatureGrid h3{font-weight:500!important;font-size:19px!important;color:#254337!important}
+body[data-academic] .academicFeatureGrid p{color:#687162!important;font-size:13px!important}
+body[data-academic] #flowUxCard{background:#eee8d6!important;border:1px solid #d0c19d!important;border-left:3px solid #9b8455!important;border-radius:2px!important;padding-block:22px!important}
+body[data-academic] .section{padding-block:32px!important}
+body[data-academic] :is(#analysis,#weekly,#history){border:1px solid #d2c5a5!important;border-top:2px solid #8c7850!important;border-radius:3px!important;padding:28px!important;background:#fbf8ef!important}
+body[data-academic] :is(#analysis,#weekly,#history)>h2{font-size:26px!important;font-weight:500!important;margin-bottom:12px!important}
+body[data-academic] #roadmap{border-radius:2px!important;background:#ede7d6!important;border-color:#c8b994!important;padding:28px!important}
+body[data-academic] :is(.pcStat,.nb2stat,.a2plan,.pcYear,.cpAction,.nb2item){border-radius:3px!important;background:#f8f4e8!important;border-color:#d6caad!important}
+body[data-academic] .cpHero{background:linear-gradient(110deg,#203e33,#315442)!important;border-radius:3px!important;position:relative;overflow:hidden;padding:34px!important}
+body[data-academic] .cpHero:after{content:'';position:absolute;inset:0;background:url('/collegiate-linework.svg') right bottom / 75% auto no-repeat;opacity:.2;pointer-events:none}
+body[data-academic] .cpHero h1{color:#f9f2da!important;position:relative;z-index:1}
+body[data-academic] :is(.nb2box,.lp4,.a2box,.v3modalBox){border-radius:5px!important;background:#fcfaf3!important;box-shadow:0 24px 90px #172f3329!important}
+body[data-academic] :is(.lp4opt,.pcOpt,.exOption){border-radius:3px!important}
+body[data-academic] .pcTop{background:#e7dfc9!important;color:#294338!important;border-bottom:1px solid #c4b386}
+body[data-academic] .exTeaching h3{color:#866e42!important;font-weight:500!important}
+body[data-academic] #ltuNotebookCompact{border-radius:3px!important;background:#f5efdf!important;border-color:#baa477!important}
+@media(max-width:850px){body[data-academic] main.wrap>.hero{grid-template-columns:1fr!important;gap:30px!important;padding-block:36px!important}body[data-academic] .heroCard{max-width:500px!important;width:100%!important;margin-inline:auto;box-sizing:border-box}body[data-academic] .hero h1{font-size:clamp(34px,6vw,46px)!important}}
+@media(max-width:620px){body[data-academic] :is(#ltuHomeV3,main.wrap,.membermain){padding-inline:18px!important}body[data-academic] main.wrap>.hero:before{inset-inline:-18px}body[data-academic] main.wrap>.hero{padding-top:26px!important;gap:26px!important}body[data-academic] .hero h1{font-size:34px!important}body[data-academic] .hero .lead{font-size:14px!important}body[data-academic] .heroCard{padding:16px!important}body[data-academic] .academicIllustration img{aspect-ratio:1.3!important}body[data-academic] .heroCard .stat:nth-child(2){border-right:0!important}body[data-academic] #cuteFeatureHeroV15{padding:22px!important}body[data-academic] :is(#analysis,#weekly,#history,#roadmap){padding:22px!important}body[data-academic] .academicFeatureGrid{gap:17px!important}}
