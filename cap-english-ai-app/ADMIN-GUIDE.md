@@ -1,6 +1,6 @@
 # CAP English AI 管理後台
 
-入口：`https://cap-english-ai-v14-stable.vercel.app/admin.html`。
+入口：`https://cap-ai.ossdtw.com/admin`。
 
 使用既有網站帳號 `tfcpeter@gmail.com` 與原本密碼登入。首次部署初始化會將在 2026-10-14 08:00 UTC 前建立的既有帳號 ID 綁定為唯一指定管理員；不存在時不會替未來註冊帳號保留管理權限，也不會建立或修改密碼。
 
