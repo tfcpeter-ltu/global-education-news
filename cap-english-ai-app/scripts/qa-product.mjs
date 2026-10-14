@@ -7,6 +7,7 @@ for(const file of browserFiles){const src=await read(file);new Function(src);ok(
 const { default: sharp } = await import('sharp');
 const mainHero = await sharp('public/cap-main-hero-v17.webp').metadata();
 await sharp('public/cap-main-hero-v17.webp').stats();
+await sharp('public/academic-students-gate.webp').stats();
 const featureTheme = await read('public/cute-theme-v1.js');
 ok(mainHero.width === 1000 && mainHero.height === 264, 'built main hero decodes at 1000×264');
 ok(featureTheme.includes('academicFeatureGrid') && !featureTheme.includes('featureImg.src'), 'feature board uses readable HTML without the damaged AVIF');

@@ -25,7 +25,7 @@ body[data-academic] :is(.lp4ex,.lp4notice,.nb2empty,.nb2due,.pcLock,.pcWeakItem,
 body[data-academic] .message.error{background:#fce9df!important;color:#893c2b!important}
 body[data-academic] :is(.pcTag,.fxEyebrow,.v4eyebrow,.nb2cat,.lp4tag){background:#efe2bd!important;color:#806329!important;letter-spacing:.06em}
 body[data-academic] :is(.pcPlan.pro,.v3Card.complete){border:1px solid #aa8844!important;background:#f6ecd1!important}
-body[data-academic] #flowUxCard{background:linear-gradient(115deg,#f3e4b9,#faf3df)!important;border:1px solid #ccb77e!important;border-left:4px solid #ad873e!important;border-radius:10px!important;box-shadow:none!important;margin:16px 0!important}
+body[data-academic] #flowUxCard{background:linear-gradient(115deg,#f3e4b9,#faf3df)!important;border:1px solid #ccb77e!important;border-left:4px solid #ad873e!important;border-radius:10px!important;box-shadow:none!important;margin:20px auto!important;width:100%!important;max-width:100%!important;box-sizing:border-box}
 body[data-academic] #ltuHomeV3{padding-bottom:18px!important}
 body[data-academic] .hero{padding-top:24px!important;padding-bottom:22px!important;gap:24px!important}
 body[data-academic] :is(.wrap,.membermain,.cpWrap){max-width:1160px!important;margin-inline:auto!important}
@@ -73,4 +73,34 @@ body[data-academic] .badge{background:#e7eddb;color:#3b6544}
 @media(max-width:620px){body[data-academic] #ltuHomeV3{padding-inline:14px!important;padding-bottom:12px!important}body[data-academic] :is(.wrap,.membermain){padding-inline:14px!important}body[data-academic] :is(#analysis,#weekly,#history){padding:18px!important}body[data-academic] .cpHero{padding:20px!important}body[data-academic] .cpHero h1{font-size:26px!important}body[data-academic] .cpGrid{grid-template-columns:1fr 1fr!important}body[data-academic] .cpAction:last-child{grid-column:1/-1}body[data-academic] #ltuNotebookCompact{padding:18px 18px 18px 30px!important;margin:16px auto!important}body[data-academic] :is(.nb2head,.fxRow){flex-wrap:wrap}body[data-academic] .v3brandtext{font-size:11px!important}body[data-academic] .v3links button{font-size:11px!important;padding:8px!important}body[data-academic] .hero{padding-top:20px!important}body[data-academic] :is(.a2box,.lp4,.nb2box){padding:18px!important}}
 @media(prefers-reduced-motion:reduce){body[data-academic] *{scroll-behavior:auto!important;transition:none!important}}
 @media(max-width:620px){body[data-academic] .v3nav{height:auto!important;min-height:70px;flex-wrap:wrap!important;padding-block:12px!important;gap:10px!important}body[data-academic] .v3brand{width:100%}body[data-academic] .v3links{width:100%;margin-left:0!important;justify-content:space-between;flex-wrap:wrap;gap:6px!important}body[data-academic] .v3links button{min-height:40px}body[data-academic] #v3Login{padding:8px!important;font-size:11px!important}body[data-academic] #ltuHomeV3{padding-top:0!important}body[data-academic] .cpNav{padding-inline:14px!important}body[data-academic] .cpLinks{row-gap:6px!important}body[data-academic] .cpStats{grid-template-columns:repeat(2,minmax(0,1fr))!important}body[data-academic] :is(.cpStat b,.pcStat b,.nb2item p){overflow-wrap:anywhere}body[data-academic] :is(.nb2box,.lp4,.a2box){max-width:100%;min-width:0}body[data-academic] .nb2itemtop{flex-wrap:wrap}body[data-academic] .nb2foot{flex-wrap:wrap;gap:8px}}
+/* A single centered editorial column; the campus illustration accompanies the introduction. */
+body[data-academic] :is(#ltuHomeV3,main.wrap,.membermain){box-sizing:border-box!important;width:100%!important;max-width:1120px!important;margin-inline:auto!important;padding-inline:24px!important}
+body[data-academic] #ltuHomeV3{padding-bottom:0!important}
+body[data-academic] main.wrap>.hero{align-items:center!important;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr)!important;padding:32px 0 24px!important;gap:32px!important}
+body[data-academic] .hero h1{font-size:clamp(36px,4vw,54px)!important;line-height:1.3!important;letter-spacing:.015em!important;color:#203b49!important}
+body[data-academic] .hero h1 span{color:#815f27!important}
+body[data-academic] .hero .lead{color:#58686b!important;font-size:16px!important}
+body[data-academic] .hero .tag{background:#eadbb2!important;color:#7b5e2a!important;border:1px solid #d2bd89;font-size:11px;letter-spacing:.06em}
+body[data-academic] .heroCard{color:#243f4c!important;min-width:0;background:#fff9e9!important;border:1px solid #c8af75!important;border-radius:14px!important;padding:16px!important;box-shadow:0 12px 30px #6f542418!important}
+body[data-academic] .heroCard :is(h3,p,b,span){color:#304b56!important}
+body[data-academic] .heroCard h3{font-size:18px!important;margin:14px 0 7px!important}
+body[data-academic] .heroCard p{font-size:12px!important;color:#626b61!important}
+body[data-academic] .heroCard .stat{padding:9px!important;background:#f0e6c8!important;border:1px solid #e0cda1;border-radius:7px!important}
+body[data-academic] .heroCard .stat b{font-size:20px!important;color:#725b2e!important}
+body[data-academic] .heroCard .stat span{color:#586460!important;font-size:10px!important}
+body[data-academic] .academicIllustration{margin:0;position:relative}
+body[data-academic] .academicIllustration img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:8px;border:1px solid #d9c596}
+body[data-academic] .academicIllustration figcaption{font-family:Georgia,serif;font-size:10px;letter-spacing:.18em;text-align:center;color:#8a6b34;padding-top:9px}
+body[data-academic] #cuteFeatureHeroV15{width:100%!important;max-width:none!important;box-sizing:border-box!important;position:relative;border-top:3px solid #a48343!important;margin:16px auto!important}
+body[data-academic] .academicFeatureHead{padding-right:50px;position:relative}
+body[data-academic] .academicFeatureHead:after{content:'❧';position:absolute;right:0;top:0;color:#ad8c45;font:48px Georgia,serif;opacity:.65}
+body[data-academic] :is(.section>h2,.academicFeatureHead>h2){text-wrap:balance}
+body[data-academic] #roadmap{border-block:1px solid #d7c491;background:linear-gradient(90deg,#f2e7c9,#faf4e2);margin-block:24px;padding:22px!important;border-radius:10px}
+body[data-academic] .phase{background:#fff9e9!important;border-color:#dac699!important;border-radius:9px!important}
+body[data-academic] .phase b{color:#84642e!important}
+body[data-academic] .price{background:#fffaf0!important;border-color:#d3bd8a!important;border-radius:12px!important}
+body[data-academic] .price.feature{background:#f2e7c8!important;border:1px solid #a28243!important}
+body[data-academic] .price .ribbon{background:#e2d1a4!important;color:#765b29!important}
+@media(max-width:850px){body[data-academic] main.wrap>.hero{grid-template-columns:1fr!important;gap:22px!important}body[data-academic] .academicStudentCard{max-width:600px;margin-inline:auto;width:100%;box-sizing:border-box}body[data-academic] .hero h1{font-size:clamp(34px,6vw,46px)!important}}
+@media(max-width:620px){body[data-academic] :is(#ltuHomeV3,main.wrap,.membermain){padding-inline:16px!important}body[data-academic] main.wrap>.hero{padding-top:24px!important}body[data-academic] .heroCard .stats{grid-template-columns:repeat(2,minmax(0,1fr))!important}body[data-academic] .academicFeatureHead{padding-right:36px}body[data-academic] .academicFeatureHead:after{font-size:36px}body[data-academic] #roadmap{padding:18px!important}}
 @media(max-width:620px){body[data-academic] #cuteFeatureHeroV15{padding:18px!important}body[data-academic] .academicFeatureGrid{grid-template-columns:1fr;gap:14px;padding-top:14px}body[data-academic] .academicFeatureGrid article{display:grid;grid-template-columns:32px 1fr;column-gap:10px}body[data-academic] .academicFeatureGrid article+article{border-left:0;border-top:1px solid #d5c391;padding-left:0;padding-top:14px}body[data-academic] .academicNumber{grid-row:1/3}body[data-academic] .academicFeatureGrid h3{margin:0 0 4px}body[data-academic] .academicFeatureGrid p{grid-column:2}body[data-academic] .academicFeatureHead h2{font-size:22px}}

@@ -1,9 +1,11 @@
 import { mkdir, writeFile, readFile } from 'node:fs/promises';
+import sharp from 'sharp';
 
 const base='https://raw.githubusercontent.com/tfcpeter-ltu/global-education-news/7deeac6b0ab4c85de9e18a2ec7e47a8d94648942/cap-ai-preview/';
 const files=['final-v3.html'];
-const cache='20261014-academic-v3';
+const cache='20261014-academic-v4';
 await mkdir('public',{recursive:true});
+await sharp('assets/academic-students-gate.png').resize({width:1280,withoutEnlargement:true}).webp({quality:86}).toFile('public/academic-students-gate.webp');
 
 const mainParts=[];
 for(let i=1;i<=7;i++) mainParts.push((await readFile(`main-hero-v17-part-${String(i).padStart(2,'0')}.b64`,'utf8')).replace(/\s+/g,''));
@@ -23,7 +25,7 @@ cuteTheme=cuteTheme.replace('#cuteHeroV1{max-width:1138px!important;','#cuteHero
 cuteTheme=cuteTheme.replace('#cuteFeatureHeroV15{max-width:1320px!important;margin-top:0!important;margin-bottom:28px!important;border-radius:24px!important}','#cuteFeatureHeroV15{max-width:1320px!important;margin-top:0!important;margin-bottom:28px!important;border-radius:24px!important;min-height:0!important;height:auto!important;background:transparent!important}#cuteFeatureHeroV15:empty{display:none!important}');
 cuteTheme=cuteTheme.replace("heroImg.src='/cap-hero-cute.jpg?v='+CACHE;heroImg.width=1138;heroImg.height=262;heroImg.decoding='async';heroImg.fetchPriority='high';","heroImg.src='/cap-main-hero-v17.webp?v='+CACHE;heroImg.width=1000;heroImg.height=264;heroImg.decoding='async';heroImg.fetchPriority='high';heroImg.onerror=function(){hero.remove()};");
 
-if(!cuteTheme.includes('/cap-main-hero-v17.webp')||!cuteTheme.includes('academicFeatureGrid')) throw new Error('Hero patch did not apply');
+if(!cuteTheme.includes('/academic-students-gate.webp')||!cuteTheme.includes('academicFeatureGrid')) throw new Error('Hero patch did not apply');
 await writeFile('public/cute-theme-v1.js',cuteTheme,'utf8');
 
 const index=`<!doctype html><html lang="zh-Hant"><head><link id="academic-theme" rel="stylesheet" href="/academic-theme.css?v=${cache}"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>2027 國中教育會考英文 AI｜LTU 國際學術中心</title><meta name="description" content="CAP English AI：免費會員每日 3 題；AI Complete 提供 AI 記憶出題、AI 筆記、Weekly Mock、歷屆能力練習與跨裝置弱點分析。"><style>html,body{margin:0;width:100%;height:100%;min-height:100%;overflow:hidden;background:#f5edd5}iframe{border:0;width:100%;height:100dvh;min-height:100vh;display:block;background:#f5edd5}</style></head><body data-academic="1"><iframe id="capapp" src="/final-v3.html?v=${cache}" title="2027 會考英文 AI" allow="microphone"></iframe><script src="/question-engine-v2.js?v=${cache}"></script><script src="/ltu-refine-v3.js?v=${cache}"></script><script src="/ltu-refine-v4.js?v=${cache}"></script><script src="/remove-hero.js?v=${cache}"></script><script src="/practice-ui-v4.js?v=${cache}"></script><script src="/notebook-ui-v2.js?v=${cache}"></script><script src="/auth-ui-v2.js?v=${cache}"></script><script src="/product-core-v1.js?v=${cache}"></script><script src="/launch-ui-v1.js?v=${cache}"></script><script src="/complete-preview-v1.js?v=${cache}"></script><script src="/membership-sync-v1.js?v=${cache}"></script><script src="/membership-merge-v1.js?v=${cache}"></script><script src="/remove-duplicate-plans-v1.js?v=${cache}"></script><script src="/cute-theme-v1.js?v=${cache}"></script><script src="/flow-ux-v1.js?v=${cache}"></script><script src="/trad-tw-fix-v1.js?v=${cache}"></script><script src="/academic-theme.js?v=${cache}"></script></body></html>`;

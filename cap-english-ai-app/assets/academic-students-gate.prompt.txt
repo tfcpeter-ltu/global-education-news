@@ -1,0 +1,6 @@
+Mode: built-in image_gen; new illustration, opaque background.
+
+Create a polished editorial watercolor illustration for a European academic style English learning website for Taiwanese middle school students. Landscape 3:2 composition, no text, no letters, no logos. Two East Asian secondary school students age 13–15, a boy and a girl wearing modest navy blazers and cream shirts, carrying books and a satchel, studying and chatting naturally at the entrance of a historic European secondary school. Limestone school gate with archway, wrought iron details, ivy, warm stone building, a little autumn foliage. Hand-painted watercolor with fine sepia architectural ink lines, cream parchment background, antique gold and muted sage, collegiate navy accents. Warm, refined, inviting, age appropriate, not anime, not photorealistic, not childish cartoon. Students in foreground on the right and school gate clearly visible behind them, graceful balanced framing. Soft paper texture, subtle botanical detail. This is a real website illustration asset, not a screenshot or UI mockup. Artwork reaches edges but leave modest breathing room.
+
+Project source: academic-students-gate.png
+Build output: /academic-students-gate.webp (1280 px, quality 86)

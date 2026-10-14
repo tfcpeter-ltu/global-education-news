@@ -20,12 +20,10 @@ html{scroll-behavior:smooth}body{background:linear-gradient(180deg,#fff 0,#f7fbf
   d.querySelectorAll('.v3Quick,.v3Note,#cuteFeatureV1').forEach(x=>x.remove());
   const nav=d.querySelector('#ltuHomeV3 .v3nav')||d.querySelector('.v3nav');
   if(!nav)return;
-  let hero=d.getElementById('cuteHeroV1');
-  if(!hero){hero=d.createElement('section');hero.id='cuteHeroV1';hero.setAttribute('aria-label','CAP English AI 主視覺')}
-  if(hero.previousElementSibling!==nav)nav.insertAdjacentElement('afterend',hero);
-  let heroImg=hero.querySelector('img');if(!heroImg){heroImg=d.createElement('img');hero.replaceChildren(heroImg)}
-  heroImg.alt='用 AI 學英文，把時間花在真正不會的地方｜LTU 國際學術中心 CAP English AI';
-  heroImg.src='/cap-hero-cute.jpg?v='+CACHE;heroImg.width=1138;heroImg.height=262;heroImg.decoding='async';heroImg.fetchPriority='high';
+  d.getElementById('cuteHeroV1')?.remove();
+  const hero=d.querySelector('main .hero');if(!hero)return;
+  const artCard=hero.querySelector('.heroCard');
+  if(artCard&&!artCard.querySelector('.academicIllustration')){const figure=d.createElement('figure');figure.className='academicIllustration';figure.innerHTML='<img src="/academic-students-gate.webp?v='+CACHE+'" width="1536" height="1024" alt="兩位中學生帶著書本走在歐式學院校門前的水彩插畫" decoding="async" fetchpriority="high"><figcaption>READ · REFLECT · PRACTISE</figcaption>';artCard.prepend(figure);artCard.classList.add('academicStudentCard')}
   let feature=d.getElementById('cuteFeatureHeroV15');
   if(!feature){feature=d.createElement('section');feature.id='cuteFeatureHeroV15';feature.setAttribute('aria-label','CAP English AI 特色功能')}
   if(feature.previousElementSibling!==hero)hero.insertAdjacentElement('afterend',feature);
