@@ -177,3 +177,26 @@ body[data-academic] #ltuNotebookCompact{border-radius:3px!important;background:#
 body[data-academic] .academicIllustration img{aspect-ratio:1.38!important;object-position:65% center!important}
 body[data-academic] .hero .btn.primary,body[data-academic] .v3links .primary{background:#264d3e!important}
 @media(min-width:851px){body[data-academic] main.wrap>.hero{align-items:start!important}body[data-academic] main.wrap>.hero>div:first-child{padding-top:62px}}
+
+/* The subject is the hero; the illustration supports it at equal visual weight. */
+body[data-academic] main.wrap>.hero{grid-template-columns:minmax(0,1.12fr) minmax(0,.88fr)!important;gap:36px!important;padding-block:32px!important;align-items:center!important}
+body[data-academic] main.wrap>.hero>div:first-child{padding-top:0!important}
+body[data-academic] .hero h1{font-size:clamp(38px,4.4vw,58px)!important;line-height:1.2!important;letter-spacing:.01em!important;margin:20px 0 14px!important;font-weight:700!important}
+body[data-academic] .hero h1 span{font-weight:700!important;color:#203e34!important;text-wrap:nowrap!important}
+body[data-academic] .academicPromise{font-family:Georgia,"PMingLiU",serif;font-size:22px;line-height:1.5;color:#8b7145;margin:0 0 18px}
+body[data-academic] .hero .lead{margin:0 0 18px!important;font-size:15px!important;line-height:1.8!important;max-width:560px!important}
+body[data-academic] .academicHeroFacts{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:0!important;border-block:1px solid #c8b893;margin:20px 0!important;padding:14px 0}
+body[data-academic] .academicHeroFacts .stat{padding:0 10px!important;background:transparent!important;border:0!important;border-right:1px solid #d1c3a2!important;border-radius:0!important;color:#284337!important;min-width:0}
+body[data-academic] .academicHeroFacts .stat:first-child{padding-left:0!important}
+body[data-academic] .academicHeroFacts .stat:last-child{border-right:0!important}
+body[data-academic] .academicHeroFacts .stat b{display:block;font:25px Georgia,serif!important;color:#846a3e!important;line-height:1.3}
+body[data-academic] .academicHeroFacts .stat span{display:block;font-size:10px!important;line-height:1.6;color:#65705f!important;margin-top:6px}
+body[data-academic] .hero .buttons{margin-top:18px!important}
+body[data-academic] .heroCard{padding:18px!important;background:#faf7ed!important;align-self:center}
+body[data-academic] .academicIllustration{padding:6px 4px 0!important}
+body[data-academic] .academicIllustration img{aspect-ratio:1.08!important;object-position:66% center!important}
+body[data-academic] .academicIllustration figcaption{padding-block:17px 3px!important}
+@media(max-width:850px){body[data-academic] main.wrap>.hero{grid-template-columns:1fr!important;gap:26px!important}body[data-academic] .hero h1{font-size:clamp(36px,6.2vw,52px)!important}body[data-academic] .heroCard{max-width:560px!important}body[data-academic] .academicIllustration img{aspect-ratio:1.45!important}}
+@media(max-width:620px){body[data-academic] .hero h1{font-size:clamp(29px,7.5vw,40px)!important;line-height:1.3!important}body[data-academic] .academicPromise{font-size:18px;margin-bottom:14px}body[data-academic] .academicHeroFacts{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:14px 0;padding-block:16px}body[data-academic] .academicHeroFacts .stat:nth-child(2){border-right:0!important}body[data-academic] .academicHeroFacts .stat:nth-child(3){padding-left:0!important}body[data-academic] .academicHeroFacts .stat b{font-size:24px!important}body[data-academic] main.wrap>.hero{padding-block:24px!important}}
+
+body[data-academic] .academicIllustration img{aspect-ratio:1.3!important}
