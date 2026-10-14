@@ -10,6 +10,7 @@
   "outputDirectory": "public",
   "cleanUrls": true,
   "rewrites": [
+    { "source": "/api/admin/:path*", "destination": "/api/admin?adminRoute=:path*" },
     { "source": "/api/auth/me", "destination": "/api/auth-me" },
     { "source": "/api/paypal/:path*", "destination": "/api/payment?provider=paypal&paymentRoute=:path*" },
     { "source": "/api/newebpay/:path*", "destination": "/api/payment?provider=newebpay&paymentRoute=:path*" },

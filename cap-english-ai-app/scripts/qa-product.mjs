@@ -4,16 +4,11 @@ function ok(value,message){if(!value)throw new Error(`QA failed: ${message}`);co
 const read=p=>readFile(p,'utf8');
 const browserFiles=['question-engine-v2.js','practice-ui-v4.js','notebook-ui-v2.js','auth-ui-v2.js','product-core-v1.js','launch-ui-v1.js','complete-preview-v1.js','complete-portal-v1.js','membership-sync-v1.js','remove-hero.js','cute-theme-v1.js'];
 for(const file of browserFiles){const src=await read(file);new Function(src);ok(true,`${file} parses`)}
-function jpegSize(buf){let i=2;const sof=new Set([0xc0,0xc1,0xc2,0xc3,0xc5,0xc6,0xc7,0xc9,0xca,0xcb,0xcd,0xce,0xcf]);while(i+9<buf.length){if(buf[i]!==0xff){i++;continue}const marker=buf[i+1];if(sof.has(marker))return{height:buf.readUInt16BE(i+5),width:buf.readUInt16BE(i+7)};if(marker===0xd8||marker===0xd9){i+=2;continue}const len=buf.readUInt16BE(i+2);if(!len||len<2)break;i+=2+len}return null}
-const heroParts=[];
-for(let i=1;i<=4;i++)heroParts.push((await read(`hero-user-${String(i).padStart(2,'0')}.b64`)).replace(/\s+/g,''));
-const hero=Buffer.from(heroParts.join(''),'base64');
-const dim=jpegSize(hero);
-console.log(`CANDIDATE HERO: ${hero.length} bytes, end=${hero.slice(-2).toString('hex')}, dimensions=${dim?`${dim.width}x${dim.height}`:'unknown'}`);
-ok(hero.length>40000,'user hero retains sufficient image data');
-ok(hero[0]===0xff&&hero[1]===0xd8,'user hero has valid JPEG SOI marker');
-ok(hero[hero.length-2]===0xff&&hero[hero.length-1]===0xd9,'user hero has valid JPEG EOI marker');
-ok(dim?.width===1138&&dim?.height===262,'user hero keeps 1138×262 dimensions');
+const { default: sharp } = await import('sharp');
+const mainHero = await sharp('public/cap-main-hero-v17.webp').metadata();
+const featureHero = await sharp('public/cap-feature-hero-v22.avif').metadata();
+ok(mainHero.width === 1000 && mainHero.height === 264, 'built main hero decodes at 1000×264');
+ok(featureHero.width === 1672 && featureHero.height === 941, 'built feature hero decodes at 1672×941');
 const engineSrc=await read('question-engine-v2.js'),context={window:{},console};vm.createContext(context);vm.runInContext(engineSrc,context);const audit=context.window.LTUQuestionEngine.audit();
 ok(audit.count===20000&&audit.uniqueIds===20000&&audit.uniqueSignatures===20000&&audit.duplicates===0,'20,000 question bank is unique');
 ok(Object.keys(audit.byType||{}).length===12,'question bank covers 12 competency types');
