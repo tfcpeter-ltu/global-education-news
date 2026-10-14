@@ -3,7 +3,7 @@ import sharp from 'sharp';
 
 const base='https://raw.githubusercontent.com/tfcpeter-ltu/global-education-news/7deeac6b0ab4c85de9e18a2ec7e47a8d94648942/cap-ai-preview/';
 const files=['final-v3.html'];
-const cache='20261014-academic-v4';
+const cache='20261014-academic-v5';
 await mkdir('public',{recursive:true});
 await sharp('assets/academic-students-gate.png').resize({width:1280,withoutEnlargement:true}).webp({quality:86}).toFile('public/academic-students-gate.webp');
 
