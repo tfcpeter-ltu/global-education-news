@@ -29,9 +29,7 @@ html{scroll-behavior:smooth}body{background:linear-gradient(180deg,#fff 0,#f7fbf
   let feature=d.getElementById('cuteFeatureHeroV15');
   if(!feature){feature=d.createElement('section');feature.id='cuteFeatureHeroV15';feature.setAttribute('aria-label','CAP English AI 特色功能')}
   if(feature.previousElementSibling!==hero)hero.insertAdjacentElement('afterend',feature);
-  let featureImg=feature.querySelector('img');if(!featureImg){featureImg=d.createElement('img');feature.replaceChildren(featureImg)}
-  featureImg.alt='CAP English AI 特色功能｜AI 弱點分析、AI 筆記與複習規劃';
-  featureImg.src='/cap-feature-hero-v13.avif?v='+CACHE;featureImg.width=1672;featureImg.height=941;featureImg.decoding='async';featureImg.fetchPriority='high';
+  if(!feature.dataset.academicFeature){feature.dataset.academicFeature='1';feature.innerHTML=`<div class="academicFeatureHead"><span>LEARNING METHOD · 學習方法</span><h2>讓每一次練習都有依據</h2><p>從找出弱點，到整理重點，再安排下一次複習。</p></div><div class="academicFeatureGrid"><article><span class="academicNumber">01</span><h3>看見真正弱點</h3><p>依答題紀錄追蹤字彙、文法、閱讀與聽力，找出下一步需要加強的能力。</p></article><article><span class="academicNumber">02</span><h3>留下個人筆記</h3><p>把錯因、單字、片語與重要觀念整理成自己的複習重點。</p></article><article><span class="academicNumber">03</span><h3>循序再練再記</h3><p>以同能力的新情境與間隔複習，持續確認理解，逐步累積學習進度。</p></article></div>`}
   d.querySelectorAll('.v3Plans').forEach(x=>x.remove());
   const plans=d.getElementById('plans');if(plans){plans.style.setProperty('display','block','important');plans.classList.remove('pcHide','v3Locked','v19Locked')}
 }

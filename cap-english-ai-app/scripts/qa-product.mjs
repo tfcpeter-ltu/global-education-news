@@ -6,9 +6,10 @@ const browserFiles=['question-engine-v2.js','practice-ui-v4.js','notebook-ui-v2.
 for(const file of browserFiles){const src=await read(file);new Function(src);ok(true,`${file} parses`)}
 const { default: sharp } = await import('sharp');
 const mainHero = await sharp('public/cap-main-hero-v17.webp').metadata();
-const featureHero = await sharp('public/cap-feature-hero-v22.avif').metadata();
+await sharp('public/cap-main-hero-v17.webp').stats();
+const featureTheme = await read('public/cute-theme-v1.js');
 ok(mainHero.width === 1000 && mainHero.height === 264, 'built main hero decodes at 1000×264');
-ok(featureHero.width === 1672 && featureHero.height === 941, 'built feature hero decodes at 1672×941');
+ok(featureTheme.includes('academicFeatureGrid') && !featureTheme.includes('featureImg.src'), 'feature board uses readable HTML without the damaged AVIF');
 const engineSrc=await read('question-engine-v2.js'),context={window:{},console};vm.createContext(context);vm.runInContext(engineSrc,context);const audit=context.window.LTUQuestionEngine.audit();
 ok(audit.count===20000&&audit.uniqueIds===20000&&audit.uniqueSignatures===20000&&audit.duplicates===0,'20,000 question bank is unique');
 ok(Object.keys(audit.byType||{}).length===12,'question bank covers 12 competency types');

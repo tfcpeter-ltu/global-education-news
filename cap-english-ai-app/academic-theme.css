@@ -51,6 +51,15 @@ body[data-academic] .pcTop{background:#ede2c4!important;color:#2b4653!important}
 body[data-academic] .pcYear{padding:14px!important}
 body[data-academic] #cuteHeroV1{margin-bottom:14px!important;border-radius:12px!important;box-shadow:none!important}
 body[data-academic] #cuteFeatureHeroV15{max-width:1000px!important;margin-bottom:16px!important;border-radius:12px!important;box-shadow:none!important}
+body[data-academic] #cuteFeatureHeroV15{background:#f5e8c1!important;border:1px solid #ccb780!important;padding:22px 24px!important}
+body[data-academic] .academicFeatureHead>span{font-size:10px;font-weight:700;letter-spacing:.14em;color:#8a692e}
+body[data-academic] .academicFeatureHead h2{font-size:24px;margin:6px 0!important;color:#233e4c}
+body[data-academic] .academicFeatureHead>p{font-size:13px;color:#6d6c59;margin:0 0 18px}
+body[data-academic] .academicFeatureGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;border-top:1px solid #c7b279;padding-top:18px}
+body[data-academic] .academicFeatureGrid article+article{border-left:1px solid #d5c391;padding-left:22px}
+body[data-academic] .academicNumber{font:italic 23px Georgia,serif;color:#927030}
+body[data-academic] .academicFeatureGrid h3{font-size:18px;margin:6px 0;color:#243f4c}
+body[data-academic] .academicFeatureGrid p{font-size:13px;line-height:1.8;color:#5c635d;margin:0}
 body[data-academic] .v3hero:empty,body[data-academic] #pcMock:empty{display:none!important}
 body[data-academic] .membermain{padding-top:22px!important;padding-bottom:32px!important}
 body[data-academic] .membermain #pcoreMembership{display:none!important}
@@ -61,3 +70,4 @@ body[data-academic] .badge{background:#e7eddb;color:#3b6544}
 @media(max-width:850px){body[data-academic] .cpNav{align-items:flex-start}body[data-academic] .cpLinks{margin-left:0;width:100%;gap:3px}body[data-academic] .cpLinks a{display:inline-block!important}body[data-academic] .cpLinks :is(a,button){font-size:12px!important;padding:7px 8px!important}body[data-academic] :is(#analysis,#weekly,#history){scroll-margin-top:120px!important}}
 @media(max-width:620px){body[data-academic] #ltuHomeV3{padding-inline:14px!important;padding-bottom:12px!important}body[data-academic] :is(.wrap,.membermain){padding-inline:14px!important}body[data-academic] :is(#analysis,#weekly,#history){padding:18px!important}body[data-academic] .cpHero{padding:20px!important}body[data-academic] .cpHero h1{font-size:26px!important}body[data-academic] .cpGrid{grid-template-columns:1fr 1fr!important}body[data-academic] .cpAction:last-child{grid-column:1/-1}body[data-academic] #ltuNotebookCompact{padding:18px 18px 18px 30px!important;margin:16px auto!important}body[data-academic] :is(.nb2head,.fxRow){flex-wrap:wrap}body[data-academic] .v3brandtext{font-size:11px!important}body[data-academic] .v3links button{font-size:11px!important;padding:8px!important}body[data-academic] .hero{padding-top:20px!important}body[data-academic] :is(.a2box,.lp4,.nb2box){padding:18px!important}}
 @media(prefers-reduced-motion:reduce){body[data-academic] *{scroll-behavior:auto!important;transition:none!important}}
+@media(max-width:620px){body[data-academic] #cuteFeatureHeroV15{padding:18px!important}body[data-academic] .academicFeatureGrid{grid-template-columns:1fr;gap:14px;padding-top:14px}body[data-academic] .academicFeatureGrid article{display:grid;grid-template-columns:32px 1fr;column-gap:10px}body[data-academic] .academicFeatureGrid article+article{border-left:0;border-top:1px solid #d5c391;padding-left:0;padding-top:14px}body[data-academic] .academicNumber{grid-row:1/3}body[data-academic] .academicFeatureGrid h3{margin:0 0 4px}body[data-academic] .academicFeatureGrid p{grid-column:2}body[data-academic] .academicFeatureHead h2{font-size:22px}}
