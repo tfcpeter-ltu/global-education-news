@@ -1,6 +1,6 @@
 {
   "status": "ready",
-  "updatedAt": "2026-10-13T07:40:38.735Z",
+  "updatedAt": "2026-10-14T06:07:08.183Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
@@ -8,16 +8,6 @@
       "title": "美國擬向OPT收取每名7萬美元初次費用：目前仍屬提案，學校將是付款人｜環球教育新聞網 Global Education News",
       "path": "/news/us-opt-proposed-school-fee-2026/",
       "views": 9
-    },
-    {
-      "title": "最新國際教育新聞",
-      "path": "/news/",
-      "views": 8
-    },
-    {
-      "title": "澳洲反對黨提出削減國際學生與畢業簽證：大學團體警告衝擊校園與經濟｜環球教育新聞網 Global Education News",
-      "path": "/news/australia-coalition-student-cuts-response-2026/",
-      "views": 8
     },
     {
       "title": "紐西蘭公布首批 11至13 年級最終課綱：2028 年起分年實施｜環球教育新聞網 Global Education News",
@@ -28,68 +18,78 @@
       "title": "美國大學團體提告挑戰 CPT 新解釋：法院尚未裁定，現行指引仍有效｜環球教育新聞網 Global Education News",
       "path": "/news/us-cpt-lawsuit-court-status-october-13-2026/",
       "views": 8
+    },
+    {
+      "title": "澳洲國際新生名額未用滿：2026 配額不是保證招生數｜環球教育新聞網 Global Education News",
+      "path": "/news/australia-international-student-demand-below-allocations-2026/",
+      "views": 6
+    },
+    {
+      "title": "UNSW 2027 國際本科新增多元入學途徑：合格國家自動加 5 點，醫學課程除外｜環球教育新聞網 Global Education News",
+      "path": "/news/unsw-international-admissions-diversity-pathway-2027/",
+      "views": 5
     }
   ],
   "countries": [
     {
       "name": "台灣",
       "mapName": "Taiwan",
-      "sessions": 175,
-      "share": 63.6
+      "sessions": 151,
+      "share": 61.4
     },
     {
       "name": "美國",
       "mapName": "United States",
-      "sessions": 63,
-      "share": 22.9
+      "sessions": 62,
+      "share": 25.2
     },
     {
       "name": "瑞典",
       "mapName": "Sweden",
-      "sessions": 8,
-      "share": 2.9
+      "sessions": 9,
+      "share": 3.7
     },
     {
       "name": "加拿大",
       "mapName": "Canada",
       "sessions": 5,
-      "share": 1.8
+      "share": 2
     },
     {
       "name": "愛爾蘭",
       "mapName": "Ireland",
       "sessions": 5,
-      "share": 1.8
+      "share": 2
     },
     {
       "name": "中國",
       "mapName": "China",
       "sessions": 4,
-      "share": 1.5
-    },
-    {
-      "name": "Türkiye",
-      "mapName": "Türkiye",
-      "sessions": 4,
-      "share": 1.5
+      "share": 1.6
     },
     {
       "name": "香港",
       "mapName": "Hong Kong",
       "sessions": 2,
-      "share": 0.7
+      "share": 0.8
     },
     {
       "name": "馬來西亞",
       "mapName": "Malaysia",
       "sessions": 2,
-      "share": 0.7
+      "share": 0.8
     },
     {
       "name": "紐西蘭",
       "mapName": "New Zealand",
       "sessions": 2,
-      "share": 0.7
+      "share": 0.8
+    },
+    {
+      "name": "英國",
+      "mapName": "United Kingdom",
+      "sessions": 2,
+      "share": 0.8
     }
   ]
 }
