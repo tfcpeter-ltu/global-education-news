@@ -19,7 +19,7 @@ html{scroll-behavior:smooth}body{background:linear-gradient(180deg,#fff 0,#f7fbf
   d.getElementById('v3Hero')?.remove();
   d.querySelectorAll('.v3Quick,.v3Note,#cuteFeatureV1').forEach(x=>x.remove());
   const nav=d.querySelector('#ltuHomeV3 .v3nav')||d.querySelector('.v3nav');
-  if(!nav)return;
+  if(!nav)return;const brand=nav.querySelector('.v3brand');if(brand&&!brand.querySelector('.capLogoMark')){const logo=d.createElement('img');logo.className='capLogoMark';logo.src='/cap-logo.svg';logo.alt='CAP English AI';logo.width=42;logo.height=42;brand.prepend(logo)}
   d.getElementById('cuteHeroV1')?.remove();
   const hero=d.querySelector('main .hero');if(!hero)return;
   const artCard=hero.querySelector('.heroCard');

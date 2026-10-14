@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<rect width="512" height="512" rx="78" fill="#24483b"/>
+<rect x="25" y="25" width="462" height="462" rx="57" fill="none" stroke="#c8ac71" stroke-width="6"/>
+<path d="M256 94l9 21 23 3-17 16 4 23-19-11-19 11 4-23-17-16 23-3z" fill="#d5bc82"/>
+<path d="M95 184q77-35 161 8q84-43 161-8v132q-78-33-161 10q-83-43-161-10z" fill="#f6efdb"/>
+<path d="M256 194v131M123 215q47-12 103 7M123 243q47-12 103 7M123 271q47-12 103 7M286 222q56-19 103-7M286 250q56-19 103-7M286 278q56-19 103-7" fill="none" stroke="#b49455" stroke-width="9" stroke-linecap="round"/>
+<text x="256" y="432" text-anchor="middle" fill="#e6d2a1" font-family="Georgia,serif" font-weight="bold" font-size="94" letter-spacing="7">CAP</text>
+</svg>
