@@ -2,7 +2,7 @@ import { mkdir, writeFile, readFile } from 'node:fs/promises';
 
 const base='https://raw.githubusercontent.com/tfcpeter-ltu/global-education-news/7deeac6b0ab4c85de9e18a2ec7e47a8d94648942/cap-ai-preview/';
 const files=['final-v3.html'];
-const cache='20261014-academic-v2';
+const cache='20261014-academic-v3';
 await mkdir('public',{recursive:true});
 
 const mainParts=[];
