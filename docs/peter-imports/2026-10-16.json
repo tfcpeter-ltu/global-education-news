@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-16",
+  "imports": [],
+  "review": {
+    "status": "fewer-new-posts",
+    "checkedAt": "2026-10-16T05:19:16.042723+08:00",
+    "availableNewCount": 0,
+    "observedNewCount": 2,
+    "sourceUrls": [
+      "https://www.facebook.com/profile.php?id=61585164670358",
+      "https://www.facebook.com/reel/1420529352885192/",
+      "https://www.facebook.com/photo/?fbid=122147285667172155",
+      "https://www.facebook.com/photo/?fbid=122146802781172155"
+    ],
+    "scope": "最新至五天前已讀；兩篇新文均展開全文，合格可收錄數為0，並非沒有新貼文。較早Legacy、電子書與勇敢嘗試題材已在前次收錄/審核範圍；目錄排除。",
+    "insufficientEvidence": [
+      {
+        "sourceId": "1420529352885192",
+        "reason": "引用Taylor Swift影片但未能核定原始訪談來源、完整語境與第三方影音授權；不轉載影片或將引述當查證事實。"
+      },
+      {
+        "sourceId": "122147285667172155",
+        "reason": "英國選校長文包含跨城市生活費比較、眾多學科與師資概括，未提供逐項可交叉查核來源；不以一般官網存在當作全部敘述已驗證。"
+      }
+    ]
+  }
+}

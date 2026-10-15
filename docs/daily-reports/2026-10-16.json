@@ -1,0 +1,459 @@
+{
+  "date": "2026-10-16",
+  "timezone": "Asia/Taipei",
+  "status": "in-progress",
+  "currentPhase": "COMMIT_DEPLOY",
+  "baselineCommit": "f553404b95972eb26a57f3dba9b7aa5262cf1879",
+  "startedAt": "2026-10-16T05:05:23.0691890+08:00",
+  "scholarshipBaselineSlugs": [
+    "2026-08-bristol-think-big",
+    "2026-08-manchester-global-futures-taiwan-2027",
+    "2026-08-mcgill-mccall-macbain",
+    "2026-08-melbourne-graduate-research",
+    "2026-08-melbourne-international-excellence-graduate-2027",
+    "2026-08-moe-eu-scholarship",
+    "2026-08-moe-government-sponsored-study",
+    "2026-08-moe-new-southbound-internship",
+    "2026-08-moe-overseas-scholarship",
+    "2026-08-moe-study-abroad-fly",
+    "2026-08-moe-study-abroad-internship",
+    "2026-08-moe-study-abroad-needy",
+    "2026-08-moe-top100-phd",
+    "2026-08-monash-awards-2027",
+    "2026-08-oxford-clarendon",
+    "2026-08-sydney-vcis-2027",
+    "2026-08-tgpi-dream-factory",
+    "2026-08-tgpi-global-flight",
+    "2026-08-ubc-four-year-doctoral-fellowship",
+    "2026-08-ubc-imes",
+    "2026-08-ubc-international-scholars-2027",
+    "2026-08-ubc-killam-doctoral-2027",
+    "2026-08-ucl-global-masters",
+    "2026-08-ucl-global-undergraduate",
+    "2026-08-unsw-scientia-2027",
+    "2026-08-uq-international-high-achievers-2027",
+    "2026-08-utoronto-pearson-2027",
+    "2026-09-adelaide-academic-excellence-2027",
+    "2026-09-adelaide-merit-2027",
+    "2026-09-auckland-international-student-excellence-2027",
+    "2026-09-cardiff-vice-chancellor-taiwan-january-2027",
+    "2026-09-chevening-delta-climate-2027",
+    "2026-09-chevening-taiwan",
+    "2026-09-daad-architecture-masters",
+    "2026-09-deakin-excellence-international-2027",
+    "2026-09-deakin-international-merit-2027",
+    "2026-09-deakin-vice-chancellor-international-2027",
+    "2026-09-dundee-east-asia-undergraduate-january-2027",
+    "2026-09-dundee-global-excellence-undergraduate-january-2027",
+    "2026-09-erasmus-mundus-2027",
+    "2026-09-eth-zurich-esop-2027",
+    "2026-09-exeter-pgt-taiwan-january-2027",
+    "2026-09-fulbright-experience-america-research-award",
+    "2026-09-fulbright-non-academic-professional-award",
+    "2026-09-fulbright-senior-research-award",
+    "2026-09-gates-cambridge-2027",
+    "2026-09-harvard-academy-scholars-2027",
+    "2026-09-harvard-radcliffe-fellowship-2027",
+    "2026-09-hkpfs-2027",
+    "2026-09-imperial-presidents-phd-2027",
+    "2026-09-kent-international-undergraduate-january-2027",
+    "2026-09-knight-hennessy-2027",
+    "2026-09-latrobe-high-achiever-2027",
+    "2026-09-leicester-global-excellence-jan-apr-2027",
+    "2026-09-macquarie-vcis-2027",
+    "2026-09-monash-international-merit-2027",
+    "2026-09-ntu-taiwan-scholarship-jan-2027",
+    "2026-09-ntu-taiwan-stem-scholarship-jan-2027",
+    "2026-09-oxford-clarendon-2027",
+    "2026-09-rmit-up-academic-english-bursary-2027",
+    "2026-09-strathclyde-sbs-international-masters-jan-2027",
+    "2026-09-sydney-rtp-international-2027",
+    "2026-09-taiwan-anu-phd-scholarship-2027",
+    "2026-09-tasmanian-international-scholarship-2027",
+    "2026-09-ubc-international-scholars-2027",
+    "2026-09-uc-berkeley-beahrs-elp-2027",
+    "2026-09-uni-iowa-partner-state-taiwan-2027",
+    "2026-09-university-iowa-national-scholars-2027",
+    "2026-09-unsw-international-scientia-2027",
+    "2026-09-uow-postgraduate-academic-excellence-2027",
+    "2026-09-uow-university-excellence-2027",
+    "2026-09-utoronto-lester-b-pearson-2027",
+    "2026-09-yenching-academy-2027-taiwan",
+    "2026-10-american-university-egls-2027",
+    "2026-10-aut-north-asia-2027",
+    "2026-10-bangor-vice-chancellor-january-2027",
+    "2026-10-bath-international-excellence-ug-2027",
+    "2026-10-boise-state-international-fall-2027",
+    "2026-10-bournemouth-academic-excellence-january-2027",
+    "2026-10-canterbury-international-first-year-offshore-2027",
+    "2026-10-cardiff-vice-chancellor-january-2027",
+    "2026-10-cumbria-international-undergraduate-january-2027",
+    "2026-10-dundee-global-excellence-september-2027",
+    "2026-10-essex-international-undergraduate-2027",
+    "2026-10-exeter-taiwan-pgt-2027",
+    "2026-10-herts-chancellor-january-2027",
+    "2026-10-kent-pgt-january-2027",
+    "2026-10-lancaster-regional-taiwan-2027",
+    "2026-10-london-met-east-asia-2027",
+    "2026-10-massey-creative-excellence-masters-2027",
+    "2026-10-massey-toroa-undergraduate-2027",
+    "2026-10-newcastle-australia-international-excellence-2027",
+    "2026-10-newcastle-vc-international-undergraduate-2027",
+    "2026-10-ntu-taiwan-january-2027",
+    "2026-10-otago-global-masters-2027",
+    "2026-10-otago-global-undergraduate-2027",
+    "2026-10-otago-international-academic-excellence-2027",
+    "2026-10-oxford-brookes-january-2027",
+    "2026-10-portsmouth-chancellor-merit-january-2027",
+    "2026-10-qmul-global-talent-pgt-2027",
+    "2026-10-qub-pgt-january-2027",
+    "2026-10-rgu-early-payment-january-2027",
+    "2026-10-rgu-january-2027",
+    "2026-10-sheffield-international-pgt-2027",
+    "2026-10-sheffield-international-undergraduate-2027",
+    "2026-10-st-andrews-tesol-january-2027",
+    "2026-10-stirling-east-asia-pgt-2027",
+    "2026-10-stirling-vice-chancellor-pgt-january-2027",
+    "2026-10-strathclyde-science-january-2027",
+    "2026-10-swansea-international-excellence-january-2027",
+    "2026-10-uea-pg-merit-2027",
+    "2026-10-unisq-international-excellence-2027",
+    "2026-10-uwa-global-excellence-2027",
+    "2026-10-vuw-postgraduate-international-2027",
+    "2026-10-vuw-undergraduate-international-2027",
+    "2026-10-waterloo-international-entrance-2027",
+    "2026-10-western-sydney-international-undergraduate-2027",
+    "2026-10-westminster-pg-excellence-january-2027",
+    "catalog-aalto-excellence",
+    "catalog-berea-international-aid",
+    "catalog-bocconi-access-100",
+    "catalog-bocconi-access-80-60",
+    "catalog-bocconi-boost",
+    "catalog-bocconi-sport",
+    "catalog-chalmers-ipoet",
+    "catalog-daad-all-disciplines",
+    "catalog-daad-fine-art",
+    "catalog-daad-music",
+    "catalog-daad-performing-arts",
+    "catalog-duke-karsh",
+    "catalog-eiffel-master",
+    "catalog-eiffel-phd",
+    "catalog-emory-scholars",
+    "catalog-epfl-excellence",
+    "catalog-erasmus-mundus",
+    "catalog-eth-esop",
+    "catalog-geneva-excellence",
+    "catalog-gks-graduate",
+    "catalog-gks-undergraduate",
+    "catalog-goh-keng-swee",
+    "catalog-goi-ies",
+    "catalog-harvard-international-aid",
+    "catalog-helsinki-scholarship",
+    "catalog-jasso-honors",
+    "catalog-kaist-graduate",
+    "catalog-kaist-undergraduate",
+    "catalog-knight-hennessy",
+    "catalog-kth-scholarship",
+    "catalog-kyoto-iup",
+    "catalog-lund-global",
+    "catalog-maastricht-brightlands",
+    "catalog-maastricht-global-studies",
+    "catalog-maastricht-high-potential",
+    "catalog-maastricht-social-justice",
+    "catalog-maeci-italy",
+    "catalog-master-mind-flanders",
+    "catalog-mext-japanese-studies",
+    "catalog-mext-kosen-2027",
+    "catalog-mext-research-2027",
+    "catalog-mext-specialized-training-2027",
+    "catalog-mext-teacher-training",
+    "catalog-mext-undergraduate-2027",
+    "catalog-miami-stamps",
+    "catalog-mit-international-aid",
+    "catalog-nl-scholarship",
+    "catalog-nus-international-undergraduate",
+    "catalog-nus-science-technology",
+    "catalog-padua-excellence",
+    "catalog-paris-saclay-idex",
+    "catalog-radboud-nl-scholarship",
+    "catalog-radboud-scholarship",
+    "catalog-science-leuven",
+    "catalog-sciencespo-boutmy",
+    "catalog-snu-gsfs",
+    "catalog-swiss-phd",
+    "catalog-swiss-research-fellowship",
+    "catalog-taiwan-kaist-phd",
+    "catalog-tampere-scholarship",
+    "catalog-trinity-global-excellence",
+    "catalog-tudelft-justus",
+    "catalog-turku-merit",
+    "catalog-ucd-global-excellence",
+    "catalog-uppsala-global",
+    "catalog-utokyo-fellowship",
+    "catalog-utwente-scholarship",
+    "catalog-vanderbilt-cornelius",
+    "catalog-vanderbilt-ingram",
+    "catalog-yale-international-aid"
+  ],
+  "newsPublished": [],
+  "scholarshipChecks": [
+    {
+      "slug": "2026-10-lincoln-pathway-merit-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-10-lincoln-pathway-merit-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-lincoln-pathway-merit-2027.md",
+      "sources": [
+        "https://www.lincoln.ac.nz/study/scholarships/search-scholarships/lincoln-university-international-pathway-merit-scholarship/",
+        "https://www.idp.com/universities-and-colleges/lincoln-university/IID-NZ-00826/",
+        "https://www.lincoln.ac.nz/study/apply-and-enrol/apply/",
+        "https://www.lincoln.ac.nz/study/apply-and-enrol/apply/international-undergraduate-entry-criteria/"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-16T05:19:15.898652+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New page: current 2027 admission route, Taiwan eligibility, scholarship conditions and distinct application deadlines verified."
+    },
+    {
+      "slug": "2026-10-lincoln-undergraduate-vice-chancellor-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-10-lincoln-undergraduate-vice-chancellor-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-lincoln-undergraduate-vice-chancellor-2027.md",
+      "sources": [
+        "https://www.lincoln.ac.nz/study/scholarships/search-scholarships/lincoln-university-undergraduate-vice-chancellors-scholarship/",
+        "https://www.idp.com/scholarship/lincoln-university/lincoln-university-undergraduate-vice-chancellors-scholarship/131137/",
+        "https://www.lincoln.ac.nz/study/apply-and-enrol/apply/",
+        "https://www.lincoln.ac.nz/study/apply-and-enrol/apply/international-undergraduate-entry-criteria/"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-16T05:19:15.898652+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New page: current 2027 admission route, Taiwan eligibility, scholarship conditions and distinct application deadlines verified."
+    },
+    {
+      "slug": "2026-10-lincoln-taught-master-merit-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-10-lincoln-taught-master-merit-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-lincoln-taught-master-merit-2027.md",
+      "sources": [
+        "https://www.lincoln.ac.nz/study/scholarships/search-scholarships/lincoln-university-180-credit-taught-master-merit-scholarship/",
+        "https://scholarshiproar.com/lincoln-university-scholarships/",
+        "https://www.lincoln.ac.nz/study/apply-and-enrol/apply/",
+        "https://www.lincoln.ac.nz/study/apply-and-enrol/apply/international-undergraduate-entry-criteria/"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-16T05:19:15.898652+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New page: current 2027 admission route, Taiwan eligibility, scholarship conditions and distinct application deadlines verified."
+    }
+  ],
+  "scholarshipAdditions": [
+    {
+      "slug": "2026-10-lincoln-pathway-merit-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-10-lincoln-pathway-merit-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-lincoln-pathway-merit-2027.md",
+      "sources": [
+        "https://www.lincoln.ac.nz/study/scholarships/search-scholarships/lincoln-university-international-pathway-merit-scholarship/",
+        "https://www.idp.com/universities-and-colleges/lincoln-university/IID-NZ-00826/",
+        "https://www.lincoln.ac.nz/study/apply-and-enrol/apply/",
+        "https://www.lincoln.ac.nz/study/apply-and-enrol/apply/international-undergraduate-entry-criteria/"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-16T05:19:15.898652+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New page: current 2027 admission route, Taiwan eligibility, scholarship conditions and distinct application deadlines verified."
+    },
+    {
+      "slug": "2026-10-lincoln-undergraduate-vice-chancellor-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-10-lincoln-undergraduate-vice-chancellor-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-lincoln-undergraduate-vice-chancellor-2027.md",
+      "sources": [
+        "https://www.lincoln.ac.nz/study/scholarships/search-scholarships/lincoln-university-undergraduate-vice-chancellors-scholarship/",
+        "https://www.idp.com/scholarship/lincoln-university/lincoln-university-undergraduate-vice-chancellors-scholarship/131137/",
+        "https://www.lincoln.ac.nz/study/apply-and-enrol/apply/",
+        "https://www.lincoln.ac.nz/study/apply-and-enrol/apply/international-undergraduate-entry-criteria/"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-16T05:19:15.898652+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New page: current 2027 admission route, Taiwan eligibility, scholarship conditions and distinct application deadlines verified."
+    },
+    {
+      "slug": "2026-10-lincoln-taught-master-merit-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-10-lincoln-taught-master-merit-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-lincoln-taught-master-merit-2027.md",
+      "sources": [
+        "https://www.lincoln.ac.nz/study/scholarships/search-scholarships/lincoln-university-180-credit-taught-master-merit-scholarship/",
+        "https://scholarshiproar.com/lincoln-university-scholarships/",
+        "https://www.lincoln.ac.nz/study/apply-and-enrol/apply/",
+        "https://www.lincoln.ac.nz/study/apply-and-enrol/apply/international-undergraduate-entry-criteria/"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-16T05:19:15.898652+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New page: current 2027 admission route, Taiwan eligibility, scholarship conditions and distinct application deadlines verified."
+    }
+  ],
+  "peterImports": [],
+  "socialPosts": [],
+  "gaps": [
+    "COMMIT_DEPLOY",
+    "PUBLISH",
+    "ACCEPTANCE",
+    "VERIFY"
+  ],
+  "newsPrepared": [
+    {
+      "slug": "australia-preliminary-overseas-commencements-2026",
+      "title": "澳洲海外新生初步數據年減4.9%：不是全年人數，也不是簽證統計",
+      "url": "https://globalednews.com/news/australia-preliminary-overseas-commencements-2026/",
+      "sources": [
+        {
+          "label": "Australian Department of Education | Preliminary trends",
+          "url": "https://www.education.gov.au/higher-education-statistics/preliminary-trends-higher-education"
+        },
+        {
+          "label": "The PIE | Independent report, 15 October 2026",
+          "url": "https://thepienews.com/overseas-student-commencements-fall-5-in-australian-higher-education/"
+        }
+      ],
+      "verifiedAt": "2026-10-16T05:19:15.898652+08:00"
+    },
+    {
+      "slug": "international-graduates-lifetime-economic-estimate-2026",
+      "title": "國際畢業生終身經濟貢獻估1.7兆美元：研究模型不能當個人薪資保證",
+      "url": "https://globalednews.com/news/international-graduates-lifetime-economic-estimate-2026/",
+      "sources": [
+        {
+          "label": "Studyportals | Talent Beyond Borders findings",
+          "url": "https://studyportals.com/press-releases/international-students-contribute-1-7-trillion-to-their-host-economies-through-their-careers/"
+        },
+        {
+          "label": "The PIE | Independent report, 15 October 2026",
+          "url": "https://thepienews.com/international-graduates-deliver-1-7tn-lifetime-boost-to-host-economies/"
+        }
+      ],
+      "verifiedAt": "2026-10-16T05:19:15.898652+08:00"
+    },
+    {
+      "slug": "ireland-student-housing-capacity-debate-2026",
+      "title": "愛爾蘭國際教育論壇關切住宿：2035年床位需求含既有缺口",
+      "url": "https://globalednews.com/news/ireland-student-housing-capacity-debate-2026/",
+      "sources": [
+        {
+          "label": "Government of Ireland | National Student Accommodation Strategy, 24 March 2026",
+          "url": "https://www.gov.ie/en/department-of-further-and-higher-education-research-innovation-and-science/publications/national-student-accommodation-strategy-2026-2035/"
+        },
+        {
+          "label": "The PIE | Ireland forum report, 15 October 2026",
+          "url": "https://thepienews.com/ireland-international-education-sector-risks-hitting-social-license-wall/"
+        }
+      ],
+      "verifiedAt": "2026-10-16T05:19:15.898652+08:00"
+    }
+  ],
+  "researchCompletedAt": "2026-10-16T05:19:15.898652+08:00",
+  "studyAbroadReview": {
+    "country": "New Zealand",
+    "school": "Lincoln University",
+    "angle": "Separate offshore admission from scholarship deadlines",
+    "url": "https://globalednews.com/study-abroad/lincoln-new-zealand-admission-scholarship-dates-2027/",
+    "verifiedAt": "2026-10-16T05:19:15.898652+08:00"
+  },
+  "campusReport": {
+    "date": "2026-10-16",
+    "timezone": "Asia/Taipei",
+    "status": "three-public-leads-reviewed",
+    "verifiedAt": "2026-10-16T05:19:16.042723+08:00",
+    "reviewedSchools": [
+      {
+        "school": "國立中興大學",
+        "schoolSlug": "nchu",
+        "source": "https://oia.nchu.edu.tw/index.php/zh/5-global-mobility-tw/5-1-exchange-student-program-tw/5-1-1-application-guildeline-tw",
+        "finding": "2027秋季交換：學生送件2026/10/23中午，推薦函10/30中午；108小時等值6學分。已讀完整簡章。"
+      },
+      {
+        "school": "國立臺灣師範大學",
+        "schoolSlug": "ntnu",
+        "source": "https://bds.oia.ntnu.edu.tw/bds/OE/status-update",
+        "finding": "公開動態頁未顯示資料；不能由此推定新一輪招生開放或截止。保留校內甄選線索，須以正式簡章判斷。"
+      },
+      {
+        "school": "國立中山大學",
+        "schoolSlug": "nsysu",
+        "source": "https://oia.nsysu.edu.tw/p/403-1308-4450-1.php?Lang=zh-tw",
+        "finding": "10/14海外研修系列說明會、9/24至系所說明會可追蹤；赴日2027–28已有9/13最終名單，不能把7/24簡章當仍開放。"
+      }
+    ],
+    "published": [],
+    "pendingConsent": [],
+    "outreachDrafts": [],
+    "gaps": [],
+    "note": "只查公開機構線索，未寄送邀訪或捏造採訪。"
+  },
+  "preparedAt": "2026-10-16T05:19:16.042723+08:00",
+  "sunmoonReview": {
+    "checkedAt": "2026-10-16T05:19:16.042723+08:00",
+    "source": "https://www.sunmoonnews.com.tw/",
+    "status": "reviewed-no-new-qualified-item",
+    "finding": "首頁已成功讀取；可見AI Nexus及食品等既有線索，未找到符合本次雙重查核且未刊登的新國際教育項目。"
+  },
+  "peterReview": {
+    "status": "fewer-new-posts",
+    "checkedAt": "2026-10-16T05:19:16.042723+08:00",
+    "availableNewCount": 0,
+    "observedNewCount": 2,
+    "sourceUrls": [
+      "https://www.facebook.com/profile.php?id=61585164670358",
+      "https://www.facebook.com/reel/1420529352885192/",
+      "https://www.facebook.com/photo/?fbid=122147285667172155",
+      "https://www.facebook.com/photo/?fbid=122146802781172155"
+    ],
+    "scope": "最新至五天前已讀；兩篇新文均展開全文，合格可收錄數為0，並非沒有新貼文。較早Legacy、電子書與勇敢嘗試題材已在前次收錄/審核範圍；目錄排除。",
+    "insufficientEvidence": [
+      {
+        "sourceId": "1420529352885192",
+        "reason": "引用Taylor Swift影片但未能核定原始訪談來源、完整語境與第三方影音授權；不轉載影片或將引述當查證事實。"
+      },
+      {
+        "sourceId": "122147285667172155",
+        "reason": "英國選校長文包含跨城市生活費比較、眾多學科與師資概括，未提供逐項可交叉查核來源；不以一般官網存在當作全部敘述已驗證。"
+      }
+    ]
+  },
+  "ltuReview": {
+    "checkedAt": "2026-10-16T05:19:16.042723+08:00",
+    "poolSize": 12,
+    "expectedVisibleIndices": [
+      0,
+      1,
+      2
+    ],
+    "pendingLiveVerification": true
+  },
+  "build": {
+    "status": "success",
+    "verifiedAt": "2026-10-16T05:22:06.198145+08:00",
+    "astroPages": 466,
+    "bilingualPairs": 722,
+    "canonicalUrls": 1430,
+    "photoPreviews": 1436,
+    "checks": [
+      "Astro",
+      "bilingual",
+      "search-index",
+      "Facebook photo evidence regressions",
+      "new English content contains no Chinese",
+      "eight distinct licensed photos",
+      "four visual headline cards"
+    ]
+  }
+}

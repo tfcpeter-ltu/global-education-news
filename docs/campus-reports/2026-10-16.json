@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-16",
+  "timezone": "Asia/Taipei",
+  "status": "three-public-leads-reviewed",
+  "verifiedAt": "2026-10-16T05:19:16.042723+08:00",
+  "reviewedSchools": [
+    {
+      "school": "國立中興大學",
+      "schoolSlug": "nchu",
+      "source": "https://oia.nchu.edu.tw/index.php/zh/5-global-mobility-tw/5-1-exchange-student-program-tw/5-1-1-application-guildeline-tw",
+      "finding": "2027秋季交換：學生送件2026/10/23中午，推薦函10/30中午；108小時等值6學分。已讀完整簡章。"
+    },
+    {
+      "school": "國立臺灣師範大學",
+      "schoolSlug": "ntnu",
+      "source": "https://bds.oia.ntnu.edu.tw/bds/OE/status-update",
+      "finding": "公開動態頁未顯示資料；不能由此推定新一輪招生開放或截止。保留校內甄選線索，須以正式簡章判斷。"
+    },
+    {
+      "school": "國立中山大學",
+      "schoolSlug": "nsysu",
+      "source": "https://oia.nsysu.edu.tw/p/403-1308-4450-1.php?Lang=zh-tw",
+      "finding": "10/14海外研修系列說明會、9/24至系所說明會可追蹤；赴日2027–28已有9/13最終名單，不能把7/24簡章當仍開放。"
+    }
+  ],
+  "published": [],
+  "pendingConsent": [],
+  "outreachDrafts": [],
+  "gaps": [],
+  "note": "只查公開機構線索，未寄送邀訪或捏造採訪。"
+}

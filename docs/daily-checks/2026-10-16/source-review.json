@@ -1,0 +1,123 @@
+{
+  "date": "2026-10-16",
+  "verifiedAt": "2026-10-16T05:19:15.898652+08:00",
+  "news": [
+    {
+      "slug": "australia-preliminary-overseas-commencements-2026",
+      "title": "澳洲海外新生初步數據年減4.9%：不是全年人數，也不是簽證統計",
+      "url": "https://globalednews.com/news/australia-preliminary-overseas-commencements-2026/",
+      "sources": [
+        {
+          "label": "Australian Department of Education | Preliminary trends",
+          "url": "https://www.education.gov.au/higher-education-statistics/preliminary-trends-higher-education"
+        },
+        {
+          "label": "The PIE | Independent report, 15 October 2026",
+          "url": "https://thepienews.com/overseas-student-commencements-fall-5-in-australian-higher-education/"
+        }
+      ],
+      "verifiedAt": "2026-10-16T05:19:15.898652+08:00"
+    },
+    {
+      "slug": "international-graduates-lifetime-economic-estimate-2026",
+      "title": "國際畢業生終身經濟貢獻估1.7兆美元：研究模型不能當個人薪資保證",
+      "url": "https://globalednews.com/news/international-graduates-lifetime-economic-estimate-2026/",
+      "sources": [
+        {
+          "label": "Studyportals | Talent Beyond Borders findings",
+          "url": "https://studyportals.com/press-releases/international-students-contribute-1-7-trillion-to-their-host-economies-through-their-careers/"
+        },
+        {
+          "label": "The PIE | Independent report, 15 October 2026",
+          "url": "https://thepienews.com/international-graduates-deliver-1-7tn-lifetime-boost-to-host-economies/"
+        }
+      ],
+      "verifiedAt": "2026-10-16T05:19:15.898652+08:00"
+    },
+    {
+      "slug": "ireland-student-housing-capacity-debate-2026",
+      "title": "愛爾蘭國際教育論壇關切住宿：2035年床位需求含既有缺口",
+      "url": "https://globalednews.com/news/ireland-student-housing-capacity-debate-2026/",
+      "sources": [
+        {
+          "label": "Government of Ireland | National Student Accommodation Strategy, 24 March 2026",
+          "url": "https://www.gov.ie/en/department-of-further-and-higher-education-research-innovation-and-science/publications/national-student-accommodation-strategy-2026-2035/"
+        },
+        {
+          "label": "The PIE | Ireland forum report, 15 October 2026",
+          "url": "https://thepienews.com/ireland-international-education-sector-risks-hitting-social-license-wall/"
+        }
+      ],
+      "verifiedAt": "2026-10-16T05:19:15.898652+08:00"
+    }
+  ],
+  "scholarships": [
+    {
+      "slug": "2026-10-lincoln-pathway-merit-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-10-lincoln-pathway-merit-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-lincoln-pathway-merit-2027.md",
+      "sources": [
+        "https://www.lincoln.ac.nz/study/scholarships/search-scholarships/lincoln-university-international-pathway-merit-scholarship/",
+        "https://www.idp.com/universities-and-colleges/lincoln-university/IID-NZ-00826/",
+        "https://www.lincoln.ac.nz/study/apply-and-enrol/apply/",
+        "https://www.lincoln.ac.nz/study/apply-and-enrol/apply/international-undergraduate-entry-criteria/"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-16T05:19:15.898652+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New page: current 2027 admission route, Taiwan eligibility, scholarship conditions and distinct application deadlines verified."
+    },
+    {
+      "slug": "2026-10-lincoln-undergraduate-vice-chancellor-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-10-lincoln-undergraduate-vice-chancellor-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-lincoln-undergraduate-vice-chancellor-2027.md",
+      "sources": [
+        "https://www.lincoln.ac.nz/study/scholarships/search-scholarships/lincoln-university-undergraduate-vice-chancellors-scholarship/",
+        "https://www.idp.com/scholarship/lincoln-university/lincoln-university-undergraduate-vice-chancellors-scholarship/131137/",
+        "https://www.lincoln.ac.nz/study/apply-and-enrol/apply/",
+        "https://www.lincoln.ac.nz/study/apply-and-enrol/apply/international-undergraduate-entry-criteria/"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-16T05:19:15.898652+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New page: current 2027 admission route, Taiwan eligibility, scholarship conditions and distinct application deadlines verified."
+    },
+    {
+      "slug": "2026-10-lincoln-taught-master-merit-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-10-lincoln-taught-master-merit-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-lincoln-taught-master-merit-2027.md",
+      "sources": [
+        "https://www.lincoln.ac.nz/study/scholarships/search-scholarships/lincoln-university-180-credit-taught-master-merit-scholarship/",
+        "https://scholarshiproar.com/lincoln-university-scholarships/",
+        "https://www.lincoln.ac.nz/study/apply-and-enrol/apply/",
+        "https://www.lincoln.ac.nz/study/apply-and-enrol/apply/international-undergraduate-entry-criteria/"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-16T05:19:15.898652+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New page: current 2027 admission route, Taiwan eligibility, scholarship conditions and distinct application deadlines verified."
+    }
+  ],
+  "rejectedCandidates": [
+    {
+      "topic": "Lincoln International Undergraduate Scholarship NZ$3,000",
+      "reason": "Currently linked regulations restrict the award to 2021; excluded rather than assuming validity."
+    },
+    {
+      "topic": "UCB expansion and US CPT",
+      "reason": "Already covered in existing archive."
+    }
+  ],
+  "notes": [
+    "All Lincoln official award pages and current admission table read in authenticated-independent public browser; no login required. PDF regulations and Taiwan entry table read through web.",
+    "IDP and ScholarshipRoar full pages cross-checked; older conflicting master grade summaries excluded.",
+    "Ireland March strategy is background to October debate, not new October policy.",
+    "TCSI includes offshore campuses and is preliminary; graduate output is modelled, not receipts."
+  ]
+}
