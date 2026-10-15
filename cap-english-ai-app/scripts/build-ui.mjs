@@ -4,8 +4,10 @@ import {makeMath,skills} from '../lib/math-bank.mjs';
 
 const base='https://raw.githubusercontent.com/tfcpeter-ltu/global-education-news/7deeac6b0ab4c85de9e18a2ec7e47a8d94648942/cap-ai-preview/';
 const files=['final-v3.html'];
-const cache='20261014-cap-logo-v1';
+const cache='20261015-cambridge-v1';
 await mkdir('public',{recursive:true});
+await writeFile('public/cambridge-kings.webp',await readFile('assets/cambridge-kings.webp'));
+await writeFile('public/photo-credits.html',await readFile('assets/photo-credits.html'));
 const logo=await readFile('assets/cap-logo.svg');
 await writeFile('public/cap-logo.svg',logo);
 for(const size of [32,180,512])await sharp(logo).resize(size,size).png().toFile(`public/cap-logo-${size}.png`);
