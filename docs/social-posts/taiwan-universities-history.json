@@ -397,6 +397,82 @@
           "visibility": "public"
         }
       ]
+    },
+    {
+      "date": "2026-10-16",
+      "topic": "exchange-application-reference-dates",
+      "CTA": "免費加入會員",
+      "contentPath": "docs/social-posts/2026-10-16/taiwan-universities--exchange-application-reference-dates.json",
+      "status": "published",
+      "publishedPosts": [
+        {
+          "campaign": "taiwan-universities",
+          "network": "linkedin",
+          "account": "https://www.linkedin.com/in/peter-chen-26a754228/",
+          "articleUrl": "https://globalednews.com/taiwan-universities/",
+          "status": "PUBLISHED",
+          "publishClickedAt": "2026-10-16T05:29:44.075+08:00",
+          "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7516611308759367680/",
+          "id": "7516611308759367680",
+          "publishedAt": "2026-10-16T05:29:52.554+08:00",
+          "verifiedAt": "2026-10-16T05:30:06.435+08:00",
+          "imageCount": 1,
+          "mediaStatus": "VERIFIED",
+          "mediaVerifiedAt": "2026-10-16T05:30:06.435+08:00",
+          "mediaEvidence": "Public post read back with matching visible photo, text and account.",
+          "publishedAtBasis": "Observed publication/readback time; platform relative time checked.",
+          "publicScreenshot": "docs/social-posts/2026-10-16/evidence/linkedin-taiwan-universities-public.jpg",
+          "method": "direct-browser",
+          "accountVerified": true,
+          "visibility": "public"
+        },
+        {
+          "campaign": "taiwan-universities",
+          "network": "threads",
+          "account": "ltuossdtw",
+          "status": "PUBLISHED",
+          "articleUrl": "https://globalednews.com/taiwan-universities/",
+          "publishClickedAt": "2026-10-16T05:38:02.500+08:00",
+          "id": "Deh8Q44k-Cd",
+          "url": "https://www.threads.com/@ltuossdtw/post/Deh8Q44k-Cd",
+          "publishedAt": "2026-10-16T05:38:31.941+08:00",
+          "verifiedAt": "2026-10-16T05:38:45.718+08:00",
+          "imageCount": 1,
+          "mediaStatus": "VERIFIED",
+          "mediaVerifiedAt": "2026-10-16T05:38:45.718+08:00",
+          "mediaEvidence": "Public post read back with matching visible photo, text and account.",
+          "publishedAtBasis": "Observed publication/readback time; platform relative time checked.",
+          "publicScreenshot": "docs/social-posts/2026-10-16/evidence/threads-taiwan-universities-public.jpg",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/Deh8Q44k-Cd",
+          "method": "direct-browser",
+          "accountVerified": true,
+          "visibility": "public"
+        },
+        {
+          "campaign": "taiwan-universities",
+          "network": "instagram",
+          "account": "ltuossdtw",
+          "status": "PUBLISHED",
+          "articleUrl": "https://globalednews.com/taiwan-universities/",
+          "publishClickedAt": "2026-10-16T05:38:16.065+08:00",
+          "crop": "original",
+          "crosspostThreads": false,
+          "id": "Deh8S15E6t4",
+          "url": "https://www.instagram.com/ltuossdtw/p/Deh8S15E6t4/",
+          "publishedAt": "2026-10-16T05:38:38.227+08:00",
+          "verifiedAt": "2026-10-16T05:38:53.440+08:00",
+          "imageCount": 1,
+          "mediaStatus": "VERIFIED",
+          "mediaVerifiedAt": "2026-10-16T05:38:53.440+08:00",
+          "mediaEvidence": "Public post read back with matching visible photo, text and account.",
+          "publishedAtBasis": "Observed publication/readback time; platform relative time checked.",
+          "publicScreenshot": "docs/social-posts/2026-10-16/evidence/instagram-taiwan-universities-public.jpg",
+          "publicUrl": "https://www.instagram.com/ltuossdtw/p/Deh8S15E6t4/",
+          "method": "direct-browser",
+          "accountVerified": true,
+          "visibility": "public"
+        }
+      ]
     }
   ]
 }

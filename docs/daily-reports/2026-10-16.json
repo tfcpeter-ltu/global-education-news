@@ -1,8 +1,8 @@
 {
   "date": "2026-10-16",
   "timezone": "Asia/Taipei",
-  "status": "in-progress",
-  "currentPhase": "COMMIT_DEPLOY",
+  "status": "completed",
+  "currentPhase": "VERIFY",
   "baselineCommit": "f553404b95972eb26a57f3dba9b7aa5262cf1879",
   "startedAt": "2026-10-16T05:05:23.0691890+08:00",
   "scholarshipBaselineSlugs": [
@@ -195,7 +195,56 @@
     "catalog-vanderbilt-ingram",
     "catalog-yale-international-aid"
   ],
-  "newsPublished": [],
+  "newsPublished": [
+    {
+      "slug": "australia-preliminary-overseas-commencements-2026",
+      "title": "澳洲海外新生初步數據年減4.9%：不是全年人數，也不是簽證統計",
+      "url": "https://globalednews.com/news/australia-preliminary-overseas-commencements-2026/",
+      "sources": [
+        {
+          "label": "Australian Department of Education | Preliminary trends",
+          "url": "https://www.education.gov.au/higher-education-statistics/preliminary-trends-higher-education"
+        },
+        {
+          "label": "The PIE | Independent report, 15 October 2026",
+          "url": "https://thepienews.com/overseas-student-commencements-fall-5-in-australian-higher-education/"
+        }
+      ],
+      "verifiedAt": "2026-10-16T05:19:15.898652+08:00"
+    },
+    {
+      "slug": "international-graduates-lifetime-economic-estimate-2026",
+      "title": "國際畢業生終身經濟貢獻估1.7兆美元：研究模型不能當個人薪資保證",
+      "url": "https://globalednews.com/news/international-graduates-lifetime-economic-estimate-2026/",
+      "sources": [
+        {
+          "label": "Studyportals | Talent Beyond Borders findings",
+          "url": "https://studyportals.com/press-releases/international-students-contribute-1-7-trillion-to-their-host-economies-through-their-careers/"
+        },
+        {
+          "label": "The PIE | Independent report, 15 October 2026",
+          "url": "https://thepienews.com/international-graduates-deliver-1-7tn-lifetime-boost-to-host-economies/"
+        }
+      ],
+      "verifiedAt": "2026-10-16T05:19:15.898652+08:00"
+    },
+    {
+      "slug": "ireland-student-housing-capacity-debate-2026",
+      "title": "愛爾蘭國際教育論壇關切住宿：2035年床位需求含既有缺口",
+      "url": "https://globalednews.com/news/ireland-student-housing-capacity-debate-2026/",
+      "sources": [
+        {
+          "label": "Government of Ireland | National Student Accommodation Strategy, 24 March 2026",
+          "url": "https://www.gov.ie/en/department-of-further-and-higher-education-research-innovation-and-science/publications/national-student-accommodation-strategy-2026-2035/"
+        },
+        {
+          "label": "The PIE | Ireland forum report, 15 October 2026",
+          "url": "https://thepienews.com/ireland-international-education-sector-risks-hitting-social-license-wall/"
+        }
+      ],
+      "verifiedAt": "2026-10-16T05:19:15.898652+08:00"
+    }
+  ],
   "scholarshipChecks": [
     {
       "slug": "2026-10-lincoln-pathway-merit-2027",
@@ -212,7 +261,8 @@
       "verifiedAt": "2026-10-16T05:19:15.898652+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New page: current 2027 admission route, Taiwan eligibility, scholarship conditions and distinct application deadlines verified."
+      "updateSummary": "New page: current 2027 admission route, Taiwan eligibility, scholarship conditions and distinct application deadlines verified.",
+      "publishedVerifiedAt": "2026-10-16T05:24:27.926028+08:00"
     },
     {
       "slug": "2026-10-lincoln-undergraduate-vice-chancellor-2027",
@@ -229,7 +279,8 @@
       "verifiedAt": "2026-10-16T05:19:15.898652+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New page: current 2027 admission route, Taiwan eligibility, scholarship conditions and distinct application deadlines verified."
+      "updateSummary": "New page: current 2027 admission route, Taiwan eligibility, scholarship conditions and distinct application deadlines verified.",
+      "publishedVerifiedAt": "2026-10-16T05:24:27.926028+08:00"
     },
     {
       "slug": "2026-10-lincoln-taught-master-merit-2027",
@@ -246,7 +297,8 @@
       "verifiedAt": "2026-10-16T05:19:15.898652+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New page: current 2027 admission route, Taiwan eligibility, scholarship conditions and distinct application deadlines verified."
+      "updateSummary": "New page: current 2027 admission route, Taiwan eligibility, scholarship conditions and distinct application deadlines verified.",
+      "publishedVerifiedAt": "2026-10-16T05:24:27.926028+08:00"
     }
   ],
   "scholarshipAdditions": [
@@ -265,7 +317,8 @@
       "verifiedAt": "2026-10-16T05:19:15.898652+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New page: current 2027 admission route, Taiwan eligibility, scholarship conditions and distinct application deadlines verified."
+      "updateSummary": "New page: current 2027 admission route, Taiwan eligibility, scholarship conditions and distinct application deadlines verified.",
+      "publishedVerifiedAt": "2026-10-16T05:24:27.926028+08:00"
     },
     {
       "slug": "2026-10-lincoln-undergraduate-vice-chancellor-2027",
@@ -282,7 +335,8 @@
       "verifiedAt": "2026-10-16T05:19:15.898652+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New page: current 2027 admission route, Taiwan eligibility, scholarship conditions and distinct application deadlines verified."
+      "updateSummary": "New page: current 2027 admission route, Taiwan eligibility, scholarship conditions and distinct application deadlines verified.",
+      "publishedVerifiedAt": "2026-10-16T05:24:27.926028+08:00"
     },
     {
       "slug": "2026-10-lincoln-taught-master-merit-2027",
@@ -299,17 +353,382 @@
       "verifiedAt": "2026-10-16T05:19:15.898652+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New page: current 2027 admission route, Taiwan eligibility, scholarship conditions and distinct application deadlines verified."
+      "updateSummary": "New page: current 2027 admission route, Taiwan eligibility, scholarship conditions and distinct application deadlines verified.",
+      "publishedVerifiedAt": "2026-10-16T05:24:27.926028+08:00"
     }
   ],
   "peterImports": [],
-  "socialPosts": [],
-  "gaps": [
-    "COMMIT_DEPLOY",
-    "PUBLISH",
-    "ACCEPTANCE",
-    "VERIFY"
+  "socialPosts": [
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "pageId": "101904929207004",
+      "articleUrl": "https://globalednews.com/news/australia-preliminary-overseas-commencements-2026/",
+      "status": "PUBLISHED",
+      "photoAttachedAt": "2026-10-16T05:23:32.402+08:00",
+      "photoReadyEvidence": "docs/social-posts/2026-10-16/evidence/facebook-news-photo-ready.jpg",
+      "copyAddedAt": "2026-10-16T05:23:32.529+08:00",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-16T05:24:17.768+08:00",
+      "publishClickedAt": "2026-10-16T05:24:17.768+08:00",
+      "id": "pfbid02qqnDoxV8g9XW4Dnj4biSo5MD2gHwSL4LD6oHfC22VNzXBSrmMfm2Fe6bNPyzZ8Yxl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02qqnDoxV8g9XW4Dnj4biSo5MD2gHwSL4LD6oHfC22VNzXBSrmMfm2Fe6bNPyzZ8Yxl",
+      "photoAttachments": [
+        {
+          "id": "1089985940444270",
+          "url": "https://www.facebook.com/photo/?fbid=1089985940444270"
+        }
+      ],
+      "publishedAt": "2026-10-16T05:25:16.826+08:00",
+      "publicPhotoScreenshot": "docs/social-posts/2026-10-16/evidence/facebook-news-public.jpg",
+      "verifiedAt": "2026-10-16T05:25:48.274+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-16T05:25:48.274+08:00",
+      "mediaEvidence": "Public native photo viewer, everyone audience, complete readable headline photo and matching copy.",
+      "publishedAtBasis": "Observed publication time; platform showed just now.",
+      "method": "direct-browser",
+      "accountVerified": true,
+      "visibility": "public"
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "account": "https://www.linkedin.com/in/peter-chen-26a754228/",
+      "articleUrl": "https://globalednews.com/news/australia-preliminary-overseas-commencements-2026/",
+      "status": "PUBLISHED",
+      "preparedAt": "2026-10-16T05:26:04.217+08:00",
+      "publishClickedAt": "2026-10-16T05:26:12.212+08:00",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7516610415020294144/",
+      "id": "7516610415020294144",
+      "publishedAt": "2026-10-16T05:26:33.551+08:00",
+      "publicScreenshot": "docs/social-posts/2026-10-16/evidence/linkedin-news-public.jpg",
+      "verifiedAt": "2026-10-16T05:26:54.073+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-16T05:26:54.073+08:00",
+      "mediaEvidence": "Public post shows full card and matching copy under Peter Chen, public audience.",
+      "publishedAtBasis": "Observed readback; just now visible.",
+      "method": "direct-browser",
+      "accountVerified": true,
+      "visibility": "public"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "pageId": "101904929207004",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-lincoln-undergraduate-vice-chancellor-2027/",
+      "status": "PUBLISHED",
+      "photoAttachedAt": "2026-10-16T05:26:33.341+08:00",
+      "photoReadyEvidence": "docs/social-posts/2026-10-16/evidence/facebook-scholarship-photo-ready.jpg",
+      "copyAddedAt": "2026-10-16T05:26:33.470+08:00",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-16T05:26:54.073+08:00",
+      "publishClickedAt": "2026-10-16T05:26:54.073+08:00",
+      "id": "pfbid02R51fdfC93WWswCNe1kNgReGGextkUPFEnkA67b8sbWxNbHDUr5R8aEZ6dB9FLigEl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02R51fdfC93WWswCNe1kNgReGGextkUPFEnkA67b8sbWxNbHDUr5R8aEZ6dB9FLigEl",
+      "photoAttachments": [
+        {
+          "id": "1089987887110742",
+          "url": "https://www.facebook.com/photo/?fbid=1089987887110742"
+        }
+      ],
+      "publishedAt": "2026-10-16T05:27:16.003+08:00",
+      "verifiedAt": "2026-10-16T05:27:41.912+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-16T05:27:41.912+08:00",
+      "mediaEvidence": "Public post read back with matching visible photo, text and account.",
+      "publishedAtBasis": "Observed publication/readback time; platform relative time checked.",
+      "publicPhotoScreenshot": "docs/social-posts/2026-10-16/evidence/facebook-scholarship-public.jpg",
+      "mediaKind": "uploaded-photo",
+      "method": "direct-browser",
+      "accountVerified": true,
+      "visibility": "public"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "account": "https://www.linkedin.com/in/peter-chen-26a754228/",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-lincoln-undergraduate-vice-chancellor-2027/",
+      "status": "PUBLISHED",
+      "publishClickedAt": "2026-10-16T05:27:30.038+08:00",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7516610745070063617/",
+      "id": "7516610745070063617",
+      "publishedAt": "2026-10-16T05:27:42.597+08:00",
+      "verifiedAt": "2026-10-16T05:28:01.578+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-16T05:28:01.578+08:00",
+      "mediaEvidence": "Public post read back with matching visible photo, text and account.",
+      "publishedAtBasis": "Observed publication/readback time; platform relative time checked.",
+      "publicScreenshot": "docs/social-posts/2026-10-16/evidence/linkedin-scholarship-public.jpg",
+      "method": "direct-browser",
+      "accountVerified": true,
+      "visibility": "public"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "pageId": "101904929207004",
+      "articleUrl": "https://globalednews.com/study-abroad/lincoln-new-zealand-admission-scholarship-dates-2027/",
+      "status": "PUBLISHED",
+      "photoAttachedAt": "2026-10-16T05:28:03.686+08:00",
+      "photoReadyEvidence": "docs/social-posts/2026-10-16/evidence/facebook-study-abroad-photo-ready.jpg",
+      "copyAddedAt": "2026-10-16T05:28:03.794+08:00",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-16T05:28:31.437+08:00",
+      "publishClickedAt": "2026-10-16T05:28:31.437+08:00",
+      "id": "pfbid02QGbdwXRvVAkAzX894tz3MDMrPbwkp5exfRBGy4gGYR5z4jgbW21BEYrtHcN48X9tl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02QGbdwXRvVAkAzX894tz3MDMrPbwkp5exfRBGy4gGYR5z4jgbW21BEYrtHcN48X9tl",
+      "photoAttachments": [
+        {
+          "id": "1089988773777320",
+          "url": "https://www.facebook.com/photo/?fbid=1089988773777320"
+        }
+      ],
+      "publishedAt": "2026-10-16T05:28:53.661+08:00",
+      "verifiedAt": "2026-10-16T05:29:10.168+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-16T05:29:10.168+08:00",
+      "mediaEvidence": "Public post read back with matching visible photo, text and account.",
+      "publishedAtBasis": "Observed publication/readback time; platform relative time checked.",
+      "publicPhotoScreenshot": "docs/social-posts/2026-10-16/evidence/facebook-study-abroad-public.jpg",
+      "mediaKind": "uploaded-photo",
+      "method": "direct-browser",
+      "accountVerified": true,
+      "visibility": "public"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "account": "https://www.linkedin.com/in/peter-chen-26a754228/",
+      "articleUrl": "https://globalednews.com/study-abroad/lincoln-new-zealand-admission-scholarship-dates-2027/",
+      "status": "PUBLISHED",
+      "publishClickedAt": "2026-10-16T05:28:42.110+08:00",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7516611048515350528/",
+      "id": "7516611048515350528",
+      "publishedAt": "2026-10-16T05:28:54.266+08:00",
+      "verifiedAt": "2026-10-16T05:29:10.241+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-16T05:29:10.241+08:00",
+      "mediaEvidence": "Public post read back with matching visible photo, text and account.",
+      "publishedAtBasis": "Observed publication/readback time; platform relative time checked.",
+      "publicScreenshot": "docs/social-posts/2026-10-16/evidence/linkedin-study-abroad-public.jpg",
+      "method": "direct-browser",
+      "accountVerified": true,
+      "visibility": "public"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "account": "https://www.linkedin.com/in/peter-chen-26a754228/",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "status": "PUBLISHED",
+      "publishClickedAt": "2026-10-16T05:29:44.075+08:00",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7516611308759367680/",
+      "id": "7516611308759367680",
+      "publishedAt": "2026-10-16T05:29:52.554+08:00",
+      "verifiedAt": "2026-10-16T05:30:06.435+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-16T05:30:06.435+08:00",
+      "mediaEvidence": "Public post read back with matching visible photo, text and account.",
+      "publishedAtBasis": "Observed publication/readback time; platform relative time checked.",
+      "publicScreenshot": "docs/social-posts/2026-10-16/evidence/linkedin-taiwan-universities-public.jpg",
+      "method": "direct-browser",
+      "accountVerified": true,
+      "visibility": "public"
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/news/australia-preliminary-overseas-commencements-2026/",
+      "publishClickedAt": "2026-10-16T05:34:26.736+08:00",
+      "crop": "original",
+      "crosspostThreads": false,
+      "id": "Deh72y4E8BC",
+      "url": "https://www.instagram.com/ltuossdtw/p/Deh72y4E8BC/",
+      "publishedAt": "2026-10-16T05:34:53.090+08:00",
+      "verifiedAt": "2026-10-16T05:35:07.515+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-16T05:35:07.515+08:00",
+      "mediaEvidence": "Public post read back with matching visible photo, text and account.",
+      "publishedAtBasis": "Observed publication/readback time; platform relative time checked.",
+      "publicScreenshot": "docs/social-posts/2026-10-16/evidence/instagram-news-public.jpg",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Deh72y4E8BC/",
+      "method": "direct-browser",
+      "accountVerified": true,
+      "visibility": "public"
+    },
+    {
+      "campaign": "news",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/news/australia-preliminary-overseas-commencements-2026/",
+      "publishClickedAt": "2026-10-16T05:35:07.516+08:00",
+      "id": "Deh77iAE7Jt",
+      "url": "https://www.threads.com/@ltuossdtw/post/Deh77iAE7Jt",
+      "publishedAt": "2026-10-16T05:35:26.068+08:00",
+      "verifiedAt": "2026-10-16T05:35:40.574+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-16T05:35:40.574+08:00",
+      "mediaEvidence": "Public post read back with matching visible photo, text and account.",
+      "publishedAtBasis": "Observed publication/readback time; platform relative time checked.",
+      "publicScreenshot": "docs/social-posts/2026-10-16/evidence/threads-news-public.jpg",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Deh77iAE7Jt",
+      "method": "direct-browser",
+      "accountVerified": true,
+      "visibility": "public"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-lincoln-undergraduate-vice-chancellor-2027/",
+      "publishClickedAt": "2026-10-16T05:35:49.861+08:00",
+      "crop": "original",
+      "crosspostThreads": false,
+      "id": "Deh8A85k73H",
+      "url": "https://www.instagram.com/ltuossdtw/p/Deh8A85k73H/",
+      "publishedAt": "2026-10-16T05:36:23.209+08:00",
+      "verifiedAt": "2026-10-16T05:36:40.318+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-16T05:36:40.318+08:00",
+      "mediaEvidence": "Public post read back with matching visible photo, text and account.",
+      "publishedAtBasis": "Observed publication/readback time; platform relative time checked.",
+      "publicScreenshot": "docs/social-posts/2026-10-16/evidence/instagram-scholarship-public.jpg",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Deh8A85k73H/",
+      "method": "direct-browser",
+      "accountVerified": true,
+      "visibility": "public"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-lincoln-undergraduate-vice-chancellor-2027/",
+      "publishClickedAt": "2026-10-16T05:35:58.278+08:00",
+      "id": "Deh8Buzk3xO",
+      "url": "https://www.threads.com/@ltuossdtw/post/Deh8Buzk3xO",
+      "publishedAt": "2026-10-16T05:36:40.319+08:00",
+      "verifiedAt": "2026-10-16T05:36:53.072+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-16T05:36:53.072+08:00",
+      "mediaEvidence": "Public post read back with matching visible photo, text and account.",
+      "publishedAtBasis": "Observed publication/readback time; platform relative time checked.",
+      "publicScreenshot": "docs/social-posts/2026-10-16/evidence/threads-scholarship-public.jpg",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Deh8Buzk3xO",
+      "method": "direct-browser",
+      "accountVerified": true,
+      "visibility": "public"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/study-abroad/lincoln-new-zealand-admission-scholarship-dates-2027/",
+      "publishClickedAt": "2026-10-16T05:37:12.981+08:00",
+      "crop": "original",
+      "crosspostThreads": false,
+      "id": "Deh8LGFkwnG",
+      "url": "https://www.instagram.com/ltuossdtw/p/Deh8LGFkwnG/",
+      "publishedAt": "2026-10-16T05:37:33.532+08:00",
+      "verifiedAt": "2026-10-16T05:37:54.587+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-16T05:37:54.587+08:00",
+      "mediaEvidence": "Public post read back with matching visible photo, text and account.",
+      "publishedAtBasis": "Observed publication/readback time; platform relative time checked.",
+      "publicScreenshot": "docs/social-posts/2026-10-16/evidence/instagram-study-abroad-public.jpg",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Deh8LGFkwnG/",
+      "method": "direct-browser",
+      "accountVerified": true,
+      "visibility": "public"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/study-abroad/lincoln-new-zealand-admission-scholarship-dates-2027/",
+      "publishClickedAt": "2026-10-16T05:37:12.981+08:00",
+      "id": "Deh8K2gE5p5",
+      "url": "https://www.threads.com/@ltuossdtw/post/Deh8K2gE5p5",
+      "publishedAt": "2026-10-16T05:37:27.777+08:00",
+      "verifiedAt": "2026-10-16T05:37:43.437+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-16T05:37:43.437+08:00",
+      "mediaEvidence": "Public post read back with matching visible photo, text and account.",
+      "publishedAtBasis": "Observed publication/readback time; platform relative time checked.",
+      "publicScreenshot": "docs/social-posts/2026-10-16/evidence/threads-study-abroad-public.jpg",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Deh8K2gE5p5",
+      "method": "direct-browser",
+      "accountVerified": true,
+      "visibility": "public"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "publishClickedAt": "2026-10-16T05:38:02.500+08:00",
+      "id": "Deh8Q44k-Cd",
+      "url": "https://www.threads.com/@ltuossdtw/post/Deh8Q44k-Cd",
+      "publishedAt": "2026-10-16T05:38:31.941+08:00",
+      "verifiedAt": "2026-10-16T05:38:45.718+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-16T05:38:45.718+08:00",
+      "mediaEvidence": "Public post read back with matching visible photo, text and account.",
+      "publishedAtBasis": "Observed publication/readback time; platform relative time checked.",
+      "publicScreenshot": "docs/social-posts/2026-10-16/evidence/threads-taiwan-universities-public.jpg",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Deh8Q44k-Cd",
+      "method": "direct-browser",
+      "accountVerified": true,
+      "visibility": "public"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "publishClickedAt": "2026-10-16T05:38:16.065+08:00",
+      "crop": "original",
+      "crosspostThreads": false,
+      "id": "Deh8S15E6t4",
+      "url": "https://www.instagram.com/ltuossdtw/p/Deh8S15E6t4/",
+      "publishedAt": "2026-10-16T05:38:38.227+08:00",
+      "verifiedAt": "2026-10-16T05:38:53.440+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-16T05:38:53.440+08:00",
+      "mediaEvidence": "Public post read back with matching visible photo, text and account.",
+      "publishedAtBasis": "Observed publication/readback time; platform relative time checked.",
+      "publicScreenshot": "docs/social-posts/2026-10-16/evidence/instagram-taiwan-universities-public.jpg",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Deh8S15E6t4/",
+      "method": "direct-browser",
+      "accountVerified": true,
+      "visibility": "public"
+    }
   ],
+  "gaps": [],
   "newsPrepared": [
     {
       "slug": "australia-preliminary-overseas-commencements-2026",
@@ -437,7 +856,13 @@
       1,
       2
     ],
-    "pendingLiveVerification": true
+    "pendingLiveVerification": false,
+    "liveVerifiedAt": "2026-10-16T05:41:23.400+08:00",
+    "visibleUrls": [
+      "https://www.ctee.com.tw/news/20250623700886-431204",
+      "https://money.udn.com/money/story/5723/8815124",
+      "https://www.nownews.com/news/6697174"
+    ]
   },
   "build": {
     "status": "success",
@@ -455,5 +880,121 @@
       "eight distinct licensed photos",
       "four visual headline cards"
     ]
+  },
+  "deployment": {
+    "status": "success",
+    "commit": "6fad47d1984d02e11436acc0a2da78e1210146f4",
+    "runId": 38809333211,
+    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/38809333211",
+    "verifiedAt": "2026-10-16T05:24:27.926028+08:00"
+  },
+  "newFacebookPagePost": {
+    "campaign": "news",
+    "network": "facebook",
+    "pageId": "61595164194381",
+    "assetId": "1355044634361784",
+    "articleUrl": "https://globalednews.com/news/australia-preliminary-overseas-commencements-2026/",
+    "status": "PUBLISHED",
+    "photoAttachedAt": "2026-10-16T05:30:29.925+08:00",
+    "photoReadyEvidence": "docs/social-posts/2026-10-16/evidence/facebook-new-page-photo-ready.jpg",
+    "copyAddedAt": "2026-10-16T05:30:30.022+08:00",
+    "previewStatus": "VERIFIED",
+    "previewVerifiedAt": "2026-10-16T05:30:50.583+08:00",
+    "publishClickedAt": "2026-10-16T05:30:50.583+08:00",
+    "photoAttachments": [
+      {
+        "id": "122105346087505473",
+        "url": "https://www.facebook.com/photo/?fbid=122105346087505473"
+      }
+    ],
+    "publishedAt": "2026-10-16T05:31:11.388+08:00",
+    "id": "pfbid09oeW966W2PBxLmXfQNnCWSCmRJATXhN7nuH5jGkF2kz3P1qd4Dx33bMEwdEZANrdl",
+    "url": "https://www.facebook.com/permalink.php?story_fbid=pfbid09oeW966W2PBxLmXfQNnCWSCmRJATXhN7nuH5jGkF2kz3P1qd4Dx33bMEwdEZANrdl&id=61595164194381",
+    "verifiedAt": "2026-10-16T05:34:17.778+08:00",
+    "imageCount": 1,
+    "mediaStatus": "VERIFIED",
+    "mediaVerifiedAt": "2026-10-16T05:34:17.778+08:00",
+    "mediaEvidence": "Public post read back with matching visible photo, text and account.",
+    "publishedAtBasis": "Observed publication/readback time; platform relative time checked.",
+    "publicPhotoScreenshot": "docs/social-posts/2026-10-16/evidence/facebook-new-page-public.jpg",
+    "mediaKind": "uploaded-photo",
+    "publicUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid09oeW966W2PBxLmXfQNnCWSCmRJATXhN7nuH5jGkF2kz3P1qd4Dx33bMEwdEZANrdl&id=61595164194381",
+    "method": "direct-browser",
+    "accountVerified": true,
+    "visibility": "public"
+  },
+  "acceptance": {
+    "desktop": true,
+    "mobile": true,
+    "seo": true,
+    "verifiedAt": "2026-10-16T05:41:23.400+08:00",
+    "liveSeoEvidence": "docs/daily-reports/2026-10-16-live-seo.json",
+    "desktopEvidence": "docs/daily-checks/2026-10-16/desktop-home.jpg",
+    "mobileEvidence": "docs/daily-checks/2026-10-16/mobile-home-zh.jpg",
+    "mobileArticleEvidence": "docs/daily-checks/2026-10-16/mobile-scholarship.jpg",
+    "mobileViewport": {
+      "requestedWidth": 390,
+      "requestedHeight": 844,
+      "observedCssWidth": 487,
+      "observedDocumentWidth": 468,
+      "horizontalOverflow": false
+    },
+    "scholarshipSearch": {
+      "desktop": {
+        "query": "Lincoln",
+        "country": "紐西蘭",
+        "results": 3
+      },
+      "english": {
+        "query": "Lincoln",
+        "country": "New Zealand",
+        "results": 3
+      },
+      "mobile": {
+        "query": "Lincoln",
+        "country": "紐西蘭",
+        "results": 3
+      }
+    },
+    "todayPicks": {
+      "count": 3,
+      "liveReadback": true,
+      "slugs": [
+        "2026-10-lincoln-pathway-merit-2027",
+        "2026-10-lincoln-undergraduate-vice-chancellor-2027",
+        "2026-10-lincoln-taught-master-merit-2027"
+      ]
+    },
+    "domesticDatabase": {
+      "school": "國立中興大學",
+      "query": "資訊",
+      "results": 6,
+      "zeroQueryResults": 0,
+      "resetResults": 1866
+    },
+    "images": "Seven new bilingual pages use licensed archive photos; all 16 social posts visually verified.",
+    "ltuVisibleSourceRotation": [
+      0,
+      1,
+      2
+    ],
+    "viewportReset": true
+  },
+  "phaseCompleted": [
+    "PREFLIGHT",
+    "RESEARCH",
+    "PREPARE",
+    "BUILD",
+    "COMMIT_DEPLOY",
+    "PUBLISH",
+    "ACCEPTANCE",
+    "VERIFY"
+  ],
+  "completedAt": "2026-10-16T05:41:49.526+08:00",
+  "verification": {
+    "status": "COMPLETE",
+    "verifiedAt": "2026-10-16T05:41:49.526+08:00",
+    "command": "node scripts/verify-daily-delivery.mjs 2026-10-16",
+    "output": "COMPLETE 2026-10-16: 3 news, 3 new scholarships, Peter review (0 imports), 15 social posts and deployment evidence present."
   }
 }
