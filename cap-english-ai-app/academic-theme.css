@@ -223,9 +223,9 @@ body[data-academic] .v3nav{border-bottom:3px double #b9a271!important}
 body[data-academic] .capLogoMark{width:42px;height:42px;flex-shrink:0;margin-right:10px;display:block}body[data-academic] .v3brand{align-items:center!important}@media(max-width:620px){body[data-academic] .capLogoMark{width:36px;height:36px;margin-right:8px}}
 
 /* Cambridge photograph under a quiet ivory veil. */
-html:root body[data-academic]{background-image:linear-gradient(90deg,rgba(248,244,231,.94),rgba(248,244,231,.78) 48%,rgba(248,244,231,.72)),url('/cambridge-kings.webp')!important;background-size:100% 100%,auto 1050px!important;background-position:center,85% top!important;background-repeat:no-repeat!important;background-color:#f3efe3!important}
+html:root body[data-academic]{background-image:linear-gradient(90deg,rgba(248,244,231,.94),rgba(248,244,231,.78) 48%,rgba(248,244,231,.72)),url('/cambridge-kings.webp')!important;background-size:100% 100%,cover!important;background-position:center,center 35%!important;background-repeat:no-repeat!important;background-attachment:fixed!important;background-color:#f3efe3!important}
 body[data-academic] main.wrap>.hero:before{background:none!important}
 body[data-academic] .mathHero{background:none}
 body[data-academic] .campusCredit{display:block;margin:18px 0 8px;font:10px/1.6 system-ui,sans-serif!important;color:#776b50!important;letter-spacing:.04em;text-decoration:none}
 body[data-academic] .campusCredit:hover{text-decoration:underline}
-@media(max-width:620px){html:root body[data-academic]{background-size:100% 100%,auto 850px!important;background-position:center,60% top!important}}
+@media(max-width:620px){html:root body[data-academic]{background-size:100% 100%,cover!important;background-position:center,center!important}}
