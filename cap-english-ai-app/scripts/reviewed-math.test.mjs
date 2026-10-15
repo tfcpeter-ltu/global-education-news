@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';import fs from 'node:fs';
-for(const year of [113,114,115]){const p=JSON.parse(fs.readFileSync(`research/math-corpus/reviewed/cap-${year}-solutions.json`));assert.equal(p.choice.length,25);assert.equal(p.written.length,2);assert.equal(new Set(p.choice.map(q=>q.number)).size,25);for(const q of [...p.choice,...p.written]){assert.ok(q.steps.length>=3);assert.ok(q.trap&&q.answer);assert.ok(!JSON.stringify(q).includes('undefined'));}}
+for(const year of [111,112,113,114,115]){const p=JSON.parse(fs.readFileSync(`research/math-corpus/reviewed/cap-${year}-solutions.json`));assert.equal(p.choice.length,25);assert.equal(p.written.length,2);assert.equal(new Set(p.choice.map(q=>q.number)).size,25);for(const q of [...p.choice,...p.written]){assert.ok(q.steps.length>=3);assert.ok(q.trap&&q.answer);assert.ok(!JSON.stringify(q).includes('undefined'));}}
 // 114: independently compute the numerical questions and both written problems.
 assert.equal(7n**10n*7n**2n/7n**4n,7n**8n);assert.equal((37+23)*2,81+39);assert.equal(2+2*3.5,9);assert.equal(-109+112+204,207);assert.equal(20*200+19*150,6850);const products=[(106**2-4**2)*(108**2-2**2),(107**2-3**2)*(107**2-1),(108**2-2**2)*(106**2-2**2),(109**2-1)*(105**2-1)];assert.equal(new Set(products.slice(1)).size,1);assert.notEqual(products[0],products[1]);let wins=0;for(const a of [2,4,5])for(const b of [1,3,4])if(a>b)wins++;assert.equal(wins,6);assert.equal((10000-8700)/20*70,4550);assert.equal(Math.floor((6000-16*320-16*35)/55),5);assert.ok(Math.abs((5/2)*(1/7)-5/14)<1e-12);assert.equal(16+18+30/2,49);assert.equal(8+18+30,56);assert.equal(24+22+10/2,51);assert.equal(16*9,18*8);for(let k=1;k<=10000;k++)assert.notEqual(3*9*(k+1),4*8*k);
 // 113: coordinates for folded trapezoid, interval arithmetic, exact threshold checks.
@@ -10,4 +10,11 @@ function symmetric(removed,reflect){const ss=segs.filter((_,i)=>!removed.include
 assert.ok(symmetric([0,1],([x,y])=>[1-y,1-x]));assert.ok(symmetric([0,7],([x,y])=>[2-x,y]));assert.ok(symmetric([1,4],([x,y])=>[x,-y]));
 // An axis of this orthogonal segment set must be horizontal, vertical, or diagonal.
 for(let i=-8;i<=12;i++){const c=i/4;for(const axis of [([x,y])=>[2*c-x,y],([x,y])=>[x,2*c-y],([x,y])=>[c-y,c-x],([x,y])=>[y-c,x+c]])assert.equal(symmetric([1,7],axis),false);}
-console.log('PASS: 81 complete reviewed entries; answer-key checks in source generators; independent arithmetic, geometry and integer feasibility checks.');
+// 112: divisibility, lattice points, geometry distances and written-question counterexample.
+assert.deepEqual(Array.from({length:216},(_,i)=>i+1).filter(n=>n%18===0&&216%n===0),[18,36,54,72,108,216]);
+const lattice=[];for(let x=-2;x<=5;x++)for(let y=0;y<=4;y++)if(x*x+y*y===10)lattice.push([x,y]);assert.deepEqual(lattice,[[-1,3],[1,3],[3,1]]);assert.equal((3+1)**2+(1-3)**2,20);
+assert.equal(15.5-7.5,8);assert.equal(60*84/70,72);assert.equal((6+8)*2/4,7);assert.equal(6*8/10,4.8);assert.equal(2300*6/100,138);assert.ok(Math.abs((1-50/500)*100-90)<1e-12);assert.equal((1-60/1000)*100,94);assert.ok(60>50);assert.ok(3+3*Math.sqrt(2)<8);
+// 111: exact growth, remaining-card counts, histogram and energy-cost threshold.
+assert.equal(4n**18n,68719476736n);assert.ok(4n**18n>8n*6000000000n);assert.equal(15*24/20,18);assert.equal(19+9,28);assert.equal(19-9,10);assert.equal(32-19+20-9,24);assert.equal(20-9,11);
+assert.equal([5,5,10,40,80,100,80,80,65,45].reduce((a,b)=>a+b),510);assert.equal(510/750*100,68);assert.ok(Math.abs(21+1.6-.4-.5-21.7)<1e-10);assert.equal((90*40-120*28)/1000*5,1.2);assert.equal((60000-45000)/1.2,12500);assert.equal(0.8*(5800+1200),5800-200);assert.equal(32-16-14/2,9);assert.equal(1-2*5/16,3/8);
+console.log('PASS: 135 complete reviewed entries; answer-key checks in source generators; independent arithmetic, geometry and integer feasibility checks.');
