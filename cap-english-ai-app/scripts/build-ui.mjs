@@ -4,7 +4,7 @@ import {makeMath,skills} from '../lib/math-bank.mjs';
 
 const base='https://raw.githubusercontent.com/tfcpeter-ltu/global-education-news/7deeac6b0ab4c85de9e18a2ec7e47a8d94648942/cap-ai-preview/';
 const files=['final-v3.html'];
-const cache='20261015-cambridge-v1';
+const cache='20261015-detailed-answers-v1';
 await mkdir('public',{recursive:true});
 await writeFile('public/cambridge-kings.webp',await readFile('assets/cambridge-kings.webp'));
 await writeFile('public/photo-credits.html',await readFile('assets/photo-credits.html'));
@@ -28,7 +28,7 @@ const mainHero=Buffer.from(mainParts.join(''),'base64');
 if(mainHero.length<30000 || mainHero.subarray(0,4).toString('ascii')!=='RIFF' || mainHero.subarray(8,12).toString('ascii')!=='WEBP') throw new Error('Invalid main hero');
 await writeFile('public/cap-main-hero-v17.webp',mainHero);
 
-for(const file of files){const r=await fetch(base+file+'?v='+cache);if(!r.ok)throw new Error(`Failed to fetch ${file}: ${r.status}`);await writeFile(`public/${file}`,(await r.text()).replace('</head>','<link id="academic-theme" rel="stylesheet" href="/academic-theme.css?v='+cache+'"></head>').replace('<body','<body data-academic="1"'),'utf8')}
+for(const file of files){const r=await fetch(base+file+'?v='+cache);if(!r.ok)throw new Error(`Failed to fetch ${file}: ${r.status}`);await writeFile(`public/${file}`,(await r.text()).replaceAll('基本答案與簡要解析','答案與逐步詳解').replaceAll('基本解析','逐步詳解').replace('</head>','<link id="academic-theme" rel="stylesheet" href="/academic-theme.css?v='+cache+'"></head>').replace('<body','<body data-academic="1"'),'utf8')}
 
 const assets=['tutor.js','ltu-refine-v3.js','ltu-refine-v4.js','remove-hero.js','question-engine-v2.js','mock-listening.js','mock-groups.js','explanation-engine.js','practice-ui-v4.js','notebook-ui-v2.js','auth-ui-v2.js','product-core-v1.js','launch-ui-v1.js','complete-preview-v1.js','complete-portal-v1.js','membership-sync-v1.js','membership-merge-v1.js','remove-duplicate-plans-v1.js','flow-ux-v1.js','trad-tw-fix-v1.js'];
 for(const asset of assets) await writeFile(`public/${asset}`,await readFile(asset,'utf8'),'utf8');
