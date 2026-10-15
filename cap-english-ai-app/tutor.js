@@ -1,0 +1,29 @@
+/* Shared, accessible course-help panel. No student content is rendered as HTML. */
+(()=>{'use strict';
+const math=location.pathname.startsWith('/math'),subject=math?'math':'english';
+const qa=math?[
+ ['題目看得懂，卻不知道怎麼列式','先圈出「已知量、未知量、兩者關係」。例如總價＝單價×數量；把未知量設為 x，再把文字關係寫成等式。先檢查等號兩邊的單位是否一致。','我不知道如何把文字題列成方程式，請先引導我找已知與未知。'],
+ ['移項、負號與分數一直算錯','移項其實是等號兩邊做相同運算。例如 3x−5＝7，兩邊加 5 得 3x＝12。分數先找公分母，負號先保留括號；每一步只做一件事。','我常在移項或負號出錯，請用例子一步一步幫我檢查。'],
+ ['幾何題不知道用哪個公式','先標出已知邊、角與要求的量。確認是否直角三角形再用畢氏定理；面積公式中的高必須與底垂直。不要用圖看起來的比例當條件。','我卡在幾何題，不知道先找哪個條件，請引導我。'],
+ ['非選擇題要寫到多詳細','寫出設未知數、依據條件列式、關鍵運算、答案與單位。計算錯也應保留推理，方便找出觀念與運算的差別。對照參考規準逐步檢查。','請幫我檢查非選擇題的解題過程，先告訴我需要提供哪些資料。'],
+ ['看完詳解還是不會做','先遮住詳解，自己重做第一步；說出「為什麼可以這樣做」。找出第一個說不出原因的步驟，再用數字較簡單的同類題練習。','我看完詳解仍不理解，請幫我找到第一個卡住的步驟。']
+]:[
+ ['單字都認識，卻看不懂整句','先找主詞與主要動詞，把介系詞片語、關係子句暫時括起來。先讀出主幹，再把補充資訊加回去，不要逐字硬翻。','我單字認識但看不懂句子，請引導我找主詞與動詞。'],
+ ['文法題兩個選項都很像','先判斷空格需要的詞性，再找時態、主動被動、單複數與前後句關係。把各選項放回句中，用具體線索排除。','文法選項很像，請教我怎麼用句子線索判斷。'],
+ ['克漏字不知道從哪裡開始','先讀整段確認主題，再看空格前後。連接詞要看邏輯；代名詞要找指涉；動詞要看時間與主詞。不要只看空格旁一個字。','克漏字常選錯，請用短例子引導我找上下文線索。'],
+ ['閱讀太慢，也找不到答案','先看問題問什麼，再到文章定位關鍵人物、時間與轉折。細節題找可對應的句子，推論題確認有文本依據，主旨題比較全段共同重點。','閱讀時找不到線索，請先教我如何定位問題。'],
+ ['聽力跟不上，聽到就忘記','聽前看選項預測情境；第一遍抓人物、地點與目的，再抓數字、時間和否定詞。練習時先聽後對照逐字稿，記下連音與沒辨認出的詞。','我聽力跟不上，請給我一個今天能完成的練習方法。']
+];
+function mount(){if(document.getElementById('capTutorPanel'))return;const host=math?document.querySelector('.mathShell'):document.querySelector('#capapp')?.contentDocument?.querySelector('main.wrap');if(!host)return;
+const doc=host.ownerDocument;const css=doc.createElement('link');css.rel='stylesheet';css.href='/tutor.css?v=1';doc.head.append(css);
+const panel=doc.createElement('section');panel.id='capTutorPanel';panel.setAttribute('aria-labelledby','tutorTitle');panel.innerHTML=`<div class="tutorHeading"><span>LEARNING COMPANION · AI 家教</span><h2 id="tutorTitle">卡住了？我們一步一步來。</h2><p>先看常見問題，找出卡住的地方，再請家教帶你理解。</p></div><div class="tutorLayout"><div class="tutorFAQ"><h3>常見 QA · 找到你的卡點</h3></div><div class="tutorConversation"><h3>${math?'數學':'英文'} AI 家教</h3><p class="tutorFine">QA 免費閱讀；AI 對話需本科 Complete，每日最多 10 次。每次追問計 1 次。對話只保留在本頁，重新整理後清除。送出內容會交由 OpenAI 處理，請勿輸入姓名、電話等個資。AI 回答請對照教材核對。</p><div class="tutorLog" role="log" aria-label="AI 家教對話" aria-live="polite"></div><form class="tutorForm"><label>貼上題目、自己的想法，或描述哪一步不懂<textarea maxlength="2200" rows="4" required placeholder="例如：我卡在第二步，為什麼兩邊都要乘以 3？"></textarea></label><div class="tutorActions"><button type="submit">請 AI 引導我</button><button type="button" class="tutorClear">清除對話</button></div><p class="tutorStatus" role="status"></p><a class="tutorLogin" hidden href="${math?'/math':'/'}">前往本科會員登入</a></form></div></div>`;
+let history=[],busy=false;const input=panel.querySelector('textarea'),status=panel.querySelector('.tutorStatus'),log=panel.querySelector('.tutorLog'),submit=panel.querySelector('[type=submit]'),clear=panel.querySelector('.tutorClear'),login=panel.querySelector('.tutorLogin');
+login.addEventListener('click',e=>{const account=doc.querySelector(math?'#account':'#v3Login');if(account){e.preventDefault();account.click();}});for(const [title,answer,prompt] of qa){const d=doc.createElement('details'),s=doc.createElement('summary'),p=doc.createElement('p'),btn=doc.createElement('button');s.textContent=title;p.textContent=answer;btn.type='button';btn.textContent='我卡在這裡，請 AI 協助';btn.addEventListener('click',()=>{input.value=prompt;input.focus();});d.append(s,p,btn);panel.querySelector('.tutorFAQ').append(d);}
+function bubble(role,text){const a=doc.createElement('article'),b=doc.createElement('b'),p=doc.createElement('p');a.className='tutorBubble '+role;b.textContent=role==='user'?'我的問題':'AI 家教';p.textContent=text;a.append(b,p);log.append(a);a.scrollIntoView({block:'nearest',behavior:'smooth'});}
+clear.addEventListener('click',()=>{if(busy)return;history=[];log.replaceChildren();status.textContent='對話已清除。';login.hidden=true;});
+const errors={AUTH_REQUIRED:'請先登入本科會員，再回來發問；問題已保留。',COMPLETE_REQUIRED:'AI 家教需本科 Complete 資格；你仍可免費閱讀左側 QA。',AI_DAILY_LIMIT:'今天已使用 10 次家教協助，請明天再來。',AI_INSUFFICIENT_QUOTA:'AI 服務額度不足，請聯絡管理員。你可以先參考 QA，稍後再試。',AI_RATE_LIMIT:'AI 暫時忙碌，請稍後再試。',AI_NOT_CONFIGURED:'AI 家教尚未設定完成。',AI_AUTH_FAILED:'AI 服務設定需要管理員檢查。'};
+panel.querySelector('form').addEventListener('submit',async e=>{e.preventDefault();if(busy||!input.value.trim())return;busy=true;submit.disabled=clear.disabled=true;status.textContent='家教正在整理引導步驟…';login.hidden=true;const message=input.value.trim();try{const r=await fetch('/api/tutor',{method:'POST',credentials:'same-origin',headers:{'Content-Type':'application/json'},body:JSON.stringify({subject,message,history:history.slice(-4)})});const data=await r.json();if(!r.ok||!data.ok){login.hidden=!['AUTH_REQUIRED','COMPLETE_REQUIRED'].includes(data.error);throw new Error(errors[data.error]||'暫時無法取得家教回覆，請稍後再試。');}bubble('user',message);bubble('assistant',data.text);history.push({role:'user',content:message},{role:'assistant',content:data.text});history=history.slice(-4);input.value='';status.textContent=`今天還可使用 ${data.remaining} 次。可以繼續追問不懂的步驟。`;}catch(err){status.textContent=err.message;}finally{busy=false;submit.disabled=clear.disabled=false;}});
+const nav=doc.querySelector('.mathHeader nav,.v3links');if(nav){const link=doc.createElement('a');link.href='#capTutorPanel';link.textContent='AI 家教';link.addEventListener('click',e=>{e.preventDefault();panel.scrollIntoView({behavior:'smooth',block:'start'});});nav.append(link);}const before=host.querySelector(math?'#plans':'#roadmap');if(before)before.before(panel);else host.append(panel);
+}
+mount();let n=0;const wait=setInterval(()=>{mount();if(document.querySelector('#capTutorPanel')||document.querySelector('#capapp')?.contentDocument?.querySelector('#capTutorPanel')||++n>60)clearInterval(wait);},500);
+})();

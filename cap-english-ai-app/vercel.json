@@ -10,7 +10,14 @@
   "outputDirectory": "public",
   "cleanUrls": true,
   "rewrites": [
-    {"source":"/api/math/:action","destination":"/api/math?action=:action"},
+    {
+      "source": "/api/tutor",
+      "destination": "/api/tutor?route=chat"
+    },
+    {
+      "source": "/api/math/:action",
+      "destination": "/api/math?action=:action"
+    },
     {
       "source": "/api/math-paypal/:path*",
       "destination": "/api/math-payment?provider=paypal&paymentRoute=:path*"
