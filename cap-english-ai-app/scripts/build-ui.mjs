@@ -60,3 +60,6 @@ await sharp(Buffer.from(mathShare)).composite([{input:await sharp(Buffer.from(ma
 const mathHtml=await readFile('public/math.html','utf8');
 await writeFile('public/math.html',mathHtml.replace('</head>','<meta property="og:title" content="2027 國中會考數學 × AI 個人化學習"><meta property="og:image" content="https://cap-ai.ossdtw.com/math-share.png"><meta property="og:url" content="https://cap-ai.ossdtw.com/math"><meta name="twitter:card" content="summary_large_image"></head>'));
 console.log('CAP Math AI standalone site built');
+// Original papers are built locally from committed, API-free authoring sources.
+await import('./build-original-math.mjs');
+await import('./original-math.test.mjs');
