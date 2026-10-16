@@ -1,0 +1,123 @@
+{
+  "date": "2026-10-17",
+  "verifiedAt": "2026-10-17T05:07:45.105870+08:00",
+  "news": [
+    {
+      "slug": "manchester-bengaluru-centre-plan-october-2026",
+      "title": "曼徹斯特大學規劃班加羅爾中心：產學實作與研究合作仍在規劃階段",
+      "url": "https://globalednews.com/news/manchester-bengaluru-centre-plan-october-2026/",
+      "sources": [
+        {
+          "label": "University of Manchester | Centre announcement",
+          "url": "https://www.manchester.ac.uk/about/news/the-university-of-manchester-announces-plans-for-a-major-new-centre-for-education-research-and-innovation-in-bengaluru-india/"
+        },
+        {
+          "label": "The PIE | 16 October report and sector context",
+          "url": "https://thepienews.com/university-of-manchester-plans-bengaluru-centre-in-india-push/"
+        }
+      ],
+      "verifiedAt": "2026-10-17T05:07:45.105870+08:00"
+    },
+    {
+      "slug": "liverpool-bengaluru-campus-opening-2026",
+      "title": "利物浦班加羅爾校區正式啟用：首屆近300人，萬人規模仍是長期目標",
+      "url": "https://globalednews.com/news/liverpool-bengaluru-campus-opening-2026/",
+      "sources": [
+        {
+          "label": "University of Liverpool | 15 October opening",
+          "url": "https://news.liverpool.ac.uk/2026/10/15/university-officially-opens-its-bengaluru-campus/"
+        },
+        {
+          "label": "Business Standard | Original Tim Jones interview, 15 October",
+          "url": "https://www.business-standard.com/education/news/university-of-liverpool-targets-10-000-students-at-bengaluru-campus-by-2036-126101501463_1.html"
+        }
+      ],
+      "verifiedAt": "2026-10-17T05:07:45.105870+08:00"
+    },
+    {
+      "slug": "massey-veterinary-domestic-places-2027",
+      "title": "Massey獸醫本地名額2027年增至140：總量仍175，國際生須重查席次",
+      "url": "https://globalednews.com/news/massey-veterinary-domestic-places-2027/",
+      "sources": [
+        {
+          "label": "New Zealand Government | 9 October funding announcement",
+          "url": "https://www.beehive.govt.nz/release/additional-domestic-student-places-veterinary-science-massey-university"
+        },
+        {
+          "label": "Massey University | Capacity breakdown and implementation",
+          "url": "https://www.massey.ac.nz/about/news/massey-university-welcomes-government-boost-to-train-more-domestic-veterinarians/"
+        }
+      ],
+      "verifiedAt": "2026-10-17T05:07:45.105870+08:00"
+    }
+  ],
+  "scholarships": [
+    {
+      "slug": "2026-10-griffith-academic-merit-2027",
+      "title": "Griffith國際學術獎學金：2027入學可評估20%學費減免",
+      "url": "https://globalednews.com/scholarships/items/2026-10-griffith-academic-merit-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-griffith-academic-merit-2027.md",
+      "sources": [
+        "https://www.griffith.edu.au/international/scholarships-finance/scholarships/international-academic-merit-scholarship",
+        "https://www.hotcoursesabroad.com/study/scourse/null/international-academic-merit-scholarship/165899/program.html"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-17T05:07:45.105870+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New page: 2027 intake, nationality exclusions, application process, current dates and funding conditions checked."
+    },
+    {
+      "slug": "2026-10-griffith-vice-chancellor-2027",
+      "title": "Griffith校長國際獎學金：50%學費減免，2027首學期11月28日截止",
+      "url": "https://globalednews.com/scholarships/items/2026-10-griffith-vice-chancellor-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-griffith-vice-chancellor-2027.md",
+      "sources": [
+        "https://www.griffith.edu.au/international/scholarships-finance/scholarships/vice-chancellors-international-scholarship",
+        "https://www.rimeducation.com/en/posts/griffith-vice-chancellors-international-scholarship-2027",
+        "https://www.griffith.edu.au/international/scholarships-finance/scholarships/application"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-17T05:07:45.105870+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New page: 2027 intake, nationality exclusions, application process, current dates and funding conditions checked."
+    },
+    {
+      "slug": "2026-10-massey-toroa-postgraduate-2027",
+      "title": "Massey Toroa碩士獎學金：NZ$5,000，10月20日截止",
+      "url": "https://globalednews.com/scholarships/items/2026-10-massey-toroa-postgraduate-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-massey-toroa-postgraduate-2027.md",
+      "sources": [
+        "https://www.massey.ac.nz/study/scholarships-and-awards/toroa-international-postgraduate-fee-scholarships/",
+        "https://byronnz.com/insights/massey-2027-international-study-grants",
+        "https://www.massey.ac.nz/documents/1822/Toroa_International_PG__Fee_Scholarships.pdf"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-17T05:07:45.105870+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New page: 2027 intake, nationality exclusions, application process, current dates and funding conditions checked."
+    }
+  ],
+  "rejectedCandidates": [
+    {
+      "topic": "Griffith College market-specific scholarship",
+      "reason": "Taiwan eligibility and award value not publicly confirmed."
+    },
+    {
+      "topic": "Massey Toroa IDP semester-two listing",
+      "reason": "Older 2026 intake and selection criteria; current official regulations and Byron used instead."
+    }
+  ],
+  "notes": [
+    "Liverpool original Business Standard interview provides independent corroboration rather than a syndicated release.",
+    "Manchester official plan cross-checked against bylined PIE sector reporting; no opening/intake claims added.",
+    "Massey government funding and university capacity statements independently read; 35 is explicitly an editorial subtraction.",
+    "Griffith current Australian Year 12 deadline is 2 January 2027, not the older 21 December date on some aggregators.",
+    "Full source pages read through web, browser or HTTP; raw text where retrievable saved locally."
+  ]
+}

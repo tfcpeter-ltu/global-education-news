@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-17",
+  "timezone": "Asia/Taipei",
+  "status": "three-public-leads-reviewed",
+  "verifiedAt": "2026-10-17T05:11:40.579794+08:00",
+  "reviewedSchools": [
+    {
+      "school": "國立清華大學",
+      "schoolSlug": "nthu",
+      "source": "https://www.oga.nthu.edu.tw/RowContentView/1282",
+      "finding": "116年度台聯大第一梯次交換，國際處2027/1/4 16:00收件；學生須經系、院推薦，系院較早截止。11/18 12:20校內說明會。"
+    },
+    {
+      "school": "國立陽明交通大學",
+      "schoolSlug": "nycu",
+      "source": "https://oia.nycu.edu.tw/oia/ch/app/data/view?id=286&module=nycu0006&serno=8ee14cf9-321b-46af-9871-9d154c9e6647",
+      "finding": "116年度台聯大第一梯次交換2026/12/31 16:00截止，完整PDF文件寄承辦信箱、不接受補件；12/3 12:30說明會。"
+    },
+    {
+      "school": "國立中央大學",
+      "schoolSlug": "ncu",
+      "source": "https://oia.ncu.edu.tw/",
+      "supportingSource": "https://oia.nycu.edu.tw/oia/ch/app/data/view?id=286&module=nycu0006&serno=8ee14cf9-321b-46af-9871-9d154c9e6647",
+      "finding": "官網列一學期/一年交換及對方學費免繳的制度；台聯大公告列中大11/17 10:00說明會。一般每年4–11月甄選說明不是個別計畫截止日，仍須另查。"
+    }
+  ],
+  "published": [],
+  "pendingConsent": [],
+  "outreachDrafts": [],
+  "gaps": [],
+  "note": "公開校務線索查核，未寄送邀訪或聲稱完成採訪。"
+}

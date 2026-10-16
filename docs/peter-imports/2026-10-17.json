@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-17",
+  "imports": [],
+  "review": {
+    "status": "fewer-new-posts",
+    "checkedAt": "2026-10-17T05:16:18.505+08:00",
+    "availableNewCount": 0,
+    "sourceUrls": [
+      "https://www.facebook.com/profile.php?id=61585164670358",
+      "https://business.facebook.com/latest/posts/published_posts/?asset_id=954919414363863&business_id=3009537135896555&ir_qe_exposed=1"
+    ],
+    "scope": "公開動態載入失敗後改讀管理端完整已發布內容；最新Facebook文章仍為10月15日兩篇，今日未出現較新Facebook文章，10月16日項目為Instagram輪播。",
+    "insufficientEvidence": [
+      {
+        "sourceId": "122147342547172155",
+        "publishedLabel": "10月15日21:40",
+        "reason": "Taylor Swift影片來源、完整語境與第三方影音授權無法確認。"
+      },
+      {
+        "sourceId": "122147285745172155",
+        "publishedLabel": "10月15日05:45",
+        "reason": "英國選校長文有生活成本、城市產業、學科強弱與師資概括，未附逐項交叉查核來源，保留待核不直接匯入。"
+      }
+    ]
+  }
+}
