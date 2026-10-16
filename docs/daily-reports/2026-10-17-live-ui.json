@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-17",
+  "verifiedAt": "2026-10-17T05:38:00.111+08:00",
+  "desktop": {
+    "status": "PASS",
+    "viewportCSS": 2330,
+    "scrollWidth": 2311,
+    "homeImagesLoaded": true,
+    "evidence": "docs/social-posts/2026-10-17/evidence/live-desktop-home.jpg"
+  },
+  "mobile": {
+    "status": "PASS",
+    "requestedViewport": {
+      "width": 390,
+      "height": 844
+    },
+    "observedCSSWidth": 487,
+    "observedScrollWidth": 468,
+    "note": "Existing browser zoom affects CSS width; no horizontal overflow on home and Chinese/English scholarship article.",
+    "evidence": [
+      "docs/social-posts/2026-10-17/evidence/live-mobile-home.jpg",
+      "docs/social-posts/2026-10-17/evidence/live-mobile-scholarship.jpg"
+    ]
+  },
+  "filters": {
+    "scholarship": "Griffith + Australia returned the two new opportunities in Chinese and English; reset restored 194.",
+    "university": "Embedded explorer search 清華 returned NTHU; nonexistent string showed no matches; reset cleared query."
+  },
+  "ltuVisibleIndices": [
+    1,
+    2,
+    3
+  ],
+  "englishNewContent": "14 bilingual live URLs checked; English scholarship article and index main text have no Han characters.",
+  "seoEvidence": "docs/daily-reports/2026-10-17-live-seo.json"
+}

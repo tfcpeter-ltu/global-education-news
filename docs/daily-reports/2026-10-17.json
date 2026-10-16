@@ -2,8 +2,8 @@
   "date": "2026-10-17",
   "timezone": "Asia/Taipei",
   "startedAt": "2026-10-17T04:59:38.1301338+08:00",
-  "status": "in_progress",
-  "currentPhase": "COMMIT_DEPLOY",
+  "status": "completed",
+  "currentPhase": "VERIFY",
   "baseCommit": "1ca021c6cfb33fee7409b6707ca8dc497b2f67af",
   "scholarshipBaselineSlugs": [
     "2026-08-bristol-think-big",
@@ -213,7 +213,8 @@
       "verifiedAt": "2026-10-17T05:07:45.105870+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New page: 2027 intake, nationality exclusions, application process, current dates and funding conditions checked."
+      "updateSummary": "New page: 2027 intake, nationality exclusions, application process, current dates and funding conditions checked.",
+      "publishedVerifiedAt": "2026-10-17T05:22:39.329+08:00"
     },
     {
       "slug": "2026-10-griffith-vice-chancellor-2027",
@@ -230,7 +231,8 @@
       "verifiedAt": "2026-10-17T05:07:45.105870+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New page: 2027 intake, nationality exclusions, application process, current dates and funding conditions checked."
+      "updateSummary": "New page: 2027 intake, nationality exclusions, application process, current dates and funding conditions checked.",
+      "publishedVerifiedAt": "2026-10-17T05:22:39.329+08:00"
     },
     {
       "slug": "2026-10-massey-toroa-postgraduate-2027",
@@ -247,10 +249,60 @@
       "verifiedAt": "2026-10-17T05:07:45.105870+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New page: 2027 intake, nationality exclusions, application process, current dates and funding conditions checked."
+      "updateSummary": "New page: 2027 intake, nationality exclusions, application process, current dates and funding conditions checked.",
+      "publishedVerifiedAt": "2026-10-17T05:22:39.329+08:00"
     }
   ],
-  "newsPublished": [],
+  "newsPublished": [
+    {
+      "slug": "manchester-bengaluru-centre-plan-october-2026",
+      "title": "曼徹斯特大學規劃班加羅爾中心：產學實作與研究合作仍在規劃階段",
+      "url": "https://globalednews.com/news/manchester-bengaluru-centre-plan-october-2026/",
+      "sources": [
+        {
+          "label": "University of Manchester | Centre announcement",
+          "url": "https://www.manchester.ac.uk/about/news/the-university-of-manchester-announces-plans-for-a-major-new-centre-for-education-research-and-innovation-in-bengaluru-india/"
+        },
+        {
+          "label": "The PIE | 16 October report and sector context",
+          "url": "https://thepienews.com/university-of-manchester-plans-bengaluru-centre-in-india-push/"
+        }
+      ],
+      "verifiedAt": "2026-10-17T05:22:39.329+08:00"
+    },
+    {
+      "slug": "liverpool-bengaluru-campus-opening-2026",
+      "title": "利物浦班加羅爾校區正式啟用：首屆近300人，萬人規模仍是長期目標",
+      "url": "https://globalednews.com/news/liverpool-bengaluru-campus-opening-2026/",
+      "sources": [
+        {
+          "label": "University of Liverpool | 15 October opening",
+          "url": "https://news.liverpool.ac.uk/2026/10/15/university-officially-opens-its-bengaluru-campus/"
+        },
+        {
+          "label": "Business Standard | Original Tim Jones interview, 15 October",
+          "url": "https://www.business-standard.com/education/news/university-of-liverpool-targets-10-000-students-at-bengaluru-campus-by-2036-126101501463_1.html"
+        }
+      ],
+      "verifiedAt": "2026-10-17T05:22:39.329+08:00"
+    },
+    {
+      "slug": "massey-veterinary-domestic-places-2027",
+      "title": "Massey獸醫本地名額2027年增至140：總量仍175，國際生須重查席次",
+      "url": "https://globalednews.com/news/massey-veterinary-domestic-places-2027/",
+      "sources": [
+        {
+          "label": "New Zealand Government | 9 October funding announcement",
+          "url": "https://www.beehive.govt.nz/release/additional-domestic-student-places-veterinary-science-massey-university"
+        },
+        {
+          "label": "Massey University | Capacity breakdown and implementation",
+          "url": "https://www.massey.ac.nz/about/news/massey-university-welcomes-government-boost-to-train-more-domestic-veterinarians/"
+        }
+      ],
+      "verifiedAt": "2026-10-17T05:22:39.329+08:00"
+    }
+  ],
   "scholarshipChecks": [
     {
       "slug": "2026-10-griffith-academic-merit-2027",
@@ -266,7 +318,8 @@
       "verifiedAt": "2026-10-17T05:07:45.105870+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New page: 2027 intake, nationality exclusions, application process, current dates and funding conditions checked."
+      "updateSummary": "New page: 2027 intake, nationality exclusions, application process, current dates and funding conditions checked.",
+      "publishedVerifiedAt": "2026-10-17T05:22:39.329+08:00"
     },
     {
       "slug": "2026-10-griffith-vice-chancellor-2027",
@@ -283,7 +336,8 @@
       "verifiedAt": "2026-10-17T05:07:45.105870+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New page: 2027 intake, nationality exclusions, application process, current dates and funding conditions checked."
+      "updateSummary": "New page: 2027 intake, nationality exclusions, application process, current dates and funding conditions checked.",
+      "publishedVerifiedAt": "2026-10-17T05:22:39.329+08:00"
     },
     {
       "slug": "2026-10-massey-toroa-postgraduate-2027",
@@ -300,23 +354,425 @@
       "verifiedAt": "2026-10-17T05:07:45.105870+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New page: 2027 intake, nationality exclusions, application process, current dates and funding conditions checked."
+      "updateSummary": "New page: 2027 intake, nationality exclusions, application process, current dates and funding conditions checked.",
+      "publishedVerifiedAt": "2026-10-17T05:22:39.329+08:00"
     }
   ],
   "peterImports": [],
-  "socialPosts": [],
+  "socialPosts": [
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "pageId": "101904929207004",
+      "articleUrl": "https://globalednews.com/news/liverpool-bengaluru-campus-opening-2026/",
+      "status": "PUBLISHED",
+      "photoAttachedAt": "2026-10-17T05:20:17.072+08:00",
+      "photoReadyEvidence": "docs/social-posts/2026-10-17/evidence/facebook-news-photo-ready.jpg",
+      "copyAddedAt": "2026-10-17T05:20:23.606+08:00",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-17T05:20:32.543+08:00",
+      "publishClickedAt": "2026-10-17T05:20:32.543+08:00",
+      "id": "pfbid02KvyhPpAHMwmd5hKxEWJ2juBRMKbXVPTgUGnX8dwmWuQ2x7UzmuXskbpjdQSSgzJil",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02KvyhPpAHMwmd5hKxEWJ2juBRMKbXVPTgUGnX8dwmWuQ2x7UzmuXskbpjdQSSgzJil",
+      "photoAttachments": [
+        {
+          "id": "1090940357015495",
+          "url": "https://www.facebook.com/photo/?fbid=1090940357015495"
+        }
+      ],
+      "publishedAt": "2026-10-17T05:20:00+08:00",
+      "publicPhotoScreenshot": "docs/social-posts/2026-10-17/evidence/facebook-news-public.jpg",
+      "verifiedAt": "2026-10-17T05:22:16.114+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-17T05:22:16.114+08:00",
+      "mediaEvidence": "docs/social-posts/2026-10-17/evidence/facebook-news-public.jpg",
+      "method": "direct-browser",
+      "accountVerified": true,
+      "visibility": "public",
+      "publishedAtBasis": "Meta displayed 10月17日5:20; timestamps retained at platform minute precision.",
+      "mediaEvidenceNote": "Public native photo viewer, matching readable card and copy, everyone audience."
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "account": "https://www.linkedin.com/in/peter-chen-26a754228/",
+      "articleUrl": "https://globalednews.com/news/liverpool-bengaluru-campus-opening-2026/",
+      "status": "PUBLISHED",
+      "preparedAt": "2026-10-17T05:21:49.631+08:00",
+      "publishClickedAt": "2026-10-17T05:22:07.502+08:00",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7516971785863458816/",
+      "id": "7516971785863458816",
+      "publishedAt": "2026-10-17T05:22:26.055+08:00",
+      "publicPhotoScreenshot": "docs/social-posts/2026-10-17/evidence/linkedin-news-public.jpg",
+      "verifiedAt": "2026-10-17T05:22:44.402+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-17T05:22:44.402+08:00",
+      "mediaEvidence": "docs/social-posts/2026-10-17/evidence/linkedin-news-public.jpg",
+      "visibility": "public",
+      "method": "direct-browser",
+      "accountVerified": true,
+      "mediaEvidenceNote": "Public permalink with account, matching photo and text.",
+      "publishedAtBasis": "Observed public posting time, Asia/Taipei."
+    },
+    {
+      "campaign": "news",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/news/liverpool-bengaluru-campus-opening-2026/",
+      "status": "PUBLISHED",
+      "publishClickedAt": "2026-10-17T05:23:11.298+08:00",
+      "id": "DekfXJrE5t5",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DekfXJrE5t5",
+      "publishedAt": "2026-10-17T05:23:44.573+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-17T05:26:15.847+08:00",
+      "mediaEvidence": "docs/social-posts/2026-10-17/evidence/threads-news-public.jpg",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-17T05:26:15.847+08:00",
+      "verifiedAt": "2026-10-17T05:26:15.847+08:00",
+      "method": "direct-browser",
+      "accountVerified": true,
+      "visibility": "public",
+      "publishedAtBasis": "Observed public posting time, Asia/Taipei."
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "status": "PUBLISHED",
+      "submittedAt": "2026-10-17T05:26:42.147+08:00",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-17T05:26:42.147+08:00",
+      "mediaKind": "uploaded-photo",
+      "socialImage": "public/images/social/2026-10-17/liverpool-bengaluru-opening.jpg",
+      "id": "DekfxGRE1kY",
+      "url": "https://www.instagram.com/ltuossdtw/p/DekfxGRE1kY/",
+      "publishedAt": "2026-10-17T05:26:42.147+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-17T05:27:39.123+08:00",
+      "mediaEvidence": "docs/social-posts/2026-10-17/evidence/instagram-news-public.jpg",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DekfxGRE1kY/",
+      "verifiedAt": "2026-10-17T05:27:39.123+08:00",
+      "articleUrl": "https://globalednews.com/news/liverpool-bengaluru-campus-opening-2026/",
+      "method": "direct-browser",
+      "accountVerified": true,
+      "visibility": "public",
+      "publishedAtBasis": "Observed submit time (Asia/Taipei), followed by public readback; platform displays relative minute timestamps."
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "status": "PUBLISHED",
+      "mediaKind": "uploaded-photo",
+      "socialImage": "public/images/social/2026-10-17/massey-toroa-postgraduate-2027.jpg",
+      "photoAttachedAt": "2026-10-17T05:27:16.299+08:00",
+      "photoReadyEvidence": "docs/social-posts/2026-10-17/evidence/facebook-scholarship-photo-ready.jpg",
+      "copyAddedAt": "2026-10-17T05:27:17.767+08:00",
+      "submittedAt": "2026-10-17T05:27:30.550+08:00",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-17T05:27:30.550+08:00",
+      "id": "pfbid02ME1HP3fT9pvXkiSkEWrYX65RonruKSYWKCD63uohZeNr4MJZSW13yhNPxcu7w6JXl",
+      "url": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02ME1HP3fT9pvXkiSkEWrYX65RonruKSYWKCD63uohZeNr4MJZSW13yhNPxcu7w6JXl",
+      "publishedAt": "2026-10-17T05:27:00+08:00",
+      "photoAttachments": [
+        {
+          "id": "1090943823681815",
+          "url": "https://www.facebook.com/photo/?fbid=1090943823681815"
+        }
+      ],
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-17T05:28:57.134+08:00",
+      "mediaEvidence": "docs/social-posts/2026-10-17/evidence/facebook-scholarship-public.jpg",
+      "publicPhotoScreenshot": "docs/social-posts/2026-10-17/evidence/facebook-scholarship-public.jpg",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02ME1HP3fT9pvXkiSkEWrYX65RonruKSYWKCD63uohZeNr4MJZSW13yhNPxcu7w6JXl",
+      "verifiedAt": "2026-10-17T05:28:57.134+08:00",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-massey-toroa-postgraduate-2027/",
+      "pageId": "101904929207004",
+      "method": "direct-browser",
+      "accountVerified": true,
+      "visibility": "public",
+      "publishedAtBasis": "Observed submit time (Asia/Taipei), followed by public readback; platform displays relative minute timestamps."
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "status": "PUBLISHED",
+      "submittedAt": "2026-10-17T05:28:21.609+08:00",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-17T05:28:21.609+08:00",
+      "mediaKind": "uploaded-photo",
+      "socialImage": "public/images/social/2026-10-17/massey-toroa-postgraduate-2027.jpg",
+      "id": "Dekf8-hE4qS",
+      "url": "https://www.threads.com/@ltuossdtw/post/Dekf8-hE4qS",
+      "publishedAt": "2026-10-17T05:28:21.609+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-17T05:29:19.068+08:00",
+      "mediaEvidence": "docs/social-posts/2026-10-17/evidence/threads-scholarship-public.jpg",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dekf8-hE4qS",
+      "verifiedAt": "2026-10-17T05:29:19.068+08:00",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-massey-toroa-postgraduate-2027/",
+      "method": "direct-browser",
+      "accountVerified": true,
+      "visibility": "public",
+      "publishedAtBasis": "Observed submit time (Asia/Taipei), followed by public readback; platform displays relative minute timestamps."
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "account": "Peter Chen",
+      "status": "PUBLISHED",
+      "submittedAt": "2026-10-17T05:29:08.590+08:00",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-17T05:29:08.590+08:00",
+      "mediaKind": "uploaded-photo",
+      "socialImage": "public/images/social/2026-10-17/massey-toroa-postgraduate-2027.jpg",
+      "id": "7516973550277320704",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7516973550277320704/",
+      "publishedAt": "2026-10-17T05:29:08.590+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-17T05:30:01.585+08:00",
+      "mediaEvidence": "docs/social-posts/2026-10-17/evidence/linkedin-scholarship-public.jpg",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7516973550277320704/",
+      "verifiedAt": "2026-10-17T05:30:01.585+08:00",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-massey-toroa-postgraduate-2027/",
+      "method": "direct-browser",
+      "accountVerified": true,
+      "visibility": "public",
+      "publishedAtBasis": "Observed submit time (Asia/Taipei), followed by public readback; platform displays relative minute timestamps."
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "status": "PUBLISHED",
+      "mediaKind": "uploaded-photo",
+      "socialImage": "public/images/social/2026-10-17/griffith-scholarship-routes-2027.jpg",
+      "photoAttachedAt": "2026-10-17T05:30:08.006+08:00",
+      "photoReadyEvidence": "docs/social-posts/2026-10-17/evidence/facebook-study-abroad-photo-ready.jpg",
+      "copyAddedAt": "2026-10-17T05:30:09.453+08:00",
+      "submittedAt": "2026-10-17T05:30:26.260+08:00",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-17T05:30:26.260+08:00",
+      "id": "pfbid0vuLbhBkbQPhcCiRRZZ3AJ9MyqxdDV2d9Yzzm3LxrnoXGCS1YRbjSfzuE7f8k5tVWl",
+      "url": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0vuLbhBkbQPhcCiRRZZ3AJ9MyqxdDV2d9Yzzm3LxrnoXGCS1YRbjSfzuE7f8k5tVWl",
+      "publishedAt": "2026-10-17T05:30:26.260+08:00",
+      "photoAttachments": [
+        {
+          "id": "1090945493681648",
+          "url": "https://www.facebook.com/photo/?fbid=1090945493681648"
+        }
+      ],
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-17T05:31:41.785+08:00",
+      "mediaEvidence": "docs/social-posts/2026-10-17/evidence/facebook-study-abroad-public.jpg",
+      "publicPhotoScreenshot": "docs/social-posts/2026-10-17/evidence/facebook-study-abroad-public.jpg",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0vuLbhBkbQPhcCiRRZZ3AJ9MyqxdDV2d9Yzzm3LxrnoXGCS1YRbjSfzuE7f8k5tVWl",
+      "verifiedAt": "2026-10-17T05:31:41.785+08:00",
+      "articleUrl": "https://globalednews.com/study-abroad/griffith-australia-scholarship-application-routes-2027/",
+      "pageId": "101904929207004",
+      "method": "direct-browser",
+      "accountVerified": true,
+      "visibility": "public",
+      "publishedAtBasis": "Observed submit time (Asia/Taipei), followed by public readback; platform displays relative minute timestamps."
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "status": "PUBLISHED",
+      "submittedAt": "2026-10-17T05:30:52.744+08:00",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-17T05:30:52.744+08:00",
+      "mediaKind": "uploaded-photo",
+      "socialImage": "public/images/social/2026-10-17/griffith-scholarship-routes-2027.jpg",
+      "id": "DekgPdTk0_I",
+      "url": "https://www.threads.com/@ltuossdtw/post/DekgPdTk0_I",
+      "publishedAt": "2026-10-17T05:30:52.744+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-17T05:32:05.422+08:00",
+      "mediaEvidence": "docs/social-posts/2026-10-17/evidence/threads-study-abroad-public.jpg",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DekgPdTk0_I",
+      "verifiedAt": "2026-10-17T05:32:05.422+08:00",
+      "articleUrl": "https://globalednews.com/study-abroad/griffith-australia-scholarship-application-routes-2027/",
+      "method": "direct-browser",
+      "accountVerified": true,
+      "visibility": "public",
+      "publishedAtBasis": "Observed submit time (Asia/Taipei), followed by public readback; platform displays relative minute timestamps."
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "status": "PUBLISHED",
+      "submittedAt": "2026-10-17T05:30:26.927+08:00",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-17T05:30:26.927+08:00",
+      "mediaKind": "uploaded-photo",
+      "socialImage": "public/images/social/2026-10-17/massey-toroa-postgraduate-2027.jpg",
+      "id": "DekgMkqk974",
+      "url": "https://www.instagram.com/ltuossdtw/p/DekgMkqk974/",
+      "publishedAt": "2026-10-17T05:30:26.927+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-17T05:32:24.651+08:00",
+      "mediaEvidence": "docs/social-posts/2026-10-17/evidence/instagram-scholarship-public.jpg",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DekgMkqk974/",
+      "verifiedAt": "2026-10-17T05:32:24.651+08:00",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-massey-toroa-postgraduate-2027/",
+      "method": "direct-browser",
+      "accountVerified": true,
+      "visibility": "public",
+      "publishedAtBasis": "Observed submit time (Asia/Taipei), followed by public readback; platform displays relative minute timestamps."
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "account": "Peter Chen",
+      "status": "PUBLISHED",
+      "submittedAt": "2026-10-17T05:31:28.743+08:00",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-17T05:31:28.743+08:00",
+      "mediaKind": "uploaded-photo",
+      "socialImage": "public/images/social/2026-10-17/griffith-scholarship-routes-2027.jpg",
+      "id": "7516974136251015169",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7516974136251015169/",
+      "publishedAt": "2026-10-17T05:31:28.743+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-17T05:32:25.937+08:00",
+      "mediaEvidence": "docs/social-posts/2026-10-17/evidence/linkedin-study-abroad-public.jpg",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7516974136251015169/",
+      "verifiedAt": "2026-10-17T05:32:25.937+08:00",
+      "articleUrl": "https://globalednews.com/study-abroad/griffith-australia-scholarship-application-routes-2027/",
+      "method": "direct-browser",
+      "accountVerified": true,
+      "visibility": "public",
+      "publishedAtBasis": "Observed submit time (Asia/Taipei), followed by public readback; platform displays relative minute timestamps."
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "status": "PUBLISHED",
+      "submittedAt": "2026-10-17T05:33:03.850+08:00",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-17T05:33:03.850+08:00",
+      "mediaKind": "uploaded-photo",
+      "socialImage": "public/images/social/2026-10-17/ust-exchange-school-deadlines.jpg",
+      "id": "DekgffXk8H-",
+      "url": "https://www.threads.com/@ltuossdtw/post/DekgffXk8H-",
+      "publishedAt": "2026-10-17T05:33:03.850+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-17T05:33:49.245+08:00",
+      "mediaEvidence": "docs/social-posts/2026-10-17/evidence/threads-taiwan-universities-public.jpg",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DekgffXk8H-",
+      "verifiedAt": "2026-10-17T05:33:49.245+08:00",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "method": "direct-browser",
+      "accountVerified": true,
+      "visibility": "public",
+      "publishedAtBasis": "Observed submit time (Asia/Taipei), followed by public readback; platform displays relative minute timestamps."
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "account": "Peter Chen",
+      "status": "PUBLISHED",
+      "submittedAt": "2026-10-17T05:33:28.552+08:00",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-17T05:33:28.552+08:00",
+      "mediaKind": "uploaded-photo",
+      "socialImage": "public/images/social/2026-10-17/ust-exchange-school-deadlines.jpg",
+      "id": "7516974645095370752",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7516974645095370752/",
+      "publishedAt": "2026-10-17T05:33:28.552+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-17T05:34:03.221+08:00",
+      "mediaEvidence": "docs/social-posts/2026-10-17/evidence/linkedin-taiwan-universities-public.jpg",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7516974645095370752/",
+      "verifiedAt": "2026-10-17T05:34:03.221+08:00",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "method": "direct-browser",
+      "accountVerified": true,
+      "visibility": "public",
+      "publishedAtBasis": "Observed submit time (Asia/Taipei), followed by public readback; platform displays relative minute timestamps."
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "status": "PUBLISHED",
+      "submittedAt": "2026-10-17T05:34:02.760+08:00",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-17T05:34:02.760+08:00",
+      "mediaKind": "uploaded-photo",
+      "socialImage": "public/images/social/2026-10-17/griffith-scholarship-routes-2027.jpg",
+      "id": "Dekgm4Pk-3u",
+      "url": "https://www.instagram.com/ltuossdtw/p/Dekgm4Pk-3u/",
+      "publishedAt": "2026-10-17T05:34:02.760+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-17T05:35:18.673+08:00",
+      "mediaEvidence": "docs/social-posts/2026-10-17/evidence/instagram-study-abroad-public.jpg",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Dekgm4Pk-3u/",
+      "verifiedAt": "2026-10-17T05:35:18.673+08:00",
+      "articleUrl": "https://globalednews.com/study-abroad/griffith-australia-scholarship-application-routes-2027/",
+      "method": "direct-browser",
+      "accountVerified": true,
+      "visibility": "public",
+      "publishedAtBasis": "Observed submit time (Asia/Taipei), followed by public readback; platform displays relative minute timestamps."
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "status": "PUBLISHED",
+      "submittedAt": "2026-10-17T05:36:40.003+08:00",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-17T05:36:40.003+08:00",
+      "mediaKind": "uploaded-photo",
+      "socialImage": "public/images/social/2026-10-17/ust-exchange-school-deadlines.jpg",
+      "id": "Dekg6EsEygX",
+      "url": "https://www.instagram.com/ltuossdtw/p/Dekg6EsEygX/",
+      "publishedAt": "2026-10-17T05:36:40.003+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-17T05:38:08.588+08:00",
+      "mediaEvidence": "docs/social-posts/2026-10-17/evidence/instagram-taiwan-universities-public.jpg",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Dekg6EsEygX/",
+      "verifiedAt": "2026-10-17T05:38:08.588+08:00",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "method": "direct-browser",
+      "accountVerified": true,
+      "visibility": "public",
+      "publishedAtBasis": "Observed submit time (Asia/Taipei), followed by public readback; platform displays relative minute timestamps."
+    }
+  ],
   "phaseCompleted": [
     "PREFLIGHT",
     "RESEARCH",
     "PREPARE",
-    "BUILD"
-  ],
-  "gaps": [
+    "BUILD",
     "COMMIT_DEPLOY",
     "PUBLISH",
     "ACCEPTANCE",
     "VERIFY"
   ],
+  "gaps": [],
   "newsPrepared": [
     {
       "slug": "manchester-bengaluru-centre-plan-october-2026",
@@ -444,11 +900,17 @@
       2,
       3
     ],
-    "pendingLiveVerification": true
+    "pendingLiveVerification": false,
+    "visibleIndices": [
+      1,
+      2,
+      3
+    ],
+    "liveVerifiedAt": "2026-10-17T05:38:00.111+08:00"
   },
   "build": {
     "status": "success",
-    "verifiedAt": "2026-10-16T21:16:37.895Z",
+    "verifiedAt": "2026-10-17T05:16:37.895+08:00",
     "checks": [
       "730 bilingual page pairs",
       "1446 canonical sitemap URLs",
@@ -458,5 +920,65 @@
     ],
     "evidence": "docs/daily-checks/2026-10-17/full-build.log",
     "repair": "Reran the complete sequential pipeline to remove duplicate language controls from an interrupted partial build."
+  },
+  "deployment": {
+    "status": "success",
+    "commit": "852ca9b4781227946d7c8c3f9226f9b56c04d706",
+    "runId": 38968267437,
+    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/38968267437",
+    "verifiedAt": "2026-10-17T05:22:39.329+08:00"
+  },
+  "newFacebookPagePost": {
+    "campaign": "news",
+    "network": "facebook",
+    "pageId": "61595164194381",
+    "account": "環球國際教育新聞網",
+    "status": "PUBLISHED",
+    "mediaKind": "uploaded-photo",
+    "socialImage": "public/images/social/2026-10-17/liverpool-bengaluru-opening.jpg",
+    "photoAttachedAt": "2026-10-17T05:32:13.529+08:00",
+    "photoReadyEvidence": "docs/social-posts/2026-10-17/evidence/facebook-new-page-photo-ready.jpg",
+    "copyAddedAt": "2026-10-17T05:32:14.048+08:00",
+    "submittedAt": "2026-10-17T05:32:35.374+08:00",
+    "previewStatus": "VERIFIED",
+    "previewVerifiedAt": "2026-10-17T05:32:35.374+08:00",
+    "id": "122106481929505473",
+    "publishedAt": "2026-10-17T05:32:00+08:00",
+    "photoAttachments": [
+      {
+        "id": "122106481539505473",
+        "url": "https://www.facebook.com/photo/?fbid=122106481539505473"
+      }
+    ],
+    "url": "https://facebook.com/permalink.php?story_fbid=pfbid034NaFowtNp1g63KcdbzSweyQzNmHar6mFM5HkmWi4mMF1joKVbnUEtQDcr43LcTLcl&id=61595164194381",
+    "imageCount": 1,
+    "mediaStatus": "VERIFIED",
+    "mediaVerifiedAt": "2026-10-17T05:33:49.173+08:00",
+    "mediaEvidence": "docs/social-posts/2026-10-17/evidence/facebook-new-page-public.jpg",
+    "publicPhotoScreenshot": "docs/social-posts/2026-10-17/evidence/facebook-new-page-public.jpg",
+    "publicUrl": "https://facebook.com/permalink.php?story_fbid=pfbid034NaFowtNp1g63KcdbzSweyQzNmHar6mFM5HkmWi4mMF1joKVbnUEtQDcr43LcTLcl&id=61595164194381",
+    "verifiedAt": "2026-10-17T05:33:49.173+08:00",
+    "articleUrl": "https://globalednews.com/news/liverpool-bengaluru-campus-opening-2026/",
+    "method": "direct-browser",
+    "accountVerified": true,
+    "visibility": "public",
+    "publishedAtBasis": "Observed submit time (Asia/Taipei), followed by public readback; platform displays relative minute timestamps."
+  },
+  "acceptance": {
+    "desktop": true,
+    "mobile": true,
+    "seo": true,
+    "verifiedAt": "2026-10-17T05:38:00.111+08:00",
+    "uiEvidence": "docs/daily-reports/2026-10-17-live-ui.json",
+    "seoEvidence": "docs/daily-reports/2026-10-17-live-seo.json"
+  },
+  "completedAt": "2026-10-17T05:38:59.240+08:00",
+  "manualActions": [],
+  "verification": {
+    "status": "COMPLETE",
+    "command": "node scripts/verify-daily-delivery.mjs 2026-10-17",
+    "verifiedAt": "2026-10-17T05:38:59.240+08:00",
+    "evidence": "docs/daily-checks/2026-10-17/verify-daily-delivery.log",
+    "note": "All 16 public posts, visible photos and live site checks were completed before evidence validation."
   }
 }

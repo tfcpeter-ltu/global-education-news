@@ -1,0 +1,140 @@
+{
+  "verifiedAt": "2026-10-17T05:20:13.131621+08:00",
+  "pages": [
+    {
+      "url": "https://globalednews.com/news/manchester-bengaluru-centre-plan-october-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/manchester-bengaluru-centre-plan-october-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/a6e280e791a464ccf52afc2a.jpg",
+      "ogBytes": 222392,
+      "schemaCount": 4,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/news/liverpool-bengaluru-campus-opening-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/liverpool-bengaluru-campus-opening-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/16248f6b8a2f669b3fe70bce.jpg",
+      "ogBytes": 216432,
+      "schemaCount": 4,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/news/massey-veterinary-domestic-places-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/massey-veterinary-domestic-places-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/10e5d5318176c65de155def7.jpg",
+      "ogBytes": 309019,
+      "schemaCount": 4,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-10-griffith-academic-merit-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-10-griffith-academic-merit-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/64ff1234577ec46f6dab6fc2.jpg",
+      "ogBytes": 177879,
+      "schemaCount": 2,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-10-griffith-vice-chancellor-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-10-griffith-vice-chancellor-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/65efc636bbc077e8722d296e.jpg",
+      "ogBytes": 232279,
+      "schemaCount": 2,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-10-massey-toroa-postgraduate-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-10-massey-toroa-postgraduate-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/a457bc61ac56f41f98406cbe.jpg",
+      "ogBytes": 103350,
+      "schemaCount": 2,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/study-abroad/griffith-australia-scholarship-application-routes-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/study-abroad/griffith-australia-scholarship-application-routes-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/e15dc39edce3e4fc8fc1e92a.jpg",
+      "ogBytes": 253375,
+      "schemaCount": 4,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/en/news/manchester-bengaluru-centre-plan-october-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/manchester-bengaluru-centre-plan-october-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/a6e280e791a464ccf52afc2a.jpg",
+      "ogBytes": 222392,
+      "schemaCount": 4,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/news/liverpool-bengaluru-campus-opening-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/liverpool-bengaluru-campus-opening-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/16248f6b8a2f669b3fe70bce.jpg",
+      "ogBytes": 216432,
+      "schemaCount": 4,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/news/massey-veterinary-domestic-places-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/massey-veterinary-domestic-places-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/10e5d5318176c65de155def7.jpg",
+      "ogBytes": 309019,
+      "schemaCount": 4,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/scholarships/items/2026-10-griffith-academic-merit-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/scholarships/items/2026-10-griffith-academic-merit-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/64ff1234577ec46f6dab6fc2.jpg",
+      "ogBytes": 177879,
+      "schemaCount": 2,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/scholarships/items/2026-10-griffith-vice-chancellor-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/scholarships/items/2026-10-griffith-vice-chancellor-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/65efc636bbc077e8722d296e.jpg",
+      "ogBytes": 232279,
+      "schemaCount": 2,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/scholarships/items/2026-10-massey-toroa-postgraduate-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/scholarships/items/2026-10-massey-toroa-postgraduate-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/a457bc61ac56f41f98406cbe.jpg",
+      "ogBytes": 103350,
+      "schemaCount": 2,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/study-abroad/griffith-australia-scholarship-application-routes-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/study-abroad/griffith-australia-scholarship-application-routes-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/e15dc39edce3e4fc8fc1e92a.jpg",
+      "ogBytes": 253375,
+      "schemaCount": 4,
+      "englishCjk": false
+    }
+  ],
+  "xmlChecks": [
+    "sitemap-index.xml",
+    "sitemap-0.xml",
+    "news-sitemap.xml",
+    "weekly-feed.xml"
+  ],
+  "newPagesInSitemap": 7,
+  "newsInNewsSitemapAndRss": 3,
+  "robots": 200
+}
