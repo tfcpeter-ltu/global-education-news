@@ -1,0 +1,28 @@
+import assert from 'node:assert/strict';
+import crypto from 'node:crypto';
+import {PGlite} from '@electric-sql/pglite';
+import {PGLiteSocketServer} from '@electric-sql/pglite-socket';
+if(process.env.DATABASE_URL)throw Error('Isolated DB only');
+const db=await PGlite.create();
+const socket=new PGLiteSocketServer({db,host:'127.0.0.1',port:54334});await socket.start();
+process.env.DATABASE_URL='postgresql://postgres:postgres@127.0.0.1:54334/postgres?sslmode=disable';
+const {default:handler}=await import('../api/progress.js');
+await db.exec('CREATE TABLE users(id UUID PRIMARY KEY,student_name TEXT,nickname TEXT);CREATE TABLE sessions(token_hash TEXT,user_id UUID,expires_at TIMESTAMPTZ);CREATE TABLE memberships(user_id UUID,plan TEXT,status TEXT,expires_at TIMESTAMPTZ);');
+const id=crypto.randomUUID(),token=crypto.randomUUID();
+await db.query('INSERT INTO users VALUES($1,\'Test\',NULL)',[id]);
+await db.query("INSERT INTO sessions VALUES($1,$2,NOW()+INTERVAL '1 hour')",[crypto.createHash('sha256').update(token).digest('hex'),id]);
+await db.query("INSERT INTO memberships VALUES($1,'complete','active',NULL)",[id]);
+async function call(route,body){const res={code:200,status(n){this.code=n;return this},json(data){this.data=data;return this}};await handler({method:'POST',headers:{cookie:'cap_ai_session='+token},query:{progressRoute:route},body},res);return res}
+const items=Array.from({length:64},(_,i)=>({id:'LTU-CAP-'+String(i+1).padStart(5,'0'),type:i<43?'grammar':'listening',competency:'test',answer:1,selectedIndex:0,correct:false,stem:'test',options:['a','b','c','d'],explanation:'test explanation'}));
+const attemptId=crypto.randomUUID();
+let r=await call('mock',{items,attemptId});assert.equal(r.code,200);const mockId=r.data.mockId;
+r=await call('mock',{items,attemptId});assert.equal(r.code,200);assert.equal(r.data.mockId,mockId);
+assert.equal((await db.query('SELECT COUNT(*)::int n FROM mock_attempts')).rows[0].n,1);
+assert.equal((await db.query('SELECT COUNT(*)::int n FROM practice_attempts')).rows[0].n,64);
+assert.equal((await db.query('SELECT COUNT(*)::int n FROM learning_events')).rows[0].n,1);
+assert.deepEqual((await db.query('SELECT question_ids FROM mock_attempts')).rows[0].question_ids,items.map(x=>x.id));
+r=await call('archive',{year:115,activityType:'practice_completed',questionIds:items.slice(0,10).map(x=>x.id),score:7,total:10});assert.equal(r.code,200);
+assert.equal((await db.query('SELECT question_ids FROM archive_activity')).rows[0].question_ids.length,10);
+assert.equal((await call('mock',{items,attemptId:'invalid'})).code,400);
+console.log('PASS: 64-question submission, JSON arrays, archive persistence and identical retry without duplicate attempts/notes/events');
+process.exit(0);
