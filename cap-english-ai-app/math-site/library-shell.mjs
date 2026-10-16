@@ -16,7 +16,7 @@ function route(){
  document.body.dataset.mathModule=view?'library':'learning';
  document.title=view?`${view.label}｜CAP Math AI 數學學習中心`:'2027 國中會考數學 × AI 個人化學習｜LTU';
  if(view){if(frame.getAttribute('src')!==view.path)frame.src=view.path;window.scrollTo(0,0);size();}
- else if(['#practice','#weakness','#notebook','#mock','#reviewed'].includes(location.hash))document.querySelector(location.hash)?.scrollIntoView();
+ else if(['#practice','#weakness','#notebook','#mock','#reviewed','#capTutorPanel'].includes(location.hash))document.querySelector(location.hash)?.scrollIntoView();
  else window.scrollTo(0,0);
 }
 window.addEventListener('hashchange',route);route();

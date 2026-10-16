@@ -31,6 +31,7 @@ vm.runInNewContext(shell.replace(/^import[^\n]+\n/,''),{document,location,mathMo
 assert.equal(main.hidden,true);assert.equal(panel.hidden,false);assert.equal(frame.src,'/math-original/index.html?embedded=1');
 location.hash='#math-answers/original-01';events.hashchange();assert.equal(frame.src,'/math-original/original-01-answers.html?embedded=1');
 location.hash='#practice';events.hashchange();assert.equal(main.hidden,false);assert.equal(panel.hidden,true);assert.equal(scrolls,1);assert.equal(brand.href,'#');
+location.hash='#capTutorPanel';events.hashchange();assert.equal(scrolls,2);assert.equal(main.hidden,false);
 const home=await fs.readFile('public/math.html','utf8');
 assert.ok(home.includes('math-library-shell.mjs')&&home.includes('href="#math-library"'));
 console.log('Math integration verified: 112 views, legacy redirects, shared math navigation, preserved learning content.');
