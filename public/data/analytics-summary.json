@@ -1,9 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-10-15T05:52:40.079Z",
+  "updatedAt": "2026-10-16T05:48:57.070Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
+    {
+      "title": "多倫多大學推博士跨域獎學金：每年8萬加元，首屆2027入學｜環球教育新聞網 Global Education News",
+      "path": "/news/toronto-presidents-impact-phd-scholarship-2027/",
+      "views": 10
+    },
     {
       "title": "紐西蘭公布首批 11至13 年級最終課綱：2028 年起分年實施｜環球教育新聞網 Global Education News",
       "path": "/news/new-zealand-years-11-13-final-subjects-first-release-2026/",
@@ -12,21 +17,16 @@
     {
       "title": "美國大學團體提告挑戰 CPT 新解釋：法院尚未裁定，現行指引仍有效｜環球教育新聞網 Global Education News",
       "path": "/news/us-cpt-lawsuit-court-status-october-13-2026/",
-      "views": 8
+      "views": 9
     },
     {
       "title": "最新國際教育新聞",
       "path": "/news/",
-      "views": 7
+      "views": 8
     },
     {
-      "title": "UNSW 2027 國際本科新增多元入學途徑：合格國家自動加 5 點，醫學課程除外｜環球教育新聞網 Global Education News",
-      "path": "/news/unsw-international-admissions-diversity-pathway-2027/",
-      "views": 6
-    },
-    {
-      "title": "多倫多大學推博士跨域獎學金：每年8萬加元，首屆2027入學｜環球教育新聞網 Global Education News",
-      "path": "/news/toronto-presidents-impact-phd-scholarship-2027/",
+      "title": "澳洲國際新生名額未用滿：2026 配額不是保證招生數｜環球教育新聞網 Global Education News",
+      "path": "/news/australia-international-student-demand-below-allocations-2026/",
       "views": 6
     }
   ],
@@ -35,61 +35,61 @@
       "name": "台灣",
       "mapName": "Taiwan",
       "sessions": 146,
-      "share": 57
+      "share": 52.7
     },
     {
       "name": "美國",
       "mapName": "United States",
-      "sessions": 73,
-      "share": 28.5
+      "sessions": 85,
+      "share": 30.7
     },
     {
       "name": "瑞典",
       "mapName": "Sweden",
       "sessions": 10,
-      "share": 3.9
+      "share": 3.6
+    },
+    {
+      "name": "香港",
+      "mapName": "Hong Kong",
+      "sessions": 6,
+      "share": 2.2
     },
     {
       "name": "愛爾蘭",
       "mapName": "Ireland",
       "sessions": 6,
-      "share": 2.3
+      "share": 2.2
     },
     {
       "name": "加拿大",
       "mapName": "Canada",
       "sessions": 5,
-      "share": 2
+      "share": 1.8
     },
     {
-      "name": "香港",
-      "mapName": "Hong Kong",
-      "sessions": 4,
-      "share": 1.6
+      "name": "日本",
+      "mapName": "Japan",
+      "sessions": 3,
+      "share": 1.1
     },
     {
       "name": "澳洲",
       "mapName": "Australia",
       "sessions": 2,
-      "share": 0.8
+      "share": 0.7
     },
     {
       "name": "中國",
       "mapName": "China",
       "sessions": 2,
-      "share": 0.8
+      "share": 0.7
     },
     {
-      "name": "馬來西亞",
-      "mapName": "Malaysia",
+      "name": "印度",
+      "mapName": "India",
       "sessions": 2,
-      "share": 0.8
-    },
-    {
-      "name": "紐西蘭",
-      "mapName": "New Zealand",
-      "sessions": 2,
-      "share": 0.8
+      "share": 0.7
     }
   ]
 }
