@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
+import vm from 'node:vm';
 import {originalEnglishPapers} from '../lib/original-english.mjs';
 const papers=originalEnglishPapers();assert.equal(papers.length,56);
 const ids=new Set(),passages=new Set();let choice=0,writing=0,listening=0;
@@ -45,4 +46,16 @@ for(const p of papers){
 }
 assert.equal(choice,3584);assert.equal(listening,1176);assert.equal(writing,112);assert.equal(passages.size,448);
 const source=await fs.readFile('lib/original-english.mjs','utf8');assert.ok(!/fetch\(|openai|api[_-]?key|research\//i.test(source));
+// Exercise the real generated audio controls without any audio/network service.
+const sample=await fs.readFile('public/english-original/english-01.html','utf8');
+const audioCode=[...sample.matchAll(/<script>([\s\S]*?)<\/script>/g)].map(m=>m[1]).find(s=>s.includes('SpeechSynthesisUtterance'));
+const status={textContent:''};let click,stop,active;
+const synth={getVoices:()=>[],cancel(){if(active)active.onerror?.({error:'canceled'})},speak(u){active=u;u.onstart?.()}};
+const context={window:{speechSynthesis:synth},speechSynthesis:synth,SpeechSynthesisUtterance:class{constructor(text){this.text=text}},document:{addEventListener(_,f){click=f},querySelector(s){return s==='#voice-status'?status:{addEventListener(_,f){stop=f}}}}};
+vm.runInNewContext(audioCode,context);
+const press=()=>click({target:{closest:()=>({dataset:{audio:'An original listening script.',number:'1'}})}});
+press();assert.equal(status.textContent,'正在朗讀第1題');
+stop();assert.equal(status.textContent,'已停止朗讀');
+press();assert.equal(status.textContent,'正在朗讀第1題');
+active.onerror({error:'synthesis-failed'});assert.ok(status.textContent.includes('裝置朗讀失敗'));
 console.log(JSON.stringify({passed:true,papers:56,choice,writing,listening,uniquePassages:passages.size,paidApiCalls:0}));
