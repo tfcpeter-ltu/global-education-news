@@ -63,3 +63,8 @@ console.log('CAP Math AI standalone site built');
 // Original papers are built locally from committed, API-free authoring sources.
 await import('./build-original-math.mjs');
 await import('./original-math.test.mjs');
+await import('./build-original-english.mjs');
+await import('./original-english.test.mjs');
+const originalEnglishHome=await readFile('public/final-v3.html','utf8');
+if(!originalEnglishHome.includes('<nav>'))throw Error('English navigation missing');
+await writeFile('public/final-v3.html',originalEnglishHome.replace('<nav>','<nav><a href="/english-original/" target="_top">56套原創英文</a>'));
