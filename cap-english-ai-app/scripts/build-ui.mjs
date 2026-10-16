@@ -78,3 +78,7 @@ integratedEnglishHome=integratedEnglishHome.replace(/(<main class="wrap">[\s\S]*
 if(!integratedEnglishHome.includes('id="originalEnglishLibrary"'))throw Error('English library panel missing');
 await writeFile('public/final-v3.html',integratedEnglishHome);
 await import('./english-library-routing.test.mjs');
+
+await writeFile('public/math-library-shell.mjs',await readFile('math-site/library-shell.mjs','utf8'));
+await writeFile('public/math-library-routing.mjs',await readFile('lib/math-library-routing.mjs','utf8'));
+await import('./math-library-routing.test.mjs');

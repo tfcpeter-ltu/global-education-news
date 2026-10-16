@@ -1,4 +1,5 @@
 import fs from 'node:fs/promises';
+import {mathModuleRoute} from '../lib/math-library-routing.mjs';
 import {families,makeOriginal,choiceOptions,makeProof,makeConstruction} from '../lib/original-math.mjs';
 const blueprint=JSON.parse(await fs.readFile('math-original/blueprints.json','utf8'));
 const out='public/math-original';await fs.mkdir(out,{recursive:true});
@@ -51,7 +52,12 @@ for(const [pi,b] of blueprint.papers.entries()){
  papers.push({id:b.id,title:`原創數學 ${String(pi+1).padStart(2,'0')}｜${b.category}`,grade:b.grade,category:b.category,questionCount:questions.length,sections:counter,rawPoints:questions.reduce((s,q)=>s+q.points,0),suggestedMinutes:b.category==='會考型綜合練習'?80:50,questions});
 }
 const style=`*{box-sizing:border-box}body{margin:0;background:#f5efdf;color:#243f39;font:17px/1.9 system-ui,"Microsoft JhengHei",sans-serif}main{max-width:1040px;margin:auto;padding:28px}header{border-block:4px double #b19359;padding:24px 0}h1{font:700 clamp(28px,4vw,42px)/1.5 Georgia,"PMingLiU",serif}h2{font-size:22px}nav,.actions{display:flex;flex-wrap:wrap;gap:16px}a{color:#244b43}article{background:#fffdf7;border:1px solid #c9b789;padding:24px;margin:20px 0;break-inside:avoid}article h2{margin:0 0 8px}.tag{color:#7a5d2b;font-size:14px}.notice{background:#eee6cf;border-left:3px solid #ab884a;padding:14px}li{margin:8px 0}.options{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}.options div{border:1px solid #ded1b2;padding:8px}.space{height:100px;border-bottom:1px dotted #c5b89b}.long{height:200px}button,input,select{font:inherit;padding:10px;border:1px solid #b19359;background:#fffdf7;color:#243f39}label{display:block;margin:12px 0}input{width:100%}.answer{font-weight:700;color:#7e5120}.toolbar{display:flex;flex-wrap:wrap;gap:12px;margin:20px 0}[hidden]{display:none!important}@media(max-width:600px){main{padding:16px}article{padding:16px}.options{grid-template-columns:1fr}}@media print{body{background:#fff;color:#000;font-size:12pt}main{max-width:none;padding:0}nav,.actions,.toolbar,.no-print{display:none}header{border-color:#555}article{box-shadow:none;border-color:#aaa}a{color:#000;text-decoration:none}.notice{background:none}h1{font-size:23pt}.space{height:70px}.long{height:140px}}`;
-const page=(title,body)=>`<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)}｜CAP Math AI</title><meta name="description" content="56套本站原創國中數學練習，提供完整題本、逐題推導、驗算與自訂評分規準。"><link rel="icon" href="/math-logo.svg"><style>${style}</style></head><body><main>${body}</main></body></html>`;
+const page=(title,body,path='/math-original/')=>{
+ const route=mathModuleRoute(path);if(!route)throw Error('Unknown math module path');
+ body=body.replace(/href="(\/math-original\/[^" ]*)"/g,(all,path)=>{const next=mathModuleRoute(path);return next?`href="/math${next}" target="_top"`:all});
+ const redirect=`<script>if(window.top===window){const item=/^#original-\\d+-q\\d+$/.test(location.hash)?'/'+location.hash.slice(1):'';document.documentElement.hidden=true;location.replace('/math'+${JSON.stringify(route)}+(${JSON.stringify(route)}==='#math-library'?'':item));}</script>`;
+ return `<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(title)}｜CAP Math AI</title><meta name="description" content="數學學習中心內的原創練習與逐題詳解。"><link rel="canonical" href="https://cap-ai.ossdtw.com/math${route}"><link rel="icon" href="/math-logo.svg">${redirect}<style>${style}header>nav{display:none}</style></head><body data-library-module="math"><main>${body}</main></body></html>`;
+};
 for(const p of papers){
  for(const answers of [false,true]){
   let html=`<header><nav><a href="/math">數學學習中心</a><a href="/math-original/">56套原創試卷</a></nav><p class="tag">LTU · READ / REASON / SOLVE</p><h1>${esc(p.title)}<br>${answers?'逐題詳解與評分重點':'學生題本'}</h1><p>國${['一','二','三'][p.grade-7]}程度 · ${p.questionCount}個題目／子題 · 建議${p.suggestedMinutes}分鐘</p><p>${Object.entries(p.sections).map(([s,n])=>esc(s)+' '+n+'題').join('｜')}</p><p class="notice">本站原創練習，非官方試卷或原卷改寫。依題型、題數及概略能力領域另行設計；未沿用原卷圖文、大題分組或官方配分。本卷原始總分${p.rawPoints}分，百分制＝得分÷${p.rawPoints}×100。作圖與證明需人工批改。</p><div class="actions"><a href="/math-original/${p.id}${answers?'':'-answers'}">${answers?'回到學生題本':'閱讀完整詳解'}</a><a href="/math-original/${p.id}.json" download>教師用資料（含答案）</a><button class="no-print" onclick="window.print()">列印／另存PDF</button></div></header>`;
@@ -68,7 +74,7 @@ for(const p of papers){
    }else if(q.type!=='choice'&&q.type!=='trueFalse')html+=`<div class="space ${q.type==='fill'?'':'long'}" aria-label="作答區"></div>`;
    html+='</article>';
   }
-  await fs.writeFile(`${out}/${p.id}${answers?'-answers':''}.html`,page(p.title,html));
+  await fs.writeFile(`${out}/${p.id}${answers?'-answers':''}.html`,page(p.title,html,`/math-original/${p.id}${answers?'-answers':''}`));
  }
  await fs.writeFile(`${out}/${p.id}.json`,JSON.stringify(p,null,2));
 }
