@@ -8,7 +8,7 @@
     "qa:math": "node scripts/math.test.mjs && node scripts/math-flow.test.mjs",
     "dev:math:qa": "node scripts/math-qa-preview.mjs",
     "qa": "node --check api/index.js && node --check api/auth-me.js && node --check api/payment.js && node --check api/practice.js && node --check api/notebook.js && node --check api/progress.js && node scripts/qa-product.mjs",
-    "qa:tutor": "node scripts/tutor-flow.test.mjs",
+    "qa:tutor": "node scripts/local-tutor.test.mjs && node scripts/tutor-mount.test.mjs && node scripts/ai-errors.test.mjs && node scripts/tutor-flow.test.mjs",
     "dev:tutor": "node scripts/tutor-preview.mjs",
     "qa:explanations": "node scripts/explanation-audit.mjs"
   },

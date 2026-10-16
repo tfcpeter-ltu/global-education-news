@@ -6,6 +6,7 @@ export default async function handler(req,res){
  if(req.method!=='POST')return res.status(405).json({ok:false,error:'METHOD_NOT_ALLOWED'});
  if(!mathOrigin(req)||!String(req.headers['content-type']||'').includes('application/json'))return res.status(403).json({ok:false,error:'INVALID_ORIGIN'});
  const b=req.body||{},subject=b.subject;
+ if(b.mode!=='advanced')return res.status(400).json({ok:false,error:'AI_EXPLICIT_REQUIRED'});
  if(!['math','english'].includes(subject)||typeof b.message!=='string'||!b.message.trim()||b.message.length>2200||!Array.isArray(b.history)||b.history.length>8||b.history.some(t=>!['user','assistant'].includes(t?.role)||typeof t.content!=='string'||t.content.length>7000)||JSON.stringify(b).length>22000)return res.status(400).json({ok:false,error:'INVALID_INPUT'});
  if(!process.env.DATABASE_URL)return res.status(503).json({ok:false,error:'SERVICE_NOT_CONFIGURED'});
  let uid,reserved=false;
