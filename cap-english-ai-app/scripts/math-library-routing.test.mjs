@@ -24,7 +24,7 @@ assert.equal(mathModuleView('#math-paper/original-57'),null);
 assert.equal(mathModuleView('#math-answers/../../admin'),null);
 assert.equal(mathModuleRoute('/math-original/original-01.json'),null);
 const frame={getAttribute(){return this.src}},panel={querySelector(){return frame}},main={hidden:false,after(){}},brand={},events={},location={hash:'#math-library'};
-const header={getBoundingClientRect(){return {height:94}}};let scrolls=0;
+let tutorClick;const header={getBoundingClientRect(){return {height:94}},addEventListener(_,f){tutorClick=f}};let scrolls=0;
 const document={title:'',querySelector(s){return s==='main.mathShell'?main:s==='.mathHeader'?header:s==='.mathBrand'?brand:{scrollIntoView(){scrolls++}}},createElement(tag){return tag==='section'?panel:{}},head:{append(){}},body:{dataset:{}},documentElement:{style:{setProperty(){}}}};
 const shell=await fs.readFile('math-site/library-shell.mjs','utf8');
 vm.runInNewContext(shell.replace(/^import[^\n]+\n/,''),{document,location,mathModuleView,ResizeObserver:class{observe(){}},window:{scrollTo(){},addEventListener(n,f){events[n]=f}}});
@@ -32,6 +32,9 @@ assert.equal(main.hidden,true);assert.equal(panel.hidden,false);assert.equal(fra
 location.hash='#math-answers/original-01';events.hashchange();assert.equal(frame.src,'/math-original/original-01-answers.html?embedded=1');
 location.hash='#practice';events.hashchange();assert.equal(main.hidden,false);assert.equal(panel.hidden,true);assert.equal(scrolls,1);assert.equal(brand.href,'#');
 location.hash='#capTutorPanel';events.hashchange();assert.equal(scrolls,2);assert.equal(main.hidden,false);
+location.hash='#math-library';events.hashchange();let prevented=false,stopped=false;
+tutorClick({target:{closest:()=>true},preventDefault(){prevented=true},stopPropagation(){stopped=true}});events.hashchange();
+assert.equal(location.hash,'#capTutorPanel');assert.ok(prevented&&stopped);assert.equal(main.hidden,false);
 const home=await fs.readFile('public/math.html','utf8');
 assert.ok(home.includes('math-library-shell.mjs')&&home.includes('href="#math-library"'));
 console.log('Math integration verified: 112 views, legacy redirects, shared math navigation, preserved learning content.');

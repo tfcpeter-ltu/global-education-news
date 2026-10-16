@@ -8,6 +8,9 @@ style.textContent='main.mathShell[hidden],#mathLibraryPanel[hidden]{display:none
 document.head.append(style);
 const frame=panel.querySelector('iframe');
 document.querySelector('.mathBrand').href='#';
+// The existing tutor link handles its own click without changing the URL.
+// Leave the library first so that the tutor's learning section can be shown.
+header.addEventListener('click',e=>{if(mathModuleView(location.hash)&&e.target.closest('a[href="#capTutorPanel"]')){e.preventDefault();e.stopPropagation();location.hash='#capTutorPanel';}},true);
 function size(){document.documentElement.style.setProperty('--math-module-header',header.getBoundingClientRect().height+'px')}
 new ResizeObserver(size).observe(header);size();
 function route(){
