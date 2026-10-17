@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-18",
+  "imports": [
+    {
+      "sourceId": "122147538981172155",
+      "title": "Peter觀點：Common App活動表，也要看見真實生活責任",
+      "url": "https://globalednews.com/peter/common-app-real-life-experiences-2026/",
+      "sourceUrl": "https://www.facebook.com/permalink.php?story_fbid=122147538981172155&id=61585164670358",
+      "verifiedAt": "2026-10-18T07:41:50.681385+08:00"
+    }
+  ],
+  "review": {
+    "status": "fewer-new-posts",
+    "checkedAt": "2026-10-18T07:41:50.681385+08:00",
+    "availableNewCount": 1,
+    "sourceUrls": [
+      "https://www.facebook.com/permalink.php?story_fbid=122147538981172155&id=61585164670358",
+      "https://www.facebook.com/profile.php?id=61585164670358"
+    ],
+    "scope": "當日管理列表與公開全文回讀；合格查核整理版1篇。",
+    "insufficientEvidence": [
+      {
+        "sourceId": "122147457435172155",
+        "reason": "澳洲經濟文僅列機構名稱，房市、通膨、破產與教育統計未逐項取得當期原表，未匯入。"
+      },
+      {
+        "reason": "其餘較早素材未取得足以新增第三篇的完整事實及圖片權利證據；不重複已收錄文章。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-18",
+  "verifiedAt": "2026-10-18T07:39:50.711083+08:00",
+  "news": [
+    {
+      "slug": "australia-opening-doors-university-funding-bill-2026",
+      "title": "澳洲大學資助法案通過：擴大本地機會，國際生名額另看規則",
+      "url": "https://globalednews.com/news/australia-opening-doors-university-funding-bill-2026/",
+      "sources": [
+        {
+          "label": "Australian Education Minister | 13 October announcement",
+          "url": "https://ministers.education.gov.au/clare/legislation-passes-parliament-help-more-australians-go-uni"
+        },
+        {
+          "label": "Universities Australia | Sector response",
+          "url": "https://universitiesaustralia.edu.au/media-item/opening-the-door-to-more-university-graduates/"
+        }
+      ],
+      "verifiedAt": "2026-10-18T07:39:50.711083+08:00"
+    },
+    {
+      "slug": "atlantic-canada-international-enrolment-october-2026",
+      "title": "加拿大大西洋大學全時國際生減18%：10月快照為13,775人",
+      "url": "https://globalednews.com/news/atlantic-canada-international-enrolment-october-2026/",
+      "sources": [
+        {
+          "label": "Association of Atlantic Universities | 2026–27 preliminary visa enrolment",
+          "url": "https://atlanticuniversities.ca/wp-content/uploads/2026/10/web_VISA_PreliminaryEnrolments-26-27_Final-Oct.-1426-4.pdf"
+        },
+        {
+          "label": "ICEF Monitor | Independent analysis, 15 October",
+          "url": "https://monitor.icef.com/2026/10/what-is-happening-with-international-student-numbers-in-canada-so-far-this-year/"
+        }
+      ],
+      "verifiedAt": "2026-10-18T07:39:50.711083+08:00"
+    },
+    {
+      "slug": "netherlands-tuition-rates-2027-2028-taiwan",
+      "title": "荷蘭2027學費預算：法定€2,771，台灣生通常適用較高校訂費率",
+      "url": "https://globalednews.com/news/netherlands-tuition-rates-2027-2028-taiwan/",
+      "sources": [
+        {
+          "label": "Dutch Government Gazette | Regulation published 22 June 2026",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2026-21984.html"
+        },
+        {
+          "label": "TU Delft | 2026–27 and 2027–28 fee tables",
+          "url": "https://www.tudelft.nl/en/education/study-programme-orientation/practical-matters/tuition-fee-finances"
+        }
+      ],
+      "verifiedAt": "2026-10-18T07:39:50.711083+08:00"
+    }
+  ],
+  "scholarships": [
+    {
+      "slug": "2026-10-waikato-vice-chancellor-2027",
+      "title": "Waikato校長國際獎：本科最高NZ$15,000，研究所最高NZ$10,000",
+      "url": "https://globalednews.com/scholarships/items/2026-10-waikato-vice-chancellor-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-waikato-vice-chancellor-2027.md",
+      "sources": [
+        "https://www.waikato.ac.nz/int/study/scholarships/find-a-scholarship/vice-chancellors-international-excellence-scholarship/",
+        "https://www.idp.com/scholarship/the-university-of-waikato/vice-chancellor%27s-international-excellence-scholarship/153698/",
+        "https://www.waikato.ac.nz/assets/Uploads/VCIES-2027-Other.pdf"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-18T07:39:50.711083+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New scholarship; current 2027 regulations, Taiwan eligibility, open application round, value and exceptions cross-checked."
+    },
+    {
+      "slug": "2026-10-waikato-research-masters-2027",
+      "title": "Waikato研究碩士獎最高NZ$15,000：須有紐西蘭120學分背景",
+      "url": "https://globalednews.com/scholarships/items/2026-10-waikato-research-masters-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-waikato-research-masters-2027.md",
+      "sources": [
+        "https://www.waikato.ac.nz/study/scholarships/find-a-scholarship/university-of-waikato-research-masters-scholarship/",
+        "https://studyspy.ac.nz/scholarships/16518/university-of-waikato-research-masters-scholarship",
+        "https://www.waikato.ac.nz/assets/Uploads/Study-with-us/Scholarships/Find-a-Scholarship/UoW-Research-Masters-Scholarship-2027-v2.pdf"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-18T07:39:50.711083+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New scholarship; current 2027 regulations, Taiwan eligibility, open application round, value and exceptions cross-checked."
+    },
+    {
+      "slug": "2026-10-canterbury-guardian-commerce-2027",
+      "title": "Canterbury商學碩士獎NZ$16,500：2027入學，10月31日截止",
+      "url": "https://globalednews.com/scholarships/items/2026-10-canterbury-guardian-commerce-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-canterbury-guardian-commerce-2027.md",
+      "sources": [
+        "https://www.canterbury.ac.nz/study/getting-started/scholarships/postgraduate-scholarships/business---law-postgraduate-scholarships",
+        "https://www.mastersportal.com/scholarships/2519/guardian-trust-masters-scholarship-in-commerce.html",
+        "https://scholarshipsforms.canterbury.ac.nz/regulations/Guardian_Trust_Masters_Scholarship_in_Commerce.pdf",
+        "https://www.canterbury.ac.nz/content/dam/uoc-main-site/documents/pdfs/d-other/scholarships/Spring%20Scholarships%202026%20Brochure.pdf.coredownload.pdf"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-18T07:39:50.711083+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New scholarship; current 2027 regulations, Taiwan eligibility, open application round, value and exceptions cross-checked."
+    }
+  ],
+  "notes": [
+    "AAU original PDF downloaded and read: four provinces, full-time visa enrolments, not arrivals.",
+    "Dutch fee regulation was published in June; article explicitly describes October verification, not a new October announcement. Government and university independently publish fee data.",
+    "Waikato 2027 offshore applications on or after cut-off are excluded; wording preserves before rather than inclusive until.",
+    "StudySpy lists previous April round; current official October round and 2027 rules govern dates.",
+    "Canterbury spring 2026 brochure page 12 explicitly confirms 2027 Guardian award; official one-award rule overrides directory multiple field."
+  ],
+  "rejectedCandidates": [
+    "UCAS and UK BCA rules already covered on site",
+    "Canterbury Hayek deadline mismatch",
+    "Canterbury doctoral round closed 15 October",
+    "Waikato Southeast Asia award excludes Taiwan"
+  ]
+}

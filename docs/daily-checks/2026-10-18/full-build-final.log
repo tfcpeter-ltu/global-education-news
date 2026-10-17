@@ -1,0 +1,9 @@
+Unified study navigation: 255 pages
+Bilingual: 3933 dynamic text strings extracted
+740 pages; 35193 distinct strings; 0 new translations
+{"pages": 739, "translationStrings": 35902, "newStrings": 0, "engine": "Argos/OpenNMT zh-en 1.9 / CTranslate2", "englishPrefix": "/en/", "translatedAt": "2026-10-17T23:47:21Z"}
+Verified 1470 photo previews from 201 original images; no text-only cards.
+{"canonicalPages": 1464, "addedCanonicals": 251, "removedSitemapEntries": 6, "excludedPages": ["https://globalednews.com/campus/", "https://globalednews.com/en/campus/", "https://globalednews.com/en/news/us-f1-j1-fixed-admission-period-2026/", "https://globalednews.com/en/partners/", "https://globalednews.com/en/study-abroad/404.html", "https://globalednews.com/en/study-abroad/articles/medical-health-major-map.html", "https://globalednews.com/en/study-abroad/my-plan.html", "https://globalednews.com/en/study-abroad/student-admin.html", "https://globalednews.com/image-credits/", "https://globalednews.com/news/us-f1-j1-fixed-admission-period-2026/", "https://globalednews.com/partners/", "https://globalednews.com/study-abroad/404.html", "https://globalednews.com/study-abroad/articles/medical-health-major-map.html", "https://globalednews.com/study-abroad/my-plan.html", "https://globalednews.com/study-abroad/student-admin.html"]}
+PASS: 1464 unique sitemap URLs resolve to indexable canonical HTML; old news route points to an existing article
+PASS: 739 Chinese/English page pairs, language links, internal English URLs, unchanged option values, JSON-LD and XML sitemaps
+Facebook photo evidence regressions passed

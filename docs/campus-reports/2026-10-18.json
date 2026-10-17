@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-18",
+  "timezone": "Asia/Taipei",
+  "status": "three-public-leads-reviewed",
+  "verifiedAt": "2026-10-18T07:41:50.681385+08:00",
+  "reviewedSchools": [
+    {
+      "school": "國立臺灣師範大學",
+      "schoolSlug": "ntnu",
+      "source": "https://bds.oia.ntnu.edu.tw/bds/web/news-subsidy/2026101402",
+      "finding": "2027第一期日協短期留學獎，每月8萬日圓；師大10/27 17:00校內截止，適用4至8月開始交換。"
+    },
+    {
+      "school": "國立臺灣大學",
+      "schoolSlug": "ntu",
+      "source": "https://management.ntu.edu.tw/ia/board/detail/sn/21373",
+      "finding": "管理學院116學年交換11/3–11/9線上申請，首次志願選填同時完成；須同時符合院內與交換校要求。"
+    },
+    {
+      "school": "國立成功大學",
+      "schoolSlug": "ncku",
+      "source": "https://oia.ncku.edu.tw/p/404-1032-230512.php?Lang=en",
+      "finding": "已讀2026/27來校交換資訊：2027春季提名9/15、申請9/25已截止；不可當成仍開放赴外招生，課程與CEFR文件可供校園線索。"
+    }
+  ],
+  "published": [],
+  "pendingConsent": [],
+  "outreachDrafts": [],
+  "gaps": [],
+  "note": "公開校務線索查核，未寄邀訪或聲稱完成採訪。"
+}

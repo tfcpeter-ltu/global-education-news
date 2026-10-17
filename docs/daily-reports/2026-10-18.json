@@ -1,0 +1,473 @@
+{
+  "date": "2026-10-18",
+  "timezone": "Asia/Taipei",
+  "startedAt": "2026-10-18T04:57:12.135501+08:00",
+  "status": "in_progress",
+  "currentPhase": "COMMIT_DEPLOY",
+  "baseCommit": "cc8abb7e6aa782fa91ae465f2743caad13abd5a6",
+  "scholarshipBaselineSlugs": [
+    "2026-08-bristol-think-big",
+    "2026-08-manchester-global-futures-taiwan-2027",
+    "2026-08-mcgill-mccall-macbain",
+    "2026-08-melbourne-graduate-research",
+    "2026-08-melbourne-international-excellence-graduate-2027",
+    "2026-08-moe-eu-scholarship",
+    "2026-08-moe-government-sponsored-study",
+    "2026-08-moe-new-southbound-internship",
+    "2026-08-moe-overseas-scholarship",
+    "2026-08-moe-study-abroad-fly",
+    "2026-08-moe-study-abroad-internship",
+    "2026-08-moe-study-abroad-needy",
+    "2026-08-moe-top100-phd",
+    "2026-08-monash-awards-2027",
+    "2026-08-oxford-clarendon",
+    "2026-08-sydney-vcis-2027",
+    "2026-08-tgpi-dream-factory",
+    "2026-08-tgpi-global-flight",
+    "2026-08-ubc-four-year-doctoral-fellowship",
+    "2026-08-ubc-imes",
+    "2026-08-ubc-international-scholars-2027",
+    "2026-08-ubc-killam-doctoral-2027",
+    "2026-08-ucl-global-masters",
+    "2026-08-ucl-global-undergraduate",
+    "2026-08-unsw-scientia-2027",
+    "2026-08-uq-international-high-achievers-2027",
+    "2026-08-utoronto-pearson-2027",
+    "2026-09-adelaide-academic-excellence-2027",
+    "2026-09-adelaide-merit-2027",
+    "2026-09-auckland-international-student-excellence-2027",
+    "2026-09-cardiff-vice-chancellor-taiwan-january-2027",
+    "2026-09-chevening-delta-climate-2027",
+    "2026-09-chevening-taiwan",
+    "2026-09-daad-architecture-masters",
+    "2026-09-deakin-excellence-international-2027",
+    "2026-09-deakin-international-merit-2027",
+    "2026-09-deakin-vice-chancellor-international-2027",
+    "2026-09-dundee-east-asia-undergraduate-january-2027",
+    "2026-09-dundee-global-excellence-undergraduate-january-2027",
+    "2026-09-erasmus-mundus-2027",
+    "2026-09-eth-zurich-esop-2027",
+    "2026-09-exeter-pgt-taiwan-january-2027",
+    "2026-09-fulbright-experience-america-research-award",
+    "2026-09-fulbright-non-academic-professional-award",
+    "2026-09-fulbright-senior-research-award",
+    "2026-09-gates-cambridge-2027",
+    "2026-09-harvard-academy-scholars-2027",
+    "2026-09-harvard-radcliffe-fellowship-2027",
+    "2026-09-hkpfs-2027",
+    "2026-09-imperial-presidents-phd-2027",
+    "2026-09-kent-international-undergraduate-january-2027",
+    "2026-09-knight-hennessy-2027",
+    "2026-09-latrobe-high-achiever-2027",
+    "2026-09-leicester-global-excellence-jan-apr-2027",
+    "2026-09-macquarie-vcis-2027",
+    "2026-09-monash-international-merit-2027",
+    "2026-09-ntu-taiwan-scholarship-jan-2027",
+    "2026-09-ntu-taiwan-stem-scholarship-jan-2027",
+    "2026-09-oxford-clarendon-2027",
+    "2026-09-rmit-up-academic-english-bursary-2027",
+    "2026-09-strathclyde-sbs-international-masters-jan-2027",
+    "2026-09-sydney-rtp-international-2027",
+    "2026-09-taiwan-anu-phd-scholarship-2027",
+    "2026-09-tasmanian-international-scholarship-2027",
+    "2026-09-ubc-international-scholars-2027",
+    "2026-09-uc-berkeley-beahrs-elp-2027",
+    "2026-09-uni-iowa-partner-state-taiwan-2027",
+    "2026-09-university-iowa-national-scholars-2027",
+    "2026-09-unsw-international-scientia-2027",
+    "2026-09-uow-postgraduate-academic-excellence-2027",
+    "2026-09-uow-university-excellence-2027",
+    "2026-09-utoronto-lester-b-pearson-2027",
+    "2026-09-yenching-academy-2027-taiwan",
+    "2026-10-american-university-egls-2027",
+    "2026-10-aut-north-asia-2027",
+    "2026-10-bangor-vice-chancellor-january-2027",
+    "2026-10-bath-international-excellence-ug-2027",
+    "2026-10-boise-state-international-fall-2027",
+    "2026-10-bournemouth-academic-excellence-january-2027",
+    "2026-10-canterbury-international-first-year-offshore-2027",
+    "2026-10-cardiff-vice-chancellor-january-2027",
+    "2026-10-cumbria-international-undergraduate-january-2027",
+    "2026-10-dundee-global-excellence-september-2027",
+    "2026-10-essex-international-undergraduate-2027",
+    "2026-10-exeter-taiwan-pgt-2027",
+    "2026-10-griffith-academic-merit-2027",
+    "2026-10-griffith-vice-chancellor-2027",
+    "2026-10-herts-chancellor-january-2027",
+    "2026-10-kent-pgt-january-2027",
+    "2026-10-lancaster-regional-taiwan-2027",
+    "2026-10-lincoln-pathway-merit-2027",
+    "2026-10-lincoln-taught-master-merit-2027",
+    "2026-10-lincoln-undergraduate-vice-chancellor-2027",
+    "2026-10-london-met-east-asia-2027",
+    "2026-10-massey-creative-excellence-masters-2027",
+    "2026-10-massey-toroa-postgraduate-2027",
+    "2026-10-massey-toroa-undergraduate-2027",
+    "2026-10-newcastle-australia-international-excellence-2027",
+    "2026-10-newcastle-vc-international-undergraduate-2027",
+    "2026-10-ntu-taiwan-january-2027",
+    "2026-10-otago-global-masters-2027",
+    "2026-10-otago-global-undergraduate-2027",
+    "2026-10-otago-international-academic-excellence-2027",
+    "2026-10-oxford-brookes-january-2027",
+    "2026-10-portsmouth-chancellor-merit-january-2027",
+    "2026-10-qmul-global-talent-pgt-2027",
+    "2026-10-qub-pgt-january-2027",
+    "2026-10-rgu-early-payment-january-2027",
+    "2026-10-rgu-january-2027",
+    "2026-10-sheffield-international-pgt-2027",
+    "2026-10-sheffield-international-undergraduate-2027",
+    "2026-10-st-andrews-tesol-january-2027",
+    "2026-10-stirling-east-asia-pgt-2027",
+    "2026-10-stirling-vice-chancellor-pgt-january-2027",
+    "2026-10-strathclyde-science-january-2027",
+    "2026-10-swansea-international-excellence-january-2027",
+    "2026-10-uea-pg-merit-2027",
+    "2026-10-unisq-international-excellence-2027",
+    "2026-10-uwa-global-excellence-2027",
+    "2026-10-vuw-postgraduate-international-2027",
+    "2026-10-vuw-undergraduate-international-2027",
+    "2026-10-waterloo-international-entrance-2027",
+    "2026-10-western-sydney-international-undergraduate-2027",
+    "2026-10-westminster-pg-excellence-january-2027",
+    "catalog-aalto-excellence",
+    "catalog-berea-international-aid",
+    "catalog-bocconi-access-100",
+    "catalog-bocconi-access-80-60",
+    "catalog-bocconi-boost",
+    "catalog-bocconi-sport",
+    "catalog-chalmers-ipoet",
+    "catalog-daad-all-disciplines",
+    "catalog-daad-fine-art",
+    "catalog-daad-music",
+    "catalog-daad-performing-arts",
+    "catalog-duke-karsh",
+    "catalog-eiffel-master",
+    "catalog-eiffel-phd",
+    "catalog-emory-scholars",
+    "catalog-epfl-excellence",
+    "catalog-erasmus-mundus",
+    "catalog-eth-esop",
+    "catalog-geneva-excellence",
+    "catalog-gks-graduate",
+    "catalog-gks-undergraduate",
+    "catalog-goh-keng-swee",
+    "catalog-goi-ies",
+    "catalog-harvard-international-aid",
+    "catalog-helsinki-scholarship",
+    "catalog-jasso-honors",
+    "catalog-kaist-graduate",
+    "catalog-kaist-undergraduate",
+    "catalog-knight-hennessy",
+    "catalog-kth-scholarship",
+    "catalog-kyoto-iup",
+    "catalog-lund-global",
+    "catalog-maastricht-brightlands",
+    "catalog-maastricht-global-studies",
+    "catalog-maastricht-high-potential",
+    "catalog-maastricht-social-justice",
+    "catalog-maeci-italy",
+    "catalog-master-mind-flanders",
+    "catalog-mext-japanese-studies",
+    "catalog-mext-kosen-2027",
+    "catalog-mext-research-2027",
+    "catalog-mext-specialized-training-2027",
+    "catalog-mext-teacher-training",
+    "catalog-mext-undergraduate-2027",
+    "catalog-miami-stamps",
+    "catalog-mit-international-aid",
+    "catalog-nl-scholarship",
+    "catalog-nus-international-undergraduate",
+    "catalog-nus-science-technology",
+    "catalog-padua-excellence",
+    "catalog-paris-saclay-idex",
+    "catalog-radboud-nl-scholarship",
+    "catalog-radboud-scholarship",
+    "catalog-science-leuven",
+    "catalog-sciencespo-boutmy",
+    "catalog-snu-gsfs",
+    "catalog-swiss-phd",
+    "catalog-swiss-research-fellowship",
+    "catalog-taiwan-kaist-phd",
+    "catalog-tampere-scholarship",
+    "catalog-trinity-global-excellence",
+    "catalog-tudelft-justus",
+    "catalog-turku-merit",
+    "catalog-ucd-global-excellence",
+    "catalog-uppsala-global",
+    "catalog-utokyo-fellowship",
+    "catalog-utwente-scholarship",
+    "catalog-vanderbilt-cornelius",
+    "catalog-vanderbilt-ingram",
+    "catalog-yale-international-aid"
+  ],
+  "newsPublished": [],
+  "scholarshipChecks": [
+    {
+      "slug": "2026-10-waikato-vice-chancellor-2027",
+      "title": "Waikato校長國際獎：本科最高NZ$15,000，研究所最高NZ$10,000",
+      "url": "https://globalednews.com/scholarships/items/2026-10-waikato-vice-chancellor-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-waikato-vice-chancellor-2027.md",
+      "sources": [
+        "https://www.waikato.ac.nz/int/study/scholarships/find-a-scholarship/vice-chancellors-international-excellence-scholarship/",
+        "https://www.idp.com/scholarship/the-university-of-waikato/vice-chancellor%27s-international-excellence-scholarship/153698/",
+        "https://www.waikato.ac.nz/assets/Uploads/VCIES-2027-Other.pdf"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-18T07:39:50.711083+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New scholarship; current 2027 regulations, Taiwan eligibility, open application round, value and exceptions cross-checked."
+    },
+    {
+      "slug": "2026-10-waikato-research-masters-2027",
+      "title": "Waikato研究碩士獎最高NZ$15,000：須有紐西蘭120學分背景",
+      "url": "https://globalednews.com/scholarships/items/2026-10-waikato-research-masters-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-waikato-research-masters-2027.md",
+      "sources": [
+        "https://www.waikato.ac.nz/study/scholarships/find-a-scholarship/university-of-waikato-research-masters-scholarship/",
+        "https://studyspy.ac.nz/scholarships/16518/university-of-waikato-research-masters-scholarship",
+        "https://www.waikato.ac.nz/assets/Uploads/Study-with-us/Scholarships/Find-a-Scholarship/UoW-Research-Masters-Scholarship-2027-v2.pdf"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-18T07:39:50.711083+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New scholarship; current 2027 regulations, Taiwan eligibility, open application round, value and exceptions cross-checked."
+    },
+    {
+      "slug": "2026-10-canterbury-guardian-commerce-2027",
+      "title": "Canterbury商學碩士獎NZ$16,500：2027入學，10月31日截止",
+      "url": "https://globalednews.com/scholarships/items/2026-10-canterbury-guardian-commerce-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-canterbury-guardian-commerce-2027.md",
+      "sources": [
+        "https://www.canterbury.ac.nz/study/getting-started/scholarships/postgraduate-scholarships/business---law-postgraduate-scholarships",
+        "https://www.mastersportal.com/scholarships/2519/guardian-trust-masters-scholarship-in-commerce.html",
+        "https://scholarshipsforms.canterbury.ac.nz/regulations/Guardian_Trust_Masters_Scholarship_in_Commerce.pdf",
+        "https://www.canterbury.ac.nz/content/dam/uoc-main-site/documents/pdfs/d-other/scholarships/Spring%20Scholarships%202026%20Brochure.pdf.coredownload.pdf"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-18T07:39:50.711083+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New scholarship; current 2027 regulations, Taiwan eligibility, open application round, value and exceptions cross-checked."
+    }
+  ],
+  "scholarshipAdditions": [
+    {
+      "slug": "2026-10-waikato-vice-chancellor-2027",
+      "title": "Waikato校長國際獎：本科最高NZ$15,000，研究所最高NZ$10,000",
+      "url": "https://globalednews.com/scholarships/items/2026-10-waikato-vice-chancellor-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-waikato-vice-chancellor-2027.md",
+      "sources": [
+        "https://www.waikato.ac.nz/int/study/scholarships/find-a-scholarship/vice-chancellors-international-excellence-scholarship/",
+        "https://www.idp.com/scholarship/the-university-of-waikato/vice-chancellor%27s-international-excellence-scholarship/153698/",
+        "https://www.waikato.ac.nz/assets/Uploads/VCIES-2027-Other.pdf"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-18T07:39:50.711083+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New scholarship; current 2027 regulations, Taiwan eligibility, open application round, value and exceptions cross-checked."
+    },
+    {
+      "slug": "2026-10-waikato-research-masters-2027",
+      "title": "Waikato研究碩士獎最高NZ$15,000：須有紐西蘭120學分背景",
+      "url": "https://globalednews.com/scholarships/items/2026-10-waikato-research-masters-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-waikato-research-masters-2027.md",
+      "sources": [
+        "https://www.waikato.ac.nz/study/scholarships/find-a-scholarship/university-of-waikato-research-masters-scholarship/",
+        "https://studyspy.ac.nz/scholarships/16518/university-of-waikato-research-masters-scholarship",
+        "https://www.waikato.ac.nz/assets/Uploads/Study-with-us/Scholarships/Find-a-Scholarship/UoW-Research-Masters-Scholarship-2027-v2.pdf"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-18T07:39:50.711083+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New scholarship; current 2027 regulations, Taiwan eligibility, open application round, value and exceptions cross-checked."
+    },
+    {
+      "slug": "2026-10-canterbury-guardian-commerce-2027",
+      "title": "Canterbury商學碩士獎NZ$16,500：2027入學，10月31日截止",
+      "url": "https://globalednews.com/scholarships/items/2026-10-canterbury-guardian-commerce-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-canterbury-guardian-commerce-2027.md",
+      "sources": [
+        "https://www.canterbury.ac.nz/study/getting-started/scholarships/postgraduate-scholarships/business---law-postgraduate-scholarships",
+        "https://www.mastersportal.com/scholarships/2519/guardian-trust-masters-scholarship-in-commerce.html",
+        "https://scholarshipsforms.canterbury.ac.nz/regulations/Guardian_Trust_Masters_Scholarship_in_Commerce.pdf",
+        "https://www.canterbury.ac.nz/content/dam/uoc-main-site/documents/pdfs/d-other/scholarships/Spring%20Scholarships%202026%20Brochure.pdf.coredownload.pdf"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-18T07:39:50.711083+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New scholarship; current 2027 regulations, Taiwan eligibility, open application round, value and exceptions cross-checked."
+    }
+  ],
+  "peterImports": [
+    {
+      "sourceId": "122147538981172155",
+      "title": "Peter觀點：Common App活動表，也要看見真實生活責任",
+      "url": "https://globalednews.com/peter/common-app-real-life-experiences-2026/",
+      "sourceUrl": "https://www.facebook.com/permalink.php?story_fbid=122147538981172155&id=61585164670358",
+      "verifiedAt": "2026-10-18T07:41:50.681385+08:00"
+    }
+  ],
+  "socialPosts": [],
+  "gaps": [
+    "COMMIT_DEPLOY",
+    "PUBLISH",
+    "ACCEPTANCE",
+    "VERIFY"
+  ],
+  "manualActions": [],
+  "phases": {
+    "PREFLIGHT": {
+      "at": "2026-10-18T04:57:12.165561+08:00",
+      "status": "completed"
+    }
+  },
+  "newsPrepared": [
+    {
+      "slug": "australia-opening-doors-university-funding-bill-2026",
+      "title": "澳洲大學資助法案通過：擴大本地機會，國際生名額另看規則",
+      "url": "https://globalednews.com/news/australia-opening-doors-university-funding-bill-2026/",
+      "sources": [
+        {
+          "label": "Australian Education Minister | 13 October announcement",
+          "url": "https://ministers.education.gov.au/clare/legislation-passes-parliament-help-more-australians-go-uni"
+        },
+        {
+          "label": "Universities Australia | Sector response",
+          "url": "https://universitiesaustralia.edu.au/media-item/opening-the-door-to-more-university-graduates/"
+        }
+      ],
+      "verifiedAt": "2026-10-18T07:39:50.711083+08:00"
+    },
+    {
+      "slug": "atlantic-canada-international-enrolment-october-2026",
+      "title": "加拿大大西洋大學全時國際生減18%：10月快照為13,775人",
+      "url": "https://globalednews.com/news/atlantic-canada-international-enrolment-october-2026/",
+      "sources": [
+        {
+          "label": "Association of Atlantic Universities | 2026–27 preliminary visa enrolment",
+          "url": "https://atlanticuniversities.ca/wp-content/uploads/2026/10/web_VISA_PreliminaryEnrolments-26-27_Final-Oct.-1426-4.pdf"
+        },
+        {
+          "label": "ICEF Monitor | Independent analysis, 15 October",
+          "url": "https://monitor.icef.com/2026/10/what-is-happening-with-international-student-numbers-in-canada-so-far-this-year/"
+        }
+      ],
+      "verifiedAt": "2026-10-18T07:39:50.711083+08:00"
+    },
+    {
+      "slug": "netherlands-tuition-rates-2027-2028-taiwan",
+      "title": "荷蘭2027學費預算：法定€2,771，台灣生通常適用較高校訂費率",
+      "url": "https://globalednews.com/news/netherlands-tuition-rates-2027-2028-taiwan/",
+      "sources": [
+        {
+          "label": "Dutch Government Gazette | Regulation published 22 June 2026",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2026-21984.html"
+        },
+        {
+          "label": "TU Delft | 2026–27 and 2027–28 fee tables",
+          "url": "https://www.tudelft.nl/en/education/study-programme-orientation/practical-matters/tuition-fee-finances"
+        }
+      ],
+      "verifiedAt": "2026-10-18T07:39:50.711083+08:00"
+    }
+  ],
+  "researchCompletedAt": "2026-10-18T07:39:50.711083+08:00",
+  "studyAbroadReview": {
+    "country": "New Zealand",
+    "school": "University of Waikato",
+    "angle": "New international entry versus prior-NZ-study research award",
+    "url": "https://globalednews.com/study-abroad/waikato-new-zealand-scholarship-pathways-2027/",
+    "verifiedAt": "2026-10-18T07:39:50.711083+08:00"
+  },
+  "peterReview": {
+    "status": "fewer-new-posts",
+    "checkedAt": "2026-10-18T07:41:50.681385+08:00",
+    "availableNewCount": 1,
+    "sourceUrls": [
+      "https://www.facebook.com/permalink.php?story_fbid=122147538981172155&id=61585164670358",
+      "https://www.facebook.com/profile.php?id=61585164670358"
+    ],
+    "scope": "當日管理列表與公開全文回讀；合格查核整理版1篇。",
+    "insufficientEvidence": [
+      {
+        "sourceId": "122147457435172155",
+        "reason": "澳洲經濟文僅列機構名稱，房市、通膨、破產與教育統計未逐項取得當期原表，未匯入。"
+      },
+      {
+        "reason": "其餘較早素材未取得足以新增第三篇的完整事實及圖片權利證據；不重複已收錄文章。"
+      }
+    ]
+  },
+  "campusReport": {
+    "date": "2026-10-18",
+    "timezone": "Asia/Taipei",
+    "status": "three-public-leads-reviewed",
+    "verifiedAt": "2026-10-18T07:41:50.681385+08:00",
+    "reviewedSchools": [
+      {
+        "school": "國立臺灣師範大學",
+        "schoolSlug": "ntnu",
+        "source": "https://bds.oia.ntnu.edu.tw/bds/web/news-subsidy/2026101402",
+        "finding": "2027第一期日協短期留學獎，每月8萬日圓；師大10/27 17:00校內截止，適用4至8月開始交換。"
+      },
+      {
+        "school": "國立臺灣大學",
+        "schoolSlug": "ntu",
+        "source": "https://management.ntu.edu.tw/ia/board/detail/sn/21373",
+        "finding": "管理學院116學年交換11/3–11/9線上申請，首次志願選填同時完成；須同時符合院內與交換校要求。"
+      },
+      {
+        "school": "國立成功大學",
+        "schoolSlug": "ncku",
+        "source": "https://oia.ncku.edu.tw/p/404-1032-230512.php?Lang=en",
+        "finding": "已讀2026/27來校交換資訊：2027春季提名9/15、申請9/25已截止；不可當成仍開放赴外招生，課程與CEFR文件可供校園線索。"
+      }
+    ],
+    "published": [],
+    "pendingConsent": [],
+    "outreachDrafts": [],
+    "gaps": [],
+    "note": "公開校務線索查核，未寄邀訪或聲稱完成採訪。"
+  },
+  "sunmoonReview": {
+    "checkedAt": "2026-10-18T07:41:50.681385+08:00",
+    "source": "https://www.sunmoonnews.com.tw/",
+    "status": "reviewed-no-new-qualified-item",
+    "finding": "當日讀取首頁；台泰智慧醫療論壇以產業方案為主，無足夠第二教育來源；AI Nexus為既有題材。"
+  },
+  "ltuReview": {
+    "checkedAt": "2026-10-18T07:41:50.681385+08:00",
+    "poolSize": 12,
+    "expectedVisibleIndices": [
+      2,
+      3,
+      4
+    ],
+    "pendingLiveVerification": true
+  },
+  "preparedAt": "2026-10-18T07:41:50.681385+08:00",
+  "phaseCompleted": [
+    "PREFLIGHT",
+    "RESEARCH",
+    "PREPARE",
+    "BUILD"
+  ],
+  "build": {
+    "status": "PASS",
+    "verifiedAt": "2026-10-18T07:48:35.007191+08:00",
+    "evidence": "docs/daily-checks/2026-10-18/full-build-final.log",
+    "newEnglishPagesCjkFree": 8
+  }
+}
