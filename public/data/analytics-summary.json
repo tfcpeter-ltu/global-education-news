@@ -1,6 +1,6 @@
 {
   "status": "ready",
-  "updatedAt": "2026-10-17T05:34:01.068Z",
+  "updatedAt": "2026-10-18T05:51:44.603Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
@@ -15,14 +15,14 @@
       "views": 10
     },
     {
-      "title": "美國大學團體提告挑戰 CPT 新解釋：法院尚未裁定，現行指引仍有效｜環球教育新聞網 Global Education News",
-      "path": "/news/us-cpt-lawsuit-court-status-october-13-2026/",
+      "title": "最新國際教育新聞",
+      "path": "/news/",
       "views": 9
     },
     {
-      "title": "最新國際教育新聞",
-      "path": "/news/",
-      "views": 8
+      "title": "美國大學團體提告挑戰 CPT 新解釋：法院尚未裁定，現行指引仍有效｜環球教育新聞網 Global Education News",
+      "path": "/news/us-cpt-lawsuit-court-status-october-13-2026/",
+      "views": 9
     },
     {
       "title": "西澳評估三校合併：2027年完成商業論證，Curtin表態反對｜環球教育新聞網 Global Education News",
@@ -34,38 +34,38 @@
     {
       "name": "台灣",
       "mapName": "Taiwan",
-      "sessions": 118,
-      "share": 49.2
+      "sessions": 113,
+      "share": 48.3
     },
     {
       "name": "美國",
       "mapName": "United States",
-      "sessions": 82,
-      "share": 34.2
+      "sessions": 78,
+      "share": 33.3
     },
     {
       "name": "瑞典",
       "mapName": "Sweden",
-      "sessions": 10,
-      "share": 4.2
+      "sessions": 12,
+      "share": 5.1
     },
     {
       "name": "加拿大",
       "mapName": "Canada",
-      "sessions": 5,
-      "share": 2.1
+      "sessions": 6,
+      "share": 2.6
     },
     {
       "name": "香港",
       "mapName": "Hong Kong",
-      "sessions": 5,
-      "share": 2.1
+      "sessions": 6,
+      "share": 2.6
     },
     {
       "name": "愛爾蘭",
       "mapName": "Ireland",
-      "sessions": 4,
-      "share": 1.7
+      "sessions": 5,
+      "share": 2.1
     },
     {
       "name": "日本",
@@ -77,19 +77,19 @@
       "name": "澳洲",
       "mapName": "Australia",
       "sessions": 2,
-      "share": 0.8
+      "share": 0.9
     },
     {
       "name": "印度",
       "mapName": "India",
       "sessions": 2,
-      "share": 0.8
+      "share": 0.9
     },
     {
       "name": "馬來西亞",
       "mapName": "Malaysia",
       "sessions": 2,
-      "share": 0.8
+      "share": 0.9
     }
   ]
 }
