@@ -2,8 +2,8 @@
   "date": "2026-10-18",
   "timezone": "Asia/Taipei",
   "startedAt": "2026-10-18T04:57:12.135501+08:00",
-  "status": "in_progress",
-  "currentPhase": "COMMIT_DEPLOY",
+  "status": "blocked",
+  "currentPhase": "ACCEPTANCE",
   "baseCommit": "cc8abb7e6aa782fa91ae465f2743caad13abd5a6",
   "scholarshipBaselineSlugs": [
     "2026-08-bristol-think-big",
@@ -201,7 +201,62 @@
     "catalog-vanderbilt-ingram",
     "catalog-yale-international-aid"
   ],
-  "newsPublished": [],
+  "newsPublished": [
+    {
+      "slug": "australia-opening-doors-university-funding-bill-2026",
+      "title": "澳洲大學資助法案通過：擴大本地機會，國際生名額另看規則",
+      "url": "https://globalednews.com/news/australia-opening-doors-university-funding-bill-2026/",
+      "sources": [
+        {
+          "label": "Australian Education Minister | 13 October announcement",
+          "url": "https://ministers.education.gov.au/clare/legislation-passes-parliament-help-more-australians-go-uni"
+        },
+        {
+          "label": "Universities Australia | Sector response",
+          "url": "https://universitiesaustralia.edu.au/media-item/opening-the-door-to-more-university-graduates/"
+        }
+      ],
+      "verifiedAt": "2026-10-18T07:39:50.711083+08:00",
+      "publishedVerifiedAt": "2026-10-18T07:51:04.729549+08:00",
+      "publicationEvidence": "docs/daily-reports/2026-10-18-live-seo.json"
+    },
+    {
+      "slug": "atlantic-canada-international-enrolment-october-2026",
+      "title": "加拿大大西洋大學全時國際生減18%：10月快照為13,775人",
+      "url": "https://globalednews.com/news/atlantic-canada-international-enrolment-october-2026/",
+      "sources": [
+        {
+          "label": "Association of Atlantic Universities | 2026–27 preliminary visa enrolment",
+          "url": "https://atlanticuniversities.ca/wp-content/uploads/2026/10/web_VISA_PreliminaryEnrolments-26-27_Final-Oct.-1426-4.pdf"
+        },
+        {
+          "label": "ICEF Monitor | Independent analysis, 15 October",
+          "url": "https://monitor.icef.com/2026/10/what-is-happening-with-international-student-numbers-in-canada-so-far-this-year/"
+        }
+      ],
+      "verifiedAt": "2026-10-18T07:39:50.711083+08:00",
+      "publishedVerifiedAt": "2026-10-18T07:51:04.729549+08:00",
+      "publicationEvidence": "docs/daily-reports/2026-10-18-live-seo.json"
+    },
+    {
+      "slug": "netherlands-tuition-rates-2027-2028-taiwan",
+      "title": "荷蘭2027學費預算：法定€2,771，台灣生通常適用較高校訂費率",
+      "url": "https://globalednews.com/news/netherlands-tuition-rates-2027-2028-taiwan/",
+      "sources": [
+        {
+          "label": "Dutch Government Gazette | Regulation published 22 June 2026",
+          "url": "https://zoek.officielebekendmakingen.nl/stcrt-2026-21984.html"
+        },
+        {
+          "label": "TU Delft | 2026–27 and 2027–28 fee tables",
+          "url": "https://www.tudelft.nl/en/education/study-programme-orientation/practical-matters/tuition-fee-finances"
+        }
+      ],
+      "verifiedAt": "2026-10-18T07:39:50.711083+08:00",
+      "publishedVerifiedAt": "2026-10-18T07:51:04.729549+08:00",
+      "publicationEvidence": "docs/daily-reports/2026-10-18-live-seo.json"
+    }
+  ],
   "scholarshipChecks": [
     {
       "slug": "2026-10-waikato-vice-chancellor-2027",
@@ -218,7 +273,9 @@
       "verifiedAt": "2026-10-18T07:39:50.711083+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New scholarship; current 2027 regulations, Taiwan eligibility, open application round, value and exceptions cross-checked."
+      "updateSummary": "New scholarship; current 2027 regulations, Taiwan eligibility, open application round, value and exceptions cross-checked.",
+      "publishedVerifiedAt": "2026-10-18T07:51:04.729549+08:00",
+      "publicationEvidence": "docs/daily-reports/2026-10-18-live-seo.json"
     },
     {
       "slug": "2026-10-waikato-research-masters-2027",
@@ -235,7 +292,9 @@
       "verifiedAt": "2026-10-18T07:39:50.711083+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New scholarship; current 2027 regulations, Taiwan eligibility, open application round, value and exceptions cross-checked."
+      "updateSummary": "New scholarship; current 2027 regulations, Taiwan eligibility, open application round, value and exceptions cross-checked.",
+      "publishedVerifiedAt": "2026-10-18T07:51:04.729549+08:00",
+      "publicationEvidence": "docs/daily-reports/2026-10-18-live-seo.json"
     },
     {
       "slug": "2026-10-canterbury-guardian-commerce-2027",
@@ -253,7 +312,9 @@
       "verifiedAt": "2026-10-18T07:39:50.711083+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New scholarship; current 2027 regulations, Taiwan eligibility, open application round, value and exceptions cross-checked."
+      "updateSummary": "New scholarship; current 2027 regulations, Taiwan eligibility, open application round, value and exceptions cross-checked.",
+      "publishedVerifiedAt": "2026-10-18T07:51:04.729549+08:00",
+      "publicationEvidence": "docs/daily-reports/2026-10-18-live-seo.json"
     }
   ],
   "scholarshipAdditions": [
@@ -272,7 +333,9 @@
       "verifiedAt": "2026-10-18T07:39:50.711083+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New scholarship; current 2027 regulations, Taiwan eligibility, open application round, value and exceptions cross-checked."
+      "updateSummary": "New scholarship; current 2027 regulations, Taiwan eligibility, open application round, value and exceptions cross-checked.",
+      "publishedVerifiedAt": "2026-10-18T07:51:04.729549+08:00",
+      "publicationEvidence": "docs/daily-reports/2026-10-18-live-seo.json"
     },
     {
       "slug": "2026-10-waikato-research-masters-2027",
@@ -289,7 +352,9 @@
       "verifiedAt": "2026-10-18T07:39:50.711083+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New scholarship; current 2027 regulations, Taiwan eligibility, open application round, value and exceptions cross-checked."
+      "updateSummary": "New scholarship; current 2027 regulations, Taiwan eligibility, open application round, value and exceptions cross-checked.",
+      "publishedVerifiedAt": "2026-10-18T07:51:04.729549+08:00",
+      "publicationEvidence": "docs/daily-reports/2026-10-18-live-seo.json"
     },
     {
       "slug": "2026-10-canterbury-guardian-commerce-2027",
@@ -307,7 +372,9 @@
       "verifiedAt": "2026-10-18T07:39:50.711083+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New scholarship; current 2027 regulations, Taiwan eligibility, open application round, value and exceptions cross-checked."
+      "updateSummary": "New scholarship; current 2027 regulations, Taiwan eligibility, open application round, value and exceptions cross-checked.",
+      "publishedVerifiedAt": "2026-10-18T07:51:04.729549+08:00",
+      "publicationEvidence": "docs/daily-reports/2026-10-18-live-seo.json"
     }
   ],
   "peterImports": [
@@ -316,17 +383,333 @@
       "title": "Peter觀點：Common App活動表，也要看見真實生活責任",
       "url": "https://globalednews.com/peter/common-app-real-life-experiences-2026/",
       "sourceUrl": "https://www.facebook.com/permalink.php?story_fbid=122147538981172155&id=61585164670358",
-      "verifiedAt": "2026-10-18T07:41:50.681385+08:00"
+      "verifiedAt": "2026-10-18T07:41:50.681385+08:00",
+      "publishedVerifiedAt": "2026-10-18T07:51:04.729549+08:00",
+      "publicationEvidence": "docs/daily-reports/2026-10-18-live-seo.json"
     }
   ],
-  "socialPosts": [],
-  "gaps": [
-    "COMMIT_DEPLOY",
-    "PUBLISH",
-    "ACCEPTANCE",
-    "VERIFY"
+  "socialPosts": [
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "pageId": "101904929207004",
+      "articleUrl": "https://globalednews.com/news/atlantic-canada-international-enrolment-october-2026/",
+      "status": "PUBLISHED",
+      "photoAttachedAt": "2026-10-18T07:49:53.217+08:00",
+      "photoReadyEvidence": "docs/daily-checks/2026-10-18/news-facebook-photo-ready.png",
+      "accountVerified": true,
+      "copyAddedAt": "2026-10-18T07:50:03.124+08:00",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-18T07:51:32.003+08:00",
+      "publishClickedAt": "2026-10-18T07:51:32.003+08:00",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0WnghYrW3cTsMVsqZc5JvPDcfzNECwTVy2ieuj7JB8wJVvwFoqv1X2P62Zp6FotV7l",
+      "id": "1091949223581275",
+      "photoAttachments": [
+        {
+          "id": "1091949223581275",
+          "url": "https://www.facebook.com/photo/?fbid=1091949223581275"
+        }
+      ],
+      "publishedAt": "2026-10-18T07:51:00+08:00",
+      "publishedAtBasis": "Meta published list, minute precision",
+      "verifiedAt": "2026-10-18T07:53:49.056+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-18T07:53:49.056+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-18/news-facebook-public.png",
+      "visibility": "public",
+      "method": "direct-browser-meta-business-suite",
+      "mediaKind": "uploaded-photo",
+      "publicPhotoScreenshot": "docs/daily-checks/2026-10-18/news-facebook-public.png"
+    },
+    {
+      "campaign": "news",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/news/atlantic-canada-international-enrolment-october-2026/",
+      "publishClickedAt": "2026-10-18T07:51:53.467+08:00",
+      "id": "DenVK_LgYkH",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DenVK_LgYkH",
+      "publishedAt": "2026-10-18T07:51:54+08:00",
+      "verifiedAt": "2026-10-18T07:53:15.174+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-18T07:53:15.174+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-18/news-threads-public.png",
+      "visibility": "public",
+      "accountVerified": true
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "id": "DenVIjwARRj",
+      "publicUrl": "https://www.instagram.com/p/DenVIjwARRj/",
+      "publishedAt": "2026-10-18T07:51:00+08:00",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/news/atlantic-canada-international-enrolment-october-2026/",
+      "verifiedAt": "2026-10-18T07:53:49.056+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-18T07:53:49.056+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-18/news-instagram-public.png",
+      "visibility": "public",
+      "accountVerified": true,
+      "method": "direct-browser-meta-business-suite"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "pageId": "101904929207004",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-canterbury-guardian-commerce-2027/",
+      "status": "PUBLISHED",
+      "photoAttachedAt": "2026-10-18T07:54:28.694+08:00",
+      "photoReadyEvidence": "docs/daily-checks/2026-10-18/scholarship-facebook-photo-ready.png",
+      "accountVerified": true,
+      "copyAddedAt": "2026-10-18T07:54:29.750+08:00",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-18T07:54:53.729+08:00",
+      "publishClickedAt": "2026-10-18T07:54:53.729+08:00",
+      "id": "1091952010247663",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0nED2YjKzF3UmGwuyFfjUcMmZYge1tSW2VHBC6UYUKMXGgQmTBTTZwx4iS5rcKHH2l",
+      "photoAttachments": [
+        {
+          "id": "1091952010247663",
+          "url": "https://www.facebook.com/photo/?fbid=1091952010247663"
+        }
+      ],
+      "publishedAt": "2026-10-18T07:54:00+08:00",
+      "publishedAtBasis": "Meta published list minute precision",
+      "verifiedAt": "2026-10-18T07:56:29.927+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-18T07:56:29.927+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-18/scholarship-facebook-public.png",
+      "visibility": "public",
+      "method": "direct-browser",
+      "mediaKind": "uploaded-photo",
+      "publicPhotoScreenshot": "docs/daily-checks/2026-10-18/scholarship-facebook-public.png"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-canterbury-guardian-commerce-2027/",
+      "publishClickedAt": "2026-10-18T07:55:27.208+08:00",
+      "id": "DenVlL8kzG4",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DenVlL8kzG4",
+      "verifiedAt": "2026-10-18T07:56:32.422+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-18T07:56:32.422+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-18/scholarship-threads-public.png",
+      "visibility": "public",
+      "accountVerified": true,
+      "method": "direct-browser",
+      "publishedAt": "2026-10-18T07:55:29+08:00"
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "articleUrl": "https://globalednews.com/news/atlantic-canada-international-enrolment-october-2026/",
+      "status": "PUBLISHED",
+      "publishClickedAt": "2026-10-18T07:56:08.329+08:00",
+      "accountVerified": true,
+      "id": "7517372926766026753",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7517372926766026753/",
+      "publishedAt": "2026-10-18T07:56:08.329+08:00",
+      "publishedAtBasis": "Observed 剛剛 immediately after publication; local click timestamp",
+      "verifiedAt": "2026-10-18T07:56:55.625+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-18T07:56:55.625+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-18/news-linkedin-public.png",
+      "visibility": "public",
+      "method": "direct-browser"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-canterbury-guardian-commerce-2027/",
+      "id": "DenVhPjAWAk",
+      "publicUrl": "https://www.instagram.com/p/DenVhPjAWAk/",
+      "publishedAt": "2026-10-18T07:54:00+08:00",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-10-18T07:56:31.170+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-18T07:56:31.170+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-18/scholarship-instagram-public.png",
+      "visibility": "public",
+      "accountVerified": true,
+      "method": "direct-browser"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "pageId": "101904929207004",
+      "articleUrl": "https://globalednews.com/study-abroad/waikato-new-zealand-scholarship-pathways-2027/",
+      "status": "PUBLISHED",
+      "photoAttachedAt": "2026-10-18T07:57:10.295+08:00",
+      "photoReadyEvidence": "docs/daily-checks/2026-10-18/study-abroad-facebook-photo-ready.png",
+      "accountVerified": true,
+      "copyAddedAt": "2026-10-18T07:57:11.299+08:00",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-18T07:57:41.337+08:00",
+      "publishClickedAt": "2026-10-18T07:57:41.337+08:00",
+      "id": "1091953366914194",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0uwrrfTzBdWwNL7aNa6GiJZ2nzQ4jsAfCR1SfkbYTEge9CnyDSezDja99UgwyUTYEl",
+      "photoAttachments": [
+        {
+          "id": "1091953366914194",
+          "url": "https://www.facebook.com/photo/?fbid=1091953366914194"
+        }
+      ],
+      "publishedAt": "2026-10-18T07:57:00+08:00",
+      "publishedAtBasis": "Meta published list minute precision",
+      "verifiedAt": "2026-10-18T07:59:03.570+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-18T07:59:03.570+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-18/study-abroad-facebook-public.png",
+      "visibility": "public",
+      "method": "direct-browser",
+      "mediaKind": "uploaded-photo",
+      "publicPhotoScreenshot": "docs/daily-checks/2026-10-18/study-abroad-facebook-public.png"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-canterbury-guardian-commerce-2027/",
+      "status": "PUBLISHED",
+      "publishClickedAt": "2026-10-18T07:57:41.337+08:00",
+      "accountVerified": true,
+      "id": "7517373322569981952",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7517373322569981952/",
+      "publishedAt": "2026-10-18T07:57:41.337+08:00",
+      "publishedAtBasis": "Observed 剛剛 on public post; click timestamp",
+      "verifiedAt": "2026-10-18T07:58:18.944+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-18T07:58:18.944+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-18/scholarship-linkedin-public.png",
+      "visibility": "public",
+      "method": "direct-browser"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "articleUrl": "https://globalednews.com/study-abroad/waikato-new-zealand-scholarship-pathways-2027/",
+      "status": "PUBLISHED",
+      "publishClickedAt": "2026-10-18T07:57:51.385+08:00",
+      "id": "DenV2vBE2tm",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DenV2vBE2tm",
+      "verifiedAt": "2026-10-18T07:59:04.491+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-18T07:59:04.492+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-18/study-abroad-threads-public.png",
+      "visibility": "public",
+      "accountVerified": true,
+      "method": "direct-browser",
+      "publishedAt": "2026-10-18T07:57:52+08:00"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "articleUrl": "https://globalednews.com/study-abroad/waikato-new-zealand-scholarship-pathways-2027/",
+      "id": "DenV1rBAQNM",
+      "publicUrl": "https://www.instagram.com/p/DenV1rBAQNM/",
+      "publishedAt": "2026-10-18T07:57:00+08:00",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-10-18T07:59:04.019+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-18T07:59:04.019+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-18/study-abroad-instagram-public.png",
+      "visibility": "public",
+      "accountVerified": true,
+      "method": "direct-browser"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "articleUrl": "https://globalednews.com/study-abroad/waikato-new-zealand-scholarship-pathways-2027/",
+      "status": "PUBLISHED",
+      "publishClickedAt": "2026-10-18T07:59:04.534+08:00",
+      "accountVerified": true,
+      "id": "7517373673087959040",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7517373673087959040/",
+      "publishedAt": "2026-10-18T07:59:04.534+08:00",
+      "publishedAtBasis": "Observed 剛剛 on public post; click timestamp",
+      "verifiedAt": "2026-10-18T07:59:44.465+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-18T07:59:44.465+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-18/study-abroad-linkedin-public.png",
+      "visibility": "public",
+      "method": "direct-browser"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "status": "PUBLISHED",
+      "publishClickedAt": "2026-10-18T07:59:45.722+08:00",
+      "id": "DenWEr-AWS6",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DenWEr-AWS6",
+      "publishedAt": "2026-10-18T07:59:47+08:00",
+      "verifiedAt": "2026-10-18T08:03:09.724+08:00",
+      "mediaVerifiedAt": "2026-10-18T08:03:09.724+08:00",
+      "mediaStatus": "VERIFIED",
+      "imageCount": 1,
+      "visibility": "public",
+      "accountVerified": true,
+      "mediaEvidence": "docs/daily-checks/2026-10-18/campus-threads-public.png"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "publishClickedAt": "2026-10-18T08:02:47.845+08:00",
+      "id": "DenWbHVgXWq",
+      "publicUrl": "https://www.instagram.com/p/DenWbHVgXWq/",
+      "publishedAt": "2026-10-18T08:02:00+08:00",
+      "publishedAtBasis": "Meta published list, minute precision",
+      "verifiedAt": "2026-10-18T08:03:59.217+08:00",
+      "mediaVerifiedAt": "2026-10-18T08:03:59.217+08:00",
+      "mediaStatus": "VERIFIED",
+      "imageCount": 1,
+      "visibility": "public",
+      "mediaEvidence": "docs/daily-checks/2026-10-18/campus-instagram-public.png"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "publishClickedAt": "2026-10-18T08:03:00.429+08:00",
+      "id": "7517374660049809408",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7517374660049809408/",
+      "publishedAt": "2026-10-18T08:03:00.429+08:00",
+      "publishedAtBasis": "Publish action timestamp; public permalink showed 剛剛",
+      "verifiedAt": "2026-10-18T08:03:39.010+08:00",
+      "mediaVerifiedAt": "2026-10-18T08:03:39.010+08:00",
+      "mediaStatus": "VERIFIED",
+      "imageCount": 1,
+      "visibility": "public",
+      "mediaEvidence": "docs/daily-checks/2026-10-18/campus-linkedin-public.png"
+    }
   ],
-  "manualActions": [],
+  "gaps": [
+    "Mobile responsive acceptance remains unverified: browser viewport override did not change the measured 1750px layout; screenshots repeatedly timed out. Local HTTP harness was unreachable and file URL fallback was blocked by browser security policy."
+  ],
+  "manualActions": [
+    "Restore a working permitted browser mobile viewport, then verify the live 390px layout and rerun the daily verifier. No login or publishing action is needed."
+  ],
   "phases": {
     "PREFLIGHT": {
       "at": "2026-10-18T04:57:12.165561+08:00",
@@ -348,7 +731,9 @@
           "url": "https://universitiesaustralia.edu.au/media-item/opening-the-door-to-more-university-graduates/"
         }
       ],
-      "verifiedAt": "2026-10-18T07:39:50.711083+08:00"
+      "verifiedAt": "2026-10-18T07:39:50.711083+08:00",
+      "publishedVerifiedAt": "2026-10-18T07:51:04.729549+08:00",
+      "publicationEvidence": "docs/daily-reports/2026-10-18-live-seo.json"
     },
     {
       "slug": "atlantic-canada-international-enrolment-october-2026",
@@ -364,7 +749,9 @@
           "url": "https://monitor.icef.com/2026/10/what-is-happening-with-international-student-numbers-in-canada-so-far-this-year/"
         }
       ],
-      "verifiedAt": "2026-10-18T07:39:50.711083+08:00"
+      "verifiedAt": "2026-10-18T07:39:50.711083+08:00",
+      "publishedVerifiedAt": "2026-10-18T07:51:04.729549+08:00",
+      "publicationEvidence": "docs/daily-reports/2026-10-18-live-seo.json"
     },
     {
       "slug": "netherlands-tuition-rates-2027-2028-taiwan",
@@ -380,7 +767,9 @@
           "url": "https://www.tudelft.nl/en/education/study-programme-orientation/practical-matters/tuition-fee-finances"
         }
       ],
-      "verifiedAt": "2026-10-18T07:39:50.711083+08:00"
+      "verifiedAt": "2026-10-18T07:39:50.711083+08:00",
+      "publishedVerifiedAt": "2026-10-18T07:51:04.729549+08:00",
+      "publicationEvidence": "docs/daily-reports/2026-10-18-live-seo.json"
     }
   ],
   "researchCompletedAt": "2026-10-18T07:39:50.711083+08:00",
@@ -435,7 +824,61 @@
         "finding": "已讀2026/27來校交換資訊：2027春季提名9/15、申請9/25已截止；不可當成仍開放赴外招生，課程與CEFR文件可供校園線索。"
       }
     ],
-    "published": [],
+    "published": [
+      {
+        "campaign": "taiwan-universities",
+        "network": "threads",
+        "articleUrl": "https://globalednews.com/taiwan-universities/",
+        "status": "PUBLISHED",
+        "publishClickedAt": "2026-10-18T07:59:45.722+08:00",
+        "id": "DenWEr-AWS6",
+        "publicUrl": "https://www.threads.com/@ltuossdtw/post/DenWEr-AWS6",
+        "publishedAt": "2026-10-18T07:59:47+08:00",
+        "verifiedAt": "2026-10-18T08:03:09.724+08:00",
+        "mediaVerifiedAt": "2026-10-18T08:03:09.724+08:00",
+        "mediaStatus": "VERIFIED",
+        "imageCount": 1,
+        "visibility": "public",
+        "accountVerified": true,
+        "mediaEvidence": "docs/daily-checks/2026-10-18/campus-threads-public.png"
+      },
+      {
+        "campaign": "taiwan-universities",
+        "network": "instagram",
+        "articleUrl": "https://globalednews.com/taiwan-universities/",
+        "status": "PUBLISHED",
+        "accountVerified": true,
+        "publishClickedAt": "2026-10-18T08:02:47.845+08:00",
+        "id": "DenWbHVgXWq",
+        "publicUrl": "https://www.instagram.com/p/DenWbHVgXWq/",
+        "publishedAt": "2026-10-18T08:02:00+08:00",
+        "publishedAtBasis": "Meta published list, minute precision",
+        "verifiedAt": "2026-10-18T08:03:59.217+08:00",
+        "mediaVerifiedAt": "2026-10-18T08:03:59.217+08:00",
+        "mediaStatus": "VERIFIED",
+        "imageCount": 1,
+        "visibility": "public",
+        "mediaEvidence": "docs/daily-checks/2026-10-18/campus-instagram-public.png"
+      },
+      {
+        "campaign": "taiwan-universities",
+        "network": "linkedin",
+        "articleUrl": "https://globalednews.com/taiwan-universities/",
+        "status": "PUBLISHED",
+        "accountVerified": true,
+        "publishClickedAt": "2026-10-18T08:03:00.429+08:00",
+        "id": "7517374660049809408",
+        "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7517374660049809408/",
+        "publishedAt": "2026-10-18T08:03:00.429+08:00",
+        "publishedAtBasis": "Publish action timestamp; public permalink showed 剛剛",
+        "verifiedAt": "2026-10-18T08:03:39.010+08:00",
+        "mediaVerifiedAt": "2026-10-18T08:03:39.010+08:00",
+        "mediaStatus": "VERIFIED",
+        "imageCount": 1,
+        "visibility": "public",
+        "mediaEvidence": "docs/daily-checks/2026-10-18/campus-linkedin-public.png"
+      }
+    ],
     "pendingConsent": [],
     "outreachDrafts": [],
     "gaps": [],
@@ -455,19 +898,108 @@
       3,
       4
     ],
-    "pendingLiveVerification": true
+    "pendingLiveVerification": false,
+    "visibleIndices": [
+      2,
+      3,
+      4
+    ],
+    "liveVerifiedAt": "2026-10-18T08:10:21.780+08:00",
+    "visibleSources": [
+      "NOWnews",
+      "今周刊",
+      "工商時報"
+    ],
+    "evidence": "docs/daily-checks/2026-10-18/live-home-dom.txt"
   },
   "preparedAt": "2026-10-18T07:41:50.681385+08:00",
   "phaseCompleted": [
     "PREFLIGHT",
     "RESEARCH",
     "PREPARE",
-    "BUILD"
+    "BUILD",
+    "COMMIT_DEPLOY",
+    "PUBLISH"
   ],
   "build": {
     "status": "PASS",
     "verifiedAt": "2026-10-18T07:48:35.007191+08:00",
     "evidence": "docs/daily-checks/2026-10-18/full-build-final.log",
     "newEnglishPagesCjkFree": 8
+  },
+  "deployment": {
+    "commit": "6e98570c012171082c72936b9a9c2153e1fe7d88",
+    "status": "success",
+    "verifiedAt": "2026-10-18T07:51:04.729549+08:00",
+    "runUrl": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/39080445876"
+  },
+  "acceptance": {
+    "seo": true,
+    "seoEvidence": "docs/daily-reports/2026-10-18-live-seo.json",
+    "desktop": true,
+    "mobile": false,
+    "searchFilter": true,
+    "images": true,
+    "verifiedAt": "2026-10-18T08:10:21.780+08:00",
+    "uiEvidence": "docs/daily-reports/2026-10-18-live-ui.json",
+    "mobileStatus": "BLOCKED_TOOLING"
+  },
+  "newFacebookPagePost": {
+    "campaign": "new-facebook-page",
+    "network": "facebook",
+    "pageId": "61595164194381",
+    "businessAssetId": "1355044634361784",
+    "articleUrl": "https://globalednews.com/news/atlantic-canada-international-enrolment-october-2026/",
+    "status": "PUBLISHED",
+    "accountVerified": true,
+    "photoAttachedAt": "2026-10-18T08:05:35.419+08:00",
+    "photoReadyEvidence": "docs/daily-checks/2026-10-18/new-facebook-photo-ready.png",
+    "copyAddedAt": "2026-10-18T08:05:35.545+08:00",
+    "previewStatus": "VERIFIED",
+    "previewVerifiedAt": "2026-10-18T08:05:42.309+08:00",
+    "publishClickedAt": "2026-10-18T08:05:42.309+08:00",
+    "id": "122107591419505473",
+    "postId": "122107592325505473",
+    "publicUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid02RbNeMhvneXan3mFzcvKvxE7nq8CWArgDNM8SbZbNzg6ezpk4Kzk2W93D1cnAx1LRl&id=61595164194381",
+    "publishedAt": "2026-10-18T08:05:00+08:00",
+    "publishedAtBasis": "Meta published list, minute precision",
+    "photoAttachments": [
+      {
+        "id": "122107591419505473",
+        "url": "https://www.facebook.com/photo/?fbid=122107591419505473"
+      }
+    ],
+    "verifiedAt": "2026-10-18T08:07:13.829+08:00",
+    "mediaVerifiedAt": "2026-10-18T08:07:13.829+08:00",
+    "mediaStatus": "VERIFIED",
+    "mediaKind": "uploaded-photo",
+    "imageCount": 1,
+    "visibility": "public",
+    "mediaEvidence": "docs/daily-checks/2026-10-18/new-facebook-public.png",
+    "publicPhotoScreenshot": "docs/daily-checks/2026-10-18/new-facebook-public.png"
+  },
+  "updatedAt": "2026-10-18T08:10:21.780+08:00",
+  "report0800": {
+    "status": "in_progress",
+    "summary": "3 news, 3 new scholarships, 1 Peter import and deployment ready; 12 of 15 established social posts verified, campus and new page publishing/acceptance still in progress.",
+    "basis": "Contemporaneous user-facing commentary; exact wall-clock second not recorded.",
+    "reportedLocalMinute": "2026-10-18 08:00 Asia/Taipei"
+  },
+  "runIssues": [
+    {
+      "stage": "RESEARCH",
+      "issue": "Source download stalled for roughly 2.5 hours before recovery, delaying the batch beyond 08:00."
+    },
+    {
+      "stage": "ACCEPTANCE",
+      "issue": "Mobile responsive acceptance remains unverified: browser viewport override did not change the measured 1750px layout; screenshots repeatedly timed out. Local HTTP harness was unreachable and file URL fallback was blocked by browser security policy."
+    }
+  ],
+  "verification": {
+    "status": "INCOMPLETE",
+    "command": "node scripts/verify-daily-delivery.mjs 2026-10-18",
+    "evidence": "docs/daily-checks/2026-10-18/verify-daily-delivery.log",
+    "note": "Do not mark completed until actual mobile acceptance succeeds.",
+    "verifiedAt": "2026-10-18T08:10:52.656+08:00"
   }
 }

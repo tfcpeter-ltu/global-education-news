@@ -473,6 +473,70 @@
           "visibility": "public"
         }
       ]
+    },
+    {
+      "date": "2026-10-18",
+      "CTA": "免費加入會員",
+      "status": "published",
+      "campaign": "taiwan-universities",
+      "topic": "ntnu-japan-exchange-october",
+      "contentPath": "docs/social-posts/2026-10-18/taiwan-universities--ntnu-japan-exchange-october.json",
+      "evidence": "docs/social-posts/2026-10-18/publication-log.json",
+      "publishedPosts": [
+        {
+          "campaign": "taiwan-universities",
+          "network": "threads",
+          "articleUrl": "https://globalednews.com/taiwan-universities/",
+          "status": "PUBLISHED",
+          "publishClickedAt": "2026-10-18T07:59:45.722+08:00",
+          "id": "DenWEr-AWS6",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DenWEr-AWS6",
+          "publishedAt": "2026-10-18T07:59:47+08:00",
+          "verifiedAt": "2026-10-18T08:03:09.724+08:00",
+          "mediaVerifiedAt": "2026-10-18T08:03:09.724+08:00",
+          "mediaStatus": "VERIFIED",
+          "imageCount": 1,
+          "visibility": "public",
+          "accountVerified": true,
+          "mediaEvidence": "docs/daily-checks/2026-10-18/campus-threads-public.png"
+        },
+        {
+          "campaign": "taiwan-universities",
+          "network": "instagram",
+          "articleUrl": "https://globalednews.com/taiwan-universities/",
+          "status": "PUBLISHED",
+          "accountVerified": true,
+          "publishClickedAt": "2026-10-18T08:02:47.845+08:00",
+          "id": "DenWbHVgXWq",
+          "publicUrl": "https://www.instagram.com/p/DenWbHVgXWq/",
+          "publishedAt": "2026-10-18T08:02:00+08:00",
+          "publishedAtBasis": "Meta published list, minute precision",
+          "verifiedAt": "2026-10-18T08:03:59.217+08:00",
+          "mediaVerifiedAt": "2026-10-18T08:03:59.217+08:00",
+          "mediaStatus": "VERIFIED",
+          "imageCount": 1,
+          "visibility": "public",
+          "mediaEvidence": "docs/daily-checks/2026-10-18/campus-instagram-public.png"
+        },
+        {
+          "campaign": "taiwan-universities",
+          "network": "linkedin",
+          "articleUrl": "https://globalednews.com/taiwan-universities/",
+          "status": "PUBLISHED",
+          "accountVerified": true,
+          "publishClickedAt": "2026-10-18T08:03:00.429+08:00",
+          "id": "7517374660049809408",
+          "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7517374660049809408/",
+          "publishedAt": "2026-10-18T08:03:00.429+08:00",
+          "publishedAtBasis": "Publish action timestamp; public permalink showed 剛剛",
+          "verifiedAt": "2026-10-18T08:03:39.010+08:00",
+          "mediaVerifiedAt": "2026-10-18T08:03:39.010+08:00",
+          "mediaStatus": "VERIFIED",
+          "imageCount": 1,
+          "visibility": "public",
+          "mediaEvidence": "docs/daily-checks/2026-10-18/campus-linkedin-public.png"
+        }
+      ]
     }
   ]
 }

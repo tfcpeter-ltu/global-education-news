@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-18",
+  "timezone": "Asia/Taipei",
+  "verifiedAt": "2026-10-18T08:10:21.780+08:00",
+  "desktop": {
+    "status": "PASS",
+    "screenshots": [
+      "docs/daily-checks/2026-10-18/live-home-desktop.png",
+      "docs/daily-checks/2026-10-18/live-news-desktop.png"
+    ]
+  },
+  "search": {
+    "status": "PASS",
+    "url": "https://globalednews.com/scholarships/",
+    "query": "Waikato",
+    "country": "紐西蘭",
+    "statusFilter": "開放中",
+    "resultCount": 2,
+    "evidence": "docs/daily-checks/2026-10-18/search-filter-dom.txt"
+  },
+  "ltu": {
+    "checkedAt": "2026-10-18T07:41:50.681385+08:00",
+    "poolSize": 12,
+    "expectedVisibleIndices": [
+      2,
+      3,
+      4
+    ],
+    "pendingLiveVerification": false,
+    "visibleIndices": [
+      2,
+      3,
+      4
+    ],
+    "liveVerifiedAt": "2026-10-18T08:10:21.780+08:00",
+    "visibleSources": [
+      "NOWnews",
+      "今周刊",
+      "工商時報"
+    ],
+    "evidence": "docs/daily-checks/2026-10-18/live-home-dom.txt"
+  },
+  "mobile": {
+    "status": "BLOCKED",
+    "requestedWidth": 390,
+    "requestedHeight": 844,
+    "observedWidth": 1750,
+    "observedHeight": 965,
+    "observedDocumentWidth": 1731,
+    "viewportReset": true,
+    "issue": "Mobile responsive acceptance remains unverified: browser viewport override did not change the measured 1750px layout; screenshots repeatedly timed out. Local HTTP harness was unreachable and file URL fallback was blocked by browser security policy."
+  },
+  "publication": {
+    "established": 15,
+    "newFacebookPage": 1,
+    "allPublicPhotosReadBack": true,
+    "log": "docs/social-posts/2026-10-18/publication-log.json"
+  }
+}

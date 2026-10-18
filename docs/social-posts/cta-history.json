@@ -38,6 +38,12 @@
       "status": "published",
       "evidence": "2026-09-21/publication-log.json",
       "note": "依使用者指定每篇強調會員週報價值。"
+    },
+    {
+      "date": "2026-10-18",
+      "CTA": "免費加入會員",
+      "status": "published",
+      "evidence": "docs/social-posts/2026-10-18/publication-log.json"
     }
   ]
 }
