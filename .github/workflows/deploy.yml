@@ -25,7 +25,11 @@ jobs:
         with:
           node-version: 22
       - name: Install dependencies
-        run: npm install
+        run: |
+          npm install --global pnpm@11.25.0
+          pnpm install --frozen-lockfile
+      - name: Check production dependency advisories
+        run: pnpm audit --prod --audit-level high
       - name: Set up Python for bilingual editions
         uses: actions/setup-python@v5
         with:
@@ -47,6 +51,8 @@ jobs:
         run: npm run build
       - name: Verify bilingual routes and form values
         run: python scripts/test-bilingual.py
+      - name: Verify public demo and operator safety disclosures
+        run: node scripts/test-public-service-safety.mjs
       - name: Prepare changed URLs for IndexNow
         run: node scripts/indexnow.mjs prepare
       - name: Save IndexNow submission

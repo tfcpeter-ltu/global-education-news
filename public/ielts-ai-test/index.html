@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="zh-Hant">
 <head>
+<meta name="referrer" content="strict-origin-when-cross-origin"><meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; upgrade-insecure-requests">
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <meta name="theme-color" content="#0e2b4d" />
@@ -26,8 +27,9 @@
 </header>
 
 <main>
+<aside class="service-notice" aria-label="測試版與營運者說明"><strong>公開 Beta 示範｜不收費、不需要密碼</strong><p>由布萊斯教育有限公司（統編 91023087）營運。本頁為英語練習流程示範，並非 IELTS 官方網站，與 IELTS 官方無隸屬或認證關係。題組、分數、課表及 AI 回饋含模擬資料，不是正式成績，也不保證考試結果。</p><p>本頁練習資料儲存在此瀏覽器；方案價格與開通按鈕僅為介面模擬，不會扣款或成立訂單。請勿輸入真實密碼、證件、信用卡或其他敏感資料。<a href="/security/">安全與服務說明</a> · <a href="/privacy/">隱私政策</a> · <a href="/contact/">聯絡營運者</a></p></aside>
 <section id="login" class="page">
-  <div class="login-wrap"><div class="login-visual"><div><span class="eyebrow">LTU 國際學術中心</span><h1>把每一次練習<br>變成下一次進步。</h1><p>2,000 套完整題組引擎，結合 AI 弱點診斷、30／60／90 天個人化課表、Writing 與 Speaking 練習，讓學生每天知道自己最該練什麼。</p><div class="hero-mini" style="max-width:420px"><div><b>2,000</b><small>完整題組引擎</small></div><div><b>30/60/90</b><small>天個人化路徑</small></div></div></div></div><div class="login-form-wrap"><div class="login-card"><h2>學生登入</h2><p class="muted">登入後繼續你的個人化學習進度。</p><div class="field"><label>Email</label><input id="loginEmail" type="email" placeholder="student@example.com"></div><div class="field"><label>密碼</label><input id="loginPassword" type="password" placeholder="輸入密碼"></div><button class="btn dark block" style="margin-top:16px" onclick="demoLogin()">登入學生平台</button><div class="divider">或</div><button class="btn outline block" onclick="demoLogin(true)">直接進入 Demo 學生帳號</button><div class="demo-note" style="margin-top:13px">目前公開測試站使用瀏覽器本機帳號資料；正式上線版會改用 Supabase Auth，讓每位學生跨裝置保存資料。</div></div></div></div>
+  <div class="login-wrap"><div class="login-visual"><div><span class="eyebrow">LTU 國際學術中心</span><h1>把每一次練習<br>變成下一次進步。</h1><p>2,000 套完整題組引擎，結合 AI 弱點診斷、30／60／90 天個人化課表、Writing 與 Speaking 練習，讓學生每天知道自己最該練什麼。</p><div class="hero-mini" style="max-width:420px"><div><b>2,000</b><small>完整題組引擎</small></div><div><b>30/60/90</b><small>天個人化路徑</small></div></div></div></div><div class="login-form-wrap"><div class="login-card"><h2>示範體驗入口</h2><p class="muted">無須帳號或密碼即可體驗；資料僅保存在本機瀏覽器。</p><button class="btn dark block" style="margin-top:16px" onclick="demoLogin(true)">進入示範體驗</button><div class="demo-note" style="margin-top:13px">此頁不進行帳號驗證、不收集密碼，也不提供跨裝置資料保存。</div></div></div></div>
 </section>
 
 <section id="dashboard" class="page active"><div class="shell">
