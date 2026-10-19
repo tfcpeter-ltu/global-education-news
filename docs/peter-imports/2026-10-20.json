@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-20",
+  "imports": [],
+  "review": {
+    "status": "fewer-new-posts",
+    "availableNewCount": 0,
+    "checkedAt": "2026-10-20T05:14:35.745593+08:00",
+    "sourceUrls": [
+      "https://www.facebook.com/profile.php?id=61585164670358"
+    ],
+    "evidence": "docs/daily-checks/2026-10-20/peter-review.txt",
+    "finding": "Latest visible posts: ebook giveaway, Common App already imported on October18, Australia commentary. No qualified unimported article.",
+    "insufficientEvidence": [
+      {
+        "topic": "Ebook giveaway",
+        "reason": "Promotional item; no new independently supported education report or reusable image established."
+      },
+      {
+        "topic": "Australia commentary",
+        "reason": "Exact original economic/statistical tables and image reuse rights not established; not imported."
+      }
+    ]
+  }
+}

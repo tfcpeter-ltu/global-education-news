@@ -1,0 +1,122 @@
+{
+  "checkedAt": "2026-10-20T05:14:35.745593+08:00",
+  "news": [
+    {
+      "slug": "france-parcoursup-2026-results-transparency",
+      "title": "法國Parcoursup公布2026結果：收到錄取建議，不等於已入學",
+      "url": "https://globalednews.com/news/france-parcoursup-2026-results-transparency/",
+      "publishedPath": "src/pages/news/france-parcoursup-2026-results-transparency.md",
+      "sources": [
+        {
+          "label": "French higher education ministry | 19 October 2026 results",
+          "url": "https://www.enseignementsup-recherche.gouv.fr/fr/parcoursup-2026-des-resultats-stables-dans-un-contexte-de-progression-historique-des-candidatures-104400"
+        },
+        {
+          "label": "Le Monde | independent reporting, 10 October 2026",
+          "url": "https://www.lemonde.fr/en/campus/article/2026/10/10/why-french-students-are-so-angry-about-parcoursup-the-higher-education-access-platform_6758447_11.html"
+        }
+      ],
+      "verifiedAt": "2026-10-20T05:14:35.745593+08:00"
+    },
+    {
+      "slug": "france-non-eu-tuition-2026-27-explainer",
+      "title": "法國留學費用解析：非歐盟學費與減免，必須分開確認",
+      "url": "https://globalednews.com/news/france-non-eu-tuition-2026-27-explainer/",
+      "publishedPath": "src/pages/news/france-non-eu-tuition-2026-27-explainer.md",
+      "sources": [
+        {
+          "label": "Campus France | official tuition guidance",
+          "url": "https://www.campusfrance.org/en/tuition-fees-France"
+        },
+        {
+          "label": "Immigration Advice Service | independent analysis, 17 September 2026",
+          "url": "https://iasservices.org.uk/france-tuition-fees-2026-2027-what-non-eu-students-need-to-know/"
+        }
+      ],
+      "verifiedAt": "2026-10-20T05:14:35.745593+08:00"
+    },
+    {
+      "slug": "france-teacher-exams-2027-registration-transition",
+      "title": "法國2027教師甄試報名中：學士與碩士管道並行，資格不能混用",
+      "url": "https://globalednews.com/news/france-teacher-exams-2027-registration-transition/",
+      "publishedPath": "src/pages/news/france-teacher-exams-2027-registration-transition.md",
+      "sources": [
+        {
+          "label": "French education ministry | recruitment calendar",
+          "url": "https://www.education.gouv.fr/concours-et-recrutements-99944"
+        },
+        {
+          "label": "SIEC | 2027 bachelor-level registration",
+          "url": "https://siec.education.fr/candidats/actualites/concours/44/inscriptions-concours-bac-3-session-2027"
+        },
+        {
+          "label": "SNES-FSU | independent union guidance",
+          "url": "https://www.snes.edu/ma-carriere/concours-entree/concours/concours-inscription/"
+        }
+      ],
+      "verifiedAt": "2026-10-20T05:14:35.745593+08:00"
+    }
+  ],
+  "scholarships": [
+    {
+      "slug": "2026-10-curtin-global-excellence-2027",
+      "title": "Curtin全球卓越獎：合格課程學費減40%，須達高成績門檻",
+      "url": "https://globalednews.com/scholarships/items/2026-10-curtin-global-excellence-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-curtin-global-excellence-2027.md",
+      "sources": [
+        "https://scholarships.curtin.edu.au/Scholarship/?id=7985",
+        "https://www.viec.lk/scholarships/"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-20T05:14:35.745593+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "Net-new award. Official open status, Taiwan eligibility, intake, exclusions and separate adviser analysis checked; no publication claim before deployment."
+    },
+    {
+      "slug": "2026-10-curtin-future-leaders-2027",
+      "title": "Curtin未來領袖獎：學費抵減1萬澳元，分兩期入帳",
+      "url": "https://globalednews.com/scholarships/items/2026-10-curtin-future-leaders-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-curtin-future-leaders-2027.md",
+      "sources": [
+        "https://scholarships.curtin.edu.au/Scholarship/?id=7987",
+        "https://www.oneuedu.com/vi-VN/news/13796"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-20T05:14:35.745593+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "Net-new award. Official open status, Taiwan eligibility, intake, exclusions and separate adviser analysis checked; no publication claim before deployment."
+    },
+    {
+      "slug": "2026-10-ecu-north-asia-2027",
+      "title": "ECU北亞獎學金：台灣列入資格，合格課程學費減20%",
+      "url": "https://globalednews.com/scholarships/items/2026-10-ecu-north-asia-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-ecu-north-asia-2027.md",
+      "sources": [
+        "https://www.ecu.edu.au/scholarships/details/2027-north-asia-international-scholarship",
+        "https://ulec.com.cn/posts/ecu-north-asia-scholarship-2027-20-percent-tuition/"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-20T05:14:35.745593+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "Net-new award. Official open status, Taiwan eligibility, intake, exclusions and separate adviser analysis checked; no publication claim before deployment."
+    }
+  ],
+  "independence": "Government/university primary sources compared with independently authored journalism, union guidance and education-adviser analysis. Secondary articles do not establish Taiwan eligibility; official criteria do.",
+  "excluded": [
+    {
+      "candidate": "Murdoch International Welcome 2027 old page",
+      "reason": "Official page marked discontinued; search/listing values conflict. Not used."
+    },
+    {
+      "candidate": "French doctoral tuition number",
+      "reason": "Campus France page contains EUR397/398 discrepancy; omitted from published explainer."
+    }
+  ],
+  "retrievalFallback": "Browser used for official sites with local certificate-store failures or HTTP403; no certificate checks disabled. Le Monde article read through web tool, without bypassing access controls."
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-20",
+  "timezone": "Asia/Taipei",
+  "status": "three-public-leads-reviewed",
+  "verifiedAt": "2026-10-20T05:14:35.745593+08:00",
+  "reviewedSchools": [
+    {
+      "school": "國立臺灣大學",
+      "schoolSlug": "ntu",
+      "source": "https://oia.ntu.edu.tw/board/detail/sn/2336",
+      "finding": "10月19日公告116年度學海說明會，報名10月30日17:00截止；這是說明會報名，不是獎學金核定。"
+    },
+    {
+      "school": "國立陽明交通大學",
+      "schoolSlug": "nycu",
+      "source": "https://oia.nycu.edu.tw/",
+      "finding": "10月19日更新2026/2027姐妹校短期課程清單；各課程條件另查，不概稱全部仍開放。"
+    },
+    {
+      "school": "國立清華大學",
+      "schoolSlug": "nthu",
+      "source": "https://oga.site.nthu.edu.tw/p/406-1524-316538,r8945.php?Lang=zh-tw",
+      "finding": "東北大學TESP追加招生，課程12月3–18日；清華校內10月26日23:59台灣時間，主辦10月29日日本時間截止；費用JPY110,000。"
+    }
+  ],
+  "published": [],
+  "pendingConsent": [],
+  "outreachDrafts": [],
+  "gaps": [],
+  "note": "Public-source leads only; no interviews or messages sent."
+}
