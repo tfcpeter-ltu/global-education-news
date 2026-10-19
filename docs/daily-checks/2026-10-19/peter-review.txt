@@ -1,0 +1,731 @@
+- heading "內容" [level=1]
+- generic: 發佈、管理貼文、Reel 與限時動態和排定其發佈時間，以及進行其他操作。
+- toolbar:
+  - button "匯出資料":
+    - generic: 匯出資料
+  - button "開啟匯出選項":
+    - generic: 開啟匯出選項
+  - button "移除"
+  - text: 你現在可以匯出下方表格中的資料。立即選擇「匯出資料」試試此功能。
+  - generic: 瞭解這項新功能
+  - button "建立 Reel":
+    - generic: 建立 Reel
+  - button "建立貼文":
+    - generic: 建立貼文
+  - button "建立貼文":
+    - generic: 建立貼文
+  - button "Facebook":
+    - img "Facebook"
+- navigation "內容":
+  - generic: 內容
+  - list:
+    - link "貼文和 Reel":
+      - /url: https://business.facebook.com/latest/posts/published_posts
+    - generic: 貼文和 Reel
+    - link "限時動態":
+      - /url: https://business.facebook.com/latest/posts/active_stories
+    - generic: 限時動態
+    - link "A／B 測試":
+      - /url: https://business.facebook.com/latest/posts/ab_testing
+    - generic: A／B 測試
+    - link "動態消息和網格":
+      - /url: https://business.facebook.com/latest/posts/feed_and_grid
+    - generic: 動態消息和網格
+    - link "提及和標籤":
+      - /url: https://business.facebook.com/latest/posts/tagged_content
+    - generic: 提及和標籤
+    - link "片段":
+      - /url: https://business.facebook.com/latest/posts/all_clips
+    - generic: 片段
+- navigation "精選集":
+  - generic: 精選集
+  - list:
+    - link "播放清單":
+      - /url: https://business.facebook.com/latest/posts/all_playlists
+    - generic: 播放清單
+- navigation "廣告創意素材":
+  - generic: 廣告創意素材
+  - list:
+    - link "現成 Reel":
+      - /url: https://business.facebook.com/latest/posts/ready_made_reels
+    - generic: 現成 Reel
+    - link "你可以多文發佈的影片":
+      - /url: https://business.facebook.com/latest/posts/videos_you_can_crosspost
+    - generic: 你可以多文發佈的影片
+- button "展開":
+  - generic: 展開
+- tablist:
+  - tab "已發佈" [selected]:
+    - generic: 已發佈
+  - tab "已排定發佈":
+    - generic: 已排定發佈
+  - tab "草稿":
+    - generic: 草稿
+  - tab "即將過期":
+    - generic: 即將過期
+  - tab "已過期":
+    - generic: 已過期
+  - tab "廣告貼文":
+    - generic: 廣告貼文
+- combobox "商家資產： Instagram Facebook":
+  - generic: 商家資產：
+  - img "Instagram"
+  - img "Facebook"
+- generic: 篩選
+- combobox "篩選 篩選":
+  - generic: 篩選
+- text: 依編號或文字搜尋
+- textbox "依編號或文字搜尋"
+- button "過去 90 天":
+  - generic: 過去 90 天
+- button "直欄":
+  - generic: 直欄
+- grid "已發佈的貼文":
+  - rowgroup:
+    - row "全選 標題 發佈日期 狀態 觸及人數 瀏覽次數 瀏覽者 追蹤人數 互動次數 按讚數和心情數 留言數 分享次數 儲存次數 連結點擊次數 觀看時間 影片平均播放時間 觀看 3 秒以上的次數 插播廣告收益約略值 內容營利計畫收益約略值":
+      - columnheader "全選":
+        - checkbox "全選"
+      - columnheader "標題":
+        - heading "標題" [level=4]:
+          - generic: 標題
+      - columnheader "發佈日期":
+        - button "發佈日期":
+          - heading "發佈日期" [level=4]:
+            - generic: 發佈日期
+        - separator:
+          - separator
+      - columnheader "狀態":
+        - button "狀態":
+          - heading "狀態" [level=4]:
+            - generic: 狀態
+        - separator:
+          - separator
+      - columnheader "觸及人數":
+        - button "觸及人數":
+          - heading "觸及人數" [level=4]:
+            - generic: 觸及人數
+        - separator:
+          - separator
+      - columnheader "瀏覽次數":
+        - button "瀏覽次數":
+          - heading "瀏覽次數" [level=4]:
+            - generic: 瀏覽次數
+        - separator:
+          - separator
+      - columnheader "瀏覽者":
+        - button "瀏覽者":
+          - heading "瀏覽者" [level=4]:
+            - generic: 瀏覽者
+        - separator:
+          - separator
+      - columnheader "追蹤人數":
+        - button "追蹤人數":
+          - heading "追蹤人數" [level=4]:
+            - generic: 追蹤人數
+        - separator:
+          - separator
+      - columnheader "互動次數":
+        - button "互動次數":
+          - heading "互動次數" [level=4]:
+            - generic: 互動次數
+        - separator:
+          - separator
+      - columnheader "按讚數和心情數":
+        - button "按讚數和心情數":
+          - heading "按讚數和心情數" [level=4]:
+            - generic: 按讚數和心情數
+        - separator:
+          - separator
+      - columnheader "留言數":
+        - button "留言數":
+          - heading "留言數" [level=4]:
+            - generic: 留言數
+        - separator:
+          - separator
+      - columnheader "分享次數":
+        - button "分享次數":
+          - heading "分享次數" [level=4]:
+            - generic: 分享次數
+        - separator:
+          - separator
+      - columnheader "儲存次數":
+        - button "儲存次數":
+          - heading "儲存次數" [level=4]:
+            - generic: 儲存次數
+        - separator:
+          - separator
+      - columnheader "連結點擊次數":
+        - button "連結點擊次數":
+          - heading "連結點擊次數" [level=4]:
+            - generic: 連結點擊次數
+        - separator:
+          - separator
+      - columnheader "觀看時間":
+        - button "觀看時間":
+          - heading "觀看時間" [level=4]:
+            - generic: 觀看時間
+        - separator:
+          - separator
+      - columnheader "影片平均播放時間":
+        - button "影片平均播放時間":
+          - heading "影片平均播放時間" [level=4]:
+            - generic: 影片平均播放時間
+        - separator:
+          - separator
+      - columnheader "觀看 3 秒以上的次數":
+        - button "觀看 3 秒以上的次數":
+          - heading "觀看 3 秒以上的次數" [level=4]:
+            - generic: 觀看 3 秒以上的次數
+        - separator:
+          - separator
+      - columnheader "插播廣告收益約略值":
+        - button "插播廣告收益約略值":
+          - heading "插播廣告收益約略值" [level=4]:
+            - generic: 插播廣告收益約略值
+        - separator:
+          - separator
+      - columnheader "內容營利計畫收益約略值":
+        - button "內容營利計畫收益約略值":
+          - heading "內容營利計畫收益約略值" [level=4]:
+            - generic: 內容營利計畫收益約略值
+        - separator:
+          - separator
+  - rowgroup:
+    - 'row "選擇含有 ID（122147561865172155）的項目 Facebook 📚 免費贈閱｜《看懂制度，選對世界》電子版 孩子適合去哪個國家留學？ 選大學，除了排名，還應該看什麼？ 現在選的科系，又能如何連結未來的發展？ 這些年，在與學生和家長的交流中，我發現，大家需要的不只是更多學校名單，而是有人把不同國家的教育制度與升學選擇，說得更清楚。 因此，我將 50 篇國際教育文章整理成《Peter の國際教育講座》第一集——《看懂制度，選對世界》，免費贈閱電子版，歡迎大家下載閱讀。🎁 🌍 內容涵蓋英國、美國、加拿大、澳洲、新加坡，以及跨國教育專題，從學制、選校、科系、申請，到畢業後的發展，陪你一步步整理自己的方向。 無論你正在探索海外升學，或希望陪孩子一起思考未來，都歡迎翻開這本書，也歡迎分享給有需要的親友。 📥 電子版下載連結 : https://drive.google.com/file/d/1mCuYhIhR_Zn13B7D5B5ZcA2_7vH4Dtf2/view?usp=sharing 也歡迎追蹤「Peter 的國際教育講座」，持續了解國際教育與升學資訊： https://www.facebook.com/profile.php?id=61585164670358 先理解世界，再選擇自己的方向。 Dr. Peter Chen 陳祖豐博士 LTU 國際學術中心 #免費電子書 #免費贈閱 #Peter的國際教育講座 #看懂制度選對世界 #國際教育 #海外升學 #LTU國際學術中心 相片 Peterの國際教育講座 加強推廣 開啟下拉式功能表 10月18日 11:33 目前未加強推廣 62 96 62 0 14 1 0 13 0 2 ‑‑ ‑‑ 0 ‑‑ $0.01"':
+      - gridcell "選擇含有 ID（122147561865172155）的項目":
+        - checkbox "選擇含有 ID（122147561865172155）的項目"
+      - 'gridcell "Facebook 📚 免費贈閱｜《看懂制度，選對世界》電子版 孩子適合去哪個國家留學？ 選大學，除了排名，還應該看什麼？ 現在選的科系，又能如何連結未來的發展？ 這些年，在與學生和家長的交流中，我發現，大家需要的不只是更多學校名單，而是有人把不同國家的教育制度與升學選擇，說得更清楚。 因此，我將 50 篇國際教育文章整理成《Peter の國際教育講座》第一集——《看懂制度，選對世界》，免費贈閱電子版，歡迎大家下載閱讀。🎁 🌍 內容涵蓋英國、美國、加拿大、澳洲、新加坡，以及跨國教育專題，從學制、選校、科系、申請，到畢業後的發展，陪你一步步整理自己的方向。 無論你正在探索海外升學，或希望陪孩子一起思考未來，都歡迎翻開這本書，也歡迎分享給有需要的親友。 📥 電子版下載連結 : https://drive.google.com/file/d/1mCuYhIhR_Zn13B7D5B5ZcA2_7vH4Dtf2/view?usp=sharing 也歡迎追蹤「Peter 的國際教育講座」，持續了解國際教育與升學資訊： https://www.facebook.com/profile.php?id=61585164670358 先理解世界，再選擇自己的方向。 Dr. Peter Chen 陳祖豐博士 LTU 國際學術中心 #免費電子書 #免費贈閱 #Peter的國際教育講座 #看懂制度選對世界 #國際教育 #海外升學 #LTU國際學術中心 相片 Peterの國際教育講座 加強推廣 開啟下拉式功能表"':
+        - img "Facebook"
+        - generic: "📚 免費贈閱｜《看懂制度，選對世界》電子版 孩子適合去哪個國家留學？ 選大學，除了排名，還應該看什麼？ 現在選的科系，又能如何連結未來的發展？ 這些年，在與學生和家長的交流中，我發現，大家需要的不只是更多學校名單，而是有人把不同國家的教育制度與升學選擇，說得更清楚。 因此，我將 50 篇國際教育文章整理成《Peter の國際教育講座》第一集——《看懂制度，選對世界》，免費贈閱電子版，歡迎大家下載閱讀。🎁 🌍 內容涵蓋英國、美國、加拿大、澳洲、新加坡，以及跨國教育專題，從學制、選校、科系、申請，到畢業後的發展，陪你一步步整理自己的方向。 無論你正在探索海外升學，或希望陪孩子一起思考未來，都歡迎翻開這本書，也歡迎分享給有需要的親友。 📥 電子版下載連結 : https://drive.google.com/file/d/1mCuYhIhR_Zn13B7D5B5ZcA2_7vH4Dtf2/view?usp=sharing 也歡迎追蹤「Peter 的國際教育講座」，持續了解國際教育與升學資訊： https://www.facebook.com/profile.php?id=61585164670358 先理解世界，再選擇自己的方向。 Dr. Peter Chen 陳祖豐博士 LTU 國際學術中心 #免費電子書 #免費贈閱 #Peter的國際教育講座 #看懂制度選對世界 #國際教育 #海外升學 #LTU國際學術中心"
+        - generic: 相片
+        - generic: Peterの國際教育講座
+        - button "加強推廣":
+          - generic: 加強推廣
+        - button "開啟下拉式功能表":
+          - generic: 開啟下拉式功能表
+      - gridcell "10月18日 11:33":
+        - button "10月18日 11:33":
+          - generic: 10月18日 11:33
+      - gridcell "目前未加強推廣":
+        - button "目前未加強推廣":
+          - generic "目前未加強推廣":
+      - gridcell "62":
+        - button "62":
+          - generic: "62"
+      - gridcell "96":
+        - button "96":
+          - generic: "96"
+      - gridcell "62":
+        - button "62":
+          - generic: "62"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "14":
+        - button "14":
+          - generic: "14"
+      - gridcell "1":
+        - button "1":
+          - generic: "1"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "13":
+        - button "13":
+          - generic: "13"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "2":
+        - button "2":
+          - generic: "2"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "$0.01":
+        - button "$0.01":
+          - generic: $0.01
+    - 'row "選擇含有 ID（17907320022567472）的項目 Instagram #LTUOSSD 輪播廣告 ltupeter 加強推廣 開啟下拉式功能表 10月18日 10:05 目前未加強推廣 1 2 ‑‑ 0 0 0 0 0 0 ‑‑ ‑‑ ‑‑ ‑‑ ‑‑ ‑‑"':
+      - gridcell "選擇含有 ID（17907320022567472）的項目":
+        - checkbox "選擇含有 ID（17907320022567472）的項目"
+      - 'gridcell "Instagram #LTUOSSD 輪播廣告 ltupeter 加強推廣 開啟下拉式功能表"':
+        - img "Instagram"
+        - generic: "#LTUOSSD"
+        - generic: 輪播廣告
+        - generic: ltupeter
+        - button "加強推廣":
+          - generic: 加強推廣
+        - button "開啟下拉式功能表":
+          - generic: 開啟下拉式功能表
+      - gridcell "10月18日 10:05":
+        - button "10月18日 10:05":
+          - generic: 10月18日 10:05
+      - gridcell "目前未加強推廣":
+        - button "目前未加強推廣":
+          - generic "目前未加強推廣":
+      - gridcell "1":
+        - button "1":
+          - generic: "1"
+      - gridcell "2":
+        - button "2":
+          - generic: "2"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+    - row:
+      - gridcell "選擇含有 ID（122147538981172155）的項目":
+        - checkbox "選擇含有 ID（122147538981172155）的項目"
+      - gridcell:
+        - img "Facebook"
+        - generic: "🧭【課外活動不只社團競賽：Common App 新制看見真實生活經歷】 沒有國際競賽、學生會主席或一長串志工時數，就代表申請美國大學沒有優勢嗎？ 答案是否定的。真正重要的，不是把十個欄位塞滿，而是讓招生官看懂：你把時間投入在哪裡、承擔了什麼，以及因此成長了什麼。 Common App 已於 2026–27 申請季把原本的「Activities」改名為「Activities and Experiences」。官方說明指出，新欄位希望更完整呈現高中以外的各種投入。這不是降低標準，而是把「值得被看見的經歷」重新定義。 ### 1️⃣ 美國大學所說的活動，比台灣家長想得更廣 官方申請指南列出的內容，包括社團、運動、藝術、社區參與、興趣、打工與家庭責任。換句話說，放學後照顧弟妹、在家中店面幫忙、長期通勤、固定打工補貼家用，並不必然是申請表上的空白。 以往不少學生誤以為只有「有證書、有職稱」才算活動，結果把最能說明個人處境與成熟度的經歷刪掉。新名稱傳達的制度訊號是：招生官想理解你如何運用有限的時間，而不只是計算你參加過多少組織。 ### 2️⃣ 十個欄位是上限，不是KPI Common App 的官方準備資料顯示，申請者可填最多10項活動，並須交代參與年級、每週時數、每年週數、職務及簡短說明；學術榮譽則另有最多5項的欄位。 但「最多10項」不等於「一定要10項」。三到五項長期、連貫而有成果的投入，通常比十項短期參與更有辨識度。招生官真正能比較的是持續性、責任程度、主動性與影響，而不是名詞有多華麗。 ### 3️⃣ 寫活動時，不要只寫職稱 同樣是「社團幹部」，以下兩種寫法傳遞的資訊完全不同： ❌「擔任社長，負責社團活動。」 ✅「帶領12名社員設計每週課程，建立新生培訓流程，使固定出席人數由8人增加至20人。」 有效的活動描述可用四個元素整理：**做了什麼＋服務誰＋產生什麼改變＋如何驗證**。數字不必誇大；若成果無法量化，也可以寫出你建立的制度、解決的問題或承擔的責任。 ### 4️⃣ Peter觀點：活動表其實是一張「時間資產負債表」 美國大學採整體審查，不會把每位學生放在相同資源起點上比較。家庭收入、學校資源、照顧責任與可支配時間不同，活動表的價值就在於提供脈絡。 但要注意：制度願意看見生活責任，不代表只要寫「辛苦」就會加分。招生官仍要看到選擇、行動與成長。家庭責任不是賣慘素材，而是證明可靠、時間管理與成熟判斷的證據。 ### 5️⃣ 學生與家長現在可以怎麼做？ 👩‍🎓 **學生：** 先做一張九至十二年級的時間盤點表，把社團、興趣、打工、家務、照顧責任與個人專案全部列出，再依「長期投入、責任、成果、與個人方向的關聯」排序。 👨‍👩‍👧 **家長：** 不要急著替孩子臨時堆活動。申請季前才加入的華麗項目，很難建立可信的成長軌跡。更值得做的是協助孩子回顧那些已經持續兩三年、卻被忽略的真實經歷。 申請不是把履歷裝飾得像別人，而是把自己的時間選擇說清楚。你家孩子最容易被低估的一項經歷，會是什麼？歡迎收藏，也分享給正在整理 Common App 的家庭。 #Peter觀點實戰申請乾貨 #Peter觀點留學底層邏輯 #美國大學申請 #CommonApp #課外活動 #申請策略 #國際教育 ## D. 來源 1. Common App｜Common App opens application to launch 2026–27 season｜2026-07-31 https://www.commonapp.org/blog/common-app-opens-application-launch-2026-27-season/ 2. Common App｜Application guide for first-year students｜頁面未標發布日期，2026-10-17查閱 https://www.commonapp.org/apply/first-year-students/ 3. Common App｜Gather your materials｜文件標示2025年版本 https://www.commonapp.org/static/b3bf7d597fc06144ea6e0ff4673eb6b2/Resource_FY_GatherMaterials_ENG_2025.06.25_1.pdf 4. Common App｜First-year toolkit｜頁面列各資源最新修訂日期，2026-10-17查閱 https://www.commonapp.org/apply/fy-toolkit/"
+        - generic: 相片
+        - generic: Peterの國際教育講座
+        - button "加強推廣":
+          - generic: 加強推廣
+        - button "開啟下拉式功能表":
+          - generic: 開啟下拉式功能表
+      - gridcell "10月18日 4:09":
+        - button "10月18日 4:09":
+          - generic: 10月18日 4:09
+      - gridcell "目前未加強推廣":
+        - button "目前未加強推廣":
+          - generic "目前未加強推廣":
+      - gridcell "56":
+        - button "56":
+          - generic: "56"
+      - gridcell "89":
+        - button "89":
+          - generic: "89"
+      - gridcell "56":
+        - button "56":
+          - generic: "56"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "4":
+        - button "4":
+          - generic: "4"
+      - gridcell "1":
+        - button "1":
+          - generic: "1"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "4":
+        - button "4":
+          - generic: "4"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "$0.01":
+        - button "$0.01":
+          - generic: $0.01
+    - 'row "選擇含有 ID（18119426615062303）的項目 Instagram 0:08 #LTUOSSD Reel ltupeter 加強推廣 開啟下拉式功能表 10月17日 10:03 目前未加強推廣 3 3 ‑‑ 0 0 0 0 0 0 ‑‑ 6 秒 2 秒 ‑‑ ‑‑ ‑‑"':
+      - gridcell "選擇含有 ID（18119426615062303）的項目":
+        - checkbox "選擇含有 ID（18119426615062303）的項目"
+      - 'gridcell "Instagram 0:08 #LTUOSSD Reel ltupeter 加強推廣 開啟下拉式功能表"':
+        - img "Instagram"
+        - generic: 0:08
+        - generic: "#LTUOSSD"
+        - generic: Reel
+        - generic: ltupeter
+        - button "加強推廣":
+          - generic: 加強推廣
+        - button "開啟下拉式功能表":
+          - generic: 開啟下拉式功能表
+      - gridcell "10月17日 10:03":
+        - button "10月17日 10:03":
+          - generic: 10月17日 10:03
+      - gridcell "目前未加強推廣":
+        - button "目前未加強推廣":
+          - generic "目前未加強推廣":
+      - gridcell "3":
+        - button "3":
+          - generic: "3"
+      - gridcell "3":
+        - button "3":
+          - generic: "3"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "6 秒":
+        - button "6 秒":
+          - generic: 6 秒
+      - gridcell "2 秒":
+        - button "2 秒":
+          - generic: 2 秒
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+    - row:
+      - gridcell "選擇含有 ID（122147457435172155）的項目":
+        - checkbox "選擇含有 ID（122147457435172155）的項目"
+      - gridcell:
+        - img "Facebook"
+        - generic: "【Peterの國際教育講座】 🇦🇺 澳洲經濟承壓，留學該怎麼選？ ——從企業困境、房市回落與通膨，看懂留學成本與未來 最近談到澳洲，除了大學排名與生活環境，家長開始關心另一組問題：企業倒閉、房價下跌、物價上漲，會不會影響孩子的留學生活？畢業後，工作還好找嗎？ 從國際教育的角度來看，這些經濟變化，確實值得放進升學規劃裡。它們會影響家庭的支出、學生的工作機會，也會考驗學校的經營與教學支持。 🏠 房價下跌，學生的住宿費卻未必跟著下降 Cotality資料顯示，2026年9月澳洲全國住宅價值已較3月高點下跌5.2%；但全國租金仍比去年同期高出5.5%。 這兩個數字提醒我們：買房市場與租屋市場，可能呈現不同走勢。 對多數留學生來說，真正需要計算的是學校附近的房租、宿舍費、交通與日常開銷。即使看到「澳洲房價下跌」的新聞，也應先取得實際住宿報價，再決定預算。 💼 企業經營困難，會讓「靠打工支付留學費用」更需要審慎評估 澳洲2025–26財年有超過1.4萬家公司首次進入外部管理程序，包含重整等情況，數量較前一年減少約4%，不能全部解讀為永久倒閉。 但企業的財務壓力，仍可能透過減少招募、縮短工時或調整實習名額，影響學生。 因此，我建議家庭先問自己：「如果孩子一段時間找不到兼職，我們是否仍能支持他完成學業？」 打工可以累積經驗、補貼生活；留學計畫本身，則需要有穩定的財務基礎。 💰 通膨讓家長更需要計算「讀到畢業」的完整成本 澳洲2026年8月通膨年增率為4.0%。對準備就讀三、四年學位的家庭而言，只看第一年的學費，很容易低估整體負擔。 學費調整、住宿、保險、交通、返台機票，以及澳幣匯率，都應一起納入。 我也建議預留畢業後求職的生活費。完成學業與找到合適工作之間，可能需要一段時間，這段過渡期同樣需要準備。 🎓 國際教育正在分化，選校需要看得更深入 澳洲教育部資料顯示，2026年上半年國際學生人數較去年同期減少7%；但高等教育的國際學生註冊人次仍增加2%，英語語言課程則減少27%。 不同教育市場的情況，已經出現差距。這些變化涉及經濟、簽證政策與學生需求，不能只用單一原因解釋。 對家長而言，除了排名，更值得向學校確認：課程是否穩定開設？國際學生能得到哪些學習支援？實習如何安排？國際畢業生的實際出路又是什麼？ 🌏 留學的價值，需要放進孩子更長的人生裡思考 我認為，現階段選擇澳洲留學，應該同時評估三件事： ✅ 家庭能否負擔完成整個學位的費用。 ✅ 孩子能否透過課程累積專業、英文與實務能力。 ✅ 無論留在澳洲、回到台灣，或前往其他國家，這些能力是否仍有用。 經濟會有起伏，孩子的成長與職涯卻需要長期安排。把成本、課程與未來出路看清楚，才能讓每一筆教育投入，都更接近家庭真正期待的成果。 如果您正在為孩子規劃澳洲留學，您最在意的是生活成本、學校品質，還是畢業後的就業機會？歡迎留言分享。 Dr. Peter Chen LTU 國際學術中心 資料參考：ABS、ASIC、Cotality、澳洲教育部；截至2026年10月17日可查得資料。 #Peter國際教育講座 #LTU國際學術中心 #澳洲留學 #國際教育 #留學規劃 #澳洲經濟 #海外升學"
+        - generic: 相片
+        - generic: Peterの國際教育講座
+        - button "加強推廣":
+          - generic: 加強推廣
+        - button "開啟下拉式功能表":
+          - generic: 開啟下拉式功能表
+      - gridcell "10月17日 6:26":
+        - button "10月17日 6:26":
+          - generic: 10月17日 6:26
+      - gridcell "目前未加強推廣":
+        - button "目前未加強推廣":
+          - generic "目前未加強推廣":
+      - gridcell "57":
+        - button "57":
+          - generic: "57"
+      - gridcell "102":
+        - button "102":
+          - generic: "102"
+      - gridcell "57":
+        - button "57":
+          - generic: "57"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "5":
+        - button "5":
+          - generic: "5"
+      - gridcell "1":
+        - button "1":
+          - generic: "1"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "3":
+        - button "3":
+          - generic: "3"
+      - gridcell "1":
+        - button "1":
+          - generic: "1"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "$0.01":
+        - button "$0.01":
+          - generic: $0.01
+    - 'row "選擇含有 ID（18632654338065304）的項目 Instagram #LTUOSSD 輪播廣告 ltupeter 加強推廣 開啟下拉式功能表 10月16日 9:58 目前未加強推廣 ‑‑ 0 ‑‑ 0 0 0 0 0 0 ‑‑ ‑‑ ‑‑ ‑‑ ‑‑ ‑‑"':
+      - gridcell "選擇含有 ID（18632654338065304）的項目":
+        - checkbox "選擇含有 ID（18632654338065304）的項目"
+      - 'gridcell "Instagram #LTUOSSD 輪播廣告 ltupeter 加強推廣 開啟下拉式功能表"':
+        - img "Instagram"
+        - generic: "#LTUOSSD"
+        - generic: 輪播廣告
+        - generic: ltupeter
+        - button "加強推廣":
+          - generic: 加強推廣
+        - button "開啟下拉式功能表":
+          - generic: 開啟下拉式功能表
+      - gridcell "10月16日 9:58":
+        - button "10月16日 9:58":
+          - generic: 10月16日 9:58
+      - gridcell "目前未加強推廣":
+        - button "目前未加強推廣":
+          - generic "目前未加強推廣":
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+    - 'row "選擇含有 ID（122147342547172155）的項目 Facebook 0:15 🌱 孩子跌倒時，我們的第一句話，會讓他更害怕，還是願意再試一次？ 看完 Taylor Swift 這段影片，很喜歡她分享的想法：犯錯會尷尬，也會難受；但當你重新站起來，拍拍身上的灰塵，發現有人依然願意陪著你，甚至能一起笑談那段經歷，這也是人生送來的禮物。 這讓我想到許多正在努力的學生。 一次考試失常、一次申請被拒絕，或鼓起勇氣說英文，卻發現自己說錯了。大人眼中的小事，對當下的孩子而言，可能需要很久才能釋懷。他們擔心成績，也擔心讓父母失望、被同學取笑，最後連嘗試都變得小心翼翼。 這時候，一句「怎麼又弄成這樣」，可能讓孩子更不敢開口；一句「你現在一定不好受，我們一起看看接下來能怎麼做」，則能讓他知道，遇到困難時，他仍然有人可以依靠。 我們當然希望孩子學會負責、檢討與改進。也請留一點時間，讓他整理情緒，再找到下一步：重做一道題、重新練習一段表達，或換個方法準備下一次申請。 教育裡很珍貴的一件事，就是讓孩子經歷挫折之後，仍然相信自己值得被支持，也有能力繼續往前走。 願我們的孩子，都有重新出發的勇氣；也願我們成為那個讓他願意再試一次的人。💛 #Peter國際教育講座 #LTU國際教育 #成長與學習 #陪伴的力量 #TaylorSwift Reel Peterの國際教育講座 加強推廣 開啟下拉式功能表 10月15日 21:40 目前未加強推廣 非多文發佈貼文 97 626 246 0 4 2 0 2 0 ‑‑ 2,892,272 6秒 210 $0.00 $0.00"':
+      - gridcell "選擇含有 ID（122147342547172155）的項目":
+        - checkbox "選擇含有 ID（122147342547172155）的項目"
+      - 'gridcell "Facebook 0:15 🌱 孩子跌倒時，我們的第一句話，會讓他更害怕，還是願意再試一次？ 看完 Taylor Swift 這段影片，很喜歡她分享的想法：犯錯會尷尬，也會難受；但當你重新站起來，拍拍身上的灰塵，發現有人依然願意陪著你，甚至能一起笑談那段經歷，這也是人生送來的禮物。 這讓我想到許多正在努力的學生。 一次考試失常、一次申請被拒絕，或鼓起勇氣說英文，卻發現自己說錯了。大人眼中的小事，對當下的孩子而言，可能需要很久才能釋懷。他們擔心成績，也擔心讓父母失望、被同學取笑，最後連嘗試都變得小心翼翼。 這時候，一句「怎麼又弄成這樣」，可能讓孩子更不敢開口；一句「你現在一定不好受，我們一起看看接下來能怎麼做」，則能讓他知道，遇到困難時，他仍然有人可以依靠。 我們當然希望孩子學會負責、檢討與改進。也請留一點時間，讓他整理情緒，再找到下一步：重做一道題、重新練習一段表達，或換個方法準備下一次申請。 教育裡很珍貴的一件事，就是讓孩子經歷挫折之後，仍然相信自己值得被支持，也有能力繼續往前走。 願我們的孩子，都有重新出發的勇氣；也願我們成為那個讓他願意再試一次的人。💛 #Peter國際教育講座 #LTU國際教育 #成長與學習 #陪伴的力量 #TaylorSwift Reel Peterの國際教育講座 加強推廣 開啟下拉式功能表"':
+        - img "Facebook"
+        - generic: 0:15
+        - generic: "🌱 孩子跌倒時，我們的第一句話，會讓他更害怕，還是願意再試一次？ 看完 Taylor Swift 這段影片，很喜歡她分享的想法：犯錯會尷尬，也會難受；但當你重新站起來，拍拍身上的灰塵，發現有人依然願意陪著你，甚至能一起笑談那段經歷，這也是人生送來的禮物。 這讓我想到許多正在努力的學生。 一次考試失常、一次申請被拒絕，或鼓起勇氣說英文，卻發現自己說錯了。大人眼中的小事，對當下的孩子而言，可能需要很久才能釋懷。他們擔心成績，也擔心讓父母失望、被同學取笑，最後連嘗試都變得小心翼翼。 這時候，一句「怎麼又弄成這樣」，可能讓孩子更不敢開口；一句「你現在一定不好受，我們一起看看接下來能怎麼做」，則能讓他知道，遇到困難時，他仍然有人可以依靠。 我們當然希望孩子學會負責、檢討與改進。也請留一點時間，讓他整理情緒，再找到下一步：重做一道題、重新練習一段表達，或換個方法準備下一次申請。 教育裡很珍貴的一件事，就是讓孩子經歷挫折之後，仍然相信自己值得被支持，也有能力繼續往前走。 願我們的孩子，都有重新出發的勇氣；也願我們成為那個讓他願意再試一次的人。💛 #Peter國際教育講座 #LTU國際教育 #成長與學習 #陪伴的力量 #TaylorSwift"
+        - generic: Reel
+        - generic: Peterの國際教育講座
+        - button "加強推廣":
+          - generic: 加強推廣
+        - button "開啟下拉式功能表":
+          - generic: 開啟下拉式功能表
+      - gridcell "10月15日 21:40":
+        - button "10月15日 21:40":
+          - generic: 10月15日 21:40
+      - gridcell "目前未加強推廣 非多文發佈貼文":
+        - button "目前未加強推廣 非多文發佈貼文":
+          - generic "目前未加強推廣":
+          - generic "非多文發佈貼文":
+      - gridcell "97":
+        - button "97":
+          - generic: "97"
+      - gridcell "626":
+        - button "626":
+          - generic: "626"
+      - gridcell "246":
+        - button "246":
+          - generic: "246"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "4":
+        - button "4":
+          - generic: "4"
+      - gridcell "2":
+        - button "2":
+          - generic: "2"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "2":
+        - button "2":
+          - generic: "2"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "2,892,272":
+        - button "2,892,272":
+          - generic: 2,892,272
+      - gridcell "6秒":
+        - button "6秒":
+          - generic: 6秒
+      - gridcell "210":
+        - button "210":
+          - generic: "210"
+      - gridcell "$0.00":
+        - button "$0.00":
+          - generic: $0.00
+      - gridcell "$0.00":
+        - button "$0.00":
+          - generic: $0.00
+  - rowgroup
+- button "Meta AI 商家助理"
+- button "Meta Business Suite":
+  - generic: Meta Business Suite
+- combobox "Instagram Facebook Peterの國際教育講座, ltupeter":
+  - img "Instagram"
+  - img "Facebook"
+  - generic: Peterの國際教育講座, ltupeter
+- navigation "連結":
+  - generic: 連結
+  - list:
+    - link "首頁":
+      - /url: https://business.facebook.com/latest/home?business_id=3009537135896555&asset_id=954919414363863
+      - generic: 首頁
+    - generic: 首頁
+    - link "通知":
+      - generic: 通知
+    - generic: 通知
+    - link "廣告管理員":
+      - generic: 廣告管理員
+    - generic: 廣告管理員
+    - link "收件匣":
+      - /url: https://business.facebook.com/latest/inbox?business_id=3009537135896555&asset_id=954919414363863
+      - generic: 收件匣
+    - generic: 收件匣
+    - link "潛在顧客中心":
+      - /url: https://business.facebook.com/latest/leads_center?business_id=3009537135896555&asset_id=954919414363863
+      - generic: 潛在顧客中心
+    - generic: 潛在顧客中心
+    - link "內容" [active]:
+      - /url: https://business.facebook.com/latest/posts?business_id=3009537135896555&asset_id=954919414363863
+      - generic: 內容
+    - generic: 內容
+    - link "創作者行銷":
+      - /url: https://business.facebook.com/creator_marketing_hub/overview/?business_id=3009537135896555&asset_id=954919414363863
+      - generic: 創作者行銷
+    - generic: 創作者行銷
+    - link "規劃工具":
+      - /url: https://business.facebook.com/latest/content_calendar?business_id=3009537135896555&asset_id=954919414363863
+      - generic: 規劃工具
+    - generic: 規劃工具
+    - link "廣告":
+      - /url: https://business.facebook.com/latest/ad_center/ads_summary?business_id=3009537135896555&asset_id=954919414363863
+      - generic: 廣告
+    - generic: 廣告
+    - link "洞察報告":
+      - /url: https://business.facebook.com/latest/insights?business_id=3009537135896555&asset_id=954919414363863
+      - generic: 洞察報告
+    - generic: 洞察報告
+    - link "營利":
+      - /url: https://business.facebook.com/latest/monetization?business_id=3009537135896555&asset_id=954919414363863
+      - generic: 營利
+    - generic: 營利
+    - link "所有工具":
+      - generic: 所有工具
+    - generic: 所有工具
+    - separator
+    - generic: 常用
+    - separator
+    - button "收合檔案清單":
+      - generic: 收合檔案清單
+    - link "帳單和付款":
+      - /url: https://business.facebook.com/billing_hub/?business_id=3009537135896555&placement=mbs_all_tools_menu
+      - generic: 帳單和付款
+    - generic: 帳單和付款
+    - link "廣告受眾":
+      - /url: https://business.facebook.com/ads/manager/audiences/?business_id=3009537135896555&nav_source=business_manager
+      - generic: 廣告受眾
+    - generic: 廣告受眾
+    - link "事件管理工具":
+      - /url: https://business.facebook.com/events_manager2/?business_id=3009537135896555&global_scope_id=3009537135896555&nav_source=biz_nav
+      - generic: 事件管理工具
+    - generic: 事件管理工具
+    - button "編輯邊欄導覽":
+      - generic: 編輯
+- link "搜尋":
+  - generic: 搜尋
+- generic: 搜尋
+- generic: Ctrl+K
+- navigation "連結":
+  - generic: 連結
+  - list:
+    - link "設定":
+      - /url: https://business.facebook.com/latest/settings/business_overview?business_id=3009537135896555
+      - generic: 設定
+    - generic: 設定
+- link "使用說明":
+  - generic: 使用說明
+- generic: 使用說明
+- button
+- img "Monica"
+- generic: Ctrl+M
+- text: 解釋
+- region "瞭解這項新功能"

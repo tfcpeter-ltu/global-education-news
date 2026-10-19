@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-19",
+  "timezone": "Asia/Taipei",
+  "status": "three-public-leads-reviewed",
+  "verifiedAt": "2026-10-19T10:45:07.220948+08:00",
+  "reviewedSchools": [
+    {
+      "school": "國立中央大學",
+      "schoolSlug": "ncu",
+      "source": "https://oia.ncu.edu.tw/p/412-1026-1872.php?Lang=zh-tw",
+      "finding": "116學年第一梯次2027/28甄選公告與10月13日姐妹校名單更新；頁面已讀。未將簡章PDF無法擷取的條件或期限當成已確認。"
+    },
+    {
+      "school": "國立中興大學",
+      "schoolSlug": "nchu",
+      "source": "https://oia.nchu.edu.tw/index.php/zh/5-global-mobility-tw/5-1-exchange-student-program-tw/5-1-1-application-guildeline-tw",
+      "finding": "2027秋季交換：學生繳件2026/10/23中午、推薦函10/30中午截止，兩步都須完成；交換仍繳本校學雜費並符合學籍與語言條件。"
+    },
+    {
+      "school": "國立政治大學",
+      "schoolSlug": "nccu",
+      "source": "https://oic.nccu.edu.tw/",
+      "finding": "官方首頁9月23日公告台聯大116學年第一梯次交換，2026/12/28校內截止；10月15日另有短期進修補助公告。"
+    }
+  ],
+  "published": [],
+  "pendingConsent": [],
+  "outreachDrafts": [],
+  "gaps": [],
+  "note": "Public leads reviewed; no interview or outreach claimed."
+}

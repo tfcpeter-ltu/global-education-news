@@ -1,0 +1,562 @@
+{
+  "date": "2026-10-19",
+  "timezone": "Asia/Taipei",
+  "startedAt": "2026-10-19T05:05:54+08:00",
+  "status": "in-progress",
+  "currentPhase": "COMMIT_DEPLOY",
+  "baseCommit": "3769be2d5331d423fcb845368f5d69a475eef300",
+  "scholarshipBaselineSlugs": [
+    "2026-08-bristol-think-big",
+    "2026-08-manchester-global-futures-taiwan-2027",
+    "2026-08-mcgill-mccall-macbain",
+    "2026-08-melbourne-graduate-research",
+    "2026-08-melbourne-international-excellence-graduate-2027",
+    "2026-08-moe-eu-scholarship",
+    "2026-08-moe-government-sponsored-study",
+    "2026-08-moe-new-southbound-internship",
+    "2026-08-moe-overseas-scholarship",
+    "2026-08-moe-study-abroad-fly",
+    "2026-08-moe-study-abroad-internship",
+    "2026-08-moe-study-abroad-needy",
+    "2026-08-moe-top100-phd",
+    "2026-08-monash-awards-2027",
+    "2026-08-oxford-clarendon",
+    "2026-08-sydney-vcis-2027",
+    "2026-08-tgpi-dream-factory",
+    "2026-08-tgpi-global-flight",
+    "2026-08-ubc-four-year-doctoral-fellowship",
+    "2026-08-ubc-imes",
+    "2026-08-ubc-international-scholars-2027",
+    "2026-08-ubc-killam-doctoral-2027",
+    "2026-08-ucl-global-masters",
+    "2026-08-ucl-global-undergraduate",
+    "2026-08-unsw-scientia-2027",
+    "2026-08-uq-international-high-achievers-2027",
+    "2026-08-utoronto-pearson-2027",
+    "2026-09-adelaide-academic-excellence-2027",
+    "2026-09-adelaide-merit-2027",
+    "2026-09-auckland-international-student-excellence-2027",
+    "2026-09-cardiff-vice-chancellor-taiwan-january-2027",
+    "2026-09-chevening-delta-climate-2027",
+    "2026-09-chevening-taiwan",
+    "2026-09-daad-architecture-masters",
+    "2026-09-deakin-excellence-international-2027",
+    "2026-09-deakin-international-merit-2027",
+    "2026-09-deakin-vice-chancellor-international-2027",
+    "2026-09-dundee-east-asia-undergraduate-january-2027",
+    "2026-09-dundee-global-excellence-undergraduate-january-2027",
+    "2026-09-erasmus-mundus-2027",
+    "2026-09-eth-zurich-esop-2027",
+    "2026-09-exeter-pgt-taiwan-january-2027",
+    "2026-09-fulbright-experience-america-research-award",
+    "2026-09-fulbright-non-academic-professional-award",
+    "2026-09-fulbright-senior-research-award",
+    "2026-09-gates-cambridge-2027",
+    "2026-09-harvard-academy-scholars-2027",
+    "2026-09-harvard-radcliffe-fellowship-2027",
+    "2026-09-hkpfs-2027",
+    "2026-09-imperial-presidents-phd-2027",
+    "2026-09-kent-international-undergraduate-january-2027",
+    "2026-09-knight-hennessy-2027",
+    "2026-09-latrobe-high-achiever-2027",
+    "2026-09-leicester-global-excellence-jan-apr-2027",
+    "2026-09-macquarie-vcis-2027",
+    "2026-09-monash-international-merit-2027",
+    "2026-09-ntu-taiwan-scholarship-jan-2027",
+    "2026-09-ntu-taiwan-stem-scholarship-jan-2027",
+    "2026-09-oxford-clarendon-2027",
+    "2026-09-rmit-up-academic-english-bursary-2027",
+    "2026-09-strathclyde-sbs-international-masters-jan-2027",
+    "2026-09-sydney-rtp-international-2027",
+    "2026-09-taiwan-anu-phd-scholarship-2027",
+    "2026-09-tasmanian-international-scholarship-2027",
+    "2026-09-ubc-international-scholars-2027",
+    "2026-09-uc-berkeley-beahrs-elp-2027",
+    "2026-09-uni-iowa-partner-state-taiwan-2027",
+    "2026-09-university-iowa-national-scholars-2027",
+    "2026-09-unsw-international-scientia-2027",
+    "2026-09-uow-postgraduate-academic-excellence-2027",
+    "2026-09-uow-university-excellence-2027",
+    "2026-09-utoronto-lester-b-pearson-2027",
+    "2026-09-yenching-academy-2027-taiwan",
+    "2026-10-american-university-egls-2027",
+    "2026-10-aut-north-asia-2027",
+    "2026-10-bangor-vice-chancellor-january-2027",
+    "2026-10-bath-international-excellence-ug-2027",
+    "2026-10-boise-state-international-fall-2027",
+    "2026-10-bournemouth-academic-excellence-january-2027",
+    "2026-10-canterbury-guardian-commerce-2027",
+    "2026-10-canterbury-international-first-year-offshore-2027",
+    "2026-10-cardiff-vice-chancellor-january-2027",
+    "2026-10-cumbria-international-undergraduate-january-2027",
+    "2026-10-dundee-global-excellence-september-2027",
+    "2026-10-essex-international-undergraduate-2027",
+    "2026-10-exeter-taiwan-pgt-2027",
+    "2026-10-griffith-academic-merit-2027",
+    "2026-10-griffith-vice-chancellor-2027",
+    "2026-10-herts-chancellor-january-2027",
+    "2026-10-kent-pgt-january-2027",
+    "2026-10-lancaster-regional-taiwan-2027",
+    "2026-10-lincoln-pathway-merit-2027",
+    "2026-10-lincoln-taught-master-merit-2027",
+    "2026-10-lincoln-undergraduate-vice-chancellor-2027",
+    "2026-10-london-met-east-asia-2027",
+    "2026-10-massey-creative-excellence-masters-2027",
+    "2026-10-massey-toroa-postgraduate-2027",
+    "2026-10-massey-toroa-undergraduate-2027",
+    "2026-10-newcastle-australia-international-excellence-2027",
+    "2026-10-newcastle-vc-international-undergraduate-2027",
+    "2026-10-ntu-taiwan-january-2027",
+    "2026-10-otago-global-masters-2027",
+    "2026-10-otago-global-undergraduate-2027",
+    "2026-10-otago-international-academic-excellence-2027",
+    "2026-10-oxford-brookes-january-2027",
+    "2026-10-portsmouth-chancellor-merit-january-2027",
+    "2026-10-qmul-global-talent-pgt-2027",
+    "2026-10-qub-pgt-january-2027",
+    "2026-10-rgu-early-payment-january-2027",
+    "2026-10-rgu-january-2027",
+    "2026-10-sheffield-international-pgt-2027",
+    "2026-10-sheffield-international-undergraduate-2027",
+    "2026-10-st-andrews-tesol-january-2027",
+    "2026-10-stirling-east-asia-pgt-2027",
+    "2026-10-stirling-vice-chancellor-pgt-january-2027",
+    "2026-10-strathclyde-science-january-2027",
+    "2026-10-swansea-international-excellence-january-2027",
+    "2026-10-uea-pg-merit-2027",
+    "2026-10-unisq-international-excellence-2027",
+    "2026-10-uwa-global-excellence-2027",
+    "2026-10-vuw-postgraduate-international-2027",
+    "2026-10-vuw-undergraduate-international-2027",
+    "2026-10-waikato-research-masters-2027",
+    "2026-10-waikato-vice-chancellor-2027",
+    "2026-10-waterloo-international-entrance-2027",
+    "2026-10-western-sydney-international-undergraduate-2027",
+    "2026-10-westminster-pg-excellence-january-2027",
+    "catalog-aalto-excellence",
+    "catalog-berea-international-aid",
+    "catalog-bocconi-access-100",
+    "catalog-bocconi-access-80-60",
+    "catalog-bocconi-boost",
+    "catalog-bocconi-sport",
+    "catalog-chalmers-ipoet",
+    "catalog-daad-all-disciplines",
+    "catalog-daad-fine-art",
+    "catalog-daad-music",
+    "catalog-daad-performing-arts",
+    "catalog-duke-karsh",
+    "catalog-eiffel-master",
+    "catalog-eiffel-phd",
+    "catalog-emory-scholars",
+    "catalog-epfl-excellence",
+    "catalog-erasmus-mundus",
+    "catalog-eth-esop",
+    "catalog-geneva-excellence",
+    "catalog-gks-graduate",
+    "catalog-gks-undergraduate",
+    "catalog-goh-keng-swee",
+    "catalog-goi-ies",
+    "catalog-harvard-international-aid",
+    "catalog-helsinki-scholarship",
+    "catalog-jasso-honors",
+    "catalog-kaist-graduate",
+    "catalog-kaist-undergraduate",
+    "catalog-knight-hennessy",
+    "catalog-kth-scholarship",
+    "catalog-kyoto-iup",
+    "catalog-lund-global",
+    "catalog-maastricht-brightlands",
+    "catalog-maastricht-global-studies",
+    "catalog-maastricht-high-potential",
+    "catalog-maastricht-social-justice",
+    "catalog-maeci-italy",
+    "catalog-master-mind-flanders",
+    "catalog-mext-japanese-studies",
+    "catalog-mext-kosen-2027",
+    "catalog-mext-research-2027",
+    "catalog-mext-specialized-training-2027",
+    "catalog-mext-teacher-training",
+    "catalog-mext-undergraduate-2027",
+    "catalog-miami-stamps",
+    "catalog-mit-international-aid",
+    "catalog-nl-scholarship",
+    "catalog-nus-international-undergraduate",
+    "catalog-nus-science-technology",
+    "catalog-padua-excellence",
+    "catalog-paris-saclay-idex",
+    "catalog-radboud-nl-scholarship",
+    "catalog-radboud-scholarship",
+    "catalog-science-leuven",
+    "catalog-sciencespo-boutmy",
+    "catalog-snu-gsfs",
+    "catalog-swiss-phd",
+    "catalog-swiss-research-fellowship",
+    "catalog-taiwan-kaist-phd",
+    "catalog-tampere-scholarship",
+    "catalog-trinity-global-excellence",
+    "catalog-tudelft-justus",
+    "catalog-turku-merit",
+    "catalog-ucd-global-excellence",
+    "catalog-uppsala-global",
+    "catalog-utokyo-fellowship",
+    "catalog-utwente-scholarship",
+    "catalog-vanderbilt-cornelius",
+    "catalog-vanderbilt-ingram",
+    "catalog-yale-international-aid"
+  ],
+  "newsPublished": [],
+  "scholarshipChecks": [
+    {
+      "slug": "2026-10-lancaster-undergraduate-international-excellence-2027",
+      "title": "Lancaster本科卓越獎：符合條件每學年減免£3,000",
+      "url": "https://globalednews.com/scholarships/items/2026-10-lancaster-undergraduate-international-excellence-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-lancaster-undergraduate-international-excellence-2027.md",
+      "sources": [
+        "https://www.lancaster.ac.uk/study/fees-and-funding/scholarships-and-bursaries/undergraduate-international-excellence-scholarship/",
+        "https://www.ukpass.org/information/detail-16880.html",
+        "https://www.lancaster.ac.uk/study/entry-requirements/undergraduate-qualifications/",
+        "https://www.lancaster.ac.uk/study/postgraduate/applying-for-postgraduate-study/"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-19T10:45:06.991177+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New 2027 award; official terms and separate education adviser reporting checked. Taiwan applicants evaluated against nationality-neutral award rules, degree/fee status and exclusions; no automatic award promise."
+    },
+    {
+      "slug": "2026-10-lancaster-masters-excellence-2027",
+      "title": "Lancaster碩士卓越獎：2027學費減免15%",
+      "url": "https://globalednews.com/scholarships/items/2026-10-lancaster-masters-excellence-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-lancaster-masters-excellence-2027.md",
+      "sources": [
+        "https://www.lancaster.ac.uk/study/fees-and-funding/scholarships-and-bursaries/masters-excellence-scholarship/",
+        "https://www.ukpass.org/information/detail-16880.html",
+        "https://www.lancaster.ac.uk/study/entry-requirements/postgraduate-qualifications/?country=Taiwan",
+        "https://www.lancaster.ac.uk/study/postgraduate/applying-for-postgraduate-study/"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-19T10:45:06.991177+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New 2027 award; official terms and separate education adviser reporting checked. Taiwan applicants evaluated against nationality-neutral award rules, degree/fee status and exclusions; no automatic award promise."
+    },
+    {
+      "slug": "2026-10-lancaster-management-progression-2027",
+      "title": "Lancaster管理學院升學獎：2:2同等學位可評估10%減免",
+      "url": "https://globalednews.com/scholarships/items/2026-10-lancaster-management-progression-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-lancaster-management-progression-2027.md",
+      "sources": [
+        "https://www.lancaster.ac.uk/study/fees-and-funding/scholarships-and-bursaries/management-school-progression-scholarship-/",
+        "https://gostudyin.com/news/lancaster-university-2027-postgraduate-scholarships/",
+        "https://www.lancaster.ac.uk/study/entry-requirements/postgraduate-qualifications/?country=Taiwan",
+        "https://www.lancaster.ac.uk/study/postgraduate/applying-for-postgraduate-study/"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-19T10:45:06.991177+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New 2027 award; official terms and separate education adviser reporting checked. Taiwan applicants evaluated against nationality-neutral award rules, degree/fee status and exclusions; no automatic award promise."
+    }
+  ],
+  "scholarshipAdditions": [
+    {
+      "slug": "2026-10-lancaster-undergraduate-international-excellence-2027",
+      "title": "Lancaster本科卓越獎：符合條件每學年減免£3,000",
+      "url": "https://globalednews.com/scholarships/items/2026-10-lancaster-undergraduate-international-excellence-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-lancaster-undergraduate-international-excellence-2027.md",
+      "sources": [
+        "https://www.lancaster.ac.uk/study/fees-and-funding/scholarships-and-bursaries/undergraduate-international-excellence-scholarship/",
+        "https://www.ukpass.org/information/detail-16880.html",
+        "https://www.lancaster.ac.uk/study/entry-requirements/undergraduate-qualifications/",
+        "https://www.lancaster.ac.uk/study/postgraduate/applying-for-postgraduate-study/"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-19T10:45:06.991177+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New 2027 award; official terms and separate education adviser reporting checked. Taiwan applicants evaluated against nationality-neutral award rules, degree/fee status and exclusions; no automatic award promise."
+    },
+    {
+      "slug": "2026-10-lancaster-masters-excellence-2027",
+      "title": "Lancaster碩士卓越獎：2027學費減免15%",
+      "url": "https://globalednews.com/scholarships/items/2026-10-lancaster-masters-excellence-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-lancaster-masters-excellence-2027.md",
+      "sources": [
+        "https://www.lancaster.ac.uk/study/fees-and-funding/scholarships-and-bursaries/masters-excellence-scholarship/",
+        "https://www.ukpass.org/information/detail-16880.html",
+        "https://www.lancaster.ac.uk/study/entry-requirements/postgraduate-qualifications/?country=Taiwan",
+        "https://www.lancaster.ac.uk/study/postgraduate/applying-for-postgraduate-study/"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-19T10:45:06.991177+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New 2027 award; official terms and separate education adviser reporting checked. Taiwan applicants evaluated against nationality-neutral award rules, degree/fee status and exclusions; no automatic award promise."
+    },
+    {
+      "slug": "2026-10-lancaster-management-progression-2027",
+      "title": "Lancaster管理學院升學獎：2:2同等學位可評估10%減免",
+      "url": "https://globalednews.com/scholarships/items/2026-10-lancaster-management-progression-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-lancaster-management-progression-2027.md",
+      "sources": [
+        "https://www.lancaster.ac.uk/study/fees-and-funding/scholarships-and-bursaries/management-school-progression-scholarship-/",
+        "https://gostudyin.com/news/lancaster-university-2027-postgraduate-scholarships/",
+        "https://www.lancaster.ac.uk/study/entry-requirements/postgraduate-qualifications/?country=Taiwan",
+        "https://www.lancaster.ac.uk/study/postgraduate/applying-for-postgraduate-study/"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-19T10:45:06.991177+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New 2027 award; official terms and separate education adviser reporting checked. Taiwan applicants evaluated against nationality-neutral award rules, degree/fee status and exclusions; no automatic award promise."
+    }
+  ],
+  "peterImports": [],
+  "socialPosts": [],
+  "gaps": [
+    "BUILD",
+    "COMMIT_DEPLOY",
+    "PUBLISH",
+    "ACCEPTANCE",
+    "VERIFY"
+  ],
+  "manualActions": [],
+  "updatedAt": "2026-10-19T10:53:14.546858+08:00",
+  "interruption": {
+    "sourceThreadId": "01a150d4-3efa-7702-967a-d91deb16722e",
+    "status": "systemError",
+    "stoppedAt": "2026-10-19T05:10:22+08:00",
+    "error": "Selected model is at capacity. Please try a different model.",
+    "observedAt": "2026-10-19T08:01:25+08:00",
+    "persistentNow": null,
+    "note": "05:00 batch failed during RESEARCH. Current capacity availability was not tested; do not claim the error is still occurring."
+  },
+  "reporting0800": {
+    "checkedAt": "2026-10-19T08:01:25+08:00",
+    "mainCommit": "3769be2d5331d423fcb845368f5d69a475eef300",
+    "mainReadback": "git ls-remote origin refs/heads/main",
+    "contentCompletionTime": null,
+    "newsCount": 0,
+    "newScholarshipCount": 0,
+    "peterStatus": "review-incomplete",
+    "establishedSocialCount": 0,
+    "newFacebookPageCount": 0,
+    "deployment": "no-today-deployment-evidence",
+    "acceptance": "no-today-acceptance-evidence",
+    "scope": "Reporting-only slot: no new research, content, publishing, build, push or deployment. Preserved same-day baseline and publication ledger; recorded interrupted batch and verified missing evidence.",
+    "pending": "Resume same-day RESEARCH in an authorized full-maintenance execution; no duplicate automation created."
+  },
+  "verification": {
+    "status": "NOT_RUN",
+    "reason": "Safety termination during research; no completion claimed"
+  },
+  "resumedAt": "2026-10-19T10:30:14.7744058+08:00",
+  "resumeAuthorization": "User explicitly requested 繼續完成; continue all missing stages of the same daily batch.",
+  "completedAt": null,
+  "blockers": [],
+  "peterReview": {
+    "status": "fewer-new-posts",
+    "availableNewCount": 0,
+    "checkedAt": "2026-10-19T10:45:06.991177+08:00",
+    "sourceUrls": [
+      "https://www.facebook.com/profile.php?id=61585164670358"
+    ],
+    "evidence": "docs/daily-checks/2026-10-19/peter-review.txt",
+    "finding": "Latest published list read: October18 ebook giveaway and Common App, October17 Australia. Common App already imported yesterday. No qualified new import.",
+    "insufficientEvidence": [
+      {
+        "sourceId": "122147561865172155",
+        "reason": "New ebook promotion; no independently verified substantive educational news or image reuse rights established."
+      },
+      {
+        "sourceId": "122147457435172155",
+        "reason": "Australia commentary names institutions but lacks exact original tables for housing, inflation and insolvency figures; not imported."
+      }
+    ]
+  },
+  "liveObservations": {
+    "url": "https://globalednews.com/",
+    "desktopViewport": {
+      "height": 965,
+      "scrollWidth": 1501,
+      "width": 1520
+    },
+    "homepageReadable": true,
+    "topThreeArticleImagesLoaded": true,
+    "viewportReset": true,
+    "checkedAt": "2026-10-19T10:30:48+08:00",
+    "mobileViewport": {
+      "actualWidth": 487,
+      "actualHeight": 1055,
+      "requestedWidth": 390,
+      "scrollWidth": 468,
+      "requestedHeight": 844
+    },
+    "ltuExpectedIndices": [
+      3,
+      4,
+      5
+    ],
+    "scope": "Partial observations only, not acceptance",
+    "ltuVisibleIndices": [
+      0,
+      1,
+      2
+    ],
+    "ltuStatus": "UNVERIFIED: observed fallback group; investigate after browser recovery",
+    "latestArticleDate": "2026-10-18",
+    "screenshotStatus": "TIMEOUT"
+  },
+  "deployment": {
+    "status": "NOT_STARTED",
+    "reason": "No approved content batch or build"
+  },
+  "newsPrepared": [
+    {
+      "slug": "france-lycee-teacher-replacement-consultation-october-2026",
+      "title": "法國高中代課措施上路：人力調度仍須對上缺課科目",
+      "url": "https://globalednews.com/news/france-lycee-teacher-replacement-consultation-october-2026/",
+      "publishedPath": "src/pages/news/france-lycee-teacher-replacement-consultation-october-2026.md",
+      "sources": [
+        {
+          "label": "French Ministry of Education | measures and consultation",
+          "url": "https://www.education.gouv.fr/construire-des-solutions-avec-les-lyceens-506143"
+        },
+        {
+          "label": "Le Monde | independent reporting, 14 October 2026",
+          "url": "https://www.lemonde.fr/societe/article/2026/10/14/mouvement-lyceen-pourquoi-les-3-000-professeurs-remplacants-promis-par-edouard-geffray-ne-couvriront-pas-toutes-les-absences_6793784_3224.html"
+        }
+      ],
+      "verifiedAt": "2026-10-19T10:45:06.991177+08:00"
+    },
+    {
+      "slug": "uk-architecture-route-p-spring-2027",
+      "title": "英國建築師註冊擬增Route P：2027春季新路徑仍有資格要求",
+      "url": "https://globalednews.com/news/uk-architecture-route-p-spring-2027/",
+      "publishedPath": "src/pages/news/uk-architecture-route-p-spring-2027.md",
+      "sources": [
+        {
+          "label": "ARB | Route P implementation plan",
+          "url": "https://arb.org.uk/route-p-a-new-route-to-registration-from-spring-2027/"
+        },
+        {
+          "label": "RIBA | independent professional guidance on education changes",
+          "url": "https://www.riba.org/learn/become-an-architect/studying-architecture/changes-to-studying-architecture/"
+        }
+      ],
+      "verifiedAt": "2026-10-19T10:45:06.991177+08:00"
+    },
+    {
+      "slug": "england-v-levels-2027-qualification-transition",
+      "title": "英格蘭V Levels預計2027開課：選課須看過渡期與大學要求",
+      "url": "https://globalednews.com/news/england-v-levels-2027-qualification-transition/",
+      "publishedPath": "src/pages/news/england-v-levels-2027-qualification-transition.md",
+      "sources": [
+        {
+          "label": "Department for Education | post-16 implementation plan",
+          "url": "https://www.gov.uk/government/publications/post-16-pathways-implementation-plan/post-16-pathways-implementation-plan"
+        },
+        {
+          "label": "Pearson | qualification delivery and funding update",
+          "url": "https://www.pearson.com/en-gb/news-and-policy/news/2026/09/dfe-post_16-pathways--implementation-plan-update.html"
+        }
+      ],
+      "verifiedAt": "2026-10-19T10:45:06.991177+08:00"
+    }
+  ],
+  "studyAbroadPrepared": {
+    "slug": "lancaster-uk-2027-admission-scholarship-planning",
+    "title": "Lancaster留學DIY：先分開入學申請、獎學金與學費預算",
+    "url": "https://globalednews.com/study-abroad/lancaster-uk-2027-admission-scholarship-planning/",
+    "sources": [
+      {
+        "label": "Lancaster | postgraduate application guidance",
+        "url": "https://www.lancaster.ac.uk/study/postgraduate/applying-for-postgraduate-study/"
+      },
+      {
+        "label": "StudyIn | 2027 admissions and scholarships",
+        "url": "https://gostudyin.com/news/lancaster-university-2027-postgraduate-scholarships/"
+      },
+      {
+        "label": "Lancaster | Master’s Excellence terms",
+        "url": "https://www.lancaster.ac.uk/study/fees-and-funding/scholarships-and-bursaries/masters-excellence-scholarship/"
+      },
+      {
+        "label": "Lancaster | Management School Progression terms",
+        "url": "https://www.lancaster.ac.uk/study/fees-and-funding/scholarships-and-bursaries/management-school-progression-scholarship-/"
+      }
+    ]
+  },
+  "phaseCompleted": [
+    "PREFLIGHT",
+    "RESEARCH",
+    "PREPARE",
+    "BUILD"
+  ],
+  "campusReport": {
+    "date": "2026-10-19",
+    "timezone": "Asia/Taipei",
+    "status": "three-public-leads-reviewed",
+    "verifiedAt": "2026-10-19T10:45:07.220948+08:00",
+    "reviewedSchools": [
+      {
+        "school": "國立中央大學",
+        "schoolSlug": "ncu",
+        "source": "https://oia.ncu.edu.tw/p/412-1026-1872.php?Lang=zh-tw",
+        "finding": "116學年第一梯次2027/28甄選公告與10月13日姐妹校名單更新；頁面已讀。未將簡章PDF無法擷取的條件或期限當成已確認。"
+      },
+      {
+        "school": "國立中興大學",
+        "schoolSlug": "nchu",
+        "source": "https://oia.nchu.edu.tw/index.php/zh/5-global-mobility-tw/5-1-exchange-student-program-tw/5-1-1-application-guildeline-tw",
+        "finding": "2027秋季交換：學生繳件2026/10/23中午、推薦函10/30中午截止，兩步都須完成；交換仍繳本校學雜費並符合學籍與語言條件。"
+      },
+      {
+        "school": "國立政治大學",
+        "schoolSlug": "nccu",
+        "source": "https://oic.nccu.edu.tw/",
+        "finding": "官方首頁9月23日公告台聯大116學年第一梯次交換，2026/12/28校內截止；10月15日另有短期進修補助公告。"
+      }
+    ],
+    "published": [],
+    "pendingConsent": [],
+    "outreachDrafts": [],
+    "gaps": [],
+    "note": "Public leads reviewed; no interview or outreach claimed."
+  },
+  "preparedAt": "2026-10-19T10:45:07.220948+08:00",
+  "sunmoonReview": {
+    "checkedAt": "2026-10-19T10:45:07.220948+08:00",
+    "source": "https://www.sunmoonnews.com.tw/",
+    "status": "reviewed-no-new-qualified-item",
+    "finding": "Homepage read; Taiwan-Thailand medical technology item is primarily industry coverage, with no independently corroborated education angle. No new import."
+  },
+  "ltuReview": {
+    "checkedAt": "2026-10-19T10:45:07.220948+08:00",
+    "poolSize": 12,
+    "expectedVisibleIndices": [
+      3,
+      4,
+      5
+    ],
+    "pendingLiveVerification": true
+  },
+  "build": {
+    "status": "success",
+    "verifiedAt": "2026-10-19T10:53:14.546858+08:00",
+    "astroPages": 488,
+    "bilingualPairs": 747,
+    "photoPreviews": 1486,
+    "canonicalPages": 1480,
+    "evidence": "docs/daily-checks/2026-10-19/full-build.log",
+    "runtimeLocation": "C:\\Users\\User\\AppData\\Local\\Temp\\globalednews-20261019-runtime",
+    "newEnglishMainContainsChinese": false
+  },
+  "precommitMainSha": "3769be2d5331d423fcb845368f5d69a475eef300"
+}

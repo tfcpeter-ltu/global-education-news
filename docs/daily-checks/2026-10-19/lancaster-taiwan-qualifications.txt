@@ -1,0 +1,301 @@
+- navigation "Skip links":
+  - link "Skip to content":
+    - /url: "#main"
+  - link "Accessibility help":
+    - /url: /accessibility-statement/
+- banner:
+  - link "Lancaster University":
+    - /url: /
+    - img "Lancaster University"
+  - navigation "Quick links":
+    - list:
+      - link "For students":
+        - /url: https://portal.lancaster.ac.uk/ask/
+      - link "For staff":
+        - /url: /current-staff/
+      - link "Global partners":
+        - /url: /study/partners/
+      - link "中文网站":
+        - /url: https://www.lancasteruniversity.cn/
+  - search "Search Lancaster University":
+    - generic: Main site search term
+    - combobox "Main site search term"
+    - button "Search":
+      - generic: Search
+  - navigation "Main menu":
+    - list:
+      - button "Study"
+      - button "Research"
+      - link "Business and Innovation":
+        - /url: /business-and-innovation/
+      - link "Connect":
+        - /url: /connect/
+      - button "Sustainability"
+      - button "About"
+      - link "News":
+        - /url: /news/
+  - navigation "Breadcrumb":
+    - list:
+      - link "Home":
+        - /url: /
+      - link "Study at Lancaster":
+        - /url: /study/
+      - link "Entry requirements":
+        - /url: /study/entry-requirements/
+      - link "Postgraduate entry qualifications":
+        - /url: /study/entry-requirements/postgraduate-qualifications/
+- main:
+  - heading "Postgraduate entry qualifications" [level=1]
+  - paragraph: The information provided below is relevant to 2026 entry and may change for future entry years.
+  - paragraph:
+    - text: The entry requirements for our postgraduate degrees can be found on the individual
+    - link "postgraduate course":
+      - /url: https://www.lancaster.ac.uk/study/postgraduate/postgraduate-courses/
+      - strong: postgraduate course
+    - text: webpages. Before you apply for postgraduate study at Lancaster please check the requirements for your chosen course.
+  - paragraph: "Our entry requirements are generally listed using the standard UK undergraduate degree classifications:"
+  - list:
+    - listitem: First Class honours (1st)
+    - listitem: Upper Second Class honours (2:1)
+    - listitem: Lower Second Class honours (2:2)
+  - paragraph: Postgraduate research degrees may have further academic requirements.
+  - paragraph: There may also be additional requirements for specific programmes such as work experience or a submission of written work.
+  - heading "International qualifications" [level=2]
+  - paragraph: To help you check if your qualifications meet our entry requirements, we provide information on our Bachelor’s degree equivalent qualifications and grades for many countries here.
+  - paragraph:
+    - text: We think you are in
+    - strong: Taiwan
+    - text: ", so have selected it in the list below."
+  - paragraph:
+    - text: If this is not where you have studied you can select another country from the list. If the country or qualification you require information for is not listed please
+    - link "contact us":
+      - /url: /study/contact-us/
+    - text: .
+  - generic: "Country:"
+  - combobox "Country:":
+    - option "choose a country"
+    - option "Afghanistan"
+    - option "Algeria"
+    - option "Argentina"
+    - option "Australia"
+    - option "Austria"
+    - option "Azerbaijan"
+    - option "Bahrain"
+    - option "Bangladesh"
+    - option "Belarus"
+    - option "Bhutan"
+    - option "Bolivia"
+    - option "Botswana"
+    - option "Brazil"
+    - option "Brunei"
+    - option "Bulgaria"
+    - option "Burundi"
+    - option "Cambodia"
+    - option "Cameroon"
+    - option "Canada"
+    - option "Chile"
+    - option "China"
+    - option "Colombia"
+    - option "Costa Rica"
+    - option "Cyprus"
+    - option "Czech Republic"
+    - option "Denmark"
+    - option "Dominican Republic"
+    - option "Ecuador"
+    - option "Egypt"
+    - option "El Salvador"
+    - option "Ethiopia"
+    - option "Finland"
+    - option "France"
+    - option "Georgia"
+    - option "Germany"
+    - option "Ghana"
+    - option "Greece"
+    - option "Guatemala"
+    - option "Honduras"
+    - option "Hong Kong"
+    - option "Hungary"
+    - option "India"
+    - option "Indonesia"
+    - option "Iran"
+    - option "Iraq"
+    - option "Israel"
+    - option "Italy"
+    - option "Jamaica"
+    - option "Japan"
+    - option "Jordan"
+    - option "Kazakhstan"
+    - option "Kenya"
+    - option "Kuwait"
+    - option "Latvia"
+    - option "Lebanon"
+    - option "Libya"
+    - option "Lithuania"
+    - option "Luxembourg"
+    - option "Macao"
+    - option "Malaysia"
+    - option "Mexico"
+    - option "Mongolia"
+    - option "Morocco"
+    - option "Myanmar"
+    - option "Nepal"
+    - option "Netherlands"
+    - option "New Zealand"
+    - option "Nicaragua"
+    - option "Nigeria"
+    - option "Norway"
+    - option "Oman"
+    - option "Pakistan"
+    - option "Palestine"
+    - option "Paraguay"
+    - option "Peru"
+    - option "Poland"
+    - option "Portugal"
+    - option "Qatar"
+    - option "Romania"
+    - option "Russia"
+    - option "Rwanda"
+    - option "Saudi Arabia"
+    - option "Slovakia"
+    - option "Slovenia"
+    - option "South Africa"
+    - option "South Korea"
+    - option "Spain"
+    - option "Sri Lanka"
+    - option "Sudan"
+    - option "Switzerland"
+    - option "Syria"
+    - option "Taiwan" [selected]
+    - option "Tanzania"
+    - option "Thailand"
+    - option "Trinidad and Tobago"
+    - option "Tunisia"
+    - option "Turkey"
+    - option "Ukraine"
+    - option "United Arab Emirates"
+    - option "United States of America"
+    - option "Vietnam"
+    - option "Zambia"
+    - option "Zimbabwe"
+  - region "Qualifications":
+    - heading "Taiwan" [level=3]
+    - table "Equivalent international qualifications":
+      - caption: Equivalent international qualifications
+      - rowgroup:
+        - row "Qualification or institution type 1st 2:1 2:2 Notes":
+          - columnheader "Qualification or institution type":
+            - generic: Qualification or institution type
+          - columnheader "1st"
+          - columnheader "2:1"
+          - columnheader "2:2"
+          - columnheader "Notes"
+        - row "Bachelor degree 80% 75% 70% Awarded by a recognised University":
+          - rowheader "Bachelor degree"
+          - cell "80%"
+          - cell "75%"
+          - cell "70%"
+          - cell "Awarded by a recognised University":
+            - paragraph: Awarded by a recognised University
+  - heading "Contact admissions" [level=2]
+  - paragraph: If you are thinking of applying to Lancaster and you would like to ask us a question, please complete our enquiry form and one of our team will get back to you.
+  - link "Enquire":
+    - /url: /study/contact-us/
+  - img "Students are sitting and chatting."
+- contentinfo:
+  - generic: Quick links
+  - list "Quick links":
+    - link "Study":
+      - /url: /study/
+    - link "Faculties, divisions and departments":
+      - /url: /about-us/faculties-and-departments/
+    - link "Work Foundation":
+      - /url: /work-foundation/
+    - link "Library":
+      - /url: /library/
+    - link "Conference facilities":
+      - /url: /conferences/
+    - link "Job vacancies":
+      - /url: /jobs/
+    - link "Online payments":
+      - /url: https://www.e-res.lancaster.ac.uk/PaymentPortal/Intro.aspx
+  - generic: Faculties and departments
+  - list "Faculties and departments":
+    - link "Health and Medicine":
+      - /url: /health-and-medicine/
+    - link "Humanities, Arts and Social Sciences":
+      - /url: /humanities-arts-and-social-sciences/
+    - link "Management School":
+      - /url: /lums/
+    - link "Science and Technology":
+      - /url: /sci-tech/
+    - link "Departments and centres":
+      - /url: /about-us/faculties-and-departments/
+  - generic: Connect
+  - list "Connect":
+    - link "Facebook":
+      - /url: https://www.facebook.com/lancasteruniversity/
+      - generic: Facebook
+    - link "Instagram":
+      - /url: https://www.instagram.com/lancasteruni/
+      - generic: Instagram
+    - link "YouTube":
+      - /url: https://www.youtube.com/lancasteruniversity/
+      - generic: YouTube
+    - link "TikTok":
+      - /url: https://www.tiktok.com/@lancasteruni
+      - generic: TikTok
+    - link "Bluesky":
+      - /url: https://bsky.app/profile/lancasteruni.bsky.social
+      - generic: Bluesky
+    - link "LinkedIn":
+      - /url: https://www.linkedin.com/edu/school?id=12603&trk=tyah
+      - generic: LinkedIn
+    - link "The Student Room":
+      - /url: https://www.thestudentroom.co.uk/forumdisplay.php?f=157
+      - generic: The Student Room
+    - link "Weibo":
+      - /url: https://e.weibo.com/lancasteruni
+      - generic: Weibo
+    - link "WeChat":
+      - /url: https://www.lancaster.ac.uk/wechat/
+      - generic: WeChat
+  - generic: Contact us
+  - list "Contact us":
+    - text: Lancaster University
+    - text: Lancaster
+    - text: LA1 4YW
+    - text: United Kingdom
+  - list:
+    - link "+44 (0)1524 65201":
+      - /url: tel:+44-1524-65201
+      - text: +44 (0)1524 65201
+    - link "Maps and travel":
+      - /url: /about-us/maps-and-travel/
+      - text: Maps and travel
+  - img "Lancaster University location in the UK"
+  - link "Queen Elizabeth Prize for Education 2025 logo":
+    - /url: https://royalanniversarytrust.org.uk/the-prizes/prize-winners/
+    - img "Queen Elizabeth Prize for Education 2025 logo"
+  - link "QS Stars rating excellent logo":
+    - /url: https://www.topuniversities.com/universities/lancaster-university
+    - img "QS Stars rating excellent logo"
+  - paragraph:
+    - link "Accessibility statement":
+      - /url: /accessibility-statement/
+    - text: "|"
+    - link "Legal notice":
+      - /url: /strategic-planning-and-governance/legal-notice/
+    - text: "|"
+    - link "Freedom of information":
+      - /url: /freedom-of-information/
+    - text: "|"
+    - link "Privacy and cookies notices":
+      - /url: /privacy/
+    - text: "|"
+    - link "Modern slavery statement":
+      - /url: /strategic-planning-and-governance/modern-slavery-statement/
+    - text: © 2026 Lancaster University. All rights reserved.
+- button
+- img "Monica"
+- generic: Ctrl+M
+- text: 解釋

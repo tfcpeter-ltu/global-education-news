@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-19",
+  "imports": [],
+  "review": {
+    "status": "fewer-new-posts",
+    "availableNewCount": 0,
+    "checkedAt": "2026-10-19T10:45:06.991177+08:00",
+    "sourceUrls": [
+      "https://www.facebook.com/profile.php?id=61585164670358"
+    ],
+    "evidence": "docs/daily-checks/2026-10-19/peter-review.txt",
+    "finding": "Latest published list read: October18 ebook giveaway and Common App, October17 Australia. Common App already imported yesterday. No qualified new import.",
+    "insufficientEvidence": [
+      {
+        "sourceId": "122147561865172155",
+        "reason": "New ebook promotion; no independently verified substantive educational news or image reuse rights established."
+      },
+      {
+        "sourceId": "122147457435172155",
+        "reason": "Australia commentary names institutions but lacks exact original tables for housing, inflation and insolvency figures; not imported."
+      }
+    ]
+  }
+}

@@ -1,0 +1,910 @@
+10:51:57 [content] Syncing content
+10:51:57 [content] Synced content
+10:51:57 [types] Generated 47ms
+10:51:57 [build] output: "static"
+10:51:57 [build] mode: "static"
+10:51:57 [build] directory: C:\Users\User\AppData\Local\Temp\globalednews-20261019-runtime\dist\
+10:51:57 [build] Collecting build info...
+10:51:57 [build] ✓ Completed in 102ms.
+10:51:57 [build] Building static entrypoints...
+10:52:01 [vite] ✓ built in 4.12s
+10:52:01 [build] ✓ Completed in 4.14s.
+
+ building client (vite) 
+10:52:01 [vite] transforming...
+10:52:01 [vite] ✓ 3 modules transformed.
+10:52:01 [vite] rendering chunks...
+10:52:01 [vite] ✓ built in 15ms
+
+ generating static routes 
+10:52:01 ▶ src/pages/about.astro
+10:52:01   └─ /about/index.html (+6ms) 
+10:52:01 ▶ src/pages/advertise.astro
+10:52:01   └─ /advertise/index.html (+3ms) 
+10:52:01 λ src/pages/article-sitemap.xml.ts
+10:52:01   └─ /article-sitemap.xml (+2ms) 
+10:52:01 ▶ src/pages/campus/guides/[slug].astro
+10:52:01   ├─ /campus/guides/high-school-start/index.html (+3ms) 
+10:52:01   ├─ /campus/guides/short-programs/index.html (+2ms) 
+10:52:01   ├─ /campus/guides/exchange/index.html (+2ms) 
+10:52:01   ├─ /campus/guides/dual-degree/index.html (+2ms) 
+10:52:01   ├─ /campus/guides/internship/index.html (+2ms) 
+10:52:01   └─ /campus/guides/funding/index.html (+2ms) 
+10:52:01 ▶ src/pages/campus/index.astro
+10:52:01   └─ /campus/index.html (+2ms) 
+10:52:01 ▶ src/pages/campus/reports/index.astro
+10:52:01   └─ /campus/reports/index.html (+3ms) 
+10:52:01 ▶ src/pages/campus/schools/[slug].astro
+10:52:01   ├─ /campus/schools/yanping/index.html (+3ms) 
+10:52:01   ├─ /campus/schools/fuxing/index.html (+2ms) 
+10:52:01   ├─ /campus/schools/wanfang/index.html (+2ms) 
+10:52:01   ├─ /campus/schools/gezhi/index.html (+2ms) 
+10:52:01   ├─ /campus/schools/zhulin/index.html (+3ms) 
+10:52:01   ├─ /campus/schools/tsushiou/index.html (+2ms) 
+10:52:01   ├─ /campus/schools/kuangjen/index.html (+8ms) 
+10:52:01   ├─ /campus/schools/beida/index.html (+8ms) 
+10:52:01   ├─ /campus/schools/wuling/index.html (+2ms) 
+10:52:01   ├─ /campus/schools/zhubei/index.html (+2ms) 
+10:52:01   ├─ /campus/schools/miaoli-datong/index.html (+2ms) 
+10:52:01   ├─ /campus/schools/qingshui/index.html (+2ms) 
+10:52:01   ├─ /campus/schools/zhongming/index.html (+2ms) 
+10:52:01   ├─ /campus/schools/mingdao/index.html (+2ms) 
+10:52:01   ├─ /campus/schools/xiaoming/index.html (+2ms) 
+10:52:01   ├─ /campus/schools/chiaotai/index.html (+2ms) 
+10:52:01   ├─ /campus/schools/shinmin/index.html (+2ms) 
+10:52:01   ├─ /campus/schools/zhengde/index.html (+2ms) 
+10:52:01   ├─ /campus/schools/changhua-industrial/index.html (+2ms) 
+10:52:01   ├─ /campus/schools/changhua-commercial/index.html (+2ms) 
+10:52:01   ├─ /campus/schools/victoria/index.html (+2ms) 
+10:52:01   ├─ /campus/schools/hungjen/index.html (+2ms) 
+10:52:01   ├─ /campus/schools/chiayi-science/index.html (+2ms) 
+10:52:01   ├─ /campus/schools/concordia/index.html (+3ms) 
+10:52:01   ├─ /campus/schools/tainan-first/index.html (+2ms) 
+10:52:01   ├─ /campus/schools/tainan-second/index.html (+2ms) 
+10:52:01   ├─ /campus/schools/chiachi/index.html (+2ms) 
+10:52:01   ├─ /campus/schools/yinghai/index.html (+2ms) 
+10:52:01   ├─ /campus/schools/tainan-commercial/index.html (+2ms) 
+10:52:01   ├─ /campus/schools/chungshan-industrial/index.html (+2ms) 
+10:52:01   ├─ /campus/schools/kaohsiung-girls/index.html (+2ms) 
+10:52:01   ├─ /campus/schools/daoming/index.html (+2ms) 
+10:52:01   ├─ /campus/schools/pingtung/index.html (+2ms) 
+10:52:01   ├─ /campus/schools/pingtung-girls/index.html (+2ms) 
+10:52:01   ├─ /campus/schools/ntu/index.html (+2ms) 
+10:52:01   ├─ /campus/schools/nthu/index.html (+41ms) 
+10:52:02   ├─ /campus/schools/nccu/index.html (+2ms) 
+10:52:02   ├─ /campus/schools/ntua/index.html (+1ms) 
+10:52:02   ├─ /campus/schools/ntut/index.html (+2ms) 
+10:52:02   ├─ /campus/schools/ntnu/index.html (+2ms) 
+10:52:02   ├─ /campus/schools/shu/index.html (+2ms) 
+10:52:02   ├─ /campus/schools/mcu/index.html (+2ms) 
+10:52:02   ├─ /campus/schools/usc/index.html (+2ms) 
+10:52:02   ├─ /campus/schools/cycu/index.html (+2ms) 
+10:52:02   ├─ /campus/schools/knu/index.html (+2ms) 
+10:52:02   ├─ /campus/schools/ncu/index.html (+2ms) 
+10:52:02   ├─ /campus/schools/chu/index.html (+2ms) 
+10:52:02   ├─ /campus/schools/thu/index.html (+2ms) 
+10:52:02   ├─ /campus/schools/ntcust/index.html (+2ms) 
+10:52:02   ├─ /campus/schools/nchu/index.html (+3ms) 
+10:52:02   ├─ /campus/schools/ncue/index.html (+4ms) 
+10:52:02   ├─ /campus/schools/ncyu/index.html (+3ms) 
+10:52:02   ├─ /campus/schools/ncku/index.html (+2ms) 
+10:52:02   ├─ /campus/schools/tut/index.html (+2ms) 
+10:52:02   ├─ /campus/schools/ksu/index.html (+2ms) 
+10:52:02   ├─ /campus/schools/ctbc/index.html (+2ms) 
+10:52:02   ├─ /campus/schools/nkust/index.html (+2ms) 
+10:52:02   └─ /campus/schools/wzu/index.html (+5ms) 
+10:52:02 ▶ src/pages/contact.astro
+10:52:02   └─ /contact/index.html (+2ms) 
+10:52:02 ▶ src/pages/corrections.astro
+10:52:02   └─ /corrections/index.html (+2ms) 
+10:52:02 ▶ src/pages/disclosure.astro
+10:52:02   └─ /disclosure/index.html (+2ms) 
+10:52:02 ▶ src/pages/editorial-policy.astro
+10:52:02   └─ /editorial-policy/index.html (+2ms) 
+10:52:02 ▶ src/pages/index.astro
+10:52:02   └─ /index.html (+7ms) 
+10:52:02 ▶ src/pages/insight/2026-study-policy-us-canada-uk-australia.md
+10:52:02   └─ /insight/2026-study-policy-us-canada-uk-australia/index.html (+3ms) 
+10:52:02 ▶ src/pages/insight/index.astro
+10:52:02   └─ /insight/index.html (+1ms) 
+10:52:02 ▶ src/pages/intelligence/admissions/index.astro
+10:52:02   └─ /intelligence/admissions/index.html (+6ms) 
+10:52:02 ▶ src/pages/intelligence/australia-study-policy.astro
+10:52:02   └─ /intelligence/australia-study-policy/index.html (+2ms) 
+10:52:02 ▶ src/pages/intelligence/canada-study-policy.astro
+10:52:02   └─ /intelligence/canada-study-policy/index.html (+2ms) 
+10:52:02 ▶ src/pages/intelligence/global-index/index.astro
+10:52:02   └─ /intelligence/global-index/index.html (+1ms) 
+10:52:02 ▶ src/pages/intelligence/index.astro
+10:52:02   └─ /intelligence/index.html (+3ms) 
+10:52:02 ▶ src/pages/intelligence/international-student-policy.astro
+10:52:02   └─ /intelligence/international-student-policy/index.html (+4ms) 
+10:52:02 ▶ src/pages/intelligence/policy/index.astro
+10:52:02   └─ /intelligence/policy/index.html (+10ms) 
+10:52:02 ▶ src/pages/intelligence/research/index.astro
+10:52:02   └─ /intelligence/research/index.html (+2ms) 
+10:52:02 ▶ src/pages/intelligence/taiwan-ai-index/index.astro
+10:52:02   └─ /intelligence/taiwan-ai-index/index.html (+2ms) 
+10:52:02 ▶ src/pages/intelligence/uk-study-policy.astro
+10:52:02   └─ /intelligence/uk-study-policy/index.html (+3ms) 
+10:52:02 ▶ src/pages/intelligence/us-study-policy.astro
+10:52:02   └─ /intelligence/us-study-policy/index.html (+2ms) 
+10:52:02 λ src/pages/news-sitemap.xml.ts
+10:52:02   └─ /news-sitemap.xml (+2ms) 
+10:52:02 ▶ src/pages/news/anu-teqsa-governance-conditions-september-2026.md
+10:52:02   └─ /news/anu-teqsa-governance-conditions-september-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/atlantic-canada-international-enrolment-october-2026.md
+10:52:02   └─ /news/atlantic-canada-international-enrolment-october-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/australia-2027-international-student-npl.md
+10:52:02   └─ /news/australia-2027-international-student-npl/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/australia-august-2026-student-visa-grant-rates.md
+10:52:02   └─ /news/australia-august-2026-student-visa-grant-rates/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/australia-bsb80120-overseas-enrolment-stop-october-2026.md
+10:52:02   └─ /news/australia-bsb80120-overseas-enrolment-stop-october-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/australia-coalition-student-cuts-response-2026.md
+10:52:02   └─ /news/australia-coalition-student-cuts-response-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/australia-go8-migration-proposal-response-2026.md
+10:52:02   └─ /news/australia-go8-migration-proposal-response-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/australia-graduate-diploma-management-learning-cancelled-2026.md
+10:52:02   └─ /news/australia-graduate-diploma-management-learning-cancelled-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/australia-international-student-demand-below-allocations-2026.md
+10:52:02   └─ /news/australia-international-student-demand-below-allocations-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/australia-international-student-june-2026-data.md
+10:52:02   └─ /news/australia-international-student-june-2026-data/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/australia-international-student-transfer-12-month-rule-2026.md
+10:52:02   └─ /news/australia-international-student-transfer-12-month-rule-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/australia-macquarie-virtual-peer-ai-tutorials-2026.md
+10:52:02   └─ /news/australia-macquarie-virtual-peer-ai-tutorials-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/australia-minimum-wage-international-students-2026.md
+10:52:02   └─ /news/australia-minimum-wage-international-students-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/australia-nova-institute-closure-tps-2026.md
+10:52:02   └─ /news/australia-nova-institute-closure-tps-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/australia-opening-doors-university-funding-bill-2026.md
+10:52:02   └─ /news/australia-opening-doors-university-funding-bill-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/australia-preliminary-overseas-commencements-2026.md
+10:52:02   └─ /news/australia-preliminary-overseas-commencements-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/australia-student-family-course-reform-september-2026.md
+10:52:02   └─ /news/australia-student-family-course-reform-september-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/australia-student-safety-survey-2026.md
+10:52:02   └─ /news/australia-student-safety-survey-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/australia-student-transport-concessions-advocacy-2026.md
+10:52:02   └─ /news/australia-student-transport-concessions-advocacy-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/australia-student-visa-course-provider-change-rules-2026.md
+10:52:02   └─ /news/australia-student-visa-course-provider-change-rules-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/australia-student-visa-onshore-family-rules-2026.md
+10:52:02   └─ /news/australia-student-visa-onshore-family-rules-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/australia-student-visa-refusal-rate-24-percent-2026.md
+10:52:02   └─ /news/australia-student-visa-refusal-rate-24-percent-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/australia-teqsa-fees-consultation-october-2026.md
+10:52:02   └─ /news/australia-teqsa-fees-consultation-october-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/australia-uac-international-offers-october-2026.md
+10:52:02   └─ /news/australia-uac-international-offers-october-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/australia-windsor-college-tps-closure-2026.md
+10:52:02   └─ /news/australia-windsor-college-tps-closure-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/birmingham-hkmu-commercial-law-pathway-2027.md
+10:52:02   └─ /news/birmingham-hkmu-commercial-law-pathway-2027/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/buckinghamshire-new-university-sponsor-licence-suspended-2026.md
+10:52:02   └─ /news/buckinghamshire-new-university-sponsor-licence-suspended-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/canada-2027-study-permit-cap-planning-150000-target.md
+10:52:02   └─ /news/canada-2027-study-permit-cap-planning-150000-target/index.html (+7ms) 
+10:52:02 ▶ src/pages/news/canada-erasmus-proposal-september-2026.md
+10:52:02   └─ /news/canada-erasmus-proposal-september-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/canada-graduate-student-policy-september-2026.md
+10:52:02   └─ /news/canada-graduate-student-policy-september-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/canada-international-student-arrivals-july-2026.md
+10:52:02   └─ /news/canada-international-student-arrivals-july-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/canada-international-student-arrivals-june-2026.md
+10:52:02   └─ /news/canada-international-student-arrivals-june-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/canada-international-student-reentry-2026.md
+10:52:02   └─ /news/canada-international-student-reentry-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/canada-language-programs-2025-survey-decline.md
+10:52:02   └─ /news/canada-language-programs-2025-survey-decline/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/canada-off-campus-work-24-hours-fall-2026.md
+10:52:02   └─ /news/canada-off-campus-work-24-hours-fall-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/canada-proof-of-funds-september-2026.md
+10:52:02   └─ /news/canada-proof-of-funds-september-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/canada-study-permit-processing-dashboard-2026.md
+10:52:02   └─ /news/canada-study-permit-processing-dashboard-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/canada-work-permit-short-study-exemption-2026.md
+10:52:02   └─ /news/canada-work-permit-short-study-exemption-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/canada-work-permit-study-without-permit-2026.md
+10:52:02   └─ /news/canada-work-permit-study-without-permit-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/cmu-miami-campus-three-billion-gift-2026.md
+10:52:02   └─ /news/cmu-miami-campus-three-billion-gift-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/coventry-almaty-campus-opening-2026.md
+10:52:02   └─ /news/coventry-almaty-campus-opening-2026/index.html (+6ms) 
+10:52:02 ▶ src/pages/news/cu-denver-hyderabad-campus-2027.md
+10:52:02   └─ /news/cu-denver-hyderabad-campus-2027/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/dundee-strike-student-guidance-september-2026.md
+10:52:02   └─ /news/dundee-strike-student-guidance-september-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/eaie-glasgow-2026-international-education-conference.md
+10:52:02   └─ /news/eaie-glasgow-2026-international-education-conference/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/ec-canada-student-placements-september-2026.md
+10:52:02   └─ /news/ec-canada-student-placements-september-2026/index.html (+5ms) 
+10:52:02 ▶ src/pages/news/ec-english-new-arrivals-suspended-september-2026.md
+10:52:02   └─ /news/ec-english-new-arrivals-suspended-september-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/ec-english-uk-student-emergency-support-2026.md
+10:52:02   └─ /news/ec-english-uk-student-emergency-support-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/edinburgh-five-week-strike-student-guidance-2026.md
+10:52:02   └─ /news/edinburgh-five-week-strike-student-guidance-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/eduhk-2027-international-undergraduate-admissions.md
+10:52:02   └─ /news/eduhk-2027-international-undergraduate-admissions/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/england-assessment-only-qts-five-year-rule-2026.md
+10:52:02   └─ /news/england-assessment-only-qts-five-year-rule-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/england-v-levels-2027-qualification-transition.md
+10:52:02   └─ /news/england-v-levels-2027-qualification-transition/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/france-high-school-dialogue-consultation-october-2026.md
+10:52:02   └─ /news/france-high-school-dialogue-consultation-october-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/france-lycee-teacher-replacement-consultation-october-2026.md
+10:52:02   └─ /news/france-lycee-teacher-replacement-consultation-october-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/france-senate-university-excellence-proposals-2026.md
+10:52:02   └─ /news/france-senate-university-excellence-proposals-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/fsu-international-student-insurance-2026.md
+10:52:02   └─ /news/fsu-international-student-insurance-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/germany-eaie-fit-student-career-support-2026.md
+10:52:02   └─ /news/germany-eaie-fit-student-career-support-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/germany-international-student-retention-iw-2026.md
+10:52:02   └─ /news/germany-international-student-retention-iw-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/hku-2027-non-jupas-opens-september-23.md
+10:52:02   └─ /news/hku-2027-non-jupas-opens-september-23/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/hku-non-local-applications-record-2026.md
+10:52:02   └─ /news/hku-non-local-applications-record-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/hong-kong-hung-shui-kiu-university-land-2026.md
+10:52:02   └─ /news/hong-kong-hung-shui-kiu-university-land-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/hong-kong-non-local-student-cap-50-percent-2026.md
+10:52:02   └─ /news/hong-kong-non-local-student-cap-50-percent-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/hong-kong-phd-fellowship-2027-28-open.md
+10:52:02   └─ /news/hong-kong-phd-fellowship-2027-28-open/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/idp-blackstone-proposal-rejected-september-2026.md
+10:52:02   └─ /news/idp-blackstone-proposal-rejected-september-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/ilac-language-student-placement-september-2026.md
+10:52:02   └─ /news/ilac-language-student-placement-september-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/index.astro
+10:52:02   └─ /news/index.html (+13ms) 
+10:52:02 ▶ src/pages/news/international-graduates-lifetime-economic-estimate-2026.md
+10:52:02   └─ /news/international-graduates-lifetime-economic-estimate-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/ireland-maynooth-fuzhou-miec-extension-2026.md
+10:52:02   └─ /news/ireland-maynooth-fuzhou-miec-extension-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/ireland-student-housing-capacity-debate-2026.md
+10:52:02   └─ /news/ireland-student-housing-capacity-debate-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/ireland-trusted-quality-and-access-october-2026.md
+10:52:02   └─ /news/ireland-trusted-quality-and-access-october-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/ireland-university-budget-2027-funding-appeal.md
+10:52:02   └─ /news/ireland-university-budget-2027-funding-appeal/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/jordan-international-university-unified-admissions-2026.md
+10:52:02   └─ /news/jordan-international-university-unified-admissions-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/khiva-liaoning-normal-transnational-campus-2026.md
+10:52:02   └─ /news/khiva-liaoning-normal-transnational-campus-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/lincoln-bishop-gus-agreement-2026.md
+10:52:02   └─ /news/lincoln-bishop-gus-agreement-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/liverpool-bengaluru-campus-opening-2026.md
+10:52:02   └─ /news/liverpool-bengaluru-campus-opening-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/london-international-student-welcome-2026.md
+10:52:02   └─ /news/london-international-student-welcome-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/ltu-business-today-ossd-profile-2025.md
+10:52:02   └─ /news/ltu-business-today-ossd-profile-2025/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/ltu-ctee-media-report-2026-07-03.md
+10:52:02   └─ /news/ltu-ctee-media-report-2026-07-03/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/ltu-ossd-2026-overseas-admissions-ctee.md
+10:52:02   └─ /news/ltu-ossd-2026-overseas-admissions-ctee/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/malaysia-higher-education-blueprint-international-students-2035.md
+10:52:02   └─ /news/malaysia-higher-education-blueprint-international-students-2035/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/manchester-bengaluru-centre-plan-october-2026.md
+10:52:02   └─ /news/manchester-bengaluru-centre-plan-october-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/massey-veterinary-domestic-places-2027.md
+10:52:02   └─ /news/massey-veterinary-domestic-places-2027/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/minerva-global-university-system-2026.md
+10:52:02   └─ /news/minerva-global-university-system-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/nagoya-g30-undergraduate-2027-application.md
+10:52:02   └─ /news/nagoya-g30-undergraduate-2027-application/index.html (+6ms) 
+10:52:02 ▶ src/pages/news/netherlands-nuffic-international-students-2026.md
+10:52:02   └─ /news/netherlands-nuffic-international-students-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/netherlands-tuition-rates-2027-2028-taiwan.md
+10:52:02   └─ /news/netherlands-tuition-rates-2027-2028-taiwan/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/new-taipei-dual-diploma-2026.md
+10:52:02   └─ /news/new-taipei-dual-diploma-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/new-zealand-2027-student-visa-apply-three-months-early.md
+10:52:02   └─ /news/new-zealand-2027-student-visa-apply-three-months-early/index.html (+17ms) 
+10:52:02 ▶ src/pages/news/new-zealand-international-education-exports-2026.md
+10:52:02   └─ /news/new-zealand-international-education-exports-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/new-zealand-international-education-exports-5-billion-2026.md
+10:52:02   └─ /news/new-zealand-international-education-exports-5-billion-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/new-zealand-ncea-replacement-nzce-nzace-2028-2030.md
+10:52:02   └─ /news/new-zealand-ncea-replacement-nzce-nzace-2028-2030/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/new-zealand-student-visa-system-outage-october-2026.md
+10:52:02   └─ /news/new-zealand-student-visa-system-outage-october-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/new-zealand-student-visa-wait-times-september-2026.md
+10:52:02   └─ /news/new-zealand-student-visa-wait-times-september-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/new-zealand-years-11-13-final-subjects-first-release-2026.md
+10:52:02   └─ /news/new-zealand-years-11-13-final-subjects-first-release-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/philippines-eduphil-international-student-program-2026.md
+10:52:02   └─ /news/philippines-eduphil-international-student-program-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/philippines-eduphil-international-students-2026.md
+10:52:02   └─ /news/philippines-eduphil-international-students-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/qs-global-mba-2027-mit-sloan.md
+10:52:02   └─ /news/qs-global-mba-2027-mit-sloan/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/scotland-eaie-erasmus-international-cooperation-2026.md
+10:52:02   └─ /news/scotland-eaie-erasmus-international-cooperation-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/south-korea-20-universities-visa-restrictions-2026.md
+10:52:02   └─ /news/south-korea-20-universities-visa-restrictions-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/south-korea-international-student-quality-policy-2029.md
+10:52:02   └─ /news/south-korea-international-student-quality-policy-2029/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/sydney-mahe-research-mobility-mou-2026.md
+10:52:02   └─ /news/sydney-mahe-research-mobility-mou-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/taipei-student-exchange-us-canada-2026.md
+10:52:02   └─ /news/taipei-student-exchange-us-canada-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/taiwan-moe-australia-youth-colearning-2026.md
+10:52:02   └─ /news/taiwan-moe-australia-youth-colearning-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/taiwan-moe-eu-scholarship-2026.md
+10:52:02   └─ /news/taiwan-moe-eu-scholarship-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/taiwan-nycu-fccm-2026-world-champion.md
+10:52:02   └─ /news/taiwan-nycu-fccm-2026-world-champion/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/the-2027-asia-universities-rise.md
+10:52:02   └─ /news/the-2027-asia-universities-rise/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/toronto-presidents-impact-phd-scholarship-2027.md
+10:52:02   └─ /news/toronto-presidents-impact-phd-scholarship-2027/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/ucas-2027-october-early-application-deadline.md
+10:52:02   └─ /news/ucas-2027-october-early-application-deadline/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/ucb-hospitality-summer-row-followup-2026.md
+10:52:02   └─ /news/ucb-hospitality-summer-row-followup-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/uk-architecture-route-p-spring-2027.md
+10:52:02   └─ /news/uk-architecture-route-p-spring-2027/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/uk-bloomsbury-institute-sponsor-licence-revoked-2026.md
+10:52:02   └─ /news/uk-bloomsbury-institute-sponsor-licence-revoked-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/uk-child-student-carer-criminality-rules-2026.md
+10:52:02   └─ /news/uk-child-student-carer-criminality-rules-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/uk-chip-design-doctoral-award-2026.md
+10:52:02   └─ /news/uk-chip-design-doctoral-award-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/uk-discover-uni-2026-dataset-update.md
+10:52:02   └─ /news/uk-discover-uni-2026-dataset-update/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/uk-erasmus-immigration-rules-october-2026.md
+10:52:02   └─ /news/uk-erasmus-immigration-rules-october-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/uk-esag-international-education-sector-action-plans-2026.md
+10:52:02   └─ /news/uk-esag-international-education-sector-action-plans-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/uk-graduate-visa-18-months-2027.md
+10:52:02   └─ /news/uk-graduate-visa-18-months-2027/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/uk-international-student-levy-2028-draft.md
+10:52:02   └─ /news/uk-international-student-levy-2028-draft/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/uk-lifelong-learning-entitlement-modular-study-2026.md
+10:52:02   └─ /news/uk-lifelong-learning-entitlement-modular-study-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/uk-public-first-international-recruitment-model-2026.md
+10:52:02   └─ /news/uk-public-first-international-recruitment-model-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/uk-student-sponsor-compliance-thresholds-2026.md
+10:52:02   └─ /news/uk-student-sponsor-compliance-thresholds-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/uk-student-sponsor-guidance-october-2026.md
+10:52:02   └─ /news/uk-student-sponsor-guidance-october-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/uk-student-visa-maintenance-erasmus-rules-september-2026.md
+10:52:02   └─ /news/uk-student-visa-maintenance-erasmus-rules-september-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/uk-study-visa-applications-year-ending-august-2026.md
+10:52:02   └─ /news/uk-study-visa-applications-year-ending-august-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/uk-study-visas-june-2026.md
+10:52:02   └─ /news/uk-study-visas-june-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/uk-universities-tighten-international-offers-visa-compliance-2026.md
+10:52:02   └─ /news/uk-universities-tighten-international-offers-visa-compliance-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/uk-university-student-fraud-guide-september-2026.md
+10:52:02   └─ /news/uk-university-student-fraud-guide-september-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/unsw-international-admissions-diversity-pathway-2027.md
+10:52:02   └─ /news/unsw-international-admissions-diversity-pathway-2027/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/us-ace-international-enrolment-revenue-survey-2026.md
+10:52:02   └─ /news/us-ace-international-enrolment-revenue-survey-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/us-cpt-guidance-lawsuit-october-2026.md
+10:52:02   └─ /news/us-cpt-guidance-lawsuit-october-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/us-cpt-internship-enforcement-2026.md
+10:52:02   └─ /news/us-cpt-internship-enforcement-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/us-cpt-lawsuit-court-status-october-13-2026.md
+10:52:02   └─ /news/us-cpt-lawsuit-court-status-october-13-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/us-duke-und-foreign-funding-investigations-2026.md
+10:52:02   └─ /news/us-duke-und-foreign-funding-investigations-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/us-duration-status-rule-court-postponed-2026.md
+10:52:02   └─ /news/us-duration-status-rule-court-postponed-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/us-f1-duration-status-fixed-admission-september-2026.md
+10:52:02   └─ /news/us-f1-duration-status-fixed-admission-september-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/us-f1-j1-fixed-admission-period-2026.astro
+10:52:02   └─ /news/us-f1-j1-fixed-admission-period-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/us-opt-fee-proposal-oira-review-september-2026.md
+10:52:02   └─ /news/us-opt-fee-proposal-oira-review-september-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/us-opt-proposed-school-fee-2026.md
+10:52:02   └─ /news/us-opt-proposed-school-fee-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/us-stanford-daily-f1-free-speech-ruling-2026.md
+10:52:02   └─ /news/us-stanford-daily-f1-free-speech-ruling-2026/index.html (+2ms) 
+10:52:02 ▶ src/pages/news/uts-hcmut-transnational-degree-second-cohort-2026.md
+10:52:02   └─ /news/uts-hcmut-transnational-degree-second-cohort-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/uwa-mumbai-campus-approval-chennai-pending-2026.md
+10:52:02   └─ /news/uwa-mumbai-campus-approval-chennai-pending-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/wa-three-university-merger-business-case-2026.md
+10:52:02   └─ /news/wa-three-university-merger-business-case-2026/index.html (+3ms) 
+10:52:02 ▶ src/pages/news/waseda-sils-2027-april-overseas-ao-deadline.md
+10:52:02   └─ /news/waseda-sils-2027-april-overseas-ao-deadline/index.html (+3ms) 
+10:52:02 ▶ src/pages/newsletter/index.astro
+10:52:02   └─ /newsletter/index.html (+2ms) 
+10:52:02 ▶ src/pages/partners/index.astro
+10:52:02   └─ /partners/index.html (+1ms) 
+10:52:02 ▶ src/pages/peter/[slug].astro
+10:52:02   ├─ /peter/common-app-real-life-experiences-2026/index.html (+3ms) 
+10:52:02   ├─ /peter/harvard-application-casebook-preview-2026/index.html (+2ms) 
+10:52:02   ├─ /peter/us-legacy-admissions-family-policy-2026/index.html (+2ms) 
+10:52:02   ├─ /peter/canada-coop-jobs-costs-2026/index.html (+2ms) 
+10:52:02   ├─ /peter/uk-ucas-2027-application-documents-fees-deadlines/index.html (+2ms) 
+10:52:02   ├─ /peter/australia-student-arrival-six-pitfalls/index.html (+2ms) 
+10:52:02   ├─ /peter/ubc-okanagan-admissions-interview-checklist/index.html (+2ms) 
+10:52:02   ├─ /peter/columbia-journalism-ma-pause-context/index.html (+2ms) 
+10:52:02   ├─ /peter/toronto-vs-ubc-study-comparison/index.html (+2ms) 
+10:52:02   ├─ /peter/uk-study-family-risk-checklist/index.html (+2ms) 
+10:52:02   ├─ /peter/computer-science-uk-us-australia-applications/index.html (+2ms) 
+10:52:02   ├─ /peter/singapore-holistic-admissions-evidence/index.html (+2ms) 
+10:52:02   ├─ /peter/psychology-degrees-country-comparison/index.html (+2ms) 
+10:52:02   ├─ /peter/maggie-cheung-education-honorary-degree/index.html (+2ms) 
+10:52:02   ├─ /peter/undergraduate-or-postgraduate-abroad-planning/index.html (+2ms) 
+10:52:02   ├─ /peter/teacher-recommendations-evidence-over-titles/index.html (+2ms) 
+10:52:02   ├─ /peter/malala-education-and-choice/index.html (+2ms) 
+10:52:02   ├─ /peter/pearson-2027-school-nomination-first/index.html (+5ms) 
+10:52:02   ├─ /peter/us-2027-application-materials-planning/index.html (+2ms) 
+10:52:02   ├─ /peter/ai-study-abroad-industry-context/index.html (+2ms) 
+10:52:02   ├─ /peter/hku-non-jupas-prepare-before-opening/index.html (+2ms) 
+10:52:02   ├─ /peter/pearson-scholarship-school-nomination/index.html (+4ms) 
+10:52:02   ├─ /peter/scholarship-radar-how-to-read-opportunities/index.html (+2ms) 
+10:52:02   ├─ /peter/common-app-activities-evidence/index.html (+2ms) 
+10:52:02   ├─ /peter/uk-computer-science-conversion-planning/index.html (+2ms) 
+10:52:02   ├─ /peter/learning-progress-not-defined-by-grades/index.html (+2ms) 
+10:52:02   ├─ /peter/ai-learning-interest-and-human-agency/index.html (+2ms) 
+10:52:02   ├─ /peter/uk-placement-year-planning/index.html (+2ms) 
+10:52:02   ├─ /peter/study-abroad-diy-five-step-planning/index.html (+2ms) 
+10:52:02   ├─ /peter/peter-study-abroad-reading-map/index.html (+2ms) 
+10:52:02   ├─ /peter/singapore-ossd-qualification-planning/index.html (+2ms) 
+10:52:02   ├─ /peter/cambridge-degree-ceremony-traditions/index.html (+2ms) 
+10:52:02   ├─ /peter/geography-gis-spatial-data-study/index.html (+2ms) 
+10:52:02   ├─ /peter/aerospace-uk-australia-program-planning/index.html (+2ms) 
+10:52:02   ├─ /peter/canada-tourism-degree-guide/index.html (+3ms) 
+10:52:02   ├─ /peter/australia-nursing-registration-four-gates/index.html (+2ms) 
+10:52:02   ├─ /peter/community-college-transfer-planning/index.html (+2ms) 
+10:52:02   ├─ /peter/early-action-application-order/index.html (+2ms) 
+10:52:02   └─ /peter/new-zealand-pathway-student-visa/index.html (+3ms) 
+10:52:02 ▶ src/pages/peter/index.astro
+10:52:02   └─ /peter/index.html (+3ms) 
+10:52:02 ▶ src/pages/peter/volume-1.astro
+10:52:02   └─ /peter/volume-1/index.html (+3ms) 
+10:52:02 ▶ src/pages/privacy.astro
+10:52:02   └─ /privacy/index.html (+2ms) 
+10:52:02 ▶ src/pages/scholarships/index.astro
+10:52:02   └─ /scholarships/index.html (+8ms) 
+10:52:02 ▶ src/pages/scholarships/items/2026-08-bristol-think-big.md
+10:52:02   └─ /scholarships/items/2026-08-bristol-think-big/index.html (+3ms) 
+10:52:02 ▶ src/pages/scholarships/items/2026-08-manchester-global-futures-taiwan-2027.md
+10:52:02   └─ /scholarships/items/2026-08-manchester-global-futures-taiwan-2027/index.html (+2ms) 
+10:52:02 ▶ src/pages/scholarships/items/2026-08-mcgill-mccall-macbain.md
+10:52:02   └─ /scholarships/items/2026-08-mcgill-mccall-macbain/index.html (+2ms) 
+10:52:02 ▶ src/pages/scholarships/items/2026-08-melbourne-graduate-research.md
+10:52:02   └─ /scholarships/items/2026-08-melbourne-graduate-research/index.html (+2ms) 
+10:52:02 ▶ src/pages/scholarships/items/2026-08-melbourne-international-excellence-graduate-2027.md
+10:52:02   └─ /scholarships/items/2026-08-melbourne-international-excellence-graduate-2027/index.html (+2ms) 
+10:52:02 ▶ src/pages/scholarships/items/2026-08-moe-eu-scholarship.md
+10:52:02   └─ /scholarships/items/2026-08-moe-eu-scholarship/index.html (+2ms) 
+10:52:02 ▶ src/pages/scholarships/items/2026-08-moe-government-sponsored-study.md
+10:52:02   └─ /scholarships/items/2026-08-moe-government-sponsored-study/index.html (+2ms) 
+10:52:02 ▶ src/pages/scholarships/items/2026-08-moe-new-southbound-internship.md
+10:52:02   └─ /scholarships/items/2026-08-moe-new-southbound-internship/index.html (+2ms) 
+10:52:02 ▶ src/pages/scholarships/items/2026-08-moe-overseas-scholarship.md
+10:52:02   └─ /scholarships/items/2026-08-moe-overseas-scholarship/index.html (+2ms) 
+10:52:02 ▶ src/pages/scholarships/items/2026-08-moe-study-abroad-fly.md
+10:52:02   └─ /scholarships/items/2026-08-moe-study-abroad-fly/index.html (+2ms) 
+10:52:02 ▶ src/pages/scholarships/items/2026-08-moe-study-abroad-internship.md
+10:52:02   └─ /scholarships/items/2026-08-moe-study-abroad-internship/index.html (+2ms) 
+10:52:02 ▶ src/pages/scholarships/items/2026-08-moe-study-abroad-needy.md
+10:52:02   └─ /scholarships/items/2026-08-moe-study-abroad-needy/index.html (+2ms) 
+10:52:02 ▶ src/pages/scholarships/items/2026-08-moe-top100-phd.md
+10:52:02   └─ /scholarships/items/2026-08-moe-top100-phd/index.html (+2ms) 
+10:52:02 ▶ src/pages/scholarships/items/2026-08-monash-awards-2027.md
+10:52:02   └─ /scholarships/items/2026-08-monash-awards-2027/index.html (+2ms) 
+10:52:02 ▶ src/pages/scholarships/items/2026-08-oxford-clarendon.md
+10:52:02   └─ /scholarships/items/2026-08-oxford-clarendon/index.html (+2ms) 
+10:52:02 ▶ src/pages/scholarships/items/2026-08-sydney-vcis-2027.md
+10:52:02   └─ /scholarships/items/2026-08-sydney-vcis-2027/index.html (+2ms) 
+10:52:02 ▶ src/pages/scholarships/items/2026-08-tgpi-dream-factory.md
+10:52:02   └─ /scholarships/items/2026-08-tgpi-dream-factory/index.html (+2ms) 
+10:52:02 ▶ src/pages/scholarships/items/2026-08-tgpi-global-flight.md
+10:52:02   └─ /scholarships/items/2026-08-tgpi-global-flight/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-08-ubc-four-year-doctoral-fellowship.md
+10:52:03   └─ /scholarships/items/2026-08-ubc-four-year-doctoral-fellowship/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-08-ubc-imes.md
+10:52:03   └─ /scholarships/items/2026-08-ubc-imes/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-08-ubc-international-scholars-2027.md
+10:52:03   └─ /scholarships/items/2026-08-ubc-international-scholars-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-08-ubc-killam-doctoral-2027.md
+10:52:03   └─ /scholarships/items/2026-08-ubc-killam-doctoral-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-08-ucl-global-masters.md
+10:52:03   └─ /scholarships/items/2026-08-ucl-global-masters/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-08-ucl-global-undergraduate.md
+10:52:03   └─ /scholarships/items/2026-08-ucl-global-undergraduate/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-08-unsw-scientia-2027.md
+10:52:03   └─ /scholarships/items/2026-08-unsw-scientia-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-08-uq-international-high-achievers-2027.md
+10:52:03   └─ /scholarships/items/2026-08-uq-international-high-achievers-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-08-utoronto-pearson-2027.md
+10:52:03   └─ /scholarships/items/2026-08-utoronto-pearson-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-adelaide-academic-excellence-2027.md
+10:52:03   └─ /scholarships/items/2026-09-adelaide-academic-excellence-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-adelaide-merit-2027.md
+10:52:03   └─ /scholarships/items/2026-09-adelaide-merit-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-auckland-international-student-excellence-2027.md
+10:52:03   └─ /scholarships/items/2026-09-auckland-international-student-excellence-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-cardiff-vice-chancellor-taiwan-january-2027.md
+10:52:03   └─ /scholarships/items/2026-09-cardiff-vice-chancellor-taiwan-january-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-chevening-delta-climate-2027.md
+10:52:03   └─ /scholarships/items/2026-09-chevening-delta-climate-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-chevening-taiwan.md
+10:52:03   └─ /scholarships/items/2026-09-chevening-taiwan/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-daad-architecture-masters.md
+10:52:03   └─ /scholarships/items/2026-09-daad-architecture-masters/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-deakin-excellence-international-2027.md
+10:52:03   └─ /scholarships/items/2026-09-deakin-excellence-international-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-deakin-international-merit-2027.md
+10:52:03   └─ /scholarships/items/2026-09-deakin-international-merit-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-deakin-vice-chancellor-international-2027.md
+10:52:03   └─ /scholarships/items/2026-09-deakin-vice-chancellor-international-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-dundee-east-asia-undergraduate-january-2027.md
+10:52:03   └─ /scholarships/items/2026-09-dundee-east-asia-undergraduate-january-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-dundee-global-excellence-undergraduate-january-2027.md
+10:52:03   └─ /scholarships/items/2026-09-dundee-global-excellence-undergraduate-january-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-erasmus-mundus-2027.md
+10:52:03   └─ /scholarships/items/2026-09-erasmus-mundus-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-eth-zurich-esop-2027.md
+10:52:03   └─ /scholarships/items/2026-09-eth-zurich-esop-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-exeter-pgt-taiwan-january-2027.md
+10:52:03   └─ /scholarships/items/2026-09-exeter-pgt-taiwan-january-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-fulbright-experience-america-research-award.md
+10:52:03   └─ /scholarships/items/2026-09-fulbright-experience-america-research-award/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-fulbright-non-academic-professional-award.md
+10:52:03   └─ /scholarships/items/2026-09-fulbright-non-academic-professional-award/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-fulbright-senior-research-award.md
+10:52:03   └─ /scholarships/items/2026-09-fulbright-senior-research-award/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-gates-cambridge-2027.md
+10:52:03   └─ /scholarships/items/2026-09-gates-cambridge-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-harvard-academy-scholars-2027.md
+10:52:03   └─ /scholarships/items/2026-09-harvard-academy-scholars-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-harvard-radcliffe-fellowship-2027.md
+10:52:03   └─ /scholarships/items/2026-09-harvard-radcliffe-fellowship-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-hkpfs-2027.md
+10:52:03   └─ /scholarships/items/2026-09-hkpfs-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-imperial-presidents-phd-2027.md
+10:52:03   └─ /scholarships/items/2026-09-imperial-presidents-phd-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-kent-international-undergraduate-january-2027.md
+10:52:03   └─ /scholarships/items/2026-09-kent-international-undergraduate-january-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-knight-hennessy-2027.md
+10:52:03   └─ /scholarships/items/2026-09-knight-hennessy-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-latrobe-high-achiever-2027.md
+10:52:03   └─ /scholarships/items/2026-09-latrobe-high-achiever-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-leicester-global-excellence-jan-apr-2027.md
+10:52:03   └─ /scholarships/items/2026-09-leicester-global-excellence-jan-apr-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-macquarie-vcis-2027.md
+10:52:03   └─ /scholarships/items/2026-09-macquarie-vcis-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-monash-international-merit-2027.md
+10:52:03   └─ /scholarships/items/2026-09-monash-international-merit-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-ntu-taiwan-scholarship-jan-2027.md
+10:52:03   └─ /scholarships/items/2026-09-ntu-taiwan-scholarship-jan-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-ntu-taiwan-stem-scholarship-jan-2027.md
+10:52:03   └─ /scholarships/items/2026-09-ntu-taiwan-stem-scholarship-jan-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-oxford-clarendon-2027.md
+10:52:03   └─ /scholarships/items/2026-09-oxford-clarendon-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-rmit-up-academic-english-bursary-2027.md
+10:52:03   └─ /scholarships/items/2026-09-rmit-up-academic-english-bursary-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-strathclyde-sbs-international-masters-jan-2027.md
+10:52:03   └─ /scholarships/items/2026-09-strathclyde-sbs-international-masters-jan-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-sydney-rtp-international-2027.md
+10:52:03   └─ /scholarships/items/2026-09-sydney-rtp-international-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-taiwan-anu-phd-scholarship-2027.md
+10:52:03   └─ /scholarships/items/2026-09-taiwan-anu-phd-scholarship-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-tasmanian-international-scholarship-2027.md
+10:52:03   └─ /scholarships/items/2026-09-tasmanian-international-scholarship-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-ubc-international-scholars-2027.md
+10:52:03   └─ /scholarships/items/2026-09-ubc-international-scholars-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-uc-berkeley-beahrs-elp-2027.md
+10:52:03   └─ /scholarships/items/2026-09-uc-berkeley-beahrs-elp-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-uni-iowa-partner-state-taiwan-2027.md
+10:52:03   └─ /scholarships/items/2026-09-uni-iowa-partner-state-taiwan-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-university-iowa-national-scholars-2027.md
+10:52:03   └─ /scholarships/items/2026-09-university-iowa-national-scholars-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-unsw-international-scientia-2027.md
+10:52:03   └─ /scholarships/items/2026-09-unsw-international-scientia-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-uow-postgraduate-academic-excellence-2027.md
+10:52:03   └─ /scholarships/items/2026-09-uow-postgraduate-academic-excellence-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-uow-university-excellence-2027.md
+10:52:03   └─ /scholarships/items/2026-09-uow-university-excellence-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-utoronto-lester-b-pearson-2027.md
+10:52:03   └─ /scholarships/items/2026-09-utoronto-lester-b-pearson-2027/index.html (+4ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-09-yenching-academy-2027-taiwan.md
+10:52:03   └─ /scholarships/items/2026-09-yenching-academy-2027-taiwan/index.html (+3ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-american-university-egls-2027.md
+10:52:03   └─ /scholarships/items/2026-10-american-university-egls-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-aut-north-asia-2027.md
+10:52:03   └─ /scholarships/items/2026-10-aut-north-asia-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-bangor-vice-chancellor-january-2027.md
+10:52:03   └─ /scholarships/items/2026-10-bangor-vice-chancellor-january-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-bath-international-excellence-ug-2027.md
+10:52:03   └─ /scholarships/items/2026-10-bath-international-excellence-ug-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-boise-state-international-fall-2027.md
+10:52:03   └─ /scholarships/items/2026-10-boise-state-international-fall-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-bournemouth-academic-excellence-january-2027.md
+10:52:03   └─ /scholarships/items/2026-10-bournemouth-academic-excellence-january-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-canterbury-guardian-commerce-2027.md
+10:52:03   └─ /scholarships/items/2026-10-canterbury-guardian-commerce-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-canterbury-international-first-year-offshore-2027.md
+10:52:03   └─ /scholarships/items/2026-10-canterbury-international-first-year-offshore-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-cardiff-vice-chancellor-january-2027.md
+10:52:03   └─ /scholarships/items/2026-10-cardiff-vice-chancellor-january-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-cumbria-international-undergraduate-january-2027.md
+10:52:03   └─ /scholarships/items/2026-10-cumbria-international-undergraduate-january-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-dundee-global-excellence-september-2027.md
+10:52:03   └─ /scholarships/items/2026-10-dundee-global-excellence-september-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-essex-international-undergraduate-2027.md
+10:52:03   └─ /scholarships/items/2026-10-essex-international-undergraduate-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-exeter-taiwan-pgt-2027.md
+10:52:03   └─ /scholarships/items/2026-10-exeter-taiwan-pgt-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-griffith-academic-merit-2027.md
+10:52:03   └─ /scholarships/items/2026-10-griffith-academic-merit-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-griffith-vice-chancellor-2027.md
+10:52:03   └─ /scholarships/items/2026-10-griffith-vice-chancellor-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-herts-chancellor-january-2027.md
+10:52:03   └─ /scholarships/items/2026-10-herts-chancellor-january-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-kent-pgt-january-2027.md
+10:52:03   └─ /scholarships/items/2026-10-kent-pgt-january-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-lancaster-management-progression-2027.md
+10:52:03   └─ /scholarships/items/2026-10-lancaster-management-progression-2027/index.html (+1ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-lancaster-masters-excellence-2027.md
+10:52:03   └─ /scholarships/items/2026-10-lancaster-masters-excellence-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-lancaster-regional-taiwan-2027.md
+10:52:03   └─ /scholarships/items/2026-10-lancaster-regional-taiwan-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-lancaster-undergraduate-international-excellence-2027.md
+10:52:03   └─ /scholarships/items/2026-10-lancaster-undergraduate-international-excellence-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-lincoln-pathway-merit-2027.md
+10:52:03   └─ /scholarships/items/2026-10-lincoln-pathway-merit-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-lincoln-taught-master-merit-2027.md
+10:52:03   └─ /scholarships/items/2026-10-lincoln-taught-master-merit-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-lincoln-undergraduate-vice-chancellor-2027.md
+10:52:03   └─ /scholarships/items/2026-10-lincoln-undergraduate-vice-chancellor-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-london-met-east-asia-2027.md
+10:52:03   └─ /scholarships/items/2026-10-london-met-east-asia-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-massey-creative-excellence-masters-2027.md
+10:52:03   └─ /scholarships/items/2026-10-massey-creative-excellence-masters-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-massey-toroa-postgraduate-2027.md
+10:52:03   └─ /scholarships/items/2026-10-massey-toroa-postgraduate-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-massey-toroa-undergraduate-2027.md
+10:52:03   └─ /scholarships/items/2026-10-massey-toroa-undergraduate-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-newcastle-australia-international-excellence-2027.md
+10:52:03   └─ /scholarships/items/2026-10-newcastle-australia-international-excellence-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-newcastle-vc-international-undergraduate-2027.md
+10:52:03   └─ /scholarships/items/2026-10-newcastle-vc-international-undergraduate-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-ntu-taiwan-january-2027.md
+10:52:03   └─ /scholarships/items/2026-10-ntu-taiwan-january-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-otago-global-masters-2027.md
+10:52:03   └─ /scholarships/items/2026-10-otago-global-masters-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-otago-global-undergraduate-2027.md
+10:52:03   └─ /scholarships/items/2026-10-otago-global-undergraduate-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-otago-international-academic-excellence-2027.md
+10:52:03   └─ /scholarships/items/2026-10-otago-international-academic-excellence-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-oxford-brookes-january-2027.md
+10:52:03   └─ /scholarships/items/2026-10-oxford-brookes-january-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-portsmouth-chancellor-merit-january-2027.md
+10:52:03   └─ /scholarships/items/2026-10-portsmouth-chancellor-merit-january-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-qmul-global-talent-pgt-2027.md
+10:52:03   └─ /scholarships/items/2026-10-qmul-global-talent-pgt-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-qub-pgt-january-2027.md
+10:52:03   └─ /scholarships/items/2026-10-qub-pgt-january-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-rgu-early-payment-january-2027.md
+10:52:03   └─ /scholarships/items/2026-10-rgu-early-payment-january-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-rgu-january-2027.md
+10:52:03   └─ /scholarships/items/2026-10-rgu-january-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-sheffield-international-pgt-2027.md
+10:52:03   └─ /scholarships/items/2026-10-sheffield-international-pgt-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-sheffield-international-undergraduate-2027.md
+10:52:03   └─ /scholarships/items/2026-10-sheffield-international-undergraduate-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-st-andrews-tesol-january-2027.md
+10:52:03   └─ /scholarships/items/2026-10-st-andrews-tesol-january-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-stirling-east-asia-pgt-2027.md
+10:52:03   └─ /scholarships/items/2026-10-stirling-east-asia-pgt-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-stirling-vice-chancellor-pgt-january-2027.md
+10:52:03   └─ /scholarships/items/2026-10-stirling-vice-chancellor-pgt-january-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-strathclyde-science-january-2027.md
+10:52:03   └─ /scholarships/items/2026-10-strathclyde-science-january-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-swansea-international-excellence-january-2027.md
+10:52:03   └─ /scholarships/items/2026-10-swansea-international-excellence-january-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-uea-pg-merit-2027.md
+10:52:03   └─ /scholarships/items/2026-10-uea-pg-merit-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-unisq-international-excellence-2027.md
+10:52:03   └─ /scholarships/items/2026-10-unisq-international-excellence-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-uwa-global-excellence-2027.md
+10:52:03   └─ /scholarships/items/2026-10-uwa-global-excellence-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-vuw-postgraduate-international-2027.md
+10:52:03   └─ /scholarships/items/2026-10-vuw-postgraduate-international-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-vuw-undergraduate-international-2027.md
+10:52:03   └─ /scholarships/items/2026-10-vuw-undergraduate-international-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-waikato-research-masters-2027.md
+10:52:03   └─ /scholarships/items/2026-10-waikato-research-masters-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-waikato-vice-chancellor-2027.md
+10:52:03   └─ /scholarships/items/2026-10-waikato-vice-chancellor-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-waterloo-international-entrance-2027.md
+10:52:03   └─ /scholarships/items/2026-10-waterloo-international-entrance-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-western-sydney-international-undergraduate-2027.md
+10:52:03   └─ /scholarships/items/2026-10-western-sydney-international-undergraduate-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/2026-10-westminster-pg-excellence-january-2027.md
+10:52:03   └─ /scholarships/items/2026-10-westminster-pg-excellence-january-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-aalto-excellence.md
+10:52:03   └─ /scholarships/items/catalog-aalto-excellence/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-berea-international-aid.md
+10:52:03   └─ /scholarships/items/catalog-berea-international-aid/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-bocconi-access-100.md
+10:52:03   └─ /scholarships/items/catalog-bocconi-access-100/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-bocconi-access-80-60.md
+10:52:03   └─ /scholarships/items/catalog-bocconi-access-80-60/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-bocconi-boost.md
+10:52:03   └─ /scholarships/items/catalog-bocconi-boost/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-bocconi-sport.md
+10:52:03   └─ /scholarships/items/catalog-bocconi-sport/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-chalmers-ipoet.md
+10:52:03   └─ /scholarships/items/catalog-chalmers-ipoet/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-daad-all-disciplines.md
+10:52:03   └─ /scholarships/items/catalog-daad-all-disciplines/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-daad-fine-art.md
+10:52:03   └─ /scholarships/items/catalog-daad-fine-art/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-daad-music.md
+10:52:03   └─ /scholarships/items/catalog-daad-music/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-daad-performing-arts.md
+10:52:03   └─ /scholarships/items/catalog-daad-performing-arts/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-duke-karsh.md
+10:52:03   └─ /scholarships/items/catalog-duke-karsh/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-eiffel-master.md
+10:52:03   └─ /scholarships/items/catalog-eiffel-master/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-eiffel-phd.md
+10:52:03   └─ /scholarships/items/catalog-eiffel-phd/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-emory-scholars.md
+10:52:03   └─ /scholarships/items/catalog-emory-scholars/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-epfl-excellence.md
+10:52:03   └─ /scholarships/items/catalog-epfl-excellence/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-erasmus-mundus.md
+10:52:03   └─ /scholarships/items/catalog-erasmus-mundus/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-eth-esop.md
+10:52:03   └─ /scholarships/items/catalog-eth-esop/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-geneva-excellence.md
+10:52:03   └─ /scholarships/items/catalog-geneva-excellence/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-gks-graduate.md
+10:52:03   └─ /scholarships/items/catalog-gks-graduate/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-gks-undergraduate.md
+10:52:03   └─ /scholarships/items/catalog-gks-undergraduate/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-goh-keng-swee.md
+10:52:03   └─ /scholarships/items/catalog-goh-keng-swee/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-goi-ies.md
+10:52:03   └─ /scholarships/items/catalog-goi-ies/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-harvard-international-aid.md
+10:52:03   └─ /scholarships/items/catalog-harvard-international-aid/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-helsinki-scholarship.md
+10:52:03   └─ /scholarships/items/catalog-helsinki-scholarship/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-jasso-honors.md
+10:52:03   └─ /scholarships/items/catalog-jasso-honors/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-kaist-graduate.md
+10:52:03   └─ /scholarships/items/catalog-kaist-graduate/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-kaist-undergraduate.md
+10:52:03   └─ /scholarships/items/catalog-kaist-undergraduate/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-knight-hennessy.md
+10:52:03   └─ /scholarships/items/catalog-knight-hennessy/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-kth-scholarship.md
+10:52:03   └─ /scholarships/items/catalog-kth-scholarship/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-kyoto-iup.md
+10:52:03   └─ /scholarships/items/catalog-kyoto-iup/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-lund-global.md
+10:52:03   └─ /scholarships/items/catalog-lund-global/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-maastricht-brightlands.md
+10:52:03   └─ /scholarships/items/catalog-maastricht-brightlands/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-maastricht-global-studies.md
+10:52:03   └─ /scholarships/items/catalog-maastricht-global-studies/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-maastricht-high-potential.md
+10:52:03   └─ /scholarships/items/catalog-maastricht-high-potential/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-maastricht-social-justice.md
+10:52:03   └─ /scholarships/items/catalog-maastricht-social-justice/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-maeci-italy.md
+10:52:03   └─ /scholarships/items/catalog-maeci-italy/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-master-mind-flanders.md
+10:52:03   └─ /scholarships/items/catalog-master-mind-flanders/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-mext-japanese-studies.md
+10:52:03   └─ /scholarships/items/catalog-mext-japanese-studies/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-mext-kosen-2027.md
+10:52:03   └─ /scholarships/items/catalog-mext-kosen-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-mext-research-2027.md
+10:52:03   └─ /scholarships/items/catalog-mext-research-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-mext-specialized-training-2027.md
+10:52:03   └─ /scholarships/items/catalog-mext-specialized-training-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-mext-teacher-training.md
+10:52:03   └─ /scholarships/items/catalog-mext-teacher-training/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-mext-undergraduate-2027.md
+10:52:03   └─ /scholarships/items/catalog-mext-undergraduate-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-miami-stamps.md
+10:52:03   └─ /scholarships/items/catalog-miami-stamps/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-mit-international-aid.md
+10:52:03   └─ /scholarships/items/catalog-mit-international-aid/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-nl-scholarship.md
+10:52:03   └─ /scholarships/items/catalog-nl-scholarship/index.html (+3ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-nus-international-undergraduate.md
+10:52:03   └─ /scholarships/items/catalog-nus-international-undergraduate/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-nus-science-technology.md
+10:52:03   └─ /scholarships/items/catalog-nus-science-technology/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-padua-excellence.md
+10:52:03   └─ /scholarships/items/catalog-padua-excellence/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-paris-saclay-idex.md
+10:52:03   └─ /scholarships/items/catalog-paris-saclay-idex/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-radboud-nl-scholarship.md
+10:52:03   └─ /scholarships/items/catalog-radboud-nl-scholarship/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-radboud-scholarship.md
+10:52:03   └─ /scholarships/items/catalog-radboud-scholarship/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-science-leuven.md
+10:52:03   └─ /scholarships/items/catalog-science-leuven/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-sciencespo-boutmy.md
+10:52:03   └─ /scholarships/items/catalog-sciencespo-boutmy/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-snu-gsfs.md
+10:52:03   └─ /scholarships/items/catalog-snu-gsfs/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-swiss-phd.md
+10:52:03   └─ /scholarships/items/catalog-swiss-phd/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-swiss-research-fellowship.md
+10:52:03   └─ /scholarships/items/catalog-swiss-research-fellowship/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-taiwan-kaist-phd.md
+10:52:03   └─ /scholarships/items/catalog-taiwan-kaist-phd/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-tampere-scholarship.md
+10:52:03   └─ /scholarships/items/catalog-tampere-scholarship/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-trinity-global-excellence.md
+10:52:03   └─ /scholarships/items/catalog-trinity-global-excellence/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-tudelft-justus.md
+10:52:03   └─ /scholarships/items/catalog-tudelft-justus/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-turku-merit.md
+10:52:03   └─ /scholarships/items/catalog-turku-merit/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-ucd-global-excellence.md
+10:52:03   └─ /scholarships/items/catalog-ucd-global-excellence/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-uppsala-global.md
+10:52:03   └─ /scholarships/items/catalog-uppsala-global/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-utokyo-fellowship.md
+10:52:03   └─ /scholarships/items/catalog-utokyo-fellowship/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-utwente-scholarship.md
+10:52:03   └─ /scholarships/items/catalog-utwente-scholarship/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-vanderbilt-cornelius.md
+10:52:03   └─ /scholarships/items/catalog-vanderbilt-cornelius/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-vanderbilt-ingram.md
+10:52:03   └─ /scholarships/items/catalog-vanderbilt-ingram/index.html (+2ms) 
+10:52:03 ▶ src/pages/scholarships/items/catalog-yale-international-aid.md
+10:52:03   └─ /scholarships/items/catalog-yale-international-aid/index.html (+2ms) 
+10:52:03 λ src/pages/sitemap.xml.ts
+10:52:03   └─ /sitemap.xml (+1ms) 
+10:52:03 ▶ src/pages/study-abroad/griffith-australia-scholarship-application-routes-2027.md
+10:52:03   └─ /study-abroad/griffith-australia-scholarship-application-routes-2027/index.html (+3ms) 
+10:52:03 ▶ src/pages/study-abroad/lancaster-uk-2027-admission-scholarship-planning.md
+10:52:03   └─ /study-abroad/lancaster-uk-2027-admission-scholarship-planning/index.html (+3ms) 
+10:52:03 ▶ src/pages/study-abroad/lincoln-new-zealand-admission-scholarship-dates-2027.md
+10:52:03   └─ /study-abroad/lincoln-new-zealand-admission-scholarship-dates-2027/index.html (+3ms) 
+10:52:03 ▶ src/pages/study-abroad/otago-course-campus-scholarship-planning-2027.md
+10:52:03   └─ /study-abroad/otago-course-campus-scholarship-planning-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/study-abroad/waikato-new-zealand-scholarship-pathways-2027.md
+10:52:03   └─ /study-abroad/waikato-new-zealand-scholarship-pathways-2027/index.html (+3ms) 
+10:52:03 ▶ src/pages/study-abroad/wellington-2027.md
+10:52:03   └─ /study-abroad/wellington-2027/index.html (+2ms) 
+10:52:03 ▶ src/pages/taiwan-universities/index.astro
+10:52:03   └─ /taiwan-universities/index.html (+17ms) 
+10:52:03 ▶ src/pages/topics/[topic].astro
+10:52:03   ├─ /topics/taiwan/index.html (+5ms) 
+10:52:03   ├─ /topics/us/index.html (+3ms) 
+10:52:03   ├─ /topics/canada/index.html (+3ms) 
+10:52:03   ├─ /topics/uk/index.html (+4ms) 
+10:52:03   ├─ /topics/australia/index.html (+3ms) 
+10:52:03   ├─ /topics/asia/index.html (+2ms) 
+10:52:03   ├─ /topics/admissions/index.html (+3ms) 
+10:52:03   └─ /topics/policy/index.html (+4ms) 
+10:52:03 λ src/pages/weekly-feed.xml.ts
+10:52:03   └─ /weekly-feed.xml (+3ms) 
+10:52:03 ✓ Completed in 1.78s.
+
+10:52:03 [@astrojs/sitemap] `sitemap-index.xml` created at `dist`
+10:52:03 [build] 488 page(s) built in 6.53s
+10:52:03 [build] Complete!
+Unified study navigation: 256 pages
+Bilingual: 3933 dynamic text strings extracted
+748 pages; 35375 distinct strings; 1 new translations
+Translated 1/1 sentences (0s)
+{"pages": 747, "translationStrings": 36122, "newStrings": 1, "engine": "Argos/OpenNMT zh-en 1.9 / CTranslate2", "englishPrefix": "/en/", "translatedAt": "2026-10-19T02:52:10Z"}
+Verified 1486 photo previews from 208 original images; no text-only cards.
+{"canonicalPages": 1480, "addedCanonicals": 252, "removedSitemapEntries": 6, "excludedPages": ["https://globalednews.com/campus/", "https://globalednews.com/en/campus/", "https://globalednews.com/en/news/us-f1-j1-fixed-admission-period-2026/", "https://globalednews.com/en/partners/", "https://globalednews.com/en/study-abroad/404.html", "https://globalednews.com/en/study-abroad/articles/medical-health-major-map.html", "https://globalednews.com/en/study-abroad/my-plan.html", "https://globalednews.com/en/study-abroad/student-admin.html", "https://globalednews.com/image-credits/", "https://globalednews.com/news/us-f1-j1-fixed-admission-period-2026/", "https://globalednews.com/partners/", "https://globalednews.com/study-abroad/404.html", "https://globalednews.com/study-abroad/articles/medical-health-major-map.html", "https://globalednews.com/study-abroad/my-plan.html", "https://globalednews.com/study-abroad/student-admin.html"]}
+PASS: 1480 unique sitemap URLs resolve to indexable canonical HTML; old news route points to an existing article
+PASS: 747 Chinese/English page pairs, language links, internal English URLs, unchanged option values, JSON-LD and XML sitemaps
