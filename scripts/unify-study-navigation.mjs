@@ -28,6 +28,8 @@ if(html.includes('university-ranking-expansion-2026.js')&&!html.includes('member
   html=html.replace(/(<script src="(?:\.\.\/)?university-ranking-expansion-2026\.js[^>]*><\/script>)/,'$1<script src="/study-abroad/study-cloud-sync.js"></script><script src="/study-abroad/member-access.js"></script>');
 }
 if(!html.includes('navigation.css'))html=html.replace('</head>','<link rel="stylesheet" href="/study-abroad/navigation.css?v=20260916"></head>');
+if(!html.includes('data-service-identity="ltu"'))html=html.replace('</body>','<footer data-service-identity="ltu" style="padding:22px;text-align:center;font:13px/1.8 system-ui,sans-serif;background:#f2f6fa;color:#18354c">營運者：布萊斯教育有限公司（LTU Education Center Co.）｜統一編號 91023087<br><a href="/security/">網站安全與服務識別</a> · <a href="/privacy/">隱私權政策</a> · <a href="/contact/">聯絡我們</a></footer></body>');
+if(!html.includes('strict-origin-when-cross-origin'))html=html.replace('</head>',`<meta name="referrer" content="strict-origin-when-cross-origin"><meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; upgrade-insecure-requests"></head>`);
 fs.writeFileSync(file,html);count++;}}
 walk(root);
 if(!count)throw new Error('No study navigation headers found');
