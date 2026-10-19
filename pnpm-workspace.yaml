@@ -1,0 +1,3 @@
+# Only the reviewed, lockfile-pinned esbuild installer may run.
+allowBuilds:
+  esbuild@0.28.2: true
