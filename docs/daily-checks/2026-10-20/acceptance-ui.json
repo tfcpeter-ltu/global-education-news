@@ -1,0 +1,79 @@
+{
+  "desktop": {
+    "height": 1250,
+    "images": [
+      {
+        "alt": "巴黎Sorbonne沿街校舍資料照，不代表本文列出的費率適用於所有校內課程",
+        "complete": true,
+        "height": 1594,
+        "width": 1800
+      },
+      {
+        "alt": "巴黎Sorbonne庭院資料照，非本次抗議現場",
+        "complete": true,
+        "height": 1350,
+        "width": 1800
+      },
+      {
+        "alt": "巴黎Louis-le-Grand高中校舍資料照，非甄試考場或教師缺額證據",
+        "complete": true,
+        "height": 1800,
+        "width": 1295
+      },
+      {
+        "alt": "Cambridge and Enjoy ABC 企業英語課程形象",
+        "complete": true,
+        "height": 720,
+        "width": 1265
+      },
+      {
+        "alt": "Cambridge",
+        "complete": true,
+        "height": 107,
+        "width": 120
+      },
+      {
+        "alt": "Enjoy ABC",
+        "complete": true,
+        "height": 69,
+        "width": 205
+      }
+    ],
+    "scrollWidth": 1781,
+    "width": 1800
+  },
+  "verifiedAt": "2026-10-20T05:39:30.217+08:00",
+  "mobile": {
+    "height": 843,
+    "scrollWidth": 371,
+    "width": 390
+  },
+  "scholarshipSearch": {
+    "query": "Curtin",
+    "country": "澳洲",
+    "status": "開放中",
+    "resultCount": 2,
+    "titles": [
+      "Curtin未來領袖獎",
+      "Curtin全球卓越獎"
+    ],
+    "verifiedAt": "2026-10-20T05:40:19.941+08:00"
+  },
+  "ltu": [
+    {
+      "href": "https://www.ctee.com.tw/news/20260401701821-431204",
+      "index": "4",
+      "title": "不出國也能拿雙文憑！明道臺加雙聯學制開花結果 首屆學生錄取海外名校"
+    },
+    {
+      "href": "https://www.ctee.com.tw/news/20250723702079-431204",
+      "index": "5",
+      "title": "布萊斯「OSSD暑期學校」帶領學子參與國際交流 體驗海外大學生活"
+    },
+    {
+      "href": "https://udn.com/news/story/6898/9271435",
+      "index": "6",
+      "title": "僑泰高中雙語班傳捷報！5學子前進世界百大名校 打破校史紀錄"
+    }
+  ]
+}

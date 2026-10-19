@@ -2,8 +2,8 @@
   "date": "2026-10-20",
   "timezone": "Asia/Taipei",
   "startedAt": "2026-10-20T05:06:09.1897143+08:00",
-  "status": "in-progress",
-  "currentPhase": "COMMIT_DEPLOY",
+  "status": "completed",
+  "currentPhase": "VERIFY",
   "baseCommit": "bad0e6e8a15c0369f4b8ecaa93a632703f706165",
   "scholarshipBaselineSlugs": [
     "2026-08-bristol-think-big",
@@ -207,7 +207,66 @@
     "catalog-vanderbilt-ingram",
     "catalog-yale-international-aid"
   ],
-  "newsPublished": [],
+  "newsPublished": [
+    {
+      "slug": "france-parcoursup-2026-results-transparency",
+      "title": "法國Parcoursup公布2026結果：收到錄取建議，不等於已入學",
+      "url": "https://globalednews.com/news/france-parcoursup-2026-results-transparency/",
+      "publishedPath": "src/pages/news/france-parcoursup-2026-results-transparency.md",
+      "sources": [
+        {
+          "label": "French higher education ministry | 19 October 2026 results",
+          "url": "https://www.enseignementsup-recherche.gouv.fr/fr/parcoursup-2026-des-resultats-stables-dans-un-contexte-de-progression-historique-des-candidatures-104400"
+        },
+        {
+          "label": "Le Monde | independent reporting, 10 October 2026",
+          "url": "https://www.lemonde.fr/en/campus/article/2026/10/10/why-french-students-are-so-angry-about-parcoursup-the-higher-education-access-platform_6758447_11.html"
+        }
+      ],
+      "verifiedAt": "2026-10-20T05:14:35.745593+08:00",
+      "publishedVerifiedAt": "2026-10-20T05:34:15.728981+08:00"
+    },
+    {
+      "slug": "france-non-eu-tuition-2026-27-explainer",
+      "title": "法國留學費用解析：非歐盟學費與減免，必須分開確認",
+      "url": "https://globalednews.com/news/france-non-eu-tuition-2026-27-explainer/",
+      "publishedPath": "src/pages/news/france-non-eu-tuition-2026-27-explainer.md",
+      "sources": [
+        {
+          "label": "Campus France | official tuition guidance",
+          "url": "https://www.campusfrance.org/en/tuition-fees-France"
+        },
+        {
+          "label": "Immigration Advice Service | independent analysis, 17 September 2026",
+          "url": "https://iasservices.org.uk/france-tuition-fees-2026-2027-what-non-eu-students-need-to-know/"
+        }
+      ],
+      "verifiedAt": "2026-10-20T05:14:35.745593+08:00",
+      "publishedVerifiedAt": "2026-10-20T05:34:15.728981+08:00"
+    },
+    {
+      "slug": "france-teacher-exams-2027-registration-transition",
+      "title": "法國2027教師甄試報名中：學士與碩士管道並行，資格不能混用",
+      "url": "https://globalednews.com/news/france-teacher-exams-2027-registration-transition/",
+      "publishedPath": "src/pages/news/france-teacher-exams-2027-registration-transition.md",
+      "sources": [
+        {
+          "label": "French education ministry | recruitment calendar",
+          "url": "https://www.education.gouv.fr/concours-et-recrutements-99944"
+        },
+        {
+          "label": "SIEC | 2027 bachelor-level registration",
+          "url": "https://siec.education.fr/candidats/actualites/concours/44/inscriptions-concours-bac-3-session-2027"
+        },
+        {
+          "label": "SNES-FSU | independent union guidance",
+          "url": "https://www.snes.edu/ma-carriere/concours-entree/concours/concours-inscription/"
+        }
+      ],
+      "verifiedAt": "2026-10-20T05:14:35.745593+08:00",
+      "publishedVerifiedAt": "2026-10-20T05:34:15.728981+08:00"
+    }
+  ],
   "scholarshipChecks": [
     {
       "slug": "2026-10-curtin-global-excellence-2027",
@@ -223,7 +282,8 @@
       "verifiedAt": "2026-10-20T05:14:35.745593+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "Net-new award. Official open status, Taiwan eligibility, intake, exclusions and separate adviser analysis checked; no publication claim before deployment."
+      "updateSummary": "Net-new award; official open status, Taiwan eligibility, intake and exclusions cross-checked; bilingual public page and photograph verified after deployment.",
+      "publishedVerifiedAt": "2026-10-20T05:34:15.728981+08:00"
     },
     {
       "slug": "2026-10-curtin-future-leaders-2027",
@@ -239,7 +299,8 @@
       "verifiedAt": "2026-10-20T05:14:35.745593+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "Net-new award. Official open status, Taiwan eligibility, intake, exclusions and separate adviser analysis checked; no publication claim before deployment."
+      "updateSummary": "Net-new award; official open status, Taiwan eligibility, intake and exclusions cross-checked; bilingual public page and photograph verified after deployment.",
+      "publishedVerifiedAt": "2026-10-20T05:34:15.728981+08:00"
     },
     {
       "slug": "2026-10-ecu-north-asia-2027",
@@ -255,7 +316,8 @@
       "verifiedAt": "2026-10-20T05:14:35.745593+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "Net-new award. Official open status, Taiwan eligibility, intake, exclusions and separate adviser analysis checked; no publication claim before deployment."
+      "updateSummary": "Net-new award; official open status, Taiwan eligibility, intake and exclusions cross-checked; bilingual public page and photograph verified after deployment.",
+      "publishedVerifiedAt": "2026-10-20T05:34:15.728981+08:00"
     }
   ],
   "scholarshipAdditions": [
@@ -273,7 +335,8 @@
       "verifiedAt": "2026-10-20T05:14:35.745593+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "Net-new award. Official open status, Taiwan eligibility, intake, exclusions and separate adviser analysis checked; no publication claim before deployment."
+      "updateSummary": "Net-new award; official open status, Taiwan eligibility, intake and exclusions cross-checked; bilingual public page and photograph verified after deployment.",
+      "publishedVerifiedAt": "2026-10-20T05:34:15.728981+08:00"
     },
     {
       "slug": "2026-10-curtin-future-leaders-2027",
@@ -289,7 +352,8 @@
       "verifiedAt": "2026-10-20T05:14:35.745593+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "Net-new award. Official open status, Taiwan eligibility, intake, exclusions and separate adviser analysis checked; no publication claim before deployment."
+      "updateSummary": "Net-new award; official open status, Taiwan eligibility, intake and exclusions cross-checked; bilingual public page and photograph verified after deployment.",
+      "publishedVerifiedAt": "2026-10-20T05:34:15.728981+08:00"
     },
     {
       "slug": "2026-10-ecu-north-asia-2027",
@@ -305,25 +369,339 @@
       "verifiedAt": "2026-10-20T05:14:35.745593+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "Net-new award. Official open status, Taiwan eligibility, intake, exclusions and separate adviser analysis checked; no publication claim before deployment."
+      "updateSummary": "Net-new award; official open status, Taiwan eligibility, intake and exclusions cross-checked; bilingual public page and photograph verified after deployment.",
+      "publishedVerifiedAt": "2026-10-20T05:34:15.728981+08:00"
     }
   ],
   "peterImports": [],
-  "socialPosts": [],
+  "socialPosts": [
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "pageId": "101904929207004",
+      "articleUrl": "https://globalednews.com/news/france-parcoursup-2026-results-transparency/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "photoAttachedAt": "2026-10-20T05:24:31.699+08:00",
+      "photoReadyEvidence": "docs/daily-checks/2026-10-20/news-facebook-photo-ready.png",
+      "copyAddedAt": "2026-10-20T05:24:32.178+08:00",
+      "publishClickedAt": "2026-10-20T05:25:24.654+08:00",
+      "id": "1093785430064321",
+      "publicUrl": "https://facebook.com/LTUOSSDTaiwan/posts/pfbid02vfoCVmpnD9A3WQ5p1QPAgBboCyw5VKpSnMoJVdseYFnmR1Ds5usiVjJNMWywBGSNl",
+      "photoAttachments": [
+        {
+          "id": "1093784823397715",
+          "url": "https://www.facebook.com/photo/?fbid=1093784823397715"
+        }
+      ],
+      "publishedAt": "2026-10-20T05:25:00+08:00",
+      "publishedAtBasis": "Meta published list, minute precision",
+      "verifiedAt": "2026-10-20T05:28:08.668+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-20T05:28:08.668+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-20/news-facebook-public.png",
+      "visibility": "public",
+      "mediaKind": "uploaded-photo",
+      "publicPhotoScreenshot": "docs/daily-checks/2026-10-20/news-facebook-public.png",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-20T05:28:08.668+08:00"
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/news/france-parcoursup-2026-results-transparency/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "publishClickedAt": "2026-10-20T05:25:24.654+08:00",
+      "id": "DesOAExgSaJ",
+      "publicUrl": "https://www.instagram.com/p/DesOAExgSaJ/",
+      "publishedAt": "2026-10-20T05:25:00+08:00",
+      "publishedAtBasis": "Meta published list, minute precision",
+      "verifiedAt": "2026-10-20T05:28:08.668+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-20T05:28:08.668+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-20/news-instagram-public.png",
+      "visibility": "public"
+    },
+    {
+      "campaign": "news",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/news/france-parcoursup-2026-results-transparency/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "publishClickedAt": "2026-10-20T05:27:16.309+08:00",
+      "id": "DesONfSk6vV",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DesONfSk6vV",
+      "verifiedAt": "2026-10-20T05:28:08.668+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-20T05:28:08.668+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-20/news-threads-public.png",
+      "visibility": "public",
+      "publishedAt": "2026-10-20T05:27:17+08:00"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "pageId": "101904929207004",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-curtin-global-excellence-2027/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "photoAttachedAt": "2026-10-20T05:29:16.186+08:00",
+      "photoReadyEvidence": "docs/daily-checks/2026-10-20/scholarship-facebook-photo-ready.png",
+      "copyAddedAt": "2026-10-20T05:29:16.496+08:00",
+      "publishClickedAt": "2026-10-20T05:29:33.012+08:00",
+      "id": "1093789556730575",
+      "publicUrl": "https://facebook.com/LTUOSSDTaiwan/posts/pfbid036NZG67yS6joozWZSuA5HcfQwwTBg9meLMSEeoL4qmkJ5apyyEhfVjvxodW1Sxxdhl",
+      "publishedAt": "2026-10-20T05:29:00+08:00",
+      "verifiedAt": "2026-10-20T05:33:27.726+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-20T05:33:27.726+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-20/scholarship-facebook-public.png",
+      "visibility": "public",
+      "mediaKind": "uploaded-photo",
+      "photoAttachments": [
+        {
+          "id": "1093789220063942",
+          "url": "https://www.facebook.com/photo/?fbid=1093789220063942"
+        }
+      ],
+      "publicPhotoScreenshot": "docs/daily-checks/2026-10-20/scholarship-facebook-public.png",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-20T05:33:27.726+08:00"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-curtin-global-excellence-2027/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "publishClickedAt": "2026-10-20T05:29:33.012+08:00",
+      "id": "DesOeYrAbHB",
+      "publicUrl": "https://www.instagram.com/p/DesOeYrAbHB/",
+      "publishedAt": "2026-10-20T05:29:00+08:00",
+      "verifiedAt": "2026-10-20T05:33:27.835+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-20T05:33:27.835+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-20/scholarship-instagram-public.png",
+      "visibility": "public"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-curtin-global-excellence-2027/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "publishClickedAt": "2026-10-20T05:32:34.553+08:00",
+      "id": "DesO0XVE0yM",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DesO0XVE0yM",
+      "publishedAt": "2026-10-20T05:32:35+08:00",
+      "verifiedAt": "2026-10-20T05:33:27.945+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-20T05:33:27.945+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-20/scholarship-threads-public.png",
+      "visibility": "public"
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "account": "Peter Chen",
+      "articleUrl": "https://globalednews.com/news/france-parcoursup-2026-results-transparency/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "publishClickedAt": "2026-10-20T05:32:42.916+08:00",
+      "id": "7518061608896675840",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7518061608896675840/",
+      "publishedAt": "2026-10-20T05:32:42.916+08:00",
+      "publishedAtBasis": "successful publish action and public post readback",
+      "verifiedAt": "2026-10-20T05:33:45.953+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-20T05:33:45.953+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-20/news-linkedin-public.png",
+      "visibility": "public"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "pageId": "101904929207004",
+      "articleUrl": "https://globalednews.com/study-abroad/curtin-perth-2027-scholarship-cash-flow/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "photoAttachedAt": "2026-10-20T05:34:00.383+08:00",
+      "photoReadyEvidence": "docs/daily-checks/2026-10-20/study-abroad-facebook-photo-ready.png",
+      "copyAddedAt": "2026-10-20T05:34:00.616+08:00",
+      "publishClickedAt": "2026-10-20T05:34:32.977+08:00",
+      "id": "1093792150063649",
+      "publicUrl": "https://facebook.com/LTUOSSDTaiwan/posts/pfbid02bHv7VMVCCS8hUUmEFuBqMqKjBjFv3AvEwEbfoM8FXPmDAvbEThGt1kvbED2v3vjDl",
+      "publishedAt": "2026-10-20T05:34:00+08:00",
+      "verifiedAt": "2026-10-20T05:37:37.008+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-20T05:37:37.008+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-20/study-abroad-facebook-public.png",
+      "visibility": "public",
+      "mediaKind": "uploaded-photo",
+      "photoAttachments": [
+        {
+          "id": "1093791680063696",
+          "url": "https://www.facebook.com/photo/?fbid=1093791680063696"
+        }
+      ],
+      "publicPhotoScreenshot": "docs/daily-checks/2026-10-20/study-abroad-facebook-public.png",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-20T05:37:37.008+08:00"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/study-abroad/curtin-perth-2027-scholarship-cash-flow/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "publishClickedAt": "2026-10-20T05:34:32.977+08:00",
+      "id": "DesPDAHAXZy",
+      "publicUrl": "https://www.instagram.com/p/DesPDAHAXZy/",
+      "publishedAt": "2026-10-20T05:34:00+08:00",
+      "verifiedAt": "2026-10-20T05:36:51.657+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-20T05:36:51.657+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-20/study-abroad-instagram-public.png",
+      "visibility": "public"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/study-abroad/curtin-perth-2027-scholarship-cash-flow/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "publishClickedAt": "2026-10-20T05:34:48.064+08:00",
+      "id": "DesPEuxk9Yf",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DesPEuxk9Yf",
+      "publishedAt": "2026-10-20T05:34:49+08:00",
+      "verifiedAt": "2026-10-20T05:35:39.267+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-20T05:35:39.267+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-20/study-abroad-threads-public.png",
+      "visibility": "public"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "account": "Peter Chen",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-curtin-global-excellence-2027/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "publishClickedAt": "2026-10-20T05:35:05.098+08:00",
+      "id": "7518062212398071808",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7518062212398071808/",
+      "publishedAt": "2026-10-20T05:35:05.098+08:00",
+      "publishedAtBasis": "successful publish action and public post readback",
+      "verifiedAt": "2026-10-20T05:36:21.087+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-20T05:36:21.087+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-20/scholarship-linkedin-public.png",
+      "visibility": "public"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "publishClickedAt": "2026-10-20T05:37:37.008+08:00",
+      "id": "DesPZYmkw22",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DesPZYmkw22",
+      "publishedAt": "2026-10-20T05:37:38+08:00",
+      "verifiedAt": "2026-10-20T05:38:48.069+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-20T05:38:48.069+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-20/taiwan-universities-threads-public.png",
+      "visibility": "public"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "account": "Peter Chen",
+      "articleUrl": "https://globalednews.com/study-abroad/curtin-perth-2027-scholarship-cash-flow/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "publishClickedAt": "2026-10-20T05:38:01.740+08:00",
+      "id": "7518062951250071552",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7518062951250071552/",
+      "publishedAt": "2026-10-20T05:38:01.740+08:00",
+      "verifiedAt": "2026-10-20T05:38:47.947+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-20T05:38:47.947+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-20/study-abroad-linkedin-public.png",
+      "visibility": "public"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "publishClickedAt": "2026-10-20T05:38:15.856+08:00",
+      "id": "DesPePNAT0t",
+      "publicUrl": "https://www.instagram.com/p/DesPePNAT0t/",
+      "publishedAt": "2026-10-20T05:38:00+08:00",
+      "verifiedAt": "2026-10-20T05:39:58.745+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-20T05:39:58.745+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-20/taiwan-universities-instagram-public.png",
+      "visibility": "public"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "account": "Peter Chen",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "publishClickedAt": "2026-10-20T05:39:47.015+08:00",
+      "id": "7518063387260391425",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7518063387260391425/",
+      "publishedAt": "2026-10-20T05:39:47.015+08:00",
+      "verifiedAt": "2026-10-20T05:40:19.940+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-20T05:40:19.940+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-20/taiwan-universities-linkedin-public.png",
+      "visibility": "public"
+    }
+  ],
   "phaseCompleted": [
     "PREFLIGHT",
     "RESEARCH",
     "PREPARE",
-    "BUILD"
-  ],
-  "gaps": [
+    "BUILD",
     "COMMIT_DEPLOY",
     "PUBLISH",
     "ACCEPTANCE",
     "VERIFY"
   ],
+  "gaps": [],
   "manualActions": [],
-  "completedAt": null,
+  "completedAt": "2026-10-20T05:41:36.269+08:00",
   "newsPrepared": [
     {
       "slug": "france-parcoursup-2026-results-transparency",
@@ -388,7 +766,7 @@
     "sourceUrls": [
       "https://www.facebook.com/profile.php?id=61585164670358"
     ],
-    "evidence": "docs/daily-checks/2026-10-20/peter-review.txt",
+    "evidence": "docs/daily-checks/2026-10-20/peter-review-summary.json",
     "finding": "Latest visible posts: ebook giveaway, Common App already imported on October18, Australia commentary. No qualified unimported article.",
     "insufficientEvidence": [
       {
@@ -465,9 +843,27 @@
       5,
       6
     ],
-    "pendingLiveVerification": true
+    "pendingLiveVerification": false,
+    "visibleItems": [
+      {
+        "href": "https://www.ctee.com.tw/news/20260401701821-431204",
+        "index": "4",
+        "title": "不出國也能拿雙文憑！明道臺加雙聯學制開花結果 首屆學生錄取海外名校"
+      },
+      {
+        "href": "https://www.ctee.com.tw/news/20250723702079-431204",
+        "index": "5",
+        "title": "布萊斯「OSSD暑期學校」帶領學子參與國際交流 體驗海外大學生活"
+      },
+      {
+        "href": "https://udn.com/news/story/6898/9271435",
+        "index": "6",
+        "title": "僑泰高中雙語班傳捷報！5學子前進世界百大名校 打破校史紀錄"
+      }
+    ],
+    "verifiedAt": "2026-10-20T05:41:01.090454+08:00"
   },
-  "updatedAt": "2026-10-20T05:14:35.745593+08:00",
+  "updatedAt": "2026-10-20T05:41:36.269+08:00",
   "preparedAt": "2026-10-20T05:17:15.659522+08:00",
   "build": {
     "status": "passed",
@@ -477,5 +873,149 @@
     "photoPreviews": 1504,
     "searchCanonicalUrls": 1498,
     "evidence": "docs/daily-checks/2026-10-20"
+  },
+  "studyAbroadPublished": {
+    "slug": "curtin-perth-2027-scholarship-cash-flow",
+    "title": "Curtin留學DIY：先選課程，再比較40%與1萬澳元獎助",
+    "url": "https://globalednews.com/study-abroad/curtin-perth-2027-scholarship-cash-flow/",
+    "sources": [
+      {
+        "label": "Curtin | Global Excellence terms",
+        "url": "https://scholarships.curtin.edu.au/Scholarship/?id=7985"
+      },
+      {
+        "label": "Curtin | Future Leaders terms",
+        "url": "https://scholarships.curtin.edu.au/Scholarship/?id=7987"
+      },
+      {
+        "label": "StudyU | Perth campus and course planning",
+        "url": "https://www.studyu.org/en/university-curtin"
+      }
+    ],
+    "publishedVerifiedAt": "2026-10-20T05:34:15.728981+08:00"
+  },
+  "newFacebookPagePost": {
+    "campaign": "news",
+    "network": "facebook",
+    "pageId": "61595164194381",
+    "articleUrl": "https://globalednews.com/news/france-parcoursup-2026-results-transparency/",
+    "status": "PUBLISHED",
+    "accountVerified": true,
+    "photoAttachedAt": "2026-10-20T05:35:25.147+08:00",
+    "photoReadyEvidence": "docs/daily-checks/2026-10-20/new-facebook-photo-ready.png",
+    "copyAddedAt": "2026-10-20T05:35:25.328+08:00",
+    "publishClickedAt": "2026-10-20T05:35:55.915+08:00",
+    "id": "pfbid05x6YiQMLr6iLyjLCuFsbLmp3Bf97wFoRWgfMkwh2WuL5aZiXQJ4iPX3SsbMfmCkol",
+    "publicUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid05x6YiQMLr6iLyjLCuFsbLmp3Bf97wFoRWgfMkwh2WuL5aZiXQJ4iPX3SsbMfmCkol&id=61595164194381",
+    "publishedAt": "2026-10-20T05:35:55.915+08:00",
+    "publishedAtBasis": "successful publish action and public post readback",
+    "verifiedAt": "2026-10-20T05:38:01.740+08:00",
+    "imageCount": 1,
+    "mediaStatus": "VERIFIED",
+    "mediaVerifiedAt": "2026-10-20T05:38:01.740+08:00",
+    "mediaEvidence": "docs/daily-checks/2026-10-20/new-facebook-public.png",
+    "visibility": "public",
+    "mediaKind": "uploaded-photo",
+    "photoAttachments": [
+      {
+        "id": "122109705759505473",
+        "url": "https://www.facebook.com/photo/?fbid=122109705759505473"
+      }
+    ],
+    "publicPhotoScreenshot": "docs/daily-checks/2026-10-20/new-facebook-public.png",
+    "previewStatus": "VERIFIED",
+    "previewVerifiedAt": "2026-10-20T05:38:01.740+08:00"
+  },
+  "deployment": {
+    "commit": "9a982a1b08096257387c9d3883f01f8575ca5278",
+    "status": "success",
+    "deployedAt": "2026-10-20T05:24:27+08:00",
+    "verifiedAt": "2026-10-20T05:34:15.728981+08:00",
+    "workflowRunId": 39326996105,
+    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/39326996105",
+    "evidence": "docs/daily-checks/2026-10-20/deployment.json"
+  },
+  "acceptance": {
+    "desktop": true,
+    "mobile": true,
+    "seo": true,
+    "images": true,
+    "searchFilters": true,
+    "canonical": true,
+    "og": true,
+    "schema": true,
+    "sitemap": true,
+    "newsSitemap": true,
+    "rss": true,
+    "englishNoChinese": true,
+    "verifiedAt": "2026-10-20T05:41:01.090454+08:00",
+    "liveSeoEvidence": "docs/daily-reports/2026-10-20-live-seo.json",
+    "uiEvidence": "docs/daily-checks/2026-10-20/acceptance-ui.json",
+    "desktopViewport": {
+      "height": 1250,
+      "images": [
+        {
+          "alt": "巴黎Sorbonne沿街校舍資料照，不代表本文列出的費率適用於所有校內課程",
+          "complete": true,
+          "height": 1594,
+          "width": 1800
+        },
+        {
+          "alt": "巴黎Sorbonne庭院資料照，非本次抗議現場",
+          "complete": true,
+          "height": 1350,
+          "width": 1800
+        },
+        {
+          "alt": "巴黎Louis-le-Grand高中校舍資料照，非甄試考場或教師缺額證據",
+          "complete": true,
+          "height": 1800,
+          "width": 1295
+        },
+        {
+          "alt": "Cambridge and Enjoy ABC 企業英語課程形象",
+          "complete": true,
+          "height": 720,
+          "width": 1265
+        },
+        {
+          "alt": "Cambridge",
+          "complete": true,
+          "height": 107,
+          "width": 120
+        },
+        {
+          "alt": "Enjoy ABC",
+          "complete": true,
+          "height": 69,
+          "width": 205
+        }
+      ],
+      "scrollWidth": 1781,
+      "width": 1800
+    },
+    "mobileViewport": {
+      "height": 843,
+      "scrollWidth": 371,
+      "width": 390
+    },
+    "searchTest": {
+      "query": "Curtin",
+      "country": "澳洲",
+      "status": "開放中",
+      "resultCount": 2,
+      "titles": [
+        "Curtin未來領袖獎",
+        "Curtin全球卓越獎"
+      ],
+      "verifiedAt": "2026-10-20T05:40:19.941+08:00"
+    }
+  },
+  "verification": {
+    "status": "COMPLETE",
+    "exitCode": 0,
+    "verifiedAt": "2026-10-20T05:41:36.269+08:00",
+    "command": "node scripts/verify-daily-delivery.mjs 2026-10-20",
+    "evidence": "docs/daily-checks/2026-10-20/verify-daily-delivery.log"
   }
 }
