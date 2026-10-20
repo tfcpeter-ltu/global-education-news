@@ -2,8 +2,8 @@
   "date": "2026-10-21",
   "timezone": "Asia/Taipei",
   "startedAt": "2026-10-21T05:01:10.9544627+08:00",
-  "status": "in_progress",
-  "currentPhase": "COMMIT_DEPLOY",
+  "status": "completed",
+  "currentPhase": "COMPLETE",
   "baseMainSha": "45402f5c03bc39346024dbcd2ef17e09c505a4c1",
   "scholarshipBaselineSlugs": [
     "2026-08-bristol-think-big",
@@ -226,7 +226,8 @@
       "verifiedAt": "2026-10-21T05:08:05.547551+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New distinct named award; current academic page and full terms compared with independent StudyU analysis. Taiwan nationality/status exclusions and automatic application path checked."
+      "updateSummary": "New distinct named award; current academic page and full terms compared with independent StudyU analysis. Taiwan nationality/status exclusions and automatic application path checked.",
+      "publishedVerifiedAt": "2026-10-21T05:19:57.973012+08:00"
     },
     {
       "slug": "2026-10-flinders-global-2027",
@@ -243,7 +244,8 @@
       "verifiedAt": "2026-10-21T05:08:05.547551+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New distinct named award; current academic page and full terms compared with independent StudyU analysis. Taiwan nationality/status exclusions and automatic application path checked."
+      "updateSummary": "New distinct named award; current academic page and full terms compared with independent StudyU analysis. Taiwan nationality/status exclusions and automatic application path checked.",
+      "publishedVerifiedAt": "2026-10-21T05:19:57.973012+08:00"
     },
     {
       "slug": "2026-10-flinders-kickstart-2027",
@@ -260,10 +262,66 @@
       "verifiedAt": "2026-10-21T05:08:05.547551+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New distinct named award; current academic page and full terms compared with independent StudyU analysis. Taiwan nationality/status exclusions and automatic application path checked."
+      "updateSummary": "New distinct named award; current academic page and full terms compared with independent StudyU analysis. Taiwan nationality/status exclusions and automatic application path checked.",
+      "publishedVerifiedAt": "2026-10-21T05:19:57.973012+08:00"
     }
   ],
-  "newsPublished": [],
+  "newsPublished": [
+    {
+      "slug": "france-universities-billion-euro-appeal-2027",
+      "title": "法國80位高教代表發表宣言：要求2027追加10億歐元",
+      "url": "https://globalednews.com/news/france-universities-billion-euro-appeal-2027/",
+      "publishedPath": "src/pages/news/france-universities-billion-euro-appeal-2027.md",
+      "sources": [
+        {
+          "label": "France Universités | manifesto, 20 October 2026",
+          "url": "https://franceuniversites.fr/actualite/faisons-de-la-jeunesse-une-grande-cause-nationale/"
+        },
+        {
+          "label": "TF1 Info / AFP | independent reporting",
+          "url": "https://www.tf1info.fr/education/budget-2027-les-presidents-d-universites-demandent-un-effort-supplementaire-d-un-milliard-d-euros-2471038.html"
+        }
+      ],
+      "verifiedAt": "2026-10-21T05:08:05.547551+08:00",
+      "publishedVerifiedAt": "2026-10-21T05:19:57.973012+08:00"
+    },
+    {
+      "slug": "france-school-budget-2027-staffing-explainer",
+      "title": "法國2027學校預算解析：經費增加，教師員額仍擬淨減",
+      "url": "https://globalednews.com/news/france-school-budget-2027-staffing-explainer/",
+      "publishedPath": "src/pages/news/france-school-budget-2027-staffing-explainer.md",
+      "sources": [
+        {
+          "label": "French education ministry | draft budget, pages 4–7",
+          "url": "https://www.education.gouv.fr/sites/default/files/document/budget-2027-pour-l-cole-le-dossier-de-presse-521314.pdf"
+        },
+        {
+          "label": "Localtis | budget reporting",
+          "url": "https://www.banquedesterritoires.fr/leducation-nationale-preservee-par-le-projet-de-loi-de-finances-pour-2027"
+        }
+      ],
+      "verifiedAt": "2026-10-21T05:08:05.547551+08:00",
+      "publishedVerifiedAt": "2026-10-21T05:19:57.973012+08:00"
+    },
+    {
+      "slug": "france-student-residence-continuity-2026",
+      "title": "法國擬簡化國際學生居留程序：銜接畢業與續讀，仍須確認個案",
+      "url": "https://globalednews.com/news/france-student-residence-continuity-2026/",
+      "publishedPath": "src/pages/news/france-student-residence-continuity-2026.md",
+      "sources": [
+        {
+          "label": "French higher education ministry | 30 September 2026",
+          "url": "https://www.enseignementsup-recherche.gouv.fr/fr/laurent-nunez-et-philippe-baptiste-annoncent-de-nouvelles-mesures-pour-prevenir-les-ruptures-de-104317"
+        },
+        {
+          "label": "TSA | independent interview with an immigration lawyer",
+          "url": "https://www.tsa-algerie.com/titre-de-sejour-etudiant-pluriannuel-en-france-les-algeriens-sont-ils-concernes-me-megherbi-repond/"
+        }
+      ],
+      "verifiedAt": "2026-10-21T05:08:05.547551+08:00",
+      "publishedVerifiedAt": "2026-10-21T05:19:57.973012+08:00"
+    }
+  ],
   "scholarshipChecks": [
     {
       "slug": "2026-10-flinders-excellence-2027",
@@ -280,7 +338,8 @@
       "verifiedAt": "2026-10-21T05:08:05.547551+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New distinct named award; current academic page and full terms compared with independent StudyU analysis. Taiwan nationality/status exclusions and automatic application path checked."
+      "updateSummary": "New distinct named award; current academic page and full terms compared with independent StudyU analysis. Taiwan nationality/status exclusions and automatic application path checked.",
+      "publishedVerifiedAt": "2026-10-21T05:19:57.973012+08:00"
     },
     {
       "slug": "2026-10-flinders-global-2027",
@@ -297,7 +356,8 @@
       "verifiedAt": "2026-10-21T05:08:05.547551+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New distinct named award; current academic page and full terms compared with independent StudyU analysis. Taiwan nationality/status exclusions and automatic application path checked."
+      "updateSummary": "New distinct named award; current academic page and full terms compared with independent StudyU analysis. Taiwan nationality/status exclusions and automatic application path checked.",
+      "publishedVerifiedAt": "2026-10-21T05:19:57.973012+08:00"
     },
     {
       "slug": "2026-10-flinders-kickstart-2027",
@@ -314,23 +374,339 @@
       "verifiedAt": "2026-10-21T05:08:05.547551+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New distinct named award; current academic page and full terms compared with independent StudyU analysis. Taiwan nationality/status exclusions and automatic application path checked."
+      "updateSummary": "New distinct named award; current academic page and full terms compared with independent StudyU analysis. Taiwan nationality/status exclusions and automatic application path checked.",
+      "publishedVerifiedAt": "2026-10-21T05:19:57.973012+08:00"
     }
   ],
-  "peterImports": [],
-  "socialPosts": [],
+  "peterImports": [
+    {
+      "slug": "canada-sop-study-plan-program-fit-2026",
+      "sourceId": "pfbid0W2tnnXQphL7wtMfMMqu69qBcti4ACJJARs49Jg6dXGAoJnNDZ1ptUuosyggtMaC6l",
+      "sourceUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid0W2tnnXQphL7wtMfMMqu69qBcti4ACJJARs49Jg6dXGAoJnNDZ1ptUuosyggtMaC6l&id=61585164670358",
+      "url": "https://globalednews.com/peter/canada-sop-study-plan-program-fit-2026/",
+      "verifiedAt": "2026-10-21T05:08:05.547551+08:00",
+      "publishedVerifiedAt": "2026-10-21T05:19:57.973012+08:00"
+    }
+  ],
+  "socialPosts": [
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "pageId": "101904929207004",
+      "articleUrl": "https://globalednews.com/news/france-universities-billion-euro-appeal-2027/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "photoAttachedAt": "2026-10-21T05:18:49.289+08:00",
+      "photoReadyEvidence": "docs/daily-checks/2026-10-21/news-facebook-photo-ready.png",
+      "copyAddedAt": "2026-10-21T05:18:56.057+08:00",
+      "publishClickedAt": "2026-10-21T05:19:18.229+08:00",
+      "id": "1094716823304515",
+      "publicUrl": "https://facebook.com/LTUOSSDTaiwan/posts/pfbid02tCWmh7Fa2kGnsUD1raaoefJbc6gxiq4nuVCfrySfDJMe8Us3ABXKwqAgMtd2cX1Tl",
+      "photoAttachments": [
+        {
+          "id": "1094716486637882",
+          "url": "https://www.facebook.com/photo/?fbid=1094716486637882"
+        }
+      ],
+      "publishedAt": "2026-10-21T05:19:00+08:00",
+      "publishedAtBasis": "Meta published list, minute precision",
+      "verifiedAt": "2026-10-21T05:21:35.839+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-21T05:21:35.839+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-21/news-facebook-public.png",
+      "visibility": "public",
+      "mediaKind": "uploaded-photo",
+      "publicPhotoScreenshot": "docs/daily-checks/2026-10-21/news-facebook-public.png",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-21T05:21:35.839+08:00"
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/news/france-universities-billion-euro-appeal-2027/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "threadsSync": false,
+      "publishClickedAt": "2026-10-21T05:19:18.229+08:00",
+      "id": "DeuyGUwgQlF",
+      "publicUrl": "https://www.instagram.com/p/DeuyGUwgQlF/",
+      "publishedAt": "2026-10-21T05:19:00+08:00",
+      "verifiedAt": "2026-10-21T05:21:35.839+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-21T05:21:35.839+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-21/news-instagram-public.png",
+      "visibility": "public"
+    },
+    {
+      "campaign": "news",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/news/france-universities-billion-euro-appeal-2027/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "publishClickedAt": "2026-10-21T05:20:21.921+08:00",
+      "id": "DeuyN7Ck7mm",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DeuyN7Ck7mm",
+      "publishedAt": "2026-10-21T05:20:21.921+08:00",
+      "verifiedAt": "2026-10-21T05:21:35.839+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-21T05:21:35.839+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-21/news-threads-public.png",
+      "visibility": "public"
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "account": "Peter Chen",
+      "articleUrl": "https://globalednews.com/news/france-universities-billion-euro-appeal-2027/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "publishClickedAt": "2026-10-21T05:22:35.732+08:00",
+      "id": "7518421453298487296",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7518421453298487296/",
+      "publishedAt": "2026-10-21T05:22:35.732+08:00",
+      "verifiedAt": "2026-10-21T05:25:53.630+08:00",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-21T05:25:53.630+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-21/news-linkedin-public.png",
+      "imageCount": 1,
+      "visibility": "public"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "pageId": "101904929207004",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-flinders-excellence-2027/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "photoAttachedAt": "2026-10-21T05:22:37.748+08:00",
+      "photoReadyEvidence": "docs/daily-checks/2026-10-21/scholarship-facebook-photo-ready.png",
+      "copyAddedAt": "2026-10-21T05:22:38.131+08:00",
+      "publishClickedAt": "2026-10-21T05:23:11.968+08:00",
+      "id": "1094719023304295",
+      "publicUrl": "https://facebook.com/LTUOSSDTaiwan/posts/pfbid02BRTdg8iFFtdUZJmBpdkB54UmP4juiF8KN5NBgrB281NP2znU46X7d6HgAwjh3FgZl",
+      "publishedAt": "2026-10-21T05:23:00+08:00",
+      "photoAttachments": [
+        {
+          "id": "1094718523304345",
+          "url": "https://www.facebook.com/photo/?fbid=1094718523304345"
+        }
+      ],
+      "verifiedAt": "2026-10-21T05:26:42.897+08:00",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-21T05:26:42.897+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-21/scholarship-facebook-public.png",
+      "publicPhotoScreenshot": "docs/daily-checks/2026-10-21/scholarship-facebook-public.png",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-21T05:26:42.897+08:00",
+      "imageCount": 1,
+      "visibility": "public",
+      "mediaKind": "uploaded-photo"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-flinders-excellence-2027/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "threadsSync": false,
+      "publishClickedAt": "2026-10-21T05:23:11.968+08:00",
+      "id": "DeuyivygYRi",
+      "publicUrl": "https://www.instagram.com/p/DeuyivygYRi/",
+      "publishedAt": "2026-10-21T05:23:00+08:00",
+      "verifiedAt": "2026-10-21T05:26:42.897+08:00",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-21T05:26:42.897+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-21/scholarship-instagram-public.png",
+      "imageCount": 1,
+      "visibility": "public"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-flinders-excellence-2027/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "publishClickedAt": "2026-10-21T05:23:32.447+08:00",
+      "id": "DeuylKkk7FO",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DeuylKkk7FO",
+      "publishedAt": "2026-10-21T05:23:32.447+08:00",
+      "verifiedAt": "2026-10-21T05:26:42.897+08:00",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-21T05:26:42.897+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-21/scholarship-threads-public.png",
+      "imageCount": 1,
+      "visibility": "public"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-flinders-excellence-2027/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "imageCount": 1,
+      "visibility": "public",
+      "publishClickedAt": "2026-10-21T05:27:13.722+08:00",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7518422622947151872/",
+      "id": "7518422622947151872",
+      "publishedAt": "2026-10-21T05:27:13.722+08:00",
+      "verifiedAt": "2026-10-21T05:27:55.676+08:00",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-21T05:27:55.676+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-21/scholarship-linkedin-public.png"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "pageId": "101904929207004",
+      "articleUrl": "https://globalednews.com/study-abroad/flinders-adelaide-2027-awards-course-check/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "imageCount": 1,
+      "visibility": "public",
+      "mediaKind": "uploaded-photo",
+      "photoAttachedAt": "2026-10-21T05:27:26.251+08:00",
+      "photoReadyEvidence": "docs/daily-checks/2026-10-21/study-abroad-facebook-photo-ready.png",
+      "copyAddedAt": "2026-10-21T05:27:27.314+08:00",
+      "publishClickedAt": "2026-10-21T05:27:45.839+08:00",
+      "id": "1094721599970704",
+      "publicUrl": "https://facebook.com/LTUOSSDTaiwan/posts/pfbid0XcCCFC1WemtUMMTBvS3YGQPuT9hCuvmmN2KmFRsJysmJLv4Ee4Zdp1HtLaJ7vxfXl",
+      "publishedAt": "2026-10-21T05:27:00+08:00",
+      "photoAttachments": [
+        {
+          "id": "1094721269970737",
+          "url": "https://www.facebook.com/photo/?fbid=1094721269970737"
+        }
+      ],
+      "verifiedAt": "2026-10-21T05:29:11.200+08:00",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-21T05:29:11.200+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-21/study-abroad-facebook-public.png",
+      "publicPhotoScreenshot": "docs/daily-checks/2026-10-21/study-abroad-facebook-public.png",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-21T05:29:11.200+08:00"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "articleUrl": "https://globalednews.com/study-abroad/flinders-adelaide-2027-awards-course-check/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "imageCount": 1,
+      "visibility": "public",
+      "publishClickedAt": "2026-10-21T05:27:45.839+08:00",
+      "id": "DeuzETBgdtS",
+      "publicUrl": "https://www.instagram.com/p/DeuzETBgdtS/",
+      "publishedAt": "2026-10-21T05:27:00+08:00",
+      "verifiedAt": "2026-10-21T05:29:11.200+08:00",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-21T05:29:11.200+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-21/study-abroad-instagram-public.png"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "articleUrl": "https://globalednews.com/study-abroad/flinders-adelaide-2027-awards-course-check/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "imageCount": 1,
+      "visibility": "public",
+      "publishClickedAt": "2026-10-21T05:28:06.758+08:00",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DeuzGo2EwNa",
+      "id": "DeuzGo2EwNa",
+      "publishedAt": "2026-10-21T05:28:06.758+08:00",
+      "verifiedAt": "2026-10-21T05:28:51.478+08:00",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-21T05:28:51.478+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-21/study-abroad-threads-public.png"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "articleUrl": "https://globalednews.com/study-abroad/flinders-adelaide-2027-awards-course-check/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "imageCount": 1,
+      "visibility": "public",
+      "publishClickedAt": "2026-10-21T05:28:38.560+08:00",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7518422982558441472/",
+      "id": "7518422982558441472",
+      "publishedAt": "2026-10-21T05:28:38.560+08:00",
+      "verifiedAt": "2026-10-21T05:29:11.200+08:00",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-21T05:29:11.200+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-21/study-abroad-linkedin-public.png"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "imageCount": 1,
+      "visibility": "public",
+      "publishClickedAt": "2026-10-21T05:30:18.924+08:00",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DeuzW2vk5K4",
+      "id": "DeuzW2vk5K4",
+      "publishedAt": "2026-10-21T05:30:18.924+08:00",
+      "verifiedAt": "2026-10-21T05:31:35.325+08:00",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-21T05:31:35.325+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-21/taiwan-universities-threads-public.png"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "imageCount": 1,
+      "visibility": "public",
+      "publishClickedAt": "2026-10-21T05:30:43.909+08:00",
+      "id": "DeuzaGlAQDF",
+      "platformId": "17952823950326779",
+      "publicUrl": "https://www.instagram.com/p/DeuzaGlAQDF/",
+      "publishedAt": "2026-10-21T05:30:00+08:00",
+      "verifiedAt": "2026-10-21T05:31:51.723+08:00",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-21T05:31:51.723+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-21/taiwan-universities-instagram-public.png"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "imageCount": 1,
+      "visibility": "public",
+      "publishClickedAt": "2026-10-21T05:30:59.413+08:00",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7518423566137278464/",
+      "id": "7518423566137278464",
+      "publishedAt": "2026-10-21T05:30:59.413+08:00",
+      "verifiedAt": "2026-10-21T05:31:35.325+08:00",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-10-21T05:31:35.325+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-21/taiwan-universities-linkedin-public.png"
+    }
+  ],
   "phaseCompleted": [
     "PREFLIGHT",
     "RESEARCH",
     "PREPARE",
-    "BUILD"
-  ],
-  "gaps": [
+    "BUILD",
     "COMMIT_DEPLOY",
     "PUBLISH",
     "ACCEPTANCE",
     "VERIFY"
   ],
+  "gaps": [],
   "manualActions": [],
   "newsPrepared": [
     {
@@ -348,7 +724,8 @@
           "url": "https://www.tf1info.fr/education/budget-2027-les-presidents-d-universites-demandent-un-effort-supplementaire-d-un-milliard-d-euros-2471038.html"
         }
       ],
-      "verifiedAt": "2026-10-21T05:08:05.547551+08:00"
+      "verifiedAt": "2026-10-21T05:08:05.547551+08:00",
+      "publishedVerifiedAt": "2026-10-21T05:19:57.973012+08:00"
     },
     {
       "slug": "france-school-budget-2027-staffing-explainer",
@@ -365,7 +742,8 @@
           "url": "https://www.banquedesterritoires.fr/leducation-nationale-preservee-par-le-projet-de-loi-de-finances-pour-2027"
         }
       ],
-      "verifiedAt": "2026-10-21T05:08:05.547551+08:00"
+      "verifiedAt": "2026-10-21T05:08:05.547551+08:00",
+      "publishedVerifiedAt": "2026-10-21T05:19:57.973012+08:00"
     },
     {
       "slug": "france-student-residence-continuity-2026",
@@ -382,7 +760,8 @@
           "url": "https://www.tsa-algerie.com/titre-de-sejour-etudiant-pluriannuel-en-france-les-algeriens-sont-ils-concernes-me-megherbi-repond/"
         }
       ],
-      "verifiedAt": "2026-10-21T05:08:05.547551+08:00"
+      "verifiedAt": "2026-10-21T05:08:05.547551+08:00",
+      "publishedVerifiedAt": "2026-10-21T05:19:57.973012+08:00"
     }
   ],
   "peterReview": {
@@ -401,7 +780,8 @@
       "sourceId": "pfbid0W2tnnXQphL7wtMfMMqu69qBcti4ACJJARs49Jg6dXGAoJnNDZ1ptUuosyggtMaC6l",
       "sourceUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid0W2tnnXQphL7wtMfMMqu69qBcti4ACJJARs49Jg6dXGAoJnNDZ1ptUuosyggtMaC6l&id=61585164670358",
       "url": "https://globalednews.com/peter/canada-sop-study-plan-program-fit-2026/",
-      "verifiedAt": "2026-10-21T05:08:05.547551+08:00"
+      "verifiedAt": "2026-10-21T05:08:05.547551+08:00",
+      "publishedVerifiedAt": "2026-10-21T05:19:57.973012+08:00"
     }
   ],
   "campusReport": {
@@ -464,9 +844,27 @@
       6,
       7
     ],
-    "pendingLiveVerification": true
+    "pendingLiveVerification": false,
+    "verifiedAt": "2026-10-21T05:36:37.149+08:00",
+    "visibleItems": [
+      {
+        "index": "5",
+        "text": "工商時報\nLTU OSSD\nLTU · 國際交流\n布萊斯「OSSD暑期學校」帶領學子參與國際交流 體驗海外大學生活\n\n媒體來源：工商時報\n\n外部媒體報導 ↗",
+        "url": "https://www.ctee.com.tw/news/20250723702079-431204"
+      },
+      {
+        "index": "6",
+        "text": "聯合新聞網\nLTU OSSD\nLTU · 升學成果\n僑泰高中雙語班傳捷報！5學子前進世界百大名校 打破校史紀錄\n\n媒體來源：聯合新聞網\n\n外部媒體報導 ↗",
+        "url": "https://udn.com/news/story/6898/9271435"
+      },
+      {
+        "index": "7",
+        "text": "三立新聞網\nLTU OSSD\nLTU · 國際教育活動\nLTU OSSD攜手皇冠高中舉辦暑期籃球ESL領袖營\n\n媒體來源：三立新聞網\n\n外部媒體報導 ↗",
+        "url": "https://www.setn.com/m/news.aspx?newsid=1688074"
+      }
+    ]
   },
-  "updatedAt": "2026-10-21T05:08:05.547551+08:00",
+  "updatedAt": "2026-10-21T05:37:07.782+08:00",
   "preparedAt": "2026-10-21T05:08:44.827467+08:00",
   "build": {
     "status": "passed",
@@ -476,5 +874,84 @@
     "photoPreviews": 1522,
     "searchCanonicalUrls": 1516,
     "evidence": "docs/daily-checks/2026-10-21"
+  },
+  "studyAbroadPublished": {
+    "slug": "flinders-adelaide-2027-awards-course-check",
+    "title": "Flinders留學DIY：先核對課程，再比較20%、25%與30%獎助",
+    "url": "https://globalednews.com/study-abroad/flinders-adelaide-2027-awards-course-check/",
+    "sources": [
+      {
+        "label": "Flinders | current academic scholarships",
+        "url": "https://www.flinders.edu.au/international/apply/scholarships/academic"
+      },
+      {
+        "label": "StudyU | independent institution and course guide",
+        "url": "https://www.studyu.org/en/university-flinders"
+      }
+    ]
+  },
+  "deployment": {
+    "status": "success",
+    "commit": "4c3e218a87faf20c26397e849d0c5e375030ccd3",
+    "runId": 39498943254,
+    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/39498943254",
+    "verifiedAt": "2026-10-21T05:19:57.973012+08:00"
+  },
+  "newFacebookPagePost": {
+    "campaign": "news",
+    "network": "facebook",
+    "pageId": "61595164194381",
+    "articleUrl": "https://globalednews.com/news/france-universities-billion-euro-appeal-2027/",
+    "status": "PUBLISHED",
+    "accountVerified": true,
+    "imageCount": 1,
+    "visibility": "public",
+    "mediaKind": "uploaded-photo",
+    "photoAttachedAt": "2026-10-21T05:33:06.900+08:00",
+    "photoReadyEvidence": "docs/daily-checks/2026-10-21/new-facebook-photo-ready.png",
+    "copyAddedAt": "2026-10-21T05:33:07.054+08:00",
+    "publishClickedAt": "2026-10-21T05:33:12.188+08:00",
+    "id": "122110327365505473",
+    "publicUrl": "https://facebook.com/permalink.php?story_fbid=pfbid02wwWpm3YrYBks6NAsw5YCHzUoxoztmPqWmXvUTg4DTWSDrUXheDQjLqNNotU7J5M9l&id=61595164194381",
+    "publishedAt": "2026-10-21T05:33:00+08:00",
+    "photoAttachments": [
+      {
+        "id": "122110327251505473",
+        "url": "https://www.facebook.com/photo/?fbid=122110327251505473"
+      }
+    ],
+    "verifiedAt": "2026-10-21T05:34:26.628+08:00",
+    "mediaStatus": "VERIFIED",
+    "mediaVerifiedAt": "2026-10-21T05:34:26.628+08:00",
+    "mediaEvidence": "docs/daily-checks/2026-10-21/new-facebook-public.png",
+    "publicPhotoScreenshot": "docs/daily-checks/2026-10-21/new-facebook-native-photo.png",
+    "previewStatus": "VERIFIED",
+    "previewVerifiedAt": "2026-10-21T05:34:26.628+08:00"
+  },
+  "acceptance": {
+    "desktop": true,
+    "mobile": true,
+    "seo": true,
+    "images": true,
+    "searchFilters": true,
+    "canonical": true,
+    "og": true,
+    "schema": true,
+    "sitemap": true,
+    "newsSitemap": true,
+    "rss": true,
+    "englishNoChinese": true,
+    "verifiedAt": "2026-10-21T05:36:37.149+08:00",
+    "liveSeoEvidence": "docs/daily-reports/2026-10-21-live-seo.json",
+    "uiEvidence": "docs/daily-checks/2026-10-21/acceptance-ui.json"
+  },
+  "completedAt": "2026-10-21T05:37:07.782+08:00",
+  "verification": {
+    "date": "2026-10-21",
+    "status": "COMPLETE",
+    "verifiedAt": "2026-10-21T05:37:07.782+08:00",
+    "command": "node scripts/verify-daily-delivery.mjs 2026-10-21",
+    "exitCode": 0,
+    "output": "COMPLETE 2026-10-21: 3 news, 3 new scholarships, Peter review (1 imports), 15 social posts and deployment evidence present. Evidence presence does not replace live verification."
   }
 }

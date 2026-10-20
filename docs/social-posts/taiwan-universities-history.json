@@ -599,6 +599,68 @@
           "publishedAtBasis": "Observed publish action"
         }
       ]
+    },
+    {
+      "date": "2026-10-21",
+      "topic": "NCCU short-study subsidy November 10 at 17:00; NCHU career and NCU mobility leads",
+      "CTA": "免費加入會員",
+      "status": "published",
+      "evidence": "docs/social-posts/2026-10-21/publication-log.json",
+      "contentPath": "docs/social-posts/2026-10-21/taiwan-universities--nccu-short-study-nov10.json",
+      "publishedPosts": [
+        {
+          "campaign": "taiwan-universities",
+          "network": "threads",
+          "articleUrl": "https://globalednews.com/taiwan-universities/",
+          "status": "PUBLISHED",
+          "accountVerified": true,
+          "imageCount": 1,
+          "visibility": "public",
+          "publishClickedAt": "2026-10-21T05:30:18.924+08:00",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DeuzW2vk5K4",
+          "id": "DeuzW2vk5K4",
+          "publishedAt": "2026-10-21T05:30:18.924+08:00",
+          "verifiedAt": "2026-10-21T05:31:35.325+08:00",
+          "mediaStatus": "VERIFIED",
+          "mediaVerifiedAt": "2026-10-21T05:31:35.325+08:00",
+          "mediaEvidence": "docs/daily-checks/2026-10-21/taiwan-universities-threads-public.png"
+        },
+        {
+          "campaign": "taiwan-universities",
+          "network": "instagram",
+          "articleUrl": "https://globalednews.com/taiwan-universities/",
+          "status": "PUBLISHED",
+          "accountVerified": true,
+          "imageCount": 1,
+          "visibility": "public",
+          "publishClickedAt": "2026-10-21T05:30:43.909+08:00",
+          "id": "DeuzaGlAQDF",
+          "platformId": "17952823950326779",
+          "publicUrl": "https://www.instagram.com/p/DeuzaGlAQDF/",
+          "publishedAt": "2026-10-21T05:30:00+08:00",
+          "verifiedAt": "2026-10-21T05:31:51.723+08:00",
+          "mediaStatus": "VERIFIED",
+          "mediaVerifiedAt": "2026-10-21T05:31:51.723+08:00",
+          "mediaEvidence": "docs/daily-checks/2026-10-21/taiwan-universities-instagram-public.png"
+        },
+        {
+          "campaign": "taiwan-universities",
+          "network": "linkedin",
+          "articleUrl": "https://globalednews.com/taiwan-universities/",
+          "status": "PUBLISHED",
+          "accountVerified": true,
+          "imageCount": 1,
+          "visibility": "public",
+          "publishClickedAt": "2026-10-21T05:30:59.413+08:00",
+          "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7518423566137278464/",
+          "id": "7518423566137278464",
+          "publishedAt": "2026-10-21T05:30:59.413+08:00",
+          "verifiedAt": "2026-10-21T05:31:35.325+08:00",
+          "mediaStatus": "VERIFIED",
+          "mediaVerifiedAt": "2026-10-21T05:31:35.325+08:00",
+          "mediaEvidence": "docs/daily-checks/2026-10-21/taiwan-universities-linkedin-public.png"
+        }
+      ]
     }
   ]
 }

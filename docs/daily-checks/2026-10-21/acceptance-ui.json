@@ -1,0 +1,156 @@
+{
+  "verifiedAt": "2026-10-21T05:36:24.990+08:00",
+  "desktop": {
+    "images": [
+      {
+        "complete": true,
+        "src": "https://globalednews.com/ads/images/uwe-bristol-floating-ad.webp",
+        "width": 1080
+      },
+      {
+        "complete": true,
+        "src": "https://globalednews.com/images/daily/2026-10-21/school.jpg",
+        "width": 1800
+      },
+      {
+        "complete": true,
+        "src": "https://globalednews.com/images/daily/2026-10-21/residence.jpg",
+        "width": 1800
+      },
+      {
+        "complete": true,
+        "src": "https://globalednews.com/images/daily/2026-10-21/uni.jpg",
+        "width": 1800
+      },
+      {
+        "complete": true,
+        "src": "https://globalednews.com/ads/images/cambridge-enjoyabc-business.webp",
+        "width": 1265
+      },
+      {
+        "complete": true,
+        "src": "https://globalednews.com/ads/images/cambridge-language-logo.png",
+        "width": 120
+      },
+      {
+        "complete": true,
+        "src": "https://globalednews.com/ads/images/enjoyabc-logo.png",
+        "width": 205
+      }
+    ],
+    "ltu": [
+      {
+        "index": "5",
+        "text": "工商時報\nLTU OSSD\nLTU · 國際交流\n布萊斯「OSSD暑期學校」帶領學子參與國際交流 體驗海外大學生活\n\n媒體來源：工商時報\n\n外部媒體報導 ↗",
+        "url": "https://www.ctee.com.tw/news/20250723702079-431204"
+      },
+      {
+        "index": "6",
+        "text": "聯合新聞網\nLTU OSSD\nLTU · 升學成果\n僑泰高中雙語班傳捷報！5學子前進世界百大名校 打破校史紀錄\n\n媒體來源：聯合新聞網\n\n外部媒體報導 ↗",
+        "url": "https://udn.com/news/story/6898/9271435"
+      },
+      {
+        "index": "7",
+        "text": "三立新聞網\nLTU OSSD\nLTU · 國際教育活動\nLTU OSSD攜手皇冠高中舉辦暑期籃球ESL領袖營\n\n媒體來源：三立新聞網\n\n外部媒體報導 ↗",
+        "url": "https://www.setn.com/m/news.aspx?newsid=1688074"
+      }
+    ],
+    "scrollWidth": 2081,
+    "width": 2100
+  },
+  "mobile": {
+    "height": 843,
+    "images": [
+      {
+        "loaded": true,
+        "src": "https://globalednews.com/images/share-photos/cd51ad55a254652f396254ef.jpg"
+      }
+    ],
+    "scrollWidth": 371,
+    "title": "法國80位高教代表發表宣言：要求2027追加10億歐元",
+    "width": 390
+  },
+  "englishMobile": {
+    "height": 843,
+    "images": [
+      {
+        "loaded": true,
+        "src": "https://globalednews.com/images/share-photos/cd51ad55a254652f396254ef.jpg"
+      }
+    ],
+    "scrollWidth": 371,
+    "title": " French university leaders call for an additional EUR 1 billion in 2027 ",
+    "width": 390
+  },
+  "ltu": [
+    {
+      "index": "5",
+      "text": "工商時報\nLTU OSSD\nLTU · 國際交流\n布萊斯「OSSD暑期學校」帶領學子參與國際交流 體驗海外大學生活\n\n媒體來源：工商時報\n\n外部媒體報導 ↗",
+      "url": "https://www.ctee.com.tw/news/20250723702079-431204"
+    },
+    {
+      "index": "6",
+      "text": "聯合新聞網\nLTU OSSD\nLTU · 升學成果\n僑泰高中雙語班傳捷報！5學子前進世界百大名校 打破校史紀錄\n\n媒體來源：聯合新聞網\n\n外部媒體報導 ↗",
+      "url": "https://udn.com/news/story/6898/9271435"
+    },
+    {
+      "index": "7",
+      "text": "三立新聞網\nLTU OSSD\nLTU · 國際教育活動\nLTU OSSD攜手皇冠高中舉辦暑期籃球ESL領袖營\n\n媒體來源：三立新聞網\n\n外部媒體報導 ↗",
+      "url": "https://www.setn.com/m/news.aspx?newsid=1688074"
+    }
+  ],
+  "mobileLtu": [
+    {
+      "index": "5",
+      "text": "工商時報\nLTU OSSD\nLTU · 國際交流\n布萊斯「OSSD暑期學校」帶領學子參與國際交流 體驗海外大學生活\n\n媒體來源：工商時報\n\n外部媒體報導 ↗"
+    },
+    {
+      "index": "6",
+      "text": "聯合新聞網\nLTU OSSD\nLTU · 升學成果\n僑泰高中雙語班傳捷報！5學子前進世界百大名校 打破校史紀錄\n\n媒體來源：聯合新聞網\n\n外部媒體報導 ↗"
+    },
+    {
+      "index": "7",
+      "text": "三立新聞網\nLTU OSSD\nLTU · 國際教育活動\nLTU OSSD攜手皇冠高中舉辦暑期籃球ESL領袖營\n\n媒體來源：三立新聞網\n\n外部媒體報導 ↗"
+    }
+  ],
+  "scholarshipSearch": {
+    "desktop": {
+      "query": "Flinders",
+      "country": "澳洲",
+      "status": "開放中",
+      "results": 3,
+      "clearResults": 206,
+      "enter": true,
+      "zeroResultMessage": true,
+      "showMore": [
+        27,
+        51
+      ]
+    },
+    "mobile": {
+      "query": "Flinders",
+      "country": "澳洲",
+      "degree": "碩士",
+      "status": "開放中",
+      "results": 3,
+      "clearResults": 206,
+      "enter": true,
+      "zeroResultMessage": true,
+      "showMore": [
+        27,
+        51
+      ],
+      "width": 390,
+      "scrollWidth": 371
+    }
+  },
+  "languageSwitch": "Chinese to English and back verified",
+  "screenshots": [
+    "live-desktop-home.png",
+    "live-desktop-news.png",
+    "live-desktop-english.png",
+    "live-mobile-news.png",
+    "live-mobile-news-zh.png",
+    "live-mobile-scholarship-filter.png"
+  ]
+}

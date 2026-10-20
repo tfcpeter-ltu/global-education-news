@@ -51,6 +51,12 @@
       "status": "published",
       "lateDelivery": true,
       "evidence": "docs/social-posts/2026-10-19/publication-log.json"
+    },
+    {
+      "date": "2026-10-21",
+      "CTA": "免費加入會員",
+      "status": "published",
+      "evidence": "docs/social-posts/2026-10-21/publication-log.json"
     }
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "english": {
+    "height": 843,
+    "images": [
+      {
+        "loaded": true,
+        "src": "https://globalednews.com/images/share-photos/cd51ad55a254652f396254ef.jpg"
+      }
+    ],
+    "scrollWidth": 371,
+    "title": " French university leaders call for an additional EUR 1 billion in 2027 ",
+    "width": 390
+  },
+  "chinese": {
+    "height": 843,
+    "images": [
+      {
+        "loaded": true,
+        "src": "https://globalednews.com/images/share-photos/cd51ad55a254652f396254ef.jpg"
+      }
+    ],
+    "scrollWidth": 371,
+    "title": "法國80位高教代表發表宣言：要求2027追加10億歐元",
+    "width": 390
+  }
+}

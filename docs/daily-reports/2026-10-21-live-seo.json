@@ -1,0 +1,158 @@
+{
+  "verifiedAt": "2026-10-21T05:18:08.255716+08:00",
+  "pages": [
+    {
+      "url": "https://globalednews.com/news/france-universities-billion-euro-appeal-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/france-universities-billion-euro-appeal-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/cd51ad55a254652f396254ef.jpg",
+      "ogBytes": 215657,
+      "schemaCount": 4,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/news/france-school-budget-2027-staffing-explainer/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/france-school-budget-2027-staffing-explainer/",
+      "ogImage": "https://globalednews.com/images/share-photos/b77bee59424ad7a58ac6c3f9.jpg",
+      "ogBytes": 176079,
+      "schemaCount": 4,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/news/france-student-residence-continuity-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/france-student-residence-continuity-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/9ee9017eb58be8d121585206.jpg",
+      "ogBytes": 251233,
+      "schemaCount": 4,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-10-flinders-excellence-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-10-flinders-excellence-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/4c75a4de01bdad9d220cefb2.jpg",
+      "ogBytes": 283928,
+      "schemaCount": 2,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-10-flinders-global-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-10-flinders-global-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/bff4dd391e6e976409292348.jpg",
+      "ogBytes": 327945,
+      "schemaCount": 2,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-10-flinders-kickstart-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-10-flinders-kickstart-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/254a6fb2de8a3a625f13fb0c.jpg",
+      "ogBytes": 224208,
+      "schemaCount": 2,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/study-abroad/flinders-adelaide-2027-awards-course-check/",
+      "status": 200,
+      "canonical": "https://globalednews.com/study-abroad/flinders-adelaide-2027-awards-course-check/",
+      "ogImage": "https://globalednews.com/images/share-photos/41a32c66d4e347d1bd89345e.jpg",
+      "ogBytes": 290303,
+      "schemaCount": 4,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/peter/canada-sop-study-plan-program-fit-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/peter/canada-sop-study-plan-program-fit-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/7dbf30b7b66ce5d851f90218.jpg",
+      "ogBytes": 214114,
+      "schemaCount": 3,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/en/news/france-universities-billion-euro-appeal-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/france-universities-billion-euro-appeal-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/cd51ad55a254652f396254ef.jpg",
+      "ogBytes": 215657,
+      "schemaCount": 4,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/news/france-school-budget-2027-staffing-explainer/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/france-school-budget-2027-staffing-explainer/",
+      "ogImage": "https://globalednews.com/images/share-photos/b77bee59424ad7a58ac6c3f9.jpg",
+      "ogBytes": 176079,
+      "schemaCount": 4,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/news/france-student-residence-continuity-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/france-student-residence-continuity-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/9ee9017eb58be8d121585206.jpg",
+      "ogBytes": 251233,
+      "schemaCount": 4,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/scholarships/items/2026-10-flinders-excellence-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/scholarships/items/2026-10-flinders-excellence-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/4c75a4de01bdad9d220cefb2.jpg",
+      "ogBytes": 283928,
+      "schemaCount": 2,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/scholarships/items/2026-10-flinders-global-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/scholarships/items/2026-10-flinders-global-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/bff4dd391e6e976409292348.jpg",
+      "ogBytes": 327945,
+      "schemaCount": 2,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/scholarships/items/2026-10-flinders-kickstart-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/scholarships/items/2026-10-flinders-kickstart-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/254a6fb2de8a3a625f13fb0c.jpg",
+      "ogBytes": 224208,
+      "schemaCount": 2,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/study-abroad/flinders-adelaide-2027-awards-course-check/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/study-abroad/flinders-adelaide-2027-awards-course-check/",
+      "ogImage": "https://globalednews.com/images/share-photos/41a32c66d4e347d1bd89345e.jpg",
+      "ogBytes": 290303,
+      "schemaCount": 4,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/peter/canada-sop-study-plan-program-fit-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/peter/canada-sop-study-plan-program-fit-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/7dbf30b7b66ce5d851f90218.jpg",
+      "ogBytes": 214114,
+      "schemaCount": 3,
+      "englishCjk": false
+    }
+  ],
+  "xmlChecks": [
+    "sitemap-index.xml",
+    "sitemap-0.xml",
+    "news-sitemap.xml",
+    "weekly-feed.xml"
+  ],
+  "newPagesInSitemap": 8,
+  "newsInNewsSitemapAndRss": 3,
+  "robots": 200
+}
