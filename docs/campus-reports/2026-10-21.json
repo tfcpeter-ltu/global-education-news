@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-21",
+  "timezone": "Asia/Taipei",
+  "status": "three-public-leads-reviewed",
+  "verifiedAt": "2026-10-21T05:08:05.547551+08:00",
+  "reviewedSchools": [
+    {
+      "school": "國立政治大學",
+      "schoolSlug": "nccu",
+      "source": "https://oic.nccu.edu.tw/Post/16168",
+      "finding": "115學年第2學期短期進修補助11月10日17:00截止；限本校合格在學生，需交換錄取或研修學校入學許可。"
+    },
+    {
+      "school": "國立中興大學",
+      "schoolSlug": "nchu",
+      "source": "https://oia.nchu.edu.tw/",
+      "finding": "10月14日公告11月國際生一對一職涯諮詢；不是所有學生共用的獎學金。"
+    },
+    {
+      "school": "國立中央大學",
+      "schoolSlug": "ncu",
+      "source": "https://oia.ncu.edu.tw/",
+      "finding": "官方列交換、雙聯、短期與外部出國計畫入口；未據首頁推定個別計畫截止日。"
+    }
+  ],
+  "published": [],
+  "pendingConsent": [],
+  "outreachDrafts": [],
+  "gaps": [],
+  "note": "Public source leads only; no outreach sent."
+}

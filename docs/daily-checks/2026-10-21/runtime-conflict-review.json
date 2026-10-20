@@ -1,0 +1,35 @@
+{
+  "decision": "Runtime differences limited to earlier daily records and today edited translations/photo credits; all five runtime versions preserved before syncing current main plus today source. Package and lock files match.",
+  "records": [
+    {
+      "file": "docs/daily-reports/2026-10-19.json",
+      "runtimeBackup": "C:\\Users\\User\\AppData\\Local\\Temp\\globalednews-runtime-backup-20261021\\docs\\daily-reports\\2026-10-19.json",
+      "sourceSha256": "e9c4cbcc71dd924ee535f65615aedc815613e6c3c3445f7ec602c1a21e5c5380",
+      "runtimeSha256": "782c7cbf4b025d33bbdc1064b6ac66e1655e257c676c2841d615a9a0bcdcb98a"
+    },
+    {
+      "file": "docs/social-posts/2026-10-19/publication-log.json",
+      "runtimeBackup": "C:\\Users\\User\\AppData\\Local\\Temp\\globalednews-runtime-backup-20261021\\docs\\social-posts\\2026-10-19\\publication-log.json",
+      "sourceSha256": "ecec0ff2adba1b855f31f2e84dbd0dbe097f74d0c45dce24fa3128a8bba9c042",
+      "runtimeSha256": "2085889190d8874f093fffa7176bab58efc30e30e563e15716829dbb17309a4a"
+    },
+    {
+      "file": "public/images/share-photos/credits.json",
+      "runtimeBackup": "C:\\Users\\User\\AppData\\Local\\Temp\\globalednews-runtime-backup-20261021\\public\\images\\share-photos\\credits.json",
+      "sourceSha256": "86d4cbb68b0fe4209305b1dabd29d3aba809fb4277ad86240f349e0034eed3f4",
+      "runtimeSha256": "9ad453f7572752938b660d71bbc1bdd47d242cb1b5e9c42b007a90dea41485f6"
+    },
+    {
+      "file": "src/data/i18n/en-overrides.json",
+      "runtimeBackup": "C:\\Users\\User\\AppData\\Local\\Temp\\globalednews-runtime-backup-20261021\\src\\data\\i18n\\en-overrides.json",
+      "sourceSha256": "be410e81448e6bde66ae7bf7c7845185c2385fb424b8be49f0c793a1d6b7720a",
+      "runtimeSha256": "1db70c9bbe825b11c09d2be8698c4d5f2ec91506170bec72fd5cf042a7132f66"
+    },
+    {
+      "file": "src/data/i18n/en.json",
+      "runtimeBackup": "C:\\Users\\User\\AppData\\Local\\Temp\\globalednews-runtime-backup-20261021\\src\\data\\i18n\\en.json",
+      "sourceSha256": "1795104ef132f5d8db06ac13109cd71d592359065c98d0bc3cdcf580416e7f38",
+      "runtimeSha256": "35519e40b68cd0180b9fcead72b197862c74b13914051f3918dc7146ebc924e5"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-21",
+  "prepared": [
+    {
+      "slug": "canada-sop-study-plan-program-fit-2026",
+      "sourceId": "pfbid0W2tnnXQphL7wtMfMMqu69qBcti4ACJJARs49Jg6dXGAoJnNDZ1ptUuosyggtMaC6l",
+      "sourceUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid0W2tnnXQphL7wtMfMMqu69qBcti4ACJJARs49Jg6dXGAoJnNDZ1ptUuosyggtMaC6l&id=61585164670358",
+      "url": "https://globalednews.com/peter/canada-sop-study-plan-program-fit-2026/",
+      "verifiedAt": "2026-10-21T05:08:05.547551+08:00"
+    }
+  ],
+  "imports": [],
+  "review": {
+    "status": "fewer-new-posts",
+    "availableNewCount": 1,
+    "checkedAt": "2026-10-21T05:08:05.547551+08:00",
+    "sourceUrls": [
+      "https://www.facebook.com/permalink.php?story_fbid=pfbid0W2tnnXQphL7wtMfMMqu69qBcti4ACJJARs49Jg6dXGAoJnNDZ1ptUuosyggtMaC6l&id=61585164670358"
+    ],
+    "evidence": "docs/daily-checks/2026-10-21/peter-review.txt",
+    "finding": "One new Canadian SOP post qualified after UBC/Calgary cross-check; ebook is promotional, Common App previously imported. Original AI image not reused; licensed real campus photo substituted."
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "checkedAt": "2026-10-21T05:08:05.547551+08:00",
+  "news": [
+    {
+      "slug": "france-universities-billion-euro-appeal-2027",
+      "title": "法國80位高教代表發表宣言：要求2027追加10億歐元",
+      "url": "https://globalednews.com/news/france-universities-billion-euro-appeal-2027/",
+      "publishedPath": "src/pages/news/france-universities-billion-euro-appeal-2027.md",
+      "sources": [
+        {
+          "label": "France Universités | manifesto, 20 October 2026",
+          "url": "https://franceuniversites.fr/actualite/faisons-de-la-jeunesse-une-grande-cause-nationale/"
+        },
+        {
+          "label": "TF1 Info / AFP | independent reporting",
+          "url": "https://www.tf1info.fr/education/budget-2027-les-presidents-d-universites-demandent-un-effort-supplementaire-d-un-milliard-d-euros-2471038.html"
+        }
+      ],
+      "verifiedAt": "2026-10-21T05:08:05.547551+08:00"
+    },
+    {
+      "slug": "france-school-budget-2027-staffing-explainer",
+      "title": "法國2027學校預算解析：經費增加，教師員額仍擬淨減",
+      "url": "https://globalednews.com/news/france-school-budget-2027-staffing-explainer/",
+      "publishedPath": "src/pages/news/france-school-budget-2027-staffing-explainer.md",
+      "sources": [
+        {
+          "label": "French education ministry | draft budget, pages 4–7",
+          "url": "https://www.education.gouv.fr/sites/default/files/document/budget-2027-pour-l-cole-le-dossier-de-presse-521314.pdf"
+        },
+        {
+          "label": "Localtis | budget reporting",
+          "url": "https://www.banquedesterritoires.fr/leducation-nationale-preservee-par-le-projet-de-loi-de-finances-pour-2027"
+        }
+      ],
+      "verifiedAt": "2026-10-21T05:08:05.547551+08:00"
+    },
+    {
+      "slug": "france-student-residence-continuity-2026",
+      "title": "法國擬簡化國際學生居留程序：銜接畢業與續讀，仍須確認個案",
+      "url": "https://globalednews.com/news/france-student-residence-continuity-2026/",
+      "publishedPath": "src/pages/news/france-student-residence-continuity-2026.md",
+      "sources": [
+        {
+          "label": "French higher education ministry | 30 September 2026",
+          "url": "https://www.enseignementsup-recherche.gouv.fr/fr/laurent-nunez-et-philippe-baptiste-annoncent-de-nouvelles-mesures-pour-prevenir-les-ruptures-de-104317"
+        },
+        {
+          "label": "TSA | independent interview with an immigration lawyer",
+          "url": "https://www.tsa-algerie.com/titre-de-sejour-etudiant-pluriannuel-en-france-les-algeriens-sont-ils-concernes-me-megherbi-repond/"
+        }
+      ],
+      "verifiedAt": "2026-10-21T05:08:05.547551+08:00"
+    }
+  ],
+  "scholarships": [
+    {
+      "slug": "2026-10-flinders-excellence-2027",
+      "title": "Flinders全球卓越獎：2027合格課程學費減30%",
+      "url": "https://globalednews.com/scholarships/items/2026-10-flinders-excellence-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-flinders-excellence-2027.md",
+      "sources": [
+        "https://www.flinders.edu.au/international/apply/scholarships/academic",
+        "https://www.flinders.edu.au/content/dam/documents/study/international/global-scholarships-tandc.pdf",
+        "https://www.studyu.org/en/university-flinders"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-21T05:08:05.547551+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New distinct named award; current academic page and full terms compared with independent StudyU analysis. Taiwan nationality/status exclusions and automatic application path checked."
+    },
+    {
+      "slug": "2026-10-flinders-global-2027",
+      "title": "Flinders全球獎學金：2027合格課程學費減25%",
+      "url": "https://globalednews.com/scholarships/items/2026-10-flinders-global-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-flinders-global-2027.md",
+      "sources": [
+        "https://www.flinders.edu.au/international/apply/scholarships/academic",
+        "https://www.flinders.edu.au/content/dam/documents/study/international/global-scholarships-tandc.pdf",
+        "https://www.studyu.org/en/university-flinders"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-21T05:08:05.547551+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New distinct named award; current academic page and full terms compared with independent StudyU analysis. Taiwan nationality/status exclusions and automatic application path checked."
+    },
+    {
+      "slug": "2026-10-flinders-kickstart-2027",
+      "title": "Flinders新生啟動獎：2027合格課程學費減20%",
+      "url": "https://globalednews.com/scholarships/items/2026-10-flinders-kickstart-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-flinders-kickstart-2027.md",
+      "sources": [
+        "https://www.flinders.edu.au/international/apply/scholarships/academic",
+        "https://www.flinders.edu.au/content/dam/documents/study/international/kickstart-scholarship-tandc.pdf",
+        "https://www.studyu.org/en/university-flinders"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-21T05:08:05.547551+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New distinct named award; current academic page and full terms compared with independent StudyU analysis. Taiwan nationality/status exclusions and automatic application path checked."
+    }
+  ],
+  "peter": {
+    "slug": "canada-sop-study-plan-program-fit-2026",
+    "sourceId": "pfbid0W2tnnXQphL7wtMfMMqu69qBcti4ACJJARs49Jg6dXGAoJnNDZ1ptUuosyggtMaC6l",
+    "sourceUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid0W2tnnXQphL7wtMfMMqu69qBcti4ACJJARs49Jg6dXGAoJnNDZ1ptUuosyggtMaC6l&id=61585164670358",
+    "url": "https://globalednews.com/peter/canada-sop-study-plan-program-fit-2026/",
+    "verifiedAt": "2026-10-21T05:08:05.547551+08:00"
+  },
+  "excluded": [
+    {
+      "candidate": "Murdoch old Welcome 2027",
+      "reason": "Discontinued and stale rates; not selected."
+    },
+    {
+      "candidate": "Flinders VC Excellence",
+      "reason": "2027 deadline unconfirmed; selected three current automatic awards instead."
+    }
+  ],
+  "notes": [
+    "France Universites statement and AFP differ on detailed allocation breakdown; published only shared headline demand and clearly attributed aims.",
+    "Official French sites read in browser after Python certificate-store failure; no TLS verification disabled.",
+    "Global and Global Excellence are distinct named awards with separate thresholds; no recheck of an existing slug counted."
+  ]
+}

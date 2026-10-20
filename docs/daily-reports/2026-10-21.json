@@ -1,0 +1,480 @@
+{
+  "date": "2026-10-21",
+  "timezone": "Asia/Taipei",
+  "startedAt": "2026-10-21T05:01:10.9544627+08:00",
+  "status": "in_progress",
+  "currentPhase": "COMMIT_DEPLOY",
+  "baseMainSha": "45402f5c03bc39346024dbcd2ef17e09c505a4c1",
+  "scholarshipBaselineSlugs": [
+    "2026-08-bristol-think-big",
+    "2026-08-manchester-global-futures-taiwan-2027",
+    "2026-08-mcgill-mccall-macbain",
+    "2026-08-melbourne-graduate-research",
+    "2026-08-melbourne-international-excellence-graduate-2027",
+    "2026-08-moe-eu-scholarship",
+    "2026-08-moe-government-sponsored-study",
+    "2026-08-moe-new-southbound-internship",
+    "2026-08-moe-overseas-scholarship",
+    "2026-08-moe-study-abroad-fly",
+    "2026-08-moe-study-abroad-internship",
+    "2026-08-moe-study-abroad-needy",
+    "2026-08-moe-top100-phd",
+    "2026-08-monash-awards-2027",
+    "2026-08-oxford-clarendon",
+    "2026-08-sydney-vcis-2027",
+    "2026-08-tgpi-dream-factory",
+    "2026-08-tgpi-global-flight",
+    "2026-08-ubc-four-year-doctoral-fellowship",
+    "2026-08-ubc-imes",
+    "2026-08-ubc-international-scholars-2027",
+    "2026-08-ubc-killam-doctoral-2027",
+    "2026-08-ucl-global-masters",
+    "2026-08-ucl-global-undergraduate",
+    "2026-08-unsw-scientia-2027",
+    "2026-08-uq-international-high-achievers-2027",
+    "2026-08-utoronto-pearson-2027",
+    "2026-09-adelaide-academic-excellence-2027",
+    "2026-09-adelaide-merit-2027",
+    "2026-09-auckland-international-student-excellence-2027",
+    "2026-09-cardiff-vice-chancellor-taiwan-january-2027",
+    "2026-09-chevening-delta-climate-2027",
+    "2026-09-chevening-taiwan",
+    "2026-09-daad-architecture-masters",
+    "2026-09-deakin-excellence-international-2027",
+    "2026-09-deakin-international-merit-2027",
+    "2026-09-deakin-vice-chancellor-international-2027",
+    "2026-09-dundee-east-asia-undergraduate-january-2027",
+    "2026-09-dundee-global-excellence-undergraduate-january-2027",
+    "2026-09-erasmus-mundus-2027",
+    "2026-09-eth-zurich-esop-2027",
+    "2026-09-exeter-pgt-taiwan-january-2027",
+    "2026-09-fulbright-experience-america-research-award",
+    "2026-09-fulbright-non-academic-professional-award",
+    "2026-09-fulbright-senior-research-award",
+    "2026-09-gates-cambridge-2027",
+    "2026-09-harvard-academy-scholars-2027",
+    "2026-09-harvard-radcliffe-fellowship-2027",
+    "2026-09-hkpfs-2027",
+    "2026-09-imperial-presidents-phd-2027",
+    "2026-09-kent-international-undergraduate-january-2027",
+    "2026-09-knight-hennessy-2027",
+    "2026-09-latrobe-high-achiever-2027",
+    "2026-09-leicester-global-excellence-jan-apr-2027",
+    "2026-09-macquarie-vcis-2027",
+    "2026-09-monash-international-merit-2027",
+    "2026-09-ntu-taiwan-scholarship-jan-2027",
+    "2026-09-ntu-taiwan-stem-scholarship-jan-2027",
+    "2026-09-oxford-clarendon-2027",
+    "2026-09-rmit-up-academic-english-bursary-2027",
+    "2026-09-strathclyde-sbs-international-masters-jan-2027",
+    "2026-09-sydney-rtp-international-2027",
+    "2026-09-taiwan-anu-phd-scholarship-2027",
+    "2026-09-tasmanian-international-scholarship-2027",
+    "2026-09-ubc-international-scholars-2027",
+    "2026-09-uc-berkeley-beahrs-elp-2027",
+    "2026-09-uni-iowa-partner-state-taiwan-2027",
+    "2026-09-university-iowa-national-scholars-2027",
+    "2026-09-unsw-international-scientia-2027",
+    "2026-09-uow-postgraduate-academic-excellence-2027",
+    "2026-09-uow-university-excellence-2027",
+    "2026-09-utoronto-lester-b-pearson-2027",
+    "2026-09-yenching-academy-2027-taiwan",
+    "2026-10-american-university-egls-2027",
+    "2026-10-aut-north-asia-2027",
+    "2026-10-bangor-vice-chancellor-january-2027",
+    "2026-10-bath-international-excellence-ug-2027",
+    "2026-10-boise-state-international-fall-2027",
+    "2026-10-bournemouth-academic-excellence-january-2027",
+    "2026-10-canterbury-guardian-commerce-2027",
+    "2026-10-canterbury-international-first-year-offshore-2027",
+    "2026-10-cardiff-vice-chancellor-january-2027",
+    "2026-10-cumbria-international-undergraduate-january-2027",
+    "2026-10-curtin-future-leaders-2027",
+    "2026-10-curtin-global-excellence-2027",
+    "2026-10-dundee-global-excellence-september-2027",
+    "2026-10-ecu-north-asia-2027",
+    "2026-10-essex-international-undergraduate-2027",
+    "2026-10-exeter-taiwan-pgt-2027",
+    "2026-10-griffith-academic-merit-2027",
+    "2026-10-griffith-vice-chancellor-2027",
+    "2026-10-herts-chancellor-january-2027",
+    "2026-10-kent-pgt-january-2027",
+    "2026-10-lancaster-management-progression-2027",
+    "2026-10-lancaster-masters-excellence-2027",
+    "2026-10-lancaster-regional-taiwan-2027",
+    "2026-10-lancaster-undergraduate-international-excellence-2027",
+    "2026-10-lincoln-pathway-merit-2027",
+    "2026-10-lincoln-taught-master-merit-2027",
+    "2026-10-lincoln-undergraduate-vice-chancellor-2027",
+    "2026-10-london-met-east-asia-2027",
+    "2026-10-massey-creative-excellence-masters-2027",
+    "2026-10-massey-toroa-postgraduate-2027",
+    "2026-10-massey-toroa-undergraduate-2027",
+    "2026-10-newcastle-australia-international-excellence-2027",
+    "2026-10-newcastle-vc-international-undergraduate-2027",
+    "2026-10-ntu-taiwan-january-2027",
+    "2026-10-otago-global-masters-2027",
+    "2026-10-otago-global-undergraduate-2027",
+    "2026-10-otago-international-academic-excellence-2027",
+    "2026-10-oxford-brookes-january-2027",
+    "2026-10-portsmouth-chancellor-merit-january-2027",
+    "2026-10-qmul-global-talent-pgt-2027",
+    "2026-10-qub-pgt-january-2027",
+    "2026-10-rgu-early-payment-january-2027",
+    "2026-10-rgu-january-2027",
+    "2026-10-sheffield-international-pgt-2027",
+    "2026-10-sheffield-international-undergraduate-2027",
+    "2026-10-st-andrews-tesol-january-2027",
+    "2026-10-stirling-east-asia-pgt-2027",
+    "2026-10-stirling-vice-chancellor-pgt-january-2027",
+    "2026-10-strathclyde-science-january-2027",
+    "2026-10-swansea-international-excellence-january-2027",
+    "2026-10-uea-pg-merit-2027",
+    "2026-10-unisq-international-excellence-2027",
+    "2026-10-uwa-global-excellence-2027",
+    "2026-10-vuw-postgraduate-international-2027",
+    "2026-10-vuw-undergraduate-international-2027",
+    "2026-10-waikato-research-masters-2027",
+    "2026-10-waikato-vice-chancellor-2027",
+    "2026-10-waterloo-international-entrance-2027",
+    "2026-10-western-sydney-international-undergraduate-2027",
+    "2026-10-westminster-pg-excellence-january-2027",
+    "catalog-aalto-excellence",
+    "catalog-berea-international-aid",
+    "catalog-bocconi-access-100",
+    "catalog-bocconi-access-80-60",
+    "catalog-bocconi-boost",
+    "catalog-bocconi-sport",
+    "catalog-chalmers-ipoet",
+    "catalog-daad-all-disciplines",
+    "catalog-daad-fine-art",
+    "catalog-daad-music",
+    "catalog-daad-performing-arts",
+    "catalog-duke-karsh",
+    "catalog-eiffel-master",
+    "catalog-eiffel-phd",
+    "catalog-emory-scholars",
+    "catalog-epfl-excellence",
+    "catalog-erasmus-mundus",
+    "catalog-eth-esop",
+    "catalog-geneva-excellence",
+    "catalog-gks-graduate",
+    "catalog-gks-undergraduate",
+    "catalog-goh-keng-swee",
+    "catalog-goi-ies",
+    "catalog-harvard-international-aid",
+    "catalog-helsinki-scholarship",
+    "catalog-jasso-honors",
+    "catalog-kaist-graduate",
+    "catalog-kaist-undergraduate",
+    "catalog-knight-hennessy",
+    "catalog-kth-scholarship",
+    "catalog-kyoto-iup",
+    "catalog-lund-global",
+    "catalog-maastricht-brightlands",
+    "catalog-maastricht-global-studies",
+    "catalog-maastricht-high-potential",
+    "catalog-maastricht-social-justice",
+    "catalog-maeci-italy",
+    "catalog-master-mind-flanders",
+    "catalog-mext-japanese-studies",
+    "catalog-mext-kosen-2027",
+    "catalog-mext-research-2027",
+    "catalog-mext-specialized-training-2027",
+    "catalog-mext-teacher-training",
+    "catalog-mext-undergraduate-2027",
+    "catalog-miami-stamps",
+    "catalog-mit-international-aid",
+    "catalog-nl-scholarship",
+    "catalog-nus-international-undergraduate",
+    "catalog-nus-science-technology",
+    "catalog-padua-excellence",
+    "catalog-paris-saclay-idex",
+    "catalog-radboud-nl-scholarship",
+    "catalog-radboud-scholarship",
+    "catalog-science-leuven",
+    "catalog-sciencespo-boutmy",
+    "catalog-snu-gsfs",
+    "catalog-swiss-phd",
+    "catalog-swiss-research-fellowship",
+    "catalog-taiwan-kaist-phd",
+    "catalog-tampere-scholarship",
+    "catalog-trinity-global-excellence",
+    "catalog-tudelft-justus",
+    "catalog-turku-merit",
+    "catalog-ucd-global-excellence",
+    "catalog-uppsala-global",
+    "catalog-utokyo-fellowship",
+    "catalog-utwente-scholarship",
+    "catalog-vanderbilt-cornelius",
+    "catalog-vanderbilt-ingram",
+    "catalog-yale-international-aid"
+  ],
+  "scholarshipAdditions": [
+    {
+      "slug": "2026-10-flinders-excellence-2027",
+      "title": "Flinders全球卓越獎：2027合格課程學費減30%",
+      "url": "https://globalednews.com/scholarships/items/2026-10-flinders-excellence-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-flinders-excellence-2027.md",
+      "sources": [
+        "https://www.flinders.edu.au/international/apply/scholarships/academic",
+        "https://www.flinders.edu.au/content/dam/documents/study/international/global-scholarships-tandc.pdf",
+        "https://www.studyu.org/en/university-flinders"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-21T05:08:05.547551+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New distinct named award; current academic page and full terms compared with independent StudyU analysis. Taiwan nationality/status exclusions and automatic application path checked."
+    },
+    {
+      "slug": "2026-10-flinders-global-2027",
+      "title": "Flinders全球獎學金：2027合格課程學費減25%",
+      "url": "https://globalednews.com/scholarships/items/2026-10-flinders-global-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-flinders-global-2027.md",
+      "sources": [
+        "https://www.flinders.edu.au/international/apply/scholarships/academic",
+        "https://www.flinders.edu.au/content/dam/documents/study/international/global-scholarships-tandc.pdf",
+        "https://www.studyu.org/en/university-flinders"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-21T05:08:05.547551+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New distinct named award; current academic page and full terms compared with independent StudyU analysis. Taiwan nationality/status exclusions and automatic application path checked."
+    },
+    {
+      "slug": "2026-10-flinders-kickstart-2027",
+      "title": "Flinders新生啟動獎：2027合格課程學費減20%",
+      "url": "https://globalednews.com/scholarships/items/2026-10-flinders-kickstart-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-flinders-kickstart-2027.md",
+      "sources": [
+        "https://www.flinders.edu.au/international/apply/scholarships/academic",
+        "https://www.flinders.edu.au/content/dam/documents/study/international/kickstart-scholarship-tandc.pdf",
+        "https://www.studyu.org/en/university-flinders"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-21T05:08:05.547551+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New distinct named award; current academic page and full terms compared with independent StudyU analysis. Taiwan nationality/status exclusions and automatic application path checked."
+    }
+  ],
+  "newsPublished": [],
+  "scholarshipChecks": [
+    {
+      "slug": "2026-10-flinders-excellence-2027",
+      "title": "Flinders全球卓越獎：2027合格課程學費減30%",
+      "url": "https://globalednews.com/scholarships/items/2026-10-flinders-excellence-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-flinders-excellence-2027.md",
+      "sources": [
+        "https://www.flinders.edu.au/international/apply/scholarships/academic",
+        "https://www.flinders.edu.au/content/dam/documents/study/international/global-scholarships-tandc.pdf",
+        "https://www.studyu.org/en/university-flinders"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-21T05:08:05.547551+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New distinct named award; current academic page and full terms compared with independent StudyU analysis. Taiwan nationality/status exclusions and automatic application path checked."
+    },
+    {
+      "slug": "2026-10-flinders-global-2027",
+      "title": "Flinders全球獎學金：2027合格課程學費減25%",
+      "url": "https://globalednews.com/scholarships/items/2026-10-flinders-global-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-flinders-global-2027.md",
+      "sources": [
+        "https://www.flinders.edu.au/international/apply/scholarships/academic",
+        "https://www.flinders.edu.au/content/dam/documents/study/international/global-scholarships-tandc.pdf",
+        "https://www.studyu.org/en/university-flinders"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-21T05:08:05.547551+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New distinct named award; current academic page and full terms compared with independent StudyU analysis. Taiwan nationality/status exclusions and automatic application path checked."
+    },
+    {
+      "slug": "2026-10-flinders-kickstart-2027",
+      "title": "Flinders新生啟動獎：2027合格課程學費減20%",
+      "url": "https://globalednews.com/scholarships/items/2026-10-flinders-kickstart-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-flinders-kickstart-2027.md",
+      "sources": [
+        "https://www.flinders.edu.au/international/apply/scholarships/academic",
+        "https://www.flinders.edu.au/content/dam/documents/study/international/kickstart-scholarship-tandc.pdf",
+        "https://www.studyu.org/en/university-flinders"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-21T05:08:05.547551+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New distinct named award; current academic page and full terms compared with independent StudyU analysis. Taiwan nationality/status exclusions and automatic application path checked."
+    }
+  ],
+  "peterImports": [],
+  "socialPosts": [],
+  "phaseCompleted": [
+    "PREFLIGHT",
+    "RESEARCH",
+    "PREPARE",
+    "BUILD"
+  ],
+  "gaps": [
+    "COMMIT_DEPLOY",
+    "PUBLISH",
+    "ACCEPTANCE",
+    "VERIFY"
+  ],
+  "manualActions": [],
+  "newsPrepared": [
+    {
+      "slug": "france-universities-billion-euro-appeal-2027",
+      "title": "法國80位高教代表發表宣言：要求2027追加10億歐元",
+      "url": "https://globalednews.com/news/france-universities-billion-euro-appeal-2027/",
+      "publishedPath": "src/pages/news/france-universities-billion-euro-appeal-2027.md",
+      "sources": [
+        {
+          "label": "France Universités | manifesto, 20 October 2026",
+          "url": "https://franceuniversites.fr/actualite/faisons-de-la-jeunesse-une-grande-cause-nationale/"
+        },
+        {
+          "label": "TF1 Info / AFP | independent reporting",
+          "url": "https://www.tf1info.fr/education/budget-2027-les-presidents-d-universites-demandent-un-effort-supplementaire-d-un-milliard-d-euros-2471038.html"
+        }
+      ],
+      "verifiedAt": "2026-10-21T05:08:05.547551+08:00"
+    },
+    {
+      "slug": "france-school-budget-2027-staffing-explainer",
+      "title": "法國2027學校預算解析：經費增加，教師員額仍擬淨減",
+      "url": "https://globalednews.com/news/france-school-budget-2027-staffing-explainer/",
+      "publishedPath": "src/pages/news/france-school-budget-2027-staffing-explainer.md",
+      "sources": [
+        {
+          "label": "French education ministry | draft budget, pages 4–7",
+          "url": "https://www.education.gouv.fr/sites/default/files/document/budget-2027-pour-l-cole-le-dossier-de-presse-521314.pdf"
+        },
+        {
+          "label": "Localtis | budget reporting",
+          "url": "https://www.banquedesterritoires.fr/leducation-nationale-preservee-par-le-projet-de-loi-de-finances-pour-2027"
+        }
+      ],
+      "verifiedAt": "2026-10-21T05:08:05.547551+08:00"
+    },
+    {
+      "slug": "france-student-residence-continuity-2026",
+      "title": "法國擬簡化國際學生居留程序：銜接畢業與續讀，仍須確認個案",
+      "url": "https://globalednews.com/news/france-student-residence-continuity-2026/",
+      "publishedPath": "src/pages/news/france-student-residence-continuity-2026.md",
+      "sources": [
+        {
+          "label": "French higher education ministry | 30 September 2026",
+          "url": "https://www.enseignementsup-recherche.gouv.fr/fr/laurent-nunez-et-philippe-baptiste-annoncent-de-nouvelles-mesures-pour-prevenir-les-ruptures-de-104317"
+        },
+        {
+          "label": "TSA | independent interview with an immigration lawyer",
+          "url": "https://www.tsa-algerie.com/titre-de-sejour-etudiant-pluriannuel-en-france-les-algeriens-sont-ils-concernes-me-megherbi-repond/"
+        }
+      ],
+      "verifiedAt": "2026-10-21T05:08:05.547551+08:00"
+    }
+  ],
+  "peterReview": {
+    "status": "fewer-new-posts",
+    "availableNewCount": 1,
+    "checkedAt": "2026-10-21T05:08:05.547551+08:00",
+    "sourceUrls": [
+      "https://www.facebook.com/permalink.php?story_fbid=pfbid0W2tnnXQphL7wtMfMMqu69qBcti4ACJJARs49Jg6dXGAoJnNDZ1ptUuosyggtMaC6l&id=61585164670358"
+    ],
+    "evidence": "docs/daily-checks/2026-10-21/peter-review.txt",
+    "finding": "One new Canadian SOP post qualified after UBC/Calgary cross-check; ebook is promotional, Common App previously imported. Original AI image not reused; licensed real campus photo substituted."
+  },
+  "peterPrepared": [
+    {
+      "slug": "canada-sop-study-plan-program-fit-2026",
+      "sourceId": "pfbid0W2tnnXQphL7wtMfMMqu69qBcti4ACJJARs49Jg6dXGAoJnNDZ1ptUuosyggtMaC6l",
+      "sourceUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid0W2tnnXQphL7wtMfMMqu69qBcti4ACJJARs49Jg6dXGAoJnNDZ1ptUuosyggtMaC6l&id=61585164670358",
+      "url": "https://globalednews.com/peter/canada-sop-study-plan-program-fit-2026/",
+      "verifiedAt": "2026-10-21T05:08:05.547551+08:00"
+    }
+  ],
+  "campusReport": {
+    "date": "2026-10-21",
+    "timezone": "Asia/Taipei",
+    "status": "three-public-leads-reviewed",
+    "verifiedAt": "2026-10-21T05:08:05.547551+08:00",
+    "reviewedSchools": [
+      {
+        "school": "國立政治大學",
+        "schoolSlug": "nccu",
+        "source": "https://oic.nccu.edu.tw/Post/16168",
+        "finding": "115學年第2學期短期進修補助11月10日17:00截止；限本校合格在學生，需交換錄取或研修學校入學許可。"
+      },
+      {
+        "school": "國立中興大學",
+        "schoolSlug": "nchu",
+        "source": "https://oia.nchu.edu.tw/",
+        "finding": "10月14日公告11月國際生一對一職涯諮詢；不是所有學生共用的獎學金。"
+      },
+      {
+        "school": "國立中央大學",
+        "schoolSlug": "ncu",
+        "source": "https://oia.ncu.edu.tw/",
+        "finding": "官方列交換、雙聯、短期與外部出國計畫入口；未據首頁推定個別計畫截止日。"
+      }
+    ],
+    "published": [],
+    "pendingConsent": [],
+    "outreachDrafts": [],
+    "gaps": [],
+    "note": "Public source leads only; no outreach sent."
+  },
+  "studyAbroadPrepared": {
+    "slug": "flinders-adelaide-2027-awards-course-check",
+    "title": "Flinders留學DIY：先核對課程，再比較20%、25%與30%獎助",
+    "url": "https://globalednews.com/study-abroad/flinders-adelaide-2027-awards-course-check/",
+    "sources": [
+      {
+        "label": "Flinders | current academic scholarships",
+        "url": "https://www.flinders.edu.au/international/apply/scholarships/academic"
+      },
+      {
+        "label": "StudyU | independent institution and course guide",
+        "url": "https://www.studyu.org/en/university-flinders"
+      }
+    ]
+  },
+  "sunmoonReview": {
+    "checkedAt": "2026-10-21T05:08:05.547551+08:00",
+    "source": "https://www.sunmoonnews.com.tw/",
+    "status": "reviewed-no-new-qualified-item",
+    "finding": "Homepage read; latest displayed news September18. No new independently supported education item selected."
+  },
+  "ltuReview": {
+    "checkedAt": "2026-10-21T05:08:05.547551+08:00",
+    "poolSize": 12,
+    "expectedVisibleIndices": [
+      5,
+      6,
+      7
+    ],
+    "pendingLiveVerification": true
+  },
+  "updatedAt": "2026-10-21T05:08:05.547551+08:00",
+  "preparedAt": "2026-10-21T05:08:44.827467+08:00",
+  "build": {
+    "status": "passed",
+    "verifiedAt": "2026-10-21T05:15:10.430826+08:00",
+    "runtime": "C:\\Users\\User\\AppData\\Local\\Temp\\globalednews-security-20261019",
+    "bilingualPairs": 765,
+    "photoPreviews": 1522,
+    "searchCanonicalUrls": 1516,
+    "evidence": "docs/daily-checks/2026-10-21"
+  }
+}
