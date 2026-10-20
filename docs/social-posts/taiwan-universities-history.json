@@ -537,6 +537,68 @@
           "mediaEvidence": "docs/daily-checks/2026-10-18/campus-linkedin-public.png"
         }
       ]
+    },
+    {
+      "date": "2026-10-19",
+      "topic": "2027 exchange: NCU NCHU NCCU school-specific rules",
+      "CTA": "免費加入會員",
+      "contentPath": "docs/social-posts/2026-10-19/taiwan-universities--exchange-2027-school-rules.json",
+      "status": "published",
+      "lateDelivery": true,
+      "publishedPosts": [
+        {
+          "campaign": "taiwan-universities",
+          "network": "threads",
+          "id": "Desx-dsASSt",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/Desx-dsASSt",
+          "articleUrl": "https://globalednews.com/taiwan-universities/",
+          "status": "PUBLISHED",
+          "publishedAt": "2026-10-20T10:39:48+08:00",
+          "lateDelivery": true,
+          "verifiedAt": "2026-10-20T10:47:01.146+08:00",
+          "visibility": "public",
+          "imageCount": 1,
+          "mediaStatus": "VERIFIED",
+          "mediaKind": "uploaded-photo",
+          "mediaEvidence": "docs/daily-checks/2026-10-19/threads-campus-public.png",
+          "mediaVerifiedAt": "2026-10-20T10:47:01.146+08:00"
+        },
+        {
+          "campaign": "taiwan-universities",
+          "network": "instagram",
+          "id": "DesyBeND141",
+          "publicUrl": "https://www.instagram.com/p/DesyBeND141/",
+          "articleUrl": "https://globalednews.com/taiwan-universities/",
+          "status": "PUBLISHED",
+          "publishedAt": "2026-10-20T10:40:13+08:00",
+          "lateDelivery": true,
+          "verifiedAt": "2026-10-20T10:47:01.146+08:00",
+          "visibility": "public",
+          "imageCount": 1,
+          "mediaStatus": "VERIFIED",
+          "mediaKind": "uploaded-photo",
+          "mediaEvidence": "docs/daily-checks/2026-10-19/instagram-campus-public.png",
+          "mediaVerifiedAt": "2026-10-20T10:47:01.146+08:00"
+        },
+        {
+          "campaign": "taiwan-universities",
+          "network": "linkedin",
+          "id": "7518139207232405504",
+          "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7518139207232405504/",
+          "articleUrl": "https://globalednews.com/taiwan-universities/",
+          "status": "PUBLISHED",
+          "publishedAt": "2026-10-20T10:41:03.632+08:00",
+          "lateDelivery": true,
+          "verifiedAt": "2026-10-20T10:47:01.146+08:00",
+          "visibility": "public",
+          "imageCount": 1,
+          "mediaStatus": "VERIFIED",
+          "mediaKind": "uploaded-photo",
+          "mediaEvidence": "docs/daily-checks/2026-10-19/linkedin-campus-public.png",
+          "mediaVerifiedAt": "2026-10-20T10:47:01.146+08:00",
+          "publishedAtBasis": "Observed publish action"
+        }
+      ]
     }
   ]
 }

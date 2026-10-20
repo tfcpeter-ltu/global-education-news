@@ -1,0 +1,61 @@
+{
+  "batchDate": "2026-10-19",
+  "verifiedAt": "2026-10-20T10:43:49.473+08:00",
+  "lateAcceptance": true,
+  "desktop": {
+    "width": 2100,
+    "height": 1116,
+    "search": "Lancaster + 英國 + 開放中",
+    "count": 4,
+    "zeroResult": true,
+    "clearCount": 203,
+    "loadMore": {
+      "before": 27,
+      "after": 51
+    },
+    "article": {
+      "url": "https://globalednews.com/news/france-lycee-teacher-replacement-consultation-october-2026/",
+      "photoLoaded": true,
+      "screenshot": "docs/daily-checks/2026-10-19/article-desktop.png"
+    }
+  },
+  "mobile": {
+    "width": 390,
+    "height": 843,
+    "documentWidth": 371,
+    "horizontalOverflow": false,
+    "search": "Lancaster + 英國 + 開放中",
+    "count": 4,
+    "screenshot": "docs/daily-checks/2026-10-19/scholarship-mobile-search.png",
+    "zeroResult": true,
+    "clearCount": 203,
+    "loadMore": {
+      "before": 27,
+      "after": 51
+    },
+    "article": {
+      "url": "https://globalednews.com/news/france-lycee-teacher-replacement-consultation-october-2026/",
+      "photoLoaded": true,
+      "horizontalOverflow": false,
+      "screenshot": "docs/daily-checks/2026-10-19/article-mobile.png"
+    }
+  },
+  "ltuCurrent": [
+    {
+      "index": 4,
+      "title": "不出國也能拿雙文憑！明道臺加雙聯學制開花結果 首屆學生錄取海外名校",
+      "presentation": "text media banner; no image element expected"
+    },
+    {
+      "index": 5,
+      "title": "布萊斯「OSSD暑期學校」帶領學子參與國際交流 體驗海外大學生活",
+      "presentation": "text media banner; no image element expected"
+    },
+    {
+      "index": 6,
+      "title": "僑泰高中雙語班傳捷報！5學子前進世界百大名校 打破校史紀錄",
+      "presentation": "text media banner; no image element expected"
+    }
+  ],
+  "ltuCurrentDate": "2026-10-20"
+}

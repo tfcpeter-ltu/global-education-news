@@ -1,0 +1,140 @@
+{
+  "verifiedAt": "2026-10-19T10:56:19.271148+08:00",
+  "pages": [
+    {
+      "url": "https://globalednews.com/news/france-lycee-teacher-replacement-consultation-october-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/france-lycee-teacher-replacement-consultation-october-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/161be325dc2fbc66eeafeb38.jpg",
+      "ogBytes": 182215,
+      "schemaCount": 4,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/news/uk-architecture-route-p-spring-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/uk-architecture-route-p-spring-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/3d80cb563d31effd7be63a24.jpg",
+      "ogBytes": 215948,
+      "schemaCount": 4,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/news/england-v-levels-2027-qualification-transition/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/england-v-levels-2027-qualification-transition/",
+      "ogImage": "https://globalednews.com/images/share-photos/fba7c973154a72ac78f2cfda.jpg",
+      "ogBytes": 186013,
+      "schemaCount": 4,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-10-lancaster-undergraduate-international-excellence-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-10-lancaster-undergraduate-international-excellence-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/9ec527a4efe1ba6d87b50db1.jpg",
+      "ogBytes": 187406,
+      "schemaCount": 2,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-10-lancaster-masters-excellence-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-10-lancaster-masters-excellence-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/0b2d44faf09cb09ba9039901.jpg",
+      "ogBytes": 181708,
+      "schemaCount": 2,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-10-lancaster-management-progression-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-10-lancaster-management-progression-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/f69ceb892a7e8dc3014b2d0e.jpg",
+      "ogBytes": 236348,
+      "schemaCount": 2,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/study-abroad/lancaster-uk-2027-admission-scholarship-planning/",
+      "status": 200,
+      "canonical": "https://globalednews.com/study-abroad/lancaster-uk-2027-admission-scholarship-planning/",
+      "ogImage": "https://globalednews.com/images/share-photos/d7d170f5748b8da5963e35c6.jpg",
+      "ogBytes": 89578,
+      "schemaCount": 4,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/en/news/france-lycee-teacher-replacement-consultation-october-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/france-lycee-teacher-replacement-consultation-october-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/161be325dc2fbc66eeafeb38.jpg",
+      "ogBytes": 182215,
+      "schemaCount": 4,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/news/uk-architecture-route-p-spring-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/uk-architecture-route-p-spring-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/3d80cb563d31effd7be63a24.jpg",
+      "ogBytes": 215948,
+      "schemaCount": 4,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/news/england-v-levels-2027-qualification-transition/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/england-v-levels-2027-qualification-transition/",
+      "ogImage": "https://globalednews.com/images/share-photos/fba7c973154a72ac78f2cfda.jpg",
+      "ogBytes": 186013,
+      "schemaCount": 4,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/scholarships/items/2026-10-lancaster-undergraduate-international-excellence-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/scholarships/items/2026-10-lancaster-undergraduate-international-excellence-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/9ec527a4efe1ba6d87b50db1.jpg",
+      "ogBytes": 187406,
+      "schemaCount": 2,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/scholarships/items/2026-10-lancaster-masters-excellence-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/scholarships/items/2026-10-lancaster-masters-excellence-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/0b2d44faf09cb09ba9039901.jpg",
+      "ogBytes": 181708,
+      "schemaCount": 2,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/scholarships/items/2026-10-lancaster-management-progression-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/scholarships/items/2026-10-lancaster-management-progression-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/f69ceb892a7e8dc3014b2d0e.jpg",
+      "ogBytes": 236348,
+      "schemaCount": 2,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/study-abroad/lancaster-uk-2027-admission-scholarship-planning/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/study-abroad/lancaster-uk-2027-admission-scholarship-planning/",
+      "ogImage": "https://globalednews.com/images/share-photos/d7d170f5748b8da5963e35c6.jpg",
+      "ogBytes": 89578,
+      "schemaCount": 4,
+      "englishCjk": false
+    }
+  ],
+  "xmlChecks": [
+    "sitemap-index.xml",
+    "sitemap-0.xml",
+    "news-sitemap.xml",
+    "weekly-feed.xml"
+  ],
+  "newPagesInSitemap": 7,
+  "newsInNewsSitemapAndRss": 3,
+  "robots": 200
+}

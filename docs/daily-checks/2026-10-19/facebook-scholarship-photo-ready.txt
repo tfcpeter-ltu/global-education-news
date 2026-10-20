@@ -1,0 +1,198 @@
+- heading "建立貼文" [level=1]
+- toolbar
+- heading "想要建立廣告貼文嗎？" [level=4]
+- button "關閉":
+  - generic: 關閉
+- generic: 廣告貼文只能在 Facebook 上建立。一旦你在「發佈到」區段中選擇你的 Facebook 粉絲專頁，「貼文詳細資料」中就會出現一個切換開關，可讓你將此設定為廣告貼文。
+- button "查看更多":
+  - generic: 查看更多
+- generic "發佈到":
+  - heading "發佈到" [level=3]
+  - generic: 發佈到
+  - 'combobox "發佈到 LTU OSSD #1加拿大 台加高中雙聯學制和ltuossdtw"':
+    - img "Instagram"
+    - img "Facebook"
+    - generic: "LTU OSSD #1加拿大 台加高中雙聯學制和ltuossdtw"
+- generic "影音素材":
+  - heading "影音素材" [level=3]
+  - generic: 分享相片和影片。Instagram 貼文不得超過 10 張相片。
+  - list:
+    - generic: 1200 x 630
+    - button "編輯相片":
+      - generic: 編輯相片
+    - button "編輯":
+      - generic: 編輯
+    - button "移除相片":
+      - generic: 移除相片
+  - button "新增相片 / 影片":
+    - generic: 新增相片 / 影片
+- generic "貼文詳細資料":
+  - heading "貼文詳細資料" [level=3]
+  - switch "為 Facebook 和 Instagram 自訂貼文" [checked] [active]
+  - generic: 為 Facebook 和 Instagram 自訂貼文
+  - tablist:
+    - tab "Facebook" [selected]:
+      - img "Facebook"
+      - generic: Facebook
+    - tab "Instagram":
+      - img "Instagram"
+      - generic: Instagram
+  - heading "Facebook 文字" [level=4]
+  - combobox "在對話方塊中寫點內容，即可為貼文加上文字。"
+  - button "點擊即可開啟主題標籤功能表。":
+    - generic: 點擊即可開啟主題標籤功能表。
+  - button "選擇表情符號":
+    - generic: 選擇表情符號
+  - button "感受／活動":
+  - button "地點":
+  - button "A／B 測試" [disabled]:
+  - button "連結預覽" [disabled]:
+  - button "標註品牌":
+- heading "按鈕" [level=3]
+- img "Facebook"
+- text: 僅限 Facebook
+- generic: 按鈕
+- combobox "按鈕 無按鈕":
+  - generic: 無按鈕
+- generic: 你可以在 Facebook 貼文中加入「傳送 WhatsApp 訊息」按鈕，讓顧客更容易與你聯絡。
+- link "新增按鈕":
+  - /url: "#"
+- button "關閉":
+  - generic: 關閉
+- heading "排程" [level=3]
+- generic: 設定日期和時間
+- switch "設定日期和時間"
+- heading "協作者" [level=3]
+- generic: 你最多可邀請 5 位協作者共享這則貼文的創作署名。對方會收到通知，並可接受或拒絕邀請。
+- generic: NOT_IN_USE
+- combobox "NOT_IN_USE"
+- heading "分享到" [level=3]
+- switch "分享到 Facebook 限時動態"
+- img "Facebook"
+- generic: "LTU OSSD #1加拿大 台加高中雙聯學制"
+- generic: Facebook 限時動態 ・ 公開
+- switch "分享到 Threads"
+- img "Threads"
+- generic: ltuossdtw
+- generic: Threads ・ 公開
+- generic "隱私設定":
+  - heading "隱私設定" [level=3]
+  - generic: 調整隱私設定，以控制能在動態消息、Watch、搜尋結果和你的個人檔案上看到你貼文的對象。
+  - grid:
+    - row "所有人 Facebook 的用戶或非用戶都可以看到你的貼文。":
+      - gridcell "所有人 Facebook 的用戶或非用戶都可以看到你的貼文。":
+        - radio "所有人 Facebook 的用戶或非用戶都可以看到你的貼文。" [checked]
+        - generic: 所有人
+        - generic: Facebook 的用戶或非用戶都可以看到你的貼文。
+    - row "特定對象 選擇可看到你貼文的特定 Facebook 用戶。":
+      - gridcell "特定對象 選擇可看到你貼文的特定 Facebook 用戶。":
+        - radio "特定對象 選擇可看到你貼文的特定 Facebook 用戶。"
+        - generic: 特定對象
+        - generic: 選擇可看到你貼文的特定 Facebook 用戶。
+- switch "加強推廣"
+- generic: 加強推廣
+- button "取消":
+  - generic: 取消
+- button "稍後再完成":
+  - generic: 稍後再完成
+- button "發佈":
+  - generic: 發佈
+- button "Facebook 動態消息預覽":
+  - generic: Facebook 動態消息預覽
+- button [pressed]:
+- button:
+- article:
+  - 'heading "LTU OSSD #1加拿大 台加高中雙聯學制" [level=2]'
+  - generic: 剛剛
+  - generic: ·
+  - generic: 讚
+  - generic: 留言
+  - generic: 分享
+- article
+- article
+- button "Meta AI 商家助理"
+- button "Meta Business Suite":
+  - generic: Meta Business Suite
+- button "Pressable":
+  - img "Instagram"
+  - img "Facebook"
+- navigation "連結":
+  - generic: 連結
+  - list:
+    - link "首頁":
+      - /url: https://business.facebook.com/latest/home?asset_id=101904929207004
+      - generic: 首頁
+    - generic: 首頁
+    - link "通知":
+      - generic: 通知
+    - generic: 通知
+    - link "廣告管理員":
+      - generic: 廣告管理員
+    - generic: 廣告管理員
+    - link "收件匣":
+      - /url: https://business.facebook.com/latest/inbox?asset_id=101904929207004
+      - generic: 收件匣
+    - generic: 收件匣
+    - link "潛在顧客中心":
+      - /url: https://business.facebook.com/latest/leads_center?asset_id=101904929207004
+      - generic: 潛在顧客中心
+    - generic: 潛在顧客中心
+    - link "內容":
+      - /url: https://business.facebook.com/latest/posts?asset_id=101904929207004
+      - generic: 內容
+    - generic: 內容
+    - link "創作者行銷":
+      - /url: https://business.facebook.com/creator_marketing_hub/overview/?asset_id=101904929207004
+      - generic: 創作者行銷
+    - generic: 創作者行銷
+    - link "規劃工具":
+      - /url: https://business.facebook.com/latest/content_calendar?asset_id=101904929207004
+      - generic: 規劃工具
+    - generic: 規劃工具
+    - link "廣告":
+      - /url: https://business.facebook.com/latest/ad_center/ads_summary?asset_id=101904929207004
+      - generic: 廣告
+    - generic: 廣告
+    - link "洞察報告":
+      - /url: https://business.facebook.com/latest/insights?asset_id=101904929207004
+      - generic: 洞察報告
+    - generic: 洞察報告
+    - link "營利":
+      - /url: https://business.facebook.com/latest/monetization?asset_id=101904929207004
+      - generic: 營利
+    - generic: 營利
+    - link "所有工具":
+      - generic: 所有工具
+    - generic: 所有工具
+    - separator
+    - link "帳單和付款":
+      - /url: https://business.facebook.com/billing_hub/payment_settings/?placement=bizapp_ad_center
+      - generic: 帳單和付款
+    - generic: 帳單和付款
+    - link "廣告受眾":
+      - /url: https://business.facebook.com/ads/manager/audiences/?nav_source=business_manager
+      - generic: 廣告受眾
+    - generic: 廣告受眾
+    - link "事件管理工具":
+      - /url: https://business.facebook.com/events_manager2/?nav_source=biz_nav
+      - generic: 事件管理工具
+    - generic: 事件管理工具
+    - button "編輯邊欄導覽":
+      - generic: 編輯
+- link "搜尋":
+  - generic: 搜尋
+- generic: 搜尋
+- navigation "連結":
+  - generic: 連結
+  - list:
+    - link "設定":
+      - /url: https://business.facebook.com/latest/settings/profiles
+      - generic: 設定
+    - generic: 設定
+- link "使用說明":
+  - generic: 使用說明
+- generic: 使用說明
+- button
+- img "Monica"
+- generic: Ctrl+M
+- text: 解釋

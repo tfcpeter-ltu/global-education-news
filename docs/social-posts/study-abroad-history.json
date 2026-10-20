@@ -946,6 +946,102 @@
           "method": "direct-browser"
         }
       ]
+    },
+    {
+      "date": "2026-10-19",
+      "country": "uk",
+      "schoolName": "Lancaster University",
+      "storyAngle": "2027 admission, scholarship and budget separation",
+      "CTA": "免費加入會員",
+      "contentPath": "docs/social-posts/2026-10-19/study-abroad--lancaster-2027-planning.json",
+      "status": "published",
+      "lateDelivery": true,
+      "publishedPosts": [
+        {
+          "campaign": "study-abroad",
+          "network": "facebook",
+          "id": "1093953410047523",
+          "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid04yJmf1tY6Tp1vRZbb6QCfDAdwRr2xbNkdWr73Fxy79CAztVkQZjqNmYSJxv2ixSbl",
+          "articleUrl": "https://globalednews.com/study-abroad/lancaster-uk-2027-admission-scholarship-planning/",
+          "status": "PUBLISHED",
+          "publishedAt": "2026-10-20T10:36:00+08:00",
+          "lateDelivery": true,
+          "verifiedAt": "2026-10-20T10:47:01.146+08:00",
+          "visibility": "public",
+          "imageCount": 1,
+          "mediaStatus": "VERIFIED",
+          "mediaKind": "uploaded-photo",
+          "mediaEvidence": "docs/daily-checks/2026-10-19/facebook-diy-public.png",
+          "mediaVerifiedAt": "2026-10-20T10:47:01.146+08:00",
+          "photoAttachedAt": "2026-10-20T10:36:34.123+08:00",
+          "photoReadyEvidence": "docs/daily-checks/2026-10-19/facebook-diy-photo-ready.png",
+          "copyAddedAt": "2026-10-20T10:36:34.291+08:00",
+          "publishAttemptAt": "2026-10-20T10:36:58.199+08:00",
+          "pageId": "101904929207004",
+          "publishedAtPrecision": "minute from Meta",
+          "publicPhotoScreenshot": "docs/daily-checks/2026-10-19/facebook-diy-public.png",
+          "photoAttachments": [
+            {
+              "id": "1093953013380896",
+              "url": "https://www.facebook.com/photo/?fbid=1093953013380896"
+            }
+          ],
+          "previewStatus": "VERIFIED",
+          "previewVerifiedAt": "2026-10-20T10:47:01.145+08:00"
+        },
+        {
+          "campaign": "study-abroad",
+          "network": "instagram",
+          "id": "DesxqKyj_ED",
+          "publicUrl": "https://www.instagram.com/p/DesxqKyj_ED/",
+          "articleUrl": "https://globalednews.com/study-abroad/lancaster-uk-2027-admission-scholarship-planning/",
+          "status": "PUBLISHED",
+          "publishedAt": "2026-10-20T10:37:04+08:00",
+          "lateDelivery": true,
+          "verifiedAt": "2026-10-20T10:47:01.146+08:00",
+          "visibility": "public",
+          "imageCount": 1,
+          "mediaStatus": "VERIFIED",
+          "mediaKind": "uploaded-photo",
+          "mediaEvidence": "docs/daily-checks/2026-10-19/instagram-diy-public.png",
+          "mediaVerifiedAt": "2026-10-20T10:47:01.146+08:00"
+        },
+        {
+          "campaign": "study-abroad",
+          "network": "threads",
+          "id": "DesxyjigaFz",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DesxyjigaFz",
+          "articleUrl": "https://globalednews.com/study-abroad/lancaster-uk-2027-admission-scholarship-planning/",
+          "status": "PUBLISHED",
+          "publishedAt": "2026-10-20T10:38:10+08:00",
+          "lateDelivery": true,
+          "verifiedAt": "2026-10-20T10:47:01.146+08:00",
+          "visibility": "public",
+          "imageCount": 1,
+          "mediaStatus": "VERIFIED",
+          "mediaKind": "uploaded-photo",
+          "mediaEvidence": "docs/daily-checks/2026-10-19/threads-diy-public.png",
+          "mediaVerifiedAt": "2026-10-20T10:47:01.146+08:00"
+        },
+        {
+          "campaign": "study-abroad",
+          "network": "linkedin",
+          "id": "7518138808987488256",
+          "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7518138808987488256/",
+          "articleUrl": "https://globalednews.com/study-abroad/lancaster-uk-2027-admission-scholarship-planning/",
+          "status": "PUBLISHED",
+          "publishedAt": "2026-10-20T10:39:28.427+08:00",
+          "lateDelivery": true,
+          "verifiedAt": "2026-10-20T10:47:01.146+08:00",
+          "visibility": "public",
+          "imageCount": 1,
+          "mediaStatus": "VERIFIED",
+          "mediaKind": "uploaded-photo",
+          "mediaEvidence": "docs/daily-checks/2026-10-19/linkedin-diy-public.png",
+          "mediaVerifiedAt": "2026-10-20T10:47:01.146+08:00",
+          "publishedAtBasis": "Observed publish action"
+        }
+      ]
     }
   ]
 }

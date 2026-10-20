@@ -44,6 +44,13 @@
       "CTA": "免費加入會員",
       "status": "published",
       "evidence": "docs/social-posts/2026-10-18/publication-log.json"
+    },
+    {
+      "date": "2026-10-19",
+      "CTA": "免費加入會員",
+      "status": "published",
+      "lateDelivery": true,
+      "evidence": "docs/social-posts/2026-10-19/publication-log.json"
     }
   ]
 }

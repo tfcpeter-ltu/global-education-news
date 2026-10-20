@@ -2,8 +2,8 @@
   "date": "2026-10-19",
   "timezone": "Asia/Taipei",
   "startedAt": "2026-10-19T05:05:54+08:00",
-  "status": "in-progress",
-  "currentPhase": "COMMIT_DEPLOY",
+  "status": "completed",
+  "currentPhase": "VERIFY",
   "baseCommit": "3769be2d5331d423fcb845368f5d69a475eef300",
   "scholarshipBaselineSlugs": [
     "2026-08-bristol-think-big",
@@ -204,7 +204,59 @@
     "catalog-vanderbilt-ingram",
     "catalog-yale-international-aid"
   ],
-  "newsPublished": [],
+  "newsPublished": [
+    {
+      "slug": "france-lycee-teacher-replacement-consultation-october-2026",
+      "title": "法國高中代課措施上路：人力調度仍須對上缺課科目",
+      "url": "https://globalednews.com/news/france-lycee-teacher-replacement-consultation-october-2026/",
+      "publishedPath": "src/pages/news/france-lycee-teacher-replacement-consultation-october-2026.md",
+      "sources": [
+        {
+          "label": "French Ministry of Education | measures and consultation",
+          "url": "https://www.education.gouv.fr/construire-des-solutions-avec-les-lyceens-506143"
+        },
+        {
+          "label": "Le Monde | independent reporting, 14 October 2026",
+          "url": "https://www.lemonde.fr/societe/article/2026/10/14/mouvement-lyceen-pourquoi-les-3-000-professeurs-remplacants-promis-par-edouard-geffray-ne-couvriront-pas-toutes-les-absences_6793784_3224.html"
+        }
+      ],
+      "verifiedAt": "2026-10-19T10:45:06.991177+08:00"
+    },
+    {
+      "slug": "uk-architecture-route-p-spring-2027",
+      "title": "英國建築師註冊擬增Route P：2027春季新路徑仍有資格要求",
+      "url": "https://globalednews.com/news/uk-architecture-route-p-spring-2027/",
+      "publishedPath": "src/pages/news/uk-architecture-route-p-spring-2027.md",
+      "sources": [
+        {
+          "label": "ARB | Route P implementation plan",
+          "url": "https://arb.org.uk/route-p-a-new-route-to-registration-from-spring-2027/"
+        },
+        {
+          "label": "RIBA | independent professional guidance on education changes",
+          "url": "https://www.riba.org/learn/become-an-architect/studying-architecture/changes-to-studying-architecture/"
+        }
+      ],
+      "verifiedAt": "2026-10-19T10:45:06.991177+08:00"
+    },
+    {
+      "slug": "england-v-levels-2027-qualification-transition",
+      "title": "英格蘭V Levels預計2027開課：選課須看過渡期與大學要求",
+      "url": "https://globalednews.com/news/england-v-levels-2027-qualification-transition/",
+      "publishedPath": "src/pages/news/england-v-levels-2027-qualification-transition.md",
+      "sources": [
+        {
+          "label": "Department for Education | post-16 implementation plan",
+          "url": "https://www.gov.uk/government/publications/post-16-pathways-implementation-plan/post-16-pathways-implementation-plan"
+        },
+        {
+          "label": "Pearson | qualification delivery and funding update",
+          "url": "https://www.pearson.com/en-gb/news-and-policy/news/2026/09/dfe-post_16-pathways--implementation-plan-update.html"
+        }
+      ],
+      "verifiedAt": "2026-10-19T10:45:06.991177+08:00"
+    }
+  ],
   "scholarshipChecks": [
     {
       "slug": "2026-10-lancaster-undergraduate-international-excellence-2027",
@@ -222,7 +274,8 @@
       "verifiedAt": "2026-10-19T10:45:06.991177+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New 2027 award; official terms and separate education adviser reporting checked. Taiwan applicants evaluated against nationality-neutral award rules, degree/fee status and exclusions; no automatic award promise."
+      "updateSummary": "New 2027 award; official terms and separate education adviser reporting checked. Taiwan applicants evaluated against nationality-neutral award rules, degree/fee status and exclusions; no automatic award promise.",
+      "publishedVerifiedAt": "2026-10-19T10:59:04.634988+08:00"
     },
     {
       "slug": "2026-10-lancaster-masters-excellence-2027",
@@ -240,7 +293,8 @@
       "verifiedAt": "2026-10-19T10:45:06.991177+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New 2027 award; official terms and separate education adviser reporting checked. Taiwan applicants evaluated against nationality-neutral award rules, degree/fee status and exclusions; no automatic award promise."
+      "updateSummary": "New 2027 award; official terms and separate education adviser reporting checked. Taiwan applicants evaluated against nationality-neutral award rules, degree/fee status and exclusions; no automatic award promise.",
+      "publishedVerifiedAt": "2026-10-19T10:59:04.634988+08:00"
     },
     {
       "slug": "2026-10-lancaster-management-progression-2027",
@@ -258,7 +312,8 @@
       "verifiedAt": "2026-10-19T10:45:06.991177+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New 2027 award; official terms and separate education adviser reporting checked. Taiwan applicants evaluated against nationality-neutral award rules, degree/fee status and exclusions; no automatic award promise."
+      "updateSummary": "New 2027 award; official terms and separate education adviser reporting checked. Taiwan applicants evaluated against nationality-neutral award rules, degree/fee status and exclusions; no automatic award promise.",
+      "publishedVerifiedAt": "2026-10-19T10:59:04.634988+08:00"
     }
   ],
   "scholarshipAdditions": [
@@ -278,7 +333,8 @@
       "verifiedAt": "2026-10-19T10:45:06.991177+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New 2027 award; official terms and separate education adviser reporting checked. Taiwan applicants evaluated against nationality-neutral award rules, degree/fee status and exclusions; no automatic award promise."
+      "updateSummary": "New 2027 award; official terms and separate education adviser reporting checked. Taiwan applicants evaluated against nationality-neutral award rules, degree/fee status and exclusions; no automatic award promise.",
+      "publishedVerifiedAt": "2026-10-19T10:59:04.634988+08:00"
     },
     {
       "slug": "2026-10-lancaster-masters-excellence-2027",
@@ -296,7 +352,8 @@
       "verifiedAt": "2026-10-19T10:45:06.991177+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New 2027 award; official terms and separate education adviser reporting checked. Taiwan applicants evaluated against nationality-neutral award rules, degree/fee status and exclusions; no automatic award promise."
+      "updateSummary": "New 2027 award; official terms and separate education adviser reporting checked. Taiwan applicants evaluated against nationality-neutral award rules, degree/fee status and exclusions; no automatic award promise.",
+      "publishedVerifiedAt": "2026-10-19T10:59:04.634988+08:00"
     },
     {
       "slug": "2026-10-lancaster-management-progression-2027",
@@ -314,20 +371,318 @@
       "verifiedAt": "2026-10-19T10:45:06.991177+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New 2027 award; official terms and separate education adviser reporting checked. Taiwan applicants evaluated against nationality-neutral award rules, degree/fee status and exclusions; no automatic award promise."
+      "updateSummary": "New 2027 award; official terms and separate education adviser reporting checked. Taiwan applicants evaluated against nationality-neutral award rules, degree/fee status and exclusions; no automatic award promise.",
+      "publishedVerifiedAt": "2026-10-19T10:59:04.634988+08:00"
     }
   ],
   "peterImports": [],
-  "socialPosts": [],
-  "gaps": [
-    "BUILD",
-    "COMMIT_DEPLOY",
-    "PUBLISH",
-    "ACCEPTANCE",
-    "VERIFY"
+  "socialPosts": [
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "photoAttachedAt": "2026-10-19T10:59:17.649+08:00",
+      "photoReadyEvidence": "docs/daily-checks/2026-10-19/facebook-news-photo-ready.png",
+      "copyAddedAt": "2026-10-19T10:59:22.910+08:00",
+      "publishAttemptAt": "2026-10-19T10:59:29.856+08:00",
+      "id": "1093019363474261",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0ZzZXxGLfNn21ezwpt2BH16Y7Gk17LMJ4ipA63KzTFP8Fcn2bzECCFAUTDwh9CjwYl",
+      "pageId": "101904929207004",
+      "articleUrl": "https://globalednews.com/news/france-lycee-teacher-replacement-consultation-october-2026/",
+      "status": "PUBLISHED",
+      "publishedAt": "2026-10-19T10:59:00+08:00",
+      "publishedAtPrecision": "minute from Meta",
+      "verifiedAt": "2026-10-19T11:02:24.388+08:00",
+      "visibility": "public",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaEvidence": "docs/daily-checks/2026-10-19/facebook-news-public.png",
+      "publicPhotoScreenshot": "docs/daily-checks/2026-10-19/facebook-news-public.png",
+      "photoAttachments": [
+        {
+          "id": "1093019053474292",
+          "url": "https://www.facebook.com/photo/?fbid=1093019053474292"
+        }
+      ],
+      "mediaVerifiedAt": "2026-10-19T11:02:24.388+08:00",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-19T11:02:24.388+08:00"
+    },
+    {
+      "campaign": "news",
+      "network": "threads",
+      "id": "DeqPl7hAXx6",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DeqPl7hAXx6",
+      "articleUrl": "https://globalednews.com/news/france-lycee-teacher-replacement-consultation-october-2026/",
+      "status": "PUBLISHED",
+      "publishedAt": "2026-10-19T11:00:52+08:00",
+      "verifiedAt": "2026-10-19T11:02:34.461+08:00",
+      "visibility": "public",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaEvidence": "docs/daily-checks/2026-10-19/threads-news-public.png",
+      "mediaVerifiedAt": "2026-10-19T11:02:34.461+08:00"
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "id": "7517782500782563328",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7517782500782563328/",
+      "articleUrl": "https://globalednews.com/news/france-lycee-teacher-replacement-consultation-october-2026/",
+      "status": "PUBLISHED",
+      "publishedAt": "2026-10-19T11:05:10.467+08:00",
+      "publishedAtBasis": "Publication observed this session; exact platform time not exposed",
+      "verifiedAt": "2026-10-19T11:05:10.467+08:00",
+      "visibility": "public",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaEvidence": "docs/daily-checks/2026-10-19/linkedin-news-public.png",
+      "mediaVerifiedAt": "2026-10-19T11:05:10.467+08:00"
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "id": "DeqQDvbgRCT",
+      "platformId": "18108915152216355",
+      "publicUrl": "https://www.instagram.com/p/DeqQDvbgRCT/",
+      "articleUrl": "https://globalednews.com/news/france-lycee-teacher-replacement-consultation-october-2026/",
+      "status": "PUBLISHED",
+      "publishedAt": "2026-10-19T11:04:57+08:00",
+      "verifiedAt": "2026-10-20T10:33:13.365+08:00",
+      "visibility": "public",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "note": "Public photo screenshot recovered October 20; original October 19 post preserved.",
+      "mediaKind": "uploaded-photo",
+      "mediaEvidence": "docs/daily-checks/2026-10-19/instagram-news-public.png",
+      "mediaVerifiedAt": "2026-10-20T10:33:13.364+08:00"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "id": "DeqQJuugRP3",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DeqQJuugRP3",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-lancaster-undergraduate-international-excellence-2027/",
+      "status": "PUBLISHED",
+      "publishedAt": "2026-10-19T11:05:46+08:00",
+      "lateDelivery": false,
+      "verifiedAt": "2026-10-20T10:47:01.146+08:00",
+      "visibility": "public",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaEvidence": "docs/daily-checks/2026-10-19/threads-scholarship-public.png",
+      "mediaVerifiedAt": "2026-10-20T10:47:01.146+08:00"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "id": "DeqQVxhAejZ",
+      "publicUrl": "https://www.instagram.com/p/DeqQVxhAejZ/",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-lancaster-undergraduate-international-excellence-2027/",
+      "status": "PUBLISHED",
+      "publishedAt": "2026-10-19T11:07:25+08:00",
+      "lateDelivery": false,
+      "verifiedAt": "2026-10-20T10:47:01.146+08:00",
+      "visibility": "public",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaEvidence": "docs/daily-checks/2026-10-19/instagram-scholarship-public.png",
+      "mediaVerifiedAt": "2026-10-20T10:47:01.146+08:00"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "id": "1093024133473784",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0LPdRSfQxWsZRNKZsTiMUY4PpgEuQmsJi1EvijTGD5d7bWH9JSRdu9g8tMxxR6jfhl",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-lancaster-undergraduate-international-excellence-2027/",
+      "status": "PUBLISHED",
+      "publishedAt": "2026-10-19T11:07:00+08:00",
+      "lateDelivery": false,
+      "verifiedAt": "2026-10-20T10:47:01.146+08:00",
+      "visibility": "public",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaEvidence": "docs/daily-checks/2026-10-19/facebook-scholarship-public.png",
+      "mediaVerifiedAt": "2026-10-20T10:47:01.146+08:00",
+      "photoAttachedAt": "2026-10-19T11:06:32.430+08:00",
+      "photoReadyEvidence": "docs/daily-checks/2026-10-19/facebook-scholarship-photo-ready.txt",
+      "copyAddedAt": "2026-10-19T11:06:32.547+08:00",
+      "publishAttemptAt": "2026-10-19T11:07:22.614+08:00",
+      "pageId": "101904929207004",
+      "publishedAtPrecision": "minute from Meta",
+      "publicPhotoScreenshot": "docs/daily-checks/2026-10-19/facebook-scholarship-public.png",
+      "photoAttachments": [
+        {
+          "id": "1093023070140557",
+          "url": "https://www.facebook.com/photo/?fbid=1093023070140557"
+        }
+      ],
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-20T10:47:01.145+08:00"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "id": "7518138184740941824",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7518138184740941824/",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-lancaster-undergraduate-international-excellence-2027/",
+      "status": "PUBLISHED",
+      "publishedAt": "2026-10-20T10:36:58.983+08:00",
+      "lateDelivery": true,
+      "verifiedAt": "2026-10-20T10:47:01.146+08:00",
+      "visibility": "public",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaEvidence": "docs/daily-checks/2026-10-19/linkedin-scholarship-public.png",
+      "mediaVerifiedAt": "2026-10-20T10:47:01.146+08:00",
+      "publishedAtBasis": "Observed publish action; platform showed just now"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "id": "1093953410047523",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid04yJmf1tY6Tp1vRZbb6QCfDAdwRr2xbNkdWr73Fxy79CAztVkQZjqNmYSJxv2ixSbl",
+      "articleUrl": "https://globalednews.com/study-abroad/lancaster-uk-2027-admission-scholarship-planning/",
+      "status": "PUBLISHED",
+      "publishedAt": "2026-10-20T10:36:00+08:00",
+      "lateDelivery": true,
+      "verifiedAt": "2026-10-20T10:47:01.146+08:00",
+      "visibility": "public",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaEvidence": "docs/daily-checks/2026-10-19/facebook-diy-public.png",
+      "mediaVerifiedAt": "2026-10-20T10:47:01.146+08:00",
+      "photoAttachedAt": "2026-10-20T10:36:34.123+08:00",
+      "photoReadyEvidence": "docs/daily-checks/2026-10-19/facebook-diy-photo-ready.png",
+      "copyAddedAt": "2026-10-20T10:36:34.291+08:00",
+      "publishAttemptAt": "2026-10-20T10:36:58.199+08:00",
+      "pageId": "101904929207004",
+      "publishedAtPrecision": "minute from Meta",
+      "publicPhotoScreenshot": "docs/daily-checks/2026-10-19/facebook-diy-public.png",
+      "photoAttachments": [
+        {
+          "id": "1093953013380896",
+          "url": "https://www.facebook.com/photo/?fbid=1093953013380896"
+        }
+      ],
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-20T10:47:01.145+08:00"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "id": "DesxqKyj_ED",
+      "publicUrl": "https://www.instagram.com/p/DesxqKyj_ED/",
+      "articleUrl": "https://globalednews.com/study-abroad/lancaster-uk-2027-admission-scholarship-planning/",
+      "status": "PUBLISHED",
+      "publishedAt": "2026-10-20T10:37:04+08:00",
+      "lateDelivery": true,
+      "verifiedAt": "2026-10-20T10:47:01.146+08:00",
+      "visibility": "public",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaEvidence": "docs/daily-checks/2026-10-19/instagram-diy-public.png",
+      "mediaVerifiedAt": "2026-10-20T10:47:01.146+08:00"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "id": "DesxyjigaFz",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DesxyjigaFz",
+      "articleUrl": "https://globalednews.com/study-abroad/lancaster-uk-2027-admission-scholarship-planning/",
+      "status": "PUBLISHED",
+      "publishedAt": "2026-10-20T10:38:10+08:00",
+      "lateDelivery": true,
+      "verifiedAt": "2026-10-20T10:47:01.146+08:00",
+      "visibility": "public",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaEvidence": "docs/daily-checks/2026-10-19/threads-diy-public.png",
+      "mediaVerifiedAt": "2026-10-20T10:47:01.146+08:00"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "id": "7518138808987488256",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7518138808987488256/",
+      "articleUrl": "https://globalednews.com/study-abroad/lancaster-uk-2027-admission-scholarship-planning/",
+      "status": "PUBLISHED",
+      "publishedAt": "2026-10-20T10:39:28.427+08:00",
+      "lateDelivery": true,
+      "verifiedAt": "2026-10-20T10:47:01.146+08:00",
+      "visibility": "public",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaEvidence": "docs/daily-checks/2026-10-19/linkedin-diy-public.png",
+      "mediaVerifiedAt": "2026-10-20T10:47:01.146+08:00",
+      "publishedAtBasis": "Observed publish action"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "id": "Desx-dsASSt",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Desx-dsASSt",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "status": "PUBLISHED",
+      "publishedAt": "2026-10-20T10:39:48+08:00",
+      "lateDelivery": true,
+      "verifiedAt": "2026-10-20T10:47:01.146+08:00",
+      "visibility": "public",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaEvidence": "docs/daily-checks/2026-10-19/threads-campus-public.png",
+      "mediaVerifiedAt": "2026-10-20T10:47:01.146+08:00"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "id": "DesyBeND141",
+      "publicUrl": "https://www.instagram.com/p/DesyBeND141/",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "status": "PUBLISHED",
+      "publishedAt": "2026-10-20T10:40:13+08:00",
+      "lateDelivery": true,
+      "verifiedAt": "2026-10-20T10:47:01.146+08:00",
+      "visibility": "public",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaEvidence": "docs/daily-checks/2026-10-19/instagram-campus-public.png",
+      "mediaVerifiedAt": "2026-10-20T10:47:01.146+08:00"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "id": "7518139207232405504",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7518139207232405504/",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "status": "PUBLISHED",
+      "publishedAt": "2026-10-20T10:41:03.632+08:00",
+      "lateDelivery": true,
+      "verifiedAt": "2026-10-20T10:47:01.146+08:00",
+      "visibility": "public",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaEvidence": "docs/daily-checks/2026-10-19/linkedin-campus-public.png",
+      "mediaVerifiedAt": "2026-10-20T10:47:01.146+08:00",
+      "publishedAtBasis": "Observed publish action"
+    }
   ],
+  "gaps": [],
   "manualActions": [],
-  "updatedAt": "2026-10-19T10:53:14.546858+08:00",
+  "updatedAt": "2026-10-20T10:48:46.864+08:00",
   "interruption": {
     "sourceThreadId": "01a150d4-3efa-7702-967a-d91deb16722e",
     "status": "systemError",
@@ -335,7 +690,8 @@
     "error": "Selected model is at capacity. Please try a different model.",
     "observedAt": "2026-10-19T08:01:25+08:00",
     "persistentNow": null,
-    "note": "05:00 batch failed during RESEARCH. Current capacity availability was not tested; do not claim the error is still occurring."
+    "note": "05:00 batch failed during RESEARCH. Current capacity availability was not tested; do not claim the error is still occurring.",
+    "resolvedAt": "2026-10-20T10:47:41.331+08:00"
   },
   "reporting0800": {
     "checkedAt": "2026-10-19T08:01:25+08:00",
@@ -353,12 +709,15 @@
     "pending": "Resume same-day RESEARCH in an authorized full-maintenance execution; no duplicate automation created."
   },
   "verification": {
-    "status": "NOT_RUN",
-    "reason": "Safety termination during research; no completion claimed"
+    "status": "COMPLETE",
+    "exitCode": 0,
+    "verifiedAt": "2026-10-20T10:47:41.331+08:00",
+    "command": "node scripts/verify-daily-delivery.mjs 2026-10-19",
+    "evidence": "docs/daily-checks/2026-10-19/verification-complete.txt"
   },
   "resumedAt": "2026-10-19T10:30:14.7744058+08:00",
   "resumeAuthorization": "User explicitly requested 繼續完成; continue all missing stages of the same daily batch.",
-  "completedAt": null,
+  "completedAt": "2026-10-20T10:47:41.331+08:00",
   "blockers": [],
   "peterReview": {
     "status": "fewer-new-posts",
@@ -411,11 +770,16 @@
     ],
     "ltuStatus": "UNVERIFIED: observed fallback group; investigate after browser recovery",
     "latestArticleDate": "2026-10-18",
-    "screenshotStatus": "TIMEOUT"
+    "screenshotStatus": "TIMEOUT",
+    "historical": true,
+    "supersededBy": "docs/daily-reports/2026-10-19-live-ui.json"
   },
   "deployment": {
-    "status": "NOT_STARTED",
-    "reason": "No approved content batch or build"
+    "commit": "7b316cc1201e54e8dae8c503b3e7f84b95025ff3",
+    "runId": 39192094054,
+    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/39192094054",
+    "status": "success",
+    "verifiedAt": "2026-10-19T10:59:04.634988+08:00"
   },
   "newsPrepared": [
     {
@@ -497,7 +861,11 @@
     "PREFLIGHT",
     "RESEARCH",
     "PREPARE",
-    "BUILD"
+    "BUILD",
+    "COMMIT_DEPLOY",
+    "PUBLISH",
+    "ACCEPTANCE",
+    "VERIFY"
   ],
   "campusReport": {
     "date": "2026-10-19",
@@ -545,7 +913,18 @@
       4,
       5
     ],
-    "pendingLiveVerification": true
+    "pendingLiveVerification": false,
+    "resumeCheck": {
+      "checkedAt": "2026-10-20T10:45:23.596+08:00",
+      "date": "2026-10-20",
+      "visibleIndices": [
+        4,
+        5,
+        6
+      ],
+      "evidence": "docs/daily-reports/2026-10-19-live-ui.json",
+      "note": "Current date rotation 4/5/6; not presented as October 19 observation."
+    }
   },
   "build": {
     "status": "success",
@@ -558,5 +937,56 @@
     "runtimeLocation": "C:\\Users\\User\\AppData\\Local\\Temp\\globalednews-20261019-runtime",
     "newEnglishMainContainsChinese": false
   },
-  "precommitMainSha": "3769be2d5331d423fcb845368f5d69a475eef300"
+  "precommitMainSha": "3769be2d5331d423fcb845368f5d69a475eef300",
+  "acceptance": {
+    "seo": true,
+    "images": true,
+    "desktop": true,
+    "mobile": true,
+    "seoEvidence": "docs/daily-reports/2026-10-19-live-seo.json",
+    "searchFilters": true,
+    "verifiedAt": "2026-10-20T10:45:23.596+08:00",
+    "uiEvidence": "docs/daily-reports/2026-10-19-live-ui.json",
+    "lateAcceptance": true,
+    "seoVerifiedAt": "2026-10-20T10:45:46.753920+08:00"
+  },
+  "newFacebookPagePost": {
+    "campaign": "news",
+    "network": "facebook",
+    "id": "122109856725505473",
+    "publicUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid02QxMRthzVT2vG7A8wwbiGFuRECzrxGZx5gZuZ6yP2cuGbr4ykvg2EsxPtM8gKZcMnl&id=61595164194381",
+    "articleUrl": "https://globalednews.com/news/france-lycee-teacher-replacement-consultation-october-2026/",
+    "status": "PUBLISHED",
+    "publishedAt": "2026-10-20T10:42:00+08:00",
+    "lateDelivery": true,
+    "verifiedAt": "2026-10-20T10:44:38.505+08:00",
+    "visibility": "public",
+    "imageCount": 1,
+    "mediaStatus": "VERIFIED",
+    "mediaKind": "uploaded-photo",
+    "mediaEvidence": "docs/daily-checks/2026-10-19/newpage-public.png",
+    "mediaVerifiedAt": "2026-10-20T10:44:38.505+08:00",
+    "photoAttachedAt": "2026-10-20T10:42:15.979+08:00",
+    "photoReadyEvidence": "docs/daily-checks/2026-10-19/newpage-photo-ready.png",
+    "copyAddedAt": "2026-10-20T10:42:16.161+08:00",
+    "publishAttemptAt": "2026-10-20T10:42:29.716+08:00",
+    "pageId": "61595164194381",
+    "publishedAtPrecision": "minute from Meta",
+    "photoAttachments": [
+      {
+        "id": "122109856473505473",
+        "url": "https://www.facebook.com/photo/?fbid=122109856473505473"
+      }
+    ],
+    "publicPhotoScreenshot": "docs/daily-checks/2026-10-19/newpage-public.png",
+    "previewStatus": "VERIFIED",
+    "previewVerifiedAt": "2026-10-20T10:44:38.505+08:00"
+  },
+  "lateDelivery": true,
+  "onTime": false,
+  "resume": {
+    "date": "2026-10-20",
+    "baseMain": "7b1e6f0cbc9f6f8b49101cc31111ac2903fb5830",
+    "reason": "Previous browser media call stalled across date boundary. Recovered 7 existing posts and completed 9 missing posts. October 20 completed batch unchanged."
+  }
 }

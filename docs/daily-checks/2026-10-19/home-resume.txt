@@ -1,0 +1,496 @@
+- navigation "Language":
+  - link "繁體中文":
+    - /url: https://globalednews.com/
+  - link "English":
+    - /url: https://globalednews.com/en/
+- banner:
+  - generic: 環球教育新聞網 · TAIWAN EDITION · EST. 2026
+  - generic: INTERNATIONAL EDUCATION · UNIVERSITIES · POLICY · GLOBAL MOBILITY
+  - text: International Education
+  - text: Journalism & Analysis
+  - link "Global Education News 環球教育新聞網 首頁":
+    - /url: /
+    - generic: Global Education News
+    - generic: 環球教育新聞網
+    - text: 國內外國際教育新聞・大學科系選擇與申請・獎學金雷達
+    - text: 深度探討文章-Peter 的國際教育講座
+    - generic: EDUCATION NEWS · UNIVERSITIES & ADMISSIONS · SCHOLARSHIPS · PETER’S INSIGHTS
+  - text: Taiwan · Asia
+  - text: Global Perspective
+  - navigation "主要導覽":
+    - link "首頁 Home":
+      - /url: /
+      - generic: 首頁
+      - generic: Home
+    - link "最新新聞 Latest News":
+      - /url: /news/
+      - generic: 最新新聞
+      - generic: Latest News
+    - link "台灣校園國際新聞 Taiwan Campus News":
+      - /url: /topics/taiwan/
+      - generic: 台灣校園國際新聞
+      - generic: Taiwan Campus News
+    - generic "海外教育 Global Education":
+      - generic: 海外教育 ▾
+      - generic: Global Education
+    - link "國內大學選校選系 University Explorer":
+      - /url: /taiwan-universities/
+      - generic: 國內大學選校選系
+      - generic: University Explorer
+    - link "留學DIY導航 Study Abroad Navigator":
+      - /url: /study-abroad/
+      - generic: 留學DIY導航
+      - generic: Study Abroad Navigator
+    - link "台灣國際獎學金雷達 Scholarship Radar":
+      - /url: /scholarships/
+      - generic: 台灣國際獎學金雷達
+      - generic: Scholarship Radar
+    - link "Peter的國際教育講座 Peter’s Education Talk":
+      - /url: /peter/
+      - generic: Peter的國際教育講座
+      - generic: Peter’s Education Talk
+    - link "免費電子報 Free Newsletter":
+      - /url: /newsletter/
+      - generic: 免費電子報
+      - generic: Free Newsletter
+    - link "教育情報 GEI Education Intelligence":
+      - /url: /intelligence/
+      - generic: 教育情報 GEI
+      - generic: Education Intelligence
+- main:
+  - complementary "廣告":
+    - button "關閉廣告": ×
+    - generic: ADVERTISEMENT · 廣告
+    - link "前往 UWE Bristol 台灣官方資訊網站":
+      - /url: https://www.uwetw.com/
+      - img "Bristol Clifton Suspension Bridge 實景與 UWE Bristol 實作導向、職涯接軌招生廣告"
+    - strong: UWE Bristol｜把課堂連上真實職涯
+    - paragraph: 實作學習、產業連結與現代化設施，在英國創意城市 Bristol 展開國際未來。
+    - link "探索 UWE Bristol ↗":
+      - /url: https://www.uwetw.com/
+  - link "法國留學費用解析：非歐盟學費與減免，必須分開確認":
+    - /url: /news/france-non-eu-tuition-2026-27-explainer
+    - img "巴黎Sorbonne沿街校舍資料照，不代表本文列出的費率適用於所有校內課程"
+    - generic: TOP STORY
+  - generic: TOP STORY · 法國留學解析
+  - heading "法國留學費用解析：非歐盟學費與減免，必須分開確認" [level=1]:
+    - link "法國留學費用解析：非歐盟學費與減免，必須分開確認":
+      - /url: /news/france-non-eu-tuition-2026-27-explainer
+  - paragraph: 2026／27學年差別學費：學士每年2,902歐元、碩士3,950歐元；學校減免與個人身分會影響實付金額。
+  - generic: LTU Global Education News 編輯部
+  - generic: 2026/10/20
+  - generic: LATEST · GLOBAL
+  - article:
+    - link "巴黎Sorbonne庭院資料照，非本次抗議現場":
+      - /url: /news/france-parcoursup-2026-results-transparency
+      - img "巴黎Sorbonne庭院資料照，非本次抗議現場"
+    - heading "法國Parcoursup公布2026結果：收到錄取建議，不等於已入學" [level=2]:
+      - link "法國Parcoursup公布2026結果：收到錄取建議，不等於已入學":
+        - /url: /news/france-parcoursup-2026-results-transparency
+    - paragraph: 法國10月19日公布104.6萬人申請的年度結果；91.5%是高中申請人收到至少一項錄取建議的比例，不能當成所有人的入學率。
+  - article:
+    - link "巴黎Louis-le-Grand高中校舍資料照，非甄試考場或教師缺額證據":
+      - /url: /news/france-teacher-exams-2027-registration-transition
+      - img "巴黎Louis-le-Grand高中校舍資料照，非甄試考場或教師缺額證據"
+    - heading "法國2027教師甄試報名中：學士與碩士管道並行，資格不能混用" [level=2]:
+      - link "法國2027教師甄試報名中：學士與碩士管道並行，資格不能混用":
+        - /url: /news/france-teacher-exams-2027-registration-transition
+    - paragraph: 教師甄試至11月25日巴黎中午截止；部分考試並行bac+3與bac+5管道，報名成功不代表資格審查完成。
+  - complementary "廣告":
+    - generic: ADVERTISEMENT · 廣告
+    - link "前往 Cambridge and Enjoy ABC 官方網站":
+      - /url: https://zh.enjoy-abc.online/cambridge
+      - img "Cambridge and Enjoy ABC 企業英語課程形象"
+      - img "Cambridge"
+      - generic: ×
+      - img "Enjoy ABC"
+      - generic: CAMBRIDGE AND ENJOY ABC
+      - strong: 盡情享受英文
+      - generic: 企業英語培訓｜全英語環境｜彈性線上學習
+      - generic: 探索 Cambridge 課程 ↗
+  - heading "更多國際教育新聞" [level=2]
+  - article:
+    - generic: 法國中學教育
+    - heading "法國高中代課措施上路：人力調度仍須對上缺課科目" [level=3]:
+      - link "法國高中代課措施上路：人力調度仍須對上缺課科目":
+        - /url: /news/france-lycee-teacher-replacement-consultation-october-2026
+    - paragraph: 法國教育部公布代課與增聘措施，高中生意見徵詢至10月23日；獨立報導提醒人數不等於每堂課都有合格代課。
+  - article:
+    - generic: 英國高中教育
+    - heading "英格蘭V Levels預計2027開課：選課須看過渡期與大學要求" [level=3]:
+      - link "英格蘭V Levels預計2027開課：選課須看過渡期與大學要求":
+        - /url: /news/england-v-levels-2027-qualification-transition
+    - paragraph: 首批職業導向資格與現行課程並行過渡；Pearson確認部分BTEC延續資助，不宜解讀成2027全面停辦BTEC。
+  - complementary "廣告：Royal Crown School 加拿大皇冠高中":
+    - generic: ADVERTISEMENT · 廣告
+    - link "前往 Royal Crown School 加拿大皇冠高中台灣資訊網站":
+      - /url: https://www.ossdtw.com/
+      - generic: 加拿大多倫多・安大略省高中
+      - strong: ROYAL CROWN SCHOOL
+      - generic: OSSD 國際升學・個人化支持
+      - generic: 現代校園｜小班教學｜銜接全球大學
+      - generic: 探索加拿大升學 ↗
+  - region "台灣國際獎學金雷達":
+    - generic: TAIWAN GLOBAL SCHOLARSHIP RADAR
+    - heading "台灣國際獎學金雷達" [level=2]
+    - paragraph: 203+ 全球獎學金資料庫｜每日查核，最多新增 3 則
+    - paragraph: 從台灣學生角度整理台灣政府、各國政府、國際大學、基金會與競賽型獎助機會，先確認台灣學生是否可申請，再整理補助內容、資格與截止日期。
+    - link "立即查看獎學金":
+      - /url: /scholarships/
+    - link "台灣政府計畫":
+      - /url: /scholarships/#taiwan-programs
+    - link "今日精選":
+      - /url: /scholarships/#today-picks
+    - link "前往台灣國際獎學金雷達":
+      - /url: /scholarships/
+      - strong: 203+
+      - generic: 全球獎學金與海外補助
+      - generic: 雙重來源查核 · 台灣資格優先
+  - region "國內大學選校選系資料庫":
+    - generic: TAIWAN UNIVERSITY & MAJOR EXPLORER
+    - heading "國內大學選校選系資料庫" [level=2]
+    - paragraph: 70 所大學、193 個科系深度頁，整合課程特色、研究與就業方向，以及 70 校學生網路評價摘要。官方資料與學生觀察分開呈現。
+    - link "進入國內大學選校選系資料庫 →":
+      - /url: /taiwan-universities/
+    - generic "資料庫規模":
+      - strong: "70"
+      - generic: 所大學
+      - strong: "193"
+      - generic: 科系深度頁
+      - strong: "70"
+      - generic: 校學生評價
+  - region "留學 DIY 導航":
+    - paragraph: STUDY ABROAD NAVIGATOR
+    - heading "留學 DIY 導航" [level=2]
+    - paragraph: 世界很大，從找到適合你的科系開始。
+    - paragraph: 想出國念書，卻不知道從哪一所大學、哪一個科系開始？從國家與興趣出發，探索海外大學、比較科系方向，整理申請條件與準備文件。把心動的學校收藏起來，逐步建立自己的留學計畫。
+    - link "開始探索留學方向 →":
+      - /url: /study-abroad/
+    - link "找海外大學":
+      - /url: /study-abroad/universities.html
+    - link "探索適合的科系":
+      - /url: /study-abroad/majors.html
+    - generic "留學探索步驟":
+      - paragraph: 把留學想法，變成下一步
+      - generic: "01"
+      - paragraph:
+        - strong: 探索國家與科系
+        - generic: 從興趣出發，找到值得研究的方向
+      - generic: "02"
+      - paragraph:
+        - strong: 收藏與比較大學
+        - generic: 看課程、校區與不同入學途徑
+      - generic: "03"
+      - paragraph:
+        - strong: 整理申請準備
+        - generic: 掌握文件與待確認事項，安排下一步
+  - region "下一站世界，從你的學校開始。":
+    - generic: TAIWAN CAMPUS NEWS · 台灣校園國際新聞
+    - heading "下一站世界，從你的學校開始。" [level=2]
+    - paragraph: 找校內國際交流窗口，讀懂交換、海外升學與獎學金的準備步驟。
+    - link "高中生出國準備 →":
+      - /url: /topics/taiwan/?level=high-school#schools
+    - link "大學生海外機會 →":
+      - /url: /topics/taiwan/?level=university#schools
+    - link "搜尋學校與全部指南 →":
+      - /url: /topics/taiwan/#campus
+  - heading "全球最新新聞" [level=2]
+  - generic: International Education · Policy · Admissions
+  - article:
+    - link "巴黎Sorbonne沿街校舍資料照，不代表本文列出的費率適用於所有校內課程":
+      - /url: /news/france-non-eu-tuition-2026-27-explainer
+      - img "巴黎Sorbonne沿街校舍資料照，不代表本文列出的費率適用於所有校內課程"
+    - generic: 法國留學解析
+    - heading "法國留學費用解析：非歐盟學費與減免，必須分開確認" [level=3]:
+      - link "法國留學費用解析：非歐盟學費與減免，必須分開確認":
+        - /url: /news/france-non-eu-tuition-2026-27-explainer
+    - paragraph: 2026／27學年差別學費：學士每年2,902歐元、碩士3,950歐元；學校減免與個人身分會影響實付金額。
+    - generic: 2026/10/20
+  - article:
+    - link "巴黎Sorbonne庭院資料照，非本次抗議現場":
+      - /url: /news/france-parcoursup-2026-results-transparency
+      - img "巴黎Sorbonne庭院資料照，非本次抗議現場"
+    - generic: 法國高等教育
+    - heading "法國Parcoursup公布2026結果：收到錄取建議，不等於已入學" [level=3]:
+      - link "法國Parcoursup公布2026結果：收到錄取建議，不等於已入學":
+        - /url: /news/france-parcoursup-2026-results-transparency
+    - paragraph: 法國10月19日公布104.6萬人申請的年度結果；91.5%是高中申請人收到至少一項錄取建議的比例，不能當成所有人的入學率。
+    - generic: 2026/10/20
+  - article:
+    - link "巴黎Louis-le-Grand高中校舍資料照，非甄試考場或教師缺額證據":
+      - /url: /news/france-teacher-exams-2027-registration-transition
+      - img "巴黎Louis-le-Grand高中校舍資料照，非甄試考場或教師缺額證據"
+    - generic: 法國師資教育
+    - heading "法國2027教師甄試報名中：學士與碩士管道並行，資格不能混用" [level=3]:
+      - link "法國2027教師甄試報名中：學士與碩士管道並行，資格不能混用":
+        - /url: /news/france-teacher-exams-2027-registration-transition
+    - paragraph: 教師甄試至11月25日巴黎中午截止；部分考試並行bac+3與bac+5管道，報名成功不代表資格審查完成。
+    - generic: 2026/10/20
+  - article:
+    - link "巴黎Henri-IV高中資料照，並非本次抗議現場":
+      - /url: /news/france-lycee-teacher-replacement-consultation-october-2026
+      - img "巴黎Henri-IV高中資料照，並非本次抗議現場"
+    - generic: 法國中學教育
+    - heading "法國高中代課措施上路：人力調度仍須對上缺課科目" [level=3]:
+      - link "法國高中代課措施上路：人力調度仍須對上缺課科目":
+        - /url: /news/france-lycee-teacher-replacement-consultation-october-2026
+    - paragraph: 法國教育部公布代課與增聘措施，高中生意見徵詢至10月23日；獨立報導提醒人數不等於每堂課都有合格代課。
+    - generic: 2026/10/19
+  - article:
+    - link "Rochdale Sixth Form College興建期間資料照；不代表已確認該校開設新課程":
+      - /url: /news/england-v-levels-2027-qualification-transition
+      - img "Rochdale Sixth Form College興建期間資料照；不代表已確認該校開設新課程"
+    - generic: 英國高中教育
+    - heading "英格蘭V Levels預計2027開課：選課須看過渡期與大學要求" [level=3]:
+      - link "英格蘭V Levels預計2027開課：選課須看過渡期與大學要求":
+        - /url: /news/england-v-levels-2027-qualification-transition
+    - paragraph: 首批職業導向資格與現行課程並行過渡；Pearson確認部分BTEC延續資助，不宜解讀成2027全面停辦BTEC。
+    - generic: 2026/10/19
+  - article:
+    - link "倫敦RIBA會址門面雕刻資料照":
+      - /url: /news/uk-architecture-route-p-spring-2027
+      - img "倫敦RIBA會址門面雕刻資料照"
+    - generic: 英國專業教育
+    - heading "英國建築師註冊擬增Route P：2027春季新路徑仍有資格要求" [level=3]:
+      - link "英國建築師註冊擬增Route P：2027春季新路徑仍有資格要求":
+        - /url: /news/uk-architecture-route-p-spring-2027
+    - paragraph: ARB規劃讓具認證Part 2及Part 3、缺認證Part 1者採新路徑；大學招生與跨國執業認定仍須分開核對。
+    - generic: 2026/10/19
+  - link "查看全部國際教育新聞 →":
+    - /url: /news/
+  - heading "LTU 教育動態・媒體報導" [level=2]
+  - generic: 每日輪播 3 則 · LTU Education · Media Coverage
+  - article:
+    - link "不出國也能拿雙文憑！明道臺加雙聯學制開花結果 首屆學生錄取海外名校":
+      - /url: https://www.ctee.com.tw/news/20260401701821-431204
+      - generic: 工商時報
+      - generic: LTU OSSD
+    - generic: LTU · 升學成果
+    - heading "不出國也能拿雙文憑！明道臺加雙聯學制開花結果 首屆學生錄取海外名校" [level=3]:
+      - link "不出國也能拿雙文憑！明道臺加雙聯學制開花結果 首屆學生錄取海外名校":
+        - /url: https://www.ctee.com.tw/news/20260401701821-431204
+    - paragraph: 媒體來源：工商時報
+    - generic: 外部媒體報導 ↗
+  - article:
+    - link "布萊斯「OSSD暑期學校」帶領學子參與國際交流 體驗海外大學生活":
+      - /url: https://www.ctee.com.tw/news/20250723702079-431204
+      - generic: 工商時報
+      - generic: LTU OSSD
+    - generic: LTU · 國際交流
+    - heading "布萊斯「OSSD暑期學校」帶領學子參與國際交流 體驗海外大學生活" [level=3]:
+      - link "布萊斯「OSSD暑期學校」帶領學子參與國際交流 體驗海外大學生活":
+        - /url: https://www.ctee.com.tw/news/20250723702079-431204
+    - paragraph: 媒體來源：工商時報
+    - generic: 外部媒體報導 ↗
+  - article:
+    - link "僑泰高中雙語班傳捷報！5學子前進世界百大名校 打破校史紀錄":
+      - /url: https://udn.com/news/story/6898/9271435
+      - generic: 聯合新聞網
+      - generic: LTU OSSD
+    - generic: LTU · 升學成果
+    - heading "僑泰高中雙語班傳捷報！5學子前進世界百大名校 打破校史紀錄" [level=3]:
+      - link "僑泰高中雙語班傳捷報！5學子前進世界百大名校 打破校史紀錄":
+        - /url: https://udn.com/news/story/6898/9271435
+    - paragraph: 媒體來源：聯合新聞網
+    - generic: 外部媒體報導 ↗
+  - generic "其他更多媒體報導（共 12 則）"
+  - link "台灣校園國際新聞 → 查看校園新聞與國際機會":
+    - /url: /topics/taiwan/
+  - region "Global Education Weekly 國際教育週報":
+    - generic: GLOBAL EDUCATION WEEKLY
+    - generic: FREE NEWSLETTER · 免費電子報
+    - heading "每週國際教育週報" [level=2]
+    - paragraph: 免費加入會員，每週收到台灣與全球大學招生、留學政策、國際高中與教育趨勢，以及 Peter 精選觀點。
+    - generic: 採雙重確認訂閱（Double opt-in）· 免費訂閱 · 隨時可取消
+    - iframe
+  - heading "讀者數據" [level=2]
+  - paragraph:
+    - text: 累計瀏覽人數：
+    - strong: 資料累積中
+  - generic: READERSHIP INSIGHTS · GA4 AGGREGATED DATA
+  - generic: MOST READ · 本週熱門文章
+  - list:
+    - generic: "01"
+    - link "多倫多大學推博士跨域獎學金：每年8萬加元，首屆2027入學｜環球教育新聞網 Global Education News":
+      - /url: /news/toronto-presidents-impact-phd-scholarship-2027/
+    - generic: "02"
+    - link "美國大學團體提告挑戰 CPT 新解釋：法院尚未裁定，現行指引仍有效｜環球教育新聞網 Global Education News":
+      - /url: /news/us-cpt-lawsuit-court-status-october-13-2026/
+    - generic: "03"
+    - link "西澳評估三校合併：2027年完成商業論證，Curtin表態反對｜環球教育新聞網 Global Education News":
+      - /url: /news/wa-three-university-merger-business-case-2026/
+    - generic: "04"
+    - link "最新國際教育新聞":
+      - /url: /news/
+    - generic: "05"
+    - link "澳洲海外新生初步數據年減4.9%：不是全年人數，也不是簽證統計｜環球教育新聞網 Global Education News":
+      - /url: /news/australia-preliminary-overseas-commencements-2026/
+  - generic: AUDIENCE · 讀者來源國家／地區
+  - generic "讀者來源世界地圖":
+    - img "A chart."
+  - generic: 較少
+  - generic: 較多
+  - generic: 讀者來源 TOP 10
+  - text: 01台灣
+  - strong: 43.2%
+  - text: 02美國
+  - strong: 37.6%
+  - text: 03瑞典
+  - strong: 5.6%
+  - text: 04加拿大
+  - strong: 2.8%
+  - text: 05香港
+  - strong: 2.8%
+  - text: 06愛爾蘭
+  - strong: 1.9%
+  - text: 07日本
+  - strong: 1.9%
+  - text: 08澳洲
+  - strong: 0.9%
+  - text: 09印度
+  - strong: 0.9%
+  - text: 10英國
+  - strong: 0.9%
+  - paragraph: 資料來源：Google Analytics 4（GA4），顯示近 7 日彙整資料。地圖使用 Google GeoChart，藍色深淺代表相對讀者量；不公開個別讀者資料。
+  - img "Peter的國際教育講座"
+  - generic: PETER'S COLUMN · EDUCATION INSIGHT
+  - heading "Peter的國際教育講座" [level=2]
+  - paragraph: 從全球大學、留學政策、國際高中到升學制度，把新聞背後的制度與選擇說給學生、家長與教育工作者聽。
+  - paragraph: 這個專區會整理 Peter 過去在 Facebook 發表的國際教育文章，重新查證資料、補充來源與更新時效後，轉化成可以長期搜尋與引用的深度內容。
+  - link "進入 Peter的國際教育講座":
+    - /url: /peter/
+  - link "Facebook 粉絲專頁 ↗":
+    - /url: https://www.facebook.com/profile.php?id=61585164670358
+  - heading "我們關注什麼" [level=2]
+  - link "政策 POLICY 留學與移民政策 追蹤學生簽證、工作權、國際學生政策與各國教育制度變動。":
+    - /url: /topics/policy/
+    - generic: 政策
+    - generic: POLICY
+    - heading "留學與移民政策" [level=3]
+    - paragraph: 追蹤學生簽證、工作權、國際學生政策與各國教育制度變動。
+  - link "大學 UNIVERSITIES 全球大學與招生 招生規則、科系趨勢、錄取制度、學費與國際學生數據。":
+    - /url: /topics/admissions/
+    - generic: 大學
+    - generic: UNIVERSITIES
+    - heading "全球大學與招生" [level=3]
+    - paragraph: 招生規則、科系趨勢、錄取制度、學費與國際學生數據。
+  - link "深度 INSIGHT 深度專題與觀點 以資料與第一手來源，把新聞轉化成台灣學生與家長可以使用的判斷。":
+    - /url: /insight/
+    - generic: 深度
+    - generic: INSIGHT
+    - heading "深度專題與觀點" [level=3]
+    - paragraph: 以資料與第一手來源，把新聞轉化成台灣學生與家長可以使用的判斷。
+- generic: GLOBAL EDUCATION INTELLIGENCE · GEI
+- heading "從教育新聞，走向教育情報。" [level=2]
+- paragraph: 持續追蹤政策、招生、教育指標與 AI 教育發展，把每天的新聞累積成可搜尋、可比較、可回溯的教育資料。
+- link "進入全球教育情報中心 →":
+  - /url: /intelligence/
+- link "01 Policy Radar 全球教育政策雷達 →":
+  - /url: /intelligence/policy/
+  - generic: "01"
+  - strong: Policy Radar
+  - generic: 全球教育政策雷達
+  - generic: →
+- link "02 Admission Tracker 全球大學入學追蹤 →":
+  - /url: /intelligence/admissions/
+  - generic: "02"
+  - strong: Admission Tracker
+  - generic: 全球大學入學追蹤
+  - generic: →
+- link "03 Global Education Index 全球教育指數 →":
+  - /url: /intelligence/global-index/
+  - generic: "03"
+  - strong: Global Education Index
+  - generic: 全球教育指數
+  - generic: →
+- link "04 Taiwan AI Index 台灣高中 AI 教育力指數 →":
+  - /url: /intelligence/taiwan-ai-index/
+  - generic: "04"
+  - strong: Taiwan AI Index
+  - generic: 台灣高中 AI 教育力指數
+  - generic: →
+- link "05 Research & White Paper 研究與教育白皮書 →":
+  - /url: /intelligence/research/
+  - generic: "05"
+  - strong: Research & White Paper
+  - generic: 研究與教育白皮書
+  - generic: →
+- region "國際教育合作夥伴":
+  - generic: INTERNATIONAL EDUCATION PARTNERS
+  - heading "國際教育合作夥伴" [level=2]
+  - paragraph: 呈現 LTU 合作學校與教育夥伴的校園動態、國際交流、升學活動與合作成果。
+  - generic "合作學校":
+    - strong: 明道中學
+    - generic: Mingdao High School
+    - strong: 僑泰中學
+    - generic: Chiao Tai High School
+    - strong: 更多合作學校
+    - generic: More Education Partners
+  - strong: 合作夥伴新聞專區已啟用
+  - generic: 明道中學、僑泰中學及其他合作學校新聞將在此彙整刊登。
+  - link "查看國際教育合作夥伴專欄 →":
+    - /url: /partners/
+- contentinfo:
+  - heading "環球教育新聞網 | Global Education News" [level=3]
+  - paragraph: 涵蓋國內外國際教育新聞、大學科系選擇與申請、獎學金雷達，以及深度探討文章-Peter 的國際教育講座。
+  - link "開啟留學DIY導航 Study Abroad Navigator":
+    - /url: /study-abroad/
+    - strong: 留學DIY導航
+    - generic: Study Abroad Navigator
+    - generic: →
+  - paragraph:
+    - link "Global Education Weekly｜免費電子報":
+      - /url: /newsletter/
+      - strong: Global Education Weekly｜免費電子報
+  - paragraph:
+    - link "Peter的國際教育講座":
+      - /url: /peter/
+      - strong: Peter的國際教育講座
+  - paragraph:
+    - link "Facebook 粉絲專頁 ↗":
+      - /url: https://www.facebook.com/profile.php?id=61585164670358
+  - text: © 2026 環球教育新聞網 Global Education News. All rights reserved.
+  - heading "LTU 環球教育新聞網編輯部" [level=3]
+  - paragraph: LTU Global Education News Editorial Desk
+  - paragraph:
+    - link "關於我們 About":
+      - /url: /about/
+  - paragraph:
+    - link "編輯政策 Editorial Policy":
+      - /url: /editorial-policy/
+  - paragraph:
+    - link "更正政策 Corrections":
+      - /url: /corrections/
+  - paragraph:
+    - link "editor.jsti.ltu@gmail.com":
+      - /url: mailto:editor.jsti.ltu@gmail.com
+  - heading "合作與透明度" [level=3]
+  - paragraph:
+    - text: 營運者：布萊斯教育有限公司
+    - text: 統一編號：91023087
+  - paragraph:
+    - link "網站安全與服務識別":
+      - /url: /security/
+  - paragraph:
+    - link "廣告合作 Advertising":
+      - /url: /advertise/
+  - paragraph:
+    - link "聯絡我們 Contact":
+      - /url: /contact/
+  - paragraph:
+    - link "利益揭露 Disclosure":
+      - /url: /disclosure/
+  - paragraph:
+    - link "隱私權政策 Privacy":
+      - /url: /privacy/
+  - generic "網站累積瀏覽統計":
+    - generic: READERSHIP
+    - text: 累積瀏覽
+    - strong: 統計中
+- paragraph:
+  - link "Photo source & license · cropped for sharing":
+    - /url: /image-credits/#787ec4d1b3d0dfef97a70780.jpg
+- button
+- img "Monica"
+- generic: Ctrl+M
+- text: 解釋

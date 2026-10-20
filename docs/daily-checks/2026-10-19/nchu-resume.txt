@@ -1,0 +1,351 @@
+- text: 
+- link "OIA website":
+  - /url: http://oia.nchu.edu.tw/index.php/zh/
+  - img "OIA website"
+- link "雙語資訊平台":
+  - /url: https://iss.nchu.edu.tw/asknchu-ch/
+  - img "雙語資訊平台"
+- link "NCHU Covid-19":
+  - /url: https://iss.nchu.edu.tw/target/
+  - img "NCHU Covid-19"
+- list:
+  - link "English":
+    - /url: /index.php/en/5-global-mobility-en/5-1-exchange-student-program-en/5-1-1-application-guildeline-en
+    - img "English"
+  - link "中文":
+    - /url: https://oia.nchu.edu.tw/index.php/zh/5-global-mobility-tw/5-1-exchange-student-program-tw/5-1-1-application-guildeline-tw
+    - img "中文"
+- link "搜尋":
+  - /url: https://www.oia.nchu.edu.tw/index.php/zh/1-1-about-tw/search-tw
+  - generic: 
+- list:
+  - link "首頁":
+    - /url: /index.php/zh/
+    - generic: 首頁
+  - link "最新消息":
+    - /url: javascript:void(0)
+    - generic: 最新消息
+  - link "關於本處":
+    - /url: javascript:void(0)
+    - generic: 關於本處
+  - link "認識中興":
+    - /url: javascript:void(0)
+    - generic: 認識中興
+  - link "申請中興":
+    - /url: javascript:void(0)
+    - generic: 申請中興
+  - link "在校境外學生":
+    - /url: javascript:void(0)
+    - generic: 在校境外學生
+  - link "海外教育計畫":
+    - /url: javascript:void(0)
+    - generic: 海外教育計畫
+  - link "國際訪賓與學人":
+    - /url: javascript:void(0)
+    - generic: 國際訪賓與學人
+  - link "校際交流合作":
+    - /url: javascript:void(0)
+    - generic: 校際交流合作
+  - link "中興教職員":
+    - /url: javascript:void(0)
+    - generic: 中興教職員
+- banner:
+  - navigation "Breadcrumbs-tw":
+    - list:
+      - listitem: "你目前位置:"
+      - link "首頁":
+        - /url: /index.php/zh/
+        - generic: 首頁
+      - generic: 
+      - link "海外教育計畫":
+        - /url: /index.php/zh/5-global-mobility-tw/5-1-exchange-student-program-tw/5-1-1-application-guildeline-tw
+        - generic: 海外教育計畫
+      - generic: 
+      - link "交換學生計畫":
+        - /url: /index.php/zh/5-global-mobility-tw/5-1-exchange-student-program-tw/5-1-1-application-guildeline-tw
+        - generic: 交換學生計畫
+      - generic: 
+      - generic: 申請簡章
+- list:
+  - link "交換學生計畫":
+    - /url: /index.php/zh/5-global-mobility-tw/5-1-exchange-student-program-tw/5-1-1-application-guildeline-tw
+  - list:
+    - link "申請簡章":
+      - /url: /index.php/zh/5-global-mobility-tw/5-1-exchange-student-program-tw/5-1-1-application-guildeline-tw
+    - link "申請流程":
+      - /url: /index.php/zh/5-global-mobility-tw/5-1-exchange-student-program-tw/5-1-2-application-procedures-tw
+    - link "熱門校統計":
+      - /url: /index.php/zh/5-global-mobility-tw/5-1-exchange-student-program-tw/5-1-6-top-universities-ranking-for-outgoing-students-tw
+    - link "常見問題":
+      - /url: /index.php/zh/5-global-mobility-tw/5-1-exchange-student-program-tw/5-1-7-faq-tw
+    - link "交換獎學金":
+      - /url: /index.php/zh/5-global-mobility-tw/5-1-exchange-student-program-tw/5-1-5-scholarship-tw
+    - link "交換學校資訊":
+      - /url: /index.php/zh/5-global-mobility-tw/5-1-exchange-student-program-tw/5-1-3-list-of-partner-universities-of-exchange-student-program-tw/5-1-3-1-oversea-partner-universities-tw
+    - link "歷屆交換資訊":
+      - /url: /index.php/zh/5-global-mobility-tw/5-1-exchange-student-program-tw/5-1-4-review-tw/5-1-4-1-outgoing-students-list-tw
+  - link "雙聯學位計畫":
+    - /url: /index.php/zh/5-global-mobility-tw/5-2-dual-degree-programs-tw/5-2-1-application-information-tw
+  - link "海外短期課程與活動":
+    - /url: /index.php/zh/5-global-mobility-tw/5-3-overseas-short-term-programs-tw/5-3-1-application-information-tw
+  - link "海外實習計畫":
+    - /url: /index.php/zh/5-global-mobility-tw/5-4-overseas-internship-programs-tw/5-4-1-application-information-tw
+  - link "海外國際志工":
+    - /url: /index.php/zh/5-global-mobility-tw/5-5-international-volunteers-tw/5-5-1-origin-tw
+  - link "其他赴外獎學金":
+    - /url: /index.php/zh/5-global-mobility-tw/5-6-outbound-scholarship-tw/5-6-1-doctoral-scholarship-tw
+  - link "其他":
+    - /url: /index.php/zh/5-global-mobility-tw/5-7-other-resources-tw/5-7-1-umap-tw
+- definition:
+  - generic: <
+  - text: "點擊數: 263033"
+- heading "交換學生計畫" [level=1]
+- paragraph
+- heading "》116學年度第一學期秋季班 交換計畫簡章《" [level=5]:
+  - strong:
+    - link "》116學年度第一學期秋季班 交換計畫簡章《":
+      - /url: /images/File/05_Global_Mobility/5-1-Exchange-Student-Programs/Exchange_Program_Guidelines_for_Fall_Semester_2027_TW.pdf
+- paragraph: (20260806公告)
+- paragraph
+- paragraph:
+  - text: 🌎
+  - link "依據法規：國立中興大學交換學生赴國外及大陸地區姊妹校就讀選薦要點":
+    - /url: /images/File/01_About/1-1-3-Regulation/R6_Regulations_for_nominating_NCHU_outbound_exchange_TW.pdf
+- paragraph:
+  - text: 🌎
+  - link "116-1 交換計畫說明會PPT":
+    - /url: /images/File/05_Global_Mobility/5-1-Exchange-Student-Programs/5-1-1-application-guildeline/116-1_Exchange_Program_Information_Session.pdf
+- paragraph
+- paragraph:
+  - text: ｜
+  - link "▶申請資格":
+    - /url: "#申請資格"
+  - text: ｜
+  - link "▶申請說明":
+    - /url: "#申請說明"
+  - text: ｜
+  - link "▶交換生義務":
+    - /url: "#交換生義務"
+  - text: ｜
+  - link "▶表格與常用連結":
+    - /url: "#常用連結"
+- heading "計畫宗旨" [level=3]:
+  - strong: 計畫宗旨
+- paragraph: 為增廣學生學習領域暨國際視野，甄選品學優良、外語流利之本校學生，前往國外或大陸地區姊妹校進修一學期。
+- paragraph
+- heading "申請資格" [level=3]:
+  - strong: 申請資格
+- paragraph:
+  - strong: 1. 身份：本校學位生（含進修部）
+- list:
+  - listitem: 學士班一年級僅可申請春季班、二年級（含）以上、碩士班一年級（含）以上或博士班一年級(含)以上，通過系所推薦者。
+  - listitem: 延畢生得申請並出國交換，但出國交換不得作為申請延畢之理由。
+  - listitem: 陸港澳僑、外籍學生亦可申請，如欲申請大陸學校交換，需另先詢問承辦人員，姊妹校不一定接受。
+- paragraph: "* 註：本校學位生赴海外交換期間需保有「在學」身分。"
+- paragraph:
+  - strong: 2. 成績要求：學士班學生歷年在校總平均分數60分(含)以上。
+- paragraph:
+  - strong: 3. 外語能力：具備效期內外語能力檢定證書，且符合本校及交換學校門檻者（申請大陸地區則免）。
+- paragraph:
+  - strong: 本校赴外交換英語能力門檻：CEFR B2
+- table:
+  - rowgroup:
+    - row "檢定名稱 分數":
+      - cell "檢定名稱":
+        - strong: 檢定名稱
+      - cell "分數":
+        - strong: 分數
+    - row "TOFEL iBT 托福 (網路測驗) *舊制 72 以上":
+      - cell "TOFEL iBT 托福 (網路測驗) *舊制":
+        - paragraph: TOFEL iBT 托福 (網路測驗) *舊制
+      - cell "72 以上":
+        - paragraph: 72 以上
+    - row "TOFEL iBT 托福 (網路測驗) *新制 4 以上":
+      - cell "TOFEL iBT 托福 (網路測驗) *新制":
+        - paragraph: TOFEL iBT 托福 (網路測驗) *新制
+      - cell "4 以上":
+        - paragraph: 4 以上
+    - row "TOFEL iBT 托福 (紙筆測驗) 543 以上":
+      - cell "TOFEL iBT 托福 (紙筆測驗)":
+        - paragraph: TOFEL iBT 托福 (紙筆測驗)
+      - cell "543 以上":
+        - paragraph: 543 以上
+    - row "IELTS 雅思 5.5 以上":
+      - cell "IELTS 雅思"
+      - cell "5.5 以上"
+    - row "TOEIC 多益 785 以上":
+      - cell "TOEIC 多益"
+      - cell "785 以上"
+- paragraph: ※ 若申請學校未註明語言能力要求，或要求比本校自訂標準低，則須符合本校標準。
+- paragraph: ※ 若欲繳交其他英語能力考試成績證明，將以姊妹校規定為準，請自行確認申請學校之相關要求。
+- paragraph: ※ 非英語系國家學校若可接受其他語言檢定，則可免交英語能力證明。(申請志願序中若有任一所學校要求英語能力證明，仍須於校內申請時繳交英檢證書。)
+- paragraph
+- heading "如何成為交換學生？" [level=3]:
+  - strong: 如何成為交換學生？
+- paragraph: 以下僅針對本校薦外交換計畫說明，倘若同學透過系所合作或其他管道申請到國外學校，則一切自理。
+- paragraph
+- heading "🌎申請前" [level=3]
+- paragraph:
+  - strong: 一、提前準備
+- list:
+  - listitem: 提前考取語言檢定，以利報名時繳交效期內語言檢定證書。
+  - listitem: 維持學業成績、累積有利審查的校內外經歷。
+  - listitem: 確認獎學金等資源。
+- paragraph
+- paragraph:
+  - strong: 二、詳閱簡章
+- paragraph:
+  - code:
+    - strong:
+      - link "116學年度第一學期 秋季班交換計畫簡章":
+        - /url: /images/File/05_Global_Mobility/5-1-Exchange-Student-Programs/Exchange_Program_Guidelines_for_Fall_Semester_2027_TW.pdf
+- paragraph: 交換期間：116學年度上學期(116-1，即2027年9月前後前往交換）
+- paragraph: 注意：本校在籍學生在同一學制內（ex.大學部、碩士班、博士班），最多可交換兩次， 每次以一學期為限。欲交換一學年者，必須申請兩次，並重新繳交所有資料，但不保證能夠錄取與前一學期交換相同之學校，錄取學校仍會依照本學期申請同學成績去排序及分發。
+- paragraph
+- paragraph:
+  - strong: 三、確認交換學校資訊
+- paragraph:
+  - link "【交換學生計畫學校一覽表--海外地區】":
+    - /url: https://oia.nchu.edu.tw/index.php/zh/5-global-mobility-tw/5-1-exchange-student-program-tw/5-1-3-list-of-partner-universities-of-exchange-student-program-tw/5-1-3-1-oversea-partner-universities-tw
+    - strong:
+      - code: 【交換學生計畫學校一覽表--海外地區】
+- paragraph:
+  - link "【交換學生計畫學校一覽表--大陸地區】":
+    - /url: https://oia.nchu.edu.tw/index.php/zh/5-global-mobility-tw/5-1-exchange-student-program-tw/5-1-3-list-of-partner-universities-of-exchange-student-program-tw/5-1-3-2-mainland-china-partner-universities-tw
+    - strong:
+      - code: 【交換學生計畫學校一覽表--大陸地區】
+- paragraph: 若有更新會註明更新日期。
+- paragraph
+- paragraph:
+  - strong: 四、參加交換計劃說明會、交換心得分享會。
+  - text: 相關資訊將另行公告。
+- paragraph
+- heading "🌎線上申請" [level=3]:
+  - strong: 🌎線上申請
+- paragraph: 步驟一：完成線上資料填寫及上傳資料
+- paragraph: 步驟二：線上推薦函填寫(系統會於完成填寫後自動寄信給教授)
+- paragraph: 兩步驟皆需完成，請注意填寫時間，逾期或資料不全，於截止日後將不予受理!!!
+- paragraph:
+  - link ">>線上申請系統<<":
+    - /url: https://oiawp.nchu.edu.tw/out-going-program-online-application/
+- paragraph:
+  - strong: 開放時間
+- paragraph: 申請及繳件：115年9月23日(三) 中午12:00 至 115年10月23日(五) 中午12:00
+- paragraph: 推薦函填寫：115年9月23日(三) 中午12:00 至 115年10月30日(五) 中午12:00
+- paragraph
+- heading "🌎申請後" [level=3]:
+  - strong: 🌎申請後
+- paragraph:
+  - strong: 一、查看錄取公告並回填錄取意願
+- paragraph:
+  - strong:
+    - text: 二、提名及姊妹校申請，詳見
+    - link "計畫流程":
+      - /url: https://www.oia.nchu.edu.tw/index.php/zh/5-global-mobility-tw/5-1-exchange-student-program-tw/5-1-2-application-procedures-tw
+    - text: 說明。
+- paragraph:
+  - strong:
+    - text: 三、取得入學許可，詳見
+    - link "計畫流程":
+      - /url: https://www.oia.nchu.edu.tw/index.php/zh/5-global-mobility-tw/5-1-exchange-student-program-tw/5-1-2-application-procedures-tw
+    - text: 說明。
+- paragraph:
+  - strong: 四、準備出國事宜。
+- paragraph
+- heading "交換生義務" [level=3]:
+  - strong:
+    - strong:
+      - strong: 交換生義務
+      - strong
+- paragraph:
+  - text: 1. 交換生仍須完成本校學雜費之繳交以完成本校註冊。
+  - text: 2. 交換期間於本校不需進行本校任何選課動作(除碩士生需要選論文學分)，於交換期間一定要選修相等於本校6學分(修課時間 108小時)之課程，如對方校有最高學分的限制，請務必遵守選課規定。選課無特別限制，除課程有修課的特殊條件。
+  - text: "*凡經學生所屬系(所、學位學程)認定抵免之科目(即便學生申請抵免學分數為零)，皆呈現於學生成績單"
+  - text: 3. 交換學生於交換學校完成註冊手續後，即視同為該校學生，應遵守該校一切規定，不得做出有損兩校校譽行為。
+  - text: 4. 抵達該校及返國兩週內須填寫交換生赴國外研修通知單。
+  - text: 5. 交換期間，應密切與本處保持連繫，並留意自身安全問題。
+  - text: 6. 返國兩個月內須繳交心得報告 ，同學所繳交之心得報告，本處有權在網站公開及使用於各種相關活動文宣用品上，不需另徵同學同意。
+  - text: 7. 交換生返國畢業前，應盡義務協助及輔導本校同學，並提供相關諮詢及必要資訊。
+  - text: 8. 交換生返國後應參與相關宣傳活動（如國際週）至少3小時。
+- paragraph
+- heading "表格與常用連結" [level=3]
+- list:
+  - strong:
+    - link "交換學生申請表":
+      - /url: /images/File/05_Global_Mobility/5-1-Exchange-Student-Programs/5-1-1-application-guildeline/outgoing_form.doc
+  - strong:
+    - link "家長同意書":
+      - /url: /images/File/05_Global_Mobility/5-1-Exchange-Student-Programs/5-1-1-application-guildeline/Declaration_of_Parental_Consent_Outgoing.doc
+  - strong:
+    - link "錄取/放棄確認書":
+      - /url: /images/File/05_Global_Mobility/5-1-Exchange-Student-Programs/Confirmation_of_Admission_TW.docx
+  - strong:
+    - link "學分抵免申請表":
+      - /url: /images/File/05_Global_Mobility/5-1-Exchange-Student-Programs/application_form_1100604docx.pdf
+- paragraph:
+  - link "【我的中興時代國際〝關〞】":
+    - /url: https://oia.nchu.edu.tw/index.php/zh/5-global-mobility-tw/5-7-other-resources-tw/5-7-3-international-outlook-rewards-activity-tw/4541-my-nchu-era-115-1-cn
+- list:
+  - link "各區熱門校":
+    - /url: /index.php/zh/5-global-mobility-tw/5-1-exchange-student-program-tw/5-1-6-top-universities-ranking-for-outgoing-students-tw
+  - link:
+    - /url: https://www.oia.nchu.edu.tw/index.php/tw/coopercation-tw/41-outgoing-tw/1815-102-2-top10
+  - link "交換計畫FAQ":
+    - /url: /index.php/zh/5-global-mobility-tw/5-1-exchange-student-program-tw/5-1-7-faq-tw
+  - link "申請流程":
+    - /url: /index.php/zh/5-global-mobility-tw/5-1-exchange-student-program-tw/5-1-2-application-procedures-tw
+  - link "交換獎學金資訊":
+    - /url: https://oia.nchu.edu.tw/index.php/zh/5-global-mobility-tw/5-1-exchange-student-program-tw/5-1-5-scholarship-tw
+  - link "交換心得分享平台":
+    - /url: https://iss.nchu.edu.tw/target/outbound/
+  - link:
+    - /url: https://iss.nchu.edu.tw/target/outbound/
+- paragraph
+- heading "聯絡本處" [level=3]:
+  - strong: 聯絡本處
+- paragraph:
+  - strong: 學術交流組 蔡沛恩 小姐
+  - text: "Email: joytsai@dragon.nchu.edu.tw"
+  - text: "Tel: +886-4-22840206#15"
+- complementary
+- link "Top":
+  - /url: "#"
+- generic: 版權所有 國立中興大學國際事務處 402 台中市南區興大路145號行政大樓3樓 +886-4-22840206 oia@nchu.edu.tw
+- link "OIA":
+  - /url: /
+  - img "OIA"
+- complementary:
+  - link "NCHU":
+    - /url: https://www.nchu.edu.tw/index1.php
+    - img "NCHU"
+- link "Facebook":
+  - /url: https://www.facebook.com/oia.nchu/
+  - generic: 
+- link "Youtube":
+  - /url: https://www.youtube.com/channel/UCyMc3bJetAEQUNVIrjTQasw/featured
+  - generic: 
+- link "OIA Video":
+  - /url: https://oia.video.nchu.edu.tw/
+  - generic: 
+- link "Mail to OIA":
+  - /url: mailto:oia@nchu.edu.tw
+  - generic: 
+- link "隱私聲明":
+  - /url: https://oia.nchu.edu.tw/index.php/zh/1-1-about-tw/1-1-6-contact-tw/24-1-1-about-tw/1-1-7-other-tw/1363-privacy-and-security-policy-tw
+- text: "|"
+- link "資訊安全":
+  - /url: https://oia.nchu.edu.tw/index.php/zh/1-1-about-tw/1-1-6-contact-tw/24-1-1-about-tw/1-1-7-other-tw/1364-web-security-declaration-tw
+- text: "|"
+- link "網站導覽":
+  - /url: /
+- text: "|"
+- link "智財宣導":
+  - /url: http://ipo.nchu.edu.tw/
+- text: "|"
+- link "聯絡我們":
+  - /url: https://oia.nchu.edu.tw/index.php/zh/1-1-about-tw/1-1-6-contact-tw
+- text: "|"
+- button
+- img "Monica"
+- generic: Ctrl+M
+- text: 解釋

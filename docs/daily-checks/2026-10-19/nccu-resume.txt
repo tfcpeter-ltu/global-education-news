@@ -1,0 +1,128 @@
+- banner:
+  - link "政大首頁":
+    - /url: https://www.nccu.edu.tw/
+  - link "招生專區":
+    - /url: https://nccuadmission.nccu.edu.tw/
+  - link "網站地圖":
+    - /url: https://oic.nccu.edu.tw/SiteMap
+  - link "ENGLISH":
+    - /url: "#"
+  - link "登入":
+    - /url: /Home/LoginPage
+  - link:
+    - /url: /
+  - button "ALL"
+  - searchbox "Search"
+  - button:
+    - img: 
+  - navigation:
+    - list:
+      - link "學生赴外":
+        - /url: "#"
+      - link "外國學位生":
+        - /url: "#"
+      - link "來校短期學生":
+        - /url: "#"
+      - link "教職員":
+        - /url: "#"
+      - link "全球交流":
+        - /url: "#"
+      - link "校園生活":
+        - /url: "#"
+      - link "關於我們":
+        - /url: "#"
+      - link "法令規章":
+        - /url: /Category/178
+      - link "寰政電子報":
+        - /url: "#"
+      - link "反詐騙宣導":
+        - /url: /Post/14988
+- heading "首頁 > 台聯大 > 【公告】「116學年度台灣聯合大學系統學生出國交換計畫(第1梯次)」甄選事宜，報名至115/12/28截止。" [level=2]:
+  - link "首頁":
+    - /url: /
+  - text: ">"
+  - link "台聯大":
+    - /url: /Category/273
+  - text: "> 【公告】「116學年度台灣聯合大學系統學生出國交換計畫(第1梯次)」甄選事宜，報名至115/12/28截止。"
+- generic: 【公告】「116學年度台灣聯合大學系統學生出國交換計畫(第1梯次)」甄選事宜，報名至115/12/28截止。---------
+- paragraph:
+  - strong: 主旨：公告116學年度台灣聯合大學系統學生出國交換計畫（第1梯次）甄選事宜，有意申請者請於期限內依說明申請。
+- paragraph:
+  - strong: 說明：
+- paragraph:
+  - generic: 一、依據台灣聯合大學系統115年9月17日
+  - generic: 電子郵件說明辦理。
+- paragraph:
+  - text: 二、旨揭出國交換計劃限本校學生申請，出國交換期間須為在學狀態。有意申請者請於
+  - strong: 115年12月28日（星期一）下午5時前
+  - text: ，親送申請文件或郵寄送達至國際合作事務處（以下稱國合處)，請務必預留寄件時間，申請文件須於截止時間前送達國合處始為有效申請，不得以郵戳為憑，逾時遞件歉難受理。
+- paragraph: 三、本處將依申請者在校各學期成績總平均分數決定推薦優先順序，交由台聯大系統審查決定提名資格，最終由交換學校決定是否核發入學許可。
+- paragraph: 四、因國際情勢多變，倘交換計畫因各國或各校政策等不可抗力因素而臨時取消，交換期程無法延後，請申請者遞件時審慎考量。
+- paragraph:
+  - text: 五、檢附交換計畫相關資料如下：台聯大交換生資訊
+  - link "https://www.ust.edu.tw/Exchange_Student.aspx":
+    - /url: https://www.ust.edu.tw/Exchange_Student.aspx
+  - text: ，歡迎申請。
+- list:
+  - strong: 活動海報
+  - strong: 計畫公告
+  - strong: 申請表(請直接繕打在PDF檔案中後，再列印出來)
+  - strong: 研修學習計劃書
+- paragraph:
+  - text: 六、
+  - generic: 台聯大學生出國交換計畫宣傳活動和心得分享會，歡迎踴躍報名。
+  - strong: 政大場次時間：115年10月8日(五)12:30 /
+  - strong: "報名網址:"
+  - link "https://forms.gle/L5wjV3KDSRusi8fG9":
+    - /url: https://forms.gle/L5wjV3KDSRusi8fG9
+- link "文章分享至Facebook":
+  - /url: https://www.facebook.com/share.php?u=https%3a%2f%2foic.nccu.edu.tw%2fPost%2f16156
+- link "文章分享至Twitter":
+  - /url: https://twitter.com/share?text=%e3%80%90%e5%85%ac%e5%91%8a%e3%80%91%e3%80%8c116%e5%ad%b8%e5%b9%b4%e5%ba%a6%e5%8f%b0%e7%81%a3%e8%81%af%e5%90%88%e5%a4%a7%e5%ad%b8%e7%b3%bb%e7%b5%b1%e5%ad%b8%e7%94%9f%e5%87%ba%e5%9c%8b%e4%ba%a4%e6%8f%9b%e8%a8%88%e7%95%ab(%e7%ac%ac1%e6%a2%af%e6%ac%a1)%e3%80%8d%e7%94%84%e9%81%b8%e4%ba%8b%e5%ae%9c%ef%bc%8c%e5%a0%b1%e5%90%8d%e8%87%b3115%2f12%2f28%e6%88%aa%e6%ad%a2%e3%80%82&url=https%3a%2f%2foic.nccu.edu.tw%2fPost%3fPId%3d16156
+- link "文章分享至Line":
+  - /url: https://lineit.line.me/share/ui?url=https%3a%2f%2foic.nccu.edu.tw%2fPost%3fPId%3d16156
+- link "複製連結":
+  - /url: "#"
+- heading [level=4]
+- list:
+  - link "➨2026 Poster.pdf":
+    - /url: /Home/Download?FileId=E94FE8C4-3A26-4A88-BEBF-CE959B192DE4
+  - link "➨附件_含申請資格_期程_申請文件及流程.pdf":
+    - /url: /Home/Download?FileId=8B56CE87-9BFF-4BA6-AB99-DC65F4250136
+- contentinfo:
+  - heading "信箱" [level=2]
+  - paragraph: oic@nccu.edu.tw
+  - heading "地址" [level=2]
+  - paragraph: 116011 臺北市文山區指南路二段64號 行政大樓8樓
+  - heading "聯絡我們" [level=2]
+  - paragraph:
+    - text: 電話
+    - text: "886-2-29393091 #62040"
+    - text: 傳真
+    - text: 886-2-29399850
+  - heading "辦公時間" [level=2]
+  - paragraph: 台灣時間
+  - paragraph: 9:00-12:00
+  - paragraph: 13:30-17:00
+- paragraph: © 2024 Office of International Cooperation, National Chengchi University
+- generic: "`"
+- link:
+  - /url: https://www.facebook.com/OIC.NCCU
+  - img: 
+- link:
+  - /url: https://www.instagram.com/oic.nccu/
+  - img: 
+- link:
+  - /url: https://www.youtube.com/watch?v=FOMbdbpJULQ&list=PLSJWyzQ3opoebKaWR-XjVvhRQa5f0GwC6&index=6
+  - img: 
+- link:
+  - /url: "#"
+  - img: 
+- button
+- img "Monica"
+- generic: Ctrl+M
+- text: 解釋
+- iframe [name="a-kjp3szczvucy"]:
+  - text: 採用
+  - strong: reCAPTCHA
+  - text: 保護機制
