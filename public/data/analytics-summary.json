@@ -1,6 +1,6 @@
 {
   "status": "ready",
-  "updatedAt": "2026-10-19T06:09:28.955Z",
+  "updatedAt": "2026-10-20T05:59:13.283Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
@@ -10,62 +10,62 @@
       "views": 10
     },
     {
-      "title": "美國大學團體提告挑戰 CPT 新解釋：法院尚未裁定，現行指引仍有效｜環球教育新聞網 Global Education News",
-      "path": "/news/us-cpt-lawsuit-court-status-october-13-2026/",
-      "views": 9
-    },
-    {
       "title": "西澳評估三校合併：2027年完成商業論證，Curtin表態反對｜環球教育新聞網 Global Education News",
       "path": "/news/wa-three-university-merger-business-case-2026/",
       "views": 9
     },
     {
-      "title": "最新國際教育新聞",
-      "path": "/news/",
-      "views": 8
-    },
-    {
       "title": "澳洲海外新生初步數據年減4.9%：不是全年人數，也不是簽證統計｜環球教育新聞網 Global Education News",
       "path": "/news/australia-preliminary-overseas-commencements-2026/",
       "views": 5
+    },
+    {
+      "title": "利物浦班加羅爾校區正式啟用：首屆近300人，萬人規模仍是長期目標｜環球教育新聞網 Global Education News",
+      "path": "/news/liverpool-bengaluru-campus-opening-2026/",
+      "views": 4
+    },
+    {
+      "title": "加拿大大西洋大學全時國際生減18%：10月快照為13,775人｜環球教育新聞網 Global Education News",
+      "path": "/news/atlantic-canada-international-enrolment-october-2026/",
+      "views": 4
     }
   ],
   "countries": [
     {
       "name": "台灣",
       "mapName": "Taiwan",
-      "sessions": 92,
-      "share": 43.2
+      "sessions": 89,
+      "share": 43
     },
     {
       "name": "美國",
       "mapName": "United States",
-      "sessions": 80,
-      "share": 37.6
+      "sessions": 75,
+      "share": 36.2
     },
     {
       "name": "瑞典",
       "mapName": "Sweden",
       "sessions": 12,
-      "share": 5.6
+      "share": 5.8
     },
     {
       "name": "加拿大",
       "mapName": "Canada",
       "sessions": 6,
-      "share": 2.8
+      "share": 2.9
     },
     {
       "name": "香港",
       "mapName": "Hong Kong",
       "sessions": 6,
-      "share": 2.8
+      "share": 2.9
     },
     {
       "name": "愛爾蘭",
       "mapName": "Ireland",
-      "sessions": 4,
-      "share": 1.9
+      "sessions": 5,
+      "share": 2.4
     },
     {
       "name": "日本",
@@ -74,22 +74,22 @@
       "share": 1.9
     },
     {
-      "name": "澳洲",
-      "mapName": "Australia",
-      "sessions": 2,
-      "share": 0.9
-    },
-    {
       "name": "印度",
       "mapName": "India",
+      "sessions": 3,
+      "share": 1.4
+    },
+    {
+      "name": "德國",
+      "mapName": "Germany",
       "sessions": 2,
-      "share": 0.9
+      "share": 1
     },
     {
       "name": "英國",
       "mapName": "United Kingdom",
       "sessions": 2,
-      "share": 0.9
+      "share": 1
     }
   ]
 }
