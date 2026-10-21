@@ -1,0 +1,127 @@
+{
+  "checkedAt": "2026-10-22T05:03:31.584436+08:00",
+  "news": [
+    {
+      "slug": "france-campus-blockades-study-continuity-october-2026",
+      "title": "法國高中抗議延伸大學：赴法學生先查校園與授課通知",
+      "url": "https://globalednews.com/news/france-campus-blockades-study-continuity-october-2026/",
+      "publishedPath": "src/pages/news/france-campus-blockades-study-continuity-october-2026.md",
+      "sources": [
+        {
+          "label": "Official primary source",
+          "url": "https://franceuniversites.fr/actualite/france-universites-exprime-son-soutien-aux-presidentes-et-presidents-detablissements-confrontes-aux-blocus-de-campus/"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://www.letudiant.fr/educpros/actualite/la-mobilisation-lyceenne-gagne-la-communaute-etudiante.html"
+        }
+      ],
+      "verifiedAt": "2026-10-22T05:03:31.584436+08:00"
+    },
+    {
+      "slug": "france-bac-2027-registration-regional-deadlines",
+      "title": "法國2027 Bac報名已啟動：巴黎三學區11月8日截止，不能套用全國",
+      "url": "https://globalednews.com/news/france-bac-2027-registration-regional-deadlines/",
+      "publishedPath": "src/pages/news/france-bac-2027-registration-regional-deadlines.md",
+      "sources": [
+        {
+          "label": "Official primary source",
+          "url": "https://siec.education.fr/actualites/inscriptions-examens-generaux-technologiques-professionnels-session-2027"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://monbacfrancais.com/actualites/cyclades-bac-2027-les-dates-dinscription-en-ile-de-france-et-a-orleans-tours"
+        }
+      ],
+      "verifiedAt": "2026-10-22T05:03:31.584436+08:00"
+    },
+    {
+      "slug": "france-apprenticeship-tax-unallocated-balance-2027",
+      "title": "法國2027預算爭議：未分配學徒稅餘額擬改流向，高教團體反對",
+      "url": "https://globalednews.com/news/france-apprenticeship-tax-unallocated-balance-2027/",
+      "publishedPath": "src/pages/news/france-apprenticeship-tax-unallocated-balance-2027.md",
+      "sources": [
+        {
+          "label": "Official primary source",
+          "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B3291-tII-v1.html"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://franceuniversites.fr/actualite/taxe-dapprentissage-france-universites-et-les-representants-de-lenseignement-superieur-sopposent-a-son-detournement-dans-le-plf-2027/"
+        }
+      ],
+      "verifiedAt": "2026-10-22T05:03:31.584436+08:00"
+    }
+  ],
+  "scholarships": [
+    {
+      "slug": "2026-10-bond-undergraduate-excellence",
+      "title": "Bond國際學士卓越獎：合格學費減50%",
+      "url": "https://globalednews.com/scholarships/items/2026-10-bond-undergraduate-excellence/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-bond-undergraduate-excellence.md",
+      "sources": [
+        "https://bond.edu.au/scholarship/international-undergraduate-excellence-scholarship",
+        "https://opportunityinside.com/scholarships/bond-university-international-scholarships-australia-2027.html"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-22T05:03:31.584436+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New distinct award; official current status, Taiwan eligibility, exclusions, amount and application route cross-checked with independent education analysis."
+    },
+    {
+      "slug": "2026-10-bond-international-stand-out",
+      "title": "Bond國際Stand Out獎：合格學士及碩士學費減25%",
+      "url": "https://globalednews.com/scholarships/items/2026-10-bond-international-stand-out/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-bond-international-stand-out.md",
+      "sources": [
+        "https://bond.edu.au/scholarship/international-stand-out-scholarship",
+        "https://collegedunia.com/australia/university/601-bond-university-gold-coast/master-of-business-administration-mba-184687"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-22T05:03:31.584436+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New distinct award; official current status, Taiwan eligibility, exclusions, amount and application route cross-checked with independent education analysis."
+    },
+    {
+      "slug": "2026-10-bond-business-postgraduate-bursary",
+      "title": "Bond商學院研究生助學金：5,000澳元生活補助",
+      "url": "https://globalednews.com/scholarships/items/2026-10-bond-business-postgraduate-bursary/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-bond-business-postgraduate-bursary.md",
+      "sources": [
+        "https://bond.edu.au/scholarship/bond-business-school-postgraduate-bursaries",
+        "https://www.wemakescholars.com/scholarship/bond-business-school-postgraduate-bursaries"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-22T05:03:31.584436+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New distinct award; official current status, Taiwan eligibility, exclusions, amount and application route cross-checked with independent education analysis."
+    }
+  ],
+  "excluded": [
+    {
+      "candidate": "Macquarie international research round",
+      "reason": "Closed July31; excluded."
+    },
+    {
+      "candidate": "Bond Transformer/Leadership",
+      "reason": "Closed August31; excluded."
+    },
+    {
+      "candidate": "StudyAustralia listings as sole cross-check",
+      "reason": "Provider-supplied descriptions not sufficient independent verification; obtained independent educational analysis."
+    }
+  ],
+  "notes": [
+    "Tax provision confirmed in parliamentary finance report, not inferred from stakeholder statement or joint amendment.",
+    "Bac SIEC source read through web tool after direct retrieval returned only challenge text; no bypass.",
+    "Taiwan eligible-country lists explicitly checked for Stand Out and Business bursary; Excellence all-country offshore exclusions checked.",
+    "OpportunityInside November1 is only a working target, not an official scholarship cutoff; not published as deadline.",
+    "Collegedunia independent analysis used only for award mechanisms; India-specific advice and conversions not transferred to Taiwan."
+  ]
+}

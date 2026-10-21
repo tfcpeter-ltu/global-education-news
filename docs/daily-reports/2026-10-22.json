@@ -2,8 +2,8 @@
   "date": "2026-10-22",
   "timezone": "Asia/Taipei",
   "startedAt": "2026-10-22T04:57:33.0529817+08:00",
-  "status": "in_progress",
-  "currentPhase": "COMMIT_DEPLOY",
+  "status": "completed",
+  "currentPhase": "COMPLETE",
   "baseMainSha": "65299ca360f778fd104c3cc99b992d1715b8aabf",
   "scholarshipBaselineSlugs": [
     "2026-08-bristol-think-big",
@@ -213,7 +213,62 @@
     "catalog-vanderbilt-ingram",
     "catalog-yale-international-aid"
   ],
-  "newsPublished": [],
+  "newsPublished": [
+    {
+      "slug": "france-campus-blockades-study-continuity-october-2026",
+      "title": "法國高中抗議延伸大學：赴法學生先查校園與授課通知",
+      "url": "https://globalednews.com/news/france-campus-blockades-study-continuity-october-2026/",
+      "publishedPath": "src/pages/news/france-campus-blockades-study-continuity-october-2026.md",
+      "sources": [
+        {
+          "label": "Official primary source",
+          "url": "https://franceuniversites.fr/actualite/france-universites-exprime-son-soutien-aux-presidentes-et-presidents-detablissements-confrontes-aux-blocus-de-campus/"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://www.letudiant.fr/educpros/actualite/la-mobilisation-lyceenne-gagne-la-communaute-etudiante.html"
+        }
+      ],
+      "verifiedAt": "2026-10-22T05:14:22.418481+08:00",
+      "publishedVerifiedAt": "2026-10-22T05:14:22.418481+08:00"
+    },
+    {
+      "slug": "france-bac-2027-registration-regional-deadlines",
+      "title": "法國2027 Bac報名已啟動：巴黎三學區11月8日截止，不能套用全國",
+      "url": "https://globalednews.com/news/france-bac-2027-registration-regional-deadlines/",
+      "publishedPath": "src/pages/news/france-bac-2027-registration-regional-deadlines.md",
+      "sources": [
+        {
+          "label": "Official primary source",
+          "url": "https://siec.education.fr/actualites/inscriptions-examens-generaux-technologiques-professionnels-session-2027"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://monbacfrancais.com/actualites/cyclades-bac-2027-les-dates-dinscription-en-ile-de-france-et-a-orleans-tours"
+        }
+      ],
+      "verifiedAt": "2026-10-22T05:14:22.418481+08:00",
+      "publishedVerifiedAt": "2026-10-22T05:14:22.418481+08:00"
+    },
+    {
+      "slug": "france-apprenticeship-tax-unallocated-balance-2027",
+      "title": "法國2027預算爭議：未分配學徒稅餘額擬改流向，高教團體反對",
+      "url": "https://globalednews.com/news/france-apprenticeship-tax-unallocated-balance-2027/",
+      "publishedPath": "src/pages/news/france-apprenticeship-tax-unallocated-balance-2027.md",
+      "sources": [
+        {
+          "label": "Official primary source",
+          "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B3291-tII-v1.html"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://franceuniversites.fr/actualite/taxe-dapprentissage-france-universites-et-les-representants-de-lenseignement-superieur-sopposent-a-son-detournement-dans-le-plf-2027/"
+        }
+      ],
+      "verifiedAt": "2026-10-22T05:14:22.418481+08:00",
+      "publishedVerifiedAt": "2026-10-22T05:14:22.418481+08:00"
+    }
+  ],
   "scholarshipChecks": [
     {
       "slug": "2026-10-bond-undergraduate-excellence",
@@ -229,7 +284,8 @@
       "verifiedAt": "2026-10-22T05:03:31.584436+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New distinct award; official current status, Taiwan eligibility, exclusions, amount and application route cross-checked with independent education analysis."
+      "updateSummary": "New distinct award; official current status, Taiwan eligibility, exclusions, amount and application route cross-checked with independent education analysis.",
+      "publishedVerifiedAt": "2026-10-22T05:14:22.418481+08:00"
     },
     {
       "slug": "2026-10-bond-international-stand-out",
@@ -245,7 +301,8 @@
       "verifiedAt": "2026-10-22T05:03:31.584436+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New distinct award; official current status, Taiwan eligibility, exclusions, amount and application route cross-checked with independent education analysis."
+      "updateSummary": "New distinct award; official current status, Taiwan eligibility, exclusions, amount and application route cross-checked with independent education analysis.",
+      "publishedVerifiedAt": "2026-10-22T05:14:22.418481+08:00"
     },
     {
       "slug": "2026-10-bond-business-postgraduate-bursary",
@@ -261,7 +318,8 @@
       "verifiedAt": "2026-10-22T05:03:31.584436+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New distinct award; official current status, Taiwan eligibility, exclusions, amount and application route cross-checked with independent education analysis."
+      "updateSummary": "New distinct award; official current status, Taiwan eligibility, exclusions, amount and application route cross-checked with independent education analysis.",
+      "publishedVerifiedAt": "2026-10-22T05:14:22.418481+08:00"
     }
   ],
   "scholarshipAdditions": [
@@ -279,7 +337,8 @@
       "verifiedAt": "2026-10-22T05:03:31.584436+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New distinct award; official current status, Taiwan eligibility, exclusions, amount and application route cross-checked with independent education analysis."
+      "updateSummary": "New distinct award; official current status, Taiwan eligibility, exclusions, amount and application route cross-checked with independent education analysis.",
+      "publishedVerifiedAt": "2026-10-22T05:14:22.418481+08:00"
     },
     {
       "slug": "2026-10-bond-international-stand-out",
@@ -295,7 +354,8 @@
       "verifiedAt": "2026-10-22T05:03:31.584436+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New distinct award; official current status, Taiwan eligibility, exclusions, amount and application route cross-checked with independent education analysis."
+      "updateSummary": "New distinct award; official current status, Taiwan eligibility, exclusions, amount and application route cross-checked with independent education analysis.",
+      "publishedVerifiedAt": "2026-10-22T05:14:22.418481+08:00"
     },
     {
       "slug": "2026-10-bond-business-postgraduate-bursary",
@@ -311,18 +371,335 @@
       "verifiedAt": "2026-10-22T05:03:31.584436+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New distinct award; official current status, Taiwan eligibility, exclusions, amount and application route cross-checked with independent education analysis."
+      "updateSummary": "New distinct award; official current status, Taiwan eligibility, exclusions, amount and application route cross-checked with independent education analysis.",
+      "publishedVerifiedAt": "2026-10-22T05:14:22.418481+08:00"
     }
   ],
   "peterImports": [],
-  "socialPosts": [],
-  "gaps": [
-    "BUILD",
-    "COMMIT_DEPLOY",
-    "PUBLISH",
-    "ACCEPTANCE",
-    "VERIFY"
+  "socialPosts": [
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "pageId": "101904929207004",
+      "articleUrl": "https://globalednews.com/news/france-campus-blockades-study-continuity-october-2026/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "photoAttachedAt": "2026-10-22T05:12:49.469+08:00",
+      "photoReadyEvidence": "docs/daily-checks/2026-10-22/news-facebook-photo-ready.png",
+      "copyAddedAt": "2026-10-22T05:12:49.626+08:00",
+      "publishClickedAt": "2026-10-22T05:14:29.844+08:00",
+      "id": "1095660799876784",
+      "publishedAt": "2026-10-22T05:14:00+08:00",
+      "publishedAtBasis": "Meta published list minute precision",
+      "publicUrl": "https://facebook.com/LTUOSSDTaiwan/posts/pfbid02mMKPJUZTEE1SKMeD6dkikvXBNqJDEYwCEcD3qDFJt1RaXCHZ4m4KTsDrWiApcCnrl",
+      "photoAttachments": [
+        {
+          "id": "1095659753210222",
+          "url": "https://www.facebook.com/photo/?fbid=1095659753210222"
+        }
+      ],
+      "verifiedAt": "2026-10-22T05:16:48.072+08:00",
+      "mediaVerifiedAt": "2026-10-22T05:16:48.072+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-10-22/news-facebook-native-photo.png",
+      "visibility": "public",
+      "mediaKind": "uploaded-photo",
+      "publicPhotoScreenshot": "docs/daily-checks/2026-10-22/news-facebook-native-photo.png",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-22T05:16:48.072+08:00"
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/news/france-campus-blockades-study-continuity-october-2026/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "threadsSync": false,
+      "publishClickedAt": "2026-10-22T05:14:29.844+08:00",
+      "id": "DexWV5yAVmx",
+      "publicUrl": "https://www.instagram.com/p/DexWV5yAVmx/",
+      "publishedAt": "2026-10-22T05:14:00+08:00",
+      "verifiedAt": "2026-10-22T05:16:31.181+08:00",
+      "mediaVerifiedAt": "2026-10-22T05:16:31.181+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-10-22/news-instagram-public.png",
+      "visibility": "public"
+    },
+    {
+      "campaign": "news",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/news/france-campus-blockades-study-continuity-october-2026/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "publishClickedAt": "2026-10-22T05:14:30.925+08:00",
+      "id": "DexWV3kE3Fs",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DexWV3kE3Fs",
+      "verifiedAt": "2026-10-22T05:15:22.709+08:00",
+      "mediaVerifiedAt": "2026-10-22T05:15:22.709+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-10-22/news-threads-public.png",
+      "visibility": "public",
+      "publishedAt": "2026-10-22T05:14:32+08:00"
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "account": "Peter Chen",
+      "articleUrl": "https://globalednews.com/news/france-campus-blockades-study-continuity-october-2026/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "publishClickedAt": "2026-10-22T05:15:12.036+08:00",
+      "id": "7518781974216347648",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7518781974216347648/",
+      "publishedAt": "2026-10-22T05:15:12.036+08:00",
+      "publishedAtBasis": "Observed publish action; public page relative time",
+      "verifiedAt": "2026-10-22T05:15:53.638+08:00",
+      "mediaVerifiedAt": "2026-10-22T05:15:53.638+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-10-22/news-linkedin-photo.png",
+      "visibility": "public"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "pageId": "101904929207004",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-bond-undergraduate-excellence/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "photoAttachedAt": "2026-10-22T05:17:13.769+08:00",
+      "photoReadyEvidence": "docs/daily-checks/2026-10-22/scholarship-facebook-photo-ready.png",
+      "copyAddedAt": "2026-10-22T05:17:13.889+08:00",
+      "publishClickedAt": "2026-10-22T05:17:20.533+08:00",
+      "id": "1095662473209950",
+      "publishedAt": "2026-10-22T05:17:00+08:00",
+      "publishedAtBasis": "Meta published list minute precision",
+      "publicUrl": "https://facebook.com/LTUOSSDTaiwan/posts/pfbid0NNX32Lg4qcrGdxRnQubJroCjNRNz1RbaEJneT2f1m5rRq7vVXUQkbUfBv7WbFHTzl",
+      "photoAttachments": [
+        {
+          "id": "1095662183209979",
+          "url": "https://www.facebook.com/photo/?fbid=1095662183209979"
+        }
+      ],
+      "verifiedAt": "2026-10-22T05:18:37.545+08:00",
+      "mediaVerifiedAt": "2026-10-22T05:18:37.545+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-10-22/scholarship-facebook-native-photo.png",
+      "visibility": "public",
+      "mediaKind": "uploaded-photo",
+      "publicPhotoScreenshot": "docs/daily-checks/2026-10-22/scholarship-facebook-native-photo.png",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-22T05:18:37.545+08:00"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-bond-undergraduate-excellence/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "threadsSync": false,
+      "publishClickedAt": "2026-10-22T05:17:20.533+08:00",
+      "id": "DexWqqYAZP5",
+      "publicUrl": "https://www.instagram.com/p/DexWqqYAZP5/",
+      "publishedAt": "2026-10-22T05:17:00+08:00",
+      "verifiedAt": "2026-10-22T05:18:24.058+08:00",
+      "mediaVerifiedAt": "2026-10-22T05:18:24.058+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-10-22/scholarship-instagram-public.png",
+      "visibility": "public"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-bond-undergraduate-excellence/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "publishClickedAt": "2026-10-22T05:17:27.942+08:00",
+      "id": "DexWraIk9fZ",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DexWraIk9fZ",
+      "verifiedAt": "2026-10-22T05:18:08.169+08:00",
+      "mediaVerifiedAt": "2026-10-22T05:18:08.169+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-10-22/scholarship-threads-public.png",
+      "visibility": "public",
+      "publishedAt": "2026-10-22T05:17:28+08:00"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "account": "Peter Chen",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-bond-undergraduate-excellence/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "publishClickedAt": "2026-10-22T05:17:36.054+08:00",
+      "id": "7518782578976436224",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7518782578976436224/",
+      "publishedAt": "2026-10-22T05:17:36.054+08:00",
+      "publishedAtBasis": "Observed publish action; public page relative time",
+      "verifiedAt": "2026-10-22T05:18:24.058+08:00",
+      "mediaVerifiedAt": "2026-10-22T05:18:24.058+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-10-22/scholarship-linkedin-photo.png",
+      "visibility": "public"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "pageId": "101904929207004",
+      "articleUrl": "https://globalednews.com/study-abroad/bond-gold-coast-scholarship-application-routes/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "photoAttachedAt": "2026-10-22T05:18:46.672+08:00",
+      "photoReadyEvidence": "docs/daily-checks/2026-10-22/study-abroad-facebook-photo-ready.png",
+      "copyAddedAt": "2026-10-22T05:18:46.788+08:00",
+      "publishClickedAt": "2026-10-22T05:18:59.285+08:00",
+      "id": "1095663429876521",
+      "publishedAt": "2026-10-22T05:19:00+08:00",
+      "publishedAtBasis": "Meta published list minute precision",
+      "publicUrl": "https://facebook.com/LTUOSSDTaiwan/posts/pfbid02cbi62UYzAZXuSTvFnSqWRH225Z8fXQwcoVs92nkAaHotN6E2XZLpNouZpX4ARUzSl",
+      "photoAttachments": [
+        {
+          "id": "1095663113209886",
+          "url": "https://www.facebook.com/photo/?fbid=1095663113209886"
+        }
+      ],
+      "verifiedAt": "2026-10-22T05:19:58.967+08:00",
+      "mediaVerifiedAt": "2026-10-22T05:19:58.967+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-10-22/study-abroad-facebook-native-photo.png",
+      "visibility": "public",
+      "mediaKind": "uploaded-photo",
+      "publicPhotoScreenshot": "docs/daily-checks/2026-10-22/study-abroad-facebook-native-photo.png",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-22T05:19:58.967+08:00"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/study-abroad/bond-gold-coast-scholarship-application-routes/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "threadsSync": false,
+      "publishClickedAt": "2026-10-22T05:18:59.285+08:00",
+      "id": "DexW2xTAXUq",
+      "publicUrl": "https://www.instagram.com/p/DexW2xTAXUq/",
+      "publishedAt": "2026-10-22T05:19:00+08:00",
+      "verifiedAt": "2026-10-22T05:19:58.967+08:00",
+      "mediaVerifiedAt": "2026-10-22T05:19:58.967+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-10-22/study-abroad-instagram-public.png",
+      "visibility": "public"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/study-abroad/bond-gold-coast-scholarship-application-routes/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "publishClickedAt": "2026-10-22T05:18:59.285+08:00",
+      "id": "DexW2qFk_nL",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DexW2qFk_nL",
+      "verifiedAt": "2026-10-22T05:19:28.747+08:00",
+      "mediaVerifiedAt": "2026-10-22T05:19:28.747+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-10-22/study-abroad-threads-public.png",
+      "visibility": "public",
+      "publishedAt": "2026-10-22T05:19:00+08:00"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "account": "Peter Chen",
+      "articleUrl": "https://globalednews.com/study-abroad/bond-gold-coast-scholarship-application-routes/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "publishClickedAt": "2026-10-22T05:19:14.402+08:00",
+      "id": "7518782994048802816",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7518782994048802816/",
+      "publishedAt": "2026-10-22T05:19:14.402+08:00",
+      "publishedAtBasis": "Observed publish action; public page relative time",
+      "verifiedAt": "2026-10-22T05:19:58.967+08:00",
+      "mediaVerifiedAt": "2026-10-22T05:19:58.967+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-10-22/study-abroad-linkedin-photo.png",
+      "visibility": "public"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "publishClickedAt": "2026-10-22T05:20:31.506+08:00",
+      "id": "DexXBywE4rU",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DexXBywE4rU",
+      "verifiedAt": "2026-10-22T05:21:07.515+08:00",
+      "mediaVerifiedAt": "2026-10-22T05:21:07.515+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-10-22/taiwan-universities-threads-public.png",
+      "visibility": "public",
+      "publishedAt": "2026-10-22T05:20:32+08:00"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "threadsSync": false,
+      "publishClickedAt": "2026-10-22T05:20:38.041+08:00",
+      "platformId": "18099655583441519",
+      "publishedAt": "2026-10-22T05:20:00+08:00",
+      "id": "DexXCz0gaeD",
+      "publicUrl": "https://www.instagram.com/p/DexXCz0gaeD/",
+      "verifiedAt": "2026-10-22T05:21:43.173+08:00",
+      "mediaVerifiedAt": "2026-10-22T05:21:43.173+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-10-22/taiwan-universities-instagram-public.png",
+      "visibility": "public"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "account": "Peter Chen",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "status": "PUBLISHED",
+      "accountVerified": true,
+      "publishClickedAt": "2026-10-22T05:20:38.041+08:00",
+      "id": "7518783345627942912",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7518783345627942912/",
+      "publishedAt": "2026-10-22T05:20:38.041+08:00",
+      "publishedAtBasis": "Observed publish action; public page relative time",
+      "verifiedAt": "2026-10-22T05:21:21.511+08:00",
+      "mediaVerifiedAt": "2026-10-22T05:21:21.511+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-10-22/taiwan-universities-linkedin-photo.png",
+      "visibility": "public"
+    }
   ],
+  "gaps": [],
   "manualActions": [],
   "newsPrepared": [
     {
@@ -448,15 +825,25 @@
       7,
       8
     ],
-    "pendingLiveVerification": true
+    "pendingLiveVerification": false,
+    "visibleIndices": [
+      6,
+      7,
+      8
+    ],
+    "verifiedAt": "2026-10-22T05:30:32.640+08:00"
   },
   "phaseCompleted": [
     "PREFLIGHT",
     "RESEARCH",
     "PREPARE",
-    "BUILD"
+    "BUILD",
+    "COMMIT_DEPLOY",
+    "PUBLISH",
+    "ACCEPTANCE",
+    "VERIFY"
   ],
-  "updatedAt": "2026-10-22T05:03:31.584436+08:00",
+  "updatedAt": "2026-10-22T05:30:52.268+08:00",
   "preparedAt": "2026-10-22T05:04:22.206328+08:00",
   "build": {
     "status": "passed",
@@ -470,5 +857,85 @@
       "public-service-safety"
     ],
     "photoPreviewCount": 1538
+  },
+  "deployment": {
+    "status": "success",
+    "commit": "57d41b242c09d85b4f54771849607157a0df079a",
+    "runId": 39676776646,
+    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/39676776646",
+    "verifiedAt": "2026-10-22T05:14:16.891396+08:00"
+  },
+  "newFacebookPagePost": {
+    "campaign": "news",
+    "network": "facebook",
+    "pageId": "61595164194381",
+    "businessAssetId": "1355044634361784",
+    "articleUrl": "https://globalednews.com/news/france-campus-blockades-study-continuity-october-2026/",
+    "status": "PUBLISHED",
+    "accountVerified": true,
+    "photoAttachedAt": "2026-10-22T05:23:40.336+08:00",
+    "photoReadyEvidence": "docs/daily-checks/2026-10-22/new-facebook-photo-ready.png",
+    "copyAddedAt": "2026-10-22T05:23:40.544+08:00",
+    "publishClickedAt": "2026-10-22T05:23:51.676+08:00",
+    "id": "122110947627505473",
+    "publishedAt": "2026-10-22T05:23:00+08:00",
+    "publishedAtPrecision": "minute",
+    "publicUrl": "https://facebook.com/permalink.php?story_fbid=pfbid02d9pLa4Sj7BpJgvVHbNCoNgRDMCY1nESyNUy7mV96jQouo1JWrykX7F6TT65CpVX6l&id=61595164194381",
+    "photoAttachments": [
+      {
+        "id": "122110947369505473",
+        "url": "https://www.facebook.com/photo/?fbid=122110947369505473&set=a.122094964809505473"
+      }
+    ],
+    "verifiedAt": "2026-10-22T05:27:11.183+08:00",
+    "mediaVerifiedAt": "2026-10-22T05:27:11.183+08:00",
+    "imageCount": 1,
+    "mediaStatus": "VERIFIED",
+    "mediaEvidence": "docs/daily-checks/2026-10-22/new-facebook-public.png",
+    "visibility": "public",
+    "mediaKind": "uploaded-photo",
+    "previewStatus": "VERIFIED",
+    "previewVerifiedAt": "2026-10-22T05:27:11.183+08:00",
+    "publicPhotoScreenshot": "docs/daily-checks/2026-10-22/new-facebook-native-photo.png"
+  },
+  "acceptance": {
+    "desktop": true,
+    "mobile": true,
+    "seo": true,
+    "verifiedAt": "2026-10-22T05:30:32.640+08:00",
+    "uiEvidence": "docs/daily-reports/2026-10-22-live-ui.json",
+    "seoEvidence": "docs/daily-reports/2026-10-22-live-seo.json",
+    "checks": [
+      "desktop home and images",
+      "390px mobile home and article image; no horizontal overflow",
+      "desktop/mobile search Enter and button; combined filters; zero results; clear24; more48",
+      "14 bilingual pages: canonical, OG photo, schema, English no CJK",
+      "sitemap, News sitemap, RSS, robots",
+      "LTU rotation 6/7/8"
+    ]
+  },
+  "studyAbroadPublished": {
+    "slug": "bond-gold-coast-scholarship-application-routes",
+    "title": "Bond留學DIY：50%、25%與5,000澳元，申請路徑怎麼分？",
+    "url": "https://globalednews.com/study-abroad/bond-gold-coast-scholarship-application-routes/",
+    "sources": [
+      {
+        "label": "Bond official scholarships",
+        "url": "https://bond.edu.au/scholarship/international-undergraduate-excellence-scholarship"
+      },
+      {
+        "label": "Independent postgraduate funding analysis",
+        "url": "https://collegedunia.com/australia/university/601-bond-university-gold-coast/master-of-business-administration-mba-184687"
+      }
+    ],
+    "verifiedAt": "2026-10-22T05:14:22.418481+08:00"
+  },
+  "completedAt": "2026-10-22T05:30:52.268+08:00",
+  "verification": {
+    "status": "COMPLETE",
+    "command": "node scripts/verify-daily-delivery.mjs 2026-10-22",
+    "verifiedAt": "2026-10-22T05:30:52.268+08:00",
+    "exitCode": 0,
+    "evidence": "docs/daily-checks/2026-10-22/verify-daily-delivery.log"
   }
 }

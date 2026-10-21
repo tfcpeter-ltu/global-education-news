@@ -1,0 +1,355 @@
+{
+  "date": "2026-10-22",
+  "desktopHome": {
+    "height": 772,
+    "images": [
+      {
+        "complete": true,
+        "src": "https://globalednews.com/ads/images/uwe-bristol-floating-ad.webp",
+        "width": 1080
+      },
+      {
+        "complete": true,
+        "src": "https://globalednews.com/images/daily/2026-10-22/tax.jpg",
+        "width": 1800
+      },
+      {
+        "complete": true,
+        "src": "https://globalednews.com/images/daily/2026-10-22/bac.jpg",
+        "width": 1800
+      },
+      {
+        "complete": true,
+        "src": "https://globalednews.com/images/daily/2026-10-22/blockades.jpg",
+        "width": 1800
+      },
+      {
+        "complete": true,
+        "src": "https://globalednews.com/ads/images/cambridge-enjoyabc-business.webp",
+        "width": 1265
+      },
+      {
+        "complete": true,
+        "src": "https://globalednews.com/ads/images/cambridge-language-logo.png",
+        "width": 120
+      },
+      {
+        "complete": true,
+        "src": "https://globalednews.com/ads/images/enjoyabc-logo.png",
+        "width": 205
+      },
+      {
+        "complete": true,
+        "src": "https://globalednews.com/ads/images/royal-crown-school-home-banner.webp",
+        "width": 1500
+      },
+      {
+        "complete": false,
+        "src": "https://globalednews.com/images/daily/2026-10-22/tax.jpg",
+        "width": 1800
+      },
+      {
+        "complete": false,
+        "src": "https://globalednews.com/images/daily/2026-10-22/bac.jpg",
+        "width": 1800
+      },
+      {
+        "complete": false,
+        "src": "https://globalednews.com/images/daily/2026-10-22/blockades.jpg",
+        "width": 1800
+      },
+      {
+        "complete": false,
+        "src": "",
+        "width": 0
+      },
+      {
+        "complete": false,
+        "src": "",
+        "width": 0
+      },
+      {
+        "complete": false,
+        "src": "",
+        "width": 0
+      },
+      {
+        "complete": false,
+        "src": "",
+        "width": 0
+      }
+    ],
+    "ltu": [
+      {
+        "index": "6",
+        "title": "僑泰高中雙語班傳捷報！5學子前進世界百大名校 打破校史紀錄"
+      },
+      {
+        "index": "7",
+        "title": "LTU OSSD攜手皇冠高中舉辦暑期籃球ESL領袖營"
+      },
+      {
+        "index": "8",
+        "title": "2025年暑假最強中學籃球營加拿大登場跟HBL明星球員面對面打球"
+      }
+    ],
+    "scrollWidth": 1891,
+    "width": 1910
+  },
+  "desktopSearch": {
+    "enter": {
+      "cards": [
+        "Bond商學院研究生助學金：5,000澳元生活補助",
+        "Bond國際Stand Out獎：合格學士及碩士學費減25%",
+        "Bond國際學士卓越獎：合格學費減50%"
+      ],
+      "height": 772,
+      "scrollWidth": 1891,
+      "width": 1910
+    },
+    "combined": {
+      "cards": [
+        "Bond國際Stand Out獎：合格學士及碩士學費減25%",
+        "Bond國際學士卓越獎：合格學費減50%"
+      ],
+      "height": 772,
+      "scrollWidth": 1891,
+      "width": 1910
+    },
+    "zero": {
+      "cards": [],
+      "height": 772,
+      "scrollWidth": 1891,
+      "width": 1910
+    },
+    "reset": {
+      "cards": [
+        "Bond商學院研究生助學金：5,000澳元生活補助",
+        "Bond國際Stand Out獎：合格學士及碩士學費減25%",
+        "Bond國際學士卓越獎：合格學費減50%",
+        "Flinders全球卓越獎：2027合格課程學費減30%",
+        "Flinders全球獎學金：2027合格課程學費減25%",
+        "Flinders新生啟動獎：2027合格課程學費減20%",
+        "Curtin未來領袖獎：學費抵減1萬澳元，分兩期入帳",
+        "Curtin全球卓越獎：合格課程學費減40%，須達高成績門檻",
+        "ECU北亞獎學金：台灣列入資格，合格課程學費減20%",
+        "Lancaster管理學院升學獎：2:2同等學位可評估10%減免",
+        "Lancaster碩士卓越獎：2027學費減免15%",
+        "Lancaster本科卓越獎：符合條件每學年減免£3,000",
+        "Canterbury商學碩士獎NZ$16,500：2027入學，10月31日截止",
+        "Waikato研究碩士獎最高NZ$15,000：須有紐西蘭120學分背景",
+        "Waikato校長國際獎：本科最高NZ$15,000，研究所最高NZ$10,000",
+        "Griffith國際學術獎學金：2027入學可評估20%學費減免",
+        "Griffith校長國際獎學金：50%學費減免，2027首學期11月28日截止",
+        "Massey Toroa碩士獎學金：NZ$5,000，10月20日截止",
+        "Lincoln銜接課程獎學金：NZ$2,500學費抵扣，先確認台灣學歷路徑",
+        "Lincoln指定授課碩士獎學金：NZ$7,000至15,000，依課程與成績分級",
+        "Lincoln本科校長獎學金：新國際生可競逐NZ$5,000",
+        "Otago全球碩士獎學金2027：指定授課碩士學費減免NZ$15,000",
+        "Otago全球本科獎學金：台灣境外申請人可獲NZ$15,000學費支持",
+        "Otago國際學術卓越獎學金：本科新生受邀後兩週內申請"
+      ],
+      "height": 772,
+      "scrollWidth": 1891,
+      "width": 1910
+    },
+    "more": {
+      "cards": [
+        "Bond商學院研究生助學金：5,000澳元生活補助",
+        "Bond國際Stand Out獎：合格學士及碩士學費減25%",
+        "Bond國際學士卓越獎：合格學費減50%",
+        "Flinders全球卓越獎：2027合格課程學費減30%",
+        "Flinders全球獎學金：2027合格課程學費減25%",
+        "Flinders新生啟動獎：2027合格課程學費減20%",
+        "Curtin未來領袖獎：學費抵減1萬澳元，分兩期入帳",
+        "Curtin全球卓越獎：合格課程學費減40%，須達高成績門檻",
+        "ECU北亞獎學金：台灣列入資格，合格課程學費減20%",
+        "Lancaster管理學院升學獎：2:2同等學位可評估10%減免",
+        "Lancaster碩士卓越獎：2027學費減免15%",
+        "Lancaster本科卓越獎：符合條件每學年減免£3,000",
+        "Canterbury商學碩士獎NZ$16,500：2027入學，10月31日截止",
+        "Waikato研究碩士獎最高NZ$15,000：須有紐西蘭120學分背景",
+        "Waikato校長國際獎：本科最高NZ$15,000，研究所最高NZ$10,000",
+        "Griffith國際學術獎學金：2027入學可評估20%學費減免",
+        "Griffith校長國際獎學金：50%學費減免，2027首學期11月28日截止",
+        "Massey Toroa碩士獎學金：NZ$5,000，10月20日截止",
+        "Lincoln銜接課程獎學金：NZ$2,500學費抵扣，先確認台灣學歷路徑",
+        "Lincoln指定授課碩士獎學金：NZ$7,000至15,000，依課程與成績分級",
+        "Lincoln本科校長獎學金：新國際生可競逐NZ$5,000",
+        "Otago全球碩士獎學金2027：指定授課碩士學費減免NZ$15,000",
+        "Otago全球本科獎學金：台灣境外申請人可獲NZ$15,000學費支持",
+        "Otago國際學術卓越獎學金：本科新生受邀後兩週內申請",
+        "AUT北亞獎學金2027：台灣新生可申請，第一學期11月22日截止",
+        "威靈頓維多利亞大學研究所國際獎學金：合格新生學費抵扣NZ$10,000",
+        "威靈頓維多利亞大學本科國際獎學金：首年學費抵扣NZ$15,000",
+        "Newcastle Australia 2027國際卓越獎學金：全課程學費減免20%",
+        "UniSQ 2027國際卓越獎學金：全學程學費減免15%",
+        "UWA 2027全球卓越獎學金：合格國際生最高減免20%學費",
+        "Bath 2027國際大學部卓越獎學金：每年8,000英鎊、最高24,000英鎊",
+        "St Andrews 2027年1月 TESOL／國際教育碩士獎學金：海外生2,000英鎊",
+        "Westminster 2027年1月國際碩士卓越獎學金：最高5,000英鎊",
+        "紐西蘭 Massey 2027 創意藝術碩士獎學金：國際新生開放申請",
+        "西雪梨大學 2027 國際本科獎學金：每年 5,000 或 10,000 澳元",
+        "英國 Sheffield 2027 國際碩士獎學金：台灣學生可獲 7,000 英鎊",
+        "American University 2027 Emerging Global Leader：兩名全額、另有每年最高 4 萬美元",
+        "Queen Mary 2027 Global Talent 碩士獎學金：6,000 英鎊、10 月開放",
+        "英國 Exeter 2027 台灣碩士獎學金：5,000 英鎊、自動審核",
+        "英國鄧迪大學 2027 全球卓越本科獎學金：台灣適用、每年 3,000 英鎊",
+        "加拿大滑鐵盧大學 2027 國際新生獎學金：首年 10,000 加幣、自動核發",
+        "英國艾塞克斯大學 2027 國際本科獎學金：台灣學生首年學費減免 5,000 英鎊",
+        "坎特伯雷大學2027境外國際新生獎學金：首年NZ$15,000",
+        "Massey Toroa 2027國際本科獎學金：NZ$10,000學費補助、最多40名",
+        "Newcastle 2027副校長國際本科獎學金：台灣學生每年£7,000",
+        "Boise State 2027秋季國際新生獎學金：每年最高US$17,000",
+        "University of Hertfordshire 2027年1月校長國際獎學金：£500至£4,000",
+        "Nottingham Trent 2027年1月台灣碩士獎學金：最高50%學費減免"
+      ],
+      "height": 772,
+      "scrollWidth": 1891,
+      "width": 1910
+    }
+  },
+  "mobileHome": {
+    "height": 843,
+    "ltu": [
+      "6",
+      "7",
+      "8"
+    ],
+    "scrollWidth": 371,
+    "visibleImages": [
+      {
+        "loaded": true,
+        "src": "https://globalednews.com/ads/images/uwe-bristol-floating-ad.webp"
+      },
+      {
+        "loaded": true,
+        "src": "https://globalednews.com/images/daily/2026-10-22/tax.jpg"
+      }
+    ],
+    "width": 390
+  },
+  "mobileSearch": {
+    "enter": {
+      "cards": [
+        "Bond商學院研究生助學金：5,000澳元生活補助",
+        "Bond國際Stand Out獎：合格學士及碩士學費減25%",
+        "Bond國際學士卓越獎：合格學費減50%"
+      ],
+      "scrollWidth": 371,
+      "width": 390
+    },
+    "combined": {
+      "cards": [
+        "Bond國際Stand Out獎：合格學士及碩士學費減25%",
+        "Bond國際學士卓越獎：合格學費減50%"
+      ],
+      "scrollWidth": 371,
+      "width": 390
+    },
+    "zero": {
+      "cards": [],
+      "scrollWidth": 371,
+      "width": 390
+    },
+    "reset": {
+      "cards": [
+        "Bond商學院研究生助學金：5,000澳元生活補助",
+        "Bond國際Stand Out獎：合格學士及碩士學費減25%",
+        "Bond國際學士卓越獎：合格學費減50%",
+        "Flinders全球卓越獎：2027合格課程學費減30%",
+        "Flinders全球獎學金：2027合格課程學費減25%",
+        "Flinders新生啟動獎：2027合格課程學費減20%",
+        "Curtin未來領袖獎：學費抵減1萬澳元，分兩期入帳",
+        "Curtin全球卓越獎：合格課程學費減40%，須達高成績門檻",
+        "ECU北亞獎學金：台灣列入資格，合格課程學費減20%",
+        "Lancaster管理學院升學獎：2:2同等學位可評估10%減免",
+        "Lancaster碩士卓越獎：2027學費減免15%",
+        "Lancaster本科卓越獎：符合條件每學年減免£3,000",
+        "Canterbury商學碩士獎NZ$16,500：2027入學，10月31日截止",
+        "Waikato研究碩士獎最高NZ$15,000：須有紐西蘭120學分背景",
+        "Waikato校長國際獎：本科最高NZ$15,000，研究所最高NZ$10,000",
+        "Griffith國際學術獎學金：2027入學可評估20%學費減免",
+        "Griffith校長國際獎學金：50%學費減免，2027首學期11月28日截止",
+        "Massey Toroa碩士獎學金：NZ$5,000，10月20日截止",
+        "Lincoln銜接課程獎學金：NZ$2,500學費抵扣，先確認台灣學歷路徑",
+        "Lincoln指定授課碩士獎學金：NZ$7,000至15,000，依課程與成績分級",
+        "Lincoln本科校長獎學金：新國際生可競逐NZ$5,000",
+        "Otago全球碩士獎學金2027：指定授課碩士學費減免NZ$15,000",
+        "Otago全球本科獎學金：台灣境外申請人可獲NZ$15,000學費支持",
+        "Otago國際學術卓越獎學金：本科新生受邀後兩週內申請"
+      ],
+      "scrollWidth": 371,
+      "width": 390
+    },
+    "more": {
+      "cards": [
+        "Bond商學院研究生助學金：5,000澳元生活補助",
+        "Bond國際Stand Out獎：合格學士及碩士學費減25%",
+        "Bond國際學士卓越獎：合格學費減50%",
+        "Flinders全球卓越獎：2027合格課程學費減30%",
+        "Flinders全球獎學金：2027合格課程學費減25%",
+        "Flinders新生啟動獎：2027合格課程學費減20%",
+        "Curtin未來領袖獎：學費抵減1萬澳元，分兩期入帳",
+        "Curtin全球卓越獎：合格課程學費減40%，須達高成績門檻",
+        "ECU北亞獎學金：台灣列入資格，合格課程學費減20%",
+        "Lancaster管理學院升學獎：2:2同等學位可評估10%減免",
+        "Lancaster碩士卓越獎：2027學費減免15%",
+        "Lancaster本科卓越獎：符合條件每學年減免£3,000",
+        "Canterbury商學碩士獎NZ$16,500：2027入學，10月31日截止",
+        "Waikato研究碩士獎最高NZ$15,000：須有紐西蘭120學分背景",
+        "Waikato校長國際獎：本科最高NZ$15,000，研究所最高NZ$10,000",
+        "Griffith國際學術獎學金：2027入學可評估20%學費減免",
+        "Griffith校長國際獎學金：50%學費減免，2027首學期11月28日截止",
+        "Massey Toroa碩士獎學金：NZ$5,000，10月20日截止",
+        "Lincoln銜接課程獎學金：NZ$2,500學費抵扣，先確認台灣學歷路徑",
+        "Lincoln指定授課碩士獎學金：NZ$7,000至15,000，依課程與成績分級",
+        "Lincoln本科校長獎學金：新國際生可競逐NZ$5,000",
+        "Otago全球碩士獎學金2027：指定授課碩士學費減免NZ$15,000",
+        "Otago全球本科獎學金：台灣境外申請人可獲NZ$15,000學費支持",
+        "Otago國際學術卓越獎學金：本科新生受邀後兩週內申請",
+        "AUT北亞獎學金2027：台灣新生可申請，第一學期11月22日截止",
+        "威靈頓維多利亞大學研究所國際獎學金：合格新生學費抵扣NZ$10,000",
+        "威靈頓維多利亞大學本科國際獎學金：首年學費抵扣NZ$15,000",
+        "Newcastle Australia 2027國際卓越獎學金：全課程學費減免20%",
+        "UniSQ 2027國際卓越獎學金：全學程學費減免15%",
+        "UWA 2027全球卓越獎學金：合格國際生最高減免20%學費",
+        "Bath 2027國際大學部卓越獎學金：每年8,000英鎊、最高24,000英鎊",
+        "St Andrews 2027年1月 TESOL／國際教育碩士獎學金：海外生2,000英鎊",
+        "Westminster 2027年1月國際碩士卓越獎學金：最高5,000英鎊",
+        "紐西蘭 Massey 2027 創意藝術碩士獎學金：國際新生開放申請",
+        "西雪梨大學 2027 國際本科獎學金：每年 5,000 或 10,000 澳元",
+        "英國 Sheffield 2027 國際碩士獎學金：台灣學生可獲 7,000 英鎊",
+        "American University 2027 Emerging Global Leader：兩名全額、另有每年最高 4 萬美元",
+        "Queen Mary 2027 Global Talent 碩士獎學金：6,000 英鎊、10 月開放",
+        "英國 Exeter 2027 台灣碩士獎學金：5,000 英鎊、自動審核",
+        "英國鄧迪大學 2027 全球卓越本科獎學金：台灣適用、每年 3,000 英鎊",
+        "加拿大滑鐵盧大學 2027 國際新生獎學金：首年 10,000 加幣、自動核發",
+        "英國艾塞克斯大學 2027 國際本科獎學金：台灣學生首年學費減免 5,000 英鎊",
+        "坎特伯雷大學2027境外國際新生獎學金：首年NZ$15,000",
+        "Massey Toroa 2027國際本科獎學金：NZ$10,000學費補助、最多40名",
+        "Newcastle 2027副校長國際本科獎學金：台灣學生每年£7,000",
+        "Boise State 2027秋季國際新生獎學金：每年最高US$17,000",
+        "University of Hertfordshire 2027年1月校長國際獎學金：£500至£4,000",
+        "Nottingham Trent 2027年1月台灣碩士獎學金：最高50%學費減免"
+      ],
+      "scrollWidth": 371,
+      "width": 390
+    }
+  },
+  "mobileArticle": {
+    "height": 843,
+    "images": [
+      {
+        "loaded": true,
+        "src": "https://globalednews.com/images/share-photos/a3a551622fcfa87ab294c9f0.jpg"
+      }
+    ],
+    "scrollWidth": 371,
+    "url": "https://globalednews.com/news/france-campus-blockades-study-continuity-october-2026/",
+    "width": 390
+  },
+  "verifiedAt": "2026-10-22T05:29:11.807+08:00",
+  "status": "PASS",
+  "mobileAdDismissed": true
+}

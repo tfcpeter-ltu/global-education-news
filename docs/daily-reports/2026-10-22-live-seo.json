@@ -1,0 +1,140 @@
+{
+  "verifiedAt": "2026-10-22T05:14:22.418481+08:00",
+  "pages": [
+    {
+      "url": "https://globalednews.com/news/france-campus-blockades-study-continuity-october-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/france-campus-blockades-study-continuity-october-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/a3a551622fcfa87ab294c9f0.jpg",
+      "ogBytes": 192339,
+      "schemaCount": 4,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/news/france-bac-2027-registration-regional-deadlines/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/france-bac-2027-registration-regional-deadlines/",
+      "ogImage": "https://globalednews.com/images/share-photos/57e957a22a362f4153c7750f.jpg",
+      "ogBytes": 261861,
+      "schemaCount": 4,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/news/france-apprenticeship-tax-unallocated-balance-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/france-apprenticeship-tax-unallocated-balance-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/5ec2aac731b79df834af79b7.jpg",
+      "ogBytes": 301719,
+      "schemaCount": 4,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-10-bond-undergraduate-excellence/",
+      "status": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-10-bond-undergraduate-excellence/",
+      "ogImage": "https://globalednews.com/images/share-photos/1b361cf6943838538983083c.jpg",
+      "ogBytes": 267090,
+      "schemaCount": 2,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-10-bond-international-stand-out/",
+      "status": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-10-bond-international-stand-out/",
+      "ogImage": "https://globalednews.com/images/share-photos/a9ad6bd20e9ea1d354c9ff0d.jpg",
+      "ogBytes": 264663,
+      "schemaCount": 2,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-10-bond-business-postgraduate-bursary/",
+      "status": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-10-bond-business-postgraduate-bursary/",
+      "ogImage": "https://globalednews.com/images/share-photos/a3348cc79fe1fd4edd512b53.jpg",
+      "ogBytes": 258430,
+      "schemaCount": 2,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/study-abroad/bond-gold-coast-scholarship-application-routes/",
+      "status": 200,
+      "canonical": "https://globalednews.com/study-abroad/bond-gold-coast-scholarship-application-routes/",
+      "ogImage": "https://globalednews.com/images/share-photos/714ee45257937b484372d32d.jpg",
+      "ogBytes": 168823,
+      "schemaCount": 4,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/en/news/france-campus-blockades-study-continuity-october-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/france-campus-blockades-study-continuity-october-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/a3a551622fcfa87ab294c9f0.jpg",
+      "ogBytes": 192339,
+      "schemaCount": 4,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/news/france-bac-2027-registration-regional-deadlines/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/france-bac-2027-registration-regional-deadlines/",
+      "ogImage": "https://globalednews.com/images/share-photos/57e957a22a362f4153c7750f.jpg",
+      "ogBytes": 261861,
+      "schemaCount": 4,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/news/france-apprenticeship-tax-unallocated-balance-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/france-apprenticeship-tax-unallocated-balance-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/5ec2aac731b79df834af79b7.jpg",
+      "ogBytes": 301719,
+      "schemaCount": 4,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/scholarships/items/2026-10-bond-undergraduate-excellence/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/scholarships/items/2026-10-bond-undergraduate-excellence/",
+      "ogImage": "https://globalednews.com/images/share-photos/1b361cf6943838538983083c.jpg",
+      "ogBytes": 267090,
+      "schemaCount": 2,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/scholarships/items/2026-10-bond-international-stand-out/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/scholarships/items/2026-10-bond-international-stand-out/",
+      "ogImage": "https://globalednews.com/images/share-photos/a9ad6bd20e9ea1d354c9ff0d.jpg",
+      "ogBytes": 264663,
+      "schemaCount": 2,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/scholarships/items/2026-10-bond-business-postgraduate-bursary/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/scholarships/items/2026-10-bond-business-postgraduate-bursary/",
+      "ogImage": "https://globalednews.com/images/share-photos/a3348cc79fe1fd4edd512b53.jpg",
+      "ogBytes": 258430,
+      "schemaCount": 2,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/study-abroad/bond-gold-coast-scholarship-application-routes/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/study-abroad/bond-gold-coast-scholarship-application-routes/",
+      "ogImage": "https://globalednews.com/images/share-photos/714ee45257937b484372d32d.jpg",
+      "ogBytes": 168823,
+      "schemaCount": 4,
+      "englishCjk": false
+    }
+  ],
+  "xmlChecks": [
+    "sitemap-index.xml",
+    "sitemap-0.xml",
+    "news-sitemap.xml",
+    "weekly-feed.xml"
+  ],
+  "newPagesInSitemap": 7,
+  "newsInNewsSitemapAndRss": 3,
+  "robots": 200
+}

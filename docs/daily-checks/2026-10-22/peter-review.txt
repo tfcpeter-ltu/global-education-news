@@ -1,0 +1,325 @@
+- banner:
+  - button [disabled]:
+  - link "Facebook":
+    - /url: /
+  - button:
+  - combobox "搜尋 Facebook"
+  - navigation "Facebook":
+    - list:
+      - link "首頁":
+        - /url: /
+      - link "Reel":
+        - /url: /reel/?s=tab
+      - link "粉絲專頁":
+        - /url: /pages/?category=your_pages&ref=bookmarks
+      - link "企業管理平台主控板":
+        - /url: /professional_dashboard/?ref=tab_bar
+      - link "廣告中心":
+        - /url: /61585164670358/ad_center/
+  - navigation "帳號控制項和設定":
+    - button "Facebook 功能表":
+    - link "Messenger":
+      - /url: https://business.facebook.com/latest/inbox/all/?nav_ref=manage_page_ap_plus_inbox_message_button&asset_id=954919414363863
+      - link "Messenger":
+        - /url: https://business.facebook.com/latest/inbox/all/?nav_ref=manage_page_ap_plus_inbox_message_button&asset_id=954919414363863
+    - button "通知":
+    - button "你的個人檔案":
+      - img "你的個人檔案"
+- navigation:
+  - heading "企業管理平台主控板" [active] [level=1]
+  - button "Collapse navigation"
+  - list:
+    - link "首頁":
+      - /url: https://www.facebook.com/professional_dashboard/?ref=profile_manage_post_cta
+      - generic: 首頁
+    - link "洞察報告":
+      - /url: https://www.facebook.com/professional_dashboard/profile_insights/views/?ref=profile_manage_post_cta
+      - generic: 洞察報告
+    - link "內容" [expanded]:
+      - /url: https://www.facebook.com/professional_dashboard/content/content_library/?ref=profile_manage_post_cta
+      - generic: 內容
+    - list:
+      - link "內容資料庫":
+        - /url: https://www.facebook.com/professional_dashboard/content/content_library/?ref=profile_manage_post_cta
+        - generic: 內容資料庫
+      - link "規劃工具":
+        - /url: https://www.facebook.com/professional_dashboard/content_calendar/?ref=prodash_left_nav
+        - generic: 規劃工具
+      - link "播放清單":
+        - /url: https://www.facebook.com/professional_dashboard/content/playlists/?ref=profile_manage_post_cta
+        - generic: 播放清單
+    - link "營利":
+      - /url: https://www.facebook.com/professional_dashboard/monetization/?ref=profile_manage_post_cta
+      - generic: 營利
+    - link "參與互動":
+      - /url: https://www.facebook.com/professional_dashboard/engagement/comments_manager/?ref=profile_manage_post_cta
+      - generic: 參與互動
+    - link "所有工具":
+      - /url: https://www.facebook.com/professional_dashboard/tools/?ref=profile_manage_post_cta
+      - generic: 所有工具
+  - button "建立貼文":
+    - generic: 建立貼文
+- main:
+  - main:
+    - heading "你發佈到 Facebook 的影片現在都會顯示為 Reel" [level=2]:
+      - generic: 你發佈到 Facebook 的影片現在都會顯示為 Reel
+    - generic: 你仍然可以觀看先前所發佈的影片，但這些影片將併入「Reels」篩選條件之下。
+    - button "關閉「你發佈到 Facebook 的影片現在都會顯示為 Reel」卡片"
+    - heading "內容資料庫" [level=2]:
+      - generic: 內容資料庫
+    - tablist:
+      - button "更多":
+        - generic: 更多
+      - tab "已發佈":
+        - generic: 已發佈
+      - tab "已排定發佈":
+        - generic: 已排定發佈
+      - tab "草稿":
+        - generic: 草稿
+    - textbox "搜尋貼文"
+    - button "建立":
+      - generic: 建立
+    - button "篩選條件":
+      - generic: 篩選條件
+    - button "直欄":
+      - generic: 直欄
+    - button "過去 28 天：9月24日 - 10月22日":
+      - generic: 過去 28 天：9月24日 - 10月22日
+    - button "匯出資料":
+      - generic: 匯出資料
+    - text: 已選擇
+    - strong: "0"
+    - strong: ／50
+    - text: 則貼文
+    - grid "內容資料庫":
+      - rowgroup:
+        - row "全選 預覽 瀏覽次數 瀏覽人數 互動次數 收益 淨追蹤者人數 曝光次數 留言數 散播範圍 觀看時間 平均觀看時間 觀看 3 秒以上的次數 觀看 1 分鐘以上的次數":
+          - columnheader "全選":
+            - checkbox "全選"
+          - columnheader "預覽":
+            - button "預覽":
+              - generic: 預覽
+          - columnheader
+          - columnheader "瀏覽次數":
+            - button "瀏覽次數":
+              - generic: 瀏覽次數
+          - columnheader "瀏覽人數":
+            - button "瀏覽人數":
+              - generic: 瀏覽人數
+          - columnheader "互動次數":
+            - button "互動次數":
+              - generic: 互動次數
+          - columnheader "收益":
+            - button "收益":
+              - generic: 收益
+          - columnheader "淨追蹤者人數":
+            - button "淨追蹤者人數":
+              - generic: 淨追蹤者人數
+          - columnheader "曝光次數":
+            - button "曝光次數":
+              - generic: 曝光次數
+          - columnheader "留言數":
+            - button "留言數":
+              - generic: 留言數
+          - columnheader "散播範圍":
+            - button "散播範圍":
+              - generic: 散播範圍
+          - columnheader "觀看時間":
+            - button "觀看時間":
+              - generic: 觀看時間
+          - columnheader "平均觀看時間":
+            - button "平均觀看時間":
+              - generic: 平均觀看時間
+          - columnheader "觀看 3 秒以上的次數":
+            - button "觀看 3 秒以上的次數":
+              - generic: 觀看 3 秒以上的次數
+          - columnheader "觀看 1 分鐘以上的次數":
+            - button "觀看 1 分鐘以上的次數":
+              - generic: 觀看 1 分鐘以上的次數
+      - rowgroup:
+        - row "選擇貼文 查看貼文洞察報告的連結 可對此貼文採取的動作 72 51 4 $0.00 0 52 0 -- ‑‑ ‑‑ 0 0":
+          - gridcell "選擇貼文":
+            - checkbox "選擇貼文"
+          - gridcell "查看貼文洞察報告的連結":
+            - link "查看貼文洞察報告的連結":
+              - /url: /content/insights/?content_id=UzpfSTYxNTg1MTY0NjcwMzU4OjEyMjE0Nzc4OTcwOTE3MjE1NToxMjIxNDc3ODk3MDkxNzIxNTU%3D&entry_point=ProdashCometContentLibraryTable&ref=content_library
+              - heading [level=2]:
+                - generic: "🇨🇦 加拿大大學 SOP／Study Plan 怎麼寫？讓學校看見你的準備與方向 ✍️ Peterの國際教育講座 「我很喜歡加拿大，也很嚮往貴校，希望能獲得錄取。」 這句話表達了心意，但招生委員讀完之後，可能仍然不知道：你為什麼選這個科系？做過哪些準備？入學之後想完成什麼？ 一份有說服力的申請文件，需要把你的過去、現在與未來，連成一條清楚的線。 先提醒：加拿大各校、各學位與科系的文件要求不同，並非每個大學部申請都需要 SOP。卡加利大學也明確提醒申請人，應逐一查閱所申請學程的文件規定。本文討論的是學校要求的申請動機與學習規劃類文件，實際名稱、題目與字數，請以校方要求為準。 準備內容時，可以先從以下三個問題開始。UBC 的研究所申請指引，也強調學術興趣、過去準備、學習目標，以及申請人與學程的契合程度。 ① 為什麼要讀這個科系、這所學校？ Why this program / school? 「排名很好」「師資優秀」「國際知名」，都還不足以說明這所學校適合你。 你需要進一步回答：哪一門課、哪一項課程特色，能幫助你學會目前還不會的能力？這與你想解決的問題有什麼關係？ 例如，想申請商業分析，可以這樣建立思路： 「在校內義賣活動中，我負責整理銷售紀錄，發現不同商品的需求差異很大，因此開始對資料如何協助商業決策產生興趣。我希望透過商業分析與應用統計的訓練，學習更有系統地分析這些問題。」 接著，再連結目標學程確實提供的課程或專題機會。 申請研究型碩博士時，可以進一步說明研究問題，以及與教授研究方向的關聯；申請大學部或授課型學程時，則依題目聚焦課程、實作與能力培養。 寫出資源名稱之後，還要解釋：它為什麼對你有意義。 ② 你已經做了哪些準備？ Why you? 「我很努力」「我有領導力」「我對這個領域充滿熱情」，都需要具體經驗來支持。 可以從相關課程、專題、閱讀、社團、工作、實習或競賽中，挑選最能說明你準備程度的例子。 建議用這個順序整理： 👉 我做了什麼 → 遇到什麼問題 → 如何處理 → 學到什麼。 例如： 「在小組專題中，我負責整理問卷資料。第一次分析時，我發現部分題目容易讓受訪者誤解，因此與組員調整問法並重新蒐集資料。這次經驗讓我理解，可靠的分析必須從清楚的問題設計開始。」 這段內容呈現了你的角色、判斷與學習過程。 高中生也可以從課堂探究、自主學習或社團經驗切入。重點是把自己真正做過的事情說清楚，並解釋它如何幫助你準備下一階段的學習。 ③ 入學後要怎麼學？畢業後想往哪裡走？ What is your plan and career goal? 「努力讀書，畢業後找到好工作」，還可以寫得更具體。 我建議用三個階段整理： 📍 入學前：補足基礎 例如加強學術英文、統計、程式設計，或完成必要的先修課。 📍 在學期間：累積能力與成果 說明想修習的課程、探索的研究方向，或希望完成的專題。若提到實習、Co-op 或實驗室機會，要先確認申請資格，並寫成希望爭取的目標。 📍 畢業之後：連結職涯方向 說明希望投入的領域、工作角色，以及這個學位能提供哪些必要訓練。 例如： 「我希望先建立統計與資料處理基礎，再透過專題累積分析實際問題的經驗，未來朝零售產業的商業分析工作發展。」 目標可以隨學習逐步調整，但申請時應讓讀者看見：你已經認真思考過下一步。 💡 開始寫作前，先列出這五行： 我的興趣從哪裡開始？ 我做過哪些相關準備？ 我目前還缺少哪些能力？ 這個學程如何幫助我？ 完成學習後，我想把能力用在哪裡？ 把這五行寫清楚，再依學校題目組織成文章，通常就能建立一份有方向的初稿。 交件前，也請核對字數、校名、課程名稱與每一道題目。UBC 特別提醒申請人避免空泛的熱情表述、重複內容及拼字錯誤，並清楚說明自己與學程的契合之處。 另外，申請學校的 SOP，與申請加拿大學習許可時使用的說明文件，讀者與用途不同。IRCC 的說明信著重赴加就讀原因，以及對國際學生責任的理解，不能直接把同一篇文章原封不動套用。 好的 SOP，讓讀者看見一個有真實經驗、願意學習，而且知道自己為何出發的人。 #Peter國際教育講座 #LTU國際學術中心 #加拿大留學 #加拿大大學 #SOP #StudyPlan #讀書計畫 #留學申請"
+              - generic: 已發佈 •
+              - generic: 10月20日下午9:23
+          - gridcell "可對此貼文採取的動作":
+            - button "可對此貼文採取的動作":
+          - gridcell "72":
+            - generic: "72"
+          - gridcell "51":
+            - generic: "51"
+          - gridcell "4":
+            - generic: "4"
+          - gridcell "$0.00":
+            - generic: $0.00
+          - gridcell "0":
+            - generic: "0"
+          - gridcell "52":
+            - generic: "52"
+          - gridcell "0":
+            - generic: "0"
+          - gridcell "--":
+            - generic: "--"
+          - gridcell "‑‑":
+            - generic: ‑‑
+          - gridcell "‑‑":
+            - generic: ‑‑
+          - gridcell "0":
+            - generic: "0"
+          - gridcell "0":
+            - generic: "0"
+        - row "選擇貼文 查看貼文頁面的連結 可對此貼文採取的動作 10 6 1 $0.00 0 7 0 -- ‑‑ ‑‑ 0 0":
+          - gridcell "選擇貼文":
+            - checkbox "選擇貼文"
+          - gridcell "查看貼文頁面的連結":
+            - button "查看貼文頁面的連結":
+              - heading "沒有文字內容" [level=2]:
+                - generic: 沒有文字內容
+              - generic: Peterの國際教育講座 •
+              - generic: 10月18日下午12:15
+          - gridcell "可對此貼文採取的動作":
+            - button "可對此貼文採取的動作":
+          - gridcell "10":
+            - generic: "10"
+          - gridcell "6":
+            - generic: "6"
+          - gridcell "1":
+            - generic: "1"
+          - gridcell "$0.00":
+            - generic: $0.00
+          - gridcell "0":
+            - generic: "0"
+          - gridcell "7":
+            - generic: "7"
+          - gridcell "0":
+            - generic: "0"
+          - gridcell "--":
+            - generic: "--"
+          - gridcell "‑‑":
+            - generic: ‑‑
+          - gridcell "‑‑":
+            - generic: ‑‑
+          - gridcell "0":
+            - generic: "0"
+          - gridcell "0":
+            - generic: "0"
+        - row "選擇貼文 查看貼文洞察報告的連結 可對此貼文採取的動作 166 87 47 $0.01 0 94 0 -- ‑‑ ‑‑ 0 0":
+          - gridcell "選擇貼文":
+            - checkbox "選擇貼文"
+          - gridcell "查看貼文洞察報告的連結":
+            - link "查看貼文洞察報告的連結":
+              - /url: /content/insights/?content_id=UzpfSTYxNTg1MTY0NjcwMzU4OjEyMjE0NzU2MTg2NTE3MjE1NToxMjIxNDc1NjE4NjUxNzIxNTU%3D&entry_point=ProdashCometContentLibraryTable&ref=content_library
+              - 'heading "📚 免費贈閱｜《看懂制度，選對世界》電子版 孩子適合去哪個國家留學？ 選大學，除了排名，還應該看什麼？ 現在選的科系，又能如何連結未來的發展？ 這些年，在與學生和家長的交流中，我發現，大家需要的不只是更多學校名單，而是有人把不同國家的教育制度與升學選擇，說得更清楚。 因此，我將 50 篇國際教育文章整理成《Peter の國際教育講座》第一集——《看懂制度，選對世界》，免費贈閱電子版，歡迎大家下載閱讀。🎁 🌍 內容涵蓋英國、美國、加拿大、澳洲、新加坡，以及跨國教育專題，從學制、選校、科系、申請，到畢業後的發展，陪你一步步整理自己的方向。 無論你正在探索海外升學，或希望陪孩子一起思考未來，都歡迎翻開這本書，也歡迎分享給有需要的親友。 📥 電子版下載連結 : https://drive.google.com/file/d/1mCuYhIhR_Zn13B7D5B5ZcA2_7vH4Dtf2/view?usp=sharing 也歡迎追蹤「Peter 的國際教育講座」，持續了解國際教育與升學資訊： https://www.facebook.com/profile.php?id=61585164670358 先理解世界，再選擇自己的方向。 Dr. Peter Chen 陳祖豐博士 LTU 國際學術中心 #免費電子書 #免費贈閱 #Peter的國際教育講座 #看懂制度選對世界 #國際教育 #海外升學 #LTU國際學術中心" [level=2]':
+                - generic: "📚 免費贈閱｜《看懂制度，選對世界》電子版 孩子適合去哪個國家留學？ 選大學，除了排名，還應該看什麼？ 現在選的科系，又能如何連結未來的發展？ 這些年，在與學生和家長的交流中，我發現，大家需要的不只是更多學校名單，而是有人把不同國家的教育制度與升學選擇，說得更清楚。 因此，我將 50 篇國際教育文章整理成《Peter の國際教育講座》第一集——《看懂制度，選對世界》，免費贈閱電子版，歡迎大家下載閱讀。🎁 🌍 內容涵蓋英國、美國、加拿大、澳洲、新加坡，以及跨國教育專題，從學制、選校、科系、申請，到畢業後的發展，陪你一步步整理自己的方向。 無論你正在探索海外升學，或希望陪孩子一起思考未來，都歡迎翻開這本書，也歡迎分享給有需要的親友。 📥 電子版下載連結 : https://drive.google.com/file/d/1mCuYhIhR_Zn13B7D5B5ZcA2_7vH4Dtf2/view?usp=sharing 也歡迎追蹤「Peter 的國際教育講座」，持續了解國際教育與升學資訊： https://www.facebook.com/profile.php?id=61585164670358 先理解世界，再選擇自己的方向。 Dr. Peter Chen 陳祖豐博士 LTU 國際學術中心 #免費電子書 #免費贈閱 #Peter的國際教育講座 #看懂制度選對世界 #國際教育 #海外升學 #LTU國際學術中心"
+              - generic: 已發佈 •
+              - generic: 10月18日上午11:33
+          - gridcell "可對此貼文採取的動作":
+            - button "可對此貼文採取的動作":
+          - gridcell "166":
+            - generic: "166"
+          - gridcell "87":
+            - generic: "87"
+          - gridcell "47":
+            - generic: "47"
+          - gridcell "$0.01":
+            - generic: $0.01
+          - gridcell "0":
+            - generic: "0"
+          - gridcell "94":
+            - generic: "94"
+          - gridcell "0":
+            - generic: "0"
+          - gridcell "--":
+            - generic: "--"
+          - gridcell "‑‑":
+            - generic: ‑‑
+          - gridcell "‑‑":
+            - generic: ‑‑
+          - gridcell "0":
+            - generic: "0"
+          - gridcell "0":
+            - generic: "0"
+        - row "選擇貼文 查看貼文洞察報告的連結 可對此貼文採取的動作 138 84 15 $0.01 0 85 0 -- ‑‑ ‑‑ 0 0":
+          - gridcell "選擇貼文":
+            - checkbox "選擇貼文"
+          - gridcell "查看貼文洞察報告的連結":
+            - link "查看貼文洞察報告的連結":
+              - /url: /content/insights/?content_id=UzpfSTYxNTg1MTY0NjcwMzU4OjEyMjE0NzUzODk4MTE3MjE1NToxMjIxNDc1Mzg5ODExNzIxNTU%3D&entry_point=ProdashCometContentLibraryTable&ref=content_library
+              - heading [level=2]:
+                - generic: "🧭【課外活動不只社團競賽：Common App 新制看見真實生活經歷】 沒有國際競賽、學生會主席或一長串志工時數，就代表申請美國大學沒有優勢嗎？ 答案是否定的。真正重要的，不是把十個欄位塞滿，而是讓招生官看懂：你把時間投入在哪裡、承擔了什麼，以及因此成長了什麼。 Common App 已於 2026–27 申請季把原本的「Activities」改名為「Activities and Experiences」。官方說明指出，新欄位希望更完整呈現高中以外的各種投入。這不是降低標準，而是把「值得被看見的經歷」重新定義。 ### 1️⃣ 美國大學所說的活動，比台灣家長想得更廣 官方申請指南列出的內容，包括社團、運動、藝術、社區參與、興趣、打工與家庭責任。換句話說，放學後照顧弟妹、在家中店面幫忙、長期通勤、固定打工補貼家用，並不必然是申請表上的空白。 以往不少學生誤以為只有「有證書、有職稱」才算活動，結果把最能說明個人處境與成熟度的經歷刪掉。新名稱傳達的制度訊號是：招生官想理解你如何運用有限的時間，而不只是計算你參加過多少組織。 ### 2️⃣ 十個欄位是上限，不是KPI Common App 的官方準備資料顯示，申請者可填最多10項活動，並須交代參與年級、每週時數、每年週數、職務及簡短說明；學術榮譽則另有最多5項的欄位。 但「最多10項」不等於「一定要10項」。三到五項長期、連貫而有成果的投入，通常比十項短期參與更有辨識度。招生官真正能比較的是持續性、責任程度、主動性與影響，而不是名詞有多華麗。 ### 3️⃣ 寫活動時，不要只寫職稱 同樣是「社團幹部」，以下兩種寫法傳遞的資訊完全不同： ❌「擔任社長，負責社團活動。」 ✅「帶領12名社員設計每週課程，建立新生培訓流程，使固定出席人數由8人增加至20人。」 有效的活動描述可用四個元素整理：**做了什麼＋服務誰＋產生什麼改變＋如何驗證**。數字不必誇大；若成果無法量化，也可以寫出你建立的制度、解決的問題或承擔的責任。 ### 4️⃣ Peter觀點：活動表其實是一張「時間資產負債表」 美國大學採整體審查，不會把每位學生放在相同資源起點上比較。家庭收入、學校資源、照顧責任與可支配時間不同，活動表的價值就在於提供脈絡。 但要注意：制度願意看見生活責任，不代表只要寫「辛苦」就會加分。招生官仍要看到選擇、行動與成長。家庭責任不是賣慘素材，而是證明可靠、時間管理與成熟判斷的證據。 ### 5️⃣ 學生與家長現在可以怎麼做？ 👩‍🎓 **學生：** 先做一張九至十二年級的時間盤點表，把社團、興趣、打工、家務、照顧責任與個人專案全部列出，再依「長期投入、責任、成果、與個人方向的關聯」排序。 👨‍👩‍👧 **家長：** 不要急著替孩子臨時堆活動。申請季前才加入的華麗項目，很難建立可信的成長軌跡。更值得做的是協助孩子回顧那些已經持續兩三年、卻被忽略的真實經歷。 申請不是把履歷裝飾得像別人，而是把自己的時間選擇說清楚。你家孩子最容易被低估的一項經歷，會是什麼？歡迎收藏，也分享給正在整理 Common App 的家庭。 #Peter觀點實戰申請乾貨 #Peter觀點留學底層邏輯 #美國大學申請 #CommonApp #課外活動 #申請策略 #國際教育 ## D. 來源 1. Common App｜Common App opens application to launch 2026–27 season｜2026-07-31 https://www.commonapp.org/blog/common-app-opens-application-launch-2026-27-season/ 2. Common App｜Application guide for first-year students｜頁面未標發布日期，2026-10-17查閱 https://www.commonapp.org/apply/first-year-students/ 3. Common App｜Gather your materials｜文件標示2025年版本 https://www.commonapp.org/static/b3bf7d597fc06144ea6e0ff4673eb6b2/Resource_FY_GatherMaterials_ENG_2025.06.25_1.pdf 4. Common App｜First-year toolkit｜頁面列各資源最新修訂日期，2026-10-17查閱 https://www.commonapp.org/apply/fy-toolkit/"
+              - generic: 已發佈 •
+              - generic: 10月18日上午4:10
+          - gridcell "可對此貼文採取的動作":
+            - button "可對此貼文採取的動作":
+          - gridcell "138":
+            - generic: "138"
+          - gridcell "84":
+            - generic: "84"
+          - gridcell "15":
+            - generic: "15"
+          - gridcell "$0.01":
+            - generic: $0.01
+          - gridcell "0":
+            - generic: "0"
+          - gridcell "85":
+            - generic: "85"
+          - gridcell "0":
+            - generic: "0"
+          - gridcell "--":
+            - generic: "--"
+          - gridcell "‑‑":
+            - generic: ‑‑
+          - gridcell "‑‑":
+            - generic: ‑‑
+          - gridcell "0":
+            - generic: "0"
+          - gridcell "0":
+            - generic: "0"
+        - row "選擇貼文 查看貼文頁面的連結 可對此貼文採取的動作 3 2 0 $0.00 0 2 0 -- ‑‑ ‑‑ 0 0":
+          - gridcell "選擇貼文":
+            - checkbox "選擇貼文"
+          - gridcell "查看貼文頁面的連結":
+            - button "查看貼文頁面的連結":
+              - heading "沒有文字內容" [level=2]:
+                - generic: 沒有文字內容
+              - generic: "家有國際學生: 國際學校專區 •"
+              - generic: 待審
+          - gridcell "可對此貼文採取的動作":
+            - button "可對此貼文採取的動作":
+          - gridcell "3":
+            - generic: "3"
+          - gridcell "2":
+            - generic: "2"
+          - gridcell "0":
+            - generic: "0"
+          - gridcell "$0.00":
+            - generic: $0.00
+          - gridcell "0":
+            - generic: "0"
+          - gridcell "2":
+            - generic: "2"
+          - gridcell "0":
+            - generic: "0"
+          - gridcell "--":
+            - generic: "--"
+          - gridcell "‑‑":
+            - generic: ‑‑
+          - gridcell "‑‑":
+            - generic: ‑‑
+          - gridcell "0":
+            - generic: "0"
+          - gridcell "0":
+            - generic: "0"
+      - rowgroup
+- button
+- img "Monica"
+- generic: Ctrl+M
+- text: 解釋
+- button "Choose File"
+- button "Choose File"
+- button "Choose File"
