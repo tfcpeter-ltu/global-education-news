@@ -1,0 +1,474 @@
+{
+  "date": "2026-10-22",
+  "timezone": "Asia/Taipei",
+  "startedAt": "2026-10-22T04:57:33.0529817+08:00",
+  "status": "in_progress",
+  "currentPhase": "COMMIT_DEPLOY",
+  "baseMainSha": "65299ca360f778fd104c3cc99b992d1715b8aabf",
+  "scholarshipBaselineSlugs": [
+    "2026-08-bristol-think-big",
+    "2026-08-manchester-global-futures-taiwan-2027",
+    "2026-08-mcgill-mccall-macbain",
+    "2026-08-melbourne-graduate-research",
+    "2026-08-melbourne-international-excellence-graduate-2027",
+    "2026-08-moe-eu-scholarship",
+    "2026-08-moe-government-sponsored-study",
+    "2026-08-moe-new-southbound-internship",
+    "2026-08-moe-overseas-scholarship",
+    "2026-08-moe-study-abroad-fly",
+    "2026-08-moe-study-abroad-internship",
+    "2026-08-moe-study-abroad-needy",
+    "2026-08-moe-top100-phd",
+    "2026-08-monash-awards-2027",
+    "2026-08-oxford-clarendon",
+    "2026-08-sydney-vcis-2027",
+    "2026-08-tgpi-dream-factory",
+    "2026-08-tgpi-global-flight",
+    "2026-08-ubc-four-year-doctoral-fellowship",
+    "2026-08-ubc-imes",
+    "2026-08-ubc-international-scholars-2027",
+    "2026-08-ubc-killam-doctoral-2027",
+    "2026-08-ucl-global-masters",
+    "2026-08-ucl-global-undergraduate",
+    "2026-08-unsw-scientia-2027",
+    "2026-08-uq-international-high-achievers-2027",
+    "2026-08-utoronto-pearson-2027",
+    "2026-09-adelaide-academic-excellence-2027",
+    "2026-09-adelaide-merit-2027",
+    "2026-09-auckland-international-student-excellence-2027",
+    "2026-09-cardiff-vice-chancellor-taiwan-january-2027",
+    "2026-09-chevening-delta-climate-2027",
+    "2026-09-chevening-taiwan",
+    "2026-09-daad-architecture-masters",
+    "2026-09-deakin-excellence-international-2027",
+    "2026-09-deakin-international-merit-2027",
+    "2026-09-deakin-vice-chancellor-international-2027",
+    "2026-09-dundee-east-asia-undergraduate-january-2027",
+    "2026-09-dundee-global-excellence-undergraduate-january-2027",
+    "2026-09-erasmus-mundus-2027",
+    "2026-09-eth-zurich-esop-2027",
+    "2026-09-exeter-pgt-taiwan-january-2027",
+    "2026-09-fulbright-experience-america-research-award",
+    "2026-09-fulbright-non-academic-professional-award",
+    "2026-09-fulbright-senior-research-award",
+    "2026-09-gates-cambridge-2027",
+    "2026-09-harvard-academy-scholars-2027",
+    "2026-09-harvard-radcliffe-fellowship-2027",
+    "2026-09-hkpfs-2027",
+    "2026-09-imperial-presidents-phd-2027",
+    "2026-09-kent-international-undergraduate-january-2027",
+    "2026-09-knight-hennessy-2027",
+    "2026-09-latrobe-high-achiever-2027",
+    "2026-09-leicester-global-excellence-jan-apr-2027",
+    "2026-09-macquarie-vcis-2027",
+    "2026-09-monash-international-merit-2027",
+    "2026-09-ntu-taiwan-scholarship-jan-2027",
+    "2026-09-ntu-taiwan-stem-scholarship-jan-2027",
+    "2026-09-oxford-clarendon-2027",
+    "2026-09-rmit-up-academic-english-bursary-2027",
+    "2026-09-strathclyde-sbs-international-masters-jan-2027",
+    "2026-09-sydney-rtp-international-2027",
+    "2026-09-taiwan-anu-phd-scholarship-2027",
+    "2026-09-tasmanian-international-scholarship-2027",
+    "2026-09-ubc-international-scholars-2027",
+    "2026-09-uc-berkeley-beahrs-elp-2027",
+    "2026-09-uni-iowa-partner-state-taiwan-2027",
+    "2026-09-university-iowa-national-scholars-2027",
+    "2026-09-unsw-international-scientia-2027",
+    "2026-09-uow-postgraduate-academic-excellence-2027",
+    "2026-09-uow-university-excellence-2027",
+    "2026-09-utoronto-lester-b-pearson-2027",
+    "2026-09-yenching-academy-2027-taiwan",
+    "2026-10-american-university-egls-2027",
+    "2026-10-aut-north-asia-2027",
+    "2026-10-bangor-vice-chancellor-january-2027",
+    "2026-10-bath-international-excellence-ug-2027",
+    "2026-10-boise-state-international-fall-2027",
+    "2026-10-bournemouth-academic-excellence-january-2027",
+    "2026-10-canterbury-guardian-commerce-2027",
+    "2026-10-canterbury-international-first-year-offshore-2027",
+    "2026-10-cardiff-vice-chancellor-january-2027",
+    "2026-10-cumbria-international-undergraduate-january-2027",
+    "2026-10-curtin-future-leaders-2027",
+    "2026-10-curtin-global-excellence-2027",
+    "2026-10-dundee-global-excellence-september-2027",
+    "2026-10-ecu-north-asia-2027",
+    "2026-10-essex-international-undergraduate-2027",
+    "2026-10-exeter-taiwan-pgt-2027",
+    "2026-10-flinders-excellence-2027",
+    "2026-10-flinders-global-2027",
+    "2026-10-flinders-kickstart-2027",
+    "2026-10-griffith-academic-merit-2027",
+    "2026-10-griffith-vice-chancellor-2027",
+    "2026-10-herts-chancellor-january-2027",
+    "2026-10-kent-pgt-january-2027",
+    "2026-10-lancaster-management-progression-2027",
+    "2026-10-lancaster-masters-excellence-2027",
+    "2026-10-lancaster-regional-taiwan-2027",
+    "2026-10-lancaster-undergraduate-international-excellence-2027",
+    "2026-10-lincoln-pathway-merit-2027",
+    "2026-10-lincoln-taught-master-merit-2027",
+    "2026-10-lincoln-undergraduate-vice-chancellor-2027",
+    "2026-10-london-met-east-asia-2027",
+    "2026-10-massey-creative-excellence-masters-2027",
+    "2026-10-massey-toroa-postgraduate-2027",
+    "2026-10-massey-toroa-undergraduate-2027",
+    "2026-10-newcastle-australia-international-excellence-2027",
+    "2026-10-newcastle-vc-international-undergraduate-2027",
+    "2026-10-ntu-taiwan-january-2027",
+    "2026-10-otago-global-masters-2027",
+    "2026-10-otago-global-undergraduate-2027",
+    "2026-10-otago-international-academic-excellence-2027",
+    "2026-10-oxford-brookes-january-2027",
+    "2026-10-portsmouth-chancellor-merit-january-2027",
+    "2026-10-qmul-global-talent-pgt-2027",
+    "2026-10-qub-pgt-january-2027",
+    "2026-10-rgu-early-payment-january-2027",
+    "2026-10-rgu-january-2027",
+    "2026-10-sheffield-international-pgt-2027",
+    "2026-10-sheffield-international-undergraduate-2027",
+    "2026-10-st-andrews-tesol-january-2027",
+    "2026-10-stirling-east-asia-pgt-2027",
+    "2026-10-stirling-vice-chancellor-pgt-january-2027",
+    "2026-10-strathclyde-science-january-2027",
+    "2026-10-swansea-international-excellence-january-2027",
+    "2026-10-uea-pg-merit-2027",
+    "2026-10-unisq-international-excellence-2027",
+    "2026-10-uwa-global-excellence-2027",
+    "2026-10-vuw-postgraduate-international-2027",
+    "2026-10-vuw-undergraduate-international-2027",
+    "2026-10-waikato-research-masters-2027",
+    "2026-10-waikato-vice-chancellor-2027",
+    "2026-10-waterloo-international-entrance-2027",
+    "2026-10-western-sydney-international-undergraduate-2027",
+    "2026-10-westminster-pg-excellence-january-2027",
+    "catalog-aalto-excellence",
+    "catalog-berea-international-aid",
+    "catalog-bocconi-access-100",
+    "catalog-bocconi-access-80-60",
+    "catalog-bocconi-boost",
+    "catalog-bocconi-sport",
+    "catalog-chalmers-ipoet",
+    "catalog-daad-all-disciplines",
+    "catalog-daad-fine-art",
+    "catalog-daad-music",
+    "catalog-daad-performing-arts",
+    "catalog-duke-karsh",
+    "catalog-eiffel-master",
+    "catalog-eiffel-phd",
+    "catalog-emory-scholars",
+    "catalog-epfl-excellence",
+    "catalog-erasmus-mundus",
+    "catalog-eth-esop",
+    "catalog-geneva-excellence",
+    "catalog-gks-graduate",
+    "catalog-gks-undergraduate",
+    "catalog-goh-keng-swee",
+    "catalog-goi-ies",
+    "catalog-harvard-international-aid",
+    "catalog-helsinki-scholarship",
+    "catalog-jasso-honors",
+    "catalog-kaist-graduate",
+    "catalog-kaist-undergraduate",
+    "catalog-knight-hennessy",
+    "catalog-kth-scholarship",
+    "catalog-kyoto-iup",
+    "catalog-lund-global",
+    "catalog-maastricht-brightlands",
+    "catalog-maastricht-global-studies",
+    "catalog-maastricht-high-potential",
+    "catalog-maastricht-social-justice",
+    "catalog-maeci-italy",
+    "catalog-master-mind-flanders",
+    "catalog-mext-japanese-studies",
+    "catalog-mext-kosen-2027",
+    "catalog-mext-research-2027",
+    "catalog-mext-specialized-training-2027",
+    "catalog-mext-teacher-training",
+    "catalog-mext-undergraduate-2027",
+    "catalog-miami-stamps",
+    "catalog-mit-international-aid",
+    "catalog-nl-scholarship",
+    "catalog-nus-international-undergraduate",
+    "catalog-nus-science-technology",
+    "catalog-padua-excellence",
+    "catalog-paris-saclay-idex",
+    "catalog-radboud-nl-scholarship",
+    "catalog-radboud-scholarship",
+    "catalog-science-leuven",
+    "catalog-sciencespo-boutmy",
+    "catalog-snu-gsfs",
+    "catalog-swiss-phd",
+    "catalog-swiss-research-fellowship",
+    "catalog-taiwan-kaist-phd",
+    "catalog-tampere-scholarship",
+    "catalog-trinity-global-excellence",
+    "catalog-tudelft-justus",
+    "catalog-turku-merit",
+    "catalog-ucd-global-excellence",
+    "catalog-uppsala-global",
+    "catalog-utokyo-fellowship",
+    "catalog-utwente-scholarship",
+    "catalog-vanderbilt-cornelius",
+    "catalog-vanderbilt-ingram",
+    "catalog-yale-international-aid"
+  ],
+  "newsPublished": [],
+  "scholarshipChecks": [
+    {
+      "slug": "2026-10-bond-undergraduate-excellence",
+      "title": "Bond國際學士卓越獎：合格學費減50%",
+      "url": "https://globalednews.com/scholarships/items/2026-10-bond-undergraduate-excellence/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-bond-undergraduate-excellence.md",
+      "sources": [
+        "https://bond.edu.au/scholarship/international-undergraduate-excellence-scholarship",
+        "https://opportunityinside.com/scholarships/bond-university-international-scholarships-australia-2027.html"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-22T05:03:31.584436+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New distinct award; official current status, Taiwan eligibility, exclusions, amount and application route cross-checked with independent education analysis."
+    },
+    {
+      "slug": "2026-10-bond-international-stand-out",
+      "title": "Bond國際Stand Out獎：合格學士及碩士學費減25%",
+      "url": "https://globalednews.com/scholarships/items/2026-10-bond-international-stand-out/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-bond-international-stand-out.md",
+      "sources": [
+        "https://bond.edu.au/scholarship/international-stand-out-scholarship",
+        "https://collegedunia.com/australia/university/601-bond-university-gold-coast/master-of-business-administration-mba-184687"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-22T05:03:31.584436+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New distinct award; official current status, Taiwan eligibility, exclusions, amount and application route cross-checked with independent education analysis."
+    },
+    {
+      "slug": "2026-10-bond-business-postgraduate-bursary",
+      "title": "Bond商學院研究生助學金：5,000澳元生活補助",
+      "url": "https://globalednews.com/scholarships/items/2026-10-bond-business-postgraduate-bursary/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-bond-business-postgraduate-bursary.md",
+      "sources": [
+        "https://bond.edu.au/scholarship/bond-business-school-postgraduate-bursaries",
+        "https://www.wemakescholars.com/scholarship/bond-business-school-postgraduate-bursaries"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-22T05:03:31.584436+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New distinct award; official current status, Taiwan eligibility, exclusions, amount and application route cross-checked with independent education analysis."
+    }
+  ],
+  "scholarshipAdditions": [
+    {
+      "slug": "2026-10-bond-undergraduate-excellence",
+      "title": "Bond國際學士卓越獎：合格學費減50%",
+      "url": "https://globalednews.com/scholarships/items/2026-10-bond-undergraduate-excellence/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-bond-undergraduate-excellence.md",
+      "sources": [
+        "https://bond.edu.au/scholarship/international-undergraduate-excellence-scholarship",
+        "https://opportunityinside.com/scholarships/bond-university-international-scholarships-australia-2027.html"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-22T05:03:31.584436+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New distinct award; official current status, Taiwan eligibility, exclusions, amount and application route cross-checked with independent education analysis."
+    },
+    {
+      "slug": "2026-10-bond-international-stand-out",
+      "title": "Bond國際Stand Out獎：合格學士及碩士學費減25%",
+      "url": "https://globalednews.com/scholarships/items/2026-10-bond-international-stand-out/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-bond-international-stand-out.md",
+      "sources": [
+        "https://bond.edu.au/scholarship/international-stand-out-scholarship",
+        "https://collegedunia.com/australia/university/601-bond-university-gold-coast/master-of-business-administration-mba-184687"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-22T05:03:31.584436+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New distinct award; official current status, Taiwan eligibility, exclusions, amount and application route cross-checked with independent education analysis."
+    },
+    {
+      "slug": "2026-10-bond-business-postgraduate-bursary",
+      "title": "Bond商學院研究生助學金：5,000澳元生活補助",
+      "url": "https://globalednews.com/scholarships/items/2026-10-bond-business-postgraduate-bursary/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-bond-business-postgraduate-bursary.md",
+      "sources": [
+        "https://bond.edu.au/scholarship/bond-business-school-postgraduate-bursaries",
+        "https://www.wemakescholars.com/scholarship/bond-business-school-postgraduate-bursaries"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-22T05:03:31.584436+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New distinct award; official current status, Taiwan eligibility, exclusions, amount and application route cross-checked with independent education analysis."
+    }
+  ],
+  "peterImports": [],
+  "socialPosts": [],
+  "gaps": [
+    "BUILD",
+    "COMMIT_DEPLOY",
+    "PUBLISH",
+    "ACCEPTANCE",
+    "VERIFY"
+  ],
+  "manualActions": [],
+  "newsPrepared": [
+    {
+      "slug": "france-campus-blockades-study-continuity-october-2026",
+      "title": "法國高中抗議延伸大學：赴法學生先查校園與授課通知",
+      "url": "https://globalednews.com/news/france-campus-blockades-study-continuity-october-2026/",
+      "publishedPath": "src/pages/news/france-campus-blockades-study-continuity-october-2026.md",
+      "sources": [
+        {
+          "label": "Official primary source",
+          "url": "https://franceuniversites.fr/actualite/france-universites-exprime-son-soutien-aux-presidentes-et-presidents-detablissements-confrontes-aux-blocus-de-campus/"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://www.letudiant.fr/educpros/actualite/la-mobilisation-lyceenne-gagne-la-communaute-etudiante.html"
+        }
+      ],
+      "verifiedAt": "2026-10-22T05:03:31.584436+08:00"
+    },
+    {
+      "slug": "france-bac-2027-registration-regional-deadlines",
+      "title": "法國2027 Bac報名已啟動：巴黎三學區11月8日截止，不能套用全國",
+      "url": "https://globalednews.com/news/france-bac-2027-registration-regional-deadlines/",
+      "publishedPath": "src/pages/news/france-bac-2027-registration-regional-deadlines.md",
+      "sources": [
+        {
+          "label": "Official primary source",
+          "url": "https://siec.education.fr/actualites/inscriptions-examens-generaux-technologiques-professionnels-session-2027"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://monbacfrancais.com/actualites/cyclades-bac-2027-les-dates-dinscription-en-ile-de-france-et-a-orleans-tours"
+        }
+      ],
+      "verifiedAt": "2026-10-22T05:03:31.584436+08:00"
+    },
+    {
+      "slug": "france-apprenticeship-tax-unallocated-balance-2027",
+      "title": "法國2027預算爭議：未分配學徒稅餘額擬改流向，高教團體反對",
+      "url": "https://globalednews.com/news/france-apprenticeship-tax-unallocated-balance-2027/",
+      "publishedPath": "src/pages/news/france-apprenticeship-tax-unallocated-balance-2027.md",
+      "sources": [
+        {
+          "label": "Official primary source",
+          "url": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B3291-tII-v1.html"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://franceuniversites.fr/actualite/taxe-dapprentissage-france-universites-et-les-representants-de-lenseignement-superieur-sopposent-a-son-detournement-dans-le-plf-2027/"
+        }
+      ],
+      "verifiedAt": "2026-10-22T05:03:31.584436+08:00"
+    }
+  ],
+  "peterReview": {
+    "status": "no-new-posts",
+    "availableNewCount": 0,
+    "checkedAt": "2026-10-22T05:03:31.584436+08:00",
+    "sourceUrls": [
+      "https://www.facebook.com/profile.php?id=61585164670358"
+    ],
+    "evidence": "docs/daily-checks/2026-10-22/peter-review.txt",
+    "finding": "Current management feed latest substantive post October20 SOP already imported October21; October18 ebook promotion and Common App already reviewed/imported. No newer substantive post visible."
+  },
+  "peterPrepared": [],
+  "campusReport": {
+    "date": "2026-10-22",
+    "timezone": "Asia/Taipei",
+    "status": "three-public-leads-reviewed",
+    "verifiedAt": "2026-10-22T05:03:31.584436+08:00",
+    "reviewedSchools": [
+      {
+        "school": "國立臺灣大學",
+        "schoolSlug": "ntu",
+        "source": "https://oia.ntu.edu.tw/",
+        "finding": "10月19日116年度學海要點說明會開放報名；說明會報名不是補助申請，未推定補助期限。"
+      },
+      {
+        "school": "國立清華大學",
+        "schoolSlug": "nthu",
+        "source": "https://oga.site.nthu.edu.tw/",
+        "finding": "查閱海外交換、雙聯與在校生獎學金入口；首頁未顯示可核對的新計畫日期，不自行補造。"
+      },
+      {
+        "school": "國立陽明交通大學",
+        "schoolSlug": "nycu",
+        "source": "https://oia.nycu.edu.tw/",
+        "finding": "10月21日更新2026/2027姐妹校短期課程；短期課程與交換及獎助各有條件，須回個別公告。"
+      }
+    ],
+    "published": [],
+    "pendingConsent": [],
+    "outreachDrafts": [],
+    "gaps": [],
+    "note": "Public leads reviewed; no outreach sent."
+  },
+  "studyAbroadPrepared": {
+    "slug": "bond-gold-coast-scholarship-application-routes",
+    "title": "Bond留學DIY：50%、25%與5,000澳元，申請路徑怎麼分？",
+    "url": "https://globalednews.com/study-abroad/bond-gold-coast-scholarship-application-routes/",
+    "sources": [
+      {
+        "label": "Bond official scholarships",
+        "url": "https://bond.edu.au/scholarship/international-undergraduate-excellence-scholarship"
+      },
+      {
+        "label": "Independent postgraduate funding analysis",
+        "url": "https://collegedunia.com/australia/university/601-bond-university-gold-coast/master-of-business-administration-mba-184687"
+      }
+    ]
+  },
+  "sunmoonReview": {
+    "checkedAt": "2026-10-22T05:03:31.584436+08:00",
+    "source": "https://www.sunmoonnews.com.tw/",
+    "status": "reviewed-no-new-qualified-item",
+    "finding": "Latest homepage content shown September18; no new independently supported education story selected."
+  },
+  "ltuReview": {
+    "checkedAt": "2026-10-22T05:03:31.584436+08:00",
+    "poolSize": 12,
+    "expectedVisibleIndices": [
+      6,
+      7,
+      8
+    ],
+    "pendingLiveVerification": true
+  },
+  "phaseCompleted": [
+    "PREFLIGHT",
+    "RESEARCH",
+    "PREPARE",
+    "BUILD"
+  ],
+  "updatedAt": "2026-10-22T05:03:31.584436+08:00",
+  "preparedAt": "2026-10-22T05:04:22.206328+08:00",
+  "build": {
+    "status": "passed",
+    "verifiedAt": "2026-10-22T05:11:04.641217+08:00",
+    "runtime": "C:/Users/User/AppData/Local/Temp/globalednews-security-20261019",
+    "checks": [
+      "Astro",
+      "bilingual",
+      "search-index",
+      "facebook-photo-evidence",
+      "public-service-safety"
+    ],
+    "photoPreviewCount": 1538
+  }
+}

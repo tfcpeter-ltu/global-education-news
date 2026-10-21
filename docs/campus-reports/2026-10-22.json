@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-22",
+  "timezone": "Asia/Taipei",
+  "status": "three-public-leads-reviewed",
+  "verifiedAt": "2026-10-22T05:03:31.584436+08:00",
+  "reviewedSchools": [
+    {
+      "school": "國立臺灣大學",
+      "schoolSlug": "ntu",
+      "source": "https://oia.ntu.edu.tw/",
+      "finding": "10月19日116年度學海要點說明會開放報名；說明會報名不是補助申請，未推定補助期限。"
+    },
+    {
+      "school": "國立清華大學",
+      "schoolSlug": "nthu",
+      "source": "https://oga.site.nthu.edu.tw/",
+      "finding": "查閱海外交換、雙聯與在校生獎學金入口；首頁未顯示可核對的新計畫日期，不自行補造。"
+    },
+    {
+      "school": "國立陽明交通大學",
+      "schoolSlug": "nycu",
+      "source": "https://oia.nycu.edu.tw/",
+      "finding": "10月21日更新2026/2027姐妹校短期課程；短期課程與交換及獎助各有條件，須回個別公告。"
+    }
+  ],
+  "published": [],
+  "pendingConsent": [],
+  "outreachDrafts": [],
+  "gaps": [],
+  "note": "Public leads reviewed; no outreach sent."
+}
