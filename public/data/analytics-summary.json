@@ -1,14 +1,9 @@
 {
   "status": "ready",
-  "updatedAt": "2026-10-20T05:59:13.283Z",
+  "updatedAt": "2026-10-21T05:59:43.614Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
-    {
-      "title": "多倫多大學推博士跨域獎學金：每年8萬加元，首屆2027入學｜環球教育新聞網 Global Education News",
-      "path": "/news/toronto-presidents-impact-phd-scholarship-2027/",
-      "views": 10
-    },
     {
       "title": "西澳評估三校合併：2027年完成商業論證，Curtin表態反對｜環球教育新聞網 Global Education News",
       "path": "/news/wa-three-university-merger-business-case-2026/",
@@ -28,68 +23,73 @@
       "title": "加拿大大西洋大學全時國際生減18%：10月快照為13,775人｜環球教育新聞網 Global Education News",
       "path": "/news/atlantic-canada-international-enrolment-october-2026/",
       "views": 4
+    },
+    {
+      "title": "法國80位高教代表發表宣言：要求2027追加10億歐元｜環球教育新聞網 Global Education News",
+      "path": "/news/france-universities-billion-euro-appeal-2027/",
+      "views": 4
     }
   ],
   "countries": [
     {
-      "name": "台灣",
-      "mapName": "Taiwan",
-      "sessions": 89,
-      "share": 43
-    },
-    {
       "name": "美國",
       "mapName": "United States",
-      "sessions": 75,
-      "share": 36.2
+      "sessions": 93,
+      "share": 41.9
+    },
+    {
+      "name": "台灣",
+      "mapName": "Taiwan",
+      "sessions": 85,
+      "share": 38.3
     },
     {
       "name": "瑞典",
       "mapName": "Sweden",
       "sessions": 12,
-      "share": 5.8
-    },
-    {
-      "name": "加拿大",
-      "mapName": "Canada",
-      "sessions": 6,
-      "share": 2.9
-    },
-    {
-      "name": "香港",
-      "mapName": "Hong Kong",
-      "sessions": 6,
-      "share": 2.9
+      "share": 5.4
     },
     {
       "name": "愛爾蘭",
       "mapName": "Ireland",
-      "sessions": 5,
-      "share": 2.4
+      "sessions": 9,
+      "share": 4.1
+    },
+    {
+      "name": "香港",
+      "mapName": "Hong Kong",
+      "sessions": 4,
+      "share": 1.8
+    },
+    {
+      "name": "印度",
+      "mapName": "India",
+      "sessions": 4,
+      "share": 1.8
     },
     {
       "name": "日本",
       "mapName": "Japan",
       "sessions": 4,
-      "share": 1.9
+      "share": 1.8
     },
     {
-      "name": "印度",
-      "mapName": "India",
+      "name": "加拿大",
+      "mapName": "Canada",
       "sessions": 3,
       "share": 1.4
     },
     {
-      "name": "德國",
-      "mapName": "Germany",
+      "name": "Netherlands",
+      "mapName": "Netherlands",
       "sessions": 2,
-      "share": 1
+      "share": 0.9
     },
     {
       "name": "英國",
       "mapName": "United Kingdom",
       "sessions": 2,
-      "share": 1
+      "share": 0.9
     }
   ]
 }
