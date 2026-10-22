@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-23",
+  "timezone": "Asia/Taipei",
+  "status": "PARTIAL",
+  "verifiedAt": "2026-10-23T05:40:25.959818+08:00",
+  "desktopHome": {
+    "status": "PASS",
+    "width": 1800,
+    "ltu": [
+      7,
+      8,
+      9
+    ],
+    "todayHeadlines": 3,
+    "photosLoaded": true,
+    "observation": "Homepage visual and DOM readback; three current stories and three distinct photos visible."
+  },
+  "desktopSearch": {
+    "status": "PASS",
+    "width": 1800,
+    "initialArchiveCount": 24,
+    "enter": [
+      "Dayton"
+    ],
+    "combined": [
+      "Dayton"
+    ],
+    "combinedFilters": [
+      "美國",
+      "學士",
+      "學費",
+      "開放中"
+    ],
+    "zeroArchiveResults": 0,
+    "zeroMessageObserved": true,
+    "clearButtonExercised": true,
+    "showMoreButtonExercised": true,
+    "note": "Today-picks cards outside archive excluded from search counts. Final show-more count not saved before browser connection failed."
+  },
+  "mobileHome": {
+    "status": "PASS",
+    "width": 487,
+    "height": 1055,
+    "scrollWidth": 468,
+    "ltu": [
+      7,
+      8,
+      9
+    ],
+    "photosLoaded": true,
+    "screenshot": "docs/daily-checks/2026-10-23/home-mobile.png",
+    "adDismissalConfirmed": false
+  },
+  "mobileSearch": {
+    "status": "PENDING",
+    "reason": "CUA browser service repeatedly timed out during mobile acceptance; getTab/getState retries and kernel reset also failed. No successful mobile search result was returned or saved."
+  },
+  "mobileArticle": {
+    "status": "PENDING"
+  },
+  "viewportCleanup": {
+    "status": "PENDING",
+    "reason": "Reset unavailable while browser service timed out; requested 312x675 override may remain."
+  }
+}

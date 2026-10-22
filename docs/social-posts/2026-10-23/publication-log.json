@@ -1,7 +1,403 @@
 {
   "date": "2026-10-23",
-  "newFacebookPagePost": null,
+  "newFacebookPagePost": {
+    "campaign": "news",
+    "network": "facebook",
+    "pageId": "61595164194381",
+    "businessAssetId": "1355044634361784",
+    "status": "PUBLISHED",
+    "articleUrl": "https://globalednews.com/news/new-zealand-schools-international-support-2027/",
+    "photoReadyAt": "2026-10-23T05:27:02.991+08:00",
+    "photoReadyEvidence": "docs/daily-checks/2026-10-23/new-facebook-photo-ready.png",
+    "copyAddedAt": "2026-10-23T05:27:03.599+08:00",
+    "publishClickedAt": "2026-10-23T05:27:33.085+08:00",
+    "id": "122111591559505473",
+    "publicUrl": "https://facebook.com/permalink.php?story_fbid=pfbid02pCt4WC1zKHqTJes6pjzxwPAMNUj9CmV3j9aXXPP8t3YpiWdc1zbLajrpA6zXsGWJl&id=61595164194381",
+    "publishedAt": "2026-10-23T05:27:00+08:00",
+    "publishedAtPrecision": "minute",
+    "photoAttachments": [
+      {
+        "id": "122111591277505473",
+        "url": "https://www.facebook.com/photo/?fbid=122111591277505473&set=a.122094964809505473&type=3"
+      }
+    ],
+    "verifiedAt": "2026-10-23T05:33:12.474+08:00",
+    "mediaVerifiedAt": "2026-10-23T05:33:12.474+08:00",
+    "imageCount": 1,
+    "mediaStatus": "VERIFIED",
+    "mediaEvidence": "docs/daily-checks/2026-10-23/new-facebook-public.png",
+    "visibility": "public",
+    "mediaKind": "uploaded-photo",
+    "previewStatus": "VERIFIED",
+    "previewVerifiedAt": "2026-10-23T05:33:12.474+08:00",
+    "publicPhotoScreenshot": "docs/daily-checks/2026-10-23/new-facebook-public.png",
+    "photoAttachedAt": "2026-10-23T05:27:02.991+08:00"
+  },
   "timezone": "Asia/Taipei",
-  "posts": [],
-  "status": "not_started"
+  "posts": [
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "pageId": "101904929207004",
+      "articleUrl": "https://globalednews.com/news/new-zealand-schools-international-support-2027/",
+      "photoReadyAt": "2026-10-23T05:18:11.514+08:00",
+      "photoReadyEvidence": "docs/daily-checks/2026-10-23/news-facebook-photo-ready.png",
+      "copyAddedAt": "2026-10-23T05:18:15.763+08:00",
+      "publishClickedAt": "2026-10-23T05:20:23.929+08:00",
+      "id": "1096587823117415",
+      "publicUrl": "https://facebook.com/LTUOSSDTaiwan/posts/pfbid0EzrQqAQq2DJAXfduA8cyvrEXzRLRRWByERLwxYMPMM7zjuSH2dcYpZbrRxFUgf6Vl",
+      "publishedAt": "2026-10-23T05:20:00+08:00",
+      "publishedAtPrecision": "minute",
+      "photoAttachments": [
+        {
+          "id": "1096586373117560",
+          "url": "https://www.facebook.com/photo/?fbid=1096586373117560&set=a.107747308668143&type=3"
+        }
+      ],
+      "verifiedAt": "2026-10-23T05:32:12.660+08:00",
+      "mediaVerifiedAt": "2026-10-23T05:32:12.660+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-10-23/news-facebook-public.png",
+      "visibility": "public",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-23T05:32:12.660+08:00",
+      "publicPhotoScreenshot": "docs/daily-checks/2026-10-23/news-facebook-public.png",
+      "photoAttachedAt": "2026-10-23T05:18:11.514+08:00"
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/news/new-zealand-schools-international-support-2027/",
+      "publishClickedAt": "2026-10-23T05:20:23.929+08:00",
+      "id": "Dez7z8AgWgz",
+      "publicUrl": "https://www.instagram.com/p/Dez7z8AgWgz/",
+      "publishedAt": "2026-10-23T05:20:26+08:00",
+      "publishedAtPrecision": "second",
+      "verifiedAt": "2026-10-23T05:31:52.280+08:00",
+      "mediaVerifiedAt": "2026-10-23T05:31:52.280+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-10-23/news-instagram-public.png",
+      "visibility": "public"
+    },
+    {
+      "campaign": "news",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/news/new-zealand-schools-international-support-2027/",
+      "publishClickedAt": "2026-10-23T05:20:34.118+08:00",
+      "id": "Dez71G4kwRh",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dez71G4kwRh",
+      "publishedAt": "2026-10-23T05:20:35+08:00",
+      "verifiedAt": "2026-10-23T05:21:21.972+08:00",
+      "mediaVerifiedAt": "2026-10-23T05:21:21.972+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-10-23/news-threads-public.png",
+      "visibility": "public"
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/news/new-zealand-schools-international-support-2027/",
+      "publishClickedAt": "2026-10-23T05:22:38.896+08:00",
+      "id": "7519146234213949441",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7519146234213949441/",
+      "publishedTimeLabel": "5 分鐘",
+      "timeObservedAt": "2026-10-23T05:29:13.461+08:00",
+      "publishedAt": "2026-10-23T05:22:38.896+08:00",
+      "publishedAtPrecision": "submission-observed; public UI relative",
+      "verifiedAt": "2026-10-23T05:29:13.837+08:00",
+      "mediaVerifiedAt": "2026-10-23T05:29:13.837+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-10-23/news-linkedin-public.png",
+      "visibility": "public"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "pageId": "101904929207004",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-dayton-international-merit/",
+      "photoReadyAt": "2026-10-23T05:23:14.787+08:00",
+      "photoReadyEvidence": "docs/daily-checks/2026-10-23/scholarship-facebook-photo-ready.png",
+      "copyAddedAt": "2026-10-23T05:23:15.232+08:00",
+      "publishClickedAt": "2026-10-23T05:23:35.994+08:00",
+      "id": "1096589659783898",
+      "publicUrl": "https://facebook.com/LTUOSSDTaiwan/posts/pfbid02WQQe2w7ZfpKvitRPoTW9NArM4e5M5yyXMLz7naqXup8wvTJEG24PVyLkBk2KXqS3l",
+      "publishedAt": "2026-10-23T05:23:00+08:00",
+      "publishedAtPrecision": "minute",
+      "photoAttachments": [
+        {
+          "id": "1096589219783942",
+          "url": "https://www.facebook.com/photo/?fbid=1096589219783942&set=a.107747308668143&type=3"
+        }
+      ],
+      "verifiedAt": "2026-10-23T05:32:28.537+08:00",
+      "mediaVerifiedAt": "2026-10-23T05:32:28.537+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-10-23/scholarship-facebook-public.png",
+      "visibility": "public",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-23T05:32:28.537+08:00",
+      "publicPhotoScreenshot": "docs/daily-checks/2026-10-23/scholarship-facebook-public.png",
+      "photoAttachedAt": "2026-10-23T05:23:14.787+08:00"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-dayton-international-merit/",
+      "publishClickedAt": "2026-10-23T05:23:24.169+08:00",
+      "id": "Dez8J2uE2Ba",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dez8J2uE2Ba",
+      "publicTimeEvidence": [
+        {
+          "date": "2026-10-23T05:23:25+08:00",
+          "text": "8分鐘"
+        }
+      ],
+      "timeObservedAt": "2026-10-23T05:32:12.222+08:00",
+      "publishedAt": "2026-10-23T05:23:25.000+08:00",
+      "publishedAtPrecision": "second",
+      "verifiedAt": "2026-10-23T05:32:13.499+08:00",
+      "mediaVerifiedAt": "2026-10-23T05:32:13.499+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-10-23/scholarship-threads-public.png",
+      "visibility": "public"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-dayton-international-merit/",
+      "publishClickedAt": "2026-10-23T05:23:35.994+08:00",
+      "id": "Dez8LWYAcJJ",
+      "publicUrl": "https://www.instagram.com/p/Dez8LWYAcJJ/",
+      "publishedAt": "2026-10-23T05:23:40.000+08:00",
+      "publishedAtPrecision": "second",
+      "publicTimeEvidence": [
+        {
+          "date": "2026-10-23T05:23:40+08:00",
+          "text": "8分鐘"
+        },
+        {
+          "date": "2026-10-23T05:23:38+08:00",
+          "text": "8分鐘前"
+        }
+      ],
+      "timeObservedAt": "2026-10-23T05:32:12.198+08:00",
+      "verifiedAt": "2026-10-23T05:32:13.061+08:00",
+      "mediaVerifiedAt": "2026-10-23T05:32:13.061+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-10-23/scholarship-instagram-public.png",
+      "visibility": "public"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-dayton-international-merit/",
+      "publishClickedAt": "2026-10-23T05:24:05.724+08:00",
+      "id": "7519146602507317249",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7519146602507317249/",
+      "publishedTimeLabel": "7 分鐘",
+      "timeObservedAt": "2026-10-23T05:32:27.680+08:00",
+      "verifiedAt": "2026-10-23T05:32:28.071+08:00",
+      "mediaVerifiedAt": "2026-10-23T05:32:28.071+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-10-23/scholarship-linkedin-public.png",
+      "visibility": "public",
+      "publishedAt": "2026-10-23T05:24:05.724+08:00",
+      "publishedAtPrecision": "submission-observed; public UI relative"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/study-abroad/michigan-state-2027-first-year-merit-checklist/",
+      "publishClickedAt": "2026-10-23T05:24:16.115+08:00",
+      "id": "Dez8QEdk2NL",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dez8QEdk2NL",
+      "publicTimeEvidence": [
+        {
+          "date": "2026-10-23T05:24:16+08:00",
+          "text": "8分鐘"
+        }
+      ],
+      "timeObservedAt": "2026-10-23T05:32:28.561+08:00",
+      "publishedAt": "2026-10-23T05:24:16.000+08:00",
+      "publishedAtPrecision": "second",
+      "verifiedAt": "2026-10-23T05:32:28.975+08:00",
+      "mediaVerifiedAt": "2026-10-23T05:32:28.975+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-10-23/study-abroad-threads-public.png",
+      "visibility": "public"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "pageId": "101904929207004",
+      "articleUrl": "https://globalednews.com/study-abroad/michigan-state-2027-first-year-merit-checklist/",
+      "photoReadyAt": "2026-10-23T05:25:16.922+08:00",
+      "photoReadyEvidence": "docs/daily-checks/2026-10-23/study-abroad-facebook-photo-ready.png",
+      "copyAddedAt": "2026-10-23T05:25:17.377+08:00",
+      "publishClickedAt": "2026-10-23T05:26:01.465+08:00",
+      "id": "1096590869783777",
+      "publicUrl": "https://facebook.com/LTUOSSDTaiwan/posts/pfbid0WH6JraSpuGUA15eHSAnDGRnY333XhADKWnh43qWMhNEt6zWuT9DD4GZJy6pbKcZel",
+      "publishedAt": "2026-10-23T05:26:00+08:00",
+      "publishedAtPrecision": "minute",
+      "photoAttachments": [
+        {
+          "id": "1096590266450504",
+          "url": "https://www.facebook.com/photo/?fbid=1096590266450504&set=a.107747308668143&type=3"
+        }
+      ],
+      "verifiedAt": "2026-10-23T05:32:55.910+08:00",
+      "mediaVerifiedAt": "2026-10-23T05:32:55.910+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-10-23/study-abroad-facebook-public.png",
+      "visibility": "public",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-23T05:32:55.910+08:00",
+      "publicPhotoScreenshot": "docs/daily-checks/2026-10-23/study-abroad-facebook-public.png",
+      "photoAttachedAt": "2026-10-23T05:25:16.922+08:00"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/study-abroad/michigan-state-2027-first-year-merit-checklist/",
+      "publishClickedAt": "2026-10-23T05:25:31.240+08:00",
+      "id": "7519146963381071872",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7519146963381071872/",
+      "publishedTimeLabel": "6 分鐘",
+      "timeObservedAt": "2026-10-23T05:32:56.840+08:00",
+      "verifiedAt": "2026-10-23T05:33:02.994+08:00",
+      "mediaVerifiedAt": "2026-10-23T05:33:02.994+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-10-23/study-abroad-linkedin-public.png",
+      "visibility": "public",
+      "publishedAt": "2026-10-23T05:25:31.240+08:00",
+      "publishedAtPrecision": "submission-observed; public UI relative"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/study-abroad/michigan-state-2027-first-year-merit-checklist/",
+      "publishClickedAt": "2026-10-23T05:26:01.465+08:00",
+      "id": "Dez8dFYga23",
+      "publicUrl": "https://www.instagram.com/p/Dez8dFYga23/",
+      "publishedAt": "2026-10-23T05:26:05.000+08:00",
+      "publishedAtPrecision": "second",
+      "publicTimeEvidence": [
+        {
+          "date": "2026-10-23T05:26:05+08:00",
+          "text": "6分鐘"
+        },
+        {
+          "date": "2026-10-23T05:26:03+08:00",
+          "text": "6分鐘前"
+        }
+      ],
+      "timeObservedAt": "2026-10-23T05:32:28.550+08:00",
+      "verifiedAt": "2026-10-23T05:32:28.685+08:00",
+      "mediaVerifiedAt": "2026-10-23T05:32:28.685+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-10-23/study-abroad-instagram-public.png",
+      "visibility": "public"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "publishClickedAt": "2026-10-23T05:26:48.922+08:00",
+      "id": "Dez8i0lk0OM",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dez8i0lk0OM",
+      "publicTimeEvidence": [
+        {
+          "date": "2026-10-23T05:26:50+08:00",
+          "text": "5分鐘"
+        }
+      ],
+      "timeObservedAt": "2026-10-23T05:32:55.933+08:00",
+      "publishedAt": "2026-10-23T05:26:50.000+08:00",
+      "publishedAtPrecision": "second",
+      "verifiedAt": "2026-10-23T05:32:56.840+08:00",
+      "mediaVerifiedAt": "2026-10-23T05:32:56.840+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-10-23/taiwan-universities-threads-public.png",
+      "visibility": "public"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "publishClickedAt": "2026-10-23T05:27:33.085+08:00",
+      "id": "7519147468584902656",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7519147468584902656/",
+      "publishedTimeLabel": "5 分鐘",
+      "timeObservedAt": "2026-10-23T05:33:42.460+08:00",
+      "verifiedAt": "2026-10-23T05:33:42.919+08:00",
+      "mediaVerifiedAt": "2026-10-23T05:33:42.919+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-10-23/taiwan-universities-linkedin-public.png",
+      "visibility": "public",
+      "publishedAt": "2026-10-23T05:27:33.085+08:00",
+      "publishedAtPrecision": "submission-observed; public UI relative"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "publishClickedAt": "2026-10-23T05:28:48.545+08:00",
+      "id": "Dez8xiQAaB6",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Dez8xiQAaB6/",
+      "publicTimeEvidence": [
+        {
+          "date": "2026-10-23T05:28:52+08:00",
+          "text": "3分鐘"
+        },
+        {
+          "date": "2026-10-23T05:28:51+08:00",
+          "text": "3分鐘前"
+        }
+      ],
+      "timeObservedAt": "2026-10-23T05:32:55.922+08:00",
+      "publishedAt": "2026-10-23T05:28:52.000+08:00",
+      "publishedAtPrecision": "second",
+      "verifiedAt": "2026-10-23T05:32:56.406+08:00",
+      "mediaVerifiedAt": "2026-10-23T05:32:56.406+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-10-23/taiwan-universities-instagram-public.png",
+      "visibility": "public"
+    }
+  ],
+  "status": "published-verified",
+  "updatedAt": "2026-10-23T05:40:25.959818+08:00",
+  "verifiedAt": "2026-10-23T05:40:25.959818+08:00"
 }

@@ -1,0 +1,353 @@
+{
+  "total_count": 3,
+  "jobs": [
+    {
+      "id": 120094372417,
+      "run_id": 39856037552,
+      "workflow_name": "Deploy Astro site to GitHub Pages",
+      "head_branch": "main",
+      "run_url": "https://api.github.com/repos/tfcpeter-ltu/global-education-news/actions/runs/39856037552",
+      "run_attempt": 1,
+      "node_id": "CR_kwDOUIud1s8AAAAb9i6yQQ",
+      "head_sha": "1350f4f98f96703352d6be1dc271c59833753fb7",
+      "url": "https://api.github.com/repos/tfcpeter-ltu/global-education-news/actions/jobs/120094372417",
+      "html_url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/39856037552/job/120094372417",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-10-22T21:17:30Z",
+      "started_at": "2026-10-22T21:17:33Z",
+      "completed_at": "2026-10-22T21:18:46Z",
+      "name": "build",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-10-22T21:17:33Z",
+          "completed_at": "2026-10-22T21:17:35Z"
+        },
+        {
+          "name": "Checkout",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-10-22T21:17:35Z",
+          "completed_at": "2026-10-22T21:17:43Z"
+        },
+        {
+          "name": "Setup Node",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-10-22T21:17:43Z",
+          "completed_at": "2026-10-22T21:17:43Z"
+        },
+        {
+          "name": "Install dependencies",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-10-22T21:17:43Z",
+          "completed_at": "2026-10-22T21:17:48Z"
+        },
+        {
+          "name": "Check production dependency advisories",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5,
+          "started_at": "2026-10-22T21:17:48Z",
+          "completed_at": "2026-10-22T21:17:49Z"
+        },
+        {
+          "name": "Set up Python for bilingual editions",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6,
+          "started_at": "2026-10-22T21:17:49Z",
+          "completed_at": "2026-10-22T21:17:51Z"
+        },
+        {
+          "name": "Install offline translation dependencies",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7,
+          "started_at": "2026-10-22T21:17:51Z",
+          "completed_at": "2026-10-22T21:17:57Z"
+        },
+        {
+          "name": "Cache offline translation model",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8,
+          "started_at": "2026-10-22T21:17:57Z",
+          "completed_at": "2026-10-22T21:17:59Z"
+        },
+        {
+          "name": "Install Chinese fonts for share cards",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9,
+          "started_at": "2026-10-22T21:17:59Z",
+          "completed_at": "2026-10-22T21:18:09Z"
+        },
+        {
+          "name": "Verify Facebook native photo evidence rules",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 10,
+          "started_at": "2026-10-22T21:18:09Z",
+          "completed_at": "2026-10-22T21:18:09Z"
+        },
+        {
+          "name": "Build",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 11,
+          "started_at": "2026-10-22T21:18:09Z",
+          "completed_at": "2026-10-22T21:18:33Z"
+        },
+        {
+          "name": "Verify bilingual routes and form values",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 12,
+          "started_at": "2026-10-22T21:18:33Z",
+          "completed_at": "2026-10-22T21:18:35Z"
+        },
+        {
+          "name": "Verify public demo and operator safety disclosures",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 13,
+          "started_at": "2026-10-22T21:18:35Z",
+          "completed_at": "2026-10-22T21:18:35Z"
+        },
+        {
+          "name": "Prepare changed URLs for IndexNow",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 14,
+          "started_at": "2026-10-22T21:18:35Z",
+          "completed_at": "2026-10-22T21:18:36Z"
+        },
+        {
+          "name": "Save IndexNow submission",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 15,
+          "started_at": "2026-10-22T21:18:36Z",
+          "completed_at": "2026-10-22T21:18:37Z"
+        },
+        {
+          "name": "Configure Pages",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 16,
+          "started_at": "2026-10-22T21:18:37Z",
+          "completed_at": "2026-10-22T21:18:37Z"
+        },
+        {
+          "name": "Upload artifact",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 17,
+          "started_at": "2026-10-22T21:18:37Z",
+          "completed_at": "2026-10-22T21:18:44Z"
+        },
+        {
+          "name": "Post Cache offline translation model",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 31,
+          "started_at": "2026-10-22T21:18:44Z",
+          "completed_at": "2026-10-22T21:18:44Z"
+        },
+        {
+          "name": "Post Set up Python for bilingual editions",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 32,
+          "started_at": "2026-10-22T21:18:44Z",
+          "completed_at": "2026-10-22T21:18:44Z"
+        },
+        {
+          "name": "Post Setup Node",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 33,
+          "started_at": "2026-10-22T21:18:44Z",
+          "completed_at": "2026-10-22T21:18:44Z"
+        },
+        {
+          "name": "Post Checkout",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 34,
+          "started_at": "2026-10-22T21:18:44Z",
+          "completed_at": "2026-10-22T21:18:44Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 35,
+          "started_at": "2026-10-22T21:18:44Z",
+          "completed_at": "2026-10-22T21:18:44Z"
+        }
+      ],
+      "check_run_url": "https://api.github.com/repos/tfcpeter-ltu/global-education-news/check-runs/120094372417",
+      "labels": [
+        "ubuntu-latest"
+      ],
+      "runner_id": 1000002358,
+      "runner_name": "GitHub Actions 1000002358",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions"
+    },
+    {
+      "id": 120094979489,
+      "run_id": 39856037552,
+      "workflow_name": "Deploy Astro site to GitHub Pages",
+      "head_branch": "main",
+      "run_url": "https://api.github.com/repos/tfcpeter-ltu/global-education-news/actions/runs/39856037552",
+      "run_attempt": 1,
+      "node_id": "CR_kwDOUIud1s8AAAAb9jf1oQ",
+      "head_sha": "1350f4f98f96703352d6be1dc271c59833753fb7",
+      "url": "https://api.github.com/repos/tfcpeter-ltu/global-education-news/actions/jobs/120094979489",
+      "html_url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/39856037552/job/120094979489",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-10-22T21:18:47Z",
+      "started_at": "2026-10-22T21:18:52Z",
+      "completed_at": "2026-10-22T21:19:08Z",
+      "name": "deploy",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-10-22T21:18:52Z",
+          "completed_at": "2026-10-22T21:18:53Z"
+        },
+        {
+          "name": "Deploy to GitHub Pages",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-10-22T21:18:54Z",
+          "completed_at": "2026-10-22T21:19:06Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-10-22T21:19:06Z",
+          "completed_at": "2026-10-22T21:19:06Z"
+        }
+      ],
+      "check_run_url": "https://api.github.com/repos/tfcpeter-ltu/global-education-news/check-runs/120094979489",
+      "labels": [
+        "ubuntu-latest"
+      ],
+      "runner_id": 1000002359,
+      "runner_name": "GitHub Actions 1000002359",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions"
+    },
+    {
+      "id": 120095144612,
+      "run_id": 39856037552,
+      "workflow_name": "Deploy Astro site to GitHub Pages",
+      "head_branch": "main",
+      "run_url": "https://api.github.com/repos/tfcpeter-ltu/global-education-news/actions/runs/39856037552",
+      "run_attempt": 1,
+      "node_id": "CR_kwDOUIud1s8AAAAb9jp6pA",
+      "head_sha": "1350f4f98f96703352d6be1dc271c59833753fb7",
+      "url": "https://api.github.com/repos/tfcpeter-ltu/global-education-news/actions/jobs/120095144612",
+      "html_url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/39856037552/job/120095144612",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-10-22T21:19:08Z",
+      "started_at": "2026-10-22T21:19:11Z",
+      "completed_at": "2026-10-22T21:19:36Z",
+      "name": "indexnow",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-10-22T21:19:11Z",
+          "completed_at": "2026-10-22T21:19:12Z"
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-10-22T21:19:12Z",
+          "completed_at": "2026-10-22T21:19:20Z"
+        },
+        {
+          "name": "Run actions/setup-node@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-10-22T21:19:20Z",
+          "completed_at": "2026-10-22T21:19:32Z"
+        },
+        {
+          "name": "Run actions/download-artifact@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-10-22T21:19:32Z",
+          "completed_at": "2026-10-22T21:19:32Z"
+        },
+        {
+          "name": "Notify search engines after live deployment",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5,
+          "started_at": "2026-10-22T21:19:32Z",
+          "completed_at": "2026-10-22T21:19:34Z"
+        },
+        {
+          "name": "Post Run actions/setup-node@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9,
+          "started_at": "2026-10-22T21:19:34Z",
+          "completed_at": "2026-10-22T21:19:34Z"
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 10,
+          "started_at": "2026-10-22T21:19:34Z",
+          "completed_at": "2026-10-22T21:19:35Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 11,
+          "started_at": "2026-10-22T21:19:35Z",
+          "completed_at": "2026-10-22T21:19:35Z"
+        }
+      ],
+      "check_run_url": "https://api.github.com/repos/tfcpeter-ltu/global-education-news/check-runs/120095144612",
+      "labels": [
+        "ubuntu-latest"
+      ],
+      "runner_id": 1000002360,
+      "runner_name": "GitHub Actions 1000002360",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions"
+    }
+  ]
+}

@@ -1,0 +1,313 @@
+- button:
+- link:
+  - /url: https://www.signalhire.com
+- button
+- button
+- heading "Welcome to SignalHire!" [level=1]
+- paragraph: SignalHire is a great way to find contact information in a couple of clicks
+- link "Sign In":
+  - /url: https://www.signalhire.com/login?package=trial&utm_source=signin&utm_medium=extension
+  - generic: Sign In
+- paragraph:
+  - text: Don’t have an account yet?
+  - link "Sign up for free":
+    - /url: https://www.signalhire.com/registration?package=trial&utm_source=signup&utm_medium=extension
+- heading "0 則通知" [level=2]
+- generic "略過導覽選單":
+  - button "前往搜尋":
+    - generic: 前往搜尋
+  - button "前往內容":
+    - generic: 前往內容
+  - button "前往側邊欄":
+    - generic: 前往側邊欄
+  - button "前往主要內容":
+    - generic: 前往主要內容
+  - button "前往側邊":
+    - generic: 前往側邊
+  - button "關閉選單":
+- banner:
+  - button "LinkedIn":
+    - img "LinkedIn"
+  - button "搜尋":
+    - paragraph: 搜尋
+  - dialog:
+    - status: 有 5 個建議 ，請使用上下方向鍵來瀏覽
+    - search:
+      - textbox "搜尋"
+    - listbox:
+      - paragraph: 您可以試試
+      - option "interview tips搜尋建議":
+        - link "interview tips搜尋建議":
+          - /url: https://www.linkedin.com/search/results/all/?keywords=interview+tips&origin=QUERY_SUGGESTION&position=0
+          - generic "interview tips搜尋建議":
+            - paragraph: interview tips
+      - option "latest in ai搜尋建議":
+        - link "latest in ai搜尋建議":
+          - /url: https://www.linkedin.com/search/results/all/?keywords=latest+in+ai&origin=QUERY_SUGGESTION&position=0
+          - generic "latest in ai搜尋建議":
+            - paragraph: latest in ai
+      - option "balancing work and personal life搜尋建議":
+        - link "balancing work and personal life搜尋建議":
+          - /url: https://www.linkedin.com/search/results/all/?keywords=balancing+work+and+personal+life&origin=QUERY_SUGGESTION&position=0
+          - generic "balancing work and personal life搜尋建議":
+            - paragraph: balancing work and personal life
+      - option "remote work搜尋建議":
+        - link "remote work搜尋建議":
+          - /url: https://www.linkedin.com/search/results/all/?keywords=remote+work&origin=QUERY_SUGGESTION&position=0
+          - generic "remote work搜尋建議":
+            - paragraph: remote work
+      - option "when's the best time to switch jobs搜尋建議":
+        - link "when's the best time to switch jobs搜尋建議":
+          - /url: https://www.linkedin.com/search/results/all/?keywords=when%27s+the+best+time+to+switch+jobs&origin=QUERY_SUGGESTION&position=0
+          - generic "when's the best time to switch jobs搜尋建議":
+            - paragraph: when's the best time to switch jobs
+  - figure
+  - navigation:
+    - list:
+      - button "首頁，1 則新通知":
+        - generic: 首頁
+      - link "我的人脈，2 則新通知":
+        - /url: https://www.linkedin.com/mynetwork
+        - generic: "2"
+        - generic: 我的人脈
+      - link "職缺，0 則新通知":
+        - /url: https://www.linkedin.com/jobs/
+        - generic: 職缺
+      - link "訊息，2 則新通知":
+        - /url: https://www.linkedin.com/messaging/
+        - generic: "2"
+        - generic: 訊息
+      - link "通知，25 則新通知":
+        - /url: https://www.linkedin.com/notifications/
+        - generic: "25"
+        - generic: 通知
+      - button "我":
+        - figure
+        - text: 我
+  - navigation:
+    - list:
+      - button "商務功能":
+        - text: 商務功能
+      - link "Learning，0 則新通知":
+        - /url: https://www.linkedin.com/learning/?trk=nav_neptune_learning
+        - generic: Learning
+- main:
+  - complementary "側邊欄":
+    - link "Premium":
+      - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+      - figure:
+      - paragraph: Premium
+      - figure:
+        - img "Peter Chen"
+    - link "Peter Chen，LTU Education Center CEO，臺北市 台北，Premium 檔案":
+      - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+      - generic "Peter Chen，LTU Education Center CEO，臺北市 台北，Premium 檔案":
+        - paragraph: Peter Chen
+        - img "Premium 檔案"
+        - paragraph: LTU Education Center CEO
+        - paragraph: 臺北市 台北
+    - link "LTU Education Center Co.,":
+      - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+      - figure:
+      - paragraph: LTU Education Center Co.,
+    - paragraph: 讓朋友免費體驗 Premium 2 個月
+    - link "推薦好友":
+      - /url: https://linkedin.com/premium/referrals/?referralType=PREMIUM&upsellOrderOrigin=premium_referrals_homepage_identity_1_sided_entry
+      - paragraph: 推薦好友
+    - menu:
+      - link "聯絡人 29 拓展人脈":
+        - /url: https://www.linkedin.com/mynetwork/invite-connect/connections/
+        - generic "聯絡人 29 拓展人脈":
+          - paragraph: 聯絡人
+          - paragraph: 拓展人脈
+          - paragraph: "29"
+    - menu:
+      - link "LinkedIn Premium 功能":
+        - /url: https://www.linkedin.com/premium/my-premium/
+        - paragraph: LinkedIn Premium 功能
+  - region "主要內容":
+    - heading "動態消息" [level=2]:
+      - generic: 動態消息
+    - paragraph: 宣傳此貼文，觸及您所重視的受眾。
+    - link "宣傳":
+      - /url: https://www.linkedin.com/campaignmanager/boost/campaigns/new/details/?origin=memberPostDetails&content=urn%3Ali%3Ashare%3A7519146962122805249&isNileReferrer=true
+      - generic: 宣傳
+    - link:
+      - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+      - figure:
+        - img "查看Peter Chen的個人檔案"
+    - link "Peter Chen Premium個人檔案 您":
+      - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+      - generic "Peter Chen Premium個人檔案 您":
+        - paragraph: Peter Chen
+        - paragraph:
+          - text: • 您
+    - paragraph: LTU Education Center CEO
+    - paragraph: 6 分鐘
+    - link "Peter Chen Premium個人檔案 您":
+      - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+      - generic "Peter Chen Premium個人檔案 您"
+    - button "開啟Peter Chen貼文的控制選單":
+    - paragraph:
+      - text: Michigan State留學DIY：先分清申請身分
+      - text: 2027秋季已開放，11月1日前早申可獲最大獎助考量。
+      - text: 高中畢業後修讀大學，可能須走轉學途徑。非居民獎助最高18,000美元／年，不能直接當成自己的offer。
+      - text: 分開記入學文件、獎助、接受offer與付款日期；續領須核對學分、學籍與連續就讀條件。
+      - text: 留學DIY導航：
+      - link "開啟 https://lnkd.in/gMYyDTPc":
+        - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgMYyDTPc&urlhash=0Vp3&mt=vynfHj22O1ojIxpDW6LIRk3BhSTiyWJPmWM-3ByT3RyAwlOMIPtf8DlR-gtqcLGto29M5FfCd7yaStwvoC1uSi67Fca-4YjMOurObhns7kLBs0CTjo7yqLB8EQ&isSdui=true
+        - strong: https://lnkd.in/gMYyDTPc
+      - text: 全文：
+      - link "開啟 https://lnkd.in/gDSra89C":
+        - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgDSra89C&urlhash=bFTw&mt=-1ZEA4icb0J7_OIJJpWee72LcHJaTRPVrYzUg6c5Ajr65NFezY-herwTbv15ITySqYLX72UhvXy7PO4kDIokC-jkocyUypCRbPBjnJCzE1RvdP2W0leWRaf9cQ&isSdui=true
+        - strong: https://lnkd.in/gDSra89C
+      - text: 給教育工作者：轉介學生時請保留資格、時程與尚待確認的限制。
+      - text: 免費加入環球教育新聞會員！
+      - text: 每週教育新聞與申請提醒，免費且可隨時取消。
+      - link "開啟 https://lnkd.in/g8qTgA39":
+        - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fg8qTgA39&urlhash=q1ph&mt=AYzKJ951dkD0cj0tjztSY1wxCFnNTx0ZXp3NgyXC-oxJOwiM42IXzMvqXGKHTsT2EGY93y8NKnZA4Uef5d7o5avqvNJT-MHcDTYhssDaNMv5L1T-xUxXcPveJQ&isSdui=true
+        - strong: https://lnkd.in/g8qTgA39
+      - text: 資料照：Iswzo / CC BY-SA 4.0；裁切加字。
+      - link "開啟 https://lnkd.in/g4UxdYtN":
+        - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fg4UxdYtN&urlhash=o1_2&mt=ck1eS-4iD5TfFj7oCnEGT9Vgp3D5Z47YM-4e30S59aCtLlN4piMozGN4rNMUP3EcJoYqxY3xQV7wOIQWYMXTRjVKp63Rm7xtoKsxRhdspwKQRWQufVLDKrFdkA&isSdui=true
+        - strong: https://lnkd.in/g4UxdYtN
+    - link:
+      - /url: https://www.linkedin.com/
+      - figure:
+        - img "查看圖片"
+    - button "感受按鈕狀態：無感受":
+    - button "開啟感受選單":
+    - button "回應":
+    - button "轉發":
+    - link "傳送":
+      - /url: https://www.linkedin.com/
+    - link "查看分析資料":
+      - /url: https://www.linkedin.com/analytics/post-summary/urn:li:activity:7519146963381071872/
+      - generic "查看分析資料":
+        - generic "內容分析":
+          - img "Analytics Icon"
+          - paragraph: 1 次曝光
+        - paragraph:
+          - generic: 查看分析資料
+          - text: 查看分析資料
+    - figure
+    - status
+    - textbox "用於建立回應的文字編輯器":
+      - paragraph: 輸入回應
+    - button "顯示表情符號選擇工具":
+    - button "開啟 GIF 選擇工具":
+    - button "分享照片":
+    - link:
+      - /url: https://www.linkedin.com/
+  - complementary "側邊":
+    - iframe:
+      - banner:
+        - link "PPG":
+          - /url: https://www.linkedin.com/li/tscp/sct?destinationUrl=http%3A%2F%2Fwww.linkedin.com%2Fcompany%2F4857&trackingEvent=%5B%7B%22eventInfo%22%3A%7B%22appId%22%3A%22com.linkedin.ads.rendering.d_web%22%2C%22eventName%22%3A%22SponsoredRightRailContentActionEvent%22%2C%22topicName%22%3A%22SponsoredRightRailContentActionEvent%22%7D%2C%22eventBody%22%3A%7B%22sponsoredEventHeader%22%3A%7B%22encryptedTrackingData%22%3A%22CwEAAAGhZYelJe7jXiphRU-FVf50OnTZK1iYb9efBPyaXu-0FXqjPrcbjvE72V3lf88klqivv1YUvrjU3gWzdNpRZyP7IQmJo8XlAXqn-LxR36b4NcsnEJDIiZikSgxtIBIP09P4PXBexyw7RiHgvi-xROaLDEALO6jV4m9ONVbKaSgYnt9y_E0RuUR4pZD7kCvlQvJPTWbBI4CxdG0NVHY7A98A0WtJ1DuGmLavvk25qVIvr3f2G_FXOVnaLk6HEXewPv_v7bLZ9mNqjKOYi3AGXAU7TXDlkxLLDZ383Bu-VE8T74EKrrwrgcE43mMPg8Qo-XoIw6e2JZ07HrPHj2YQxgXl3Xtg90eWZviz14SuZdHKtxHyYmBE0hZlOcG61mlCgy3PIvypfInMSqePf5sMk0he8l_GC-p4XiTW3uZvB2nbNLnVW1tvWjXThGJqZaKKoK6vIelMhIuqrvxrVk4v3O8P_nOIeuJUV8OKs-uIFrTCS1b26SCqJVrhpot6wAJaPSv97djJUrGTwvKBA73uVv0d0HQpw2MajLzfSkRop5qzeMJ6Ouqmbe6_lHq4t-wSsbn_-_ZxLJzwRmEp81U9L-W4ARS906e9eSUcUuPJg9qTI8llNJGRh25l1IHC7MY-L5XwAiB0jqMMkKYxxrMSbZRswkMKSqbmaxl1nA-5Ds_KiBBcitnUiVlzGxYmlHs1IIZ_ANbhuUbNSg0QNbC0E1fpCLskwbAwsrwME3Tm_Is2uRpk1MbIVq91UxUnKOSkgzIOF25uqVjl07bWgD_zY37J0TPUnSgFek_gIpLL4N_ehFu9cXH-FR4iNW1P34s6uKsYqQtyGL_QbibaXmNMUbWsSU1kiXrQMihwGjUBjzIjfgJ9Jd7tRpiFW4CRjcm4djROYItIYQUhZlkRrEghVp4Z6Y9zi9PdFb_FswNhf-K_hl1mbJ9rD850cfwi_Gi6ibAtXyRBwWtc0_S0PFQqE76dAVllnLrk7yTsY9CnmfZ5k_CFiPI7LXWEE_jZVhgDEKCXdxLO_i5llG_6_l-ylklO18KlZfB0Z0VFcyrebidpS_aCa9g5MDJ36-TlhK5EwAledS7J6coaDV3XFWphYPQ8E-Gncs7o5-0Sjk92L4tAcz2HNjPpC2b1j3HlYXAYvcpIl7-VmTmhH9hahIlsczPkdJ4cNRB8hBEMCHSuLiqruj3tuJcyoeqmVu9uvDHa2zA%22%7D%2C%22header%22%3A%7B%22pageInstance%22%3A%7B%22pageUrn%22%3A%22urn%3Ali%3Apage%3Ad_flagship3_detail_base%22%2C%22trackingId%22%3A%22111067f9-3198-41a5-99b6-b293ef1cbfca%22%7D%2C%22time%22%3A1792704750859%2C%22version%22%3A%220.0.0%22%7D%2C%22requestHeader%22%3A%7B%22pageKey%22%3A%22d_flagship3_detail_base%22%2C%22interfaceLocale%22%3A%22zh-TW%22%7D%7D%7D%5D&csrfToken=ajax%3A7856694392726645923
+          - img "PPG"
+        - paragraph: 促銷內容
+        - button "廣告選項":
+          - generic: 廣告選項
+      - link "PPG":
+        - /url: https://www.linkedin.com/li/tscp/sct?destinationUrl=http%3A%2F%2Fwww.linkedin.com%2Fcompany%2F4857&trackingEvent=%5B%7B%22eventInfo%22%3A%7B%22appId%22%3A%22com.linkedin.ads.rendering.d_web%22%2C%22eventName%22%3A%22SponsoredRightRailContentActionEvent%22%2C%22topicName%22%3A%22SponsoredRightRailContentActionEvent%22%7D%2C%22eventBody%22%3A%7B%22sponsoredEventHeader%22%3A%7B%22encryptedTrackingData%22%3A%22CwEAAAGhZYelJe7jXiphRU-FVf50OnTZK1iYb9efBPyaXu-0FXqjPrcbjvE72V3lf88klqivv1YUvrjU3gWzdNpRZyP7IQmJo8XlAXqn-LxR36b4NcsnEJDIiZikSgxtIBIP09P4PXBexyw7RiHgvi-xROaLDEALO6jV4m9ONVbKaSgYnt9y_E0RuUR4pZD7kCvlQvJPTWbBI4CxdG0NVHY7A98A0WtJ1DuGmLavvk25qVIvr3f2G_FXOVnaLk6HEXewPv_v7bLZ9mNqjKOYi3AGXAU7TXDlkxLLDZ383Bu-VE8T74EKrrwrgcE43mMPg8Qo-XoIw6e2JZ07HrPHj2YQxgXl3Xtg90eWZviz14SuZdHKtxHyYmBE0hZlOcG61mlCgy3PIvypfInMSqePf5sMk0he8l_GC-p4XiTW3uZvB2nbNLnVW1tvWjXThGJqZaKKoK6vIelMhIuqrvxrVk4v3O8P_nOIeuJUV8OKs-uIFrTCS1b26SCqJVrhpot6wAJaPSv97djJUrGTwvKBA73uVv0d0HQpw2MajLzfSkRop5qzeMJ6Ouqmbe6_lHq4t-wSsbn_-_ZxLJzwRmEp81U9L-W4ARS906e9eSUcUuPJg9qTI8llNJGRh25l1IHC7MY-L5XwAiB0jqMMkKYxxrMSbZRswkMKSqbmaxl1nA-5Ds_KiBBcitnUiVlzGxYmlHs1IIZ_ANbhuUbNSg0QNbC0E1fpCLskwbAwsrwME3Tm_Is2uRpk1MbIVq91UxUnKOSkgzIOF25uqVjl07bWgD_zY37J0TPUnSgFek_gIpLL4N_ehFu9cXH-FR4iNW1P34s6uKsYqQtyGL_QbibaXmNMUbWsSU1kiXrQMihwGjUBjzIjfgJ9Jd7tRpiFW4CRjcm4djROYItIYQUhZlkRrEghVp4Z6Y9zi9PdFb_FswNhf-K_hl1mbJ9rD850cfwi_Gi6ibAtXyRBwWtc0_S0PFQqE76dAVllnLrk7yTsY9CnmfZ5k_CFiPI7LXWEE_jZVhgDEKCXdxLO_i5llG_6_l-ylklO18KlZfB0Z0VFcyrebidpS_aCa9g5MDJ36-TlhK5EwAledS7J6coaDV3XFWphYPQ8E-Gncs7o5-0Sjk92L4tAcz2HNjPpC2b1j3HlYXAYvcpIl7-VmTmhH9hahIlsczPkdJ4cNRB8hBEMCHSuLiqruj3tuJcyoeqmVu9uvDHa2zA%22%7D%2C%22header%22%3A%7B%22pageInstance%22%3A%7B%22pageUrn%22%3A%22urn%3Ali%3Apage%3Ad_flagship3_detail_base%22%2C%22trackingId%22%3A%22111067f9-3198-41a5-99b6-b293ef1cbfca%22%7D%2C%22time%22%3A1792704750859%2C%22version%22%3A%220.0.0%22%7D%2C%22requestHeader%22%3A%7B%22pageKey%22%3A%22d_flagship3_detail_base%22%2C%22interfaceLocale%22%3A%22zh-TW%22%7D%7D%7D%5D&csrfToken=ajax%3A7856694392726645923
+        - heading "PPG" [level=2]
+      - paragraph: Peter，汲取灵感，成就自我。
+      - paragraph: 关注我们，了解我们如何践行我们的宗旨。
+      - link "關注":
+        - /url: https://www.linkedin.com/li/tscp/sct?destinationUrl=http%3A%2F%2Fwww.linkedin.com%2Fcompany%2F4857%3FisFollowingPage%3Dtrue&trackingEvent=%5B%7B%22eventInfo%22%3A%7B%22appId%22%3A%22com.linkedin.ads.rendering.d_web%22%2C%22eventName%22%3A%22SponsoredRightRailContentActionEvent%22%2C%22topicName%22%3A%22SponsoredRightRailContentActionEvent%22%7D%2C%22eventBody%22%3A%7B%22sponsoredEventHeader%22%3A%7B%22encryptedTrackingData%22%3A%22CwEAAAGhZYelJY9mj9jR0IuLAlghLrW22ERmjF-99JeUfVMGcNkqagouy3CuvUXKKaJk4bRYC-HrqasqUx8z4vpTzNbyC7oRG-8hN2Lzrpe5SXv0RNscARO0oXXqzJ6hFl8-l75iqSzVGuEL79zSvDTqZ4woINciWLxt8H-_RP1u7QZxaCjNhc_3gNFHrUP5mzKTEfiQq8WXhKj6wdWiwpKydusTxEaVqBul2e9D7A5GglrYpD4frK2GjFm804r1TGmfgSQX6duPTNF_-oaBnYqXt48drNgDfpeal14D3xpY2j8FC35Axlcv9sXREy1H55LM0BiwCrK5jd8UQnjYQVZaNsPEN8t9jx8SDvIV5QIK-jWcdPUmCI8Svrm1czgx6tSXhum77kg-eK9O-4TFltVeTbb8KD9KaVpM-qeDJkhdXp06PqM4kf3oUS9uYweKrBZc1HwaIi3XBNsr9LrjjDjbu9BZU8YF8llNqaI4cC1v8ssSUL3KL7jezCSPL9chJjoRFQ_ItZpl8xH0gi5SCfVGPmkIyr6GrzzfQRRlvzSziJEBgChikZQ58XSxhzeAtBxYPjomeBQ0TOz3pMz970l-EETUknZFQ8bCRa9Talqc1QieenFnaUEWlOZeg3qQkBu1vDwrs4zO-5b2PArrRkofyW5fs6rlKOYCZCEniUAVzfPI9vhrVxzLUMNz0kAhmr5OahOAvNeaojM1SP6FQ9zyyGUAsRRYDdyu36Hzn1hKaNm-P_CnuV-5pBDOQRabCcd8Gq8Kw0pexaRzTKHyF6jqgEElyqzGIYts0zG-uJ4A_1QpmE1GPYagX9VIVXKDmhv3MfqohxIKvyLRF4JtDczSL925RCmrf2PaSvqV-O8HQDxof38-lr3_XpV29dmInuBgrlkOhRBiGETag1tpaY_2Zjc37WxfbvQeT5MpLL5ATjINDvlu9_MMRUYlBK4Q4PMAVf88-Ux32OtvFxsM3y35FlqKJbe3d0Fs_d78DutRonto3QFd4_P-2HsvWOb82QhYaX4LJ3kHqx_-4Tzbo6FBm2vbALihpu7-jQNlqK0SPHj4VS9MrFRLfH68tNe1ajfCUNG_ELvC03FnLYxD1DiHWkuLH9NdEtTFkd98-hcabqn8hwzpRWu6jGqC3lFaUsURJmPIUMdKC-nj_8N9b-EY-Qj4Ya68MDLr2WK4D3VMHnsLlkV75BEKgtM36mxc5X_5n93-BK3Gawbw5tfdt-gE7WUazbfBdVivuKMlpTn98w%22%7D%2C%22header%22%3A%7B%22pageInstance%22%3A%7B%22pageUrn%22%3A%22urn%3Ali%3Apage%3Ad_flagship3_detail_base%22%2C%22trackingId%22%3A%2290323cc9-a51b-49b0-933e-d0ac21690981%22%7D%2C%22time%22%3A1792704750859%2C%22version%22%3A%220.0.0%22%7D%2C%22requestHeader%22%3A%7B%22pageKey%22%3A%22d_flagship3_detail_base%22%2C%22interfaceLocale%22%3A%22zh-TW%22%7D%7D%7D%5D&csrfToken=ajax%3A7856694392726645923
+    - link "關於":
+      - /url: https://about.linkedin.com/
+      - paragraph: 關於
+    - link "無障礙功能":
+      - /url: https://www.linkedin.com/accessibility/
+      - paragraph: 無障礙功能
+    - link "說明中心":
+      - /url: https://www.linkedin.com/help/linkedin/
+      - paragraph: 說明中心
+    - button "隱私權及條款":
+      - paragraph: 隱私權及條款
+    - link "Ad Choices":
+      - /url: https://www.linkedin.com/help/linkedin/answer/62931/
+      - paragraph: Ad Choices
+    - link "廣告":
+      - /url: https://www.linkedin.com/ad/start/?trk=n_nav_ads_rr
+      - paragraph: 廣告
+    - button "商務服務":
+      - paragraph: 商務服務
+    - link "下載 LinkedIn App":
+      - /url: https://www.linkedin.com/mobile/
+      - paragraph: 下載 LinkedIn App
+    - link "更多":
+      - /url: https://www.linkedin.com/
+      - paragraph: 更多
+    - paragraph: LinkedIn Corporation © 2026 年
+- complementary:
+  - img "Peter Chen"
+  - generic: 狀態為已上線
+  - button "您正處於訊息重疊畫面。按下 Enter 即可開啟對話清單。":
+    - generic: 訊息
+    - generic: 您正處於訊息重疊畫面。按下 Enter 即可開啟對話清單。
+  - mark:
+    - generic: "2"
+  - button "開啟選單":
+    - img "開啟選單"
+  - button "撰寫訊息":
+    - generic: 撰寫訊息
+  - button "您正處於訊息重疊畫面。按下 Enter 即可開啟對話清單。":
+    - generic: 您正處於訊息重疊畫面。按下 Enter 即可開啟對話清單。
+- complementary "能為您的職涯發展、求職等提供協助的 AI 助理"
+- iframe:
+  - region "祝賀訊息":
+    - heading "0 則通知" [level=2]
+    - alert
+  - region
+  - button "前往搜尋":
+    - generic: 前往搜尋
+  - button "前往內容":
+    - generic: 前往內容
+  - button "鍵盤快捷鍵":
+    - generic: 鍵盤快捷鍵
+  - button "關閉選單":
+    - generic: 關閉選單
+  - banner "全域導覽":
+    - link "LinkedIn":
+      - /url: https://www.linkedin.com/feed/
+      - img "LinkedIn":
+    - combobox "搜尋"
+    - navigation "主選單":
+      - list:
+        - link "動態消息 新通知 首頁":
+          - /url: https://www.linkedin.com/feed/
+          - generic: 動態消息 新通知
+          - generic "首頁"
+        - link "2 個新通知網路更新 我的人脈":
+          - /url: https://www.linkedin.com/mynetwork/?
+          - generic: "2"
+          - generic: 2 個新通知網路更新
+          - generic "我的人脈"
+        - link "職缺":
+          - /url: https://www.linkedin.com/jobs/?
+          - generic "職缺"
+        - link "2 個新通知訊息 訊息":
+          - /url: https://www.linkedin.com/messaging/?
+          - generic: "2"
+          - generic: 2 個新通知訊息
+          - generic "訊息"
+        - link "25 個新通知 通知":
+          - /url: https://www.linkedin.com/notifications/?
+          - generic: "25"
+          - generic: 25 個新通知
+          - generic "通知"
+        - button "Peter Chen 我":
+          - img "Peter Chen"
+          - text: 我
+        - button "商務功能":
+          - generic "商務功能":
+            - text: 商務功能
+        - link "Learning":
+          - /url: https://www.linkedin.com/learning/?trk=nav_neptune_learning&
+          - generic "Learning"
+- button
+- img "Monica"
+- generic: Ctrl+M
+- text: 解釋

@@ -1,0 +1,84 @@
+- banner:
+  - button [disabled]:
+  - link "Facebook":
+    - /url: /
+  - button:
+  - combobox "搜尋 Facebook"
+  - navigation "Facebook":
+    - list:
+      - link "首頁":
+        - /url: /
+      - link "Reel":
+        - /url: /reel/?s=tab
+      - link "粉絲專頁":
+        - /url: /pages/?category=your_pages&ref=bookmarks
+      - link "企業管理平台主控板":
+        - /url: /professional_dashboard/?ref=tab_bar
+      - link "廣告中心":
+        - /url: /100082986230027/ad_center/
+  - navigation "帳號控制項和設定":
+    - button "Facebook 功能表":
+    - link "Messenger":
+      - /url: https://business.facebook.com/latest/inbox/all/?nav_ref=manage_page_ap_plus_inbox_message_button&asset_id=101904929207004
+      - link "Messenger":
+        - /url: https://business.facebook.com/latest/inbox/all/?nav_ref=manage_page_ap_plus_inbox_message_button&asset_id=101904929207004
+    - button "通知":
+    - button "你的個人檔案":
+      - img "你的個人檔案"
+- main:
+  - button "下一張相片":
+  - img "可能是文字的圖像"
+  - link "關閉檢視工具並返回動態消息":
+    - /url: /?__tn__=*F
+  - button "放大":
+  - button "縮小" [disabled]:
+  - button "進入全螢幕模式":
+- complementary:
+  - link "環球國際教育新聞網":
+    - /url: https://www.facebook.com/profile.php?id=61595164194381&__tn__=%3C%3C*F
+    - img "環球國際教育新聞網"
+  - heading "環球國際教育新聞網" [level=2]:
+    - link "環球國際教育新聞網":
+      - /url: https://www.facebook.com/profile.php?id=61595164194381&__tn__=-UC*F
+  - generic: 5分鐘前，查看貼文
+  - link "5分鐘前，查看貼文":
+    - /url: https://www.facebook.com/permalink.php?story_fbid=pfbid02pCt4WC1zKHqTJes6pjzxwPAMNUj9CmV3j9aXXPP8t3YpiWdc1zbLajrpA6zXsGWJl&id=61595164194381&__tn__=%2CO*F
+    - text: 5分鐘
+  - generic: ·
+  - img "分享對象：所有人"
+  - button "可對此貼文採取的動作":
+  - text: 紐西蘭培訓學校接待國際生
+  - text: 2027年3月擬全國推出；培訓不等於名額或住宿保證。
+  - text: ENZ委託academyEX提供八門課程與輔導，先由50至80所學校試行至2027年2月，再規劃全國推出。
+  - text: 選校時向學校確認國際生團隊、住宿與緊急聯絡方式。照片為校園資料照，不表示該校加入試行。
+  - text: 環球教育新聞：
+  - link "https://globalednews.com/":
+    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fglobalednews.com%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgFicmlkETFYRFYxd2JjUndscmJFblB5c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHmLVVLRGSdE8c84N6LADenPPaSlq3DeO-oUJlPGA4iLZQXdl1seXbmSlHP5a_aem_q0jGDWq6HpncN4ow2Dtoeg&h=AUCT1wI2SHh3mGHly4JCAgEKuo1Ldjuz0CcBVSD3LiwwuOM2V8HWD6I9CKPFpIYv9CRy6nDAIpyFU2vzxmLpaz1RmMDVu3AOh1IXtKW5A0PORrcDybLzUQZ9lowZl8L80PZApTgQBGfFfrvZVQ&__tn__=-UK*F
+  - text: 全文：
+  - link "https://globalednews.com/....../new-zealand-schools....../":
+    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fglobalednews.com%2Fnews%2Fnew-zealand-schools-international-support-2027%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgFicmlkETFYRFYxd2JjUndscmJFblB5c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHmLVVLRGSdE8c84N6LADenPPaSlq3DeO-oUJlPGA4iLZQXdl1seXbmSlHP5a_aem_q0jGDWq6HpncN4ow2Dtoeg&h=AUBr0nEhAgxrp4GsSsLgIo1oYSK8KRs-h4LJyrIVgorEbZINCTg05_6mPu7xpwcrCmz_cPVhVdCn9R4996IlhKcuZCsk8E7qMMQNEGNaJOxghb5b6qkxJjxUfDt8dZAmjlApMfpOGV8XjyzZcw&__tn__=-UK*F
+  - text: ……
+  - button "查看更多"
+  - button "讚"
+  - button "傳達心情":
+  - button "留言"
+  - button "分享，傳送給朋友或在個人檔案上發佈。"
+  - heading "留言" [level=2]
+  - heading "尚無留言" [level=2]:
+    - generic: 尚無留言
+  - generic: 留言搶頭香。
+  - button "切換到其他個人檔案或粉絲專頁":
+  - 'textbox "以 LTU OSSD #1加拿大 台加高中雙聯學制的身分留言"':
+    - paragraph
+  - generic: "以 LTU OSSD #1加拿大 台加高中雙聯學制的身分留言"
+  - list:
+    - button "以虛擬替身貼圖回應"
+    - button "插入表情符號":
+    - button "附加相片或影片"
+    - button "以 GIF 回應"
+    - button "以貼圖回應"
+  - button "貼文留言" [disabled]:
+- button
+- img "Monica"
+- generic: Ctrl+M
+- text: 解釋

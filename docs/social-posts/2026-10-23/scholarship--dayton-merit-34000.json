@@ -2,7 +2,7 @@
   "date": "2026-10-23",
   "version": "v1",
   "copyVersion": "2026-10-23-v1",
-  "status": "prepared",
+  "status": "published",
   "campaign": "scholarship",
   "articleTitle": "Dayton國際學士獎助：最高34,000美元／年",
   "articleUrl": "https://globalednews.com/scholarships/items/2026-10-dayton-international-merit/",
@@ -23,11 +23,116 @@
   "category": "scholarship",
   "CTA": "免費加入會員",
   "plannedPublishDate": "2026-10-23",
-  "publishedPosts": [],
+  "publishedPosts": [
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "pageId": "101904929207004",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-dayton-international-merit/",
+      "photoReadyAt": "2026-10-23T05:23:14.787+08:00",
+      "photoReadyEvidence": "docs/daily-checks/2026-10-23/scholarship-facebook-photo-ready.png",
+      "copyAddedAt": "2026-10-23T05:23:15.232+08:00",
+      "publishClickedAt": "2026-10-23T05:23:35.994+08:00",
+      "id": "1096589659783898",
+      "publicUrl": "https://facebook.com/LTUOSSDTaiwan/posts/pfbid02WQQe2w7ZfpKvitRPoTW9NArM4e5M5yyXMLz7naqXup8wvTJEG24PVyLkBk2KXqS3l",
+      "publishedAt": "2026-10-23T05:23:00+08:00",
+      "publishedAtPrecision": "minute",
+      "photoAttachments": [
+        {
+          "id": "1096589219783942",
+          "url": "https://www.facebook.com/photo/?fbid=1096589219783942&set=a.107747308668143&type=3"
+        }
+      ],
+      "verifiedAt": "2026-10-23T05:32:28.537+08:00",
+      "mediaVerifiedAt": "2026-10-23T05:32:28.537+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-10-23/scholarship-facebook-public.png",
+      "visibility": "public",
+      "mediaKind": "uploaded-photo",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-23T05:32:28.537+08:00",
+      "publicPhotoScreenshot": "docs/daily-checks/2026-10-23/scholarship-facebook-public.png",
+      "photoAttachedAt": "2026-10-23T05:23:14.787+08:00"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-dayton-international-merit/",
+      "publishClickedAt": "2026-10-23T05:23:24.169+08:00",
+      "id": "Dez8J2uE2Ba",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dez8J2uE2Ba",
+      "publicTimeEvidence": [
+        {
+          "date": "2026-10-23T05:23:25+08:00",
+          "text": "8分鐘"
+        }
+      ],
+      "timeObservedAt": "2026-10-23T05:32:12.222+08:00",
+      "publishedAt": "2026-10-23T05:23:25.000+08:00",
+      "publishedAtPrecision": "second",
+      "verifiedAt": "2026-10-23T05:32:13.499+08:00",
+      "mediaVerifiedAt": "2026-10-23T05:32:13.499+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-10-23/scholarship-threads-public.png",
+      "visibility": "public"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-dayton-international-merit/",
+      "publishClickedAt": "2026-10-23T05:23:35.994+08:00",
+      "id": "Dez8LWYAcJJ",
+      "publicUrl": "https://www.instagram.com/p/Dez8LWYAcJJ/",
+      "publishedAt": "2026-10-23T05:23:40.000+08:00",
+      "publishedAtPrecision": "second",
+      "publicTimeEvidence": [
+        {
+          "date": "2026-10-23T05:23:40+08:00",
+          "text": "8分鐘"
+        },
+        {
+          "date": "2026-10-23T05:23:38+08:00",
+          "text": "8分鐘前"
+        }
+      ],
+      "timeObservedAt": "2026-10-23T05:32:12.198+08:00",
+      "verifiedAt": "2026-10-23T05:32:13.061+08:00",
+      "mediaVerifiedAt": "2026-10-23T05:32:13.061+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-10-23/scholarship-instagram-public.png",
+      "visibility": "public"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-dayton-international-merit/",
+      "publishClickedAt": "2026-10-23T05:24:05.724+08:00",
+      "id": "7519146602507317249",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7519146602507317249/",
+      "publishedTimeLabel": "7 分鐘",
+      "timeObservedAt": "2026-10-23T05:32:27.680+08:00",
+      "verifiedAt": "2026-10-23T05:32:28.071+08:00",
+      "mediaVerifiedAt": "2026-10-23T05:32:28.071+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-10-23/scholarship-linkedin-public.png",
+      "visibility": "public",
+      "publishedAt": "2026-10-23T05:24:05.724+08:00",
+      "publishedAtPrecision": "submission-observed; public UI relative"
+    }
+  ],
   "facebookCopy": "Dayton國際學士獎助：最高34,000美元／年\n隨入學自動考慮；最高額與錄取都不是保證。\n\n台灣國際學士申請者可依資格受評估。春季入學11月1日、秋季5月1日截止；這是入學期限，不是另設獎學金截止。\n\n官方申請費50美元；校方不提供全額學費獎學金。先完成入學文件，再依書面獎助決定調整生活與學費預算。\n台灣國際獎學金雷達：https://globalednews.com/scholarships/\n全文：https://globalednews.com/scholarships/items/2026-10-dayton-international-merit/\n\n和正在規劃升學的家人一起核對條件。\n免費加入環球教育新聞會員！\n每週教育新聞與申請提醒，免費且可隨時取消。\nhttps://globalednews.com/newsletter/\n資料照：Tkaiser45331 / CC BY-SA 3.0；裁切加字。\nhttps://globalednews.com/images/daily/2026-10-23/credits.html#dayton",
   "instagramCopy": "Dayton國際學士獎助：最高34,000美元／年\n隨入學自動考慮；最高額與錄取都不是保證。\n\n台灣國際學士申請者可依資格受評估。春季入學11月1日、秋季5月1日截止；這是入學期限，不是另設獎學金截止。\n官方申請費50美元；校方不提供全額學費獎學金。先完成入學文件，再依書面獎助決定調整生活與學費預算。\n\n台灣國際獎學金雷達：https://globalednews.com/scholarships/\n全文：https://globalednews.com/scholarships/items/2026-10-dayton-international-merit/\n可複製網址至瀏覽器閱讀。\n免費加入環球教育新聞會員！\n每週教育新聞與申請提醒，免費且可隨時取消。\nhttps://globalednews.com/newsletter/\n資料照：Tkaiser45331 / CC BY-SA 3.0；裁切加字。\nhttps://globalednews.com/images/daily/2026-10-23/credits.html#dayton",
   "threadsCopy": "Dayton國際學士獎助：最高34,000美元／年\n隨入學自動考慮；最高額與錄取都不是保證。\n台灣國際學士申請者可依資格受評估。春季入學11月1日、秋季5月1日截止；這是入學期限，不是另設獎學金截止。\n台灣國際獎學金雷達：https://globalednews.com/scholarships/\n免費加入環球教育新聞會員！\n每週教育新聞與申請提醒，免費且可隨時取消。\nhttps://globalednews.com/newsletter/\n資料照：Tkaiser45331 / CC BY-SA 3.0；裁切加字。\nhttps://globalednews.com/images/daily/2026-10-23/credits.html#dayton",
   "linkedinCopy": "Dayton國際學士獎助：最高34,000美元／年\n隨入學自動考慮；最高額與錄取都不是保證。\n\n台灣國際學士申請者可依資格受評估。春季入學11月1日、秋季5月1日截止；這是入學期限，不是另設獎學金截止。\n\n官方申請費50美元；校方不提供全額學費獎學金。先完成入學文件，再依書面獎助決定調整生活與學費預算。\n台灣國際獎學金雷達：https://globalednews.com/scholarships/\n全文：https://globalednews.com/scholarships/items/2026-10-dayton-international-merit/\n\n給教育工作者：轉介學生時請保留資格、時程與尚待確認的限制。\n免費加入環球教育新聞會員！\n每週教育新聞與申請提醒，免費且可隨時取消。\nhttps://globalednews.com/newsletter/\n資料照：Tkaiser45331 / CC BY-SA 3.0；裁切加字。\nhttps://globalednews.com/images/daily/2026-10-23/credits.html#dayton",
   "xCopy": "Dayton國際學士獎助：最高34,000美元／年\n隨入學自動考慮；最高額與錄取都不是保證。\nhttps://globalednews.com/scholarships/items/2026-10-dayton-international-merit/",
-  "threadsSync": false
+  "threadsSync": false,
+  "verifiedAt": "2026-10-23T05:40:25.959818+08:00"
 }

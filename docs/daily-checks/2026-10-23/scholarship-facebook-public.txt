@@ -1,0 +1,97 @@
+- banner:
+  - button [disabled]:
+  - link "Facebook":
+    - /url: /
+  - button:
+  - combobox "搜尋 Facebook"
+  - navigation "Facebook":
+    - list:
+      - link "首頁":
+        - /url: /
+      - link "Reel":
+        - /url: /reel/?s=tab
+      - link "粉絲專頁":
+        - /url: /pages/?category=your_pages&ref=bookmarks
+      - link "企業管理平台主控板":
+        - /url: /professional_dashboard/?ref=tab_bar
+      - link "廣告中心":
+        - /url: /100082986230027/ad_center/
+  - navigation "帳號控制項和設定":
+    - button "Facebook 功能表":
+    - link "Messenger":
+      - /url: https://business.facebook.com/latest/inbox/all/?nav_ref=manage_page_ap_plus_inbox_message_button&asset_id=101904929207004
+      - link "Messenger":
+        - /url: https://business.facebook.com/latest/inbox/all/?nav_ref=manage_page_ap_plus_inbox_message_button&asset_id=101904929207004
+    - button "通知":
+    - button "你的個人檔案":
+      - img "你的個人檔案"
+- main:
+  - button "上一張相片":
+  - button "下一張相片":
+  - img "可能是文字的圖像"
+  - link "關閉檢視工具並返回動態消息":
+    - /url: /?__tn__=*F
+  - button "放大":
+  - button "縮小" [disabled]:
+  - button "標註商品"
+  - button "進入全螢幕模式":
+- complementary:
+  - 'link "LTU OSSD #1加拿大 台加高中雙聯學制"':
+    - /url: https://www.facebook.com/LTUOSSDTaiwan?__tn__=%3C%3C*F
+    - 'img "LTU OSSD #1加拿大 台加高中雙聯學制"'
+  - 'heading "LTU OSSD #1加拿大 台加高中雙聯學制" [level=2]':
+    - 'link "LTU OSSD #1加拿大 台加高中雙聯學制"':
+      - /url: https://www.facebook.com/LTUOSSDTaiwan?__tn__=-UC*F
+  - text: 由
+  - link "Peter von Tan":
+    - /url: https://www.facebook.com/peter.chentan.5?__tn__=-]*F
+  - text: 發佈
+  - img "(tooltip)只有此粉絲專頁的管理人員可以看到是誰發佈了內容"
+  - generic: ·
+  - generic: 8分鐘前，查看貼文
+  - link "8分鐘前，查看貼文":
+    - /url: https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02WQQe2w7ZfpKvitRPoTW9NArM4e5M5yyXMLz7naqXup8wvTJEG24PVyLkBk2KXqS3l?__tn__=%2CO*F
+    - text: 8分鐘
+  - generic: ·
+  - img "分享對象：所有人"
+  - button "可對此貼文採取的動作":
+  - text: Dayton國際學士獎助：最高34,000美元／年
+  - text: 隨入學自動考慮；最高額與錄取都不是保證。
+  - text: 台灣國際學士申請者可依資格受評估。春季入學11月1日、秋季5月1日截止；這是入學期限，不是另設獎學金截止。
+  - text: 官方申請費50美元；校方不提供全額學費獎學金。先完成入學文件，再依書面獎助決定調整生活與學費預算。
+  - text: 台灣國際獎學金雷達：
+  - link "https://globalednews.com/scholarships/":
+    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fglobalednews.com%2Fscholarships%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgFicmlkETFYRFYxd2JjUndscmJFblB5c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHuSwaow9pwjsfJ5T7jJm0V7jff05n89Ur6Nm5LQPmdXSTkrpQjhdg8QttPK7_aem_d1ftIo4OQySh5llGdeY1_g&h=AUA6iELgin0bnePyzHVAwZvl-We4DrkIbVorrTkFYfw4NFXF8J4Znxgn801mtZfUYnjWWlYx3FUjXvxV6GFRd0A-fRLEHl2QFFloDyOBffedSv5sHTNTMzZ_XnQ0w3tYOMYD1FA2wqxQRbqR&__tn__=-UK*F
+  - text: 全文：
+  - link "https://globalednews.com/....../2026-10-dayton....../":
+    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fglobalednews.com%2Fscholarships%2Fitems%2F2026-10-dayton-international-merit%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgFicmlkETFYRFYxd2JjUndscmJFblB5c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHsMEpa6aneyE9dge1y9G0FwjhaBTlk-1he0-E8s2TpE-OyxXESyfMTb4xzl8_aem_82aKbt32c9fzAS5V58pTMA&h=AUAM9wJ2TtHSx0g7RyRK72xMQkbXR7_liTkOPOG-fJ_Wz8fFCb9Hpe2kyZSMHarIDZhDlfovW_3J8nTJNx8FNy44Rg_xUKrW56nLyD8-a-5NN89WaZg9NVdx6-qGpC6kFXu3PLhqPdPexAD5&__tn__=-UK*F
+  - text: ……
+  - button "查看更多"
+  - button "編輯說明":
+    - generic: 編輯
+  - link "加強推廣貼文":
+    - /url: /ad_center/create/boostpost/?ad_account_id=553385757614110&entry_point=www_profile_plus_comet_media_viewer&page_id=101904929207004&target_id=1096589659783898&__tn__=*F
+    - generic: 加強推廣貼文
+  - button "讚"
+  - button "傳達心情":
+  - button "留言"
+  - button "分享，傳送給朋友或在個人檔案上發佈。"
+  - heading "留言" [level=2]
+  - heading "尚無留言" [level=2]:
+    - generic: 尚無留言
+  - generic: 留言搶頭香。
+  - button "切換到其他個人檔案或粉絲專頁":
+  - 'textbox "以 LTU OSSD #1加拿大 台加高中雙聯學制的身分留言"':
+    - paragraph
+  - generic: "以 LTU OSSD #1加拿大 台加高中雙聯學制的身分留言"
+  - list:
+    - button "以虛擬替身貼圖回應"
+    - button "插入表情符號":
+    - button "附加相片或影片"
+    - button "以 GIF 回應"
+    - button "以貼圖回應"
+  - button "貼文留言" [disabled]:
+- button
+- img "Monica"
+- generic: Ctrl+M
+- text: 解釋

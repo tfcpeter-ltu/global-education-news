@@ -2,7 +2,7 @@
   "date": "2026-10-23",
   "version": "v1",
   "copyVersion": "2026-10-23-v1",
-  "status": "prepared",
+  "status": "published",
   "campaign": "taiwan-universities",
   "articleTitle": "短期課程、交換、獎助：先分清三種機會",
   "articleUrl": "https://globalednews.com/taiwan-universities/",
@@ -23,11 +23,84 @@
   "category": "taiwan-universities",
   "CTA": "免費加入會員",
   "plannedPublishDate": "2026-10-23",
-  "publishedPosts": [],
+  "publishedPosts": [
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "publishClickedAt": "2026-10-23T05:26:48.922+08:00",
+      "id": "Dez8i0lk0OM",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dez8i0lk0OM",
+      "publicTimeEvidence": [
+        {
+          "date": "2026-10-23T05:26:50+08:00",
+          "text": "5分鐘"
+        }
+      ],
+      "timeObservedAt": "2026-10-23T05:32:55.933+08:00",
+      "publishedAt": "2026-10-23T05:26:50.000+08:00",
+      "publishedAtPrecision": "second",
+      "verifiedAt": "2026-10-23T05:32:56.840+08:00",
+      "mediaVerifiedAt": "2026-10-23T05:32:56.840+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-10-23/taiwan-universities-threads-public.png",
+      "visibility": "public"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "publishClickedAt": "2026-10-23T05:27:33.085+08:00",
+      "id": "7519147468584902656",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7519147468584902656/",
+      "publishedTimeLabel": "5 分鐘",
+      "timeObservedAt": "2026-10-23T05:33:42.460+08:00",
+      "verifiedAt": "2026-10-23T05:33:42.919+08:00",
+      "mediaVerifiedAt": "2026-10-23T05:33:42.919+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-10-23/taiwan-universities-linkedin-public.png",
+      "visibility": "public",
+      "publishedAt": "2026-10-23T05:27:33.085+08:00",
+      "publishedAtPrecision": "submission-observed; public UI relative"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "publishClickedAt": "2026-10-23T05:28:48.545+08:00",
+      "id": "Dez8xiQAaB6",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Dez8xiQAaB6/",
+      "publicTimeEvidence": [
+        {
+          "date": "2026-10-23T05:28:52+08:00",
+          "text": "3分鐘"
+        },
+        {
+          "date": "2026-10-23T05:28:51+08:00",
+          "text": "3分鐘前"
+        }
+      ],
+      "timeObservedAt": "2026-10-23T05:32:55.922+08:00",
+      "publishedAt": "2026-10-23T05:28:52.000+08:00",
+      "publishedAtPrecision": "second",
+      "verifiedAt": "2026-10-23T05:32:56.406+08:00",
+      "mediaVerifiedAt": "2026-10-23T05:32:56.406+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-10-23/taiwan-universities-instagram-public.png",
+      "visibility": "public"
+    }
+  ],
   "facebookCopy": "短期課程、交換、獎助：先分清三種機會\n校園公告是查核起點，各校資格與期限要分開看。\n\n陽明交大10月22日更新姐妹校短期課程；臺大公告學海要點說明會，清大提供交換及獎學金入口。\n\n官方入口：oia.nycu.edu.tw、oia.ntu.edu.tw、oga.site.nthu.edu.tw。先核對學籍、課程與日期；說明會報名不等於獎助申請。\n國內大學選校選系資料庫：https://globalednews.com/taiwan-universities/\n全文：https://globalednews.com/taiwan-universities/\n\n和正在規劃升學的家人一起核對條件。\n免費加入環球教育新聞會員！\n每週教育新聞與申請提醒，免費且可隨時取消。\nhttps://globalednews.com/newsletter/\n資料照：Tbatb / CC BY-SA 4.0；裁切加字。\nhttps://globalednews.com/images/daily/2026-10-23/credits.html#taiwan",
   "instagramCopy": "短期課程、交換、獎助：先分清三種機會\n校園公告是查核起點，各校資格與期限要分開看。\n\n陽明交大10月22日更新姐妹校短期課程；臺大公告學海要點說明會，清大提供交換及獎學金入口。\n官方入口：oia.nycu.edu.tw、oia.ntu.edu.tw、oga.site.nthu.edu.tw。先核對學籍、課程與日期；說明會報名不等於獎助申請。\n\n國內大學選校選系資料庫：https://globalednews.com/taiwan-universities/\n全文：https://globalednews.com/taiwan-universities/\n可複製網址至瀏覽器閱讀。\n免費加入環球教育新聞會員！\n每週教育新聞與申請提醒，免費且可隨時取消。\nhttps://globalednews.com/newsletter/\n資料照：Tbatb / CC BY-SA 4.0；裁切加字。\nhttps://globalednews.com/images/daily/2026-10-23/credits.html#taiwan",
   "threadsCopy": "短期課程、交換、獎助：先分清三種機會\n校園公告是查核起點，各校資格與期限要分開看。\n陽明交大10月22日更新姐妹校短期課程；臺大公告學海要點說明會，清大提供交換及獎學金入口。\n國內大學選校選系資料庫：https://globalednews.com/taiwan-universities/\n免費加入環球教育新聞會員！\n每週教育新聞與申請提醒，免費且可隨時取消。\nhttps://globalednews.com/newsletter/\n資料照：Tbatb / CC BY-SA 4.0；裁切加字。\nhttps://globalednews.com/images/daily/2026-10-23/credits.html#taiwan",
   "linkedinCopy": "短期課程、交換、獎助：先分清三種機會\n校園公告是查核起點，各校資格與期限要分開看。\n\n陽明交大10月22日更新姐妹校短期課程；臺大公告學海要點說明會，清大提供交換及獎學金入口。\n\n官方入口：oia.nycu.edu.tw、oia.ntu.edu.tw、oga.site.nthu.edu.tw。先核對學籍、課程與日期；說明會報名不等於獎助申請。\n國內大學選校選系資料庫：https://globalednews.com/taiwan-universities/\n全文：https://globalednews.com/taiwan-universities/\n\n給教育工作者：轉介學生時請保留資格、時程與尚待確認的限制。\n免費加入環球教育新聞會員！\n每週教育新聞與申請提醒，免費且可隨時取消。\nhttps://globalednews.com/newsletter/\n資料照：Tbatb / CC BY-SA 4.0；裁切加字。\nhttps://globalednews.com/images/daily/2026-10-23/credits.html#taiwan",
   "xCopy": "短期課程、交換、獎助：先分清三種機會\n校園公告是查核起點，各校資格與期限要分開看。\nhttps://globalednews.com/taiwan-universities/",
-  "threadsSync": false
+  "threadsSync": false,
+  "verifiedAt": "2026-10-23T05:40:25.959818+08:00"
 }

@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-23",
+  "timezone": "Asia/Taipei",
+  "verifiedAt": "2026-10-23T05:40:25.959818+08:00",
+  "status": "INCOMPLETE",
+  "exitCode": 1,
+  "stdout": "",
+  "stderr": "INCOMPLETE 2026-10-23: missing live acceptance evidence\n"
+}

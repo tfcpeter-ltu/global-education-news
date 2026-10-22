@@ -1,0 +1,245 @@
+- button:
+- link:
+  - /url: https://www.signalhire.com
+- button
+- button
+- heading "Welcome to SignalHire!" [level=1]
+- paragraph: SignalHire is a great way to find contact information in a couple of clicks
+- link "Sign In":
+  - /url: https://www.signalhire.com/login?package=trial&utm_source=signin&utm_medium=extension
+  - generic: Sign In
+- paragraph:
+  - text: Don’t have an account yet?
+  - link "Sign up for free":
+    - /url: https://www.signalhire.com/registration?package=trial&utm_source=signup&utm_medium=extension
+- heading "0 則通知" [level=2]
+- generic "略過導覽選單":
+  - button "前往搜尋":
+    - generic: 前往搜尋
+  - button "前往內容":
+    - generic: 前往內容
+  - button "前往側邊欄":
+    - generic: 前往側邊欄
+  - button "前往主要內容":
+    - generic: 前往主要內容
+  - button "前往側邊":
+    - generic: 前往側邊
+  - button "關閉選單":
+- banner:
+  - button "LinkedIn":
+    - img "LinkedIn"
+  - button "搜尋":
+    - paragraph: 搜尋
+  - dialog:
+    - status: 有 5 個建議 ，請使用上下方向鍵來瀏覽
+    - search:
+      - textbox "搜尋"
+    - listbox:
+      - paragraph: 您可以試試
+      - option "interview tips搜尋建議":
+        - link "interview tips搜尋建議":
+          - /url: https://www.linkedin.com/search/results/all/?keywords=interview+tips&origin=QUERY_SUGGESTION&position=0
+          - generic "interview tips搜尋建議":
+            - paragraph: interview tips
+      - option "latest in ai搜尋建議":
+        - link "latest in ai搜尋建議":
+          - /url: https://www.linkedin.com/search/results/all/?keywords=latest+in+ai&origin=QUERY_SUGGESTION&position=0
+          - generic "latest in ai搜尋建議":
+            - paragraph: latest in ai
+      - option "balancing work and personal life搜尋建議":
+        - link "balancing work and personal life搜尋建議":
+          - /url: https://www.linkedin.com/search/results/all/?keywords=balancing+work+and+personal+life&origin=QUERY_SUGGESTION&position=0
+          - generic "balancing work and personal life搜尋建議":
+            - paragraph: balancing work and personal life
+      - option "remote work搜尋建議":
+        - link "remote work搜尋建議":
+          - /url: https://www.linkedin.com/search/results/all/?keywords=remote+work&origin=QUERY_SUGGESTION&position=0
+          - generic "remote work搜尋建議":
+            - paragraph: remote work
+      - option "when's the best time to switch jobs搜尋建議":
+        - link "when's the best time to switch jobs搜尋建議":
+          - /url: https://www.linkedin.com/search/results/all/?keywords=when%27s+the+best+time+to+switch+jobs&origin=QUERY_SUGGESTION&position=0
+          - generic "when's the best time to switch jobs搜尋建議":
+            - paragraph: when's the best time to switch jobs
+  - figure
+  - navigation:
+    - list:
+      - button "首頁，1 則新通知":
+        - generic: 首頁
+      - link "我的人脈，2 則新通知":
+        - /url: https://www.linkedin.com/mynetwork
+        - generic: "2"
+        - generic: 我的人脈
+      - link "職缺，0 則新通知":
+        - /url: https://www.linkedin.com/jobs/
+        - generic: 職缺
+      - link "訊息，2 則新通知":
+        - /url: https://www.linkedin.com/messaging/
+        - generic: "2"
+        - generic: 訊息
+      - link "通知，25 則新通知":
+        - /url: https://www.linkedin.com/notifications/
+        - generic: "25"
+        - generic: 通知
+      - button "我":
+        - figure
+        - text: 我
+  - navigation:
+    - list:
+      - button "商務功能":
+        - text: 商務功能
+      - link "Learning，0 則新通知":
+        - /url: https://www.linkedin.com/learning/?trk=nav_neptune_learning
+        - generic: Learning
+- main:
+  - complementary "側邊欄":
+    - link "Premium":
+      - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+      - figure:
+      - paragraph: Premium
+      - figure:
+        - img "Peter Chen"
+    - link "Peter Chen，LTU Education Center CEO，臺北市 台北，Premium 檔案":
+      - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+      - generic "Peter Chen，LTU Education Center CEO，臺北市 台北，Premium 檔案":
+        - paragraph: Peter Chen
+        - img "Premium 檔案"
+        - paragraph: LTU Education Center CEO
+        - paragraph: 臺北市 台北
+    - link "LTU Education Center Co.,":
+      - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+      - figure:
+      - paragraph: LTU Education Center Co.,
+    - paragraph: 讓朋友免費體驗 Premium 2 個月
+    - link "推薦好友":
+      - /url: https://linkedin.com/premium/referrals/?referralType=PREMIUM&upsellOrderOrigin=premium_referrals_homepage_identity_1_sided_entry
+      - paragraph: 推薦好友
+    - menu:
+      - link "聯絡人 29 拓展人脈":
+        - /url: https://www.linkedin.com/mynetwork/invite-connect/connections/
+        - generic "聯絡人 29 拓展人脈":
+          - paragraph: 聯絡人
+          - paragraph: 拓展人脈
+          - paragraph: "29"
+    - menu:
+      - link "LinkedIn Premium 功能":
+        - /url: https://www.linkedin.com/premium/my-premium/
+        - paragraph: LinkedIn Premium 功能
+  - region "主要內容":
+    - heading "動態消息" [level=2]:
+      - generic: 動態消息
+    - paragraph: 宣傳此貼文，觸及您所重視的受眾。
+    - link "宣傳":
+      - /url: https://www.linkedin.com/campaignmanager/boost/campaigns/new/details/?origin=memberPostDetails&content=urn%3Ali%3Ashare%3A7519147467427237889&isNileReferrer=true
+      - generic: 宣傳
+    - link:
+      - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+      - figure:
+        - img "查看Peter Chen的個人檔案"
+    - link "Peter Chen Premium個人檔案 您":
+      - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+      - generic "Peter Chen Premium個人檔案 您":
+        - paragraph: Peter Chen
+        - paragraph:
+          - text: • 您
+    - paragraph: LTU Education Center CEO
+    - paragraph: 5 分鐘
+    - link "Peter Chen Premium個人檔案 您":
+      - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+      - generic "Peter Chen Premium個人檔案 您"
+    - button "開啟Peter Chen貼文的控制選單":
+    - paragraph:
+      - text: 短期課程、交換、獎助：先分清三種機會
+      - text: 校園公告是查核起點，各校資格與期限要分開看。
+      - text: 陽明交大10月22日更新姐妹校短期課程；臺大公告學海要點說明會，清大提供交換及獎學金入口。
+      - text: 官方入口：
+      - link "開啟 http://oia.nycu.edu.tw":
+        - /url: https://www.linkedin.com/safety/go/?url=http%3A%2F%2Foia%2Enycu%2Eedu%2Etw&urlhash=US4S&mt=Wbkoh0dOoaJpH-dZ2gvaf2ndVyavBmScHGCxcuEqRD8pVPdAdOSFrl3ThNFAxuRYd4RMwP6slW_bkbUlqme5SbxFQyRizRpGOkAbgAD38SCFBiv64_C6-TA56w&isSdui=true
+        - strong: oia.nycu.edu.tw
+      - text: 、
+      - link "開啟 http://oia.ntu.edu.tw":
+        - /url: https://www.linkedin.com/safety/go/?url=http%3A%2F%2Foia%2Entu%2Eedu%2Etw&urlhash=i6H7&mt=DU7vV8wAurCqNIqKLuq5bXwQu-5nUJZBy7qTw2x3egJyN73anufDSJgfacISNnjKtYBWArWzzO_ug0JAEcav0T-T-HLbI1e0VzMH2Q3c0IqQTMjop0gqgy2BUw&isSdui=true
+        - strong: oia.ntu.edu.tw
+      - text: 、
+      - link "開啟 http://oga.site.nthu.edu.tw":
+        - /url: https://www.linkedin.com/safety/go/?url=http%3A%2F%2Foga%2Esite%2Enthu%2Eedu%2Etw&urlhash=GBYX&mt=B_c_IbgtknhjreHXN49Zu49aAbjwOq4ZA4UND8aMR-IP49RdFFD1aaScE-ESrG6hpid_a7RUsSh5vAjNtcXz7b1xyKvavQafFmb29ULdhWoHgC0TbKke4aCcJA&isSdui=true
+        - strong: oga.site.nthu.edu.tw
+      - text: 。先核對學籍、課程與日期;說明會報名不等於獎助申請。
+      - text: 國內大學選校選系資料庫：
+      - link "開啟 https://lnkd.in/gC-Qb3mY":
+        - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgC-Qb3mY&urlhash=mnkk&mt=9jJBnXIQs7Z0DkuVpzIP1MJ4dJsFaD0U-Ir_nGY5ziFrDW7qSKa5oL50_Flgows6YtvYh64RwZdH4ohDQmckySMX68AGIrDTPFjj5qDoIvWUQqvSe-06FIeuxA&isSdui=true
+        - strong: https://lnkd.in/gC-Qb3mY
+      - text: 全文：
+      - link "開啟 https://lnkd.in/gC-Qb3mY":
+        - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgC-Qb3mY&urlhash=mnkk&mt=z1zxWiH9gpouAALm1lLOh57uK9rkhMST7dxlpxgBBkrUhW8bmYxO4V2Tj6c7I5a9f42_-hq1Ab856cFsFZ8Jh2lBaZWDXQeuDlviUEnM4AdjAmDpgDhd0aP8-g&isSdui=true
+        - strong: https://lnkd.in/gC-Qb3mY
+      - text: 給教育工作者：轉介學生時請保留資格、時程與尚待確認的限制。
+      - text: 免費加入環球教育新聞會員！
+      - text: 每週教育新聞與申請提醒，免費且可隨時取消。
+      - link "開啟 https://lnkd.in/g8qTgA39":
+        - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fg8qTgA39&urlhash=q1ph&mt=nRvGCKe-UKohMLaTfs-LM8lcDYRcOvFMhOOYdMNKwpsPwz-LMPJIlljPHcXJyG8XZzKOVfbAsMec51cuM0fgoRKxJnC4uG-og640R--nrGoIqOOAydH5jgaOLg&isSdui=true
+        - strong: https://lnkd.in/g8qTgA39
+      - text: 資料照：Tbatb / CC BY-SA 4.0；裁切加字。
+      - link "開啟 https://lnkd.in/gdiJ9V4k":
+        - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgdiJ9V4k&urlhash=IpAw&mt=7sufIv9kkCCVQQYXgsd3az9b05n9qMj-v7kOhzskalXfWj4JPEXyadajmum7r5iDGHpO1x42QYxvVPNcislsPbm8DYYXlY4fDzRBwVkjai1fV4mKlXiR6xTCOg&isSdui=true
+        - strong: https://lnkd.in/gdiJ9V4k
+    - link:
+      - /url: https://www.linkedin.com/
+      - figure:
+        - img "查看圖片"
+    - button "感受按鈕狀態：無感受":
+    - button "開啟感受選單":
+    - button "回應":
+    - button "轉發":
+    - link "傳送":
+      - /url: https://www.linkedin.com/
+    - link "查看分析資料":
+      - /url: https://www.linkedin.com/analytics/post-summary/urn:li:activity:7519147468584902656/
+      - generic "查看分析資料":
+        - generic "內容分析":
+          - img "Analytics Icon"
+          - paragraph: 1 次曝光
+        - paragraph:
+          - generic: 查看分析資料
+          - text: 查看分析資料
+    - figure
+    - status
+    - textbox "用於建立回應的文字編輯器":
+      - paragraph: 輸入回應
+    - button "顯示表情符號選擇工具":
+    - button "開啟 GIF 選擇工具":
+    - button "分享照片":
+    - link:
+      - /url: https://www.linkedin.com/
+  - complementary "側邊":
+    - link "關於":
+      - /url: https://about.linkedin.com/
+      - paragraph: 關於
+    - link "無障礙功能":
+      - /url: https://www.linkedin.com/accessibility/
+      - paragraph: 無障礙功能
+    - link "說明中心":
+      - /url: https://www.linkedin.com/help/linkedin/
+      - paragraph: 說明中心
+    - button "隱私權及條款":
+      - paragraph: 隱私權及條款
+    - link "Ad Choices":
+      - /url: https://www.linkedin.com/help/linkedin/answer/62931/
+      - paragraph: Ad Choices
+    - link "廣告":
+      - /url: https://www.linkedin.com/ad/start/?trk=n_nav_ads_rr
+      - paragraph: 廣告
+    - button "商務服務":
+      - paragraph: 商務服務
+    - link "下載 LinkedIn App":
+      - /url: https://www.linkedin.com/mobile/
+      - paragraph: 下載 LinkedIn App
+    - link "更多":
+      - /url: https://www.linkedin.com/
+      - paragraph: 更多
+    - paragraph: LinkedIn Corporation © 2026 年
+- iframe
+- button
+- img "Monica"
+- generic: Ctrl+M
+- text: 解釋

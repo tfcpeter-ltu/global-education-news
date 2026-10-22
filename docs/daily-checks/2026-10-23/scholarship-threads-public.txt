@@ -1,0 +1,131 @@
+- navigation:
+  - link "Threads":
+    - /url: /
+    - img "Threads"
+  - button "更多":
+    - img "更多"
+  - link "為你推薦":
+    - /url: /
+    - generic: 為你推薦
+  - button "新串文":
+    - generic: 新串文
+  - link "搜尋 搜尋":
+    - /url: /search
+    - img "搜尋"
+    - generic: 搜尋
+  - link "訊息 訊息":
+    - /url: /messages/
+    - img "訊息"
+    - generic: 訊息
+  - link "通知 動態":
+    - /url: /activity
+    - img "通知"
+    - generic: 動態
+  - link "個人檔案 個人檔案":
+    - /url: /@ltuossdtw
+    - img "個人檔案"
+    - generic: 個人檔案
+  - link "洞察報告 洞察報告":
+    - /url: /insights/
+    - img "洞察報告"
+    - generic: 洞察報告
+  - generic: 探索社群
+  - link "Taiwan":
+    - /url: /search?q=taiwan&serp_type=tags&tag_id=18370641160076663
+    - generic: Taiwan
+  - link "Kpop":
+    - /url: /search?q=kpop&serp_type=tags&tag_id=18320256787128476
+    - generic: Kpop
+  - link "AI Threads":
+    - /url: /search?q=aithreads&serp_type=tags&tag_id=18399895213044171
+    - generic: AI Threads
+  - link "顯示更多":
+    - /url: /communities/
+    - generic: 顯示更多
+  - generic: 其他動態消息
+  - button "編輯動態消息":
+    - generic: 編輯
+  - link "追蹤中":
+    - /url: /following/
+    - generic: 追蹤中
+  - link "已儲存 已儲存":
+    - /url: /saved/
+    - img "已儲存"
+    - generic: 已儲存
+  - link "已說讚 已說讚":
+    - /url: /liked/
+    - img "已說讚"
+    - generic: 已說讚
+  - button "顯示更多":
+    - generic: 顯示更多
+- button "返回":
+  - img "返回"
+- link "直欄標題":
+  - /url: /@ltuossdtw/post/Dez8J2uE2Ba
+  - heading "串文" [level=1]:
+    - generic: 串文
+- button "14次瀏覽":
+  - text: 14次瀏覽
+- button "通知設定":
+  - img "通知設定"
+- button "更多":
+  - img "更多"
+- region "直欄內文":
+  - link "ltuossdtw的大頭貼照":
+    - /url: /@ltuossdtw
+    - img "ltuossdtw的大頭貼照"
+  - link "ltuossdtw":
+    - /url: /@ltuossdtw
+    - generic: ltuossdtw
+  - link "8分鐘前":
+    - /url: /@ltuossdtw/post/Dez8J2uE2Ba
+    - time:
+      - generic "8分鐘前": 8分鐘
+  - button "更多":
+    - img "更多"
+  - text: Dayton國際學士獎助：最高34,000美元／年 隨入學自動考慮；最高額與錄取都不是保證。 台灣國際學士申請者可依資格受評估。春季入學11月1日、秋季5月1日截止；這是入學期限，不是另設獎學金截止。 台灣國際獎學金雷達：
+  - link "globalednews.com/schol…":
+    - /url: https://l.threads.com/?u=https%3A%2F%2Fglobalednews.com%2Fscholarships%2F&e=AUDCvZkoYYk3gVc-XA2wdQoyjj1NZyYE-GfImZajFj8T-RST3IwNvvIRburICghPRC2-kpyF5_Ur89SLwXjpH1z3LlKnwgXacx51vgIATbYNhfWd1AgqHxg4Mk33KknW-qpAte0
+  - text: 免費加入環球教育新聞會員！ 每週教育新聞與申請提醒，免費且可隨時取消。
+  - link "globalednews.com/newsl…":
+    - /url: https://l.threads.com/?u=https%3A%2F%2Fglobalednews.com%2Fnewsletter%2F&e=AUDCvZkoYYk3gVc-XA2wdQoyjj1NZyYE-GfImZajFj8T-RST3IwNvvIRburICghPRC2-kpyF5_Ur89SLwXjpH1z3LlKnwgXacx51vgIATbYNhfWd1AgqHxg4Mk33KknW-qpAte0
+  - text: 資料照：Tkaiser45331 / CC BY-SA 3.0；裁切加字。
+  - link "globalednews.com/image…":
+    - /url: https://l.threads.com/?u=https%3A%2F%2Fglobalednews.com%2Fimages%2Fdaily%2F2026-10-23%2Fcredits.html%23dayton&e=AUDCvZkoYYk3gVc-XA2wdQoyjj1NZyYE-GfImZajFj8T-RST3IwNvvIRburICghPRC2-kpyF5_Ur89SLwXjpH1z3LlKnwgXacx51vgIATbYNhfWd1AgqHxg4Mk33KknW-qpAte0
+  - link "Photo by LTU 布萊斯OSSD 台加雙聯學制 on October 22, 2026. 可能是文字的圖像.":
+    - /url: /@ltuossdtw/post/Dez8J2uE2Ba/media
+    - img "Photo by LTU 布萊斯OSSD 台加雙聯學制 on October 22, 2026. 可能是文字的圖像."
+  - button "讚":
+    - img "讚"
+  - button "回覆":
+    - img "回覆"
+  - button "轉發":
+    - img "轉發"
+  - button "分享":
+    - img "分享"
+  - link "查看洞察報告":
+    - /url: /insights/post/Dez8J2uE2Ba
+    - img "查看洞察報告"
+  - generic: 尚無回覆
+  - img "ltuossdtw的大頭貼照"
+  - textbox "文字欄位空白。請輸入內容以撰寫新貼文。" [active]:
+    - paragraph
+  - generic: 回覆ltuossdtw……
+  - button "附加影音內容":
+  - button "新增 GIF":
+  - button "展開撰寫工具":
+- contentinfo:
+  - list:
+    - generic: © 2026
+    - link "《Threads 使用條款》":
+      - /url: https://help.instagram.com/769983657850450
+    - link "《隱私政策》":
+      - /url: https://help.instagram.com/515230437301944
+    - link "《Cookie 政策》":
+      - /url: https://help.instagram.com/1896641480634370/
+- button "建立":
+  - img "建立"
+- button
+- img "Monica"
+- generic: Ctrl+M
+- text: 解釋
