@@ -1,0 +1,130 @@
+{
+  "checkedAt": "2026-10-23T05:13:36.091177+08:00",
+  "news": [
+    {
+      "slug": "new-zealand-schools-international-support-2027",
+      "title": "紐西蘭將培訓學校接待國際生：2027年3月擬全國推出",
+      "url": "https://globalednews.com/news/new-zealand-schools-international-support-2027/",
+      "publishedPath": "src/pages/news/new-zealand-schools-international-support-2027.md",
+      "sources": [
+        {
+          "label": "Primary source",
+          "url": "https://www.enz.govt.nz/about-enz/support-to-grow-international-education-in-schools"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://thepienews.com/new-zealand-to-help-more-schools-recruit-international-students/"
+        }
+      ],
+      "verifiedAt": "2026-10-23T05:13:36.091177+08:00"
+    },
+    {
+      "slug": "uk-refugee-education-pathway-2027-target",
+      "title": "英國難民高教途徑目標2027迎40人：仍在籌備，非一般留學簽證",
+      "url": "https://globalednews.com/news/uk-refugee-education-pathway-2027-target/",
+      "publishedPath": "src/pages/news/uk-refugee-education-pathway-2027-target.md",
+      "sources": [
+        {
+          "label": "Primary source",
+          "url": "https://www.reuk.org/refugee-education-pathway"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://thepienews.com/refugee-student-route-aims-to-bring-40-students-to-uk-universities-in-2027/"
+        }
+      ],
+      "verifiedAt": "2026-10-23T05:13:36.091177+08:00"
+    },
+    {
+      "slug": "india-gen-z-study-abroad-intentions-2026",
+      "title": "印度Gen Z調查：仍想留學，但成本與簽證讓部分意願降溫",
+      "url": "https://globalednews.com/news/india-gen-z-study-abroad-intentions-2026/",
+      "publishedPath": "src/pages/news/india-gen-z-study-abroad-intentions-2026.md",
+      "sources": [
+        {
+          "label": "Primary source",
+          "url": "https://emeritus.org/indias-gen-z-outlook-2026-the-no-cap-generation-by-emeritus/"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://thepienews.com/new-study-signals-rethink-of-overseas-education-among-indias-gen-z/"
+        }
+      ],
+      "verifiedAt": "2026-10-23T05:13:36.091177+08:00"
+    }
+  ],
+  "scholarships": [
+    {
+      "slug": "2026-10-dayton-international-merit",
+      "title": "Dayton國際學士獎學金：每年最高34,000美元",
+      "url": "https://globalednews.com/scholarships/items/2026-10-dayton-international-merit/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-dayton-international-merit.md",
+      "sources": [
+        "https://udayton.edu/tuition-aid/international/undergraduate.php",
+        "https://scholarfahad.com/scholarships/university-of-dayton-merit-scholarship-2027-for-international-students/",
+        "https://udayton.edu/apply/international/undergraduate/index.php"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-23T05:13:36.091177+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "Distinct new award; current official eligibility, amounts and admission route cross-checked. Maximum values are conditional, not guarantees."
+    },
+    {
+      "slug": "2026-10-oregon-state-taiwan-regional",
+      "title": "Oregon State台灣地區獎助：每年2,000美元，另有酌定補助",
+      "url": "https://globalednews.com/scholarships/items/2026-10-oregon-state-taiwan-regional/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-oregon-state-taiwan-regional.md",
+      "sources": [
+        "https://admissions.oregonstate.edu/international/regions",
+        "https://opportunityinside.com/scholarships/oregon-state-university-scholarships-usa-2027.html",
+        "https://admissions.oregonstate.edu/international/apply"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-23T05:13:36.091177+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "Distinct new award; current official eligibility, amounts and admission route cross-checked. Maximum values are conditional, not guarantees."
+    },
+    {
+      "slug": "2026-10-michigan-state-nonresident",
+      "title": "Michigan State非居民獎學金：國際新生最高每年18,000美元",
+      "url": "https://globalednews.com/scholarships/items/2026-10-michigan-state-nonresident/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-michigan-state-nonresident.md",
+      "sources": [
+        "https://admissions.msu.edu/cost-aid/scholarships/international",
+        "https://scholargem.org/msu-non-resident-scholarship/",
+        "https://admissions.msu.edu/apply/international"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-23T05:13:36.091177+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "Distinct new award; current official eligibility, amounts and admission route cross-checked. Maximum values are conditional, not guarantees."
+    }
+  ],
+  "excluded": [
+    {
+      "candidate": "US OPT school fee",
+      "reason": "Existing October8 article covers same proposal; duplicate excluded."
+    },
+    {
+      "candidate": "Swinburne",
+      "reason": "Official pages denied access; no eligibility asserted."
+    },
+    {
+      "candidate": "Murdoch International Welcome2027",
+      "reason": "Official listing discontinued; excluded despite secondary promotion."
+    }
+  ],
+  "notes": [
+    "India original PDF pages4,11,14 inspected:48% denominator is those considering abroad; survey intentions not enrolments.",
+    "Dayton official USD50 fee overrides contradictory secondary footer.",
+    "OSU maximum combined amount is discretionary; current official application route reviewed; award has no universal date.",
+    "MSU current official Fall2027 application open and November1 maximum scholarship consideration confirmed.",
+    "Peter new Honours source checked against AQF, UQ and Monash; previous SOP deduplicated by content."
+  ]
+}

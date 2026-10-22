@@ -1,0 +1,52 @@
+[
+  {
+    "path": "docs/social-posts/2026-10-22/news--france-campus-continuity.json",
+    "sourceSha": "449c3997ad9250b0d078c5472fc75def049c97f53e5f3109bb3280f3fb1831af",
+    "runtimeSha": "4e32fa069a149d1912ddb3008b5333e0c603f786c9fbc73fe92c4e6501e3e40a"
+  },
+  {
+    "path": "docs/social-posts/2026-10-22/publication-log.json",
+    "sourceSha": "7b577c59c7ca8a8d774d70bbce4e73012f4f8c0f9a6a2e175f91575123cc81d6",
+    "runtimeSha": "b20c2065e0914e7b0c026f6e27f000b1b776c4e009c00788c535844470fedf8e"
+  },
+  {
+    "path": "docs/social-posts/2026-10-22/scholarship--bond-undergraduate-50.json",
+    "sourceSha": "67c647217870d5601d9055c98fe8da04a0cd5c426417ebce0362afe2e092bcdc",
+    "runtimeSha": "4851aca8a0f3ed086e097f2fd6c648b9086726f8870f782c9eac26dbe7cf4e01"
+  },
+  {
+    "path": "docs/social-posts/2026-10-22/study-abroad--bond-application-routes.json",
+    "sourceSha": "0c55d01bc1e3fffa45724dab3894a8fd4bc1080c6ca2d848f06fd110c8bab805",
+    "runtimeSha": "d35bae3a7792d92bc5c3f7b7ef45ac2b8df395fa94919ca1ee7e3223cbd798b9"
+  },
+  {
+    "path": "docs/social-posts/2026-10-22/taiwan-universities--campus-briefing-vs-application.json",
+    "sourceSha": "b6d09dbd49338b0f1e7f496ce065773cddf982a794baa69babd8f38c23e77b75",
+    "runtimeSha": "ceac28035c6b67a4b686243fb516a9bedcc3d6096e34d01881d9558b952f6ccb"
+  },
+  {
+    "path": "public/data/analytics-summary.json",
+    "sourceSha": "29a1a21620b459121dbdcee599a73b95be1b035520c2f4cc63f84bda014ee887",
+    "runtimeSha": "33cf6648092112355aaa5437ec944751cd58ab4c7a78361a33a052eb2e11a8a0"
+  },
+  {
+    "path": "public/images/share-photos/credits.json",
+    "sourceSha": "aa2e6c9a6be17c984998f7bbe8e3b07a973b3e7c34bcde078dd22eb6e44d296e",
+    "runtimeSha": "1db45c9fa8a9583316cda8d5d0dd7e726c6459813d506b232fe3be8e9df626d0"
+  },
+  {
+    "path": "src/data/i18n/en-overrides.json",
+    "sourceSha": "ff84b63969533ab7d5c88ab7813d263876f3e9fd6787b266e7b8176611a88861",
+    "runtimeSha": "b3b91daa32a197eaea4d1bad53fe771e8cd9e204a82db31b537483df0e50c6b5"
+  },
+  {
+    "path": "src/data/i18n/en.json",
+    "sourceSha": "6eab2c732ad02875925ff709d6990302a9b01ef6237dfec46934c495dfc1a4f2",
+    "runtimeSha": "510150c65d04565b2332b01cd721efe31622912eea30d096484021e6d491de9f"
+  },
+  {
+    "path": "src/data/peter-articles.json",
+    "sourceSha": "1e35cf554a991ef3665dcc2f005b80fc9edd028168dc4daba7730edf02e2f26a",
+    "runtimeSha": "6917dec664d66e823d5ed6ccfaecde051fecd73b608746b23d9714f1e6458643"
+  }
+]

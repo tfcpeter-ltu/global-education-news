@@ -1,0 +1,216 @@
+- text:  
+- banner:
+  - link "Education New Zealand logo":
+    - /url: /
+    - img "Education New Zealand logo"
+  - text:  
+  - list:
+    - link "Contact":
+      - /url: /about-enz/contact-us
+  - generic: Search
+  - searchbox "Search"
+  - button " Search"
+  - generic: MaiENZ
+  - link "Sign in":
+    - /url: /oauth/login?BackURL=about-enz%2Fsupport-to-grow-international-education-in-schools
+  - generic: "|"
+  - link "Register":
+    - /url: https://maienz.enz.govt.nz/register?referrer=https%3A%2F%2Fwww.enz.govt.nz
+  - text: 
+  - navigation:
+    - list:
+      - link "News ":
+        - /url: /news-and-research
+      - link "Events ":
+        - /url: /events
+      - link "Scholarships ":
+        - /url: /funding
+      - link "Tools ":
+        - /url: /tools
+      - link "About us ":
+        - /url: /about-enz
+- navigation:
+  - list:
+    - text: 
+    - link:
+      - /url: /home
+    - text: 
+    - link "Support to grow international education in schools":
+      - /url: /about-enz/support-to-grow-international-education-in-schools
+- main:
+  - navigation:
+    - list:
+      - link " About us":
+        - /url: /about-enz
+      - list:
+        - link "Support to grow international education in schools":
+          - /url: /about-enz/support-to-grow-international-education-in-schools
+  - heading "Support to grow international education in schools" [level=1]
+  - paragraph: The Government has established a funded service to help schools build their capability to enrol and support international students. The initiative is part of the Government's International Education Going for Growth Plan and is designed to help more schools participate in international education.
+  - paragraph: Support will become available during the 2027 school year, with the learning hub launching nationally in March 2027.
+  - heading "What is being funded" [level=2]
+  - paragraph: The funded service will help schools build their capability to recruit, enrol and support international students. It will be available to all schools, and participation will be voluntary.
+  - paragraph: While many schools successfully enrol international students, others face barriers to participating and growing. These include limited capability and capacity for recruitment, enrolment and student support, difficulty building international networks, and challenges securing homestay accommodation.
+  - paragraph: The new service is designed to help schools strengthen their international education programmes, provide positive experiences for international students, and build confidence and capability across the schooling sector.
+  - heading "About the service" [level=2]
+  - paragraph: Following an open procurement process, academyEX has been selected to deliver the service.
+  - paragraph: Participating schools will have access to practical tools, resources, training, coaching and mentoring support to help them recruit, enrol and support international students.
+  - paragraph: The service will support both schools enrolling international students for the first time and those looking to expand existing programmes.
+  - paragraph: academyEX will work with stakeholders across the international education sector to shape and deliver the service, drawing on expertise that already exists in schools so they can learn from one another.
+  - paragraph: An important part of the service will be the International Education in Schools Learning Hub, which will provide a structured programme of learning to help schools build their international education capability.
+  - heading "Learning hub pilot" [level=3]
+  - paragraph: The learning hub is being developed and tested before it is made available nationally. Its full eight-course curriculum will be tested with a representative pilot group of 50 to 80 schools through to February 2027.
+  - heading "Learning hub national rollout" [level=3]
+  - paragraph: Following the pilot, the learning hub will launch nationally in March 2027 and will be available to schools across New Zealand.
+  - paragraph: Further information about the Learning Hub, including how schools can take part, will be published once implementation planning is complete.
+  - heading "How schools can access the service" [level=3]
+  - paragraph:
+    - text: Details about available services, participation and registration will be published on this page once implementation planning is complete. Schools interested in learning more can check this page for updates or contact
+    - link "info@enz.govt.nz":
+      - /url: mailto:info@enz.govt.nz
+    - text: .
+  - heading "The role of Education New Zealand Manapou ki te Ao" [level=2]
+  - paragraph: Education New Zealand Manapou ki te Ao (ENZ) managed the procurement process and is responsible for overseeing the contract and monitoring delivery of the service. ENZ will report progress to the Minister of Education.
+  - heading "Share" [level=4]
+  - link " Facebook":
+    - /url: https://www.facebook.com/sharer/sharer.php?u=https://www.enz.govt.nz/about-enz/support-to-grow-international-education-in-schools
+    - text: 
+    - generic: Facebook
+  - link " Twitter":
+    - /url: https://twitter.com/intent/tweet?text=https://www.enz.govt.nz/about-enz/support-to-grow-international-education-in-schools&url=https://www.enz.govt.nz/about-enz/support-to-grow-international-education-in-schools&via=educationnz&hash=educationnz
+    - text: 
+    - generic: Twitter
+  - link " LinkedIn":
+    - /url: http://www.linkedin.com/shareArticle?mini=true&url=https://www.enz.govt.nz/about-enz/support-to-grow-international-education-in-schools&title=Support+to+grow+international+education+in+schools
+    - text: 
+    - generic: LinkedIn
+  - link " Email":
+    - /url: mailto:?subject=Support+to+grow+international+education+in+schools&body=https://www.enz.govt.nz/about-enz/support-to-grow-international-education-in-schools
+    - text: 
+    - generic: Email
+  - generic:  Sign up to receive E-news updates
+  - paragraph:
+    - link "What's in it for me?":
+      - /url: home/e-news-whats-in-it-for-me
+  - textbox " Sign up to receive E-news updates":
+    - /placeholder: Enter your email address
+  - link "Next ":
+    - /url: /about-enz/support-to-grow-international-education-in-schools#
+  - generic: 
+- complementary:
+  - heading "Stay informed" [level=4]
+  - paragraph: For up to date information on international education in New Zealand.
+  - textbox "First name*"
+  - textbox "Last name*"
+  - textbox "Email address*"
+  - combobox:
+    - option "Organisation type*" [selected]
+    - option "Agent"
+    - option "Individual"
+    - option "NZ Education Products and Services"
+    - option "NZ Private School"
+    - option "NZ Public Entity"
+    - option "NZ State School"
+    - option "NZ Tertiary Provider"
+    - option "Other NZ Organisation"
+    - option "Other Offshore Organisation"
+  - iframe [name="a-cl49ia6n5ifa"]:
+    - text: 採用
+    - strong: reCAPTCHA
+    - text: 保護機制
+  - button "Sign me up":
+    - paragraph: Sign me up
+  - generic: You can unsubscribe at any time
+  - text: By submitting this form, I agree to Education New Zealand’s
+  - link "Privacy Policy":
+    - /url: /privacy-policy
+  - text: and to receiving information and updates from Education New Zealand.
+- contentinfo:
+  - heading "News" [level=4]:
+    - link "News":
+      - /url: /news-and-research
+  - list:
+    - link "News and Media Releases":
+      - /url: /news-and-research?news-type=5
+    - link "Student stories":
+      - /url: https://www.enz.govt.nz/news-and-research?keyword=&news-type=3
+  - heading "Events" [level=4]:
+    - link "Events":
+      - /url: /events
+  - list:
+    - link "Event Terms and Conditions":
+      - /url: /events/terms-and-conditions
+  - heading "Scholarships" [level=4]:
+    - link "Scholarships":
+      - /url: /funding
+  - list:
+    - link "Manaaki New Zealand Scholarships":
+      - /url: https://www.nzscholarships.govt.nz/
+  - heading "Tools" [level=4]:
+    - link "Tools":
+      - /url: /tools
+  - list:
+    - link "MaiENZ":
+      - /url: /maienz
+    - link "Brand Lab":
+      - /url: https://thebrandlab.enz.govt.nz/
+    - link "Study with New Zealand":
+      - /url: "https://www.studywithnewzealand.govt.nz/ "
+    - link "IntelliLab":
+      - /url: /intellilab
+    - link "NauMai NZ":
+      - /url: https://naumainz.studyinnewzealand.govt.nz/
+    - link "AgentLab":
+      - /url: https://agentlab.enz.govt.nz/
+    - link "Terms & Conditions":
+      - /url: /tools/terms-conditions
+  - heading "About us" [level=4]:
+    - link "About us":
+      - /url: /about-enz
+  - list:
+    - link "Our role":
+      - /url: /about-enz/our-role
+    - link "Our name":
+      - /url: /about-enz/our-name-manapou-ki-te-ao
+    - link "Our values":
+      - /url: /about-enz/our-values
+    - link "Our people":
+      - /url: /about-enz/our-people
+    - link "Work with us":
+      - /url: /about-enz/work-for-us
+    - link "Corporate publications":
+      - /url: /about-enz/publications
+    - link "Official Information Act Requests":
+      - /url: /about-enz/official-information-act-requests
+    - link "Information releases":
+      - /url: /about-enz/information-releases
+    - link "Contact us":
+      - /url: /about-enz/contact-us
+    - link "International Student Research Community":
+      - /url: /about-enz/international-student-research-community
+    - link "Support to grow international education in schools":
+      - /url: /about-enz/support-to-grow-international-education-in-schools
+  - heading "Find us on" [level=4]:
+    - link "Find us on":
+      - /url: /about-enz/support-to-grow-international-education-in-schools#
+  - list:
+    - link "":
+      - /url: https://www.linkedin.com/company/education-new-zealand
+      - generic: 
+  - list:
+    - link "Privacy Policy":
+      - /url: /privacy-policy
+    - link "Contact":
+      - /url: /about-enz/contact-us
+    - link "Sitemap":
+      - /url: /sitemap
+    - link "About this site":
+      - /url: /abouthissite
+  - link "newzealand.govt.nz logo":
+    - /url: https://www.govt.nz/
+    - img "newzealand.govt.nz logo"
+  - paragraph: All content © Education New Zealand 2016
+- button
+- img "Monica"
+- generic: Ctrl+M
+- text: 解釋

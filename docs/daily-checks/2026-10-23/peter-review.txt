@@ -1,0 +1,589 @@
+- banner:
+  - button [disabled]:
+  - link "Facebook":
+    - /url: /
+  - button:
+  - combobox "搜尋 Facebook"
+  - navigation "Facebook":
+    - list:
+      - link "首頁":
+        - /url: /
+      - link "Reel":
+        - /url: /reel/?s=tab
+      - link "粉絲專頁":
+        - /url: /pages/?category=your_pages&ref=bookmarks
+      - link "企業管理平台主控板":
+        - /url: /professional_dashboard/?ref=tab_bar
+      - link "廣告中心":
+        - /url: /100082986230027/ad_center/
+  - navigation "帳號控制項和設定":
+    - button "Facebook 功能表":
+    - link "Messenger":
+      - /url: https://business.facebook.com/latest/inbox/all/?nav_ref=manage_page_ap_plus_inbox_message_button&asset_id=101904929207004
+      - link "Messenger":
+        - /url: https://business.facebook.com/latest/inbox/all/?nav_ref=manage_page_ap_plus_inbox_message_button&asset_id=101904929207004
+    - button "通知":
+    - button "你的個人檔案":
+      - img "你的個人檔案"
+- navigation "粉絲專頁導覽":
+  - heading "管理粉絲專頁" [level=1]
+  - button "隱藏功能表":
+  - button "Peterの國際教育講座":
+    - heading "Peterの國際教育講座" [level=2]:
+      - generic: Peterの國際教育講座
+  - separator
+  - button "企業管理平台主控板":
+    - generic: 企業管理平台主控板
+  - button "洞察報告":
+    - generic: 洞察報告
+  - button "規劃工具":
+    - generic: 規劃工具
+  - button "營利":
+    - generic: 營利
+  - button "廣告中心":
+    - generic: 廣告中心
+  - button "刊登廣告":
+    - generic: 刊登廣告
+  - button "加強推廣 Instagram 貼文":
+    - generic: 加強推廣 Instagram 貼文
+  - button "設定":
+    - generic: 設定
+  - heading "更多工具" [level=2]:
+    - generic: 更多工具
+  - button "收合":
+  - generic: 管理你在 Meta 應用程式上的業務。
+  - link "Meta 驗證":
+    - /url: https://business.facebook.com/latest/settings/mv4b/?nav_ref=mv4b_fb_profile_plus_nav_action_section&entry_point=mv4b_fb_profile_plus_nav_action_section&lp_entry_point=mv4b_fb_profile_plus_nav_action_section
+    - generic: Meta 驗證
+  - link "潛在顧客中心":
+    - /url: https://www.facebook.com/latest/leads_center?asset_id=954919414363863&nav_ref=manage_page_ap_plus_left_nav_leads_center_button
+    - generic: 潛在顧客中心
+  - link "Meta Business Suite":
+    - /url: https://www.facebook.com/latest/?asset_id=954919414363863&nav_ref=manage_page_ap_plus_left_nav_mbs_button
+    - generic: Meta Business Suite
+  - link "非營利組織管理工具":
+    - /url: https://www.facebook.com/nonprofit-manager/?source_surface=profile_page
+    - generic: 非營利組織管理工具
+  - generic: 切換為 Peterの國際教育講座的粉絲專頁以採取更多動作
+  - button "切換":
+    - generic: 切換
+  - separator
+  - button "刊登廣告":
+    - button "刊登廣告" [disabled]:
+      - generic: 刊登廣告
+- main "粉絲專頁個人檔案內容":
+  - main:
+    - link "查看個人檔案封面相片":
+      - /url: https://www.facebook.com/photo/?fbid=122137726419172155&set=a.122101096383172155
+    - button "Peterの國際教育講座":
+      - img "Peterの國際教育講座"
+    - button "Peterの國際教育講座 已驗證帳號":
+      - text: Peterの國際教育講座
+      - img "已驗證帳號"
+    - link "4,442 位追蹤者":
+      - /url: https://www.facebook.com/profile.php?id=61585164670358&sk=followers
+      - strong: 4,442
+      - text: 位追蹤者
+    - text: •
+    - link "正在追蹤 28 人":
+      - /url: https://www.facebook.com/profile.php?id=61585164670358&sk=following
+      - text: 正在追蹤
+      - strong: "28"
+      - text: 人
+    - link "瞭解詳情":
+      - /url: https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.ossdtw.com%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgFicmlkETFYRFYxd2JjUndscmJFblB5c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHk8Z-PAGtPmjaNm28s0SywIMQkW3YgeKFSYrDgaTk0rCWJJJn6RZ2MDfQemq_aem_wGRgP4WV808xRMQbcrAq2w&h=AUBI3GfLVgC8uwXpKbOXhNePjEfrulS7QLnbaAueuVHsIj2tiNG05kl5b5nblqD8Yxdsq0IbvqWdaHDSL5ntUx9XTr1jhbEwIAQnapMzzY1_Y-yR83JrC8CSpZ4bOIG7wfQlSw
+      - generic: 瞭解詳情
+    - button "追蹤中":
+      - generic: 追蹤中
+    - button "搜尋Peterの國際教育講座的個人檔案":
+      - generic: 搜尋
+    - text: Dr. Peter Chen
+    - text: 🌍2023-28 QS世界大學排名 評審委員
+    - text: 🎩UWE Bristol 駐台教務長
+    - text: 🍁加拿大布萊斯學院 /皇冠高中 學術教育代表
+    - text: 🗽美國哈佛大學學生會學術辯論營 徵選代表
+    - text: 🎓臺北市立大學 兼任助理教授
+    - text: 📋Journal of Sci & Tech Innovation 主編
+    - text: 曾獲
+    - text: 德國DAAD博士學者 全額獎學金
+    - text: 北京清華大學 研究生交換計畫
+    - text: 著作
+    - text: 國際升學白皮書、Lehninger生物化學中譯本、圖解食品化學、環境部環境用藥教材
+    - text: "*請先看『置頂目錄』找文章"
+    - list "精選內容詳細資料":
+      - button "教育諮詢顧問"
+    - list:
+      - link "UWE Bristol Taiwan":
+        - /url: https://www.facebook.com/profile.php?id=61585164670358&sk=followers
+      - link "Peter von Tan":
+        - /url: https://www.facebook.com/profile.php?id=61585164670358&sk=followers
+      - link "查看所有人":
+        - /url: https://www.facebook.com/profile.php?id=61585164670358&sk=followers
+    - link "Peterの國際教育講座":
+      - /url: https://www.facebook.com/profile.php?id=61585164670358
+      - generic: Peterの國際教育講座
+    - button "「個人檔案設定」的「查看更多」選項":
+    - heading "個人詳細資料" [level=2]:
+      - generic: 個人詳細資料
+    - list "個人詳細資料":
+      - button "居住在 Bristol, England, United Kingdom":
+        - generic: 居住在 Bristol, England, United Kingdom
+    - heading "詳細資料" [level=2]:
+      - generic: 詳細資料
+    - list "詳細資料":
+      - link "F715 Xuesi Building, 365 Mingde Rd, Peitou Dist, 112":
+        - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.bing.com%2Fmaps%2Fdefault.aspx%3Fv%3D2%26pc%3DFACEBK%26mid%3D8100%26where1%3DF715%2520Xuesi%2520Building%252C%2520365%2520Mingde%2520Rd%252C%2520Peitou%2520Dist%252C%2520112%26FORM%3DFBKPL1%26mkt%3Den-US%26fbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgFicmlkETFYRFYxd2JjUndscmJFblB5c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHmOnNNVQZws_yqad-C-AHOEzWzAQ3LCM2TIcLEPpl-4AbuZtowcCuEtj6BL-_aem_Eq7-Wq4cyFXKzpShwk9YEw&h=AUBd5t-dMauVEMrF5GCBDimnZE-kg5T0azacg1sWwnO4abO41CAdOdnQphros897MwkWjmGS7FNzxLGnRr_mPLisZD3Qe_JV2DM-G5Z-VT7vqsLYSRPoJ0joxO8fizRByK3b
+    - heading "連結" [level=2]:
+      - generic: 連結
+    - list "連結":
+      - link "ltuedu.net":
+        - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.ltuedu.net%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgFicmlkETFYRFYxd2JjUndscmJFblB5c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHneHu99KauVYcO2IPoNo7-bFdmxoyVrE6pMbYKL8WrfZZPxuQq2IjX5Ak_HX_aem_BTh0DbVcfmpQkxY0wmbDvg&h=AUBWIqwPIBbB_rYnSS9Qqf50TezocWdLVgMZDAcRRXAPwtZKefSz6eZua-RXVfuVIHnBdyJJelUUwuF3JiE6K-vdhs6wKRDT3SQ76Kzrm-Sk_SXJY59cMgh_OLKnr_dg4e2v
+      - generic: ·
+      - link "uwetw.com":
+        - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.uwetw.com%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgFicmlkETFYRFYxd2JjUndscmJFblB5c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHk8Z-PAGtPmjaNm28s0SywIMQkW3YgeKFSYrDgaTk0rCWJJJn6RZ2MDfQemq_aem_wGRgP4WV808xRMQbcrAq2w&h=AUA78e4NIcmP55Fs9SLB3gYIVd8AVGULFM9_zf_cPF_YUgUTEGgJ93rCmIWQhCZkEP6IVTY5IQ8Ee11EZkYIQfRM019-t4it7tbfd3OUr1Urgf5qnwjQAnI756zoQBAL5DtT
+      - generic: ·
+      - link "ossdtw.com":
+        - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.ossdtw.com%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgFicmlkETFYRFYxd2JjUndscmJFblB5c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHqfoivXqdtUuLqv2SZ3pYH46px2SYate23AGEbYiIuO387aloKou-N_Rfvnw_aem_yiBurPPgwdCsZrmBsageIQ&h=AUBfAsrC26Gnlw7axUd0HUCRE8HDYpzQviyrv8lweSE8vy4WJbAcGjPettZ9JI_2R7kwcVaHFSPHkuDNoUIwYrLb8eIf3Z1SeWTdqYq8kVaZFabTbCnPY4Hb-071FImjGX7j
+      - generic: ·
+      - link "globalednews.com":
+        - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fglobalednews.com%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgFicmlkETFYRFYxd2JjUndscmJFblB5c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHqOgGinrNjq4PmTph7-40gwx9W1XZm3ChBoI9LKTRRrl8-IwedAJssaRdLM8_aem_vmNqfxx9stHoPrpAtRGGRg&h=AUA4SUwEZm4cCC80FNFiNl0U2XH6zzhznbCRCfqXvlgkKAWEhPK_a4gUZFOz5coPnE6L8rgICHTTwr8mOmmIGBaGP17Z51_CFt0MUAANOprnt2mq0CaKn7OMC58l7gCphuXm
+    - heading "社群" [level=2]:
+      - generic: 社群
+    - list "社群":
+      - button "Peterの國際教育講座 公開社團":
+        - generic: Peterの國際教育講座
+        - generic: 公開社團
+    - heading "服務" [level=2]:
+      - generic: 服務
+    - list "服務":
+      - generic: 憑證
+      - list "憑證":
+        - generic: OSSD BSID 669675
+        - generic: http://www.ossdtw.com/
+      - generic: 專長
+      - list "專長":
+        - generic: LTU 提供從小學、中學到大學、研究所的整體國際升學規劃，重點包含： 國際交換與海外學習機會、升學申請與學習歷程輔導、企業接班培養、協助學生準備學習歷程、作品集、論文、辯論、專題研究與期刊投稿，增加申請競爭力。延伸到實習、就業媒合、專業證照課程，以及海外校友資源連結與生活協助。職涯發展與校友支持。
+    - button "查看更多 Peterの國際教育講座的詳細資料":
+      - heading "查看更多 Peterの國際教育講座的詳細資料" [level=2]:
+        - generic: 查看更多 Peterの國際教育講座的詳細資料
+    - heading "焦點動態" [level=2]:
+      - generic: 焦點動態
+    - button:
+    - generic: 「精選」區塊
+    - link:
+      - /url: /stories/1696663651644289/?source=profile_highlight
+      - generic: + 1
+    - generic: Collection
+    - link:
+      - /url: /stories/728875343349585/?source=profile_highlight
+      - generic: + 8
+    - generic: Collection
+    - button:
+    - heading "相片" [level=2]:
+      - link "相片":
+        - /url: https://www.facebook.com/profile.php?id=61585164670358&sk=photos
+    - link "查看所有相片":
+      - /url: https://www.facebook.com/profile.php?id=61585164670358&sk=photos
+      - generic: 查看所有相片
+    - link:
+      - /url: /photo/?fbid=122147912205172155&set=pb.61585164670358.-2207520000
+    - link:
+      - /url: /photo/?fbid=122147896599172155&set=pb.61585164670358.-2207520000
+    - link:
+      - /url: /photo/?fbid=122147561739172155&set=pb.61585164670358.-2207520000
+    - link:
+      - /url: /photo/?fbid=122147538891172155&set=pb.61585164670358.-2207520000
+    - link:
+      - /url: /photo/?fbid=122147468331172155&set=pb.61585164670358.-2207520000
+    - link:
+      - /url: /photo/?fbid=122147285667172155&set=pb.61585164670358.-2207520000
+    - link:
+      - /url: /photo/?fbid=122147120055172155&set=pb.61585164670358.-2207520000
+    - link:
+      - /url: /photo/?fbid=122146802781172155&set=pb.61585164670358.-2207520000
+    - link:
+      - /url: /photo/?fbid=122146644939172155&set=pb.61585164670358.-2207520000
+    - contentinfo "Facebook":
+      - list:
+        - link "隱私政策":
+          - /url: /privacy/policy/?entry_point=comet_dropdown
+        - generic: ·
+        - link "服務條款":
+          - /url: /policies?ref=pf
+        - generic: ·
+        - link "廣告":
+          - /url: /business/
+        - generic: ·
+        - link "Ad Choices":
+          - /url: /help/568137493302217
+          - text: Ad Choices
+        - generic: ·
+        - link "Cookie":
+          - /url: /policies/cookies/
+        - generic: ·
+        - button "更多頁尾連結": 更多
+    - heading "精選" [level=2]:
+      - generic: 精選
+    - button [disabled]:
+    - link:
+      - /url: https://www.facebook.com/permalink.php?story_fbid=pfbid0161REcnnPaWbFhNeHmFcrUYVVkd5w1oNhCeDzVS23t2zk6AqDaE8XDBtpZPC7wNql&id=61585164670358
+      - link "Peterの國際教育講座，查看限時動態":
+        - /url: /stories/122101316061172155/UzpfSVNDOjE4ODA5MzQxNzk5NDI3Njc=/?view_single=false&__tn__=%3C%3C
+        - img "Peterの國際教育講座，查看限時動態"
+      - heading "Peterの國際教育講座 已驗證帳號" [level=3]:
+        - link "Peterの國際教育講座":
+          - /url: https://www.facebook.com/profile.php?id=61585164670358&__tn__=-UC
+          - generic: Peterの國際教育講座
+        - img "已驗證帳號"
+      - link "3月22日":
+        - /url: https://www.facebook.com/permalink.php?story_fbid=pfbid0161REcnnPaWbFhNeHmFcrUYVVkd5w1oNhCeDzVS23t2zk6AqDaE8XDBtpZPC7wNql&id=61585164670358&__tn__=%2CO
+      - img "分享對象：所有人"
+      - text: 📌 【留學百科全書：從心態、申請到職涯的完整地圖 ✈️】
+      - text: LTU整理了超過300篇關於英、美、澳、加留學的深度分析， 篇篇精闢，值得收藏、仔細閱讀。
+      - text: 為快速找到您所需內容，我們依照留學流程歸類為以下 「出國留學五部曲」。
+      - text: "點擊下方的 #專屬藍色標籤，即可跳轉至該主題的所有相關文章："
+      - text: 🗺️ 第一層：【為什麼要出國？】底層邏輯與心態準備
+      - text: 出國不只是拿文憑，更是一場人生策略的佈局。如果你還在猶豫，先看這區：
+      - text: "👉 請點選 #Peter觀點留學底層邏輯"
+      - text: "👉 請點選 #Peter觀點教育與社會"
+      - text: （內容涵蓋：為什麼留學仍是首選、AI 浪潮下的選系思維、名校生活背後的甘苦、留學第一天的生存清單）
+      - text: 🗺️ 第二層：【去哪國最適合你？】各國特色與國家戰略
+      - text: 各國政策變動快速，這裡幫你做橫向與縱向的深度剖析：
+      - text: "👉 請點選 #Peter觀點全球攻略"
+      - text: （內容涵蓋：#加拿大留學攻略、#英國留學攻略、#澳洲留學攻略、#德國星日專題）
+      - text: 🎓 第三層：【讀什麼與你的潛質最搭配？】專業與科系深度解析
+      - text: 針對不同領域的專業路徑、含金量與職涯發展：
+      - text: "👉 請點選 #Peter觀點科系深度解析"
+      - text: （內容涵蓋：#航太與飛行學群、#理工生醫學群、#商管文法學群、#藝術設計學群）
+      - text: 🛠️ 第四層：【如何申請名校&拿 Offer？】實戰申請與技術路徑
+      - text: 核心亮點，教你如何利用制度優勢進入名校：
+      - text: "👉 請點選 #Peter觀點OSSD萬能鑰匙"
+      - text: "👉 請點選 #Peter觀點實戰申請乾貨"
+      - text: （內容涵蓋：OSSD 申請各國名校實戰、Personal Statement 寫作、SAT/AP 評量、大學雙聯與預科計畫）
+      - text: "💼 第五層：【畢業後的銜接 : 就業與移民】就業趨勢與新聞評論"
+      - text: 最真實的市場觀察與職涯回報分析，幫你避開雷區：
+      - text: "👉 請點選 #Peter觀點時事與就業"
+      - text: "👉 請點選 #Peter觀點留學趨勢觀察"
+      - text: （內容涵蓋：2026 各國薪資排行榜、各國工作簽證風險、川普教育政策影響、加拿大就業市場警訊）
+      - text: 💡 如欲查詢 留學國家、申請科系、如何申請，#請看各篇目錄底下留言
+      - text: "#Peter觀點"
+      - text: "#留學申請 #國際教育 #留學規劃 #OSSD #世界大學排名 #職涯發展 #英國 #美國 #澳洲 #加拿大 #新加坡 #德國 #留學"
+      - img "可能是文字的圖像"
+    - link "Peterの國際教育講座，查看限時動態 Peterの國際教育講座 已驗證帳號 3月23日 分享對象：所有人 *這是目錄* *#留學國家選擇* 所有目錄都在留言處喔~ 未提供相片說明。":
+      - /url: https://www.facebook.com/permalink.php?story_fbid=pfbid0298mhJqGUeSuLvrCLdDaUfN59JDXsPAEyUWcGP6mfnAdaYAEjZZeL2SuJ6ghucdbZl&id=61585164670358
+      - link "Peterの國際教育講座，查看限時動態":
+        - /url: /stories/122101316061172155/UzpfSVNDOjE4ODA5MzQxNzk5NDI3Njc=/?view_single=false&__tn__=%3C%3C
+        - img "Peterの國際教育講座，查看限時動態"
+      - heading "Peterの國際教育講座 已驗證帳號" [level=3]:
+        - link "Peterの國際教育講座":
+          - /url: https://www.facebook.com/profile.php?id=61585164670358&__tn__=-UC
+          - generic: Peterの國際教育講座
+        - img "已驗證帳號"
+      - link "3月23日":
+        - /url: https://www.facebook.com/permalink.php?story_fbid=pfbid0298mhJqGUeSuLvrCLdDaUfN59JDXsPAEyUWcGP6mfnAdaYAEjZZeL2SuJ6ghucdbZl&id=61585164670358&__tn__=%2CO
+      - img "分享對象：所有人"
+      - text: "*這是目錄*"
+      - text: "*#留學國家選擇*"
+      - text: 所有目錄都在留言處喔~
+      - img "未提供相片說明。"
+    - link:
+      - /url: https://www.facebook.com/permalink.php?story_fbid=pfbid02tRqe8mtUeZda9WLxd9NfYb9LtdmQK2ocrNcLCnBu6ifmCpRt7ksK8iAiCzt3vUy9l&id=61585164670358
+      - link:
+        - /url: /stories/122101316061172155/UzpfSVNDOjE4ODA5MzQxNzk5NDI3Njc=/?view_single=false&__tn__=%3C%3C
+      - heading [level=3]:
+        - link:
+          - /url: https://www.facebook.com/profile.php?id=61585164670358&__tn__=-UC
+          - generic: Peterの國際教育講座
+      - link:
+        - /url: https://www.facebook.com/permalink.php?story_fbid=pfbid02tRqe8mtUeZda9WLxd9NfYb9LtdmQK2ocrNcLCnBu6ifmCpRt7ksK8iAiCzt3vUy9l&id=61585164670358&__tn__=%2CO
+        - text: 3月23日
+      - text: "*這是目錄* *#選擇科系 與 #申請*"
+      - text: 文章目錄請見下方留言
+    - button "下一個項目":
+    - heading "貼文" [level=2]:
+      - generic: 貼文
+    - button "篩選條件":
+      - generic: 篩選條件
+    - article:
+      - link "Peterの國際教育講座，查看限時動態":
+        - /url: /stories/122101316061172155/UzpfSVNDOjE4ODA5MzQxNzk5NDI3Njc=/?view_single=false&__cft__[0]=AZjDf15iZvF7T6QS-ryRttqoGaxleJVWwBoQF49zF28kk5B4cxOjBJMbggNkW5bCJY_8PShyv2-K4YexZH-qgsrYsEHTyBcqvKffLFD2Wow4UvcL5PcXMuc2L7PcP2Y8vZzwwEvzd82LsSpYDkoOJTFvpKFvOdVEiuydkkVA5B4F_EKEmWgszwZARx26rqc&__tn__=%3C%3C%2CP-R
+        - img "Peterの國際教育講座，查看限時動態"
+      - heading "Peterの國際教育講座 已驗證帳號" [level=3]:
+        - link "Peterの國際教育講座":
+          - /url: https://www.facebook.com/profile.php?id=61585164670358&__cft__[0]=AZjDf15iZvF7T6QS-ryRttqoGaxleJVWwBoQF49zF28kk5B4cxOjBJMbggNkW5bCJY_8PShyv2-K4YexZH-qgsrYsEHTyBcqvKffLFD2Wow4UvcL5PcXMuc2L7PcP2Y8vZzwwEvzd82LsSpYDkoOJTFvpKFvOdVEiuydkkVA5B4F_EKEmWgszwZARx26rqc&__tn__=-UC%2CP-R
+          - generic: Peterの國際教育講座
+        - img "已驗證帳號"
+      - generic: 19小時前
+      - link "19小時前":
+        - /url: https://www.facebook.com/permalink.php?story_fbid=pfbid0Z1SuMgT8skhDHELvVFspQjQWrKGdbojLqAG2Do2MaigdcbGmKVHQTdZzqJVZdo1Cl&id=61585164670358&__cft__[0]=AZjDf15iZvF7T6QS-ryRttqoGaxleJVWwBoQF49zF28kk5B4cxOjBJMbggNkW5bCJY_8PShyv2-K4YexZH-qgsrYsEHTyBcqvKffLFD2Wow4UvcL5PcXMuc2L7PcP2Y8vZzwwEvzd82LsSpYDkoOJTFvpKFvOdVEiuydkkVA5B4F_EKEmWgszwZARx26rqc&__tn__=%2CO%2CP-R
+        - text: 19小時
+      - generic: ·
+      - img "分享對象：所有人"
+      - button "對Peterの國際教育講座的這則貼文採取的動作":
+      - img "🎓"
+      - text: 【澳洲Honours不是榮譽獎：多讀一年，真的值得嗎？】
+      - generic: 看到Bachelor of Science與Bachelor of Science (Honours)，很多台灣家長以為後者只是「成績比較好、畢業證書多一行」。
+      - generic: 其實在澳洲，Honours通常是正式的研究訓練路線，可能改變申請碩士、博士與研究型工作的節奏。
+      - text: "###"
+      - img "1️⃣"
+      - text: 不是獎項，而是不同資格層級
+      - generic: 依Australian Qualifications Framework（AQF），一般Bachelor Degree通常位於Level 7；Bachelor Honours Degree位於Level 8，與Graduate Certificate、Graduate Diploma同層，但學習目的與課程結構不同。Honours強調進階專業知識、研究方法、批判分析與獨立研究，不是只靠高GPA自動加上的頭銜。
+      - generic: 大學通常把Honours設計為進階課程加獨立研究計畫，由教授帶領。它既是研究能力的證明，也是銜接MPhil或PhD的重要準備。
+      - text: "###"
+      - img "2️⃣"
+      - text: 兩種Honours，申請時間完全不同
+      - generic: 第一種是「內建型」：學生高中畢業時就申請四年制Bachelor (Honours)，工程、部分進階科學與專業課程常見這種設計，但能否進入或完成Honours階段仍可能有成績條件。
+      - generic: 第二種是「加讀型」：先完成三年Bachelor，再競爭申請一年Honours。UQ的申請說明指出，常見條件包括相關學士學位、最低GPA、英文能力及個別課程要求；名額有限時，達到最低門檻也不代表一定錄取。
+      - generic: 以Monash Science為例，目前要求相關學士背景，並以預定Honours領域的高年級科目成績評估；還需確認研究題目、指導教授與資源是否可用。因此，真正的門檻往往是「成績＋研究方向＋有人可帶」，不只是交一份申請表。
+      - text: "###"
+      - img "3️⃣"
+      - text: 多一年值不值得，看你的下一站
+      - generic: 若目標是研究型碩士、博士、研發、政策分析或需要研究作品的職涯，Honours能提供論文、方法訓練與推薦信，投資回報通常清楚。若目標是授課型碩士或直接進入一般商業職場，則要比較：Honours一年所增加的學費與生活費，是否比直接讀Master、實習或累積工作經驗更有效。
+      - generic: 還要注意，同樣寫Honours，工程等四年專業學位與「三年Bachelor＋一年研究Honours」的課程目的未必相同。不能只看名稱，必須打開course structure確認研究比重、畢業成果及後續升學資格。
+      - text: "###"
+      - img "4️⃣"
+      - text: Peter觀點：不要為了頭銜多讀一年
+      - generic: Honours的價值不在括號裡那個字，而在你是否需要一段被正式評量的研究訓練。若還不確定研究題目、也不喜歡長期獨立專案，多讀一年可能只是延後進職場；反之，若已找到問題意識與適合的supervisor，這一年可能比倉促讀一個授課型碩士更有策略價值。
+      - img "👩‍🎓"
+      - text: "**學生行動：** 在大二到大三就查Honours先修科目、GPA／WAM算法、申請截止日、研究題目與指導教授，不要等畢業才開始聯絡。"
+      - img "👨‍👩‍👧"
+      - text: "**家長行動：** 把Honours當成一筆獨立投資，計算多一年學費、住宿與機會成本，並要求孩子說清楚它如何連到下一個學位或職涯。"
+      - generic: 選澳洲大學，不只要問「讀幾年」，還要問「最後一年在訓練什麼能力」。收藏這篇，選校時把一般學士、內建Honours與加讀Honours分開比較。
+      - link "#Peter觀點實戰申請乾貨":
+        - /url: https://www.facebook.com/hashtag/peter%E8%A7%80%E9%BB%9E%E5%AF%A6%E6%88%B0%E7%94%B3%E8%AB%8B%E4%B9%BE%E8%B2%A8?__cft__[0]=AZjDf15iZvF7T6QS-ryRttqoGaxleJVWwBoQF49zF28kk5B4cxOjBJMbggNkW5bCJY_8PShyv2-K4YexZH-qgsrYsEHTyBcqvKffLFD2Wow4UvcL5PcXMuc2L7PcP2Y8vZzwwEvzd82LsSpYDkoOJTFvpKFvOdVEiuydkkVA5B4F_EKEmWgszwZARx26rqc&__tn__=*NK-R
+      - link "#Peter觀點留學底層邏輯":
+        - /url: https://www.facebook.com/hashtag/peter%E8%A7%80%E9%BB%9E%E7%95%99%E5%AD%B8%E5%BA%95%E5%B1%A4%E9%82%8F%E8%BC%AF?__cft__[0]=AZjDf15iZvF7T6QS-ryRttqoGaxleJVWwBoQF49zF28kk5B4cxOjBJMbggNkW5bCJY_8PShyv2-K4YexZH-qgsrYsEHTyBcqvKffLFD2Wow4UvcL5PcXMuc2L7PcP2Y8vZzwwEvzd82LsSpYDkoOJTFvpKFvOdVEiuydkkVA5B4F_EKEmWgszwZARx26rqc&__tn__=*NK-R
+      - link "#澳洲留學":
+        - /url: https://www.facebook.com/hashtag/%E6%BE%B3%E6%B4%B2%E7%95%99%E5%AD%B8?__cft__[0]=AZjDf15iZvF7T6QS-ryRttqoGaxleJVWwBoQF49zF28kk5B4cxOjBJMbggNkW5bCJY_8PShyv2-K4YexZH-qgsrYsEHTyBcqvKffLFD2Wow4UvcL5PcXMuc2L7PcP2Y8vZzwwEvzd82LsSpYDkoOJTFvpKFvOdVEiuydkkVA5B4F_EKEmWgszwZARx26rqc&__tn__=*NK-R
+      - link "#澳洲大學":
+        - /url: https://www.facebook.com/hashtag/%E6%BE%B3%E6%B4%B2%E5%A4%A7%E5%AD%B8?__cft__[0]=AZjDf15iZvF7T6QS-ryRttqoGaxleJVWwBoQF49zF28kk5B4cxOjBJMbggNkW5bCJY_8PShyv2-K4YexZH-qgsrYsEHTyBcqvKffLFD2Wow4UvcL5PcXMuc2L7PcP2Y8vZzwwEvzd82LsSpYDkoOJTFvpKFvOdVEiuydkkVA5B4F_EKEmWgszwZARx26rqc&__tn__=*NK-R
+      - link "#榮譽學士":
+        - /url: https://www.facebook.com/hashtag/%E6%A6%AE%E8%AD%BD%E5%AD%B8%E5%A3%AB?__cft__[0]=AZjDf15iZvF7T6QS-ryRttqoGaxleJVWwBoQF49zF28kk5B4cxOjBJMbggNkW5bCJY_8PShyv2-K4YexZH-qgsrYsEHTyBcqvKffLFD2Wow4UvcL5PcXMuc2L7PcP2Y8vZzwwEvzd82LsSpYDkoOJTFvpKFvOdVEiuydkkVA5B4F_EKEmWgszwZARx26rqc&__tn__=*NK-R
+      - link "#研究所申請":
+        - /url: https://www.facebook.com/hashtag/%E7%A0%94%E7%A9%B6%E6%89%80%E7%94%B3%E8%AB%8B?__cft__[0]=AZjDf15iZvF7T6QS-ryRttqoGaxleJVWwBoQF49zF28kk5B4cxOjBJMbggNkW5bCJY_8PShyv2-K4YexZH-qgsrYsEHTyBcqvKffLFD2Wow4UvcL5PcXMuc2L7PcP2Y8vZzwwEvzd82LsSpYDkoOJTFvpKFvOdVEiuydkkVA5B4F_EKEmWgszwZARx26rqc&__tn__=*NK-R
+      - link "#留學投資報酬":
+        - /url: https://www.facebook.com/hashtag/%E7%95%99%E5%AD%B8%E6%8A%95%E8%B3%87%E5%A0%B1%E9%85%AC?__cft__[0]=AZjDf15iZvF7T6QS-ryRttqoGaxleJVWwBoQF49zF28kk5B4cxOjBJMbggNkW5bCJY_8PShyv2-K4YexZH-qgsrYsEHTyBcqvKffLFD2Wow4UvcL5PcXMuc2L7PcP2Y8vZzwwEvzd82LsSpYDkoOJTFvpKFvOdVEiuydkkVA5B4F_EKEmWgszwZARx26rqc&__tn__=*NK-R
+      - generic: "## D. 官方來源"
+      - generic: 1. Australian Qualifications Framework｜AQF qualifications｜頁面未標發布日期，2026-10-22查閱
+      - link "https://www.aqf.edu.au/framework/aqf-qualifications":
+        - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.aqf.edu.au%2Fframework%2Faqf-qualifications%3Ffbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgFicmlkETFYRFYxd2JjUndscmJFblB5c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHqfoivXqdtUuLqv2SZ3pYH46px2SYate23AGEbYiIuO387aloKou-N_Rfvnw_aem_yiBurPPgwdCsZrmBsageIQ&h=AUAg4LSoVvQqkswYf6RlHsmARJI13QvXJHTEvHKxnHQBDvu2lZqqquhyEkL0t6blTrEnlP_Z2M0gs_LqAIwVYWV8W5LtMDz4N32fOCUtXERJOIeQWxoWGuGA563tbI8zje1JjUJDeTyKYSvQQw&__tn__=-UK-R&c[0]=AUC1BdkdDkp7XAzh5y97t91c_ygrLOT9Ia2bMfYLu9RP5FESPMpJY0PEEc9DnvVZGTM8ZsUBYKmTak9rWCVGtUgVB4UWK_b_2zKIlj6BPmmK2nvx7IfOFCcV-aALT_Dvf-L05STsTzn-GifaJktfqCa2Pna8hFSefQnAQEgbtqkOd2hiTXLcx4rO06baRT6fOZva90E2FuY4F4I1YtZW8Mmf19zbQw
+      - generic: 2. Australian Qualifications Framework｜AQF levels｜頁面未標發布日期，2026-10-22查閱
+      - link "https://www.aqf.edu.au/framework/aqf-levels":
+        - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.aqf.edu.au%2Fframework%2Faqf-levels%3Ffbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgFicmlkETFYRFYxd2JjUndscmJFblB5c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHmOnNNVQZws_yqad-C-AHOEzWzAQ3LCM2TIcLEPpl-4AbuZtowcCuEtj6BL-_aem_Eq7-Wq4cyFXKzpShwk9YEw&h=AUBV7416UVzPiaymG7GuRRIzHrtAEYfOu-tYamk237-XMl6fcOTGHAmRrJUPJTDGLne3t8MXay5e49XEeyJZpV37iHczsW4ozzW2HvWMzj8A5-lXpHrpBiFsMftpAUuOjCTjXa_-M3TYyfp7TA&__tn__=-UK-R&c[0]=AUC1BdkdDkp7XAzh5y97t91c_ygrLOT9Ia2bMfYLu9RP5FESPMpJY0PEEc9DnvVZGTM8ZsUBYKmTak9rWCVGtUgVB4UWK_b_2zKIlj6BPmmK2nvx7IfOFCcV-aALT_Dvf-L05STsTzn-GifaJktfqCa2Pna8hFSefQnAQEgbtqkOd2hiTXLcx4rO06baRT6fOZva90E2FuY4F4I1YtZW8Mmf19zbQw
+      - generic: 3. University of Queensland｜Honours admissions｜頁面未標發布日期，2026-10-22查閱
+      - link "https://study.uq.edu.au/admissions/honours":
+        - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fstudy.uq.edu.au%2Fadmissions%2Fhonours%3Ffbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgFicmlkETFYRFYxd2JjUndscmJFblB5c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHlIMpCTq2LvwGBDqG2j39g8mLFWW-PfSyuFV4fKikxqd42qUp2UxDUM4ZERm_aem_KycGyvIWqgXgWbyctG0VMA&h=AUALU9z9XjHJiNpCfG9zwoHe-6VFWDKb-v-uoxr7k0wMuSU5na4NaBmIEBSmhSi5T2JFiUrQyvyENO3YCaKXp-9D_bSCwU-uSXUeBJpi9bTcEbyvip5Mmr9ryZM7RKxHyTpqbTehUK0O5pK1QQ&__tn__=-UK-R&c[0]=AUC1BdkdDkp7XAzh5y97t91c_ygrLOT9Ia2bMfYLu9RP5FESPMpJY0PEEc9DnvVZGTM8ZsUBYKmTak9rWCVGtUgVB4UWK_b_2zKIlj6BPmmK2nvx7IfOFCcV-aALT_Dvf-L05STsTzn-GifaJktfqCa2Pna8hFSefQnAQEgbtqkOd2hiTXLcx4rO06baRT6fOZva90E2FuY4F4I1YtZW8Mmf19zbQw
+      - generic: 4. University of Queensland｜Review entry requirements｜頁面未標發布日期，2026-10-22查閱
+      - link "https://study.uq.edu.au/....../review-entry-requirements":
+        - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fstudy.uq.edu.au%2Fadmissions%2Fhonours%2Freview-entry-requirements%3Ffbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgFicmlkETFYRFYxd2JjUndscmJFblB5c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHqfoivXqdtUuLqv2SZ3pYH46px2SYate23AGEbYiIuO387aloKou-N_Rfvnw_aem_yiBurPPgwdCsZrmBsageIQ&h=AUAHPqL4Xow8GkKpo6Qv5HJvYrgL-6zk9X1Ou8hvhOOhwB6AN7SZldOBjPrr2n-2zzj7RsdVbADlkKfm6_hJzUqgCq5R0HMZXe07xPhruXzP3yHpplb3Q0NFQJVwEm3-C3dCjfFg8BYxVb6LTw&__tn__=-UK-R&c[0]=AUC1BdkdDkp7XAzh5y97t91c_ygrLOT9Ia2bMfYLu9RP5FESPMpJY0PEEc9DnvVZGTM8ZsUBYKmTak9rWCVGtUgVB4UWK_b_2zKIlj6BPmmK2nvx7IfOFCcV-aALT_Dvf-L05STsTzn-GifaJktfqCa2Pna8hFSefQnAQEgbtqkOd2hiTXLcx4rO06baRT6fOZva90E2FuY4F4I1YtZW8Mmf19zbQw
+      - generic: 5. Monash University｜Minimum entry requirements - Science Honours｜頁面未標發布日期，2026-10-22查閱
+      - link "https://www.monash.edu/....../minimum-entry-requirements":
+        - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.monash.edu%2Fscience%2Fcurrent-students%2Fscience-honours%2Fhonours-application-process%2Fminimum-entry-requirements%3Ffbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgFicmlkETFYRFYxd2JjUndscmJFblB5c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHjwJbHJdPI5p7QxlVli-DfKVPSD3WSnjX_elOmGhiNyfFXdD7B9mVtigKTvJ_aem_mu0ph8P9ByAukgJ7R6Errg&h=AUB_4YE_Oas0UL9NeeY5eNpaiQAWhbUyy82_PTZLwx-faihZZLLFeh3T2iMS38zaVCPTC_nZPs_SOBKyvD66Z39JXsIJoCZFE47XorKRJpNejyGLuDKQrORSy5gdkFeV_UnSjqdWKFvv7PkILw&__tn__=-UK-R&c[0]=AUC1BdkdDkp7XAzh5y97t91c_ygrLOT9Ia2bMfYLu9RP5FESPMpJY0PEEc9DnvVZGTM8ZsUBYKmTak9rWCVGtUgVB4UWK_b_2zKIlj6BPmmK2nvx7IfOFCcV-aALT_Dvf-L05STsTzn-GifaJktfqCa2Pna8hFSefQnAQEgbtqkOd2hiTXLcx4rO06baRT6fOZva90E2FuY4F4I1YtZW8Mmf19zbQw
+      - button "顯示較少"
+      - link "可能是一或多人和文字的圖像":
+        - /url: https://www.facebook.com/photo/?fbid=122147912205172155&set=a.122101120425172155&__cft__[0]=AZjDf15iZvF7T6QS-ryRttqoGaxleJVWwBoQF49zF28kk5B4cxOjBJMbggNkW5bCJY_8PShyv2-K4YexZH-qgsrYsEHTyBcqvKffLFD2Wow4UvcL5PcXMuc2L7PcP2Y8vZzwwEvzd82LsSpYDkoOJTFvpKFvOdVEiuydkkVA5B4F_EKEmWgszwZARx26rqc&__tn__=EH-R
+        - img "可能是一或多人和文字的圖像"
+      - button "移除讚":
+        - generic: "1"
+      - button "變更讚心情":
+      - button "留言"
+      - button "分享，傳送給朋友或在個人檔案上發佈。":
+        - generic: "2"
+      - toolbar "看看誰對這個傳達了心情":
+        - button "讚：1 人"
+      - button "切換到其他個人檔案或粉絲專頁":
+      - 'textbox "以 LTU OSSD #1加拿大 台加高中雙聯學制的身分留言"':
+        - paragraph
+      - generic: "以 LTU OSSD #1加拿大 台加高中雙聯學制的身分留言"
+      - list:
+        - button "以虛擬替身貼圖回應"
+        - button "插入表情符號":
+        - button "附加相片或影片"
+        - button "以 GIF 回應"
+        - button "以貼圖回應"
+    - article:
+      - link "Peterの國際教育講座，查看限時動態":
+        - /url: /stories/122101316061172155/UzpfSVNDOjE4ODA5MzQxNzk5NDI3Njc=/?view_single=false&__cft__[0]=AZhi5o3y6_u-ArgdaxCAKCwpI6sTzX5WfFIFF09Yyy29pTLnjdNCSeFXw4EqSeRfTYh2BBahE_9s712S7mdiWr-XJ3ll4y_YVcTEwf0ZbnGhUqrJGVTBTClx5fbq3nSkc_OVZeVv6kyyBqdFPDt7cL6MHUKR4WlSLwb4nQy8IobcqJeJCGOnwqUGKiH8PYY&__tn__=%3C%3C%2CP-R
+        - img "Peterの國際教育講座，查看限時動態"
+      - heading "Peterの國際教育講座 已驗證帳號" [level=3]:
+        - link "Peterの國際教育講座":
+          - /url: https://www.facebook.com/profile.php?id=61585164670358&__cft__[0]=AZhi5o3y6_u-ArgdaxCAKCwpI6sTzX5WfFIFF09Yyy29pTLnjdNCSeFXw4EqSeRfTYh2BBahE_9s712S7mdiWr-XJ3ll4y_YVcTEwf0ZbnGhUqrJGVTBTClx5fbq3nSkc_OVZeVv6kyyBqdFPDt7cL6MHUKR4WlSLwb4nQy8IobcqJeJCGOnwqUGKiH8PYY&__tn__=-UC%2CP-R
+          - generic: Peterの國際教育講座
+        - img "已驗證帳號"
+      - generic: 2天前
+      - link "2天前":
+        - /url: https://www.facebook.com/permalink.php?story_fbid=pfbid02ZiBVg44uj757hFNChRLLJ9MitmiqkYkP6iu2Jxkcy6QYds5WH6EkFcCGtPE3Nvc1l&id=61585164670358&__cft__[0]=AZhi5o3y6_u-ArgdaxCAKCwpI6sTzX5WfFIFF09Yyy29pTLnjdNCSeFXw4EqSeRfTYh2BBahE_9s712S7mdiWr-XJ3ll4y_YVcTEwf0ZbnGhUqrJGVTBTClx5fbq3nSkc_OVZeVv6kyyBqdFPDt7cL6MHUKR4WlSLwb4nQy8IobcqJeJCGOnwqUGKiH8PYY&__tn__=%2CO%2CP-R
+        - text: 2天
+      - generic: ·
+      - img "分享對象：所有人"
+      - button "對Peterの國際教育講座的這則貼文採取的動作":
+      - img "🇨🇦"
+      - text: 加拿大大學 SOP／Study Plan 怎麼寫？讓學校看見你的準備與方向
+      - img "✍️"
+      - text: ……
+      - button "查看更多"
+      - link "可能是文字的圖像":
+        - /url: https://www.facebook.com/photo/?fbid=122147896599172155&set=a.122101120425172155&__cft__[0]=AZhi5o3y6_u-ArgdaxCAKCwpI6sTzX5WfFIFF09Yyy29pTLnjdNCSeFXw4EqSeRfTYh2BBahE_9s712S7mdiWr-XJ3ll4y_YVcTEwf0ZbnGhUqrJGVTBTClx5fbq3nSkc_OVZeVv6kyyBqdFPDt7cL6MHUKR4WlSLwb4nQy8IobcqJeJCGOnwqUGKiH8PYY&__tn__=EH-R
+        - img "可能是文字的圖像"
+      - generic: Peterの國際教育講座
+      - generic: 教育諮詢顧問
+      - button "發送訊息" [disabled]:
+        - generic: 發送訊息
+      - button "讚":
+        - generic: "1"
+      - button "傳達心情":
+      - button "留言"
+      - button "分享，傳送給朋友或在個人檔案上發佈。":
+        - generic: "4"
+      - toolbar "看看誰對這個傳達了心情":
+        - button "讚：1 人"
+      - button "切換到其他個人檔案或粉絲專頁":
+      - 'textbox "以 LTU OSSD #1加拿大 台加高中雙聯學制的身分留言"':
+        - paragraph
+      - generic: "以 LTU OSSD #1加拿大 台加高中雙聯學制的身分留言"
+      - list:
+        - button "以虛擬替身貼圖回應"
+        - button "插入表情符號":
+        - button "附加相片或影片"
+        - button "以 GIF 回應"
+        - button "以貼圖回應"
+    - article:
+      - link "Peterの國際教育講座，查看限時動態":
+        - /url: /stories/122101316061172155/UzpfSVNDOjE4ODA5MzQxNzk5NDI3Njc=/?view_single=false&__cft__[0]=AZgUmqzU7OvYti8WaI-WhHFiyRKUhUl9CvwNa4dQMKzTFEXSIiWlYlBBikNcO-TCbxdUNlL_RnmmVlLPC0aEVzTO-xCjLA9EK4HV9wlFz4vga-Tr7ykCcJcbFOV9HJb4yT45e74mxxoaAuhaYeXHpSu4og3Rf_KN_x4ys6ODzeQ8iNtmptWZ_KGFYMtrrGA&__tn__=%3C%3C%2CP-R
+        - img "Peterの國際教育講座，查看限時動態"
+      - heading "Peterの國際教育講座 已驗證帳號" [level=3]:
+        - link "Peterの國際教育講座":
+          - /url: https://www.facebook.com/profile.php?id=61585164670358&__cft__[0]=AZgUmqzU7OvYti8WaI-WhHFiyRKUhUl9CvwNa4dQMKzTFEXSIiWlYlBBikNcO-TCbxdUNlL_RnmmVlLPC0aEVzTO-xCjLA9EK4HV9wlFz4vga-Tr7ykCcJcbFOV9HJb4yT45e74mxxoaAuhaYeXHpSu4og3Rf_KN_x4ys6ODzeQ8iNtmptWZ_KGFYMtrrGA&__tn__=-UC%2CP-R
+          - generic: Peterの國際教育講座
+        - img "已驗證帳號"
+      - generic: 4天前
+      - link "4天前":
+        - /url: https://www.facebook.com/permalink.php?story_fbid=pfbid0388T9z9hZdP3JEoVdjLKcasNo7H2R6ak5L49UcKdkuetsPPwYScESUugrjzaU3uuJl&id=61585164670358&__cft__[0]=AZgUmqzU7OvYti8WaI-WhHFiyRKUhUl9CvwNa4dQMKzTFEXSIiWlYlBBikNcO-TCbxdUNlL_RnmmVlLPC0aEVzTO-xCjLA9EK4HV9wlFz4vga-Tr7ykCcJcbFOV9HJb4yT45e74mxxoaAuhaYeXHpSu4og3Rf_KN_x4ys6ODzeQ8iNtmptWZ_KGFYMtrrGA&__tn__=%2CO%2CP-R
+        - text: 4天
+      - generic: ·
+      - img "分享對象：所有人"
+      - button "對Peterの國際教育講座的這則貼文採取的動作":
+      - img "📚"
+      - text: 免費贈閱｜《看懂制度，選對世界》電子版……
+      - button "查看更多"
+      - link "可能是文字的圖像":
+        - /url: https://www.facebook.com/photo/?fbid=122147561739172155&set=a.122101120425172155&__cft__[0]=AZgUmqzU7OvYti8WaI-WhHFiyRKUhUl9CvwNa4dQMKzTFEXSIiWlYlBBikNcO-TCbxdUNlL_RnmmVlLPC0aEVzTO-xCjLA9EK4HV9wlFz4vga-Tr7ykCcJcbFOV9HJb4yT45e74mxxoaAuhaYeXHpSu4og3Rf_KN_x4ys6ODzeQ8iNtmptWZ_KGFYMtrrGA&__tn__=EH-R
+        - img "可能是文字的圖像"
+      - generic: Peterの國際教育講座
+      - generic: 教育諮詢顧問
+      - button "發送訊息" [disabled]:
+        - generic: 發送訊息
+      - button "讚":
+        - generic: "2"
+      - button "傳達心情":
+      - button "留言"
+      - button "分享，傳送給朋友或在個人檔案上發佈。":
+        - generic: "13"
+      - toolbar "看看誰對這個傳達了心情":
+        - button "讚：2人"
+      - button "切換到其他個人檔案或粉絲專頁":
+      - 'textbox "以 LTU OSSD #1加拿大 台加高中雙聯學制的身分留言"':
+        - paragraph
+      - generic: "以 LTU OSSD #1加拿大 台加高中雙聯學制的身分留言"
+      - list:
+        - button "以虛擬替身貼圖回應"
+        - button "插入表情符號":
+        - button "附加相片或影片"
+        - button "以 GIF 回應"
+        - button "以貼圖回應"
+    - article:
+      - link "Peterの國際教育講座，查看限時動態":
+        - /url: /stories/122101316061172155/UzpfSVNDOjE4ODA5MzQxNzk5NDI3Njc=/?view_single=false&__cft__[0]=AZi7bAvd37ZhABSyYdP0-8AkYIRlkZSgl6a-4sAGmZlcmwrAlWxHEG2RJy-QRkgu3ANAvZvHkvvuLlqDRgV58AE0mNfuQ-2KprW3dzsUFQDfNn961fX2_Uh7GAxGs9FTX2XrLwjRiTLWNOwGlx_bMScPJ2TaIp1aeWtyCU1qXg863RYc4sVLwLeqD3es4xM&__tn__=%3C%3C%2CP-R
+        - img "Peterの國際教育講座，查看限時動態"
+      - heading "Peterの國際教育講座 已驗證帳號" [level=3]:
+        - link "Peterの國際教育講座":
+          - /url: https://www.facebook.com/profile.php?id=61585164670358&__cft__[0]=AZi7bAvd37ZhABSyYdP0-8AkYIRlkZSgl6a-4sAGmZlcmwrAlWxHEG2RJy-QRkgu3ANAvZvHkvvuLlqDRgV58AE0mNfuQ-2KprW3dzsUFQDfNn961fX2_Uh7GAxGs9FTX2XrLwjRiTLWNOwGlx_bMScPJ2TaIp1aeWtyCU1qXg863RYc4sVLwLeqD3es4xM&__tn__=-UC%2CP-R
+          - generic: Peterの國際教育講座
+        - img "已驗證帳號"
+      - generic: 5天前
+      - link "5天前":
+        - /url: https://www.facebook.com/permalink.php?story_fbid=pfbid027C4pFgP4a34oRT9Ppd5hHwnyaKXEAqY8RPr6HAqdML8hdtEbraH35ZsGew8J76YZl&id=61585164670358&__cft__[0]=AZi7bAvd37ZhABSyYdP0-8AkYIRlkZSgl6a-4sAGmZlcmwrAlWxHEG2RJy-QRkgu3ANAvZvHkvvuLlqDRgV58AE0mNfuQ-2KprW3dzsUFQDfNn961fX2_Uh7GAxGs9FTX2XrLwjRiTLWNOwGlx_bMScPJ2TaIp1aeWtyCU1qXg863RYc4sVLwLeqD3es4xM&__tn__=%2CO%2CP-R
+        - text: 5天
+      - generic: ·
+      - img "分享對象：所有人"
+      - button "對Peterの國際教育講座的這則貼文採取的動作":
+      - img "🧭"
+      - text: 【課外活動不只社團競賽：Common App 新制看見真實生活經歷】……
+      - button "查看更多"
+      - link "可能是文字的圖像":
+        - /url: https://www.facebook.com/photo/?fbid=122147538891172155&set=a.122101120425172155&__cft__[0]=AZi7bAvd37ZhABSyYdP0-8AkYIRlkZSgl6a-4sAGmZlcmwrAlWxHEG2RJy-QRkgu3ANAvZvHkvvuLlqDRgV58AE0mNfuQ-2KprW3dzsUFQDfNn961fX2_Uh7GAxGs9FTX2XrLwjRiTLWNOwGlx_bMScPJ2TaIp1aeWtyCU1qXg863RYc4sVLwLeqD3es4xM&__tn__=EH-R
+        - img "可能是文字的圖像"
+      - button "讚":
+        - generic: "1"
+      - button "傳達心情":
+      - button "留言"
+      - button "分享，傳送給朋友或在個人檔案上發佈。":
+        - generic: "4"
+      - toolbar "看看誰對這個傳達了心情":
+        - button "讚：1 人"
+      - button "切換到其他個人檔案或粉絲專頁":
+      - 'textbox "以 LTU OSSD #1加拿大 台加高中雙聯學制的身分留言"':
+        - paragraph
+      - generic: "以 LTU OSSD #1加拿大 台加高中雙聯學制的身分留言"
+      - list:
+        - button "以虛擬替身貼圖回應"
+        - button "插入表情符號":
+        - button "附加相片或影片"
+        - button "以 GIF 回應"
+        - button "以貼圖回應"
+    - article:
+      - link "Peterの國際教育講座，查看限時動態":
+        - /url: /stories/122101316061172155/UzpfSVNDOjE4ODA5MzQxNzk5NDI3Njc=/?view_single=false&__cft__[0]=AZhBrRfoRnQnJ57ZXoOfi9AzpFlKE_RA4dAEzJe426bAQgZO1-oaAXjkXodYpUjCwzOkk2B1gFYLXUWlSeynRi0SrQCuEeSGwmUAgrjF-hbWfZkd_z4FK29EpSsDWk9vP5frxxdiNPUCjrZt3BnOEtDrFWOONE33rqW5kFdotmtkb7EQf7kLN9hKSgbHhDg&__tn__=%3C%3C%2CP-R
+        - img "Peterの國際教育講座，查看限時動態"
+      - heading "Peterの國際教育講座 已驗證帳號" [level=3]:
+        - link "Peterの國際教育講座":
+          - /url: https://www.facebook.com/profile.php?id=61585164670358&__cft__[0]=AZhBrRfoRnQnJ57ZXoOfi9AzpFlKE_RA4dAEzJe426bAQgZO1-oaAXjkXodYpUjCwzOkk2B1gFYLXUWlSeynRi0SrQCuEeSGwmUAgrjF-hbWfZkd_z4FK29EpSsDWk9vP5frxxdiNPUCjrZt3BnOEtDrFWOONE33rqW5kFdotmtkb7EQf7kLN9hKSgbHhDg&__tn__=-UC%2CP-R
+          - generic: Peterの國際教育講座
+        - img "已驗證帳號"
+      - generic: 5天前
+      - link "5天前":
+        - /url: https://www.facebook.com/permalink.php?story_fbid=pfbid02kt8CRFGfuWfPAeTAf7QmoddUYwbYtp625deLggrkiRg7inT6MShPCBv5KdvKxpErl&id=61585164670358&__cft__[0]=AZhBrRfoRnQnJ57ZXoOfi9AzpFlKE_RA4dAEzJe426bAQgZO1-oaAXjkXodYpUjCwzOkk2B1gFYLXUWlSeynRi0SrQCuEeSGwmUAgrjF-hbWfZkd_z4FK29EpSsDWk9vP5frxxdiNPUCjrZt3BnOEtDrFWOONE33rqW5kFdotmtkb7EQf7kLN9hKSgbHhDg&__tn__=%2CO%2CP-R
+        - text: 5天
+      - generic: ·
+      - img "分享對象：所有人"
+      - button "對Peterの國際教育講座的這則貼文採取的動作":
+      - generic: 【Peterの國際教育講座】
+      - img "🇦🇺"
+      - text: 澳洲經濟承壓，留學該怎麼選？
+      - text: —……
+      - button "查看更多"
+      - link "可能是文字的圖像":
+        - /url: https://www.facebook.com/photo/?fbid=122147468331172155&set=a.122101120425172155&__cft__[0]=AZhBrRfoRnQnJ57ZXoOfi9AzpFlKE_RA4dAEzJe426bAQgZO1-oaAXjkXodYpUjCwzOkk2B1gFYLXUWlSeynRi0SrQCuEeSGwmUAgrjF-hbWfZkd_z4FK29EpSsDWk9vP5frxxdiNPUCjrZt3BnOEtDrFWOONE33rqW5kFdotmtkb7EQf7kLN9hKSgbHhDg&__tn__=EH-R
+        - img "可能是文字的圖像"
+      - generic: Peterの國際教育講座
+      - generic: 教育諮詢顧問
+      - button "發送訊息" [disabled]:
+        - generic: 發送訊息
+      - button "移除讚":
+        - generic: "2"
+      - button "變更讚心情":
+      - button "留言"
+      - button "分享，傳送給朋友或在個人檔案上發佈。":
+        - generic: "3"
+      - toolbar "看看誰對這個傳達了心情":
+        - button "讚：2人"
+      - button "切換到其他個人檔案或粉絲專頁":
+      - 'textbox "以 LTU OSSD #1加拿大 台加高中雙聯學制的身分留言"':
+        - paragraph
+      - generic: "以 LTU OSSD #1加拿大 台加高中雙聯學制的身分留言"
+      - list:
+        - button "以虛擬替身貼圖回應"
+        - button "插入表情符號":
+        - button "附加相片或影片"
+        - button "以 GIF 回應"
+        - button "以貼圖回應"
+    - article
+    - article
+    - article:
+      - status "載入中……"
+    - article:
+      - status "載入中……"
+- button
+- img "Monica"
+- generic: Ctrl+M
+- text: 解釋
