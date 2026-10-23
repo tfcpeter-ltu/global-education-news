@@ -1,0 +1,389 @@
+- navigation "Language":
+  - link "繁體中文":
+    - /url: https://globalednews.com/scholarships/
+  - link "English":
+    - /url: https://globalednews.com/en/scholarships/
+- banner:
+  - generic: 環球教育新聞網 · TAIWAN EDITION · EST. 2026
+  - generic: INTERNATIONAL EDUCATION · UNIVERSITIES · POLICY · GLOBAL MOBILITY
+  - text: International Education
+  - text: Journalism & Analysis
+  - link "Global Education News 環球教育新聞網 首頁":
+    - /url: /
+    - generic: Global Education News
+    - generic: 環球教育新聞網
+    - text: 國內外國際教育新聞・大學科系選擇與申請・獎學金雷達
+    - text: 深度探討文章-Peter 的國際教育講座
+    - generic: EDUCATION NEWS · UNIVERSITIES & ADMISSIONS · SCHOLARSHIPS · PETER’S INSIGHTS
+  - text: Taiwan · Asia
+  - text: Global Perspective
+  - navigation "主要導覽":
+    - generic "首頁 Home":
+      - generic: 首頁 ▾
+      - generic: Home
+    - link "留遊學交換誌 Study Abroad Magazine":
+      - /url: https://studyabmag.globalednews.com/
+      - generic: 留遊學交換誌
+      - generic: Study Abroad Magazine
+    - generic "海外教育 Global Education":
+      - generic: 海外教育 ▾
+      - generic: Global Education
+    - link "國際獎學金雷達 Scholarship Radar":
+      - /url: /scholarships/
+      - generic: 國際獎學金雷達
+      - generic: Scholarship Radar
+    - link "留學DIY導航 Study Abroad Navigator":
+      - /url: /study-abroad/
+      - generic: 留學DIY導航
+      - generic: Study Abroad Navigator
+    - link "留遊學Vlog Study Abroad Vlog":
+      - /url: /vlog/
+      - generic: 留遊學Vlog
+      - generic: Study Abroad Vlog
+    - generic "Peter的國際教育講座 Peter’s Education Talk":
+      - generic: Peter的國際教育講座 ▾
+      - generic: Peter’s Education Talk
+    - link "免費電子報 Free Newsletter":
+      - /url: /newsletter/
+      - generic: 免費電子報
+      - generic: Free Newsletter
+    - generic "國內大學選校選系 University Explorer":
+      - generic: 國內大學選校選系 ▾
+      - generic: University Explorer
+  - text: EUROPEAN ACADEMIC EDITION · SCHOLARSHIPS · FELLOWSHIPS · RESEARCH MOBILITY
+- main:
+  - main:
+    - text: OXFORD · PARIS
+    - generic: ✦
+    - generic: ✦
+    - generic: SCHOLARSHIPS FELLOWSHIPS RESEARCH MOBILITY
+    - generic: OXFORD CAMBRIDGE PARIS ZÜRICH
+    - text: ACADEMIC REVIEW
+    - generic: GLOBAL EDUCATION NEWS ◆ EUROPEAN SCHOLARSHIP REVIEW
+    - heading "國際獎學金雷達" [level=1]
+    - paragraph: 215+ 全球獎學金資料庫 ｜ 每日查核，更新 3 則精選
+    - paragraph: 從台灣學生的視角，整理全球獎學金、政府補助、研究資助與國際大學機會。以官方來源、台灣資格與截止日為核心，建立可以長期搜尋與追蹤的國際升學資料庫。
+    - link "▤ 立即查看獎學金":
+      - /url: "#all-opportunities"
+      - generic: ▤
+      - text: 立即查看獎學金
+    - link "台灣官方補助":
+      - /url: "#taiwan-programs"
+    - link "今日精選":
+      - /url: "#today-picks"
+    - generic: TAIPEI
+    - generic: OXFORD · CAMBRIDGE · PARIS · ZÜRICH
+    - generic: 2026年10月24日
+    - complementary "獎學金雷達統計":
+      - text: ◆
+      - generic: BY THE NUMBERS
+      - generic: ◎
+      - strong: 215+
+      - generic: 全球機會
+      - emphasis: SCHOLARSHIPS
+      - generic: ▥
+      - strong: 29+
+      - generic: 國家與地區
+      - emphasis: COUNTRIES
+      - generic: ◷
+      - strong: Daily
+      - generic: 每日更新
+      - emphasis: CURATED DAILY
+      - generic: ◇
+      - strong: Verified
+      - generic: 官方查核
+      - emphasis: EDITORIAL REVIEW
+      - generic: ACADEMIA
+    - text: EUROPEAN SCHOLARSHIP REVIEW · ANNUAL ACADEMIC EDITION
+    - region "獎學金搜尋與篩選":
+      - generic: SEARCH THE SCHOLARSHIP ARCHIVE
+      - strong: 搜尋全球獎學金資料庫
+      - paragraph: 輸入獎學金名稱、學校、國家或關鍵字，再依學位、補助與申請狀態縮小範圍。
+      - search:
+        - generic: ⌕
+        - generic: SCHOLARSHIP · UNIVERSITY · COUNTRY · KEYWORD
+        - searchbox "SCHOLARSHIP · UNIVERSITY · COUNTRY · KEYWORD": Nebraska
+        - button "搜尋獎學金" [active]
+        - generic: ◎
+        - combobox "國家":
+          - option "國家／地區"
+          - option "中國／北京"
+          - option "日本"
+          - option "比利時"
+          - option "加拿大"
+          - option "全球"
+          - option "全球（不含中國大陸及港澳）"
+          - option "全球／依學門"
+          - option "多國"
+          - option "法國"
+          - option "芬蘭"
+          - option "美國" [selected]
+          - option "英國"
+          - option "英國／威爾斯"
+          - option "英國／蘇格蘭"
+          - option "香港"
+          - option "紐西蘭"
+          - option "荷蘭"
+          - option "愛爾蘭"
+          - option "新加坡"
+          - option "新南向國家"
+          - option "瑞士"
+          - option "瑞典"
+          - option "義大利"
+          - option "德國"
+          - option "歐盟"
+          - option "歐盟／多國"
+          - option "歐盟／歐洲"
+          - option "澳洲"
+          - option "韓國"
+        - generic: 🎓
+        - combobox "學位":
+          - option "學位層級"
+          - option "大學"
+          - option "學士" [selected]
+          - option "碩士"
+          - option "博士"
+          - option "研究"
+        - generic: ◇
+        - combobox "補助類型":
+          - option "補助類型"
+          - option "全額"
+          - option "學費" [selected]
+          - option "生活費"
+          - option "部分補助"
+        - generic: ♢
+        - combobox "狀態":
+          - option "申請狀態"
+          - option "開放中" [selected]
+          - option "即將開放"
+          - option "下一輪追蹤"
+          - option "年度制"
+        - button "↻ 清除篩選"
+    - generic: THE SCHOLARSHIP ARCHIVE
+    - heading "探索全部獎學金" [level=2]
+    - paragraph: Scholarships · Fellowships · Research Funding · International Mobility
+    - strong: "1"
+    - generic: 個符合條件的機會
+    - text: ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE
+    - article:
+      - generic: 🇺🇸
+      - text: 美國
+      - generic: 開放中
+      - heading "Nebraska Global Laureate：最高每年15,000美元，2027申請已開放" [level=3]:
+        - link "Nebraska Global Laureate：最高每年15,000美元，2027申請已開放":
+          - /url: /scholarships/items/2026-10-nebraska-global-laureate-2027
+      - generic: 學士
+      - term: 補助
+      - definition: 每年學費獎助最高USD 15,000；依學分比例
+      - term: 截止
+      - definition: 2027秋季11月1日優先；翌年5月1日前錄取及訂金
+      - generic: ✓ 台灣資格已查核
+      - link "詳情 →":
+        - /url: /scholarships/items/2026-10-nebraska-global-laureate-2027
+      - text: ROYAL ACADEMIC ARCHIVE
+    - text: ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE
+    - complementary "廣告：獎學金資料庫後":
+      - generic: ADVERTISEMENT · 廣告
+      - generic: GLOBAL EDUCATION NEWS
+      - strong: 大學與國際教育招生合作
+      - paragraph: 讓有興趣的學生在探索學校與申請資訊時，看見您的課程與活動。
+      - link "洽詢此版位":
+        - /url: /advertise/
+        - text: 洽詢此版位 ↗
+    - generic: EDITOR'S SELECTION
+    - heading "今日精選" [level=2]
+    - generic: 2026年10月24日 · Curated & Verified
+    - article:
+      - generic: 🇺🇸
+      - text: 美國
+      - generic: 開放中
+      - generic: 大學國際生獎學金
+      - heading "阿拉巴馬大學2027自動績優獎學金：先核對考試與12月4日期限" [level=3]:
+        - link "阿拉巴馬大學2027自動績優獎學金：先核對考試與12月4日期限":
+          - /url: /scholarships/items/2026-10-alabama-international-automatic-merit-2027
+      - paragraph: 10月24日查核仍開放；台灣申請者須符合本文國籍、學歷與課程條件。
+      - generic: FUNDING · 補助
+      - strong: 每年學費獎助USD 6,000–28,000；Elite另有條件
+      - generic: LEVEL · 學位
+      - strong: 學士
+      - generic: DEADLINE · 截止
+      - strong: 2027夏秋季：2026-12-04優先
+      - generic: ✓ 台灣學生：可申請
+      - link "查看申請重點 →":
+        - /url: /scholarships/items/2026-10-alabama-international-automatic-merit-2027
+    - article:
+      - generic: 🇺🇸
+      - text: 美國
+      - generic: 開放中
+      - generic: 大學國際生獎學金
+      - heading "Kansas KU Excellence：國際新生GPA3.95起，最高每年16,000美元" [level=3]:
+        - link "Kansas KU Excellence：國際新生GPA3.95起，最高每年16,000美元":
+          - /url: /scholarships/items/2026-10-kansas-ku-excellence-2027
+      - paragraph: 10月24日查核仍開放；台灣申請者須符合本文國籍、學歷與課程條件。
+      - generic: FUNDING · 補助
+      - strong: 每年學費獎助USD 16,000，最多八學期
+      - generic: LEVEL · 學位
+      - strong: 學士
+      - generic: DEADLINE · 截止
+      - strong: 秋季獎助申請：5月1日
+      - generic: ✓ 台灣學生：可申請
+      - link "查看申請重點 →":
+        - /url: /scholarships/items/2026-10-kansas-ku-excellence-2027
+    - article:
+      - generic: 🇺🇸
+      - text: 美國
+      - generic: 開放中
+      - generic: 大學國際生獎學金
+      - heading "Nebraska Global Laureate：最高每年15,000美元，2027申請已開放" [level=3]:
+        - link "Nebraska Global Laureate：最高每年15,000美元，2027申請已開放":
+          - /url: /scholarships/items/2026-10-nebraska-global-laureate-2027
+      - paragraph: 10月24日查核仍開放；台灣申請者須符合本文國籍、學歷與課程條件。
+      - generic: FUNDING · 補助
+      - strong: 每年學費獎助最高USD 15,000；依學分比例
+      - generic: LEVEL · 學位
+      - strong: 學士
+      - generic: DEADLINE · 截止
+      - strong: 2027秋季11月1日優先；翌年5月1日前錄取及訂金
+      - generic: ✓ 台灣學生：可申請
+      - link "查看申請重點 →":
+        - /url: /scholarships/items/2026-10-nebraska-global-laureate-2027
+    - complementary "廣告：獎學金精選區後":
+      - generic: ADVERTISEMENT · 廣告
+      - generic: GLOBAL EDUCATION NEWS
+      - strong: 大學與國際教育招生合作
+      - paragraph: 讓有興趣的學生在探索學校與申請資訊時，看見您的課程與活動。
+      - link "洽詢此版位":
+        - /url: /advertise/
+        - text: 洽詢此版位 ↗
+    - generic: MOBILITY
+    - generic: TAIWAN
+    - generic: TAIWAN FUNDING & MOBILITY PROGRAMMES
+    - heading "從台灣出發，走向世界" [level=2]
+    - paragraph: 從教育部學海系列到公費留學與青年海外圓夢，把台灣本地可用的國際資源納入同一套升學與研究規劃。
+    - link "◆ ✈ 學海飛颺":
+      - /url: https://www.studyabroad.moe.gov.tw/new/index.php/
+      - text: ◆
+      - generic: ✈
+      - text: 學海飛颺
+    - link "◆ ◇ 學海惜珠":
+      - /url: https://www.studyabroad.moe.gov.tw/new/index.php/
+      - text: ◆
+      - generic: ◇
+      - text: 學海惜珠
+    - link "◆ ▤ 學海築夢":
+      - /url: https://www.studyabroad.moe.gov.tw/new/index.php/
+      - text: ◆
+      - generic: ▤
+      - text: 學海築夢
+    - link "◆ ✦ 新南向學海築夢":
+      - /url: https://www.studyabroad.moe.gov.tw/new/index.php/
+      - text: ◆
+      - generic: ✦
+      - text: 新南向學海築夢
+    - link "◆ ↗ 青年百億海外圓夢":
+      - /url: https://twpathfinder.yda.gov.tw/
+      - text: ◆
+      - generic: ↗
+      - text: 青年百億海外圓夢
+    - link "◆ 🎓 留學獎學金":
+      - /url: https://www.scholarship.moe.gov.tw/scholarship
+      - text: ◆
+      - generic: 🎓
+      - text: 留學獎學金
+    - link "◆ ▥ 公費留學":
+      - /url: https://www.scholarship.moe.gov.tw/exam-v2/student/login
+      - text: ◆
+      - generic: ▥
+      - text: 公費留學
+    - generic: EDITORIAL & VERIFICATION STANDARD
+    - heading "獎學金資料庫，也採用新聞編輯室的查核標準。" [level=2]
+    - generic: "01"
+    - paragraph:
+      - strong: Official Source
+      - text: 政府、大學、基金會或主辦單位原始公告。
+    - generic: "02"
+    - paragraph:
+      - strong: Cross-check
+      - text: FAQ、招生頁、官方窗口或可靠來源。
+    - generic: "03"
+    - paragraph:
+      - strong: Taiwan Eligibility
+      - text: 國籍、居住地、學位與申請方式。
+    - generic: "04"
+    - paragraph:
+      - strong: Deadline Tracking
+      - text: 開放、延期、截止與下一年度更新。
+    - text: VERITAS · SCIENTIA · MOBILITAS
+    - text: CAMBRIDGE · ZÜRICH
+- complementary "廣告":
+  - button "關閉廣告": ×
+  - generic: ADVERTISEMENT · 廣告
+  - img "大學招生廣告示意圖"
+  - strong: 國際獎學金廣告版位
+  - paragraph: 向查找獎學金的學生介紹資助機會。
+  - link "了解廣告合作 ↗":
+    - /url: /advertise/
+- contentinfo:
+  - heading "環球教育新聞網 | Global Education News" [level=3]
+  - paragraph: 涵蓋國內外國際教育新聞、大學科系選擇與申請、獎學金雷達，以及深度探討文章-Peter 的國際教育講座。
+  - link "開啟留學DIY導航 Study Abroad Navigator":
+    - /url: /study-abroad/
+    - strong: 留學DIY導航
+    - generic: Study Abroad Navigator
+    - generic: →
+  - paragraph:
+    - link "Global Education Weekly｜免費電子報":
+      - /url: /newsletter/
+      - strong: Global Education Weekly｜免費電子報
+  - paragraph:
+    - link "Peter的國際教育講座":
+      - /url: /peter/
+      - strong: Peter的國際教育講座
+  - paragraph:
+    - link "Facebook 粉絲專頁 ↗":
+      - /url: https://www.facebook.com/profile.php?id=61585164670358
+  - text: © 2026 環球教育新聞網 Global Education News. All rights reserved.
+  - heading "LTU 環球教育新聞網編輯部" [level=3]
+  - paragraph: LTU Global Education News Editorial Desk
+  - paragraph:
+    - link "關於我們 About":
+      - /url: /about/
+  - paragraph:
+    - link "編輯政策 Editorial Policy":
+      - /url: /editorial-policy/
+  - paragraph:
+    - link "更正政策 Corrections":
+      - /url: /corrections/
+  - paragraph:
+    - link "editor.jsti.ltu@gmail.com":
+      - /url: mailto:editor.jsti.ltu@gmail.com
+  - heading "合作與透明度" [level=3]
+  - paragraph:
+    - text: 營運者：布萊斯教育有限公司
+    - text: 統一編號：91023087
+  - paragraph:
+    - link "網站安全與服務識別":
+      - /url: /security/
+  - paragraph:
+    - link "廣告合作 Advertising":
+      - /url: /advertise/
+  - paragraph:
+    - link "聯絡我們 Contact":
+      - /url: /contact/
+  - paragraph:
+    - link "利益揭露 Disclosure":
+      - /url: /disclosure/
+  - paragraph:
+    - link "隱私權政策 Privacy":
+      - /url: /privacy/
+  - generic "網站累積瀏覽統計":
+    - generic: READERSHIP
+    - text: 累積瀏覽
+    - strong: 統計中
+- paragraph:
+  - link "Photo source & license · cropped for sharing":
+    - /url: /image-credits/#787ec4d1b3d0dfef97a70780.jpg
+- button
+- img "Monica"
+- generic: Ctrl+M
+- text: 解釋

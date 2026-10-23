@@ -1,0 +1,158 @@
+{
+  "verifiedAt": "2026-10-24T05:35:56.262680+08:00",
+  "pages": [
+    {
+      "url": "https://globalednews.com/news/arizona-2027-tuition-freeze-proposal/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/arizona-2027-tuition-freeze-proposal/",
+      "ogImage": "https://globalednews.com/images/share-photos/7fceeece214ad49a3716b43f.jpg",
+      "ogBytes": 272116,
+      "schemaCount": 4,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/news/japan-student-residence-june-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/japan-student-residence-june-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/f6219cd9be662707237dd952.jpg",
+      "ogBytes": 301898,
+      "schemaCount": 4,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/news/england-tef-quality-consultation-october-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/england-tef-quality-consultation-october-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/896852fe6bd6263f911d2ceb.jpg",
+      "ogBytes": 169622,
+      "schemaCount": 4,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-10-alabama-international-automatic-merit-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-10-alabama-international-automatic-merit-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/2ffa471bac91ffd73b3909cc.jpg",
+      "ogBytes": 308547,
+      "schemaCount": 2,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-10-nebraska-global-laureate-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-10-nebraska-global-laureate-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/a55e824a535af17948b56d5b.jpg",
+      "ogBytes": 161647,
+      "schemaCount": 2,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-10-kansas-ku-excellence-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-10-kansas-ku-excellence-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/1f479077b851f0027725ba97.jpg",
+      "ogBytes": 224954,
+      "schemaCount": 2,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/study-abroad/nebraska-2027-admission-scholarship-credit-load/",
+      "status": 200,
+      "canonical": "https://globalednews.com/study-abroad/nebraska-2027-admission-scholarship-credit-load/",
+      "ogImage": "https://globalednews.com/images/share-photos/c1f287520b8a18f940f25b42.jpg",
+      "ogBytes": 231415,
+      "schemaCount": 4,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/peter/undeclared-cs-transfer-risks-us-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/peter/undeclared-cs-transfer-risks-us-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/80002434ff47b8e05d383ae5.jpg",
+      "ogBytes": 143099,
+      "schemaCount": 3,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/en/news/arizona-2027-tuition-freeze-proposal/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/arizona-2027-tuition-freeze-proposal/",
+      "ogImage": "https://globalednews.com/images/share-photos/7fceeece214ad49a3716b43f.jpg",
+      "ogBytes": 272116,
+      "schemaCount": 4,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/news/japan-student-residence-june-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/japan-student-residence-june-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/f6219cd9be662707237dd952.jpg",
+      "ogBytes": 301898,
+      "schemaCount": 4,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/news/england-tef-quality-consultation-october-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/england-tef-quality-consultation-october-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/896852fe6bd6263f911d2ceb.jpg",
+      "ogBytes": 169622,
+      "schemaCount": 4,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/scholarships/items/2026-10-alabama-international-automatic-merit-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/scholarships/items/2026-10-alabama-international-automatic-merit-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/2ffa471bac91ffd73b3909cc.jpg",
+      "ogBytes": 308547,
+      "schemaCount": 2,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/scholarships/items/2026-10-nebraska-global-laureate-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/scholarships/items/2026-10-nebraska-global-laureate-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/a55e824a535af17948b56d5b.jpg",
+      "ogBytes": 161647,
+      "schemaCount": 2,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/scholarships/items/2026-10-kansas-ku-excellence-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/scholarships/items/2026-10-kansas-ku-excellence-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/1f479077b851f0027725ba97.jpg",
+      "ogBytes": 224954,
+      "schemaCount": 2,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/study-abroad/nebraska-2027-admission-scholarship-credit-load/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/study-abroad/nebraska-2027-admission-scholarship-credit-load/",
+      "ogImage": "https://globalednews.com/images/share-photos/c1f287520b8a18f940f25b42.jpg",
+      "ogBytes": 231415,
+      "schemaCount": 4,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/peter/undeclared-cs-transfer-risks-us-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/peter/undeclared-cs-transfer-risks-us-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/80002434ff47b8e05d383ae5.jpg",
+      "ogBytes": 143099,
+      "schemaCount": 3,
+      "englishCjk": false
+    }
+  ],
+  "xmlChecks": [
+    "sitemap-index.xml",
+    "sitemap-0.xml",
+    "news-sitemap.xml",
+    "weekly-feed.xml"
+  ],
+  "newPagesInSitemap": 8,
+  "newsInNewsSitemapAndRss": 3,
+  "robots": 200
+}

@@ -1,7 +1,27 @@
 {
   "runtime": "C:\\Users\\User\\AppData\\Local\\Temp\\globalednews-security-20261019",
   "copied": [
+    "docs/campus-reports/2026-10-24.json",
+    "docs/daily-checks/2026-10-24/astro.log",
+    "docs/daily-checks/2026-10-24/bilingual-test.log",
+    "docs/daily-checks/2026-10-24/bilingual.log",
+    "docs/daily-checks/2026-10-24/facebook-photo-test.log",
+    "docs/daily-checks/2026-10-24/japan-official-browser-review.txt",
+    "docs/daily-checks/2026-10-24/peter-review.txt",
+    "docs/daily-checks/2026-10-24/runtime-conflict-review.json",
+    "docs/daily-checks/2026-10-24/runtime-sync.json",
+    "docs/daily-checks/2026-10-24/safety-test.log",
+    "docs/daily-checks/2026-10-24/search-test.log",
+    "docs/daily-checks/2026-10-24/source-review.json",
+    "docs/daily-checks/2026-10-24/vlog-test.log",
+    "docs/daily-reports/2026-10-24.json",
+    "docs/image-licenses/2026-10-24.json",
+    "docs/peter-imports/2026-10-24.json",
+    "docs/social-posts/2026-10-24/publication-log.json",
     "src/data/i18n/en-overrides.json",
-    "src/data/i18n/en.json"
+    "src/data/i18n/en.json",
+    "src/pages/scholarships/items/2026-10-alabama-international-automatic-merit-2027.md",
+    "src/pages/scholarships/items/2026-10-kansas-ku-excellence-2027.md",
+    "src/pages/scholarships/items/2026-10-nebraska-global-laureate-2027.md"
   ]
 }

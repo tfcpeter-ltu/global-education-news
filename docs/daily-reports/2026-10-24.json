@@ -2,8 +2,8 @@
   "date": "2026-10-24",
   "timezone": "Asia/Taipei",
   "startedAt": "2026-10-24T04:57:29+08:00",
-  "status": "in_progress",
-  "currentPhase": "BUILD",
+  "status": "completed",
+  "currentPhase": "COMPLETE",
   "baseMainSha": "43ff7e35201472f33f977da49f503c46c6d10d08",
   "scholarshipBaselineSlugs": [
     "2026-08-bristol-think-big",
@@ -225,9 +225,96 @@
       "status": "complete",
       "remoteMainVerified": true,
       "completedAt": "2026-10-24T04:57:29+08:00"
+    },
+    "RESEARCH": {
+      "status": "complete",
+      "recordedAt": "2026-10-24T05:48:32.574805+08:00"
+    },
+    "PREPARE": {
+      "status": "complete",
+      "recordedAt": "2026-10-24T05:48:32.574808+08:00"
+    },
+    "BUILD": {
+      "status": "complete",
+      "recordedAt": "2026-10-24T05:48:32.574810+08:00"
+    },
+    "COMMIT_DEPLOY": {
+      "status": "complete",
+      "recordedAt": "2026-10-24T05:48:32.574812+08:00"
+    },
+    "PUBLISH": {
+      "status": "complete",
+      "recordedAt": "2026-10-24T05:48:32.574814+08:00"
+    },
+    "ACCEPTANCE": {
+      "status": "complete",
+      "recordedAt": "2026-10-24T05:48:32.574816+08:00"
+    },
+    "VERIFY": {
+      "status": "complete",
+      "recordedAt": "2026-10-24T05:48:32.574818+08:00"
     }
   },
-  "newsPublished": [],
+  "newsPublished": [
+    {
+      "slug": "arizona-2027-tuition-freeze-proposal",
+      "title": "亞利桑那大學提2027學費凍漲：非居民學士每年42,600美元，仍待董事會審查",
+      "url": "https://globalednews.com/news/arizona-2027-tuition-freeze-proposal/",
+      "publishedPath": "src/pages/news/arizona-2027-tuition-freeze-proposal.md",
+      "sources": [
+        {
+          "label": "Primary source",
+          "url": "https://news.arizona.edu/news/u-freezes-all-tuition-and-fees-undergraduate-and-graduate-students"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://thecollegeinvestor.com/90345/university-of-arizona-moves-to-freeze-tuition-in-2027-28/"
+        },
+        {
+          "label": "Official FY28 rate table",
+          "url": "https://bursar.arizona.edu/sites/default/files/tuition_chart_fy_28.pdf"
+        }
+      ],
+      "verifiedAt": "2026-10-24T05:12:53.459607+08:00",
+      "publishedVerifiedAt": "2026-10-24T05:35:56.262680+08:00"
+    },
+    {
+      "slug": "japan-student-residence-june-2026",
+      "title": "日本留學在留資格達47.96萬人：半年增14,842人，不能等同大學招生數",
+      "url": "https://globalednews.com/news/japan-student-residence-june-2026/",
+      "publishedPath": "src/pages/news/japan-student-residence-june-2026.md",
+      "sources": [
+        {
+          "label": "Primary source",
+          "url": "https://www.moj.go.jp/isa/publications/press/13_00070.html"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://qazinform.com/news/foreign-residents-in-japan-reach-record-428-mln-74f86b"
+        }
+      ],
+      "verifiedAt": "2026-10-24T05:12:53.459607+08:00",
+      "publishedVerifiedAt": "2026-10-24T05:35:56.262680+08:00"
+    },
+    {
+      "slug": "england-tef-quality-consultation-october-2026",
+      "title": "英格蘭TEF新制公開諮詢至1月28日：教學體驗、學生結果擬分別評級",
+      "url": "https://globalednews.com/news/england-tef-quality-consultation-october-2026/",
+      "publishedPath": "src/pages/news/england-tef-quality-consultation-october-2026.md",
+      "sources": [
+        {
+          "label": "Primary source",
+          "url": "https://www.officeforstudents.org.uk/news-blog-and-events/press-and-media/ofs-seeks-views-on-how-the-revised-teaching-excellence-framework-would-work-in-practice-to-improve-the-student-experience/"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://www.timeshighereducation.com/news/toughened-tef-will-further-fragment-divided-sector"
+        }
+      ],
+      "verifiedAt": "2026-10-24T05:12:53.459607+08:00",
+      "publishedVerifiedAt": "2026-10-24T05:35:56.262680+08:00"
+    }
+  ],
   "scholarshipChecks": [
     {
       "slug": "2026-10-alabama-international-automatic-merit-2027",
@@ -244,7 +331,8 @@
       "verifiedAt": "2026-10-24T05:12:53.459607+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New award at a distinct institution; nationality/residence, first-year route, current application, thresholds and exclusions reviewed."
+      "updateSummary": "New award at a distinct institution; nationality/residence, first-year route, current application, thresholds and exclusions reviewed.",
+      "publishedVerifiedAt": "2026-10-24T05:35:56.262680+08:00"
     },
     {
       "slug": "2026-10-nebraska-global-laureate-2027",
@@ -261,7 +349,8 @@
       "verifiedAt": "2026-10-24T05:12:53.459607+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New award at a distinct institution; nationality/residence, first-year route, current application, thresholds and exclusions reviewed."
+      "updateSummary": "New award at a distinct institution; nationality/residence, first-year route, current application, thresholds and exclusions reviewed.",
+      "publishedVerifiedAt": "2026-10-24T05:35:56.262680+08:00"
     },
     {
       "slug": "2026-10-kansas-ku-excellence-2027",
@@ -278,7 +367,8 @@
       "verifiedAt": "2026-10-24T05:12:53.459607+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New award at a distinct institution; nationality/residence, first-year route, current application, thresholds and exclusions reviewed."
+      "updateSummary": "New award at a distinct institution; nationality/residence, first-year route, current application, thresholds and exclusions reviewed.",
+      "publishedVerifiedAt": "2026-10-24T05:35:56.262680+08:00"
     }
   ],
   "scholarshipAdditions": [
@@ -297,7 +387,8 @@
       "verifiedAt": "2026-10-24T05:12:53.459607+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New award at a distinct institution; nationality/residence, first-year route, current application, thresholds and exclusions reviewed."
+      "updateSummary": "New award at a distinct institution; nationality/residence, first-year route, current application, thresholds and exclusions reviewed.",
+      "publishedVerifiedAt": "2026-10-24T05:35:56.262680+08:00"
     },
     {
       "slug": "2026-10-nebraska-global-laureate-2027",
@@ -314,7 +405,8 @@
       "verifiedAt": "2026-10-24T05:12:53.459607+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New award at a distinct institution; nationality/residence, first-year route, current application, thresholds and exclusions reviewed."
+      "updateSummary": "New award at a distinct institution; nationality/residence, first-year route, current application, thresholds and exclusions reviewed.",
+      "publishedVerifiedAt": "2026-10-24T05:35:56.262680+08:00"
     },
     {
       "slug": "2026-10-kansas-ku-excellence-2027",
@@ -331,17 +423,324 @@
       "verifiedAt": "2026-10-24T05:12:53.459607+08:00",
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New award at a distinct institution; nationality/residence, first-year route, current application, thresholds and exclusions reviewed."
+      "updateSummary": "New award at a distinct institution; nationality/residence, first-year route, current application, thresholds and exclusions reviewed.",
+      "publishedVerifiedAt": "2026-10-24T05:35:56.262680+08:00"
     }
   ],
-  "peterImports": [],
-  "socialPosts": [],
-  "gaps": [
-    "COMMIT_DEPLOY",
-    "PUBLISH",
-    "ACCEPTANCE",
-    "VERIFY"
+  "peterImports": [
+    {
+      "slug": "undeclared-cs-transfer-risks-us-2026",
+      "title": "先讀Undeclared再轉CS？Peter提醒：探索不等於保留熱門科系名額",
+      "url": "https://globalednews.com/peter/undeclared-cs-transfer-risks-us-2026/",
+      "sourceUrl": "https://www.facebook.com/photo/?fbid=122148002871172155&set=a.122101120425172155",
+      "sourceId": "122148002871172155",
+      "verifiedAt": "2026-10-24T05:12:53.459607+08:00",
+      "publishedVerifiedAt": "2026-10-24T05:35:56.262680+08:00"
+    }
   ],
+  "socialPosts": [
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "pageId": "101904929207004",
+      "articleUrl": "https://globalednews.com/news/england-tef-quality-consultation-october-2026/",
+      "photoAttachedAt": "2026-10-24T05:23:04.906+08:00",
+      "photoReadyEvidence": "docs/daily-checks/2026-10-24/news-facebook-photo-ready.jpg",
+      "copyAddedAt": "2026-10-24T05:23:26.213+08:00",
+      "publishClickedAt": "2026-10-24T05:24:01.400+08:00",
+      "id": "1097528343023363",
+      "publishedAt": "2026-10-24T05:24:00+08:00",
+      "publishedAtPrecision": "minute",
+      "publicUrl": "https://facebook.com/LTUOSSDTaiwan/posts/pfbid02y1YiVsA9NVzMHdcbx9JynsP3QkpevTLMSz3rpU7omjxokNsrX4DXzX7PiH4vZcT4l",
+      "photoAttachments": [
+        {
+          "id": "1097527553023442",
+          "url": "https://www.facebook.com/photo/?fbid=1097527553023442&set=a.107747308668143&type=3"
+        }
+      ],
+      "verifiedAt": "2026-10-24T05:26:38.807+08:00",
+      "mediaVerifiedAt": "2026-10-24T05:26:38.807+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaEvidence": "docs/daily-checks/2026-10-24/news-facebook-public.jpg",
+      "publicPhotoScreenshot": "docs/daily-checks/2026-10-24/news-facebook-public.jpg",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-24T05:26:38.807+08:00",
+      "visibility": "public"
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/news/england-tef-quality-consultation-october-2026/",
+      "publishClickedAt": "2026-10-24T05:24:01.400+08:00",
+      "publicUrl": "https://www.instagram.com/p/De2hBQxk-0R/",
+      "id": "De2hBQxk-0R",
+      "publishedAt": "2026-10-24T05:24:03+08:00",
+      "verifiedAt": "2026-10-24T05:27:09.731+08:00",
+      "mediaVerifiedAt": "2026-10-24T05:27:09.731+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaEvidence": "docs/daily-checks/2026-10-24/news-instagram-public.jpg",
+      "visibility": "public",
+      "publishedAtPrecision": "second"
+    },
+    {
+      "campaign": "news",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/news/england-tef-quality-consultation-october-2026/",
+      "publishClickedAt": "2026-10-24T05:27:31.196+08:00",
+      "id": "De2ha1iE1xu",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/De2ha1iE1xu",
+      "publishedAt": "2026-10-24T05:27:32+08:00",
+      "publishedAtPrecision": "second",
+      "verifiedAt": "2026-10-24T05:29:02.375+08:00",
+      "mediaVerifiedAt": "2026-10-24T05:29:02.375+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaEvidence": "docs/daily-checks/2026-10-24/news-threads-public.jpg",
+      "visibility": "public"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "pageId": "101904929207004",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-alabama-international-automatic-merit-2027/",
+      "photoAttachedAt": "2026-10-24T05:27:53.171+08:00",
+      "photoReadyEvidence": "docs/daily-checks/2026-10-24/scholarship-facebook-photo-ready.jpg",
+      "copyAddedAt": "2026-10-24T05:28:06.565+08:00",
+      "publishClickedAt": "2026-10-24T05:28:50.872+08:00",
+      "id": "1097531376356393",
+      "publicUrl": "https://facebook.com/LTUOSSDTaiwan/posts/pfbid0GvgeFvu9WfwXwLMYBVRFcGxLgxEvVTkpDexvix2AUxfqrJRQLujuqeVzT1Az3nefl",
+      "publishedAt": "2026-10-24T05:28:00+08:00",
+      "publishedAtPrecision": "minute",
+      "verifiedAt": "2026-10-24T05:35:03.812+08:00",
+      "mediaVerifiedAt": "2026-10-24T05:35:03.812+08:00",
+      "mediaStatus": "VERIFIED",
+      "imageCount": 1,
+      "visibility": "public",
+      "mediaEvidence": "docs/daily-checks/2026-10-24/scholarship-facebook-public.jpg",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-24T05:35:03.812+08:00",
+      "mediaKind": "uploaded-photo",
+      "photoAttachments": [
+        {
+          "id": "1097530506356480",
+          "url": "https://www.facebook.com/photo/?fbid=1097530506356480&set=a.107747308668143&type=3"
+        }
+      ],
+      "publicPhotoScreenshot": "docs/daily-checks/2026-10-24/scholarship-facebook-public.jpg"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-alabama-international-automatic-merit-2027/",
+      "publishClickedAt": "2026-10-24T05:28:50.872+08:00",
+      "id": "De2hkpaE8qP",
+      "publicUrl": "https://www.instagram.com/p/De2hkpaE8qP/",
+      "verifiedAt": "2026-10-24T05:35:03.812+08:00",
+      "mediaVerifiedAt": "2026-10-24T05:35:03.812+08:00",
+      "mediaStatus": "VERIFIED",
+      "imageCount": 1,
+      "visibility": "public",
+      "mediaEvidence": "docs/daily-checks/2026-10-24/scholarship-instagram-public.jpg",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-24T05:35:03.812+08:00",
+      "publishedAt": "2026-10-24T05:28:53+08:00"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "publishClickedAt": "2026-10-24T05:34:15.444+08:00",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-alabama-international-automatic-merit-2027/",
+      "mediaEvidence": "docs/daily-checks/2026-10-24/scholarship-threads-public.jpg",
+      "id": "De2iMKEkxG9",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/De2iMKEkxG9",
+      "publishedAt": "2026-10-24T05:34:16+08:00",
+      "verifiedAt": "2026-10-24T05:35:16.311+08:00",
+      "mediaVerifiedAt": "2026-10-24T05:35:16.311+08:00",
+      "mediaStatus": "VERIFIED",
+      "imageCount": 1,
+      "visibility": "public"
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/news/england-tef-quality-consultation-october-2026/",
+      "publishClickedAt": "2026-10-24T05:34:50.152+08:00",
+      "mediaEvidence": "docs/daily-checks/2026-10-24/news-linkedin-public.jpg",
+      "id": "7519511687427969024",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7519511687427969024/",
+      "publishedAt": "2026-10-24T05:34:50.152+08:00",
+      "publishedAtSource": "submission timestamp; public page shows 剛剛",
+      "verifiedAt": "2026-10-24T05:35:40.943+08:00",
+      "mediaVerifiedAt": "2026-10-24T05:35:40.943+08:00",
+      "mediaStatus": "VERIFIED",
+      "imageCount": 1,
+      "visibility": "public"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/study-abroad/nebraska-2027-admission-scholarship-credit-load/",
+      "pageId": "101904929207004",
+      "photoAttachedAt": "2026-10-24T05:35:33.489+08:00",
+      "copyAddedAt": "2026-10-24T05:35:33.892+08:00",
+      "photoReadyEvidence": "docs/daily-checks/2026-10-24/study-abroad-facebook-photo-ready.jpg",
+      "publishClickedAt": "2026-10-24T05:35:40.943+08:00",
+      "id": "1097534943022703",
+      "publicUrl": "https://facebook.com/LTUOSSDTaiwan/posts/pfbid0pr86wkvQAQ6Z8n7CuUVHmwhsrZP9RN6K97QrXhfvBaBiwwVAVaAj7vzzvCYxuwW6l",
+      "publishedAt": "2026-10-24T05:35:00+08:00",
+      "publishedAtPrecision": "minute",
+      "verifiedAt": "2026-10-24T05:38:04.549+08:00",
+      "mediaVerifiedAt": "2026-10-24T05:38:04.549+08:00",
+      "mediaStatus": "VERIFIED",
+      "imageCount": 1,
+      "visibility": "public",
+      "mediaEvidence": "docs/daily-checks/2026-10-24/study-abroad-facebook-public.jpg",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-24T05:38:04.549+08:00",
+      "mediaKind": "uploaded-photo",
+      "photoAttachments": [
+        {
+          "id": "1097534719689392",
+          "url": "https://www.facebook.com/photo/?fbid=1097534719689392&set=a.107747308668143&type=3"
+        }
+      ],
+      "publicPhotoScreenshot": "docs/daily-checks/2026-10-24/study-abroad-facebook-public.jpg"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/study-abroad/nebraska-2027-admission-scholarship-credit-load/",
+      "photoAttachedAt": "2026-10-24T05:35:33.489+08:00",
+      "copyAddedAt": "2026-10-24T05:35:33.892+08:00",
+      "photoReadyEvidence": "docs/daily-checks/2026-10-24/study-abroad-facebook-photo-ready.jpg",
+      "publishClickedAt": "2026-10-24T05:35:40.943+08:00",
+      "id": "De2iWrMk-eu",
+      "publicUrl": "https://www.instagram.com/p/De2iWrMk-eu/",
+      "verifiedAt": "2026-10-24T05:38:04.549+08:00",
+      "mediaVerifiedAt": "2026-10-24T05:38:04.549+08:00",
+      "mediaStatus": "VERIFIED",
+      "imageCount": 1,
+      "visibility": "public",
+      "mediaEvidence": "docs/daily-checks/2026-10-24/study-abroad-instagram-public.jpg",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-24T05:38:04.549+08:00",
+      "publishedAt": "2026-10-24T05:35:43+08:00"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-alabama-international-automatic-merit-2027/",
+      "publishClickedAt": "2026-10-24T05:36:51.259+08:00",
+      "id": "7519512199648817152",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7519512199648817152/",
+      "publishedAt": "2026-10-24T05:36:51.259+08:00",
+      "publishedAtSource": "submission time; public page 剛剛",
+      "verifiedAt": "2026-10-24T05:37:33.170+08:00",
+      "mediaVerifiedAt": "2026-10-24T05:37:33.170+08:00",
+      "mediaStatus": "VERIFIED",
+      "imageCount": 1,
+      "visibility": "public",
+      "mediaEvidence": "docs/daily-checks/2026-10-24/scholarship-linkedin-public.jpg"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/study-abroad/nebraska-2027-admission-scholarship-credit-load/",
+      "publishClickedAt": "2026-10-24T05:37:11.672+08:00",
+      "id": "De2ihmHE_5F",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/De2ihmHE_5F",
+      "publishedAt": "2026-10-24T05:37:11+08:00",
+      "verifiedAt": "2026-10-24T05:38:15.662+08:00",
+      "mediaVerifiedAt": "2026-10-24T05:38:15.662+08:00",
+      "mediaStatus": "VERIFIED",
+      "imageCount": 1,
+      "visibility": "public",
+      "mediaEvidence": "docs/daily-checks/2026-10-24/study-abroad-threads-public.jpg"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/study-abroad/nebraska-2027-admission-scholarship-credit-load/",
+      "publishClickedAt": "2026-10-24T05:38:24.347+08:00",
+      "id": "7519512592382529536",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7519512592382529536/",
+      "publishedAt": "2026-10-24T05:38:24.347+08:00",
+      "publishedAtSource": "submission time; public page 剛剛",
+      "verifiedAt": "2026-10-24T05:39:00.338+08:00",
+      "mediaVerifiedAt": "2026-10-24T05:39:00.338+08:00",
+      "mediaStatus": "VERIFIED",
+      "imageCount": 1,
+      "visibility": "public",
+      "mediaEvidence": "docs/daily-checks/2026-10-24/study-abroad-linkedin-public.jpg"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "publishClickedAt": "2026-10-24T05:38:32.009+08:00",
+      "id": "De2iriPk5G_",
+      "publicUrl": "https://www.instagram.com/p/De2iriPk5G_/",
+      "publishedAt": "2026-10-24T05:38:34+08:00",
+      "verifiedAt": "2026-10-24T05:39:41.699+08:00",
+      "mediaVerifiedAt": "2026-10-24T05:39:41.699+08:00",
+      "mediaStatus": "VERIFIED",
+      "imageCount": 1,
+      "visibility": "public",
+      "mediaEvidence": "docs/daily-checks/2026-10-24/taiwan-universities-instagram-public.jpg"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "publishClickedAt": "2026-10-24T05:38:39.617+08:00",
+      "id": "De2isVMk0kf",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/De2isVMk0kf",
+      "publishedAt": "2026-10-24T05:38:39+08:00",
+      "verifiedAt": "2026-10-24T05:39:33.138+08:00",
+      "mediaVerifiedAt": "2026-10-24T05:39:33.138+08:00",
+      "mediaStatus": "VERIFIED",
+      "imageCount": 1,
+      "visibility": "public",
+      "mediaEvidence": "docs/daily-checks/2026-10-24/taiwan-universities-threads-public.jpg"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "publishClickedAt": "2026-10-24T05:39:41.773+08:00",
+      "id": "7519512916568698881",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7519512916568698881/",
+      "publishedAt": "2026-10-24T05:39:41.773+08:00",
+      "publishedAtSource": "submission time; public page 剛剛",
+      "verifiedAt": "2026-10-24T05:40:16.782+08:00",
+      "mediaVerifiedAt": "2026-10-24T05:40:16.782+08:00",
+      "mediaStatus": "VERIFIED",
+      "imageCount": 1,
+      "visibility": "public",
+      "mediaEvidence": "docs/daily-checks/2026-10-24/taiwan-universities-linkedin-public.jpg"
+    }
+  ],
+  "gaps": [],
   "manualActions": [],
   "newsPrepared": [
     {
@@ -480,15 +879,21 @@
   "ltuReview": {
     "checkedAt": "2026-10-24T05:12:53.459607+08:00",
     "poolSize": 12,
-    "pendingLiveVerification": true
+    "pendingLiveVerification": false,
+    "liveVerifiedAt": "2026-10-24T05:45:42.610+08:00",
+    "liveText": "LTU 教育動態・媒體報導\n每日輪播 3 則 · LTU EDUCATION · MEDIA COVERAGE\n風傳媒\nLTU OSSD\nLTU · 加拿大教育活動\n2025年暑假最強中學籃球營加拿大登場跟HBL明星球員面對面打球\n\n媒體來源：風傳媒\n\n外部媒體報導 ↗\n自由時報\nLTU OSSD\nLTU · 升學成果\n台加高中雙聯學程 錄取美加7大學\n\n媒體來源：自由時報\n\n外部媒體報導 ↗\n聯合新聞網\nLTU OSSD\nLTU · 升學成果\n高雄中山工商港生歐陽志坤 透過台加雙聯學制圓留學夢\n\n媒體來源：聯合新聞網\n\n外部媒體報導 ↗\n其他更多媒體報導（共 12 則）"
   },
   "phaseCompleted": [
     "PREFLIGHT",
     "RESEARCH",
     "PREPARE",
-    "BUILD"
+    "BUILD",
+    "COMMIT_DEPLOY",
+    "PUBLISH",
+    "ACCEPTANCE",
+    "VERIFY"
   ],
-  "updatedAt": "2026-10-24T05:20:42.354786+08:00",
+  "updatedAt": "2026-10-24T05:48:32.574792+08:00",
   "preparedAt": "2026-10-24T05:13:21.874576+08:00",
   "build": {
     "status": "success",
@@ -503,5 +908,85 @@
       "Vlog catalog and bilingual controllers"
     ],
     "logs": "docs/daily-checks/2026-10-24"
+  },
+  "studyAbroadPublished": {
+    "slug": "nebraska-2027-admission-scholarship-credit-load",
+    "title": "Nebraska留學DIY：先分清申請、訂金與獎學金學分門檻",
+    "url": "https://globalednews.com/study-abroad/nebraska-2027-admission-scholarship-credit-load/",
+    "sources": [
+      {
+        "label": "UNL international dates",
+        "url": "https://admissions.unl.edu/apply/international-dates-deadlines/"
+      },
+      {
+        "label": "UNL2027 award rules",
+        "url": "https://financialaid.unl.edu/global-laureate-scholarship-guidelines-spring-2027-and-fall-2027/"
+      },
+      {
+        "label": "Independent scholarship analysis",
+        "url": "https://borderless.so/scholarships/university-of-nebraska---lincoln/global-laureate-scholarship"
+      }
+    ],
+    "publishedVerifiedAt": "2026-10-24T05:35:56.262680+08:00"
+  },
+  "newFacebookPagePost": {
+    "campaign": "news",
+    "network": "facebook",
+    "pageId": "61595164194381",
+    "assetId": "1355044634361784",
+    "status": "PUBLISHED",
+    "articleUrl": "https://globalednews.com/news/england-tef-quality-consultation-october-2026/",
+    "photoAttachedAt": "2026-10-24T05:41:54.527+08:00",
+    "copyAddedAt": "2026-10-24T05:41:54.617+08:00",
+    "photoReadyEvidence": "docs/daily-checks/2026-10-24/new-facebook-photo-ready.jpg",
+    "publishClickedAt": "2026-10-24T05:42:02.574+08:00",
+    "mediaKind": "uploaded-photo",
+    "copy": "英格蘭TEF擬改制：教學體驗與結果分開看\n選校前看清提案、評級與適用地區。\n\nOfS諮詢至2027年1月28日，低評級擬連動招生限制；目前仍是提案。\n\n不要把諮詢當成某所學校已受處分，課程與支持服務仍要逐項比較。\n環球教育新聞：https://globalednews.com/\n全文：https://globalednews.com/news/england-tef-quality-consultation-october-2026/\n\n和正在規劃升學的家人一起核對條件。\n免費加入環球教育新聞會員！\n每週教育新聞與申請提醒，免費且可隨時取消。\nhttps://globalednews.com/newsletter/\n資料照：Mick Garratt  / CC BY-SA 2.0；裁切加字。\nhttps://globalednews.com/images/daily/2026-10-24/credits.html#uk",
+    "id": "122112092877505473",
+    "publishedAt": "2026-10-24T05:42:00+08:00",
+    "publishedAtPrecision": "minute",
+    "publicUrl": "https://facebook.com/permalink.php?story_fbid=pfbid0266HehKcgQD1nZhx328NaMNq8teXNZPTBAFSBFHy1KUqqkjgb5eiBkAorThQ7vpCDl&id=61595164194381",
+    "verifiedAt": "2026-10-24T05:43:59.314+08:00",
+    "mediaVerifiedAt": "2026-10-24T05:43:59.314+08:00",
+    "mediaStatus": "VERIFIED",
+    "imageCount": 1,
+    "visibility": "public",
+    "mediaEvidence": "docs/daily-checks/2026-10-24/new-facebook-public.jpg",
+    "publicPhotoScreenshot": "docs/daily-checks/2026-10-24/new-facebook-public.jpg",
+    "previewStatus": "VERIFIED",
+    "previewVerifiedAt": "2026-10-24T05:43:59.314+08:00",
+    "photoAttachments": [
+      {
+        "id": "122112092655505473",
+        "url": "https://www.facebook.com/photo/?fbid=122112092655505473&set=a.122094964809505473&type=3"
+      }
+    ]
+  },
+  "deployment": {
+    "commit": "1c8308a567feb222eed27b3ab57877748dca5911",
+    "status": "success",
+    "verifiedAt": "2026-10-24T05:48:32.506389+08:00",
+    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/40027049254",
+    "evidence": "docs/daily-checks/2026-10-24/content-deployment-runs.json"
+  },
+  "acceptance": {
+    "desktop": true,
+    "mobile": true,
+    "seo": true,
+    "verifiedAt": "2026-10-24T05:45:42.610+08:00",
+    "uiEvidence": "docs/daily-reports/2026-10-24-live-ui.json",
+    "seoEvidence": "docs/daily-reports/2026-10-24-live-seo.json",
+    "note": "Live 16 bilingual pages, photos, filters, canonical, OG, schema, sitemaps and RSS passed. Mobile DOM verified at 390px; article screenshots retained. Homepage screenshot predates ad dismissal; mobile filter screenshot was stale and is not acceptance evidence."
+  },
+  "completedAt": "2026-10-24T05:48:32.574217+08:00",
+  "verification": {
+    "date": "2026-10-24",
+    "timezone": "Asia/Taipei",
+    "verifiedAt": "2026-10-24T05:48:32.574217+08:00",
+    "command": "node scripts/verify-daily-delivery.mjs 2026-10-24",
+    "exitCode": 0,
+    "stdout": "COMPLETE 2026-10-24: 3 news, 3 new scholarships, Peter review (1 imports), 15 social posts and deployment evidence present. Evidence presence does not replace live verification.\n",
+    "stderr": "",
+    "status": "COMPLETE"
   }
 }

@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-24",
+  "timezone": "Asia/Taipei",
+  "checkedAt": "2026-10-24T05:45:42.610+08:00",
+  "desktopFilter": {
+    "query": "Nebraska",
+    "country": "美國",
+    "degree": "學士",
+    "funding": "學費",
+    "status": "開放中",
+    "matches": 1,
+    "evidence": "docs/daily-checks/2026-10-24/scholarship-desktop-filter.txt"
+  },
+  "mobileHome": {
+    "h1": "亞利桑那大學提2027學費凍漲：非居民學士每年42,600美元，仍待董事會審查",
+    "images": [
+      {
+        "alt": "Bristol Clifton Suspension Bridge 實景與 UWE Bristol 實作導向、職涯接軌招生廣告",
+        "complete": true,
+        "width": 1080
+      },
+      {
+        "alt": "授權校園實景資料照，非本次事件或統計對象",
+        "complete": true,
+        "width": 1800
+      }
+    ],
+    "scrollWidth": 371,
+    "title": "環球教育新聞網｜國際教育新聞、大學科系選擇與申請、獎學金雷達",
+    "width": 390,
+    "adDismissed": true
+  },
+  "mobileArticle": {
+    "h1": "英格蘭TEF新制公開諮詢至1月28日：教學體驗、學生結果擬分別評級",
+    "image": [
+      {
+        "alt": "授權校園實景資料照，非本次事件或統計對象",
+        "complete": true,
+        "width": 1200
+      }
+    ],
+    "scrollWidth": 371,
+    "width": 390
+  },
+  "mobileFilter": {
+    "query": "阿拉巴馬",
+    "matches": 1,
+    "filters": [
+      "美國",
+      "學士",
+      "學費",
+      "開放中"
+    ],
+    "viewport": {
+      "scrollWidth": 371,
+      "width": 390
+    },
+    "evidence": "docs/daily-checks/2026-10-24/scholarship-mobile-filter.txt"
+  },
+  "desktopHome": {
+    "h1": "亞利桑那大學提2027學費凍漲：非居民學士每年42,600美元，仍待董事會審查",
+    "ltu": "LTU 教育動態・媒體報導\n每日輪播 3 則 · LTU EDUCATION · MEDIA COVERAGE\n風傳媒\nLTU OSSD\nLTU · 加拿大教育活動\n2025年暑假最強中學籃球營加拿大登場跟HBL明星球員面對面打球\n\n媒體來源：風傳媒\n\n外部媒體報導 ↗\n自由時報\nLTU OSSD\nLTU · 升學成果\n台加高中雙聯學程 錄取美加7大學\n\n媒體來源：自由時報\n\n外部媒體報導 ↗\n聯合新聞網\nLTU OSSD\nLTU · 升學成果\n高雄中山工商港生歐陽志坤 透過台加雙聯學制圓留學夢\n\n媒體來源：聯合新聞網\n\n外部媒體報導 ↗\n其他更多媒體報導（共 12 則）",
+    "scrollWidth": 1781,
+    "width": 1800
+  }
+}
