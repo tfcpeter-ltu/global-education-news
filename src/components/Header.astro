@@ -53,23 +53,34 @@ const isScholarshipRadar = Astro.url.pathname === '/scholarships/' || Astro.url.
         <span>留學DIY導航</span>
         <small>Study Abroad Navigator</small>
       </a>
-      <a class="bilingual-nav peter-nav" href={link('peter/')} aria-label="Peter的國際教育講座 Peter’s Education Talk">
-        <span>Peter的國際教育講座</span>
-        <small>Peter’s Education Talk</small>
+      <a class="bilingual-nav vlog-nav" href="https://www.youtube.com/channel/UCpQEfgKcfpTvhO768DopAuA" aria-label="留遊學Vlog Study Abroad Vlog">
+        <span>留遊學Vlog</span>
+        <small>Study Abroad Vlog</small>
       </a>
+      <details class="overseas-menu peter-menu">
+        <summary class="bilingual-nav peter-nav" aria-label="Peter的國際教育講座 Peter’s Education Talk">
+          <span>Peter的國際教育講座 <span aria-hidden="true">▾</span></span>
+          <small>Peter’s Education Talk</small>
+        </summary>
+        <div class="overseas-options">
+          <a href={link('peter/')}>Peter的國際教育講座</a>
+          <a href={link('intelligence/')}>教育情報 GEI</a>
+        </div>
+      </details>
       <a class="bilingual-nav peter-nav" href={link('newsletter/')} aria-label="免費電子報 Free Newsletter">
         <span>免費電子報</span>
         <small>Free Newsletter</small>
       </a>
-      <a class="bilingual-nav intelligence-nav" href={link('intelligence/')} aria-label="教育情報 GEI Education Intelligence">
-        <span>教育情報 GEI</span>
-        <small>Education Intelligence</small>
-      </a>
-      <a class="bilingual-nav taiwan-campus-nav" href={link('topics/taiwan/')} aria-label="台灣校園國際新聞 Taiwan Campus News"><span>台灣校園國際新聞</span><small>Taiwan Campus News</small></a>
-      <a class="bilingual-nav domestic-university-nav" href={link('taiwan-universities/')} aria-label="國內大學選校選系 University Explorer">
-        <span>國內大學選校選系</span>
-        <small>University Explorer</small>
-      </a>
+      <details class="overseas-menu university-menu">
+        <summary class="bilingual-nav domestic-university-nav" aria-label="國內大學選校選系 University Explorer">
+          <span>國內大學選校選系 <span aria-hidden="true">▾</span></span>
+          <small>University Explorer</small>
+        </summary>
+        <div class="overseas-options">
+          <a href={link('taiwan-universities/')}>國內大學選校選系</a>
+          <a href={link('topics/taiwan/')}>台灣校園國際新聞</a>
+        </div>
+      </details>
     </div>
   </nav>
 </header>
@@ -93,13 +104,15 @@ const isScholarshipRadar = Astro.url.pathname === '/scholarships/' || Astro.url.
   .nav .container { flex-wrap: wrap; gap: 8px 18px; padding-top: 8px; padding-bottom: 8px; }
   .journal-nav { color: var(--burgundy); }
   .overseas-menu { position: relative; }
-  .overseas-menu summary { cursor: pointer; list-style: none; padding: 0; white-space: nowrap; }
+  .overseas-menu summary { position: relative; cursor: pointer; list-style: none; padding: 0; white-space: nowrap; }
   .overseas-menu summary::-webkit-details-marker { display: none; }
   .overseas-menu summary:focus-visible { outline: 2px solid var(--burgundy); outline-offset: 4px; }
   .overseas-menu[open] summary { color: var(--burgundy); }
   .overseas-options { position: absolute; top: 100%; left: 0; min-width: 140px; padding: 6px; background: var(--sheet); border: 1px solid var(--line); box-shadow: 0 8px 20px #0002; }
   .overseas-options a { display: block; padding: 11px 16px; white-space: nowrap; }
   .overseas-options a:hover, .overseas-options a:focus-visible { background: var(--soft); }
+  .university-menu .overseas-options { left: auto; right: 0; }
+  .vlog-nav { color: #0f3b5f; }
 
   .version-c-masthead {
     grid-template-columns: minmax(145px, .72fr) minmax(0, 5.2fr) minmax(145px, .72fr);
@@ -249,7 +262,11 @@ const isScholarshipRadar = Astro.url.pathname === '/scholarships/' || Astro.url.
 
     .nav .container {
       gap: 7px 16px;
+      align-items: flex-start;
     }
+
+    .overseas-options { position: static; margin-top: 8px; min-width: 0; max-width: 100%; box-shadow: none; }
+    .overseas-options a { white-space: normal; overflow-wrap: anywhere; }
 
     .nav .bilingual-nav {
       min-height: 40px;
