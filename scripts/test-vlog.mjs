@@ -21,4 +21,12 @@ assert.equal(nextVideoIndex(0, 1), 0);
 assert.equal(endedVideoIndex(3, 10, false), 3, 'Disabling autoplay must preserve current video');
 assert.equal(endedVideoIndex(3, 10, true), 4);
 assert.equal(endedVideoIndex(9, 10, true), 0);
+if (process.argv.includes('--built')) {
+  for (const route of ['vlog/index.html', 'en/vlog/index.html']) {
+    const html = fs.readFileSync(new URL(`../dist/${route}`, import.meta.url), 'utf8');
+    const body = html.match(/<body\b[^>]*>([\s\S]*?)<\/body>/i)?.[1] ?? '';
+    const modules = [...body.matchAll(/<script\b[^>]*src="(\/_astro\/[^\"]+\.js)"/g)].map(m => m[1]);
+    assert.ok(modules.some(src => fs.readFileSync(new URL(`../dist${src}`, import.meta.url), 'utf8').includes('onYouTubeIframeAPIReady')), `${route}: video controller was lost during HTML processing`);
+  }
+}
 console.log(`Vlog catalog and playback checks passed (${videos.length} videos).`);

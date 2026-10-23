@@ -11,7 +11,7 @@ const duration = (value: string) => {
 const sourceLabel = (type: string) => type === 'official' ? '大學官方' : type === 'submission' ? '讀者投稿' : 'Peter 精選';
 ---
 <BaseLayout title="留遊學Vlog｜跟著影像看世界校園" description="從 Peter 的留遊學影片到大學官方校園巡禮，用影像探索海外學習、校園生活與升學選擇。" image="/images/daily/2026-10-14/toronto-hart-house.jpg">
-  <main class="vlog-page container">
+  <div class="vlog-page container">
     <header class="vlog-heading">
       <div><p class="eyebrow">WATCH · EXPLORE · GO FURTHER</p><h1>留遊學Vlog</h1><p class="intro">下一站的生活，先從一段影片開始。</p></div>
       <a class="channel-link" href="https://www.youtube.com/channel/UCpQEfgKcfpTvhO768DopAuA" target="_blank" rel="noopener noreferrer"><span class="youtube-mark" aria-hidden="true">▶</span> Peter 的 YouTube 頻道 ↗</a>
@@ -55,8 +55,7 @@ const sourceLabel = (type: string) => type === 'official' ? '大學官方' : typ
     </section>
     <section class="submission-banner"><div><p class="eyebrow">YOUR STORY, OUR NEXT STOP</p><h2>把你的留遊學故事，放進下一輪播放。</h2><p>歡迎分享校園走讀、交換生活、遊學紀錄與大學介紹。提供你的 YouTube 影片連結與簡介，審核後就能加入這裡。</p></div><a href="mailto:editor.jsti.ltu@gmail.com?subject=Study%20Abroad%20Vlog%20Submission">提供影片連結 ↗</a></section>
     <p class="source-note">影片透過 YouTube 原始播放器播放，著作權歸原創作者。影片日期為原始發布日期；招生及活動資訊請以最新官方公告為準。</p>
-  </main>
-</BaseLayout>
+  </div>
 
 <script>
   import { nextVideoIndex, endedVideoIndex } from '../../lib/vlog-playlist.mjs';
@@ -159,6 +158,7 @@ const sourceLabel = (type: string) => type === 'official' ? '大學官方' : typ
   document.querySelectorAll<HTMLButtonElement>('[data-filter]').forEach(button => button.addEventListener('click', () => { filter = button.dataset.filter!; search(); }));
   get('reset-search').addEventListener('click', () => { query.value = ''; filter = 'all'; search(); query.focus(); });
 </script>
+</BaseLayout>
 
 <style>
   .vlog-page { padding-top: 40px; padding-bottom: 48px; max-width: 1320px; }

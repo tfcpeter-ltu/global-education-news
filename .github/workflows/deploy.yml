@@ -53,6 +53,8 @@ jobs:
         run: npm run build
       - name: Verify bilingual routes and form values
         run: python scripts/test-bilingual.py
+      - name: Verify video controllers in both built editions
+        run: node scripts/test-vlog.mjs --built
       - name: Verify public demo and operator safety disclosures
         run: node scripts/test-public-service-safety.mjs
       - name: Prepare changed URLs for IndexNow
