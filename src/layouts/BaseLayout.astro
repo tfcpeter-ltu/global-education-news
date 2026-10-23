@@ -11,6 +11,7 @@ interface Props {
   image?: string;
   type?: 'website' | 'article';
   noindex?: boolean;
+  videoChannel?: boolean;
 }
 
 const rawBase = import.meta.env.BASE_URL;
@@ -28,7 +29,8 @@ const {
   description = brandDescription,
   image = `${base}images/news-og.jpg`,
   type = 'website',
-  noindex = false
+  noindex = false,
+  videoChannel = false
 } = Astro.props;
 
 const canonical = new URL(Astro.url.pathname, origin).toString();
@@ -117,7 +119,7 @@ const websiteLd = {
     <slot name="head" />
   </head>
   <body class:list={[isScholarshipRadar && 'scholarship-radar-page']}>
-    <Header />
+    {!videoChannel && <Header />}
     <main><slot /></main>
     {isHomepage && <IntelligencePromo />}
     {isHomepage && <PartnerNewsSection />}
@@ -213,6 +215,6 @@ const websiteLd = {
         @media(max-width:760px){.scholarship-radar-page .site-header:after{font-size:.52rem;line-height:1.6;letter-spacing:.10em}.scholarship-radar-page .masthead:before,.scholarship-radar-page .masthead:after{display:none}.scholarship-radar-page .scholarship-page:before,.scholarship-radar-page .scholarship-page:after{display:none}.scholarship-radar-page .editorial-hero{padding-top:48px!important}.scholarship-radar-page .hero-copy{padding-left:12px}.scholarship-radar-page .hero-copy h1{font-size:2.55rem!important}.scholarship-radar-page .archive-heading strong{font-size:1.6rem!important}.scholarship-radar-page .search-box{min-height:86px!important;padding:0 18px!important}.scholarship-radar-page .search-icon{width:48px!important;height:48px!important;font-size:2rem!important}.scholarship-radar-page .search-box input{font-size:1.18rem!important}.scholarship-radar-page .search-box input::placeholder{font-size:1.1rem!important}.scholarship-radar-page .scholarship-search-submit{grid-column:1/-1;min-height:54px!important}}
       </style>
     )}
-    <Footer />
+    {!videoChannel && <Footer />}
   </body>
 </html>

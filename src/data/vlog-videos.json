@@ -1,5 +1,65 @@
 [
   {
+    "id": "8-zSAurL2hY",
+    "title": "Alexandr Wang：AI 時代的學習與創業",
+    "description": "Peter 推薦的 Alexandr Wang 故事，從學習歷程談能力累積與創業。",
+    "country": "美國",
+    "topic": "人物與教育",
+    "originalTitle": "【24歲，成為全球最年輕白手起家億萬富豪之一】",
+    "sourceType": "peter",
+    "channelTitle": "Peterの國際教育講座",
+    "channelId": "UCpQEfgKcfpTvhO768DopAuA",
+    "publishedAt": "2026-06-23T13:27:54Z",
+    "duration": "PT1M22S",
+    "thumbnail": "https://i.ytimg.com/vi/8-zSAurL2hY/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=8-zSAurL2hY",
+    "featured": true,
+    "priority": 1,
+    "verifiedAt": "2026-10-23",
+    "status": "published",
+    "recommended": true
+  },
+  {
+    "id": "nBD6XJWkaPk",
+    "title": "環境如何影響教育？一段 AI 寓言",
+    "description": "以外星人情境呈現的 AI 創作短片，從幽默與諷刺角度談環境和教育。",
+    "country": "國際",
+    "topic": "教育觀點",
+    "originalTitle": "#環境對教育的影響｜ 外星人來也一樣～",
+    "sourceType": "peter",
+    "channelTitle": "Peterの國際教育講座",
+    "channelId": "UCpQEfgKcfpTvhO768DopAuA",
+    "publishedAt": "2026-06-29T07:21:07Z",
+    "duration": "PT5M39S",
+    "thumbnail": "https://i.ytimg.com/vi/nBD6XJWkaPk/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=nBD6XJWkaPk",
+    "featured": true,
+    "priority": 2,
+    "verifiedAt": "2026-10-23",
+    "status": "published",
+    "recommended": true
+  },
+  {
+    "id": "8PCtk9OV-sk",
+    "title": "Starting Block 2024",
+    "description": "Peter 推薦影片：Starting Block 2024。",
+    "country": "國際",
+    "topic": "精選紀錄",
+    "originalTitle": "Starting Block 2024",
+    "sourceType": "peter",
+    "channelTitle": "Peterの國際教育講座",
+    "channelId": "UCpQEfgKcfpTvhO768DopAuA",
+    "publishedAt": "2024-09-18T01:37:31Z",
+    "duration": "PT1M23S",
+    "thumbnail": "https://i.ytimg.com/vi/8PCtk9OV-sk/hqdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=8PCtk9OV-sk",
+    "featured": true,
+    "priority": 3,
+    "verifiedAt": "2026-10-23",
+    "status": "published",
+    "recommended": true
+  },
+  {
     "id": "fhxXy0P7gkc",
     "title": "多倫多城市裡的學習現場：認識 TMU",
     "originalTitle": "如果你只看世界排名，可能會低估這所大學：TMU正在成為多倫多最值得注意的「實戰型大學」",
@@ -14,9 +74,90 @@
     "thumbnail": "https://i.ytimg.com/vi/fhxXy0P7gkc/maxresdefault.jpg",
     "url": "https://www.youtube.com/watch?v=fhxXy0P7gkc",
     "featured": true,
-    "priority": 1,
+    "priority": 4,
     "verifiedAt": "2026-10-23",
-    "status": "published"
+    "status": "published",
+    "recommended": true
+  },
+  {
+    "id": "QdWNTNuOxso",
+    "title": "Lin 的 UWE 學習與生活分享",
+    "description": "聽 UWE 學姊 Lin 用中文分享在英國的學習與日常生活。",
+    "country": "英國",
+    "topic": "留學生活",
+    "originalTitle": "Lin UWE學習與生活分享中文",
+    "sourceType": "peter",
+    "channelTitle": "Peterの國際教育講座",
+    "channelId": "UCpQEfgKcfpTvhO768DopAuA",
+    "publishedAt": "2021-06-12T06:02:49Z",
+    "duration": "PT5M13S",
+    "thumbnail": "https://i.ytimg.com/vi/QdWNTNuOxso/sddefault.jpg",
+    "url": "https://www.youtube.com/watch?v=QdWNTNuOxso",
+    "featured": true,
+    "priority": 5,
+    "verifiedAt": "2026-10-23",
+    "status": "published",
+    "recommended": true
+  },
+  {
+    "id": "zM3H-bUNvUg",
+    "title": "伊頓公學暑期學校介紹",
+    "description": "Peter 頻道收錄的 Eton Summer School 說明影片；活動內容與報名資訊請以最新公告為準。",
+    "country": "英國",
+    "topic": "遊學體驗",
+    "originalTitle": "伊頓公學行政長官 Phipli Highy 介紹 Eton Summer School Briefing",
+    "sourceType": "peter",
+    "channelTitle": "Peterの國際教育講座",
+    "channelId": "UCpQEfgKcfpTvhO768DopAuA",
+    "publishedAt": "2022-11-09T08:17:27Z",
+    "duration": "PT10M35S",
+    "thumbnail": "https://i.ytimg.com/vi/zM3H-bUNvUg/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=zM3H-bUNvUg",
+    "featured": true,
+    "priority": 6,
+    "verifiedAt": "2026-10-23",
+    "status": "published",
+    "recommended": true
+  },
+  {
+    "id": "5AeDNw4kxu4",
+    "title": "張國榮的英國求學故事",
+    "description": "Peter 推薦的教育故事，從張國榮的英國求學經驗談人生與視野。",
+    "country": "英國",
+    "topic": "人物與教育",
+    "originalTitle": "🎬【#明星談教育 | #張國榮的英國求學背景對一生的影響】",
+    "sourceType": "peter",
+    "channelTitle": "Peterの國際教育講座",
+    "channelId": "UCpQEfgKcfpTvhO768DopAuA",
+    "publishedAt": "2026-06-28T09:33:51Z",
+    "duration": "PT2M42S",
+    "thumbnail": "https://i.ytimg.com/vi/5AeDNw4kxu4/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=5AeDNw4kxu4",
+    "featured": true,
+    "priority": 7,
+    "verifiedAt": "2026-10-23",
+    "status": "published",
+    "recommended": true
+  },
+  {
+    "id": "70D3Legd1kc",
+    "title": "楊紫瓊：從失敗開始的成功故事",
+    "description": "Peter 推薦的楊紫瓊演講影片，談挫折、重新選擇與繼續前進。",
+    "country": "美國",
+    "topic": "人物與教育",
+    "originalTitle": "楊紫瓊的成功故事 從失敗開始",
+    "sourceType": "peter",
+    "channelTitle": "Peterの國際教育講座",
+    "channelId": "UCpQEfgKcfpTvhO768DopAuA",
+    "publishedAt": "2026-07-31T21:49:18Z",
+    "duration": "PT13M34S",
+    "thumbnail": "https://i.ytimg.com/vi/70D3Legd1kc/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=70D3Legd1kc",
+    "featured": true,
+    "priority": 8,
+    "verifiedAt": "2026-10-23",
+    "status": "published",
+    "recommended": true
   },
   {
     "id": "lEJ-qc82YG4",
@@ -33,9 +174,10 @@
     "thumbnail": "https://i.ytimg.com/vi/lEJ-qc82YG4/maxresdefault.jpg",
     "url": "https://www.youtube.com/watch?v=lEJ-qc82YG4",
     "featured": true,
-    "priority": 2,
+    "priority": 9,
     "verifiedAt": "2026-10-23",
-    "status": "published"
+    "status": "published",
+    "recommended": true
   },
   {
     "id": "HpHE4oPReO4",
@@ -51,10 +193,11 @@
     "duration": "PT2M2S",
     "thumbnail": "https://i.ytimg.com/vi/HpHE4oPReO4/maxresdefault.jpg",
     "url": "https://www.youtube.com/watch?v=HpHE4oPReO4",
-    "featured": true,
-    "priority": 3,
+    "featured": false,
+    "priority": 10,
     "verifiedAt": "2026-10-23",
-    "status": "published"
+    "status": "published",
+    "recommended": false
   },
   {
     "id": "nlCvYs1BrMo",
@@ -71,9 +214,10 @@
     "thumbnail": "https://i.ytimg.com/vi/nlCvYs1BrMo/maxresdefault.jpg",
     "url": "https://www.youtube.com/watch?v=nlCvYs1BrMo",
     "featured": false,
-    "priority": 4,
+    "priority": 11,
     "verifiedAt": "2026-10-23",
-    "status": "published"
+    "status": "published",
+    "recommended": false
   },
   {
     "id": "7c7Exh_PRn8",
@@ -90,9 +234,10 @@
     "thumbnail": "https://i.ytimg.com/vi/7c7Exh_PRn8/maxresdefault.jpg",
     "url": "https://www.youtube.com/watch?v=7c7Exh_PRn8",
     "featured": false,
-    "priority": 5,
+    "priority": 12,
     "verifiedAt": "2026-10-23",
-    "status": "published"
+    "status": "published",
+    "recommended": false
   },
   {
     "id": "p0Lk-mkOOow",
@@ -109,9 +254,10 @@
     "thumbnail": "https://i.ytimg.com/vi/p0Lk-mkOOow/sddefault.jpg",
     "url": "https://www.youtube.com/watch?v=p0Lk-mkOOow",
     "featured": false,
-    "priority": 6,
+    "priority": 13,
     "verifiedAt": "2026-10-23",
-    "status": "published"
+    "status": "published",
+    "recommended": false
   },
   {
     "id": "ZS3Ez_mHsqo",
@@ -128,9 +274,10 @@
     "thumbnail": "https://i.ytimg.com/vi/ZS3Ez_mHsqo/maxresdefault.jpg",
     "url": "https://www.youtube.com/watch?v=ZS3Ez_mHsqo",
     "featured": false,
-    "priority": 7,
+    "priority": 14,
     "verifiedAt": "2026-10-23",
-    "status": "published"
+    "status": "published",
+    "recommended": false
   },
   {
     "id": "uc6Q1l11MhY",
@@ -146,10 +293,11 @@
     "duration": "PT3M10S",
     "thumbnail": "https://i.ytimg.com/vi/uc6Q1l11MhY/maxresdefault.jpg",
     "url": "https://www.youtube.com/watch?v=uc6Q1l11MhY",
-    "featured": true,
-    "priority": 8,
+    "featured": false,
+    "priority": 15,
     "verifiedAt": "2026-10-23",
-    "status": "published"
+    "status": "published",
+    "recommended": false
   },
   {
     "id": "b2Az7_lLh3g",
@@ -166,9 +314,10 @@
     "thumbnail": "https://i.ytimg.com/vi/b2Az7_lLh3g/maxresdefault.jpg",
     "url": "https://www.youtube.com/watch?v=b2Az7_lLh3g",
     "featured": false,
-    "priority": 9,
+    "priority": 16,
     "verifiedAt": "2026-10-23",
-    "status": "published"
+    "status": "published",
+    "recommended": false
   },
   {
     "id": "Hsgx4IVyIEA",
@@ -185,8 +334,9 @@
     "thumbnail": "https://i.ytimg.com/vi/Hsgx4IVyIEA/maxresdefault.jpg",
     "url": "https://www.youtube.com/watch?v=Hsgx4IVyIEA",
     "featured": false,
-    "priority": 10,
+    "priority": 17,
     "verifiedAt": "2026-10-23",
-    "status": "published"
+    "status": "published",
+    "recommended": false
   }
 ]
