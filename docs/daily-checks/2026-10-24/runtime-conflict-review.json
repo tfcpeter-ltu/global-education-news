@@ -1,0 +1,52 @@
+[
+  {
+    "path": ".github/workflows/deploy.yml",
+    "sourceSha": "5a59fe196eab14279bf5806ea1f185fc995436897baf19b74f88a460b5f09559",
+    "runtimeSha": "f13052b0d97c8e787a4f26e983781472bbf896543645a716c2b16d6883bef1ee"
+  },
+  {
+    "path": "docs/social-posts/2026-10-23/news--nz-school-support.json",
+    "sourceSha": "fb2cd87ec18bdcfc94ae9d3b3b18418cd18159330386a30c27a521a4ff80a1e6",
+    "runtimeSha": "6fcac22406ad7e8b25e340a9276b254c21666064ee471ad566375dfb5007ebdb"
+  },
+  {
+    "path": "docs/social-posts/2026-10-23/publication-log.json",
+    "sourceSha": "6125715b06e1f78409d1a5f5debfb36ff2acc5ad40dd6feaa48e4db290035546",
+    "runtimeSha": "8e470418a7cf447b128e6dd2a70df63884fbb6de91f7b53d6ca65b35824e4f33"
+  },
+  {
+    "path": "docs/social-posts/2026-10-23/scholarship--dayton-merit-34000.json",
+    "sourceSha": "a034269f98578d0abfa7f4b3411119d59722ad7fbb89b61df3f764881aec93e7",
+    "runtimeSha": "c159a917ab51b65dbdcd900f18017562ed1308bf8dc843f88840974aa9454e4f"
+  },
+  {
+    "path": "docs/social-posts/2026-10-23/study-abroad--msu-2027-checklist.json",
+    "sourceSha": "f399394978ede14c814617cf9495dd07aff0881756e071f70ca42b170236835b",
+    "runtimeSha": "983bf3ea05ac069464f2afda16ae104df13053bd0634d29f341e3cd012ff2315"
+  },
+  {
+    "path": "docs/social-posts/2026-10-23/taiwan-universities--campus-short-course-check.json",
+    "sourceSha": "6d4a68b24def712bd7a539d6f29da4e2ddbbb89cdc1f20264eaeff1d45bcbceb",
+    "runtimeSha": "617e4af81b5fb1fca53e3667a698c0b62fa12096f8a8fcfd009857791f898499"
+  },
+  {
+    "path": "public/images/share-photos/credits.json",
+    "sourceSha": "eb91d708e291c4685aff7eb97b33e41f4209e2f53730208c72a5ca12544422e2",
+    "runtimeSha": "aa2e6c9a6be17c984998f7bbe8e3b07a973b3e7c34bcde078dd22eb6e44d296e"
+  },
+  {
+    "path": "src/data/i18n/en-overrides.json",
+    "sourceSha": "16997131400d5175744de962ee0f8ee9c283b8cd3c6bce77e99adcea5f1b5474",
+    "runtimeSha": "9e179883dbe1913db2aa1cfb5649dd2c64f0da56128f7ccb7c5a5a70fb46203d"
+  },
+  {
+    "path": "src/data/i18n/en.json",
+    "sourceSha": "25afb1c6229aa8af26485a8d54566a33a34e12ac85dea68cb9bd6e36dbdeb130",
+    "runtimeSha": "b25707e3951a2e1b5f6be8cf37a76e2b500c5ef287d022ea93dcc2c8842831dc"
+  },
+  {
+    "path": "src/data/peter-articles.json",
+    "sourceSha": "fee5c2bfb74048d1536d21fce3e69ff957f3ad830057389acc647d8c191f01b5",
+    "runtimeSha": "1e35cf554a991ef3665dcc2f005b80fc9edd028168dc4daba7730edf02e2f26a"
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-24",
+  "prepared": [
+    {
+      "slug": "undeclared-cs-transfer-risks-us-2026",
+      "title": "先讀Undeclared再轉CS？Peter提醒：探索不等於保留熱門科系名額",
+      "url": "https://globalednews.com/peter/undeclared-cs-transfer-risks-us-2026/",
+      "sourceUrl": "https://www.facebook.com/photo/?fbid=122148002871172155&set=a.122101120425172155",
+      "sourceId": "122148002871172155",
+      "verifiedAt": "2026-10-24T05:12:53.459607+08:00"
+    }
+  ],
+  "imports": [],
+  "review": {
+    "status": "fewer-new-posts",
+    "availableNewCount": 1,
+    "checkedAt": "2026-10-24T05:12:53.459607+08:00",
+    "sourceUrls": [
+      "https://www.facebook.com/photo/?fbid=122148002871172155&set=a.122101120425172155",
+      "https://www.facebook.com/profile.php?id=61585164670358"
+    ],
+    "evidence": "docs/daily-checks/2026-10-24/peter-review.txt",
+    "finding": "One new substantive Undeclared/CS post. Three newer membership promotions excluded; Honours and SOP already imported. Feed reviewed through six-day-old entries; no two additional new substantive posts."
+  }
+}

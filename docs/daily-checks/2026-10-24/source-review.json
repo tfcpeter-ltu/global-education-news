@@ -1,0 +1,146 @@
+{
+  "checkedAt": "2026-10-24T05:12:53.459607+08:00",
+  "news": [
+    {
+      "slug": "arizona-2027-tuition-freeze-proposal",
+      "title": "亞利桑那大學提2027學費凍漲：非居民學士每年42,600美元，仍待董事會審查",
+      "url": "https://globalednews.com/news/arizona-2027-tuition-freeze-proposal/",
+      "publishedPath": "src/pages/news/arizona-2027-tuition-freeze-proposal.md",
+      "sources": [
+        {
+          "label": "Primary source",
+          "url": "https://news.arizona.edu/news/u-freezes-all-tuition-and-fees-undergraduate-and-graduate-students"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://thecollegeinvestor.com/90345/university-of-arizona-moves-to-freeze-tuition-in-2027-28/"
+        },
+        {
+          "label": "Official FY28 rate table",
+          "url": "https://bursar.arizona.edu/sites/default/files/tuition_chart_fy_28.pdf"
+        }
+      ],
+      "verifiedAt": "2026-10-24T05:12:53.459607+08:00"
+    },
+    {
+      "slug": "japan-student-residence-june-2026",
+      "title": "日本留學在留資格達47.96萬人：半年增14,842人，不能等同大學招生數",
+      "url": "https://globalednews.com/news/japan-student-residence-june-2026/",
+      "publishedPath": "src/pages/news/japan-student-residence-june-2026.md",
+      "sources": [
+        {
+          "label": "Primary source",
+          "url": "https://www.moj.go.jp/isa/publications/press/13_00070.html"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://qazinform.com/news/foreign-residents-in-japan-reach-record-428-mln-74f86b"
+        }
+      ],
+      "verifiedAt": "2026-10-24T05:12:53.459607+08:00"
+    },
+    {
+      "slug": "england-tef-quality-consultation-october-2026",
+      "title": "英格蘭TEF新制公開諮詢至1月28日：教學體驗、學生結果擬分別評級",
+      "url": "https://globalednews.com/news/england-tef-quality-consultation-october-2026/",
+      "publishedPath": "src/pages/news/england-tef-quality-consultation-october-2026.md",
+      "sources": [
+        {
+          "label": "Primary source",
+          "url": "https://www.officeforstudents.org.uk/news-blog-and-events/press-and-media/ofs-seeks-views-on-how-the-revised-teaching-excellence-framework-would-work-in-practice-to-improve-the-student-experience/"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://www.timeshighereducation.com/news/toughened-tef-will-further-fragment-divided-sector"
+        }
+      ],
+      "verifiedAt": "2026-10-24T05:12:53.459607+08:00"
+    }
+  ],
+  "scholarships": [
+    {
+      "slug": "2026-10-alabama-international-automatic-merit-2027",
+      "title": "阿拉巴馬大學2027自動績優獎學金：先核對考試與12月4日期限",
+      "url": "https://globalednews.com/scholarships/items/2026-10-alabama-international-automatic-merit-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-alabama-international-automatic-merit-2027.md",
+      "sources": [
+        "https://afford.ua.edu/scholarships/oos-international-freshman/",
+        "https://meritously.com/scholarships/c200-university-of-alabama-out-of-state-and-international-automatic-merit-s",
+        "https://admissions.ua.edu/international/freshman/"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-24T05:12:53.459607+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New award at a distinct institution; nationality/residence, first-year route, current application, thresholds and exclusions reviewed."
+    },
+    {
+      "slug": "2026-10-nebraska-global-laureate-2027",
+      "title": "Nebraska Global Laureate：最高每年15,000美元，2027申請已開放",
+      "url": "https://globalednews.com/scholarships/items/2026-10-nebraska-global-laureate-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-nebraska-global-laureate-2027.md",
+      "sources": [
+        "https://admissions.unl.edu/cost/scholarships/global-laureate-scholarship/",
+        "https://borderless.so/scholarships/university-of-nebraska---lincoln/global-laureate-scholarship",
+        "https://admissions.unl.edu/apply/international-dates-deadlines/"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-24T05:12:53.459607+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New award at a distinct institution; nationality/residence, first-year route, current application, thresholds and exclusions reviewed."
+    },
+    {
+      "slug": "2026-10-kansas-ku-excellence-2027",
+      "title": "Kansas KU Excellence：國際新生GPA3.95起，最高每年16,000美元",
+      "url": "https://globalednews.com/scholarships/items/2026-10-kansas-ku-excellence-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-kansas-ku-excellence-2027.md",
+      "sources": [
+        "https://world.ku.edu/scholarships",
+        "https://timescoursefinder.com/scholarship/ku-excellence-149287",
+        "https://go2.ku.edu/portal/apply"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-24T05:12:53.459607+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New award at a distinct institution; nationality/residence, first-year route, current application, thresholds and exclusions reviewed."
+    }
+  ],
+  "excluded": [
+    {
+      "candidate": "Australian August student statistics",
+      "reason": "Official read, but no sufficiently independent current second source selected."
+    },
+    {
+      "candidate": "Enroly October23 CAS",
+      "reason": "Independent interview found; primary original statistics not readable."
+    },
+    {
+      "candidate": "Atlantic Canada enrolment",
+      "reason": "Already published; duplicate."
+    },
+    {
+      "candidate": "Rwanda Efekta",
+      "reason": "Second article appears based on same press release; not counted as independent."
+    },
+    {
+      "candidate": "Three Alabama tiers",
+      "reason": "Counted as ONE automatic merit scheme, not three new awards."
+    },
+    {
+      "candidate": "Nebraska Global Excellence",
+      "reason": "Partnership route uncertain; chose open Global Laureate instead."
+    }
+  ],
+  "notes": [
+    "Arizona PDF reviewed: medicine/veterinary exceptions explicitly disclosed; proposal awaits November review.",
+    "Japan official press page read through Chrome after web403;479626 matches Kyodo. Student residence status is not enrolment.",
+    "OfS scope England and consultation status retained; THE original interview read.",
+    "Taiwan scholarship review checks non-US nationality/residence, first-year undergraduate route, course exclusions, official2027 application, English and academic conditions.",
+    "Photo contact sheet visually inspected; UK replaced because previous use October17."
+  ]
+}

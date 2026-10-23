@@ -1,5 +1,58 @@
 [
   {
+    "slug": "undeclared-cs-transfer-risks-us-2026",
+    "title": "先讀Undeclared再轉CS？Peter提醒：探索不等於保留熱門科系名額",
+    "description": "以Purdue、Illinois及Berkeley官方資料查核Undeclared與熱門主修的限制。",
+    "topic": "美國選系與轉系",
+    "author": "Peter",
+    "importedAt": "2026-10-24",
+    "originalPublishedAt": null,
+    "originalDateLabel": "18小時前",
+    "originalDatePrecision": "relative",
+    "dateObservedAt": "2026-10-24",
+    "sourceUrl": "https://www.facebook.com/photo/?fbid=122148002871172155&set=a.122101120425172155",
+    "sourceId": "122148002871172155",
+    "edition": "verified-edit",
+    "image": "/images/daily/2026-10-24/peter.jpg",
+    "imageAlt": "Illinois Urbana-Champaign校園實景資料照",
+    "imageCredit": "Eunji Kim / CC BY-SA 4.0; cropped",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:University_of_Illinois_at_Urbana-Champaign.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageCaption": "授權資料照，非原貼文圖卡或個案學生。",
+    "imageRights": "CC BY-SA 4.0",
+    "note": "查核整理版；各校制度分開說明，不承諾轉系結果。",
+    "body": [
+      "### 可以申請，不代表可以轉入",
+      "Peter提醒，若真正目標只有CS，不應假設先進校再轉系一定成功。Purdue官方把CS系主修列為名額受限，申請須依學期時程與課業條件審查；這是該校規則，不能當成全美統一政策。",
+      "### 第二志願也有範圍",
+      "Illinois官方新生FAQ列出CS及所有CS結合主修不能作為第二志願，並說明非州內申請者過去曾因名額不足，無法進入第二志願的Undeclared。Berkeley L&S高需求主修另有綜合審查與備案要求；不要把L&S規則直接套用所有學院或CS學位。",
+      "### 用願意完成的學位規劃備案",
+      "編輯整理Peter觀點：逐校列出錄取單位、轉系門檻、名額及申請次數，再問自己轉系不成是否仍願意完成原學位。也要估算追加學期與先修課成本，避免用未獲保證的轉系結果安排四年預算。"
+    ],
+    "sources": [
+      [
+        "Peter | original",
+        "https://www.facebook.com/photo/?fbid=122148002871172155&set=a.122101120425172155"
+      ],
+      [
+        "Purdue | CODO",
+        "https://www.cs.purdue.edu/undergraduate/codo.html"
+      ],
+      [
+        "Illinois | first-year FAQ",
+        "https://www.admissions.illinois.edu/first-year-apply-faq/"
+      ],
+      [
+        "Berkeley | L&S policy",
+        "https://www.admissions.berkeley.edu/academics/ls-high-demand-major/"
+      ],
+      [
+        "Wikimedia Commons | photograph",
+        "https://commons.wikimedia.org/wiki/File:University_of_Illinois_at_Urbana-Champaign.jpg"
+      ]
+    ]
+  },
+  {
     "slug": "australia-honours-research-year-decision-2026",
     "title": "澳洲Honours不是榮譽獎：Peter談多讀一年的研究訓練",
     "description": "依AQF、UQ及Monash官方資料查核Peter對澳洲Honours的說明。",

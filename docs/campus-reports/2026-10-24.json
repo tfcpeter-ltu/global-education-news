@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-24",
+  "timezone": "Asia/Taipei",
+  "status": "three-public-leads-reviewed",
+  "verifiedAt": "2026-10-24T05:12:53.459607+08:00",
+  "reviewedSchools": [
+    {
+      "school": "國立成功大學",
+      "schoolSlug": "ncku",
+      "source": "https://ennews-secr.ncku.edu.tw/p/403-1038-614-1.php?Lang=en",
+      "finding": "10月23日與RWTH Aachen紀念合作50年並簽校級合作與交換協議；簽約不等同即日學生申請開放。"
+    },
+    {
+      "school": "國立陽明交通大學",
+      "schoolSlug": "nycu",
+      "source": "https://oia.nycu.edu.tw/",
+      "finding": "10月22日更新姐妹校2026/2027短期課程，另列日本台灣交流協會2027短期獎學金公告；不把校內公告直接當普遍資格。"
+    },
+    {
+      "school": "國立清華大學",
+      "schoolSlug": "nthu",
+      "source": "https://oga.site.nthu.edu.tw/",
+      "finding": "全球事務處交換、雙聯及出國補助入口已讀；未宣稱未逐案閱讀的計畫已開放。"
+    }
+  ],
+  "published": [],
+  "pendingConsent": [],
+  "outreachDrafts": [],
+  "gaps": [],
+  "note": "Public lead review only; no outreach messages sent. NTU homepage503; used NTHU as third accessible lead."
+}

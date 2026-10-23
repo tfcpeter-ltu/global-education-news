@@ -1,0 +1,507 @@
+{
+  "date": "2026-10-24",
+  "timezone": "Asia/Taipei",
+  "startedAt": "2026-10-24T04:57:29+08:00",
+  "status": "in_progress",
+  "currentPhase": "BUILD",
+  "baseMainSha": "43ff7e35201472f33f977da49f503c46c6d10d08",
+  "scholarshipBaselineSlugs": [
+    "2026-08-bristol-think-big",
+    "2026-08-manchester-global-futures-taiwan-2027",
+    "2026-08-mcgill-mccall-macbain",
+    "2026-08-melbourne-graduate-research",
+    "2026-08-melbourne-international-excellence-graduate-2027",
+    "2026-08-moe-eu-scholarship",
+    "2026-08-moe-government-sponsored-study",
+    "2026-08-moe-new-southbound-internship",
+    "2026-08-moe-overseas-scholarship",
+    "2026-08-moe-study-abroad-fly",
+    "2026-08-moe-study-abroad-internship",
+    "2026-08-moe-study-abroad-needy",
+    "2026-08-moe-top100-phd",
+    "2026-08-monash-awards-2027",
+    "2026-08-oxford-clarendon",
+    "2026-08-sydney-vcis-2027",
+    "2026-08-tgpi-dream-factory",
+    "2026-08-tgpi-global-flight",
+    "2026-08-ubc-four-year-doctoral-fellowship",
+    "2026-08-ubc-imes",
+    "2026-08-ubc-international-scholars-2027",
+    "2026-08-ubc-killam-doctoral-2027",
+    "2026-08-ucl-global-masters",
+    "2026-08-ucl-global-undergraduate",
+    "2026-08-unsw-scientia-2027",
+    "2026-08-uq-international-high-achievers-2027",
+    "2026-08-utoronto-pearson-2027",
+    "2026-09-adelaide-academic-excellence-2027",
+    "2026-09-adelaide-merit-2027",
+    "2026-09-auckland-international-student-excellence-2027",
+    "2026-09-cardiff-vice-chancellor-taiwan-january-2027",
+    "2026-09-chevening-delta-climate-2027",
+    "2026-09-chevening-taiwan",
+    "2026-09-daad-architecture-masters",
+    "2026-09-deakin-excellence-international-2027",
+    "2026-09-deakin-international-merit-2027",
+    "2026-09-deakin-vice-chancellor-international-2027",
+    "2026-09-dundee-east-asia-undergraduate-january-2027",
+    "2026-09-dundee-global-excellence-undergraduate-january-2027",
+    "2026-09-erasmus-mundus-2027",
+    "2026-09-eth-zurich-esop-2027",
+    "2026-09-exeter-pgt-taiwan-january-2027",
+    "2026-09-fulbright-experience-america-research-award",
+    "2026-09-fulbright-non-academic-professional-award",
+    "2026-09-fulbright-senior-research-award",
+    "2026-09-gates-cambridge-2027",
+    "2026-09-harvard-academy-scholars-2027",
+    "2026-09-harvard-radcliffe-fellowship-2027",
+    "2026-09-hkpfs-2027",
+    "2026-09-imperial-presidents-phd-2027",
+    "2026-09-kent-international-undergraduate-january-2027",
+    "2026-09-knight-hennessy-2027",
+    "2026-09-latrobe-high-achiever-2027",
+    "2026-09-leicester-global-excellence-jan-apr-2027",
+    "2026-09-macquarie-vcis-2027",
+    "2026-09-monash-international-merit-2027",
+    "2026-09-ntu-taiwan-scholarship-jan-2027",
+    "2026-09-ntu-taiwan-stem-scholarship-jan-2027",
+    "2026-09-oxford-clarendon-2027",
+    "2026-09-rmit-up-academic-english-bursary-2027",
+    "2026-09-strathclyde-sbs-international-masters-jan-2027",
+    "2026-09-sydney-rtp-international-2027",
+    "2026-09-taiwan-anu-phd-scholarship-2027",
+    "2026-09-tasmanian-international-scholarship-2027",
+    "2026-09-ubc-international-scholars-2027",
+    "2026-09-uc-berkeley-beahrs-elp-2027",
+    "2026-09-uni-iowa-partner-state-taiwan-2027",
+    "2026-09-university-iowa-national-scholars-2027",
+    "2026-09-unsw-international-scientia-2027",
+    "2026-09-uow-postgraduate-academic-excellence-2027",
+    "2026-09-uow-university-excellence-2027",
+    "2026-09-utoronto-lester-b-pearson-2027",
+    "2026-09-yenching-academy-2027-taiwan",
+    "2026-10-american-university-egls-2027",
+    "2026-10-aut-north-asia-2027",
+    "2026-10-bangor-vice-chancellor-january-2027",
+    "2026-10-bath-international-excellence-ug-2027",
+    "2026-10-boise-state-international-fall-2027",
+    "2026-10-bond-business-postgraduate-bursary",
+    "2026-10-bond-international-stand-out",
+    "2026-10-bond-undergraduate-excellence",
+    "2026-10-bournemouth-academic-excellence-january-2027",
+    "2026-10-canterbury-guardian-commerce-2027",
+    "2026-10-canterbury-international-first-year-offshore-2027",
+    "2026-10-cardiff-vice-chancellor-january-2027",
+    "2026-10-cumbria-international-undergraduate-january-2027",
+    "2026-10-curtin-future-leaders-2027",
+    "2026-10-curtin-global-excellence-2027",
+    "2026-10-dayton-international-merit",
+    "2026-10-dundee-global-excellence-september-2027",
+    "2026-10-ecu-north-asia-2027",
+    "2026-10-essex-international-undergraduate-2027",
+    "2026-10-exeter-taiwan-pgt-2027",
+    "2026-10-flinders-excellence-2027",
+    "2026-10-flinders-global-2027",
+    "2026-10-flinders-kickstart-2027",
+    "2026-10-griffith-academic-merit-2027",
+    "2026-10-griffith-vice-chancellor-2027",
+    "2026-10-herts-chancellor-january-2027",
+    "2026-10-kent-pgt-january-2027",
+    "2026-10-lancaster-management-progression-2027",
+    "2026-10-lancaster-masters-excellence-2027",
+    "2026-10-lancaster-regional-taiwan-2027",
+    "2026-10-lancaster-undergraduate-international-excellence-2027",
+    "2026-10-lincoln-pathway-merit-2027",
+    "2026-10-lincoln-taught-master-merit-2027",
+    "2026-10-lincoln-undergraduate-vice-chancellor-2027",
+    "2026-10-london-met-east-asia-2027",
+    "2026-10-massey-creative-excellence-masters-2027",
+    "2026-10-massey-toroa-postgraduate-2027",
+    "2026-10-massey-toroa-undergraduate-2027",
+    "2026-10-michigan-state-nonresident",
+    "2026-10-newcastle-australia-international-excellence-2027",
+    "2026-10-newcastle-vc-international-undergraduate-2027",
+    "2026-10-ntu-taiwan-january-2027",
+    "2026-10-oregon-state-taiwan-regional",
+    "2026-10-otago-global-masters-2027",
+    "2026-10-otago-global-undergraduate-2027",
+    "2026-10-otago-international-academic-excellence-2027",
+    "2026-10-oxford-brookes-january-2027",
+    "2026-10-portsmouth-chancellor-merit-january-2027",
+    "2026-10-qmul-global-talent-pgt-2027",
+    "2026-10-qub-pgt-january-2027",
+    "2026-10-rgu-early-payment-january-2027",
+    "2026-10-rgu-january-2027",
+    "2026-10-sheffield-international-pgt-2027",
+    "2026-10-sheffield-international-undergraduate-2027",
+    "2026-10-st-andrews-tesol-january-2027",
+    "2026-10-stirling-east-asia-pgt-2027",
+    "2026-10-stirling-vice-chancellor-pgt-january-2027",
+    "2026-10-strathclyde-science-january-2027",
+    "2026-10-swansea-international-excellence-january-2027",
+    "2026-10-uea-pg-merit-2027",
+    "2026-10-unisq-international-excellence-2027",
+    "2026-10-uwa-global-excellence-2027",
+    "2026-10-vuw-postgraduate-international-2027",
+    "2026-10-vuw-undergraduate-international-2027",
+    "2026-10-waikato-research-masters-2027",
+    "2026-10-waikato-vice-chancellor-2027",
+    "2026-10-waterloo-international-entrance-2027",
+    "2026-10-western-sydney-international-undergraduate-2027",
+    "2026-10-westminster-pg-excellence-january-2027",
+    "catalog-aalto-excellence",
+    "catalog-berea-international-aid",
+    "catalog-bocconi-access-100",
+    "catalog-bocconi-access-80-60",
+    "catalog-bocconi-boost",
+    "catalog-bocconi-sport",
+    "catalog-chalmers-ipoet",
+    "catalog-daad-all-disciplines",
+    "catalog-daad-fine-art",
+    "catalog-daad-music",
+    "catalog-daad-performing-arts",
+    "catalog-duke-karsh",
+    "catalog-eiffel-master",
+    "catalog-eiffel-phd",
+    "catalog-emory-scholars",
+    "catalog-epfl-excellence",
+    "catalog-erasmus-mundus",
+    "catalog-eth-esop",
+    "catalog-geneva-excellence",
+    "catalog-gks-graduate",
+    "catalog-gks-undergraduate",
+    "catalog-goh-keng-swee",
+    "catalog-goi-ies",
+    "catalog-harvard-international-aid",
+    "catalog-helsinki-scholarship",
+    "catalog-jasso-honors",
+    "catalog-kaist-graduate",
+    "catalog-kaist-undergraduate",
+    "catalog-knight-hennessy",
+    "catalog-kth-scholarship",
+    "catalog-kyoto-iup",
+    "catalog-lund-global",
+    "catalog-maastricht-brightlands",
+    "catalog-maastricht-global-studies",
+    "catalog-maastricht-high-potential",
+    "catalog-maastricht-social-justice",
+    "catalog-maeci-italy",
+    "catalog-master-mind-flanders",
+    "catalog-mext-japanese-studies",
+    "catalog-mext-kosen-2027",
+    "catalog-mext-research-2027",
+    "catalog-mext-specialized-training-2027",
+    "catalog-mext-teacher-training",
+    "catalog-mext-undergraduate-2027",
+    "catalog-miami-stamps",
+    "catalog-mit-international-aid",
+    "catalog-nl-scholarship",
+    "catalog-nus-international-undergraduate",
+    "catalog-nus-science-technology",
+    "catalog-padua-excellence",
+    "catalog-paris-saclay-idex",
+    "catalog-radboud-nl-scholarship",
+    "catalog-radboud-scholarship",
+    "catalog-science-leuven",
+    "catalog-sciencespo-boutmy",
+    "catalog-snu-gsfs",
+    "catalog-swiss-phd",
+    "catalog-swiss-research-fellowship",
+    "catalog-taiwan-kaist-phd",
+    "catalog-tampere-scholarship",
+    "catalog-trinity-global-excellence",
+    "catalog-tudelft-justus",
+    "catalog-turku-merit",
+    "catalog-ucd-global-excellence",
+    "catalog-uppsala-global",
+    "catalog-utokyo-fellowship",
+    "catalog-utwente-scholarship",
+    "catalog-vanderbilt-cornelius",
+    "catalog-vanderbilt-ingram",
+    "catalog-yale-international-aid"
+  ],
+  "phases": {
+    "PREFLIGHT": {
+      "requiredRootsPresent": true,
+      "status": "complete",
+      "remoteMainVerified": true,
+      "completedAt": "2026-10-24T04:57:29+08:00"
+    }
+  },
+  "newsPublished": [],
+  "scholarshipChecks": [
+    {
+      "slug": "2026-10-alabama-international-automatic-merit-2027",
+      "title": "阿拉巴馬大學2027自動績優獎學金：先核對考試與12月4日期限",
+      "url": "https://globalednews.com/scholarships/items/2026-10-alabama-international-automatic-merit-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-alabama-international-automatic-merit-2027.md",
+      "sources": [
+        "https://afford.ua.edu/scholarships/oos-international-freshman/",
+        "https://meritously.com/scholarships/c200-university-of-alabama-out-of-state-and-international-automatic-merit-s",
+        "https://admissions.ua.edu/international/freshman/"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-24T05:12:53.459607+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New award at a distinct institution; nationality/residence, first-year route, current application, thresholds and exclusions reviewed."
+    },
+    {
+      "slug": "2026-10-nebraska-global-laureate-2027",
+      "title": "Nebraska Global Laureate：最高每年15,000美元，2027申請已開放",
+      "url": "https://globalednews.com/scholarships/items/2026-10-nebraska-global-laureate-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-nebraska-global-laureate-2027.md",
+      "sources": [
+        "https://admissions.unl.edu/cost/scholarships/global-laureate-scholarship/",
+        "https://borderless.so/scholarships/university-of-nebraska---lincoln/global-laureate-scholarship",
+        "https://admissions.unl.edu/apply/international-dates-deadlines/"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-24T05:12:53.459607+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New award at a distinct institution; nationality/residence, first-year route, current application, thresholds and exclusions reviewed."
+    },
+    {
+      "slug": "2026-10-kansas-ku-excellence-2027",
+      "title": "Kansas KU Excellence：國際新生GPA3.95起，最高每年16,000美元",
+      "url": "https://globalednews.com/scholarships/items/2026-10-kansas-ku-excellence-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-kansas-ku-excellence-2027.md",
+      "sources": [
+        "https://world.ku.edu/scholarships",
+        "https://timescoursefinder.com/scholarship/ku-excellence-149287",
+        "https://go2.ku.edu/portal/apply"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-24T05:12:53.459607+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New award at a distinct institution; nationality/residence, first-year route, current application, thresholds and exclusions reviewed."
+    }
+  ],
+  "scholarshipAdditions": [
+    {
+      "slug": "2026-10-alabama-international-automatic-merit-2027",
+      "title": "阿拉巴馬大學2027自動績優獎學金：先核對考試與12月4日期限",
+      "url": "https://globalednews.com/scholarships/items/2026-10-alabama-international-automatic-merit-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-alabama-international-automatic-merit-2027.md",
+      "sources": [
+        "https://afford.ua.edu/scholarships/oos-international-freshman/",
+        "https://meritously.com/scholarships/c200-university-of-alabama-out-of-state-and-international-automatic-merit-s",
+        "https://admissions.ua.edu/international/freshman/"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-24T05:12:53.459607+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New award at a distinct institution; nationality/residence, first-year route, current application, thresholds and exclusions reviewed."
+    },
+    {
+      "slug": "2026-10-nebraska-global-laureate-2027",
+      "title": "Nebraska Global Laureate：最高每年15,000美元，2027申請已開放",
+      "url": "https://globalednews.com/scholarships/items/2026-10-nebraska-global-laureate-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-nebraska-global-laureate-2027.md",
+      "sources": [
+        "https://admissions.unl.edu/cost/scholarships/global-laureate-scholarship/",
+        "https://borderless.so/scholarships/university-of-nebraska---lincoln/global-laureate-scholarship",
+        "https://admissions.unl.edu/apply/international-dates-deadlines/"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-24T05:12:53.459607+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New award at a distinct institution; nationality/residence, first-year route, current application, thresholds and exclusions reviewed."
+    },
+    {
+      "slug": "2026-10-kansas-ku-excellence-2027",
+      "title": "Kansas KU Excellence：國際新生GPA3.95起，最高每年16,000美元",
+      "url": "https://globalednews.com/scholarships/items/2026-10-kansas-ku-excellence-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-kansas-ku-excellence-2027.md",
+      "sources": [
+        "https://world.ku.edu/scholarships",
+        "https://timescoursefinder.com/scholarship/ku-excellence-149287",
+        "https://go2.ku.edu/portal/apply"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-24T05:12:53.459607+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New award at a distinct institution; nationality/residence, first-year route, current application, thresholds and exclusions reviewed."
+    }
+  ],
+  "peterImports": [],
+  "socialPosts": [],
+  "gaps": [
+    "COMMIT_DEPLOY",
+    "PUBLISH",
+    "ACCEPTANCE",
+    "VERIFY"
+  ],
+  "manualActions": [],
+  "newsPrepared": [
+    {
+      "slug": "arizona-2027-tuition-freeze-proposal",
+      "title": "亞利桑那大學提2027學費凍漲：非居民學士每年42,600美元，仍待董事會審查",
+      "url": "https://globalednews.com/news/arizona-2027-tuition-freeze-proposal/",
+      "publishedPath": "src/pages/news/arizona-2027-tuition-freeze-proposal.md",
+      "sources": [
+        {
+          "label": "Primary source",
+          "url": "https://news.arizona.edu/news/u-freezes-all-tuition-and-fees-undergraduate-and-graduate-students"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://thecollegeinvestor.com/90345/university-of-arizona-moves-to-freeze-tuition-in-2027-28/"
+        },
+        {
+          "label": "Official FY28 rate table",
+          "url": "https://bursar.arizona.edu/sites/default/files/tuition_chart_fy_28.pdf"
+        }
+      ],
+      "verifiedAt": "2026-10-24T05:12:53.459607+08:00"
+    },
+    {
+      "slug": "japan-student-residence-june-2026",
+      "title": "日本留學在留資格達47.96萬人：半年增14,842人，不能等同大學招生數",
+      "url": "https://globalednews.com/news/japan-student-residence-june-2026/",
+      "publishedPath": "src/pages/news/japan-student-residence-june-2026.md",
+      "sources": [
+        {
+          "label": "Primary source",
+          "url": "https://www.moj.go.jp/isa/publications/press/13_00070.html"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://qazinform.com/news/foreign-residents-in-japan-reach-record-428-mln-74f86b"
+        }
+      ],
+      "verifiedAt": "2026-10-24T05:12:53.459607+08:00"
+    },
+    {
+      "slug": "england-tef-quality-consultation-october-2026",
+      "title": "英格蘭TEF新制公開諮詢至1月28日：教學體驗、學生結果擬分別評級",
+      "url": "https://globalednews.com/news/england-tef-quality-consultation-october-2026/",
+      "publishedPath": "src/pages/news/england-tef-quality-consultation-october-2026.md",
+      "sources": [
+        {
+          "label": "Primary source",
+          "url": "https://www.officeforstudents.org.uk/news-blog-and-events/press-and-media/ofs-seeks-views-on-how-the-revised-teaching-excellence-framework-would-work-in-practice-to-improve-the-student-experience/"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://www.timeshighereducation.com/news/toughened-tef-will-further-fragment-divided-sector"
+        }
+      ],
+      "verifiedAt": "2026-10-24T05:12:53.459607+08:00"
+    }
+  ],
+  "peterReview": {
+    "status": "fewer-new-posts",
+    "availableNewCount": 1,
+    "checkedAt": "2026-10-24T05:12:53.459607+08:00",
+    "sourceUrls": [
+      "https://www.facebook.com/photo/?fbid=122148002871172155&set=a.122101120425172155",
+      "https://www.facebook.com/profile.php?id=61585164670358"
+    ],
+    "evidence": "docs/daily-checks/2026-10-24/peter-review.txt",
+    "finding": "One new substantive Undeclared/CS post. Three newer membership promotions excluded; Honours and SOP already imported. Feed reviewed through six-day-old entries; no two additional new substantive posts."
+  },
+  "peterPrepared": [
+    {
+      "slug": "undeclared-cs-transfer-risks-us-2026",
+      "title": "先讀Undeclared再轉CS？Peter提醒：探索不等於保留熱門科系名額",
+      "url": "https://globalednews.com/peter/undeclared-cs-transfer-risks-us-2026/",
+      "sourceUrl": "https://www.facebook.com/photo/?fbid=122148002871172155&set=a.122101120425172155",
+      "sourceId": "122148002871172155",
+      "verifiedAt": "2026-10-24T05:12:53.459607+08:00"
+    }
+  ],
+  "campusReport": {
+    "date": "2026-10-24",
+    "timezone": "Asia/Taipei",
+    "status": "three-public-leads-reviewed",
+    "verifiedAt": "2026-10-24T05:12:53.459607+08:00",
+    "reviewedSchools": [
+      {
+        "school": "國立成功大學",
+        "schoolSlug": "ncku",
+        "source": "https://ennews-secr.ncku.edu.tw/p/403-1038-614-1.php?Lang=en",
+        "finding": "10月23日與RWTH Aachen紀念合作50年並簽校級合作與交換協議；簽約不等同即日學生申請開放。"
+      },
+      {
+        "school": "國立陽明交通大學",
+        "schoolSlug": "nycu",
+        "source": "https://oia.nycu.edu.tw/",
+        "finding": "10月22日更新姐妹校2026/2027短期課程，另列日本台灣交流協會2027短期獎學金公告；不把校內公告直接當普遍資格。"
+      },
+      {
+        "school": "國立清華大學",
+        "schoolSlug": "nthu",
+        "source": "https://oga.site.nthu.edu.tw/",
+        "finding": "全球事務處交換、雙聯及出國補助入口已讀；未宣稱未逐案閱讀的計畫已開放。"
+      }
+    ],
+    "published": [],
+    "pendingConsent": [],
+    "outreachDrafts": [],
+    "gaps": [],
+    "note": "Public lead review only; no outreach messages sent. NTU homepage503; used NTHU as third accessible lead."
+  },
+  "studyAbroadPrepared": {
+    "slug": "nebraska-2027-admission-scholarship-credit-load",
+    "title": "Nebraska留學DIY：先分清申請、訂金與獎學金學分門檻",
+    "url": "https://globalednews.com/study-abroad/nebraska-2027-admission-scholarship-credit-load/",
+    "sources": [
+      {
+        "label": "UNL international dates",
+        "url": "https://admissions.unl.edu/apply/international-dates-deadlines/"
+      },
+      {
+        "label": "UNL2027 award rules",
+        "url": "https://financialaid.unl.edu/global-laureate-scholarship-guidelines-spring-2027-and-fall-2027/"
+      },
+      {
+        "label": "Independent scholarship analysis",
+        "url": "https://borderless.so/scholarships/university-of-nebraska---lincoln/global-laureate-scholarship"
+      }
+    ]
+  },
+  "sunmoonReview": {
+    "checkedAt": "2026-10-24T05:12:53.459607+08:00",
+    "source": "https://www.sunmoonnews.com.tw/",
+    "status": "reviewed-no-new-qualified-item",
+    "finding": "Latest homepage dated September18; no new independently verified item selected."
+  },
+  "ltuReview": {
+    "checkedAt": "2026-10-24T05:12:53.459607+08:00",
+    "poolSize": 12,
+    "pendingLiveVerification": true
+  },
+  "phaseCompleted": [
+    "PREFLIGHT",
+    "RESEARCH",
+    "PREPARE",
+    "BUILD"
+  ],
+  "updatedAt": "2026-10-24T05:20:42.354786+08:00",
+  "preparedAt": "2026-10-24T05:13:21.874576+08:00",
+  "build": {
+    "status": "success",
+    "verifiedAt": "2026-10-24T05:20:42.354786+08:00",
+    "runtime": "C:\\Users\\User\\AppData\\Local\\Temp\\globalednews-security-20261019",
+    "checks": [
+      "Astro 528 pages",
+      "795 bilingual page pairs",
+      "search index",
+      "Facebook native-photo rules",
+      "public-service safety",
+      "Vlog catalog and bilingual controllers"
+    ],
+    "logs": "docs/daily-checks/2026-10-24"
+  }
+}
