@@ -29,7 +29,7 @@ const {
 const published = date ? new Date(date) : undefined;
 const modified = updated ? new Date(updated) : published;
 const fmtDate = (value?: Date) => value ? new Intl.DateTimeFormat('zh-TW', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Taipei' }).format(value) : '';
-const titleText = `${title}｜台灣國際獎學金雷達`;
+const titleText = `${title}｜國際獎學金雷達`;
 ---
 <BaseLayout title={titleText} description={description} type="article" image={image}>
   <article class="scholarship-article">
@@ -73,7 +73,7 @@ const titleText = `${title}｜台灣國際獎學金雷達`;
         </ul>
       </aside>
 
-      <div class="back-row"><a href="/scholarships/">← 回到台灣國際獎學金雷達</a></div>
+      <div class="back-row"><a href="/scholarships/">← 回到國際獎學金雷達</a></div>
     </div>
   </article>
 </BaseLayout>

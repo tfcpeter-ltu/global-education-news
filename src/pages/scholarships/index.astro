@@ -16,7 +16,7 @@ const featured = scholarships.filter((item: any) =>
 const countries = [...new Set(scholarships.map((item: any) => item.country).filter(Boolean))].sort((a: any, b: any) => String(a).localeCompare(String(b), 'zh-Hant'));
 const countryCount = countries.length;
 const today = new Intl.DateTimeFormat('zh-TW', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Taipei' }).format(new Date());
-const description = '台灣國際獎學金雷達：從台灣學生角度整理全球大學、研究所、政府與基金會獎學金，每日查核並更新值得申請的機會。';
+const description = '國際獎學金雷達：從台灣學生角度整理全球大學、研究所、政府與基金會獎學金，每日查核並更新值得申請的機會。';
 
 const flagMap: Record<string, string> = {
   '台灣': '🇹🇼', '英國': '🇬🇧', '美國': '🇺🇸', '加拿大': '🇨🇦', '澳洲': '🇦🇺', '紐西蘭': '🇳🇿',
@@ -27,7 +27,7 @@ const flagMap: Record<string, string> = {
 const flagFor = (country = '') => flagMap[country] ?? '🌐';
 const statusClass = (status = '') => status.includes('開放中') ? 'open' : status.includes('即將') ? 'soon' : 'watch';
 ---
-<BaseLayout title={`台灣國際獎學金雷達｜${scholarships.length}+ 全球獎學金資料庫`} description={description}>
+<BaseLayout title={`國際獎學金雷達｜${scholarships.length}+ 全球獎學金資料庫`} description={description}>
   <main class="scholarship-page">
     <section class="editorial-hero">
       <div class="ornament ornament-left" aria-hidden="true">✦</div>
@@ -37,7 +37,7 @@ const statusClass = (status = '') => status.includes('開放中') ? 'open' : sta
       <div class="hero-inner">
         <div class="hero-copy">
           <div class="eyebrow">GLOBAL EDUCATION NEWS <span>◆</span> EUROPEAN SCHOLARSHIP REVIEW</div>
-          <h1>台灣國際獎學金雷達</h1>
+          <h1>國際獎學金雷達</h1>
           <p class="hero-subtitle">{scholarships.length}+ 全球獎學金資料庫 <span>｜</span> 每日查核，更新 3 則精選</p>
           <p class="hero-description">從台灣學生的視角，整理全球獎學金、政府補助、研究資助與國際大學機會。以官方來源、台灣資格與截止日為核心，建立可以長期搜尋與追蹤的國際升學資料庫。</p>
           <div class="hero-actions">
