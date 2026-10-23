@@ -1,0 +1,32 @@
+{
+  "updatedAt": "2026-10-23",
+  "provider": "Brevo",
+  "sharedList": "Global Education Weekly Subscribers",
+  "preferenceAttribute": "NEWSLETTER_PRIMARY",
+  "legacyDefault": "news",
+  "journalDefault": "journal",
+  "forms": {
+    "news": "https://34e9f212.sibforms.com/serve/MUIFAMWsiw0zELFOuqd9HloJYAXCi0Mjn703rO7DXLXU5xuIeKJnAYRUWC4Cd4YYc1CWWQ7464Iv2O_rk_8JkB-d4X7rdcJ9M95HlXlUfY88t3GdDBAHf9_03_vih0DqoBOSaYgRgVMX8TjoG7fzfDjVswKzSeEHJ4NnrThfbG25GWpERLjWBdi1r2Rj7icplVsAAmoPHxH8mJ1IHA==",
+    "journal": "https://34e9f212.sibforms.com/serve/MUIFAP-FHeRYBSsAuSWIvpg1Bl1ZJXsNxd-k406Axj_JbxepdXFNeA0hrXhoM9ZaqXzCt9N4kYZrySIZneRowTpivmWc7kX6xTiaSRz0IYdx1nTs3eIBquXLi7XqnB-8j_9R-mz1n8qmPSQALNOYNve3kHpVi8pNaSTVlN-q-Jik2_Eclmkzvja8Y9JpbzYPX1JkCQBlNcANWX6fWA=="
+  },
+  "editions": {
+    "news": {
+      "primary": "環球國際教育新聞",
+      "secondary": "留遊學交換誌文章故事"
+    },
+    "journal": {
+      "primary": "留遊學交換誌文章故事",
+      "secondary": "環球國際教育新聞"
+    }
+  },
+  "consent": "double-opt-in",
+  "policy": "同一Email共用名單；未設定偏好的原會員以新聞為主；不重新訂閱已退訂者。",
+  "formIds": {
+    "news": "6a9434b78a0ff18b26ad20b3",
+    "journal": "6adb4a82d751da6d6d9a7000"
+  },
+  "categoryValues": {
+    "news": 1,
+    "journal": 2
+  }
+}
