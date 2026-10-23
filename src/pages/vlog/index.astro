@@ -102,7 +102,7 @@ const sourceLabel = (type: string) => type === 'official' ? '大學官方' : typ
     playing = true; show(card);
     get('hero-play').hidden = true; get('player-host').hidden = false;
     if (scroll) get('featured-title').scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth', block: 'start' });
-    if (player) { player.loadVideoById(card.dataset.id); return; }
+    if (player && !loading) { player.loadVideoById(card.dataset.id); return; }
     if (loading) return;
     loading = true;
     try {
