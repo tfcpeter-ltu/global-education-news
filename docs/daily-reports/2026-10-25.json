@@ -1,0 +1,527 @@
+{
+  "date": "2026-10-25",
+  "timezone": "Asia/Taipei",
+  "startedAt": "2026-10-25T05:03:59+08:00",
+  "status": "in_progress",
+  "currentPhase": "COMMIT_DEPLOY",
+  "baseMainSha": "755cf9f182d60f378e63e7525bcfbbfb35b88c4b",
+  "scholarshipBaselineSlugs": [
+    "2026-08-bristol-think-big",
+    "2026-08-manchester-global-futures-taiwan-2027",
+    "2026-08-mcgill-mccall-macbain",
+    "2026-08-melbourne-graduate-research",
+    "2026-08-melbourne-international-excellence-graduate-2027",
+    "2026-08-moe-eu-scholarship",
+    "2026-08-moe-government-sponsored-study",
+    "2026-08-moe-new-southbound-internship",
+    "2026-08-moe-overseas-scholarship",
+    "2026-08-moe-study-abroad-fly",
+    "2026-08-moe-study-abroad-internship",
+    "2026-08-moe-study-abroad-needy",
+    "2026-08-moe-top100-phd",
+    "2026-08-monash-awards-2027",
+    "2026-08-oxford-clarendon",
+    "2026-08-sydney-vcis-2027",
+    "2026-08-tgpi-dream-factory",
+    "2026-08-tgpi-global-flight",
+    "2026-08-ubc-four-year-doctoral-fellowship",
+    "2026-08-ubc-imes",
+    "2026-08-ubc-international-scholars-2027",
+    "2026-08-ubc-killam-doctoral-2027",
+    "2026-08-ucl-global-masters",
+    "2026-08-ucl-global-undergraduate",
+    "2026-08-unsw-scientia-2027",
+    "2026-08-uq-international-high-achievers-2027",
+    "2026-08-utoronto-pearson-2027",
+    "2026-09-adelaide-academic-excellence-2027",
+    "2026-09-adelaide-merit-2027",
+    "2026-09-auckland-international-student-excellence-2027",
+    "2026-09-cardiff-vice-chancellor-taiwan-january-2027",
+    "2026-09-chevening-delta-climate-2027",
+    "2026-09-chevening-taiwan",
+    "2026-09-daad-architecture-masters",
+    "2026-09-deakin-excellence-international-2027",
+    "2026-09-deakin-international-merit-2027",
+    "2026-09-deakin-vice-chancellor-international-2027",
+    "2026-09-dundee-east-asia-undergraduate-january-2027",
+    "2026-09-dundee-global-excellence-undergraduate-january-2027",
+    "2026-09-erasmus-mundus-2027",
+    "2026-09-eth-zurich-esop-2027",
+    "2026-09-exeter-pgt-taiwan-january-2027",
+    "2026-09-fulbright-experience-america-research-award",
+    "2026-09-fulbright-non-academic-professional-award",
+    "2026-09-fulbright-senior-research-award",
+    "2026-09-gates-cambridge-2027",
+    "2026-09-harvard-academy-scholars-2027",
+    "2026-09-harvard-radcliffe-fellowship-2027",
+    "2026-09-hkpfs-2027",
+    "2026-09-imperial-presidents-phd-2027",
+    "2026-09-kent-international-undergraduate-january-2027",
+    "2026-09-knight-hennessy-2027",
+    "2026-09-latrobe-high-achiever-2027",
+    "2026-09-leicester-global-excellence-jan-apr-2027",
+    "2026-09-macquarie-vcis-2027",
+    "2026-09-monash-international-merit-2027",
+    "2026-09-ntu-taiwan-scholarship-jan-2027",
+    "2026-09-ntu-taiwan-stem-scholarship-jan-2027",
+    "2026-09-oxford-clarendon-2027",
+    "2026-09-rmit-up-academic-english-bursary-2027",
+    "2026-09-strathclyde-sbs-international-masters-jan-2027",
+    "2026-09-sydney-rtp-international-2027",
+    "2026-09-taiwan-anu-phd-scholarship-2027",
+    "2026-09-tasmanian-international-scholarship-2027",
+    "2026-09-ubc-international-scholars-2027",
+    "2026-09-uc-berkeley-beahrs-elp-2027",
+    "2026-09-uni-iowa-partner-state-taiwan-2027",
+    "2026-09-university-iowa-national-scholars-2027",
+    "2026-09-unsw-international-scientia-2027",
+    "2026-09-uow-postgraduate-academic-excellence-2027",
+    "2026-09-uow-university-excellence-2027",
+    "2026-09-utoronto-lester-b-pearson-2027",
+    "2026-09-yenching-academy-2027-taiwan",
+    "2026-10-alabama-international-automatic-merit-2027",
+    "2026-10-american-university-egls-2027",
+    "2026-10-aut-north-asia-2027",
+    "2026-10-bangor-vice-chancellor-january-2027",
+    "2026-10-bath-international-excellence-ug-2027",
+    "2026-10-boise-state-international-fall-2027",
+    "2026-10-bond-business-postgraduate-bursary",
+    "2026-10-bond-international-stand-out",
+    "2026-10-bond-undergraduate-excellence",
+    "2026-10-bournemouth-academic-excellence-january-2027",
+    "2026-10-canterbury-guardian-commerce-2027",
+    "2026-10-canterbury-international-first-year-offshore-2027",
+    "2026-10-cardiff-vice-chancellor-january-2027",
+    "2026-10-cumbria-international-undergraduate-january-2027",
+    "2026-10-curtin-future-leaders-2027",
+    "2026-10-curtin-global-excellence-2027",
+    "2026-10-dayton-international-merit",
+    "2026-10-dundee-global-excellence-september-2027",
+    "2026-10-ecu-north-asia-2027",
+    "2026-10-essex-international-undergraduate-2027",
+    "2026-10-exeter-taiwan-pgt-2027",
+    "2026-10-flinders-excellence-2027",
+    "2026-10-flinders-global-2027",
+    "2026-10-flinders-kickstart-2027",
+    "2026-10-griffith-academic-merit-2027",
+    "2026-10-griffith-vice-chancellor-2027",
+    "2026-10-herts-chancellor-january-2027",
+    "2026-10-kansas-ku-excellence-2027",
+    "2026-10-kent-pgt-january-2027",
+    "2026-10-lancaster-management-progression-2027",
+    "2026-10-lancaster-masters-excellence-2027",
+    "2026-10-lancaster-regional-taiwan-2027",
+    "2026-10-lancaster-undergraduate-international-excellence-2027",
+    "2026-10-lincoln-pathway-merit-2027",
+    "2026-10-lincoln-taught-master-merit-2027",
+    "2026-10-lincoln-undergraduate-vice-chancellor-2027",
+    "2026-10-london-met-east-asia-2027",
+    "2026-10-massey-creative-excellence-masters-2027",
+    "2026-10-massey-toroa-postgraduate-2027",
+    "2026-10-massey-toroa-undergraduate-2027",
+    "2026-10-michigan-state-nonresident",
+    "2026-10-nebraska-global-laureate-2027",
+    "2026-10-newcastle-australia-international-excellence-2027",
+    "2026-10-newcastle-vc-international-undergraduate-2027",
+    "2026-10-ntu-taiwan-january-2027",
+    "2026-10-oregon-state-taiwan-regional",
+    "2026-10-otago-global-masters-2027",
+    "2026-10-otago-global-undergraduate-2027",
+    "2026-10-otago-international-academic-excellence-2027",
+    "2026-10-oxford-brookes-january-2027",
+    "2026-10-portsmouth-chancellor-merit-january-2027",
+    "2026-10-qmul-global-talent-pgt-2027",
+    "2026-10-qub-pgt-january-2027",
+    "2026-10-rgu-early-payment-january-2027",
+    "2026-10-rgu-january-2027",
+    "2026-10-sheffield-international-pgt-2027",
+    "2026-10-sheffield-international-undergraduate-2027",
+    "2026-10-st-andrews-tesol-january-2027",
+    "2026-10-stirling-east-asia-pgt-2027",
+    "2026-10-stirling-vice-chancellor-pgt-january-2027",
+    "2026-10-strathclyde-science-january-2027",
+    "2026-10-swansea-international-excellence-january-2027",
+    "2026-10-uea-pg-merit-2027",
+    "2026-10-unisq-international-excellence-2027",
+    "2026-10-uwa-global-excellence-2027",
+    "2026-10-vuw-postgraduate-international-2027",
+    "2026-10-vuw-undergraduate-international-2027",
+    "2026-10-waikato-research-masters-2027",
+    "2026-10-waikato-vice-chancellor-2027",
+    "2026-10-waterloo-international-entrance-2027",
+    "2026-10-western-sydney-international-undergraduate-2027",
+    "2026-10-westminster-pg-excellence-january-2027",
+    "catalog-aalto-excellence",
+    "catalog-berea-international-aid",
+    "catalog-bocconi-access-100",
+    "catalog-bocconi-access-80-60",
+    "catalog-bocconi-boost",
+    "catalog-bocconi-sport",
+    "catalog-chalmers-ipoet",
+    "catalog-daad-all-disciplines",
+    "catalog-daad-fine-art",
+    "catalog-daad-music",
+    "catalog-daad-performing-arts",
+    "catalog-duke-karsh",
+    "catalog-eiffel-master",
+    "catalog-eiffel-phd",
+    "catalog-emory-scholars",
+    "catalog-epfl-excellence",
+    "catalog-erasmus-mundus",
+    "catalog-eth-esop",
+    "catalog-geneva-excellence",
+    "catalog-gks-graduate",
+    "catalog-gks-undergraduate",
+    "catalog-goh-keng-swee",
+    "catalog-goi-ies",
+    "catalog-harvard-international-aid",
+    "catalog-helsinki-scholarship",
+    "catalog-jasso-honors",
+    "catalog-kaist-graduate",
+    "catalog-kaist-undergraduate",
+    "catalog-knight-hennessy",
+    "catalog-kth-scholarship",
+    "catalog-kyoto-iup",
+    "catalog-lund-global",
+    "catalog-maastricht-brightlands",
+    "catalog-maastricht-global-studies",
+    "catalog-maastricht-high-potential",
+    "catalog-maastricht-social-justice",
+    "catalog-maeci-italy",
+    "catalog-master-mind-flanders",
+    "catalog-mext-japanese-studies",
+    "catalog-mext-kosen-2027",
+    "catalog-mext-research-2027",
+    "catalog-mext-specialized-training-2027",
+    "catalog-mext-teacher-training",
+    "catalog-mext-undergraduate-2027",
+    "catalog-miami-stamps",
+    "catalog-mit-international-aid",
+    "catalog-nl-scholarship",
+    "catalog-nus-international-undergraduate",
+    "catalog-nus-science-technology",
+    "catalog-padua-excellence",
+    "catalog-paris-saclay-idex",
+    "catalog-radboud-nl-scholarship",
+    "catalog-radboud-scholarship",
+    "catalog-science-leuven",
+    "catalog-sciencespo-boutmy",
+    "catalog-snu-gsfs",
+    "catalog-swiss-phd",
+    "catalog-swiss-research-fellowship",
+    "catalog-taiwan-kaist-phd",
+    "catalog-tampere-scholarship",
+    "catalog-trinity-global-excellence",
+    "catalog-tudelft-justus",
+    "catalog-turku-merit",
+    "catalog-ucd-global-excellence",
+    "catalog-uppsala-global",
+    "catalog-utokyo-fellowship",
+    "catalog-utwente-scholarship",
+    "catalog-vanderbilt-cornelius",
+    "catalog-vanderbilt-ingram",
+    "catalog-yale-international-aid"
+  ],
+  "phases": {
+    "RESEARCH": {
+      "status": "complete",
+      "completedAt": "2026-10-25T05:11:56.053756+08:00"
+    },
+    "PREFLIGHT": {
+      "requiredRootsPresent": true,
+      "remoteMainVerified": true,
+      "status": "complete",
+      "completedAt": "2026-10-25T05:03:59+08:00"
+    }
+  },
+  "newsPublished": [],
+  "scholarshipChecks": [
+    {
+      "slug": "2026-10-mizzou-international-merit-2027",
+      "title": "Mizzou 2027 International Merit：每年10,000美元學費獎助",
+      "url": "https://globalednews.com/scholarships/items/2026-10-mizzou-international-merit-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-mizzou-international-merit-2027.md",
+      "sources": [
+        {
+          "label": "Official award",
+          "url": "https://admissions.missouri.edu/costs-aid/scholarships/international-student-scholarships/"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://www.idp.com/scholarship/university-of-missouri/international-merit-scholarship/169398/"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-25T05:11:56.053756+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New distinct named scholarship; checked award, international eligibility, application route and renewal."
+    },
+    {
+      "slug": "2026-10-mizzou-international-honors-2027",
+      "title": "Mizzou 2027 International Honors：每年20,000美元學費獎助",
+      "url": "https://globalednews.com/scholarships/items/2026-10-mizzou-international-honors-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-mizzou-international-honors-2027.md",
+      "sources": [
+        {
+          "label": "Official award",
+          "url": "https://admissions.missouri.edu/costs-aid/scholarships/international-student-scholarships/"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://www.idp.com/scholarship/university-of-missouri/international-honors-scholarship/169397/"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-25T05:11:56.053756+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New distinct named scholarship; checked award, international eligibility, application route and renewal."
+    },
+    {
+      "slug": "2026-10-missouri-st-provost-international-merit-2027",
+      "title": "Missouri S&T 2027 Provost獎學金：每年15,000美元，排除政府或企業贊助者",
+      "url": "https://globalednews.com/scholarships/items/2026-10-missouri-st-provost-international-merit-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-missouri-st-provost-international-merit-2027.md",
+      "sources": [
+        {
+          "label": "Official award",
+          "url": "https://sfs.mst.edu/financialaid/typesofaid/scholarships/freshmen/automaticscholarships/merit-based/international/"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://scholarshipsforafricans.com/scholarships/missouri-s-t-provost-s-international-merit-scholarship"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-25T05:11:56.053756+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New distinct named scholarship; checked award, international eligibility, application route and renewal."
+    }
+  ],
+  "scholarshipAdditions": [
+    {
+      "slug": "2026-10-mizzou-international-merit-2027",
+      "title": "Mizzou 2027 International Merit：每年10,000美元學費獎助",
+      "url": "https://globalednews.com/scholarships/items/2026-10-mizzou-international-merit-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-mizzou-international-merit-2027.md",
+      "sources": [
+        {
+          "label": "Official award",
+          "url": "https://admissions.missouri.edu/costs-aid/scholarships/international-student-scholarships/"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://www.idp.com/scholarship/university-of-missouri/international-merit-scholarship/169398/"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-25T05:11:56.053756+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New distinct named scholarship; checked award, international eligibility, application route and renewal."
+    },
+    {
+      "slug": "2026-10-mizzou-international-honors-2027",
+      "title": "Mizzou 2027 International Honors：每年20,000美元學費獎助",
+      "url": "https://globalednews.com/scholarships/items/2026-10-mizzou-international-honors-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-mizzou-international-honors-2027.md",
+      "sources": [
+        {
+          "label": "Official award",
+          "url": "https://admissions.missouri.edu/costs-aid/scholarships/international-student-scholarships/"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://www.idp.com/scholarship/university-of-missouri/international-honors-scholarship/169397/"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-25T05:11:56.053756+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New distinct named scholarship; checked award, international eligibility, application route and renewal."
+    },
+    {
+      "slug": "2026-10-missouri-st-provost-international-merit-2027",
+      "title": "Missouri S&T 2027 Provost獎學金：每年15,000美元，排除政府或企業贊助者",
+      "url": "https://globalednews.com/scholarships/items/2026-10-missouri-st-provost-international-merit-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-missouri-st-provost-international-merit-2027.md",
+      "sources": [
+        {
+          "label": "Official award",
+          "url": "https://sfs.mst.edu/financialaid/typesofaid/scholarships/freshmen/automaticscholarships/merit-based/international/"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://scholarshipsforafricans.com/scholarships/missouri-s-t-provost-s-international-merit-scholarship"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-25T05:11:56.053756+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New distinct named scholarship; checked award, international eligibility, application route and renewal."
+    }
+  ],
+  "peterImports": [],
+  "socialPosts": [],
+  "gaps": [
+    "BUILD",
+    "COMMIT_DEPLOY",
+    "PUBLISH",
+    "ACCEPTANCE",
+    "VERIFY"
+  ],
+  "manualActions": [],
+  "newsPrepared": [
+    {
+      "slug": "ontario-private-college-osap-validation-2026",
+      "title": "安大略省私校OSAP仍暫停：新驗證程序預計2027年實施",
+      "url": "https://globalednews.com/news/ontario-private-college-osap-validation-2026/",
+      "publishedPath": "src/pages/news/ontario-private-college-osap-validation-2026.md",
+      "sources": [
+        {
+          "label": "Primary source",
+          "url": "https://news.ontario.ca/en/statement/1008169/statement-by-minister-quinn-on-advancing-measures-to-safeguard-osap-at-private-postsecondary-institutions"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://higheredstrategy.com/the-fifteen-october-23-2026/"
+        }
+      ],
+      "verifiedAt": "2026-10-25T05:11:56.053756+08:00"
+    },
+    {
+      "slug": "utokyo-fujigaki-president-selection-2027",
+      "title": "東京大學藤垣裕子將於2027年接任總長：遴選與校內意向投票如何不同",
+      "url": "https://globalednews.com/news/utokyo-fujigaki-president-selection-2027/",
+      "publishedPath": "src/pages/news/utokyo-fujigaki-president-selection-2027.md",
+      "sources": [
+        {
+          "label": "Primary source",
+          "url": "https://www.u-tokyo.ac.jp/focus/en/articles/z1304_00067.html"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://www.todaishimbun.org/selection-committee-opinion-vote-discrepancy/"
+        }
+      ],
+      "verifiedAt": "2026-10-25T05:11:56.053756+08:00"
+    },
+    {
+      "slug": "uwa-chennai-final-approval-october-2026",
+      "title": "西澳大學清奈校區已獲最終核准：更新9月仍待審查的狀態",
+      "url": "https://globalednews.com/news/uwa-chennai-final-approval-october-2026/",
+      "publishedPath": "src/pages/news/uwa-chennai-final-approval-october-2026.md",
+      "sources": [
+        {
+          "label": "Primary source",
+          "url": "https://www.uwa.edu.au/news/article/2026/october/uwa-chennai-campus-receives-final-approval"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://thepienews.com/uwa-gets-green-light-for-chennai-as-two-campus-india-bet-takes-shape/"
+        }
+      ],
+      "verifiedAt": "2026-10-25T05:11:56.053756+08:00"
+    }
+  ],
+  "peterReview": {
+    "status": "fewer-new-posts",
+    "availableNewCount": 1,
+    "checkedAt": "2026-10-25T05:11:56.053756+08:00",
+    "sourceUrls": [
+      "https://www.facebook.com/photo/?fbid=122148161055172155&set=a.122101120425172155",
+      "https://www.facebook.com/profile.php?id=61585164670358"
+    ],
+    "evidence": "docs/daily-checks/2026-10-25/peter-feed.txt",
+    "finding": "One new substantive FERPA post; newer journal membership promotions excluded. Reviewed back through already imported Undeclared/CS and Honours posts. No two further qualifying new posts."
+  },
+  "peterPrepared": [
+    {
+      "slug": "common-app-ferpa-recommendation-waiver-2026",
+      "title": "推薦信要放棄查閱權嗎？Peter拆解Common App的FERPA選項",
+      "url": "https://globalednews.com/peter/common-app-ferpa-recommendation-waiver-2026/",
+      "sourceUrl": "https://www.facebook.com/photo/?fbid=122148161055172155&set=a.122101120425172155",
+      "sourceId": "122148161055172155",
+      "verifiedAt": "2026-10-25T05:11:56.053756+08:00"
+    }
+  ],
+  "campusReport": {
+    "date": "2026-10-25",
+    "timezone": "Asia/Taipei",
+    "status": "three-public-leads-reviewed",
+    "verifiedAt": "2026-10-25T05:11:56.053756+08:00",
+    "reviewedSchools": [
+      {
+        "school": "國立政治大學",
+        "schoolSlug": "nccu",
+        "source": "https://oic.nccu.edu.tw/",
+        "finding": "10月15日短期進修補助、台聯大交換及牛津短期說明會公告；依個別公告資格，不推定人人可申請。"
+      },
+      {
+        "school": "國立中興大學",
+        "schoolSlug": "nchu",
+        "source": "https://oia.nchu.edu.tw/",
+        "finding": "官方國際處交換、雙聯、短期與職涯資訊入口可讀；已過日期的活動不冒充新申請機會。"
+      },
+      {
+        "school": "國立中央大學",
+        "schoolSlug": "ncu",
+        "source": "https://oia.ncu.edu.tw/",
+        "finding": "交換、雙聯與短期計畫入口可讀；首頁動態計數顯示0不作為實際國際合作數字。"
+      }
+    ],
+    "published": [],
+    "outreachDrafts": [],
+    "pendingConsent": [],
+    "gaps": [],
+    "note": "Public leads only; no outreach sent."
+  },
+  "studyAbroadPrepared": {
+    "slug": "missouri-st-first-degree-application-checklist-2027",
+    "title": "Missouri S&T選校清單：先分新生與轉學，再核對英語與獎助",
+    "url": "https://globalednews.com/study-abroad/missouri-st-first-degree-application-checklist-2027/"
+  },
+  "sunmoonReview": {
+    "checkedAt": "2026-10-25T05:11:56.053756+08:00",
+    "source": "https://www.sunmoonnews.com.tw/",
+    "status": "reviewed-no-new-qualified-item",
+    "finding": "Homepage latest visible items remain September-era. No new independently verified education item."
+  },
+  "ltuReview": {
+    "checkedAt": "2026-10-25T05:11:56.053756+08:00",
+    "poolSize": 12,
+    "pendingLiveVerification": true
+  },
+  "preparedAt": "2026-10-25T05:12:53.134201+08:00",
+  "phaseCompleted": [
+    "PREFLIGHT",
+    "RESEARCH",
+    "PREPARE",
+    "BUILD"
+  ],
+  "build": {
+    "status": "passed",
+    "completedAt": "2026-10-25T05:18:17.714639+08:00",
+    "astroPages": 536,
+    "bilingualPairs": 804,
+    "photoPreviews": 1600,
+    "searchUrls": 1594,
+    "checks": [
+      "search",
+      "bilingual",
+      "facebook-photo-evidence",
+      "public-service-safety",
+      "vlog"
+    ]
+  }
+}

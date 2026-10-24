@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-25",
+  "timezone": "Asia/Taipei",
+  "status": "three-public-leads-reviewed",
+  "verifiedAt": "2026-10-25T05:11:56.053756+08:00",
+  "reviewedSchools": [
+    {
+      "school": "國立政治大學",
+      "schoolSlug": "nccu",
+      "source": "https://oic.nccu.edu.tw/",
+      "finding": "10月15日短期進修補助、台聯大交換及牛津短期說明會公告；依個別公告資格，不推定人人可申請。"
+    },
+    {
+      "school": "國立中興大學",
+      "schoolSlug": "nchu",
+      "source": "https://oia.nchu.edu.tw/",
+      "finding": "官方國際處交換、雙聯、短期與職涯資訊入口可讀；已過日期的活動不冒充新申請機會。"
+    },
+    {
+      "school": "國立中央大學",
+      "schoolSlug": "ncu",
+      "source": "https://oia.ncu.edu.tw/",
+      "finding": "交換、雙聯與短期計畫入口可讀；首頁動態計數顯示0不作為實際國際合作數字。"
+    }
+  ],
+  "published": [],
+  "outreachDrafts": [],
+  "pendingConsent": [],
+  "gaps": [],
+  "note": "Public leads only; no outreach sent."
+}

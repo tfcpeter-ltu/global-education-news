@@ -14,6 +14,8 @@ author: "LTU Global Education News 編輯部"
 tags: ["australia", "higher-education"]
 ---
 
+**2026年10月25日更新：** 清奈校區已於10月取得最終核准；以下保留9月報導當時狀態，最新進展請見[清奈校區核准追蹤](/news/uwa-chennai-final-approval-october-2026/)。
+
 西澳大學（UWA）官方公告確認，孟買校區已取得印度大學補助委員會（UGC）的核准文件，並列出2026年9月18日開校日期。The PIE News於9月22日的現場人物採訪報導確認該校區已啟用。
 
 ## 背景與主要變化

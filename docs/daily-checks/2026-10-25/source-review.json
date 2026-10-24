@@ -1,0 +1,149 @@
+{
+  "checkedAt": "2026-10-25T05:11:56.053756+08:00",
+  "news": [
+    {
+      "slug": "ontario-private-college-osap-validation-2026",
+      "title": "安大略省私校OSAP仍暫停：新驗證程序預計2027年實施",
+      "url": "https://globalednews.com/news/ontario-private-college-osap-validation-2026/",
+      "publishedPath": "src/pages/news/ontario-private-college-osap-validation-2026.md",
+      "sources": [
+        {
+          "label": "Primary source",
+          "url": "https://news.ontario.ca/en/statement/1008169/statement-by-minister-quinn-on-advancing-measures-to-safeguard-osap-at-private-postsecondary-institutions"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://higheredstrategy.com/the-fifteen-october-23-2026/"
+        }
+      ],
+      "verifiedAt": "2026-10-25T05:11:56.053756+08:00"
+    },
+    {
+      "slug": "utokyo-fujigaki-president-selection-2027",
+      "title": "東京大學藤垣裕子將於2027年接任總長：遴選與校內意向投票如何不同",
+      "url": "https://globalednews.com/news/utokyo-fujigaki-president-selection-2027/",
+      "publishedPath": "src/pages/news/utokyo-fujigaki-president-selection-2027.md",
+      "sources": [
+        {
+          "label": "Primary source",
+          "url": "https://www.u-tokyo.ac.jp/focus/en/articles/z1304_00067.html"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://www.todaishimbun.org/selection-committee-opinion-vote-discrepancy/"
+        }
+      ],
+      "verifiedAt": "2026-10-25T05:11:56.053756+08:00"
+    },
+    {
+      "slug": "uwa-chennai-final-approval-october-2026",
+      "title": "西澳大學清奈校區已獲最終核准：更新9月仍待審查的狀態",
+      "url": "https://globalednews.com/news/uwa-chennai-final-approval-october-2026/",
+      "publishedPath": "src/pages/news/uwa-chennai-final-approval-october-2026.md",
+      "sources": [
+        {
+          "label": "Primary source",
+          "url": "https://www.uwa.edu.au/news/article/2026/october/uwa-chennai-campus-receives-final-approval"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://thepienews.com/uwa-gets-green-light-for-chennai-as-two-campus-india-bet-takes-shape/"
+        }
+      ],
+      "verifiedAt": "2026-10-25T05:11:56.053756+08:00"
+    }
+  ],
+  "scholarships": [
+    {
+      "slug": "2026-10-mizzou-international-merit-2027",
+      "title": "Mizzou 2027 International Merit：每年10,000美元學費獎助",
+      "url": "https://globalednews.com/scholarships/items/2026-10-mizzou-international-merit-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-mizzou-international-merit-2027.md",
+      "sources": [
+        {
+          "label": "Official award",
+          "url": "https://admissions.missouri.edu/costs-aid/scholarships/international-student-scholarships/"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://www.idp.com/scholarship/university-of-missouri/international-merit-scholarship/169398/"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-25T05:11:56.053756+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New distinct named scholarship; checked award, international eligibility, application route and renewal."
+    },
+    {
+      "slug": "2026-10-mizzou-international-honors-2027",
+      "title": "Mizzou 2027 International Honors：每年20,000美元學費獎助",
+      "url": "https://globalednews.com/scholarships/items/2026-10-mizzou-international-honors-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-mizzou-international-honors-2027.md",
+      "sources": [
+        {
+          "label": "Official award",
+          "url": "https://admissions.missouri.edu/costs-aid/scholarships/international-student-scholarships/"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://www.idp.com/scholarship/university-of-missouri/international-honors-scholarship/169397/"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-25T05:11:56.053756+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New distinct named scholarship; checked award, international eligibility, application route and renewal."
+    },
+    {
+      "slug": "2026-10-missouri-st-provost-international-merit-2027",
+      "title": "Missouri S&T 2027 Provost獎學金：每年15,000美元，排除政府或企業贊助者",
+      "url": "https://globalednews.com/scholarships/items/2026-10-missouri-st-provost-international-merit-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-missouri-st-provost-international-merit-2027.md",
+      "sources": [
+        {
+          "label": "Official award",
+          "url": "https://sfs.mst.edu/financialaid/typesofaid/scholarships/freshmen/automaticscholarships/merit-based/international/"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://scholarshipsforafricans.com/scholarships/missouri-s-t-provost-s-international-merit-scholarship"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-25T05:11:56.053756+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New distinct named scholarship; checked award, international eligibility, application route and renewal."
+    }
+  ],
+  "excluded": [
+    {
+      "candidate": "Memorial enrolment",
+      "reason": "CBC original read; official Gazette repeatedly timed out, including browser. Replaced."
+    },
+    {
+      "candidate": "Australia student visa rules",
+      "reason": "Already published; duplicate."
+    },
+    {
+      "candidate": "QMUL UIBE partnership",
+      "reason": "Older story with no suitable independent new development selected."
+    },
+    {
+      "candidate": "Miami merit",
+      "reason": "Second-source award amounts inconsistent; excluded."
+    }
+  ],
+  "notes": [
+    "Ontario Oct6 and Oct20 official pages read through browser, HESA October23 original read through web; no allegation of proven wrongdoing by all schools.",
+    "Tokyo official term verified; student newspaper independent editorial translation disclosed.",
+    "UWA final approval is an update from September pending status, not an assertion of observed classroom activity.",
+    "Mizzou Honors and Merit are distinct officially named awards, not two tiers of one unnamed scheme; do not stack. IDP separate-application field rejected in favor of explicit official process.",
+    "Taiwan eligibility checks non-US status, first degree, physical campus, school/English records, sponsorship and residency exclusions."
+  ]
+}
