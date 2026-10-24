@@ -1,18 +1,18 @@
 {
   "status": "ready",
-  "updatedAt": "2026-10-23T06:01:02.709Z",
+  "updatedAt": "2026-10-24T05:47:54.296Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
     {
+      "title": "英格蘭TEF新制公開諮詢至1月28日：教學體驗、學生結果擬分別評級｜環球教育新聞網 Global Education News",
+      "path": "/news/england-tef-quality-consultation-october-2026/",
+      "views": 6
+    },
+    {
       "title": "紐西蘭將培訓學校接待國際生：2027年3月擬全國推出｜環球教育新聞網 Global Education News",
       "path": "/news/new-zealand-schools-international-support-2027/",
       "views": 5
-    },
-    {
-      "title": "利物浦班加羅爾校區正式啟用：首屆近300人，萬人規模仍是長期目標｜環球教育新聞網 Global Education News",
-      "path": "/news/liverpool-bengaluru-campus-opening-2026/",
-      "views": 4
     },
     {
       "title": "加拿大大西洋大學全時國際生減18%：10月快照為13,775人｜環球教育新聞網 Global Education News",
@@ -20,13 +20,13 @@
       "views": 4
     },
     {
-      "title": "法國80位高教代表發表宣言：要求2027追加10億歐元｜環球教育新聞網 Global Education News",
-      "path": "/news/france-universities-billion-euro-appeal-2027/",
+      "title": "最新國際教育新聞",
+      "path": "/news/",
       "views": 4
     },
     {
-      "title": "法國高中代課措施上路：人力調度仍須對上缺課科目｜環球教育新聞網 Global Education News",
-      "path": "/news/france-lycee-teacher-replacement-consultation-october-2026/",
+      "title": "法國80位高教代表發表宣言：要求2027追加10億歐元｜環球教育新聞網 Global Education News",
+      "path": "/news/france-universities-billion-euro-appeal-2027/",
       "views": 4
     }
   ],
@@ -34,62 +34,62 @@
     {
       "name": "台灣",
       "mapName": "Taiwan",
-      "sessions": 98,
-      "share": 43
+      "sessions": 110,
+      "share": 43.8
     },
     {
       "name": "美國",
       "mapName": "United States",
-      "sessions": 81,
+      "sessions": 89,
       "share": 35.5
     },
     {
       "name": "瑞典",
       "mapName": "Sweden",
-      "sessions": 12,
-      "share": 5.3
-    },
-    {
-      "name": "愛爾蘭",
-      "mapName": "Ireland",
-      "sessions": 10,
-      "share": 4.4
+      "sessions": 13,
+      "share": 5.2
     },
     {
       "name": "中國",
       "mapName": "China",
-      "sessions": 9,
-      "share": 3.9
+      "sessions": 11,
+      "share": 4.4
+    },
+    {
+      "name": "愛爾蘭",
+      "mapName": "Ireland",
+      "sessions": 11,
+      "share": 4.4
     },
     {
       "name": "德國",
       "mapName": "Germany",
       "sessions": 4,
-      "share": 1.8
+      "share": 1.6
     },
     {
       "name": "香港",
       "mapName": "Hong Kong",
       "sessions": 4,
-      "share": 1.8
-    },
-    {
-      "name": "加拿大",
-      "mapName": "Canada",
-      "sessions": 2,
-      "share": 0.9
+      "share": 1.6
     },
     {
       "name": "印度",
       "mapName": "India",
       "sessions": 2,
-      "share": 0.9
+      "share": 0.8
     },
     {
       "name": "Netherlands",
       "mapName": "Netherlands",
       "sessions": 2,
-      "share": 0.9
+      "share": 0.8
+    },
+    {
+      "name": "Afghanistan",
+      "mapName": "Afghanistan",
+      "sessions": 1,
+      "share": 0.4
     }
   ]
 }
