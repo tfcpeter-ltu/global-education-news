@@ -4,6 +4,8 @@ import catalog from '../../data/vlog-videos.json';
 const videos = catalog.filter(v => v.status === 'published').sort((a, b) => a.priority - b.priority);
 const featured = videos.filter(v => v.featured);
 const first = featured[0] ?? videos[0];
+const latestCollection = videos.map(v => v.collectedAt?.slice(0, 10) ?? '').sort().at(-1) ?? '';
+const dailyPicks = latestCollection ? videos.filter(v => v.collectedAt?.slice(0, 10) === latestCollection).slice(0, 6) : [];
 const duration = (value: string) => {
   const [, h = '0', m = '0', s = '0'] = value.match(/^PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?$/) ?? [];
   return Number(h) ? `${h}:${m.padStart(2, '0')}:${s.padStart(2, '0')}` : `${Number(m)}:${s.padStart(2, '0')}`;
@@ -30,6 +32,15 @@ const sourceLabel = (type: string) => type === 'official' ? '大學官方' : typ
         <button type="button" data-filter="all" aria-pressed="true">全部影片</button><button type="button" data-filter="recommended" aria-pressed="false">Peter 推薦</button><button type="button" data-filter="peter" aria-pressed="false">Peter 頻道</button><button type="button" data-filter="official" aria-pressed="false">大學官方</button><button type="button" data-filter="submission" aria-pressed="false">讀者投稿</button>
       </div>
       <header class="channel-heading"><div class="channel-avatar" aria-hidden="true">P</div><div><h1>留遊學Vlog</h1><p>Peter 的國際教育影音頻道<span class="channel-dot"> · </span><span>{videos.length}</span> 部影片</p></div><a class="channel-action" href="#submissions">分享你的影片</a></header>
+      {dailyPicks.length > 0 && <section class="daily-picks" aria-labelledby="daily-picks-title">
+        <div class="daily-heading"><div><p class="daily-eyebrow">DAILY VIDEO SELECTION</p><h2 id="daily-picks-title">今日精選</h2><p>五則世界校園與教育影片，加一則 LTU 介紹。</p></div><time datetime={latestCollection}>{latestCollection}</time></div>
+        <div class="daily-grid">{dailyPicks.map((v, i) => <article class="daily-card">
+          <button type="button" data-daily-video={v.id} aria-label={v.title}>
+            <div class="daily-cover"><img src={v.thumbnail} alt={v.title} width="640" height="360" loading={i < 3 ? 'eager' : 'lazy'} /><span class="daily-number">{String(i+1).padStart(2,'0')}</span><span class="daily-play" aria-hidden="true">▶</span><span class="duration">{duration(v.duration)}</span></div>
+            <div class="daily-copy"><span class="daily-source">{v.sourceType === 'peter' ? 'LTU 課程介紹' : v.country}</span><h3>{v.title}</h3><p>{v.description}</p><span class="daily-channel">{v.channelTitle}</span></div>
+          </button>
+        </article>)}</div>
+      </section>}
       <section class="featured" aria-labelledby="featured-title">
         <div class="section-top"><h2 id="featured-title">Peter 推薦放映</h2><div class="carousel-tools"><span id="slide-count">1 / {featured.length}</span><button id="slide-prev" type="button" aria-label="上一張精選">‹</button><button id="slide-next" type="button" aria-label="下一張精選">›</button><button id="slide-toggle" type="button" aria-pressed="false"><span class="pause-label">暫停輪播</span><span class="resume-label" hidden>繼續輪播</span></button></div></div>
         <div class="cinema-grid">
@@ -154,6 +165,10 @@ const sourceLabel = (type: string) => type === 'official' ? '大學官方' : typ
   setInterval(() => { if (!paused && !playing && !hovering && !focused && !document.hidden) preview(1); }, 8000);
   document.querySelectorAll<HTMLButtonElement>('.featured-item').forEach(button => button.addEventListener('click', () => void play(cards.find(c => c.dataset.id === button.dataset.video)!)));
   cards.forEach(card => card.querySelector('button')!.addEventListener('click', () => void play(card, true)));
+  document.querySelectorAll<HTMLButtonElement>('[data-daily-video]').forEach(button => button.addEventListener('click', () => {
+    const card = cards.find(c => c.dataset.id === button.dataset.dailyVideo);
+    if (card) void play(card, true);
+  }));
   let filter = 'all';
   const query = get<HTMLInputElement>('vlog-query');
   function search() {
@@ -171,6 +186,8 @@ const sourceLabel = (type: string) => type === 'official' ? '大學官方' : typ
 </BaseLayout>
 
 <style>
+.daily-cover .duration{position:absolute;bottom:8px;right:8px;padding:3px 6px;border-radius:4px;background:#001b32e8;color:#fff;font-size:11px;font-weight:700}
+.daily-picks{background:linear-gradient(125deg,#062d56,#075d9b);padding:24px;border-radius:18px;margin:0 0 28px;color:#fff}.daily-heading{display:flex;justify-content:space-between;gap:18px;align-items:center;margin-bottom:18px}.daily-eyebrow{font-size:10px;letter-spacing:.18em;color:#96d9ff;margin:0 0 6px}.daily-heading h2{font-size:30px;line-height:1.2;margin:0 0 7px;color:#fff}.daily-heading p:not(.daily-eyebrow){margin:0;font-size:13px;color:#d4e9f7}.daily-heading time{font-size:13px;color:#fff;border:1px solid #70b8e0;padding:7px 12px;border-radius:20px;white-space:nowrap}.daily-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.daily-card{min-width:0;background:#fff;border-radius:12px;overflow:hidden;color:#122c42}.daily-card button{padding:0;border:0;background:none;text-align:left;display:block;width:100%;height:100%;cursor:pointer;color:inherit}.daily-card button:focus-visible{outline:3px solid #ffc957;outline-offset:-3px}.daily-cover{position:relative;aspect-ratio:16/9;background:#163f60;overflow:hidden}.daily-cover img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .2s}.daily-card button:hover img{transform:scale(1.035)}.daily-number{position:absolute;top:9px;left:9px;background:#053765e8;font-size:13px;font-weight:800;color:white;padding:4px 8px;border-radius:5px}.daily-play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);background:#062c55df;color:#fff;border-radius:50%;padding:10px 13px;font-size:17px}.daily-copy{padding:12px 14px 14px}.daily-source{font-size:11px;font-weight:700;color:#0877b7}.daily-copy h3{font-size:17px;line-height:1.45;margin:5px 0 7px;color:#112f49}.daily-copy p{font-size:12px;line-height:1.6;margin:0 0 9px;color:#536373;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.daily-channel{font-size:11px;color:#617c91}@media(max-width:1000px){.daily-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:520px){.daily-picks{padding:16px 12px;border-radius:12px}.daily-heading{align-items:flex-start;gap:10px}.daily-heading h2{font-size:25px}.daily-heading p:not(.daily-eyebrow){font-size:12px}.daily-heading time{font-size:11px;padding:5px 8px}.daily-grid{gap:10px}.daily-copy{padding:9px}.daily-copy h3{font-size:14px}.daily-copy p{display:none}.daily-channel{font-size:10px}.daily-play{padding:7px 10px;font-size:13px}}
 .card-description{font-size:13px;line-height:1.6;color:#555;margin:8px 0 0 45px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 @media(max-width:760px){.card-description{margin-left:0}}
 

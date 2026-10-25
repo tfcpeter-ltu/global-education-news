@@ -26,6 +26,16 @@ assert.equal(endedVideoIndex(9, 10, true), 0);
 if (process.argv.includes('--built')) {
   for (const route of ['vlog/index.html', 'en/vlog/index.html']) {
     const html = fs.readFileSync(new URL(`../dist/${route}`, import.meta.url), 'utf8');
+    const latest = videos.map(v => v.collectedAt?.slice(0, 10) ?? '').sort().at(-1);
+    if (latest) {
+      const daily = videos.filter(v => v.collectedAt?.slice(0, 10) === latest).sort((a,b) => a.priority-b.priority).slice(0,6);
+      const section = html.match(/<section\b[^>]*aria-labelledby="daily-picks-title"[^>]*>[\s\S]*?<\/section>/)?.[0];
+      assert.ok(section, `${route}: latest collection must be visible above Peter recommendations`);
+      assert.equal((section.match(/data-daily-video=/g) ?? []).length, daily.length);
+      for (const v of daily) assert.ok(section.includes(`data-daily-video="${v.id}"`));
+      assert.ok(html.indexOf('id="daily-picks-title"') < html.indexOf('id="featured-title"'));
+      assert.equal((html.match(/class="video-card"/g) ?? []).length, videos.length, 'Daily cards must not duplicate the playback queue');
+    }
     const body = html.match(/<body\b[^>]*>([\s\S]*?)<\/body>/i)?.[1] ?? '';
     const modules = [...body.matchAll(/<script\b[^>]*src="(\/_astro\/[^\"]+\.js)"/g)].map(m => m[1]);
     assert.ok(modules.some(src => fs.readFileSync(new URL(`../dist${src}`, import.meta.url), 'utf8').includes('onYouTubeIframeAPIReady')), `${route}: video controller was lost during HTML processing`);

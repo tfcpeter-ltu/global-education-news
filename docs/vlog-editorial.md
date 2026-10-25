@@ -1,5 +1,9 @@
 # 留遊學 Vlog 維護
 
+## 2026-10-25 首頁今日精選
+
+首頁在 Peter 推薦放映上方展示最新收錄日期的六則影片，依 collectedAt 的日期分組並顯示日期。每日五則外部官方影片、一則 LTU 相關影片皆填入 collectedAt。新一批收錄後自動替換此區，舊片保留於完整片庫。此區另用 data-daily-video 連接原播放器，不複製播放佇列；Peter 指定九部推薦的 featured、recommended、priority 與原順序保持不變。繁中與英文首頁同步更新，手機兩欄、桌面三欄。
+
 頁面：`https://globalednews.com/vlog/`；英文版：`/en/vlog/`。
 
 影片來源集中在 `src/data/vlog-videos.json`。首批 10 部為 Peter 指定頻道的 7 部影片及 UWE Bristol、多倫多大學、墨爾本大學的 3 部官方影片；2026-10-23 透過 YouTube 公開頻道／搜尋資料核對影片 ID、標題、頻道 ID、日期、片長及預覽圖。保留 originalTitle 方便回查。不下載、重製或重新上傳影片；以原始 YouTube 播放器與縮圖呈現。
