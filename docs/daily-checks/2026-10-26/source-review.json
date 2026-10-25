@@ -1,0 +1,153 @@
+{
+  "checkedAt": "2026-10-26T05:11:51.822053+08:00",
+  "news": [
+    {
+      "slug": "memorial-international-enrolment-measures-2026",
+      "title": "加拿大Memorial國際生減少：一年與三年降幅不能混讀",
+      "url": "https://globalednews.com/news/memorial-international-enrolment-measures-2026/",
+      "publishedPath": "src/pages/news/memorial-international-enrolment-measures-2026.md",
+      "sources": [
+        {
+          "label": "Primary source",
+          "url": "https://atlanticuniversities.ca/wp-content/uploads/2026/10/web_VISA_PreliminaryEnrolments-26-27_Final-Oct.-1426-4.pdf"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://www.cbc.ca/news/canada/newfoundland-labrador/mun-international-students-decline-9.7389650"
+        }
+      ],
+      "verifiedAt": "2026-10-26T05:11:51.822053+08:00"
+    },
+    {
+      "slug": "england-bell-review-school-safeguarding-2026",
+      "title": "英格蘭接受Bell檢討27項建議：強化校園反猶歧視通報與培訓",
+      "url": "https://globalednews.com/news/england-bell-review-school-safeguarding-2026/",
+      "publishedPath": "src/pages/news/england-bell-review-school-safeguarding-2026.md",
+      "sources": [
+        {
+          "label": "Primary source",
+          "url": "https://www.gov.uk/government/news/generational-moment-as-government-acts-on-landmark-antisemitism-review"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://feweek.co.uk/antisemitism-review-colleges-told-to-set-out-stance-on-staff-wearing-political-symbols/"
+        }
+      ],
+      "verifiedAt": "2026-10-26T05:11:51.822053+08:00"
+    },
+    {
+      "slug": "act-school-stoppages-october-2026-followup",
+      "title": "澳洲ACT上週分校停工：家庭應核對校方通知，勿沿用過期時段",
+      "url": "https://globalednews.com/news/act-school-stoppages-october-2026-followup/",
+      "publishedPath": "src/pages/news/act-school-stoppages-october-2026-followup.md",
+      "sources": [
+        {
+          "label": "Primary source",
+          "url": "https://www.act.gov.au/education-and-training/latest-articles/protected-industrial-action-at-act-public-schools-19-to-23-october-2026"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://region.com.au/fed-up-public-school-teachers-take-to-the-streets-as-threat-of-term-4-full-day-strike-looms/1009426/"
+        }
+      ],
+      "verifiedAt": "2026-10-26T05:11:51.822053+08:00"
+    }
+  ],
+  "scholarships": [
+    {
+      "slug": "2026-10-iowa-state-international-excellence",
+      "title": "Iowa State國際Excellence獎助：新生每年最高14,000美元",
+      "url": "https://globalednews.com/scholarships/items/2026-10-iowa-state-international-excellence/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-iowa-state-international-excellence.md",
+      "sources": [
+        {
+          "label": "Official award",
+          "url": "https://www.iastate.edu/admission-and-aid/admissions/international-admissions/international-student-excellence-award"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://scholarshipsforafricans.com/scholarships/iowa-state-international-student-excellence-award"
+        }
+      ],
+      "verifiedAt": "2026-10-26T05:11:51.822053+08:00",
+      "eligibleTaiwan": true,
+      "open": true,
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New independently checked scheme; tiers counted once; no previously published slug."
+    },
+    {
+      "slug": "2026-10-miami-ohio-presidential-fellows-2027",
+      "title": "Miami Ohio Presidential Fellows 2027：學費食宿獎助，須ACT或SAT",
+      "url": "https://globalednews.com/scholarships/items/2026-10-miami-ohio-presidential-fellows-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-miami-ohio-presidential-fellows-2027.md",
+      "sources": [
+        {
+          "label": "Official award",
+          "url": "https://miamioh.edu/admission-aid/majors-minors-programs/honors-programs/presidential-fellows-program.html"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://scholarshippath.io/miami-university-ohio-international-scholarships-2027-guide/"
+        }
+      ],
+      "verifiedAt": "2026-10-26T05:11:51.822053+08:00",
+      "eligibleTaiwan": true,
+      "open": true,
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New independently checked scheme; tiers counted once; no previously published slug."
+    },
+    {
+      "slug": "2026-10-miami-ohio-youarewelcomehere-2027",
+      "title": "Miami Ohio #YouAreWelcomeHere：兩名國際新生至少50%學費獎助",
+      "url": "https://globalednews.com/scholarships/items/2026-10-miami-ohio-youarewelcomehere-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-miami-ohio-youarewelcomehere-2027.md",
+      "sources": [
+        {
+          "label": "Official award",
+          "url": "https://miamioh.edu/onestop/financial-aid/funding-opportunities/scholarships/international-scholarships.html"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://www.youarewelcomehereusa.org/scholarship"
+        }
+      ],
+      "verifiedAt": "2026-10-26T05:11:51.822053+08:00",
+      "eligibleTaiwan": true,
+      "open": true,
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "New independently checked scheme; tiers counted once; no previously published slug."
+    }
+  ],
+  "excluded": [
+    {
+      "candidate": "Enroly CAS",
+      "reason": "No direct October source data located; not published."
+    },
+    {
+      "candidate": "Memorial Gazette",
+      "reason": "Repeated network timeout; replaced by primary AAU PDF and CBC independent interviews, scope differences explicit."
+    },
+    {
+      "candidate": "New Zealand qualification update",
+      "reason": "Overlap with existing coverage; not counted."
+    },
+    {
+      "candidate": "Cardiff undergraduate excellence",
+      "reason": "Official2026/2027 entry-year contradiction; excluded."
+    },
+    {
+      "candidate": "Miami general merit",
+      "reason": "Outdated second-source amounts; alternative distinct awards selected."
+    }
+  ],
+  "notes": [
+    "AAU Memorial full-time2609 is distinct from CBC all-international2682; no conversion of three-year45% to an annual rate.",
+    "England policies accepted but not all implemented; no unsupported national prevalence statistic.",
+    "ACT October19–23 dates are past; future full-day strike unconfirmed.",
+    "PFP dedicated2027 page requires ACT/SAT and February interviews; takes precedence over general summary.",
+    "Photos visually reviewed, distinct, credited, archived."
+  ]
+}

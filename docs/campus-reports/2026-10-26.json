@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-26",
+  "timezone": "Asia/Taipei",
+  "status": "three-public-leads-reviewed",
+  "verifiedAt": "2026-10-26T05:11:51.822053+08:00",
+  "reviewedSchools": [
+    {
+      "school": "國立清華大學",
+      "schoolSlug": "nthu",
+      "source": "https://oga.site.nthu.edu.tw/",
+      "finding": "去訪交換、雙聯與國際合作入口可讀；不把舊國際節當新活動。"
+    },
+    {
+      "school": "國立陽明交通大學",
+      "schoolSlug": "nycu",
+      "source": "https://oia.nycu.edu.tw/",
+      "finding": "短期研究、交流與學生支持入口可讀；資格與各計畫期限須逐案確認。"
+    },
+    {
+      "school": "國立政治大學",
+      "schoolSlug": "nccu",
+      "source": "https://oic.nccu.edu.tw/",
+      "finding": "UST2027/28交換甄選公告列12月28日截止；須另核對本校資格，教師補助不當學生獎學金。"
+    }
+  ],
+  "published": [],
+  "outreachDrafts": [],
+  "pendingConsent": [],
+  "gaps": [],
+  "note": "Public leads only; no outreach sent."
+}
