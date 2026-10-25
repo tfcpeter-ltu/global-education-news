@@ -1,6 +1,6 @@
 {
   "status": "ready",
-  "updatedAt": "2026-10-24T05:47:54.296Z",
+  "updatedAt": "2026-10-25T06:03:52.438Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
@@ -15,8 +15,8 @@
       "views": 5
     },
     {
-      "title": "加拿大大西洋大學全時國際生減18%：10月快照為13,775人｜環球教育新聞網 Global Education News",
-      "path": "/news/atlantic-canada-international-enrolment-october-2026/",
+      "title": "安大略省私校OSAP仍暫停：新驗證程序預計2027年實施｜環球教育新聞網 Global Education News",
+      "path": "/news/ontario-private-college-osap-validation-2026/",
       "views": 4
     },
     {
@@ -34,44 +34,44 @@
     {
       "name": "台灣",
       "mapName": "Taiwan",
-      "sessions": 110,
-      "share": 43.8
+      "sessions": 104,
+      "share": 42.4
     },
     {
       "name": "美國",
       "mapName": "United States",
-      "sessions": 89,
-      "share": 35.5
+      "sessions": 91,
+      "share": 37.1
     },
     {
       "name": "瑞典",
       "mapName": "Sweden",
-      "sessions": 13,
-      "share": 5.2
+      "sessions": 12,
+      "share": 4.9
     },
     {
       "name": "中國",
       "mapName": "China",
       "sessions": 11,
-      "share": 4.4
+      "share": 4.5
     },
     {
       "name": "愛爾蘭",
       "mapName": "Ireland",
       "sessions": 11,
-      "share": 4.4
-    },
-    {
-      "name": "德國",
-      "mapName": "Germany",
-      "sessions": 4,
-      "share": 1.6
+      "share": 4.5
     },
     {
       "name": "香港",
       "mapName": "Hong Kong",
       "sessions": 4,
       "share": 1.6
+    },
+    {
+      "name": "德國",
+      "mapName": "Germany",
+      "sessions": 3,
+      "share": 1.2
     },
     {
       "name": "印度",
