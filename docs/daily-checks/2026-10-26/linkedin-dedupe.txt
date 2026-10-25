@@ -1,0 +1,1653 @@
+- button:
+- link:
+  - /url: https://www.signalhire.com
+- button
+- button
+- heading "Welcome to SignalHire!" [level=1]
+- paragraph: SignalHire is a great way to find contact information in a couple of clicks
+- link "Sign In":
+  - /url: https://www.signalhire.com/login?package=trial&utm_source=signin&utm_medium=extension
+  - generic: Sign In
+- paragraph:
+  - text: Don’t have an account yet?
+  - link "Sign up for free":
+    - /url: https://www.signalhire.com/registration?package=trial&utm_source=signup&utm_medium=extension
+- heading "0 則通知" [level=2]
+- generic "略過導覽選單":
+  - button "前往搜尋":
+    - generic: 前往搜尋
+  - button "前往內容":
+    - generic: 前往內容
+  - button "前往側邊欄":
+    - generic: 前往側邊欄
+  - button "前往主要內容":
+    - generic: 前往主要內容
+  - button "前往側邊":
+    - generic: 前往側邊
+  - button "前往頁尾":
+    - generic: 前往頁尾
+  - button "關閉選單":
+- banner:
+  - button "LinkedIn":
+    - img "LinkedIn"
+  - button "搜尋":
+    - paragraph: 搜尋
+  - dialog:
+    - status: 有 5 個建議 ，請使用上下方向鍵來瀏覽
+    - search:
+      - textbox "搜尋"
+    - listbox:
+      - paragraph: 您可以試試
+      - option "interview tips搜尋建議":
+        - link "interview tips搜尋建議":
+          - /url: https://www.linkedin.com/search/results/all/?keywords=interview+tips&origin=QUERY_SUGGESTION&position=0
+          - generic "interview tips搜尋建議":
+            - paragraph: interview tips
+      - option "latest in ai搜尋建議":
+        - link "latest in ai搜尋建議":
+          - /url: https://www.linkedin.com/search/results/all/?keywords=latest+in+ai&origin=QUERY_SUGGESTION&position=0
+          - generic "latest in ai搜尋建議":
+            - paragraph: latest in ai
+      - option "balancing work and personal life搜尋建議":
+        - link "balancing work and personal life搜尋建議":
+          - /url: https://www.linkedin.com/search/results/all/?keywords=balancing+work+and+personal+life&origin=QUERY_SUGGESTION&position=0
+          - generic "balancing work and personal life搜尋建議":
+            - paragraph: balancing work and personal life
+      - option "remote work搜尋建議":
+        - link "remote work搜尋建議":
+          - /url: https://www.linkedin.com/search/results/all/?keywords=remote+work&origin=QUERY_SUGGESTION&position=0
+          - generic "remote work搜尋建議":
+            - paragraph: remote work
+      - option "when's the best time to switch jobs搜尋建議":
+        - link "when's the best time to switch jobs搜尋建議":
+          - /url: https://www.linkedin.com/search/results/all/?keywords=when%27s+the+best+time+to+switch+jobs&origin=QUERY_SUGGESTION&position=0
+          - generic "when's the best time to switch jobs搜尋建議":
+            - paragraph: when's the best time to switch jobs
+  - figure
+  - navigation:
+    - list:
+      - button "首頁，1 則新通知":
+        - generic: 首頁
+      - link "我的人脈，2 則新通知":
+        - /url: https://www.linkedin.com/mynetwork
+        - generic: "2"
+        - generic: 我的人脈
+      - link "職缺，0 則新通知":
+        - /url: https://www.linkedin.com/jobs/
+        - generic: 職缺
+      - link "訊息，2 則新通知":
+        - /url: https://www.linkedin.com/messaging/
+        - generic: "2"
+        - generic: 訊息
+      - link "通知，25 則新通知":
+        - /url: https://www.linkedin.com/notifications/
+        - generic: "25"
+        - generic: 通知
+      - button "我":
+        - figure
+        - text: 我
+  - navigation:
+    - list:
+      - button "商務功能":
+        - text: 商務功能
+      - link "Learning，0 則新通知":
+        - /url: https://www.linkedin.com/learning/?trk=nav_neptune_learning
+        - generic: Learning
+- main:
+  - complementary "側邊欄":
+    - figure:
+    - paragraph: Premium
+    - figure
+    - paragraph: Peter Chen
+    - paragraph: LTU Education Center CEO
+    - paragraph: 關注者
+    - link "31":
+      - /url: https://www.linkedin.com/mynetwork/network-manager/people-follow/followers/
+      - paragraph: "31"
+  - region "主要內容":
+    - heading "全部活動" [level=2]
+    - navigation:
+      - list:
+        - link "動態":
+          - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+          - generic: 動態
+        - link "影片":
+          - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/videos/
+          - generic: 影片
+        - link "圖片":
+          - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/images/
+          - generic: 圖片
+        - link "文件":
+          - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/documents/
+          - generic: 文件
+        - link "感受":
+          - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/reactions/
+          - generic: 感受
+    - list:
+      - heading "動態消息" [level=2]:
+        - generic: 動態消息
+      - link:
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - figure:
+          - img "查看Peter Chen的個人檔案"
+      - link "Peter Chen Premium個人檔案 您":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - generic "Peter Chen Premium個人檔案 您":
+          - paragraph: Peter Chen
+          - paragraph:
+            - text: • 您
+      - paragraph: LTU Education Center CEO
+      - paragraph: 23 小時
+      - link "Peter Chen Premium個人檔案 您":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - generic "Peter Chen Premium個人檔案 您"
+      - button "開啟Peter Chen貼文的控制選單":
+      - paragraph:
+        - text: 想從政大出國交換？先比科系，再查校內資格
+        - text: 選校選系與交換機會，一起核對。
+        - text: 政大國際處列有短期進修補助與交換公告；各計畫的年級、語言及校內期限需分開查。
+        - text: 從國內大學資料庫比較學群與校系，再回官方確認，不把公告當成保證錄取。
+        - text: 國內大學選校選系資料庫：
+        - link "開啟 https://lnkd.in/gC-Qb3mY":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgC-Qb3mY&urlhash=mnkk&mt=jp7FeCfbh-idP3AYCD8-pY1si6f7nKzrVVl-svpp0iwOiamMOVYxMuggQsgFhBQk4nYAKn2YiOkabK7SNl05C1PgVPnEYWPXof_zHtCXsOoRFi-GZ1CoMAKHUg&isSdui=true
+          - strong: https://lnkd.in/gC-Qb3mY
+        - text: 全文：
+        - link "開啟 https://lnkd.in/gC-Qb3mY":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgC-Qb3mY&urlhash=mnkk&mt=1nH5qR52OJ9xBLxyEn8jLQa2boOHbISEmxJKcK33IYfN_1aSBLXVmZj7bRts9C-ARycMtbTOvQ8Vh-fws-cgQSKQPJGx0T73M-zbqKfXSnyKNHyYlJR-lyF58Q&isSdui=true
+          - strong: https://lnkd.in/gC-Qb3mY
+        - text: 給教育工作者：轉介學生時請保留資格、時程與尚待確認的限制。
+        - text: 免費加入環球教育新聞會員！
+        - text: 每週教育新聞與申請提醒，免費且可隨時取消。
+        - link "開啟 https://lnkd.in/g8qTgA39":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fg8qTgA39&urlhash=q1ph&mt=3Xgt2lpw_iyRLomKiAnUXLOPiROecwmPoU8bMJ8h8VRfg9UAq9Leau8iXM4b5q_pekgERrs0D0X-ZznCrclXwtoYQOvq1Bi7mC7fE02v2JH-lFLw47deQJ6kmg&isSdui=true
+          - strong: https://lnkd.in/g8qTgA39
+        - text: 資料照：Felix Filnkoessl / CC BY-SA 2.0；裁切加字。
+        - link "開啟 https://lnkd.in/geJ3VAxd":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgeJ3VAxd&urlhash=zb6S&mt=1nzZ2oRBWEOAO4bfnTJIlVVYYbjqnrMsIEXe8Tbb5TqBIG6AdgXG7VtmQF3NZNRqFspvMQGnzHNNgB_Tf0SDvP_OVdEx-FFrAZ3b04K2Lv0gYg1VMmkqUR0ZVw&isSdui=true
+          - strong: https://lnkd.in/geJ3VAxd
+        - button:
+          - generic: … 更多
+      - link:
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+        - figure:
+          - img "查看圖片"
+      - button "感受按鈕狀態：無感受":
+      - button "開啟感受選單":
+      - button "回應":
+      - button "轉發":
+      - link "傳送":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+      - paragraph: 2 次曝光
+      - link "查看分析資料":
+        - /url: https://www.linkedin.com/analytics/post-summary/urn:li:activity:7519873234666749952/
+        - paragraph:
+          - generic: 查看分析資料
+          - text: 查看分析資料
+      - link "宣傳":
+        - /url: https://www.linkedin.com/campaignmanager/boost/campaigns/new/details/?origin=memberProfileAllActivity&content=urn%3Ali%3Ashare%3A7519873233467240448&isNileReferrer=true
+        - generic: 宣傳
+      - heading "動態消息" [level=2]:
+        - generic: 動態消息
+      - link:
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - figure:
+          - img "查看Peter Chen的個人檔案"
+      - link "Peter Chen Premium個人檔案 您":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - generic "Peter Chen Premium個人檔案 您":
+          - paragraph: Peter Chen
+          - paragraph:
+            - text: • 您
+      - paragraph: LTU Education Center CEO
+      - paragraph: 23 小時
+      - link "Peter Chen Premium個人檔案 您":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - generic "Peter Chen Premium個人檔案 您"
+      - button "開啟Peter Chen貼文的控制選單":
+      - paragraph:
+        - text: 申請Missouri S&T：先分新生、轉學兩條路
+        - text: 避免身分填錯，再確認英語與預算。
+        - text: Rolla校區採滾動審查，秋季建議4月1日前；Provost年額1.5萬美元有贊助與續領限制。
+        - text: 獎助不是生活費全包；以正式錄取與獎助信計算成本。
+        - text: 留學DIY導航：
+        - link "開啟 https://lnkd.in/gMYyDTPc":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgMYyDTPc&urlhash=0Vp3&mt=3mKw1e_6mmzHroVKR9E1EE-nLHqPuFhnuAyIBz8ZyXY2FdGvUYGV1gx-JhnFEym8qGqC234aHmJ5oP8vvQj0_bPxqbirQGo46G3BHRIrkyFro5DQb-WB-aSrTA&isSdui=true
+          - strong: https://lnkd.in/gMYyDTPc
+        - text: 全文：
+        - link "開啟 https://lnkd.in/gy7BGEQR":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fgy7BGEQR&urlhash=tqE0&mt=uD4SWc5NULdN_v9BS8Z2haWymvE3HvVtgiHs_oKPftn-QxmDVbrA8wxpQuoGTt_appVOsGJPae2AVuWcovC4UliTeyPpj5ChaqFw6oAUAfyuTNwd_B1gkolZdA&isSdui=true
+          - strong: https://lnkd.in/gy7BGEQR
+        - text: 給教育工作者：轉介學生時請保留資格、時程與尚待確認的限制。
+        - text: 免費加入環球教育新聞會員！
+        - text: 每週教育新聞與申請提醒，免費且可隨時取消。
+        - link "開啟 https://lnkd.in/g8qTgA39":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fg8qTgA39&urlhash=q1ph&mt=BEjel7UKZq38aF1jmP8M6t2tZHyufDM9qx5zJhuKGl4y4F4rv3vghuFGf9G9EUsXmO8fkKjw-3S_TcJ8V4wF9RLZ5Ibif1N1EJe0H_EGD92tnrRmpGp2U2L14g&isSdui=true
+          - strong: https://lnkd.in/g8qTgA39
+        - text: 資料照：Adavidb / CC BY-SA 3.0；裁切加字。
+        - link "開啟 https://lnkd.in/gEvbD9rm":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgEvbD9rm&urlhash=JanT&mt=OUtT-uj_UFmFXAM1aGJ9PfU3ei3_HBUayQGnIjp8Q1WtTpjMzpyDqUDuWkWpTNoqA4kkwMgRByfJ8dAfFBew5ffsENxWppXKo8bGVUNQodGkrvnuiv1jHEYI6Q&isSdui=true
+          - strong: https://lnkd.in/gEvbD9rm
+        - button:
+          - generic: … 更多
+      - link:
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+        - figure:
+          - img "查看圖片"
+      - button "感受按鈕狀態：無感受":
+      - button "開啟感受選單":
+      - button "回應":
+      - button "轉發":
+      - link "傳送":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+      - paragraph: 2 次曝光
+      - link "查看分析資料":
+        - /url: https://www.linkedin.com/analytics/post-summary/urn:li:activity:7519872869292630016/
+        - paragraph:
+          - generic: 查看分析資料
+          - text: 查看分析資料
+      - link "宣傳":
+        - /url: https://www.linkedin.com/campaignmanager/boost/campaigns/new/details/?origin=memberProfileAllActivity&content=urn%3Ali%3Ashare%3A7519872868160192512&isNileReferrer=true
+        - generic: 宣傳
+      - heading "動態消息" [level=2]:
+        - generic: 動態消息
+      - link:
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - figure:
+          - img "查看Peter Chen的個人檔案"
+      - link "Peter Chen Premium個人檔案 您":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - generic "Peter Chen Premium個人檔案 您":
+          - paragraph: Peter Chen
+          - paragraph:
+            - text: • 您
+      - paragraph: LTU Education Center CEO
+      - paragraph: 23 小時
+      - link "Peter Chen Premium個人檔案 您":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - generic "Peter Chen Premium個人檔案 您"
+      - button "開啟Peter Chen貼文的控制選單":
+      - paragraph:
+        - text: Mizzou國際Merit每年1萬美元：12月1日前備齊資料
+        - text: 台灣國際新生先核對實體學士與續領條件。
+        - text: 2027–28獎助只抵非居民學費，不能與Honors相加；採整體審查，非保證得獎。
+        - text: 入學資料與英語證明須齊備，續領GPA至少2.75。
+        - text: 國際獎學金雷達：
+        - link "開啟 https://lnkd.in/gKQVT8iz":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgKQVT8iz&urlhash=jMV-&mt=rmc2tBOgXhUiZ2fVRYom9O3f5Vh8AzbsTzgaFDQGibSWgAR3oCfsdVZ_cTi8TdnN-D6hw1a2mP_r2Hc_DOsKai9ZfG16I8dYLjdv8FeU_aNy5A7cfVXDfG-TFw&isSdui=true
+          - strong: https://lnkd.in/gKQVT8iz
+        - text: 全文：
+        - link "開啟 https://lnkd.in/gfGAn9sA":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgfGAn9sA&urlhash=d4rr&mt=I2AgVqgVwIFD44zQ0b_FZnvhHFBw6E0Udybxm6gXnSF4M3E1dXgZAslfx_vr-TRPt2cO7pRER-N8GFQZYb9v-1kdDn6-V_wBqYTFkWjdonNwZPAQrfIT3rfHqQ&isSdui=true
+          - strong: https://lnkd.in/gfGAn9sA
+        - text: 給教育工作者：轉介學生時請保留資格、時程與尚待確認的限制。
+        - text: 免費加入環球教育新聞會員！
+        - text: 每週教育新聞與申請提醒，免費且可隨時取消。
+        - link "開啟 https://lnkd.in/g8qTgA39":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fg8qTgA39&urlhash=q1ph&mt=PHcYe7EWuubmZM9ZOMDPIXw3qOs5CzJvzunIu-RrWJlGjEsZaz__AHcYfIYLBmWs8EntvRM55fuUwiFbPoQCT7RIQ2vN78tdvArKtObqUxoAgj_pLqVKhXmJ0Q&isSdui=true
+          - strong: https://lnkd.in/g8qTgA39
+        - text: 資料照：Holzman Moss Bottino Architecture / CC BY-SA 4.0；裁切加字。
+        - link "開啟 https://lnkd.in/g6ie3pvS":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fg6ie3pvS&urlhash=n1pt&mt=0yVYKXDbvlB0rLAdiPjQEWMMhSkIjjn35ELZrVdHZf8ddGyvFWYXK8iRy4WWM6ZRqrDEBJ4P8nIQEhzhwTYJ-he6oqZxwfI7d21-_u9S1YndPP_KAcZfv5cS5g&isSdui=true
+          - strong: https://lnkd.in/g6ie3pvS
+        - button:
+          - generic: … 更多
+      - link:
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+        - figure:
+          - img "查看圖片"
+      - button "感受按鈕狀態：無感受":
+      - button "開啟感受選單":
+      - button "回應":
+      - button "轉發":
+      - link "傳送":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+      - paragraph: 2 次曝光
+      - link "查看分析資料":
+        - /url: https://www.linkedin.com/analytics/post-summary/urn:li:activity:7519872458783494144/
+        - paragraph:
+          - generic: 查看分析資料
+          - text: 查看分析資料
+      - link "宣傳":
+        - /url: https://www.linkedin.com/campaignmanager/boost/campaigns/new/details/?origin=memberProfileAllActivity&content=urn%3Ali%3Ashare%3A7519872457411870720&isNileReferrer=true
+        - generic: 宣傳
+      - heading "動態消息" [level=2]:
+        - generic: 動態消息
+      - link:
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - figure:
+          - img "查看Peter Chen的個人檔案"
+      - link "Peter Chen Premium個人檔案 您":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - generic "Peter Chen Premium個人檔案 您":
+          - paragraph: Peter Chen
+          - paragraph:
+            - text: • 您
+      - paragraph: LTU Education Center CEO
+      - paragraph: 23 小時
+      - link "Peter Chen Premium個人檔案 您":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - generic "Peter Chen Premium個人檔案 您"
+      - button "開啟Peter Chen貼文的控制選單":
+      - paragraph:
+        - text: 安大略省私校OSAP仍暫停，復款日期未定
+        - text: 選校前先確認課程與付款安排。
+        - text: 10月20日官方說明：須待新驗證程序就緒，預計新年度實施且仍涉及立法。
+        - text: 這不是台灣留學生新增獎學金，也不代表所有私校違法。
+        - text: 國際教育新聞：
+        - link "開啟 https://lnkd.in/gJfCp-QB":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgJfCp-QB&urlhash=P-S8&mt=-zRn7wgCaBe86veVq2A7GVhvGzW0eUPKF0Nycg65jxd6gaWm3riwm370DKijXAv-1yP2kfzzB99WjD5QmEVUawZ--r-bYLeR_GOMtRSYdKq1JI2WA4NrMjdFcA&isSdui=true
+          - strong: https://lnkd.in/gJfCp-QB
+        - text: 全文：
+        - link "開啟 https://lnkd.in/gx2RE7Wv":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fgx2RE7Wv&urlhash=aMFe&mt=vD-zAFW-FPiRacIajbPHVkF7N8WLeMhpzquzXGHlJtPqW-CCjTt4vWL0_5F4SdArdeCCw65rHZEX2Up7vtKvMQQtt8bEPPEz324pm8eYuHgh71Cd6yywR3eXiw&isSdui=true
+          - strong: https://lnkd.in/gx2RE7Wv
+        - text: 給教育工作者：轉介學生時請保留資格、時程與尚待確認的限制。
+        - text: 免費加入環球教育新聞會員！
+        - text: 每週教育新聞與申請提醒，免費且可隨時取消。
+        - link "開啟 https://lnkd.in/g8qTgA39":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fg8qTgA39&urlhash=q1ph&mt=kABI7hbrd2Q-paHD3OgY0PI9lawpyThO3pjG7INnb9S9TNhj5JNn_GkoLEn2n40OXpvH6_UP3KjUj-p4uD-T8WmVr-SrYjX5SeArhjvQmU3hHgW2x6crjoej3A&isSdui=true
+          - strong: https://lnkd.in/g8qTgA39
+        - text: 資料照：Dillan Payne / CC BY-SA 4.0；裁切加字。
+        - link "開啟 https://lnkd.in/gEx-xmAd":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgEx-xmAd&urlhash=Z_39&mt=ENiUaIfWAk06Hnl57Cymw5tznowYgt3eGv7nYAj3o1Z21NmMZ1Iv3MgPfj17Q8Sab3UjE8U2dr0_zd6KAIoHHP4ioi0f2TA4EWtB1vbnvq6bTWpeBNUdVfo6Bg&isSdui=true
+          - strong: https://lnkd.in/gEx-xmAd
+        - button:
+          - generic: … 更多
+      - link:
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+        - figure:
+          - img "查看圖片"
+      - button "感受按鈕狀態：無感受":
+      - button "開啟感受選單":
+      - button "回應":
+      - button "轉發":
+      - link "傳送":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+      - paragraph: 2 次曝光
+      - link "查看分析資料":
+        - /url: https://www.linkedin.com/analytics/post-summary/urn:li:activity:7519871120204800001/
+        - paragraph:
+          - generic: 查看分析資料
+          - text: 查看分析資料
+      - link "宣傳":
+        - /url: https://www.linkedin.com/campaignmanager/boost/campaigns/new/details/?origin=memberProfileAllActivity&content=urn%3Ali%3Ashare%3A7519871118887804929&isNileReferrer=true
+        - generic: 宣傳
+      - heading "動態消息" [level=2]:
+        - generic: 動態消息
+      - link:
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - figure:
+          - img "查看Peter Chen的個人檔案"
+      - link "Peter Chen Premium個人檔案 您":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - generic "Peter Chen Premium個人檔案 您":
+          - paragraph: Peter Chen
+          - paragraph:
+            - text: • 您
+      - paragraph: LTU Education Center CEO
+      - paragraph: 1 天
+      - link "Peter Chen Premium個人檔案 您":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - generic "Peter Chen Premium個人檔案 您"
+      - button "開啟Peter Chen貼文的控制選單":
+      - paragraph:
+        - text: 成大與RWTH合作50年：交換協議不等於報名開放
+        - text: 從校園官方入口找下一步申請線索。
+        - text: 成大10月23日公布合作與交換協議；陽明交大更新姐妹校短期課程，清華提供交換及雙聯入口。
+        - text: 先辨認合作新聞、課程公告與正式申請，資格及期限須逐案核對。
+        - text: 國內大學資料庫：
+        - link "開啟 https://lnkd.in/gC-Qb3mY":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgC-Qb3mY&urlhash=mnkk&mt=fSgc88eFgEMDDqXXZHzAepN9XXD-NJczKLHI4kyO-yGRBDDP-ih80VjQ-V9HZXvMtoZ2foSh9hJO4n4MLePSTDmnU6pukEH-0fswpB3ko76uN73827kyfSCgyw&isSdui=true
+          - strong: https://lnkd.in/gC-Qb3mY
+        - text: 全文：
+        - link "開啟 https://lnkd.in/gC-Qb3mY":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgC-Qb3mY&urlhash=mnkk&mt=gCQeWrFiY_jPeP9Ir-LI0qBtnxYXyFovVS4Qz466h_A8EsuZ9mjAFe7vRwio8rSFbtrSmY2b8UboDw4jrR4WZlvH3mZNdH0dHKd8e71jJ5WYPDnIt279TIkPnQ&isSdui=true
+          - strong: https://lnkd.in/gC-Qb3mY
+        - text: 給教育工作者：轉介學生時請保留資格、時程與尚待確認的限制。
+        - text: 免費加入環球教育新聞會員！
+        - text: 每週教育新聞與申請提醒，免費且可隨時取消。
+        - link "開啟 https://lnkd.in/g8qTgA39":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fg8qTgA39&urlhash=q1ph&mt=KZC9289DmfeYGWy_VIHhyOX8k5kfXVKmT8w9EMU6T5JmU27R6bu5lG0cx474tNb_lko5IK1NQ5TdS9pZV-SDjAf0mv_ZmhgUPifmX2U_q1siEsYu9LtRYfPkNA&isSdui=true
+          - strong: https://lnkd.in/g8qTgA39
+        - text: 資料照：Dquai / CC BY-SA 4.0；裁切加字。
+        - link "開啟 https://lnkd.in/gZykFRjN":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgZykFRjN&urlhash=GdHU&mt=SCpxtXRiIL2xz7LSPvzgRrWlwuJw8CW-VuglaTeoAdc2fCBOnvdLssJzTOlo4vLhOWP4R89YK73ktgSh1waEtlXQlptYzkX9jY21HwUvqUe5Ivq-J8q4eIFITg&isSdui=true
+          - strong: https://lnkd.in/gZykFRjN
+        - button:
+          - generic: … 更多
+      - link:
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+        - figure:
+          - img "查看圖片"
+      - button "感受按鈕狀態：無感受":
+      - button "開啟感受選單":
+      - button "回應":
+      - button "轉發":
+      - link "傳送":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+      - paragraph: 4 次曝光
+      - link "查看分析資料":
+        - /url: https://www.linkedin.com/analytics/post-summary/urn:li:activity:7519512916568698881/
+        - paragraph:
+          - generic: 查看分析資料
+          - text: 查看分析資料
+      - link "宣傳":
+        - /url: https://www.linkedin.com/campaignmanager/boost/campaigns/new/details/?origin=memberProfileAllActivity&content=urn%3Ali%3Ashare%3A7519512915306278912&isNileReferrer=true
+        - generic: 宣傳
+      - heading "動態消息" [level=2]:
+        - generic: 動態消息
+      - link:
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - figure:
+          - img "查看Peter Chen的個人檔案"
+      - link "Peter Chen Premium個人檔案 您":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - generic "Peter Chen Premium個人檔案 您":
+          - paragraph: Peter Chen
+          - paragraph:
+            - text: • 您
+      - paragraph: LTU Education Center CEO
+      - paragraph: 1 天
+      - link "Peter Chen Premium個人檔案 您":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - generic "Peter Chen Premium個人檔案 您"
+      - button "開啟Peter Chen貼文的控制選單":
+      - paragraph:
+        - text: Nebraska留學DIY：全時就讀不一定領足額獎助
+        - text: 把申請、訂金和每學期學分分開管理。
+        - text: Global Laureate最高每年15,000美元；每學期12至14學分會減額，15學分以上才按足額計。
+        - text: 2027秋季11月1日優先；排課前同時核對畢業與獎助要求。
+        - text: 留學DIY導航：
+        - link "開啟 https://lnkd.in/gMYyDTPc":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgMYyDTPc&urlhash=0Vp3&mt=_Qb3W3vbKGOMiO39AkjAi-X17XcI57ltRWELD--BHisLsKsp3xIq5qeZYv-vTxSRkesq5ZPbBvNDoSvotbskkQLvW74pbXUWb7EbPxnY8rv3kG_s9aZiodmUKQ&isSdui=true
+          - strong: https://lnkd.in/gMYyDTPc
+        - text: 全文：
+        - link "開啟 https://lnkd.in/gBn5Q9JP":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgBn5Q9JP&urlhash=uSIq&mt=q22qvuOuo77kHZCZwEn9azAh7bqAhah37nUDmRZy8Sc0bwqPz_7BcRLSekC0fzOOelyVu20i6bZ_oSej4NgpxRAJHypdbWOq6VcY1XzwxYFx9M1mk1LM0CtgWQ&isSdui=true
+          - strong: https://lnkd.in/gBn5Q9JP
+        - text: 給教育工作者：轉介學生時請保留資格、時程與尚待確認的限制。
+        - text: 免費加入環球教育新聞會員！
+        - text: 每週教育新聞與申請提醒，免費且可隨時取消。
+        - link "開啟 https://lnkd.in/g8qTgA39":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fg8qTgA39&urlhash=q1ph&mt=fqnOCPgYkgMIZ7tebLAjEzATYsce2_BTj3spfo1ubBNlHhqPSfmoBBF8WZP0Q04JL6l5bwD6RKQdWTrlPOT83mUVDDELbGiM3RZiFfNKz21roATa5i2VRkpWkQ&isSdui=true
+          - strong: https://lnkd.in/g8qTgA39
+        - text: 資料照：The original uploader was Bkell at English Wikipedia. / CC BY 2.0；裁切加字。
+        - link "開啟 https://lnkd.in/gkrHJSwA":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgkrHJSwA&urlhash=c5c6&mt=z5fbKtdmsaGB_DIMqFHgExGmS1b8ca0WAjoXa4VIKPHSkm201BgVD0WQ9F8GA5qOrfXoWsBN2hRUY6H1VpVVcEpxPlBHr6Xl8hf3nnWHYPhsM9ubwb_nbFEsdg&isSdui=true
+          - strong: https://lnkd.in/gkrHJSwA
+        - button:
+          - generic: … 更多
+      - link:
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+        - figure:
+          - img "查看圖片"
+      - button "感受按鈕狀態：無感受":
+      - button "開啟感受選單":
+      - button "回應":
+      - button "轉發":
+      - link "傳送":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+      - paragraph: 29 次曝光
+      - link "查看分析資料":
+        - /url: https://www.linkedin.com/analytics/post-summary/urn:li:activity:7519512592382529536/
+        - paragraph:
+          - generic: 查看分析資料
+          - text: 查看分析資料
+      - link "宣傳":
+        - /url: https://www.linkedin.com/campaignmanager/boost/campaigns/new/details/?origin=memberProfileAllActivity&content=urn%3Ali%3Ashare%3A7519512591149252608&isNileReferrer=true
+        - generic: 宣傳
+      - heading "動態消息" [level=2]:
+        - generic: 動態消息
+      - link:
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - figure:
+          - img "查看Peter Chen的個人檔案"
+      - link "Peter Chen Premium個人檔案 您":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - generic "Peter Chen Premium個人檔案 您":
+          - paragraph: Peter Chen
+          - paragraph:
+            - text: • 您
+      - paragraph: LTU Education Center CEO
+      - paragraph: 1 天
+      - link "Peter Chen Premium個人檔案 您":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - generic "Peter Chen Premium個人檔案 您"
+      - button "開啟Peter Chen貼文的控制選單":
+      - paragraph:
+        - text: 阿拉巴馬2027績優獎助：12月4日前完成送分
+        - text: 先確認GPA、單次考試與國際新生資格。
+        - text: 自動績優一般級距每年6,000至28,000美元；夏秋季優先期限12月4日，不採跨次拼分。
+        - text: 台灣申請者須完成指定學歷認證與英文要求；金額級距不可加總。
+        - text: 國際獎學金雷達：
+        - link "開啟 https://lnkd.in/gKQVT8iz":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgKQVT8iz&urlhash=jMV-&mt=RTRnQwHY4Ztkwg9VnPFRWrNsNUZTZv0w20h7QTfsGQM6BAYwP7crGutiLZfAnvtkc_QRXg6fHYL1NKLsDKz7kSZ986-AR4iv0wUUP689nI_FwCKuOTv2MQkvLg&isSdui=true
+          - strong: https://lnkd.in/gKQVT8iz
+        - text: 全文：
+        - link "開啟 https://lnkd.in/gMNkjMqA":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgMNkjMqA&urlhash=ynMK&mt=OYOV07VBmSUUUh-YB-kdOhJj3vEEAHy4WbCRwNgypCTf3HlOMeSOuLQdkIaaHpPNCatmVVZrabFt6dJdtJbbRNLTmGKR-x4-MmefnPQLpkJBeG3WMOxNtdieyw&isSdui=true
+          - strong: https://lnkd.in/gMNkjMqA
+        - text: 給教育工作者：轉介學生時請保留資格、時程與尚待確認的限制。
+        - text: 免費加入環球教育新聞會員！
+        - text: 每週教育新聞與申請提醒，免費且可隨時取消。
+        - link "開啟 https://lnkd.in/g8qTgA39":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fg8qTgA39&urlhash=q1ph&mt=SSeUK_Nl2TOyp5dBx_x_BKYHTDQwarbZp_QBmtgUeXUGFxLihQ-ghDDPaoCYwXMFOuCxDVaYTwJ433YLPrpU662wGrnssSVu8wZ6YqQARByp16VBmOC21mvYhQ&isSdui=true
+          - strong: https://lnkd.in/g8qTgA39
+        - text: 資料照：Adam Jones from Kelowna, BC, Canada / CC BY-SA 2.0；裁切加字。
+        - link "開啟 https://lnkd.in/gfcdaXU5":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgfcdaXU5&urlhash=tYDt&mt=bwvGWXGO_7xcSck1o3KoVdstIq81sPcBwNYuovYby0Jlc_rbMBQNwK05JLrTTZoFdrJfM1Mat1hslrrIZqYmORTnHGcibduFXf1HHi46xktAcE1jMj71Hpj3PQ&isSdui=true
+          - strong: https://lnkd.in/gfcdaXU5
+        - button:
+          - generic: … 更多
+      - link:
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+        - figure:
+          - img "查看圖片"
+      - button "感受按鈕狀態：無感受":
+      - button "開啟感受選單":
+      - button "回應":
+      - button "轉發":
+      - link "傳送":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+      - paragraph: 2 次曝光
+      - link "查看分析資料":
+        - /url: https://www.linkedin.com/analytics/post-summary/urn:li:activity:7519512199648817152/
+        - paragraph:
+          - generic: 查看分析資料
+          - text: 查看分析資料
+      - link "宣傳":
+        - /url: https://www.linkedin.com/campaignmanager/boost/campaigns/new/details/?origin=memberProfileAllActivity&content=urn%3Ali%3Ashare%3A7519512198436802560&isNileReferrer=true
+        - generic: 宣傳
+      - heading "動態消息" [level=2]:
+        - generic: 動態消息
+      - link:
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - figure:
+          - img "查看Peter Chen的個人檔案"
+      - link "Peter Chen Premium個人檔案 您":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - generic "Peter Chen Premium個人檔案 您":
+          - paragraph: Peter Chen
+          - paragraph:
+            - text: • 您
+      - paragraph: LTU Education Center CEO
+      - paragraph: 1 天
+      - link "Peter Chen Premium個人檔案 您":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - generic "Peter Chen Premium個人檔案 您"
+      - button "開啟Peter Chen貼文的控制選單":
+      - paragraph:
+        - text: 英格蘭TEF擬改制：教學體驗與結果分開看
+        - text: 選校前看清提案、評級與適用地區。
+        - text: OfS諮詢至2027年1月28日，低評級擬連動招生限制；目前仍是提案。
+        - text: 不要把諮詢當成某所學校已受處分，課程與支持服務仍要逐項比較。
+        - text: 國際教育新聞：
+        - link "開啟 https://lnkd.in/gJfCp-QB":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgJfCp-QB&urlhash=P-S8&mt=P567CgsD8CEM9LcXfGd7v1i-GuPFeEAHArqF0OT0GgrhO6tH17W844re_jJ66BbQdLpQmx2fEED1xEuw3jXtrvDuhM711UCawf4_8TFjo_Yb60AAfvbv5FiD_w&isSdui=true
+          - strong: https://lnkd.in/gJfCp-QB
+        - text: 全文：
+        - link "開啟 https://lnkd.in/gsEZKyhH":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgsEZKyhH&urlhash=3bZF&mt=0_9vrzDgY7DMXjA66nUzZpKcikc1-R5HOx6dWsSRVI3rEg_mG_LsgfipZrYkDwls6KQq8fvl_83kmrUMN8iLr-iWQGjss4xmmcW5D5Ko3ZrQS5qYXquOO75v_Q&isSdui=true
+          - strong: https://lnkd.in/gsEZKyhH
+        - text: 給教育工作者：轉介學生時請保留資格、時程與尚待確認的限制。
+        - text: 免費加入環球教育新聞會員！
+        - text: 每週教育新聞與申請提醒，免費且可隨時取消。
+        - link "開啟 https://lnkd.in/g8qTgA39":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fg8qTgA39&urlhash=q1ph&mt=6__6tuED11ic81vKu2hxJZhgtCxvr7Gedqz_8eATHaSoqCgAHazsh4nC2FtHhlFoYwXUiOXvTUQu9zrxpWvFziEAgJ59Cnined8hUed8s5wEz2VwgRdwyaINLg&isSdui=true
+          - strong: https://lnkd.in/g8qTgA39
+        - text: 資料照：Mick Garratt / CC BY-SA 2.0；裁切加字。
+        - link "開啟 https://lnkd.in/gXan7bv3":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgXan7bv3&urlhash=if9O&mt=KWuwv2AkS65YySPND-Ou-PJ-BD4yDeTxboRrUtYYPno9aLKMVof_Vkh8c2XEeaVts1Us_h_NJOFWBcIXh0Q3-7Tp7UCkaVm_lXB5RW_I6A2fGAyEH_zP30uQng&isSdui=true
+          - strong: https://lnkd.in/gXan7bv3
+        - button:
+          - generic: … 更多
+      - link:
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+        - figure:
+          - img "查看圖片"
+      - button "感受按鈕狀態：無感受":
+      - button "開啟感受選單":
+      - button "回應":
+      - button "轉發":
+      - link "傳送":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+      - paragraph: 3 次曝光
+      - link "查看分析資料":
+        - /url: https://www.linkedin.com/analytics/post-summary/urn:li:activity:7519511687427969024/
+        - paragraph:
+          - generic: 查看分析資料
+          - text: 查看分析資料
+      - link "宣傳":
+        - /url: https://www.linkedin.com/campaignmanager/boost/campaigns/new/details/?origin=memberProfileAllActivity&content=urn%3Ali%3Ashare%3A7519511686144315394&isNileReferrer=true
+        - generic: 宣傳
+      - heading "動態消息" [level=2]:
+        - generic: 動態消息
+      - link:
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - figure:
+          - img "查看Peter Chen的個人檔案"
+      - link "Peter Chen Premium個人檔案 您":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - generic "Peter Chen Premium個人檔案 您":
+          - paragraph: Peter Chen
+          - paragraph:
+            - text: • 您
+      - paragraph: LTU Education Center CEO
+      - paragraph: 2 天
+      - link "Peter Chen Premium個人檔案 您":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - generic "Peter Chen Premium個人檔案 您"
+      - button "開啟Peter Chen貼文的控制選單":
+      - paragraph:
+        - text: 短期課程、交換、獎助：先分清三種機會
+        - text: 校園公告是查核起點，各校資格與期限要分開看。
+        - text: 陽明交大10月22日更新姐妹校短期課程；臺大公告學海要點說明會，清大提供交換及獎學金入口。
+        - text: 官方入口：
+        - link "開啟 http://oia.nycu.edu.tw":
+          - /url: https://www.linkedin.com/safety/go/?url=http%3A%2F%2Foia%2Enycu%2Eedu%2Etw&urlhash=US4S&mt=PZqjlePQAeHwo300_Fxvgg7BUt05DHvyM7EAxf4WbxwgmPTtgbcg7RX_OYdsLpRMCMBoGxIR6IQQWQnw2DYPMuuk7GJsQd5rQZQ1_M6Y6oPRugudRiQwItsU_A&isSdui=true
+          - strong: oia.nycu.edu.tw
+        - text: 、
+        - link "開啟 http://oia.ntu.edu.tw":
+          - /url: https://www.linkedin.com/safety/go/?url=http%3A%2F%2Foia%2Entu%2Eedu%2Etw&urlhash=i6H7&mt=fxmaAmIf9rtpK_DWFWIzErrZ61_AHPRErybdUNXOiixbtJK5Haym_g0nG4fmmM85Y95cycAZBRFN-yh6aG4FSRWhEHrEpF7ZKKBNvpnH4MoFytzp1i8eqJR_hw&isSdui=true
+          - strong: oia.ntu.edu.tw
+        - text: 、
+        - link "開啟 http://oga.site.nthu.edu.tw":
+          - /url: https://www.linkedin.com/safety/go/?url=http%3A%2F%2Foga%2Esite%2Enthu%2Eedu%2Etw&urlhash=GBYX&mt=gqQdi03dDKBXynZWiMTpuyX-yLnoTcRaVirVrRBeULLWsy4jvQ9x6tvoQ983hXLH3iMPqqV_uWejOhgw9aj4GElxH4tn9zNOvHV-jcnipRUt54T2JDDMg7ybdw&isSdui=true
+          - strong: oga.site.nthu.edu.tw
+        - text: 。先核對學籍、課程與日期;說明會報名不等於獎助申請。
+        - text: 國內大學選校選系資料庫：
+        - link "開啟 https://lnkd.in/gC-Qb3mY":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgC-Qb3mY&urlhash=mnkk&mt=5MW_iFt4KhELQLtotQem1Mw39OYfsvh80z6A0yHjalQtFnSZyODrvx_d_zVR5hFW-Qp6iDZIZaBadFnzZJIWyRiKB9DyTQEVSbaZUhQlOi3bpJFRaJR4G8v1fg&isSdui=true
+          - strong: https://lnkd.in/gC-Qb3mY
+        - text: 全文：
+        - link "開啟 https://lnkd.in/gC-Qb3mY":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgC-Qb3mY&urlhash=mnkk&mt=ZhbdlrtTBCoiQfrO6JoFDMkdXtKbK6HstVw-lWlz49yOznQZmH99ctHaTsH83ArZhiiK-fkg59ni1lUdId2lvAJEvEgiljk6zykzcbk1AT3RAmNwdZ91SYBjPw&isSdui=true
+          - strong: https://lnkd.in/gC-Qb3mY
+        - text: 給教育工作者：轉介學生時請保留資格、時程與尚待確認的限制。
+        - text: 免費加入環球教育新聞會員！
+        - text: 每週教育新聞與申請提醒，免費且可隨時取消。
+        - link "開啟 https://lnkd.in/g8qTgA39":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fg8qTgA39&urlhash=q1ph&mt=_XJ66GZgi8FOc7md9h8B-tKNiNyZ2nVyE932RKDA9-N0IPNOvhVYH7IcA0Owvr4YLHsLBPnKCQDTEQg8XwODcgKud9GLNN7IeEYZlfu8pBSNhUAbGGwTciEdzg&isSdui=true
+          - strong: https://lnkd.in/g8qTgA39
+        - text: 資料照：Tbatb / CC BY-SA 4.0；裁切加字。
+        - link "開啟 https://lnkd.in/gdiJ9V4k":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgdiJ9V4k&urlhash=IpAw&mt=UZMABS7oSran5VKCGF1ULtoiGlok6FwkrAPCavxa0zca0DJWKRJwzZDNUzYSNcKix8bg4Nd_YFGv_OHr3uhHctFMzQ8xWLhKnoAy-AK4VgffkkxlyJbmXSKUkQ&isSdui=true
+          - strong: https://lnkd.in/gdiJ9V4k
+        - button:
+          - generic: … 更多
+      - link:
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+        - figure:
+          - img "查看圖片"
+      - button "感受按鈕狀態：無感受":
+      - button "開啟感受選單":
+      - button "回應":
+      - button "轉發":
+      - link "傳送":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+      - paragraph: 5 次曝光
+      - link "查看分析資料":
+        - /url: https://www.linkedin.com/analytics/post-summary/urn:li:activity:7519147468584902656/
+        - paragraph:
+          - generic: 查看分析資料
+          - text: 查看分析資料
+      - link "宣傳":
+        - /url: https://www.linkedin.com/campaignmanager/boost/campaigns/new/details/?origin=memberProfileAllActivity&content=urn%3Ali%3Ashare%3A7519147467427237889&isNileReferrer=true
+        - generic: 宣傳
+      - heading "動態消息" [level=2]:
+        - generic: 動態消息
+      - link:
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - figure:
+          - img "查看Peter Chen的個人檔案"
+      - link "Peter Chen Premium個人檔案 您":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - generic "Peter Chen Premium個人檔案 您":
+          - paragraph: Peter Chen
+          - paragraph:
+            - text: • 您
+      - paragraph: LTU Education Center CEO
+      - paragraph: 2 天
+      - link "Peter Chen Premium個人檔案 您":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - generic "Peter Chen Premium個人檔案 您"
+      - button "開啟Peter Chen貼文的控制選單":
+      - paragraph:
+        - text: Michigan State留學DIY：先分清申請身分
+        - text: 2027秋季已開放，11月1日前早申可獲最大獎助考量。
+        - text: 高中畢業後修讀大學，可能須走轉學途徑。非居民獎助最高18,000美元／年，不能直接當成自己的offer。
+        - text: 分開記入學文件、獎助、接受offer與付款日期；續領須核對學分、學籍與連續就讀條件。
+        - text: 留學DIY導航：
+        - link "開啟 https://lnkd.in/gMYyDTPc":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgMYyDTPc&urlhash=0Vp3&mt=L0CK6uRwYPv_gzFmGgiq2EpXdt1fw3bXWfVspkn5zcBWquMxNCXvuJz8nUXdIUY9j3ETbQhsiTKbzClvqAfqY6jl6QnWGv_3ihZTDlBPvko8Rll1hcmSPEKEew&isSdui=true
+          - strong: https://lnkd.in/gMYyDTPc
+        - text: 全文：
+        - link "開啟 https://lnkd.in/gDSra89C":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgDSra89C&urlhash=bFTw&mt=FMzdRi0ooCV4MKMvdTmZhti966FL6tyeBRh02QalAFGQGB44C03k_5iE-E70aico-UIzHci5WCC6v1VYW2Sped5jLTZVXqeaSMYiN6dn8E9GXM0YWJX6NI_ZrQ&isSdui=true
+          - strong: https://lnkd.in/gDSra89C
+        - text: 給教育工作者：轉介學生時請保留資格、時程與尚待確認的限制。
+        - text: 免費加入環球教育新聞會員！
+        - text: 每週教育新聞與申請提醒，免費且可隨時取消。
+        - link "開啟 https://lnkd.in/g8qTgA39":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fg8qTgA39&urlhash=q1ph&mt=mHX3okpwBHi3-dVdW73DgfEUgkFKwv9awemCfPv9kcxZXhmECilQf5h6iuGSlJbYDBbFB0WqmLsJ-BnT1yUpaGz2p925xwSoaQcnF-0i6nts-EYPkreTblZ59Q&isSdui=true
+          - strong: https://lnkd.in/g8qTgA39
+        - text: 資料照：Iswzo / CC BY-SA 4.0；裁切加字。
+        - link "開啟 https://lnkd.in/g4UxdYtN":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fg4UxdYtN&urlhash=o1_2&mt=NjmpHvpKHVMcgyDZdYvguNXB0K8-tinO7BjdzLkL6G1-fzM-K7f6-B8lz89WflFYjiU4qhcHQVD9xtfcOoklE3DTJUFFlHd61vJY8dmRTnga8qoAkOn7zwNqXA&isSdui=true
+          - strong: https://lnkd.in/g4UxdYtN
+        - button:
+          - generic: … 更多
+      - link:
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+        - figure:
+          - img "查看圖片"
+      - button "感受按鈕狀態：無感受":
+      - button "開啟感受選單":
+      - button "回應":
+      - button "轉發":
+      - link "傳送":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+      - paragraph: 3 次曝光
+      - link "查看分析資料":
+        - /url: https://www.linkedin.com/analytics/post-summary/urn:li:activity:7519146963381071872/
+        - paragraph:
+          - generic: 查看分析資料
+          - text: 查看分析資料
+      - link "宣傳":
+        - /url: https://www.linkedin.com/campaignmanager/boost/campaigns/new/details/?origin=memberProfileAllActivity&content=urn%3Ali%3Ashare%3A7519146962122805249&isNileReferrer=true
+        - generic: 宣傳
+      - heading "動態消息" [level=2]:
+        - generic: 動態消息
+      - link:
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - figure:
+          - img "查看Peter Chen的個人檔案"
+      - link "Peter Chen Premium個人檔案 您":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - generic "Peter Chen Premium個人檔案 您":
+          - paragraph: Peter Chen
+          - paragraph:
+            - text: • 您
+      - paragraph: LTU Education Center CEO
+      - paragraph: 2 天
+      - link "Peter Chen Premium個人檔案 您":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - generic "Peter Chen Premium個人檔案 您"
+      - button "開啟Peter Chen貼文的控制選單":
+      - paragraph:
+        - text: Dayton國際學士獎助：最高34,000美元／年
+        - text: 隨入學自動考慮；最高額與錄取都不是保證。
+        - text: 台灣國際學士申請者可依資格受評估。春季入學11月1日、秋季5月1日截止；這是入學期限，不是另設獎學金截止。
+        - text: 官方申請費50美元；校方不提供全額學費獎學金。先完成入學文件，再依書面獎助決定調整生活與學費預算。
+        - text: 台灣國際獎學金雷達：
+        - link "開啟 https://lnkd.in/gKQVT8iz":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgKQVT8iz&urlhash=jMV-&mt=H-SxlABRK4nl9XnyAsYHQoFrT06Hp6MiT0_2xRwBtZ7UxJvEyvznmdor-AC0tu6Z8cSxDDPhr-K8SiTWHhCY3MgoKS3tNY-Cde5y1Npk8v0H9ApvYBKaGhEsJw&isSdui=true
+          - strong: https://lnkd.in/gKQVT8iz
+        - text: 全文：
+        - link "開啟 https://lnkd.in/gK8PXCm8":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgK8PXCm8&urlhash=koPo&mt=NMHMi5luBOQVTykS9HM6W-ehxmVsBXlK4bf3VrX7UdQudcWYtQrWnSTi6Lr5DQxLaLbbxBrkN6MPYA_OHPU1bsHIbdchkThjL4Ta4x94i_Y2kaFyhBgmGvUqmA&isSdui=true
+          - strong: https://lnkd.in/gK8PXCm8
+        - text: 給教育工作者：轉介學生時請保留資格、時程與尚待確認的限制。
+        - text: 免費加入環球教育新聞會員！
+        - text: 每週教育新聞與申請提醒，免費且可隨時取消。
+        - link "開啟 https://lnkd.in/g8qTgA39":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fg8qTgA39&urlhash=q1ph&mt=pzhmhAY86nw7srfK_dugzHtE-rxeZ92NgGESEvj764GE74TaMMVtGp_HAr0RO2hescqaVxQTJoTsB8qcGcQK5Q9FRsr0fZZBHvE80pL_-AsYJvmYZ2MVBiVNCQ&isSdui=true
+          - strong: https://lnkd.in/g8qTgA39
+        - text: 資料照：Tkaiser45331 / CC BY-SA 3.0；裁切加字。
+        - link "開啟 https://lnkd.in/gsMapXpb":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgsMapXpb&urlhash=d1e3&mt=tVsk2qIyIiNFHeFLNjrkcyNXQ8Obu7v2TbV6DkVvXCsG-5h0rekhJV7_oP7628u-79WnWlbn2g1llq1OhWRe6ilJL4Jy1LKB4EzVW3Z6l8jkGeVmseMuREMWHw&isSdui=true
+          - strong: https://lnkd.in/gsMapXpb
+        - button:
+          - generic: … 更多
+      - link:
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+        - figure:
+          - img "查看圖片"
+      - button "感受按鈕狀態：無感受":
+      - button "開啟感受選單":
+      - button "回應":
+      - button "轉發":
+      - link "傳送":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+      - paragraph: 2 次曝光
+      - link "查看分析資料":
+        - /url: https://www.linkedin.com/analytics/post-summary/urn:li:activity:7519146602507317249/
+        - paragraph:
+          - generic: 查看分析資料
+          - text: 查看分析資料
+      - link "宣傳":
+        - /url: https://www.linkedin.com/campaignmanager/boost/campaigns/new/details/?origin=memberProfileAllActivity&content=urn%3Ali%3Ashare%3A7519146601278308352&isNileReferrer=true
+        - generic: 宣傳
+      - heading "動態消息" [level=2]:
+        - generic: 動態消息
+      - link:
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - figure:
+          - img "查看Peter Chen的個人檔案"
+      - link "Peter Chen Premium個人檔案 您":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - generic "Peter Chen Premium個人檔案 您":
+          - paragraph: Peter Chen
+          - paragraph:
+            - text: • 您
+      - paragraph: LTU Education Center CEO
+      - paragraph: 2 天
+      - link "Peter Chen Premium個人檔案 您":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - generic "Peter Chen Premium個人檔案 您"
+      - button "開啟Peter Chen貼文的控制選單":
+      - paragraph:
+        - text: 紐西蘭培訓學校接待國際生
+        - text: 2027年3月擬全國推出；培訓不等於名額或住宿保證。
+        - text: ENZ委託academyEX提供八門課程與輔導，先由50至80所學校試行至2027年2月，再規劃全國推出。
+        - text: 選校時向學校確認國際生團隊、住宿與緊急聯絡方式。照片為校園資料照，不表示該校加入試行。
+        - text: 環球教育新聞：
+        - link "開啟 https://globalednews.com/":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fglobalednews%2Ecom%2F&urlhash=tZjl&mt=0kbYk_qcEMnV2I-hOtNBfH2EjI1BFQbphdWkpvF6FEBWltgVAM9fThqmk_Lkqx3T8q28fArEkPRDiH03D5z3l4n_tOFa7DaZ1IGFlcsHF8dp144Nb-sL8-CK7g&isSdui=true
+          - strong: https://globalednews.com/
+        - text: 全文：
+        - link "開啟 https://lnkd.in/gQpTh7d8":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgQpTh7d8&urlhash=7KQp&mt=ZNIYfraugMa9OUojGPBOgEQAD-Y2T6BLQfV1O60-UlGanJ0AFTa48nujmK8HPOZh_NepxL-eC6pzKk-N4dokaqBwiARFest1mrJqaqw0qvVYxZLwu1pOsCzlMA&isSdui=true
+          - strong: https://lnkd.in/gQpTh7d8
+        - text: 給教育工作者：轉介學生時請保留資格、時程與尚待確認的限制。
+        - text: 免費加入環球教育新聞會員！
+        - text: 每週教育新聞與申請提醒，免費且可隨時取消。
+        - link "開啟 https://lnkd.in/g8qTgA39":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fg8qTgA39&urlhash=q1ph&mt=jKGPvaWDE-2-rTQRiu7t4Y_1CeVQ2GEIEdX1Gv1UXHlgVxxxuE7Tx6qrX_k6qIY3zgXazD8ZbV6XvpqSq3gSZrWnEiEAl3-dyA4d1Up0K8FFJFx8Hgd8amhQNA&isSdui=true
+          - strong: https://lnkd.in/g8qTgA39
+        - text: 資料照：Itineris55 / CC BY-SA 4.0；裁切加字。
+        - link "開啟 https://lnkd.in/g5SP2M6V":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fg5SP2M6V&urlhash=JEoM&mt=Qb_7T6AJl5KXaJCsm1piGlUc0VSRCkdQM1rgpnO8ywFyW9MCnS_pnasCydBY6-QBvMPm6jSHb1jFKi7-iyM84taGBD4ODeujGtX2--CUz7fg9lcoT7Qt1xdIxA&isSdui=true
+          - strong: https://lnkd.in/g5SP2M6V
+        - button:
+          - generic: … 更多
+      - link:
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+        - figure:
+          - img "查看圖片"
+      - button "感受按鈕狀態：無感受":
+      - button "開啟感受選單":
+      - button "回應":
+      - button "轉發":
+      - link "傳送":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+      - paragraph: 3 次曝光
+      - link "查看分析資料":
+        - /url: https://www.linkedin.com/analytics/post-summary/urn:li:activity:7519146234213949441/
+        - paragraph:
+          - generic: 查看分析資料
+          - text: 查看分析資料
+      - link "宣傳":
+        - /url: https://www.linkedin.com/campaignmanager/boost/campaigns/new/details/?origin=memberProfileAllActivity&content=urn%3Ali%3Ashare%3A7519146232926289920&isNileReferrer=true
+        - generic: 宣傳
+      - heading "動態消息" [level=2]:
+        - generic: 動態消息
+      - link:
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - figure:
+          - img "查看Peter Chen的個人檔案"
+      - link "Peter Chen Premium個人檔案 您":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - generic "Peter Chen Premium個人檔案 您":
+          - paragraph: Peter Chen
+          - paragraph:
+            - text: • 您
+      - paragraph: LTU Education Center CEO
+      - paragraph: 3 天
+      - link "Peter Chen Premium個人檔案 您":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - generic "Peter Chen Premium個人檔案 您"
+      - button "開啟Peter Chen貼文的控制選單":
+      - paragraph:
+        - text: 出國說明會報名，不等於獎助申請
+        - text: 選校比較時，把資訊活動與正式申請期限分開記。
+        - text: 臺大10月19日公告116年度學海要點說明會；陽明交大更新姐妹校短期課程，清大提供交換與獎學金入口。
+        - text: 官方入口：
+        - link "開啟 http://oia.ntu.edu.tw":
+          - /url: https://www.linkedin.com/safety/go/?url=http%3A%2F%2Foia%2Entu%2Eedu%2Etw&urlhash=i6H7&mt=Y1u-xIvNtgmVDRgPbfEGzq8b4kCAZ1cvRLXYFpoSrMl2-hIZcA-K8vIJUBe3oEWFGMmuF-Bz3dHPwZSxMsI7RADs1H8r0naKtRe-i7VojZg77Inq_d-MAd0sjQ&isSdui=true
+          - strong: oia.ntu.edu.tw
+        - text: 、
+        - link "開啟 http://oga.site.nthu.edu.tw":
+          - /url: https://www.linkedin.com/safety/go/?url=http%3A%2F%2Foga%2Esite%2Enthu%2Eedu%2Etw&urlhash=GBYX&mt=KehS177kgdiHNFifpLt_pnJncKAxjp_DfzAXTfxPTG9x2OBGj3vbPYnB8JUQ8IZW6LOrZA3x3a_-ES0HEpjq-nfTw5wh5eN_xXxvAGTZQ_F5gTE6vxs5K7I2Zw&isSdui=true
+          - strong: oga.site.nthu.edu.tw
+        - text: 、
+        - link "開啟 http://oia.nycu.edu.tw":
+          - /url: https://www.linkedin.com/safety/go/?url=http%3A%2F%2Foia%2Enycu%2Eedu%2Etw&urlhash=US4S&mt=DAKY8dc6Z-iD2WdLRuln5zj_MOWWU4hVloPL2YP9dKZR3-3zaxXUJVhLBkyeHXIcin3Fj7XLd68THDA0iZqi7rqQEFmXrC3dg52tLhmiv12at5KlDYeANERc2A&isSdui=true
+          - strong: oia.nycu.edu.tw
+        - text: 。先核對自己的學籍與計畫,再逐項查日期;不把各校機會當成全台共用。
+        - text: 國內大學選校選系資料庫：
+        - link "開啟 https://lnkd.in/gC-Qb3mY":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgC-Qb3mY&urlhash=mnkk&mt=DfZ78cImmBcjcq6x0SSsXAWmuk4QALqD_xKQcg2kQCGLdRkYhZm7IH1mZFrXQwFOn2BUtJSB_DAkuM1DwQIEgM3r9jJhxBphAouSt5Fc4Dw_a8TV0ePOmis0UA&isSdui=true
+          - strong: https://lnkd.in/gC-Qb3mY
+        - text: 全文：
+        - link "開啟 https://lnkd.in/gC-Qb3mY":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgC-Qb3mY&urlhash=mnkk&mt=hb3jeAXJoguuvKKB6RykjzQss2v0IALKX0tUhnhgWVSZGHjcQs9MBbkDwHeJBOXcofHZWQCkTS6MnN8jfDsW-crJaWdWOQAIiND8mtBdouwIhFeWDGmQWgP2Iw&isSdui=true
+          - strong: https://lnkd.in/gC-Qb3mY
+        - text: 給教育工作者：轉介學生時請保留資格、時程與尚待確認的限制。
+        - text: 免費加入環球教育新聞會員！
+        - text: 每週教育新聞與申請提醒，免費且可隨時取消。
+        - link "開啟 https://lnkd.in/g8qTgA39":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fg8qTgA39&urlhash=q1ph&mt=oVtP8Xho88t6cvSWXGeI4x7iHEbv1IXH9TOan-DI8i4POwJ2xggjzB2mCv8wjbptgROOzK6q6Wc1OLDwEDZTo6d0oIXOd-QLQ9TVjbpOzh9OePTHj5maA50yHw&isSdui=true
+          - strong: https://lnkd.in/g8qTgA39
+        - text: 資料照：Yu tptw / CC BY-SA 4.0；裁切加字。
+        - link "開啟 https://lnkd.in/g6hENiP4":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fg6hENiP4&urlhash=1svz&mt=xYjdyeJKbN43QmPi-zcqaaQwM4W-lgF89wVjzLrBPRu5zhSuKDviD355tKvT1k8XTEvh_xHTqoujmMb0uJg7j9divZl8g7qg6psMK5klp1PDwPIBfHspAnvsKg&isSdui=true
+          - strong: https://lnkd.in/g6hENiP4
+        - button:
+          - generic: … 更多
+      - link:
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+        - figure:
+          - img "查看圖片"
+      - button "感受按鈕狀態：無感受":
+      - button "開啟感受選單":
+      - button "回應":
+      - button "轉發":
+      - link "傳送":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+      - paragraph: 2 次曝光
+      - link "查看分析資料":
+        - /url: https://www.linkedin.com/analytics/post-summary/urn:li:activity:7518783345627942912/
+        - paragraph:
+          - generic: 查看分析資料
+          - text: 查看分析資料
+      - link "宣傳":
+        - /url: https://www.linkedin.com/campaignmanager/boost/campaigns/new/details/?origin=memberProfileAllActivity&content=urn%3Ali%3Ashare%3A7518783344298311680&isNileReferrer=true
+        - generic: 宣傳
+      - heading "動態消息" [level=2]:
+        - generic: 動態消息
+      - link:
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - figure:
+          - img "查看Peter Chen的個人檔案"
+      - link "Peter Chen Premium個人檔案 您":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - generic "Peter Chen Premium個人檔案 您":
+          - paragraph: Peter Chen
+          - paragraph:
+            - text: • 您
+      - paragraph: LTU Education Center CEO
+      - paragraph: 4 天
+      - link "Peter Chen Premium個人檔案 您":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - generic "Peter Chen Premium個人檔案 您"
+      - button "開啟Peter Chen貼文的控制選單":
+      - paragraph:
+        - text: Bond留學DIY：獎學金要不要另填表？
+        - text: 分清入學自動評估與商學院生活補助的申請路徑。
+        - text: 50%、25%為學費減免；商學院5,000澳元補助須另填表，備履歷與500字陳述，不能直接併加。
+        - text: 先查課程與資格，再列入學、獎助、接受offer及付款節點。圖為校隊活動資料照，非獎助得主。
+        - text: 留學DIY導航：
+        - link "開啟 https://lnkd.in/gMYyDTPc":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgMYyDTPc&urlhash=0Vp3&mt=i5BGh4AeQp3FHPKkhIxjMCrn5EQM5JekXYH2iTbusYg-EWAb-gRfk6LCkEHI-WWZcfEKcG0Zowqq1gsZXcUWd3XLUfUC5oXOheHO9kCV1Up6r4UFhe_7A2LkFw&isSdui=true
+          - strong: https://lnkd.in/gMYyDTPc
+        - text: 全文：
+        - link "開啟 https://lnkd.in/gxhJvt6w":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgxhJvt6w&urlhash=pucE&mt=6K-Rt9ysT6Omzu6Ov_EW0EnwxImRqMbUNS4lwbk8-410DIkVmMRVzxT-pOVB_6mBnV_D4AWc0l7VArYKZSUdD5u4OhiM2C_XFSWBxfpvpm3_7jzIHD7XdA5A2w&isSdui=true
+          - strong: https://lnkd.in/gxhJvt6w
+        - text: 給教育工作者：轉介學生時請保留資格、時程與尚待確認的限制。
+        - text: 免費加入環球教育新聞會員！
+        - text: 每週教育新聞與申請提醒，免費且可隨時取消。
+        - link "開啟 https://lnkd.in/g8qTgA39":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fg8qTgA39&urlhash=q1ph&mt=JFxSdkmepdcODXHPtj7FnJRnsQEvgCEVIvDNp679jqZP52UppyFvBj1CpqugrhbBrXxB2GEXOg3WsL4PEipbrNtOqIc_--Hjz9L3vQ2diuNNb_9yVeP6qhc63A&isSdui=true
+          - strong: https://lnkd.in/g8qTgA39
+        - text: 資料照：Kerrie / CC BY-SA 2.0；裁切加字。
+        - link "開啟 https://lnkd.in/gzySHPw4":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgzySHPw4&urlhash=-3Bq&mt=dfVjck_Da7myOyTxxPQSm7uIwzVRbUthZLmhdIK_N37PWfW05o48PUZn27vmHE9ooyyrSOERBCe7SapbRyFxK4LUKF39X15aoUdBNNB92aGAKvGJ63tdKDawXQ&isSdui=true
+          - strong: https://lnkd.in/gzySHPw4
+        - button:
+          - generic: … 更多
+      - link:
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+        - figure:
+          - img "查看圖片"
+      - button "感受按鈕狀態：無感受":
+      - button "開啟感受選單":
+      - button "回應":
+      - button "轉發":
+      - link "傳送":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+      - paragraph: 4 次曝光
+      - link "查看分析資料":
+        - /url: https://www.linkedin.com/analytics/post-summary/urn:li:activity:7518782994048802816/
+        - paragraph:
+          - generic: 查看分析資料
+          - text: 查看分析資料
+      - link "宣傳":
+        - /url: https://www.linkedin.com/campaignmanager/boost/campaigns/new/details/?origin=memberProfileAllActivity&content=urn%3Ali%3Ashare%3A7518782992706813952&isNileReferrer=true
+        - generic: 宣傳
+      - heading "動態消息" [level=2]:
+        - generic: 動態消息
+      - link:
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - figure:
+          - img "查看Peter Chen的個人檔案"
+      - link "Peter Chen Premium個人檔案 您":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - generic "Peter Chen Premium個人檔案 您":
+          - paragraph: Peter Chen
+          - paragraph:
+            - text: • 您
+      - paragraph: LTU Education Center CEO
+      - paragraph: 4 天
+      - link "Peter Chen Premium個人檔案 您":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - generic "Peter Chen Premium個人檔案 您"
+      - button "開啟Peter Chen貼文的控制選單":
+      - paragraph:
+        - text: Bond國際學士卓越獎：學費減50%
+        - text: 台灣境外申請者先核對身分、成績與課程排除條件。
+        - text: ATAR95或IB38同等成績；限符合條件的澳洲境外國際生，未在澳洲完成或修讀澳洲12年級。醫學排除。
+        - text: 非澳紐公民或永久居民，且未開始Bond學士；隨入學審查，接受期限依offer，減免不含生活費。
+        - text: 台灣國際獎學金雷達：
+        - link "開啟 https://lnkd.in/gKQVT8iz":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgKQVT8iz&urlhash=jMV-&mt=BiJh4-mMx0CPMesFBGjMKfGxWhhaAKGBhlpyVjsIEBDuB600bucGbnzfuFnmOMrLSe9epPOqzJaOxl4sDqP-yZpnmKC_OjOeuTs3bQmseWlHPCyEAVzrJnhbhA&isSdui=true
+          - strong: https://lnkd.in/gKQVT8iz
+        - text: 全文：
+        - link "開啟 https://lnkd.in/gv7m4JgT":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fgv7m4JgT&urlhash=UiYW&mt=SawNyAiwjkzO-fXl1CoLARZstcuxEcA8ztiidf4-Q3VP9A7OZoJDzmsshESMxWdXfGOjMWszv7GtoASP2eGEm0HscrOSw-ybtSpkv1-RgSgKhl6Bqnm--BC6vg&isSdui=true
+          - strong: https://lnkd.in/gv7m4JgT
+        - text: 給教育工作者：轉介學生時請保留資格、時程與尚待確認的限制。
+        - text: 免費加入環球教育新聞會員！
+        - text: 每週教育新聞與申請提醒，免費且可隨時取消。
+        - link "開啟 https://lnkd.in/g8qTgA39":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fg8qTgA39&urlhash=q1ph&mt=cKsjfpLSqMpm7JpnV5_Hfo4AzwkH4wtmAeQPahbuMoZQNFsyubaLS4nRdhckZ2xhI2WR72udcfrz1pha_yMcc5_nFmJNwEzmLzzxsZIqFlfVbNmHy0pqG7j0iA&isSdui=true
+          - strong: https://lnkd.in/g8qTgA39
+        - text: 資料照：Shiftchange / CC0；裁切加字。
+        - link "開啟 https://lnkd.in/gbz68fRJ":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fgbz68fRJ&urlhash=qJz5&mt=5exTuOWTQpaOw9MrFWW6WFwD2EtVt05hMwfbQ4pIpippN9ZhRd6aiD-KWiFUekZcpdlyczW2pSqKYXoU4JlHAfUdwjbmX6lJzmg03vcQ4iVfj917b_Em-Bv5Qg&isSdui=true
+          - strong: https://lnkd.in/gbz68fRJ
+        - button:
+          - generic: … 更多
+      - link:
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+        - figure:
+          - img "查看圖片"
+      - button "感受按鈕狀態：無感受":
+      - button "開啟感受選單":
+      - button "回應":
+      - button "轉發":
+      - link "傳送":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+      - paragraph: 4 次曝光
+      - link "查看分析資料":
+        - /url: https://www.linkedin.com/analytics/post-summary/urn:li:activity:7518782578976436224/
+        - paragraph:
+          - generic: 查看分析資料
+          - text: 查看分析資料
+      - link "宣傳":
+        - /url: https://www.linkedin.com/campaignmanager/boost/campaigns/new/details/?origin=memberProfileAllActivity&content=urn%3Ali%3Ashare%3A7518782577802076160&isNileReferrer=true
+        - generic: 宣傳
+      - heading "動態消息" [level=2]:
+        - generic: 動態消息
+      - link:
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - figure:
+          - img "查看Peter Chen的個人檔案"
+      - link "Peter Chen Premium個人檔案 您":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - generic "Peter Chen Premium個人檔案 您":
+          - paragraph: Peter Chen
+          - paragraph:
+            - text: • 您
+      - paragraph: LTU Education Center CEO
+      - paragraph: 4 天
+      - link "Peter Chen Premium個人檔案 您":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - generic "Peter Chen Premium個人檔案 您"
+      - button "開啟Peter Chen貼文的控制選單":
+      - paragraph:
+        - text: 法國校園受動員影響：先查授課通知
+        - text: 封鎖、預防性關閉與停課不同，赴法學生別只看社群影片。
+        - text: 10月19日教育媒體報導高中動員延伸大學。官方團體強調校園安全與學習權；不能推論全國統一停課。
+        - text: 出發或應考前，核對學校信箱、課程平台及國際處公告，保存評量變更的書面訊息。
+        - text: 環球教育新聞：
+        - link "開啟 https://globalednews.com/":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fglobalednews%2Ecom%2F&urlhash=tZjl&mt=6H9b4iqIzf-9SGFj3OIfpCEnH6gXg9mlMIeQSzKELn_4b8eq93T7Ena0TdwnO4fHxs4sQgklHsucO13T2XkUCXYDiXIyxFNDEzXPjl5Q5do5yeb63RdQgT9XiQ&isSdui=true
+          - strong: https://globalednews.com/
+        - text: 全文：
+        - link "開啟 https://lnkd.in/gpW9t2YP":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgpW9t2YP&urlhash=qIXJ&mt=BU66FV0m9r20NwNdy1NK3rxV39QEbhQTsMXsdnrTnoNEBWstu63cphav2Tm4NX8eczMGkKbxvqrIZHxPYZT8_VHX0jVusD7uXwIUu7C1n1rql-UJGKuHplbTew&isSdui=true
+          - strong: https://lnkd.in/gpW9t2YP
+        - text: 給教育工作者：轉介學生時請保留資格、時程與尚待確認的限制。
+        - text: 免費加入環球教育新聞會員！
+        - text: 每週教育新聞與申請提醒，免費且可隨時取消。
+        - link "開啟 https://lnkd.in/g8qTgA39":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fg8qTgA39&urlhash=q1ph&mt=CDtSFsBdcrtOtaGigTCq9Jf8hwu2QFl81co3BQ_ll98duYjM2cUoDxMdgef1G0iyBRV5h0JmbAd5uIAQdBuQ6XezVi7yvrEnJQhQbEyitTFRz34NA-WUl0hQ3w&isSdui=true
+          - strong: https://lnkd.in/g8qTgA39
+        - text: 資料照：Benoît Prieur / CC0；裁切加字。
+        - link "開啟 https://lnkd.in/g8NVG2xY":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fg8NVG2xY&urlhash=5Ks7&mt=oJjXX7et4iBn-L4brtJesrA5xj8sNJfvtlVQqbOFsGKwdfbBdCzTUMNN3QRi76ctx_wau_5YhQ6kyQhCSMG3rGjC52a80PO1QJADJBg-FmDpckRmCv0q36XCAA&isSdui=true
+          - strong: https://lnkd.in/g8NVG2xY
+        - button:
+          - generic: … 更多
+      - link:
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+        - figure:
+          - img "查看圖片"
+      - button "感受按鈕狀態：無感受":
+      - button "開啟感受選單":
+      - button "回應":
+      - button "轉發":
+      - link "傳送":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+      - paragraph: 3 次曝光
+      - link "查看分析資料":
+        - /url: https://www.linkedin.com/analytics/post-summary/urn:li:activity:7518781974216347648/
+        - paragraph:
+          - generic: 查看分析資料
+          - text: 查看分析資料
+      - link "宣傳":
+        - /url: https://www.linkedin.com/campaignmanager/boost/campaigns/new/details/?origin=memberProfileAllActivity&content=urn%3Ali%3Ashare%3A7518781972933042177&isNileReferrer=true
+        - generic: 宣傳
+      - heading "動態消息" [level=2]:
+        - generic: 動態消息
+      - link:
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - figure:
+          - img "查看Peter Chen的個人檔案"
+      - link "Peter Chen Premium個人檔案 您":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - generic "Peter Chen Premium個人檔案 您":
+          - paragraph: Peter Chen
+          - paragraph:
+            - text: • 您
+      - paragraph: LTU Education Center CEO
+      - paragraph: 4 天
+      - link "Peter Chen Premium個人檔案 您":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - generic "Peter Chen Premium個人檔案 您"
+      - button "開啟Peter Chen貼文的控制選單":
+      - paragraph:
+        - text: 政大短期進修補助：11月10日17:00截止
+        - text: 交換或研修已錄取的合格政大生，別漏掉校內申請。
+        - text: 115學年第2學期出國，須符合政大學籍、成績與語言等條件，並取得交換錄取或研修入學許可。不是所有台灣學生都可申請。
+        - text: 官方公告：
+        - link "開啟 https://lnkd.in/gEiW76Ra":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgEiW76Ra&urlhash=lnm6&mt=GZUc8QGo1eZP40-zy1IiPgx0k3m1HyEbOZfUmlvvkreWBxZkwV87PyGBX_JzUo0Kd7SNngu3PisA-_d5oU99RZNOufRMiFOG8GxGkEL_8zuXtnE5ohFY1O2Sjg&isSdui=true
+          - strong: https://lnkd.in/gEiW76Ra
+        - text: 國內大學選校選系資料庫：
+        - link "開啟 https://lnkd.in/gC-Qb3mY":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgC-Qb3mY&urlhash=mnkk&mt=Q_oVHb6ymDl0C71E51_OROGR7wUEvfJVE94hm3Eg68H6b00kuYygXNGZqMjoRP0p908taRJ95WvX3X7-tDafMknzkr8ZWaRr06Nu6mlGcnJgfkZ6NORe4bIerQ&isSdui=true
+          - strong: https://lnkd.in/gC-Qb3mY
+        - text: 全文：
+        - link "開啟 https://lnkd.in/gC-Qb3mY":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgC-Qb3mY&urlhash=mnkk&mt=vah3PUq6LlGwmfRRVWrxr8Fm5M-qnLrWnwdID7Iq3DmD4MilWF9EZgyoAIeW3KMsxJM1i48fv2pOIWaVzv8PaX2T9jzR_6CSFoUkiU696XXVmfDasIsiZrRpgQ&isSdui=true
+          - strong: https://lnkd.in/gC-Qb3mY
+        - text: 給教育工作者：轉介學生時請保留資格、時程與尚待確認的限制。
+        - text: 免費加入環球教育新聞會員！
+        - text: 每週教育新聞與申請提醒，免費且可隨時取消。
+        - link "開啟 https://lnkd.in/g8qTgA39":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fg8qTgA39&urlhash=q1ph&mt=7E0VDaEqaS5hnKv0aDhJi2_5GlFo9TD51sPNmeeDayGw8OYLjwYY12JjujFw-WPp1RY1t69v2wiSdRcuZPAdXH2ZbzCo1nDuin7h_f5H3vlE-F6eLziqz21JRg&isSdui=true
+          - strong: https://lnkd.in/g8qTgA39
+        - text: 資料照：Felix Filnkoessl / CC BY-SA 2.0；裁切加字。
+        - link "開啟 https://lnkd.in/gUq6dgUr":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgUq6dgUr&urlhash=Bxrj&mt=pLvKfTkYBYPX02fvSEBs_Ttgxl452nSEmOZPKGufB8NYaQUqaA_mkJkzJFw-U_G3mHVQ9gb0Egb5rjLnJUvHG4Sj6wAjdUyWhV4fcwRVLEoR3OJ_RFsXpVyq1w&isSdui=true
+          - strong: https://lnkd.in/gUq6dgUr
+        - button:
+          - generic: … 更多
+      - link:
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+        - figure:
+          - img "查看圖片"
+      - button "感受按鈕狀態：無感受":
+      - button "開啟感受選單":
+      - button "回應":
+      - button "轉發":
+      - link "傳送":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+      - paragraph: 4 次曝光
+      - link "查看分析資料":
+        - /url: https://www.linkedin.com/analytics/post-summary/urn:li:activity:7518423566137278464/
+        - paragraph:
+          - generic: 查看分析資料
+          - text: 查看分析資料
+      - link "宣傳":
+        - /url: https://www.linkedin.com/campaignmanager/boost/campaigns/new/details/?origin=memberProfileAllActivity&content=urn%3Ali%3Ashare%3A7518423564891410432&isNileReferrer=true
+        - generic: 宣傳
+      - heading "動態消息" [level=2]:
+        - generic: 動態消息
+      - link:
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - figure:
+          - img "查看Peter Chen的個人檔案"
+      - link "Peter Chen Premium個人檔案 您":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - generic "Peter Chen Premium個人檔案 您":
+          - paragraph: Peter Chen
+          - paragraph:
+            - text: • 您
+      - paragraph: LTU Education Center CEO
+      - paragraph: 4 天
+      - link "Peter Chen Premium個人檔案 您":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - generic "Peter Chen Premium個人檔案 您"
+      - button "開啟Peter Chen貼文的控制選單":
+      - paragraph:
+        - text: Flinders留學DIY：20%、25%、30%怎麼比？
+        - text: 把課程、校區與成績門檻放進同一份申請清單。
+        - text: 三個獎助方案不能相加，也不是現金。先確認課程是否排除、成績如何換算，再比較總成本。
+        - text: City與Bedford Park校區通勤不同；取得書面offer後，另列生活費、保險、押金與付款日期。
+        - text: 留學DIY導航：
+        - link "開啟 https://lnkd.in/gMYyDTPc":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgMYyDTPc&urlhash=0Vp3&mt=393I4rsnV3esdaQSaUmW2wl_3to2FMU4Cm1rrhjEtUtPakSoFXSdjjjRoDZ9e6BrEobmcIUCl7hQ_ua05h7M_iP60WN5aAfr-l05uKynCR2gtSbfcbsn-fqnjw&isSdui=true
+          - strong: https://lnkd.in/gMYyDTPc
+        - text: 全文：
+        - link "開啟 https://lnkd.in/gu83D_xn":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fgu83D_xn&urlhash=zwkW&mt=ZBGvRPN4DyfyJ1kS-679lDamoY3XTAR_0-Ze-7WDIYiB3K3rcsBFzvbm1gze4Q6jcthJfg_Y9H_qGxDYWj684fw6_cUrpAS7bTYvdCxWvuKLBIyFSZf579SEcg&isSdui=true
+          - strong: https://lnkd.in/gu83D_xn
+        - text: 給教育工作者：轉介學生時請保留資格、時程與尚待確認的限制。
+        - text: 免費加入環球教育新聞會員！
+        - text: 每週教育新聞與申請提醒，免費且可隨時取消。
+        - link "開啟 https://lnkd.in/g8qTgA39":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fg8qTgA39&urlhash=q1ph&mt=GmJuJ0cQOMQj26C9UhiCJIGtrXsu3k_EEu8m4X0gucYaOdlpSqdiIcTlw1S-k0KdLwxRP02JKKReyWKqeIYCu70G3ibc2zCYcMOxKB_91lJDdVaonq7u-h6QEQ&isSdui=true
+          - strong: https://lnkd.in/g8qTgA39
+        - text: 資料照：Cyberjunkie / CC BY 2.5；裁切加字。
+        - link "開啟 https://lnkd.in/gNZ7KgWm":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgNZ7KgWm&urlhash=scMS&mt=59q-GdLFwol0zVRXCK9naAG5spwBUUACHngHSbXw3_YgQxwH4yXF0o3MBibhKQ61l2TJX42URIjdNYp9SJpuY3pb7V7vpiAIQSD7Q553ZjpLF3ZcHxAvQfR8sg&isSdui=true
+          - strong: https://lnkd.in/gNZ7KgWm
+        - button:
+          - generic: … 更多
+      - link:
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+        - figure:
+          - img "查看圖片"
+      - button "感受按鈕狀態：無感受":
+      - button "開啟感受選單":
+      - button "回應":
+      - button "轉發":
+      - link "傳送":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+      - paragraph: 4 次曝光
+      - link "查看分析資料":
+        - /url: https://www.linkedin.com/analytics/post-summary/urn:li:activity:7518422982558441472/
+        - paragraph:
+          - generic: 查看分析資料
+          - text: 查看分析資料
+      - link "宣傳":
+        - /url: https://www.linkedin.com/campaignmanager/boost/campaigns/new/details/?origin=memberProfileAllActivity&content=urn%3Ali%3Ashare%3A7518422981220515842&isNileReferrer=true
+        - generic: 宣傳
+      - heading "動態消息" [level=2]:
+        - generic: 動態消息
+      - link:
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - figure:
+          - img "查看Peter Chen的個人檔案"
+      - link "Peter Chen Premium個人檔案 您":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - generic "Peter Chen Premium個人檔案 您":
+          - paragraph: Peter Chen
+          - paragraph:
+            - text: • 您
+      - paragraph: LTU Education Center CEO
+      - paragraph: 4 天
+      - link "Peter Chen Premium個人檔案 您":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - generic "Peter Chen Premium個人檔案 您"
+      - button "開啟Peter Chen貼文的控制選單":
+      - paragraph:
+        - text: Flinders全球卓越獎：合格學費減30%
+        - text: 台灣籍新國際生可受評估，先核對成績換算與課程。
+        - text: 2027合格入學，學士ATAR80或同等成績，授課碩士等值GPA6.0。隨入學自動審查；未列統一截止日，依課程與offer期限。
+        - text: 醫學、部分護理與心理等課程排除；非澳紐公民及非永久簽證等條件須逐一符合。不得與政府或其他Flinders獎助併領。
+        - text: 台灣國際獎學金雷達：
+        - link "開啟 https://lnkd.in/gKQVT8iz":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgKQVT8iz&urlhash=jMV-&mt=3dZ8HF_bg7inqO8Oy6KShDDEIQe1MqYApmt4VzzO0SMy1H9KAQ03VJSx5l0sv0b9_Byd4Cba8yKqSp1g-tk4ctYUTjDW6rQ_Pa3MPeU7QnpqAauplQPVbTb_sw&isSdui=true
+          - strong: https://lnkd.in/gKQVT8iz
+        - text: 全文：
+        - link "開啟 https://lnkd.in/gYFi8qx8":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgYFi8qx8&urlhash=bnO7&mt=HB6XQnsNagUcT76hVDp2ZvCN490-kF8ODQSEWBoxzBIC4i7tLEbM-Us6HhK34lhn7suLjb3Gy2SLrSOa3ZRc05R8KIlKLh4ZEqTAm3bqD7Odqiyowck21rg1xg&isSdui=true
+          - strong: https://lnkd.in/gYFi8qx8
+        - text: 給教育工作者：轉介學生時請保留資格、時程與尚待確認的限制。
+        - text: 免費加入環球教育新聞會員！
+        - text: 每週教育新聞與申請提醒，免費且可隨時取消。
+        - link "開啟 https://lnkd.in/g8qTgA39":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fg8qTgA39&urlhash=q1ph&mt=Vyht43bd9iwIvwS97AJyRQo9xUItfahw_BHcKMVlrAOSsYA4wRlsIpDgd_4I-sKpLXxmxL_eNYnHLYNaq2giZw0q3mWBseKFuoOkNMgjqduVpg4uqN8OZ5FWLg&isSdui=true
+          - strong: https://lnkd.in/g8qTgA39
+        - text: 資料照：Cyberjunkie / CC BY 2.5；裁切加字。
+        - link "開啟 https://lnkd.in/gTJwxVbA":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgTJwxVbA&urlhash=28hq&mt=K4NYWp5EiCDx34SmjClWBO2oC9uuTL-0S4AQAP-wKPmvAbmPd_fTJnpdPd9yrRUDPaB-CVU6vrkM4u8TJh725sQvJ0WxsItD2EUmR9AvH0F6vvVuIR_NGoy3jg&isSdui=true
+          - strong: https://lnkd.in/gTJwxVbA
+        - button:
+          - generic: … 更多
+      - link:
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+        - figure:
+          - img "查看圖片"
+      - button "感受按鈕狀態：無感受":
+      - button "開啟感受選單":
+      - button "回應":
+      - button "轉發":
+      - link "傳送":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+      - paragraph: 3 次曝光
+      - link "查看分析資料":
+        - /url: https://www.linkedin.com/analytics/post-summary/urn:li:activity:7518422622947151872/
+        - paragraph:
+          - generic: 查看分析資料
+          - text: 查看分析資料
+      - link "宣傳":
+        - /url: https://www.linkedin.com/campaignmanager/boost/campaigns/new/details/?origin=memberProfileAllActivity&content=urn%3Ali%3Ashare%3A7518422621718237184&isNileReferrer=true
+        - generic: 宣傳
+      - heading "動態消息" [level=2]:
+        - generic: 動態消息
+      - link:
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - figure:
+          - img "查看Peter Chen的個人檔案"
+      - link "Peter Chen Premium個人檔案 您":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - generic "Peter Chen Premium個人檔案 您":
+          - paragraph: Peter Chen
+          - paragraph:
+            - text: • 您
+      - paragraph: LTU Education Center CEO
+      - paragraph: 4 天
+      - link "Peter Chen Premium個人檔案 您":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+        - generic "Peter Chen Premium個人檔案 您"
+      - button "開啟Peter Chen貼文的控制選單":
+      - paragraph:
+        - text: 法國80位高教代表：要求2027追加10億歐元
+        - text: 看懂預算訴求，分清已核定與仍待爭取的資源。
+        - text: 10月20日宣言聚焦學生支持、大學運作與校舍。這是高教代表訴求，並非已核定預算或個別學生獎學金。
+        - text: 規劃赴法升學，另向目標學校核對課程與學生服務的最新通知。
+        - text: 環球教育新聞：
+        - link "開啟 https://globalednews.com/":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fglobalednews%2Ecom%2F&urlhash=tZjl&mt=yh4R7pf0x6P919lYis_GWcGxgKCjYcHU4Zhe6IVEEPQnyyQK-617JfwXs18Mpb5NHClXfQ5Qda8joKkYsPdyNI3jERodk1tH6bhWUQGkM62FOt9fErRJoZGiaQ&isSdui=true
+          - strong: https://globalednews.com/
+        - text: 全文：
+        - link "開啟 https://lnkd.in/g9X4dWBH":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fg9X4dWBH&urlhash=YRE2&mt=DNBVtc0AABxhh6kV5h0ijHq8sMgUwHuuPU9oZ0MkyryiPEi3jdcezwtA17GjZ4UZgEmqs2i2bEYCL5A97eW8qggaqGJvhL2bJPUNkTHiPpS2-r0kCnOqdc4YAQ&isSdui=true
+          - strong: https://lnkd.in/g9X4dWBH
+        - text: 給教育工作者：轉介學生時請保留資格、時程與尚待確認的限制。
+        - text: 免費加入環球教育新聞會員！
+        - text: 每週教育新聞與申請提醒，免費且可隨時取消。
+        - link "開啟 https://lnkd.in/g8qTgA39":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fg8qTgA39&urlhash=q1ph&mt=8xwCgGQpRnzjNncmXJcJ4zoqx6fmDqI51DeTzVWrhb43AtVAlvO5lPO3tXGSQI32Ymf5-PlL2cxDw-uOJmNOD7HNAiK6R8S3Ej1tb_pYok4H1htA1OR0T5QPGQ&isSdui=true
+          - strong: https://lnkd.in/g8qTgA39
+        - text: 資料照：Cayambe / CC BY-SA 4.0；裁切加字。
+        - link "開啟 https://lnkd.in/gKA_yZyB":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgKA_yZyB&urlhash=Tbqk&mt=RAUar8JFvU8ssDS7ikNkgm9vjEt67kDpdrKIJgXsZAxGmccwOI5m9nDCkrTgTQWiJdIEzkPVPhQaiLyPFMlBmQzKqusVdvdYWcyU7qBKrmExeSt7euq9JcIbTA&isSdui=true
+          - strong: https://lnkd.in/gKA_yZyB
+        - button:
+          - generic: … 更多
+      - link:
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+        - figure:
+          - img "查看圖片"
+      - button "感受按鈕狀態：無感受":
+      - button "開啟感受選單":
+      - button "回應":
+      - button "轉發":
+      - link "傳送":
+        - /url: https://www.linkedin.com/in/peter-chen-26a754228/recent-activity/all/
+      - paragraph: 22 次曝光
+      - link "查看分析資料":
+        - /url: https://www.linkedin.com/analytics/post-summary/urn:li:activity:7518421453298487296/
+        - paragraph:
+          - generic: 查看分析資料
+          - text: 查看分析資料
+      - link "宣傳":
+        - /url: https://www.linkedin.com/campaignmanager/boost/campaigns/new/details/?origin=memberProfileAllActivity&content=urn%3Ali%3Ashare%3A7518421452086472705&isNileReferrer=true
+        - generic: 宣傳
+  - complementary "側邊":
+    - iframe:
+      - generic: 廣告
+      - img "overflow-web-small"
+      - link "LinkedIn Talent Solutions":
+        - /url: https://www.linkedin.com/li/tscp/sct?destinationUrl=https%3A%2F%2Fwww.linkedin.com%2Fjob-posting%3Fmcid%3D7421726435633025070%26src%3Dli-dynamic%26trk%3D202601_APAC_EN_HiringPro50P_50P_1400%26li_fat_id%3Dc22dfffe-3777-4e70-8a68-89beb2d474df&trackingEvent=%5B%7B%22eventInfo%22%3A%7B%22appId%22%3A%22com.linkedin.ads.rendering.d_web%22%2C%22eventName%22%3A%22SponsoredRightRailContentActionEvent%22%2C%22topicName%22%3A%22SponsoredRightRailContentActionEvent%22%7D%2C%22eventBody%22%3A%7B%22sponsoredEventHeader%22%3A%7B%22encryptedTrackingData%22%3A%22CwEAAAGhdO_9__MSSJG-gXggx2gMnNLV5GA2THldGh4WBGUIIBOD3bNAg5CWgbUQZeXU2ixa9zoF0qKmjxSjx-BaOrHUlRm0GSS3TmQPO2A0LKmlLbOYreyLG3Weo6NvBWUTtcBJiVcaugbx7AdODjv5O-7hZu5exmbw5MIKxSWkzbyJSDRDF1p1AUWBBeSb9xX5GRTaUO0DHPFjDlPiySljkEmYrAvDfKcUz6udfEDu82EF9Mz35JWuwB-1WXWvr8BFW8nUPhFcUdod3tzB1NT_PabEVs21s_b6W8rTij3FsifOz8bFV2mF4xh7-JGYiCQNcohQVVk0-ZfWYWIc63nEGH5jL0UVPK4Kb5bc3dnNxzZFW0U40_TNsXsC3ASZfXsWwJJFfzk81Bba1WyJCSk01KtkUrNq8oiZgTacwaiPMJYkvK3mZYG6Skgt5QdQfI3ob7Un5jliAPHt2Dp387xSRAwHtZzWkMT2KqWCSJkeHhNi1heKaC-YAJ9G-llBg8fwkW2-kUJP5xIW6tSSeY2Ze0GlYCvQ-dBvMCuIxDiN-z6QEfoevo-K1fuLIWwCQQwLs8APQ1AEgvWKuR9OFxyM8utXR4YZTikMEHhsuifGb0ygjzwf5PZts6SmYVbAG4Ze8PRDmkN5nYWhniM3L-T7BKLDe6X8Cd_wZSykfuwezI-MvKbeHfX0Z6b7SP_bIDggrMlWFfd8bOhKazdccQyjo4Qd5DsAZ-X8apQ_mmkaMnVbyaBKU9y3_PdjjjDKdhaUgqtFawNsE0kNytqkjLKYSLk0Ztg10mL5R7lwZZz1HvHFaE8tHejoQFnbpuKlgvlt7Y9pIbTItp8icJoI_yCGPv8JO5TmyJ-uGjPTaEoWhbks-euirWRXLDb3zhIGowtJbZXhg1htNrZpYugZgeBQMPSfYqG4NFajNQw6CbTIZ5FlyXa7LkhAnMwaKmkasx31OPeauRZZlzfMWV0Ppzrjr2VGrxxHiOqntNGhasnrOo2eGYeZ8ADvCPI6aJwwHXKGkq_e541me5CetjLsMsThGX2Vf4rSeXcmog3k7YDwd58ZwAuBKyxDvJzgknoXQdaZHPnopAJEWJW_Hk-nYOD2oNANMHJTbJUcik9Kf8BsyLeb-mLrKY6yU-BppKXoYqZcdZvlNgnCjY_mUGTIreoAyUayo7OwP9OskrTkI-V-0XwbCZegbg%22%7D%2C%22header%22%3A%7B%22pageInstance%22%3A%7B%22pageUrn%22%3A%22urn%3Ali%3Apage%3Ad_flagship3_profile_creator_profile_all_content_view%22%2C%22trackingId%22%3A%22d616fda2-c694-4bd1-8892-09aad84aae88%22%7D%2C%22time%22%3A1792963247569%2C%22version%22%3A%220.0.0%22%7D%2C%22requestHeader%22%3A%7B%22pageKey%22%3A%22d_flagship3_profile_creator_profile_all_content_view%22%2C%22interfaceLocale%22%3A%22zh-TW%22%7D%7D%7D%5D&csrfToken=ajax%3A7856694392726645923
+      - heading "Hiring Pro is your AI partner that makes hiring feel effortless." [level=2]
+      - img "Peter"
+      - link "LinkedIn Talent Solutions":
+        - /url: https://www.linkedin.com/li/tscp/sct?destinationUrl=https%3A%2F%2Fwww.linkedin.com%2Fjob-posting%3Fmcid%3D7421726435633025070%26src%3Dli-dynamic%26trk%3D202601_APAC_EN_HiringPro50P_50P_1400%26li_fat_id%3Dc22dfffe-3777-4e70-8a68-89beb2d474df&trackingEvent=%5B%7B%22eventInfo%22%3A%7B%22appId%22%3A%22com.linkedin.ads.rendering.d_web%22%2C%22eventName%22%3A%22SponsoredRightRailContentActionEvent%22%2C%22topicName%22%3A%22SponsoredRightRailContentActionEvent%22%7D%2C%22eventBody%22%3A%7B%22sponsoredEventHeader%22%3A%7B%22encryptedTrackingData%22%3A%22CwEAAAGhdO_9__MSSJG-gXggx2gMnNLV5GA2THldGh4WBGUIIBOD3bNAg5CWgbUQZeXU2ixa9zoF0qKmjxSjx-BaOrHUlRm0GSS3TmQPO2A0LKmlLbOYreyLG3Weo6NvBWUTtcBJiVcaugbx7AdODjv5O-7hZu5exmbw5MIKxSWkzbyJSDRDF1p1AUWBBeSb9xX5GRTaUO0DHPFjDlPiySljkEmYrAvDfKcUz6udfEDu82EF9Mz35JWuwB-1WXWvr8BFW8nUPhFcUdod3tzB1NT_PabEVs21s_b6W8rTij3FsifOz8bFV2mF4xh7-JGYiCQNcohQVVk0-ZfWYWIc63nEGH5jL0UVPK4Kb5bc3dnNxzZFW0U40_TNsXsC3ASZfXsWwJJFfzk81Bba1WyJCSk01KtkUrNq8oiZgTacwaiPMJYkvK3mZYG6Skgt5QdQfI3ob7Un5jliAPHt2Dp387xSRAwHtZzWkMT2KqWCSJkeHhNi1heKaC-YAJ9G-llBg8fwkW2-kUJP5xIW6tSSeY2Ze0GlYCvQ-dBvMCuIxDiN-z6QEfoevo-K1fuLIWwCQQwLs8APQ1AEgvWKuR9OFxyM8utXR4YZTikMEHhsuifGb0ygjzwf5PZts6SmYVbAG4Ze8PRDmkN5nYWhniM3L-T7BKLDe6X8Cd_wZSykfuwezI-MvKbeHfX0Z6b7SP_bIDggrMlWFfd8bOhKazdccQyjo4Qd5DsAZ-X8apQ_mmkaMnVbyaBKU9y3_PdjjjDKdhaUgqtFawNsE0kNytqkjLKYSLk0Ztg10mL5R7lwZZz1HvHFaE8tHejoQFnbpuKlgvlt7Y9pIbTItp8icJoI_yCGPv8JO5TmyJ-uGjPTaEoWhbks-euirWRXLDb3zhIGowtJbZXhg1htNrZpYugZgeBQMPSfYqG4NFajNQw6CbTIZ5FlyXa7LkhAnMwaKmkasx31OPeauRZZlzfMWV0Ppzrjr2VGrxxHiOqntNGhasnrOo2eGYeZ8ADvCPI6aJwwHXKGkq_e541me5CetjLsMsThGX2Vf4rSeXcmog3k7YDwd58ZwAuBKyxDvJzgknoXQdaZHPnopAJEWJW_Hk-nYOD2oNANMHJTbJUcik9Kf8BsyLeb-mLrKY6yU-BppKXoYqZcdZvlNgnCjY_mUGTIreoAyUayo7OwP9OskrTkI-V-0XwbCZegbg%22%7D%2C%22header%22%3A%7B%22pageInstance%22%3A%7B%22pageUrn%22%3A%22urn%3Ali%3Apage%3Ad_flagship3_profile_creator_profile_all_content_view%22%2C%22trackingId%22%3A%22d616fda2-c694-4bd1-8892-09aad84aae88%22%7D%2C%22time%22%3A1792963247569%2C%22version%22%3A%220.0.0%22%7D%2C%22requestHeader%22%3A%7B%22pageKey%22%3A%22d_flagship3_profile_creator_profile_all_content_view%22%2C%22interfaceLocale%22%3A%22zh-TW%22%7D%7D%7D%5D&csrfToken=ajax%3A7856694392726645923
+        - img "LinkedIn Talent Solutions"
+      - tooltip "LinkedIn Talent Solutions"
+      - heading "Peter, make your next hire the right one." [level=2]
+      - link "Post a free job":
+        - /url: https://www.linkedin.com/li/tscp/sct?destinationUrl=https%3A%2F%2Fwww.linkedin.com%2Fjob-posting%3Fmcid%3D7421726435633025070%26src%3Dli-dynamic%26trk%3D202601_APAC_EN_HiringPro50P_50P_1400%26li_fat_id%3Dc22dfffe-3777-4e70-8a68-89beb2d474df&trackingEvent=%5B%7B%22eventInfo%22%3A%7B%22appId%22%3A%22com.linkedin.ads.rendering.d_web%22%2C%22eventName%22%3A%22SponsoredRightRailContentActionEvent%22%2C%22topicName%22%3A%22SponsoredRightRailContentActionEvent%22%7D%2C%22eventBody%22%3A%7B%22sponsoredEventHeader%22%3A%7B%22encryptedTrackingData%22%3A%22CwEAAAGhdO_9__MSSJG-gXggx2gMnNLV5GA2THldGh4WBGUIIBOD3bNAg5CWgbUQZeXU2ixa9zoF0qKmjxSjx-BaOrHUlRm0GSS3TmQPO2A0LKmlLbOYreyLG3Weo6NvBWUTtcBJiVcaugbx7AdODjv5O-7hZu5exmbw5MIKxSWkzbyJSDRDF1p1AUWBBeSb9xX5GRTaUO0DHPFjDlPiySljkEmYrAvDfKcUz6udfEDu82EF9Mz35JWuwB-1WXWvr8BFW8nUPhFcUdod3tzB1NT_PabEVs21s_b6W8rTij3FsifOz8bFV2mF4xh7-JGYiCQNcohQVVk0-ZfWYWIc63nEGH5jL0UVPK4Kb5bc3dnNxzZFW0U40_TNsXsC3ASZfXsWwJJFfzk81Bba1WyJCSk01KtkUrNq8oiZgTacwaiPMJYkvK3mZYG6Skgt5QdQfI3ob7Un5jliAPHt2Dp387xSRAwHtZzWkMT2KqWCSJkeHhNi1heKaC-YAJ9G-llBg8fwkW2-kUJP5xIW6tSSeY2Ze0GlYCvQ-dBvMCuIxDiN-z6QEfoevo-K1fuLIWwCQQwLs8APQ1AEgvWKuR9OFxyM8utXR4YZTikMEHhsuifGb0ygjzwf5PZts6SmYVbAG4Ze8PRDmkN5nYWhniM3L-T7BKLDe6X8Cd_wZSykfuwezI-MvKbeHfX0Z6b7SP_bIDggrMlWFfd8bOhKazdccQyjo4Qd5DsAZ-X8apQ_mmkaMnVbyaBKU9y3_PdjjjDKdhaUgqtFawNsE0kNytqkjLKYSLk0Ztg10mL5R7lwZZz1HvHFaE8tHejoQFnbpuKlgvlt7Y9pIbTItp8icJoI_yCGPv8JO5TmyJ-uGjPTaEoWhbks-euirWRXLDb3zhIGowtJbZXhg1htNrZpYugZgeBQMPSfYqG4NFajNQw6CbTIZ5FlyXa7LkhAnMwaKmkasx31OPeauRZZlzfMWV0Ppzrjr2VGrxxHiOqntNGhasnrOo2eGYeZ8ADvCPI6aJwwHXKGkq_e541me5CetjLsMsThGX2Vf4rSeXcmog3k7YDwd58ZwAuBKyxDvJzgknoXQdaZHPnopAJEWJW_Hk-nYOD2oNANMHJTbJUcik9Kf8BsyLeb-mLrKY6yU-BppKXoYqZcdZvlNgnCjY_mUGTIreoAyUayo7OwP9OskrTkI-V-0XwbCZegbg%22%7D%2C%22header%22%3A%7B%22pageInstance%22%3A%7B%22pageUrn%22%3A%22urn%3Ali%3Apage%3Ad_flagship3_profile_creator_profile_all_content_view%22%2C%22trackingId%22%3A%22d616fda2-c694-4bd1-8892-09aad84aae88%22%7D%2C%22time%22%3A1792963247569%2C%22version%22%3A%220.0.0%22%7D%2C%22requestHeader%22%3A%7B%22pageKey%22%3A%22d_flagship3_profile_creator_profile_all_content_view%22%2C%22interfaceLocale%22%3A%22zh-TW%22%7D%7D%7D%5D&csrfToken=ajax%3A7856694392726645923
+    - heading "您可能認識" [level=2]
+    - paragraph: 基於您的職稱
+    - link "Mohammad Askar Rahimi · 3 度 UCAC International":
+      - /url: https://www.linkedin.com/in/mohammad-askar-rahimi-788376209/
+      - figure
+      - paragraph:
+        - link "Mohammad Askar Rahimi":
+          - /url: https://www.linkedin.com/in/mohammad-askar-rahimi-788376209/
+      - paragraph: · 3 度
+      - paragraph: UCAC International
+    - link "邀請Mohammad Askar Rahimi加為好友":
+      - /url: /preload/custom-invite/?vanityName=mohammad-askar-rahimi-788376209
+      - generic: 建立關係
+    - link "Clover L · 3 度 + 海外雇主的高管":
+      - /url: https://www.linkedin.com/in/clover-l-20b742444/
+      - figure:
+      - paragraph:
+        - link "Clover L":
+          - /url: https://www.linkedin.com/in/clover-l-20b742444/
+      - paragraph: · 3 度 +
+      - paragraph: 海外雇主的高管
+    - link "邀請Clover L加為好友":
+      - /url: /preload/custom-invite/?vanityName=clover-l-20b742444
+      - generic: 建立關係
+    - link "林文欽 · 3 度 台大創創中心執行長":
+      - /url: https://www.linkedin.com/in/%E6%96%87%E6%AC%BD-%E6%9E%97-4212a628/
+      - figure
+      - paragraph:
+        - link "林文欽":
+          - /url: https://www.linkedin.com/in/%E6%96%87%E6%AC%BD-%E6%9E%97-4212a628/
+      - paragraph: · 3 度
+      - paragraph: 台大創創中心執行長
+    - link "邀請林文欽加為好友":
+      - /url: /preload/custom-invite/?vanityName=文欽-林-4212a628
+      - generic: 建立關係
+    - link "Ray Lu Premium · 2 度 Chairman & CEO @ Junyi Academy Foundation | General Medical Doctor":
+      - /url: https://www.linkedin.com/in/kuanweilu/
+      - figure:
+        - img "Ray Lu正在徵才中"
+      - paragraph:
+        - link "Ray Lu Premium":
+          - /url: https://www.linkedin.com/in/kuanweilu/
+          - text: Ray Lu
+          - img "Premium":
+      - paragraph: · 2 度
+      - paragraph: Chairman & CEO @ Junyi Academy Foundation | General Medical Doctor
+    - link "邀請Ray Lu加為好友":
+      - /url: /preload/custom-invite/?vanityName=kuanweilu
+      - generic: 建立關係
+    - link "Alexia Eftimia Galanopoulos · 2 度 Managing Director at Access English by Nacel Canada":
+      - /url: https://www.linkedin.com/in/alexia-eftimia-galanopoulos-1a3482438/
+      - figure
+      - paragraph:
+        - link "Alexia Eftimia Galanopoulos":
+          - /url: https://www.linkedin.com/in/alexia-eftimia-galanopoulos-1a3482438/
+      - paragraph: · 2 度
+      - paragraph: Managing Director at Access English by Nacel Canada
+    - link "邀請Alexia Eftimia Galanopoulos加為好友":
+      - /url: /preload/custom-invite/?vanityName=alexia-eftimia-galanopoulos-1a3482438
+      - generic: 建立關係
+    - button "顯示更多":
+      - generic: 顯示更多
+    - iframe:
+      - banner:
+        - link "促銷內容":
+          - /url: https://www.linkedin.com/ads/start?src=en-all-ad-li-ads_by_li&trk=ads_by_li&utm_medium=ad&utm_source=li&utm_campaign=ads_by_li
+        - button:
+      - link "廣告圖片：1,628,757,946 讓新客戶一眼看見你 從首次曝光到最終點擊，讓 Google Ads 助你出現在關鍵行銷觸點。":
+        - /url: https://www.linkedin.com/li/tscp/sct?destinationUrl=https%3A%2F%2Fad.doubleclick.net%2Fddm%2Ftrackclk%2FN5295.linkedin.com%2FB34685212.457507045%3Bdc_trk_aid%3D644286479%3Bdc_trk_cid%3D246337853%3Bdc_lat%3D%3Bdc_rdid%3D%3Btag_for_child_directed_treatment%3D%3Btfua%3D%3Bltd%3D%3Bdc_tdv%3D1%3Fli_fat_id%3Dc22dfffe-3777-4e70-8a68-89beb2d474df%26utm_medium%3Dpaid-social%26utm_id%3D907063776%26utm_source%3Dlinkedin&trackingEvent=%5B%7B%22eventInfo%22%3A%7B%22appId%22%3A%22com.linkedin.ads.rendering.d_web%22%2C%22eventName%22%3A%22SponsoredRightRailContentActionEvent%22%2C%22topicName%22%3A%22SponsoredRightRailContentActionEvent%22%7D%2C%22eventBody%22%3A%7B%22sponsoredEventHeader%22%3A%7B%22encryptedTrackingData%22%3A%22CwEAAAGhdO_9_TG9s5mLVQWxANl7LVui-Yzx5ADOrGvMq2iYSXrlE93C3d2f-7GW4_Pa3TXd04yZDobqvbEn_mUfLi0YMchOkMdBg6BIVzTClvrsnbQWjSdN0vBdfgaFolppq7BYZXzS1w3UBVeh9VIou_iRLZxElrETYlhUIb2u8Q2c1UvLCOHZjeJJ9iCJMTGHKtLWoWO1c2aZEkJfaU74kO29DOXF7WDiih967h5jOAz6JmRs2uKXG3pyjuix_8Y-iz6IyVgzQrVIJ7qixY1nxfaDcfh8fFjL1XUwssc52sp_B7YiCr4U1YEgK-7Hx-QgR7dC6ujY8mHmVgw0vyhujOZ8e9bxHx4Vh1KdU7r3nyWi39NRSifOlgv9VSx0fyuRwDSlQbtAu1YJ639Kq1qRG39f8Ie5I2u-cKwWlGNVeOJeH0A6mk2NuNPyVeC3fNNreNARt-GCzviAreCpR6et4a5f0wPYe6aa0Wh7Wdl6lhtA7QrfQR6348-tIyVZf9Ql89wwiF8Cl9YY213qsYUiBU16yrOBFNXTc8sVHXdbgQcMTSIbZIRsaI1ZiJbteZK_9bxg5kGOcaXFhmRIkBWPXJlK8tFxHUOJ52jLEwVq70TOl_DMXCkG8Uk4u0B5lM4fuHiYQYxWH5sGrMqeUPg4rZQ4Wwodo97CHDCx5iEhqxqPwHIAGnqQOM9hCjzfR5UZBRUPUWDBTK--WGb1Ybog_xOdMhWF27_Nz-hNGjnefesik40pbfTNX9DXmYt7nFmh7DeNNDPPvtqnVvtxUgEXomJgRaK_BoIVc3O9T1u7hHXsese4l9o_KyEPC0aREKlWsIWgr44L8Cue20tm9lvWYwT41-pKD98h7WHwWJoji3XCN1Bb_ytVrrwRlsKtFuf3KX49ZejB69eB6cvzhRepMTu9LOTWvTkHXyhmhf8YDQcJYyh1Lz8pw_h662sMCuM9j1q_kkiZ299JqNjfOt8nFDQvrGyRGvnVeNpLd_NdKU_ogB1HPXTefEBFI4qmyToKcbED6r2kaxTI6L7myL9Jctht4-9_EfpTspbP0lUmKR1MvOUEjnNnk75NNoywg9cYjxM6CQ%22%7D%2C%22header%22%3A%7B%22pageInstance%22%3A%7B%22pageUrn%22%3A%22urn%3Ali%3Apage%3Ad_flagship3_profile_creator_profile_all_content_view%22%2C%22trackingId%22%3A%223a56d680-598c-4694-9d62-77df22824f1f%22%7D%2C%22time%22%3A1792963247612%2C%22version%22%3A%220.0.0%22%7D%2C%22requestHeader%22%3A%7B%22pageKey%22%3A%22d_flagship3_profile_creator_profile_all_content_view%22%2C%22interfaceLocale%22%3A%22zh-TW%22%7D%7D%7D%5D&csrfToken=ajax%3A7856694392726645923
+        - img "廣告圖片：1,628,757,946"
+        - heading "讓新客戶一眼看見你" [level=4]
+        - paragraph: 從首次曝光到最終點擊，讓 Google Ads 助你出現在關鍵行銷觸點。
+      - link "廣告圖片：1,395,284,826 Dozens of Jira templates Templates, workflows, and automations help you tackle projects of any size.":
+        - /url: https://www.linkedin.com/li/tscp/sct?destinationUrl=https%3A%2F%2Fwww.atlassian.com%2Fsoftware%2Fjira%3Fli_fat_id%3Dc22dfffe-3777-4e70-8a68-89beb2d474df%26utm_campaign%3DP%253Ajira%257CO%253Appm%257CV%253Alinkedin%257CG%253Arow%257CL%253Aen%257CF%253Aaware%257CT%253Apredictive%257CA%253Atext%257CD%253Aalld%257CU%253Aconversions%26utm_medium%3Dpaid-social%26utm_content%3DP%253Ajira%257CO%253Appm%257CV%253Alinkedin%257CG%253Arow%257CL%253Aen%257CF%253Aaware%257CT%253Apredictive%257CA%253Atext%257CD%253Aalld%257CU%253Aconversions_text-features-template-template-dozens-100x100-na-na-anysize%26campaign_group_id%3D607137106%26creative_id%3D1395284826%26utm_source%3Dlinkedin%26account_id%3D507711439%26campaign_group_name%3DOBA_P%253Ajira-software%257CO%253Appm%257CV%253Alinkedin%26utm_campaignid%3D645603036%26account_name%3DJira_Linkedin_Social_BAU&trackingEvent=%5B%7B%22eventInfo%22%3A%7B%22appId%22%3A%22com.linkedin.ads.rendering.d_web%22%2C%22eventName%22%3A%22SponsoredRightRailContentActionEvent%22%2C%22topicName%22%3A%22SponsoredRightRailContentActionEvent%22%7D%2C%22eventBody%22%3A%7B%22sponsoredEventHeader%22%3A%7B%22encryptedTrackingData%22%3A%22CwEAAAGhdO_9_qLKaRGIS94frOSBTT3cMVTwVI2x07HSwQ7LfM6mAoeJiFNYKdMshE-AKGXI1aUXa-R7PbnPVegnIUhARTY10_vBhODP1CslxVsp3iGYWx9zV2VDKlJtlyhTD6ZXyLtjR8JZmqO5vKHfULrgvIBHgxglwVq1vGfB5SNHNeUChEP_R5_aX2zNlpWNdPRuIT67k-qSvAJLnuJSMViK4mUS_x4VkYydkrfXSQdxy2Bx7pI5Cxshx2wix5ixhG0MWTmDKsmA4-ANYNjliwOO1oLtmen_X2NeGYKmgccozUd-1182WqdiMwpUgza8UODg6rbROzw4L8NIRH5MCYV73A7I362UFPDKyrlyC2lrH_xrpyz6y_jiP85qePFcuNfgbSoJIV5TarUZBJAYWjpTyYTzXQoF0yJooq8UARgA1JISv0J2y1382aPkz6LhosZzkL5zWgkESOOn_zQpe1rUT1TLquPOLlQbKCkKSkhwllMqSK4ZYAcjULl7ePjG3JJSPj--K-3rwcizQjWtsLCeBqFILs1hN4J1UPsgK4oOiy0UqvmtMuk6f3ViYi4LETIU6mTZPfBSsj0Ow-OSpTYwVjQ5IW-TyNdUXCvu93IbDuC3SjcxNdM73ZpUyw-Ur7c8SgJq3jbSRYbkMFPZTQltQw1LHu7TRObj232pwZIuTPZOjEvJIgMiptPViXUZk886WoH6Al_p5hbT1RE_K5DqSWhlMpgrKSgNEooPkxnEyYISlKROQEt2J5V-xpQJngYyNwf9MAP2PkjjkQKHcXFScfPsl1mopnDOdkEas8qAHBthYfDQ0f3ZtieNTHzsDOwMKj5R0_S2kv9h82JjmPB8eeH8DA7P9wLD3SmtoBpjHzIKfvdUDEtAR4FzRwkiROXaSTpUQg-0ka4YOxVbBXR5Lex1lOT3R4Z94nnH5faaTa5PX4CwbU5MCcIV2S3BixqOoe_irZ2EcD85gx_RCOABSqTsrCU8-surjAsdmFu3c6-o_BRIhUuoFSImkylpY5gI8ETxMyrNQHhkvdihsBz9-ZtLOSNtMUJPZghbKyTOjdVaDY5JsPbs_DU1ESsNbDV1n-HadF50Kd8%22%7D%2C%22header%22%3A%7B%22pageInstance%22%3A%7B%22pageUrn%22%3A%22urn%3Ali%3Apage%3Ad_flagship3_profile_creator_profile_all_content_view%22%2C%22trackingId%22%3A%2288cfb606-251c-4587-b221-3002856a69c3%22%7D%2C%22time%22%3A1792963247614%2C%22version%22%3A%220.0.0%22%7D%2C%22requestHeader%22%3A%7B%22pageKey%22%3A%22d_flagship3_profile_creator_profile_all_content_view%22%2C%22interfaceLocale%22%3A%22zh-TW%22%7D%7D%7D%5D&csrfToken=ajax%3A7856694392726645923
+        - img "廣告圖片：1,395,284,826"
+        - heading "Dozens of Jira templates" [level=4]
+        - paragraph: Templates, workflows, and automations help you tackle projects of any size.
+      - link "廣告圖片：1,584,686,243 Your edge at work Stay ahead with Bloomberg business news, market tools, and expert analysis.":
+        - /url: https://www.linkedin.com/li/tscp/sct?destinationUrl=https%3A%2F%2Fwww.bloomberg.com%2Fsubscriptions%2Fuspaid%3Futm_source%3Dlinkedin%26utm_medium%3Dcpc_social%26utm_campaign%3DIN_BLUM_OFF_ACQN_SOC_FY26_Q1-Q4_Linkedin_BRN_PrismaID_ProspectingConversions%26utm_term%3D%257B%257BAD_NAME%257D%257D%26li_fat_id%3Dc22dfffe-3777-4e70-8a68-89beb2d474df&trackingEvent=%5B%7B%22eventInfo%22%3A%7B%22appId%22%3A%22com.linkedin.ads.rendering.d_web%22%2C%22eventName%22%3A%22SponsoredRightRailContentActionEvent%22%2C%22topicName%22%3A%22SponsoredRightRailContentActionEvent%22%7D%2C%22eventBody%22%3A%7B%22sponsoredEventHeader%22%3A%7B%22encryptedTrackingData%22%3A%22CwEAAAGhdO_9_xbbA-UuLVfkl47V1vaJ5GDxyNgDFyp1IjYLEvJsMmdh9GcQTY6xs_wsjMz57Rc6milXMZYQmasi6b_VK3jxd-EPtlJgoCYANdUWwMWQRstlvmqBLiestG3VwVNKvlTsHoGXGEuc8d9-4fjLwXaaOUFE15YhEkpwPMo2COooRErNF8yIjRAZpSVP7guWUREUoRvNKAtOH0PxCZmvxM-_soWQFxYhUkFnCpnS_u1q61i9dAyPXHTA5KJPOEQxIDRxzKH6P2ZmMFZinZH_ukmAfcUtenmGajlIpS49VrNNaTLYRKiVr-VujZ8uDBnwUn03F5rczB30ad-lOSH1FxhC9we4eagtXBJraHnhlbQwvfZdiXpUGrFHo8WYLG5hgbMG9I7RVGiKDKovYPHPpNIP5O-iAIJrAQC5UJ5O1NFDOyTDtTxyC8evsXHjF0n2YwNMHXA3ktlPi8VGzChQN6sHn-t40fspI0sAbDnUJcKLMdbxrXqxDIluYPbKN2uCWPBVAoZHUc7080z0yOhGV6rIWktUA0Qt5Pv_dck_gizpJwJJIJw6NmvpSwg2P7py-60ooPFEqFUyvP8K6UgamnJTA9acG1EPkTFJSzFWL37IQmw7gr0RECwmdcPSgWeDNdq8cZIJ3PJFt7THL90G0gXtHOCd_zcmJsGjeW2biVsyVuSBpGwRFE8Q222wv7L1MvSo2XS-G5cbJWc_44dFlH9CXeR82FKMWNB0f9c6gnW05gBEQPcCaEQeke6brKaDbKNkIbXuJb402BqZyciTcc5q8Do-XQclq9VnEBXcHfKkmr-hsxcdxvIJaWY9VKVchOnHsQl35aogAq_05MpvA-lNDtIFs2t_XmNAk4qnnupR4h1Izo1xKxw7eYmxODmUshCFlxI_HSrLfn-riMGrBLQ7GGKg-dQvTXi1_fE1CbB9f1Yw40F_m7nzrrWbwj0CocsiGZ0TGV3qYyH5TUn7oSz04Iz3tlEDmXvGAqewp5yDbJ8ZcHUuUnFjiFgBLxzVCL8JrLjTiEIHKu2f_-bYXQT82BTV%22%7D%2C%22header%22%3A%7B%22pageInstance%22%3A%7B%22pageUrn%22%3A%22urn%3Ali%3Apage%3Ad_flagship3_profile_creator_profile_all_content_view%22%2C%22trackingId%22%3A%2271b62861-48aa-4488-b9f0-01da2e9c1ba4%22%7D%2C%22time%22%3A1792963247615%2C%22version%22%3A%220.0.0%22%7D%2C%22requestHeader%22%3A%7B%22pageKey%22%3A%22d_flagship3_profile_creator_profile_all_content_view%22%2C%22interfaceLocale%22%3A%22zh-TW%22%7D%7D%7D%5D&csrfToken=ajax%3A7856694392726645923
+        - img "廣告圖片：1,584,686,243"
+        - heading "Your edge at work" [level=4]
+        - paragraph: Stay ahead with Bloomberg business news, market tools, and expert analysis.
+  - generic "頁尾":
+    - navigation:
+      - link "關於":
+        - /url: https://about.linkedin.com/
+        - paragraph: 關於
+      - link "無障礙功能":
+        - /url: https://www.linkedin.com/accessibility/
+        - paragraph: 無障礙功能
+      - link "人才解決方案":
+        - /url: https://business.linkedin.com/talent-solutions?trk=flagship_nav&veh=li-footer-lts-control&src=li-footer
+        - paragraph: 人才解決方案
+      - link "社群指南":
+        - /url: https://www.linkedin.com/legal/professional-community-policies/
+        - paragraph: 社群指南
+      - link "徵才專區":
+        - /url: https://careers.linkedin.com/
+        - paragraph: 徵才專區
+      - link "行銷解決方案":
+        - /url: https://business.linkedin.com/advertise?trk=n_nav_lms_f&src=li-footer
+        - paragraph: 行銷解決方案
+      - button "隱私權及條款":
+        - paragraph: 隱私權及條款
+      - link "Ad Choices":
+        - /url: https://www.linkedin.com/help/linkedin/answer/62931/
+        - paragraph: Ad Choices
+      - link "廣告":
+        - /url: https://www.linkedin.com/ad/start/?trk=n_nav_ads_rr
+        - paragraph: 廣告
+      - link "銷售解決方案":
+        - /url: https://business.linkedin.com/sales-solutions?trk=flagship_nav&veh=li-footer-lss-control&src=li-footer
+        - paragraph: 銷售解決方案
+      - link "行動版":
+        - /url: https://mobile.linkedin.com/
+        - paragraph: 行動版
+      - link "小型企業":
+        - /url: https://business.linkedin.com/grow?src=li-footer
+        - paragraph: 小型企業
+      - link "說明中心":
+        - /url: https://safety.linkedin.com/
+        - paragraph: 說明中心
+    - paragraph: LinkedIn Corporation © 2026 年
+    - list:
+      - link "有問題嗎？":
+        - /url: https://www.linkedin.com/help/linkedin/
+        - paragraph: 有問題嗎？
+      - paragraph: 前往說明中心。
+      - link "管理帳戶和隱私權":
+        - /url: https://www.linkedin.com/mypreferences/d/
+        - paragraph: 管理帳戶和隱私權
+      - paragraph: 前往設定
+      - link "所獲推薦透明度":
+        - /url: https://www.linkedin.com/help/linkedin/answer/a1339724/
+        - paragraph: 所獲推薦透明度
+      - paragraph: 深入瞭解推薦內容。
+    - paragraph: 選擇語言
+    - combobox "選擇語言":
+      - option "العربية（阿拉伯文）"
+      - option "বাংলা （孟加拉語）"
+      - option "Čeština（捷克文）"
+      - option "Dansk（丹麥文）"
+      - option "Deutsch（德文）"
+      - option "Ελληνικά （希臘文）"
+      - option "English（英文）"
+      - option "Español（西班牙文）"
+      - option "فارسی （波斯文）"
+      - option "Suomi （芬蘭語）"
+      - option "Français（法文）"
+      - option "हिंदी（印度文）"
+      - option "Magyar（匈牙利語）"
+      - option "Bahasa Indonesia（印尼文）"
+      - option "Italiano（義大利文）"
+      - option "עברית （希伯來文）"
+      - option "日本語（日文）"
+      - option "한국어（韓文）"
+      - option "मराठी （馬拉地語）"
+      - option "Bahasa Malaysia（馬來文）"
+      - option "Nederlands（荷蘭文）"
+      - option "Norsk（挪威文）"
+      - option "ਪੰਜਾਬੀ （旁遮普語）"
+      - option "Polski（波蘭文）"
+      - option "Português（葡萄牙文）"
+      - option "Română（羅馬尼亞文）"
+      - option "Русский（俄文）"
+      - option "Svenska（瑞典文）"
+      - option "తెలుగు （泰盧固語）"
+      - option "ภาษาไทย（泰文）"
+      - option "Tagalog（菲律賓文）"
+      - option "Türkçe（土耳其文）"
+      - option "Українська（烏克蘭文）"
+      - option "Tiếng Việt（越南語）"
+      - option "简体中文 (簡體中文)"
+      - option "正體中文 (正體中文)" [selected]
+- complementary:
+  - img "Peter Chen"
+  - generic: 狀態為已上線
+  - button "您正處於訊息重疊畫面。按下 Enter 即可開啟對話清單。":
+    - generic: 訊息
+    - generic: 您正處於訊息重疊畫面。按下 Enter 即可開啟對話清單。
+  - mark:
+    - generic: "2"
+  - button "開啟選單":
+    - img "開啟選單"
+  - button "撰寫訊息":
+    - generic: 撰寫訊息
+  - button "您正處於訊息重疊畫面。按下 Enter 即可開啟對話清單。":
+    - generic: 您正處於訊息重疊畫面。按下 Enter 即可開啟對話清單。
+- complementary "能為您的職涯發展、求職等提供協助的 AI 助理"
+- iframe:
+  - region "祝賀訊息":
+    - heading "0 則通知" [level=2]
+    - alert
+  - region
+  - button "前往搜尋":
+    - generic: 前往搜尋
+  - button "前往內容":
+    - generic: 前往內容
+  - button "鍵盤快捷鍵":
+    - generic: 鍵盤快捷鍵
+  - button "關閉選單":
+    - generic: 關閉選單
+  - banner "全域導覽":
+    - link "LinkedIn":
+      - /url: https://www.linkedin.com/feed/
+      - img "LinkedIn":
+    - button "按一下開始搜尋":
+      - generic: 搜尋
+    - navigation "主選單":
+      - list:
+        - link "動態消息 新通知 首頁":
+          - /url: https://www.linkedin.com/feed/
+          - generic: 動態消息 新通知
+          - generic "首頁"
+        - link "2 個新通知網路更新 我的人脈":
+          - /url: https://www.linkedin.com/mynetwork/?
+          - generic: "2"
+          - generic: 2 個新通知網路更新
+          - generic "我的人脈"
+        - link "職缺":
+          - /url: https://www.linkedin.com/jobs/?
+          - generic "職缺"
+        - link "2 個新通知訊息 訊息":
+          - /url: https://www.linkedin.com/messaging/?
+          - generic: "2"
+          - generic: 2 個新通知訊息
+          - generic "訊息"
+        - link "25 個新通知 通知":
+          - /url: https://www.linkedin.com/notifications/?
+          - generic: "25"
+          - generic: 25 個新通知
+          - generic "通知"
+        - button "Peter Chen 我":
+          - img "Peter Chen"
+          - text: 我
+        - button "商務功能":
+          - generic "商務功能":
+            - text: 商務功能
+        - link "Learning":
+          - /url: https://www.linkedin.com/learning/?trk=nav_neptune_learning&
+          - generic "Learning"
+- button
+- img "Monica"
+- generic: Ctrl+M
+- text: 解釋

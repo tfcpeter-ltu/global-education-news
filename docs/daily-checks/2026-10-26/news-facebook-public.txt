@@ -1,0 +1,545 @@
+- banner:
+  - button "關閉":
+  - link "Facebook":
+    - /url: /
+  - navigation:
+    - list:
+      - link:
+        - /url: /
+      - link:
+        - /url: /reel/?s=tab
+      - link:
+        - /url: /professional_dashboard/?ref=tab_bar
+      - link:
+        - /url: /marketplace/?ref=app_tab
+      - link:
+        - /url: /gaming/play/?store_visit_source=gaming_tab
+  - navigation "帳號控制項和設定":
+    - button "Facebook 功能表":
+    - button "Messenger":
+    - button "通知":
+    - button "Account, your profile":
+      - img "你的個人檔案"
+- heading [level=1]: 首頁
+- main:
+  - link:
+    - /url: /?should_open_composer=false
+  - region:
+    - heading [level=3]: 建立貼文
+    - link:
+      - /url: https://www.facebook.com/peter.chentan.5
+    - button:
+      - generic: Peter von Tan，在想些什麼？
+    - button
+    - button
+    - button
+  - region:
+    - heading [level=3]: 限時動態
+    - button [disabled]:
+    - grid:
+      - row:
+        - gridcell:
+          - link:
+            - /url: /stories/create/
+            - generic: 建立限時動態
+        - gridcell:
+          - link:
+            - /url: /stories/1703296413014192/UzpfSVNDOjE1NDIzMTI4MzEyNjI4Nzc=/?bucket_count=9&source=story_tray
+            - generic: 許立丕
+        - gridcell:
+          - link:
+            - /url: /stories/122097075933430161/UzpfSVNDOjIyMzkxNjUyMTk5Nzk0MDU=/?bucket_count=9&source=story_tray
+            - generic: Mira's Mini English
+        - gridcell:
+          - link:
+            - /url: /stories/102800055440881/UzpfSVNDOjExMjA2MTY5NTM5MDMyMjE=/?bucket_count=9&source=story_tray
+            - generic: 每日說電影
+        - gridcell:
+          - link:
+            - /url: /stories/110863414375248/UzpfSVNDOjE1NDA5ODA1NzExMjc2Nzk=/?bucket_count=9&source=story_tray
+            - generic: 許立丕後援會粉絲團
+        - gridcell:
+          - link:
+            - /url: /stories/1549487218504313/UzpfSVNDOjE2NzQ2MjEyNjczNzAyOTU=/?bucket_count=9&source=story_tray
+            - generic: 蔡宗叡
+        - gridcell:
+          - link:
+            - /url: /stories/106402844959415/UzpfSVNDOjI5NjI2ODY4MjA3NzUzNDM=/?bucket_count=9&source=story_tray
+            - generic: 不專業學術閒聊
+        - gridcell:
+          - link:
+            - /url: /stories/10156320242352657/UzpfSVNDOjEwOTA5NjY3MjM4MjI0NTA=/?bucket_count=9&source=story_tray
+            - generic: 海總理
+        - gridcell:
+          - link:
+            - /url: /stories/102031538634932/UzpfSVNDOjExMzEwODEzMjYxNzA5NzM=/?bucket_count=9&source=story_tray
+            - generic: San Francisco Chronicle
+        - gridcell:
+          - link:
+            - /url: /stories/1721976744494665/UzpfSVNDOjExMzg5MDQzMjE5NzQ3NTc=/?bucket_count=9&source=story_tray
+            - generic: 陳逸倫
+        - gridcell:
+          - link:
+            - /url: /stories/1839703686179198/UzpfSVNDOjkxODM3MDExNDU0MzIwOQ==/?bucket_count=9&source=story_tray
+            - generic: Zach MacDonald
+        - gridcell:
+          - status
+    - button:
+  - heading [level=3]: 動態消息貼文
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - link:
+    - /url: https://www.facebook.com/clarencefutw?__cft__[0]=AZjtf25pwS218bOUykuTDVYu_17BmiC2xmcZGwbz_iZjRzNN4GP_Xd2dGYXtJaGnSefXc3JQ-WOt0SDztHsUKiMzhiAIIxfUntsO0oLevT2oEF3lkO6PT5rbmbgzGgJZun5GF2WyyAuA1a1KZBBjqU4d2iaghQmSKQJ5I8cHHg0L7o3RAR2LFJITppg&__tn__=%3C%3C%2CP-R
+  - heading [level=4]:
+    - link:
+      - /url: https://www.facebook.com/clarencefutw?__cft__[0]=AZjtf25pwS218bOUykuTDVYu_17BmiC2xmcZGwbz_iZjRzNN4GP_Xd2dGYXtJaGnSefXc3JQ-WOt0SDztHsUKiMzhiAIIxfUntsO0oLevT2oEF3lkO6PT5rbmbgzGgJZun5GF2WyyAuA1a1KZBBjqU4d2iaghQmSKQJ5I8cHHg0L7o3RAR2LFJITppg&__tn__=-]C%2CP-R
+      - text: 傅鏡平
+    - text: ──在
+    - link:
+      - /url: https://www.facebook.com/Sacheon-Korea-248057129267477/?__cft__[0]=AZjtf25pwS218bOUykuTDVYu_17BmiC2xmcZGwbz_iZjRzNN4GP_Xd2dGYXtJaGnSefXc3JQ-WOt0SDztHsUKiMzhiAIIxfUntsO0oLevT2oEF3lkO6PT5rbmbgzGgJZun5GF2WyyAuA1a1KZBBjqU4d2iaghQmSKQJ5I8cHHg0L7o3RAR2LFJITppg&__tn__=kC%2CP-R
+      - generic: Sacheon, Korea
+    - text: 。
+  - generic: 22小時前
+  - link:
+    - /url: "?__cft__[0]=AZjtf25pwS218bOUykuTDVYu_17BmiC2xmcZGwbz_iZjRzNN4GP_Xd2dGYXtJaGnSefXc3JQ-WOt0SDztHsUKiMzhiAIIxfUntsO0oLevT2oEF3lkO6PT5rbmbgzGgJZun5GF2WyyAuA1a1KZBBjqU4d2iaghQmSKQJ5I8cHHg0L7o3RAR2LFJITppg&__tn__=%2CO%2CP-R#?cci"
+    - generic: o͏
+    - generic: d͏
+    - generic: e͏
+    - generic: S͏
+    - generic: o͏
+    - generic: n͏
+    - generic: p͏
+    - generic: r͏
+    - generic: s͏
+    - generic: t͏
+    - generic: a͏
+    - generic: 9͏
+    - generic: 4͏
+    - generic: m͏
+    - generic: 5͏
+    - generic: ͏
+    - generic: 4͏
+    - generic: 9͏
+    - generic: g͏
+    - generic: 1͏
+    - generic: 2͏
+    - generic: 9͏
+    - generic: 6͏
+    - generic: m͏
+    - generic: c͏
+    - generic: m͏
+    - generic: 4͏
+    - generic: a͏
+    - generic: c͏
+    - generic: u͏
+    - generic: 9͏
+    - generic: 1͏
+    - generic: 1͏
+    - generic: 0͏
+    - generic: 8͏
+    - generic: 0͏
+    - generic: 7͏
+    - generic: 3͏
+    - generic: 5͏
+    - generic: 小͏
+    - generic: 2͏
+    - generic: 0͏
+    - generic: f͏
+    - generic: 0͏
+    - generic: c͏
+    - generic: u͏
+    - generic: 1͏
+    - generic: 時͏
+    - generic: u͏
+    - generic: 3͏
+    - generic: 1͏
+    - generic: u͏
+    - generic: 7͏
+    - generic: l͏
+    - generic: 1͏
+    - generic: 2͏
+    - generic: c͏
+    - generic: t͏
+    - generic: 8͏
+    - generic: g͏
+  - generic: ·
+  - link:
+    - /url: https://www.facebook.com/pages/Sacheon/166417596749930?__cft__[0]=AZjtf25pwS218bOUykuTDVYu_17BmiC2xmcZGwbz_iZjRzNN4GP_Xd2dGYXtJaGnSefXc3JQ-WOt0SDztHsUKiMzhiAIIxfUntsO0oLevT2oEF3lkO6PT5rbmbgzGgJZun5GF2WyyAuA1a1KZBBjqU4d2iaghQmSKQJ5I8cHHg0L7o3RAR2LFJITppg&__tn__=%2CP-R
+    - text: 南韓 Sacheon
+  - generic: ·
+  - button:
+  - link:
+    - /url: "#"
+  - generic: 22日看完航展，排隊搭接駁車前往泗川長途客運站，排在我前面這位老兄說他來自日本，還掛了一個媒體的名牌，我看他有點眼熟，看到他的英文名字，我說你是不是名古屋的村XX，他說是，我說我們認識啊，他以前還會傳新明和US-2下水試飛的照片給我，後來就失去聯繫。我問說你跟另外一個日本朋友來台灣，我還請你們到遼寧夜市去吃海鮮呢，然後他說他完全不記得了，真是貴人多忘事啊。
+  - link:
+    - /url: https://www.facebook.com/photo/?fbid=10164370444384270&set=a.10151068556054270&__cft__[0]=AZjtf25pwS218bOUykuTDVYu_17BmiC2xmcZGwbz_iZjRzNN4GP_Xd2dGYXtJaGnSefXc3JQ-WOt0SDztHsUKiMzhiAIIxfUntsO0oLevT2oEF3lkO6PT5rbmbgzGgJZun5GF2WyyAuA1a1KZBBjqU4d2iaghQmSKQJ5I8cHHg0L7o3RAR2LFJITppg&__tn__=EH-R
+  - button:
+    - generic: "222"
+  - button:
+  - button:
+    - generic: "7"
+  - button:
+    - generic: "1"
+  - toolbar:
+    - button
+    - button
+  - button:
+    - generic: 查看更多留言
+  - article:
+    - link:
+      - /url: https://www.facebook.com/erich.shih.5?comment_id=Y29tbWVudDoxMDE2NDM3MDUxNTk0NDI3MF8xNjE4OTY2NjYzMDQzNDQ5&__cft__[0]=AZjtf25pwS218bOUykuTDVYu_17BmiC2xmcZGwbz_iZjRzNN4GP_Xd2dGYXtJaGnSefXc3JQ-WOt0SDztHsUKiMzhiAIIxfUntsO0oLevT2oEF3lkO6PT5rbmbgzGgJZun5GF2WyyAuA1a1KZBBjqU4d2iaghQmSKQJ5I8cHHg0L7o3RAR2LFJITppg&__tn__=R-R
+    - link:
+      - /url: https://www.facebook.com/erich.shih.5?comment_id=Y29tbWVudDoxMDE2NDM3MDUxNTk0NDI3MF8xNjE4OTY2NjYzMDQzNDQ5&__cft__[0]=AZjtf25pwS218bOUykuTDVYu_17BmiC2xmcZGwbz_iZjRzNN4GP_Xd2dGYXtJaGnSefXc3JQ-WOt0SDztHsUKiMzhiAIIxfUntsO0oLevT2oEF3lkO6PT5rbmbgzGgJZun5GF2WyyAuA1a1KZBBjqU4d2iaghQmSKQJ5I8cHHg0L7o3RAR2LFJITppg&__tn__=R-R
+      - generic: 施孝瑋
+    - generic: ·
+    - link:
+      - /url: https://www.facebook.com/clarencefutw/posts/pfbid0cANjrrYwQwseFKoPVwz16TyaRQ9qtbZko6iAd3BWhga2hMQLY3mTJJZXPLfn6KJKl?comment_id=1618966663043449&__cft__[0]=AZjtf25pwS218bOUykuTDVYu_17BmiC2xmcZGwbz_iZjRzNN4GP_Xd2dGYXtJaGnSefXc3JQ-WOt0SDztHsUKiMzhiAIIxfUntsO0oLevT2oEF3lkO6PT5rbmbgzGgJZun5GF2WyyAuA1a1KZBBjqU4d2iaghQmSKQJ5I8cHHg0L7o3RAR2LFJITppg&__tn__=R-R
+      - generic: 21小時
+    - generic: 是不是當年文大夫在悅賓樓請日本航迷吃飯那次他也在？
+    - button:
+    - button:
+    - button
+    - button:
+    - button: 回覆
+    - button
+  - article:
+    - link:
+      - /url: https://www.facebook.com/clarencefutw?comment_id=Y29tbWVudDoxMDE2NDM3MDUxNTk0NDI3MF8zNjE3MTkwMTE1MTI2NzA2&__cft__[0]=AZjtf25pwS218bOUykuTDVYu_17BmiC2xmcZGwbz_iZjRzNN4GP_Xd2dGYXtJaGnSefXc3JQ-WOt0SDztHsUKiMzhiAIIxfUntsO0oLevT2oEF3lkO6PT5rbmbgzGgJZun5GF2WyyAuA1a1KZBBjqU4d2iaghQmSKQJ5I8cHHg0L7o3RAR2LFJITppg&__tn__=R-R
+    - link:
+      - /url: https://www.facebook.com/clarencefutw?comment_id=Y29tbWVudDoxMDE2NDM3MDUxNTk0NDI3MF8zNjE3MTkwMTE1MTI2NzA2&__cft__[0]=AZjtf25pwS218bOUykuTDVYu_17BmiC2xmcZGwbz_iZjRzNN4GP_Xd2dGYXtJaGnSefXc3JQ-WOt0SDztHsUKiMzhiAIIxfUntsO0oLevT2oEF3lkO6PT5rbmbgzGgJZun5GF2WyyAuA1a1KZBBjqU4d2iaghQmSKQJ5I8cHHg0L7o3RAR2LFJITppg&__tn__=R-R
+      - generic: 傅鏡平
+    - generic: ·
+    - link:
+      - /url: https://www.facebook.com/clarencefutw/posts/pfbid0cANjrrYwQwseFKoPVwz16TyaRQ9qtbZko6iAd3BWhga2hMQLY3mTJJZXPLfn6KJKl?comment_id=1618966663043449&reply_comment_id=3617190115126706&__cft__[0]=AZjtf25pwS218bOUykuTDVYu_17BmiC2xmcZGwbz_iZjRzNN4GP_Xd2dGYXtJaGnSefXc3JQ-WOt0SDztHsUKiMzhiAIIxfUntsO0oLevT2oEF3lkO6PT5rbmbgzGgJZun5GF2WyyAuA1a1KZBBjqU4d2iaghQmSKQJ5I8cHHg0L7o3RAR2LFJITppg&__tn__=R-R
+      - generic: 19小時
+    - link:
+      - /url: https://www.facebook.com/erich.shih.5?__cft__[0]=AZjtf25pwS218bOUykuTDVYu_17BmiC2xmcZGwbz_iZjRzNN4GP_Xd2dGYXtJaGnSefXc3JQ-WOt0SDztHsUKiMzhiAIIxfUntsO0oLevT2oEF3lkO6PT5rbmbgzGgJZun5GF2WyyAuA1a1KZBBjqU4d2iaghQmSKQJ5I8cHHg0L7o3RAR2LFJITppg&__tn__=R-R
+      - generic: 施孝瑋
+    - text: 應該沒有
+    - button:
+    - button:
+    - button
+    - button:
+    - button: 回覆
+  - button:
+    - generic: 查看2則回覆
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - article:
+    - status
+  - article:
+    - status
+- complementary:
+  - heading [level=3]:
+    - generic: 贊助
+  - link:
+    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.mentor4ads.com%2Fen%2Foverseas%3Futm_medium%3Dpaid%26utm_source%3Dfb%26utm_id%3D120252209613770454%26utm_content%3D120253254989420454%26utm_term%3D120252209613750454%26utm_campaign%3D120252209613770454%26fbclid%3DIwZXh0bgNhZW0BMABwZG9mBWFkaWQBqzmywzT3xmJyaWQRMVpESzZnbFVDOW5nT2p2azFzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEer_MzHFEdpO0fhr7bV7DF9Uk3GVSrX1EQoiJn8jEfCO4EBSjPmLGXYzO2SBs_aem_sZMeF2fQ_-QJwXA8PeZtZw&h=AUAQrV7KfjxUYIz5pMAZSRZEvvhUWOaaOzvb-Ei6B7TJdG3TotzxTitUMtRcrBwJK3y3Vi6ATGVryW8y0rAZSUFoVGHxq3FUEgFyu83M-u4O267r-NA61KS8_vfvBJomMJH91A&__tn__=*I&c[0]=AUChkmY2lQZbYlrD-58iVXwLaLi_O8hOE5S_9YGt5s-mg6c3sHnQKfOQu-tY5mZZdDDStO2JwXZ-C_ZZJ0cF8o2LmNI1_29EHOkDQwu-hSnZlqoMk7peu2tcCTcw2zpX3GVA0fEbYcei7_wTmqXxfZPVSlhgUe8yztue5LLMyNAiZUuJDG4lk-TI8TgSdCZD8DS1NZSrNV3ecRt5vdiYkUY
+    - generic: Master Your Global Ads on One Screen.
+    - generic: mentor4ads.com
+  - button:
+  - link:
+    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fclarasocial.com%2Ftw%3Futm_source%3Dfb%26utm_medium%3DFacebook_Right_Column%26utm_campaign%3DTW%2520%257C%2520Social%2520media%2520%25C2%25B7%2520purchase%2520%257C%2520Sep%25202026%26utm_content%3DTW%2520%257C%2520fresh-time-20260924%2520%257C%2520new-conversations-8%26campaign_id%3D120250092093590789%26adset_id%3D120250092095040789%26ad_id%3D120250158578540789%26utm_id%3D120250092093590789%26utm_term%3D120250092095040789%26fbclid%3DIwZXh0bgNhZW0BMABwZG9mBWFkaWQBqzbjOc71hWJyaWQRMVpESzZnbFVDOW5nT2p2azFzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEer_MzHFEdpO0fhr7bV7DF9Uk3GVSrX1EQoiJn8jEfCO4EBSjPmLGXYzO2SBs_aem_STooVBoienWd-uLd2M6m1Q&h=AUAQrV7KfjxUYIz5pMAZSRZEvvhUWOaaOzvb-Ei6B7TJdG3TotzxTitUMtRcrBwJK3y3Vi6ATGVryW8y0rAZSUFoVGHxq3FUEgFyu83M-u4O267r-NA61KS8_vfvBJomMJH91A&__tn__=*I&c[0]=AUB8JB9ExN5DyX99N8Y7VWFoM6p8xxB9vBxZEhE42HhW9PICPlENlOsB0YtRIMeeanNLs9DnqEhJ0WrhCMQF-XSVgO9Wh17RSQRYklE6ux2NMHeuF6bquHW_m1qY2uaczsk1R6dYgoWsqm0N1sUcevMrKp8FJwkmGVxIu77PQalbh332Eg_Hn0-4z8XTnhA5Dr2HzrG4tejHbs4N1YHiegU
+    - generic: 把心力留給你的生意
+    - generic: clarasocial.com
+  - button:
+  - heading [level=3]:
+    - generic: 壽星
+  - link:
+    - /url: /events/birthdays/
+    - generic: 蔡宜臻今天生日。
+- dialog:
+  - 'dialog "LTU OSSD #1加拿大 台加高中雙聯學制的貼文"':
+    - 'heading "LTU OSSD #1加拿大 台加高中雙聯學制的貼文" [level=2]':
+      - generic: "LTU OSSD #1加拿大 台加高中雙聯學制的貼文"
+    - button "關閉" [active]:
+    - separator
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - 'link "LTU OSSD #1加拿大 台加高中雙聯學制"':
+      - /url: https://www.facebook.com/LTUOSSDTaiwan?__cft__[0]=AZhStRJfRinqZYRhnwF8o6FSo55ymrhXbWldKV4QS4PlOo25Jl7QMQAKeoWnFG9WA2Z-qnihqxdxVB297chwSenGrZ1Yqa3qDmFFxiOQd78LDai0kP0mGJGgfWCL5SMKvZFk7EWMOcuzEXrj2RAnTS-Sr1IWRpdL&__tn__=%3C%3C%2CP-R
+      - 'img "LTU OSSD #1加拿大 台加高中雙聯學制"'
+    - 'heading "LTU OSSD #1加拿大 台加高中雙聯學制" [level=3]':
+      - 'link "LTU OSSD #1加拿大 台加高中雙聯學制"':
+        - /url: https://www.facebook.com/LTUOSSDTaiwan?__cft__[0]=AZhStRJfRinqZYRhnwF8o6FSo55ymrhXbWldKV4QS4PlOo25Jl7QMQAKeoWnFG9WA2Z-qnihqxdxVB297chwSenGrZ1Yqa3qDmFFxiOQd78LDai0kP0mGJGgfWCL5SMKvZFk7EWMOcuzEXrj2RAnTS-Sr1IWRpdL&__tn__=-UC%2CP-R
+        - generic: "LTU OSSD #1加拿大 台加高中雙聯學制"
+    - generic: 約 1 分鐘前
+    - link "約 1 分鐘前":
+      - /url: "?__cft__[0]=AZhStRJfRinqZYRhnwF8o6FSo55ymrhXbWldKV4QS4PlOo25Jl7QMQAKeoWnFG9WA2Z-qnihqxdxVB297chwSenGrZ1Yqa3qDmFFxiOQd78LDai0kP0mGJGgfWCL5SMKvZFk7EWMOcuzEXrj2RAnTS-Sr1IWRpdL&__tn__=%2CO%2CP-R#?kgh"
+      - generic: o͏
+      - generic: d͏
+      - generic: e͏
+      - generic: S͏
+      - generic: o͏
+      - generic: n͏
+      - generic: p͏
+      - generic: r͏
+      - generic: s͏
+      - generic: t͏
+      - generic: a͏
+      - generic: 9͏
+      - generic: 4͏
+      - generic: m͏
+      - generic: 5͏
+      - generic: 分͏
+      - generic: 4͏
+      - generic: 9͏
+      - generic: g͏
+      - generic: 1͏
+      - generic: ͏
+      - generic: 9͏
+      - generic: 6͏
+      - generic: m͏
+      - generic: c͏
+      - generic: m͏
+      - generic: 4͏
+      - generic: a͏
+      - generic: c͏
+      - generic: u͏
+      - generic: 9͏
+      - generic: 1͏
+      - generic: 1͏
+      - generic: 0͏
+      - generic: 8͏
+      - generic: 0͏
+      - generic: 7͏
+      - generic: 3͏
+      - generic: 5͏
+      - generic: 鐘͏
+      - generic: 1͏
+      - generic: 0͏
+      - generic: f͏
+      - generic: 0͏
+      - generic: c͏
+      - generic: u͏
+      - generic: 1͏
+      - generic: l͏
+      - generic: u͏
+      - generic: 3͏
+      - generic: 1͏
+      - generic: u͏
+      - generic: 7͏
+      - generic: l͏
+      - generic: 1͏
+      - generic: 2͏
+      - generic: c͏
+      - generic: t͏
+      - generic: 8͏
+      - generic: g͏
+    - generic: ·
+    - img "分享對象：所有人"
+    - 'button "對LTU OSSD #1加拿大 台加高中雙聯學制的這則貼文採取的動作"':
+    - generic: Memorial國際生減少：16.2%與45%怎麼讀？
+    - generic: 分清一年、三年與不同學生群體。
+    - generic: AAU全時簽證學生一年減16.2%；CBC全部國際生三年減約45%。兩者口徑不同。
+    - generic: 招生數據不等於個人錄取或簽證機率；選校仍須核對課程、費用與支持。
+    - text: 國際教育新聞：
+    - link "https://globalednews.com/news/":
+      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fglobalednews.com%2Fnews%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgVicmlkETFaREs2Z2xVQzluZ09qdmsxc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrFHRahgFY_enrGu-5iDFeQaADQRom_UrMrrxssRV_1GEZ_al-MovDqSQzlZ_aem_qpmVzc9ziKp7MpZMi0bbrQ&h=AUCitBZ6YsMywtEKgh99TIn73B46kNe0ihnc7F4toGdEVMxJZvKLjb2bhJE1zrTHWMTiG62ZHhfKyhEUwowBVPjC06KsAHwtK8VeN2ZhqN5UZOVrl91n-On8-Q10gtLZt-28-0WJCO475fZ4&__tn__=-UK-R&c[0]=AUCBIqYmFJOSRwDfvWHQvSMMgPwXZpcSUpGBu_sSVIeLokznqQuKY_vEbRAVci7FcX2Yf4dq-eJCM9O6DeYvQOoqAQJ5CCxiuYt-rVOGXfOhUN5TXCUZB1f3BgVFFBf9CMw-BoF3GYPIY5SdknUP4AAvGgIxnqga3rNmZZysO298ZZOsDx1XBUkaeaV6X8s
+    - text: 全文：
+    - link "https://globalednews.com/....../memorial....../":
+      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fglobalednews.com%2Fnews%2Fmemorial-international-enrolment-measures-2026%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgVicmlkETFaREs2Z2xVQzluZ09qdmsxc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHqHEeqfkXc0SLtXyRc2tAlEYvrf14DQtYl4VMc30deYDWgs7wLHvpVzWhgzI_aem_i-GTizOV9Tk7_AgWo8YGGQ&h=AUA1i-m68FM7oMo6mhcPnp2Y0a_kyPb9jn4K4JE4P4uX98tsG8KvGlHogB8Xi07RwYiKxQOExj9XCPVDiMXhCjSwFHXrfzpPzVSUILNueH9DfjkQM_XHWWPBtzWVPUMUFq41ooBP0p98nOBs&__tn__=-UK-R&c[0]=AUCBIqYmFJOSRwDfvWHQvSMMgPwXZpcSUpGBu_sSVIeLokznqQuKY_vEbRAVci7FcX2Yf4dq-eJCM9O6DeYvQOoqAQJ5CCxiuYt-rVOGXfOhUN5TXCUZB1f3BgVFFBf9CMw-BoF3GYPIY5SdknUP4AAvGgIxnqga3rNmZZysO298ZZOsDx1XBUkaeaV6X8s
+    - generic: 和正在規劃升學的家人一起核對條件。
+    - generic: 免費加入環球教育新聞會員！
+    - generic: 每週教育新聞與申請提醒，免費且可隨時取消。
+    - link "https://globalednews.com/newsletter/":
+      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fglobalednews.com%2Fnewsletter%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgVicmlkETFaREs2Z2xVQzluZ09qdmsxc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHmzUWipMATc7wGslRZ-J54fTmO5hd7MWM5wc1W4KRIfO3KTOFNSIt1ZLQKCt_aem_UUJOxWmOlzb0Yv3_pIImRw&h=AUDWWIePFLW1tHN9y13eAE1L8CvtCtu80wTPozNZ2ym9PwGaDJuX-Y8cP15lxMnqDX9fZHgs6kKTzNielXoorTn0pSS4jZc4_Vr8JjcXuuJhbTmjeVh-hHcwY4byNYNx7CbrU0l3z0k4PgJD&__tn__=-UK-R&c[0]=AUCBIqYmFJOSRwDfvWHQvSMMgPwXZpcSUpGBu_sSVIeLokznqQuKY_vEbRAVci7FcX2Yf4dq-eJCM9O6DeYvQOoqAQJ5CCxiuYt-rVOGXfOhUN5TXCUZB1f3BgVFFBf9CMw-BoF3GYPIY5SdknUP4AAvGgIxnqga3rNmZZysO298ZZOsDx1XBUkaeaV6X8s
+    - generic: 資料照：User:Neelix / Public domain；裁切加字。
+    - link "https://globalednews.com/....../202....../credits.html......":
+      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fglobalednews.com%2Fimages%2Fdaily%2F2026-10-26%2Fcredits.html%3Ffbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgVicmlkETFaREs2Z2xVQzluZ09qdmsxc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHoQleVxEhSQ-dAkqu0otfQktDcLs6BHDYf5Q2ScuU4nvxjfhUEJAJwJMfaq0_aem_z7L4TC7JSp2wg1T8FZhVcw%23ca&h=AUCC38u1L_u34x8DtXCnRpHRGDC5K8AYryVlz-BZoK0SuXbNIg6YViCwMRS7SULLJA0xRbxJGyMONBSWPJB3_naCyCY6kwM1iaX6EjfSoP7jTJsHRZf99c1ePKHAeHgKWE7i8lB-bJsfThdc&__tn__=-UK-R&c[0]=AUCBIqYmFJOSRwDfvWHQvSMMgPwXZpcSUpGBu_sSVIeLokznqQuKY_vEbRAVci7FcX2Yf4dq-eJCM9O6DeYvQOoqAQJ5CCxiuYt-rVOGXfOhUN5TXCUZB1f3BgVFFBf9CMw-BoF3GYPIY5SdknUP4AAvGgIxnqga3rNmZZysO298ZZOsDx1XBUkaeaV6X8s
+    - link "可能是文字的圖像":
+      - /url: https://www.facebook.com/photo/?fbid=1099433309499533&set=a.107747308668143&__cft__[0]=AZhStRJfRinqZYRhnwF8o6FSo55ymrhXbWldKV4QS4PlOo25Jl7QMQAKeoWnFG9WA2Z-qnihqxdxVB297chwSenGrZ1Yqa3qDmFFxiOQd78LDai0kP0mGJGgfWCL5SMKvZFk7EWMOcuzEXrj2RAnTS-Sr1IWRpdL&__tn__=EH-R
+      - img "可能是文字的圖像"
+    - button "查看洞察報告":
+      - generic: 查看洞察報告
+    - button "讚"
+    - button "傳達心情":
+    - button "留言"
+    - button "分享，傳送給朋友或在個人檔案上發佈。"
+    - heading "尚無留言" [level=3]:
+      - generic: 尚無留言
+    - generic: 留言搶頭香。
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - button "切換到其他個人檔案或粉絲專頁":
+    - textbox "以 Peter von Tan 的身分留言":
+      - paragraph
+    - generic: 以 Peter von Tan 的身分留言
+    - list:
+      - button "以虛擬替身貼圖回應"
+      - button "插入表情符號":
+      - button "以 GIF 回應"
+      - button "以貼圖回應"
+    - generic: 你正在使用Peter von Tan身分留言。
+- button "新訊息":
+- button
+- img "Monica"
+- generic: Ctrl+M
+- text: 解釋

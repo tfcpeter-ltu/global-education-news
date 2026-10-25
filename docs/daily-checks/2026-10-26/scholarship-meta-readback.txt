@@ -1,0 +1,125 @@
+- button "移除"
+- text: 你現在可以匯出下方表格中的資料。立即選擇「匯出資料」試試此功能。
+- generic: 瞭解這項新功能
+- dialog:
+  - button "關閉":
+  - button "上一頁":
+    - generic: 上一頁
+  - heading "Iowa State國際獎助：新生每年最高1.4萬美元 六級距計為一項，先分新生與轉學。 已錄取、繳國際生學費者自動評估；新生與轉學有不同GPA、測驗及金額，不可與International Merit併領。 台灣學生須符合國際申請資格；秋季5月1日、春季12月15日前接受錄取。 國際獎學金雷達：https://globalednews.com/scholarships/ 全文：https://globalednews.com/scholarships/items/2026-10-iowa-state-international-excellence/ 和正在規劃升學的家人一起核對條件。 免費加入環球教育新聞會員！ 每週教育新聞與申請提醒，免費且可隨時取消。 https://globalednews.com/newsletter/ 資料照：michelec317 / CC0；裁切加字。 https://globalednews.com/images/daily/2026-10-26/credits.html#iowa" [active] [level=3]
+  - img "Facebook"
+  - img "Instagram"
+  - generic: 貼文 · 發佈時間：10月26日 5:25
+  - toolbar:
+    - button "加強推廣":
+      - generic: 加強推廣
+  - tablist:
+    - tab "整體成效" [selected]:
+      - img "Facebook"
+      - img "Instagram"
+      - generic: 整體成效
+    - tab "Facebook":
+      - img "Facebook"
+      - generic: Facebook
+    - tab "Instagram":
+      - img "Instagram"
+      - generic: Instagram
+  - heading "總覽" [level=2]
+  - generic: 瀏覽次數
+  - generic: "0"
+  - generic: 互動次數
+  - generic: "0"
+  - generic: 連結點擊次數
+  - generic: "0"
+  - generic: 追蹤者
+  - generic: "0"
+  - generic: 瀏覽次數
+  - generic: "0"
+  - img "Facebook"
+  - generic: 0 來自 Facebook
+  - img "Instagram"
+  - generic: 0 來自 Instagram
+  - tablist:
+    - tab "總計" [selected]:
+      - generic: 總計
+    - tab "追蹤者":
+      - generic: 追蹤者
+  - heading "無法提供資料" [level=3]
+  - generic: 目前無法提供此資料。
+  - generic: 互動次數
+  - generic: "0"
+  - img "Facebook"
+  - generic: 0 來自 Facebook
+  - img "Instagram"
+  - generic: 0 來自 Instagram
+  - generic: 按讚數和心情數
+  - generic: "0"
+  - generic: 留言數
+  - generic: "0"
+  - generic: 分享次數
+  - generic: "0"
+  - generic: 儲存次數
+  - generic: "0"
+  - heading "動態消息預覽" [level=3]
+  - article:
+    - 'link "LTU OSSD #1加拿大 台加高中雙聯學制"':
+      - /url: https://www.facebook.com/LTUOSSDTaiwan?__cft__[0]=AZh-HMFWiFJ7EaQC2ztRuMHIg2J2RsRvRNNKMW8vjiQC54_Eq-kS0UqDXO-zy7TP-M4TInmAF05pO4KUVUOUvmYsUJkEGwblWIEd3c9DiN6yQA68o4vge4TFoWifcuYxAIkTPwSsS6s&__tn__=%3C%3C%2CP-R
+      - 'img "LTU OSSD #1加拿大 台加高中雙聯學制"'
+    - 'heading "LTU OSSD #1加拿大 台加高中雙聯學制" [level=2]':
+      - 'link "LTU OSSD #1加拿大 台加高中雙聯學制"':
+        - /url: https://www.facebook.com/LTUOSSDTaiwan?__cft__[0]=AZh-HMFWiFJ7EaQC2ztRuMHIg2J2RsRvRNNKMW8vjiQC54_Eq-kS0UqDXO-zy7TP-M4TInmAF05pO4KUVUOUvmYsUJkEGwblWIEd3c9DiN6yQA68o4vge4TFoWifcuYxAIkTPwSsS6s&__tn__=-UC%2CP-R
+        - generic: "LTU OSSD #1加拿大 台加高中雙聯學制"
+    - text: 由
+    - link "Peter von Tan":
+      - /url: https://www.facebook.com/peter.chentan.5?__cft__[0]=AZh-HMFWiFJ7EaQC2ztRuMHIg2J2RsRvRNNKMW8vjiQC54_Eq-kS0UqDXO-zy7TP-M4TInmAF05pO4KUVUOUvmYsUJkEGwblWIEd3c9DiN6yQA68o4vge4TFoWifcuYxAIkTPwSsS6s&__tn__=-]%2CP-R
+    - text: 發佈
+    - img "(tooltip)只有此粉絲專頁的管理人員可以看到是誰發佈了內容"
+    - generic: ·
+    - link "剛剛":
+      - /url: https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02689QWUN9hiRitPJbpTpG4qrE62sL6YbxY62DTi9VN82qFJNn8oGupe6oxFekHefvl?__cft__[0]=AZh-HMFWiFJ7EaQC2ztRuMHIg2J2RsRvRNNKMW8vjiQC54_Eq-kS0UqDXO-zy7TP-M4TInmAF05pO4KUVUOUvmYsUJkEGwblWIEd3c9DiN6yQA68o4vge4TFoWifcuYxAIkTPwSsS6s&__tn__=%2CO%2CP-R
+    - generic: ·
+    - img "分享對象：所有人"
+    - 'button "對LTU OSSD #1加拿大 台加高中雙聯學制的這則貼文採取的動作"':
+    - generic: Iowa State國際獎助：新生每年最高1.4萬美元
+    - text: 六級距計為一項，先分新生與轉學。……
+    - button "查看更多"
+    - link "可能是文字的圖像":
+      - /url: https://business.facebook.com/photo.php?fbid=1099436862832511&set=a.107747308668143&type=3&__cft__[0]=AZh-HMFWiFJ7EaQC2ztRuMHIg2J2RsRvRNNKMW8vjiQC54_Eq-kS0UqDXO-zy7TP-M4TInmAF05pO4KUVUOUvmYsUJkEGwblWIEd3c9DiN6yQA68o4vge4TFoWifcuYxAIkTPwSsS6s&__tn__=EH-R
+      - img "可能是文字的圖像"
+    - button "加強推廣":
+      - generic: 加強推廣
+    - button "讚"
+    - button "傳達心情":
+    - button "留言"
+    - button "分享，傳送給朋友或在個人檔案上發佈。"
+    - button "切換到其他個人檔案或粉絲專頁":
+    - 'textbox "以 LTU OSSD #1加拿大 台加高中雙聯學制的身分留言"':
+      - paragraph
+    - generic: "以 LTU OSSD #1加拿大 台加高中雙聯學制的身分留言"
+    - list:
+      - button "以虛擬替身貼圖回應"
+      - button "插入表情符號":
+      - button "附加相片或影片"
+      - button "以 GIF 回應"
+      - button "以貼圖回應"
+  - link "在 Facebook 查看貼文":
+    - /url: https://facebook.com/LTUOSSDTaiwan/posts/pfbid02689QWUN9hiRitPJbpTpG4qrE62sL6YbxY62DTi9VN82qFJNn8oGupe6oxFekHefvl
+    - generic: 在 Facebook 查看貼文
+  - generic: ltuossdtw
+  - button "讚"
+  - button "留言"
+  - button "分享"
+  - button "儲存"
+  - text: ltuossdtw
+  - generic: Iowa State國際獎助：新生每年最高1.4萬美元
+  - text: 六級距計為一項，先分新生與轉學。...
+  - button "more"
+  - link "在 Instagram 查看貼文":
+    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fp%2FDe7qyi5k6uJ%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgNicmlkETFaREs2Z2xVQzluZ09qdmsxc3J0YwZhcHBfaWQPNTE0NzcxNTY5MjI4MDYxAAEeLDe0uDz62N_XQaVuBEBCd4Ij5D4TVyd1ZD3St2JsWrzFNpzJ5rFrdssE_0Q_aem_LJbVn8aMqkjjWmkA4Ny5vg&h=AUAM2gSPZYGdlfo1-J-NE74nWtU-CgAIAbCnI2aXeXioh7W08xJovKBtMftl86CHLTdNp1PMMist9ozMOn_vnkUAr-gAI9SFZqi5NN2G-_65O00YUbSJi1qRcwm_lwIKBNR3PQ
+    - generic: 在 Instagram 查看貼文
+  - button "Meta AI 商家助理"
+- region "瞭解這項新功能"
+- button
+- text: Save
+- img "Monica"
+- generic: Ctrl+M
+- text: 解釋

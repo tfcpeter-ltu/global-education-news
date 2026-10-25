@@ -1,0 +1,125 @@
+- button "移除"
+- text: 你現在可以匯出下方表格中的資料。立即選擇「匯出資料」試試此功能。
+- generic: 瞭解這項新功能
+- dialog:
+  - button "關閉":
+  - button "上一頁":
+    - generic: 上一頁
+  - heading "Miami Ohio申請：PFP與跨文化獎助分兩條路 先辨校名，再排測驗與送件日期。 Oxford校區PFP2027須ACT/SAT及12月1日完整資料；跨文化獎助錄取後另填表，1月1日截止。 不是佛州University of Miami；獎助範圍與續領GPA分開核對。 留學DIY導航：https://globalednews.com/study-abroad/ 全文：https://globalednews.com/study-abroad/miami-ohio-honors-scholarship-route-2027/ 和正在規劃升學的家人一起核對條件。 免費加入環球教育新聞會員！ 每週教育新聞與申請提醒，免費且可隨時取消。 https://globalednews.com/newsletter/ 資料照：Wikimedia Commons / Public domain；裁切加字。 https://globalednews.com/images/daily/2026-10-26/credits.html#diy" [active] [level=3]
+  - img "Facebook"
+  - img "Instagram"
+  - generic: 貼文 · 發佈時間：10月26日 5:27
+  - toolbar:
+    - button "加強推廣":
+      - generic: 加強推廣
+  - tablist:
+    - tab "整體成效" [selected]:
+      - img "Facebook"
+      - img "Instagram"
+      - generic: 整體成效
+    - tab "Facebook":
+      - img "Facebook"
+      - generic: Facebook
+    - tab "Instagram":
+      - img "Instagram"
+      - generic: Instagram
+  - heading "總覽" [level=2]
+  - generic: 瀏覽次數
+  - generic: "0"
+  - generic: 互動次數
+  - generic: "0"
+  - generic: 連結點擊次數
+  - generic: "0"
+  - generic: 追蹤者
+  - generic: "0"
+  - generic: 瀏覽次數
+  - generic: "0"
+  - img "Facebook"
+  - generic: 0 來自 Facebook
+  - img "Instagram"
+  - generic: 0 來自 Instagram
+  - tablist:
+    - tab "總計" [selected]:
+      - generic: 總計
+    - tab "追蹤者":
+      - generic: 追蹤者
+  - heading "無法提供資料" [level=3]
+  - generic: 目前無法提供此資料。
+  - generic: 互動次數
+  - generic: "0"
+  - img "Facebook"
+  - generic: 0 來自 Facebook
+  - img "Instagram"
+  - generic: 0 來自 Instagram
+  - generic: 按讚數和心情數
+  - generic: "0"
+  - generic: 留言數
+  - generic: "0"
+  - generic: 分享次數
+  - generic: "0"
+  - generic: 儲存次數
+  - generic: "0"
+  - heading "動態消息預覽" [level=3]
+  - article:
+    - 'link "LTU OSSD #1加拿大 台加高中雙聯學制"':
+      - /url: https://www.facebook.com/LTUOSSDTaiwan?__cft__[0]=AZgGVdk7ZlJbMqnt7n6IRauGQrGyPpkMPpIwERxTX8vDV-QpiNg3vpNTEJoN_c9CzdQyXvB6ZlGd9iSsxeKksQnpCvU7aHYBSn_H4Y4Pvk8l3DVy6UZU16j6ELWgvYddnu0Bt9-7w0E&__tn__=%3C%3C%2CP-R
+      - 'img "LTU OSSD #1加拿大 台加高中雙聯學制"'
+    - 'heading "LTU OSSD #1加拿大 台加高中雙聯學制" [level=2]':
+      - 'link "LTU OSSD #1加拿大 台加高中雙聯學制"':
+        - /url: https://www.facebook.com/LTUOSSDTaiwan?__cft__[0]=AZgGVdk7ZlJbMqnt7n6IRauGQrGyPpkMPpIwERxTX8vDV-QpiNg3vpNTEJoN_c9CzdQyXvB6ZlGd9iSsxeKksQnpCvU7aHYBSn_H4Y4Pvk8l3DVy6UZU16j6ELWgvYddnu0Bt9-7w0E&__tn__=-UC%2CP-R
+        - generic: "LTU OSSD #1加拿大 台加高中雙聯學制"
+    - text: 由
+    - link "Peter von Tan":
+      - /url: https://www.facebook.com/peter.chentan.5?__cft__[0]=AZgGVdk7ZlJbMqnt7n6IRauGQrGyPpkMPpIwERxTX8vDV-QpiNg3vpNTEJoN_c9CzdQyXvB6ZlGd9iSsxeKksQnpCvU7aHYBSn_H4Y4Pvk8l3DVy6UZU16j6ELWgvYddnu0Bt9-7w0E&__tn__=-]%2CP-R
+    - text: 發佈
+    - img "(tooltip)只有此粉絲專頁的管理人員可以看到是誰發佈了內容"
+    - generic: ·
+    - link "剛剛":
+      - /url: https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0bjUa1t7RavKR2hztWE3b2DthoZqjn7oaZ9S4u9vzMMrVq4AhNNt8Mu8tMoRqYS9ml?__cft__[0]=AZgGVdk7ZlJbMqnt7n6IRauGQrGyPpkMPpIwERxTX8vDV-QpiNg3vpNTEJoN_c9CzdQyXvB6ZlGd9iSsxeKksQnpCvU7aHYBSn_H4Y4Pvk8l3DVy6UZU16j6ELWgvYddnu0Bt9-7w0E&__tn__=%2CO%2CP-R
+    - generic: ·
+    - img "分享對象：所有人"
+    - 'button "對LTU OSSD #1加拿大 台加高中雙聯學制的這則貼文採取的動作"':
+    - generic: Miami Ohio申請：PFP與跨文化獎助分兩條路
+    - text: 先辨校名，再排測驗與送件日期。……
+    - button "查看更多"
+    - link "可能是文字的圖像":
+      - /url: https://business.facebook.com/photo.php?fbid=1099438112832386&set=a.107747308668143&type=3&__cft__[0]=AZgGVdk7ZlJbMqnt7n6IRauGQrGyPpkMPpIwERxTX8vDV-QpiNg3vpNTEJoN_c9CzdQyXvB6ZlGd9iSsxeKksQnpCvU7aHYBSn_H4Y4Pvk8l3DVy6UZU16j6ELWgvYddnu0Bt9-7w0E&__tn__=EH-R
+      - img "可能是文字的圖像"
+    - button "加強推廣":
+      - generic: 加強推廣
+    - button "讚"
+    - button "傳達心情":
+    - button "留言"
+    - button "分享，傳送給朋友或在個人檔案上發佈。"
+    - button "切換到其他個人檔案或粉絲專頁":
+    - 'textbox "以 LTU OSSD #1加拿大 台加高中雙聯學制的身分留言"':
+      - paragraph
+    - generic: "以 LTU OSSD #1加拿大 台加高中雙聯學制的身分留言"
+    - list:
+      - button "以虛擬替身貼圖回應"
+      - button "插入表情符號":
+      - button "附加相片或影片"
+      - button "以 GIF 回應"
+      - button "以貼圖回應"
+  - link "在 Facebook 查看貼文":
+    - /url: https://facebook.com/LTUOSSDTaiwan/posts/pfbid0bjUa1t7RavKR2hztWE3b2DthoZqjn7oaZ9S4u9vzMMrVq4AhNNt8Mu8tMoRqYS9ml
+    - generic: 在 Facebook 查看貼文
+  - generic: ltuossdtw
+  - button "讚"
+  - button "留言"
+  - button "分享"
+  - button "儲存"
+  - text: ltuossdtw
+  - generic: Miami Ohio申請：PFP與跨文化獎助分兩條路
+  - text: 先辨校名，再排測驗與送件日期。...
+  - button "more"
+  - link "在 Instagram 查看貼文":
+    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Fp%2FDe7rCjqE1FH%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgNicmlkETFaREs2Z2xVQzluZ09qdmsxc3J0YwZhcHBfaWQPNTE0NzcxNTY5MjI4MDYxAAEeqZzStBoLxVDsfV1aaQlc23Iaf_5szweHsyYnabJ3Ui-smSqWd3gMyiQRUfQ_aem_sVsKkq1byZX52xRK4rs3NA&h=AUBHtl5Rr9MZopKozAi4B8bRwuT9HNbIVvnF5I2dv01yQ_5QdxJxD1UVtttLzcoLHtzdtX789ooNALUWLi9mM-bgqo61qq4Rkm0wtQwyeR-lyePO2B38xV9rjJeuBbNsCw0gkw
+    - generic: 在 Instagram 查看貼文
+  - button "Meta AI 商家助理"
+- region "瞭解這項新功能"
+- button
+- text: Save
+- img "Monica"
+- generic: Ctrl+M
+- text: 解釋

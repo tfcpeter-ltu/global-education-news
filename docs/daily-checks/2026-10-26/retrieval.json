@@ -1,0 +1,86 @@
+[
+  {
+    "key": "uk",
+    "url": "https://www.gov.uk/government/news/generational-moment-as-government-acts-on-landmark-antisemitism-review",
+    "status": "retrieved-for-review",
+    "characters": 8293
+  },
+  {
+    "key": "uk-second",
+    "url": "https://feweek.co.uk/antisemitism-review-colleges-told-to-set-out-stance-on-staff-wearing-political-symbols/",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "ca",
+    "url": "https://gazette.mun.ca/teaching-and-learning/enrolment-update-2/",
+    "status": "failed",
+    "error": "<urlopen error [WinError 10060] 連線嘗試失敗，因為連線對象有一段時間並未正確回應，或是連線建立失敗，因為連線的主機無法回應。>"
+  },
+  {
+    "key": "ca-second",
+    "url": "https://www.cbc.ca/news/canada/newfoundland-labrador/mun-international-students-decline-9.7389650",
+    "status": "retrieved-for-review",
+    "characters": 7697
+  },
+  {
+    "key": "nz",
+    "url": "https://tahurangi.education.govt.nz/new-senior-secondary-qualifications",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "iowa",
+    "url": "https://www.iastate.edu/admission-and-aid/admissions/international-admissions/international-student-excellence-award",
+    "status": "retrieved-for-review",
+    "characters": 2564
+  },
+  {
+    "key": "iowa-second",
+    "url": "https://scholarshipsforafricans.com/scholarships/iowa-state-international-student-excellence-award",
+    "status": "retrieved-for-review",
+    "characters": 10384
+  },
+  {
+    "key": "miami",
+    "url": "https://miamioh.edu/onestop/financial-aid/funding-opportunities/scholarships/international-scholarships.html",
+    "status": "retrieved-for-review",
+    "characters": 6563
+  },
+  {
+    "key": "pfp-second",
+    "url": "https://collegedunia.com/usa/university/1631-miami-university-oxford/scholarship",
+    "status": "failed",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "ywh-second",
+    "url": "https://www.youarewelcomehereusa.org/scholarship",
+    "status": "retrieved-for-review",
+    "characters": 7233
+  },
+  {
+    "key": "ntu",
+    "url": "https://oia.ntu.edu.tw/",
+    "status": "retrieved-for-review",
+    "characters": 214
+  },
+  {
+    "key": "nthu",
+    "url": "https://oga.site.nthu.edu.tw/",
+    "status": "retrieved-for-review",
+    "characters": 1083
+  },
+  {
+    "key": "nycu",
+    "url": "https://oia.nycu.edu.tw/",
+    "status": "retrieved-for-review",
+    "characters": 1632
+  },
+  {
+    "key": "sunmoon",
+    "url": "https://www.sunmoonnews.com.tw/",
+    "status": "retrieved-for-review",
+    "characters": 3076
+  }
+]

@@ -1,0 +1,301 @@
+- button:
+- link:
+  - /url: https://www.signalhire.com
+- button
+- button
+- heading "Welcome to SignalHire!" [level=1]
+- paragraph: SignalHire is a great way to find contact information in a couple of clicks
+- link "Sign In":
+  - /url: https://www.signalhire.com/login?package=trial&utm_source=signin&utm_medium=extension
+  - generic: Sign In
+- paragraph:
+  - text: Don’t have an account yet?
+  - link "Sign up for free":
+    - /url: https://www.signalhire.com/registration?package=trial&utm_source=signup&utm_medium=extension
+- heading "0 則通知" [level=2]
+- generic "略過導覽選單":
+  - button "前往搜尋":
+    - generic: 前往搜尋
+  - button "前往內容":
+    - generic: 前往內容
+  - button "前往側邊欄":
+    - generic: 前往側邊欄
+  - button "前往主要內容":
+    - generic: 前往主要內容
+  - button "前往側邊":
+    - generic: 前往側邊
+  - button "關閉選單":
+- banner:
+  - button "LinkedIn":
+    - img "LinkedIn"
+  - button "搜尋":
+    - paragraph: 搜尋
+  - dialog:
+    - status: 有 5 個建議 ，請使用上下方向鍵來瀏覽
+    - search:
+      - textbox "搜尋"
+    - listbox:
+      - paragraph: 您可以試試
+      - option "interview tips搜尋建議":
+        - link "interview tips搜尋建議":
+          - /url: https://www.linkedin.com/search/results/all/?keywords=interview+tips&origin=QUERY_SUGGESTION&position=0
+          - generic "interview tips搜尋建議":
+            - paragraph: interview tips
+      - option "latest in ai搜尋建議":
+        - link "latest in ai搜尋建議":
+          - /url: https://www.linkedin.com/search/results/all/?keywords=latest+in+ai&origin=QUERY_SUGGESTION&position=0
+          - generic "latest in ai搜尋建議":
+            - paragraph: latest in ai
+      - option "balancing work and personal life搜尋建議":
+        - link "balancing work and personal life搜尋建議":
+          - /url: https://www.linkedin.com/search/results/all/?keywords=balancing+work+and+personal+life&origin=QUERY_SUGGESTION&position=0
+          - generic "balancing work and personal life搜尋建議":
+            - paragraph: balancing work and personal life
+      - option "remote work搜尋建議":
+        - link "remote work搜尋建議":
+          - /url: https://www.linkedin.com/search/results/all/?keywords=remote+work&origin=QUERY_SUGGESTION&position=0
+          - generic "remote work搜尋建議":
+            - paragraph: remote work
+      - option "when's the best time to switch jobs搜尋建議":
+        - link "when's the best time to switch jobs搜尋建議":
+          - /url: https://www.linkedin.com/search/results/all/?keywords=when%27s+the+best+time+to+switch+jobs&origin=QUERY_SUGGESTION&position=0
+          - generic "when's the best time to switch jobs搜尋建議":
+            - paragraph: when's the best time to switch jobs
+  - figure
+  - figure
+  - navigation:
+    - list:
+      - button "首頁，1 則新通知":
+        - generic: 首頁
+      - link "我的人脈，2 則新通知":
+        - /url: https://www.linkedin.com/mynetwork
+        - generic: "2"
+        - generic: 我的人脈
+      - link "職缺，0 則新通知":
+        - /url: https://www.linkedin.com/jobs/
+        - generic: 職缺
+      - link "訊息，2 則新通知":
+        - /url: https://www.linkedin.com/messaging/
+        - generic: "2"
+        - generic: 訊息
+      - link "通知，25 則新通知":
+        - /url: https://www.linkedin.com/notifications/
+        - generic: "25"
+        - generic: 通知
+      - button "我":
+        - figure
+        - text: 我
+  - navigation:
+    - list:
+      - button "商務功能":
+        - text: 商務功能
+      - link "Learning，0 則新通知":
+        - /url: https://www.linkedin.com/learning/?trk=nav_neptune_learning
+        - generic: Learning
+- main:
+  - complementary "側邊欄":
+    - link "Premium":
+      - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+      - figure:
+      - paragraph: Premium
+      - figure:
+        - img "Peter Chen"
+    - link "Peter Chen，LTU Education Center CEO，臺北市 台北，Premium 檔案":
+      - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+      - generic "Peter Chen，LTU Education Center CEO，臺北市 台北，Premium 檔案":
+        - paragraph: Peter Chen
+        - img "Premium 檔案"
+        - paragraph: LTU Education Center CEO
+        - paragraph: 臺北市 台北
+    - link "LTU Education Center Co.,":
+      - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+      - figure:
+      - paragraph: LTU Education Center Co.,
+    - menu:
+      - link "聯絡人 29 拓展人脈":
+        - /url: https://www.linkedin.com/mynetwork/invite-connect/connections/
+        - generic "聯絡人 29 拓展人脈":
+          - paragraph: 聯絡人
+          - paragraph: 拓展人脈
+          - paragraph: "29"
+    - menu:
+      - link "LinkedIn Premium 功能":
+        - /url: https://www.linkedin.com/premium/my-premium/
+        - paragraph: LinkedIn Premium 功能
+  - region "主要內容":
+    - heading "動態消息" [level=2]:
+      - generic: 動態消息
+    - paragraph: 宣傳此貼文，觸及您所重視的受眾。
+    - link "宣傳":
+      - /url: https://www.linkedin.com/campaignmanager/boost/campaigns/new/details/?origin=memberPostDetails&content=urn%3Ali%3Ashare%3A7520235019756498945&isNileReferrer=true
+      - generic: 宣傳
+    - link:
+      - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+      - figure:
+        - img "查看Peter Chen的個人檔案"
+    - link "Peter Chen Premium個人檔案 您":
+      - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+      - generic "Peter Chen Premium個人檔案 您":
+        - paragraph: Peter Chen
+        - paragraph:
+          - text: • 您
+    - paragraph: LTU Education Center CEO
+    - paragraph: 2 分鐘
+    - link "Peter Chen Premium個人檔案 您":
+      - /url: https://www.linkedin.com/in/peter-chen-26a754228/
+      - generic "Peter Chen Premium個人檔案 您"
+    - button "開啟Peter Chen貼文的控制選單":
+    - paragraph:
+      - text: 想從清華出國交換？先比校系，再查交換路徑
+      - text: 把科系方向與國際學習規劃一起比較。
+      - text: 清華全球事務處提供去訪交換、雙聯與合作校入口；先核對學程、年級、語言與校內甄選。
+      - text: 資料庫協助選校，實際名額與期限回官方確認；不保證錄取或補助。
+      - text: 國內大學選校選系資料庫：
+      - link "開啟 https://lnkd.in/gC-Qb3mY":
+        - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgC-Qb3mY&urlhash=mnkk&mt=OGgrx5jsOFKiCGgYGzYbXHFi2popwgiq0z9VK28eplSXEBAAcVcJqTZeCYjjHPDpNYUeeJpcuxPltBPDoe7EvzWS317QPF3URRHdV1xQVUCbhKK4onqqwxtU8Q&isSdui=true
+        - strong: https://lnkd.in/gC-Qb3mY
+      - text: 全文：
+      - link "開啟 https://lnkd.in/gC-Qb3mY":
+        - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgC-Qb3mY&urlhash=mnkk&mt=J3qksRKdIKx7shjcd-SiKudqkI3VM3M3HQlUHwf-A5Gi19STXLR-QW354jsCpjksh0atBjxlgX-wPv6OPSHnN1XXRsndGSavfH1atSg36yVxYq7LXii-Sq37GA&isSdui=true
+        - strong: https://lnkd.in/gC-Qb3mY
+      - text: 給教育工作者：轉介學生時請保留資格、時程與尚待確認的限制。
+      - text: 免費加入環球教育新聞會員！
+      - text: 每週教育新聞與申請提醒，免費且可隨時取消。
+      - link "開啟 https://lnkd.in/g8qTgA39":
+        - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fg8qTgA39&urlhash=q1ph&mt=JmWTFMf3-Gqr1BTgnWRmmRHX71ByOsR3fLA06v7eixhf_6Nev0XPxQKxix-1x9j_BcT6Ph21a9cE5X4gv6NJ86rOcPFV0DYuuaS7wOoL6BTxpz7YI_v0P2kaug&isSdui=true
+        - strong: https://lnkd.in/g8qTgA39
+      - text: 資料照：Tbatb / CC BY-SA 4.0；裁切加字。
+      - link "開啟 https://lnkd.in/gJJbKqaf":
+        - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgJJbKqaf&urlhash=qnxe&mt=aKXIXIhdpq4qnIJTVdjYtjp4eg68t-KOeILnyuAr7plRpIGD-VBGYmLmBEdSgeYwBHTVhd7cx85wylJwLaA-QhFOO4p1nldUWPrcrwwf4DdX-D7LPNniXr6Ofw&isSdui=true
+        - strong: https://lnkd.in/gJJbKqaf
+    - link:
+      - /url: https://www.linkedin.com/
+      - figure:
+        - img "查看圖片"
+    - button "感受按鈕狀態：無感受":
+    - button "開啟感受選單":
+    - button "回應":
+    - button "轉發":
+    - link "傳送":
+      - /url: https://www.linkedin.com/
+    - figure
+    - status
+    - textbox "用於建立回應的文字編輯器":
+      - paragraph: 輸入回應
+    - button "顯示表情符號選擇工具":
+    - button "開啟 GIF 選擇工具":
+    - button "分享照片":
+    - link:
+      - /url: https://www.linkedin.com/
+  - complementary "側邊":
+    - iframe:
+      - generic: 廣告
+      - img "overflow-web-small"
+      - link "LinkedIn Talent Solutions":
+        - /url: https://www.linkedin.com/li/tscp/sct?destinationUrl=https%3A%2F%2Fwww.linkedin.com%2Fjob-posting%3Fmcid%3D7421726435633025070%26src%3Dli-dynamic%26trk%3D202601_APAC_EN_HiringPro50P_50P_1400%26li_fat_id%3Dc22dfffe-3777-4e70-8a68-89beb2d474df&trackingEvent=%5B%7B%22eventInfo%22%3A%7B%22appId%22%3A%22com.linkedin.ads.rendering.d_web%22%2C%22eventName%22%3A%22SponsoredRightRailContentActionEvent%22%2C%22topicName%22%3A%22SponsoredRightRailContentActionEvent%22%7D%2C%22eventBody%22%3A%7B%22sponsoredEventHeader%22%3A%7B%22encryptedTrackingData%22%3A%22CwEAAAGhdPmW5NqS-Muv1zbzCYkVF5Kx_sPbofMwYo5LZLFWL8jjGyru-PmXhsVdw8PjAsuDyPSo_oxA8VKyyDPjdfMs3EgoRL2R5y8FBypbZRKziaNjpdSarnNTRl3j7Dz5iDAqOSdH_pyXZ1eShvpuTsmIMre61S09Fo1af2hLHakcUDIJnc98GXez4lQGB6RE4pDJmEPaDWxXbCuN8Yi8_rvy5ea5kb2Mpg2BBxtcmUiZMe7Bqh0xKvlBvsatRJVxjcQ9Oku_oc1yNMu9SbdqzsFU1grG9o-BxhWGmwy8EWqW3cbYk-Tarkvt08OkFsIcPyIxPZzgePbzvypKPC82s4NRyoPUQNrYkJYZpX3sj0YpLC9vdV5yITCgd5QG-momNzBi4w9smhOL0vYaZ6kWrwWv0se8_kCv8ZJI0HC1l75_HJz_bY2FCgkOUdELbyh-dwB7LeJ31F3YFGsjtaVwyrsK7tFuF9jExy_QO4i3-0GkzGvfyXDkEMFVwa6LIS82N27fIkBN3L8h1uuMJGSjzYiQexYCgRz079dMHouTaEXZeHHEaCXTY2sYZ2wIByvsE7DLFIpXeKktw2fqERs6cJ8D8YW3sJ_gAdHKV3QZtMirH1Sv8V94w8O4cmCpZoS4krj3Nev7xfJgWL00VKzXYHjqTGrjEjvZUjkKVWgu8RvESHQwAc3ZW4u6bdNiuVPT_YrT1FOvwnJzEEofZ5vHLH5PlCCD7Qt7TDTIVyJZxZSIIOZ2xDV77cDeJYn8pdFLjBGPPAzCXVsjaWVKvThwxdvdlS2zRk5CV2LK4KjXWn9wEokjtjtEyI3HvAbTW5x2kaGaIqY-JbYBHnBVueiWdif8FqEi5nHhAAPThpe2AElykEBjRddVtemKxdny4Ssq685XvKPrh_HQfe6WtKgRJOjzmVWF3jd3_kGw61khiDZbYrjbcI4QsPH9qruty8TDkuebldTotiaF5dPds4SPAW1UWM58tnOSp2hBaFFZJ2_U_v4t2v6O0sG49spSFXmjinEwApSXoxC1Ky0uat4JnHtcQJwqXK52M5luDmsscNHoGRgjOF90rVPa1zPWpbgspYvbBWJAoMwiy8HqwYFT_5nweM_NL-R2P9kzEeGQ68KaPvgVTMbnxT3gIm9p58CyGqPuJXIOoYTwIgL--zGqqgcO8tJflQBo7Nt76nYsF6HFY-hF6g%22%7D%2C%22header%22%3A%7B%22pageInstance%22%3A%7B%22pageUrn%22%3A%22urn%3Ali%3Apage%3Ad_flagship3_detail_base%22%2C%22trackingId%22%3A%2202cd61e3-596f-4509-8e0f-70b24c49a629%22%7D%2C%22time%22%3A1792963876531%2C%22version%22%3A%220.0.0%22%7D%2C%22requestHeader%22%3A%7B%22pageKey%22%3A%22d_flagship3_detail_base%22%2C%22interfaceLocale%22%3A%22zh-TW%22%7D%7D%7D%5D&csrfToken=ajax%3A7856694392726645923
+      - heading "Hiring Pro is your AI partner that makes hiring feel effortless." [level=2]
+      - img "Peter"
+      - link "LinkedIn Talent Solutions":
+        - /url: https://www.linkedin.com/li/tscp/sct?destinationUrl=https%3A%2F%2Fwww.linkedin.com%2Fjob-posting%3Fmcid%3D7421726435633025070%26src%3Dli-dynamic%26trk%3D202601_APAC_EN_HiringPro50P_50P_1400%26li_fat_id%3Dc22dfffe-3777-4e70-8a68-89beb2d474df&trackingEvent=%5B%7B%22eventInfo%22%3A%7B%22appId%22%3A%22com.linkedin.ads.rendering.d_web%22%2C%22eventName%22%3A%22SponsoredRightRailContentActionEvent%22%2C%22topicName%22%3A%22SponsoredRightRailContentActionEvent%22%7D%2C%22eventBody%22%3A%7B%22sponsoredEventHeader%22%3A%7B%22encryptedTrackingData%22%3A%22CwEAAAGhdPmW5NqS-Muv1zbzCYkVF5Kx_sPbofMwYo5LZLFWL8jjGyru-PmXhsVdw8PjAsuDyPSo_oxA8VKyyDPjdfMs3EgoRL2R5y8FBypbZRKziaNjpdSarnNTRl3j7Dz5iDAqOSdH_pyXZ1eShvpuTsmIMre61S09Fo1af2hLHakcUDIJnc98GXez4lQGB6RE4pDJmEPaDWxXbCuN8Yi8_rvy5ea5kb2Mpg2BBxtcmUiZMe7Bqh0xKvlBvsatRJVxjcQ9Oku_oc1yNMu9SbdqzsFU1grG9o-BxhWGmwy8EWqW3cbYk-Tarkvt08OkFsIcPyIxPZzgePbzvypKPC82s4NRyoPUQNrYkJYZpX3sj0YpLC9vdV5yITCgd5QG-momNzBi4w9smhOL0vYaZ6kWrwWv0se8_kCv8ZJI0HC1l75_HJz_bY2FCgkOUdELbyh-dwB7LeJ31F3YFGsjtaVwyrsK7tFuF9jExy_QO4i3-0GkzGvfyXDkEMFVwa6LIS82N27fIkBN3L8h1uuMJGSjzYiQexYCgRz079dMHouTaEXZeHHEaCXTY2sYZ2wIByvsE7DLFIpXeKktw2fqERs6cJ8D8YW3sJ_gAdHKV3QZtMirH1Sv8V94w8O4cmCpZoS4krj3Nev7xfJgWL00VKzXYHjqTGrjEjvZUjkKVWgu8RvESHQwAc3ZW4u6bdNiuVPT_YrT1FOvwnJzEEofZ5vHLH5PlCCD7Qt7TDTIVyJZxZSIIOZ2xDV77cDeJYn8pdFLjBGPPAzCXVsjaWVKvThwxdvdlS2zRk5CV2LK4KjXWn9wEokjtjtEyI3HvAbTW5x2kaGaIqY-JbYBHnBVueiWdif8FqEi5nHhAAPThpe2AElykEBjRddVtemKxdny4Ssq685XvKPrh_HQfe6WtKgRJOjzmVWF3jd3_kGw61khiDZbYrjbcI4QsPH9qruty8TDkuebldTotiaF5dPds4SPAW1UWM58tnOSp2hBaFFZJ2_U_v4t2v6O0sG49spSFXmjinEwApSXoxC1Ky0uat4JnHtcQJwqXK52M5luDmsscNHoGRgjOF90rVPa1zPWpbgspYvbBWJAoMwiy8HqwYFT_5nweM_NL-R2P9kzEeGQ68KaPvgVTMbnxT3gIm9p58CyGqPuJXIOoYTwIgL--zGqqgcO8tJflQBo7Nt76nYsF6HFY-hF6g%22%7D%2C%22header%22%3A%7B%22pageInstance%22%3A%7B%22pageUrn%22%3A%22urn%3Ali%3Apage%3Ad_flagship3_detail_base%22%2C%22trackingId%22%3A%2202cd61e3-596f-4509-8e0f-70b24c49a629%22%7D%2C%22time%22%3A1792963876531%2C%22version%22%3A%220.0.0%22%7D%2C%22requestHeader%22%3A%7B%22pageKey%22%3A%22d_flagship3_detail_base%22%2C%22interfaceLocale%22%3A%22zh-TW%22%7D%7D%7D%5D&csrfToken=ajax%3A7856694392726645923
+        - img "LinkedIn Talent Solutions"
+      - tooltip "LinkedIn Talent Solutions"
+      - heading "Peter, make your next hire the right one." [level=2]
+      - link "Post a free job":
+        - /url: https://www.linkedin.com/li/tscp/sct?destinationUrl=https%3A%2F%2Fwww.linkedin.com%2Fjob-posting%3Fmcid%3D7421726435633025070%26src%3Dli-dynamic%26trk%3D202601_APAC_EN_HiringPro50P_50P_1400%26li_fat_id%3Dc22dfffe-3777-4e70-8a68-89beb2d474df&trackingEvent=%5B%7B%22eventInfo%22%3A%7B%22appId%22%3A%22com.linkedin.ads.rendering.d_web%22%2C%22eventName%22%3A%22SponsoredRightRailContentActionEvent%22%2C%22topicName%22%3A%22SponsoredRightRailContentActionEvent%22%7D%2C%22eventBody%22%3A%7B%22sponsoredEventHeader%22%3A%7B%22encryptedTrackingData%22%3A%22CwEAAAGhdPmW5NqS-Muv1zbzCYkVF5Kx_sPbofMwYo5LZLFWL8jjGyru-PmXhsVdw8PjAsuDyPSo_oxA8VKyyDPjdfMs3EgoRL2R5y8FBypbZRKziaNjpdSarnNTRl3j7Dz5iDAqOSdH_pyXZ1eShvpuTsmIMre61S09Fo1af2hLHakcUDIJnc98GXez4lQGB6RE4pDJmEPaDWxXbCuN8Yi8_rvy5ea5kb2Mpg2BBxtcmUiZMe7Bqh0xKvlBvsatRJVxjcQ9Oku_oc1yNMu9SbdqzsFU1grG9o-BxhWGmwy8EWqW3cbYk-Tarkvt08OkFsIcPyIxPZzgePbzvypKPC82s4NRyoPUQNrYkJYZpX3sj0YpLC9vdV5yITCgd5QG-momNzBi4w9smhOL0vYaZ6kWrwWv0se8_kCv8ZJI0HC1l75_HJz_bY2FCgkOUdELbyh-dwB7LeJ31F3YFGsjtaVwyrsK7tFuF9jExy_QO4i3-0GkzGvfyXDkEMFVwa6LIS82N27fIkBN3L8h1uuMJGSjzYiQexYCgRz079dMHouTaEXZeHHEaCXTY2sYZ2wIByvsE7DLFIpXeKktw2fqERs6cJ8D8YW3sJ_gAdHKV3QZtMirH1Sv8V94w8O4cmCpZoS4krj3Nev7xfJgWL00VKzXYHjqTGrjEjvZUjkKVWgu8RvESHQwAc3ZW4u6bdNiuVPT_YrT1FOvwnJzEEofZ5vHLH5PlCCD7Qt7TDTIVyJZxZSIIOZ2xDV77cDeJYn8pdFLjBGPPAzCXVsjaWVKvThwxdvdlS2zRk5CV2LK4KjXWn9wEokjtjtEyI3HvAbTW5x2kaGaIqY-JbYBHnBVueiWdif8FqEi5nHhAAPThpe2AElykEBjRddVtemKxdny4Ssq685XvKPrh_HQfe6WtKgRJOjzmVWF3jd3_kGw61khiDZbYrjbcI4QsPH9qruty8TDkuebldTotiaF5dPds4SPAW1UWM58tnOSp2hBaFFZJ2_U_v4t2v6O0sG49spSFXmjinEwApSXoxC1Ky0uat4JnHtcQJwqXK52M5luDmsscNHoGRgjOF90rVPa1zPWpbgspYvbBWJAoMwiy8HqwYFT_5nweM_NL-R2P9kzEeGQ68KaPvgVTMbnxT3gIm9p58CyGqPuJXIOoYTwIgL--zGqqgcO8tJflQBo7Nt76nYsF6HFY-hF6g%22%7D%2C%22header%22%3A%7B%22pageInstance%22%3A%7B%22pageUrn%22%3A%22urn%3Ali%3Apage%3Ad_flagship3_detail_base%22%2C%22trackingId%22%3A%2202cd61e3-596f-4509-8e0f-70b24c49a629%22%7D%2C%22time%22%3A1792963876531%2C%22version%22%3A%220.0.0%22%7D%2C%22requestHeader%22%3A%7B%22pageKey%22%3A%22d_flagship3_detail_base%22%2C%22interfaceLocale%22%3A%22zh-TW%22%7D%7D%7D%5D&csrfToken=ajax%3A7856694392726645923
+    - link "關於":
+      - /url: https://about.linkedin.com/
+      - paragraph: 關於
+    - link "無障礙功能":
+      - /url: https://www.linkedin.com/accessibility/
+      - paragraph: 無障礙功能
+    - link "說明中心":
+      - /url: https://www.linkedin.com/help/linkedin/
+      - paragraph: 說明中心
+    - button "隱私權及條款":
+      - paragraph: 隱私權及條款
+    - link "Ad Choices":
+      - /url: https://www.linkedin.com/help/linkedin/answer/62931/
+      - paragraph: Ad Choices
+    - link "廣告":
+      - /url: https://www.linkedin.com/ad/start/?trk=n_nav_ads_rr
+      - paragraph: 廣告
+    - button "商務服務":
+      - paragraph: 商務服務
+    - link "下載 LinkedIn App":
+      - /url: https://www.linkedin.com/mobile/
+      - paragraph: 下載 LinkedIn App
+    - link "更多":
+      - /url: https://www.linkedin.com/
+      - paragraph: 更多
+    - paragraph: LinkedIn Corporation © 2026 年
+- complementary:
+  - img "Peter Chen"
+  - generic: 狀態為已上線
+  - button "您正處於訊息重疊畫面。按下 Enter 即可開啟對話清單。":
+    - generic: 訊息
+    - generic: 您正處於訊息重疊畫面。按下 Enter 即可開啟對話清單。
+  - mark:
+    - generic: "2"
+  - button "開啟選單":
+    - img "開啟選單"
+  - button "撰寫訊息":
+    - generic: 撰寫訊息
+  - button "您正處於訊息重疊畫面。按下 Enter 即可開啟對話清單。":
+    - generic: 您正處於訊息重疊畫面。按下 Enter 即可開啟對話清單。
+- complementary "能為您的職涯發展、求職等提供協助的 AI 助理"
+- iframe:
+  - region "祝賀訊息":
+    - heading "0 則通知" [level=2]
+    - alert
+  - region
+  - button "前往搜尋":
+    - generic: 前往搜尋
+  - button "前往內容":
+    - generic: 前往內容
+  - button "鍵盤快捷鍵":
+    - generic: 鍵盤快捷鍵
+  - button "關閉選單":
+    - generic: 關閉選單
+  - banner "全域導覽":
+    - link "LinkedIn":
+      - /url: https://www.linkedin.com/feed/
+      - img "LinkedIn":
+    - button "按一下開始搜尋":
+      - generic: 搜尋
+    - navigation "主選單":
+      - list:
+        - link "動態消息 新通知 首頁":
+          - /url: https://www.linkedin.com/feed/
+          - generic: 動態消息 新通知
+          - generic "首頁"
+        - link "2 個新通知網路更新 我的人脈":
+          - /url: https://www.linkedin.com/mynetwork/?
+          - generic: "2"
+          - generic: 2 個新通知網路更新
+          - generic "我的人脈"
+        - link "職缺":
+          - /url: https://www.linkedin.com/jobs/?
+          - generic "職缺"
+        - link "2 個新通知訊息 訊息":
+          - /url: https://www.linkedin.com/messaging/?
+          - generic: "2"
+          - generic: 2 個新通知訊息
+          - generic "訊息"
+        - link "25 個新通知 通知":
+          - /url: https://www.linkedin.com/notifications/?
+          - generic: "25"
+          - generic: 25 個新通知
+          - generic "通知"
+        - button "Peter Chen 我":
+          - img "Peter Chen"
+          - text: 我
+        - button "商務功能":
+          - generic "商務功能":
+            - text: 商務功能
+        - link "Learning":
+          - /url: https://www.linkedin.com/learning/?trk=nav_neptune_learning&
+          - generic "Learning"
+- button
+- img "Monica"
+- generic: Ctrl+M
+- text: 解釋

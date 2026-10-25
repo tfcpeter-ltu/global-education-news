@@ -1,0 +1,237 @@
+- link "Instagram":
+  - /url: /
+  - img "Instagram"
+- link "首頁":
+  - /url: /
+  - img "首頁"
+- link "Reel":
+  - /url: /reels/
+  - img "Reel"
+- link "訊息":
+  - /url: /direct/inbox/
+  - img "訊息"
+- link "搜尋":
+  - /url: /explore/
+  - img "搜尋"
+- link "通知":
+  - /url: "#"
+  - img "通知"
+- link "新貼文":
+  - /url: "#"
+  - img "新貼文"
+- link "專業主控板":
+  - /url: "#"
+  - img "專業主控板"
+- link "ltuossdtw的大頭貼照":
+  - /url: /ltuossdtw/
+  - link "ltuossdtw的大頭貼照":
+    - img "ltuossdtw的大頭貼照"
+- link "設定":
+  - /url: "#"
+  - img "設定"
+- link "其他 Meta 旗下產品":
+  - /url: "#"
+  - img "其他 Meta 旗下產品"
+- main:
+  - img "Photo by LTU OSSD 台加雙聯學制 on October 25, 2026. 可能是轉運站和文字的圖像."
+  - button "ltuossdtw的大頭貼照":
+    - link "ltuossdtw的大頭貼照":
+      - img "ltuossdtw的大頭貼照"
+  - link "ltuossdtw":
+    - /url: /ltuossdtw/
+    - generic: ltuossdtw
+  - button "更多選項":
+    - img "更多選項"
+  - separator
+  - link "ltuossdtw的大頭貼照":
+    - /url: /ltuossdtw/
+    - img "ltuossdtw的大頭貼照"
+  - link "ltuossdtw":
+    - /url: /ltuossdtw/
+    - generic: ltuossdtw
+  - time: 1 分鐘
+  - text: Memorial國際生減少：16.2%與45%怎麼讀？
+  - text: 分清一年、三年與不同學生群體。
+  - text: AAU全時簽證學生一年減16.2%；CBC全部國際生三年減約45%。兩者口徑不同。
+  - text: 招生數據不等於個人錄取或簽證機率；選校仍須核對課程、費用與支持。
+  - text: 國際教育新聞：https://globalednews.com/news/
+  - text: 全文：https://globalednews.com/news/memorial-international-enrolment-measures-2026/
+  - text: 可複製網址至瀏覽器閱讀。
+  - text: 免費加入環球教育新聞會員！
+  - text: 每週教育新聞與申請提醒，免費且可隨時取消。
+  - text: https://globalednews.com/newsletter/
+  - text: 資料照：User:Neelix / Public domain；裁切加字。
+  - text: https://globalednews.com/images/daily/2026-10-26/credits.html
+  - link "#ca":
+    - /url: /explore/tags/ca/
+  - heading "尚無留言。" [level=2]
+  - generic: 開始對話。
+  - button "查看洞察報告"
+  - button "加強推廣貼文"
+  - button "讚":
+    - img "讚"
+  - button "回應":
+    - img "回應"
+  - button "分享":
+    - img "分享"
+  - button "儲存":
+    - button "儲存":
+      - img "儲存"
+  - link "1 分鐘前":
+    - /url: /ltuossdtw/p/De7qZ7ZkwV6/
+    - time: 1 分鐘前
+  - link
+  - button "表情符號":
+    - img "表情符號"
+  - textbox "留言⋯⋯"
+  - separator
+  - text: 更多「
+  - link "ltuossdtw":
+    - /url: /ltuossdtw/
+  - text: 」的貼文
+  - link "國際交換 海外學習 短期交換 美國公立高中交換生 寒暑假課程 海外入班 大學校園體驗 寄宿家庭 國際交流 英文學習 青少年遊學 學習歷程 行前準備 海外生活 加拿大遊學 英國遊學 美國高中 交換學生 國際教育 LTU 影片片段":
+    - /url: /ltuossdtw/reel/De5m5PLE-FI/
+    - img "國際交換 海外學習 短期交換 美國公立高中交換生 寒暑假課程 海外入班 大學校園體驗 寄宿家庭 國際交流 英文學習 青少年遊學 學習歷程 行前準備 海外生活 加拿大遊學 英國遊學 美國高中 交換學生 國際教育 LTU"
+    - img "影片片段"
+  - link "🇬🇧 英國校園日常，從餐桌開始。 2027寒假唐頓女王學院入班與寄宿體驗 2027/1/23–2/5（含交通日）｜7–17歲依年齡及英文程度安排 三餐於校園餐廳用餐，菜色依學校安排。特殊飲食需求請報名前向LTU確認。 官網所列NT$199,650／人；最新費用、包含項目與名額向LTU確認。課程住宿活動依實際安排。 活動說明與報名資訊：https://www.ossdtw.com/uk-exchange/":
+    - /url: /ltuossdtw/p/De5mZJ1E7Kx/
+    - img "🇬🇧 英國校園日常，從餐桌開始。 2027寒假唐頓女王學院入班與寄宿體驗 2027/1/23–2/5（含交通日）｜7–17歲依年齡及英文程度安排 三餐於校園餐廳用餐，菜色依學校安排。特殊飲食需求請報名前向LTU確認。 官網所列NT$199,650／人；最新費用、包含項目與名額向LTU確認。課程住宿活動依實際安排。 活動說明與報名資訊：https://www.ossdtw.com/uk-exchange/"
+  - 'link ". . https://www.ossdtw.com/%e7%b7%9a%e4%b8%8a%e8%aa%aa%e6%98%8e%e6%9c%83-introduction/ #LTUOSSD 輪播廣告"':
+    - /url: /ltuossdtw/p/De5YB5FDFCb/
+    - 'img ". . https://www.ossdtw.com/%e7%b7%9a%e4%b8%8a%e8%aa%aa%e6%98%8e%e6%9c%83-introduction/ #LTUOSSD"'
+    - img "輪播廣告"
+  - 'link "🍁 加拿大寒假｜家長常問3件事 Royal Crown School 多倫多皇冠高中 📚 適合的程度？依年齡、英文程度與校方課表協調，先向LTU確認。 🎓 有OSSD學分？短期入班旁聽，不含加拿大高中學分。 🏠 一定住校？宿舍或飯店依空房，地點、房型與餐食以正式確認及行前通知為準。 2027/1/23–2/4｜官網所列NT$188,370／人 NBA自費依賽程票務，行程航班以確認為準。 活動說明與報名資訊網址： https://www.ossdtw.com/canada-winter-2027/ 配圖為AI情境示意。 #加拿大寒假 #家長FAQ"':
+    - /url: /ltuossdtw/p/De5eqtRE-K4/
+    - 'img "🍁 加拿大寒假｜家長常問3件事 Royal Crown School 多倫多皇冠高中 📚 適合的程度？依年齡、英文程度與校方課表協調，先向LTU確認。 🎓 有OSSD學分？短期入班旁聽，不含加拿大高中學分。 🏠 一定住校？宿舍或飯店依空房，地點、房型與餐食以正式確認及行前通知為準。 2027/1/23–2/4｜官網所列NT$188,370／人 NBA自費依賽程票務，行程航班以確認為準。 活動說明與報名資訊網址： https://www.ossdtw.com/canada-winter-2027/ 配圖為AI情境示意。 #加拿大寒假 #家長FAQ"'
+  - link "想從政大出國交換？先比科系，再查校內資格 選校選系與交換機會，一起核對。 政大國際處列有短期進修補助與交換公告；各計畫的年級、語言及校內期限需分開查。 從國內大學資料庫比較學群與校系，再回官方確認，不把公告當成保證錄取。 國內大學選校選系資料庫：https://globalednews.com/taiwan-universities/ 全文：https://globalednews.com/taiwan-universities/ 可複製網址至瀏覽器閱讀。 免費加入環球教育新聞會員！ 每週教育新聞與申請提醒，免費且可隨時取消。 https://globalednews.com/newsletter/ 資料照：Felix Filnkoessl / CC BY-SA 2.0；裁切加字。 https://globalednews.com/images/daily/2026-10-25/credits.html#taiwan":
+    - /url: /ltuossdtw/p/De5G2o9k5uI/
+    - img "想從政大出國交換？先比科系，再查校內資格 選校選系與交換機會，一起核對。 政大國際處列有短期進修補助與交換公告；各計畫的年級、語言及校內期限需分開查。 從國內大學資料庫比較學群與校系，再回官方確認，不把公告當成保證錄取。 國內大學選校選系資料庫：https://globalednews.com/taiwan-universities/ 全文：https://globalednews.com/taiwan-universities/ 可複製網址至瀏覽器閱讀。 免費加入環球教育新聞會員！ 每週教育新聞與申請提醒，免費且可隨時取消。 https://globalednews.com/newsletter/ 資料照：Felix Filnkoessl / CC BY-SA 2.0；裁切加字。 https://globalednews.com/images/daily/2026-10-25/credits.html#taiwan"
+  - link "申請Missouri S&T：先分新生、轉學兩條路 避免身分填錯，再確認英語與預算。 Rolla校區採滾動審查，秋季建議4月1日前；Provost年額1.5萬美元有贊助與續領限制。 獎助不是生活費全包；以正式錄取與獎助信計算成本。 留學DIY導航：https://globalednews.com/study-abroad/ 全文：https://globalednews.com/study-abroad/missouri-st-first-degree-application-checklist-2027/ 可複製網址至瀏覽器閱讀。 免費加入環球教育新聞會員！ 每週教育新聞與申請提醒，免費且可隨時取消。 https://globalednews.com/newsletter/ 資料照：Adavidb / CC BY-SA 3.0；裁切加字。 https://globalednews.com/images/daily/2026-10-25/credits.html#diy":
+    - /url: /ltuossdtw/p/De5GmRwk72v/
+    - img "申請Missouri S&T：先分新生、轉學兩條路 避免身分填錯，再確認英語與預算。 Rolla校區採滾動審查，秋季建議4月1日前；Provost年額1.5萬美元有贊助與續領限制。 獎助不是生活費全包；以正式錄取與獎助信計算成本。 留學DIY導航：https://globalednews.com/study-abroad/ 全文：https://globalednews.com/study-abroad/missouri-st-first-degree-application-checklist-2027/ 可複製網址至瀏覽器閱讀。 免費加入環球教育新聞會員！ 每週教育新聞與申請提醒，免費且可隨時取消。 https://globalednews.com/newsletter/ 資料照：Adavidb / CC BY-SA 3.0；裁切加字。 https://globalednews.com/images/daily/2026-10-25/credits.html#diy"
+- contentinfo:
+  - link "Meta":
+    - /url: https://about.meta.com/
+    - generic: Meta
+  - link "關於":
+    - /url: https://about.instagram.com/
+    - generic: 關於
+  - link "部落格":
+    - /url: https://about.instagram.com/blog/
+    - generic: 部落格
+  - link "工作機會":
+    - /url: https://about.instagram.com/about-us/careers
+    - generic: 工作機會
+  - link "使用說明":
+    - /url: https://help.instagram.com/
+    - generic: 使用說明
+  - link "API":
+    - /url: https://developers.facebook.com/docs/instagram
+    - generic: API
+  - link "隱私":
+    - /url: /legal/privacy/
+    - generic: 隱私
+  - link "使用條款":
+    - /url: /legal/terms/
+    - generic: 使用條款
+  - link "地點":
+    - /url: /explore/locations/
+    - generic: 地點
+  - link "熱門":
+    - /url: /popular/
+    - generic: 熱門
+  - link "Instagram Lite":
+    - /url: /web/lite/
+    - generic: Instagram Lite
+  - link "Meta AI":
+    - /url: https://www.meta.ai/?utm_source=foa_web_footer
+    - generic: Meta AI
+  - link "Muse":
+    - /url: https://muse.ai/
+    - generic: Muse
+  - link "Threads":
+    - /url: https://www.threads.com/
+    - generic: Threads
+  - link "聯絡人上傳和非用戶":
+    - /url: https://www.facebook.com/help/instagram/261704639352628
+    - generic: 聯絡人上傳和非用戶
+  - link "Meta 驗證":
+    - /url: /accounts/meta_verified/?entrypoint=web_footer
+    - generic: Meta 驗證
+  - generic: 中文(台灣)
+  - img "向下雙箭頭圖示"
+  - combobox "切換顯示語言":
+    - option "Afrikaans"
+    - option "العربية"
+    - option "Čeština"
+    - option "Dansk"
+    - option "Deutsch"
+    - option "Ελληνικά"
+    - option "English"
+    - option "English (UK)"
+    - option "Español (España)"
+    - option "Español"
+    - option "فارسی"
+    - option "Suomi"
+    - option "Français"
+    - option "עברית"
+    - option "Bahasa Indonesia"
+    - option "Italiano"
+    - option "日本語"
+    - option "한국어"
+    - option "Bahasa Melayu"
+    - option "Norsk"
+    - option "Nederlands"
+    - option "Polski"
+    - option "Português (Brasil)"
+    - option "Português (Portugal)"
+    - option "Русский"
+    - option "Svenska"
+    - option "ภาษาไทย"
+    - option "Filipino"
+    - option "Türkçe"
+    - option "中文(简体)"
+    - option "中文(台灣)" [selected]
+    - option "বাংলা"
+    - option "ગુજરાતી"
+    - option "हिन्दी"
+    - option "Hrvatski"
+    - option "Magyar"
+    - option "ಕನ್ನಡ"
+    - option "മലയാളം"
+    - option "मराठी"
+    - option "नेपाली"
+    - option "ਪੰਜਾਬੀ"
+    - option "සිංහල"
+    - option "Slovenčina"
+    - option "தமிழ்"
+    - option "తెలుగు"
+    - option "اردو"
+    - option "Tiếng Việt"
+    - option "中文(香港)"
+    - option "Български"
+    - option "Français (Canada)"
+    - option "Română"
+    - option "Српски"
+    - option "Українська"
+  - generic: © 2026Instagram from Meta
+- button "讚 31 感情狀況 5":
+  - tooltip "讚 31 感情狀況 5":
+    - generic "讚"
+    - generic: "31"
+    - generic "感情狀況"
+    - generic: "5"
+- button "訊息":
+  - generic "訊息":
+    - img "訊息"
+    - generic: 訊息
+    - button "用戶虛擬替身 𝓚𝓮𝓷":
+      - img "用戶虛擬替身"
+    - button "用戶虛擬替身 May1228":
+      - img "用戶虛擬替身"
+    - button "用戶虛擬替身 lailiangzhu":
+      - img "用戶虛擬替身"
+- button
+- img "Monica"
+- generic: Ctrl+M
+- text: 解釋

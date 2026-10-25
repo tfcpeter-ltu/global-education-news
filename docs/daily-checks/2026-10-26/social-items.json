@@ -1,0 +1,66 @@
+[
+  {
+    "key": "ca",
+    "campaign": "news",
+    "topic": "memorial-enrolment-2026",
+    "title": "Memorial國際生減少：16.2%與45%怎麼讀？",
+    "benefit": "分清一年、三年與不同學生群體。",
+    "summary": "AAU全時簽證學生一年減16.2%；CBC全部國際生三年減約45%。兩者口徑不同。",
+    "advice": "招生數據不等於個人錄取或簽證機率；選校仍須核對課程、費用與支持。",
+    "section": "國際教育新聞",
+    "sectionUrl": "https://globalednews.com/news/",
+    "lines": [
+      "Memorial國際生減少",
+      "16.2%與45%怎麼讀？"
+    ],
+    "url": "https://globalednews.com/news/memorial-international-enrolment-measures-2026/"
+  },
+  {
+    "key": "iowa",
+    "campaign": "scholarship",
+    "topic": "iowa-excellence",
+    "title": "Iowa State國際獎助：新生每年最高1.4萬美元",
+    "benefit": "六級距計為一項，先分新生與轉學。",
+    "summary": "已錄取、繳國際生學費者自動評估；新生與轉學有不同GPA、測驗及金額，不可與International Merit併領。",
+    "advice": "台灣學生須符合國際申請資格；秋季5月1日、春季12月15日前接受錄取。",
+    "section": "國際獎學金雷達",
+    "sectionUrl": "https://globalednews.com/scholarships/",
+    "lines": [
+      "Iowa State國際獎助",
+      "新生最高每年1.4萬美元"
+    ],
+    "url": "https://globalednews.com/scholarships/items/2026-10-iowa-state-international-excellence/"
+  },
+  {
+    "key": "diy",
+    "campaign": "study-abroad",
+    "topic": "miami-ohio-routes",
+    "title": "Miami Ohio申請：PFP與跨文化獎助分兩條路",
+    "benefit": "先辨校名，再排測驗與送件日期。",
+    "summary": "Oxford校區PFP2027須ACT/SAT及12月1日完整資料；跨文化獎助錄取後另填表，1月1日截止。",
+    "advice": "不是佛州University of Miami；獎助範圍與續領GPA分開核對。",
+    "section": "留學DIY導航",
+    "sectionUrl": "https://globalednews.com/study-abroad/",
+    "lines": [
+      "Miami Ohio怎麼申請",
+      "兩條獎助路徑別混用"
+    ],
+    "url": "https://globalednews.com/study-abroad/miami-ohio-honors-scholarship-route-2027/"
+  },
+  {
+    "key": "taiwan",
+    "campaign": "taiwan-universities",
+    "topic": "nthu-exchange-routes",
+    "title": "想從清華出國交換？先比校系，再查交換路徑",
+    "benefit": "把科系方向與國際學習規劃一起比較。",
+    "summary": "清華全球事務處提供去訪交換、雙聯與合作校入口；先核對學程、年級、語言與校內甄選。",
+    "advice": "資料庫協助選校，實際名額與期限回官方確認；不保證錄取或補助。",
+    "section": "國內大學選校選系資料庫",
+    "sectionUrl": "https://globalednews.com/taiwan-universities/",
+    "lines": [
+      "清華交換怎麼準備",
+      "先比校系再查資格"
+    ],
+    "url": "https://globalednews.com/taiwan-universities/"
+  }
+]

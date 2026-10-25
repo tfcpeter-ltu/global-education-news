@@ -101,7 +101,8 @@ const analyticsUrl = `${base}data/analytics-summary.json`;
 
         if (countryList && countries.length) {
           countryList.innerHTML = countries.map((item, index) => {
-            const name = esc(item.name || '其他');
+            const english = document.documentElement.lang.toLowerCase().startsWith('en');
+            const name = esc(english ? (item.mapName || 'Other') : (item.name || '其他'));
             const share = Math.max(0, Math.min(100, Number(item.share || 0)));
             return `<div class="country-row"><span class="country-rank">${String(index + 1).padStart(2, '0')}</span><span class="country-name">${name}</span><strong class="country-share">${share.toFixed(1)}%</strong></div>`;
           }).join('');

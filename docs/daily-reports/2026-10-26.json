@@ -225,7 +225,62 @@
     "catalog-vanderbilt-ingram",
     "catalog-yale-international-aid"
   ],
-  "newsPublished": [],
+  "newsPublished": [
+    {
+      "slug": "memorial-international-enrolment-measures-2026",
+      "title": "加拿大Memorial國際生減少：一年與三年降幅不能混讀",
+      "url": "https://globalednews.com/news/memorial-international-enrolment-measures-2026/",
+      "publishedPath": "src/pages/news/memorial-international-enrolment-measures-2026.md",
+      "sources": [
+        {
+          "label": "Primary source",
+          "url": "https://atlanticuniversities.ca/wp-content/uploads/2026/10/web_VISA_PreliminaryEnrolments-26-27_Final-Oct.-1426-4.pdf"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://www.cbc.ca/news/canada/newfoundland-labrador/mun-international-students-decline-9.7389650"
+        }
+      ],
+      "verifiedAt": "2026-10-26T05:11:51.822053+08:00",
+      "publishedVerifiedAt": "2026-10-26T05:25:51.558135+08:00"
+    },
+    {
+      "slug": "england-bell-review-school-safeguarding-2026",
+      "title": "英格蘭接受Bell檢討27項建議：強化校園反猶歧視通報與培訓",
+      "url": "https://globalednews.com/news/england-bell-review-school-safeguarding-2026/",
+      "publishedPath": "src/pages/news/england-bell-review-school-safeguarding-2026.md",
+      "sources": [
+        {
+          "label": "Primary source",
+          "url": "https://www.gov.uk/government/news/generational-moment-as-government-acts-on-landmark-antisemitism-review"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://feweek.co.uk/antisemitism-review-colleges-told-to-set-out-stance-on-staff-wearing-political-symbols/"
+        }
+      ],
+      "verifiedAt": "2026-10-26T05:11:51.822053+08:00",
+      "publishedVerifiedAt": "2026-10-26T05:25:51.558135+08:00"
+    },
+    {
+      "slug": "act-school-stoppages-october-2026-followup",
+      "title": "澳洲ACT上週分校停工：家庭應核對校方通知，勿沿用過期時段",
+      "url": "https://globalednews.com/news/act-school-stoppages-october-2026-followup/",
+      "publishedPath": "src/pages/news/act-school-stoppages-october-2026-followup.md",
+      "sources": [
+        {
+          "label": "Primary source",
+          "url": "https://www.act.gov.au/education-and-training/latest-articles/protected-industrial-action-at-act-public-schools-19-to-23-october-2026"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://region.com.au/fed-up-public-school-teachers-take-to-the-streets-as-threat-of-term-4-full-day-strike-looms/1009426/"
+        }
+      ],
+      "verifiedAt": "2026-10-26T05:11:51.822053+08:00",
+      "publishedVerifiedAt": "2026-10-26T05:25:51.558135+08:00"
+    }
+  ],
   "scholarshipChecks": [
     {
       "slug": "2026-10-iowa-state-international-excellence",
@@ -247,7 +302,8 @@
       "open": true,
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New independently checked scheme; tiers counted once; no previously published slug."
+      "updateSummary": "New independently checked scheme; tiers counted once; no previously published slug.",
+      "publishedVerifiedAt": "2026-10-26T05:25:51.558135+08:00"
     },
     {
       "slug": "2026-10-miami-ohio-presidential-fellows-2027",
@@ -269,7 +325,8 @@
       "open": true,
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New independently checked scheme; tiers counted once; no previously published slug."
+      "updateSummary": "New independently checked scheme; tiers counted once; no previously published slug.",
+      "publishedVerifiedAt": "2026-10-26T05:25:51.558135+08:00"
     },
     {
       "slug": "2026-10-miami-ohio-youarewelcomehere-2027",
@@ -291,7 +348,8 @@
       "open": true,
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New independently checked scheme; tiers counted once; no previously published slug."
+      "updateSummary": "New independently checked scheme; tiers counted once; no previously published slug.",
+      "publishedVerifiedAt": "2026-10-26T05:25:51.558135+08:00"
     }
   ],
   "scholarshipAdditions": [
@@ -315,7 +373,8 @@
       "open": true,
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New independently checked scheme; tiers counted once; no previously published slug."
+      "updateSummary": "New independently checked scheme; tiers counted once; no previously published slug.",
+      "publishedVerifiedAt": "2026-10-26T05:25:51.558135+08:00"
     },
     {
       "slug": "2026-10-miami-ohio-presidential-fellows-2027",
@@ -337,7 +396,8 @@
       "open": true,
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New independently checked scheme; tiers counted once; no previously published slug."
+      "updateSummary": "New independently checked scheme; tiers counted once; no previously published slug.",
+      "publishedVerifiedAt": "2026-10-26T05:25:51.558135+08:00"
     },
     {
       "slug": "2026-10-miami-ohio-youarewelcomehere-2027",
@@ -359,11 +419,330 @@
       "open": true,
       "isNew": true,
       "baselineAbsent": true,
-      "updateSummary": "New independently checked scheme; tiers counted once; no previously published slug."
+      "updateSummary": "New independently checked scheme; tiers counted once; no previously published slug.",
+      "publishedVerifiedAt": "2026-10-26T05:25:51.558135+08:00"
     }
   ],
   "peterImports": [],
-  "socialPosts": [],
+  "socialPosts": [
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "pageId": "101904929207004",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/news/memorial-international-enrolment-measures-2026/",
+      "photoAttachedAt": "2026-10-26T05:18:52.433+08:00",
+      "photoReadyEvidence": "docs/daily-checks/2026-10-26/news-facebook-photo-ready.jpg",
+      "dedupeVerifiedAt": "2026-10-26T05:18:52.434+08:00",
+      "copyAddedAt": "2026-10-26T05:19:06.464+08:00",
+      "publishClickedAt": "2026-10-26T05:22:13.141+08:00",
+      "id": "1099435389499325",
+      "publicUrl": "https://facebook.com/LTUOSSDTaiwan/posts/pfbid03bNLvYYKFCngA8oaxH1vvNMvuMPAEg9s8SRFL5SncjLzHcAXeqXrXWrxcMT7aH1al",
+      "publishedAt": "2026-10-26T05:22:00+08:00",
+      "publishedAtPrecision": "minute",
+      "verifiedAt": "2026-10-26T05:24:00.341+08:00",
+      "mediaVerifiedAt": "2026-10-26T05:24:00.341+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "visibility": "public",
+      "mediaEvidence": "docs/daily-checks/2026-10-26/news-facebook-public.jpg",
+      "photoAttachments": [
+        {
+          "id": "1099433309499533",
+          "url": "https://www.facebook.com/photo/?fbid=1099433309499533&set=a.107747308668143&type=3"
+        }
+      ],
+      "publicPhotoScreenshot": "docs/daily-checks/2026-10-26/news-facebook-public.jpg",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-26T05:24:00.341+08:00"
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "articleUrl": "https://globalednews.com/news/memorial-international-enrolment-measures-2026/",
+      "status": "PUBLISHED",
+      "publishClickedAt": "2026-10-26T05:22:13.141+08:00",
+      "id": "De7qZ7ZkwV6",
+      "publicUrl": "https://www.instagram.com/p/De7qZ7ZkwV6/",
+      "publishedAt": "2026-10-26T05:22:13.141+08:00",
+      "publishedAtPrecision": "submission observed; public readback relative time",
+      "verifiedAt": "2026-10-26T05:24:00.341+08:00",
+      "mediaVerifiedAt": "2026-10-26T05:24:00.341+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "visibility": "public",
+      "mediaEvidence": "docs/daily-checks/2026-10-26/news-instagram-public.jpg"
+    },
+    {
+      "campaign": "news",
+      "network": "threads",
+      "articleUrl": "https://globalednews.com/news/memorial-international-enrolment-measures-2026/",
+      "status": "PUBLISHED",
+      "publishClickedAt": "2026-10-26T05:21:52.092+08:00",
+      "id": "De7qXPcE4Cx",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/De7qXPcE4Cx",
+      "publishedAt": "2026-10-26T05:21:52.092+08:00",
+      "publishedAtPrecision": "submission observed; public readback relative time",
+      "verifiedAt": "2026-10-26T05:22:32.068+08:00",
+      "mediaVerifiedAt": "2026-10-26T05:22:32.068+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "visibility": "public",
+      "mediaEvidence": "docs/daily-checks/2026-10-26/news-threads-public.jpg"
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "articleUrl": "https://globalednews.com/news/memorial-international-enrolment-measures-2026/",
+      "status": "PUBLISHED",
+      "publishClickedAt": "2026-10-26T05:23:17.065+08:00",
+      "id": "7520233561019412480",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7520233561019412480/",
+      "publishedAt": "2026-10-26T05:23:17.065+08:00",
+      "publishedAtPrecision": "submission observed; public readback relative time",
+      "verifiedAt": "2026-10-26T05:24:00.341+08:00",
+      "mediaVerifiedAt": "2026-10-26T05:24:00.341+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "visibility": "public",
+      "mediaEvidence": "docs/daily-checks/2026-10-26/news-linkedin-public.jpg"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-iowa-state-international-excellence/",
+      "status": "PUBLISHED",
+      "publishClickedAt": "2026-10-26T05:24:48.396+08:00",
+      "id": "De7qs1CE-Yt",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/De7qs1CE-Yt",
+      "publishedAt": "2026-10-26T05:24:48.396+08:00",
+      "publishedAtPrecision": "submission observed; public readback relative time",
+      "verifiedAt": "2026-10-26T05:25:34.083+08:00",
+      "mediaVerifiedAt": "2026-10-26T05:25:34.083+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "visibility": "public",
+      "mediaEvidence": "docs/daily-checks/2026-10-26/scholarship-threads-public.jpg"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "pageId": "101904929207004",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-iowa-state-international-excellence/",
+      "photoAttachedAt": "2026-10-26T05:25:14.914+08:00",
+      "photoReadyEvidence": "docs/daily-checks/2026-10-26/scholarship-facebook-photo-ready.jpg",
+      "dedupeVerifiedAt": "2026-10-26T05:25:14.914+08:00",
+      "copyAddedAt": "2026-10-26T05:25:15.309+08:00",
+      "publishClickedAt": "2026-10-26T05:25:34.083+08:00",
+      "id": "1099437322832465",
+      "publicUrl": "https://facebook.com/LTUOSSDTaiwan/posts/pfbid02689QWUN9hiRitPJbpTpG4qrE62sL6YbxY62DTi9VN82qFJNn8oGupe6oxFekHefvl",
+      "publishedAt": "2026-10-26T05:25:00+08:00",
+      "publishedAtPrecision": "minute",
+      "verifiedAt": "2026-10-26T05:27:12.110+08:00",
+      "mediaVerifiedAt": "2026-10-26T05:27:12.110+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "visibility": "public",
+      "mediaEvidence": "docs/daily-checks/2026-10-26/scholarship-facebook-public.jpg",
+      "photoAttachments": [
+        {
+          "id": "1099436862832511",
+          "url": "https://www.facebook.com/photo/?fbid=1099436862832511&set=a.107747308668143&type=3"
+        }
+      ],
+      "publicPhotoScreenshot": "docs/daily-checks/2026-10-26/scholarship-facebook-public.jpg",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-10-26T05:27:12.110+08:00"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-iowa-state-international-excellence/",
+      "status": "PUBLISHED",
+      "publishClickedAt": "2026-10-26T05:25:15.782+08:00",
+      "id": "7520234065183191040",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7520234065183191040/",
+      "publishedAt": "2026-10-26T05:25:15.782+08:00",
+      "publishedAtPrecision": "submission observed; public readback relative time",
+      "verifiedAt": "2026-10-26T05:26:06.755+08:00",
+      "mediaVerifiedAt": "2026-10-26T05:26:06.755+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "visibility": "public",
+      "mediaEvidence": "docs/daily-checks/2026-10-26/scholarship-linkedin-public.jpg"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-10-iowa-state-international-excellence/",
+      "status": "PUBLISHED",
+      "publishClickedAt": "2026-10-26T05:25:34.083+08:00",
+      "id": "De7qyi5k6uJ",
+      "publicUrl": "https://www.instagram.com/p/De7qyi5k6uJ/",
+      "publishedAt": "2026-10-26T05:25:34.083+08:00",
+      "publishedAtPrecision": "submission observed; public readback relative time",
+      "verifiedAt": "2026-10-26T05:27:12.110+08:00",
+      "mediaVerifiedAt": "2026-10-26T05:27:12.110+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "visibility": "public",
+      "mediaEvidence": "docs/daily-checks/2026-10-26/scholarship-instagram-public.jpg"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "articleUrl": "https://globalednews.com/study-abroad/miami-ohio-honors-scholarship-route-2027/",
+      "status": "PUBLISHED",
+      "publishClickedAt": "2026-10-26T05:26:21.518+08:00",
+      "id": "De7q4I0kziM",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/De7q4I0kziM",
+      "publishedAt": "2026-10-26T05:26:21.518+08:00",
+      "publishedAtPrecision": "submission observed; public readback relative time",
+      "verifiedAt": "2026-10-26T05:27:12.110+08:00",
+      "mediaVerifiedAt": "2026-10-26T05:27:12.110+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "visibility": "public",
+      "mediaEvidence": "docs/daily-checks/2026-10-26/study-abroad-threads-public.jpg"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "articleUrl": "https://globalednews.com/study-abroad/miami-ohio-honors-scholarship-route-2027/",
+      "status": "PUBLISHED",
+      "publishClickedAt": "2026-10-26T05:27:12.110+08:00",
+      "id": "7520234551789449216",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7520234551789449216/",
+      "publishedAt": "2026-10-26T05:27:12.110+08:00",
+      "publishedAtPrecision": "submission observed; public readback relative time",
+      "verifiedAt": "2026-10-26T05:27:54.429+08:00",
+      "mediaVerifiedAt": "2026-10-26T05:27:54.429+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "visibility": "public",
+      "mediaEvidence": "docs/daily-checks/2026-10-26/study-abroad-linkedin-public.jpg"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "pageId": "101904929207004",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/study-abroad/miami-ohio-honors-scholarship-route-2027/",
+      "photoAttachedAt": "2026-10-26T05:27:27.058+08:00",
+      "photoReadyEvidence": "docs/daily-checks/2026-10-26/study-abroad-facebook-photo-ready.jpg",
+      "dedupeVerifiedAt": "2026-10-26T05:27:27.058+08:00",
+      "copyAddedAt": "2026-10-26T05:27:27.471+08:00",
+      "publishClickedAt": "2026-10-26T05:27:45.687+08:00",
+      "id": "1099438382832359",
+      "publicUrl": "https://facebook.com/LTUOSSDTaiwan/posts/pfbid0bjUa1t7RavKR2hztWE3b2DthoZqjn7oaZ9S4u9vzMMrVq4AhNNt8Mu8tMoRqYS9ml",
+      "publishedAt": "2026-10-26T05:27:45.687+08:00",
+      "publishedAtPrecision": "submission observed; public readback relative time",
+      "verifiedAt": "2026-10-26T05:31:13.902+08:00",
+      "mediaVerifiedAt": "2026-10-26T05:31:13.902+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "visibility": "public",
+      "mediaEvidence": "docs/daily-checks/2026-10-26/study-abroad-facebook-public.jpg",
+      "nativePhotoAttachments": [
+        "https://www.facebook.com/photo.php?fbid=1099438112832386&set=a.107747308668143&type=3"
+      ],
+      "previewStatus": "VERIFIED",
+      "publicPhotoScreenshot": "docs/daily-checks/2026-10-26/study-abroad-facebook-public.jpg",
+      "photoAttachments": [
+        {
+          "id": "1099438112832386",
+          "url": "https://www.facebook.com/photo/?fbid=1099438112832386&set=a.107747308668143&type=3"
+        }
+      ],
+      "previewVerifiedAt": "2026-10-26T05:31:13.902+08:00"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "articleUrl": "https://globalednews.com/study-abroad/miami-ohio-honors-scholarship-route-2027/",
+      "status": "PUBLISHED",
+      "publishClickedAt": "2026-10-26T05:27:45.687+08:00",
+      "id": "De7rCjqE1FH",
+      "publicUrl": "https://www.instagram.com/p/De7rCjqE1FH/",
+      "publishedAt": "2026-10-26T05:27:45.687+08:00",
+      "publishedAtPrecision": "submission observed; public readback relative time",
+      "verifiedAt": "2026-10-26T05:31:13.902+08:00",
+      "mediaVerifiedAt": "2026-10-26T05:31:13.902+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "visibility": "public",
+      "mediaEvidence": "docs/daily-checks/2026-10-26/study-abroad-instagram-public.jpg"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "status": "PUBLISHED",
+      "publishClickedAt": "2026-10-26T05:28:06.329+08:00",
+      "id": "De7rE-Hkw6k",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/De7rE-Hkw6k",
+      "publishedAt": "2026-10-26T05:28:06.329+08:00",
+      "publishedAtPrecision": "submission observed; public readback relative time",
+      "verifiedAt": "2026-10-26T05:32:22.955+08:00",
+      "mediaVerifiedAt": "2026-10-26T05:32:22.955+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "visibility": "public",
+      "mediaEvidence": "docs/daily-checks/2026-10-26/taiwan-universities-threads-public.jpg"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "status": "PUBLISHED",
+      "publishClickedAt": "2026-10-26T05:29:04.990+08:00",
+      "id": "7520235020968439810",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7520235020968439810/",
+      "publishedAt": "2026-10-26T05:29:04.990+08:00",
+      "publishedAtPrecision": "submission observed; public readback relative time",
+      "verifiedAt": "2026-10-26T05:32:22.955+08:00",
+      "mediaVerifiedAt": "2026-10-26T05:32:22.955+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "visibility": "public",
+      "mediaEvidence": "docs/daily-checks/2026-10-26/taiwan-universities-linkedin-public.jpg"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "publishClickedAt": "2026-10-26T05:32:32.752+08:00",
+      "dedupeVerifiedAt": "2026-10-26T05:32:32.753+08:00",
+      "id": "De7rlo7k-6Z",
+      "publicUrl": "https://www.instagram.com/p/De7rlo7k-6Z/",
+      "publishedAt": "2026-10-26T05:32:32.752+08:00",
+      "publishedAtPrecision": "submission observed; public readback relative time",
+      "verifiedAt": "2026-10-26T05:33:34.308+08:00",
+      "mediaVerifiedAt": "2026-10-26T05:33:34.308+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "visibility": "public",
+      "mediaEvidence": "docs/daily-checks/2026-10-26/taiwan-universities-instagram-public.jpg"
+    }
+  ],
   "phases": {
     "PREFLIGHT": {
       "verifiedAt": "2026-10-26T05:03:18.3874743+08:00",
@@ -375,11 +754,8 @@
     }
   },
   "gaps": [
-    "BUILD",
-    "COMMIT_DEPLOY",
-    "PUBLISH",
-    "ACCEPTANCE",
-    "VERIFY"
+    "English dynamic country name repair deploy",
+    "final verification"
   ],
   "manualActions": [],
   "newsPrepared": [
@@ -491,14 +867,23 @@
   "ltuReview": {
     "checkedAt": "2026-10-26T05:11:51.822053+08:00",
     "poolSize": 12,
-    "pendingLiveVerification": true
+    "pendingLiveVerification": false,
+    "liveVerifiedAt": "2026-10-26T05:36:05.292+08:00",
+    "liveItems": [
+      "國際競爭力新典範 LTU OSSD台加高中雙聯學制",
+      "高雄中山工商港生歐陽志坤 透過台加雙聯學制圓留學夢",
+      "豐中學子躍上世界舞台！首屆「台加雙聯學制」學生陳詩茹錄取雪梨、約克大學等5所全球百大名校"
+    ],
+    "expanded": true
   },
   "preparedAt": "2026-10-26T05:11:52.373208+08:00",
   "phaseCompleted": [
     "PREFLIGHT",
     "RESEARCH",
     "PREPARE",
-    "BUILD"
+    "BUILD",
+    "COMMIT_DEPLOY",
+    "PUBLISH"
   ],
   "build": {
     "status": "passed",
@@ -513,6 +898,57 @@
       "facebook-photo-evidence",
       "public-service-safety",
       "vlog"
-    ]
+    ],
+    "repairCompletedAt": "2026-10-26T05:38:09.516+08:00",
+    "repairReason": "English homepage analytics country China appeared in Chinese; select English mapName on English pages."
+  },
+  "deployment": {
+    "commit": "7e25cebd9d8c28455f1580abdee5b7b34779376b",
+    "status": "success",
+    "verifiedAt": "2026-10-26T05:25:51.558135+08:00",
+    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/40234890993"
+  },
+  "newFacebookPagePost": {
+    "campaign": "new-facebook-page",
+    "network": "facebook",
+    "pageId": "61595164194381",
+    "metaAssetId": "1355044634361784",
+    "status": "PUBLISHED",
+    "articleUrl": "https://globalednews.com/news/memorial-international-enrolment-measures-2026/",
+    "photoAttachedAt": "2026-10-26T05:32:23.063+08:00",
+    "copyAddedAt": "2026-10-26T05:32:23.187+08:00",
+    "photoReadyEvidence": "docs/daily-checks/2026-10-26/new-facebook-page-photo-ready.jpg",
+    "dedupeVerifiedAt": "2026-10-26T05:32:32.753+08:00",
+    "publishClickedAt": "2026-10-26T05:32:32.753+08:00",
+    "id": "122113093797505473",
+    "publicUrl": "https://facebook.com/permalink.php?story_fbid=pfbid0HU8xp1BYQE3rsQeJQvpfrrdR9PNy1MFEFBVTjrG76wNxCZk62m1djuQ28WEdgbdml&id=61595164194381",
+    "publishedAt": "2026-10-26T05:32:00+08:00",
+    "publishedAtPrecision": "minute",
+    "verifiedAt": "2026-10-26T05:33:41.567+08:00",
+    "mediaVerifiedAt": "2026-10-26T05:33:41.567+08:00",
+    "imageCount": 1,
+    "mediaStatus": "VERIFIED",
+    "mediaKind": "uploaded-photo",
+    "visibility": "public",
+    "mediaEvidence": "docs/daily-checks/2026-10-26/new-facebook-page-public.jpg",
+    "photoAttachments": [
+      {
+        "id": "122113093647505473",
+        "url": "https://www.facebook.com/photo/?fbid=122113093647505473&set=a.122094964809505473&type=3"
+      }
+    ],
+    "publicPhotoScreenshot": "docs/daily-checks/2026-10-26/new-facebook-page-public.jpg",
+    "previewStatus": "VERIFIED",
+    "previewVerifiedAt": "2026-10-26T05:33:41.567+08:00"
+  },
+  "acceptance": {
+    "desktop": true,
+    "mobile": true,
+    "seo": true,
+    "searchFilters": true,
+    "verifiedAt": "2026-10-26T05:38:09.516+08:00",
+    "status": "awaiting-repair-deploy",
+    "uiEvidence": "docs/daily-reports/2026-10-26-live-ui.json",
+    "seoEvidence": "docs/daily-reports/2026-10-26-live-seo.json"
   }
 }

@@ -1,0 +1,750 @@
+- heading "內容" [level=1]
+- generic: 發佈、管理貼文、Reel 與限時動態和排定其發佈時間，以及進行其他操作。
+- toolbar:
+  - button "匯出資料":
+    - generic: 匯出資料
+  - button "開啟匯出選項":
+    - generic: 開啟匯出選項
+  - button "移除"
+  - text: 你現在可以匯出下方表格中的資料。立即選擇「匯出資料」試試此功能。
+  - generic: 瞭解這項新功能
+  - button "建立 Reel":
+    - generic: 建立 Reel
+  - button "建立貼文":
+    - generic: 建立貼文
+  - button "建立貼文":
+    - generic: 建立貼文
+  - button "Facebook":
+    - img "Facebook"
+- navigation "內容":
+  - generic: 內容
+  - list:
+    - link "貼文和 Reel":
+      - /url: https://business.facebook.com/latest/posts/published_posts
+    - generic: 貼文和 Reel
+    - link "限時動態":
+      - /url: https://business.facebook.com/latest/posts/active_stories
+    - generic: 限時動態
+    - link "動態消息和網格":
+      - /url: https://business.facebook.com/latest/posts/feed_and_grid
+    - generic: 動態消息和網格
+    - link "提及和標籤":
+      - /url: https://business.facebook.com/latest/posts/tagged_content
+    - generic: 提及和標籤
+    - link "片段":
+      - /url: https://business.facebook.com/latest/posts/all_clips
+    - generic: 片段
+- navigation "精選集":
+  - generic: 精選集
+  - list:
+    - link "播放清單":
+      - /url: https://business.facebook.com/latest/posts/all_playlists
+    - generic: 播放清單
+- navigation "廣告創意素材":
+  - generic: 廣告創意素材
+  - list:
+    - link "你可以多文發佈的影片":
+      - /url: https://business.facebook.com/latest/posts/videos_you_can_crosspost
+    - generic: 你可以多文發佈的影片
+- button "展開":
+  - generic: 展開
+- heading "「Facebook 觸及人數」將於2026年10月31日起停用" [level=4]
+- button "關閉":
+  - generic: 關閉
+- generic: 「瀏覽者人數」是瞭解有多少帳號瀏覽過你 Facebook 內容的主要衡量指標。
+- tablist:
+  - tab "已發佈" [selected]:
+    - generic: 已發佈
+  - tab "已排定發佈":
+    - generic: 已排定發佈
+  - tab "草稿":
+    - generic: 草稿
+  - tab "即將過期":
+    - generic: 即將過期
+  - tab "已過期":
+    - generic: 已過期
+  - tab "廣告貼文":
+    - generic: 廣告貼文
+- generic: 篩選
+- combobox "篩選 篩選":
+  - generic: 篩選
+- text: 依編號或文字搜尋
+- textbox "依編號或文字搜尋"
+- button "過去 90 天":
+  - generic: 過去 90 天
+- button "直欄":
+  - generic: 直欄
+- grid "已發佈的貼文":
+  - rowgroup:
+    - row "全選 標題 發佈日期 狀態 觸及人數 瀏覽次數 瀏覽者 追蹤人數 互動次數 按讚數和心情數 留言數 分享次數 儲存次數 連結點擊次數 觀看時間 影片平均播放時間 觀看 3 秒以上的次數 插播廣告收益約略值":
+      - columnheader "全選":
+        - checkbox "全選"
+      - columnheader "標題":
+        - heading "標題" [level=4]:
+          - generic: 標題
+      - columnheader "發佈日期":
+        - button "發佈日期":
+          - heading "發佈日期" [level=4]:
+            - generic: 發佈日期
+        - separator:
+          - separator
+      - columnheader "狀態":
+        - button "狀態":
+          - heading "狀態" [level=4]:
+            - generic: 狀態
+        - separator:
+          - separator
+      - columnheader "觸及人數":
+        - button "觸及人數":
+          - heading "觸及人數" [level=4]:
+            - generic: 觸及人數
+        - separator:
+          - separator
+      - columnheader "瀏覽次數":
+        - button "瀏覽次數":
+          - heading "瀏覽次數" [level=4]:
+            - generic: 瀏覽次數
+        - separator:
+          - separator
+      - columnheader "瀏覽者":
+        - button "瀏覽者":
+          - heading "瀏覽者" [level=4]:
+            - generic: 瀏覽者
+        - separator:
+          - separator
+      - columnheader "追蹤人數":
+        - button "追蹤人數":
+          - heading "追蹤人數" [level=4]:
+            - generic: 追蹤人數
+        - separator:
+          - separator
+      - columnheader "互動次數":
+        - button "互動次數":
+          - heading "互動次數" [level=4]:
+            - generic: 互動次數
+        - separator:
+          - separator
+      - columnheader "按讚數和心情數":
+        - button "按讚數和心情數":
+          - heading "按讚數和心情數" [level=4]:
+            - generic: 按讚數和心情數
+        - separator:
+          - separator
+      - columnheader "留言數":
+        - button "留言數":
+          - heading "留言數" [level=4]:
+            - generic: 留言數
+        - separator:
+          - separator
+      - columnheader "分享次數":
+        - button "分享次數":
+          - heading "分享次數" [level=4]:
+            - generic: 分享次數
+        - separator:
+          - separator
+      - columnheader "儲存次數":
+        - button "儲存次數":
+          - heading "儲存次數" [level=4]:
+            - generic: 儲存次數
+        - separator:
+          - separator
+      - columnheader "連結點擊次數":
+        - button "連結點擊次數":
+          - heading "連結點擊次數" [level=4]:
+            - generic: 連結點擊次數
+        - separator:
+          - separator
+      - columnheader "觀看時間":
+        - button "觀看時間":
+          - heading "觀看時間" [level=4]:
+            - generic: 觀看時間
+        - separator:
+          - separator
+      - columnheader "影片平均播放時間":
+        - button "影片平均播放時間":
+          - heading "影片平均播放時間" [level=4]:
+            - generic: 影片平均播放時間
+        - separator:
+          - separator
+      - columnheader "觀看 3 秒以上的次數":
+        - button "觀看 3 秒以上的次數":
+          - heading "觀看 3 秒以上的次數" [level=4]:
+            - generic: 觀看 3 秒以上的次數
+        - separator:
+          - separator
+      - columnheader "插播廣告收益約略值":
+        - button "插播廣告收益約略值":
+          - heading "插播廣告收益約略值" [level=4]:
+            - generic: 插播廣告收益約略值
+        - separator:
+          - separator
+  - rowgroup:
+    - row "選擇含有 ID（18145263517603506）的項目 Instagram 0:05 國際交換 海外學習 短期交換 美國公立高中交換生 寒暑假課程 海外入班 大學校園體驗 寄宿家庭 國際交流 英文學習 青少年遊學 學習歷程 行前準備 海外生活 加拿大遊學 英國遊學 美國高中 交換學生 國際教育 LTU Reel ltuossdtw 加強推廣 開啟下拉式功能表 10月25日 11:11 目前未加強推廣 21 16 ‑‑ 0 0 0 0 0 0 ‑‑ 24 秒 2 秒 ‑‑ ‑‑":
+      - gridcell "選擇含有 ID（18145263517603506）的項目":
+        - checkbox "選擇含有 ID（18145263517603506）的項目"
+      - gridcell "Instagram 0:05 國際交換 海外學習 短期交換 美國公立高中交換生 寒暑假課程 海外入班 大學校園體驗 寄宿家庭 國際交流 英文學習 青少年遊學 學習歷程 行前準備 海外生活 加拿大遊學 英國遊學 美國高中 交換學生 國際教育 LTU Reel ltuossdtw 加強推廣 開啟下拉式功能表":
+        - img "Instagram"
+        - generic: 0:05
+        - generic: 國際交換 海外學習 短期交換 美國公立高中交換生 寒暑假課程 海外入班 大學校園體驗 寄宿家庭 國際交流 英文學習 青少年遊學 學習歷程 行前準備 海外生活 加拿大遊學 英國遊學 美國高中 交換學生 國際教育 LTU
+        - generic: Reel
+        - generic: ltuossdtw
+        - button "加強推廣":
+          - generic: 加強推廣
+        - button "開啟下拉式功能表":
+          - generic: 開啟下拉式功能表
+      - gridcell "10月25日 11:11":
+        - button "10月25日 11:11":
+          - generic: 10月25日 11:11
+      - gridcell "目前未加強推廣":
+        - button "目前未加強推廣":
+          - generic "目前未加強推廣":
+      - gridcell "21":
+        - button "21":
+          - generic: "21"
+      - gridcell "16":
+        - button "16":
+          - generic: "16"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "24 秒":
+        - button "24 秒":
+          - generic: 24 秒
+      - gridcell "2 秒":
+        - button "2 秒":
+          - generic: 2 秒
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+    - row "選擇含有 ID（18128600461871373）的項目 Instagram 🇬🇧 英國校園日常，從餐桌開始。 2027寒假唐頓女王學院入班與寄宿體驗 2027/1/23–2/5（含交通日）｜7–17歲依年齡及英文程度安排 三餐於校園餐廳用餐，菜色依學校安排。特殊飲食需求請報名前向LTU確認。 官網所列NT$199,650／人；最新費用、包含項目與名額向LTU確認。課程住宿活動依實際安排。 活動說明與報名資訊：https://www.ossdtw.com/uk-exchange/ 相片 ltuossdtw 加強推廣 開啟下拉式功能表 10月25日 10:08 目前未加強推廣 19 31 ‑‑ 0 0 0 0 0 0 ‑‑ ‑‑ ‑‑ ‑‑ ‑‑":
+      - gridcell "選擇含有 ID（18128600461871373）的項目":
+        - checkbox "選擇含有 ID（18128600461871373）的項目"
+      - gridcell "Instagram 🇬🇧 英國校園日常，從餐桌開始。 2027寒假唐頓女王學院入班與寄宿體驗 2027/1/23–2/5（含交通日）｜7–17歲依年齡及英文程度安排 三餐於校園餐廳用餐，菜色依學校安排。特殊飲食需求請報名前向LTU確認。 官網所列NT$199,650／人；最新費用、包含項目與名額向LTU確認。課程住宿活動依實際安排。 活動說明與報名資訊：https://www.ossdtw.com/uk-exchange/ 相片 ltuossdtw 加強推廣 開啟下拉式功能表":
+        - img "Instagram"
+        - generic: 🇬🇧 英國校園日常，從餐桌開始。 2027寒假唐頓女王學院入班與寄宿體驗 2027/1/23–2/5（含交通日）｜7–17歲依年齡及英文程度安排 三餐於校園餐廳用餐，菜色依學校安排。特殊飲食需求請報名前向LTU確認。 官網所列NT$199,650／人；最新費用、包含項目與名額向LTU確認。課程住宿活動依實際安排。 活動說明與報名資訊：https://www.ossdtw.com/uk-exchange/
+        - generic: 相片
+        - generic: ltuossdtw
+        - button "加強推廣":
+          - generic: 加強推廣
+        - button "開啟下拉式功能表":
+          - generic: 開啟下拉式功能表
+      - gridcell "10月25日 10:08":
+        - button "10月25日 10:08":
+          - generic: 10月25日 10:08
+      - gridcell "目前未加強推廣":
+        - button "目前未加強推廣":
+          - generic "目前未加強推廣":
+      - gridcell "19":
+        - button "19":
+          - generic: "19"
+      - gridcell "31":
+        - button "31":
+          - generic: "31"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+    - 'row "選擇含有 ID（1098638192912378）的項目 Facebook 🇬🇧 英國校園的一天，也從餐桌開始。 2027寒假唐頓女王學院 Queen’s College, Taunton 兩週入班與寄宿體驗。 早餐、午餐與晚餐於校園餐廳用餐；和新同學聊天，也是練習英語的機會。實際菜色依學校安排，特殊飲食需求請於報名前告知LTU並確認可行安排。 📅 2027/1/23–2/5（含往返交通日） 👧👦 7–17歲，依年齡與英文程度安排 💰 官網所列NT$199,650／人。最新費用、包含項目與名額向LTU確認；課程、餐點、住宿及活動依校方實際安排。 活動說明與報名資訊：https://www.ossdtw.com/uk-exchange/ #英國寒假 #唐頓女王學院 #寄宿生活 相片 LTU OSSD #1加拿大 台加高中雙聯學制 加強推廣 開啟下拉式功能表 10月25日 10:05 目前未加強推廣 11 33 11 0 0 0 0 0 0 4 ‑‑ ‑‑ 0 ‑‑"':
+      - gridcell "選擇含有 ID（1098638192912378）的項目":
+        - checkbox "選擇含有 ID（1098638192912378）的項目"
+      - 'gridcell "Facebook 🇬🇧 英國校園的一天，也從餐桌開始。 2027寒假唐頓女王學院 Queen’s College, Taunton 兩週入班與寄宿體驗。 早餐、午餐與晚餐於校園餐廳用餐；和新同學聊天，也是練習英語的機會。實際菜色依學校安排，特殊飲食需求請於報名前告知LTU並確認可行安排。 📅 2027/1/23–2/5（含往返交通日） 👧👦 7–17歲，依年齡與英文程度安排 💰 官網所列NT$199,650／人。最新費用、包含項目與名額向LTU確認；課程、餐點、住宿及活動依校方實際安排。 活動說明與報名資訊：https://www.ossdtw.com/uk-exchange/ #英國寒假 #唐頓女王學院 #寄宿生活 相片 LTU OSSD #1加拿大 台加高中雙聯學制 加強推廣 開啟下拉式功能表"':
+        - img "Facebook"
+        - generic: "🇬🇧 英國校園的一天，也從餐桌開始。 2027寒假唐頓女王學院 Queen’s College, Taunton 兩週入班與寄宿體驗。 早餐、午餐與晚餐於校園餐廳用餐；和新同學聊天，也是練習英語的機會。實際菜色依學校安排，特殊飲食需求請於報名前告知LTU並確認可行安排。 📅 2027/1/23–2/5（含往返交通日） 👧👦 7–17歲，依年齡與英文程度安排 💰 官網所列NT$199,650／人。最新費用、包含項目與名額向LTU確認；課程、餐點、住宿及活動依校方實際安排。 活動說明與報名資訊：https://www.ossdtw.com/uk-exchange/ #英國寒假 #唐頓女王學院 #寄宿生活"
+        - generic: 相片
+        - generic: "LTU OSSD #1加拿大 台加高中雙聯學制"
+        - button "加強推廣":
+          - generic: 加強推廣
+        - button "開啟下拉式功能表":
+          - generic: 開啟下拉式功能表
+      - gridcell "10月25日 10:05":
+        - button "10月25日 10:05":
+          - generic: 10月25日 10:05
+      - gridcell "目前未加強推廣":
+        - button "目前未加強推廣":
+          - generic "目前未加強推廣":
+      - gridcell "11":
+        - button "11":
+          - generic: "11"
+      - gridcell "33":
+        - button "33":
+          - generic: "33"
+      - gridcell "11":
+        - button "11":
+          - generic: "11"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "4":
+        - button "4":
+          - generic: "4"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+    - 'row "選擇含有 ID（17945188953086100）的項目 Instagram . . https://www.ossdtw.com/%e7%b7%9a%e4%b8%8a%e8%aa%aa%e6%98%8e%e6%9c%83-introduction/ #LTUOSSD 輪播廣告 ltuossdtw 加強推廣 開啟下拉式功能表 10月25日 10:02 目前未加強推廣 18 26 ‑‑ 0 0 0 0 0 0 ‑‑ ‑‑ ‑‑ ‑‑ ‑‑"':
+      - gridcell "選擇含有 ID（17945188953086100）的項目":
+        - checkbox "選擇含有 ID（17945188953086100）的項目"
+      - 'gridcell "Instagram . . https://www.ossdtw.com/%e7%b7%9a%e4%b8%8a%e8%aa%aa%e6%98%8e%e6%9c%83-introduction/ #LTUOSSD 輪播廣告 ltuossdtw 加強推廣 開啟下拉式功能表"':
+        - img "Instagram"
+        - generic: ". . https://www.ossdtw.com/%e7%b7%9a%e4%b8%8a%e8%aa%aa%e6%98%8e%e6%9c%83-introduction/ #LTUOSSD"
+        - generic: 輪播廣告
+        - generic: ltuossdtw
+        - button "加強推廣":
+          - generic: 加強推廣
+        - button "開啟下拉式功能表":
+          - generic: 開啟下拉式功能表
+      - gridcell "10月25日 10:02":
+        - button "10月25日 10:02":
+          - generic: 10月25日 10:02
+      - gridcell "目前未加強推廣":
+        - button "目前未加強推廣":
+          - generic "目前未加強推廣":
+      - gridcell "18":
+        - button "18":
+          - generic: "18"
+      - gridcell "26":
+        - button "26":
+          - generic: "26"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+    - 'row "選擇含有 ID（1098635666245964）的項目 Facebook . . https://www.ossdtw.com/%e7%b7%9a%e4%b8%8a%e8%aa%aa%e6%98%8e%e6%9c%83-introduction/ #LTUOSSD 多媒體 LTU OSSD #1加拿大 台加高中雙聯學制 加強推廣 開啟下拉式功能表 10月25日 10:02 目前未加強推廣 13 28 13 0 0 0 0 0 0 ‑‑ ‑‑ ‑‑ 0 ‑‑"':
+      - gridcell "選擇含有 ID（1098635666245964）的項目":
+        - checkbox "選擇含有 ID（1098635666245964）的項目"
+      - 'gridcell "Facebook . . https://www.ossdtw.com/%e7%b7%9a%e4%b8%8a%e8%aa%aa%e6%98%8e%e6%9c%83-introduction/ #LTUOSSD 多媒體 LTU OSSD #1加拿大 台加高中雙聯學制 加強推廣 開啟下拉式功能表"':
+        - img "Facebook"
+        - generic: ". . https://www.ossdtw.com/%e7%b7%9a%e4%b8%8a%e8%aa%aa%e6%98%8e%e6%9c%83-introduction/ #LTUOSSD"
+        - generic: 多媒體
+        - generic: "LTU OSSD #1加拿大 台加高中雙聯學制"
+        - button "加強推廣":
+          - generic: 加強推廣
+        - button "開啟下拉式功能表":
+          - generic: 開啟下拉式功能表
+      - gridcell "10月25日 10:02":
+        - button "10月25日 10:02":
+          - generic: 10月25日 10:02
+      - gridcell "目前未加強推廣":
+        - button "目前未加強推廣":
+          - generic "目前未加強推廣":
+      - gridcell "13":
+        - button "13":
+          - generic: "13"
+      - gridcell "28":
+        - button "28":
+          - generic: "28"
+      - gridcell "13":
+        - button "13":
+          - generic: "13"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+    - 'row "選擇含有 ID（1098598206249710）的項目 Facebook 🍁 加拿大寒假入班體驗｜家長最常問的3件事 ① 孩子的英文程度適合嗎？ 多倫多皇冠高中 Royal Crown School 的班級安排，須依年齡、英文程度與校方課表協調，請先向LTU提供年級與學習情況。 ② 這次能取得OSSD學分嗎？ 這是短期入班旁聽與文化體驗，不含加拿大高中學分。 ③ 住宿一定是學校宿舍嗎？ 可能安排Seneca Polytech宿舍或Toronto Don Valley Hotel & Suites，依空房決定；實際地點、房型及餐食請於報名前確認，以行前通知為準。 📅 2027/1/23–2/4 💰 官網所列NT$188,370／人 費用包含經濟艙來回機票、學費、三餐住宿、接送機與行程交通、保險及參訪門票（NBA除外）。NBA自費依賽程票務，行程航班以正式確認為準；未成年不品酒。 活動說明與報名資訊網址： https://www.ossdtw.com/canada-winter-2027/ 先了解孩子的需求，再規劃合適的寒假體驗。 #加拿大寒假 #家長FAQ #LTU國際學術中心 配圖為AI情境示意。 相片 LTU OSSD #1加拿大 台加高中雙聯學制 加強推廣 開啟下拉式功能表 10月25日 9:01 目前未加強推廣 11 18 11 0 0 0 0 0 0 ‑‑ ‑‑ ‑‑ 0 ‑‑"':
+      - gridcell "選擇含有 ID（1098598206249710）的項目":
+        - checkbox "選擇含有 ID（1098598206249710）的項目"
+      - 'gridcell "Facebook 🍁 加拿大寒假入班體驗｜家長最常問的3件事 ① 孩子的英文程度適合嗎？ 多倫多皇冠高中 Royal Crown School 的班級安排，須依年齡、英文程度與校方課表協調，請先向LTU提供年級與學習情況。 ② 這次能取得OSSD學分嗎？ 這是短期入班旁聽與文化體驗，不含加拿大高中學分。 ③ 住宿一定是學校宿舍嗎？ 可能安排Seneca Polytech宿舍或Toronto Don Valley Hotel & Suites，依空房決定；實際地點、房型及餐食請於報名前確認，以行前通知為準。 📅 2027/1/23–2/4 💰 官網所列NT$188,370／人 費用包含經濟艙來回機票、學費、三餐住宿、接送機與行程交通、保險及參訪門票（NBA除外）。NBA自費依賽程票務，行程航班以正式確認為準；未成年不品酒。 活動說明與報名資訊網址： https://www.ossdtw.com/canada-winter-2027/ 先了解孩子的需求，再規劃合適的寒假體驗。 #加拿大寒假 #家長FAQ #LTU國際學術中心 配圖為AI情境示意。 相片 LTU OSSD #1加拿大 台加高中雙聯學制 加強推廣 開啟下拉式功能表"':
+        - img "Facebook"
+        - generic: "🍁 加拿大寒假入班體驗｜家長最常問的3件事 ① 孩子的英文程度適合嗎？ 多倫多皇冠高中 Royal Crown School 的班級安排，須依年齡、英文程度與校方課表協調，請先向LTU提供年級與學習情況。 ② 這次能取得OSSD學分嗎？ 這是短期入班旁聽與文化體驗，不含加拿大高中學分。 ③ 住宿一定是學校宿舍嗎？ 可能安排Seneca Polytech宿舍或Toronto Don Valley Hotel & Suites，依空房決定；實際地點、房型及餐食請於報名前確認，以行前通知為準。 📅 2027/1/23–2/4 💰 官網所列NT$188,370／人 費用包含經濟艙來回機票、學費、三餐住宿、接送機與行程交通、保險及參訪門票（NBA除外）。NBA自費依賽程票務，行程航班以正式確認為準；未成年不品酒。 活動說明與報名資訊網址： https://www.ossdtw.com/canada-winter-2027/ 先了解孩子的需求，再規劃合適的寒假體驗。 #加拿大寒假 #家長FAQ #LTU國際學術中心 配圖為AI情境示意。"
+        - generic: 相片
+        - generic: "LTU OSSD #1加拿大 台加高中雙聯學制"
+        - button "加強推廣":
+          - generic: 加強推廣
+        - button "開啟下拉式功能表":
+          - generic: 開啟下拉式功能表
+      - gridcell "10月25日 9:01":
+        - button "10月25日 9:01":
+          - generic: 10月25日 9:01
+      - gridcell "目前未加強推廣":
+        - button "目前未加強推廣":
+          - generic "目前未加強推廣":
+      - gridcell "11":
+        - button "11":
+          - generic: "11"
+      - gridcell "18":
+        - button "18":
+          - generic: "18"
+      - gridcell "11":
+        - button "11":
+          - generic: "11"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+    - 'row "選擇含有 ID（18112628669155433）的項目 Instagram 🍁 加拿大寒假｜家長常問3件事 Royal Crown School 多倫多皇冠高中 📚 適合的程度？依年齡、英文程度與校方課表協調，先向LTU確認。 🎓 有OSSD學分？短期入班旁聽，不含加拿大高中學分。 🏠 一定住校？宿舍或飯店依空房，地點、房型與餐食以正式確認及行前通知為準。 2027/1/23–2/4｜官網所列NT$188,370／人 NBA自費依賽程票務，行程航班以確認為準。 活動說明與報名資訊網址： https://www.ossdtw.com/canada-winter-2027/ 配圖為AI情境示意。 #加拿大寒假 #家長FAQ 相片 ltuossdtw 加強推廣 開啟下拉式功能表 10月25日 9:01 目前未加強推廣 16 26 ‑‑ 0 0 0 0 0 0 ‑‑ ‑‑ ‑‑ ‑‑ ‑‑"':
+      - gridcell "選擇含有 ID（18112628669155433）的項目":
+        - checkbox "選擇含有 ID（18112628669155433）的項目"
+      - 'gridcell "Instagram 🍁 加拿大寒假｜家長常問3件事 Royal Crown School 多倫多皇冠高中 📚 適合的程度？依年齡、英文程度與校方課表協調，先向LTU確認。 🎓 有OSSD學分？短期入班旁聽，不含加拿大高中學分。 🏠 一定住校？宿舍或飯店依空房，地點、房型與餐食以正式確認及行前通知為準。 2027/1/23–2/4｜官網所列NT$188,370／人 NBA自費依賽程票務，行程航班以確認為準。 活動說明與報名資訊網址： https://www.ossdtw.com/canada-winter-2027/ 配圖為AI情境示意。 #加拿大寒假 #家長FAQ 相片 ltuossdtw 加強推廣 開啟下拉式功能表"':
+        - img "Instagram"
+        - generic: "🍁 加拿大寒假｜家長常問3件事 Royal Crown School 多倫多皇冠高中 📚 適合的程度？依年齡、英文程度與校方課表協調，先向LTU確認。 🎓 有OSSD學分？短期入班旁聽，不含加拿大高中學分。 🏠 一定住校？宿舍或飯店依空房，地點、房型與餐食以正式確認及行前通知為準。 2027/1/23–2/4｜官網所列NT$188,370／人 NBA自費依賽程票務，行程航班以確認為準。 活動說明與報名資訊網址： https://www.ossdtw.com/canada-winter-2027/ 配圖為AI情境示意。 #加拿大寒假 #家長FAQ"
+        - generic: 相片
+        - generic: ltuossdtw
+        - button "加強推廣":
+          - generic: 加強推廣
+        - button "開啟下拉式功能表":
+          - generic: 開啟下拉式功能表
+      - gridcell "10月25日 9:01":
+        - button "10月25日 9:01":
+          - generic: 10月25日 9:01
+      - gridcell "目前未加強推廣":
+        - button "目前未加強推廣":
+          - generic "目前未加強推廣":
+      - gridcell "16":
+        - button "16":
+          - generic: "16"
+      - gridcell "26":
+        - button "26":
+          - generic: "26"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+    - row "選擇含有 ID（18148458127562115）的項目 Instagram 想從政大出國交換？先比科系，再查校內資格 選校選系與交換機會，一起核對。 政大國際處列有短期進修補助與交換公告；各計畫的年級、語言及校內期限需分開查。 從國內大學資料庫比較學群與校系，再回官方確認，不把公告當成保證錄取。 國內大學選校選系資料庫：https://globalednews.com/taiwan-universities/ 全文：https://globalednews.com/taiwan-universities/ 可複製網址至瀏覽器閱讀。 免費加入環球教育新聞會員！ 每週教育新聞與申請提醒，免費且可隨時取消。 https://globalednews.com/newsletter/ 資料照：Felix Filnkoessl / CC BY-SA 2.0；裁切加字。 https://globalednews.com/images/daily/2026-10-25/credits.html#taiwan 相片 ltuossdtw 加強推廣 開啟下拉式功能表 10月25日 5:33 目前未加強推廣 22 43 ‑‑ 0 0 0 0 0 0 ‑‑ ‑‑ ‑‑ ‑‑ ‑‑":
+      - gridcell "選擇含有 ID（18148458127562115）的項目":
+        - checkbox "選擇含有 ID（18148458127562115）的項目"
+      - gridcell "Instagram 想從政大出國交換？先比科系，再查校內資格 選校選系與交換機會，一起核對。 政大國際處列有短期進修補助與交換公告；各計畫的年級、語言及校內期限需分開查。 從國內大學資料庫比較學群與校系，再回官方確認，不把公告當成保證錄取。 國內大學選校選系資料庫：https://globalednews.com/taiwan-universities/ 全文：https://globalednews.com/taiwan-universities/ 可複製網址至瀏覽器閱讀。 免費加入環球教育新聞會員！ 每週教育新聞與申請提醒，免費且可隨時取消。 https://globalednews.com/newsletter/ 資料照：Felix Filnkoessl / CC BY-SA 2.0；裁切加字。 https://globalednews.com/images/daily/2026-10-25/credits.html#taiwan 相片 ltuossdtw 加強推廣 開啟下拉式功能表":
+        - img "Instagram"
+        - generic: 想從政大出國交換？先比科系，再查校內資格 選校選系與交換機會，一起核對。 政大國際處列有短期進修補助與交換公告；各計畫的年級、語言及校內期限需分開查。 從國內大學資料庫比較學群與校系，再回官方確認，不把公告當成保證錄取。 國內大學選校選系資料庫：https://globalednews.com/taiwan-universities/ 全文：https://globalednews.com/taiwan-universities/ 可複製網址至瀏覽器閱讀。 免費加入環球教育新聞會員！ 每週教育新聞與申請提醒，免費且可隨時取消。 https://globalednews.com/newsletter/ 資料照：Felix Filnkoessl / CC BY-SA 2.0；裁切加字。 https://globalednews.com/images/daily/2026-10-25/credits.html#taiwan
+        - generic: 相片
+        - generic: ltuossdtw
+        - button "加強推廣":
+          - generic: 加強推廣
+        - button "開啟下拉式功能表":
+          - generic: 開啟下拉式功能表
+      - gridcell "10月25日 5:33":
+        - button "10月25日 5:33":
+          - generic: 10月25日 5:33
+      - gridcell "目前未加強推廣":
+        - button "目前未加強推廣":
+          - generic "目前未加強推廣":
+      - gridcell "22":
+        - button "22":
+          - generic: "22"
+      - gridcell "43":
+        - button "43":
+          - generic: "43"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+  - rowgroup
+- button "Meta AI 商家助理"
+- button "Meta Business Suite":
+  - generic: Meta Business Suite
+- button "Pressable":
+  - img "Instagram"
+  - img "Facebook"
+- navigation "連結":
+  - generic: 連結
+  - list:
+    - link "首頁":
+      - /url: https://business.facebook.com/latest/home?asset_id=101904929207004
+      - generic: 首頁
+    - generic: 首頁
+    - link "通知":
+      - generic: 通知
+    - generic: 通知
+    - link "廣告管理員":
+      - generic: 廣告管理員
+    - generic: 廣告管理員
+    - link "收件匣":
+      - /url: https://business.facebook.com/latest/inbox?asset_id=101904929207004
+      - generic: 收件匣
+    - generic: 收件匣
+    - link "潛在顧客中心":
+      - /url: https://business.facebook.com/latest/leads_center?asset_id=101904929207004
+      - generic: 潛在顧客中心
+    - generic: 潛在顧客中心
+    - link "內容":
+      - /url: https://business.facebook.com/latest/posts?asset_id=101904929207004
+      - generic: 內容
+    - generic: 內容
+    - link "創作者行銷":
+      - /url: https://business.facebook.com/creator_marketing_hub/overview/?asset_id=101904929207004
+      - generic: 創作者行銷
+    - generic: 創作者行銷
+    - link "規劃工具":
+      - /url: https://business.facebook.com/latest/content_calendar?asset_id=101904929207004
+      - generic: 規劃工具
+    - generic: 規劃工具
+    - link "廣告":
+      - /url: https://business.facebook.com/latest/ad_center/ads_summary?asset_id=101904929207004
+      - generic: 廣告
+    - generic: 廣告
+    - link "洞察報告":
+      - /url: https://business.facebook.com/latest/insights?asset_id=101904929207004
+      - generic: 洞察報告
+    - generic: 洞察報告
+    - link "營利":
+      - /url: https://business.facebook.com/latest/monetization?asset_id=101904929207004
+      - generic: 營利
+    - generic: 營利
+    - link "所有工具":
+      - generic: 所有工具
+    - generic: 所有工具
+    - separator
+    - link "帳單和付款":
+      - /url: https://business.facebook.com/billing_hub/payment_settings/?placement=bizapp_ad_center
+      - generic: 帳單和付款
+    - generic: 帳單和付款
+    - link "受眾":
+      - /url: https://business.facebook.com/ads/manager/audiences/?nav_source=business_manager
+      - generic: 受眾
+    - generic: 受眾
+    - link "事件管理工具":
+      - /url: https://business.facebook.com/events_manager2/?nav_source=biz_nav
+      - generic: 事件管理工具
+    - generic: 事件管理工具
+    - button "編輯邊欄導覽":
+      - generic: 編輯
+- link "搜尋":
+  - generic: 搜尋
+- generic: 搜尋
+- navigation "連結":
+  - generic: 連結
+  - list:
+    - link "設定":
+      - /url: https://business.facebook.com/latest/settings/profiles
+      - generic: 設定
+    - generic: 設定
+- link "使用說明":
+  - generic: 使用說明
+- generic: 使用說明
+- region "瞭解這項新功能"
+- button
+- img "Monica"
+- generic: Ctrl+M
+- text: 解釋

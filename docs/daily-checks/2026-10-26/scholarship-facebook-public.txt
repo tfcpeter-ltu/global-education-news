@@ -1,0 +1,548 @@
+- banner:
+  - button "關閉":
+  - link "Facebook":
+    - /url: /
+  - navigation:
+    - list:
+      - link:
+        - /url: /
+      - link:
+        - /url: /reel/?s=tab
+      - link:
+        - /url: /professional_dashboard/?ref=tab_bar
+      - link:
+        - /url: /marketplace/?ref=app_tab
+      - link:
+        - /url: /gaming/play/?store_visit_source=gaming_tab
+  - navigation "帳號控制項和設定":
+    - button "Facebook 功能表":
+    - button "Messenger":
+    - button "通知":
+    - button "Account, your profile":
+      - img "你的個人檔案"
+- heading [level=1]: 首頁
+- main:
+  - link:
+    - /url: /?should_open_composer=false
+  - region:
+    - heading [level=3]: 建立貼文
+    - link:
+      - /url: https://www.facebook.com/peter.chentan.5
+    - button:
+      - generic: Peter von Tan，在想些什麼？
+    - button
+    - button
+    - button
+  - region:
+    - heading [level=3]: 限時動態
+    - button [disabled]:
+    - grid:
+      - row:
+        - gridcell:
+          - link:
+            - /url: /stories/create/
+            - generic: 建立限時動態
+        - gridcell:
+          - link:
+            - /url: /stories/102031538634932/UzpfSVNDOjExMzEwODEzMjYxNzA5NzM=/?bucket_count=9&source=story_tray
+            - generic: San Francisco Chronicle
+        - gridcell:
+          - link:
+            - /url: /stories/1703296413014192/UzpfSVNDOjE1NDIzMTI4MzEyNjI4Nzc=/?bucket_count=9&source=story_tray
+            - generic: 許立丕
+        - gridcell:
+          - link:
+            - /url: /stories/122097075933430161/UzpfSVNDOjIyMzkxNjUyMTk5Nzk0MDU=/?bucket_count=9&source=story_tray
+            - generic: Mira's Mini English
+        - gridcell:
+          - link:
+            - /url: /stories/102800055440881/UzpfSVNDOjExMjA2MTY5NTM5MDMyMjE=/?bucket_count=9&source=story_tray
+            - generic: 每日說電影
+        - gridcell:
+          - link:
+            - /url: /stories/110863414375248/UzpfSVNDOjE1NDA5ODA1NzExMjc2Nzk=/?bucket_count=9&source=story_tray
+            - generic: 許立丕後援會粉絲團
+        - gridcell:
+          - link:
+            - /url: /stories/1549487218504313/UzpfSVNDOjE2NzQ2MjEyNjczNzAyOTU=/?bucket_count=9&source=story_tray
+            - generic: 蔡宗叡
+        - gridcell:
+          - link:
+            - /url: /stories/106402844959415/UzpfSVNDOjI5NjI2ODY4MjA3NzUzNDM=/?bucket_count=9&source=story_tray
+            - generic: 不專業學術閒聊
+        - gridcell:
+          - link:
+            - /url: /stories/10156320242352657/UzpfSVNDOjEwOTA5NjY3MjM4MjI0NTA=/?bucket_count=9&source=story_tray
+            - generic: 海總理
+        - gridcell:
+          - link:
+            - /url: /stories/1721976744494665/UzpfSVNDOjExMzg5MDQzMjE5NzQ3NTc=/?bucket_count=9&source=story_tray
+            - generic: 陳逸倫
+        - gridcell:
+          - link:
+            - /url: /stories/1603425486408975/UzpfSVNDOjQ1ODk0NTkzMzQ2MzYzNzk=/?bucket_count=9&source=story_tray
+            - generic: 林建志
+        - gridcell:
+          - status
+    - button:
+  - heading [level=3]: 動態消息貼文
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - link:
+    - /url: https://www.facebook.com/clarencefutw?__cft__[0]=AZid5IBbMkOCRzT3YkTn7RfB1K4HONzn7wF0stgM7FgL7Pz6E9Zo0jZDcsPm0bR_NqIBPHJ1SLBWPNFTBiiCNS9cxK2rcxnRcp72gbi2B-RCofEh1SGBTQCrQ-NTCHVRGMYixpUCnLly6Y_Kd4GVjxyBUMebb89FYKTZMJDUE6YldXEZuFCyvyDW&__tn__=%3C%3C%2CP-R
+  - heading [level=4]:
+    - link:
+      - /url: https://www.facebook.com/clarencefutw?__cft__[0]=AZid5IBbMkOCRzT3YkTn7RfB1K4HONzn7wF0stgM7FgL7Pz6E9Zo0jZDcsPm0bR_NqIBPHJ1SLBWPNFTBiiCNS9cxK2rcxnRcp72gbi2B-RCofEh1SGBTQCrQ-NTCHVRGMYixpUCnLly6Y_Kd4GVjxyBUMebb89FYKTZMJDUE6YldXEZuFCyvyDW&__tn__=-UC%2CP-R
+      - generic: 傅鏡平
+  - generic: 6小時前
+  - link:
+    - /url: "?__cft__[0]=AZid5IBbMkOCRzT3YkTn7RfB1K4HONzn7wF0stgM7FgL7Pz6E9Zo0jZDcsPm0bR_NqIBPHJ1SLBWPNFTBiiCNS9cxK2rcxnRcp72gbi2B-RCofEh1SGBTQCrQ-NTCHVRGMYixpUCnLly6Y_Kd4GVjxyBUMebb89FYKTZMJDUE6YldXEZuFCyvyDW&__tn__=%2CO%2CP-R#?fei"
+    - generic: r͏
+    - generic: o͏
+    - generic: S͏
+    - generic: t͏
+    - generic: d͏
+    - generic: o͏
+    - generic: n͏
+    - generic: e͏
+    - generic: p͏
+    - generic: s͏
+    - generic: i͏
+    - generic: 3͏
+    - generic: h͏
+    - generic: u͏
+    - generic: 小͏
+    - generic: 7͏
+    - generic: a͏
+    - generic: 1͏
+    - generic: f͏
+    - generic: a͏
+    - generic: 7͏
+    - generic: u͏
+    - generic: l͏
+    - generic: 4͏
+    - generic: t͏
+    - generic: t͏
+    - generic: 4͏
+    - generic: l͏
+    - generic: 5͏
+    - generic: 5͏
+    - generic: 6͏
+    - generic: a͏
+    - generic: a͏
+    - generic: i͏
+    - generic: 5͏
+    - generic: 8͏
+    - generic: 1͏
+    - generic: 4͏
+    - generic: 1͏
+    - generic: f͏
+    - generic: a͏
+    - generic: 1͏
+    - generic: l͏
+    - generic: 7͏
+    - generic: t͏
+    - generic: 6͏
+    - generic: c͏
+    - generic: 9͏
+    - generic: 4͏
+    - generic: ͏
+    - generic: u͏
+    - generic: 0͏
+    - generic: 0͏
+    - generic: g͏
+    - generic: 2͏
+    - generic: f͏
+    - generic: h͏
+    - generic: 時͏
+    - generic: h͏
+    - generic: g͏
+  - generic: ·
+  - button:
+  - link:
+    - /url: "#"
+  - text: 這次坐到長榮B-16332夢想機回到台灣，機長在颱風天候下平安降落，機內可愛的台灣乘客紛紛鼓掌感謝。我進到航廈內部，發現怎麼要搭電扶梯上樓，看到牆上的T3我才意會到這是第三航廈，先開放跟二航廈D候機室同側的部分，登機門則是從D11開始編起，不知道以後第三航廈完工之後會不會重新編號。……
+  - button: 查看更多
+  - link:
+    - /url: https://www.facebook.com/photo/?fbid=10164374441229270&set=pcb.10164374509474270&__cft__[0]=AZid5IBbMkOCRzT3YkTn7RfB1K4HONzn7wF0stgM7FgL7Pz6E9Zo0jZDcsPm0bR_NqIBPHJ1SLBWPNFTBiiCNS9cxK2rcxnRcp72gbi2B-RCofEh1SGBTQCrQ-NTCHVRGMYixpUCnLly6Y_Kd4GVjxyBUMebb89FYKTZMJDUE6YldXEZuFCyvyDW&__tn__=*b0H-R
+  - link:
+    - /url: https://www.facebook.com/photo/?fbid=10164374440944270&set=pcb.10164374509474270&__cft__[0]=AZid5IBbMkOCRzT3YkTn7RfB1K4HONzn7wF0stgM7FgL7Pz6E9Zo0jZDcsPm0bR_NqIBPHJ1SLBWPNFTBiiCNS9cxK2rcxnRcp72gbi2B-RCofEh1SGBTQCrQ-NTCHVRGMYixpUCnLly6Y_Kd4GVjxyBUMebb89FYKTZMJDUE6YldXEZuFCyvyDW&__tn__=*b1H-R
+  - link:
+    - /url: https://www.facebook.com/photo/?fbid=10164374441289270&set=pcb.10164374509474270&__cft__[0]=AZid5IBbMkOCRzT3YkTn7RfB1K4HONzn7wF0stgM7FgL7Pz6E9Zo0jZDcsPm0bR_NqIBPHJ1SLBWPNFTBiiCNS9cxK2rcxnRcp72gbi2B-RCofEh1SGBTQCrQ-NTCHVRGMYixpUCnLly6Y_Kd4GVjxyBUMebb89FYKTZMJDUE6YldXEZuFCyvyDW&__tn__=*b2H-R
+  - link:
+    - /url: https://www.facebook.com/photo/?fbid=10164374441084270&set=pcb.10164374509474270&__cft__[0]=AZid5IBbMkOCRzT3YkTn7RfB1K4HONzn7wF0stgM7FgL7Pz6E9Zo0jZDcsPm0bR_NqIBPHJ1SLBWPNFTBiiCNS9cxK2rcxnRcp72gbi2B-RCofEh1SGBTQCrQ-NTCHVRGMYixpUCnLly6Y_Kd4GVjxyBUMebb89FYKTZMJDUE6YldXEZuFCyvyDW&__tn__=*b3H-R
+  - link:
+    - /url: https://www.facebook.com/photo/?fbid=10164374441124270&set=pcb.10164374509474270&__cft__[0]=AZid5IBbMkOCRzT3YkTn7RfB1K4HONzn7wF0stgM7FgL7Pz6E9Zo0jZDcsPm0bR_NqIBPHJ1SLBWPNFTBiiCNS9cxK2rcxnRcp72gbi2B-RCofEh1SGBTQCrQ-NTCHVRGMYixpUCnLly6Y_Kd4GVjxyBUMebb89FYKTZMJDUE6YldXEZuFCyvyDW&__tn__=*b4H-R
+    - generic: "+3"
+  - button:
+    - generic: "53"
+  - button:
+  - button:
+    - generic: "5"
+  - button
+  - toolbar:
+    - button
+  - button:
+    - generic: 查看更多留言
+  - article:
+    - link:
+      - /url: https://www.facebook.com/mingyuan.qiu?comment_id=Y29tbWVudDoxMDE2NDM3NDUwOTQ3NDI3MF8xNzc2MzczNDg2ODg1OTcy&__cft__[0]=AZid5IBbMkOCRzT3YkTn7RfB1K4HONzn7wF0stgM7FgL7Pz6E9Zo0jZDcsPm0bR_NqIBPHJ1SLBWPNFTBiiCNS9cxK2rcxnRcp72gbi2B-RCofEh1SGBTQCrQ-NTCHVRGMYixpUCnLly6Y_Kd4GVjxyBUMebb89FYKTZMJDUE6YldXEZuFCyvyDW&__tn__=R-R
+    - link:
+      - /url: https://www.facebook.com/mingyuan.qiu?comment_id=Y29tbWVudDoxMDE2NDM3NDUwOTQ3NDI3MF8xNzc2MzczNDg2ODg1OTcy&__cft__[0]=AZid5IBbMkOCRzT3YkTn7RfB1K4HONzn7wF0stgM7FgL7Pz6E9Zo0jZDcsPm0bR_NqIBPHJ1SLBWPNFTBiiCNS9cxK2rcxnRcp72gbi2B-RCofEh1SGBTQCrQ-NTCHVRGMYixpUCnLly6Y_Kd4GVjxyBUMebb89FYKTZMJDUE6YldXEZuFCyvyDW&__tn__=R-R
+      - generic: 邱銘源
+    - generic: ·
+    - link:
+      - /url: https://www.facebook.com/clarencefutw/posts/pfbid0zAPNYpsgVCTUMcHkyMmcqhru8L9qLjMpxWkBCVfxpJ5P9TTsRBcK7325kDgmbNPyl?comment_id=1776373486885972&__cft__[0]=AZid5IBbMkOCRzT3YkTn7RfB1K4HONzn7wF0stgM7FgL7Pz6E9Zo0jZDcsPm0bR_NqIBPHJ1SLBWPNFTBiiCNS9cxK2rcxnRcp72gbi2B-RCofEh1SGBTQCrQ-NTCHVRGMYixpUCnLly6Y_Kd4GVjxyBUMebb89FYKTZMJDUE6YldXEZuFCyvyDW&__tn__=R-R
+      - generic: 6小時
+    - generic: ·
+    - button:
+      - generic: 追蹤
+    - generic: ·
+    - generic: 作者說讚
+    - generic: 恭喜從北登機廊廳回國
+    - button:
+    - button:
+    - button
+    - button:
+    - button: 回覆
+    - button
+  - article:
+    - link:
+      - /url: https://www.facebook.com/clarencefutw?comment_id=Y29tbWVudDoxMDE2NDM3NDUwOTQ3NDI3MF8xNDYyNjQ2MDQyNDE4Mjk1&__cft__[0]=AZid5IBbMkOCRzT3YkTn7RfB1K4HONzn7wF0stgM7FgL7Pz6E9Zo0jZDcsPm0bR_NqIBPHJ1SLBWPNFTBiiCNS9cxK2rcxnRcp72gbi2B-RCofEh1SGBTQCrQ-NTCHVRGMYixpUCnLly6Y_Kd4GVjxyBUMebb89FYKTZMJDUE6YldXEZuFCyvyDW&__tn__=R-R
+    - link:
+      - /url: https://www.facebook.com/clarencefutw?comment_id=Y29tbWVudDoxMDE2NDM3NDUwOTQ3NDI3MF8xNDYyNjQ2MDQyNDE4Mjk1&__cft__[0]=AZid5IBbMkOCRzT3YkTn7RfB1K4HONzn7wF0stgM7FgL7Pz6E9Zo0jZDcsPm0bR_NqIBPHJ1SLBWPNFTBiiCNS9cxK2rcxnRcp72gbi2B-RCofEh1SGBTQCrQ-NTCHVRGMYixpUCnLly6Y_Kd4GVjxyBUMebb89FYKTZMJDUE6YldXEZuFCyvyDW&__tn__=R-R
+      - generic: 傅鏡平
+    - generic: ·
+    - link:
+      - /url: https://www.facebook.com/clarencefutw/posts/pfbid0zAPNYpsgVCTUMcHkyMmcqhru8L9qLjMpxWkBCVfxpJ5P9TTsRBcK7325kDgmbNPyl?comment_id=1776373486885972&reply_comment_id=1462646042418295&__cft__[0]=AZid5IBbMkOCRzT3YkTn7RfB1K4HONzn7wF0stgM7FgL7Pz6E9Zo0jZDcsPm0bR_NqIBPHJ1SLBWPNFTBiiCNS9cxK2rcxnRcp72gbi2B-RCofEh1SGBTQCrQ-NTCHVRGMYixpUCnLly6Y_Kd4GVjxyBUMebb89FYKTZMJDUE6YldXEZuFCyvyDW&__tn__=R-R
+      - generic: 5小時
+    - link:
+      - /url: https://www.facebook.com/mingyuan.qiu?__cft__[0]=AZid5IBbMkOCRzT3YkTn7RfB1K4HONzn7wF0stgM7FgL7Pz6E9Zo0jZDcsPm0bR_NqIBPHJ1SLBWPNFTBiiCNS9cxK2rcxnRcp72gbi2B-RCofEh1SGBTQCrQ-NTCHVRGMYixpUCnLly6Y_Kd4GVjxyBUMebb89FYKTZMJDUE6YldXEZuFCyvyDW&__tn__=R-R
+      - generic: 邱銘源
+    - text: 謝謝
+    - button:
+    - button:
+    - button
+    - button:
+    - button: 回覆
+    - button
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - blockquote:
+    - generic: Facebook
+  - article:
+    - status
+  - article:
+    - status
+- complementary:
+  - heading [level=3]:
+    - generic: 贊助
+  - link:
+    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fgetstarted.tiktok.com%2Ftiktokads2025%3Flang%3Den%26attr_source%3Dfacebook%26attr_medium%3Dsocial-ad%26attr_campaiign_id%3D120253288809150264%26attr_adgroup_id%3D120253601960680264%26attr_ad_id%3D120253601960560264%26attr_campaign_name%3DGlobal_Sales_Shallow%252BDeep_prospecting_Mix-Coupon_2065_mix_tt4B_LW_260904_PC_All%2520countries%26attr_adgroup_nameGlobal_Payment%2520ready%252BTopup%252BCashrevenue_Retargeting_Reg%252BNo%2520NCA_Q3_Mix_PC_260922%26attr_ad_name%3DBD_Q2-Coupon750Tier5-UGC_imageB-registration-conversion-prospecting-en-LAL-2ndJuly26%26attr_placement%3DFacebook_Right_Column%26attr_adgroup_name%257B%257Badset.name%257D%257D%26utm_medium%3Dpaid%26utm_source%3Dfb%26utm_id%3D120253601960680264_v2_s03_i97938792_af1%26utm_content%3D120253601960560264%26utm_term%3D120253601960680264%26utm_campaign%3D120253288809150264%26fbclid%3DIwZXh0bgNhZW0BMABwZG9mBWFkaWQBqzpD69R4yGJyaWQRMVpESzZnbFVDOW5nT2p2azFzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEem6WrGCl_D55EP4qvjwpaZh_v87jFvtT_KqKykoKPphMypBQ0xm5VYHcjYJA_aem_ojE-y4wPGIkTU6VDOzlFvQ&h=AUCwB53uPwZ2DXlKZiEFdkc6TpsBlKDxbvAmnpw33y4W232PMlyrQTFxCIrB6oltR5Uxdqs0tkb8iNKpSY4neOhcQ8wkHhRb4sPFBeet2kDK8C1pMqRCh5kd1SOJtIzc5PFxKQ&__tn__=*I&c[0]=AUBW7byKNsTNFKmjgpg36uVOvZK6dxKGmgQg8914pX6-T6_dr0eP0XWuMygkG2idMdKrnA_EBbbhdkmect8vofMzP5DjlTdZbgpiukJ2GBIF999paCzcQLA0Ms2pYOb4KLu-EQHcd8Zx1J1SdbUIRz7DLC55ppDttmhXYH4LJKwnbvHwmAdUoiWqxXVcpShVQMHx7aXh4UyaivvZKu5QMfg
+    - generic: Start TikTok Ads!
+    - generic: getstarted.tiktok.com
+  - button:
+  - link:
+    - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fopbiz.tw%2Fproduct%2Foppackage%2Fphone.html%3Fmypower%26utm_source%3Dfacebook%26utm_medium%3DMetaLeadAds%26utm_campaign%3DY26_%25E5%2590%258D%25E5%2596%25AE%25E5%259E%258B%25E5%25BB%25A3%25E5%2591%258A%26utm_id%3D120251624612290478_v2_s01_i97938792_af1%26utm_content%3D120252638457630478%26utm_term%3D120251624612290478%26fbclid%3DIwZXh0bgNhZW0BMABwZG9mBWFkaWQBqzkjOWlK7mJyaWQRMVpESzZnbFVDOW5nT2p2azFzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEem6WrGCl_D55EP4qvjwpaZh_v87jFvtT_KqKykoKPphMypBQ0xm5VYHcjYJA_aem_aqOrUlXFO73_CRyyyHxsew&h=AUCwB53uPwZ2DXlKZiEFdkc6TpsBlKDxbvAmnpw33y4W232PMlyrQTFxCIrB6oltR5Uxdqs0tkb8iNKpSY4neOhcQ8wkHhRb4sPFBeet2kDK8C1pMqRCh5kd1SOJtIzc5PFxKQ&__tn__=*I&c[0]=AUAYRpCYPbvdb3i7FIxVzJBmTVo0GJGusUi3TXXGLpYFqQt1k5Jzoj4ner4cGux7syLpi6TBtcJorF5cmXZ08pR39_Wf8JCcJgwCzBRxId8zS8ycJvr8KQSmBw8mh_BBpjrrQdE-rYnyeB23SgtiCWLJOePb8c3qxr3LBaIGbh5ZxhqLNeYgCXua_Vmq7_AtKfyzP4A9R8CZtDC1kX2KKaM
+    - generic: 會員卡、集點優惠、分眾推播，讓熟客經營更方便！
+    - generic: opbiz.tw
+  - button:
+  - heading [level=3]:
+    - generic: 壽星
+  - link:
+    - /url: /events/birthdays/
+    - generic: 蔡宜臻今天生日。
+- dialog:
+  - 'dialog "LTU OSSD #1加拿大 台加高中雙聯學制的貼文"':
+    - 'heading "LTU OSSD #1加拿大 台加高中雙聯學制的貼文" [level=2]':
+      - generic: "LTU OSSD #1加拿大 台加高中雙聯學制的貼文"
+    - button "關閉" [active]:
+    - separator
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - 'link "LTU OSSD #1加拿大 台加高中雙聯學制"':
+      - /url: https://www.facebook.com/LTUOSSDTaiwan?__cft__[0]=AZgVNpmEbpXOoaH9btCQITNUzDf9H0smzruexPRzpx01j1D4wut-LmWCPOqb_2uW3UNzqB3oHvpm86dWaXOXDhOnET5QK16zTOcS-E1aG8wkYwNGP3JBy6I3p5DqROpEBN3g3nsuNBZJYbECZP-VWSC7WOYtVFnv&__tn__=%3C%3C%2CP-R
+      - 'img "LTU OSSD #1加拿大 台加高中雙聯學制"'
+    - 'heading "LTU OSSD #1加拿大 台加高中雙聯學制" [level=3]':
+      - 'link "LTU OSSD #1加拿大 台加高中雙聯學制"':
+        - /url: https://www.facebook.com/LTUOSSDTaiwan?__cft__[0]=AZgVNpmEbpXOoaH9btCQITNUzDf9H0smzruexPRzpx01j1D4wut-LmWCPOqb_2uW3UNzqB3oHvpm86dWaXOXDhOnET5QK16zTOcS-E1aG8wkYwNGP3JBy6I3p5DqROpEBN3g3nsuNBZJYbECZP-VWSC7WOYtVFnv&__tn__=-UC%2CP-R
+        - generic: "LTU OSSD #1加拿大 台加高中雙聯學制"
+    - generic: 約 1 分鐘前
+    - link "約 1 分鐘前":
+      - /url: "?__cft__[0]=AZgVNpmEbpXOoaH9btCQITNUzDf9H0smzruexPRzpx01j1D4wut-LmWCPOqb_2uW3UNzqB3oHvpm86dWaXOXDhOnET5QK16zTOcS-E1aG8wkYwNGP3JBy6I3p5DqROpEBN3g3nsuNBZJYbECZP-VWSC7WOYtVFnv&__tn__=%2CO%2CP-R#?gja"
+      - generic: r͏
+      - generic: o͏
+      - generic: S͏
+      - generic: t͏
+      - generic: d͏
+      - generic: o͏
+      - generic: n͏
+      - generic: e͏
+      - generic: p͏
+      - generic: s͏
+      - generic: i͏
+      - generic: 3͏
+      - generic: h͏
+      - generic: u͏
+      - generic: 分͏
+      - generic: 7͏
+      - generic: a͏
+      - generic: 1͏
+      - generic: f͏
+      - generic: a͏
+      - generic: 7͏
+      - generic: u͏
+      - generic: l͏
+      - generic: 4͏
+      - generic: t͏
+      - generic: t͏
+      - generic: 4͏
+      - generic: l͏
+      - generic: 5͏
+      - generic: 5͏
+      - generic: 1͏
+      - generic: a͏
+      - generic: a͏
+      - generic: i͏
+      - generic: 5͏
+      - generic: 8͏
+      - generic: 1͏
+      - generic: 4͏
+      - generic: 1͏
+      - generic: f͏
+      - generic: a͏
+      - generic: 1͏
+      - generic: l͏
+      - generic: 7͏
+      - generic: t͏
+      - generic: 6͏
+      - generic: c͏
+      - generic: 9͏
+      - generic: 4͏
+      - generic: ͏
+      - generic: u͏
+      - generic: 0͏
+      - generic: 0͏
+      - generic: g͏
+      - generic: 2͏
+      - generic: f͏
+      - generic: h͏
+      - generic: 鐘͏
+      - generic: h͏
+      - generic: g͏
+    - generic: ·
+    - img "分享對象：所有人"
+    - 'button "對LTU OSSD #1加拿大 台加高中雙聯學制的這則貼文採取的動作"':
+    - generic: Iowa State國際獎助：新生每年最高1.4萬美元
+    - generic: 六級距計為一項，先分新生與轉學。
+    - generic: 已錄取、繳國際生學費者自動評估；新生與轉學有不同GPA、測驗及金額，不可與International Merit併領。
+    - generic: 台灣學生須符合國際申請資格；秋季5月1日、春季12月15日前接受錄取。
+    - text: 國際獎學金雷達：
+    - link "https://globalednews.com/scholarships/":
+      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fglobalednews.com%2Fscholarships%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgVicmlkETFaREs2Z2xVQzluZ09qdmsxc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHiwZDUpG_4Ivh4o9dQbaMY27Qj7VUOmkbKiqn5qs6foHoPBAd3k9i1xejEVx_aem_R0Mj01Nhy7SidMePw7hKTA&h=AUBo3PGYp21aynC_ckAJESvccIY5rWQQxZX4-WkQx1rHFndHOphzP5gbmhkMAcHTeM7PzAANeXTLuiTtYJwK9Mj5HNOTgOugrXY79kKcRfvfd84UFdvpFbMCyTYw6PCllRntmnj6Goum3ptV&__tn__=-UK-R&c[0]=AUDl4peV7VkjkneaHBYwmy1CrZytHY27NhwIpWXE--ymnt34jDqZweNmXbPjbghPmG7uW15MJaEC4jYW6shdl9f1VKYVp-cVARE3kgf2zXebkeAbJGt_2-0OyZMLda6yvlOesWH__9HJAm7ndg2g2zdniTuWxqgM4iKMybOIWo7CNIvPU4sDaa7R5dScO5Y
+    - text: 全文：
+    - link "https://globalednews.com/....../2026-10-iowa-state....../":
+      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fglobalednews.com%2Fscholarships%2Fitems%2F2026-10-iowa-state-international-excellence%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgVicmlkETFaREs2Z2xVQzluZ09qdmsxc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHvzD_QsKQcEeV_DriD1nMVc2EjP6M2kTJBGl2GPpd6Lkft_WBM0TmyNzs76D_aem_xff2aBh6nkuixnv29XeKsQ&h=AUBI7sAVgmpNiZK6q-gsnisV2gqNqf4DM4k5JEL3TzBla4X-5nZR0QKsOI2NpiVAanOCjZWcVWvilTIAGDCgq5eozNx5vLP573kYG_xZRcCTtANTGMnFZ79TS1ZjokpvUEgJfXFacpzZXfzg&__tn__=-UK-R&c[0]=AUDl4peV7VkjkneaHBYwmy1CrZytHY27NhwIpWXE--ymnt34jDqZweNmXbPjbghPmG7uW15MJaEC4jYW6shdl9f1VKYVp-cVARE3kgf2zXebkeAbJGt_2-0OyZMLda6yvlOesWH__9HJAm7ndg2g2zdniTuWxqgM4iKMybOIWo7CNIvPU4sDaa7R5dScO5Y
+    - generic: 和正在規劃升學的家人一起核對條件。
+    - generic: 免費加入環球教育新聞會員！
+    - generic: 每週教育新聞與申請提醒，免費且可隨時取消。
+    - link "https://globalednews.com/newsletter/":
+      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fglobalednews.com%2Fnewsletter%2F%3Ffbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgVicmlkETFaREs2Z2xVQzluZ09qdmsxc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHgaIPULIxK1Ev012bROHaTQnM7FTwZnh1_HDdmZIYXrbW6_mITgMYqa2cVm0_aem_mIdwyX6EXDb8eePKVoB7cg&h=AUAg8XDd8xp5a9RWdLAsfM_7sVigaCiFvh0tPdjjorbTdcIrkX8Zhwd53LXEH8_qxy14qYr2qTFCtxFguPuZmy9UUdzEuXXyT_HBM4d2q6f2o5tsvDX2AlwfFqBtBqpUhDmVqQiNy4tfcEyW&__tn__=-UK-R&c[0]=AUDl4peV7VkjkneaHBYwmy1CrZytHY27NhwIpWXE--ymnt34jDqZweNmXbPjbghPmG7uW15MJaEC4jYW6shdl9f1VKYVp-cVARE3kgf2zXebkeAbJGt_2-0OyZMLda6yvlOesWH__9HJAm7ndg2g2zdniTuWxqgM4iKMybOIWo7CNIvPU4sDaa7R5dScO5Y
+    - generic: 資料照：michelec317 / CC0；裁切加字。
+    - link "https://globalednews.com/....../202....../credits.html......":
+      - /url: https://l.facebook.com/l.php?u=https%3A%2F%2Fglobalednews.com%2Fimages%2Fdaily%2F2026-10-26%2Fcredits.html%3Ffbclid%3DIwZXh0bgNhZW0CMTAAcGRvZgVicmlkETFaREs2Z2xVQzluZ09qdmsxc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHlIPQdmhm2-J7Mw7CE_Hri1oAHKkJ-QP0-CTOHSzjj6SJJtKDdd_7kbxq22t_aem_zbNOqZf0agSUQYAweOS1xA%23iowa&h=AUADw4TvkSzx9cANPhcA-WMF_qZRpTCtRsjCzYy1tOBnxGDBYypVeDg0Tl6uhiqYhlpxA-0GnBImV32XEQARVroRSbRQ6LORY37wM6_hKSVGsrpAVHNUnWHabXB4yxP4wlRKcL0keFWsgaJz&__tn__=-UK-R&c[0]=AUDl4peV7VkjkneaHBYwmy1CrZytHY27NhwIpWXE--ymnt34jDqZweNmXbPjbghPmG7uW15MJaEC4jYW6shdl9f1VKYVp-cVARE3kgf2zXebkeAbJGt_2-0OyZMLda6yvlOesWH__9HJAm7ndg2g2zdniTuWxqgM4iKMybOIWo7CNIvPU4sDaa7R5dScO5Y
+    - link "可能是文字的圖像":
+      - /url: https://www.facebook.com/photo/?fbid=1099436862832511&set=a.107747308668143&__cft__[0]=AZgVNpmEbpXOoaH9btCQITNUzDf9H0smzruexPRzpx01j1D4wut-LmWCPOqb_2uW3UNzqB3oHvpm86dWaXOXDhOnET5QK16zTOcS-E1aG8wkYwNGP3JBy6I3p5DqROpEBN3g3nsuNBZJYbECZP-VWSC7WOYtVFnv&__tn__=EH-R
+      - img "可能是文字的圖像"
+    - button "查看洞察報告":
+      - generic: 查看洞察報告
+    - button "讚"
+    - button "傳達心情":
+    - button "留言"
+    - button "分享，傳送給朋友或在個人檔案上發佈。"
+    - heading "尚無留言" [level=3]:
+      - generic: 尚無留言
+    - generic: 留言搶頭香。
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - blockquote:
+      - generic: Facebook
+    - button "切換到其他個人檔案或粉絲專頁":
+    - textbox "以 Peter von Tan 的身分留言":
+      - paragraph
+    - generic: 以 Peter von Tan 的身分留言
+    - list:
+      - button "以虛擬替身貼圖回應"
+      - button "插入表情符號":
+      - button "以 GIF 回應"
+      - button "以貼圖回應"
+    - generic: 你正在使用Peter von Tan身分留言。
+- button "新訊息":
+- button
+- img "Monica"
+- generic: Ctrl+M
+- text: 解釋

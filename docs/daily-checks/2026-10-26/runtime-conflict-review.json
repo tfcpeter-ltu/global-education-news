@@ -1,0 +1,72 @@
+[
+  {
+    "path": "docs/social-posts/2026-10-25/news--ontario-osap-validation.json",
+    "sourceSha": "bc2b83b624775a37afe0c6835a93bd20433b153856e6d36623ce1072b030abfe",
+    "runtimeSha": "a9459528b1e1b6aaf921776f110fa160a811b5199f706e401f7a8217092b8836"
+  },
+  {
+    "path": "docs/social-posts/2026-10-25/publication-log.json",
+    "sourceSha": "173214229706d83638e7867f873665164848b4552b67e6d7500658030e909827",
+    "runtimeSha": "687716f063293baf43a6b6838d059ff87c35a6443bf61d26baa06676f970a119"
+  },
+  {
+    "path": "docs/social-posts/2026-10-25/scholarship--mizzou-merit-2027.json",
+    "sourceSha": "f8cd0053e37445216e888ccb54c99e95aa955da3ea5a022d1d29265ba41b26be",
+    "runtimeSha": "1affa20c4524e54f699341e633a612b3e8f6644323a79b58bebf4e252a2edd4e"
+  },
+  {
+    "path": "docs/social-posts/2026-10-25/study-abroad--missouri-st-checklist.json",
+    "sourceSha": "856d58fa6ebd5a5a0c0170d61be3f263a075217e91d4a9b150ffc4b23f5d2ca3",
+    "runtimeSha": "2ca0f74be4cc7f9ebd5e65c4d3a7bed16ae2af0a9089e0df2866dffb7ac513f7"
+  },
+  {
+    "path": "docs/social-posts/2026-10-25/taiwan-universities--nccu-exchange-checklist.json",
+    "sourceSha": "e0df308dd32665a28722f4704c62556f88342803e2aa09f42fb4980d8b75711a",
+    "runtimeSha": "1387eb2d3d915f5b863ad6e21f418705e42e641220d54ab624c84e39e76024d8"
+  },
+  {
+    "path": "docs/vlog-editorial.md",
+    "sourceSha": "54d4635cb9aa62d76c7c99263450a07b1fd9726a8cf84470dfe3dfffaf79a0bf",
+    "runtimeSha": "00afd1c449e65472d1d2d4eaf79f18d2b4668fd1c08301448bcb1057c626f26d"
+  },
+  {
+    "path": "public/data/analytics-summary.json",
+    "sourceSha": "5806afe4d5b6894ce779c48d8c0dbdc23c9c94d6b9c3438cb9d7d9cf0fdb1e4a",
+    "runtimeSha": "8342868c40a9f8016d6c53209556f1dfd43bf2f37745c82558f086512e1192c0"
+  },
+  {
+    "path": "public/images/share-photos/credits.json",
+    "sourceSha": "d47e6ac14bb00668eb586964ea84407a1221e329723ee0fe9c3070c8403f779a",
+    "runtimeSha": "574bd34118cb3aa6ec3482ec8dbf2a2dc18c7c2aaca0d0e2b2a8efeb97715d91"
+  },
+  {
+    "path": "public/images/share-photos/sources.json",
+    "sourceSha": "1d8d4f56e69c1a865352ab7879e26052c69dec13e6b1d876e5aa587349463423",
+    "runtimeSha": "7e501616e87da2d56c7a29d7ca6e5941bb3d8e96256d7b8c0ba07b147c3a2454"
+  },
+  {
+    "path": "scripts/test-vlog.mjs",
+    "sourceSha": "131c368ec39709896a88d70d57cde0834e18fa90e218839bee3a3866f36b3524",
+    "runtimeSha": "8426dd1a02706e09977145e5909437895f8b9b9780515163a5ec05e8155a88da"
+  },
+  {
+    "path": "src/data/i18n/en-overrides.json",
+    "sourceSha": "f24cd839f7693960cd4e26e3e062776dfaae1f7c0d4e20edd4a7169e91d72692",
+    "runtimeSha": "70cff73ba70ca99a411d1cac3046523b9b86621ff82920243601aa0cba688ec1"
+  },
+  {
+    "path": "src/data/i18n/en.json",
+    "sourceSha": "82c8fd982bf3c32a87b5ae4190f09f874b4a1b43b402df8ed111df8c73e59666",
+    "runtimeSha": "5625062b8b577a7acdd5a13af0fbb3c2743187b77508a8b5e60b6a965c21c88b"
+  },
+  {
+    "path": "src/data/vlog-videos.json",
+    "sourceSha": "747c987ce01f48b2e4df6c764eb40e06d52359644e80c6245e208b15a1dd7716",
+    "runtimeSha": "dcbfe38c2c4cd969333a7e190deb86f8f59e8f49083df0539541b155b9435ac1"
+  },
+  {
+    "path": "src/pages/vlog/index.astro",
+    "sourceSha": "4a6ce51fb0a25a58891abd0c744bcdd8fd5466beecb95aaad41a4b7758cbd5e4",
+    "runtimeSha": "34e24b147229c21bb06113139c31542cf1b33e354d5983eaaca128b0923aa5dd"
+  }
+]

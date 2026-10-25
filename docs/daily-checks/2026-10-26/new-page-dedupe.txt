@@ -1,0 +1,748 @@
+- heading "內容" [level=1]
+- generic: 發佈、管理貼文、Reel 與限時動態和排定其發佈時間，以及進行其他操作。
+- toolbar:
+  - button "匯出資料":
+    - generic: 匯出資料
+  - button "開啟匯出選項":
+    - generic: 開啟匯出選項
+  - button "移除"
+  - text: 你現在可以匯出下方表格中的資料。立即選擇「匯出資料」試試此功能。
+  - generic: 瞭解這項新功能
+  - button "建立 Reel":
+    - generic: 建立 Reel
+  - button "建立貼文":
+    - generic: 建立貼文
+  - button "建立貼文":
+    - generic: 建立貼文
+  - button "Facebook":
+    - img "Facebook"
+- navigation "內容":
+  - generic: 內容
+  - list:
+    - link "貼文和 Reel":
+      - /url: https://business.facebook.com/latest/posts/published_posts
+    - generic: 貼文和 Reel
+    - link "限時動態":
+      - /url: https://business.facebook.com/latest/posts/active_stories
+    - generic: 限時動態
+    - link "A／B 測試":
+      - /url: https://business.facebook.com/latest/posts/ab_testing
+    - generic: A／B 測試
+    - link "動態消息和網格":
+      - /url: https://business.facebook.com/latest/posts/feed_and_grid
+    - generic: 動態消息和網格
+    - link "提及和標籤":
+      - /url: https://business.facebook.com/latest/posts/tagged_content
+    - generic: 提及和標籤
+    - link "片段":
+      - /url: https://business.facebook.com/latest/posts/all_clips
+    - generic: 片段
+- navigation "精選集":
+  - generic: 精選集
+  - list:
+    - link "播放清單":
+      - /url: https://business.facebook.com/latest/posts/all_playlists
+    - generic: 播放清單
+- navigation "廣告創意素材":
+  - generic: 廣告創意素材
+  - list:
+    - link "你可以多文發佈的影片":
+      - /url: https://business.facebook.com/latest/posts/videos_you_can_crosspost
+    - generic: 你可以多文發佈的影片
+- button "展開":
+  - generic: 展開
+- heading "「Facebook 觸及人數」將於2026年10月31日起停用" [level=4]
+- button "關閉":
+  - generic: 關閉
+- generic: 「瀏覽者人數」是瞭解有多少帳號瀏覽過你 Facebook 內容的主要衡量指標。
+- tablist:
+  - tab "已發佈" [selected]:
+    - generic: 已發佈
+  - tab "已排定發佈":
+    - generic: 已排定發佈
+  - tab "草稿":
+    - generic: 草稿
+  - tab "即將過期":
+    - generic: 即將過期
+  - tab "已過期":
+    - generic: 已過期
+  - tab "廣告貼文":
+    - generic: 廣告貼文
+- generic: 篩選
+- combobox "篩選 篩選":
+  - generic: 篩選
+- text: 依編號或文字搜尋
+- textbox "依編號或文字搜尋"
+- button "過去 90 天":
+  - generic: 過去 90 天
+- button "直欄":
+  - generic: 直欄
+- grid "已發佈的貼文":
+  - rowgroup:
+    - row "全選 標題 發佈日期 狀態 觸及人數 瀏覽次數 瀏覽者 追蹤人數 互動次數 按讚數和心情數 留言數 分享次數 儲存次數 連結點擊次數 觀看時間 影片平均播放時間 觀看 3 秒以上的次數 插播廣告收益約略值":
+      - columnheader "全選":
+        - checkbox "全選"
+      - columnheader "標題":
+        - heading "標題" [level=4]:
+          - generic: 標題
+      - columnheader "發佈日期":
+        - button "發佈日期":
+          - heading "發佈日期" [level=4]:
+            - generic: 發佈日期
+        - separator:
+          - separator
+      - columnheader "狀態":
+        - button "狀態":
+          - heading "狀態" [level=4]:
+            - generic: 狀態
+        - separator:
+          - separator
+      - columnheader "觸及人數":
+        - button "觸及人數":
+          - heading "觸及人數" [level=4]:
+            - generic: 觸及人數
+        - separator:
+          - separator
+      - columnheader "瀏覽次數":
+        - button "瀏覽次數":
+          - heading "瀏覽次數" [level=4]:
+            - generic: 瀏覽次數
+        - separator:
+          - separator
+      - columnheader "瀏覽者":
+        - button "瀏覽者":
+          - heading "瀏覽者" [level=4]:
+            - generic: 瀏覽者
+        - separator:
+          - separator
+      - columnheader "追蹤人數":
+        - button "追蹤人數":
+          - heading "追蹤人數" [level=4]:
+            - generic: 追蹤人數
+        - separator:
+          - separator
+      - columnheader "互動次數":
+        - button "互動次數":
+          - heading "互動次數" [level=4]:
+            - generic: 互動次數
+        - separator:
+          - separator
+      - columnheader "按讚數和心情數":
+        - button "按讚數和心情數":
+          - heading "按讚數和心情數" [level=4]:
+            - generic: 按讚數和心情數
+        - separator:
+          - separator
+      - columnheader "留言數":
+        - button "留言數":
+          - heading "留言數" [level=4]:
+            - generic: 留言數
+        - separator:
+          - separator
+      - columnheader "分享次數":
+        - button "分享次數":
+          - heading "分享次數" [level=4]:
+            - generic: 分享次數
+        - separator:
+          - separator
+      - columnheader "儲存次數":
+        - button "儲存次數":
+          - heading "儲存次數" [level=4]:
+            - generic: 儲存次數
+        - separator:
+          - separator
+      - columnheader "連結點擊次數":
+        - button "連結點擊次數":
+          - heading "連結點擊次數" [level=4]:
+            - generic: 連結點擊次數
+        - separator:
+          - separator
+      - columnheader "觀看時間":
+        - button "觀看時間":
+          - heading "觀看時間" [level=4]:
+            - generic: 觀看時間
+        - separator:
+          - separator
+      - columnheader "影片平均播放時間":
+        - button "影片平均播放時間":
+          - heading "影片平均播放時間" [level=4]:
+            - generic: 影片平均播放時間
+        - separator:
+          - separator
+      - columnheader "觀看 3 秒以上的次數":
+        - button "觀看 3 秒以上的次數":
+          - heading "觀看 3 秒以上的次數" [level=4]:
+            - generic: 觀看 3 秒以上的次數
+        - separator:
+          - separator
+      - columnheader "插播廣告收益約略值":
+        - button "插播廣告收益約略值":
+          - heading "插播廣告收益約略值" [level=4]:
+            - generic: 插播廣告收益約略值
+        - separator:
+          - separator
+  - rowgroup:
+    - 'row "選擇含有 ID（122112742875505473）的項目 Facebook 📮 歡迎成為「留遊學交換誌」免費會員！ https://globalednews.com/newsletter/journal/ 會員報會提供留遊學與交換生的故事，並佐以環球國際教育新聞。 去新加坡交換之前，先替自己備好第二張課表 想修的課，不一定選得到。從新加坡國立大學的交換選課提醒出發，學著把期待、備案與回校採認放在同一張表。 閱讀全文：https://studyabmag.globalednews.com/articles/singapore-exchange-course-map/ 官方資料整理與編輯建議，非學生訪談。 AI情境插畫；來源與閱讀界線見全文。 #留遊學交換誌 #交換 相片 環球國際教育新聞網 加強推廣 開啟下拉式功能表 10月25日 11:19 目前未加強推廣 2 1 1 0 0 0 0 0 0 ‑‑ ‑‑ ‑‑ 0 ‑‑"':
+      - gridcell "選擇含有 ID（122112742875505473）的項目":
+        - checkbox "選擇含有 ID（122112742875505473）的項目"
+      - 'gridcell "Facebook 📮 歡迎成為「留遊學交換誌」免費會員！ https://globalednews.com/newsletter/journal/ 會員報會提供留遊學與交換生的故事，並佐以環球國際教育新聞。 去新加坡交換之前，先替自己備好第二張課表 想修的課，不一定選得到。從新加坡國立大學的交換選課提醒出發，學著把期待、備案與回校採認放在同一張表。 閱讀全文：https://studyabmag.globalednews.com/articles/singapore-exchange-course-map/ 官方資料整理與編輯建議，非學生訪談。 AI情境插畫；來源與閱讀界線見全文。 #留遊學交換誌 #交換 相片 環球國際教育新聞網 加強推廣 開啟下拉式功能表"':
+        - img "Facebook"
+        - generic: "📮 歡迎成為「留遊學交換誌」免費會員！ https://globalednews.com/newsletter/journal/ 會員報會提供留遊學與交換生的故事，並佐以環球國際教育新聞。 去新加坡交換之前，先替自己備好第二張課表 想修的課，不一定選得到。從新加坡國立大學的交換選課提醒出發，學著把期待、備案與回校採認放在同一張表。 閱讀全文：https://studyabmag.globalednews.com/articles/singapore-exchange-course-map/ 官方資料整理與編輯建議，非學生訪談。 AI情境插畫；來源與閱讀界線見全文。 #留遊學交換誌 #交換"
+        - generic: 相片
+        - generic: 環球國際教育新聞網
+        - button "加強推廣":
+          - generic: 加強推廣
+        - button "開啟下拉式功能表":
+          - generic: 開啟下拉式功能表
+      - gridcell "10月25日 11:19":
+        - button "10月25日 11:19":
+          - generic: 10月25日 11:19
+      - gridcell "目前未加強推廣":
+        - button "目前未加強推廣":
+          - generic "目前未加強推廣":
+      - gridcell "2":
+        - button "2":
+          - generic: "2"
+      - gridcell "1":
+        - button "1":
+          - generic: "1"
+      - gridcell "1":
+        - button "1":
+          - generic: "1"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+    - 'row "選擇含有 ID（122112742473505473）的項目 Facebook 📮 歡迎成為「留遊學交換誌」免費會員！ https://globalednews.com/newsletter/journal/ 會員報會提供留遊學與交換生的故事，並佐以環球國際教育新聞。 加拿大遊學第一週：先留一點時間，讓自己慢慢開口 不把課後每一格都填滿，反而能替語言練習留下位置。從選課目標到抵達後的小任務，安排一個可以適應的開始。 閱讀全文：https://studyabmag.globalednews.com/articles/canada-language-first-week/ 官方資料整理與編輯建議，非學生訪談。 AI情境插畫；來源與閱讀界線見全文。 #留遊學交換誌 #遊學 相片 環球國際教育新聞網 加強推廣 開啟下拉式功能表 10月25日 11:18 目前未加強推廣 3 8 3 0 0 0 0 0 0 ‑‑ ‑‑ ‑‑ 0 ‑‑"':
+      - gridcell "選擇含有 ID（122112742473505473）的項目":
+        - checkbox "選擇含有 ID（122112742473505473）的項目"
+      - 'gridcell "Facebook 📮 歡迎成為「留遊學交換誌」免費會員！ https://globalednews.com/newsletter/journal/ 會員報會提供留遊學與交換生的故事，並佐以環球國際教育新聞。 加拿大遊學第一週：先留一點時間，讓自己慢慢開口 不把課後每一格都填滿，反而能替語言練習留下位置。從選課目標到抵達後的小任務，安排一個可以適應的開始。 閱讀全文：https://studyabmag.globalednews.com/articles/canada-language-first-week/ 官方資料整理與編輯建議，非學生訪談。 AI情境插畫；來源與閱讀界線見全文。 #留遊學交換誌 #遊學 相片 環球國際教育新聞網 加強推廣 開啟下拉式功能表"':
+        - img "Facebook"
+        - generic: "📮 歡迎成為「留遊學交換誌」免費會員！ https://globalednews.com/newsletter/journal/ 會員報會提供留遊學與交換生的故事，並佐以環球國際教育新聞。 加拿大遊學第一週：先留一點時間，讓自己慢慢開口 不把課後每一格都填滿，反而能替語言練習留下位置。從選課目標到抵達後的小任務，安排一個可以適應的開始。 閱讀全文：https://studyabmag.globalednews.com/articles/canada-language-first-week/ 官方資料整理與編輯建議，非學生訪談。 AI情境插畫；來源與閱讀界線見全文。 #留遊學交換誌 #遊學"
+        - generic: 相片
+        - generic: 環球國際教育新聞網
+        - button "加強推廣":
+          - generic: 加強推廣
+        - button "開啟下拉式功能表":
+          - generic: 開啟下拉式功能表
+      - gridcell "10月25日 11:18":
+        - button "10月25日 11:18":
+          - generic: 10月25日 11:18
+      - gridcell "目前未加強推廣":
+        - button "目前未加強推廣":
+          - generic "目前未加強推廣":
+      - gridcell "3":
+        - button "3":
+          - generic: "3"
+      - gridcell "8":
+        - button "8":
+          - generic: "8"
+      - gridcell "3":
+        - button "3":
+          - generic: "3"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+    - 'row "選擇含有 ID（122112742125505473）的項目 Facebook 📮 歡迎成為「留遊學交換誌」免費會員！ https://globalednews.com/newsletter/journal/ 會員報會提供留遊學與交換生的故事，並佐以環球國際教育新聞。 英國預科準備：把老師的回饋，變成自己的下一版 申請銜接課程之前，先試一次修訂練習。把看不懂的評語問清楚，比急著把每一個字改漂亮更有用。 閱讀全文：https://studyabmag.globalednews.com/articles/ify-feedback-next-draft/ LTU關聯產品專題，非學生見證。 AI情境插畫；來源與閱讀界線見全文。 #留遊學交換誌 #留學 相片 環球國際教育新聞網 加強推廣 開啟下拉式功能表 10月25日 11:17 目前未加強推廣 2 1 1 0 0 0 0 0 0 ‑‑ ‑‑ ‑‑ 0 ‑‑"':
+      - gridcell "選擇含有 ID（122112742125505473）的項目":
+        - checkbox "選擇含有 ID（122112742125505473）的項目"
+      - 'gridcell "Facebook 📮 歡迎成為「留遊學交換誌」免費會員！ https://globalednews.com/newsletter/journal/ 會員報會提供留遊學與交換生的故事，並佐以環球國際教育新聞。 英國預科準備：把老師的回饋，變成自己的下一版 申請銜接課程之前，先試一次修訂練習。把看不懂的評語問清楚，比急著把每一個字改漂亮更有用。 閱讀全文：https://studyabmag.globalednews.com/articles/ify-feedback-next-draft/ LTU關聯產品專題，非學生見證。 AI情境插畫；來源與閱讀界線見全文。 #留遊學交換誌 #留學 相片 環球國際教育新聞網 加強推廣 開啟下拉式功能表"':
+        - img "Facebook"
+        - generic: "📮 歡迎成為「留遊學交換誌」免費會員！ https://globalednews.com/newsletter/journal/ 會員報會提供留遊學與交換生的故事，並佐以環球國際教育新聞。 英國預科準備：把老師的回饋，變成自己的下一版 申請銜接課程之前，先試一次修訂練習。把看不懂的評語問清楚，比急著把每一個字改漂亮更有用。 閱讀全文：https://studyabmag.globalednews.com/articles/ify-feedback-next-draft/ LTU關聯產品專題，非學生見證。 AI情境插畫；來源與閱讀界線見全文。 #留遊學交換誌 #留學"
+        - generic: 相片
+        - generic: 環球國際教育新聞網
+        - button "加強推廣":
+          - generic: 加強推廣
+        - button "開啟下拉式功能表":
+          - generic: 開啟下拉式功能表
+      - gridcell "10月25日 11:17":
+        - button "10月25日 11:17":
+          - generic: 10月25日 11:17
+      - gridcell "目前未加強推廣":
+        - button "目前未加強推廣":
+          - generic "目前未加強推廣":
+      - gridcell "2":
+        - button "2":
+          - generic: "2"
+      - gridcell "1":
+        - button "1":
+          - generic: "1"
+      - gridcell "1":
+        - button "1":
+          - generic: "1"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+    - row "選擇含有 ID（122112589095505473）的項目 Facebook 安大略省私校OSAP仍暫停，復款日期未定 選校前先確認課程與付款安排。 10月20日官方說明：須待新驗證程序就緒，預計新年度實施且仍涉及立法。 這不是台灣留學生新增獎學金，也不代表所有私校違法。 國際教育新聞：https://globalednews.com/news/ 全文：https://globalednews.com/news/ontario-private-college-osap-validation-2026/ 和正在規劃升學的家人一起核對條件。 免費加入環球教育新聞會員！ 每週教育新聞與申請提醒，免費且可隨時取消。 https://globalednews.com/newsletter/ 資料照：Dillan Payne / CC BY-SA 4.0；裁切加字。 https://globalednews.com/images/daily/2026-10-25/credits.html#ca 相片 環球國際教育新聞網 加強推廣 開啟下拉式功能表 10月25日 5:34 目前未加強推廣 3 6 3 0 0 0 0 0 0 ‑‑ ‑‑ ‑‑ 0 ‑‑":
+      - gridcell "選擇含有 ID（122112589095505473）的項目":
+        - checkbox "選擇含有 ID（122112589095505473）的項目"
+      - gridcell "Facebook 安大略省私校OSAP仍暫停，復款日期未定 選校前先確認課程與付款安排。 10月20日官方說明：須待新驗證程序就緒，預計新年度實施且仍涉及立法。 這不是台灣留學生新增獎學金，也不代表所有私校違法。 國際教育新聞：https://globalednews.com/news/ 全文：https://globalednews.com/news/ontario-private-college-osap-validation-2026/ 和正在規劃升學的家人一起核對條件。 免費加入環球教育新聞會員！ 每週教育新聞與申請提醒，免費且可隨時取消。 https://globalednews.com/newsletter/ 資料照：Dillan Payne / CC BY-SA 4.0；裁切加字。 https://globalednews.com/images/daily/2026-10-25/credits.html#ca 相片 環球國際教育新聞網 加強推廣 開啟下拉式功能表":
+        - img "Facebook"
+        - generic: 安大略省私校OSAP仍暫停，復款日期未定 選校前先確認課程與付款安排。 10月20日官方說明：須待新驗證程序就緒，預計新年度實施且仍涉及立法。 這不是台灣留學生新增獎學金，也不代表所有私校違法。 國際教育新聞：https://globalednews.com/news/ 全文：https://globalednews.com/news/ontario-private-college-osap-validation-2026/ 和正在規劃升學的家人一起核對條件。 免費加入環球教育新聞會員！ 每週教育新聞與申請提醒，免費且可隨時取消。 https://globalednews.com/newsletter/ 資料照：Dillan Payne / CC BY-SA 4.0；裁切加字。 https://globalednews.com/images/daily/2026-10-25/credits.html#ca
+        - generic: 相片
+        - generic: 環球國際教育新聞網
+        - button "加強推廣":
+          - generic: 加強推廣
+        - button "開啟下拉式功能表":
+          - generic: 開啟下拉式功能表
+      - gridcell "10月25日 5:34":
+        - button "10月25日 5:34":
+          - generic: 10月25日 5:34
+      - gridcell "目前未加強推廣":
+        - button "目前未加強推廣":
+          - generic "目前未加強推廣":
+      - gridcell "3":
+        - button "3":
+          - generic: "3"
+      - gridcell "6":
+        - button "6":
+          - generic: "6"
+      - gridcell "3":
+        - button "3":
+          - generic: "3"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+    - 'row "選擇含有 ID（122112192741505473）的項目 Facebook 📮 歡迎成為「留遊學交換誌」免費會員！ https://globalednews.com/newsletter/journal/ 會員報會提供留遊學與交換生的故事，並佐以環球國際教育新聞。 短期入班體驗，家長最該問的不是去了幾個景點 LTU 產品專題｜從課堂參與、住宿聯絡與孩子的求助方式，整理 G5–G12 海外學習諮詢前的準備。 讓孩子選一個最擔心的情境，自己試著說出需要什麼協助。例如聽不懂集合時間，可以練習請對方再說一次、寫下時間並回覆確認。這些是行前溝通練習，不是對任何校方服務的描述，也不代表孩子必須沒有焦慮才適合出發。 閱讀全文：https://studyabmag.globalednews.com/articles/ltu-school-experience-support-check/ LTU 關聯產品專題｜依官方產品資料整理，非學生訪談或參加者見證。 圖像來源與說明見全文。 #留遊學交換誌 #海外學習 相片 環球國際教育新聞網 加強推廣 開啟下拉式功能表 10月24日 11:25 目前未加強推廣 3 4 3 0 0 0 0 0 0 ‑‑ ‑‑ ‑‑ 0 ‑‑"':
+      - gridcell "選擇含有 ID（122112192741505473）的項目":
+        - checkbox "選擇含有 ID（122112192741505473）的項目"
+      - 'gridcell "Facebook 📮 歡迎成為「留遊學交換誌」免費會員！ https://globalednews.com/newsletter/journal/ 會員報會提供留遊學與交換生的故事，並佐以環球國際教育新聞。 短期入班體驗，家長最該問的不是去了幾個景點 LTU 產品專題｜從課堂參與、住宿聯絡與孩子的求助方式，整理 G5–G12 海外學習諮詢前的準備。 讓孩子選一個最擔心的情境，自己試著說出需要什麼協助。例如聽不懂集合時間，可以練習請對方再說一次、寫下時間並回覆確認。這些是行前溝通練習，不是對任何校方服務的描述，也不代表孩子必須沒有焦慮才適合出發。 閱讀全文：https://studyabmag.globalednews.com/articles/ltu-school-experience-support-check/ LTU 關聯產品專題｜依官方產品資料整理，非學生訪談或參加者見證。 圖像來源與說明見全文。 #留遊學交換誌 #海外學習 相片 環球國際教育新聞網 加強推廣 開啟下拉式功能表"':
+        - img "Facebook"
+        - generic: "📮 歡迎成為「留遊學交換誌」免費會員！ https://globalednews.com/newsletter/journal/ 會員報會提供留遊學與交換生的故事，並佐以環球國際教育新聞。 短期入班體驗，家長最該問的不是去了幾個景點 LTU 產品專題｜從課堂參與、住宿聯絡與孩子的求助方式，整理 G5–G12 海外學習諮詢前的準備。 讓孩子選一個最擔心的情境，自己試著說出需要什麼協助。例如聽不懂集合時間，可以練習請對方再說一次、寫下時間並回覆確認。這些是行前溝通練習，不是對任何校方服務的描述，也不代表孩子必須沒有焦慮才適合出發。 閱讀全文：https://studyabmag.globalednews.com/articles/ltu-school-experience-support-check/ LTU 關聯產品專題｜依官方產品資料整理，非學生訪談或參加者見證。 圖像來源與說明見全文。 #留遊學交換誌 #海外學習"
+        - generic: 相片
+        - generic: 環球國際教育新聞網
+        - button "加強推廣":
+          - generic: 加強推廣
+        - button "開啟下拉式功能表":
+          - generic: 開啟下拉式功能表
+      - gridcell "10月24日 11:25":
+        - button "10月24日 11:25":
+          - generic: 10月24日 11:25
+      - gridcell "目前未加強推廣":
+        - button "目前未加強推廣":
+          - generic "目前未加強推廣":
+      - gridcell "3":
+        - button "3":
+          - generic: "3"
+      - gridcell "4":
+        - button "4":
+          - generic: "4"
+      - gridcell "3":
+        - button "3":
+          - generic: "3"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+    - 'row "選擇含有 ID（122112192513505473）的項目 Facebook 📮 歡迎成為「留遊學交換誌」免費會員！ https://globalednews.com/newsletter/journal/ 會員報會提供留遊學與交換生的故事，並佐以環球國際教育新聞。 英國預科不是等待的一年：把銜接問題問具體 LTU 產品專題｜認識 IFY 之前，先把目標科系、英文準備與評量方式整理成可討論的問題。 編輯建議詢問作業類型、回饋方式、英文使用情境與遇到困難的聯絡窗口。不要只用課程長短或單一費用判斷適合程度。若可取得示例課程說明，可以先讀一頁，看看自己是否理解課程要求，再列出要問的問題。 閱讀全文：https://studyabmag.globalednews.com/articles/ltu-ify-foundation-questions/ LTU 關聯產品專題｜依官方產品資料整理，非學生訪談或參加者見證。 圖像來源與說明見全文。 #留遊學交換誌 #海外學習 相片 環球國際教育新聞網 加強推廣 開啟下拉式功能表 10月24日 11:25 目前未加強推廣 2 1 1 0 0 0 0 0 0 ‑‑ ‑‑ ‑‑ 0 ‑‑"':
+      - gridcell "選擇含有 ID（122112192513505473）的項目":
+        - checkbox "選擇含有 ID（122112192513505473）的項目"
+      - 'gridcell "Facebook 📮 歡迎成為「留遊學交換誌」免費會員！ https://globalednews.com/newsletter/journal/ 會員報會提供留遊學與交換生的故事，並佐以環球國際教育新聞。 英國預科不是等待的一年：把銜接問題問具體 LTU 產品專題｜認識 IFY 之前，先把目標科系、英文準備與評量方式整理成可討論的問題。 編輯建議詢問作業類型、回饋方式、英文使用情境與遇到困難的聯絡窗口。不要只用課程長短或單一費用判斷適合程度。若可取得示例課程說明，可以先讀一頁，看看自己是否理解課程要求，再列出要問的問題。 閱讀全文：https://studyabmag.globalednews.com/articles/ltu-ify-foundation-questions/ LTU 關聯產品專題｜依官方產品資料整理，非學生訪談或參加者見證。 圖像來源與說明見全文。 #留遊學交換誌 #海外學習 相片 環球國際教育新聞網 加強推廣 開啟下拉式功能表"':
+        - img "Facebook"
+        - generic: "📮 歡迎成為「留遊學交換誌」免費會員！ https://globalednews.com/newsletter/journal/ 會員報會提供留遊學與交換生的故事，並佐以環球國際教育新聞。 英國預科不是等待的一年：把銜接問題問具體 LTU 產品專題｜認識 IFY 之前，先把目標科系、英文準備與評量方式整理成可討論的問題。 編輯建議詢問作業類型、回饋方式、英文使用情境與遇到困難的聯絡窗口。不要只用課程長短或單一費用判斷適合程度。若可取得示例課程說明，可以先讀一頁，看看自己是否理解課程要求，再列出要問的問題。 閱讀全文：https://studyabmag.globalednews.com/articles/ltu-ify-foundation-questions/ LTU 關聯產品專題｜依官方產品資料整理，非學生訪談或參加者見證。 圖像來源與說明見全文。 #留遊學交換誌 #海外學習"
+        - generic: 相片
+        - generic: 環球國際教育新聞網
+        - button "加強推廣":
+          - generic: 加強推廣
+        - button "開啟下拉式功能表":
+          - generic: 開啟下拉式功能表
+      - gridcell "10月24日 11:25":
+        - button "10月24日 11:25":
+          - generic: 10月24日 11:25
+      - gridcell "目前未加強推廣":
+        - button "目前未加強推廣":
+          - generic "目前未加強推廣":
+      - gridcell "2":
+        - button "2":
+          - generic: "2"
+      - gridcell "1":
+        - button "1":
+          - generic: "1"
+      - gridcell "1":
+        - button "1":
+          - generic: "1"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+    - 'row "選擇含有 ID（122112192249505473）的項目 Facebook 📮 歡迎成為「留遊學交換誌」免費會員！ https://globalednews.com/newsletter/journal/ 會員報會提供留遊學與交換生的故事，並佐以環球國際教育新聞。 規劃 OSSD 雙聯學制，先把兩張課表放在一起 LTU 產品專題｜從台灣學校的課表、加拿大修課規劃與個人時間出發，準備一場更具體的課程諮詢。 在一週日曆標上台灣學校作息、通勤、社團、休息與預計可用的學習時段。這是家庭討論工具，不是課程時數建議。若計畫需要犧牲所有休息才能成立，就把這項風險帶回諮詢，討論是否調整進度或申請時程。 閱讀全文：https://studyabmag.globalednews.com/articles/ltu-ossd-two-transcripts-planning/ LTU 關聯產品專題｜依官方產品資料整理，非學生訪談或參加者見證。 圖像來源與說明見全文。 #留遊學交換誌 #海外學習 相片 環球國際教育新聞網 加強推廣 開啟下拉式功能表 10月24日 11:25 目前未加強推廣 3 4 3 0 0 0 0 0 0 ‑‑ ‑‑ ‑‑ 0 ‑‑"':
+      - gridcell "選擇含有 ID（122112192249505473）的項目":
+        - checkbox "選擇含有 ID（122112192249505473）的項目"
+      - 'gridcell "Facebook 📮 歡迎成為「留遊學交換誌」免費會員！ https://globalednews.com/newsletter/journal/ 會員報會提供留遊學與交換生的故事，並佐以環球國際教育新聞。 規劃 OSSD 雙聯學制，先把兩張課表放在一起 LTU 產品專題｜從台灣學校的課表、加拿大修課規劃與個人時間出發，準備一場更具體的課程諮詢。 在一週日曆標上台灣學校作息、通勤、社團、休息與預計可用的學習時段。這是家庭討論工具，不是課程時數建議。若計畫需要犧牲所有休息才能成立，就把這項風險帶回諮詢，討論是否調整進度或申請時程。 閱讀全文：https://studyabmag.globalednews.com/articles/ltu-ossd-two-transcripts-planning/ LTU 關聯產品專題｜依官方產品資料整理，非學生訪談或參加者見證。 圖像來源與說明見全文。 #留遊學交換誌 #海外學習 相片 環球國際教育新聞網 加強推廣 開啟下拉式功能表"':
+        - img "Facebook"
+        - generic: "📮 歡迎成為「留遊學交換誌」免費會員！ https://globalednews.com/newsletter/journal/ 會員報會提供留遊學與交換生的故事，並佐以環球國際教育新聞。 規劃 OSSD 雙聯學制，先把兩張課表放在一起 LTU 產品專題｜從台灣學校的課表、加拿大修課規劃與個人時間出發，準備一場更具體的課程諮詢。 在一週日曆標上台灣學校作息、通勤、社團、休息與預計可用的學習時段。這是家庭討論工具，不是課程時數建議。若計畫需要犧牲所有休息才能成立，就把這項風險帶回諮詢，討論是否調整進度或申請時程。 閱讀全文：https://studyabmag.globalednews.com/articles/ltu-ossd-two-transcripts-planning/ LTU 關聯產品專題｜依官方產品資料整理，非學生訪談或參加者見證。 圖像來源與說明見全文。 #留遊學交換誌 #海外學習"
+        - generic: 相片
+        - generic: 環球國際教育新聞網
+        - button "加強推廣":
+          - generic: 加強推廣
+        - button "開啟下拉式功能表":
+          - generic: 開啟下拉式功能表
+      - gridcell "10月24日 11:25":
+        - button "10月24日 11:25":
+          - generic: 10月24日 11:25
+      - gridcell "目前未加強推廣":
+        - button "目前未加強推廣":
+          - generic "目前未加強推廣":
+      - gridcell "3":
+        - button "3":
+          - generic: "3"
+      - gridcell "4":
+        - button "4":
+          - generic: "4"
+      - gridcell "3":
+        - button "3":
+          - generic: "3"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+    - 'row "選擇含有 ID（122112192027505473）的項目 Facebook 📮 歡迎成為「留遊學交換誌」免費會員！ https://globalednews.com/newsletter/journal/ 會員報會提供留遊學與交換生的故事，並佐以環球國際教育新聞。 去英國之前，先練習一次沒有標準答案的討論 英文成績之外，也可以先練習如何回應一個觀點。從 Study UK 的行前學習資源，整理自己的出發前練習。 與同學練習時，先請對方解釋一個關鍵詞，再試著重述他的意思。確認理解之後，才提出不同看法。這是溝通練習，不是英國所有科系的評分標準；各課程如何評量討論與作業，仍要讀正式課程文件。 閱讀全文：https://studyabmag.globalednews.com/articles/uk-before-arrival-learning-rehearsal/ 官方資料整理與編輯建議｜不是人物訪談，各校規定與個人資格須另行確認。 圖像來源與說明見全文。 #留遊學交換誌 #海外學習 相片 環球國際教育新聞網 加強推廣 開啟下拉式功能表 10月24日 11:24 目前未加強推廣 3 2 2 0 0 0 0 0 0 ‑‑ ‑‑ ‑‑ 0 ‑‑"':
+      - gridcell "選擇含有 ID（122112192027505473）的項目":
+        - checkbox "選擇含有 ID（122112192027505473）的項目"
+      - 'gridcell "Facebook 📮 歡迎成為「留遊學交換誌」免費會員！ https://globalednews.com/newsletter/journal/ 會員報會提供留遊學與交換生的故事，並佐以環球國際教育新聞。 去英國之前，先練習一次沒有標準答案的討論 英文成績之外，也可以先練習如何回應一個觀點。從 Study UK 的行前學習資源，整理自己的出發前練習。 與同學練習時，先請對方解釋一個關鍵詞，再試著重述他的意思。確認理解之後，才提出不同看法。這是溝通練習，不是英國所有科系的評分標準；各課程如何評量討論與作業，仍要讀正式課程文件。 閱讀全文：https://studyabmag.globalednews.com/articles/uk-before-arrival-learning-rehearsal/ 官方資料整理與編輯建議｜不是人物訪談，各校規定與個人資格須另行確認。 圖像來源與說明見全文。 #留遊學交換誌 #海外學習 相片 環球國際教育新聞網 加強推廣 開啟下拉式功能表"':
+        - img "Facebook"
+        - generic: "📮 歡迎成為「留遊學交換誌」免費會員！ https://globalednews.com/newsletter/journal/ 會員報會提供留遊學與交換生的故事，並佐以環球國際教育新聞。 去英國之前，先練習一次沒有標準答案的討論 英文成績之外，也可以先練習如何回應一個觀點。從 Study UK 的行前學習資源，整理自己的出發前練習。 與同學練習時，先請對方解釋一個關鍵詞，再試著重述他的意思。確認理解之後，才提出不同看法。這是溝通練習，不是英國所有科系的評分標準；各課程如何評量討論與作業，仍要讀正式課程文件。 閱讀全文：https://studyabmag.globalednews.com/articles/uk-before-arrival-learning-rehearsal/ 官方資料整理與編輯建議｜不是人物訪談，各校規定與個人資格須另行確認。 圖像來源與說明見全文。 #留遊學交換誌 #海外學習"
+        - generic: 相片
+        - generic: 環球國際教育新聞網
+        - button "加強推廣":
+          - generic: 加強推廣
+        - button "開啟下拉式功能表":
+          - generic: 開啟下拉式功能表
+      - gridcell "10月24日 11:24":
+        - button "10月24日 11:24":
+          - generic: 10月24日 11:24
+      - gridcell "目前未加強推廣":
+        - button "目前未加強推廣":
+          - generic "目前未加強推廣":
+      - gridcell "3":
+        - button "3":
+          - generic: "3"
+      - gridcell "2":
+        - button "2":
+          - generic: "2"
+      - gridcell "2":
+        - button "2":
+          - generic: "2"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+      - gridcell "0":
+        - button "0":
+          - generic: "0"
+      - gridcell "‑‑":
+        - button "‑‑":
+          - generic: ‑‑
+  - rowgroup
+- button "Meta AI 商家助理"
+- button "Meta Business Suite":
+  - generic: Meta Business Suite
+- button "Pressable":
+  - img "Instagram"
+  - img "Facebook"
+- navigation "連結":
+  - generic: 連結
+  - list:
+    - link "首頁":
+      - /url: https://business.facebook.com/latest/home?business_id=1108451491737424&asset_id=1355044634361784
+      - generic: 首頁
+    - generic: 首頁
+    - link "通知":
+      - generic: 通知
+    - generic: 通知
+    - link "廣告管理員":
+      - generic: 廣告管理員
+    - generic: 廣告管理員
+    - link "收件匣":
+      - /url: https://business.facebook.com/latest/inbox?business_id=1108451491737424&asset_id=1355044634361784
+      - generic: 收件匣
+    - generic: 收件匣
+    - link "內容":
+      - /url: https://business.facebook.com/latest/posts?business_id=1108451491737424&asset_id=1355044634361784
+      - generic: 內容
+    - generic: 內容
+    - link "創作者行銷":
+      - /url: https://business.facebook.com/creator_marketing_hub/overview/?business_id=1108451491737424&asset_id=1355044634361784
+      - generic: 創作者行銷
+    - generic: 創作者行銷
+    - link "規劃工具":
+      - /url: https://business.facebook.com/latest/content_calendar?business_id=1108451491737424&asset_id=1355044634361784
+      - generic: 規劃工具
+    - generic: 規劃工具
+    - link "廣告":
+      - /url: https://business.facebook.com/latest/ad_center/ads_summary?business_id=1108451491737424&asset_id=1355044634361784
+      - generic: 廣告
+    - generic: 廣告
+    - link "洞察報告":
+      - /url: https://business.facebook.com/latest/insights?business_id=1108451491737424&asset_id=1355044634361784
+      - generic: 洞察報告
+    - generic: 洞察報告
+    - link "營利":
+      - /url: https://business.facebook.com/latest/monetization?business_id=1108451491737424&asset_id=1355044634361784
+      - generic: 營利
+    - generic: 營利
+    - link "所有工具":
+      - generic: 所有工具
+    - generic: 所有工具
+    - separator
+    - link "帳單和付款":
+      - /url: https://business.facebook.com/billing_hub/?business_id=1108451491737424&placement=mbs_all_tools_menu
+      - generic: 帳單和付款
+    - generic: 帳單和付款
+    - link "受眾":
+      - /url: https://business.facebook.com/ads/manager/audiences/?business_id=1108451491737424&nav_source=business_manager
+      - generic: 受眾
+    - generic: 受眾
+    - link "事件管理工具":
+      - /url: https://business.facebook.com/events_manager2/?business_id=1108451491737424&global_scope_id=1108451491737424&nav_source=biz_nav
+      - generic: 事件管理工具
+    - generic: 事件管理工具
+    - button "編輯邊欄導覽":
+      - generic: 編輯
+- link "搜尋":
+  - generic: 搜尋
+- generic: 搜尋
+- navigation "連結":
+  - generic: 連結
+  - list:
+    - link "設定":
+      - /url: https://business.facebook.com/latest/settings/business_overview?business_id=1108451491737424
+      - generic: 設定
+    - generic: 設定
+- link "使用說明":
+  - generic: 使用說明
+- generic: 使用說明
+- region "瞭解這項新功能"
+- button
+- img "Monica"
+- generic: Ctrl+M
+- text: 解釋

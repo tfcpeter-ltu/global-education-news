@@ -1,0 +1,166 @@
+- navigation:
+  - link "Threads":
+    - /url: /
+    - img "Threads"
+  - link "首頁":
+    - /url: /
+    - img "首頁"
+  - button "新串文":
+    - img "新串文"
+  - link "搜尋":
+    - /url: /search
+    - img "搜尋"
+  - link "訊息":
+    - /url: /messages/
+    - img "訊息"
+  - link "通知":
+    - /url: /activity
+    - img "通知"
+  - link "個人檔案":
+    - /url: /@ltuossdtw
+    - img "個人檔案"
+  - link "洞察報告":
+    - /url: /insights/
+    - img "洞察報告"
+  - link "Taiwan":
+    - /url: /search?q=taiwan&serp_type=tags&tag_id=18370641160076663
+    - img "Taiwan"
+  - link "AI Threads":
+    - /url: /search?q=aithreads&serp_type=tags&tag_id=18399895213044171
+    - img "AI Threads"
+  - link "Kpop":
+    - /url: /search?q=kpop&serp_type=tags&tag_id=18320256787128476
+    - img "Kpop"
+- link "直欄標題":
+  - /url: /@ltuossdtw
+  - heading "ltuossdtw" [level=1]:
+    - generic: ltuossdtw
+- link "搜尋ltuossdtw的貼文":
+  - /url: /search?from_author=ltuossdtw
+  - img "搜尋ltuossdtw的貼文"
+- button "更多":
+  - img "更多"
+- region "直欄內文":
+  - heading "LTU 布萊斯OSSD 台加雙聯學制" [level=1]
+  - generic: ltuossdtw
+  - button "ltuossdtw的大頭貼照":
+    - img "ltuossdtw的大頭貼照"
+  - generic: Official account of LTU Education Center Co.
+  - link "blythtaiwan.com":
+    - /url: https://l.threads.com/?u=http%3A%2F%2Fwww.blythtaiwan.com%2F%3Futm_source%3Dthreads%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DZgZXh0bgNhZW0CMTEAcGRvZgRzcnRjBmFwcF9pZAwyNTYyODEwNDA1NTgAQ6jGFwFMno4YV9jwscUs_2rKo-tASfpr7Awp4xNXrNi9v4AEWG0kojAB4JfPQQO0Yw_aem_0gV5SwkTVa2QvXK5CdeOTA&e=AUBqhSIYIjtpmrGwJqsOFPrmpsWu7lkLJ4e2Kg7gRCPAOhpX78zbDzhMppdw44AyYn13PVhqSeOQ4T5masc7VYdigRUeeB13QeH7ePIVhQ
+    - generic: blythtaiwan.com
+  - button "Threads 用戶大頭貼照 Threads 用戶大頭貼照 Threads 用戶大頭貼照 360位粉絲":
+    - img "Threads 用戶大頭貼照"
+    - img "Threads 用戶大頭貼照"
+    - img "Threads 用戶大頭貼照"
+    - generic: 360位粉絲
+  - generic: ·
+  - button "2.3 萬次最近瀏覽次數":
+    - generic: 2.3 萬次最近瀏覽次數
+  - link "Instagram":
+    - /url: https://www.instagram.com/ltuossdtw/
+    - img "Instagram"
+  - button "編輯個人檔案":
+    - generic: 編輯個人檔案
+  - link "查看洞察報告":
+    - /url: /insights
+    - generic: 查看洞察報告
+  - link "串文":
+    - /url: /@ltuossdtw
+    - generic: 串文
+  - link "回覆":
+    - /url: /@ltuossdtw/replies
+    - generic: 回覆
+  - link "影音內容":
+    - /url: /@ltuossdtw/media
+    - generic: 影音內容
+  - link "轉發":
+    - /url: /@ltuossdtw/reposts
+    - generic: 轉發
+  - link "ltuossdtw的大頭貼照":
+    - /url: /@ltuossdtw
+    - img "ltuossdtw的大頭貼照"
+  - button "文字欄位空白。請輸入內容以撰寫新貼文。":
+    - generic: 有什麼新鮮事？
+  - button "發佈":
+    - generic: 發佈
+  - separator
+  - link "ltuossdtw的大頭貼照":
+    - /url: /@ltuossdtw
+    - img "ltuossdtw的大頭貼照"
+  - link "ltuossdtw":
+    - /url: /@ltuossdtw
+    - generic: ltuossdtw
+  - link "18小時前":
+    - /url: /@ltuossdtw/post/De5tQzKkyo3
+    - time:
+      - generic "18小時前": 18小時
+  - button "更多":
+    - img "更多"
+  - text: 📮 歡迎成為「留遊學交換誌」免費會員！
+  - link "globalednews.com/newsl…":
+    - /url: https://l.threads.com/?u=https%3A%2F%2Fglobalednews.com%2Fnewsletter%2Fjournal%2F&e=AUBUF7Tot_QBV264rk2ffbzsbfQOHJhDBPPr8KYP-tHl7Bprf48RxTQ5J4H8PLm_LmoISKmfg1LOjC6Ci531PWySRpls1knJ3z4fRezr5ZifD5UKrM7841SLg8wz_TNs1KpBQik
+  - text: 會員報會提供留遊學與交換生的故事，並佐以環球國際教育新聞。
+  - text: 去新加坡交換之前，先替自己備好第二張課表 想修的課，不一定選得到。從新加坡國立大學的交換選課提醒出發，學著把期待、備案與回校採認放在同一張表。
+  - link "studyabmag.globalednews.com/artic…":
+    - /url: https://l.threads.com/?u=https%3A%2F%2Fstudyabmag.globalednews.com%2Farticles%2Fsingapore-exchange-course-map%2F&e=AUBUF7Tot_QBV264rk2ffbzsbfQOHJhDBPPr8KYP-tHl7Bprf48RxTQ5J4H8PLm_LmoISKmfg1LOjC6Ci531PWySRpls1knJ3z4fRezr5ZifD5UKrM7841SLg8wz_TNs1KpBQik
+  - text: 官方資料整理與編輯建議，非學生訪談。 AI情境插畫。
+  - link "Photo by LTU 布萊斯OSSD 台加雙聯學制 on October 24, 2026. 可能是地圖、海報、雜誌和文字的卡通.":
+    - /url: /@ltuossdtw/post/De5tQzKkyo3/media
+    - img "Photo by LTU 布萊斯OSSD 台加雙聯學制 on October 24, 2026. 可能是地圖、海報、雜誌和文字的卡通."
+  - button "讚":
+    - img "讚"
+  - button "回覆":
+    - img "回覆"
+  - button "轉發":
+    - img "轉發"
+  - button "分享":
+    - img "分享"
+  - link "ltuossdtw的大頭貼照":
+    - /url: /@ltuossdtw
+    - img "ltuossdtw的大頭貼照"
+  - link "ltuossdtw":
+    - /url: /@ltuossdtw
+    - generic: ltuossdtw
+  - link "18小時前":
+    - /url: /@ltuossdtw/post/De5tMoKE4gV
+    - time:
+      - generic "18小時前": 18小時
+  - button "更多":
+    - img "更多"
+  - text: 📮 歡迎成為「留遊學交換誌」免費會員！
+  - link "globalednews.com/newsl…":
+    - /url: https://l.threads.com/?u=https%3A%2F%2Fglobalednews.com%2Fnewsletter%2Fjournal%2F&e=AUBUF7Tot_QBV264rk2ffbzsbfQOHJhDBPPr8KYP-tHl7Bprf48RxTQ5J4H8PLm_LmoISKmfg1LOjC6Ci531PWySRpls1knJ3z4fRezr5ZifD5UKrM7841SLg8wz_TNs1KpBQik
+  - text: 會員報會提供留遊學與交換生的故事，並佐以環球國際教育新聞。
+  - text: 加拿大遊學第一週：先留一點時間，讓自己慢慢開口 不把課後每一格都填滿，反而能替語言練習留下位置。從選課目標到抵達後的小任務，安排一個可以適應的開始。
+  - link "studyabmag.globalednews.com/artic…":
+    - /url: https://l.threads.com/?u=https%3A%2F%2Fstudyabmag.globalednews.com%2Farticles%2Fcanada-language-first-week%2F&e=AUBUF7Tot_QBV264rk2ffbzsbfQOHJhDBPPr8KYP-tHl7Bprf48RxTQ5J4H8PLm_LmoISKmfg1LOjC6Ci531PWySRpls1knJ3z4fRezr5ZifD5UKrM7841SLg8wz_TNs1KpBQik
+  - text: 官方資料整理與編輯建議，非學生訪談。 AI情境插畫。
+  - link "Photo by LTU 布萊斯OSSD 台加雙聯學制 on October 24, 2026. 可能是一或多人、海報、雜誌和文字的圖像.":
+    - /url: /@ltuossdtw/post/De5tMoKE4gV/media
+    - img "Photo by LTU 布萊斯OSSD 台加雙聯學制 on October 24, 2026. 可能是一或多人、海報、雜誌和文字的圖像."
+  - button "讚":
+    - img "讚"
+  - button "回覆":
+    - img "回覆"
+  - button "轉發":
+    - img "轉發"
+  - button "分享":
+    - img "分享"
+  - status "載入中……":
+    - img "載入中……"
+- contentinfo:
+  - list:
+    - generic: © 2026
+    - link "《Threads 使用條款》":
+      - /url: https://help.instagram.com/769983657850450
+    - link "《隱私政策》":
+      - /url: https://help.instagram.com/515230437301944
+    - link "《Cookie 政策》":
+      - /url: https://help.instagram.com/1896641480634370/
+- button "建立":
+  - img "建立"
+- button
+- img "Monica"
+- generic: Ctrl+M
+- text: 解釋

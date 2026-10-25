@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-26",
+  "timezone": "Asia/Taipei",
+  "startedAt": "2026-10-26T05:34:05.075+08:00",
+  "observations": [
+    {
+      "images": [
+        {
+          "loaded": true,
+          "src": "https://globalednews.com/ads/images/uwe-bristol-floating-ad.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://globalednews.com/images/daily/2026-10-26/au.jpg"
+        },
+        {
+          "loaded": true,
+          "src": "https://globalednews.com/images/daily/2026-10-26/uk.jpg"
+        },
+        {
+          "loaded": true,
+          "src": "https://globalednews.com/images/daily/2026-10-26/ca.jpg"
+        },
+        {
+          "loaded": true,
+          "src": "https://globalednews.com/ads/images/cambridge-enjoyabc-business.webp"
+        },
+        {
+          "loaded": true,
+          "src": "https://globalednews.com/ads/images/cambridge-language-logo.png"
+        },
+        {
+          "loaded": true,
+          "src": "https://globalednews.com/ads/images/enjoyabc-logo.png"
+        }
+      ],
+      "ltu": [
+        "國際競爭力新典範 LTU OSSD台加高中雙聯學制",
+        "成功獲30張OSSD破除謠言 布萊斯學院台加雙聯學生將赴加拿大暑修",
+        "擴展海外升學路 布萊斯學院台加雙聯生今夏赴加暑修",
+        "今周刊 專訪【LTU國際學術中心：引領台灣學生透過 OSSD 雙聯學制銜接世界頂尖大學】",
+        "不出國也能拿雙文憑！明道臺加雙聯學制開花結果 首屆學生錄取海外名校",
+        "布萊斯「OSSD暑期學校」帶領學子參與國際交流 體驗海外大學生活",
+        "僑泰高中雙語班傳捷報！5學子前進世界百大名校 打破校史紀錄",
+        "LTU OSSD攜手皇冠高中舉辦暑期籃球ESL領袖營",
+        "2025年暑假最強中學籃球營加拿大登場跟HBL明星球員面對面打球",
+        "台加高中雙聯學程 錄取美加7大學",
+        "高雄中山工商港生歐陽志坤 透過台加雙聯學制圓留學夢",
+        "豐中學子躍上世界舞台！首屆「台加雙聯學制」學生陳詩茹錄取雪梨、約克大學等5所全球百大名校"
+      ],
+      "scrollWidth": 1301,
+      "url": "https://globalednews.com/",
+      "viewport": {
+        "height": 1105,
+        "width": 1320
+      }
+    },
+    {
+      "test": "scholarship search Iowa State + country USA + open",
+      "passed": true,
+      "verifiedAt": "2026-10-26T05:34:28.520+08:00"
+    },
+    {
+      "h1": "加拿大Memorial國際生減少：一年與三年降幅不能混讀",
+      "images": [],
+      "scrollWidth": 371,
+      "test": "mobile article",
+      "url": "https://globalednews.com/news/memorial-international-enrolment-measures-2026/",
+      "viewport": {
+        "height": 843,
+        "width": 390
+      }
+    },
+    {
+      "images": [
+        {
+          "loaded": true,
+          "src": "https://globalednews.com/images/share-photos/e0966c537d5ce5a7642e815c.jpg"
+        }
+      ],
+      "scrollWidth": 371,
+      "test": "mobile photo",
+      "viewport": {
+        "height": 843,
+        "width": 390
+      }
+    },
+    {
+      "h1": " Memorial international enrolment: keep one-year and three-year measures separate ",
+      "hasCJK": false,
+      "scrollWidth": 371,
+      "test": "English article",
+      "viewport": 390
+    }
+  ],
+  "status": "passed-awaiting-repair-deploy",
+  "verifiedAt": "2026-10-26T05:38:09.515+08:00",
+  "desktop": true,
+  "mobile": true,
+  "searchFilters": true,
+  "ltuRotation": true,
+  "note": "Desktop 1320px and mobile 390px; no overflow; today photos visible. English article clean. English homepage dynamic country name fix awaiting deployment."
+}
