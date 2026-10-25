@@ -58,7 +58,7 @@ const sourceLabel = (type: string) => type === 'official' ? '大學官方' : typ
               <div class="card-title-row"><span class:list={['small-avatar',v.sourceType === 'official' && 'official-avatar']} aria-hidden="true">{v.sourceType === 'official' ? 'U' : 'P'}</span><h3>{v.title}</h3></div>
             </button>
             <div class="card-details"><p class="channel-name">{v.channelTitle}</p><div class="card-meta"><span class="source-label">{v.recommended ? 'Peter 推薦' : sourceLabel(v.sourceType)}</span><span aria-hidden="true"> · </span><time datetime={v.publishedAt}>{v.publishedAt.slice(0,10)}</time></div></div>
-            <p class="card-description" hidden>{v.description}</p><span class="country" hidden>{v.country}</span><span class="topic" hidden>{v.topic}</span>
+            <p class="card-description">{v.description}</p><span class="country" hidden>{v.country}</span><span class="topic" hidden>{v.topic}</span>
           </article>)}
         </div>
         <div id="no-results" class="empty-state" hidden><h3>目前沒有符合的影片</h3><p>試試其他關鍵字，或切換影片分類。讀者投稿將在收到並審核後陸續加入。</p><button id="reset-search" type="button">顯示全部影片</button></div>
@@ -171,6 +171,9 @@ const sourceLabel = (type: string) => type === 'official' ? '大學官方' : typ
 </BaseLayout>
 
 <style>
+.card-description{font-size:13px;line-height:1.6;color:#555;margin:8px 0 0 45px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+@media(max-width:760px){.card-description{margin-left:0}}
+
 :global(body:has(.vlog-page)){background:#fff;color:#0f0f0f;font-family:Arial,"Noto Sans TC","Microsoft JhengHei",sans-serif;line-height:1.5}
 :global(body:has(.vlog-page) .language-bar){background:#fff!important;color:#606060!important;border-bottom:1px solid #eee!important}
 :global(body:has(.vlog-page) .language-inner){min-height:0!important;padding:4px 24px!important;max-width:none!important;justify-content:flex-end!important}
