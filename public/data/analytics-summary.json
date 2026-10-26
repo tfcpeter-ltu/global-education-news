@@ -1,95 +1,95 @@
 {
   "status": "ready",
-  "updatedAt": "2026-10-25T06:03:52.438Z",
+  "updatedAt": "2026-10-26T06:08:34.075Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
+    {
+      "title": "加拿大Memorial國際生減少：一年與三年降幅不能混讀｜環球教育新聞網 Global Education News",
+      "path": "/news/memorial-international-enrolment-measures-2026/",
+      "views": 6
+    },
+    {
+      "title": "最新國際教育新聞",
+      "path": "/news/",
+      "views": 6
+    },
     {
       "title": "英格蘭TEF新制公開諮詢至1月28日：教學體驗、學生結果擬分別評級｜環球教育新聞網 Global Education News",
       "path": "/news/england-tef-quality-consultation-october-2026/",
       "views": 6
     },
     {
-      "title": "紐西蘭將培訓學校接待國際生：2027年3月擬全國推出｜環球教育新聞網 Global Education News",
-      "path": "/news/new-zealand-schools-international-support-2027/",
+      "title": "安大略省私校OSAP仍暫停：新驗證程序預計2027年實施｜環球教育新聞網 Global Education News",
+      "path": "/news/ontario-private-college-osap-validation-2026/",
       "views": 5
     },
     {
-      "title": "安大略省私校OSAP仍暫停：新驗證程序預計2027年實施｜環球教育新聞網 Global Education News",
-      "path": "/news/ontario-private-college-osap-validation-2026/",
-      "views": 4
-    },
-    {
-      "title": "最新國際教育新聞",
-      "path": "/news/",
-      "views": 4
-    },
-    {
-      "title": "法國80位高教代表發表宣言：要求2027追加10億歐元｜環球教育新聞網 Global Education News",
-      "path": "/news/france-universities-billion-euro-appeal-2027/",
-      "views": 4
+      "title": "紐西蘭將培訓學校接待國際生：2027年3月擬全國推出｜環球教育新聞網 Global Education News",
+      "path": "/news/new-zealand-schools-international-support-2027/",
+      "views": 5
     }
   ],
   "countries": [
     {
-      "name": "台灣",
-      "mapName": "Taiwan",
-      "sessions": 104,
-      "share": 42.4
-    },
-    {
       "name": "美國",
       "mapName": "United States",
-      "sessions": 91,
-      "share": 37.1
+      "sessions": 108,
+      "share": 40.3
     },
     {
-      "name": "瑞典",
-      "mapName": "Sweden",
-      "sessions": 12,
-      "share": 4.9
+      "name": "台灣",
+      "mapName": "Taiwan",
+      "sessions": 106,
+      "share": 39.6
     },
     {
       "name": "中國",
       "mapName": "China",
-      "sessions": 11,
+      "sessions": 12,
       "share": 4.5
     },
     {
       "name": "愛爾蘭",
       "mapName": "Ireland",
-      "sessions": 11,
-      "share": 4.5
+      "sessions": 10,
+      "share": 3.7
+    },
+    {
+      "name": "瑞典",
+      "mapName": "Sweden",
+      "sessions": 10,
+      "share": 3.7
+    },
+    {
+      "name": "印度",
+      "mapName": "India",
+      "sessions": 7,
+      "share": 2.6
+    },
+    {
+      "name": "德國",
+      "mapName": "Germany",
+      "sessions": 4,
+      "share": 1.5
     },
     {
       "name": "香港",
       "mapName": "Hong Kong",
       "sessions": 4,
-      "share": 1.6
+      "share": 1.5
     },
     {
-      "name": "德國",
-      "mapName": "Germany",
-      "sessions": 3,
-      "share": 1.2
-    },
-    {
-      "name": "印度",
-      "mapName": "India",
+      "name": "加拿大",
+      "mapName": "Canada",
       "sessions": 2,
-      "share": 0.8
+      "share": 0.7
     },
     {
       "name": "Netherlands",
       "mapName": "Netherlands",
       "sessions": 2,
-      "share": 0.8
-    },
-    {
-      "name": "Afghanistan",
-      "mapName": "Afghanistan",
-      "sessions": 1,
-      "share": 0.4
+      "share": 0.7
     }
   ]
 }
