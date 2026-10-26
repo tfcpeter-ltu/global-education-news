@@ -5,7 +5,7 @@ const videos = JSON.parse(fs.readFileSync(new URL('../src/data/vlog-videos.json'
 assert.ok(videos.length > 0);
 assert.equal(new Set(videos.map(v => v.id)).size, videos.length, 'Duplicate YouTube video');
 assert.ok(videos.some(v => v.featured), 'A featured video is required');
-const recommendedIds = ['8-zSAurL2hY','nBD6XJWkaPk','8PCtk9OV-sk','fhxXy0P7gkc','QdWNTNuOxso','zM3H-bUNvUg','5AeDNw4kxu4','70D3Legd1kc','lEJ-qc82YG4','9bxccQwHyro'];
+const recommendedIds = ['8-zSAurL2hY','nBD6XJWkaPk','8PCtk9OV-sk','fhxXy0P7gkc','QdWNTNuOxso','zM3H-bUNvUg','5AeDNw4kxu4','70D3Legd1kc','lEJ-qc82YG4','9bxccQwHyro','KQG282CRC5k'];
 assert.deepEqual(videos.filter(v => v.recommended).sort((a,b) => a.priority-b.priority).map(v => v.id), recommendedIds, 'Preserve Peter’s recommendations, once each, in supplied order');
 for (const video of videos) {
   assert.match(video.id, /^[\w-]{11}$/);

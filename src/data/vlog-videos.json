@@ -478,5 +478,25 @@
     "verifiedAt": "2026-10-25",
     "collectedAt": "2026-10-25",
     "status": "published"
+  },
+  {
+    "id": "KQG282CRC5k",
+    "title": "美國大學數學準備與AI人才：艾森的教育評論",
+    "originalTitle": "美国顶尖名校新生摸底考试，数学零分一大把。UC 伯克利新生解不出初一的方程，美国 AI 还能领先多久？｜艾森 Essen",
+    "description": "艾森 Essen 以美國大學新生的數學準備為切入點，評論教育與AI人才培育的關係。推薦作為留學前討論學科準備的觀點材料；片中數據與推論屬作者論述，並非本站已查證新聞。",
+    "country": "美國",
+    "topic": "教育觀點",
+    "sourceType": "submission",
+    "channelTitle": "艾森 Essen",
+    "channelId": "UCqhtsdVHZvIGMr9Echeafgg",
+    "publishedAt": "2026-10-23T02:40:02-07:00",
+    "duration": "PT34M15S",
+    "thumbnail": "https://i.ytimg.com/vi/KQG282CRC5k/maxresdefault.jpg",
+    "url": "https://www.youtube.com/watch?v=KQG282CRC5k",
+    "featured": false,
+    "priority": 19,
+    "verifiedAt": "2026-10-26",
+    "status": "published",
+    "recommended": true
   }
 ]
