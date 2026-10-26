@@ -1,5 +1,6 @@
 ---
 import { educationTopics } from '../data/educationTopics';
+import { peterProfile } from '../data/peter-profile';
 import BaseLayout from './BaseLayout.astro';
 import NewsletterCTA from '../components/NewsletterCTA.astro';
 import AdPlacement from '../components/AdPlacement.astro';
@@ -29,7 +30,7 @@ const published = date ? new Date(date) : undefined;
 const modified = updated ? new Date(updated) : published;
 const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin).toString();
 const isPeter = String(author).toLowerCase().includes('peter');
-const authorUrl = isPeter ? absolute('peter/') : absolute('about/');
+const authorUrl = isPeter ? absolute('peter/about/') : absolute('about/#editorial-team');
 const publisherUrl = absolute();
 const publisherId = `${publisherUrl}#publisher`;
 const websiteId = `${publisherUrl}#website`;
@@ -51,11 +52,10 @@ const articleLd = {
   dateModified: modified?.toISOString(),
   mainEntityOfPage: { '@type': 'WebPage', '@id': `${canonical}#webpage` },
   isPartOf: { '@id': websiteId },
-  author: {
-    '@type': isPeter ? 'Person' : 'Organization',
+  author: isPeter ? peterProfile : {
+    '@type': 'Organization',
     name: author,
-    url: authorUrl,
-    ...(isPeter ? { sameAs: ['https://www.facebook.com/profile.php?id=61585164670358'] } : {})
+    url: authorUrl
   },
   publisher: { '@id': publisherId },
   articleSection: category,

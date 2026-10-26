@@ -46,6 +46,20 @@ for section, expected in [('news', 'NewsArticle'), ('insight', 'Article')]:
         counts[expected] += 1
 
 assert 'https://globalednews.com/international-education/' in (DIST / 'sitemap-0.xml').read_text(encoding='utf-8')
+profile = html.fromstring((DIST / 'peter/about/index.html').read_bytes())
+profile_schema = [json.loads(s) for s in profile.xpath('//script[@type="application/ld+json"]/text()')]
+person = next(s['mainEntity'] for s in profile_schema if s.get('@type') == 'ProfilePage')
+assert person['name'] == '陳祖豐' and person['@id'].endswith('/peter/about/#person')
+assert len(profile.xpath('//main//h1')) == 1
+assert profile.xpath('//link[@rel="canonical"]/@href') == [person['url']]
+for page in (DIST / 'peter').glob('*/index.html'):
+    doc = html.fromstring(page.read_bytes())
+    for value in doc.xpath('//script[@type="application/ld+json"]/text()'):
+        schema = json.loads(value)
+        if schema.get('@type') == 'BlogPosting':
+            assert schema['author']['@id'] == person['@id'], page
+            assert doc.xpath('//a[@href="/peter/about/"]'), page
+assert (DIST / 'about/index.html').read_text(encoding='utf-8').find('id="editorial-team"') != -1
 robots = (DIST / 'robots.txt').read_text(encoding='utf-8')
 for bot in ['Googlebot', 'Bingbot', 'OAI-SearchBot']:
     assert f'User-agent: {bot}\nAllow: /' in robots.replace('\r\n', '\n'), bot

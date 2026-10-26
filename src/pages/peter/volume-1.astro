@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { peterProfile } from '../../data/peter-profile';
 import bookSource from '../../../public/study-abroad/peter-book-data.js?raw';
 // Read the existing archive as data; do not execute its browser script or duplicate article bodies.
 const rawRows = bookSource.split('const rows=')[1]?.split(';window.PETER_BOOK_ARTICLES')[0];
@@ -19,6 +20,7 @@ const schema = {
   name:'看懂制度，選對世界｜Peter の國際教育講座 第一集',
   url:new URL('/peter/volume-1/',Astro.site).toString(),
   inLanguage:'zh-Hant-TW',
+  author:peterProfile,
   mainEntity:{'@type':'ItemList',numberOfItems:chapters.length,itemListElement:chapters.map(c=>({
     '@type':'ListItem',position:c.bookNumber,name:c.title,url:new URL('/study-abroad/'+c.url,Astro.site).toString()
   }))}
@@ -33,6 +35,7 @@ const schema = {
       <h1>看懂制度，選對世界</h1>
       <p class="subtitle">英語系留學的升學路徑與關鍵選擇</p>
       <p>Peter の國際教育講座 第一集 · Peter 著 · 50 篇</p>
+      <p><a href="/peter/about/">認識作者：陳祖豐 Peter Chen →</a></p>
     </header>
     <section class="intro" aria-labelledby="intro-title">
       <h2 id="intro-title">編者序｜留學不是選一個國家，而是理解一套制度</h2>

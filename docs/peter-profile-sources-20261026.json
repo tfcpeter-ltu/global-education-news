@@ -1,0 +1,10 @@
+{
+  "verifiedDate": "2026-10-26",
+  "claims": [
+    {"claim":"陳祖豐與 Peter Chen 中英文姓名對照", "sourceUrl":"https://www1.fhvs.ntpc.edu.tw/mainnewsboard/jkcboard/Detail.asp?TitleID=2690", "sourceOrganization":"復興商工保存台灣新生報報導", "evidenceLevel":"C", "limitation":"學校轉載媒體稿，不另計獨立報導；不引用其中文職稱擴大解讀"},
+    {"claim":"UWE 官方台灣頁列 Dr. Peter Chen，Head of Academic and Partnership，Based in Taiwan", "sourceUrl":"https://www.uwe.ac.uk/courses/international-study/country-or-region/taiwan", "sourceOrganization":"UWE Bristol", "evidenceLevel":"A", "limitation":"僅按官方頁英文原稱與地點；無任職起訖或全校教務主管結論"},
+    {"claim":"兼任教師名單列陳祖豐助理教授；化學、有機化學、分析檢驗", "sourceUrl":"https://envir.utaipei.edu.tw/products_detail/68", "sourceOrganization":"臺北市立大學地球環境暨生物資源學系", "evidenceLevel":"B", "limitation":"兼任名單，不稱專任或正教授，不推定任期"},
+    {"claim":"圖解食品化學共同作者及2025年11月二版一刷、ISBN 9786264238571", "sourceUrl":"https://www.wunan.com.tw/bookdetail?NO=15309", "sourceOrganization":"五南出版社", "evidenceLevel":"A", "limitation":"出版事實第一方資料，不代表獨立人物評價；未採用作者簡介其他未獨立核對經歷"},
+    {"claim":"本站 Peter 專欄及網站文章集", "sourceUrl":"https://globalednews.com/peter/", "sourceOrganization":"環球教育新聞網", "evidenceLevel":"D", "limitation":"自有網站作品，只描述刊登與主題，不宣稱獨立認證或實體出版"}
+  ]
+}

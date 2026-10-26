@@ -1,0 +1,34 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { peterProfile } from '../../data/peter-profile';
+const profileLd = {
+  '@context': 'https://schema.org', '@type': 'ProfilePage',
+  '@id': 'https://globalednews.com/peter/about/#profile',
+  url: peterProfile.url, name: '陳祖豐 Peter Chen｜作者介紹',
+  mainEntity: peterProfile, inLanguage: 'zh-Hant-TW'
+};
+---
+<BaseLayout title="陳祖豐 Peter Chen｜作者介紹、專欄與著作｜環球教育新聞網" description="認識 Peter 的國際教育講座作者陳祖豐（Peter Chen），查閱校方公開資料、著作書目與本站專欄，並了解資料來源與適用範圍。">
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify(profileLd)} />
+  <section class="page"><div class="page-shell">
+    <nav aria-label="麵包屑"><a href="/">首頁</a> › <a href="/peter/">Peter 的國際教育講座</a> › 作者介紹</nav>
+    <div class="kicker">AUTHOR PROFILE</div>
+    <h1>陳祖豐 Peter Chen</h1>
+    <p class="hero-deck">Peter 的國際教育講座作者。本頁整理可回查的校方資料、著作與本站作品，協助讀者辨識作者及其公開背景。</p>
+    <p><a href="/peter/">閱讀 Peter 專欄 →</a> · <a href="/peter/volume-1/">閱讀《看懂制度，選對世界》網站文章集 →</a></p>
+    <h2>公開資料中的教育與學術背景</h2>
+    <ul>
+      <li>UWE Bristol 台灣官方頁將 Dr. Peter Chen 列為位於台灣的聯絡人，英文職稱為 <span lang="en">Head of Academic and Partnership</span>。本頁保留校方英文稱謂，不將其擴大解讀為全校教務主管。<a href="https://www.uwe.ac.uk/courses/international-study/country-or-region/taiwan">查閱 UWE Bristol 官方頁</a></li>
+      <li>臺北市立大學地球環境暨生物資源學系兼任教師名單列有「陳祖豐 助理教授」，授課領域包括化學、有機化學與分析檢驗。<a href="https://envir.utaipei.edu.tw/products_detail/68">查閱校方教師資料</a></li>
+      <li>五南出版社《圖解食品化學》書目將陳祖豐列為共同作者之一；該頁列出的版本為 2025 年 11 月二版一刷，ISBN 978-626-423-857-1。<a href="https://www.wunan.com.tw/bookdetail?NO=15309">查閱出版社書目</a></li>
+    </ul>
+    <p>中英文姓名對照亦可回查<a href="https://www1.fhvs.ntpc.edu.tw/mainnewsboard/jkcboard/Detail.asp?TitleID=2690">復興商工保存的 2022 年合作活動報導</a>；該頁為學校轉載媒體文章。</p>
+    <h2>在本站閱讀哪些主題？</h2>
+    <p>Peter 專欄涵蓋全球大學、國際高中、留學政策、科系選擇與升學制度。閱讀時請區分作者觀點、新聞事實與招生條件；實際申請仍應核對當期官方規定。</p>
+    <p><a href="/peter/">專欄完整列表</a> · <a href="/international-education/">國際教育總覽</a> · <a href="/topics/policy/">留學政策新聞</a></p>
+    <h2>資料來源與出版關係</h2>
+    <p>本頁由環球教育新聞網整理，屬本站作者介紹。校方頁面與出版社書目用於核對具體職稱、姓名或出版紀錄，不代表相關機構為本站內容、升學服務或錄取結果背書。</p>
+    <p>資料查核日期：<time datetime="2026-10-26">2026 年 10 月 26 日</time>。外部資料未提供的任職起訖及其他細節不另推定。<a href="/disclosure/">合作與利益揭露</a> · <a href="/corrections/">更正與來源補充</a></p>
+  </div></section>
+</BaseLayout>
+<style>.page-shell p,.page-shell li{line-height:1.9;overflow-wrap:anywhere}.page-shell li{margin-bottom:18px}.page-shell h2{margin-top:36px}</style>

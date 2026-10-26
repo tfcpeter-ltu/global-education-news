@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { peterProfile } from '../../data/peter-profile';
 import articles from '../../data/peter-articles.json';
 export function getStaticPaths() {
   return articles.map(article => ({ params: { slug: article.slug }, props: { article } }));
@@ -9,7 +10,7 @@ const url = new URL('/peter/' + article.slug + '/', Astro.site).toString();
 const schema = {
   '@context': 'https://schema.org', '@type': 'BlogPosting',
   headline: article.title, description: article.description, url,
-  author: { '@type': 'Person', name: article.author },
+  author: peterProfile,
   image: new URL(article.image, Astro.site).toString(),
   isBasedOn: article.sourceUrl, inLanguage: 'zh-Hant-TW'
 };
@@ -22,7 +23,7 @@ const schema = {
       <p class="kicker">PETER'S COLUMN · 觀點與分析</p>
       <h1>{article.title}</h1>
       <p class="summary">{article.description}</p>
-      <p class="metadata">作者：{article.author} · 網站收錄：<time datetime={article.importedAt}>{article.importedAt}</time></p>
+      <p class="metadata">作者：<a href="/peter/about/">{article.author}</a> · 網站收錄：<time datetime={article.importedAt}>{article.importedAt}</time></p>
       <p class="source-date">原文日期：Facebook 於 {article.dateObservedAt} 顯示「{article.originalDateLabel}」。{article.originalDatePrecision === 'relative' ? '平台僅提供相對日期，未推算精確發布日；' : '依平台顯示記錄，未補推未顯示的年份與時區；'}<a href={article.sourceUrl} target="_blank" rel="noopener noreferrer">查看原貼文 ↗</a></p>
     </header>
     <figure><img src={article.image} alt={article.imageAlt} width="1200" height="675" loading="eager" /><figcaption>{article.imageCredit}；{article.imageCaption || '專欄圖卡，非政策現場照片。'}</figcaption></figure>
