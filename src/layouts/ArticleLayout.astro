@@ -1,4 +1,5 @@
 ---
+import { educationTopics } from '../data/educationTopics';
 import BaseLayout from './BaseLayout.astro';
 import NewsletterCTA from '../components/NewsletterCTA.astro';
 import AdPlacement from '../components/AdPlacement.astro';
@@ -36,9 +37,11 @@ const citationUrls = Array.isArray(sources)
   ? sources.map((source: { url?: string }) => source?.url).filter(Boolean)
   : [];
 
+const isNews = Astro.url.pathname.startsWith(`${base}news/`);
+const topicInfo = educationTopics[topic];
 const articleLd = {
   '@context': 'https://schema.org',
-  '@type': 'NewsArticle',
+  '@type': isNews ? 'NewsArticle' : 'Article',
   headline: title,
   description,
   url: canonical,
@@ -46,7 +49,7 @@ const articleLd = {
   thumbnailUrl: articleImage,
   datePublished: published?.toISOString(),
   dateModified: modified?.toISOString(),
-  mainEntityOfPage: { '@type': 'WebPage', '@id': canonical },
+  mainEntityOfPage: { '@type': 'WebPage', '@id': `${canonical}#webpage` },
   isPartOf: { '@id': websiteId },
   author: {
     '@type': isPeter ? 'Person' : 'Organization',
@@ -56,7 +59,7 @@ const articleLd = {
   },
   publisher: { '@id': publisherId },
   articleSection: category,
-  keywords: [category, topic, '國際教育', '環球教育', '留學政策'],
+  keywords: [...new Set([category, ...(Array.isArray(frontmatter.tags) ? frontmatter.tags : [])])],
   inLanguage: 'zh-Hant-TW',
   isAccessibleForFree: true,
   ...(citationUrls.length > 0 ? { citation: citationUrls } : {})
@@ -121,6 +124,8 @@ const fmtTime = (value?: Date) => value ? new Intl.DateTimeFormat('zh-TW', { hou
       <NewsletterCTA compact={true} />
       <aside class="article-related">
         <strong>延伸閱讀</strong>
+        {topicInfo && <p><a href={absolute(`topics/${topic}/`)}>{topicInfo.heading} →</a></p>}
+        <p><a href={absolute('international-education/')}>國際教育主題與升學指南 →</a></p>
         {relatedStories.length > 0 ? (
           <ul>
             {relatedStories.map((story: any) => (

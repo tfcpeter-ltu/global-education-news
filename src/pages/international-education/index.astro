@@ -1,0 +1,38 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import EducationLinks from '../../components/EducationLinks.astro';
+import { educationTopics } from '../../data/educationTopics';
+const title = '國際教育｜全球教育新聞、留學政策與升學指南｜環球教育新聞網';
+const description = '從國際教育新聞出發，依國家、留學政策、大學申請與獎學金找到閱讀方向。供台灣及海外繁體中文讀者查找制度解析、官方來源與升學工具。';
+---
+<BaseLayout title={title} description={description} pageType="CollectionPage">
+  <section class="page"><div class="container education-hub">
+    <nav aria-label="麵包屑"><a href="/">首頁</a> › 國際教育</nav>
+    <div class="kicker">INTERNATIONAL EDUCATION</div>
+    <h1>國際教育：新聞、政策與升學指南</h1>
+    <p class="hero-deck">從全球教育新聞了解變化，再透過制度解析、選校工具與獎學金資訊整理下一步。本專區為台灣及海外繁體中文讀者提供依主題與國家閱讀的入口。</p>
+    <EducationLinks />
+    <h2>你想找哪一類國際教育資訊？</h2>
+    <div class="grid-3">
+      <article class="card"><div class="card-content"><h3><a href="/news/">掌握最新國際教育新聞</a></h3><p>閱讀全球大學、國際學生及教育政策事件；進入內文核對消息來源、事件日期與更新說明。</p></div></article>
+      <article class="card"><div class="card-content"><h3><a href="/topics/policy/">追蹤留學政策與學生簽證</a></h3><p>先確認報導談的是提案、正式公告或已生效規定，再檢查適用國籍、學位、入學年度與例外條款。</p></div></article>
+      <article class="card"><div class="card-content"><h3><a href="/study-abroad/">準備海外大學申請</a></h3><p>從國家、科系與大學開始整理選校方向；申請資格、文件與期限回到目標學校官方招生頁核對。</p></div></article>
+      <article class="card"><div class="card-content"><h3><a href="/scholarships/">查找留學獎學金</a></h3><p>獎學金雷達以台灣學生資格為整理重點。海外讀者請另外核對國籍、居留與學位條件，不直接套用台灣資格說明。</p></div></article>
+      <article class="card"><div class="card-content"><h3><a href="/insight/">理解制度與政策背景</a></h3><p>透過深度專題閱讀跨國比較與政策背景，搭配最新新聞與官方公告確認時效。</p></div></article>
+      <article class="card"><div class="card-content"><h3><a href="/peter/">閱讀 Peter 的國際教育講座</a></h3><p>從專欄觀點延伸閱讀全球大學、國際高中與升學制度，並區分新聞事實與作者分析。</p></div></article>
+    </div>
+    <h2>依國家與地區閱讀</h2>
+    <nav class="country-links" aria-label="國家與地區">
+      {['us', 'canada', 'uk', 'australia', 'asia', 'taiwan'].map(key => <a href={`/topics/${key}/`}>{educationTopics[key].heading} →</a>)}
+    </nav>
+    <h2>海外繁體中文讀者如何使用本站？</h2>
+    <p>閱讀政策、招生與獎學金時，請分別確認你的國籍、目前居住地、申請地區及課程層級。本站文章中的「對台灣學生的影響」是特定讀者角度，不代表其他地區讀者也適用相同條件。</p>
+    <p>費用比較請核對幣別、學年度、課程期間，以及是否包含住宿與其他必要費用；新聞發布日期與政策生效日期也應分開確認。</p>
+    <p>了解我們的<a href="/editorial-policy/">編輯政策</a>、<a href="/corrections/">更正方式</a>與<a href="/disclosure/">經營及利益揭露</a>，或<a href="/newsletter/">訂閱免費國際教育週報</a>。</p>
+  </div></section>
+</BaseLayout>
+<style>
+  .education-hub h2{margin-top:36px}.country-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+  .country-links a{border-bottom:1px solid var(--line-dark);padding:12px 0;overflow-wrap:anywhere}
+  @media(max-width:620px){.country-links{grid-template-columns:1fr}}
+</style>

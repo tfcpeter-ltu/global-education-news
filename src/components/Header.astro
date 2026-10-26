@@ -30,7 +30,7 @@ const isScholarshipRadar = Astro.url.pathname === '/scholarships/' || Astro.url.
 
   <nav class="nav" aria-label="主要導覽">
     <div class="container">
-      <details class="overseas-menu home-menu"><summary class="bilingual-nav" aria-label="首頁 Home"><span>首頁 <span aria-hidden="true">▾</span></span><small>Home</small></summary><div class="overseas-options"><a href={link()}>首頁總覽</a><a href={link('news/')}>最新新聞</a></div></details>
+      <details class="overseas-menu home-menu"><summary class="bilingual-nav" aria-label="首頁 Home"><span>首頁 <span aria-hidden="true">▾</span></span><small>Home</small></summary><div class="overseas-options"><a href={link()}>首頁總覽</a><a href={link('international-education/')}>國際教育總覽</a><a href={link('news/')}>國際教育新聞</a></div></details>
       <a class="bilingual-nav journal-nav" href="https://studyabmag.globalednews.com/" aria-label="留遊學交換誌 Study Abroad Magazine"><span>留遊學交換誌</span><small>Study Abroad Magazine</small></a>
       <details class="overseas-menu">
         <summary class="bilingual-nav" aria-label="海外教育 Global Education">
@@ -38,6 +38,8 @@ const isScholarshipRadar = Astro.url.pathname === '/scholarships/' || Astro.url.
           <small>Global Education</small>
         </summary>
         <div class="overseas-options">
+          <a href={link('topics/policy/')}>留學政策與簽證</a>
+          <a href={link('topics/admissions/')}>海外大學申請</a>
           <a href={link('topics/us/')}>美國</a>
           <a href={link('topics/canada/')}>加拿大</a>
           <a href={link('topics/uk/')}>英國</a>

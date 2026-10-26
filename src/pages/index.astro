@@ -1,4 +1,5 @@
 ---
+import EducationLinks from '../components/EducationLinks.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import NewsletterCTA from '../components/NewsletterCTA.astro';
 import ReadershipInsights from '../components/ReadershipInsights.astro';
@@ -119,9 +120,14 @@ const side = internationalStories.filter((story: any) => story.url !== lead?.url
 const heroFollowups = internationalStories.filter((story: any) => story.url !== lead?.url && !side.some((item: any) => item.url === story.url)).slice(0, 2);
 const latest = internationalStories.slice(0, 6);
 ---
-<BaseLayout>
+<BaseLayout pageType="CollectionPage">
   <HomeFloatingAd />
   <div class="container">
+    <section class="home-education-intro" aria-labelledby="home-education-heading">
+      <h1 id="home-education-heading">國際教育新聞與全球升學情報</h1>
+      <p>追蹤全球教育政策、大學招生與留學資訊，從最新消息找到制度解析、申請準備與獎學金。</p>
+      <EducationLinks compact />
+    </section>
     {lead ? (
       <section class="hero visual-hero">
         <div class="hero-main">
@@ -130,7 +136,7 @@ const latest = internationalStories.slice(0, 6);
             <span class="photo-label">TOP STORY</span>
           </a>
           <div class="kicker">TOP STORY · {lead.category}</div>
-          <h1><a href={lead.url}>{lead.title}</a></h1>
+          <h2 class="lead-headline"><a href={lead.url}>{lead.title}</a></h2>
           <p class="hero-deck">{lead.description}</p>
           <div class="hero-meta">
             <span>{lead.author ?? 'LTU Global Education News 編輯部'}</span>

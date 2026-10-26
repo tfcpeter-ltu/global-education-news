@@ -1,0 +1,17 @@
+---
+interface Props { compact?: boolean }
+const { compact = false } = Astro.props;
+---
+<nav class:list={['education-links', compact && 'compact']} aria-label="國際教育主題導覽">
+  <a href="/international-education/">國際教育總覽</a>
+  <a href="/news/">國際教育新聞</a>
+  <a href="/topics/policy/">留學政策與簽證</a>
+  <a href="/topics/admissions/">海外大學申請</a>
+  <a href="/scholarships/">留學獎學金</a>
+</nav>
+<style>
+  .education-links{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0}
+  .education-links a{display:block;border:1px solid var(--line-dark);padding:10px 14px;color:var(--burgundy);font-weight:700;line-height:1.5}
+  .education-links a:focus-visible{outline:2px solid currentColor;outline-offset:3px}
+  .compact a{font-size:.9rem;padding:8px 12px}
+</style>

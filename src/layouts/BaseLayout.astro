@@ -12,6 +12,7 @@ interface Props {
   type?: 'website' | 'article';
   noindex?: boolean;
   videoChannel?: boolean;
+  pageType?: 'WebPage' | 'CollectionPage';
 }
 
 const rawBase = import.meta.env.BASE_URL;
@@ -22,18 +23,30 @@ const absolute = (path = '') => new URL(`${base}${path}`, origin).toString();
 const isHomepage = Astro.url.pathname === base || Astro.url.pathname === base.replace(/\/$/, '');
 const isScholarshipRadar = Astro.url.pathname === '/scholarships/' || Astro.url.pathname === '/scholarships';
 
-const brandDescription = '環球教育新聞網（Global Education News）涵蓋國內外國際教育新聞、大學科系選擇與申請、獎學金雷達，以及深度探討文章-Peter 的國際教育講座。';
+const brandDescription = '環球教育新聞網追蹤全球教育政策、大學招生、留學費用與獎學金，提供台灣及海外繁體中文讀者具來源的新聞、制度解析與升學指南。';
 
 const {
-  title = '環球教育新聞網｜國際教育新聞、大學科系選擇與申請、獎學金雷達',
+  title = '環球教育新聞網｜國際教育新聞、留學政策與全球升學資訊',
   description = brandDescription,
   image = `${base}images/news-og.jpg`,
   type = 'website',
   noindex = false,
-  videoChannel = false
+  videoChannel = false,
+  pageType = 'WebPage'
 } = Astro.props;
 
 const canonical = new URL(Astro.url.pathname, origin).toString();
+const pageLd = {
+  '@context': 'https://schema.org',
+  '@type': pageType,
+  '@id': `${canonical}#webpage`,
+  url: canonical,
+  name: title,
+  description,
+  inLanguage: 'zh-Hant-TW',
+  isPartOf: { '@id': `${absolute()}#website` },
+  publisher: { '@id': `${absolute()}#publisher` }
+};
 const imageUrl = new URL(image, origin).toString();
 const weeklyFeedUrl = absolute('weekly-feed.xml');
 const faviconUrl = absolute('favicon.svg');
@@ -106,6 +119,7 @@ const websiteLd = {
     <meta name="twitter:image" content={imageUrl} />
     <script type="application/ld+json" set:html={JSON.stringify(publisherLd)}></script>
     <script type="application/ld+json" set:html={JSON.stringify(websiteLd)}></script>
+    <script type="application/ld+json" set:html={JSON.stringify(pageLd)}></script>
     <script async src={`https://www.googletagmanager.com/gtag/js?id=${gaMeasurementId}`}></script>
     <script is:inline define:vars={{ gaMeasurementId }}>
       window.dataLayer = window.dataLayer || [];

@@ -61,6 +61,8 @@ jobs:
         run: npm run build
       - name: Verify bilingual routes and form values
         run: python scripts/test-bilingual.py
+      - name: Verify education search entry points and article metadata
+        run: python scripts/test-education-seo.py
       - name: Verify video controllers in both built editions
         run: node scripts/test-vlog.mjs --built
       - name: Verify public demo and operator safety disclosures

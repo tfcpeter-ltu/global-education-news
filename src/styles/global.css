@@ -186,3 +186,10 @@ img { max-width: 100%; display: block; }
   .topic-card { grid-template-columns: 50px 1fr; }
   .topic-icon { width: 50px; height: 31px; font-size: .66rem; }
 }
+
+/* Stable publication topic above the changing daily lead. */
+.home-education-intro{padding:22px 0 8px;border-bottom:1px solid var(--line-dark)}
+.home-education-intro h1{font-size:clamp(1.35rem,3.6vw,2rem);line-height:1.4;margin:0 0 8px}
+.home-education-intro p{margin:0;color:var(--muted)}
+.hero .lead-headline{font-family:Georgia,"Noto Serif TC",serif;font-size:clamp(2.3rem,5vw,4.65rem);line-height:1.04;letter-spacing:-.045em;margin:11px 0 16px;font-weight:700}
+@media(max-width:760px){.hero .lead-headline{font-size:clamp(2.1rem,10vw,3.45rem)}}
