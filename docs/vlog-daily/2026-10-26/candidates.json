@@ -1,0 +1,77 @@
+{
+  "verifiedAt": "2026-10-26T04:10:09.436Z",
+  "selectionLabel": "編輯精選",
+  "popularityBasis": "Visible cumulative YouTube view counts, age and reader relevance; not a global ranking.",
+  "candidates": [
+    {
+      "id": "LlCwHnp3kL4",
+      "title": "Welcome to Cambridge!",
+      "channel": "Cambridge University",
+      "views": "3230767",
+      "publishedAt": "2022-03-11T04:00:13-08:00",
+      "selected": true
+    },
+    {
+      "id": "1RyQjF7cH2Y",
+      "title": "京都大学紹介動画　Introducing Kyoto University",
+      "channel": "Kyoto University / 京都大学",
+      "views": "82796",
+      "publishedAt": "2024-03-31T18:00:00-07:00",
+      "selected": true
+    },
+    {
+      "id": "Di0mvQAX8dE",
+      "title": "University of Auckland City Campus tour",
+      "channel": "University of Auckland | Waipapa Taumata Rau",
+      "views": "120391",
+      "publishedAt": "2019-02-07T18:29:18-08:00",
+      "selected": true
+    },
+    {
+      "id": "Jr4GyBOhWrI",
+      "title": "Why Montreal is the best student city | Hear it from McGill students",
+      "channel": "McGill University",
+      "views": "75890",
+      "publishedAt": "2022-06-16T07:21:58-07:00",
+      "selected": true
+    },
+    {
+      "id": "4mjPt7cZW1k",
+      "title": "Abraham Verghese Delivers the Commencement Address | Harvard Commencement 2025",
+      "channel": "Harvard University",
+      "views": "348770",
+      "publishedAt": "2025-05-29T13:30:05-07:00",
+      "selected": true
+    },
+    {
+      "id": "Ump6rmktf3k",
+      "title": "2026 曉明女中｜LTU OSSD 台加高中雙聯學制說明會｜加拿大高中課程・海外大學升學規劃",
+      "channel": "Peterの國際教育講座",
+      "views": "38",
+      "publishedAt": "2026-08-29T04:56:19-07:00",
+      "selected": true
+    }
+  ],
+  "excluded": [
+    {
+      "id": "TrU1-rR7vTI",
+      "reason": "Third-party Cambridge tour; original university video preferred."
+    },
+    {
+      "id": "6byzcz428P8",
+      "reason": "Explicitly unofficial Kyoto repost."
+    },
+    {
+      "id": "wZ1SSZP3w0w",
+      "reason": "Alternative official Auckland tour; selected City Campus video for higher cumulative view evidence and specific scope."
+    },
+    {
+      "id": "vQHHLwNOGVU",
+      "reason": "Third-party McGill tour; university student-life original preferred."
+    },
+    {
+      "id": "S2aqST-Fbqk",
+      "reason": "LTU session already collected yesterday; selected uncollected Stella Matutina session."
+    }
+  ]
+}

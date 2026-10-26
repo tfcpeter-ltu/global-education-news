@@ -1,0 +1,19 @@
+{
+  "baseline": "01d9b918c9a4fac5d2a33b9719e25166047870ed",
+  "catalog": {
+    "before": 25,
+    "added": 6,
+    "after": 31
+  },
+  "checks": [
+    "Astro build:543 routes",
+    "Bilingual build:812 route pairs",
+    "test-bilingual.py PASS",
+    "test-vlog.mjs --built PASS:31 videos",
+    "six daily cards in both built pages",
+    "English Vlog visible-text CJK count:0",
+    "original nine featured recommendation order unchanged; two additional existing recommended videos preserved"
+  ],
+  "status": "ready_to_deploy",
+  "socialPosts": 0
+}
