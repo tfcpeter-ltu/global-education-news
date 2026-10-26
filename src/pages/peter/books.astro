@@ -1,0 +1,29 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { peterBooks } from '../../data/peter-books';
+const schema = {
+  '@context':'https://schema.org', '@type':'CollectionPage',
+  '@id':'https://globalednews.com/peter/books/#collection',
+  name:'陳祖豐 Peter Chen｜國際教育著作與文章集',
+  url:'https://globalednews.com/peter/books/',
+  mainEntity:{'@type':'ItemList',numberOfItems:peterBooks.length,itemListElement:peterBooks.map((book,index)=>({'@type':'ListItem',position:index+1,item:book.schema}))}
+};
+---
+<BaseLayout title="陳祖豐 Peter Chen 的國際教育著作與文章集｜環球教育新聞網" description="查閱陳祖豐 Peter Chen 的國際教育著作與網站文章集，包括 LTU OSSD 雙聯國際升學白皮書及看懂制度，選對世界第一集，附書目與閱讀來源。" pageType="CollectionPage">
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify(schema)} />
+  <section class="page"><div class="page-shell">
+    <nav aria-label="麵包屑"><a href="/peter/">Peter 的國際教育講座</a> › <a href="/peter/about/">作者介紹</a> › 著作與文章集</nav>
+    <div class="kicker">BOOKS &amp; COLLECTED ESSAYS</div>
+    <h1>陳祖豐 Peter Chen 的國際教育著作</h1>
+    <p class="hero-deck">依書目與現有作品整理，分別標示有 ISBN 的書籍與本站文章集，提供作者、版本及可回查來源。</p>
+    {peterBooks.map(book=><article id={book.id} class="book-entry">
+      <p class="kicker">{book.status}</p><h2>{book.title}</h2>
+      <p>{book.authorLabel}</p><p>{book.details}</p>
+      {book.isbn && <p>ISBN：<span class="isbn">{book.isbn}</span></p>}
+      <p><a href={book.sourceUrl}>{book.sourceLabel} →</a></p>
+    </article>)}
+    <p>書目核對日期：2026 年 10 月 26 日。國家圖書館新書書目中的出版年月依申辦資料著錄；版本與發行資訊以正式出版資料為準。</p>
+    <p><a href="/peter/about/">返回作者介紹 →</a> · <a href="/peter/">閱讀最新專欄 →</a> · <a href="/corrections/">補充書目或更正資料</a></p>
+  </div></section>
+</BaseLayout>
+<style>.book-entry{padding:28px 0;border-bottom:1px solid var(--line-dark);scroll-margin-top:90px}.book-entry h2{font-size:clamp(1.4rem,3vw,2rem);line-height:1.6}.page-shell p{line-height:1.9;overflow-wrap:anywhere}.isbn{font-family:monospace}</style>

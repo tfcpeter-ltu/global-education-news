@@ -60,6 +60,19 @@ for page in (DIST / 'peter').glob('*/index.html'):
             assert schema['author']['@id'] == person['@id'], page
             assert doc.xpath('//a[@href="/peter/about/"]'), page
 assert (DIST / 'about/index.html').read_text(encoding='utf-8').find('id="editorial-team"') != -1
+books = html.fromstring((DIST / 'peter/books/index.html').read_bytes())
+book_data = [json.loads(s) for s in books.xpath('//script[@type="application/ld+json"]/text()')]
+collection = next(s for s in book_data if 'mainEntity' in s and s['mainEntity'].get('@type') == 'ItemList')
+entries = collection['mainEntity']['itemListElement']
+assert len(entries) == collection['mainEntity']['numberOfItems'] == len(books.xpath('//article[contains(@class,"book-entry")]'))
+for item in entries:
+    work = item['item']
+    assert work['author']['@id'] == person['@id']
+    if work['@type'] == 'Book':
+        isbn = work['isbn']
+        assert len(isbn) == 13 and sum(int(n) * (1 if i % 2 == 0 else 3) for i, n in enumerate(isbn)) % 10 == 0
+        assert books.xpath('//a[@href=$url]', url=work['citation'])
+assert 'https://globalednews.com/peter/books/' in (DIST / 'sitemap-0.xml').read_text(encoding='utf-8')
 robots = (DIST / 'robots.txt').read_text(encoding='utf-8')
 for bot in ['Googlebot', 'Bingbot', 'OAI-SearchBot']:
     assert f'User-agent: {bot}\nAllow: /' in robots.replace('\r\n', '\n'), bot
