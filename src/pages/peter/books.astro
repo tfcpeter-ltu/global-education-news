@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { peterBooks } from '../../data/peter-books';
+const groups = [...new Set(peterBooks.map(book => book.group))];
 const schema = {
   '@context':'https://schema.org', '@type':'CollectionPage',
   '@id':'https://globalednews.com/peter/books/#collection',
@@ -9,21 +10,23 @@ const schema = {
   mainEntity:{'@type':'ItemList',numberOfItems:peterBooks.length,itemListElement:peterBooks.map((book,index)=>({'@type':'ListItem',position:index+1,item:book.schema}))}
 };
 ---
-<BaseLayout title="陳祖豐 Peter Chen 的國際教育著作與文章集｜環球教育新聞網" description="查閱陳祖豐 Peter Chen 的國際教育著作與網站文章集，包括 LTU OSSD 雙聯國際升學白皮書及看懂制度，選對世界第一集，附書目與閱讀來源。" pageType="CollectionPage">
+<BaseLayout title="陳祖豐 Peter Chen 著作｜2027 留學申請手冊、名校系列與國際教育｜環球教育新聞網" description="整理陳祖豐 Peter Chen 的國別大學申請手冊、世界名校選擇與錄取實戰系列、國際教育白皮書、Peter 第一集及英文準備作品，逐項標示書目來源與出版資訊。" pageType="CollectionPage">
   <script slot="head" type="application/ld+json" set:html={JSON.stringify(schema)} />
   <section class="page"><div class="page-shell">
     <nav aria-label="麵包屑"><a href="/peter/">Peter 的國際教育講座</a> › <a href="/peter/about/">作者介紹</a> › 著作與文章集</nav>
     <div class="kicker">BOOKS &amp; COLLECTED ESSAYS</div>
-    <h1>陳祖豐 Peter Chen 的國際教育著作</h1>
-    <p class="hero-deck">依書目與現有作品整理，分別標示有 ISBN 的書籍與本站文章集，提供作者、版本及可回查來源。</p>
-    {peterBooks.map(book=><article id={book.id} class="book-entry">
-      <p class="kicker">{book.status}</p><h2>{book.title}</h2>
+    <h1>陳祖豐 Peter Chen<br />國際教育著作與文章集</h1>
+    <p class="hero-deck">從國別申請手冊、名校選擇到英語準備，依作者提供書目、現有書稿與公開書目整理；各項分別標示資料狀態。</p>
+    <nav class="book-index" aria-label="著作目錄">{peterBooks.map(book=><a href={`#${book.id}`}>{book.title}</a>)}</nav>
+    {groups.map(group=><section class="book-group"><h2>{group}</h2>{peterBooks.filter(book=>book.group === group).map(book=><article id={book.id} class="book-entry">
+      <p class="kicker">{book.status}</p><h3>{book.title}</h3>
       <p>{book.authorLabel}</p><p>{book.details}</p>
       {book.isbn && <p>ISBN：<span class="isbn">{book.isbn}</span></p>}
-      <p><a href={book.sourceUrl}>{book.sourceLabel} →</a></p>
-    </article>)}
+      <p>{book.sourceUrl ? <a href={book.sourceUrl}>{book.sourceLabel} →</a> : book.sourceLabel}</p>
+    </article>)}</section>)}
+    <p>「Peter 國際教育講座第一集」與本站《看懂制度，選對世界》合併列為同一項。待補出版資訊的作品先依作者提供書目列示，補齊正式資料後更新。</p>
     <p>書目核對日期：2026 年 10 月 26 日。國家圖書館新書書目中的出版年月依申辦資料著錄；版本與發行資訊以正式出版資料為準。</p>
     <p><a href="/peter/about/">返回作者介紹 →</a> · <a href="/peter/">閱讀最新專欄 →</a> · <a href="/corrections/">補充書目或更正資料</a></p>
   </div></section>
 </BaseLayout>
-<style>.book-entry{padding:28px 0;border-bottom:1px solid var(--line-dark);scroll-margin-top:90px}.book-entry h2{font-size:clamp(1.4rem,3vw,2rem);line-height:1.6}.page-shell p{line-height:1.9;overflow-wrap:anywhere}.isbn{font-family:monospace}</style>
+<style>.book-entry{padding:24px 0;border-bottom:1px solid var(--line-dark);scroll-margin-top:90px}.book-entry h3{font-size:clamp(1.3rem,3vw,1.8rem);line-height:1.6}.book-group{margin-top:40px}.book-index{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:28px 0}.book-index a{border:1px solid var(--line-dark);padding:12px;line-height:1.6;overflow-wrap:anywhere}.page-shell p{line-height:1.9;overflow-wrap:anywhere}.isbn{font-family:monospace}@media(max-width:620px){.book-index{grid-template-columns:1fr}}</style>

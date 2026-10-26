@@ -68,10 +68,14 @@ assert len(entries) == collection['mainEntity']['numberOfItems'] == len(books.xp
 for item in entries:
     work = item['item']
     assert work['author']['@id'] == person['@id']
-    if work['@type'] == 'Book':
+    if work['@type'] == 'Book' and work.get('isbn'):
         isbn = work['isbn']
         assert len(isbn) == 13 and sum(int(n) * (1 if i % 2 == 0 else 3) for i, n in enumerate(isbn)) % 10 == 0
         assert books.xpath('//a[@href=$url]', url=work['citation'])
+    elif work['@type'] == 'Book':
+        assert work['creativeWorkStatus'] == '出版資訊待補'
+assert len(entries) == 12
+assert len({item['item']['@id'] for item in entries}) == 12
 assert 'https://globalednews.com/peter/books/' in (DIST / 'sitemap-0.xml').read_text(encoding='utf-8')
 robots = (DIST / 'robots.txt').read_text(encoding='utf-8')
 for bot in ['Googlebot', 'Bingbot', 'OAI-SearchBot']:
