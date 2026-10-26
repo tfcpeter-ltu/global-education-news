@@ -15,5 +15,6 @@
     "original nine featured recommendation order unchanged; two additional existing recommended videos preserved"
   ],
   "status": "ready_to_deploy",
-  "socialPosts": 0
+  "socialPosts": 0,
+  "playbackFinding": "Public YouTube original visibly played Cambridge. Site provider iframe stalled with no ready/error event in this browser; added a 20-second fallback to the original YouTube URL without claiming embedded playback success."
 }
