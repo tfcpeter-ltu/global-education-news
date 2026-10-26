@@ -1,5 +1,52 @@
 [
   {
+    "slug": "learn-it-all-feedback-learning-log-2026",
+    "title": "別急著當Know-it-all：Peter談回饋、修正與學習紀錄",
+    "date": "2026-10-27",
+    "category": "學習策略",
+    "country": "跨國",
+    "excerpt": "從Nadella的學習文化觀點出發，把「繼續努力」變成可檢查的策略與證據。",
+    "sourceId": "122148270975172155",
+    "sourceUrl": "https://www.facebook.com/photo/?fbid=122148270975172155&set=a.122101120425172155",
+    "image": "/images/daily/2026-10-27/peter.jpg",
+    "imageAlt": "Huron University圖書館閱讀空間資料照",
+    "imageCredit": "Gogerr / CC BY 4.0; cropped",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Huron_University_Library_Quiet_Study_Area.jpg",
+    "imageLicense": "CC BY 4.0",
+    "body": [
+      "Peter從Satya Nadella倡議的學習文化出發，提醒學生不必假裝自己什麼都懂。Microsoft官方Code Book把向他人學習、實驗及從錯誤調整列為文化方向；GeekWire於2016年報導Nadella相關訪談。這是長期觀點，不是Nadella今天對學生發表的新演說。",
+      "Peter建議把「我會更努力」換成具體行動：先用作品或測驗找出卡住之處，向老師、同學或導師取得可操作的回饋，再改變策略並重新檢查。例如英文簡報不只問好不好，而是請對方指出論點、證據或表達哪一部分需要調整。",
+      "每週可以保留一份Learning Log，記下尚不理解的問題、可請教的人、下次嘗試的策略與進步證據。使用AI協助構思時，也要查來源、保留修改過程與自己的判斷。這是Peter的學習建議，不是能保證成績或錄取的研究結論。",
+      "本篇經授權查核改寫粉專新文；10月27日查看時顯示「19小時前」，未取得精確發文時刻。配圖為Huron University圖書館授權資料照，並非Nadella或原貼文照片。"
+    ],
+    "sources": [
+      [
+        "Peter | original",
+        "https://www.facebook.com/photo/?fbid=122148270975172155&set=a.122101120425172155"
+      ],
+      [
+        "Microsoft | Code Book",
+        "https://news.microsoft.com/codebook/"
+      ],
+      [
+        "GeekWire | 2016 interview coverage",
+        "https://www.geekwire.com/2016/microsoft-learn-it-all/"
+      ]
+    ],
+    "description": "從Nadella的學習文化觀點出發，把「繼續努力」變成可檢查的策略與證據。",
+    "topic": "回饋與成長型思維",
+    "author": "Peter",
+    "importedAt": "2026-10-27",
+    "originalPublishedAt": null,
+    "originalDateLabel": "19小時前",
+    "originalDatePrecision": "relative",
+    "dateObservedAt": "2026-10-27",
+    "edition": "verified-edit",
+    "imageCaption": "授權圖書館資料照，非原貼文圖卡。",
+    "imageRights": "CC BY 4.0",
+    "note": "查核改寫版；學習方法不保證成績或錄取。"
+  },
+  {
     "slug": "common-app-ferpa-recommendation-waiver-2026",
     "title": "推薦信要放棄查閱權嗎？Peter拆解Common App的FERPA選項",
     "date": "2026-10-25",

@@ -1,0 +1,66 @@
+[
+  {
+    "key": "ca",
+    "campaign": "news",
+    "topic": "immunequity-research",
+    "title": "加拿大與烏干達跨校研究：2,400萬加元投入",
+    "benefit": "從研究合作看國際學習，不把資助當錄取保證。",
+    "summary": "Western領銜六年IMMUNEQUITY計畫，串聯加拿大與烏干達團隊；研究目標不等於已證實療法。",
+    "advice": "台灣研究生先比指導專長、合作與訓練，招生及個別資助另查。",
+    "section": "國際教育新聞",
+    "sectionUrl": "https://globalednews.com/news/",
+    "lines": [
+      "加拿大跨國研究",
+      "2,400萬加元投入"
+    ],
+    "url": "https://globalednews.com/news/canada-uganda-immunequity-research-2026/"
+  },
+  {
+    "key": "bluegrass",
+    "campaign": "scholarship",
+    "topic": "kentucky-bluegrass",
+    "title": "肯塔基Bluegrass：每年最高1.6萬美元",
+    "benefit": "四級距算一項，先核對GPA與申請路徑。",
+    "summary": "2027秋季國際新生錄取後自動評估；12月1日前完整送件，經費可能提前用罄。",
+    "advice": "可與Presidential、Singletary比較，但不能三項相加；得獎以正式通知為準。",
+    "section": "國際獎學金雷達",
+    "sectionUrl": "https://globalednews.com/scholarships/",
+    "lines": [
+      "肯塔基Bluegrass",
+      "每年最高1.6萬美元"
+    ],
+    "url": "https://globalednews.com/scholarships/items/2026-10-kentucky-bluegrass-2027/"
+  },
+  {
+    "key": "diy",
+    "campaign": "study-abroad",
+    "topic": "kentucky-application-routes",
+    "title": "肯塔基大學申請：兩種獎助路徑分開準備",
+    "benefit": "自動評估與競爭性欄位，別漏其中一步。",
+    "summary": "Bluegrass錄取後自動評估；Presidential與Singletary另填競爭性欄位，12月1日前完整送件。",
+    "advice": "三項不可疊加；續領與食宿年限分開計算，不只看最高金額。",
+    "section": "留學DIY導航",
+    "sectionUrl": "https://globalednews.com/study-abroad/",
+    "lines": [
+      "肯塔基申請怎麼準備",
+      "兩種獎助路徑分清楚"
+    ],
+    "url": "https://globalednews.com/study-abroad/kentucky-first-year-scholarship-checklist-2027/"
+  },
+  {
+    "key": "taiwan",
+    "campaign": "taiwan-universities",
+    "topic": "ntu-exchange-planning",
+    "title": "臺大交換申請將開跑：先比校系，再查資格",
+    "benefit": "把國內選校與海外學習路徑一起規劃。",
+    "summary": "116學年度第1學期交換甄選列11月3日至9日報名；10月27日尚未開放，先查語言與校內資格。",
+    "advice": "國內大學資料庫協助比較，實際資格與時程回臺大官方確認。",
+    "section": "國內大學選校選系資料庫",
+    "sectionUrl": "https://globalednews.com/taiwan-universities/",
+    "lines": [
+      "臺大交換準備起跑",
+      "先比校系再查資格"
+    ],
+    "url": "https://globalednews.com/taiwan-universities/"
+  }
+]

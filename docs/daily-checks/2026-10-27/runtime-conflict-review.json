@@ -1,0 +1,137 @@
+[
+  {
+    "path": ".github/workflows/deploy.yml",
+    "sourceSha": "bd8f4e81721ccf323236a2e4e30cb895506ef2d49c97f9c4598bc1b449f1a05e",
+    "runtimeSha": "5a59fe196eab14279bf5806ea1f185fc995436897baf19b74f88a460b5f09559"
+  },
+  {
+    "path": "docs/social-posts/2026-10-26/news--memorial-enrolment-2026.json",
+    "sourceSha": "4a89c63f3b63bc2a1881c2f85369268a643496edf0385167586add1ce40ea950",
+    "runtimeSha": "378d8e80dbae86d96e785177497f195d2343e6da9c350cb8c6e02e01803f89e7"
+  },
+  {
+    "path": "docs/social-posts/2026-10-26/publication-log.json",
+    "sourceSha": "1453098bdfc1bb6cecba2d6f0423671259e5119cb0fede8e8f4040e304271518",
+    "runtimeSha": "a7b4cf7bec27bf373f7eaef88aa1cad95fa08ff317bdd3f50118ed796411b08a"
+  },
+  {
+    "path": "docs/social-posts/2026-10-26/scholarship--iowa-excellence.json",
+    "sourceSha": "b380b047eae5b8f7fb2dc1290cda5287bb3ba5b3c23b390a4ed2bb297fdcbabe",
+    "runtimeSha": "3361b9cec054d4e467f4a76008f030dde5c7d15b8207a88f97048a229dd75814"
+  },
+  {
+    "path": "docs/social-posts/2026-10-26/study-abroad--miami-ohio-routes.json",
+    "sourceSha": "5e305fa0091612a4f7b4a06232cd5456b8130a75ced2fbc5780facaaaa31c30b",
+    "runtimeSha": "ab26ab3f701a55d829208303b6d440cc98d73f38901f4e33398d588ace8059b7"
+  },
+  {
+    "path": "docs/social-posts/2026-10-26/taiwan-universities--nthu-exchange-routes.json",
+    "sourceSha": "25726273f8aa976c03e1ebc5d9847baa287ab0e872ac535fb131b1ab87912bb2",
+    "runtimeSha": "5ae4d7309919596ee21ef9195e9c8f58f19320d4c9e2a29bc3e2925ae0366ff7"
+  },
+  {
+    "path": "public/data/analytics-summary.json",
+    "sourceSha": "9f362ff237ed05b2d7e38359fbc487e7d3a34283773bf7d65a3974c015633d78",
+    "runtimeSha": "5806afe4d5b6894ce779c48d8c0dbdc23c9c94d6b9c3438cb9d7d9cf0fdb1e4a"
+  },
+  {
+    "path": "public/images/share-photos/credits.json",
+    "sourceSha": "725c1b49df3e8e43b7d1b78def292d93946335b03d8a8dcfd470e3a41d02a112",
+    "runtimeSha": "d47e6ac14bb00668eb586964ea84407a1221e329723ee0fe9c3070c8403f779a"
+  },
+  {
+    "path": "public/images/share-photos/sources.json",
+    "sourceSha": "2953955734f11d3c85b35d40ddeb9a1eff89ef8edc201311718dab455393974e",
+    "runtimeSha": "2faad77dd51b82699dfc3724ce8ec88dd6c5648ec02ee223361be0eab7f081be"
+  },
+  {
+    "path": "scripts/test-vlog.mjs",
+    "sourceSha": "946c4086675e73aa24e87789be3cf21ae8f43fba84cbbf56306efc7a88680f7d",
+    "runtimeSha": "131c368ec39709896a88d70d57cde0834e18fa90e218839bee3a3866f36b3524"
+  },
+  {
+    "path": "src/components/Header.astro",
+    "sourceSha": "6803a3d2db609970ac4192d19fbdf12ac3faff31a32418bb763e467224997014",
+    "runtimeSha": "475e25bda387916e07b078789265e6873216418879870d923573a0e2569a9c34"
+  },
+  {
+    "path": "src/data/i18n/en-overrides.json",
+    "sourceSha": "39640200925f5cad3da09f9a94e1c9a2000adeec03964111156e9113961bf6a4",
+    "runtimeSha": "d6bd031df39729fb183e27fa99e2858732e7ad795023ec66918d8ef60aa409c0"
+  },
+  {
+    "path": "src/data/i18n/en.json",
+    "sourceSha": "da468b626e0888ca053a8c5e7bafb046d5daaa5a2f22cc265466dbde7892951a",
+    "runtimeSha": "462d6e41432bdf7b0e73586596658fcea715373f0b3b842befc15581ce4a12fe"
+  },
+  {
+    "path": "src/data/peter-articles.json",
+    "sourceSha": "2224f99dd765f25e3e69cac70bd0f42acc83eddc1a98b833c4dce54ae9a75133",
+    "runtimeSha": "944091b8de94157d48e9c885d02866beb6ffacc832c831153d5d11bc700594be"
+  },
+  {
+    "path": "src/data/vlog-videos.json",
+    "sourceSha": "0a085b30f574a303761ef8470009322744d83502b6a1ce3fe99c17a2abe29b8d",
+    "runtimeSha": "747c987ce01f48b2e4df6c764eb40e06d52359644e80c6245e208b15a1dd7716"
+  },
+  {
+    "path": "src/layouts/ArticleLayout.astro",
+    "sourceSha": "fd29985f86f3a023dfd8f662059679589bb9857593f486703567145c119f0b56",
+    "runtimeSha": "02a62d3143858aaf2d654d25665b071d906d895fc72819c9c81c0018a8b7690c"
+  },
+  {
+    "path": "src/layouts/BaseLayout.astro",
+    "sourceSha": "a5d8406361900a044c965d9b2fd95c8447295539b57dc6536860db2bf19a6e07",
+    "runtimeSha": "6117c0c5d1306243a4a6b09711ffd63fd7dfdf3849d838fc4f10f3f338ab0706"
+  },
+  {
+    "path": "src/pages/about.astro",
+    "sourceSha": "7c497e92436d1bbf1452acdabb1dfa80572d5f5931165d3efcd6393ab81e6130",
+    "runtimeSha": "9a399abf2fd76b5324fa9f0f2f3de8dcbeb45baa57178772899c0d2bf9ce02d1"
+  },
+  {
+    "path": "src/pages/editorial-policy.astro",
+    "sourceSha": "6a1704d111813a69a0444acf9ab72e693a659b723452c0f21cdfe23788fb4cb0",
+    "runtimeSha": "c86782798dbd612b6c07e63720adada86015c036d07a2b1821791517136bcdcb"
+  },
+  {
+    "path": "src/pages/index.astro",
+    "sourceSha": "86a6ca7eb6cd1af922c9365c146dd5a487fa54dbf36206ffde4d31017f58dd86",
+    "runtimeSha": "5513399f57af3d7bc474d1f556e3561156f028afc777ba479a03f0cfe1c2bcb4"
+  },
+  {
+    "path": "src/pages/news/index.astro",
+    "sourceSha": "2e06727cc00d90bf1e0dec5481682a01b3834e37abc5ebda3379a60c5fa847d0",
+    "runtimeSha": "a52003dfd6d89128088814db6f47eca47cdd8704451553224af4f7523c8a7584"
+  },
+  {
+    "path": "src/pages/peter/[slug].astro",
+    "sourceSha": "5c201c7e8d274bb9dfda8f0a6252831a97019441e2896c27f02685080a5ed029",
+    "runtimeSha": "16ee071f7e99d16d785a297e6b40d740257e8d4ba6656f318376c0b4776fc996"
+  },
+  {
+    "path": "src/pages/peter/index.astro",
+    "sourceSha": "2ecf621d26c51ccaed2b683fa0f038f651dfc24dd2e550812502e3914e355c53",
+    "runtimeSha": "1c20f51eae0e63cefa44a3f3087d7b2a5de61645e3e675310dbb20f5c7bdab7d"
+  },
+  {
+    "path": "src/pages/peter/volume-1.astro",
+    "sourceSha": "234975a4bfeb58357e787582f5821d6bcafa45024a2973a90112a6e05c450946",
+    "runtimeSha": "5cd2d027752b9a92337a678a93e6caf5868d9bf515c7834a4e0473518d0744c4"
+  },
+  {
+    "path": "src/pages/topics/[topic].astro",
+    "sourceSha": "a77c56cb56901a5da9fac0d2f83b2db61bc0adf9a583538fb8934cf66d4c8f2a",
+    "runtimeSha": "048decc74a89096bc09b98e6753248bf58b83c7462ce66f047775313fb074380"
+  },
+  {
+    "path": "src/pages/vlog/index.astro",
+    "sourceSha": "67218653a09fde9972d3b18ea3841a4ef7e5efabb18c297bb3da796412415058",
+    "runtimeSha": "4a6ce51fb0a25a58891abd0c744bcdd8fd5466beecb95aaad41a4b7758cbd5e4"
+  },
+  {
+    "path": "src/styles/global.css",
+    "sourceSha": "55e00ac95107402bff3ba8f74c45f34f3c0a7cd794bfd5fc0e3307e35cf23fc8",
+    "runtimeSha": "fc7a2f3c2ee0a16d911a0b8754d0bd7c494781c80097c0028ae130eabdadae45"
+  }
+]

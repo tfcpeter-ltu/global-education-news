@@ -1,0 +1,175 @@
+{
+  "checkedAt": "2026-10-27T05:18:30.060671+08:00",
+  "news": [
+    {
+      "slug": "canada-uganda-immunequity-research-2026",
+      "title": "加拿大Western獲2,400萬加元：串聯烏干達與跨校HIV研究",
+      "url": "https://globalednews.com/news/canada-uganda-immunequity-research-2026/",
+      "publishedPath": "src/pages/news/canada-uganda-immunequity-research-2026.md",
+      "sources": [
+        {
+          "label": "Primary source",
+          "url": "https://news.westernu.ca/2026/10/immunequity-2/"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://www.cbc.ca/news/canada/london/western-university-research-to-develop-hiv-cure-receives-24m-in-federal-funds-9.7393176"
+        }
+      ],
+      "verifiedAt": "2026-10-27T05:18:30.060671+08:00"
+    },
+    {
+      "slug": "australia-mixagent-student-feedback-2026",
+      "title": "澳洲六家教育機構支持miXagent：用學生經驗檢視留學代辦",
+      "url": "https://globalednews.com/news/australia-mixagent-student-feedback-2026/",
+      "publishedPath": "src/pages/news/australia-mixagent-student-feedback-2026.md",
+      "sources": [
+        {
+          "label": "Primary source",
+          "url": "https://mixabroad.com/mixagent/"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://thepienews.com/australian-universities-back-new-benchmark-for-education-agents/"
+        }
+      ],
+      "verifiedAt": "2026-10-27T05:18:30.060671+08:00"
+    },
+    {
+      "slug": "germany-excellence-universities-2027-funding",
+      "title": "德國卓越策略新增五組：2027資助看研究條件，不等於錄取保證",
+      "url": "https://globalednews.com/news/germany-excellence-universities-2027-funding/",
+      "publishedPath": "src/pages/news/germany-excellence-universities-2027-funding.md",
+      "sources": [
+        {
+          "label": "Primary source",
+          "url": "https://www.wissenschaftsrat.de/SharedDocs/Pressemitteilungen/EN/PM_2126_ExStra_EN"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://sign-network.eu/news/2026_10_06_WDR_cosmo-italiano_universities_of_excellence/"
+        }
+      ],
+      "verifiedAt": "2026-10-27T05:18:30.060671+08:00"
+    }
+  ],
+  "scholarships": [
+    {
+      "slug": "2026-10-kentucky-bluegrass-2027",
+      "title": "肯塔基大學Bluegrass 2027：每年6,500至16,000美元學費獎助",
+      "url": "https://globalednews.com/scholarships/items/2026-10-kentucky-bluegrass-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-kentucky-bluegrass-2027.md",
+      "sources": [
+        {
+          "label": "Official 2027 awards",
+          "url": "https://studentsuccess.uky.edu/financial-aid-and-scholarships/academic-scholarships/incoming-freshmen-scholarships"
+        },
+        {
+          "label": "International eligibility FAQ",
+          "url": "https://studentsuccess.uky.edu/financial-aid-and-scholarships/academic-scholarships/academic-scholarship-faq"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://borderless.so/scholarships/university-of-kentucky/bluegrass-scholarship"
+        }
+      ],
+      "verifiedAt": "2026-10-27T05:18:30.060671+08:00",
+      "eligibleTaiwan": true,
+      "open": true,
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "Distinct award, absent from 221-slug baseline. International eligibility and current Fall 2027 table checked; awards cannot stack."
+    },
+    {
+      "slug": "2026-10-kentucky-presidential-2027",
+      "title": "肯塔基大學Presidential 2027：全額非州內學費，需競爭性審查",
+      "url": "https://globalednews.com/scholarships/items/2026-10-kentucky-presidential-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-kentucky-presidential-2027.md",
+      "sources": [
+        {
+          "label": "Official 2027 awards",
+          "url": "https://studentsuccess.uky.edu/financial-aid-and-scholarships/academic-scholarships/incoming-freshmen-scholarships"
+        },
+        {
+          "label": "International eligibility FAQ",
+          "url": "https://studentsuccess.uky.edu/financial-aid-and-scholarships/academic-scholarships/academic-scholarship-faq"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://borderless.so/scholarships/university-of-kentucky/presidential-scholarship"
+        }
+      ],
+      "verifiedAt": "2026-10-27T05:18:30.060671+08:00",
+      "eligibleTaiwan": true,
+      "open": true,
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "Distinct award, absent from 221-slug baseline. International eligibility and current Fall 2027 table checked; awards cannot stack."
+    },
+    {
+      "slug": "2026-10-kentucky-singletary-2027",
+      "title": "肯塔基大學Singletary 2027：學費獎助加前兩年校內食宿津貼",
+      "url": "https://globalednews.com/scholarships/items/2026-10-kentucky-singletary-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-kentucky-singletary-2027.md",
+      "sources": [
+        {
+          "label": "Official 2027 awards",
+          "url": "https://studentsuccess.uky.edu/financial-aid-and-scholarships/academic-scholarships/incoming-freshmen-scholarships"
+        },
+        {
+          "label": "International eligibility FAQ",
+          "url": "https://studentsuccess.uky.edu/financial-aid-and-scholarships/academic-scholarships/academic-scholarship-faq"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://borderless.so/scholarships/university-of-kentucky/otis-a-singletary-scholarship"
+        }
+      ],
+      "verifiedAt": "2026-10-27T05:18:30.060671+08:00",
+      "eligibleTaiwan": true,
+      "open": true,
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "Distinct award, absent from 221-slug baseline. International eligibility and current Fall 2027 table checked; awards cannot stack."
+    }
+  ],
+  "peter": {
+    "status": "fewer-new-posts",
+    "availableNewCount": 1,
+    "checkedAt": "2026-10-27T05:18:30.060671+08:00",
+    "sourceUrls": [
+      "https://www.facebook.com/profile.php?id=61585164670358",
+      "https://www.facebook.com/photo/?fbid=122148270975172155&set=a.122101120425172155"
+    ],
+    "note": "Reviewed public feed back to the October25 FERPA item. One new substantive learn-it-all article; newer membership promotions excluded and FERPA already imported. Exact post time unavailable; relative time retained."
+  },
+  "excluded": [
+    {
+      "candidate": "Oregon ICSP",
+      "reason": "Official award and application cycle deadlines conflict; excluded."
+    },
+    {
+      "candidate": "Oregon Global Corners",
+      "reason": "Nomination window not yet open."
+    },
+    {
+      "candidate": "Kentucky Ambassador",
+      "reason": "Amount and submission-format conflicts across official pages; excluded."
+    },
+    {
+      "candidate": "Enroly October data",
+      "reason": "Direct current primary dataset unavailable after alternative searches."
+    },
+    {
+      "candidate": "New Zealand qualification news",
+      "reason": "Duplicates existing coverage."
+    }
+  ],
+  "notes": [
+    "Six Australian providers, not six universities.",
+    "German selection October2, funding January2027;15 groups not15 single universities.",
+    "Canada research goal not proven therapy or an admission opening.",
+    "UKY current2027 page says one award only; FAQ confirms international eligibility.",
+    "Nine licensed archive images visually reviewed; no incident photograph implied."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-27",
+  "timezone": "Asia/Taipei",
+  "status": "three-public-leads-reviewed",
+  "verifiedAt": "2026-10-27T05:18:30.060671+08:00",
+  "reviewedSchools": [
+    {
+      "school": "國立臺灣大學",
+      "schoolSlug": "ntu",
+      "source": "https://studyabroad.ntu.edu.tw/exchange-student/how-to-apply-beta/",
+      "finding": "116學年度第1學期交換簡章與流程可讀；報名列2026年11月3日10時至11月9日16時，目前尚未開放。須核對學籍、語言與交換校要求。"
+    },
+    {
+      "school": "國立成功大學",
+      "schoolSlug": "ncku",
+      "source": "https://oia.ncku.edu.tw/",
+      "finding": "國際事務與國際合作入口可讀；僅列公開入口線索，不把統計或舊活動當新公告。"
+    },
+    {
+      "school": "國立中興大學",
+      "schoolSlug": "nchu",
+      "source": "https://oia.nchu.edu.tw/",
+      "finding": "國際事務與出國交換入口可讀；逐計畫確認校內資格與期限。"
+    }
+  ],
+  "published": [],
+  "outreachDrafts": [],
+  "pendingConsent": [],
+  "gaps": [],
+  "note": "Three public campus leads reviewed; no outreach sent."
+}
