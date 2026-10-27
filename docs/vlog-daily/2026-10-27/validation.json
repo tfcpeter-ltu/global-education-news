@@ -1,0 +1,20 @@
+{
+  "baseline": "16fbc12079fd1fcd8d48f821c31b443d5be85d4e",
+  "catalog": {
+    "before": 31,
+    "added": 6,
+    "after": 37
+  },
+  "checks": [
+    "Astro build 554 routes",
+    "825 bilingual route pairs generated with zero missing translations",
+    "Vlog catalog and built playback test PASS:37 videos",
+    "English Vlog visible-text CJK count 0",
+    "Original nine recommendations and two subsequent recommendations preserved"
+  ],
+  "status": "ready_to_deploy",
+  "limitations": [
+    "Original descriptions reviewed; advertised caption endpoints returned empty.",
+    "Public playability OK and playableInEmbed true; browser playback still pending."
+  ]
+}
