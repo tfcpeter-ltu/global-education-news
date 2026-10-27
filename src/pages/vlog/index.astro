@@ -1,223 +1,159 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import VlogPlayer from '../../components/VlogPlayer.astro';
+import VlogCard from '../../components/VlogCard.astro';
 import catalog from '../../data/vlog-videos.json';
-const videos = catalog.filter(v => v.status === 'published').sort((a, b) => a.priority - b.priority);
-const featured = videos.filter(v => v.featured);
-const first = featured[0] ?? videos[0];
-const latestCollection = videos.map(v => v.collectedAt?.slice(0, 10) ?? '').sort().at(-1) ?? '';
-const dailyPicks = latestCollection ? videos.filter(v => v.collectedAt?.slice(0, 10) === latestCollection).slice(0, 6) : [];
-const duration = (value: string) => {
-  const [, h = '0', m = '0', s = '0'] = value.match(/^PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?$/) ?? [];
-  return Number(h) ? `${h}:${m.padStart(2, '0')}:${s.padStart(2, '0')}` : `${Number(m)}:${s.padStart(2, '0')}`;
-};
-const sourceLabel = (type: string) => type === 'official' ? '大學官方' : type === 'submission' ? '讀者投稿' : 'Peter 精選';
+import { vlogGroup } from '../../lib/vlog-categories.mjs';
+const videos = catalog.filter(v => v.status === 'published').sort((a,b)=>a.priority-b.priority);
+const study = videos.filter(v=>vlogGroup(v)==='study');
+const tour = videos.filter(v=>vlogGroup(v)==='tour').sort((a,b)=>Number(b.format==='short')-Number(a.format==='short') || (a.format==='short' ? Date.parse(b.publishedAt)-Date.parse(a.publishedAt) : a.priority-b.priority));
+const latestCollection = videos.map(v=>v.collectedAt?.slice(0,10)??'').sort().at(-1)??'';
+const dailyPicks = latestCollection ? videos.filter(v=>v.collectedAt?.slice(0,10)===latestCollection).slice(0,6) : [];
+const groups = [
+  {id:'study',title:'留學影音 Vlog',eyebrow:'STUDY ABROAD',description:'大學探索、校園生活、升學觀點，找到自己的學習方向。',videos:study,first:study.find(v=>v.featured)??study[0]},
+  {id:'tour',title:'遊學 Vlog',eyebrow:'STUDY TOURS',description:'寒暑假入班、寄宿生活與營隊體驗，從短影音認識遊學。',videos:tour,first:tour.find(v=>v.format==='short')??tour[0]}
+];
 ---
-
-<BaseLayout videoChannel title="留遊學Vlog｜跟著影像看世界校園" description="從 Peter 的留遊學影片到大學官方校園巡禮，用影像探索海外學習、校園生活與升學選擇。" image="/images/daily/2026-10-14/toronto-hart-house.jpg">
-  <div class="vlog-page">
-    <header class="video-topbar">
-      <a class="video-brand" href="/vlog/" aria-label="留遊學Vlog"><span class="brand-play" aria-hidden="true">▶</span><strong>留遊學Vlog</strong><small>TW</small></a>
-      <form id="video-search" role="search"><label for="vlog-query" class="sr-only">搜尋影片、學校或國家</label><input id="vlog-query" type="search" placeholder="搜尋影片、學校或國家" /><button type="submit" aria-label="搜尋影片"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><circle cx="10" cy="10" r="6.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m15 15 5 5" stroke="currentColor" stroke-width="1.6"/></svg></button></form>
-      <a class="back-home" href="/"><span aria-hidden="true">←</span> 返回環球教育新聞首頁</a>
-    </header>
-    <nav class="video-sidebar" aria-label="影音頻道導覽">
-      <button type="button" data-filter="all" aria-pressed="true"><span aria-hidden="true">⌂</span>頻道首頁</button>
-      <button type="button" data-filter="recommended" aria-pressed="false"><span aria-hidden="true">☆</span>Peter 推薦</button>
-      <button type="button" data-filter="official" aria-pressed="false"><span aria-hidden="true">▣</span>大學官方</button>
-      <button type="button" data-filter="submission" aria-pressed="false"><span aria-hidden="true">⊕</span>讀者投稿</button>
-      <a href="/study-abroad/"><span aria-hidden="true">◎</span>留學導航</a>
-    </nav>
+<BaseLayout videoChannel title="留學影音與遊學 Vlog｜跟著影像看世界校園" description="留學影音與遊學 Vlog 左右雙區：大學校園、學習故事、英國與加拿大寒假入班、寄宿和遊學短影音。" image="/images/daily/2026-10-14/toronto-hart-house.jpg">
+  <div class="vlog-page" data-mobile-view="study">
+    <header class="video-topbar"><a class="video-brand" href="/vlog/" aria-label="留遊學Vlog"><span class="brand-play" aria-hidden="true">▶</span><strong>留遊學Vlog</strong></a><form id="video-search" role="search"><label class="sr-only" for="vlog-query">搜尋影片、學校或國家</label><input id="vlog-query" type="search" placeholder="搜尋影片、學校或國家" /><button type="submit" aria-label="搜尋影片">搜尋</button></form><a class="back-home" href="/">← 返回環球教育新聞首頁</a></header>
     <div class="channel-content">
-      <div class="filter-row" role="group" aria-label="影片來源篩選">
-        <button type="button" data-filter="all" aria-pressed="true">全部影片</button><button type="button" data-filter="recommended" aria-pressed="false">Peter 推薦</button><button type="button" data-filter="peter" aria-pressed="false">Peter 頻道</button><button type="button" data-filter="official" aria-pressed="false">大學官方</button><button type="button" data-filter="submission" aria-pressed="false">讀者投稿</button>
+      <header class="channel-heading"><div><p class="channel-eyebrow">PETER'S VIDEO CHANNEL</p><h1>跟著影像，探索你的下一站。</h1><p>留學與遊學，兩種出發方式，同樣看見更大的世界。</p></div><a class="channel-action" href="#submissions">分享你的影片</a></header>
+      <div class="filter-row" role="group" aria-label="影片來源篩選"><button type="button" data-filter="all" aria-pressed="true">全部影片</button><button type="button" data-filter="recommended" aria-pressed="false">Peter 推薦</button><button type="button" data-filter="peter" aria-pressed="false">Peter 頻道</button><button type="button" data-filter="official" aria-pressed="false">大學官方</button><button type="button" data-filter="submission" aria-pressed="false">讀者投稿</button></div>
+      <div class="mobile-switch" role="group" aria-label="切換留學與遊學"><button type="button" data-view="study" aria-pressed="true">留學影音 <span data-count="study">{study.length}</span></button><button type="button" data-view="tour" aria-pressed="false">遊學 Vlog <span data-count="tour">{tour.length}</span></button></div>
+      <p class="search-summary" role="status"><span id="result-count">{videos.length}</span> <span>部影片</span><span id="search-active" hidden>・搜尋結果</span></p>
+      <div class="vlog-columns">
+        {groups.map(group=><section class="channel-column" data-group={group.id} aria-labelledby={`${group.id}-title`}>
+          <header class="column-heading"><p>{group.eyebrow}</p><div><h2 id={`${group.id}-title`}>{group.title}</h2><span class="column-count"><span data-column-count={group.id}>{group.videos.length}</span> 部影片</span></div><p class="column-description">{group.description}</p></header>
+          {group.first && <VlogPlayer group={group.id} first={group.first} count={group.videos.length} />}
+          {group.id==='study' && dailyPicks.length>0 && <section class="daily-picks" aria-labelledby="daily-picks-title"><div class="daily-heading"><h3 id="daily-picks-title">今日精選</h3><time datetime={latestCollection}>{latestCollection}</time></div><p>五則世界校園與教育影片，加一則 LTU 介紹。</p><div class="daily-grid">{dailyPicks.map(v=><button type="button" data-daily-video={v.id} aria-label={v.title}><img src={v.thumbnail} alt={v.title} width="480" height="270" loading="lazy" /><span>{v.title}</span></button>)}</div></section>}
+          {group.id==='tour' && <div class="tour-note"><strong>遊學短影音，從這裡開始</strong><p>英國唐頓女王學院、加拿大皇冠高中，以及暑期學校與營隊。LTU 關聯課程介紹；含 AI 旁白或情境示意的影片均在簡介標示。</p></div>}
+          <div class="library-heading"><h3>{group.id==='study'?'留學影片庫':'遊學影片庫'}</h3><a href={group.id==='study'?'/study-abroad/':'https://www.ossdtw.com/'} target={group.id==='tour'?'_blank':undefined} rel={group.id==='tour'?'noopener noreferrer':undefined}>{group.id==='study'?'留學導航 ↗':'LTU 課程資訊 ↗'}</a></div>
+          <div class="video-grid">{group.videos.map(v=><VlogCard video={v} />)}</div>
+          <div class="column-empty" data-empty={group.id} hidden><h3>目前沒有符合的影片</h3><p>試試其他關鍵字，或切換影片分類。</p></div>
+        </section>)}
       </div>
-      <header class="channel-heading"><div class="channel-avatar" aria-hidden="true">P</div><div><h1>留遊學Vlog</h1><p>Peter 的國際教育影音頻道<span class="channel-dot"> · </span><span>{videos.length}</span> 部影片</p></div><a class="channel-action" href="#submissions">分享你的影片</a></header>
-      {dailyPicks.length > 0 && <section class="daily-picks" aria-labelledby="daily-picks-title">
-        <div class="daily-heading"><div><p class="daily-eyebrow">DAILY VIDEO SELECTION</p><h2 id="daily-picks-title">今日精選</h2><p>五則世界校園與教育影片，加一則 LTU 介紹。</p></div><time datetime={latestCollection}>{latestCollection}</time></div>
-        <div class="daily-grid">{dailyPicks.map((v, i) => <article class="daily-card">
-          <button type="button" data-daily-video={v.id} aria-label={v.title}>
-            <div class="daily-cover"><img src={v.thumbnail} alt={v.title} width="640" height="360" loading={i < 3 ? 'eager' : 'lazy'} /><span class="daily-number">{String(i+1).padStart(2,'0')}</span><span class="daily-play" aria-hidden="true">▶</span><span class="duration">{duration(v.duration)}</span></div>
-            <div class="daily-copy"><span class="daily-source">{v.sourceType === 'peter' ? 'LTU 課程介紹' : v.country}</span><h3>{v.title}</h3><p>{v.description}</p><span class="daily-channel">{v.channelTitle}</span></div>
-          </button>
-        </article>)}</div>
-      </section>}
-      <section class="featured" aria-labelledby="featured-title">
-        <div class="section-top"><h2 id="featured-title">Peter 推薦放映</h2><div class="carousel-tools"><span id="slide-count">1 / {featured.length}</span><button id="slide-prev" type="button" aria-label="上一張精選">‹</button><button id="slide-next" type="button" aria-label="下一張精選">›</button><button id="slide-toggle" type="button" aria-pressed="false"><span class="pause-label">暫停輪播</span><span class="resume-label" hidden>繼續輪播</span></button></div></div>
-        <div class="cinema-grid">
-          <div class="screen">
-            <button id="hero-play" type="button" aria-label="播放精選影片"><img id="hero-image" src={first.thumbnail} alt={first.title} width="1280" height="720" fetchpriority="high" /><span class="play-round" aria-hidden="true">▶</span></button>
-            <div id="player-host" hidden><div id="youtube-player"></div></div>
-          </div>
-          <div class="feature-info">
-            <p class="feature-kicker"><span class="red-dot"></span><span id="hero-source">{sourceLabel(first.sourceType)}</span><span aria-hidden="true"> · </span><span id="hero-country">{first.country}</span></p>
-            <h2 id="hero-title">{first.title}</h2><p id="hero-description">{first.description}</p>
-            <div class="feature-channel"><span class="small-avatar" aria-hidden="true">P</span><span id="hero-channel">{first.channelTitle}</span></div>
-            <div class="playback-tools"><button id="video-prev" type="button">← 上一部</button><button id="video-next" type="button">下一部 →</button></div>
-            <label class="autoplay"><input id="auto-next" type="checkbox" checked /> 自動播放下一部</label>
-            <p class="queue-note">點擊縮圖即可播放，播完最後一部後回到第一部。</p>
-            <div id="player-error" class="player-message" role="status" hidden><p>這部影片目前無法在此播放，請改至 YouTube 觀看，或選擇下一部。</p><a id="hero-youtube" href={first.url} target="_blank" rel="noopener noreferrer">在 YouTube 觀看 ↗</a></div>
-            <div id="player-blocked" class="player-message" role="status" hidden>瀏覽器已暫停自動播放，請點擊播放器繼續。</div>
-          </div>
-        </div>
-      </section>
-      <section class="library" aria-labelledby="library-title">
-        <div class="library-heading"><h2 id="library-title">為你推薦</h2><p class="result-count" role="status"><span id="result-count">{videos.length}</span> <span>部影片</span></p></div>
-        <div class="video-grid">
-          {videos.map(v => <article class="video-card" data-id={v.id} data-url={v.url} data-source={v.sourceType} data-recommended={v.recommended ? 'true' : 'false'} data-featured={v.featured ? 'true' : 'false'}>
-            <button class="card-play" type="button" aria-label={v.title}>
-              <div class="card-cover"><img src={v.thumbnail} alt={v.title} width="640" height="360" loading="lazy" /><span class="card-play-icon" aria-hidden="true">▶</span><span class="duration">{duration(v.duration)}</span></div>
-              <div class="card-title-row"><span class:list={['small-avatar',v.sourceType === 'official' && 'official-avatar']} aria-hidden="true">{v.sourceType === 'official' ? 'U' : 'P'}</span><h3>{v.title}</h3></div>
-            </button>
-            <div class="card-details"><p class="channel-name">{v.channelTitle}</p><div class="card-meta"><span class="source-label">{v.recommended ? 'Peter 推薦' : sourceLabel(v.sourceType)}</span><span aria-hidden="true"> · </span><time datetime={v.publishedAt}>{v.publishedAt.slice(0,10)}</time></div></div>
-            <p class="card-description">{v.description}</p><span class="country" hidden>{v.country}</span><span class="topic" hidden>{v.topic}</span>
-          </article>)}
-        </div>
-        <div id="no-results" class="empty-state" hidden><h3>目前沒有符合的影片</h3><p>試試其他關鍵字，或切換影片分類。讀者投稿將在收到並審核後陸續加入。</p><button id="reset-search" type="button">顯示全部影片</button></div>
-      </section>
+      <div id="no-results" class="empty-state" hidden><h3>目前沒有符合的影片</h3><p>試試其他關鍵字，或切換影片分類。</p><button id="reset-search" type="button">顯示全部影片</button></div>
       <section id="submissions" class="submission-banner"><div><h2>把你的留遊學故事，放進下一輪播放。</h2><p>歡迎分享校園走讀、交換生活、遊學紀錄與大學介紹。提供你的 YouTube 影片連結與簡介，審核後就能加入這裡。</p></div><a href="mailto:editor.jsti.ltu@gmail.com?subject=Study%20Abroad%20Vlog%20Submission">提供影片連結 ↗</a></section>
       <footer class="video-footer"><p>影片透過 YouTube 原始播放器播放，著作權歸原創作者。影片日期為原始發布日期；招生及活動資訊請以最新官方公告為準。</p><a href="/">Global Education News</a><a href="/privacy/">隱私權政策</a><a href="/contact/">聯絡我們</a></footer>
     </div>
   </div>
 <script>
   import { nextVideoIndex, endedVideoIndex } from '../../lib/vlog-playlist.mjs';
-  const cards = Array.from(document.querySelectorAll<HTMLElement>('.video-card'));
-  const featured = cards.filter(card => card.dataset.featured === 'true');
-  const get = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
-  let current = 0, slide = 0, playing = false, paused = matchMedia('(prefers-reduced-motion: reduce)').matches;
-  let hovering = false, focused = false, loading = false;
-  let player: any;
-  let readinessTimer: ReturnType<typeof setTimeout> | undefined;
+  const page = document.querySelector<HTMLElement>('.vlog-page')!;
+  const cards = Array.from(page.querySelectorAll<HTMLElement>('.video-card'));
+  const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
   const win = window as any;
-  const show = (card: HTMLElement) => {
-    current = cards.indexOf(card);
-    const text = (selector: string) => card.querySelector(selector)?.textContent?.trim() ?? '';
-    get('hero-title').textContent = text('h3');
-    get('hero-description').textContent = text('.card-description');
-    get('hero-channel').textContent = text('.channel-name');
-    get('hero-source').textContent = text('.source-label');
-    get('hero-country').textContent = text('.country');
-    const img = card.querySelector('img')!;
-    const hero = get<HTMLImageElement>('hero-image'); hero.src = img.src; hero.alt = img.alt;
-    get<HTMLAnchorElement>('hero-youtube').href = card.dataset.url!;
-    document.querySelectorAll<HTMLButtonElement>('.featured-item').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.video === card.dataset.id)));
-    const featureIndex = featured.indexOf(card);
-    if (featureIndex >= 0) { slide = featureIndex; get('slide-count').textContent = `${slide + 1} / ${featured.length}`; }
-    else get('slide-count').textContent = '—';
-    cards.forEach(c => c.classList.toggle('is-playing', playing && c === card));
-    get('player-error').hidden = true; get('player-blocked').hidden = true;
-  };
+  let activeGroup = '';
   let apiPromise: Promise<void> | undefined;
   function loadAPI() {
-    if (win.YT?.Player) return Promise.resolve();
-    if (apiPromise) return apiPromise;
-    apiPromise = new Promise<void>((resolve, reject) => {
-      const timer = setTimeout(() => { apiPromise = undefined; reject(new Error('YouTube API timeout')); }, 15000);
-      win.onYouTubeIframeAPIReady = () => { clearTimeout(timer); resolve(); };
-      const script = document.createElement('script'); script.src = 'https://www.youtube.com/iframe_api';
-      script.onerror = () => { clearTimeout(timer); script.remove(); apiPromise = undefined; reject(new Error('YouTube API unavailable')); };
-      document.head.append(script);
-    });
-    return apiPromise;
+    if(win.YT?.Player) return Promise.resolve();
+    if(apiPromise) return apiPromise;
+    apiPromise = new Promise<void>((resolve,reject)=>{
+      const timer=setTimeout(()=>{apiPromise=undefined;reject(new Error('YouTube API timeout'));},15000);
+      win.onYouTubeIframeAPIReady=()=>{clearTimeout(timer);resolve();};
+      const script=document.createElement('script');script.src='https://www.youtube.com/iframe_api';
+      script.onerror=()=>{clearTimeout(timer);script.remove();apiPromise=undefined;reject(new Error('YouTube API unavailable'));};document.head.append(script);
+    });return apiPromise;
   }
-  async function play(card: HTMLElement, scroll = false) {
-    playing = true; show(card);
-    clearTimeout(readinessTimer);
-    // A provider iframe can stall without sending onReady or onError. Keep its original-video fallback reachable.
-    readinessTimer = setTimeout(() => { if (loading) get('player-error').hidden = false; }, 20000);
-    get('hero-play').hidden = true; get('player-host').hidden = false;
-    if (scroll) get('featured-title').scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth', block: 'start' });
-    if (player && !loading) { player.loadVideoById(card.dataset.id); return; }
-    if (loading) return;
-    loading = true;
-    try {
-      await loadAPI();
-      player = new win.YT.Player('youtube-player', {
-        width: '100%', height: '100%', host: 'https://www.youtube-nocookie.com', videoId: cards[current].dataset.id,
-        playerVars: { playsinline: 1, rel: 0, origin: location.origin },
-        events: {
-          onReady: (event: any) => { clearTimeout(readinessTimer); loading = false; event.target.loadVideoById(cards[current].dataset.id); },
-          onStateChange: (event: any) => {
-            if (event.data === 1) get('player-blocked').hidden = true;
-            if (event.data === 0 && get<HTMLInputElement>('auto-next').checked) {
-              void play(cards[endedVideoIndex(current, cards.length, true)]);
-            }
-          },
-          onError: () => { get('player-error').hidden = false; },
-          onAutoplayBlocked: () => { get('player-blocked').hidden = false; }
-        }
-      });
-    } catch { clearTimeout(readinessTimer); loading = false; playing = false; get('player-error').hidden = false; get('hero-play').hidden = false; get('player-host').hidden = true; }
-  }
-  function preview(direction: number) {
-    const card = featured[nextVideoIndex(slide, featured.length, direction)];
-    if (playing) void play(card); else show(card);
-  }
-  get('hero-play').addEventListener('click', () => void play(cards[current]));
-  get('video-next').addEventListener('click', () => void play(cards[nextVideoIndex(current, cards.length)]));
-  get('video-prev').addEventListener('click', () => void play(cards[nextVideoIndex(current, cards.length, -1)]));
-  get('slide-prev').addEventListener('click', () => preview(-1));
-  get('slide-next').addEventListener('click', () => preview(1));
-  const toggle = get('slide-toggle');
-  function updateToggle() { toggle.setAttribute('aria-pressed', String(paused)); toggle.querySelector<HTMLElement>('.pause-label')!.hidden = paused; toggle.querySelector<HTMLElement>('.resume-label')!.hidden = !paused; }
-  updateToggle();
-  toggle.addEventListener('click', () => { paused = !paused; updateToggle(); });
-  const cinema = document.querySelector<HTMLElement>('.featured')!;
-  cinema.addEventListener('mouseenter', () => hovering = true);
-  cinema.addEventListener('mouseleave', () => hovering = false);
-  cinema.addEventListener('focusin', () => focused = true);
-  cinema.addEventListener('focusout', event => focused = cinema.contains(event.relatedTarget as Node));
-  setInterval(() => { if (!paused && !playing && !hovering && !focused && !document.hidden) preview(1); }, 8000);
-  document.querySelectorAll<HTMLButtonElement>('.featured-item').forEach(button => button.addEventListener('click', () => void play(cards.find(c => c.dataset.id === button.dataset.video)!)));
-  cards.forEach(card => card.querySelector('button')!.addEventListener('click', () => void play(card, true)));
-  document.querySelectorAll<HTMLButtonElement>('[data-daily-video]').forEach(button => button.addEventListener('click', () => {
-    const card = cards.find(c => c.dataset.id === button.dataset.dailyVideo);
-    if (card) void play(card, true);
+  const controllers: Array<{group:string;play:(card:HTMLElement,scroll?:boolean)=>Promise<void>;pause:()=>void}> = [];
+  page.querySelectorAll<HTMLElement>('[data-player]').forEach(root=>{
+    const group=root.dataset.player!;
+    const column=root.closest<HTMLElement>('[data-group]')!;
+    const queue=Array.from(column.querySelectorAll<HTMLElement>('.video-card'));
+    const role=<T extends HTMLElement=HTMLElement>(name:string)=>root.querySelector<T>(`[data-role="${name}"]`)!;
+    const action=(name:string)=>root.querySelector<HTMLButtonElement>(`[data-action="${name}"]`)!;
+    let current=Math.max(0,queue.findIndex(c=>c.dataset.id===root.dataset.initial));
+    const slides=group==='study'?queue.filter(c=>c.dataset.featured==='true'):queue;
+    let player:any, loading=false, playing=false, paused=reducedMotion.matches, hovering=false, focused=false;
+    let readinessTimer:ReturnType<typeof setTimeout>|undefined;
+    function show(card:HTMLElement){
+      current=queue.indexOf(card);
+      role<HTMLImageElement>('image').src=card.querySelector<HTMLImageElement>('img')!.src;
+      role<HTMLImageElement>('image').alt=card.querySelector('h3')!.textContent!;
+      role('title').textContent=card.querySelector('h3')!.textContent;
+      role('description').textContent=card.querySelector('.card-description')!.textContent;
+      role('country').textContent=card.querySelector('.country')!.textContent;
+      role('channel').textContent=card.querySelector('.channel-name')!.textContent;
+      role<HTMLAnchorElement>('original').href=card.dataset.url!;
+      role('position').textContent=`${current+1} / ${queue.length}`;
+      role('error').hidden=true;role('blocked').hidden=true;
+      queue.forEach(c=>c.classList.toggle('is-playing',playing&&c===card));
+    }
+    const pause=()=>{player?.pauseVideo?.();};
+    async function play(card:HTMLElement,scroll=false){
+      activeGroup=group;
+      controllers.filter(c=>c.group!==group).forEach(c=>c.pause());
+      playing=true;show(card);clearTimeout(readinessTimer);
+      readinessTimer=setTimeout(()=>{if(loading)role('error').hidden=false;},20000);
+      root.querySelector<HTMLElement>('.poster-play')!.hidden=true;role('host').hidden=false;
+      if(scroll)root.scrollIntoView({behavior:reducedMotion.matches?'instant':'smooth',block:'start'});
+      if(player&&!loading){clearTimeout(readinessTimer);player.loadVideoById(card.dataset.id);return;}
+      if(loading)return;loading=true;
+      try{
+        await loadAPI();
+        player=new win.YT.Player(`${group}-youtube-player`,{width:'100%',height:'100%',host:'https://www.youtube-nocookie.com',videoId:queue[current].dataset.id,playerVars:{playsinline:1,rel:0,origin:location.origin},events:{
+          onReady:(event:any)=>{clearTimeout(readinessTimer);loading=false;if(activeGroup===group)event.target.loadVideoById(queue[current].dataset.id);else event.target.cueVideoById(queue[current].dataset.id);},
+          onStateChange:(event:any)=>{if(event.data===1){role('blocked').hidden=true;if(activeGroup!==group)event.target.pauseVideo();}if(event.data===0&&activeGroup===group&&role<HTMLInputElement>('autoplay').checked)void play(queue[endedVideoIndex(current,queue.length,true)]);},
+          onError:()=>{clearTimeout(readinessTimer);loading=false;role('error').hidden=false;},
+          onAutoplayBlocked:()=>{role('blocked').hidden=false;}
+        }});
+      }catch{clearTimeout(readinessTimer);loading=false;playing=false;role('error').hidden=false;root.querySelector<HTMLElement>('.poster-play')!.hidden=false;role('host').hidden=true;}
+    }
+    controllers.push({group,play,pause});show(queue[current]);
+    root.querySelector('.poster-play')!.addEventListener('click',()=>void play(queue[current]));
+    action('previous').addEventListener('click',()=>void play(queue[nextVideoIndex(current,queue.length,-1)]));
+    action('next').addEventListener('click',()=>void play(queue[nextVideoIndex(current,queue.length)]));
+    queue.forEach(card=>card.querySelector('button')!.addEventListener('click',()=>void play(card,true)));
+    function updateToggle(){action('carousel').setAttribute('aria-pressed',String(paused));role('pause-label').hidden=paused;role('resume-label').hidden=!paused;}
+    updateToggle();action('carousel').addEventListener('click',()=>{paused=!paused;updateToggle();});
+    root.addEventListener('mouseenter',()=>hovering=true);root.addEventListener('mouseleave',()=>hovering=false);
+    root.addEventListener('focusin',()=>focused=true);root.addEventListener('focusout',event=>focused=root.contains(event.relatedTarget as Node));
+    setInterval(()=>{if(!paused&&!playing&&!hovering&&!focused&&!document.hidden&&slides.length){const index=slides.indexOf(queue[current]);show(slides[nextVideoIndex(index,slides.length)]);}},8000);
+  });
+  page.querySelectorAll<HTMLButtonElement>('[data-daily-video]').forEach(button=>button.addEventListener('click',()=>{
+    const card=cards.find(c=>c.dataset.id===button.dataset.dailyVideo);
+    if(card)void controllers.find(c=>c.group===card.closest<HTMLElement>('[data-group]')!.dataset.group)?.play(card,true);
   }));
-  let filter = 'all';
-  const query = get<HTMLInputElement>('vlog-query');
-  function search() {
-    const term = query.value.trim().toLocaleLowerCase();
-    let count = 0;
-    cards.forEach(card => { card.hidden = !((filter === 'all' || filter === card.dataset.source || (filter === 'recommended' && card.dataset.recommended === 'true')) && card.textContent!.toLocaleLowerCase().includes(term)); if (!card.hidden) count++; });
-    get('result-count').textContent = String(count); get('no-results').hidden = count > 0;
-    document.querySelectorAll<HTMLButtonElement>('[data-filter]').forEach(button => button.setAttribute('aria-pressed', String(filter === button.dataset.filter)));
+  let filter='all';const query=page.querySelector<HTMLInputElement>('#vlog-query')!;
+  function search(){
+    const term=query.value.trim().toLocaleLowerCase();let total=0;const counts:Record<string,number>={};
+    page.dataset.searching=String(Boolean(term)||filter!=='all');
+    page.querySelectorAll<HTMLElement>('[data-group]').forEach(column=>{
+      let count=0;column.querySelectorAll<HTMLElement>('.video-card').forEach(card=>{card.hidden=!((filter==='all'||filter===card.dataset.source||(filter==='recommended'&&card.dataset.recommended==='true'))&&card.textContent!.toLocaleLowerCase().includes(term));if(!card.hidden)count++;});total+=count;
+      counts[column.dataset.group!]=count;
+      page.querySelector(`[data-column-count="${column.dataset.group}"]`)!.textContent=String(count);
+      page.querySelector(`[data-count="${column.dataset.group}"]`)!.textContent=String(count);
+      page.querySelector<HTMLElement>(`[data-empty="${column.dataset.group}"]`)!.hidden=count>0;
+    });
+    page.querySelector('#result-count')!.textContent=String(total);page.querySelector<HTMLElement>('#no-results')!.hidden=total>0;
+    page.querySelector<HTMLElement>('#search-active')!.hidden=!term&&filter==='all';
+    if(total>0&&counts[page.dataset.mobileView!]===0){
+      const selected=Object.keys(counts).find(key=>counts[key]>0)!;page.dataset.mobileView=selected;
+      page.querySelectorAll<HTMLButtonElement>('[data-view]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.view===selected)));
+      controllers.filter(c=>c.group!==selected).forEach(c=>c.pause());
+    }
+    page.querySelectorAll<HTMLButtonElement>('[data-filter]').forEach(b=>b.setAttribute('aria-pressed',String(filter===b.dataset.filter)));
   }
-  query.addEventListener('input', search);
-  get('video-search').addEventListener('submit', event => { event.preventDefault(); search(); });
-  document.querySelectorAll<HTMLButtonElement>('[data-filter]').forEach(button => button.addEventListener('click', () => { filter = button.dataset.filter!; search(); }));
-  get('reset-search').addEventListener('click', () => { query.value = ''; filter = 'all'; search(); query.focus(); });
+  query.addEventListener('input',search);page.querySelector('#video-search')!.addEventListener('submit',event=>{event.preventDefault();search();});
+  page.querySelectorAll<HTMLButtonElement>('[data-filter]').forEach(b=>b.addEventListener('click',()=>{filter=b.dataset.filter!;search();}));
+  page.querySelector('#reset-search')!.addEventListener('click',()=>{query.value='';filter='all';search();query.focus();});
+  page.querySelectorAll<HTMLButtonElement>('[data-view]').forEach(button=>button.addEventListener('click',()=>{
+    const selected=button.dataset.view!;page.dataset.mobileView=selected;
+    activeGroup=selected;
+    page.querySelectorAll<HTMLButtonElement>('[data-view]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.view===selected)));
+    controllers.filter(c=>c.group!==selected).forEach(c=>c.pause());
+    page.querySelector<HTMLElement>(`[data-group="${selected}"]`)!.scrollIntoView({behavior:reducedMotion.matches?'instant':'smooth',block:'start'});
+  }));
 </script>
 </BaseLayout>
-
 <style>
-.daily-cover .duration{position:absolute;bottom:8px;right:8px;padding:3px 6px;border-radius:4px;background:#001b32e8;color:#fff;font-size:11px;font-weight:700}
-.daily-picks{background:linear-gradient(125deg,#062d56,#075d9b);padding:24px;border-radius:18px;margin:0 0 28px;color:#fff}.daily-heading{display:flex;justify-content:space-between;gap:18px;align-items:center;margin-bottom:18px}.daily-eyebrow{font-size:10px;letter-spacing:.18em;color:#96d9ff;margin:0 0 6px}.daily-heading h2{font-size:30px;line-height:1.2;margin:0 0 7px;color:#fff}.daily-heading p:not(.daily-eyebrow){margin:0;font-size:13px;color:#d4e9f7}.daily-heading time{font-size:13px;color:#fff;border:1px solid #70b8e0;padding:7px 12px;border-radius:20px;white-space:nowrap}.daily-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.daily-card{min-width:0;background:#fff;border-radius:12px;overflow:hidden;color:#122c42}.daily-card button{padding:0;border:0;background:none;text-align:left;display:block;width:100%;height:100%;cursor:pointer;color:inherit}.daily-card button:focus-visible{outline:3px solid #ffc957;outline-offset:-3px}.daily-cover{position:relative;aspect-ratio:16/9;background:#163f60;overflow:hidden}.daily-cover img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .2s}.daily-card button:hover img{transform:scale(1.035)}.daily-number{position:absolute;top:9px;left:9px;background:#053765e8;font-size:13px;font-weight:800;color:white;padding:4px 8px;border-radius:5px}.daily-play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);background:#062c55df;color:#fff;border-radius:50%;padding:10px 13px;font-size:17px}.daily-copy{padding:12px 14px 14px}.daily-source{font-size:11px;font-weight:700;color:#0877b7}.daily-copy h3{font-size:17px;line-height:1.45;margin:5px 0 7px;color:#112f49}.daily-copy p{font-size:12px;line-height:1.6;margin:0 0 9px;color:#536373;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.daily-channel{font-size:11px;color:#617c91}@media(max-width:1000px){.daily-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:520px){.daily-picks{padding:16px 12px;border-radius:12px}.daily-heading{align-items:flex-start;gap:10px}.daily-heading h2{font-size:25px}.daily-heading p:not(.daily-eyebrow){font-size:12px}.daily-heading time{font-size:11px;padding:5px 8px}.daily-grid{gap:10px}.daily-copy{padding:9px}.daily-copy h3{font-size:14px}.daily-copy p{display:none}.daily-channel{font-size:10px}.daily-play{padding:7px 10px;font-size:13px}}
-.card-description{font-size:13px;line-height:1.6;color:#555;margin:8px 0 0 45px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
-@media(max-width:760px){.card-description{margin-left:0}}
-
-:global(body:has(.vlog-page)){background:#fff;color:#0f0f0f;font-family:Arial,"Noto Sans TC","Microsoft JhengHei",sans-serif;line-height:1.5}
-:global(body:has(.vlog-page) .language-bar){background:#fff!important;color:#606060!important;border-bottom:1px solid #eee!important}
-:global(body:has(.vlog-page) .language-inner){min-height:0!important;padding:4px 24px!important;max-width:none!important;justify-content:flex-end!important}
-:global(body:has(.vlog-page) .language-label){display:none!important}
-:global(body:has(.vlog-page) .language-bar a){padding:3px 9px!important;font-size:11px!important;background:#f2f2f2!important;color:#333!important;border:0!important}
-:global(body:has(.vlog-page) .translation-note){font-size:11px!important;margin:0!important;padding:5px 24px!important;background:#fafafa!important}
-.vlog-page [hidden]{display:none!important}.vlog-page button,.vlog-page input{font:inherit}.vlog-page button{cursor:pointer}.vlog-page a:hover{color:#0f0f0f}.vlog-page :is(button,a,input):focus-visible{outline:2px solid #065fd4;outline-offset:3px}
-.video-topbar{display:flex;align-items:center;gap:30px;min-height:70px;padding:10px 30px 10px 22px;background:white;position:sticky;top:0;z-index:25;border-bottom:1px solid #f4f4f4}
-.video-brand{display:flex;align-items:center;gap:8px;white-space:nowrap;min-width:230px}.video-brand strong{font-size:23px;letter-spacing:-1px}.video-brand small{font-size:10px;align-self:flex-start;color:#666;margin-top:4px}.brand-play{display:grid;place-items:center;width:34px;height:24px;border-radius:7px;background:#f03;color:#fff;font-size:12px}
-#video-search{display:flex;max-width:650px;flex:1;border:1px solid #c6c6c6;border-radius:24px;height:42px;overflow:hidden;margin:auto}#vlog-query{border:0;background:white;padding:10px 20px;min-width:0;flex:1;font-size:15px;box-shadow:inset 0 1px 2px #eee}#video-search button{border:0;border-left:1px solid #d3d3d3;background:#f8f8f8;padding:0 22px;display:grid;place-items:center}.back-home{display:inline-flex;align-items:center;justify-content:center;gap:6px;flex-shrink:0;min-height:44px;padding:10px 16px;border:1px solid #183449;border-radius:24px;background:#183449;color:#fff;font-size:14px;font-weight:700;text-decoration:none}.vlog-page .back-home:hover{background:#244d68;color:#fff}
-.video-sidebar{position:absolute;left:8px;top:115px;width:76px;display:flex;flex-direction:column;gap:10px;z-index:2}.video-sidebar button,.video-sidebar a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;background:white;border:0;border-radius:12px;padding:12px 2px;min-height:75px;font-size:10px;color:#222}.video-sidebar span{font-size:27px;line-height:1}.video-sidebar button:hover,.video-sidebar a:hover{background:#f2f2f2}.video-sidebar [aria-pressed="true"]{background:#f2f2f2;font-weight:700}
-.channel-content{margin-left:96px;padding:0 30px 36px 12px;max-width:1900px}.filter-row{display:flex;gap:10px;overflow:auto;scrollbar-width:none;padding:15px 0 12px;white-space:nowrap}.filter-row button{border:0;border-radius:8px;background:#f2f2f2;padding:8px 14px;font-size:13px;font-weight:600;flex:none}.filter-row button[aria-pressed="true"]{background:#0f0f0f;color:#fff}
-.channel-heading{display:flex;align-items:center;gap:16px;padding:12px 0 20px;border-bottom:1px solid #eee}.channel-avatar{border-radius:50%;display:grid;place-items:center;width:58px;height:58px;flex:none;background:#172b3d;color:#fff;font-size:29px;font-weight:700}.channel-heading h1{font-size:27px;line-height:1.2;margin:0 0 7px;font-weight:750}.channel-heading p{font-size:12px;color:#606060;margin:0}.channel-action{margin-left:auto;border-radius:22px;padding:10px 18px;background:#0f0f0f;color:white!important;font-size:13px;font-weight:600}
-.featured{padding:18px 0 25px;border-bottom:1px solid #eee}.section-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;gap:12px}.section-top h2{font-size:17px;margin:0}.carousel-tools{display:flex;align-items:center;gap:8px;font-size:11px;color:#606060}.carousel-tools button{border:0;background:#f2f2f2;border-radius:20px;min-width:30px;padding:5px 10px;color:#111;font-size:13px}.carousel-tools #slide-prev,.carousel-tools #slide-next{font-size:22px;padding:0;width:30px;height:30px}.cinema-grid{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(260px,1fr);gap:28px;max-width:1200px;margin:0 auto;align-items:center}
-.screen{position:relative;aspect-ratio:16/9;overflow:hidden;border-radius:12px;background:#000}#hero-play{display:block;border:0;padding:0;width:100%;height:100%;background:#000;position:relative}#hero-image{width:100%;height:100%;object-fit:contain}.play-round{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:68px;height:48px;border-radius:12px;display:grid;place-items:center;padding-left:3px;background:#000b;color:white;font-size:24px}#hero-play:hover .play-round{background:#f03}#player-host{position:absolute;inset:0}#player-host :global(iframe){border:0;width:100%;height:100%}
-.feature-info{padding:10px 0;min-width:0}.feature-kicker{font-size:11px;color:#606060;display:flex;align-items:center;gap:5px;margin:0 0 10px}.red-dot{height:7px;width:7px;border-radius:50%;background:#f03;margin-right:3px}#hero-title{font-size:clamp(19px,1.8vw,26px);line-height:1.4;margin:0 0 12px;font-weight:700}#hero-description{font-size:13px;color:#606060;line-height:1.7;margin:0 0 16px}.feature-channel{display:flex;gap:10px;align-items:center;font-size:12px;color:#333}.small-avatar{display:grid;place-items:center;flex:none;width:34px;height:34px;border-radius:50%;background:#172b3d;color:#fff;font-size:17px;font-weight:600}.official-avatar{background:#635b40}
-.playback-tools{display:flex;gap:8px;margin-top:18px}.playback-tools button{border:0;border-radius:20px;background:#f2f2f2;padding:9px 15px;font-size:12px;font-weight:600}.autoplay{display:flex;align-items:center;gap:7px;font-size:12px;margin-top:14px;cursor:pointer}.autoplay input{accent-color:#0f0f0f;width:16px;height:16px}.queue-note{font-size:11px;color:#777;margin:9px 0 0}.player-message{padding:10px;background:#fff1e9;font-size:12px;margin-top:12px;border-radius:8px}.player-message a{color:#065fd4;text-decoration:underline}
-.library{padding-top:22px}.library-heading{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}.library h2{font-size:20px;margin:0}.result-count{font-size:12px;color:#606060;margin:0}.video-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px 18px}.video-card{min-width:0}.card-play{display:block;padding:0;border:0;background:none;text-align:left;width:100%;color:inherit}.card-cover{position:relative;aspect-ratio:16/9;background:#111;border-radius:12px;overflow:hidden}.card-cover img{width:100%;height:100%;object-fit:cover;transition:transform .2s}.card-play:hover .card-cover img{transform:scale(1.03)}.duration{position:absolute;bottom:7px;right:7px;background:#000c;color:#fff;font-size:11px;font-weight:600;line-height:1.4;border-radius:4px;padding:1px 4px}.card-play-icon{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);display:grid;place-items:center;width:52px;height:38px;border-radius:8px;background:#f03;color:white;opacity:0}.card-play:hover .card-play-icon,.card-play:focus-visible .card-play-icon{opacity:1}.is-playing .card-cover{outline:2px solid #f03;outline-offset:2px}
-.card-title-row{display:flex;gap:11px;align-items:flex-start;margin-top:12px}.card-play h3{font-size:15px;line-height:1.45;margin:0;font-weight:650}.card-details{margin-left:45px;margin-top:3px}.channel-name,.card-meta{font-size:12px;color:#606060;margin:0;line-height:1.65}.source-label{color:#606060}.empty-state{text-align:center;background:#f8f8f8;padding:40px 20px;border-radius:12px}.empty-state h3{font-size:18px}.empty-state p{font-size:13px;color:#606060}#reset-search{border:0;background:#0f0f0f;color:#fff;padding:10px 18px;border-radius:20px}
-.submission-banner{margin-top:40px;border-top:1px solid #e5e5e5;padding-top:28px;display:flex;align-items:center;justify-content:space-between;gap:25px;scroll-margin-top:90px}.submission-banner h2{font-size:19px;margin:0 0 8px}.submission-banner p{font-size:13px;color:#606060;max-width:720px;margin:0;line-height:1.8}.submission-banner a{white-space:nowrap;border-radius:22px;background:#f2f2f2;padding:12px 18px;font-size:13px}.video-footer{font-size:11px;color:#777;margin-top:30px}.video-footer a{margin-right:16px}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
-@media(min-width:1800px){.video-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
-@media(max-width:1100px){.video-topbar{flex-wrap:wrap;gap:16px;padding:10px 18px}#video-search{order:2;flex-basis:100%;max-width:none}.back-home{margin-left:auto}.video-brand{min-width:190px}.video-brand strong{font-size:20px}.back-home{display:inline-flex}.cinema-grid{grid-template-columns:minmax(0,1.45fr) minmax(230px,1fr);gap:20px}.channel-content{padding-right:22px}.video-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.queue-note{display:none}}
-@media(max-width:760px){.video-topbar{flex-wrap:wrap;gap:12px;padding:12px 16px;position:relative}.video-brand{min-width:0}.video-brand strong{font-size:22px}#video-search{order:2;width:100%;max-width:none;flex:auto;height:40px}.back-home{display:inline-flex;font-size:12px;margin-left:auto;padding:8px 12px;white-space:normal;text-align:center;max-width:100%}.video-sidebar{display:none}.channel-content{margin:0;padding:0 16px 28px}.channel-heading{gap:12px}.channel-avatar{width:46px;height:46px;font-size:24px}.channel-heading h1{font-size:23px}.channel-heading p{font-size:11px}.channel-action{display:none}.cinema-grid{grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:16px;align-items:start}#hero-title{font-size:17px}#hero-description{font-size:12px;margin-bottom:10px}.feature-channel{font-size:11px}.feature-channel .small-avatar{display:none}.feature-info{padding:0}.autoplay{margin-top:10px}.playback-tools{margin-top:12px}.playback-tools button{padding:7px 10px;font-size:11px}.video-grid{gap:26px 14px}.card-play h3{font-size:14px}.card-details{margin-left:0}.card-title-row .small-avatar{display:none}.submission-banner{flex-direction:column;align-items:flex-start}}
-@media(max-width:520px){.cinema-grid{grid-template-columns:1fr;gap:14px}.feature-info{display:grid;grid-template-columns:1fr auto;gap:7px 12px}.feature-kicker,#hero-title,#hero-description,.feature-channel,.queue-note,.player-message{grid-column:1/-1}#hero-title{font-size:18px;margin:0}#hero-description{margin:0}.feature-kicker{margin:0}.feature-channel{margin-top:3px}.playback-tools{margin:0}.autoplay{margin:0}.video-grid{grid-template-columns:1fr;gap:26px}.card-title-row .small-avatar{display:grid}.card-details{margin-left:45px}.card-play h3{font-size:16px}.channel-content{padding:0 12px 28px}.filter-row{gap:8px}.filter-row button{font-size:12px;padding:7px 11px}.section-top h2{font-size:15px}.carousel-tools{gap:5px}.carousel-tools button{font-size:11px;padding:5px 8px}.featured{padding-top:14px}.library h2{font-size:18px}}
-@media(prefers-reduced-motion:reduce){.card-cover img{transition:none}}
+:global(body:has(.vlog-page) .language-bar){position:relative!important;top:auto!important}
+:global(body:has(.vlog-page)){overflow-x:clip;overflow-y:visible}
+.vlog-page[data-searching="true"] :global(.vlog-player),.vlog-page[data-searching="true"] .daily-picks,.vlog-page[data-searching="true"] .tour-note{display:none}.channel-column{scroll-margin-top:75px}
+:global(body:has(.vlog-page)){background:#f8fafc;color:#173349;font-family:Arial,"Noto Sans TC","Microsoft JhengHei",sans-serif;line-height:1.5}:global(body:has(.vlog-page) .language-bar){background:#fff!important;color:#506575!important;border-bottom:1px solid #e7eef4!important}:global(body:has(.vlog-page) .language-inner){min-height:0!important;padding:4px 24px!important;max-width:none!important;justify-content:flex-end!important}:global(body:has(.vlog-page) .language-label){display:none!important}:global(body:has(.vlog-page) .language-bar a){padding:3px 9px!important;font-size:11px!important;background:#eff4f8!important;color:#274d68!important;border:0!important}:global(body:has(.vlog-page) .translation-note){font-size:11px!important;margin:0!important;padding:5px 24px!important;background:#f5f8fb!important}
+.vlog-page :global([hidden]){display:none!important}.vlog-page :global(button),.vlog-page input{font:inherit}.vlog-page :global(:is(button,a,input):focus-visible){outline:3px solid #2588c7;outline-offset:3px}.video-topbar{display:flex;align-items:center;gap:30px;padding:14px 30px;background:#fff;border-bottom:1px solid #dfe8ef;position:sticky;top:0;z-index:20}.video-brand{display:flex;align-items:center;gap:9px;white-space:nowrap;color:#12354f;text-decoration:none}.video-brand strong{font-size:23px}.brand-play{display:grid;place-items:center;width:34px;height:25px;border-radius:8px;background:#0877b8;color:white;font-size:12px}#video-search{display:flex;flex:1;max-width:620px;margin:auto;border:1px solid #becfdb;border-radius:24px;overflow:hidden;height:43px}#vlog-query{padding:10px 18px;min-width:0;flex:1;border:0;background:#fff;font-size:14px}#video-search button{border:0;border-left:1px solid #dce7ef;background:#f0f5f9;padding:0 20px;font-size:13px;cursor:pointer;color:#1e4b6c}.back-home{white-space:nowrap;text-decoration:none;font-size:12px;font-weight:700;border:1px solid #c6d7e3;border-radius:22px;padding:10px 15px;color:#234e6b}.channel-content{max-width:1600px;margin:0 auto;padding:0 30px 40px}.channel-heading{display:flex;justify-content:space-between;align-items:center;gap:25px;padding:26px 0 20px}.channel-eyebrow{font-size:10px;letter-spacing:.17em;color:#507897;margin:0 0 9px}.channel-heading h1{font-size:30px;letter-spacing:-.02em;line-height:1.3;margin:0 0 8px;color:#133b58}.channel-heading p:not(.channel-eyebrow){margin:0;font-size:13px;color:#597083}.channel-action{flex:none;color:#fff;background:#143f60;padding:11px 18px;border-radius:22px;font-size:12px;text-decoration:none}.filter-row{display:flex;gap:9px;overflow:auto;padding:0 0 16px;white-space:nowrap}.filter-row button{flex:none;border:1px solid #d9e4ec;background:#fff;border-radius:20px;color:#3e5c72;padding:7px 14px;font-size:12px;cursor:pointer}.filter-row button[aria-pressed="true"]{background:#143f60;color:white;border-color:#143f60}.search-summary{font-size:11px;color:#718494;margin:0 0 12px}.vlog-columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:30px;align-items:start}.channel-column{min-width:0}.column-heading{background:linear-gradient(120deg,#073252,#09649a);padding:19px 22px;border-radius:15px 15px 0 0;color:white;margin-bottom:15px}.channel-column[data-group="tour"] .column-heading{background:linear-gradient(120deg,#116060,#197c81)}.column-heading>p:first-child{font-size:10px;letter-spacing:.18em;color:#a9dff9;margin:0 0 7px}.column-heading>div{display:flex;align-items:center;justify-content:space-between;gap:12px}.column-heading h2{font-size:27px;line-height:1.3;margin:0;color:#fff}.column-count{font-size:11px;border:1px solid #ffffff60;border-radius:15px;padding:4px 9px;white-space:nowrap}.column-heading .column-description{font-size:12px;color:#e0f2fc;margin:9px 0 0;line-height:1.6}.channel-column :global(.vlog-player){scroll-margin-top:90px}.daily-picks{margin:24px 0;background:#eaf3fb;padding:17px;border-radius:13px}.daily-heading{display:flex;align-items:center;justify-content:space-between;gap:10px}.daily-heading h3{font-size:18px;margin:0;color:#154d75}.daily-heading time{font-size:11px;color:#456c88}.daily-picks>p{font-size:11px;color:#56788f;margin:8px 0 13px}.daily-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.daily-grid button{border:0;padding:0;background:#fff;text-align:left;border-radius:8px;overflow:hidden;cursor:pointer;color:#1f4561}.daily-grid img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}.daily-grid span{display:block;font-size:12px;line-height:1.5;padding:8px 10px;font-weight:700}.tour-note{padding:17px 19px;background:#e9f5f4;border:1px solid #d2e8e6;border-radius:12px;margin:24px 0;color:#205c60}.tour-note strong{font-size:14px}.tour-note p{font-size:12px;line-height:1.8;margin:7px 0 0}.library-heading{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:25px 0 16px;border-top:1px solid #dde7ee;padding-top:20px}.library-heading h3{font-size:18px;margin:0}.library-heading a{font-size:11px;color:#377297;text-decoration:none}.video-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:25px 16px}.column-empty,.empty-state{text-align:center;padding:30px 18px;background:#eff4f8;border-radius:12px;font-size:13px;margin:15px 0}.column-empty h3,.empty-state h3{font-size:17px}.empty-state button{border:0;background:#143f60;color:white;border-radius:20px;padding:10px 18px;cursor:pointer}.submission-banner{border-top:1px solid #dce6ed;display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:40px;padding-top:25px}.submission-banner h2{font-size:19px;margin:0 0 8px}.submission-banner p{font-size:12px;color:#647b8c;line-height:1.8;margin:0}.submission-banner a{flex:none;border-radius:22px;background:#e8f0f6;padding:11px 17px;font-size:12px;text-decoration:none;color:#275c80}.video-footer{font-size:11px;color:#6d8392;margin-top:25px}.video-footer a{margin-right:17px;color:#456c85}.mobile-switch{display:none}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media(min-width:1500px){.video-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(max-width:1100px){.video-topbar{gap:18px;padding:12px 22px}.video-brand strong{font-size:20px}.channel-content{padding:0 22px 30px}.vlog-columns{gap:22px}.column-heading{padding:18px}.column-heading h2{font-size:24px}.back-home{max-width:165px;white-space:normal;text-align:center;font-size:11px}.channel-heading h1{font-size:27px}}
+@media(max-width:760px){.video-topbar{position:relative;flex-wrap:wrap;gap:14px;padding:13px 16px}.video-brand strong{font-size:21px}.back-home{margin-left:auto;max-width:none;font-size:11px;padding:8px 11px}#video-search{order:3;flex-basis:100%;max-width:none;height:41px}.channel-content{padding:0 15px 28px}.channel-heading{padding-top:22px}.channel-heading h1{font-size:25px}.channel-heading p:not(.channel-eyebrow){font-size:12px}.channel-action{display:none}.mobile-switch{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;position:sticky;top:0;z-index:21;background:#f8fafcf5;padding:9px 0 12px;margin:0 0 8px}.mobile-switch button{display:flex;gap:9px;justify-content:center;align-items:center;border:1px solid #bed0de;border-radius:10px;background:#fff;color:#315d7b;padding:12px 7px;font-size:15px;font-weight:700;cursor:pointer}.mobile-switch button[aria-pressed="true"]{background:#143f60;border-color:#143f60;color:#fff}.mobile-switch span{font-size:10px;background:#d7e7f0;color:#245675;border-radius:10px;padding:1px 6px}.vlog-columns{display:block}.vlog-page[data-mobile-view="study"] [data-group="tour"],.vlog-page[data-mobile-view="tour"] [data-group="study"]{display:none}.column-heading h2{font-size:26px}.video-grid{gap:25px 15px}.channel-column :global(.vlog-player){scroll-margin-top:80px}.submission-banner{flex-direction:column;align-items:flex-start}.filter-row{gap:7px;padding-bottom:8px}.filter-row button{font-size:11px;padding:7px 12px}}
+@media(max-width:380px){.video-brand strong{font-size:19px}.back-home{font-size:10px;padding:8px}.column-heading{padding:16px}.column-heading h2{font-size:24px}.video-grid{gap:22px 12px}.channel-heading h1{font-size:23px}}
 </style>
