@@ -1,17 +1,17 @@
 {
   "status": "ready",
-  "updatedAt": "2026-10-26T06:08:34.075Z",
+  "updatedAt": "2026-10-27T06:14:16.074Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
     {
-      "title": "加拿大Memorial國際生減少：一年與三年降幅不能混讀｜環球教育新聞網 Global Education News",
-      "path": "/news/memorial-international-enrolment-measures-2026/",
-      "views": 6
-    },
-    {
       "title": "最新國際教育新聞",
       "path": "/news/",
+      "views": 7
+    },
+    {
+      "title": "加拿大Memorial國際生減少：一年與三年降幅不能混讀｜環球教育新聞網 Global Education News",
+      "path": "/news/memorial-international-enrolment-measures-2026/",
       "views": 6
     },
     {
@@ -32,64 +32,64 @@
   ],
   "countries": [
     {
-      "name": "美國",
-      "mapName": "United States",
-      "sessions": 108,
-      "share": 40.3
-    },
-    {
       "name": "台灣",
       "mapName": "Taiwan",
-      "sessions": 106,
-      "share": 39.6
+      "sessions": 110,
+      "share": 43.3
+    },
+    {
+      "name": "美國",
+      "mapName": "United States",
+      "sessions": 94,
+      "share": 37
     },
     {
       "name": "中國",
       "mapName": "China",
       "sessions": 12,
-      "share": 4.5
+      "share": 4.7
     },
     {
       "name": "愛爾蘭",
       "mapName": "Ireland",
-      "sessions": 10,
-      "share": 3.7
+      "sessions": 9,
+      "share": 3.5
     },
     {
       "name": "瑞典",
       "mapName": "Sweden",
-      "sessions": 10,
-      "share": 3.7
+      "sessions": 9,
+      "share": 3.5
     },
     {
       "name": "印度",
       "mapName": "India",
-      "sessions": 7,
-      "share": 2.6
+      "sessions": 6,
+      "share": 2.4
     },
     {
       "name": "德國",
       "mapName": "Germany",
       "sessions": 4,
-      "share": 1.5
+      "share": 1.6
     },
     {
       "name": "香港",
       "mapName": "Hong Kong",
       "sessions": 4,
-      "share": 1.5
+      "share": 1.6
     },
     {
       "name": "加拿大",
       "mapName": "Canada",
       "sessions": 2,
-      "share": 0.7
+      "share": 0.8
     },
     {
-      "name": "Netherlands",
-      "mapName": "Netherlands",
-      "sessions": 2,
-      "share": 0.7
+      "name": "Afghanistan",
+      "mapName": "Afghanistan",
+      "sessions": 1,
+      "share": 0.4
     }
   ]
 }
