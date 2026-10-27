@@ -83,6 +83,8 @@ const groups = [
     const pause=()=>{player?.pauseVideo?.();};
     async function play(card:HTMLElement,scroll=false){
       activeGroup=group;
+      page.dataset.searching='false';page.dataset.mobileView=group;
+      page.querySelectorAll<HTMLButtonElement>('[data-view]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.view===group)));
       controllers.filter(c=>c.group!==group).forEach(c=>c.pause());
       playing=true;show(card);clearTimeout(readinessTimer);
       readinessTimer=setTimeout(()=>{if(loading)role('error').hidden=false;},20000);
