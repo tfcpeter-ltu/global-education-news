@@ -1,0 +1,66 @@
+[
+  {
+    "key": "au",
+    "campaign": "news",
+    "topic": "aiec-sydney",
+    "title": "AIEC雪梨開幕：AI與跨境教育如何改變選校？",
+    "benefit": "看懂四天會議焦點，分清討論與正式政策。",
+    "summary": "第40屆AIEC於10月27至30日在雪梨舉行，聚焦科技、學生流動與跨境教育。",
+    "advice": "台灣家庭比較授課地點、學位及支持服務，政策仍回官方查核。",
+    "section": "國際教育新聞",
+    "sectionUrl": "https://globalednews.com/news/",
+    "lines": [
+      "AIEC雪梨開幕",
+      "AI與跨境教育焦點"
+    ],
+    "url": "https://globalednews.com/news/australia-aiec-2026-future-thinking/"
+  },
+  {
+    "key": "excel",
+    "campaign": "scholarship",
+    "topic": "uni-excel-2027",
+    "title": "北愛荷華Excel獎助：每年最高4,000美元",
+    "benefit": "台灣新生及轉學生可申請，須先錄取再另填表。",
+    "summary": "International Excel每年1,000至4,000美元、最多四年；2月1日優先截止，須符合英文、學業及領導服務條件。",
+    "advice": "短文須本人撰寫，禁止AI代寫；得獎及續領依校方通知。",
+    "section": "國際獎學金雷達",
+    "sectionUrl": "https://globalednews.com/scholarships/",
+    "lines": [
+      "北愛荷華Excel獎助",
+      "每年最高4,000美元"
+    ],
+    "url": "https://globalednews.com/scholarships/items/2026-10-uni-international-excel-2027/"
+  },
+  {
+    "key": "diy",
+    "campaign": "study-abroad",
+    "topic": "northern-iowa-routes",
+    "title": "申請北愛荷華：自動評估與另填表，別漏一步",
+    "benefit": "把入學身分與獎助流程拆開，預算才算得準。",
+    "summary": "Transfer Scholar限轉學生，一次1,000美元；Excel需另申請，最多四年，兩者不是同一項。",
+    "advice": "先核對課程、學分與英文要求，再用正式獎助通知估算費用。",
+    "section": "留學DIY導航",
+    "sectionUrl": "https://globalednews.com/study-abroad/",
+    "lines": [
+      "北愛荷華申請指南",
+      "兩種獎助路徑分清楚"
+    ],
+    "url": "https://globalednews.com/study-abroad/northern-iowa-scholarship-routes-2027/"
+  },
+  {
+    "key": "taiwan",
+    "campaign": "taiwan-universities",
+    "topic": "nthu-preference-deadline",
+    "title": "清華交換選志願：11月10日截止，別當新報名",
+    "benefit": "把申請截止與志願選填分開看，選校才不踩空。",
+    "summary": "2027秋2028春交換新申請已於10月8日截止；合格申請人的志願選填至11月10日16:00。",
+    "advice": "先查語言、年級及科系限制，再用國內大學資料庫比較學習方向。",
+    "section": "國內大學選校選系資料庫",
+    "sectionUrl": "https://globalednews.com/taiwan-universities/",
+    "lines": [
+      "清華交換選志願",
+      "11月10日截止"
+    ],
+    "url": "https://globalednews.com/taiwan-universities/"
+  }
+]

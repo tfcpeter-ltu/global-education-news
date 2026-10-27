@@ -1,0 +1,23 @@
+{
+  "runtime": "C:\\Users\\User\\AppData\\Local\\Temp\\globalednews-security-20261019",
+  "copied": [
+    "docs/daily-checks/2026-10-28/astro.log",
+    "docs/daily-checks/2026-10-28/runtime-sync.json",
+    "docs/daily-reports/2026-10-28.json",
+    "docs/image-licenses/2026-10-28.json",
+    "docs/social-posts/2026-10-28/study-abroad--northern-iowa-routes.json",
+    "public/images/daily/2026-10-28/credits.html",
+    "public/images/daily/2026-10-28/diy.jpg",
+    "public/images/daily/2026-10-28/peter.jpg",
+    "public/images/share-photos/26dd557f7dc013c145b81033.jpg",
+    "public/images/share-photos/63a27dab9f003747b38234a0.jpg",
+    "public/images/share-photos/79feae9a1bcfb7eebc178251.jpg",
+    "public/images/share-photos/cf6f8bbbe72d2b0dda9e4beb.jpg",
+    "public/images/share-photos/credits.json",
+    "public/images/share-photos/sources.json",
+    "src/data/i18n/en-overrides.json",
+    "src/data/i18n/en.json",
+    "src/data/peter-articles.json",
+    "src/pages/study-abroad/northern-iowa-scholarship-routes-2027.md"
+  ]
+}

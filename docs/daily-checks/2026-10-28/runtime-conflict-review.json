@@ -1,0 +1,77 @@
+[
+  {
+    "path": "docs/social-posts/2026-10-27/news--immunequity-research.json",
+    "sourceSha": "ca3fa77ba407e931f6db6be11e538751df41b97a8e266528f4ec73ad6ba1b778",
+    "runtimeSha": "f30e9bc6e55347c4eaf33896f48c1f797485e950e695a9ea2be56a18b79e9c42"
+  },
+  {
+    "path": "docs/social-posts/2026-10-27/publication-log.json",
+    "sourceSha": "d29e6467b46f174df91f8502ff098b39a1dd0fc688ed02f2c23a368a083bd96a",
+    "runtimeSha": "01ecd920bbeeea4465e1cfa6d1177aa435a2d19d4ea889ee880c255c500c5a3c"
+  },
+  {
+    "path": "docs/social-posts/2026-10-27/scholarship--kentucky-bluegrass.json",
+    "sourceSha": "e0cdc71353ae87f67908b9cc9d3da76c4f7ba4dac8849df1fd2eb3df966305e0",
+    "runtimeSha": "130b250a300738d98566ae6f4946535fba4a8ddc9c621fe722e4fbb6e8370097"
+  },
+  {
+    "path": "docs/social-posts/2026-10-27/study-abroad--kentucky-application-routes.json",
+    "sourceSha": "b12980c3c9c39888636fa668ea2010fcfa7f87ceec82b224d5ef66bb7bb0cbfc",
+    "runtimeSha": "0274ee6a5c6fdd4ccb86c1aee26de5a68eab27166a26d7fec200c2f74f215bac"
+  },
+  {
+    "path": "docs/social-posts/2026-10-27/taiwan-universities--ntu-exchange-planning.json",
+    "sourceSha": "78d855eda78f3d4b025db4dbe461ac518b04c5e3a4c787aed2b7d022379a6ff6",
+    "runtimeSha": "fb757c744b1c6437a5f607903803e12243bec290c7c84b6e8e3e69869a13869a"
+  },
+  {
+    "path": "docs/vlog-editorial.md",
+    "sourceSha": "39069bb539b73808dc6942c6e497e224996e25521da96baead908ccf289d4598",
+    "runtimeSha": "54d4635cb9aa62d76c7c99263450a07b1fd9726a8cf84470dfe3dfffaf79a0bf"
+  },
+  {
+    "path": "public/data/analytics-summary.json",
+    "sourceSha": "3de2250320cc0ef6e6cf7ba02767616f772b9d6f8c6b62a255ef5cfd931489a2",
+    "runtimeSha": "9f362ff237ed05b2d7e38359fbc487e7d3a34283773bf7d65a3974c015633d78"
+  },
+  {
+    "path": "public/images/share-photos/credits.json",
+    "sourceSha": "a2ec9adbb6d98c3fa716711db8db875e6d941c9cb1e18add3e8b03568922cac5",
+    "runtimeSha": "725c1b49df3e8e43b7d1b78def292d93946335b03d8a8dcfd470e3a41d02a112"
+  },
+  {
+    "path": "public/images/share-photos/sources.json",
+    "sourceSha": "2953955734f11d3c85b35d40ddeb9a1eff89ef8edc201311718dab455393974e",
+    "runtimeSha": "0d2e28d83afc96274f5f7ae792f36fb78d4c02c24d5002150b88a471ffffb1cf"
+  },
+  {
+    "path": "scripts/test-vlog.mjs",
+    "sourceSha": "b70867a9a00e047022dd533d8fb150aac794121b9e81ff0f6cdc8fc3643a9f9a",
+    "runtimeSha": "946c4086675e73aa24e87789be3cf21ae8f43fba84cbbf56306efc7a88680f7d"
+  },
+  {
+    "path": "src/data/i18n/en-overrides.json",
+    "sourceSha": "19bb4dafe62b446caed1cd081d55db76b650bf5477074f3a508c4d374e011d97",
+    "runtimeSha": "c8fed7976e97e311f54f5dca016a33ee150d59eb4d84890c3cb2aa348a66906f"
+  },
+  {
+    "path": "src/data/i18n/en.json",
+    "sourceSha": "fedb50bae9ba982d96e19904aa8ae14ece85bd1a59822c0c25ccc52dffdf7054",
+    "runtimeSha": "ebaceb8676102adb242ef73a51d8d1c6b5fd49c7a52cf61c5b9e50fa1cef6021"
+  },
+  {
+    "path": "src/data/peter-articles.json",
+    "sourceSha": "d865a0cdbc71f34489418f46824f08c6c0884fe4f7dd8e3700c33079fef47898",
+    "runtimeSha": "2224f99dd765f25e3e69cac70bd0f42acc83eddc1a98b833c4dce54ae9a75133"
+  },
+  {
+    "path": "src/data/vlog-videos.json",
+    "sourceSha": "fee8a469a872139bc1fd16cd5cdb367c71ced02a3fcd24123d18025b506df66d",
+    "runtimeSha": "0a085b30f574a303761ef8470009322744d83502b6a1ce3fe99c17a2abe29b8d"
+  },
+  {
+    "path": "src/pages/vlog/index.astro",
+    "sourceSha": "1fd2fccf6f37cd2c30ea72a465b4ffeaef871b839dc25a01b9c34e931196ebad",
+    "runtimeSha": "67218653a09fde9972d3b18ea3841a4ef7e5efabb18c297bb3da796412415058"
+  }
+]

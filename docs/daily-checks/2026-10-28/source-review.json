@@ -1,0 +1,163 @@
+{
+  "checkedAt": "2026-10-28T05:12:13.722712+08:00",
+  "news": [
+    {
+      "slug": "australia-aiec-2026-future-thinking",
+      "title": "澳洲AIEC雪梨開幕：四天聚焦AI、跨境教育與學生流動",
+      "url": "https://globalednews.com/news/australia-aiec-2026-future-thinking/",
+      "publishedPath": "src/pages/news/australia-aiec-2026-future-thinking.md",
+      "sources": [
+        {
+          "label": "Official source",
+          "url": "https://aiec.idp.com/home"
+        },
+        {
+          "label": "Independent editorial cross-check",
+          "url": "https://thepienews.com/aiec-at-40-australian-international-education-looks-to-its-next-chapter/"
+        }
+      ],
+      "verifiedAt": "2026-10-28T05:12:13.722712+08:00"
+    },
+    {
+      "slug": "us-cu-denver-hyderabad-2027-plan",
+      "title": "美國CU Denver規劃海德拉巴據點：預計2027首招，認證仍待核准",
+      "url": "https://globalednews.com/news/us-cu-denver-hyderabad-2027-plan/",
+      "publishedPath": "src/pages/news/us-cu-denver-hyderabad-2027-plan.md",
+      "sources": [
+        {
+          "label": "Official source",
+          "url": "https://news.ucdenver.edu/university-of-colorado-denver-to-establish-india-location-in-hyderabad/"
+        },
+        {
+          "label": "Independent editorial cross-check",
+          "url": "https://theeducationdaily.com/campus-tracker/cu-denver-hyderabad/"
+        }
+      ],
+      "verifiedAt": "2026-10-28T05:12:13.722712+08:00"
+    },
+    {
+      "slug": "canada-asylum-portal-november-2026-update",
+      "title": "加拿大11月3日更新庇護申請表單：勿與學簽續期混為一談",
+      "url": "https://globalednews.com/news/canada-asylum-portal-november-2026-update/",
+      "publishedPath": "src/pages/news/canada-asylum-portal-november-2026-update.md",
+      "sources": [
+        {
+          "label": "Official source",
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/asylum/in-canada.html"
+        },
+        {
+          "label": "Independent editorial cross-check",
+          "url": "https://immigrationnewscanada.ca/new-canada-asylum-application-rules-2026/"
+        }
+      ],
+      "verifiedAt": "2026-10-28T05:12:13.722712+08:00"
+    }
+  ],
+  "scholarships": [
+    {
+      "slug": "2026-10-uni-international-excel-2027",
+      "title": "北愛荷華大學International Excel：每年1,000至4,000美元",
+      "url": "https://globalednews.com/scholarships/items/2026-10-uni-international-excel-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-uni-international-excel-2027.md",
+      "sources": [
+        {
+          "label": "Official award terms",
+          "url": "https://admissions.uni.edu/international/undergraduate-students/scholarships"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://borderless.so/scholarships/university-of-northern-iowa/international-excel-award"
+        },
+        {
+          "label": "Application form",
+          "url": "https://admissions.uni.edu/international/undergraduate-international-excel-award-application"
+        },
+        {
+          "label": "Taiwan admission requirements",
+          "url": "https://admissions.uni.edu/international/undergraduate-students/country-specific-requirements"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-28T05:12:13.722712+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "台灣國際學士新生及轉學生可申請；須先取得錄取並另填獎助表，非自動獲獎。"
+    },
+    {
+      "slug": "2026-10-uni-transfer-scholar-2027",
+      "title": "北愛荷華大學Transfer Scholar：國際轉學生一次1,000美元",
+      "url": "https://globalednews.com/scholarships/items/2026-10-uni-transfer-scholar-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-uni-transfer-scholar-2027.md",
+      "sources": [
+        {
+          "label": "Official award terms",
+          "url": "https://admissions.uni.edu/international/undergraduate-students/scholarships"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://borderless.so/scholarships/university-of-northern-iowa/transfer-scholar-award"
+        },
+        {
+          "label": "Taiwan admission requirements",
+          "url": "https://admissions.uni.edu/international/undergraduate-students/country-specific-requirements"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-28T05:12:13.722712+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "台灣國際學士轉學生可申請，轉學GPA須達3.25；不適用一般高中直升新生。"
+    },
+    {
+      "slug": "2026-10-oklahoma-award-excellence-2027",
+      "title": "奧克拉荷馬大學2027 Award of Excellence：每年17,500美元",
+      "url": "https://globalednews.com/scholarships/items/2026-10-oklahoma-award-excellence-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-oklahoma-award-excellence-2027.md",
+      "sources": [
+        {
+          "label": "Official award terms",
+          "url": "https://ou.edu/admissions/affordability/scholarships"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://www.wemakescholars.com/scholarship/international-excellence-awards-for-students-at-usa"
+        },
+        {
+          "label": "Current 2027 amount cross-check; nonresident population only",
+          "url": "https://clutchact.com/merit-aid/university-of-oklahoma"
+        },
+        {
+          "label": "Current admission dates",
+          "url": "https://www.ou.edu/admissions/apply/international"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-28T05:12:13.722712+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "適用非美國公民、在美國以外就讀中學的合格新生；台灣學生須符合錄取與測驗條件。"
+    }
+  ],
+  "peter": {
+    "status": "fewer-new-posts",
+    "availableNewCount": 1,
+    "checkedAt": "2026-10-28T05:12:13.722712+08:00",
+    "sourceUrls": [
+      "https://www.facebook.com/profile.php?id=61585164670358",
+      "https://www.facebook.com/photo/?fbid=122148369243172155&set=a.122101120425172155"
+    ],
+    "note": "One new substantive study-permit article observed between newer membership promotions and prior-day promotions; prior learn-it-all source already imported. Exact original timestamp unavailable. Only checked statistical and planning claims retained."
+  },
+  "notes": [
+    "Official pages, independent sources and native browser fallbacks actually opened.",
+    "AIEC media partner disclosed; conference discussion not law.",
+    "CU Denver exact letter issue date not inferred from contradictory caption; official announcement October6, approval pending.",
+    "Canada form transition distinct from asylum eligibility and study permits.",
+    "OU dated2026 amount superseded by explicit official2027 table; domestic nonresident table not used for international eligibility.",
+    "UNI International Scholars already within existing partner-state coverage, excluded from additions.",
+    "Nine licensed archive images inspected; no event photograph implied."
+  ]
+}

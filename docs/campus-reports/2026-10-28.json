@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-28",
+  "timezone": "Asia/Taipei",
+  "status": "three-public-leads-reviewed",
+  "verifiedAt": "2026-10-28T05:12:13.722712+08:00",
+  "reviewedSchools": [
+    {
+      "school": "國立清華大學",
+      "schoolSlug": "nthu",
+      "source": "https://oga-exchange.vm.nthu.edu.tw/outexchange/index/index/puid/11521",
+      "finding": "2027秋2028春交換：10月8日申請已截止；既有合格申請人志願選填至11月10日16:00，不能當成仍開放新報名。"
+    },
+    {
+      "school": "國立政治大學",
+      "schoolSlug": "nccu",
+      "source": "https://oic.nccu.edu.tw/",
+      "finding": "國際合作入口與赴外研習、交換及獎助公告可讀；個別資格與截止另查，不宣稱新申請開放。"
+    },
+    {
+      "school": "國立中正大學",
+      "schoolSlug": "ccu",
+      "source": "https://oia.ccu.edu.tw/p/404-1008-93586.php?Lang=zh-tw",
+      "finding": "2027春季交換計畫頁可讀，僅列既有計畫查詢線索，不把過往申請期當開放。"
+    }
+  ],
+  "published": [],
+  "outreachDrafts": [],
+  "pendingConsent": [],
+  "gaps": [],
+  "note": "Public leads only; no outreach sent."
+}
