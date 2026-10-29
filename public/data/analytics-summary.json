@@ -1,6 +1,6 @@
 {
   "status": "ready",
-  "updatedAt": "2026-10-28T06:49:58.516Z",
+  "updatedAt": "2026-10-29T07:01:31.848Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
@@ -34,32 +34,32 @@
     {
       "name": "台灣",
       "mapName": "Taiwan",
-      "sessions": 112,
-      "share": 41
+      "sessions": 113,
+      "share": 41.5
     },
     {
       "name": "美國",
       "mapName": "United States",
-      "sessions": 108,
-      "share": 39.6
-    },
-    {
-      "name": "中國",
-      "mapName": "China",
-      "sessions": 11,
-      "share": 4
+      "sessions": 107,
+      "share": 39.3
     },
     {
       "name": "瑞典",
       "mapName": "Sweden",
-      "sessions": 10,
-      "share": 3.7
+      "sessions": 13,
+      "share": 4.8
     },
     {
       "name": "愛爾蘭",
       "mapName": "Ireland",
       "sessions": 9,
       "share": 3.3
+    },
+    {
+      "name": "中國",
+      "mapName": "China",
+      "sessions": 7,
+      "share": 2.6
     },
     {
       "name": "印度",
@@ -74,20 +74,20 @@
       "share": 1.1
     },
     {
-      "name": "德國",
-      "mapName": "Germany",
-      "sessions": 3,
-      "share": 1.1
-    },
-    {
       "name": "香港",
       "mapName": "Hong Kong",
       "sessions": 3,
       "share": 1.1
     },
     {
-      "name": "Afghanistan",
-      "mapName": "Afghanistan",
+      "name": "Bangladesh",
+      "mapName": "Bangladesh",
+      "sessions": 1,
+      "share": 0.4
+    },
+    {
+      "name": "Brazil",
+      "mapName": "Brazil",
       "sessions": 1,
       "share": 0.4
     }
