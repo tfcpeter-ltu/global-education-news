@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-29",
+  "baselineCommit": "eedb7458c3146f18fe38c0171a74579d4cd842ff",
+  "before": 51,
+  "after": 57,
+  "additions": [
+    {
+      "id": "Jr4LC1q1N_g",
+      "title": "Tim Cook杜克2018畢業演講：帶著勇氣走向下一步",
+      "originalTitle": "Tim Cook: \"Be Fearless\" | Duke University Commencement 2018 Speech",
+      "description": "杜克大學官方收錄的2018年畢業演講，由校友Tim Cook向畢業生分享。以勇氣與改變為觀看線索，思考離開校園後的選擇；這是歷史演講回看，非2026年新活動。",
+      "country": "美國",
+      "topic": "畢業演講",
+      "sourceType": "official",
+      "channelTitle": "Duke University",
+      "channelId": "UCtXRIIGnq4rU8REt1vAuttw",
+      "publishedAt": "2018-05-13T17:27:18.000Z",
+      "duration": "PT14M55S",
+      "thumbnail": "https://i.ytimg.com/vi/Jr4LC1q1N_g/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Jr4LC1q1N_g",
+      "featured": false,
+      "priority": 700,
+      "verifiedAt": "2026-10-29",
+      "collectedAt": "2026-10-29",
+      "status": "published"
+    },
+    {
+      "id": "el7hxpsFaQ8",
+      "title": "阿爾伯塔大學：從校園導覽開始認識加拿大",
+      "originalTitle": "University of Alberta Campus Tours",
+      "description": "阿爾伯塔大學2018年官方校園導覽介紹短片，邀準學生、家長及訪客認識校園。把這段影像當成選校探索的起點，再查詢今日的參訪及學習資訊；歷年影片不代表目前設施或招生安排。",
+      "country": "加拿大",
+      "topic": "校園生活",
+      "sourceType": "official",
+      "channelTitle": "UniversityofAlberta",
+      "channelId": "UC7TheT4tlz2KDgUppvYPrJQ",
+      "publishedAt": "2018-04-26T21:01:02.000Z",
+      "duration": "PT1M33S",
+      "thumbnail": "https://i.ytimg.com/vi/el7hxpsFaQ8/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=el7hxpsFaQ8",
+      "featured": false,
+      "priority": 701,
+      "verifiedAt": "2026-10-29",
+      "collectedAt": "2026-10-29",
+      "status": "published"
+    },
+    {
+      "id": "4npS2JMGQa8",
+      "title": "南洋理工大學：智慧校園如何連結學習與生活",
+      "originalTitle": "NTU Singapore Smart Campus",
+      "description": "南洋理工大學2020年官方短片，介紹數位科技與永續科技方案如何融入校園的學習、生活與工作。觀看時留意大學如何呈現自己的環境與願景；這是歷年校園介紹，非當期設施或課程保證。",
+      "country": "新加坡",
+      "topic": "大學探索",
+      "sourceType": "official",
+      "channelTitle": "NTUsg",
+      "channelId": "UC7ggK2wDrW6pIbKmvOrA_Kw",
+      "publishedAt": "2020-11-13T13:17:53.000Z",
+      "duration": "PT3M17S",
+      "thumbnail": "https://i.ytimg.com/vi/4npS2JMGQa8/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=4npS2JMGQa8",
+      "featured": false,
+      "priority": 702,
+      "verifiedAt": "2026-10-29",
+      "collectedAt": "2026-10-29",
+      "status": "published"
+    },
+    {
+      "id": "hpJnqGf2p9Q",
+      "title": "首爾大學：跟著學生大使走訪冠岳校園",
+      "originalTitle": "2024 SSA: Taking a campus tour with SNU Student Ambassadors",
+      "description": "SNUOGA發布的2024年學生大使校園導覽，帶觀眾走訪首爾大學冠岳校園並認識學校。用學生的導覽視角整理自己想問的校園問題；參訪開放、住宿與修課規定請另查最新官方資訊。",
+      "country": "韓國",
+      "topic": "校園生活",
+      "sourceType": "official",
+      "channelTitle": "SNUOGA",
+      "channelId": "UCj_3iDGRgsrO8uyxVFtuMIg",
+      "publishedAt": "2024-12-26T04:22:14.000Z",
+      "duration": "PT5M9S",
+      "thumbnail": "https://i.ytimg.com/vi/hpJnqGf2p9Q/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=hpJnqGf2p9Q",
+      "featured": false,
+      "priority": 703,
+      "verifiedAt": "2026-10-29",
+      "collectedAt": "2026-10-29",
+      "status": "published"
+    },
+    {
+      "id": "YcMtyo2pYXo",
+      "title": "布里斯托大學：在城市裡想像自己的大學生活",
+      "originalTitle": "Your life in Bristol: discover the city at the heart of our university",
+      "description": "布里斯托大學2024年官方城市生活短片，介紹城市的創意、社群氛圍，以及位於市中心的Clifton校區。從上課之外的生活觀察選校；影片呈現校方宣傳視角，不代表個人住宿、費用或錄取結果。",
+      "country": "英國",
+      "topic": "校園生活",
+      "sourceType": "official",
+      "channelTitle": "University of Bristol",
+      "channelId": "UC1HX8DWEmVTWj5WNaLd1a_Q",
+      "publishedAt": "2024-05-23T13:00:34.000Z",
+      "duration": "PT1M52S",
+      "thumbnail": "https://i.ytimg.com/vi/YcMtyo2pYXo/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=YcMtyo2pYXo",
+      "featured": false,
+      "priority": 704,
+      "verifiedAt": "2026-10-29",
+      "collectedAt": "2026-10-29",
+      "status": "published"
+    },
+    {
+      "id": "xUolVTrixqE",
+      "title": "LTU南二中說明會：從高中選科到海外升學規劃",
+      "originalTitle": "2026南二中｜LTU OSSD 台加高中雙聯學制說明會",
+      "description": "Peterの國際教育講座發布的2026年南二中LTU OSSD說明會，介紹台加高中課程並行、學分規劃、Grade 12選科與海外申請方向。屬LTU關聯課程資訊；實際修課、文憑及申請資格須依個人方案與當期規定確認。",
+      "country": "加拿大",
+      "topic": "LTU課程介紹",
+      "sourceType": "peter",
+      "channelTitle": "Peterの國際教育講座",
+      "channelId": "UCpQEfgKcfpTvhO768DopAuA",
+      "publishedAt": "2026-08-14T23:41:34.000Z",
+      "duration": "PT70M32S",
+      "thumbnail": "https://i.ytimg.com/vi/xUolVTrixqE/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=xUolVTrixqE",
+      "featured": false,
+      "priority": 705,
+      "verifiedAt": "2026-10-29",
+      "collectedAt": "2026-10-29",
+      "status": "published"
+    }
+  ],
+  "selectionLabel": "編輯精選",
+  "rationale": "Official sources, five geographic contexts, cumulative public views and practical reader relevance. SNU and LTU selected for relevance, not high popularity. No global rank or recent velocity claimed.",
+  "popularityEvidence": [
+    {
+      "id": "Jr4LC1q1N_g",
+      "views": "175559",
+      "at": "2026-10-29T04:02:16.207Z"
+    },
+    {
+      "id": "el7hxpsFaQ8",
+      "views": "197052",
+      "at": "2026-10-29T04:02:16.816Z"
+    },
+    {
+      "id": "4npS2JMGQa8",
+      "views": "127956",
+      "at": "2026-10-29T04:02:17.457Z"
+    },
+    {
+      "id": "hpJnqGf2p9Q",
+      "views": "6520",
+      "at": "2026-10-29T04:02:18.207Z"
+    },
+    {
+      "id": "YcMtyo2pYXo",
+      "views": "81243",
+      "at": "2026-10-29T04:03:22.315Z"
+    },
+    {
+      "id": "xUolVTrixqE",
+      "views": "40",
+      "at": "2026-10-29T04:02:19.023Z"
+    }
+  ],
+  "limitations": [
+    "Caption requests returned empty or no track; summaries limited to original official descriptions, titles and dates. No full viewing or transcript claim.",
+    "Original dates retained; no guaranteed admissions, fees, facilities or outcomes.",
+    "Original YouTube embeds and thumbnails only; browser playback QA pending."
+  ]
+}

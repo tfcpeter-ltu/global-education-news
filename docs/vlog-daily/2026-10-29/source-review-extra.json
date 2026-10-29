@@ -1,0 +1,37 @@
+[
+  {
+    "id": "YcMtyo2pYXo",
+    "title": "Your life in Bristol: discover the city at the heart of our university",
+    "channel": "University of Bristol",
+    "channelId": "UC1HX8DWEmVTWj5WNaLd1a_Q",
+    "description": "Find out why Bristol is in the top ten UK cities to be a student.\n\nWhat sets Bristol apart?\n\nBristol is known for its creativity, inclusivity and independent spirit. The city has a strong sense of community, making it a welcoming and friendly place to live. With so much to do and explore, Bristol truly has something to offer everyone.\n\nThe Clifton campus is in the heart of the city, perfectly located for you to explore between classes.\n\nOur city’s unique, vibrant atmosphere is best experienced firsthand. But if you live and study in Bristol, it might feel something like this.\n\n#bristol #city #discover",
+    "views": "81243",
+    "publishedAt": "2024-05-23T06:00:34-07:00",
+    "seconds": "112",
+    "playability": {
+      "status": "OK",
+      "playableInEmbed": true,
+      "miniplayer": {
+        "miniplayerRenderer": {
+          "playbackMode": "PLAYBACK_MODE_ALLOW"
+        }
+      },
+      "contextParams": "Q0FFU0FnZ0M="
+    },
+    "embed": {
+      "iframeUrl": "https://www.youtube.com/embed/YcMtyo2pYXo",
+      "width": 1280,
+      "height": 720
+    },
+    "thumbnailStatus": 200,
+    "captions": [
+      {
+        "language": "en",
+        "status": 200,
+        "bytes": 0,
+        "text": ""
+      }
+    ],
+    "verifiedAt": "2026-10-29T04:03:22.315Z"
+  }
+]

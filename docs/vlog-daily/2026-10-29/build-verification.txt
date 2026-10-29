@@ -1,0 +1,1 @@
+Local verification 2026-10-29: Astro build 501 pages; bilingual 774 pairs; search sitemap 1534 unique canonical URLs; Vlog tests 57 videos. All passed. Existing Peter recommendations retained unchanged. Dependencies reused outside OneDrive; npm aggregate build not run locally.
