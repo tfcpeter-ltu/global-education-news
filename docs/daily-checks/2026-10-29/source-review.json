@@ -1,0 +1,216 @@
+{
+  "checkedAt": "2026-10-29T10:16:04.318265+08:00",
+  "news": [
+    {
+      "slug": "uk-budget-2026-graduate-visa-conditional-two-years",
+      "title": "英國預算案擬讓部分大學畢業生獲兩年簽證：適用條件待明確",
+      "url": "https://globalednews.com/news/uk-budget-2026-graduate-visa-conditional-two-years/",
+      "publishedPath": "src/pages/news/uk-budget-2026-graduate-visa-conditional-two-years.md",
+      "sources": [
+        {
+          "label": "Official source",
+          "url": "https://www.gov.uk/government/publications/budget-2026-document/budget-2026-html"
+        },
+        {
+          "label": "Independent editorial cross-check",
+          "url": "https://thepienews.com/breaking-uk-to-extend-graduate-visa-to-two-years-for-graduates-of-high-compliance-universities/"
+        }
+      ],
+      "verifiedAt": "2026-10-29T10:16:04.318265+08:00"
+    },
+    {
+      "slug": "idp-emerging-futures-10-australia-study-choice-2026",
+      "title": "IDP調查：澳洲第一志願占比降至24%，簽證與成本牽動選校",
+      "url": "https://globalednews.com/news/idp-emerging-futures-10-australia-study-choice-2026/",
+      "publishedPath": "src/pages/news/idp-emerging-futures-10-australia-study-choice-2026.md",
+      "sources": [
+        {
+          "label": "Official source",
+          "url": "https://careers.idp.com/news/emerging-futures-10-global"
+        },
+        {
+          "label": "Independent editorial cross-check",
+          "url": "https://thepienews.com/australia-loses-ground-to-uk-and-us-in-international-student-race/"
+        }
+      ],
+      "verifiedAt": "2026-10-29T10:16:04.318265+08:00"
+    },
+    {
+      "slug": "germany-wissenschaft-weltoffen-2026-international-students",
+      "title": "德國國際學生達42.62萬：成長6%，選校仍須看語言與支持",
+      "url": "https://globalednews.com/news/germany-wissenschaft-weltoffen-2026-international-students/",
+      "publishedPath": "src/pages/news/germany-wissenschaft-weltoffen-2026-international-students.md",
+      "sources": [
+        {
+          "label": "Official source",
+          "url": "https://www.presseportal.de/pm/59097/6370850"
+        },
+        {
+          "label": "Independent editorial cross-check",
+          "url": "https://educationpost.in/news/global-education/europe/germanys-international-student-numbers-climb-6-as-india-emerges-as-top-source-country"
+        },
+        {
+          "label": "Independent expert commentary, October 27",
+          "url": "https://thepienews.com/willkommen-why-international-students-are-choosing-germany/"
+        },
+        {
+          "label": "Full statistical report",
+          "url": "https://www.wissenschaft-weltoffen.de/content/uploads/2026/10/WWO_2026_web.pdf"
+        }
+      ],
+      "verifiedAt": "2026-10-29T10:16:04.318265+08:00"
+    }
+  ],
+  "scholarships": [
+    {
+      "slug": "2026-10-lancaster-undergraduate-regional-2027",
+      "title": "Lancaster本科區域獎：台灣學生每學年減免3,000英鎊",
+      "url": "https://globalednews.com/scholarships/items/2026-10-lancaster-undergraduate-regional-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-lancaster-undergraduate-regional-2027.md",
+      "sources": [
+        {
+          "label": "Official award terms",
+          "url": "https://www.lancaster.ac.uk/study/fees-and-funding/scholarships-and-bursaries/undergraduate-international-regional-scholarship/"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://scholarshipsforafricans.com/scholarships/lancaster-undergraduate-international-regional-scholarship"
+        },
+        {
+          "label": "2027 UCAS submission dates",
+          "url": "https://www.ucas.com/applying/applying-to-university/dates-and-deadlines-for-uni-applications"
+        },
+        {
+          "label": "University application route",
+          "url": "https://www.lancaster.ac.uk/study/undergraduate/how-to-apply/"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-29T10:16:04.318265+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "國籍或永久地址為台灣、繳國際學費且全時就讀Bailrigg校園本科者適用。"
+    },
+    {
+      "slug": "2026-10-okstate-international-achievement-freshmen-2027",
+      "title": "Oklahoma State國際新生獎：符合高標每年最高15,000美元",
+      "url": "https://globalednews.com/scholarships/items/2026-10-okstate-international-achievement-freshmen-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-okstate-international-achievement-freshmen-2027.md",
+      "sources": [
+        {
+          "label": "Official award terms",
+          "url": "https://go.okstate.edu/scholarships-financial-aid/types-of-aid/scholarships-and-grants/international-scholarships"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://mocklet.app/scholarships/sat-international/oklahoma-state-university/"
+        },
+        {
+          "label": "Nationality, residence and degree route",
+          "url": "https://go.okstate.edu/admissions/international"
+        },
+        {
+          "label": "Open 2027 application",
+          "url": "https://go.okstate.edu/admissions/apply"
+        },
+        {
+          "label": "International deadlines",
+          "url": "https://go.okstate.edu/admissions/international/dates-deadlines"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-29T10:16:04.318265+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "適用非美國公民且非美國移民身分的學士新生，包括符合入學與成績條件的台灣申請人。"
+    },
+    {
+      "slug": "2026-10-iowa-state-international-merit-oneapp-2027",
+      "title": "Iowa State國際績優獎：另填OneApp，最高每年10,000美元",
+      "url": "https://globalednews.com/scholarships/items/2026-10-iowa-state-international-merit-oneapp-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-iowa-state-international-merit-oneapp-2027.md",
+      "sources": [
+        {
+          "label": "Official award terms",
+          "url": "https://www.iastate.edu/admission-and-aid/admissions/international-admissions/international-merit-scholarships"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://vnis.edu.vn/en/united-states/iowa-state-university-international-students/"
+        },
+        {
+          "label": "Open OneApp2027/28",
+          "url": "https://financialaid.iastate.edu/types-of-aid/scholarships/oneapp/"
+        },
+        {
+          "label": "Taiwan academic credential guide; older document, not current test rules",
+          "url": "https://www.admissions.iastate.edu/files/intl/req/2021/01/08/Taiwan%20Requirements%202020.pdf"
+        },
+        {
+          "label": "Amount cross-check; test waiver claim not adopted",
+          "url": "https://fissionclassifieds.com/international-merit-scholarships-2027-at-iowa-state-university/"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-29T10:16:04.318265+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "須獲國際學士新生錄取、按國際學費計費並完成OneApp；台灣學歷有官方入學路徑。"
+    }
+  ],
+  "peter": {
+    "status": "fewer-new-posts",
+    "availableNewCount": 2,
+    "checkedAt": "2026-10-29T10:16:04.318265+08:00",
+    "sourceUrls": [
+      "https://www.facebook.com/profile.php?id=61585164670358",
+      "https://www.facebook.com/photo/?fbid=122148660213172155&set=a.122101120425172155",
+      "https://www.facebook.com/photo/?fbid=122148576951172155&set=a.122101120425172155"
+    ],
+    "note": "Two new substantive posts observed: France business qualifications and Dutch numerus fixus; intervening membership promotions excluded and older imported articles not repeated. Exact source timestamps unavailable; relative labels preserved."
+  },
+  "campus": {
+    "date": "2026-10-29",
+    "timezone": "Asia/Taipei",
+    "status": "three-public-leads-reviewed",
+    "verifiedAt": "2026-10-29T10:16:04.318265+08:00",
+    "reviewedSchools": [
+      {
+        "school": "國立中興大學",
+        "schoolSlug": "nchu",
+        "source": "https://www.oia.nchu.edu.tw/index.php/5-global-mobility-en/5-1-exchange-student-program-en/5-1-1-application-guildeline-en",
+        "finding": "2027秋交換學生申請10月23日12:00已截止；推薦信10月30日12:00截止，不得當成仍可新申請。"
+      },
+      {
+        "school": "國立中央大學",
+        "schoolSlug": "ncu",
+        "source": "https://oia.ncu.edu.tw/p/412-1026-1872.php?Lang=zh-tw",
+        "finding": "116學年第一梯次簡章與10月22日更新姊妹校表可讀；個別資格及截止另查。"
+      },
+      {
+        "school": "國立臺灣大學",
+        "schoolSlug": "ntu",
+        "source": "https://studyabroad.ntu.edu.tw/en/exchange-student/how-to-apply/",
+        "finding": "2027/28第一學期交換甄選資料可讀；英語頁列11月3日10:00起開放，尚未開放，須以中文簡章核對。"
+      }
+    ],
+    "published": [],
+    "outreachDrafts": [],
+    "pendingConsent": [],
+    "gaps": [],
+    "note": "Public leads only; no outreach. NTU management college detail page under maintenance, not used as confirmed detail."
+  },
+  "notes": [
+    "UK announcement is not a universal effective visa entitlement.",
+    "IDP source release October28; search summary October27 superseded by visible official page. Preference percentages are not enrolments.",
+    "Germany October14 statistics; October27 independent commentary identified as opinion.",
+    "Oklahoma State accepts any non-US nationality without immigrant status; degree and credit conditions checked.",
+    "Iowa OneApp open September15 for2027/28; no unsupported test waiver promise.",
+    "Lancaster nationality or permanent residence explicitly includes Taiwan. UCAS current dates resolve inconsistent year labels on university application page.",
+    "York not yet open; Wichita awards closed or nationality-limited; excluded.",
+    "Actual licensed archive photos inspected; no event photograph claimed."
+  ]
+}

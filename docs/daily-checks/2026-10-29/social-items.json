@@ -1,0 +1,66 @@
+[
+  {
+    "key": "uk",
+    "campaign": "news",
+    "topic": "uk-budget-graduate-visa",
+    "title": "英國兩年畢業簽證？先看適用條件",
+    "benefit": "預算案有新方向，學校名單與細則仍待確認。",
+    "summary": "10月28日英國預算案提及高合規、就業成果良好大學的畢業生可獲兩年Graduate簽證，不能推定全部適用。",
+    "advice": "先等正式規則與適用條件，別把未確認期間當收入保證。",
+    "section": "國際教育新聞",
+    "sectionUrl": "https://globalednews.com/news/",
+    "lines": [
+      "英國兩年畢業簽證？",
+      "適用條件仍待確認"
+    ],
+    "url": "https://globalednews.com/news/uk-budget-2026-graduate-visa-conditional-two-years/"
+  },
+  {
+    "key": "lancaster",
+    "campaign": "scholarship",
+    "topic": "lancaster-ug-regional-2027",
+    "title": "Lancaster台灣本科區域獎：每年3,000英鎊",
+    "benefit": "2027入學自動評估，先算哪些學年符合資格。",
+    "summary": "台灣國籍或永久地址、國際學費且全時Bailrigg本科生適用；海外、實習與重修年度不補助。",
+    "advice": "這是區域獎，和卓越獎不同；收到正式通知後再扣除預算。",
+    "section": "國際獎學金雷達",
+    "sectionUrl": "https://globalednews.com/scholarships/",
+    "lines": [
+      "Lancaster本科區域獎",
+      "每學年3,000英鎊"
+    ],
+    "url": "https://globalednews.com/scholarships/items/2026-10-lancaster-undergraduate-regional-2027/"
+  },
+  {
+    "key": "diy",
+    "campaign": "study-abroad",
+    "topic": "lancaster-eligible-years",
+    "title": "Lancaster申請：別把獎助乘上全部年數",
+    "benefit": "從校園、海外與實習安排，算出自己的留學預算。",
+    "summary": "2027本科走UCAS；多數課程平等考量日為1月13日18:00英國時間，特殊課程另查。",
+    "advice": "逐年列學費與生活費，再核對各獎助排除的學年。",
+    "section": "留學DIY導航",
+    "sectionUrl": "https://globalednews.com/study-abroad/",
+    "lines": [
+      "Lancaster申請規劃",
+      "先算合格資助學年"
+    ],
+    "url": "https://globalednews.com/study-abroad/lancaster-2027-campus-year-funding-checklist/"
+  },
+  {
+    "key": "taiwan",
+    "campaign": "taiwan-universities",
+    "topic": "nchu-reference-deadline",
+    "title": "中興交換推薦信：10月30日中午截止",
+    "benefit": "新申請已截止，既有申請人別漏推薦信。",
+    "summary": "2027秋交換申請已於10月23日12:00截止；教授推薦信須於10月30日12:00前完成。",
+    "advice": "用國內大學資料庫比較學校，再回國際處核對交換條件。",
+    "section": "國內大學選校選系資料庫",
+    "sectionUrl": "https://globalednews.com/taiwan-universities/",
+    "lines": [
+      "中興交換推薦信",
+      "10月30日中午截止"
+    ],
+    "url": "https://globalednews.com/taiwan-universities/"
+  }
+]

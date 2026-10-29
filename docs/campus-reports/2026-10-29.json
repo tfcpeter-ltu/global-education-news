@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-29",
+  "timezone": "Asia/Taipei",
+  "status": "three-public-leads-reviewed",
+  "verifiedAt": "2026-10-29T10:16:04.318265+08:00",
+  "reviewedSchools": [
+    {
+      "school": "國立中興大學",
+      "schoolSlug": "nchu",
+      "source": "https://www.oia.nchu.edu.tw/index.php/5-global-mobility-en/5-1-exchange-student-program-en/5-1-1-application-guildeline-en",
+      "finding": "2027秋交換學生申請10月23日12:00已截止；推薦信10月30日12:00截止，不得當成仍可新申請。"
+    },
+    {
+      "school": "國立中央大學",
+      "schoolSlug": "ncu",
+      "source": "https://oia.ncu.edu.tw/p/412-1026-1872.php?Lang=zh-tw",
+      "finding": "116學年第一梯次簡章與10月22日更新姊妹校表可讀；個別資格及截止另查。"
+    },
+    {
+      "school": "國立臺灣大學",
+      "schoolSlug": "ntu",
+      "source": "https://studyabroad.ntu.edu.tw/en/exchange-student/how-to-apply/",
+      "finding": "2027/28第一學期交換甄選資料可讀；英語頁列11月3日10:00起開放，尚未開放，須以中文簡章核對。"
+    }
+  ],
+  "published": [],
+  "outreachDrafts": [],
+  "pendingConsent": [],
+  "gaps": [],
+  "note": "Public leads only; no outreach. NTU management college detail page under maintenance, not used as confirmed detail."
+}

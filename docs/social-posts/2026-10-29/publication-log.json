@@ -1,0 +1,10 @@
+{
+  "timezone": "Asia/Taipei",
+  "date": "2026-10-29",
+  "newFacebookPagePost": null,
+  "updatedAt": "2026-10-29T10:16:04.318265+08:00",
+  "blocker": null,
+  "note": "Browser recovery verified via supported Chrome extension. No publication attempted; native history dedupe required before each platform batch.",
+  "status": "PREPARING",
+  "posts": []
+}

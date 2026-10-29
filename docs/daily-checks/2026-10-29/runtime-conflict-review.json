@@ -1,0 +1,87 @@
+[
+  {
+    "path": "docs/daily-checks/2026-10-28/astro.log",
+    "sourceSha": "0858d813b82b7a6fc14acbef832659b146816c5e743afc998fae74cccfaa1f80",
+    "runtimeSha": "a15771940e7b7302c027c4b81b13f9b1b7ec82bfa9d304ebb5507072419850ae"
+  },
+  {
+    "path": "docs/daily-checks/2026-10-28/runtime-sync.json",
+    "sourceSha": "5cca178a380a8b6233e9798b9da2bb12f47b7c23c812b1f8d55cefd624cb25dc",
+    "runtimeSha": "d9e5386e0b968a9c3c0581bce31e3135f4fa7fa7dcb71b99b58d1f27a5b5c304"
+  },
+  {
+    "path": "docs/daily-reports/2026-10-28.json",
+    "sourceSha": "c5820b3ab3825e9fdd5ec6ce42a0d0008ffd46106d785e485ca6b57199812273",
+    "runtimeSha": "e7fe4b88928c668c3d1e38fb57d63ca360c84e614420a81bdefe7ae1d7f6e529"
+  },
+  {
+    "path": "docs/peter-imports/2026-10-28.json",
+    "sourceSha": "5694b7f32848b5698ed2c1529f446e2c4b379339052bbc72a9456071bd629179",
+    "runtimeSha": "1b794c363dc9cd7140367a5d62775ed362592e257180314493f4fc74914d9063"
+  },
+  {
+    "path": "docs/social-posts/2026-10-28/news--aiec-sydney.json",
+    "sourceSha": "1748ade01512093ca70e28993e81b028ffc08c7252630f8b8a9c43b0eeeac16b",
+    "runtimeSha": "aad79ee2b76aa94ecbfacd3194ae278ad5f41de1fc4da0ef54ebcd47bd65f1ed"
+  },
+  {
+    "path": "docs/social-posts/2026-10-28/publication-log.json",
+    "sourceSha": "16978e0ec7820c8ea9c8f4360319020123b7bace89665de71aebef1ec66187ae",
+    "runtimeSha": "ce60134e7192f8720846c218ab99e611126ccda8157d7814b66460152bc2329c"
+  },
+  {
+    "path": "docs/social-posts/2026-10-28/scholarship--uni-excel-2027.json",
+    "sourceSha": "07ea99d45d1473cfa9a3ba7aa8746a72f5436f799fcd89fcdbcabe1228b1de62",
+    "runtimeSha": "c4024992d210570d84f4ed673a618502ec6495c9012f72323a8939a9916d52ca"
+  },
+  {
+    "path": "docs/social-posts/2026-10-28/study-abroad--northern-iowa-routes.json",
+    "sourceSha": "0e236a4811e1df7e1a6f8efe5117e2cbe17400e1436a2e2d33b5f6b31a62d0a6",
+    "runtimeSha": "d11f8162409b11a94e12ac2daa5532aefeecb48815d67edb825c73fb470291b9"
+  },
+  {
+    "path": "docs/social-posts/2026-10-28/taiwan-universities--nthu-preference-deadline.json",
+    "sourceSha": "acb922a2a6dc7d0f00d17d63bc46bdd0c1df4eefdf28681712d61268043440da",
+    "runtimeSha": "6bd5bcbd7038e3bb47d3e5d526de97746286d75b81df7dd6f0d867e30c48a3d2"
+  },
+  {
+    "path": "public/data/analytics-summary.json",
+    "sourceSha": "0b68b7641341726a4fccad9caed761c55baea82dcc3c57f0a244b8ca56346ab0",
+    "runtimeSha": "3de2250320cc0ef6e6cf7ba02767616f772b9d6f8c6b62a255ef5cfd931489a2"
+  },
+  {
+    "path": "public/images/share-photos/credits.json",
+    "sourceSha": "68208b6b27ad76c1f1e47dc7c2fbec605e8d8d102a512ddcd4486a33bf8b7da4",
+    "runtimeSha": "ba0cb2b436bf7d5894cd5cd452441e5426ee92996e7bb34cc72dfb316a6adec1"
+  },
+  {
+    "path": "public/images/share-photos/sources.json",
+    "sourceSha": "2953955734f11d3c85b35d40ddeb9a1eff89ef8edc201311718dab455393974e",
+    "runtimeSha": "2f85aa484ed8ec93e9b3a4cb036947cb7d841fc59ff0df93cfc26ac709f6df5a"
+  },
+  {
+    "path": "src/data/i18n/en-overrides.json",
+    "sourceSha": "194954637bbdb5d8a3c324b0987c66c5fd0c3978f088e28c5fcead71c0f21557",
+    "runtimeSha": "1c6c61cc5739536fcedd3a38502296a476c2781c50badbd24e819590e2b11c53"
+  },
+  {
+    "path": "src/data/i18n/en.json",
+    "sourceSha": "171cfa17abccd20d9656063de28796b2bc96e610f75b3a54661f666fa899aebc",
+    "runtimeSha": "c03e86444a1133d55b539ee0702de6b099cd0c0e6e8fa94546105fbd5b5ebde9"
+  },
+  {
+    "path": "src/data/peter-articles.json",
+    "sourceSha": "876ca1047f53e79d6d9f31f502385f117ecd4eee336da13eeb5393f98f48d30c",
+    "runtimeSha": "f831ce8caa76d58755450450829d5f166a76c4d9fb86d1e7c1c17412cc0fd88c"
+  },
+  {
+    "path": "src/data/vlog-videos.json",
+    "sourceSha": "a7234bda5cd57039e962ebd9e16459c211deee4a163987d509368e770e739fc8",
+    "runtimeSha": "fee8a469a872139bc1fd16cd5cdb367c71ced02a3fcd24123d18025b506df66d"
+  },
+  {
+    "path": "src/pages/study-abroad/northern-iowa-scholarship-routes-2027.md",
+    "sourceSha": "ce15e05a0e6e74dbe7275c33cad9671dcf60dc4b88be46e07a0072803cda87cd",
+    "runtimeSha": "fcc2591842df3fc21c56d253984b047b003dc48f56209f40bfbd94bde2761d41"
+  }
+]
