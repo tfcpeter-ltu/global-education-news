@@ -1,9 +1,14 @@
 {
   "status": "ready",
-  "updatedAt": "2026-10-29T07:01:31.848Z",
+  "updatedAt": "2026-10-30T07:03:50.857Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
+    {
+      "title": "國際教育新聞｜全球大學、留學政策與招生動態｜環球教育新聞網",
+      "path": "/news/",
+      "views": 9
+    },
     {
       "title": "最新國際教育新聞",
       "path": "/news/",
@@ -15,57 +20,58 @@
       "views": 6
     },
     {
-      "title": "英格蘭TEF新制公開諮詢至1月28日：教學體驗、學生結果擬分別評級｜環球教育新聞網 Global Education News",
-      "path": "/news/england-tef-quality-consultation-october-2026/",
+      "title": "加拿大UNB公布資料科學學士：2027年9月於Saint John開課｜環球教育新聞網 Global Education News",
+      "path": "/news/unb-saint-john-data-science-degree-2027/",
       "views": 6
     },
     {
-      "title": "安大略省私校OSAP仍暫停：新驗證程序預計2027年實施｜環球教育新聞網 Global Education News",
-      "path": "/news/ontario-private-college-osap-validation-2026/",
-      "views": 5
-    },
-    {
-      "title": "紐西蘭將培訓學校接待國際生：2027年3月擬全國推出｜環球教育新聞網 Global Education News",
-      "path": "/news/new-zealand-schools-international-support-2027/",
-      "views": 5
+      "title": "英格蘭TEF新制公開諮詢至1月28日：教學體驗、學生結果擬分別評級｜環球教育新聞網 Global Education News",
+      "path": "/news/england-tef-quality-consultation-october-2026/",
+      "views": 6
     }
   ],
   "countries": [
     {
-      "name": "台灣",
-      "mapName": "Taiwan",
-      "sessions": 113,
-      "share": 41.5
-    },
-    {
       "name": "美國",
       "mapName": "United States",
-      "sessions": 107,
-      "share": 39.3
+      "sessions": 108,
+      "share": 40.6
+    },
+    {
+      "name": "台灣",
+      "mapName": "Taiwan",
+      "sessions": 104,
+      "share": 39.1
     },
     {
       "name": "瑞典",
       "mapName": "Sweden",
-      "sessions": 13,
-      "share": 4.8
-    },
-    {
-      "name": "愛爾蘭",
-      "mapName": "Ireland",
-      "sessions": 9,
-      "share": 3.3
-    },
-    {
-      "name": "中國",
-      "mapName": "China",
-      "sessions": 7,
-      "share": 2.6
+      "sessions": 12,
+      "share": 4.5
     },
     {
       "name": "印度",
       "mapName": "India",
+      "sessions": 8,
+      "share": 3
+    },
+    {
+      "name": "愛爾蘭",
+      "mapName": "Ireland",
       "sessions": 7,
       "share": 2.6
+    },
+    {
+      "name": "中國",
+      "mapName": "China",
+      "sessions": 5,
+      "share": 1.9
+    },
+    {
+      "name": "英國",
+      "mapName": "United Kingdom",
+      "sessions": 5,
+      "share": 1.9
     },
     {
       "name": "加拿大",
@@ -74,22 +80,16 @@
       "share": 1.1
     },
     {
-      "name": "香港",
-      "mapName": "Hong Kong",
-      "sessions": 3,
-      "share": 1.1
+      "name": "德國",
+      "mapName": "Germany",
+      "sessions": 2,
+      "share": 0.8
     },
     {
-      "name": "Bangladesh",
-      "mapName": "Bangladesh",
-      "sessions": 1,
-      "share": 0.4
-    },
-    {
-      "name": "Brazil",
-      "mapName": "Brazil",
-      "sessions": 1,
-      "share": 0.4
+      "name": "Netherlands",
+      "mapName": "Netherlands",
+      "sessions": 2,
+      "share": 0.8
     }
   ]
 }
