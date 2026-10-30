@@ -1,0 +1,1 @@
+2026-10-30 local checks: Astro 509 generated pages; bilingual 783 Chinese/English pairs passed; 1552 unique canonical sitemap URLs passed; Vlog source and built tests passed at 63 videos. Dependencies reused outside OneDrive. Full aggregate npm command not available locally; equivalent build stages run, CI aggregate build required.
