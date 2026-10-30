@@ -1,0 +1,707 @@
+{
+  "scholarshipBaselineSlugs": [
+    "2026-08-bristol-think-big",
+    "2026-08-manchester-global-futures-taiwan-2027",
+    "2026-08-mcgill-mccall-macbain",
+    "2026-08-melbourne-graduate-research",
+    "2026-08-melbourne-international-excellence-graduate-2027",
+    "2026-08-moe-eu-scholarship",
+    "2026-08-moe-government-sponsored-study",
+    "2026-08-moe-new-southbound-internship",
+    "2026-08-moe-overseas-scholarship",
+    "2026-08-moe-study-abroad-fly",
+    "2026-08-moe-study-abroad-internship",
+    "2026-08-moe-study-abroad-needy",
+    "2026-08-moe-top100-phd",
+    "2026-08-monash-awards-2027",
+    "2026-08-oxford-clarendon",
+    "2026-08-sydney-vcis-2027",
+    "2026-08-tgpi-dream-factory",
+    "2026-08-tgpi-global-flight",
+    "2026-08-ubc-four-year-doctoral-fellowship",
+    "2026-08-ubc-imes",
+    "2026-08-ubc-international-scholars-2027",
+    "2026-08-ubc-killam-doctoral-2027",
+    "2026-08-ucl-global-masters",
+    "2026-08-ucl-global-undergraduate",
+    "2026-08-unsw-scientia-2027",
+    "2026-08-uq-international-high-achievers-2027",
+    "2026-08-utoronto-pearson-2027",
+    "2026-09-adelaide-academic-excellence-2027",
+    "2026-09-adelaide-merit-2027",
+    "2026-09-auckland-international-student-excellence-2027",
+    "2026-09-cardiff-vice-chancellor-taiwan-january-2027",
+    "2026-09-chevening-delta-climate-2027",
+    "2026-09-chevening-taiwan",
+    "2026-09-daad-architecture-masters",
+    "2026-09-deakin-excellence-international-2027",
+    "2026-09-deakin-international-merit-2027",
+    "2026-09-deakin-vice-chancellor-international-2027",
+    "2026-09-dundee-east-asia-undergraduate-january-2027",
+    "2026-09-dundee-global-excellence-undergraduate-january-2027",
+    "2026-09-erasmus-mundus-2027",
+    "2026-09-eth-zurich-esop-2027",
+    "2026-09-exeter-pgt-taiwan-january-2027",
+    "2026-09-fulbright-experience-america-research-award",
+    "2026-09-fulbright-non-academic-professional-award",
+    "2026-09-fulbright-senior-research-award",
+    "2026-09-gates-cambridge-2027",
+    "2026-09-harvard-academy-scholars-2027",
+    "2026-09-harvard-radcliffe-fellowship-2027",
+    "2026-09-hkpfs-2027",
+    "2026-09-imperial-presidents-phd-2027",
+    "2026-09-kent-international-undergraduate-january-2027",
+    "2026-09-knight-hennessy-2027",
+    "2026-09-latrobe-high-achiever-2027",
+    "2026-09-leicester-global-excellence-jan-apr-2027",
+    "2026-09-macquarie-vcis-2027",
+    "2026-09-monash-international-merit-2027",
+    "2026-09-ntu-taiwan-scholarship-jan-2027",
+    "2026-09-ntu-taiwan-stem-scholarship-jan-2027",
+    "2026-09-oxford-clarendon-2027",
+    "2026-09-rmit-up-academic-english-bursary-2027",
+    "2026-09-strathclyde-sbs-international-masters-jan-2027",
+    "2026-09-sydney-rtp-international-2027",
+    "2026-09-taiwan-anu-phd-scholarship-2027",
+    "2026-09-tasmanian-international-scholarship-2027",
+    "2026-09-ubc-international-scholars-2027",
+    "2026-09-uc-berkeley-beahrs-elp-2027",
+    "2026-09-uni-iowa-partner-state-taiwan-2027",
+    "2026-09-university-iowa-national-scholars-2027",
+    "2026-09-unsw-international-scientia-2027",
+    "2026-09-uow-postgraduate-academic-excellence-2027",
+    "2026-09-uow-university-excellence-2027",
+    "2026-09-utoronto-lester-b-pearson-2027",
+    "2026-09-yenching-academy-2027-taiwan",
+    "2026-10-alabama-international-automatic-merit-2027",
+    "2026-10-american-university-egls-2027",
+    "2026-10-aut-north-asia-2027",
+    "2026-10-bangor-vice-chancellor-january-2027",
+    "2026-10-bath-international-excellence-ug-2027",
+    "2026-10-boise-state-international-fall-2027",
+    "2026-10-bond-business-postgraduate-bursary",
+    "2026-10-bond-international-stand-out",
+    "2026-10-bond-undergraduate-excellence",
+    "2026-10-bournemouth-academic-excellence-january-2027",
+    "2026-10-canterbury-guardian-commerce-2027",
+    "2026-10-canterbury-international-first-year-offshore-2027",
+    "2026-10-cardiff-vice-chancellor-january-2027",
+    "2026-10-cumbria-international-undergraduate-january-2027",
+    "2026-10-curtin-future-leaders-2027",
+    "2026-10-curtin-global-excellence-2027",
+    "2026-10-dayton-international-merit",
+    "2026-10-dundee-global-excellence-september-2027",
+    "2026-10-ecu-north-asia-2027",
+    "2026-10-essex-international-undergraduate-2027",
+    "2026-10-exeter-taiwan-pgt-2027",
+    "2026-10-flinders-excellence-2027",
+    "2026-10-flinders-global-2027",
+    "2026-10-flinders-kickstart-2027",
+    "2026-10-griffith-academic-merit-2027",
+    "2026-10-griffith-vice-chancellor-2027",
+    "2026-10-herts-chancellor-january-2027",
+    "2026-10-iowa-state-international-excellence",
+    "2026-10-iowa-state-international-merit-oneapp-2027",
+    "2026-10-kansas-ku-excellence-2027",
+    "2026-10-kent-pgt-january-2027",
+    "2026-10-kentucky-bluegrass-2027",
+    "2026-10-kentucky-presidential-2027",
+    "2026-10-kentucky-singletary-2027",
+    "2026-10-lancaster-management-progression-2027",
+    "2026-10-lancaster-masters-excellence-2027",
+    "2026-10-lancaster-regional-taiwan-2027",
+    "2026-10-lancaster-undergraduate-international-excellence-2027",
+    "2026-10-lancaster-undergraduate-regional-2027",
+    "2026-10-lincoln-pathway-merit-2027",
+    "2026-10-lincoln-taught-master-merit-2027",
+    "2026-10-lincoln-undergraduate-vice-chancellor-2027",
+    "2026-10-london-met-east-asia-2027",
+    "2026-10-massey-creative-excellence-masters-2027",
+    "2026-10-massey-toroa-postgraduate-2027",
+    "2026-10-massey-toroa-undergraduate-2027",
+    "2026-10-miami-ohio-presidential-fellows-2027",
+    "2026-10-miami-ohio-youarewelcomehere-2027",
+    "2026-10-michigan-state-nonresident",
+    "2026-10-missouri-st-provost-international-merit-2027",
+    "2026-10-mizzou-international-honors-2027",
+    "2026-10-mizzou-international-merit-2027",
+    "2026-10-nebraska-global-laureate-2027",
+    "2026-10-newcastle-australia-international-excellence-2027",
+    "2026-10-newcastle-vc-international-undergraduate-2027",
+    "2026-10-ntu-taiwan-january-2027",
+    "2026-10-oklahoma-award-excellence-2027",
+    "2026-10-okstate-international-achievement-freshmen-2027",
+    "2026-10-oregon-state-taiwan-regional",
+    "2026-10-otago-global-masters-2027",
+    "2026-10-otago-global-undergraduate-2027",
+    "2026-10-otago-international-academic-excellence-2027",
+    "2026-10-oxford-brookes-january-2027",
+    "2026-10-portsmouth-chancellor-merit-january-2027",
+    "2026-10-qmul-global-talent-pgt-2027",
+    "2026-10-qub-pgt-january-2027",
+    "2026-10-rgu-early-payment-january-2027",
+    "2026-10-rgu-january-2027",
+    "2026-10-sheffield-international-pgt-2027",
+    "2026-10-sheffield-international-undergraduate-2027",
+    "2026-10-st-andrews-tesol-january-2027",
+    "2026-10-stirling-east-asia-pgt-2027",
+    "2026-10-stirling-vice-chancellor-pgt-january-2027",
+    "2026-10-strathclyde-science-january-2027",
+    "2026-10-swansea-international-excellence-january-2027",
+    "2026-10-uea-pg-merit-2027",
+    "2026-10-uni-international-excel-2027",
+    "2026-10-uni-transfer-scholar-2027",
+    "2026-10-unisq-international-excellence-2027",
+    "2026-10-uwa-global-excellence-2027",
+    "2026-10-vuw-postgraduate-international-2027",
+    "2026-10-vuw-undergraduate-international-2027",
+    "2026-10-waikato-research-masters-2027",
+    "2026-10-waikato-vice-chancellor-2027",
+    "2026-10-waterloo-international-entrance-2027",
+    "2026-10-western-sydney-international-undergraduate-2027",
+    "2026-10-westminster-pg-excellence-january-2027",
+    "catalog-aalto-excellence",
+    "catalog-berea-international-aid",
+    "catalog-bocconi-access-100",
+    "catalog-bocconi-access-80-60",
+    "catalog-bocconi-boost",
+    "catalog-bocconi-sport",
+    "catalog-chalmers-ipoet",
+    "catalog-daad-all-disciplines",
+    "catalog-daad-fine-art",
+    "catalog-daad-music",
+    "catalog-daad-performing-arts",
+    "catalog-duke-karsh",
+    "catalog-eiffel-master",
+    "catalog-eiffel-phd",
+    "catalog-emory-scholars",
+    "catalog-epfl-excellence",
+    "catalog-erasmus-mundus",
+    "catalog-eth-esop",
+    "catalog-geneva-excellence",
+    "catalog-gks-graduate",
+    "catalog-gks-undergraduate",
+    "catalog-goh-keng-swee",
+    "catalog-goi-ies",
+    "catalog-harvard-international-aid",
+    "catalog-helsinki-scholarship",
+    "catalog-jasso-honors",
+    "catalog-kaist-graduate",
+    "catalog-kaist-undergraduate",
+    "catalog-knight-hennessy",
+    "catalog-kth-scholarship",
+    "catalog-kyoto-iup",
+    "catalog-lund-global",
+    "catalog-maastricht-brightlands",
+    "catalog-maastricht-global-studies",
+    "catalog-maastricht-high-potential",
+    "catalog-maastricht-social-justice",
+    "catalog-maeci-italy",
+    "catalog-master-mind-flanders",
+    "catalog-mext-japanese-studies",
+    "catalog-mext-kosen-2027",
+    "catalog-mext-research-2027",
+    "catalog-mext-specialized-training-2027",
+    "catalog-mext-teacher-training",
+    "catalog-mext-undergraduate-2027",
+    "catalog-miami-stamps",
+    "catalog-mit-international-aid",
+    "catalog-nl-scholarship",
+    "catalog-nus-international-undergraduate",
+    "catalog-nus-science-technology",
+    "catalog-padua-excellence",
+    "catalog-paris-saclay-idex",
+    "catalog-radboud-nl-scholarship",
+    "catalog-radboud-scholarship",
+    "catalog-science-leuven",
+    "catalog-sciencespo-boutmy",
+    "catalog-snu-gsfs",
+    "catalog-swiss-phd",
+    "catalog-swiss-research-fellowship",
+    "catalog-taiwan-kaist-phd",
+    "catalog-tampere-scholarship",
+    "catalog-trinity-global-excellence",
+    "catalog-tudelft-justus",
+    "catalog-turku-merit",
+    "catalog-ucd-global-excellence",
+    "catalog-uppsala-global",
+    "catalog-utokyo-fellowship",
+    "catalog-utwente-scholarship",
+    "catalog-vanderbilt-cornelius",
+    "catalog-vanderbilt-ingram",
+    "catalog-yale-international-aid"
+  ],
+  "phaseCompleted": [
+    "PREFLIGHT",
+    "RESEARCH",
+    "PREPARE",
+    "BUILD"
+  ],
+  "baselineCommit": "012fa14f8938f425b74cf133bcc00d688f33c00b",
+  "gaps": [
+    "COMMIT_DEPLOY",
+    "PUBLISH",
+    "ACCEPTANCE",
+    "VERIFY"
+  ],
+  "scholarshipAdditions": [
+    {
+      "slug": "2026-10-portland-state-international-achievement-2027",
+      "title": "Portland State國際成就獎：每學年3,000至10,000美元",
+      "url": "https://globalednews.com/scholarships/items/2026-10-portland-state-international-achievement-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-portland-state-international-achievement-2027.md",
+      "sources": [
+        {
+          "label": "Official award terms",
+          "url": "https://www.pdx.edu/student-finance/international-scholarships"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://www.collegedata.com/scholarship-finder/276298"
+        },
+        {
+          "label": "psudates",
+          "url": "https://www.pdx.edu/admissions/deadlines"
+        },
+        {
+          "label": "psutw",
+          "url": "https://www.pdx.edu/admissions/international/academic-requirements-country"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-30T10:09:51.831461+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "台灣高中學歷可走國際新生路徑；須為新入學、非本州學費身分並符合獎助條件。"
+    },
+    {
+      "slug": "2026-10-kent-state-global-scholarship",
+      "title": "Kent State Global獎學金：按成績每年4,300至12,000美元",
+      "url": "https://globalednews.com/scholarships/items/2026-10-kent-state-global-scholarship/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-kent-state-global-scholarship.md",
+      "sources": [
+        {
+          "label": "Official award terms",
+          "url": "https://www.kent.edu/admissions/international-students-scholarship-resources"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://leapscholar.com/blog/kent-state-university-global-scholarship/"
+        },
+        {
+          "label": "kenttw",
+          "url": "https://www.kent.edu/admissions/international-admissions-transcript"
+        },
+        {
+          "label": "kentapply",
+          "url": "https://www.kent.edu/admissions/international-first-year-student-requirements"
+        },
+        {
+          "label": "kentcalendar",
+          "url": "https://www.kent.edu/admissions/admitted-student-checklist"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-30T10:09:51.831461+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "台灣申請人須為Kent主校區F1國際學士新生或轉學生；本州身分及特殊合作學費排除。"
+    },
+    {
+      "slug": "2026-10-kent-state-honors-scholarship",
+      "title": "Kent State Honors獎學金：邀請制新生每年2,000美元",
+      "url": "https://globalednews.com/scholarships/items/2026-10-kent-state-honors-scholarship/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-kent-state-honors-scholarship.md",
+      "sources": [
+        {
+          "label": "Official award terms",
+          "url": "https://www.kent.edu/admissions/international-students-scholarship-resources"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://leapscholar.com/blog/kent-state-university-global-scholarship/"
+        },
+        {
+          "label": "honorsapply",
+          "url": "https://www.kent.edu/honors/apply"
+        },
+        {
+          "label": "kenttw",
+          "url": "https://www.kent.edu/admissions/international-admissions-transcript"
+        },
+        {
+          "label": "kentapply",
+          "url": "https://www.kent.edu/admissions/international-first-year-student-requirements"
+        },
+        {
+          "label": "kentcalendar",
+          "url": "https://www.kent.edu/admissions/admitted-student-checklist"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-30T10:09:51.831461+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "台灣國際新生可申請，但須先獲Kent錄取與Honors邀請，再通過競爭甄選。"
+    }
+  ],
+  "phase": "COMMIT_DEPLOY",
+  "startedAt": "2026-10-30T04:57:37.8459604+08:00",
+  "timezone": "Asia/Taipei",
+  "date": "2026-10-30",
+  "status": "incomplete",
+  "currentPhase": "COMMIT_DEPLOY",
+  "updatedAt": "2026-10-30T10:20:56.098007+08:00",
+  "rootChecks": [
+    {
+      "exists": true,
+      "path": "src"
+    },
+    {
+      "exists": true,
+      "path": "public"
+    },
+    {
+      "exists": true,
+      "path": "package.json"
+    },
+    {
+      "exists": true,
+      "path": "astro.config.mjs"
+    },
+    {
+      "exists": true,
+      "path": ".github"
+    }
+  ],
+  "localHead": "eedb7458c3146f18fe38c0171a74579d4cd842ff",
+  "research": {
+    "newsCandidates": [
+      {
+        "sources": [
+          "https://www.abc.net.au/news/2026-10-30/labor-moves-to-fix-student-visa-crackdown/107325422",
+          "https://www.julianhillmp.com/speeches.html"
+        ],
+        "finding": "ABC full text read through native Chrome: prospective speech, November consultation. Official speeches page latest item October 2; matching October 30 primary text not located. Not cleared for publication.",
+        "topic": "Australia visa financial review"
+      },
+      {
+        "sources": [
+          "https://hea.ie/2026/10/29/hea-to-host-international-conference-on-inclusive-higher-education-during-irelands-eu-presidency/"
+        ],
+        "finding": "Official search result found; direct web open failed. No independently verified second source. Search returned suspicious unrelated proxy domain; excluded.",
+        "topic": "Ireland inclusive higher education conference"
+      },
+      {
+        "sources": [
+          "https://www.wiut.uz/news/wiut-participates-in-the-central-asian-international-education-forum",
+          "https://gov.uz/en/edu/news/view/239301",
+          "https://afrasiabedu.uz/en"
+        ],
+        "finding": "WIUT and ministry search leads found, direct web opens failed. Afrasiab direct page differs from search snapshot; full event evidence and independence remain unresolved. Candidate remains pending, not rejected as false.",
+        "topic": "Central Asian education forum"
+      },
+      {
+        "sources": [
+          "https://eng.ed.ac.uk/about/news",
+          "https://www.edinburghnews.scotsman.com/news/uk-government-announces-ps18m-for-new-ai-chip-academy-in-edinburgh-9316816"
+        ],
+        "finding": "Search list shows October 28 academy item; directly opened university list has October 14 as newest. Source freshness unresolved; existing chip-design article requires event dedupe.",
+        "topic": "Edinburgh advanced chip design academy"
+      }
+    ],
+    "checkedAt": "2026-10-30T05:01:50.4247013+08:00",
+    "scholarshipCandidates": [
+      {
+        "sources": [
+          "https://www.uah.edu/admissions/undergraduate/financial-aid/scholarships/international",
+          "https://scholarshipsignal.com/opportunities?page=18"
+        ],
+        "finding": "Official 2027-28 table read. Secondary search result mentions UAH but direct page contains no UAH; no independent corroboration established. Taiwan eligibility and open admission route not fully checked. Treat tiers as one program pending review.",
+        "name": "UAH International Merit / Super Scholar"
+      },
+      {
+        "sources": [
+          "https://www.tohoku.ac.jp/en/news/university_news/new_scholarship_program_for_international_students_2027.html",
+          "https://www.insc.tohoku.ac.jp/english/scholarship-for-international-students/"
+        ],
+        "finding": "Program confirmed for 2027, approximately top third selected. Both sources same institution. No specific currently open Taiwan-eligible program route independently verified; not claimed closed.",
+        "name": "Tohoku International Excellence"
+      },
+      {
+        "sources": [
+          "https://www.sussex.ac.uk/study/fees-funding/undergraduate-scholarships/view/1870-Chancellor-s-International-Scholarships",
+          "https://www.sussex.ac.uk/study/fees-funding/masters-scholarships/view/1871-Chancellor-s-International-Scholarships"
+        ],
+        "finding": "Both official pages explicitly labelled 2026, deadline April 30 2026, Applications closed. Excluded despite third-party 2027 heading.",
+        "name": "Sussex Chancellor undergraduate and masters"
+      },
+      {
+        "sources": [
+          "https://www.uab.edu/cost-aid/images/documents/scholarships/26-27-Scholarship-Policies.pdf"
+        ],
+        "finding": "2026-27 policy read; excludes external/government scholarship recipients. Current application window, Taiwan route and independent second source not established.",
+        "name": "UAB International"
+      },
+      {
+        "name": "Alabama automatic merit",
+        "finding": "Already exists as 2026-10-alabama-international-automatic-merit-2027; cannot count as net-new."
+      }
+    ],
+    "decision": "Resolved through alternate readable sources. Three regionally distinct news stories and three distinct new scholarship programs prepared; not yet published."
+  },
+  "peterReview": {
+    "status": "fewer-new-posts",
+    "checkedAt": "2026-10-30T10:14:48.677171+08:00",
+    "availableNewCount": 1,
+    "sourceUrls": [
+      "https://www.facebook.com/profile.php?id=61585164670358",
+      "https://www.facebook.com/photo/?fbid=122148748119172155&set=a.122101120425172155"
+    ],
+    "note": "Native latest feed newly shows support-network post. Earlier France/Netherlands imported October29; promotion excluded. One new substantive item observed and prepared."
+  },
+  "ltuReview": {
+    "poolCount": 12,
+    "method": "Native Chrome reload and rendered section text",
+    "status": "verified",
+    "visible": [
+      "NOWnews 加拿大暑修",
+      "今周刊 LTU國際學術中心",
+      "工商時報 明道臺加雙聯"
+    ],
+    "checkedAt": "2026-10-30T10:20:56.098007+08:00",
+    "note": "All three displayed external articles read and matched to rotation headlines.",
+    "sourceUrls": [
+      "https://www.nownews.com/news/6697174",
+      "https://www.businesstoday.com.tw/article/category/183035/post/202508150011/",
+      "https://www.ctee.com.tw/news/20260401701821-431204"
+    ]
+  },
+  "campusLeads": [
+    {
+      "school": "NCHU",
+      "note": "New applications closed October 23 noon; recommendation deadline October 30 noon.",
+      "url": "https://www.oia.nchu.edu.tw/index.php/5-global-mobility-en/5-1-exchange-student-program-en/5-1-1-application-guildeline-en",
+      "verifiedAt": "2026-10-30T10:20:56.098007+08:00"
+    },
+    {
+      "school": "NCU",
+      "note": "Official AY2027/28 exchange PDF: application opens 2026-11-16 09:00, closes 2026-12-04 12:00; department paper deadline 2026-12-11 17:00; not open today.",
+      "url": "https://oia.ncu.edu.tw/p/412-1026-1872.php?Lang=zh-tw",
+      "guidelinesUrl": "https://oia.ncu.edu.tw/static/file/26/1026/img/277/116exchangenotice.pdf",
+      "verifiedAt": "2026-10-30T10:20:56.098007+08:00"
+    },
+    {
+      "school": "NTU",
+      "note": "Application opens November 3 10:00 and closes November 9 16:00; not open today.",
+      "url": "https://studyabroad.ntu.edu.tw/en/exchange-student/how-to-apply/",
+      "verifiedAt": "2026-10-30T10:20:56.098007+08:00"
+    }
+  ],
+  "sunmoonReview": {
+    "checkedAt": "2026-10-30T05:01:50.4247013+08:00",
+    "note": "Homepage read; no new item double-checked for import.",
+    "url": "https://www.sunmoonnews.com.tw/"
+  },
+  "manualActions": [],
+  "blockers": [],
+  "verification": {
+    "status": "INCOMPLETE",
+    "exitCode": 1,
+    "evidence": "docs/daily-checks/2026-10-30/daily-verification.json"
+  },
+  "newsPrepared": [
+    {
+      "slug": "edinburgh-advanced-chip-design-academy-2026",
+      "title": "愛丁堡將主持1,800萬英鎊晶片設計學院：研究走向製作與測試",
+      "url": "https://globalednews.com/news/edinburgh-advanced-chip-design-academy-2026/",
+      "publishedPath": "src/pages/news/edinburgh-advanced-chip-design-academy-2026.md",
+      "sources": [
+        {
+          "label": "Official announcement",
+          "url": "https://eng.ed.ac.uk/about/news/20261028/edinburgh-to-host-ps18m-uk-advanced-chip-design-academy"
+        },
+        {
+          "label": "Independent reporting or analysis",
+          "url": "https://www.cbi.org.uk/articles/autumn-budget-2026-cbi-analysis/"
+        }
+      ],
+      "verifiedAt": "2026-10-30T10:09:51.831461+08:00"
+    },
+    {
+      "slug": "unb-saint-john-data-science-degree-2027",
+      "title": "加拿大UNB公布資料科學學士：2027年9月於Saint John開課",
+      "url": "https://globalednews.com/news/unb-saint-john-data-science-degree-2027/",
+      "publishedPath": "src/pages/news/unb-saint-john-data-science-degree-2027.md",
+      "sources": [
+        {
+          "label": "Official announcement",
+          "url": "https://blogs.unb.ca/newsroom/2026/10/bachelor-data-science.php"
+        },
+        {
+          "label": "Independent reporting or analysis",
+          "url": "https://nz.news.yahoo.com/ai-degree-programs-popping-across-090000355.html"
+        }
+      ],
+      "verifiedAt": "2026-10-30T10:09:51.831461+08:00"
+    },
+    {
+      "slug": "central-asia-tashkent-education-forum-mobility-2026",
+      "title": "中亞教育論壇聚焦學術流動：聯合學位與資格互認仍須逐案確認",
+      "url": "https://globalednews.com/news/central-asia-tashkent-education-forum-mobility-2026/",
+      "publishedPath": "src/pages/news/central-asia-tashkent-education-forum-mobility-2026.md",
+      "sources": [
+        {
+          "label": "Official announcement",
+          "url": "https://forum.edu.uz/en"
+        },
+        {
+          "label": "Independent reporting or analysis",
+          "url": "https://academiamag.com/news/pakistan-eyes-stronger-academic-ties-with-central-asia/"
+        }
+      ],
+      "verifiedAt": "2026-10-30T10:09:51.831461+08:00"
+    }
+  ],
+  "scholarshipChecks": [
+    {
+      "slug": "2026-10-portland-state-international-achievement-2027",
+      "title": "Portland State國際成就獎：每學年3,000至10,000美元",
+      "url": "https://globalednews.com/scholarships/items/2026-10-portland-state-international-achievement-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-portland-state-international-achievement-2027.md",
+      "sources": [
+        {
+          "label": "Official award terms",
+          "url": "https://www.pdx.edu/student-finance/international-scholarships"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://www.collegedata.com/scholarship-finder/276298"
+        },
+        {
+          "label": "psudates",
+          "url": "https://www.pdx.edu/admissions/deadlines"
+        },
+        {
+          "label": "psutw",
+          "url": "https://www.pdx.edu/admissions/international/academic-requirements-country"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-30T10:09:51.831461+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "台灣高中學歷可走國際新生路徑；須為新入學、非本州學費身分並符合獎助條件。"
+    },
+    {
+      "slug": "2026-10-kent-state-global-scholarship",
+      "title": "Kent State Global獎學金：按成績每年4,300至12,000美元",
+      "url": "https://globalednews.com/scholarships/items/2026-10-kent-state-global-scholarship/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-kent-state-global-scholarship.md",
+      "sources": [
+        {
+          "label": "Official award terms",
+          "url": "https://www.kent.edu/admissions/international-students-scholarship-resources"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://leapscholar.com/blog/kent-state-university-global-scholarship/"
+        },
+        {
+          "label": "kenttw",
+          "url": "https://www.kent.edu/admissions/international-admissions-transcript"
+        },
+        {
+          "label": "kentapply",
+          "url": "https://www.kent.edu/admissions/international-first-year-student-requirements"
+        },
+        {
+          "label": "kentcalendar",
+          "url": "https://www.kent.edu/admissions/admitted-student-checklist"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-30T10:09:51.831461+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "台灣申請人須為Kent主校區F1國際學士新生或轉學生；本州身分及特殊合作學費排除。"
+    },
+    {
+      "slug": "2026-10-kent-state-honors-scholarship",
+      "title": "Kent State Honors獎學金：邀請制新生每年2,000美元",
+      "url": "https://globalednews.com/scholarships/items/2026-10-kent-state-honors-scholarship/",
+      "publishedPath": "src/pages/scholarships/items/2026-10-kent-state-honors-scholarship.md",
+      "sources": [
+        {
+          "label": "Official award terms",
+          "url": "https://www.kent.edu/admissions/international-students-scholarship-resources"
+        },
+        {
+          "label": "Independent cross-check",
+          "url": "https://leapscholar.com/blog/kent-state-university-global-scholarship/"
+        },
+        {
+          "label": "honorsapply",
+          "url": "https://www.kent.edu/honors/apply"
+        },
+        {
+          "label": "kenttw",
+          "url": "https://www.kent.edu/admissions/international-admissions-transcript"
+        },
+        {
+          "label": "kentapply",
+          "url": "https://www.kent.edu/admissions/international-first-year-student-requirements"
+        },
+        {
+          "label": "kentcalendar",
+          "url": "https://www.kent.edu/admissions/admitted-student-checklist"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-10-30T10:09:51.831461+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "updateSummary": "台灣國際新生可申請，但須先獲Kent錄取與Honors邀請，再通過競爭甄選。"
+    }
+  ],
+  "studyAbroadPrepared": {
+    "slug": "portland-state-2027-quarter-system-funding-guide",
+    "title": "Portland State申請導航：以學季拆開獎助與全年預算",
+    "url": "https://globalednews.com/study-abroad/portland-state-2027-quarter-system-funding-guide/",
+    "publishedPath": "src/pages/study-abroad/portland-state-2027-quarter-system-funding-guide.md"
+  },
+  "resumedAt": "2026-10-30T10:09:51.831461+08:00",
+  "baseCommit": "012fa14f8938f425b74cf133bcc00d688f33c00b",
+  "preparedAt": "2026-10-30T10:10:28.888709+08:00",
+  "peterPrepared": [
+    {
+      "slug": "study-abroad-support-network-independence-2026",
+      "title": "獨立不是凡事自己扛：Peter談留學前的支持網絡",
+      "url": "https://globalednews.com/peter/study-abroad-support-network-independence-2026/",
+      "sourceUrl": "https://www.facebook.com/photo/?fbid=122148748119172155&set=a.122101120425172155",
+      "sourceId": "122148748119172155",
+      "verifiedAt": "2026-10-30T10:14:48.677171+08:00"
+    }
+  ],
+  "build": {
+    "status": "success",
+    "verifiedAt": "2026-10-30T10:20:56.098007+08:00",
+    "evidence": "docs/daily-checks/2026-10-30",
+    "checks": [
+      "Astro 579 routes",
+      "bilingual",
+      "social photos",
+      "search",
+      "Facebook evidence",
+      "public service safety",
+      "Vlog",
+      "education SEO"
+    ]
+  }
+}

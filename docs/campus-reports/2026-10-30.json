@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-30",
+  "timezone": "Asia/Taipei",
+  "status": "three-public-leads-reviewed",
+  "verifiedAt": "2026-10-30T10:20:56.098007+08:00",
+  "reviewedSchools": [
+    {
+      "school": "NCHU",
+      "note": "New applications closed October 23 noon; recommendation deadline October 30 noon.",
+      "url": "https://www.oia.nchu.edu.tw/index.php/5-global-mobility-en/5-1-exchange-student-program-en/5-1-1-application-guildeline-en",
+      "verifiedAt": "2026-10-30T10:20:56.098007+08:00"
+    },
+    {
+      "school": "NCU",
+      "note": "Official AY2027/28 exchange PDF: application opens 2026-11-16 09:00, closes 2026-12-04 12:00; department paper deadline 2026-12-11 17:00; not open today.",
+      "url": "https://oia.ncu.edu.tw/p/412-1026-1872.php?Lang=zh-tw",
+      "guidelinesUrl": "https://oia.ncu.edu.tw/static/file/26/1026/img/277/116exchangenotice.pdf",
+      "verifiedAt": "2026-10-30T10:20:56.098007+08:00"
+    },
+    {
+      "school": "NTU",
+      "note": "Application opens November 3 10:00 and closes November 9 16:00; not open today.",
+      "url": "https://studyabroad.ntu.edu.tw/en/exchange-student/how-to-apply/",
+      "verifiedAt": "2026-10-30T10:20:56.098007+08:00"
+    }
+  ]
+}

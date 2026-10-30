@@ -1,0 +1,52 @@
+[
+  {
+    "path": "docs/social-posts/2026-10-29/news--uk-budget-graduate-visa.json",
+    "sourceSha": "e8d420182960c187a81aac9807c53d97e0357fbcad79bb37d08ba8f61824f9ea",
+    "runtimeSha": "c6b4eeb1a72d12db8157cf7056136054831921f6bf2d3dc99ed0e3eb4397c8c1"
+  },
+  {
+    "path": "docs/social-posts/2026-10-29/publication-log.json",
+    "sourceSha": "fc161c5671fcb248741a547a12bc054bf150b12ed9017851e1a165324e3a4514",
+    "runtimeSha": "0bb400c26ad93c4ef89c24cd7cb1752869aa0590de4cb81986bcd4b1e999415e"
+  },
+  {
+    "path": "docs/social-posts/2026-10-29/scholarship--lancaster-ug-regional-2027.json",
+    "sourceSha": "2293b388a4efc431e4f055848b6a19acd16063c0c2a3f86eddb50c1233718080",
+    "runtimeSha": "5bdac169e6f4492d3779bffbcf8e92d084d68da7209f6ea885b967d708331f0b"
+  },
+  {
+    "path": "docs/social-posts/2026-10-29/study-abroad--lancaster-eligible-years.json",
+    "sourceSha": "b21997c205bd3d08dc8336c22bf459e4ceff67113ac5d14babe6018b3076d0a9",
+    "runtimeSha": "943eeb90bdc15d8726ed119ebef8af32eebed423cb1b44c5194ac18724890ed3"
+  },
+  {
+    "path": "docs/social-posts/2026-10-29/taiwan-universities--nchu-reference-deadline.json",
+    "sourceSha": "71095b4fb04d6e8fbd927f06189b0238c4cfc30b263a0c779a92e00b41c4e4b7",
+    "runtimeSha": "412488b2b6849a5dc1add1a1622f0feeb13d982b3b868140d92035b082fa192f"
+  },
+  {
+    "path": "public/data/analytics-summary.json",
+    "sourceSha": "bb882605ade31e81dd0ccee2315bc7e153236b9ab1d06a408a2ce6faf28c5e1e",
+    "runtimeSha": "0b68b7641341726a4fccad9caed761c55baea82dcc3c57f0a244b8ca56346ab0"
+  },
+  {
+    "path": "public/images/share-photos/credits.json",
+    "sourceSha": "5b1095d6493894f1af317cbd52787ef38054d7a6b6951ad81f52172118dbe1e8",
+    "runtimeSha": "2b7bf6b49765446c71e5cc76b180b9e0a9afc27b060a64123ef28f153b2fd540"
+  },
+  {
+    "path": "public/images/share-photos/sources.json",
+    "sourceSha": "2953955734f11d3c85b35d40ddeb9a1eff89ef8edc201311718dab455393974e",
+    "runtimeSha": "0275548f80f7646a7d69bc141ea7fe4ed7db1cd7e83802fbc485ede8c4140477"
+  },
+  {
+    "path": "src/data/i18n/en-overrides.json",
+    "sourceSha": "6d85c6386316cab2a17e2439d9fc9b1bb35b1185f669de292670affcf5703c62",
+    "runtimeSha": "19bb0daeaa2cfd5e7321bf13d38b2265dc84fbd3dabcd70f9d5fd163847e73c1"
+  },
+  {
+    "path": "src/data/vlog-videos.json",
+    "sourceSha": "345bd3128f5b03f4d6e5b4fed6bdff259f39809dde33a14822abd897e75e8491",
+    "runtimeSha": "a7234bda5cd57039e962ebd9e16459c211deee4a163987d509368e770e739fc8"
+  }
+]

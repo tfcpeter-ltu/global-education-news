@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-30",
+  "status": "prepared-awaiting-live-verification",
+  "review": {
+    "status": "fewer-new-posts",
+    "checkedAt": "2026-10-30T10:14:48.677171+08:00",
+    "availableNewCount": 1,
+    "sourceUrls": [
+      "https://www.facebook.com/profile.php?id=61585164670358",
+      "https://www.facebook.com/photo/?fbid=122148748119172155&set=a.122101120425172155"
+    ],
+    "note": "Native latest feed newly shows support-network post. Earlier France/Netherlands imported October29; promotion excluded. One new substantive item observed and prepared."
+  },
+  "items": [
+    {
+      "slug": "study-abroad-support-network-independence-2026",
+      "title": "獨立不是凡事自己扛：Peter談留學前的支持網絡",
+      "url": "https://globalednews.com/peter/study-abroad-support-network-independence-2026/",
+      "sourceUrl": "https://www.facebook.com/photo/?fbid=122148748119172155&set=a.122101120425172155",
+      "sourceId": "122148748119172155",
+      "verifiedAt": "2026-10-30T10:14:48.677171+08:00"
+    }
+  ]
+}

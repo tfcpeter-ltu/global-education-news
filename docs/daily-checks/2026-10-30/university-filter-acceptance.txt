@@ -1,0 +1,2402 @@
+- navigation "Language":
+  - link "繁體中文":
+    - /url: https://globalednews.com/taiwan-universities/
+  - link "English":
+    - /url: https://globalednews.com/en/taiwan-universities/
+- banner:
+  - generic: 環球教育新聞網 · TAIWAN EDITION · EST. 2026
+  - generic: INTERNATIONAL EDUCATION · UNIVERSITIES · POLICY · GLOBAL MOBILITY
+  - text: International Education
+  - text: Journalism & Analysis
+  - link "Global Education News 環球教育新聞網 首頁":
+    - /url: /
+    - generic: Global Education News
+    - generic: 環球教育新聞網
+    - text: 國內外國際教育新聞・大學科系選擇與申請・獎學金雷達
+    - text: 深度探討文章-Peter 的國際教育講座
+    - generic: EDUCATION NEWS · UNIVERSITIES & ADMISSIONS · SCHOLARSHIPS · PETER’S INSIGHTS
+  - text: Taiwan · Asia
+  - text: Global Perspective
+  - navigation "主要導覽":
+    - generic "首頁 Home":
+      - generic: 首頁 ▾
+      - generic: Home
+    - link "留遊學交換誌 Study Abroad Magazine":
+      - /url: https://studyabmag.globalednews.com/
+      - generic: 留遊學交換誌
+      - generic: Study Abroad Magazine
+    - generic "海外教育 Global Education":
+      - generic: 海外教育 ▾
+      - generic: Global Education
+    - link "國際獎學金雷達 Scholarship Radar":
+      - /url: /scholarships/
+      - generic: 國際獎學金雷達
+      - generic: Scholarship Radar
+    - link "留學DIY導航 Study Abroad Navigator":
+      - /url: /study-abroad/
+      - generic: 留學DIY導航
+      - generic: Study Abroad Navigator
+    - link "留遊學Vlog Study Abroad Vlog":
+      - /url: /vlog/
+      - generic: 留遊學Vlog
+      - generic: Study Abroad Vlog
+    - generic "Peter的國際教育講座 Peter’s Education Talk":
+      - generic: Peter的國際教育講座 ▾
+      - generic: Peter’s Education Talk
+    - link "免費電子報 Free Newsletter":
+      - /url: /newsletter/
+      - generic: 免費電子報
+      - generic: Free Newsletter
+    - generic "國內大學選校選系 University Explorer":
+      - generic: 國內大學選校選系 ▾
+      - generic: University Explorer
+- main:
+  - generic: TAIWAN UNIVERSITY & MAJOR EXPLORER
+  - heading "國內大學選校選系資料庫" [level=1]
+  - paragraph: 環球國際教育新聞
+  - paragraph: 從 70 所大學、熱門科系、課程特色、研究方向、就業發展到學生真實網路評價，一站完成選校選系比較。
+  - link "← 返回環球教育新聞首頁":
+    - /url: /
+  - link "開始找學校與科系":
+    - /url: "#database"
+  - link "資料怎麼整理？":
+    - /url: "#method"
+  - generic "資料庫規模":
+    - strong: "70"
+    - generic: 所大學
+    - strong: "193"
+    - generic: 個科系深度頁
+    - strong: "70"
+    - generic: 校學生網路評價
+    - strong: "20"
+    - generic: 個已整理科系類別
+  - region "學測落點分析":
+    - generic: 免費升學工具 · 115 學年度
+    - heading "學測落點分析" [level=2]
+    - paragraph: 輸入你的級分，看看有哪些校系值得挑戰。
+    - generic "學測分析功能":
+      - generic: 接近門檻的校系
+      - generic: 前後各五個選項
+      - generic: 各科 ±1 級分比較
+    - paragraph: 不用先選學校或科系，依實際應考科目與級分，對照 2,206 個申請入學校系組的正式分則；有可解析一階門檻者再提供級分試算。
+    - paragraph: 使用備註：一階門檻 OCR 尚待逐筆複核；未納入實際考生志願序與各系正備取順位，結果不代表最終錄取或名額分配。
+    - link "開始分析我的學測落點":
+      - /url: /taiwan-universities/gsat-analysis/
+      - text: 開始分析我的學測落點
+      - generic: →
+    - generic: 免費使用 · 不用登入
+  - complementary "廣告：台灣大學選校":
+    - generic: ADVERTISEMENT · 廣告
+    - generic: GLOBAL EDUCATION NEWS
+    - strong: 大學與國際教育招生合作
+    - paragraph: 讓有興趣的學生在探索學校與申請資訊時，看見您的課程與活動。
+    - link "洽詢此版位":
+      - /url: /advertise/
+      - text: 洽詢此版位 ↗
+  - heading "不只看排名，也看你四年會學到什麼" [level=2]
+  - generic: OFFICIAL DATA + STUDENT EXPERIENCE
+  - article:
+    - text: "01"
+    - heading "官方與可驗證資料" [level=3]
+    - paragraph: 整理課程、師資研究方向、實習、證照、升學、產學與就業。數字沒有同年度、同科系、可追溯來源時，一律標示待查，不推估、不填 0。
+  - article:
+    - text: "02"
+    - heading "學生網路評價" [level=3]
+    - paragraph: 彙整 Dcard 與公開學生討論的高頻正負面主題、生活面、課業面與評價分歧。單一匿名留言不會直接變成結論。
+  - article:
+    - text: "03"
+    - heading "選校與選系分開看" [level=3]
+    - paragraph: 學校生活、交通、住宿與校風是一層；真正的科系課程、研究、實作與職涯又是另一層。資料庫把兩者拆開，避免只靠校名選系。
+  - heading "目前已完成的科系類別" [level=2]
+  - generic: 193 DEPARTMENT PROFILES
+  - link "中文／國文 24 個深度頁":
+    - /url: "#database"
+    - strong: 中文／國文
+    - generic: 24 個深度頁
+  - link "外國語文 13 個深度頁":
+    - /url: "#database"
+    - strong: 外國語文
+    - generic: 13 個深度頁
+  - link "醫療健康專業 13 個深度頁":
+    - /url: "#database"
+    - strong: 醫療健康專業
+    - generic: 13 個深度頁
+  - link "企管／資管 12 個深度頁":
+    - /url: "#database"
+    - strong: 企管／資管
+    - generic: 12 個深度頁
+  - link "電機工程 12 個深度頁":
+    - /url: "#database"
+    - strong: 電機工程
+    - generic: 12 個深度頁
+  - link "社會工作 11 個深度頁":
+    - /url: "#database"
+    - strong: 社會工作
+    - generic: 11 個深度頁
+  - link "資訊工程 11 個深度頁":
+    - /url: "#database"
+    - strong: 資訊工程
+    - generic: 11 個深度頁
+  - link "會計／會資 10 個深度頁":
+    - /url: "#database"
+    - strong: 會計／會資
+    - generic: 10 個深度頁
+  - link "化學／應用化學 8 個深度頁":
+    - /url: "#database"
+    - strong: 化學／應用化學
+    - generic: 8 個深度頁
+  - link "土木／營建 8 個深度頁":
+    - /url: "#database"
+    - strong: 土木／營建
+    - generic: 8 個深度頁
+  - link "心理 8 個深度頁":
+    - /url: "#database"
+    - strong: 心理
+    - generic: 8 個深度頁
+  - link "法律 8 個深度頁":
+    - /url: "#database"
+    - strong: 法律
+    - generic: 8 個深度頁
+  - link "社會學 8 個深度頁":
+    - /url: "#database"
+    - strong: 社會學
+    - generic: 8 個深度頁
+  - link "經濟 8 個深度頁":
+    - /url: "#database"
+    - strong: 經濟
+    - generic: 8 個深度頁
+  - link "護理 8 個深度頁":
+    - /url: "#database"
+    - strong: 護理
+    - generic: 8 個深度頁
+  - link "財金／金融 8 個深度頁":
+    - /url: "#database"
+    - strong: 財金／金融
+    - generic: 8 個深度頁
+  - link "機械工程 7 個深度頁":
+    - /url: "#database"
+    - strong: 機械工程
+    - generic: 7 個深度頁
+  - link "哲學 6 個深度頁":
+    - /url: "#database"
+    - strong: 哲學
+    - generic: 6 個深度頁
+  - link "政治 6 個深度頁":
+    - /url: "#database"
+    - strong: 政治
+    - generic: 6 個深度頁
+  - link "獸醫 4 個深度頁":
+    - /url: "#database"
+    - strong: 獸醫
+    - generic: 4 個深度頁
+  - generic: INTERACTIVE DATABASE
+  - heading "開始查 70 所大學與科系" [level=2]
+  - paragraph: 可搜尋學校、科系、比較研究與就業方向，並查看學生網路評價摘要。
+  - link "另開完整資料庫 ↗":
+    - /url: https://taiwan-university-review.cfb5f6a8-a379-4cbf-98d4-1752fdaecae0.chatgpt.site
+  - iframe [active]:
+    - link "跳至主要內容":
+      - /url: "#main"
+    - banner:
+      - link "台灣知名大學新聞與評比網首頁":
+        - /url: "#top"
+        - generic: TU
+        - strong: 台灣知名大學
+        - generic: 新聞與評比網
+        - generic: LTU 國際學術中心
+      - navigation "主要導覽":
+        - link "找科系":
+          - /url: "#find-major"
+        - link "大學資料庫":
+          - /url: "#universities"
+        - link "商管科系比較":
+          - /url: "#/compare/business"
+        - link "設計系比較":
+          - /url: "#design-compare"
+        - link "資料頁進度":
+          - /url: "#data-progress"
+        - link "世界排名":
+          - /url: "#global-rankings"
+        - link "評比方法":
+          - /url: "#methodology"
+        - link "每月更新":
+          - /url: "#updates"
+      - generic: 70 校資料庫
+    - main:
+      - region "選一個你想投入、 也能累積本事的科系。":
+        - paragraph: TAIWAN UNIVERSITY OBSERVATORY
+        - heading "選一個你想投入、 也能累積本事的科系。" [level=1]:
+          - text: 選一個你想投入、
+          - text: 也能累積本事的科系。
+        - paragraph: 先了解適不適合你、四年能學會什麼，再比較工作、創業與海外發展。從70所大學開始探索；各系資料陸續補齊，結論附上依據。
+        - link "先試讀：工業設計適合我嗎？ →":
+          - /url: "#design-compare"
+        - generic "網站統計":
+          - article:
+            - strong: "70"
+            - generic: 可探索的大學
+          - article:
+            - strong: "8"
+            - generic: 核心評比面向
+          - article:
+            - strong: 2×
+            - generic: 重要新聞來源核對
+          - article:
+            - strong: 月更
+            - generic: 資料與變動紀錄
+      - region "從你想學的事，找科系":
+        - paragraph: FIND YOUR MAJOR
+        - heading "從你想學的事，找科系" [level=2]
+        - paragraph: 70校科系索引；可加入比較的科系已附內容與來源，索引不等於已完成特色查核。
+        - link "物理與電物：3校":
+          - /url: "#/compare/physics"
+        - link "化學與應化：20校":
+          - /url: "#/compare/chemistry"
+        - link "心理：8系":
+          - /url: "#/compare/psychology"
+        - link "社會工作：11校":
+          - /url: "#/compare/socialwork"
+        - link "社會學：8校":
+          - /url: "#/compare/sociology"
+        - link "外國語文：13校":
+          - /url: "#/compare/foreign"
+        - link "中國文學／國文：24校":
+          - /url: "#/compare/chinese"
+        - link "歷史：10校":
+          - /url: "#/compare/history"
+        - link "哲學：6校":
+          - /url: "#/compare/philosophy"
+        - link "政治：6校":
+          - /url: "#/compare/politics"
+        - link "護理：8校":
+          - /url: "#/compare/nursing"
+        - link "獸醫：4校":
+          - /url: "#/compare/veterinary"
+        - link "資工：5校":
+          - /url: "#/compare/computing"
+        - link "電機：6校":
+          - /url: "#/compare/electrical"
+        - link "機械：7校":
+          - /url: "#/compare/mechanical"
+        - link "土木：8校":
+          - /url: "#/compare/civil"
+        - link "法律：8校":
+          - /url: "#/compare/law"
+        - link "經濟與政經：8校":
+          - /url: "#/compare/economics"
+        - link "財金與金融：8系":
+          - /url: "#/compare/finance"
+        - link "會計與會資：10校":
+          - /url: "#/compare/accounting"
+        - link "企管與資管：12系":
+          - /url: "#/compare/business"
+        - text: 想學什麼？
+        - searchbox "想學什麼？" [active]: 資訊
+        - text: 學制
+        - combobox "學制":
+          - option "日間學士／四技與一般學系" [selected]
+          - option "全部學制（含研究所、進修）"
+        - text: 想看哪間學校？
+        - combobox "想看哪間學校？":
+          - option "全部已建檔學校"
+          - option "國立臺灣大學" [selected]
+          - option "國立清華大學"
+          - option "國立陽明交通大學"
+          - option "國立成功大學"
+          - option "國立政治大學"
+          - option "國立臺灣科技大學"
+          - option "國立臺灣師範大學"
+          - option "國立中山大學"
+          - option "國立中央大學"
+          - option "國立中興大學"
+          - option "國立臺北科技大學"
+          - option "國立中正大學"
+          - option "國立臺北大學"
+          - option "國立臺灣海洋大學"
+          - option "國立雲林科技大學"
+          - option "國立高雄科技大學"
+          - option "國立彰化師範大學"
+          - option "國立高雄師範大學"
+          - option "國立東華大學"
+          - option "國立暨南國際大學"
+          - option "國立臺北教育大學"
+          - option "國立臺中教育大學"
+          - option "國立嘉義大學"
+          - option "國立高雄大學"
+          - option "國立宜蘭大學"
+          - option "國立聯合大學"
+          - option "國立屏東大學"
+          - option "國立臺北藝術大學"
+          - option "國立臺灣藝術大學"
+          - option "國立屏東科技大學"
+          - option "長庚大學"
+          - option "臺北醫學大學"
+          - option "中國醫藥大學"
+          - option "高雄醫學大學"
+          - option "輔仁大學"
+          - option "東吳大學"
+          - option "東海大學"
+          - option "中原大學"
+          - option "逢甲大學"
+          - option "淡江大學"
+          - option "元智大學"
+          - option "亞洲大學"
+          - option "義守大學"
+          - option "中山醫學大學"
+          - option "銘傳大學"
+          - option "世新大學"
+          - option "實踐大學"
+          - option "慈濟大學"
+          - option "明志科技大學"
+          - option "南臺科技大學"
+          - option "國立臺南大學"
+          - option "國立臺東大學"
+          - option "國立金門大學"
+          - option "國立空中大學"
+          - option "國立臺南藝術大學"
+          - option "國立體育大學"
+          - option "國立臺灣體育運動大學"
+          - option "國立勤益科技大學"
+          - option "國立虎尾科技大學"
+          - option "國立臺中科技大學"
+          - option "國立臺北商業大學"
+          - option "國立臺北護理健康大學"
+          - option "國立高雄餐旅大學"
+          - option "國立澎湖科技大學"
+          - option "國立臺灣戲曲學院"
+          - option "臺北市立大學"
+          - option "高雄市立空中大學"
+          - option "國防大學"
+          - option "國防醫學大學"
+          - option "中央警察大學"
+        - button "重設條件"
+        - generic "依未來方向探索":
+          - generic: 我想要：
+          - button "做產品"
+          - button "嘗試創業"
+          - button "接觸國際"
+          - button "幫助別人"
+          - button "學科技"
+        - paragraph: 關鍵字會比對科系名稱、已整理的專長與學習方向。部分內容仍以師資研究專長為主，不等於大學部必修課或就業保證。
+        - status: 找到 4 個科系，顯示 4 個。依校庫順序排列；可閱讀各系的特色、證據與未完成項目。
+        - article:
+          - generic: 國立臺灣大學
+          - heading "資訊工程學系" [level=3]
+          - button "加入比較"
+          - paragraph:
+            - strong: 想把數學、系統與程式連在一起
+          - paragraph: 願意推理、除錯和讀程式，想理解系統如何工作；不適合期待避開數學。
+          - paragraph: 系方將學習方法分為數學邏輯、系統架構及軟體實作，強調在資源限制下解決問題。
+          - link "看本科訓練 →":
+            - /url: "#/department/ntu-csie"
+          - text: ·
+          - link "同類科系跨校比較 →":
+            - /url: "#/compare/computing"
+        - article:
+          - generic: 國立臺灣大學
+          - heading "會計學系" [level=3]
+          - button "加入比較"
+          - paragraph:
+            - strong: 想把會計核心、第二專長與海外學習放在同一路線
+          - paragraph: 喜歡從交易規則追到財報判斷，願意反覆練習、讀英文教材並和同學討論；若只想學投資、不想碰準則、法規與長題目，需先比較財金。
+          - paragraph: 系方課程由會計學原理、中級與高級會計、成本管理會計、審計、稅法及會計資訊系統逐年銜接，另要求選擇第二專長領域，並列多種3／4+1及雙學士海外方案。
+          - link "看本科訓練 →":
+            - /url: "#/department/n01-accounting-expanded"
+          - text: ·
+          - link "同類科系跨校比較 →":
+            - /url: "#/compare/accounting"
+        - article:
+          - generic: 國立臺灣大學
+          - heading "圖書資訊學系" [level=3]
+          - paragraph: 教育部 114 學年度名錄正式科系目錄
+          - paragraph: 目前僅有科系目錄，尚不足以判斷特色或就業方向。
+          - link "查看學校科系總覽 →":
+            - /url: "#/school/n01"
+        - article:
+          - generic: 國立臺灣大學
+          - heading "資訊管理學系" [level=3]
+          - paragraph: 教育部 114 學年度名錄正式科系目錄
+          - paragraph: 目前僅有科系目錄，尚不足以判斷特色或就業方向。
+          - link "查看學校科系總覽 →":
+            - /url: "#/school/n01"
+      - region "三十秒選系方向":
+        - paragraph: DECISION TOOL
+        - heading "三十秒選系方向" [level=2]
+        - paragraph: 勾選你在意的事，先得到探索清單，不是錄取或就業預測。
+        - checkbox "我想動手做、做實驗或作品"
+        - text: 我想動手做、做實驗或作品
+        - checkbox "我想接觸企業、產品或職場"
+        - text: 我想接觸企業、產品或職場
+        - checkbox "我想交換、出國或接觸國際"
+        - text: 我想交換、出國或接觸國際
+        - checkbox "我想做研究、論文或升學"
+        - text: 我想做研究、論文或升學
+        - checkbox "我想做教育、心理或助人工作"
+        - text: 我想做教育、心理或助人工作
+        - button "產生探索清單"
+        - status
+      - region "70校觀測名單":
+        - paragraph: UNIVERSITY DIRECTORY
+        - heading "70校觀測名單" [level=2]
+        - paragraph: 名單順序不代表排名。各類學校將依辦學任務分組評比。
+        - search:
+          - generic: 搜尋大學、學院或科系
+          - searchbox "搜尋大學、學院或科系"
+          - generic "設立別篩選":
+            - button "全部 70"
+            - button "國立／公立 50"
+            - button "私立 20"
+          - generic: 依學校類型篩選
+          - combobox "依學校類型篩選":
+            - option "所有辦學類型" [selected]
+            - option "綜合型"
+            - option "科技型"
+            - option "醫學型"
+            - option "師範／教育型"
+            - option "藝術型"
+            - option "商管型"
+            - option "醫護型"
+            - option "餐旅型"
+            - option "運動型"
+            - option "遠距型"
+            - option "軍事型"
+            - option "警政型"
+        - generic "熱門科系快速搜尋":
+          - generic: 熱門領域
+          - button "資訊工程"
+          - button "醫學"
+          - button "心理"
+          - button "法律"
+          - button "企業管理"
+          - button "設計"
+          - button "教育"
+          - button "外語"
+          - button "護理"
+          - button "電機工程"
+          - button "清除"
+        - paragraph:
+          - text: 顯示
+          - strong: "70"
+          - text: 所大學
+        - paragraph: 可搜尋70校；70校已完成學院與主要科系整理
+        - table:
+          - rowgroup:
+            - row "學校 設立別 主要類型 所在地 最新世界大學排名 資料頁／比較":
+              - columnheader "學校"
+              - columnheader "設立別"
+              - columnheader "主要類型"
+              - columnheader "所在地"
+              - columnheader "最新世界大學排名"
+              - columnheader "資料頁／比較"
+          - rowgroup:
+            - row "國立臺灣大學 查看資料頁 國立 綜合型 臺北市 QS 2027 54 THE 2026 140 ARWU 2026 201–300 資料頁 ＋ 比較":
+              - cell "國立臺灣大學 查看資料頁":
+                - link "國立臺灣大學 查看資料頁":
+                  - /url: "#/school/n01"
+                  - strong: 國立臺灣大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "綜合型"
+              - cell "臺北市"
+              - cell "QS 2027 54 THE 2026 140 ARWU 2026 201–300":
+                - generic: QS 2027
+                - emphasis: "54"
+                - generic: THE 2026
+                - emphasis: "140"
+                - generic: ARWU 2026
+                - emphasis: 201–300
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n01"
+                - button "＋ 比較"
+            - row "國立清華大學 查看資料頁 國立 綜合型 新竹市 QS 2027 142 THE 2026 401–500 ARWU 2026 401–500 資料頁 ＋ 比較":
+              - cell "國立清華大學 查看資料頁":
+                - link "國立清華大學 查看資料頁":
+                  - /url: "#/school/n02"
+                  - strong: 國立清華大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "綜合型"
+              - cell "新竹市"
+              - cell "QS 2027 142 THE 2026 401–500 ARWU 2026 401–500":
+                - generic: QS 2027
+                - emphasis: "142"
+                - generic: THE 2026
+                - emphasis: 401–500
+                - generic: ARWU 2026
+                - emphasis: 401–500
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n02"
+                - button "＋ 比較"
+            - row "國立陽明交通大學 查看資料頁 國立 綜合型 新竹市 QS 2027 177 THE 2026 401–500 ARWU 2026 401–500 資料頁 ＋ 比較":
+              - cell "國立陽明交通大學 查看資料頁":
+                - link "國立陽明交通大學 查看資料頁":
+                  - /url: "#/school/n03"
+                  - strong: 國立陽明交通大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "綜合型"
+              - cell "新竹市"
+              - cell "QS 2027 177 THE 2026 401–500 ARWU 2026 401–500":
+                - generic: QS 2027
+                - emphasis: "177"
+                - generic: THE 2026
+                - emphasis: 401–500
+                - generic: ARWU 2026
+                - emphasis: 401–500
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n03"
+                - button "＋ 比較"
+            - row "國立成功大學 查看資料頁 國立 綜合型 臺南市 QS 2027 191 THE 2026 501–600 ARWU 2026 401–500 資料頁 ＋ 比較":
+              - cell "國立成功大學 查看資料頁":
+                - link "國立成功大學 查看資料頁":
+                  - /url: "#/school/n04"
+                  - strong: 國立成功大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "綜合型"
+              - cell "臺南市"
+              - cell "QS 2027 191 THE 2026 501–600 ARWU 2026 401–500":
+                - generic: QS 2027
+                - emphasis: "191"
+                - generic: THE 2026
+                - emphasis: 501–600
+                - generic: ARWU 2026
+                - emphasis: 401–500
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n04"
+                - button "＋ 比較"
+            - row "國立政治大學 查看資料頁 國立 綜合型 臺北市 QS 2027 =613 THE 2026 1201–1500 ARWU 2026 未列入 資料頁 ＋ 比較":
+              - cell "國立政治大學 查看資料頁":
+                - link "國立政治大學 查看資料頁":
+                  - /url: "#/school/n05"
+                  - strong: 國立政治大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "綜合型"
+              - cell "臺北市"
+              - cell "QS 2027 =613 THE 2026 1201–1500 ARWU 2026 未列入":
+                - generic: QS 2027
+                - emphasis: =613
+                - generic: THE 2026
+                - emphasis: 1201–1500
+                - generic: ARWU 2026
+                - emphasis: 未列入
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n05"
+                - button "＋ 比較"
+            - row "國立臺灣科技大學 查看資料頁 國立 科技型 臺北市 QS 2027 379 THE 2026 401–500 ARWU 2026 601–700 資料頁 ＋ 比較":
+              - cell "國立臺灣科技大學 查看資料頁":
+                - link "國立臺灣科技大學 查看資料頁":
+                  - /url: "#/school/n06"
+                  - strong: 國立臺灣科技大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "科技型"
+              - cell "臺北市"
+              - cell "QS 2027 379 THE 2026 401–500 ARWU 2026 601–700":
+                - generic: QS 2027
+                - emphasis: "379"
+                - generic: THE 2026
+                - emphasis: 401–500
+                - generic: ARWU 2026
+                - emphasis: 601–700
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n06"
+                - button "＋ 比較"
+            - row "國立臺灣師範大學 查看資料頁 國立 教育型 臺北市 QS 2027 423 THE 2026 501–600 ARWU 2026 未列入 資料頁 ＋ 比較":
+              - cell "國立臺灣師範大學 查看資料頁":
+                - link "國立臺灣師範大學 查看資料頁":
+                  - /url: "#/school/n07"
+                  - strong: 國立臺灣師範大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "教育型"
+              - cell "臺北市"
+              - cell "QS 2027 423 THE 2026 501–600 ARWU 2026 未列入":
+                - generic: QS 2027
+                - emphasis: "423"
+                - generic: THE 2026
+                - emphasis: 501–600
+                - generic: ARWU 2026
+                - emphasis: 未列入
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n07"
+                - button "＋ 比較"
+            - row "國立中山大學 查看資料頁 國立 綜合型 高雄市 QS 2027 438 THE 2026 601–800 ARWU 2026 601–700 資料頁 ＋ 比較":
+              - cell "國立中山大學 查看資料頁":
+                - link "國立中山大學 查看資料頁":
+                  - /url: "#/school/n08"
+                  - strong: 國立中山大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "綜合型"
+              - cell "高雄市"
+              - cell "QS 2027 438 THE 2026 601–800 ARWU 2026 601–700":
+                - generic: QS 2027
+                - emphasis: "438"
+                - generic: THE 2026
+                - emphasis: 601–800
+                - generic: ARWU 2026
+                - emphasis: 601–700
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n08"
+                - button "＋ 比較"
+            - row "國立中央大學 查看資料頁 國立 綜合型 桃園市 QS 2027 =659 THE 2026 1001–1200 ARWU 2026 901–1000 資料頁 ＋ 比較":
+              - cell "國立中央大學 查看資料頁":
+                - link "國立中央大學 查看資料頁":
+                  - /url: "#/school/n09"
+                  - strong: 國立中央大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "綜合型"
+              - cell "桃園市"
+              - cell "QS 2027 =659 THE 2026 1001–1200 ARWU 2026 901–1000":
+                - generic: QS 2027
+                - emphasis: =659
+                - generic: THE 2026
+                - emphasis: 1001–1200
+                - generic: ARWU 2026
+                - emphasis: 901–1000
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n09"
+                - button "＋ 比較"
+            - row "國立中興大學 查看資料頁 國立 綜合型 臺中市 QS 2027 =634 THE 2026 1201–1500 ARWU 2026 701–800 資料頁 ＋ 比較":
+              - cell "國立中興大學 查看資料頁":
+                - link "國立中興大學 查看資料頁":
+                  - /url: "#/school/n10"
+                  - strong: 國立中興大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "綜合型"
+              - cell "臺中市"
+              - cell "QS 2027 =634 THE 2026 1201–1500 ARWU 2026 701–800":
+                - generic: QS 2027
+                - emphasis: =634
+                - generic: THE 2026
+                - emphasis: 1201–1500
+                - generic: ARWU 2026
+                - emphasis: 701–800
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n10"
+                - button "＋ 比較"
+            - row "國立臺北科技大學 查看資料頁 國立 科技型 臺北市 QS 2027 494 THE 2026 1201–1500 ARWU 2026 未列入 資料頁 ＋ 比較":
+              - cell "國立臺北科技大學 查看資料頁":
+                - link "國立臺北科技大學 查看資料頁":
+                  - /url: "#/school/n11"
+                  - strong: 國立臺北科技大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "科技型"
+              - cell "臺北市"
+              - cell "QS 2027 494 THE 2026 1201–1500 ARWU 2026 未列入":
+                - generic: QS 2027
+                - emphasis: "494"
+                - generic: THE 2026
+                - emphasis: 1201–1500
+                - generic: ARWU 2026
+                - emphasis: 未列入
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n11"
+                - button "＋ 比較"
+            - row "國立中正大學 查看資料頁 國立 綜合型 嘉義縣 QS 2027 1001–1200 THE 2026 1201–1500 ARWU 2026 未列入 資料頁 ＋ 比較":
+              - cell "國立中正大學 查看資料頁":
+                - link "國立中正大學 查看資料頁":
+                  - /url: "#/school/n12"
+                  - strong: 國立中正大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "綜合型"
+              - cell "嘉義縣"
+              - cell "QS 2027 1001–1200 THE 2026 1201–1500 ARWU 2026 未列入":
+                - generic: QS 2027
+                - emphasis: 1001–1200
+                - generic: THE 2026
+                - emphasis: 1201–1500
+                - generic: ARWU 2026
+                - emphasis: 未列入
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n12"
+                - button "＋ 比較"
+            - row "國立臺北大學 查看資料頁 國立 綜合型 新北市 QS 2027 未列入 THE 2026 1501+ ARWU 2026 未列入 資料頁 ＋ 比較":
+              - cell "國立臺北大學 查看資料頁":
+                - link "國立臺北大學 查看資料頁":
+                  - /url: "#/school/n13"
+                  - strong: 國立臺北大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "綜合型"
+              - cell "新北市"
+              - cell "QS 2027 未列入 THE 2026 1501+ ARWU 2026 未列入":
+                - generic: QS 2027
+                - emphasis: 未列入
+                - generic: THE 2026
+                - emphasis: 1501+
+                - generic: ARWU 2026
+                - emphasis: 未列入
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n13"
+                - button "＋ 比較"
+            - row "國立臺灣海洋大學 查看資料頁 國立 綜合型 基隆市 QS 2027 1201–1400 THE 2026 1201–1500 ARWU 2026 未列入 資料頁 ＋ 比較":
+              - cell "國立臺灣海洋大學 查看資料頁":
+                - link "國立臺灣海洋大學 查看資料頁":
+                  - /url: "#/school/n14"
+                  - strong: 國立臺灣海洋大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "綜合型"
+              - cell "基隆市"
+              - cell "QS 2027 1201–1400 THE 2026 1201–1500 ARWU 2026 未列入":
+                - generic: QS 2027
+                - emphasis: 1201–1400
+                - generic: THE 2026
+                - emphasis: 1201–1500
+                - generic: ARWU 2026
+                - emphasis: 未列入
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n14"
+                - button "＋ 比較"
+            - row "國立雲林科技大學 查看資料頁 國立 科技型 雲林縣 QS 2027 未列入 THE 2026 501–600 ARWU 2026 未列入 資料頁 ＋ 比較":
+              - cell "國立雲林科技大學 查看資料頁":
+                - link "國立雲林科技大學 查看資料頁":
+                  - /url: "#/school/n15"
+                  - strong: 國立雲林科技大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "科技型"
+              - cell "雲林縣"
+              - cell "QS 2027 未列入 THE 2026 501–600 ARWU 2026 未列入":
+                - generic: QS 2027
+                - emphasis: 未列入
+                - generic: THE 2026
+                - emphasis: 501–600
+                - generic: ARWU 2026
+                - emphasis: 未列入
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n15"
+                - button "＋ 比較"
+            - row "國立高雄科技大學 查看資料頁 國立 科技型 高雄市 QS 2027 未列入 THE 2026 1201–1500 ARWU 2026 未列入 資料頁 ＋ 比較":
+              - cell "國立高雄科技大學 查看資料頁":
+                - link "國立高雄科技大學 查看資料頁":
+                  - /url: "#/school/n16"
+                  - strong: 國立高雄科技大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "科技型"
+              - cell "高雄市"
+              - cell "QS 2027 未列入 THE 2026 1201–1500 ARWU 2026 未列入":
+                - generic: QS 2027
+                - emphasis: 未列入
+                - generic: THE 2026
+                - emphasis: 1201–1500
+                - generic: ARWU 2026
+                - emphasis: 未列入
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n16"
+                - button "＋ 比較"
+            - row "國立彰化師範大學 查看資料頁 國立 教育型 彰化縣 QS 2027 未列入 THE 2026 1501+ ARWU 2026 未列入 資料頁 ＋ 比較":
+              - cell "國立彰化師範大學 查看資料頁":
+                - link "國立彰化師範大學 查看資料頁":
+                  - /url: "#/school/n17"
+                  - strong: 國立彰化師範大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "教育型"
+              - cell "彰化縣"
+              - cell "QS 2027 未列入 THE 2026 1501+ ARWU 2026 未列入":
+                - generic: QS 2027
+                - emphasis: 未列入
+                - generic: THE 2026
+                - emphasis: 1501+
+                - generic: ARWU 2026
+                - emphasis: 未列入
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n17"
+                - button "＋ 比較"
+            - row "國立高雄師範大學 查看資料頁 國立 教育型 高雄市 QS 2027 未列入 THE 2026 1501+ ARWU 2026 未列入 資料頁 ＋ 比較":
+              - cell "國立高雄師範大學 查看資料頁":
+                - link "國立高雄師範大學 查看資料頁":
+                  - /url: "#/school/n18"
+                  - strong: 國立高雄師範大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "教育型"
+              - cell "高雄市"
+              - cell "QS 2027 未列入 THE 2026 1501+ ARWU 2026 未列入":
+                - generic: QS 2027
+                - emphasis: 未列入
+                - generic: THE 2026
+                - emphasis: 1501+
+                - generic: ARWU 2026
+                - emphasis: 未列入
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n18"
+                - button "＋ 比較"
+            - row "國立東華大學 查看資料頁 國立 綜合型 花蓮縣 QS 2027 1401+ THE 2026 1201–1500 ARWU 2026 未列入 資料頁 ＋ 比較":
+              - cell "國立東華大學 查看資料頁":
+                - link "國立東華大學 查看資料頁":
+                  - /url: "#/school/n19"
+                  - strong: 國立東華大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "綜合型"
+              - cell "花蓮縣"
+              - cell "QS 2027 1401+ THE 2026 1201–1500 ARWU 2026 未列入":
+                - generic: QS 2027
+                - emphasis: 1401+
+                - generic: THE 2026
+                - emphasis: 1201–1500
+                - generic: ARWU 2026
+                - emphasis: 未列入
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n19"
+                - button "＋ 比較"
+            - row "國立暨南國際大學 查看資料頁 國立 綜合型 南投縣 QS 2027 未列入 THE 2026 1501+ ARWU 2026 未列入 資料頁 ＋ 比較":
+              - cell "國立暨南國際大學 查看資料頁":
+                - link "國立暨南國際大學 查看資料頁":
+                  - /url: "#/school/n20"
+                  - strong: 國立暨南國際大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "綜合型"
+              - cell "南投縣"
+              - cell "QS 2027 未列入 THE 2026 1501+ ARWU 2026 未列入":
+                - generic: QS 2027
+                - emphasis: 未列入
+                - generic: THE 2026
+                - emphasis: 1501+
+                - generic: ARWU 2026
+                - emphasis: 未列入
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n20"
+                - button "＋ 比較"
+            - row "國立臺北教育大學 查看資料頁 國立 教育型 臺北市 QS 2027 未列入 THE 2026 未列入 ARWU 2026 未列入 資料頁 ＋ 比較":
+              - cell "國立臺北教育大學 查看資料頁":
+                - link "國立臺北教育大學 查看資料頁":
+                  - /url: "#/school/n21"
+                  - strong: 國立臺北教育大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "教育型"
+              - cell "臺北市"
+              - cell "QS 2027 未列入 THE 2026 未列入 ARWU 2026 未列入":
+                - generic: QS 2027
+                - emphasis: 未列入
+                - generic: THE 2026
+                - emphasis: 未列入
+                - generic: ARWU 2026
+                - emphasis: 未列入
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n21"
+                - button "＋ 比較"
+            - row "國立臺中教育大學 查看資料頁 國立 教育型 臺中市 QS 2027 未列入 THE 2026 未列入 ARWU 2026 未列入 資料頁 ＋ 比較":
+              - cell "國立臺中教育大學 查看資料頁":
+                - link "國立臺中教育大學 查看資料頁":
+                  - /url: "#/school/n22"
+                  - strong: 國立臺中教育大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "教育型"
+              - cell "臺中市"
+              - cell "QS 2027 未列入 THE 2026 未列入 ARWU 2026 未列入":
+                - generic: QS 2027
+                - emphasis: 未列入
+                - generic: THE 2026
+                - emphasis: 未列入
+                - generic: ARWU 2026
+                - emphasis: 未列入
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n22"
+                - button "＋ 比較"
+            - row "國立嘉義大學 查看資料頁 國立 綜合型 嘉義市 QS 2027 未列入 THE 2026 1501+ ARWU 2026 未列入 資料頁 ＋ 比較":
+              - cell "國立嘉義大學 查看資料頁":
+                - link "國立嘉義大學 查看資料頁":
+                  - /url: "#/school/n23"
+                  - strong: 國立嘉義大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "綜合型"
+              - cell "嘉義市"
+              - cell "QS 2027 未列入 THE 2026 1501+ ARWU 2026 未列入":
+                - generic: QS 2027
+                - emphasis: 未列入
+                - generic: THE 2026
+                - emphasis: 1501+
+                - generic: ARWU 2026
+                - emphasis: 未列入
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n23"
+                - button "＋ 比較"
+            - row "國立高雄大學 查看資料頁 國立 綜合型 高雄市 QS 2027 未列入 THE 2026 1501+ ARWU 2026 未列入 資料頁 ＋ 比較":
+              - cell "國立高雄大學 查看資料頁":
+                - link "國立高雄大學 查看資料頁":
+                  - /url: "#/school/n24"
+                  - strong: 國立高雄大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "綜合型"
+              - cell "高雄市"
+              - cell "QS 2027 未列入 THE 2026 1501+ ARWU 2026 未列入":
+                - generic: QS 2027
+                - emphasis: 未列入
+                - generic: THE 2026
+                - emphasis: 1501+
+                - generic: ARWU 2026
+                - emphasis: 未列入
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n24"
+                - button "＋ 比較"
+            - row "國立宜蘭大學 查看資料頁 國立 綜合型 宜蘭縣 QS 2027 未列入 THE 2026 1501+ ARWU 2026 未列入 資料頁 ＋ 比較":
+              - cell "國立宜蘭大學 查看資料頁":
+                - link "國立宜蘭大學 查看資料頁":
+                  - /url: "#/school/n25"
+                  - strong: 國立宜蘭大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "綜合型"
+              - cell "宜蘭縣"
+              - cell "QS 2027 未列入 THE 2026 1501+ ARWU 2026 未列入":
+                - generic: QS 2027
+                - emphasis: 未列入
+                - generic: THE 2026
+                - emphasis: 1501+
+                - generic: ARWU 2026
+                - emphasis: 未列入
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n25"
+                - button "＋ 比較"
+            - row "國立聯合大學 查看資料頁 國立 綜合型 苗栗縣 QS 2027 未列入 THE 2026 1501+ ARWU 2026 未列入 資料頁 ＋ 比較":
+              - cell "國立聯合大學 查看資料頁":
+                - link "國立聯合大學 查看資料頁":
+                  - /url: "#/school/n26"
+                  - strong: 國立聯合大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "綜合型"
+              - cell "苗栗縣"
+              - cell "QS 2027 未列入 THE 2026 1501+ ARWU 2026 未列入":
+                - generic: QS 2027
+                - emphasis: 未列入
+                - generic: THE 2026
+                - emphasis: 1501+
+                - generic: ARWU 2026
+                - emphasis: 未列入
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n26"
+                - button "＋ 比較"
+            - row "國立屏東大學 查看資料頁 國立 教育型 屏東縣 QS 2027 未列入 THE 2026 未列入 ARWU 2026 未列入 資料頁 ＋ 比較":
+              - cell "國立屏東大學 查看資料頁":
+                - link "國立屏東大學 查看資料頁":
+                  - /url: "#/school/n27"
+                  - strong: 國立屏東大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "教育型"
+              - cell "屏東縣"
+              - cell "QS 2027 未列入 THE 2026 未列入 ARWU 2026 未列入":
+                - generic: QS 2027
+                - emphasis: 未列入
+                - generic: THE 2026
+                - emphasis: 未列入
+                - generic: ARWU 2026
+                - emphasis: 未列入
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n27"
+                - button "＋ 比較"
+            - row "國立臺北藝術大學 查看資料頁 國立 藝術型 臺北市 QS 2027 未列入 THE 2026 未列入 ARWU 2026 未列入 資料頁 ＋ 比較":
+              - cell "國立臺北藝術大學 查看資料頁":
+                - link "國立臺北藝術大學 查看資料頁":
+                  - /url: "#/school/n28"
+                  - strong: 國立臺北藝術大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "藝術型"
+              - cell "臺北市"
+              - cell "QS 2027 未列入 THE 2026 未列入 ARWU 2026 未列入":
+                - generic: QS 2027
+                - emphasis: 未列入
+                - generic: THE 2026
+                - emphasis: 未列入
+                - generic: ARWU 2026
+                - emphasis: 未列入
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n28"
+                - button "＋ 比較"
+            - row "國立臺灣藝術大學 查看資料頁 國立 藝術型 新北市 QS 2027 未列入 THE 2026 未列入 ARWU 2026 未列入 資料頁 ＋ 比較":
+              - cell "國立臺灣藝術大學 查看資料頁":
+                - link "國立臺灣藝術大學 查看資料頁":
+                  - /url: "#/school/n29"
+                  - strong: 國立臺灣藝術大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "藝術型"
+              - cell "新北市"
+              - cell "QS 2027 未列入 THE 2026 未列入 ARWU 2026 未列入":
+                - generic: QS 2027
+                - emphasis: 未列入
+                - generic: THE 2026
+                - emphasis: 未列入
+                - generic: ARWU 2026
+                - emphasis: 未列入
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n29"
+                - button "＋ 比較"
+            - row "國立屏東科技大學 查看資料頁 國立 科技型 屏東縣 QS 2027 未列入 THE 2026 1501+ ARWU 2026 未列入 資料頁 ＋ 比較":
+              - cell "國立屏東科技大學 查看資料頁":
+                - link "國立屏東科技大學 查看資料頁":
+                  - /url: "#/school/n30"
+                  - strong: 國立屏東科技大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "科技型"
+              - cell "屏東縣"
+              - cell "QS 2027 未列入 THE 2026 1501+ ARWU 2026 未列入":
+                - generic: QS 2027
+                - emphasis: 未列入
+                - generic: THE 2026
+                - emphasis: 1501+
+                - generic: ARWU 2026
+                - emphasis: 未列入
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n30"
+                - button "＋ 比較"
+            - row "長庚大學 查看資料頁 私立 醫學型 桃園市 QS 2027 =662 THE 2026 601–800 ARWU 2026 701–800 資料頁 ＋ 比較":
+              - cell "長庚大學 查看資料頁":
+                - link "長庚大學 查看資料頁":
+                  - /url: "#/school/p31"
+                  - strong: 長庚大學
+                  - generic: 查看資料頁
+              - cell "私立":
+                - generic: 私立
+              - cell "醫學型"
+              - cell "桃園市"
+              - cell "QS 2027 =662 THE 2026 601–800 ARWU 2026 701–800":
+                - generic: QS 2027
+                - emphasis: =662
+                - generic: THE 2026
+                - emphasis: 601–800
+                - generic: ARWU 2026
+                - emphasis: 701–800
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/p31"
+                - button "＋ 比較"
+            - row "臺北醫學大學 查看資料頁 私立 醫學型 臺北市 QS 2027 =608 THE 2026 401–500 ARWU 2026 701–800 資料頁 ＋ 比較":
+              - cell "臺北醫學大學 查看資料頁":
+                - link "臺北醫學大學 查看資料頁":
+                  - /url: "#/school/p32"
+                  - strong: 臺北醫學大學
+                  - generic: 查看資料頁
+              - cell "私立":
+                - generic: 私立
+              - cell "醫學型"
+              - cell "臺北市"
+              - cell "QS 2027 =608 THE 2026 401–500 ARWU 2026 701–800":
+                - generic: QS 2027
+                - emphasis: =608
+                - generic: THE 2026
+                - emphasis: 401–500
+                - generic: ARWU 2026
+                - emphasis: 701–800
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/p32"
+                - button "＋ 比較"
+            - row "中國醫藥大學 查看資料頁 私立 醫學型 臺中市 QS 2027 未列入 THE 2026 301–350 ARWU 2026 601–700 資料頁 ＋ 比較":
+              - cell "中國醫藥大學 查看資料頁":
+                - link "中國醫藥大學 查看資料頁":
+                  - /url: "#/school/p33"
+                  - strong: 中國醫藥大學
+                  - generic: 查看資料頁
+              - cell "私立":
+                - generic: 私立
+              - cell "醫學型"
+              - cell "臺中市"
+              - cell "QS 2027 未列入 THE 2026 301–350 ARWU 2026 601–700":
+                - generic: QS 2027
+                - emphasis: 未列入
+                - generic: THE 2026
+                - emphasis: 301–350
+                - generic: ARWU 2026
+                - emphasis: 601–700
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/p33"
+                - button "＋ 比較"
+            - row "高雄醫學大學 查看資料頁 私立 醫學型 高雄市 QS 2027 901–950 THE 2026 801–1000 ARWU 2026 801–900 資料頁 ＋ 比較":
+              - cell "高雄醫學大學 查看資料頁":
+                - link "高雄醫學大學 查看資料頁":
+                  - /url: "#/school/p34"
+                  - strong: 高雄醫學大學
+                  - generic: 查看資料頁
+              - cell "私立":
+                - generic: 私立
+              - cell "醫學型"
+              - cell "高雄市"
+              - cell "QS 2027 901–950 THE 2026 801–1000 ARWU 2026 801–900":
+                - generic: QS 2027
+                - emphasis: 901–950
+                - generic: THE 2026
+                - emphasis: 801–1000
+                - generic: ARWU 2026
+                - emphasis: 801–900
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/p34"
+                - button "＋ 比較"
+            - row "輔仁大學 查看資料頁 私立 綜合型 新北市 QS 2027 1201–1400 THE 2026 1201–1500 ARWU 2026 未列入 資料頁 ＋ 比較":
+              - cell "輔仁大學 查看資料頁":
+                - link "輔仁大學 查看資料頁":
+                  - /url: "#/school/p35"
+                  - strong: 輔仁大學
+                  - generic: 查看資料頁
+              - cell "私立":
+                - generic: 私立
+              - cell "綜合型"
+              - cell "新北市"
+              - cell "QS 2027 1201–1400 THE 2026 1201–1500 ARWU 2026 未列入":
+                - generic: QS 2027
+                - emphasis: 1201–1400
+                - generic: THE 2026
+                - emphasis: 1201–1500
+                - generic: ARWU 2026
+                - emphasis: 未列入
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/p35"
+                - button "＋ 比較"
+            - row "東吳大學 查看資料頁 私立 綜合型 臺北市 QS 2027 未列入 THE 2026 1501+ ARWU 2026 未列入 資料頁 ＋ 比較":
+              - cell "東吳大學 查看資料頁":
+                - link "東吳大學 查看資料頁":
+                  - /url: "#/school/p36"
+                  - strong: 東吳大學
+                  - generic: 查看資料頁
+              - cell "私立":
+                - generic: 私立
+              - cell "綜合型"
+              - cell "臺北市"
+              - cell "QS 2027 未列入 THE 2026 1501+ ARWU 2026 未列入":
+                - generic: QS 2027
+                - emphasis: 未列入
+                - generic: THE 2026
+                - emphasis: 1501+
+                - generic: ARWU 2026
+                - emphasis: 未列入
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/p36"
+                - button "＋ 比較"
+            - row "東海大學 查看資料頁 私立 綜合型 臺中市 QS 2027 未列入 THE 2026 1501+ ARWU 2026 未列入 資料頁 ＋ 比較":
+              - cell "東海大學 查看資料頁":
+                - link "東海大學 查看資料頁":
+                  - /url: "#/school/p37"
+                  - strong: 東海大學
+                  - generic: 查看資料頁
+              - cell "私立":
+                - generic: 私立
+              - cell "綜合型"
+              - cell "臺中市"
+              - cell "QS 2027 未列入 THE 2026 1501+ ARWU 2026 未列入":
+                - generic: QS 2027
+                - emphasis: 未列入
+                - generic: THE 2026
+                - emphasis: 1501+
+                - generic: ARWU 2026
+                - emphasis: 未列入
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/p37"
+                - button "＋ 比較"
+            - row "中原大學 查看資料頁 私立 綜合型 桃園市 QS 2027 1201–1400 THE 2026 1201–1500 ARWU 2026 未列入 資料頁 ＋ 比較":
+              - cell "中原大學 查看資料頁":
+                - link "中原大學 查看資料頁":
+                  - /url: "#/school/p38"
+                  - strong: 中原大學
+                  - generic: 查看資料頁
+              - cell "私立":
+                - generic: 私立
+              - cell "綜合型"
+              - cell "桃園市"
+              - cell "QS 2027 1201–1400 THE 2026 1201–1500 ARWU 2026 未列入":
+                - generic: QS 2027
+                - emphasis: 1201–1400
+                - generic: THE 2026
+                - emphasis: 1201–1500
+                - generic: ARWU 2026
+                - emphasis: 未列入
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/p38"
+                - button "＋ 比較"
+            - row "逢甲大學 查看資料頁 私立 綜合型 臺中市 QS 2027 1401+ THE 2026 1501+ ARWU 2026 未列入 資料頁 ＋ 比較":
+              - cell "逢甲大學 查看資料頁":
+                - link "逢甲大學 查看資料頁":
+                  - /url: "#/school/p39"
+                  - strong: 逢甲大學
+                  - generic: 查看資料頁
+              - cell "私立":
+                - generic: 私立
+              - cell "綜合型"
+              - cell "臺中市"
+              - cell "QS 2027 1401+ THE 2026 1501+ ARWU 2026 未列入":
+                - generic: QS 2027
+                - emphasis: 1401+
+                - generic: THE 2026
+                - emphasis: 1501+
+                - generic: ARWU 2026
+                - emphasis: 未列入
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/p39"
+                - button "＋ 比較"
+            - row "淡江大學 查看資料頁 私立 綜合型 新北市 QS 2027 1201–1400 THE 2026 1501+ ARWU 2026 未列入 資料頁 ＋ 比較":
+              - cell "淡江大學 查看資料頁":
+                - link "淡江大學 查看資料頁":
+                  - /url: "#/school/p40"
+                  - strong: 淡江大學
+                  - generic: 查看資料頁
+              - cell "私立":
+                - generic: 私立
+              - cell "綜合型"
+              - cell "新北市"
+              - cell "QS 2027 1201–1400 THE 2026 1501+ ARWU 2026 未列入":
+                - generic: QS 2027
+                - emphasis: 1201–1400
+                - generic: THE 2026
+                - emphasis: 1501+
+                - generic: ARWU 2026
+                - emphasis: 未列入
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/p40"
+                - button "＋ 比較"
+            - row "元智大學 查看資料頁 私立 綜合型 桃園市 QS 2027 1001–1200 THE 2026 601–800 ARWU 2026 未列入 資料頁 ＋ 比較":
+              - cell "元智大學 查看資料頁":
+                - link "元智大學 查看資料頁":
+                  - /url: "#/school/p41"
+                  - strong: 元智大學
+                  - generic: 查看資料頁
+              - cell "私立":
+                - generic: 私立
+              - cell "綜合型"
+              - cell "桃園市"
+              - cell "QS 2027 1001–1200 THE 2026 601–800 ARWU 2026 未列入":
+                - generic: QS 2027
+                - emphasis: 1001–1200
+                - generic: THE 2026
+                - emphasis: 601–800
+                - generic: ARWU 2026
+                - emphasis: 未列入
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/p41"
+                - button "＋ 比較"
+            - row "亞洲大學 查看資料頁 私立 綜合型 臺中市 QS 2027 =649 THE 2026 401–500 ARWU 2026 未列入 資料頁 ＋ 比較":
+              - cell "亞洲大學 查看資料頁":
+                - link "亞洲大學 查看資料頁":
+                  - /url: "#/school/p42"
+                  - strong: 亞洲大學
+                  - generic: 查看資料頁
+              - cell "私立":
+                - generic: 私立
+              - cell "綜合型"
+              - cell "臺中市"
+              - cell "QS 2027 =649 THE 2026 401–500 ARWU 2026 未列入":
+                - generic: QS 2027
+                - emphasis: =649
+                - generic: THE 2026
+                - emphasis: 401–500
+                - generic: ARWU 2026
+                - emphasis: 未列入
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/p42"
+                - button "＋ 比較"
+            - row "義守大學 查看資料頁 私立 綜合型 高雄市 QS 2027 未列入 THE 2026 1201–1500 ARWU 2026 未列入 資料頁 ＋ 比較":
+              - cell "義守大學 查看資料頁":
+                - link "義守大學 查看資料頁":
+                  - /url: "#/school/p43"
+                  - strong: 義守大學
+                  - generic: 查看資料頁
+              - cell "私立":
+                - generic: 私立
+              - cell "綜合型"
+              - cell "高雄市"
+              - cell "QS 2027 未列入 THE 2026 1201–1500 ARWU 2026 未列入":
+                - generic: QS 2027
+                - emphasis: 未列入
+                - generic: THE 2026
+                - emphasis: 1201–1500
+                - generic: ARWU 2026
+                - emphasis: 未列入
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/p43"
+                - button "＋ 比較"
+            - row "中山醫學大學 查看資料頁 私立 醫學型 臺中市 QS 2027 未列入 THE 2026 1501+ ARWU 2026 未列入 資料頁 ＋ 比較":
+              - cell "中山醫學大學 查看資料頁":
+                - link "中山醫學大學 查看資料頁":
+                  - /url: "#/school/p44"
+                  - strong: 中山醫學大學
+                  - generic: 查看資料頁
+              - cell "私立":
+                - generic: 私立
+              - cell "醫學型"
+              - cell "臺中市"
+              - cell "QS 2027 未列入 THE 2026 1501+ ARWU 2026 未列入":
+                - generic: QS 2027
+                - emphasis: 未列入
+                - generic: THE 2026
+                - emphasis: 1501+
+                - generic: ARWU 2026
+                - emphasis: 未列入
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/p44"
+                - button "＋ 比較"
+            - row "銘傳大學 查看資料頁 私立 綜合型 臺北市 QS 2027 未列入 THE 2026 1501+ ARWU 2026 未列入 資料頁 ＋ 比較":
+              - cell "銘傳大學 查看資料頁":
+                - link "銘傳大學 查看資料頁":
+                  - /url: "#/school/p45"
+                  - strong: 銘傳大學
+                  - generic: 查看資料頁
+              - cell "私立":
+                - generic: 私立
+              - cell "綜合型"
+              - cell "臺北市"
+              - cell "QS 2027 未列入 THE 2026 1501+ ARWU 2026 未列入":
+                - generic: QS 2027
+                - emphasis: 未列入
+                - generic: THE 2026
+                - emphasis: 1501+
+                - generic: ARWU 2026
+                - emphasis: 未列入
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/p45"
+                - button "＋ 比較"
+            - row "世新大學 查看資料頁 私立 綜合型 臺北市 QS 2027 未列入 THE 2026 未列入 ARWU 2026 未列入 資料頁 ＋ 比較":
+              - cell "世新大學 查看資料頁":
+                - link "世新大學 查看資料頁":
+                  - /url: "#/school/p46"
+                  - strong: 世新大學
+                  - generic: 查看資料頁
+              - cell "私立":
+                - generic: 私立
+              - cell "綜合型"
+              - cell "臺北市"
+              - cell "QS 2027 未列入 THE 2026 未列入 ARWU 2026 未列入":
+                - generic: QS 2027
+                - emphasis: 未列入
+                - generic: THE 2026
+                - emphasis: 未列入
+                - generic: ARWU 2026
+                - emphasis: 未列入
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/p46"
+                - button "＋ 比較"
+            - row "實踐大學 查看資料頁 私立 綜合型 臺北市 QS 2027 未列入 THE 2026 1501+ ARWU 2026 未列入 資料頁 ＋ 比較":
+              - cell "實踐大學 查看資料頁":
+                - link "實踐大學 查看資料頁":
+                  - /url: "#/school/p47"
+                  - strong: 實踐大學
+                  - generic: 查看資料頁
+              - cell "私立":
+                - generic: 私立
+              - cell "綜合型"
+              - cell "臺北市"
+              - cell "QS 2027 未列入 THE 2026 1501+ ARWU 2026 未列入":
+                - generic: QS 2027
+                - emphasis: 未列入
+                - generic: THE 2026
+                - emphasis: 1501+
+                - generic: ARWU 2026
+                - emphasis: 未列入
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/p47"
+                - button "＋ 比較"
+            - row "慈濟大學 查看資料頁 私立 醫學型 花蓮縣 QS 2027 未列入 THE 2026 1201–1500 ARWU 2026 未列入 資料頁 ＋ 比較":
+              - cell "慈濟大學 查看資料頁":
+                - link "慈濟大學 查看資料頁":
+                  - /url: "#/school/p48"
+                  - strong: 慈濟大學
+                  - generic: 查看資料頁
+              - cell "私立":
+                - generic: 私立
+              - cell "醫學型"
+              - cell "花蓮縣"
+              - cell "QS 2027 未列入 THE 2026 1201–1500 ARWU 2026 未列入":
+                - generic: QS 2027
+                - emphasis: 未列入
+                - generic: THE 2026
+                - emphasis: 1201–1500
+                - generic: ARWU 2026
+                - emphasis: 未列入
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/p48"
+                - button "＋ 比較"
+            - row "明志科技大學 查看資料頁 私立 科技型 新北市 QS 2027 未列入 THE 2026 1001–1200 ARWU 2026 未列入 資料頁 ＋ 比較":
+              - cell "明志科技大學 查看資料頁":
+                - link "明志科技大學 查看資料頁":
+                  - /url: "#/school/p49"
+                  - strong: 明志科技大學
+                  - generic: 查看資料頁
+              - cell "私立":
+                - generic: 私立
+              - cell "科技型"
+              - cell "新北市"
+              - cell "QS 2027 未列入 THE 2026 1001–1200 ARWU 2026 未列入":
+                - generic: QS 2027
+                - emphasis: 未列入
+                - generic: THE 2026
+                - emphasis: 1001–1200
+                - generic: ARWU 2026
+                - emphasis: 未列入
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/p49"
+                - button "＋ 比較"
+            - row "南臺科技大學 查看資料頁 私立 科技型 臺南市 QS 2027 未列入 THE 2026 未列入 ARWU 2026 未列入 資料頁 ＋ 比較":
+              - cell "南臺科技大學 查看資料頁":
+                - link "南臺科技大學 查看資料頁":
+                  - /url: "#/school/p50"
+                  - strong: 南臺科技大學
+                  - generic: 查看資料頁
+              - cell "私立":
+                - generic: 私立
+              - cell "科技型"
+              - cell "臺南市"
+              - cell "QS 2027 未列入 THE 2026 未列入 ARWU 2026 未列入":
+                - generic: QS 2027
+                - emphasis: 未列入
+                - generic: THE 2026
+                - emphasis: 未列入
+                - generic: ARWU 2026
+                - emphasis: 未列入
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/p50"
+                - button "＋ 比較"
+            - row "國立臺南大學 查看資料頁 國立 教育型 臺南市 QS 2027 查核中 THE 2026 查核中 ARWU 2026 查核中 資料頁 ＋ 比較":
+              - cell "國立臺南大學 查看資料頁":
+                - link "國立臺南大學 查看資料頁":
+                  - /url: "#/school/n51"
+                  - strong: 國立臺南大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "教育型"
+              - cell "臺南市"
+              - cell "QS 2027 查核中 THE 2026 查核中 ARWU 2026 查核中":
+                - generic: QS 2027
+                - emphasis: 查核中
+                - generic: THE 2026
+                - emphasis: 查核中
+                - generic: ARWU 2026
+                - emphasis: 查核中
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n51"
+                - button "＋ 比較"
+            - row "國立臺東大學 查看資料頁 國立 教育型 臺東縣 QS 2027 查核中 THE 2026 查核中 ARWU 2026 查核中 資料頁 ＋ 比較":
+              - cell "國立臺東大學 查看資料頁":
+                - link "國立臺東大學 查看資料頁":
+                  - /url: "#/school/n52"
+                  - strong: 國立臺東大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "教育型"
+              - cell "臺東縣"
+              - cell "QS 2027 查核中 THE 2026 查核中 ARWU 2026 查核中":
+                - generic: QS 2027
+                - emphasis: 查核中
+                - generic: THE 2026
+                - emphasis: 查核中
+                - generic: ARWU 2026
+                - emphasis: 查核中
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n52"
+                - button "＋ 比較"
+            - row "國立金門大學 查看資料頁 國立 綜合型 金門縣 QS 2027 查核中 THE 2026 查核中 ARWU 2026 查核中 資料頁 ＋ 比較":
+              - cell "國立金門大學 查看資料頁":
+                - link "國立金門大學 查看資料頁":
+                  - /url: "#/school/n53"
+                  - strong: 國立金門大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "綜合型"
+              - cell "金門縣"
+              - cell "QS 2027 查核中 THE 2026 查核中 ARWU 2026 查核中":
+                - generic: QS 2027
+                - emphasis: 查核中
+                - generic: THE 2026
+                - emphasis: 查核中
+                - generic: ARWU 2026
+                - emphasis: 查核中
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n53"
+                - button "＋ 比較"
+            - row "國立空中大學 查看資料頁 國立 遠距型 新北市 QS 2027 查核中 THE 2026 查核中 ARWU 2026 查核中 資料頁 ＋ 比較":
+              - cell "國立空中大學 查看資料頁":
+                - link "國立空中大學 查看資料頁":
+                  - /url: "#/school/n54"
+                  - strong: 國立空中大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "遠距型"
+              - cell "新北市"
+              - cell "QS 2027 查核中 THE 2026 查核中 ARWU 2026 查核中":
+                - generic: QS 2027
+                - emphasis: 查核中
+                - generic: THE 2026
+                - emphasis: 查核中
+                - generic: ARWU 2026
+                - emphasis: 查核中
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n54"
+                - button "＋ 比較"
+            - row "國立臺南藝術大學 查看資料頁 國立 藝術型 臺南市 QS 2027 查核中 THE 2026 查核中 ARWU 2026 查核中 資料頁 ＋ 比較":
+              - cell "國立臺南藝術大學 查看資料頁":
+                - link "國立臺南藝術大學 查看資料頁":
+                  - /url: "#/school/n55"
+                  - strong: 國立臺南藝術大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "藝術型"
+              - cell "臺南市"
+              - cell "QS 2027 查核中 THE 2026 查核中 ARWU 2026 查核中":
+                - generic: QS 2027
+                - emphasis: 查核中
+                - generic: THE 2026
+                - emphasis: 查核中
+                - generic: ARWU 2026
+                - emphasis: 查核中
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n55"
+                - button "＋ 比較"
+            - row "國立體育大學 查看資料頁 國立 運動型 桃園市 QS 2027 查核中 THE 2026 查核中 ARWU 2026 查核中 資料頁 ＋ 比較":
+              - cell "國立體育大學 查看資料頁":
+                - link "國立體育大學 查看資料頁":
+                  - /url: "#/school/n56"
+                  - strong: 國立體育大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "運動型"
+              - cell "桃園市"
+              - cell "QS 2027 查核中 THE 2026 查核中 ARWU 2026 查核中":
+                - generic: QS 2027
+                - emphasis: 查核中
+                - generic: THE 2026
+                - emphasis: 查核中
+                - generic: ARWU 2026
+                - emphasis: 查核中
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n56"
+                - button "＋ 比較"
+            - row "國立臺灣體育運動大學 查看資料頁 國立 運動型 臺中市 QS 2027 查核中 THE 2026 查核中 ARWU 2026 查核中 資料頁 ＋ 比較":
+              - cell "國立臺灣體育運動大學 查看資料頁":
+                - link "國立臺灣體育運動大學 查看資料頁":
+                  - /url: "#/school/n57"
+                  - strong: 國立臺灣體育運動大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "運動型"
+              - cell "臺中市"
+              - cell "QS 2027 查核中 THE 2026 查核中 ARWU 2026 查核中":
+                - generic: QS 2027
+                - emphasis: 查核中
+                - generic: THE 2026
+                - emphasis: 查核中
+                - generic: ARWU 2026
+                - emphasis: 查核中
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n57"
+                - button "＋ 比較"
+            - row "國立勤益科技大學 查看資料頁 國立 科技型 臺中市 QS 2027 1401+ THE 2026 1501+ ARWU 2026 查核中 資料頁 ＋ 比較":
+              - cell "國立勤益科技大學 查看資料頁":
+                - link "國立勤益科技大學 查看資料頁":
+                  - /url: "#/school/n58"
+                  - strong: 國立勤益科技大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "科技型"
+              - cell "臺中市"
+              - cell "QS 2027 1401+ THE 2026 1501+ ARWU 2026 查核中":
+                - generic: QS 2027
+                - emphasis: 1401+
+                - generic: THE 2026
+                - emphasis: 1501+
+                - generic: ARWU 2026
+                - emphasis: 查核中
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n58"
+                - button "＋ 比較"
+            - row "國立虎尾科技大學 查看資料頁 國立 科技型 雲林縣 QS 2027 查核中 THE 2026 1501+ ARWU 2026 查核中 資料頁 ＋ 比較":
+              - cell "國立虎尾科技大學 查看資料頁":
+                - link "國立虎尾科技大學 查看資料頁":
+                  - /url: "#/school/n59"
+                  - strong: 國立虎尾科技大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "科技型"
+              - cell "雲林縣"
+              - cell "QS 2027 查核中 THE 2026 1501+ ARWU 2026 查核中":
+                - generic: QS 2027
+                - emphasis: 查核中
+                - generic: THE 2026
+                - emphasis: 1501+
+                - generic: ARWU 2026
+                - emphasis: 查核中
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n59"
+                - button "＋ 比較"
+            - row "國立臺中科技大學 查看資料頁 國立 科技型 臺中市 QS 2027 查核中 THE 2026 查核中 ARWU 2026 查核中 資料頁 ＋ 比較":
+              - cell "國立臺中科技大學 查看資料頁":
+                - link "國立臺中科技大學 查看資料頁":
+                  - /url: "#/school/n60"
+                  - strong: 國立臺中科技大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "科技型"
+              - cell "臺中市"
+              - cell "QS 2027 查核中 THE 2026 查核中 ARWU 2026 查核中":
+                - generic: QS 2027
+                - emphasis: 查核中
+                - generic: THE 2026
+                - emphasis: 查核中
+                - generic: ARWU 2026
+                - emphasis: 查核中
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n60"
+                - button "＋ 比較"
+            - row "國立臺北商業大學 查看資料頁 國立 商管型 臺北市 QS 2027 查核中 THE 2026 查核中 ARWU 2026 查核中 資料頁 ＋ 比較":
+              - cell "國立臺北商業大學 查看資料頁":
+                - link "國立臺北商業大學 查看資料頁":
+                  - /url: "#/school/n61"
+                  - strong: 國立臺北商業大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "商管型"
+              - cell "臺北市"
+              - cell "QS 2027 查核中 THE 2026 查核中 ARWU 2026 查核中":
+                - generic: QS 2027
+                - emphasis: 查核中
+                - generic: THE 2026
+                - emphasis: 查核中
+                - generic: ARWU 2026
+                - emphasis: 查核中
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n61"
+                - button "＋ 比較"
+            - row "國立臺北護理健康大學 查看資料頁 國立 醫護型 臺北市 QS 2027 查核中 THE 2026 查核中 ARWU 2026 查核中 資料頁 ＋ 比較":
+              - cell "國立臺北護理健康大學 查看資料頁":
+                - link "國立臺北護理健康大學 查看資料頁":
+                  - /url: "#/school/n62"
+                  - strong: 國立臺北護理健康大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "醫護型"
+              - cell "臺北市"
+              - cell "QS 2027 查核中 THE 2026 查核中 ARWU 2026 查核中":
+                - generic: QS 2027
+                - emphasis: 查核中
+                - generic: THE 2026
+                - emphasis: 查核中
+                - generic: ARWU 2026
+                - emphasis: 查核中
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n62"
+                - button "＋ 比較"
+            - row "國立高雄餐旅大學 查看資料頁 國立 餐旅型 高雄市 QS 2027 查核中 THE 2026 查核中 ARWU 2026 查核中 資料頁 ＋ 比較":
+              - cell "國立高雄餐旅大學 查看資料頁":
+                - link "國立高雄餐旅大學 查看資料頁":
+                  - /url: "#/school/n63"
+                  - strong: 國立高雄餐旅大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "餐旅型"
+              - cell "高雄市"
+              - cell "QS 2027 查核中 THE 2026 查核中 ARWU 2026 查核中":
+                - generic: QS 2027
+                - emphasis: 查核中
+                - generic: THE 2026
+                - emphasis: 查核中
+                - generic: ARWU 2026
+                - emphasis: 查核中
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n63"
+                - button "＋ 比較"
+            - row "國立澎湖科技大學 查看資料頁 國立 科技型 澎湖縣 QS 2027 查核中 THE 2026 查核中 ARWU 2026 查核中 資料頁 ＋ 比較":
+              - cell "國立澎湖科技大學 查看資料頁":
+                - link "國立澎湖科技大學 查看資料頁":
+                  - /url: "#/school/n64"
+                  - strong: 國立澎湖科技大學
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "科技型"
+              - cell "澎湖縣"
+              - cell "QS 2027 查核中 THE 2026 查核中 ARWU 2026 查核中":
+                - generic: QS 2027
+                - emphasis: 查核中
+                - generic: THE 2026
+                - emphasis: 查核中
+                - generic: ARWU 2026
+                - emphasis: 查核中
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n64"
+                - button "＋ 比較"
+            - row "國立臺灣戲曲學院 查看資料頁 國立 藝術型 臺北市 QS 2027 查核中 THE 2026 查核中 ARWU 2026 查核中 資料頁 ＋ 比較":
+              - cell "國立臺灣戲曲學院 查看資料頁":
+                - link "國立臺灣戲曲學院 查看資料頁":
+                  - /url: "#/school/n65"
+                  - strong: 國立臺灣戲曲學院
+                  - generic: 查看資料頁
+              - cell "國立":
+                - generic: 國立
+              - cell "藝術型"
+              - cell "臺北市"
+              - cell "QS 2027 查核中 THE 2026 查核中 ARWU 2026 查核中":
+                - generic: QS 2027
+                - emphasis: 查核中
+                - generic: THE 2026
+                - emphasis: 查核中
+                - generic: ARWU 2026
+                - emphasis: 查核中
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n65"
+                - button "＋ 比較"
+            - row "臺北市立大學 查看資料頁 市立 教育型 臺北市 QS 2027 查核中 THE 2026 1501+ ARWU 2026 查核中 資料頁 ＋ 比較":
+              - cell "臺北市立大學 查看資料頁":
+                - link "臺北市立大學 查看資料頁":
+                  - /url: "#/school/n66"
+                  - strong: 臺北市立大學
+                  - generic: 查看資料頁
+              - cell "市立":
+                - generic: 市立
+              - cell "教育型"
+              - cell "臺北市"
+              - cell "QS 2027 查核中 THE 2026 1501+ ARWU 2026 查核中":
+                - generic: QS 2027
+                - emphasis: 查核中
+                - generic: THE 2026
+                - emphasis: 1501+
+                - generic: ARWU 2026
+                - emphasis: 查核中
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n66"
+                - button "＋ 比較"
+            - row "高雄市立空中大學 查看資料頁 市立 遠距型 高雄市 QS 2027 查核中 THE 2026 查核中 ARWU 2026 查核中 資料頁 ＋ 比較":
+              - cell "高雄市立空中大學 查看資料頁":
+                - link "高雄市立空中大學 查看資料頁":
+                  - /url: "#/school/n67"
+                  - strong: 高雄市立空中大學
+                  - generic: 查看資料頁
+              - cell "市立":
+                - generic: 市立
+              - cell "遠距型"
+              - cell "高雄市"
+              - cell "QS 2027 查核中 THE 2026 查核中 ARWU 2026 查核中":
+                - generic: QS 2027
+                - emphasis: 查核中
+                - generic: THE 2026
+                - emphasis: 查核中
+                - generic: ARWU 2026
+                - emphasis: 查核中
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n67"
+                - button "＋ 比較"
+            - row "國防大學 查看資料頁 中央部會公立 軍事型 桃園市 QS 2027 查核中 THE 2026 查核中 ARWU 2026 查核中 資料頁 ＋ 比較":
+              - cell "國防大學 查看資料頁":
+                - link "國防大學 查看資料頁":
+                  - /url: "#/school/n68"
+                  - strong: 國防大學
+                  - generic: 查看資料頁
+              - cell "中央部會公立":
+                - generic: 中央部會公立
+              - cell "軍事型"
+              - cell "桃園市"
+              - cell "QS 2027 查核中 THE 2026 查核中 ARWU 2026 查核中":
+                - generic: QS 2027
+                - emphasis: 查核中
+                - generic: THE 2026
+                - emphasis: 查核中
+                - generic: ARWU 2026
+                - emphasis: 查核中
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n68"
+                - button "＋ 比較"
+            - row "國防醫學大學 查看資料頁 中央部會公立 醫護型 臺北市 QS 2027 查核中 THE 2026 查核中 ARWU 2026 查核中 資料頁 ＋ 比較":
+              - cell "國防醫學大學 查看資料頁":
+                - link "國防醫學大學 查看資料頁":
+                  - /url: "#/school/n69"
+                  - strong: 國防醫學大學
+                  - generic: 查看資料頁
+              - cell "中央部會公立":
+                - generic: 中央部會公立
+              - cell "醫護型"
+              - cell "臺北市"
+              - cell "QS 2027 查核中 THE 2026 查核中 ARWU 2026 查核中":
+                - generic: QS 2027
+                - emphasis: 查核中
+                - generic: THE 2026
+                - emphasis: 查核中
+                - generic: ARWU 2026
+                - emphasis: 查核中
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n69"
+                - button "＋ 比較"
+            - row "中央警察大學 查看資料頁 中央部會公立 警政型 桃園市 QS 2027 查核中 THE 2026 查核中 ARWU 2026 查核中 資料頁 ＋ 比較":
+              - cell "中央警察大學 查看資料頁":
+                - link "中央警察大學 查看資料頁":
+                  - /url: "#/school/n70"
+                  - strong: 中央警察大學
+                  - generic: 查看資料頁
+              - cell "中央部會公立":
+                - generic: 中央部會公立
+              - cell "警政型"
+              - cell "桃園市"
+              - cell "QS 2027 查核中 THE 2026 查核中 ARWU 2026 查核中":
+                - generic: QS 2027
+                - emphasis: 查核中
+                - generic: THE 2026
+                - emphasis: 查核中
+                - generic: ARWU 2026
+                - emphasis: 查核中
+              - cell "資料頁 ＋ 比較":
+                - link "資料頁":
+                  - /url: "#/school/n70"
+                - button "＋ 比較"
+      - region "三十秒選系方向":
+        - paragraph: STUDENT DECISION GUIDE
+        - heading "高中生選校，先比較這六件事" [level=2]
+        - paragraph: 網站後續每個系所頁都依同一套欄位整理，讓不同學校的同類科系可以放在一起比較。
+        - article:
+          - text: "01"
+          - heading "會學到什麼" [level=3]
+          - paragraph: 核心課程、實作設備、專題與可累積的技能。
+        - article:
+          - text: "02"
+          - heading "師資專長" [level=3]
+          - paragraph: 以「師資一、師資二」呈現研究與教學專長，不公開教授姓名。
+        - article:
+          - text: "03"
+          - heading "畢業後做什麼" [level=3]
+          - paragraph: 常見職務、產業連結、實習與雇主需求。
+        - article:
+          - text: "04"
+          - heading "證照與升學" [level=3]
+          - paragraph: 可準備的證照、研究所方向與國際銜接條件。
+        - article:
+          - text: "05"
+          - heading "招生與班級" [level=3]
+          - paragraph: 招生名額、註冊情形、班級規模；缺資料就標示待查。
+        - article:
+          - text: "06"
+          - heading "學生經驗" [level=3]
+          - paragraph: 整理公開評論的共同主題，區分個人感受與可驗證資料。
+        - strong: 比較方式
+        - paragraph: 先用「大學資料庫」選學校，再從學校頁進入代表性系所。系所頁會把相同領域的課程內容、師資專長、實作設備、證照、實習、招生規模、畢業出路與國際機會放在同一套欄位中，方便跨校比較。
+        - paragraph: 招生名額、註冊率與班級人數會標示資料年度；若學校只公開其中一項，其他欄位維持待查，不以推估數字替代。
+      - region "喜歡有創意，就適合讀工業設計嗎？":
+        - paragraph: FIND YOUR DIRECTION
+        - heading "喜歡有創意，就適合讀工業設計嗎？" [level=2]
+        - paragraph: 雲科・實踐・聯合｜高三選系版
+        - heading "先說結論：願意把點子反覆做成作品，才值得認真考慮。" [level=3]
+        - paragraph: 你會接觸造型、材料、模型與使用者需求。如果你喜歡觀察「這個東西能不能更好用」，也願意試做、修改、解釋自己的選擇，這個方向值得探索。若你最喜歡的是自由畫畫，卻很排斥加工、反覆修改或作品發表，建議先體驗一次設計專題再決定。
+        - text: 適合度為本站依已查核課程提出的判讀，非性向測驗結果。
+        - article:
+          - generic: 我想動手做出產品
+          - heading "雲科工設：先研究實作路線" [level=3]
+          - paragraph: 系所重視實務與產學，設有設計工坊，也有產業實習作業資料。適合想把構想做成模型、接觸產品實作的你列入比較。
+          - paragraph:
+            - strong: 老師與環境能給什麼？
+            - text: 實作、整合與創新是系所培養重點；工坊提供製作場域。
+          - paragraph:
+            - strong: 選之前問：
+            - text: 我能做哪些專題？實習怎麼找？老師一次帶多少學生？
+        - article:
+          - generic: 我想做作品集、接觸國際設計
+          - heading "實踐工設：先研究創作與展演路線" [level=3]
+          - paragraph: 課程包含建模、人因、材料與作品集，已有海外展演及跨國合作案例。適合願意發展個人作品、用作品說明想法的你。
+          - paragraph:
+            - strong: 老師與環境能給什麼？
+            - text: 從創作方法到模型、作品集的課程訓練，以及可申請的製作設備。
+          - paragraph:
+            - strong: 選之前問：
+            - text: 海外活動怎麼選人？要花多少錢？大學部有多少人能參與？
+        - article:
+          - generic: 我想做生活商品、試試自創品牌
+          - heading "聯大工設：先研究生活與文化商品路線" [level=3]
+          - paragraph: 課程方向包括生活產品、文化商品及創新創業，也有品牌創業與產品研發校友案例。適合對日常用品、文化工藝與商品開發有興趣的你。
+          - paragraph:
+            - strong: 老師與環境能給什麼？
+            - text: 設計主軸與畢業專題，搭配木作、噴漆及自造等空間。
+          - paragraph:
+            - strong: 選之前問：
+            - text: 商品怎麼從設計走到試賣？有沒有成本、行銷與業師輔導？
+        - paragraph: 這三條是比較起點，各校都有重疊領域，不代表只有某校能走某條路。師資專長與設備能說明資源方向，實際指導時間及學生能否使用，還要進一步核對。
+        - heading "讀完有沒有希望？先回答你最在意的四件事" [level=3]
+        - paragraph:
+          - strong: 好不好找工作？
+          - text: 目前有產品研發、設計與專案管理的職涯案例，但還沒有足夠的三校畢業追蹤資料，無法判定哪校最好找。比較時應看學生能完成什麼作品、是否有實習經驗，以及職缺要求的能力。
+        - paragraph:
+          - strong: 能不能創業？
+          - text: 有品牌創業案例，聯大也列有創新創業課程方向。若你想自己賣產品，除了設計，還要評估成本、製造與找客人的能力；有創業課不等於創業會成功。
+        - paragraph:
+          - strong: 薪水能很高嗎？
+          - text: 目前缺乏同年度、同職務的可靠薪資比較，不能承諾高薪。選系時先分辨你想做產品外觀、研發設計或專案管理，再查對應職缺；不能拿資深主管薪水當新鮮人起薪。
+        - paragraph:
+          - strong: 老師能帶給我什麼？
+          - text: 先看課程能否幫你累積建模、材料、使用者研究和作品表達，再看有沒有專題回饋與企業題目。研究計畫多，還不足以證明每位學生都能得到密集指導。
+        - heading "把未來工作想得具體一點：幫人設計更好用的電動輔具" [level=3]
+        - paragraph: 一則企業刊登的工業設計職缺，需要把使用情境轉成產品外觀，畫草圖、做3D模型，再用渲染圖和設計說明向團隊提案。你在大學做的模型、使用者觀察與作品發表，就能拿來對照這類工作。
+        - paragraph:
+          - strong: 給選系的你：
+          - text: 如果這些工作內容讓你想試試看，讀工設有值得探索的方向。挑學校時可以問：「四年後，我能不能獨立完成一件從問題、草圖到模型的作品，並說明為什麼這樣設計？」這是依該職缺提出的選系建議，尚不足以判定整體就業難易。
+        - paragraph:
+          - link "雲科工設科系頁":
+            - /url: "#/department/yuntech-id"
+          - text: ·
+          - link "實踐工設科系頁":
+            - /url: "#/department/usc-id"
+          - text: ·
+          - link "聯合工設科系頁":
+            - /url: "#/department/nuu-id"
+        - generic "這份工作開多少薪水？有哪些門檻？"
+        - generic "想知道依據？展開課程、招生、學生經驗與來源"
+      - region "學校、系所與師資整理":
+        - status: 目前有 198 個具來源的主題比較導讀，另保留既有設計等資料頁；分發參考 231 個招生組。70校目錄不等於70校所有科系已完成深度查核。
+        - paragraph: PROFILE BUILD
+        - heading "學校、系所與師資整理" [level=2]
+        - paragraph: 先建立可追溯的資料骨架，再按官方名錄、校務公開資料與研究計畫逐筆補齊。
+        - article:
+          - generic: 第一層
+          - strong: 70／70
+          - heading "學校資料頁" [level=3]
+          - paragraph: 正式校名、設立別、所在地、辦學類型、來源與查核進度。
+        - article:
+          - generic: 第二層
+          - strong: 50／70
+          - heading "代表性系所頁" [level=3]
+          - paragraph: 目前50校共52個代表性系所頁；包含新增的實踐與聯合工設。其餘系所依序補入。
+        - article:
+          - generic: 第三層
+          - strong: "245"
+          - heading "匿名師資專長" [level=3]
+          - paragraph: 以「師資一、師資二」匿名呈現專長，並整理各系所整體師資方向。
+        - article:
+          - generic: 第四層
+          - strong: 70／70
+          - heading "學院與主要科系" [level=3]
+          - paragraph: 70校的家長版學術地圖已完成；各校招生學制與量化資料持續查核。
+        - article:
+          - generic: 第五層
+          - strong: 70／70
+          - heading "家長選校摘要" [level=3]
+          - paragraph: 已完成70校的適合學生、排名閱讀方式、申請前確認事項與資料完成度。
+        - generic "首批系所資料頁":
+          - link "臺大資工":
+            - /url: "#/department/ntu-csie"
+          - link "清大資工":
+            - /url: "#/department/nthu-cs"
+          - link "陽明交大資工":
+            - /url: "#/department/nycu-cs"
+          - link "成大資工":
+            - /url: "#/department/ncku-csie"
+          - link "政大企管":
+            - /url: "#/department/nccu-ba"
+          - link "臺科大資工":
+            - /url: "#/department/ntust-csie"
+          - link "臺師大教育":
+            - /url: "#/department/ntnu-ed"
+          - link "中山資工":
+            - /url: "#/department/nsysu-cse"
+          - link "中央資工":
+            - /url: "#/department/ncu-csie"
+          - link "中興資工":
+            - /url: "#/department/nchu-cs"
+          - link "北科大資工":
+            - /url: "#/department/ntut-csie"
+          - link "中正資工":
+            - /url: "#/department/ccu-csie"
+          - link "臺北大學公行":
+            - /url: "#/department/ntpu-pa"
+          - link "海大輪機":
+            - /url: "#/department/ntou-dme"
+          - link "雲科大工設":
+            - /url: "#/department/yuntech-id"
+          - link "彰師大輔諮":
+            - /url: "#/department/ncue-gc"
+          - link "高師大特教":
+            - /url: "#/department/nknu-spe"
+          - link "東華族文":
+            - /url: "#/department/ndhu-erc"
+          - link "暨大國比":
+            - /url: "#/department/ncnu-ced"
+          - link "國北教大教育":
+            - /url: "#/department/ntue-edu"
+          - link "高科大電機":
+            - /url: "#/department/nkust-ee"
+          - link "中教大教育":
+            - /url: "#/department/ntcu-edu"
+          - link "嘉大森林":
+            - /url: "#/department/ncyu-forestry"
+          - link "高大創建":
+            - /url: "#/department/nuk-cda"
+          - link "宜大生動":
+            - /url: "#/department/niu-bas"
+          - link "聯大材料":
+            - /url: "#/department/nuu-mse"
+          - link "屏大科傳":
+            - /url: "#/department/nptu-scicomm"
+          - link "北藝大劇設":
+            - /url: "#/department/tnua-design"
+          - link "臺藝大多媒體":
+            - /url: "#/department/ntua-maa"
+          - link "屏科大熱農":
+            - /url: "#/department/npust-dtaic"
+          - link "長庚生醫":
+            - /url: "#/department/cgu-biomed"
+          - link "北醫醫學":
+            - /url: "#/department/tmu-med"
+          - link "中國醫中醫":
+            - /url: "#/department/cmu-chmed"
+          - link "高醫醫學":
+            - /url: "#/department/kmu-med"
+          - link "輔大新傳":
+            - /url: "#/department/fju-jc"
+          - link "東吳法律":
+            - /url: "#/department/scu-law"
+          - link "東海建築":
+            - /url: "#/department/thu-arch"
+          - link "中原化工":
+            - /url: "#/department/cycu-che"
+          - link "逢甲資工":
+            - /url: "#/department/fcu-csie"
+          - link "淡江外交":
+            - /url: "#/department/tku-diplomacy"
+          - link "元智資傳":
+            - /url: "#/department/yzu-ic"
+          - link "亞洲聽語":
+            - /url: "#/department/asia-audslp"
+          - link "義守娛樂管理":
+            - /url: "#/department/isu-etm"
+          - link "中山醫聽語":
+            - /url: "#/department/csmu-slhs"
+          - link "銘傳國企":
+            - /url: "#/department/mcu-ib"
+          - link "世新廣電":
+            - /url: "#/department/shu-rtf"
+          - link "實踐服設":
+            - /url: "#/department/usc-fashion"
+          - link "慈濟醫學":
+            - /url: "#/department/tcu-med"
+          - link "明志工設":
+            - /url: "#/department/mcut-id"
+          - link "南臺多樂":
+            - /url: "#/department/stust-mecs"
+      - region "三大世界大學排名":
+        - paragraph: GLOBAL RANKINGS
+        - heading "三大世界大學排名" [level=2]
+        - paragraph: 各排名採用不同方法與發布年度，本站保留原始名次及區間，不合併成單一世界排名。
+        - link "QS QS世界大學排名2027 學術聲譽、雇主聲譽、研究、國際化與永續等指標":
+          - /url: https://www.topuniversities.com/world-university-rankings?countries=tw&order_by=asc&region=Asia&sort_by=rank
+          - generic: QS
+          - strong: QS世界大學排名2027
+          - generic: 學術聲譽、雇主聲譽、研究、國際化與永續等指標
+          - generic: ↗
+        - link "THE THE世界大學排名2026 教學、研究環境、研究品質、產業及國際展望":
+          - /url: https://www.timeshighereducation.com/student/best-universities/best-universities-taiwan
+          - generic: THE
+          - strong: THE世界大學排名2026
+          - generic: 教學、研究環境、研究品質、產業及國際展望
+          - generic: ↗
+        - link "ARWU ARWU世界大學學術排名2026 國際獎項、高被引研究者及高品質研究成果":
+          - /url: https://www.shanghairanking.com/rankings/arwu/2026
+          - generic: ARWU
+          - strong: ARWU世界大學學術排名2026
+          - generic: 國際獎項、高被引研究者及高品質研究成果
+          - generic: ↗
+        - paragraph: 「未列入」表示該校未出現在該年度全球綜合排名公布名單中，不代表學校或特定學科沒有其他排名成績。
+      - region "八大評比面向，共100分":
+        - paragraph: OPEN METHODOLOGY
+        - heading "八大評比面向，共100分" [level=2]
+        - paragraph: 原始數值、計算公式、資料年份與更新日期都會隨分數公開。
+        - article:
+          - generic: "01"
+          - strong: 20%
+          - heading "研究能量" [level=3]
+          - paragraph: 國科會計畫、近五年論文、引用、產學與專利
+        - article:
+          - generic: "02"
+          - strong: 15%
+          - heading "師資結構" [level=3]
+          - paragraph: 專任師資、師生比、學術背景多元性與實務師資
+        - article:
+          - generic: "03"
+          - strong: 15%
+          - heading "教學投入" [level=3]
+          - paragraph: 授課時數、課程多樣性、實習專題與教學創新
+        - article:
+          - generic: "04"
+          - strong: 15%
+          - heading "國際化" [level=3]
+          - paragraph: 境外生、交換、雙聯、國際共研與全英語課程
+        - article:
+          - generic: "05"
+          - strong: 15%
+          - heading "學生發展" [level=3]
+          - paragraph: 註冊、畢業、證照、升學、就業與競賽成果
+        - article:
+          - generic: "06"
+          - strong: 10%
+          - heading "資源與經費" [level=3]
+          - paragraph: 教育部經費、每生資源、獎助與研究設備
+        - article:
+          - generic: "07"
+          - strong: 5%
+          - heading "產學與社會貢獻" [level=3]
+          - paragraph: 產學合作、USR、地方服務與成果轉化
+        - article:
+          - generic: "08"
+          - strong: 5%
+          - heading "治理與行政服務" [level=3]
+          - paragraph: 行政參與、資訊公開、校務治理與資料完整度
+        - generic: 學生評論如何處理？
+        - strong: 先呈現趨勢，不直接計分
+        - paragraph: Dcard等公開討論將以近24個月、至少20則不同討論為門檻，整理課程、師資互動、行政、資源、實習與就業主題。涉及個人指控、身分資訊或樣本不足時不納入。
+      - region "資料更新與查核":
+        - paragraph: DATA LEDGER
+        - heading "資料更新與查核" [level=2]
+        - paragraph: 不同資料依來源發布頻率更新，不以舊資料假裝月度變動。
+        - generic "目前資料快照":
+          - generic: 目前快照
+          - strong: 2026年9月
+          - generic: 學校資料頁
+          - strong: 70／70
+          - generic: 學術地圖
+          - strong: 70／70
+          - generic: 匿名師資專長
+          - strong: 245組
+          - generic: 官方與換算數據
+          - strong: 81項・3,952筆
+          - generic: 量化評比分數
+          - strong: 查核中
+        - article:
+          - text: 每月
+          - heading "新聞、研究與師資異動" [level=3]
+          - paragraph: 大學新聞、國科會計畫、研究成果、研討會及公開師資異動。
+        - article:
+          - text: 每學期
+          - heading "課程與教學投入" [level=3]
+          - paragraph: 開課數、授課時數、全英語課程、課程多樣性與教師名單。
+        - article:
+          - text: 每年
+          - heading "校務、學生與經費" [level=3]
+          - paragraph: 教育部補助、學生人數、註冊率、畢業率與境外生資料。
+        - generic "每月查核流程":
+          - generic: MONTHLY CYCLE
+          - heading "每月查核流程" [level=3]
+          - paragraph: 每月依固定順序整理；來源尚未發布或無法交叉驗證時，保留原值並註明日期。
+          - list:
+            - generic: 01—07日
+            - strong: 排名與學校異動
+            - paragraph: 核對QS、THE、ARWU，以及校名、學院、科系與師資名錄異動。
+            - generic: 08—15日
+            - strong: 研究與教學
+            - paragraph: 整理國科會計畫、研究成果、研討會、開課數與教學投入資料。
+            - generic: 16—23日
+            - strong: 國際化與經費
+            - paragraph: 核對境外生、交換雙聯、全英語課程、教育部補助及每生資源。
+            - generic: 24—月底
+            - strong: 學生觀察與修正
+            - paragraph: 彙整去識別化學生討論，處理校方說明、讀者回報與修正紀錄。
+        - heading "發布原則" [level=3]
+        - list:
+          - listitem: 重要新聞至少雙重來源確認
+          - listitem: 同名教師須比對學校與研究領域
+          - listitem: 跨領域數據採學門標準化
+          - listitem: 保留每月快照與修正紀錄
+          - listitem: 提供校方說明與更正管道
+    - contentinfo:
+      - generic: 台灣知名大學新聞與評比網
+      - paragraph: 資料來源將以教育部、國科會、各大學官網及可驗證公開紀錄為主。
+      - link "評比方法":
+        - /url: "#methodology"
+  - complementary "廣告：台灣大學資料庫後":
+    - generic: ADVERTISEMENT · 廣告
+    - generic: GLOBAL EDUCATION NEWS
+    - strong: 大學與國際教育招生合作
+    - paragraph: 讓有興趣的學生在探索學校與申請資訊時，看見您的課程與活動。
+    - link "洽詢此版位":
+      - /url: /advertise/
+      - text: 洽詢此版位 ↗
+  - paragraph:
+    - strong: 資料使用提醒：
+    - text: 學生網路評價反映部分學生經驗，不代表全體學生或校方立場。軍警、遠距、藝術、體育、技職、餐旅與醫護專業型學校，會依其制度與專業訓練型態分開評估，不直接套用一般綜合大學標準。
+  - paragraph: 本資料庫由環球教育新聞編輯部持續整理。LTU 國際學術中心提供升學規劃與諮詢服務，資料內容與顧問服務分開呈現。
+- complementary "廣告":
+  - button "關閉廣告": ×
+  - generic: ADVERTISEMENT · 廣告
+  - img "大學招生廣告示意圖"
+  - strong: 國內大學招生廣告版位
+  - paragraph: 向比較台灣大學的學生介紹招生活動。
+  - link "了解廣告合作 ↗":
+    - /url: /advertise/
+- contentinfo:
+  - heading "環球教育新聞網 | Global Education News" [level=3]
+  - paragraph: 涵蓋國內外國際教育新聞、大學科系選擇與申請、獎學金雷達，以及深度探討文章-Peter 的國際教育講座。
+  - link "開啟留學DIY導航 Study Abroad Navigator":
+    - /url: /study-abroad/
+    - strong: 留學DIY導航
+    - generic: Study Abroad Navigator
+    - generic: →
+  - paragraph:
+    - link "Global Education Weekly｜免費電子報":
+      - /url: /newsletter/
+      - strong: Global Education Weekly｜免費電子報
+  - paragraph:
+    - link "Peter的國際教育講座":
+      - /url: /peter/
+      - strong: Peter的國際教育講座
+  - paragraph:
+    - link "Facebook 粉絲專頁 ↗":
+      - /url: https://www.facebook.com/profile.php?id=61585164670358
+  - text: © 2026 環球教育新聞網 Global Education News. All rights reserved.
+  - heading "LTU 環球教育新聞網編輯部" [level=3]
+  - paragraph: LTU Global Education News Editorial Desk
+  - paragraph:
+    - link "關於我們 About":
+      - /url: /about/
+  - paragraph:
+    - link "編輯政策 Editorial Policy":
+      - /url: /editorial-policy/
+  - paragraph:
+    - link "更正政策 Corrections":
+      - /url: /corrections/
+  - paragraph:
+    - link "editor.jsti.ltu@gmail.com":
+      - /url: mailto:editor.jsti.ltu@gmail.com
+  - heading "合作與透明度" [level=3]
+  - paragraph:
+    - text: 營運者：布萊斯教育有限公司
+    - text: 統一編號：91023087
+  - paragraph:
+    - link "網站安全與服務識別":
+      - /url: /security/
+  - paragraph:
+    - link "廣告合作 Advertising":
+      - /url: /advertise/
+  - paragraph:
+    - link "聯絡我們 Contact":
+      - /url: /contact/
+  - paragraph:
+    - link "利益揭露 Disclosure":
+      - /url: /disclosure/
+  - paragraph:
+    - link "隱私權政策 Privacy":
+      - /url: /privacy/
+  - generic "網站累積瀏覽統計":
+    - generic: READERSHIP
+    - text: 累積瀏覽
+    - strong: 統計中
+- paragraph:
+  - link "Photo source & license · cropped for sharing":
+    - /url: /image-credits/#787ec4d1b3d0dfef97a70780.jpg
+- button
+- img "Monica"
+- generic: Ctrl+M
+- text: 解釋

@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-10-30T10:09:51.831461+08:00",
+  "sources": {
+    "uk": "https://eng.ed.ac.uk/about/news/20261028/edinburgh-to-host-ps18m-uk-advanced-chip-design-academy",
+    "uk2": "https://www.cbi.org.uk/articles/autumn-budget-2026-cbi-analysis/",
+    "ca": "https://blogs.unb.ca/newsroom/2026/10/bachelor-data-science.php",
+    "ca2": "https://nz.news.yahoo.com/ai-degree-programs-popping-across-090000355.html",
+    "uz": "https://forum.edu.uz/en",
+    "uz2": "https://academiamag.com/news/pakistan-eyes-stronger-academic-ties-with-central-asia/",
+    "psu": "https://www.pdx.edu/student-finance/international-scholarships",
+    "psu2": "https://www.collegedata.com/scholarship-finder/276298",
+    "psudates": "https://www.pdx.edu/admissions/deadlines",
+    "psutw": "https://www.pdx.edu/admissions/international/academic-requirements-country",
+    "kent": "https://www.kent.edu/admissions/international-students-scholarship-resources",
+    "kent2": "https://leapscholar.com/blog/kent-state-university-global-scholarship/",
+    "honors": "https://www.kent.edu/admissions/international-students-scholarship-resources",
+    "honors2": "https://leapscholar.com/blog/kent-state-university-global-scholarship/",
+    "honorsapply": "https://www.kent.edu/honors/apply",
+    "kenttw": "https://www.kent.edu/admissions/international-admissions-transcript",
+    "kentapply": "https://www.kent.edu/admissions/international-first-year-student-requirements",
+    "kentcalendar": "https://www.kent.edu/admissions/admitted-student-checklist",
+    "ntu": "https://studyabroad.ntu.edu.tw/en/exchange-student/how-to-apply/"
+  },
+  "method": "Official and independent full texts read via web and native Chrome; Yahoo CBC, CollegeData and Academia read in native browser.",
+  "notes": [
+    "PSU CollegeData September1 matches transfer deadline; freshman August1 from official calendar.",
+    "Kent Honors separate USD2000 program, not Global tier. Award January15 differs from later admission review dates.",
+    "Kent international admission recommends June1 for fall; Global admitted byJuly1. Current portal and2027 admission calendar read.",
+    "LeapScholar recommendation-letter claim rejected against Honors official rule; Indian grade conversions not applied toTaiwan.",
+    "UNB July2CBC is earlier confirmation; October27official provides latest curriculum.",
+    "CBI independent Budget analysis corroborates Edinburgh amount, host and purpose.",
+    "Forum anticipated attendance not actual count; recognition proposals not enacted universal rules."
+  ]
+}
