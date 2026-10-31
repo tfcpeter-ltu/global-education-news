@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-10-31T20:11:11.329530+08:00",
+  "sources": {
+    "au": "https://www.homeaffairs.gov.au/help-and-support/how-to-engage-us/consultations/consultation-on-proposed-reforms-to-the-genuine-student-requirement-and-financial-capacity-framework",
+    "au2": "https://thepienews.com/australia-consults-on-student-visa-overhaul-as-refusals-hit-key-markets/",
+    "uk": "https://committees.parliament.uk/committee/127/public-accounts-committee/news/218639/british-council-govt-lacks-positive-vision-for-uks-soft-power-flagship-pac/",
+    "uk2": "https://www.timeshighereducation.com/news/british-council-deserves-support-not-mistrust-mps-say",
+    "us": "https://statements.cornell.edu/2026/20261029-agreement-with-new-york-state-police.cfm",
+    "us2": "https://www.cornellsun.com/article/2026/10/cornell-pens-agreement-allowing-new-york-state-police-to-investigate-allegations-of-sexual-assault-on-campus",
+    "ug": "https://www.memphis.edu/scholarships/international_students/",
+    "ug2": "https://usascholarships.net/scholarships/undergraduate-international-merit-scholarship-usa-2027",
+    "grad": "https://www.memphis.edu/graduateadmissions/future/funding_grad_school.php",
+    "grad2": "https://www.educations.com/articles-and-advice/master-studies/us-masters-scholarships",
+    "transfer": "https://memphis.academicworks.com/opportunities/30732",
+    "transfer2": "https://nscc.edu/current-students/transfer-options.php",
+    "dates": "https://www.memphis.edu/admissions/basics/deadlines.php",
+    "apply": "https://www.memphis.edu/admissions/basics/int-apply.php",
+    "credentials": "https://www.memphis.edu/admissions/basics/int-requirements.php",
+    "country": "https://www.memphis.edu/admissions/basics/int_req_by_country.php",
+    "earth": "https://www.memphis.edu/earthsciences/programs/graduate/graduate-application-process.php",
+    "nsysu": "https://web.ee.nsysu.edu.tw/p/406-1203-385105%2Cr2043.php?Lang=zh-tw",
+    "ugChart": "https://www.memphis.edu/scholarships/international_students/out-of-state-scholarship-chart.jpg"
+  },
+  "method": "Official and independent full texts read using web and native Chrome.",
+  "notes": [
+    "Australia consultation is not enacted policy.",
+    "British Council debt conversion is a recommendation.",
+    "Cornell official full statement read in Chrome; choice and survivor autonomy retained; no allegations or identities republished.",
+    "Graduate fall route opens October1, international Earth Sciences deadlineMay1; GA date not merit-award deadline.",
+    "Transfer official Spring2027 rules override older secondary renewal wording. Taiwan F1/J1 holders with qualifying first associate degree eligible.",
+    "Three awards are distinct applicant groups/programs, not award tiers.",
+    "LaPresse browser safety block respected; topic replaced.",
+    "Correction after visual read: official embedded chart lists annualUSD5000–14000 (GPA-only3.8=5000). Chart has no entry-year label;2027 amount governed by awardoffer. Secondary unpublished-amount claim rejected. Native screenshot saved."
+  ]
+}

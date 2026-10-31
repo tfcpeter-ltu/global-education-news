@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-31",
+  "timezone": "Asia/Taipei",
+  "status": "three-public-leads-reviewed",
+  "verifiedAt": "2026-10-31T20:18:58.170871+08:00",
+  "reviewedSchools": [
+    {
+      "school": "NTU",
+      "source": "https://studyabroad.ntu.edu.tw/exchange-student/how-to-apply/",
+      "status": "official-page-read",
+      "finding": "116-1 exchange instructions; preapplication preparation, language evidence and GPA eligibility. Future November application, not currently open; precise stage dates still need extraction.",
+      "verifiedAt": "2026-10-31T20:18:58.170871+08:00"
+    },
+    {
+      "school": "NTHU",
+      "source": "https://uip.site.nthu.edu.tw/p/406-1472-313996,r7377.php?Lang=zh-tw",
+      "status": "official-page-read",
+      "finding": "2027fall/2028spring life-science units deadlineOctober8 16:00 already past. Do not promote as open.",
+      "verifiedAt": "2026-10-31T20:18:58.170871+08:00"
+    },
+    {
+      "school": "NSYSU",
+      "source": "https://web.ee.nsysu.edu.tw/p/406-1203-385105%2Cr2043.php?Lang=zh-tw",
+      "status": "official-page-read",
+      "finding": "Native full announcement read: apply November3 09:00–November17 17:00; corrections untilNovember20 17:00, Asia/Taipei. Not yet open. Official OIA guidelines linked from department announcement.",
+      "verifiedAt": "2026-10-31T20:18:58.170871+08:00"
+    }
+  ]
+}

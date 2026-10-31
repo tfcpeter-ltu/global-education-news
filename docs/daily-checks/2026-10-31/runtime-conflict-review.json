@@ -1,0 +1,57 @@
+[
+  {
+    "path": "docs/social-posts/2026-10-30/news--unb-data-science-2027.json",
+    "sourceSha": "01f920ced9f250312d2c568502022be434888f58732804ba00b6b1528067dcad",
+    "runtimeSha": "c6c91846bf8a3a413280cb3714ca5faca6c7b0678d7a39b7eb7976406a8a8948"
+  },
+  {
+    "path": "docs/social-posts/2026-10-30/publication-log.json",
+    "sourceSha": "8cb8ca6fe9bb98eed792b5d91afb72b5fd21d0044012fe8ae2b32e616ba8ef6c",
+    "runtimeSha": "9a4907cb8753d0a22a09d1ab812076d95579ea359277b3918573030f9906c5c5"
+  },
+  {
+    "path": "docs/social-posts/2026-10-30/scholarship--psu-achievement-2027.json",
+    "sourceSha": "14e1048ae871906ca0353f1173e5b35eacfe7bcd796bc4135ab3c6eafa5ded75",
+    "runtimeSha": "4a35757bcb283c9bacf21ad47e595efa14d9279f95ca15efd7060b2363d8d4a4"
+  },
+  {
+    "path": "docs/social-posts/2026-10-30/study-abroad--psu-quarter-budget.json",
+    "sourceSha": "317af406660b609b78437408c0d86f13e656e90b53746f88ab30e2ed19b7e4fa",
+    "runtimeSha": "4af5ed48e553a106b4bd57c66da17d0ae70b0a03f7c7f5e2f0f8e107162e390f"
+  },
+  {
+    "path": "docs/social-posts/2026-10-30/taiwan-universities--ntu-keyword-comparison.json",
+    "sourceSha": "9beb07fbd7b1151dca25c8a1e427cf31e43971f6187d6e02b7208f44e4faba3f",
+    "runtimeSha": "76da40ad23b575af1f9dc3731c52bb07737b12d1d9e5a268e9e4b24f106efcb0"
+  },
+  {
+    "path": "public/data/analytics-summary.json",
+    "sourceSha": "bf55854bce68a97b9786f4cc14639ff3dad5d0a5515e107838cdfcc52a7b2f9c",
+    "runtimeSha": "bb882605ade31e81dd0ccee2315bc7e153236b9ab1d06a408a2ce6faf28c5e1e"
+  },
+  {
+    "path": "public/images/share-photos/credits.json",
+    "sourceSha": "bd226893628403458b01e3f10bf5a8518f59446f930c3437cc6a8b893f27ab41",
+    "runtimeSha": "86fc01bdd3710d68bac48c395a2e5d4271e574b1798ef4863a4793d1e4b31c3a"
+  },
+  {
+    "path": "public/images/share-photos/sources.json",
+    "sourceSha": "2953955734f11d3c85b35d40ddeb9a1eff89ef8edc201311718dab455393974e",
+    "runtimeSha": "359f8242d571f260473af2e60a1577516ddb0cd46d2df66d0bad6c70594fdf23"
+  },
+  {
+    "path": "src/data/i18n/en-overrides.json",
+    "sourceSha": "aa27dcf1526f475f645b9b2b3103ba88e863ed567807c17c5531788a389e69c3",
+    "runtimeSha": "961f369306a9f9c79498e1f3ba9fbe924a08f12634d0b990f933a6070baa6d09"
+  },
+  {
+    "path": "src/data/peter-articles.json",
+    "sourceSha": "fd0c660d70feeb50e4a47bf376bd1fe958a1c0118976e806ff983a7fa946e4a1",
+    "runtimeSha": "44c99ae540c2355904637c9ef3fa41f3e8405b7caae8a785fa4a5b5ddd8488fb"
+  },
+  {
+    "path": "src/data/vlog-videos.json",
+    "sourceSha": "ffba0ac1afd074c2cde3e1206416e84be3cfc7ab3dc79898c05d617ac1ca7601",
+    "runtimeSha": "345bd3128f5b03f4d6e5b4fed6bdff259f39809dde33a14822abd897e75e8491"
+  }
+]

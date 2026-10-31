@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-31",
+  "status": "prepared-awaiting-live-verification",
+  "review": {
+    "status": "fewer-new-posts",
+    "checkedAt": "2026-10-31T20:13:05.212910+08:00",
+    "availableNewCount": 1,
+    "sourceUrls": [
+      "https://www.facebook.com/profile.php?id=61585164670358",
+      "https://www.facebook.com/photo/?fbid=122148834531172155"
+    ],
+    "note": "Native latest feed: one new substantive VPD post; newer membership promotion excluded, older support-network item already importedOctober30. Full VPD post expanded and checked against uni-assist and TUM."
+  },
+  "items": [
+    {
+      "slug": "germany-vpd-university-application-second-step-2026",
+      "title": "VPD不是申請終點：Peter提醒德國大學還有第二道程序",
+      "url": "https://globalednews.com/peter/germany-vpd-university-application-second-step-2026/",
+      "sourceUrl": "https://www.facebook.com/photo/?fbid=122148834531172155",
+      "sourceId": "122148834531172155",
+      "verifiedAt": "2026-10-31T20:13:05.212910+08:00"
+    }
+  ]
+}
