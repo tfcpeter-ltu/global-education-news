@@ -1,6 +1,6 @@
 {
   "status": "ready",
-  "updatedAt": "2026-10-30T07:03:50.857Z",
+  "updatedAt": "2026-10-31T06:57:35.939Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
@@ -8,11 +8,6 @@
       "title": "國際教育新聞｜全球大學、留學政策與招生動態｜環球教育新聞網",
       "path": "/news/",
       "views": 9
-    },
-    {
-      "title": "最新國際教育新聞",
-      "path": "/news/",
-      "views": 7
     },
     {
       "title": "加拿大Memorial國際生減少：一年與三年降幅不能混讀｜環球教育新聞網 Global Education News",
@@ -25,71 +20,76 @@
       "views": 6
     },
     {
-      "title": "英格蘭TEF新制公開諮詢至1月28日：教學體驗、學生結果擬分別評級｜環球教育新聞網 Global Education News",
-      "path": "/news/england-tef-quality-consultation-october-2026/",
-      "views": 6
+      "title": "安大略省私校OSAP仍暫停：新驗證程序預計2027年實施｜環球教育新聞網 Global Education News",
+      "path": "/news/ontario-private-college-osap-validation-2026/",
+      "views": 5
+    },
+    {
+      "title": "英國預算案擬讓部分大學畢業生獲兩年簽證：適用條件待明確｜環球教育新聞網 Global Education News",
+      "path": "/news/uk-budget-2026-graduate-visa-conditional-two-years/",
+      "views": 5
     }
   ],
   "countries": [
     {
-      "name": "美國",
-      "mapName": "United States",
-      "sessions": 108,
-      "share": 40.6
-    },
-    {
       "name": "台灣",
       "mapName": "Taiwan",
-      "sessions": 104,
-      "share": 39.1
+      "sessions": 99,
+      "share": 42.7
+    },
+    {
+      "name": "美國",
+      "mapName": "United States",
+      "sessions": 86,
+      "share": 37.1
     },
     {
       "name": "瑞典",
       "mapName": "Sweden",
-      "sessions": 12,
-      "share": 4.5
+      "sessions": 10,
+      "share": 4.3
     },
     {
       "name": "印度",
       "mapName": "India",
       "sessions": 8,
-      "share": 3
-    },
-    {
-      "name": "愛爾蘭",
-      "mapName": "Ireland",
-      "sessions": 7,
-      "share": 2.6
-    },
-    {
-      "name": "中國",
-      "mapName": "China",
-      "sessions": 5,
-      "share": 1.9
+      "share": 3.4
     },
     {
       "name": "英國",
       "mapName": "United Kingdom",
       "sessions": 5,
-      "share": 1.9
+      "share": 2.2
+    },
+    {
+      "name": "中國",
+      "mapName": "China",
+      "sessions": 4,
+      "share": 1.7
+    },
+    {
+      "name": "愛爾蘭",
+      "mapName": "Ireland",
+      "sessions": 4,
+      "share": 1.7
+    },
+    {
+      "name": "Netherlands",
+      "mapName": "Netherlands",
+      "sessions": 3,
+      "share": 1.3
     },
     {
       "name": "加拿大",
       "mapName": "Canada",
-      "sessions": 3,
-      "share": 1.1
+      "sessions": 2,
+      "share": 0.9
     },
     {
       "name": "德國",
       "mapName": "Germany",
       "sessions": 2,
-      "share": 0.8
-    },
-    {
-      "name": "Netherlands",
-      "mapName": "Netherlands",
-      "sessions": 2,
-      "share": 0.8
+      "share": 0.9
     }
   ]
 }
