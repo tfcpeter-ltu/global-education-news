@@ -1,0 +1,32 @@
+[
+  {
+    "path": "AGENTS.md",
+    "sourceSha": "18da71b4b1c84d910a7e72c02ee1acc5ebd26540ddac1b7df1616a166ce60c47",
+    "runtimeSha": "af83b41270d044e48620da57e4c779ab85943b6370f1cbf1004c507c4afde877"
+  },
+  {
+    "path": "docs/social-posts/2026-10-31/publication-log.json",
+    "sourceSha": "6283d0c62441a155793a86b93ec351629f8a2afeac806bf2639e247e79ac148e",
+    "runtimeSha": "5706fa587be51af27a56526d6d66fd6de44073c8750175088f6076895a53d064"
+  },
+  {
+    "path": "public/images/share-photos/credits.json",
+    "sourceSha": "871e7328197cc2b4b1d30014c64132e37a606441a4326bb2e160d29ef445f39c",
+    "runtimeSha": "bd226893628403458b01e3f10bf5a8518f59446f930c3437cc6a8b893f27ab41"
+  },
+  {
+    "path": "public/images/share-photos/sources.json",
+    "sourceSha": "2953955734f11d3c85b35d40ddeb9a1eff89ef8edc201311718dab455393974e",
+    "runtimeSha": "e7e32bb257d4336735a66fa15949f1d8b5727b4870a3ee71bed58886a1d46d57"
+  },
+  {
+    "path": "src/data/i18n/en-overrides.json",
+    "sourceSha": "69dba6ae479ba6bd9694ad6ffcc64148ce74dfec3fa67aa7ec0120819e375051",
+    "runtimeSha": "10299e9cad51e8174aa817e920d2fd62094582dd3928775f45bf118e413c63da"
+  },
+  {
+    "path": "src/data/peter-articles.json",
+    "sourceSha": "65fdd018675fe7185176d1753a6358be469a7999415068359a08db34cfc5fd41",
+    "runtimeSha": "fd0c660d70feeb50e4a47bf376bd1fe958a1c0118976e806ff983a7fa946e4a1"
+  }
+]

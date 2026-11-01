@@ -1,0 +1,66 @@
+[
+  {
+    "campaign": "news",
+    "key": "us",
+    "topic": "us-accreditation",
+    "title": "美國高教認證新規：2027年7月生效",
+    "benefit": "選校先查現行資格，別把改革當成學位失效。",
+    "summary": "10月30日公布最終規則，涉及認證機構認可與學校程序；部分可提早實施，但有條件。",
+    "advice": "核對學校、科系認證及台灣採認要求。",
+    "section": "環球教育新聞",
+    "sectionUrl": "https://globalednews.com/",
+    "url": "https://globalednews.com/news/us-accreditation-aim-final-rule-october-2026/",
+    "lines": [
+      "美國高教認證新規",
+      "2027年7月生效"
+    ]
+  },
+  {
+    "campaign": "scholarship",
+    "key": "wichita",
+    "topic": "wichita-global-select",
+    "title": "Wichita學士學費減免36%",
+    "benefit": "台灣國際新生可評估，先看GPA與排除條件。",
+    "summary": "Global Select學士門檻GPA3.0等值，折扣不含雜費；2027春季Premium入學服務至12月1日。",
+    "advice": "獎助隨入學評估，確認身分與課程適用性；處理加速不保證錄取。",
+    "section": "國際獎學金雷達",
+    "sectionUrl": "https://globalednews.com/scholarships/",
+    "url": "https://globalednews.com/scholarships/items/2026-11-wichita-global-select/",
+    "lines": [
+      "Wichita國際新生",
+      "學費減免36%"
+    ]
+  },
+  {
+    "campaign": "study-abroad",
+    "key": "diy",
+    "topic": "wichita-budget",
+    "title": "36%學費折扣，總預算怎麼算？",
+    "benefit": "Wichita選校規劃：把費用分開才不會低估。",
+    "summary": "本日精選：Global Select折扣只適用合格學費，雜費、住宿、餐食、保險與交通仍要分別估算。",
+    "advice": "校園照片為第一間Pizza Hut歷史建築，非學生成功案例。",
+    "section": "留學DIY導航",
+    "sectionUrl": "https://globalednews.com/study-abroad/",
+    "url": "https://globalednews.com/study-abroad/wichita-global-select-tuition-budget-2027/",
+    "lines": [
+      "學費減免36%",
+      "總預算怎麼算？"
+    ]
+  },
+  {
+    "campaign": "taiwan-universities",
+    "key": "taiwan",
+    "topic": "ntu-exchange-november",
+    "title": "臺大交換甄選11月3日開放",
+    "benefit": "先備語檢與推薦文件，11月1日仍未開放。",
+    "summary": "116-1交換線上報名：11月3日10:00至11月9日16:00（台北時間）；限符合資格的臺大在學生。",
+    "advice": "用國內大學資料庫比較學校，再回官方簡章確認交換條件： https://studyabroad.ntu.edu.tw/exchange-student/how-to-apply/",
+    "section": "國內大學選校選系",
+    "sectionUrl": "https://globalednews.com/taiwan-universities/",
+    "url": "https://globalednews.com/taiwan-universities/",
+    "lines": [
+      "臺大交換甄選",
+      "11月3日開放"
+    ]
+  }
+]

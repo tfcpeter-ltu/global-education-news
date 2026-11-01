@@ -1,0 +1,39 @@
+{
+  "checkedAt": "2026-11-01T10:34:19.579066+08:00",
+  "sources": {
+    "us": [
+      "https://www.govinfo.gov/content/pkg/FR-2026-10-30/html/2026-22174.htm",
+      "https://www.insidehighered.com/newsletter/first-100-days/markup-oct-30-2026",
+      "https://www.msche.org/2026/10/30/advocacy-alert-usde-announces-final-higher-education-accreditation-rule/"
+    ],
+    "th": [
+      "https://www.qmul.ac.uk/news/latest-news/2026/queen-mary-news/pr/queen-mary-launches-pioneering-engineering-education-partnership-in-thailand.html",
+      "https://join.kmutt.ac.th/en/news2026/117"
+    ],
+    "au": [
+      "https://www.ieaa.org.au/IEAA/News/2026/IEAA-Excellence-Awards-winners-2026.aspx",
+      "https://thepienews.com/ieaa-excellence-awards-2026-winners-announced/"
+    ],
+    "wichita": [
+      "https://www.wichita.edu/admissions/international/undergraduate/globalselect.php",
+      "https://borderless.so/scholarships/wichita-state/global-select",
+      "https://www.wichita.edu/admissions/international/service_levels.php"
+    ],
+    "cwu": [
+      "https://www.cwu.edu/admissions-aid/apply/international.php",
+      "https://borderless.so/scholarships/central-washington/international-student-scholarship"
+    ],
+    "wsu": [
+      "https://ip.wsu.edu/future-students/tuition-fees/scholarships-funding/",
+      "https://www.awardscholar.com/scholarship/international-merit-award"
+    ]
+  },
+  "notes": [
+    "Official full texts and secondary texts read; KMUTT admissions operational record independently corroborates UK release.",
+    "US rule optional early implementation is conditional; not effective today.",
+    "Ireland parliament encountered human verification; no bypass; replaced topic with US final rule.",
+    "CWU old fall row excluded; use explicit Spring2027.",
+    "WSU Award Scholar expanded text read: confirms January1 spring deadline, F1 Pullman, amount, reapplication and four-semester limit. Official form governs application.",
+    "Three scholarships absent from baseline236 and are distinct programs."
+  ]
+}
