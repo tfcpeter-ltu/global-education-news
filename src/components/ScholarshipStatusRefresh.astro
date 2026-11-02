@@ -1,0 +1,29 @@
+<script>
+  import { scholarshipState, isDailyPick } from '../lib/scholarship-status.mjs';
+  function refreshScholarships() {
+    const now = new Date();
+    const english = location.pathname.startsWith('/en/');
+    let changed = false;
+    document.querySelectorAll<HTMLElement>('[data-scholarship-state]').forEach(el => {
+      const item = JSON.parse(el.dataset.scholarshipState || '{}');
+      const state = scholarshipState(item, now, english);
+      el.querySelectorAll('[data-status-label]').forEach(label => {
+        label.textContent = state.label;
+        label.classList.toggle('open', state.open);
+      });
+      if (el.hasAttribute('data-card')) {
+        const value = scholarshipState(item, now).label;
+        if (el.dataset.status !== value) { el.dataset.status = value; changed = true; }
+      }
+      el.querySelectorAll<HTMLElement>('[data-stale-notice]').forEach(note => { note.hidden = state.code !== 'stale'; });
+      if (el.hasAttribute('data-daily-pick')) el.hidden = !isDailyPick(item, now);
+    });
+    const picks = document.querySelectorAll('[data-daily-pick]:not([hidden])');
+    document.querySelectorAll('[data-daily-pick-count]').forEach(el => { el.textContent = String(picks.length); });
+    document.querySelectorAll<HTMLElement>('[data-no-daily-picks]').forEach(el => { el.hidden = picks.length > 0; });
+    if (changed) document.getElementById('status-filter')?.dispatchEvent(new Event('change'));
+  }
+  refreshScholarships();
+  setInterval(refreshScholarships, 60000);
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) refreshScholarships(); });
+</script>

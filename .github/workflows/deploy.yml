@@ -55,6 +55,8 @@ jobs:
           sudo apt-get -o Acquire::Retries=1 -o Acquire::http::Timeout=20 -o Acquire::https::Timeout=20 install -y fonts-noto-cjk
       - name: Verify Facebook native photo evidence rules
         run: node scripts/test-facebook-photo-evidence.mjs
+      - name: Verify scholarship deadlines and review freshness
+        run: node scripts/test-scholarship-status.mjs
       - name: Verify video catalog and playback sequencing
         run: node scripts/test-vlog.mjs
       - name: Build

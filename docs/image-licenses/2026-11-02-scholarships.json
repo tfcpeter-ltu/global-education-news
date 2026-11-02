@@ -1,0 +1,32 @@
+[
+  {
+    "key": "simmons",
+    "file": "public/images/daily/2026-11-02/simmons.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Main_College_Building_-_Simmons_College_-_DSC09802.JPG",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/4/49/Main_College_Building_-_Simmons_College_-_DSC09802.JPG?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "author": "Daderot",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "changes": "Original image unchanged"
+  },
+  {
+    "key": "trent",
+    "file": "public/images/daily/2026-11-02/trent.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Ron_Thom_-_Trent_University_Bata_Library_201-15.jpg",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Ron_Thom_-_Trent_University_Bata_Library_201-15.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "author": "Djanssen",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "changes": "Original image unchanged"
+  },
+  {
+    "key": "peo",
+    "file": "public/images/daily/2026-11-02/peo.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Cottey_College_Main_Hall.jpg",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Cottey_College_Main_Hall.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "author": "Cotteycollegemarketing",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "changes": "Original image unchanged"
+  }
+]

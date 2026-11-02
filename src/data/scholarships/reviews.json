@@ -1,0 +1,1240 @@
+{
+  "auditDate": "2026-11-02",
+  "scope": "Application-window audit; full qualification checks only where separately dated",
+  "entries": {
+    "2026-08-bristol-think-big": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "2027年度已於10月27日開放，2027年3月19日13:00英國時間截止；金額依個別獎項。",
+      "deadline": "2027-03-19 13:00 GMT",
+      "applicationClosesAt": "2027-03-19T13:00:00Z"
+    },
+    "2026-08-manchester-global-futures-taiwan-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-08-mcgill-mccall-macbain": {
+      "reviewCode": "closed",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本輪已截止。以下為原刊梯次資料，供追蹤與準備下一輪使用。"
+    },
+    "2026-08-melbourne-graduate-research": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-08-melbourne-international-excellence-graduate-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-08-moe-eu-scholarship": {
+      "reviewCode": "closed",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本輪已截止。以下為原刊梯次資料，供追蹤與準備下一輪使用。"
+    },
+    "2026-08-moe-government-sponsored-study": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "2026-08-moe-new-southbound-internship": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "2026-08-moe-overseas-scholarship": {
+      "reviewCode": "closed",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本輪已截止。以下為原刊梯次資料，供追蹤與準備下一輪使用。"
+    },
+    "2026-08-moe-study-abroad-fly": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "2026-08-moe-study-abroad-internship": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "2026-08-moe-study-abroad-needy": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "2026-08-moe-top100-phd": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "2026-08-monash-awards-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-08-oxford-clarendon": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-08-sydney-vcis-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-08-tgpi-dream-factory": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "2026-08-tgpi-global-flight": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "2026-08-ubc-four-year-doctoral-fellowship": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "2026-08-ubc-imes": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "2026-08-ubc-international-scholars-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "官方已開放2027入學申請；先前「即將開放」標示已更正，申請人仍須符合提名、財務需求與學歷條件。",
+      "applicationClosesAt": "2026-11-15T23:59:00-08:00"
+    },
+    "2026-08-ubc-killam-doctoral-2027": {
+      "reviewCode": "closed",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本輪已截止。以下為原刊梯次資料，供追蹤與準備下一輪使用。"
+    },
+    "2026-08-ucl-global-masters": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "2026-08-ucl-global-undergraduate": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "2026-08-unsw-scientia-2027": {
+      "reviewCode": "closed",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本輪已截止。以下為原刊梯次資料，供追蹤與準備下一輪使用。"
+    },
+    "2026-08-uq-international-high-achievers-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-08-utoronto-pearson-2027": {
+      "reviewCode": "restricted",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "僅限已在10月9日前完成高中提名、10月16日前完成入學申請者，於11月6日前補齊獎學金文件。",
+      "reviewExpiresAt": "2026-11-06T00:00:00+08:00"
+    },
+    "2026-09-adelaide-academic-excellence-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-09-adelaide-merit-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-09-auckland-international-student-excellence-2027": {
+      "reviewCode": "restricted",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "僅限10月20日前獲指定錄取並收到校方邀請者；補充申請表11月4日截止。",
+      "deadline": "2026-11-04；限已收到校方邀請者",
+      "reviewExpiresAt": "2026-11-04T00:00:00+08:00"
+    },
+    "2026-09-cardiff-vice-chancellor-taiwan-january-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-09-chevening-delta-climate-2027": {
+      "reviewCode": "closed",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本輪已截止。以下為原刊梯次資料，供追蹤與準備下一輪使用。"
+    },
+    "2026-09-chevening-taiwan": {
+      "reviewCode": "closed",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本輪已截止。以下為原刊梯次資料，供追蹤與準備下一輪使用。"
+    },
+    "2026-09-daad-architecture-masters": {
+      "reviewCode": "closed",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "原刊梯次的截止日已過；尚未確認新一輪，勿沿用舊申請資訊。"
+    },
+    "2026-09-deakin-excellence-international-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-09-deakin-international-merit-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-09-deakin-vice-chancellor-international-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-09-dundee-east-asia-undergraduate-january-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-09-dundee-global-excellence-undergraduate-january-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-09-erasmus-mundus-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-09-eth-zurich-esop-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "官方確認2026年11月1日至11月30日11:59（CET）受理2027秋季入學；原「即將開放」標示已更正。",
+      "deadline": "2026-11-30 11:59 CET",
+      "applicationClosesAt": "2026-11-30T11:59:00+01:00"
+    },
+    "2026-09-exeter-pgt-taiwan-january-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。",
+      "reviewExpiresAt": "2026-12-01T00:00:00+08:00"
+    },
+    "2026-09-fulbright-experience-america-research-award": {
+      "reviewCode": "closed",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本輪已截止。以下為原刊梯次資料，供追蹤與準備下一輪使用。"
+    },
+    "2026-09-fulbright-non-academic-professional-award": {
+      "reviewCode": "closed",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本輪已截止。以下為原刊梯次資料，供追蹤與準備下一輪使用。"
+    },
+    "2026-09-fulbright-senior-research-award": {
+      "reviewCode": "closed",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本輪已截止。以下為原刊梯次資料，供追蹤與準備下一輪使用。"
+    },
+    "2026-09-gates-cambridge-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-09-harvard-academy-scholars-2027": {
+      "reviewCode": "closed",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "原刊梯次的截止日已過；尚未確認新一輪，勿沿用舊申請資訊。"
+    },
+    "2026-09-harvard-radcliffe-fellowship-2027": {
+      "reviewCode": "closed",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本輪已截止。以下為原刊梯次資料，供追蹤與準備下一輪使用。"
+    },
+    "2026-09-hkpfs-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-09-imperial-presidents-phd-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-09-kent-international-undergraduate-january-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-09-knight-hennessy-2027": {
+      "reviewCode": "closed",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本輪已截止。以下為原刊梯次資料，供追蹤與準備下一輪使用。"
+    },
+    "2026-09-latrobe-high-achiever-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-09-leicester-global-excellence-jan-apr-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-09-macquarie-vcis-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-09-monash-international-merit-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-09-ntu-taiwan-scholarship-jan-2027": {
+      "reviewCode": "closed",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本輪已截止。以下為原刊梯次資料，供追蹤與準備下一輪使用。"
+    },
+    "2026-09-ntu-taiwan-stem-scholarship-jan-2027": {
+      "reviewCode": "closed",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本輪已截止。以下為原刊梯次資料，供追蹤與準備下一輪使用。"
+    },
+    "2026-09-oxford-clarendon-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-09-rmit-up-academic-english-bursary-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-09-strathclyde-sbs-international-masters-jan-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-09-sydney-rtp-international-2027": {
+      "reviewCode": "closed",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "原刊梯次的截止日已過；尚未確認新一輪，勿沿用舊申請資訊。"
+    },
+    "2026-09-taiwan-anu-phd-scholarship-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-09-tasmanian-international-scholarship-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-09-ubc-international-scholars-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "官方已開放2027入學申請；先前「即將開放」標示已更正，申請人仍須符合提名、財務需求與學歷條件。",
+      "applicationClosesAt": "2026-11-15T23:59:00-08:00"
+    },
+    "2026-09-uc-berkeley-beahrs-elp-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-09-uni-iowa-partner-state-taiwan-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-09-university-iowa-national-scholars-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-09-unsw-international-scientia-2027": {
+      "reviewCode": "closed",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本輪已截止。以下為原刊梯次資料，供追蹤與準備下一輪使用。"
+    },
+    "2026-09-uow-postgraduate-academic-excellence-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-09-uow-university-excellence-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-09-utoronto-lester-b-pearson-2027": {
+      "reviewCode": "restricted",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "僅限已在10月9日前完成高中提名、10月16日前完成入學申請者，於11月6日前補齊獎學金文件。",
+      "reviewExpiresAt": "2026-11-06T00:00:00+08:00"
+    },
+    "2026-09-yenching-academy-2027-taiwan": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-10-alabama-international-automatic-merit-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-10-american-university-egls-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-aut-north-asia-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-bangor-vice-chancellor-january-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-10-bath-international-excellence-ug-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-10-boise-state-international-fall-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-10-bond-business-postgraduate-bursary": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-bond-international-stand-out": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-bond-undergraduate-excellence": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-bournemouth-academic-excellence-january-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-canterbury-guardian-commerce-2027": {
+      "reviewCode": "closed",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本輪已截止。以下為原刊梯次資料，供追蹤與準備下一輪使用。"
+    },
+    "2026-10-canterbury-international-first-year-offshore-2027": {
+      "reviewCode": "closed",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本輪已截止。以下為原刊梯次資料，供追蹤與準備下一輪使用。"
+    },
+    "2026-10-cardiff-vice-chancellor-january-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-cumbria-international-undergraduate-january-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-curtin-future-leaders-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-curtin-global-excellence-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-dayton-international-merit": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-dundee-global-excellence-september-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-ecu-north-asia-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-essex-international-undergraduate-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-10-exeter-taiwan-pgt-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-10-flinders-excellence-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "官方頁仍將2027第一學期時程列為待確認；暫不宣稱本輪開放。"
+    },
+    "2026-10-flinders-global-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "官方頁仍將2027第一學期時程列為待確認；暫不宣稱本輪開放。"
+    },
+    "2026-10-flinders-kickstart-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "官方頁仍將2027第一學期時程列為待確認；暫不宣稱本輪開放。"
+    },
+    "2026-10-griffith-academic-merit-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-griffith-vice-chancellor-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-herts-chancellor-january-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-iowa-state-international-excellence": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-iowa-state-international-merit-oneapp-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-kansas-ku-excellence-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-kent-pgt-january-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-10-kent-state-global-scholarship": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-kent-state-honors-scholarship": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-kentucky-bluegrass-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-10-kentucky-presidential-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-10-kentucky-singletary-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-10-lancaster-management-progression-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-10-lancaster-masters-excellence-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-10-lancaster-regional-taiwan-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-10-lancaster-undergraduate-international-excellence-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-10-lancaster-undergraduate-regional-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-10-lincoln-pathway-merit-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-lincoln-taught-master-merit-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-lincoln-undergraduate-vice-chancellor-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-london-met-east-asia-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-10-massey-creative-excellence-masters-2027": {
+      "reviewCode": "closed",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本輪已截止。以下為原刊梯次資料，供追蹤與準備下一輪使用。",
+      "deadline": "2026-10-15"
+    },
+    "2026-10-massey-toroa-postgraduate-2027": {
+      "reviewCode": "closed",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本輪已截止。以下為原刊梯次資料，供追蹤與準備下一輪使用。"
+    },
+    "2026-10-massey-toroa-undergraduate-2027": {
+      "reviewCode": "closed",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本輪已截止。以下為原刊梯次資料，供追蹤與準備下一輪使用。"
+    },
+    "2026-10-memphis-community-college-transfer-spring-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-10-memphis-graduate-nonresident-merit": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-memphis-undergraduate-international-merit-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-miami-ohio-presidential-fellows-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-10-miami-ohio-youarewelcomehere-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-10-michigan-state-nonresident": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-missouri-st-provost-international-merit-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-10-mizzou-international-honors-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-10-mizzou-international-merit-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-10-nebraska-global-laureate-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-newcastle-australia-international-excellence-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-newcastle-vc-international-undergraduate-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-10-ntu-taiwan-january-2027": {
+      "reviewCode": "closed",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本輪已截止。以下為原刊梯次資料，供追蹤與準備下一輪使用。"
+    },
+    "2026-10-oklahoma-award-excellence-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-10-okstate-international-achievement-freshmen-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-oregon-state-taiwan-regional": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-otago-global-masters-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-otago-global-undergraduate-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-otago-international-academic-excellence-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-oxford-brookes-january-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-10-portland-state-international-achievement-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-portsmouth-chancellor-merit-january-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "官方截止日為11月2日，未確認精確截止時刻；請直接核對官方申請系統。",
+      "reviewExpiresAt": "2026-11-02T00:00:00+08:00"
+    },
+    "2026-10-qmul-global-talent-pgt-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-10-qub-pgt-january-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-10-rgu-early-payment-january-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。",
+      "reviewExpiresAt": "2026-11-13T00:00:00+08:00"
+    },
+    "2026-10-rgu-january-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。",
+      "reviewExpiresAt": "2026-11-05T00:00:00+08:00"
+    },
+    "2026-10-sheffield-international-pgt-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-10-sheffield-international-undergraduate-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-10-st-andrews-tesol-january-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-10-stirling-east-asia-pgt-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-stirling-vice-chancellor-pgt-january-2027": {
+      "reviewCode": "closed",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "官方已關閉2027年1月梯次；新開放的2027年9月／2028年1月為不同梯次，不沿用本頁資格。"
+    },
+    "2026-10-strathclyde-science-january-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-10-swansea-international-excellence-january-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-10-uea-pg-merit-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-uni-international-excel-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-uni-transfer-scholar-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-unisq-international-excellence-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-10-uwa-global-excellence-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-10-vuw-postgraduate-international-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-vuw-undergraduate-international-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-waikato-research-masters-2027": {
+      "reviewCode": "closed",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本輪已截止。以下為原刊梯次資料，供追蹤與準備下一輪使用。"
+    },
+    "2026-10-waikato-vice-chancellor-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-waterloo-international-entrance-2027": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-10-western-sydney-international-undergraduate-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-10-westminster-pg-excellence-january-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。",
+      "reviewExpiresAt": "2026-11-30T00:00:00+08:00"
+    },
+    "2026-11-central-washington-international": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "2026-11-wichita-global-select": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "2026-11-wsu-international-merit-spring-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "catalog-aalto-excellence": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-berea-international-aid": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-bocconi-access-100": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-bocconi-access-80-60": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-bocconi-boost": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-bocconi-sport": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-chalmers-ipoet": {
+      "reviewCode": "scheduled",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "官方預告2026年11月底至2027年1月中受理；精確日期仍待公告。"
+    },
+    "catalog-daad-all-disciplines": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-daad-fine-art": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-daad-music": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-daad-performing-arts": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-duke-karsh": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-eiffel-master": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-eiffel-phd": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-emory-scholars": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "catalog-epfl-excellence": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "官方已變更2027獎學金期限：校外申請限12月15日第一輪；原文3月31日不能再當獎學金截止日。",
+      "deadline": "校外申請：12月15日第一輪；校內連續碩士：1月31日"
+    },
+    "catalog-erasmus-mundus": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-eth-esop": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "官方確認2026年11月1日至11月30日11:59（CET）受理2027秋季入學；原「即將開放」標示已更正。",
+      "deadline": "2026-11-30 11:59 CET",
+      "applicationClosesAt": "2026-11-30T11:59:00+01:00"
+    },
+    "catalog-geneva-excellence": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-gks-graduate": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-gks-undergraduate": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-goh-keng-swee": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-goi-ies": {
+      "reviewCode": "closed",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本輪已截止。以下為原刊梯次資料，供追蹤與準備下一輪使用。"
+    },
+    "catalog-harvard-international-aid": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-helsinki-scholarship": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-jasso-honors": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-kaist-graduate": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-kaist-undergraduate": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-knight-hennessy": {
+      "reviewCode": "closed",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本輪已截止。以下為原刊梯次資料，供追蹤與準備下一輪使用。"
+    },
+    "catalog-kth-scholarship": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-kyoto-iup": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-lund-global": {
+      "reviewCode": "closed",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本輪已截止。以下為原刊梯次資料，供追蹤與準備下一輪使用。"
+    },
+    "catalog-maastricht-brightlands": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "catalog-maastricht-global-studies": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "catalog-maastricht-high-potential": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "catalog-maastricht-social-justice": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "catalog-maeci-italy": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-master-mind-flanders": {
+      "reviewCode": "closed",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本輪已截止。以下為原刊梯次資料，供追蹤與準備下一輪使用。"
+    },
+    "catalog-mext-japanese-studies": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-mext-kosen-2027": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-mext-research-2027": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-mext-specialized-training-2027": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-mext-teacher-training": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-mext-undergraduate-2027": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-miami-stamps": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-mit-international-aid": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-nl-scholarship": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-nus-international-undergraduate": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-nus-science-technology": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-padua-excellence": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-paris-saclay-idex": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-radboud-nl-scholarship": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-radboud-scholarship": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-science-leuven": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-sciencespo-boutmy": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-snu-gsfs": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-swiss-phd": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "catalog-swiss-research-fellowship": {
+      "reviewCode": "stale",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "當期資格與補助仍待複查；以下保留原刊資料，不能視為本日已確認可申請。"
+    },
+    "catalog-taiwan-kaist-phd": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-tampere-scholarship": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-trinity-global-excellence": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-tudelft-justus": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-turku-merit": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-ucd-global-excellence": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-uppsala-global": {
+      "reviewCode": "scheduled",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "官方公告2027年1月16日至2月1日受理；目前尚未開放。",
+      "deadline": "2027-02-01",
+      "applicationOpensAt": "2027-01-16T00:00:00+01:00"
+    },
+    "catalog-utokyo-fellowship": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "catalog-utwente-scholarship": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "catalog-vanderbilt-cornelius": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "catalog-vanderbilt-ingram": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+    },
+    "catalog-yale-international-aid": {
+      "reviewCode": "tracking",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+    },
+    "2026-11-peo-international-peace-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "已完成本日官方與獨立第二來源查核；請留意資格限制與各階段期限。",
+      "reviewExpiresAt": "2026-12-15T00:00:00+08:00"
+    },
+    "2026-11-simmons-distinguished-scholar": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "已完成本日官方與獨立第二來源查核；請留意資格限制與各階段期限。",
+      "reviewExpiresAt": "2026-12-01T00:00:00+08:00"
+    },
+    "2026-11-trent-moore-family-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-02",
+      "reviewNote": "已完成本日官方與獨立第二來源查核；請留意資格限制與各階段期限。",
+      "applicationClosesAt": "2027-02-15T23:59:00-05:00"
+    }
+  }
+}

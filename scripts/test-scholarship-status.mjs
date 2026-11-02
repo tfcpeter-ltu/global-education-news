@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import { scholarshipState, isDailyPick } from '../src/lib/scholarship-status.mjs';
+const item = {status:'開放中', verificationDate:'2026-11-02',featuredDate:'2026-11-02',featuredUntil:'2026-11-03T00:00:00+08:00',eligibilityTW:'可申請'};
+assert.equal(isDailyPick(item,new Date('2026-11-02T23:59:59+08:00')),true);
+assert.equal(isDailyPick(item,new Date('2026-11-03T00:00:00+08:00')),false);
+assert.equal(scholarshipState({...item,applicationClosesAt:'2026-11-02T16:00:00Z'},new Date('2026-11-02T15:59:59Z')).open,true);
+assert.equal(scholarshipState({...item,applicationClosesAt:'2026-11-02T16:00:00Z'},new Date('2026-11-02T16:00:00Z')).code,'closed');
+assert.equal(scholarshipState(item,new Date('2026-11-10T00:00:00+08:00')).code,'stale');
+assert.equal(scholarshipState({...item,reviewCode:'stale'},new Date('2026-11-02')).open,false);
+assert.equal(scholarshipState({...item,reviewCode:'restricted'},new Date('2026-11-02')).open,false);
+assert.equal(scholarshipState({...item,reviewExpiresAt:'2026-11-03T00:00:00+08:00'},new Date('2026-11-03T00:00:00+08:00')).code,'stale');
+assert.equal(scholarshipState({...item,reviewCode:'closed'},new Date('2026-11-02'),true).label,'This round has closed');
+console.log('PASS: scholarship cutoff, stale review, restricted applicants, Taipei midnight and English labels');

@@ -1,22 +1,26 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import AdPlacement from '../../components/AdPlacement.astro';
+import reviews from '../../data/scholarships/reviews.json';
+import { scholarshipState, isDailyPick } from '../../lib/scholarship-status.mjs';
+import ScholarshipStatusRefresh from '../../components/ScholarshipStatusRefresh.astro';
 
 const modules = import.meta.glob('./items/*.md', { eager: true });
 const scholarships = Object.values(modules)
-  .map((mod: any) => ({ ...mod.frontmatter, url: mod.url }))
+  .map((mod: any) => {
+    const slug = mod.url.split('/').filter(Boolean).pop();
+    const item = { ...mod.frontmatter, ...(reviews.entries as any)[slug], url: mod.url };
+    const { reviewCode, statusReviewDate, verificationDate, applicationOpensAt, applicationClosesAt, reviewExpiresAt, featuredDate, featuredUntil, eligibilityTW, status } = item;
+    return { ...item, status: scholarshipState(item).label, statusEvidence: { reviewCode, statusReviewDate, verificationDate, applicationOpensAt, applicationClosesAt, reviewExpiresAt, featuredDate, featuredUntil, eligibilityTW, status } };
+  })
   .sort((a: any, b: any) => new Date(b.date ?? 0).getTime() - new Date(a.date ?? 0).getTime());
 
 const taiwanDate = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Taipei', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
-const featured = scholarships.filter((item: any) =>
-  item.featuredDate === taiwanDate && item.verificationDate === taiwanDate &&
-  String(item.status).startsWith('開放中') && String(item.eligibilityTW).includes('可申請') &&
-  Number.isFinite(Date.parse(item.featuredUntil)) && Date.parse(item.featuredUntil) > Date.now()
-).slice(0, 3);
+const featured = scholarships.filter((item: any) => isDailyPick(item)).slice(0, 3);
 const countries = [...new Set(scholarships.map((item: any) => item.country).filter(Boolean))].sort((a: any, b: any) => String(a).localeCompare(String(b), 'zh-Hant'));
 const countryCount = countries.length;
 const today = new Intl.DateTimeFormat('zh-TW', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Taipei' }).format(new Date());
-const description = '國際獎學金雷達：從台灣學生角度整理全球大學、研究所、政府與基金會獎學金，每日查核並更新值得申請的機會。';
+const description = '國際獎學金雷達：整理全球大學、政府與基金會獎學金，分別標示申請時程、資格查核日期與待複查項目。';
 
 const flagMap: Record<string, string> = {
   '台灣': '🇹🇼', '英國': '🇬🇧', '美國': '🇺🇸', '加拿大': '🇨🇦', '澳洲': '🇦🇺', '紐西蘭': '🇳🇿',
@@ -38,22 +42,23 @@ const statusClass = (status = '') => status.includes('開放中') ? 'open' : sta
         <div class="hero-copy">
           <div class="eyebrow">GLOBAL EDUCATION NEWS <span>◆</span> EUROPEAN SCHOLARSHIP REVIEW</div>
           <h1>國際獎學金雷達</h1>
-          <p class="hero-subtitle">{scholarships.length}+ 全球獎學金資料庫 <span>｜</span> 每日查核，更新 3 則精選</p>
+          <p class="hero-subtitle">{scholarships.length}+ 全球獎學金資料庫 <span>｜</span> 查核日期與申請狀態逐筆列示</p>
           <p class="hero-description">從台灣學生的視角，整理全球獎學金、政府補助、研究資助與國際大學機會。以官方來源、台灣資格與截止日為核心，建立可以長期搜尋與追蹤的國際升學資料庫。</p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#all-opportunities"><span>▤</span> 立即查看獎學金</a>
             <a class="btn btn-outline" href="#taiwan-programs">台灣官方補助</a>
             <a class="btn btn-outline" href="#today-picks">今日精選</a>
           </div>
-          <div class="edition-line"><span>TAIPEI</span><i></i><span>OXFORD · CAMBRIDGE · PARIS · ZÜRICH</span><i></i><span>{today}</span></div>
+          <div class="edition-line"><span>TAIPEI</span><i></i><span>最近全庫盤點：{reviews.auditDate}</span></div>
+          <p class="audit-note">全庫盤點涵蓋連結與申請時程，不代表每筆資格、金額都已重新通過雙重查核。待複查與下一輪項目保留供追蹤；「開放中」仍須核對個別資格。</p>
         </div>
 
         <aside class="stat-panel" aria-label="獎學金雷達統計">
           <div class="stat-heading">BY THE NUMBERS</div>
           <div class="stat-item"><span class="stat-icon">◎</span><strong>{scholarships.length}+</strong><small>全球機會</small><em>SCHOLARSHIPS</em></div>
           <div class="stat-item"><span class="stat-icon">▥</span><strong>{countryCount}+</strong><small>國家與地區</small><em>COUNTRIES</em></div>
-          <div class="stat-item"><span class="stat-icon">◷</span><strong>Daily</strong><small>每日更新</small><em>CURATED DAILY</em></div>
-          <div class="stat-item"><span class="stat-icon">◇</span><strong>Verified</strong><small>官方查核</small><em>EDITORIAL REVIEW</em></div>
+          <div class="stat-item"><span class="stat-icon">◷</span><strong data-daily-pick-count>{featured.length}</strong><small>本日查核精選</small><em>DAILY SELECTION</em></div>
+          <div class="stat-item"><span class="stat-icon">◇</span><strong>Review</strong><small>逐筆標示查核狀態</small><em>EDITORIAL REVIEW</em></div>
           <div class="panel-watermark" aria-hidden="true">ACADEMIA</div>
         </aside>
       </div>
@@ -79,7 +84,7 @@ const statusClass = (status = '') => status.includes('開放中') ? 'open' : sta
             <label class="select-box"><span>◎</span><select id="country-filter" aria-label="國家"><option value="all">國家／地區</option>{countries.map((country: any) => <option value={country}>{country}</option>)}</select></label>
             <label class="select-box"><span>🎓</span><select id="level-filter" aria-label="學位"><option value="all">學位層級</option><option value="大學">大學</option><option value="學士">學士</option><option value="碩士">碩士</option><option value="博士">博士</option><option value="研究">研究</option></select></label>
             <label class="select-box"><span>◇</span><select id="funding-filter" aria-label="補助類型"><option value="all">補助類型</option><option value="全額">全額</option><option value="學費">學費</option><option value="生活">生活費</option><option value="部分">部分補助</option></select></label>
-            <label class="select-box"><span>♢</span><select id="status-filter" aria-label="狀態"><option value="all">申請狀態</option><option value="開放中">開放中</option><option value="即將開放">即將開放</option><option value="下一輪">下一輪追蹤</option><option value="年度">年度制</option></select></label>
+            <label class="select-box"><span>♢</span><select id="status-filter" aria-label="狀態"><option value="all">申請狀態</option><option value="開放中">開放中</option><option value="尚未開放">尚未開放</option><option value="下一輪">下一輪追蹤</option><option value="待複查">待複查</option><option value="已截止">本輪已截止</option><option value="限已完成">限已完成前階段者</option></select></label>
             <button id="clear-filters" class="clear-btn" type="button">↻ 清除篩選</button>
           </div>
         </form>
@@ -111,10 +116,11 @@ const statusClass = (status = '') => status.includes('開放中') ? 'open' : sta
                 data-level={item.level ?? ''}
                 data-funding={item.funding ?? ''}
                 data-status={item.status ?? ''}
+                data-scholarship-state={JSON.stringify(item.statusEvidence)}
               >
                 <div class="catalog-top">
                   <span class="country-line"><b>{flagFor(item.country)}</b>{item.country}</span>
-                  <span class:list={['status-dot', statusClass(item.status)]}>{item.status}</span>
+                  <span data-status-label class:list={['status-dot', statusClass(item.status)]}>{item.status}</span>
                 </div>
                 <h3><a href={item.url}>{item.title}</a></h3>
                 <div class="catalog-tags"><span>{item.level}</span><span>{item.sourceType}</span></div>
@@ -122,7 +128,8 @@ const statusClass = (status = '') => status.includes('開放中') ? 'open' : sta
                   <div><dt>補助</dt><dd>{item.funding}</dd></div>
                   <div><dt>截止</dt><dd>{item.deadline}</dd></div>
                 </dl>
-                <div class="catalog-bottom"><span>✓ 台灣資格已查核</span><a href={item.url}>詳情 →</a></div>
+                <p class="review-dates">時程盤點：{item.statusReviewDate ?? '未記錄'}<br/>資格查核紀錄：{item.url.includes('/catalog-') ? '種子資料，待實際查核' : item.verificationDate ?? '未記錄'}</p>
+                <div class="catalog-bottom"><span>台灣資格請見個別條件</span><a href={item.url}>詳情 →</a></div>
               </article>
             );
           })}
@@ -143,10 +150,10 @@ const statusClass = (status = '') => status.includes('開放中') ? 'open' : sta
           <div class="section-date">{today} · Curated &amp; Verified</div>
         </div>
 
-        {featured.length === 0 && <p>今天尚無完成當日查核的精選項目，請利用搜尋查閱資料並回到官方網站確認。</p>}
+        <p data-no-daily-picks hidden={featured.length > 0}>今天尚無完成當日查核的精選項目，請利用搜尋查閱資料並回到官方網站確認。</p>
         <div class="spotlight-grid">
           {featured.map((item: any) => (
-            <article class="spotlight-card">
+            <article class="spotlight-card" data-daily-pick data-scholarship-state={JSON.stringify(item.statusEvidence)}>
               <div class="spotlight-top">
                 <span class="country-line"><b>{flagFor(item.country)}</b>{item.country}</span>
                 <span class:list={['status-pill', statusClass(item.status)]}>{item.status}</span>
@@ -266,10 +273,12 @@ const statusClass = (status = '') => status.includes('開放中') ? 'open' : sta
     })();
   </script>
   <link rel="stylesheet" href="/ads/home-floating.css?v=20260924-section1" />
+  <ScholarshipStatusRefresh />
   <script is:inline src="/ads/section-floating.js?v=20260924-section3"></script>
 </BaseLayout>
 
 <style>
+  .audit-note,.review-dates{font-size:.8rem;line-height:1.65;color:#655b4d}.audit-note{max-width:48rem}.review-dates{margin:8px 0}
   .search-submit{display:block;margin:12px 0 0;padding:12px 24px;background:#112b4c;color:white;border:1px solid #a97936;font:inherit;cursor:pointer}
   #empty-results[hidden]{display:none} #empty-results{padding:24px;background:#fff4dd;border:1px solid #c8ad7d}
 

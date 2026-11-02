@@ -1,0 +1,80 @@
+[
+  {
+    "slug": "2026-11-peo-international-peace-2027",
+    "title": "P.E.O.國際和平獎學金：女性赴美加研究所最高US$12,500",
+    "url": "https://globalednews.com/scholarships/items/2026-11-peo-international-peace-2027/",
+    "publishedPath": "src/pages/scholarships/items/2026-11-peo-international-peace-2027.md",
+    "sources": [
+      {
+        "label": "P.E.O.資格規則",
+        "url": "https://www.peointernational.org/educational-support/international-peace-scholarship-fund/eligibility-and-application-process/"
+      },
+      {
+        "label": "UNH獎學金辦公室",
+        "url": "https://www.unh.edu/fellowships-office/resource/international-peace-scholarship-fund"
+      },
+      {
+        "label": "2027–28官方日程",
+        "url": "https://www.peointernational.org/resource/ips-application-calendar/"
+      }
+    ],
+    "eligibleTaiwan": true,
+    "open": true,
+    "verifiedAt": "2026-11-02T22:10:18.241450+08:00",
+    "isNew": true,
+    "baselineAbsent": true,
+    "publishedVerifiedAt": null
+  },
+  {
+    "slug": "2026-11-simmons-distinguished-scholar",
+    "title": "Simmons傑出學者獎：四年學費與食宿，12月1日前申請",
+    "url": "https://globalednews.com/scholarships/items/2026-11-simmons-distinguished-scholar/",
+    "publishedPath": "src/pages/scholarships/items/2026-11-simmons-distinguished-scholar.md",
+    "sources": [
+      {
+        "label": "Simmons獎項規則",
+        "url": "https://www.simmons.edu/admission-aid/financial-aid/scholarships/simmons-distinguished-scholar-award"
+      },
+      {
+        "label": "阿根廷政府獎學金資料庫",
+        "url": "https://www.argentina.gob.ar/becas-simmons-distinguished-scholar-award-en-estados-unidos"
+      },
+      {
+        "label": "國際生招生政策",
+        "url": "https://www.simmons.edu/admission-aid/application-process/international-applicants"
+      },
+      {
+        "label": "官方申請期限",
+        "url": "https://www.simmons.edu/admission-aid/application-process/application-deadlines"
+      }
+    ],
+    "eligibleTaiwan": true,
+    "open": true,
+    "verifiedAt": "2026-11-02T22:10:18.241450+08:00",
+    "isNew": true,
+    "baselineAbsent": true,
+    "publishedVerifiedAt": null
+  },
+  {
+    "slug": "2026-11-trent-moore-family-2027",
+    "title": "Trent Moore Family獎學金：非北美新生每年最高C$12,000",
+    "url": "https://globalednews.com/scholarships/items/2026-11-trent-moore-family-2027/",
+    "publishedPath": "src/pages/scholarships/items/2026-11-trent-moore-family-2027.md",
+    "sources": [
+      {
+        "label": "Trent官方獎學金規則",
+        "url": "https://www.trentu.ca/international/discover-trent/tuition-scholarships/scholarships"
+      },
+      {
+        "label": "Fund My Course獨立編輯整理",
+        "url": "https://fundmycourse.ca/scholarships/trent-international-entrance-award"
+      }
+    ],
+    "eligibleTaiwan": true,
+    "open": true,
+    "verifiedAt": "2026-11-02T22:10:18.241450+08:00",
+    "isNew": true,
+    "baselineAbsent": true,
+    "publishedVerifiedAt": null
+  }
+]
