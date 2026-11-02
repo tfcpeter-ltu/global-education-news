@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-11-03T05:20:21.374073+08:00",
+  "sources": {
+    "uk": [
+      "https://www.gov.uk/government/publications/budget-2026-document/budget-2026-html",
+      "https://thepienews.com/uk-to-raise-hpi-visa-cap-as-eligibility-expands-to-top-150-universities/"
+    ],
+    "ca": [
+      "https://www.pm.gc.ca/en/news/statements/2026/10/30/joint-statement-canada-and-european-union-building-together-alliance",
+      "https://www.cicnews.com/2026/10/canada-moves-to-expand-participation-in-european-student-exchange-program-1082085.html"
+    ],
+    "us": [
+      "https://commissioncu.org/accreditation/transfer-credit-consortium/",
+      "https://www.insidehighered.com/news/government/2026/11/02/colleges-prepare-credit-transfer-regulations"
+    ],
+    "durhamug": [
+      "https://dur.ac.uk/study/scholarships/international/durham-inspiring-excellence-scholarships/undergraduate/",
+      "https://www.educations.com/articles-and-advice/bachelor-studies/uk-bachelors-scholarships",
+      "https://duracuk-lb01-production.terminalfour.net/study/international/regional-pages/east-asia-and-australasia/"
+    ],
+    "durhampg": [
+      "https://dur.ac.uk/study/scholarships/international/durham-inspiring-excellence-scholarships/postgraduate/",
+      "https://www.postgrad.com/postgraduate-events/durham-university-postgrad-webinar-october/5634/",
+      "https://duracuk-lb01-production.terminalfour.net/study/international/regional-pages/east-asia-and-australasia/"
+    ],
+    "reading": [
+      "https://www.reading.ac.uk/global-academy/international-foundation-pathways/ifp-scholarships-and-discounts",
+      "https://www.ultimateducation.co.id/beasiswa/international-scholarships-university-of-reading",
+      "https://www.reading.ac.uk/about/-/media/discover/files/pdfs/scholarships/IFP-Excellence-Terms-and-Conditions-2026.pdf",
+      "https://www.reading.ac.uk/ready-to-study/international-and-eu/country-specific-information/country-specific-taiwan"
+    ]
+  },
+  "notes": [
+    "UK Budget relevant paragraph and Canadian statement paragraph41 directly read; independent PIE interviews and CIC analysis checked.",
+    "US official consortium description and independent interview read; interested institutions are not confirmed members.",
+    "Durham UG and PGT have separate applications, qualification rules and duration; two monetary tiers never counted separately.",
+    "Postgrad October22 webinar independently confirms PGT awards; event expiry is not scholarship closure.",
+    "Reading official PDF clause3.6 establishes23:59GMT, Taiwan eligibility read; no guessed deadline.",
+    "Rejected Birkbeck conflicting years, Heriot secondary miscites, ENZ duplicated release, UCL insufficient independence."
+  ]
+}
