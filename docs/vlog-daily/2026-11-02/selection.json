@@ -1,0 +1,182 @@
+{
+  "date": "2026-11-02",
+  "baselineCommit": "620e9494b212f3a882d6251e158d23dbfbf1de2c",
+  "before": 75,
+  "after": 81,
+  "additions": [
+    {
+      "id": "ELC_e2QBQMk",
+      "title": "Conan的2011年Dartmouth畢業演講：回看一場幽默的校園致詞",
+      "originalTitle": "Conan O'Brien Delivers Dartmouth's Commencement Address",
+      "description": "Dartmouth官方發布Conan O’Brien於2011年6月12日的畢業典禮演講。這是歷史演講的完整影像，可作為英文公開演說與典禮文化的觀看材料；不包裝為近期活動，也不把幽默段落當成升學建議。",
+      "country": "美國",
+      "topic": "畢業演講",
+      "sourceType": "official",
+      "channelTitle": "Dartmouth",
+      "channelId": "UCmzAvLjPYUfY0ELVz-TOPbw",
+      "publishedAt": "2011-06-12T23:14:57.000Z",
+      "duration": "PT24M33S",
+      "thumbnail": "https://i.ytimg.com/vi/ELC_e2QBQMk/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=ELC_e2QBQMk",
+      "featured": false,
+      "priority": 1000,
+      "verifiedAt": "2026-11-02",
+      "collectedAt": "2026-11-02",
+      "status": "published"
+    },
+    {
+      "id": "rkurboo-4-Y",
+      "title": "奧克蘭大學商學院：從學習空間看到學生支持",
+      "originalTitle": "Tour of the Business School | The University of Auckland",
+      "description": "奧克蘭大學商學院2024年官方導覽，介紹教學與自習空間、科技與創新設施，以及職涯中心和Tuākana支持。先從影像整理自己想問的學習與生活問題；服務、設施與參訪安排請查最新校方資訊。",
+      "country": "紐西蘭",
+      "topic": "校園生活",
+      "sourceType": "official",
+      "channelTitle": "University of Auckland Business School",
+      "channelId": "UCL3BrSaLXVclm4XYXZzDf9w",
+      "publishedAt": "2024-06-25T22:02:44.000Z",
+      "duration": "PT9M58S",
+      "thumbnail": "https://i.ytimg.com/vi/rkurboo-4-Y/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=rkurboo-4-Y",
+      "featured": false,
+      "priority": 1001,
+      "verifiedAt": "2026-11-02",
+      "collectedAt": "2026-11-02",
+      "status": "published"
+    },
+    {
+      "id": "WFzdf0eCbZE",
+      "title": "首爾大學英文介紹：先認識學校的過去與未來",
+      "originalTitle": "SNU Introduction (English version)",
+      "description": "首爾大學官方2019年英文介紹影片，以學校的過去、現在與未來為概覽。適合第一次認識學校時作為影像入口，再回官方網站查詢感興趣的課程；歷年短片不代表現行招生條件或最新校園安排。",
+      "country": "韓國",
+      "topic": "大學探索",
+      "sourceType": "official",
+      "channelTitle": "서울대학교 Seoul National University",
+      "channelId": "UCJ_3L5ElVq7fI0AAB91tfng",
+      "publishedAt": "2019-12-05T06:30:32.000Z",
+      "duration": "PT5M46S",
+      "thumbnail": "https://i.ytimg.com/vi/WFzdf0eCbZE/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=WFzdf0eCbZE",
+      "featured": false,
+      "priority": 1002,
+      "verifiedAt": "2026-11-02",
+      "collectedAt": "2026-11-02",
+      "status": "published"
+    },
+    {
+      "id": "s_awnXxt17U",
+      "title": "ETH Hönggerberg校園：跟著學生認識另一個學習現場",
+      "originalTitle": "Campus Tour: ETH Zurich, Hönggerberg (English)",
+      "description": "ETH Zürich官方2021年英文導覽，由碩士生Ole帶領認識Hönggerberg校園的重要地點。這與市中心Zentrum是不同校區；先透過歷年影片建立空間印象，現行交通、參訪與設施資訊仍請另查校方公告。",
+      "country": "瑞士",
+      "topic": "校園生活",
+      "sourceType": "official",
+      "channelTitle": "ETH Zürich",
+      "channelId": "UCRNo2gqj3GiHlmT_OnqkouA",
+      "publishedAt": "2021-07-06T10:01:15.000Z",
+      "duration": "PT4M38S",
+      "thumbnail": "https://i.ytimg.com/vi/s_awnXxt17U/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=s_awnXxt17U",
+      "featured": false,
+      "priority": 1003,
+      "verifiedAt": "2026-11-02",
+      "collectedAt": "2026-11-02",
+      "status": "published"
+    },
+    {
+      "id": "rn9w21GUxcc",
+      "title": "UBC Okanagan校園：從工程學生頻道看見不同校區",
+      "originalTitle": "University of British Columbia (UBC) Okanagan Campus Tour",
+      "description": "UBC Engineering官網連結的Engineering Stories at UBC頻道，在2023年由Madison與Alqeshira帶領認識Okanagan校園。這是學生敘事團隊的校園導覽，並非溫哥華校區影片；適合比較學習環境，課程與參訪請另查當期資訊。",
+      "country": "加拿大",
+      "topic": "校園生活",
+      "sourceType": "official",
+      "channelTitle": "Engineering Stories at UBC",
+      "channelId": "UCq5yMxZ8RMUY1Vw91GnwWbQ",
+      "publishedAt": "2023-11-08T03:34:25.000Z",
+      "duration": "PT6M29S",
+      "thumbnail": "https://i.ytimg.com/vi/rn9w21GUxcc/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=rn9w21GUxcc",
+      "featured": false,
+      "priority": 1004,
+      "verifiedAt": "2026-11-02",
+      "collectedAt": "2026-11-02",
+      "status": "published"
+    },
+    {
+      "id": "RBQIO5lyfuE",
+      "title": "LTU OSSD課程短片：在台修讀加拿大高中課程的第一個問題",
+      "originalTitle": "國三到高二必看｜LTU OSSD 在台灣怎麼上台加高中雙聯課程？",
+      "description": "Peterの國際教育講座2026年發布的LTU OSSD課程介紹短片，說明在台灣修讀加拿大安大略省高中課程的方式與輔導概念。屬LTU關聯商業課程資訊；是否適合、如何修課及文憑與大學申請條件，須依學生狀況與當期正式文件確認。",
+      "country": "加拿大",
+      "topic": "LTU課程介紹",
+      "sourceType": "peter",
+      "channelTitle": "Peterの國際教育講座",
+      "channelId": "UCpQEfgKcfpTvhO768DopAuA",
+      "publishedAt": "2026-08-09T12:27:27.000Z",
+      "duration": "PT0M23S",
+      "thumbnail": "https://i.ytimg.com/vi/RBQIO5lyfuE/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=RBQIO5lyfuE",
+      "featured": false,
+      "priority": 1005,
+      "verifiedAt": "2026-11-02",
+      "collectedAt": "2026-11-02",
+      "status": "published"
+    }
+  ],
+  "label": "編輯精選",
+  "rationale": "Five external videos span USA, New Zealand, South Korea, Switzerland and Canada. UBC Engineering links its student storytelling channel; no claim of central university production. One uncollected LTU-specific course short from the confirmed Peter channel. Public cumulative views are reach context, not global rank or recent viewing velocity.",
+  "popularityEvidence": [
+    {
+      "id": "ELC_e2QBQMk",
+      "views": "5217997",
+      "publishedAt": "2011-06-12T16:14:57-07:00",
+      "verifiedAt": "2026-11-02T04:04:02.780Z"
+    },
+    {
+      "id": "rkurboo-4-Y",
+      "views": "18791",
+      "publishedAt": "2024-06-25T15:02:44-07:00",
+      "verifiedAt": "2026-11-02T04:04:03.562Z"
+    },
+    {
+      "id": "WFzdf0eCbZE",
+      "views": "91123",
+      "publishedAt": "2019-12-04T22:30:32-08:00",
+      "verifiedAt": "2026-11-02T04:04:04.353Z"
+    },
+    {
+      "id": "s_awnXxt17U",
+      "views": "60376",
+      "publishedAt": "2021-07-06T03:01:15-07:00",
+      "verifiedAt": "2026-11-02T04:04:05.114Z"
+    },
+    {
+      "id": "rn9w21GUxcc",
+      "views": "15271",
+      "publishedAt": "2023-11-07T19:34:25-08:00",
+      "verifiedAt": "2026-11-02T04:04:05.763Z"
+    },
+    {
+      "id": "RBQIO5lyfuE",
+      "views": "469",
+      "publishedAt": "2026-08-09T05:27:27-07:00",
+      "verifiedAt": "2026-11-02T04:04:06.502Z"
+    }
+  ],
+  "companionSources": [
+    "https://home.dartmouth.edu/news/2011/06/dartmouth-commencement-2011",
+    "https://www.auckland.ac.nz/en/business/about-business-school.html",
+    "https://en.snu.ac.kr/snunow/snu_media/social_media",
+    "https://ethz.ch/en/campus/getting-to-know/discover/tours.html",
+    "https://engineering.ubc.ca/roadmap/your-travel-partners-along-way"
+  ],
+  "limitations": [
+    "Caption tracks returned empty responses or were absent; summaries restricted to official descriptions and official companion pages. No full-transcript or complete-viewing claim.",
+    "UBC source is its Engineering Stories student team, explicitly linked by UBC Engineering. Not labelled central institutional production.",
+    "Cumulative public views and date are context; no global popularity ranking or recent velocity claim.",
+    "LTU course short is commercial information; no implied admissions guarantee.",
+    "Actual embedded playback requires live UI verification."
+  ]
+}
