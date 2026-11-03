@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-04",
+  "desktop": true,
+  "mobile": true,
+  "images": true,
+  "search": true,
+  "checks": [
+    {
+      "name": "ZH scholarship Surrey + UK + undergraduate",
+      "expected": 1,
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "name": "ZH scholarship no match",
+      "actual": 0,
+      "passed": true
+    },
+    {
+      "name": "clear filters restores full archive",
+      "actual": 248,
+      "passed": true
+    },
+    {
+      "name": "load more visible cards",
+      "before": 27,
+      "after": 51,
+      "passed": true
+    },
+    {
+      "name": "EN Surrey + United Kingdom + Undergraduate",
+      "actual": 1,
+      "passed": true
+    },
+    {
+      "name": "desktop home 3 new lead photos decoded",
+      "passed": true,
+      "photos": [
+        "au.jpg",
+        "de.jpg",
+        "nz.jpg"
+      ],
+      "viewportWidth": 1758,
+      "scrollWidth": 1740
+    },
+    {
+      "name": "LTU daily rotation links",
+      "passed": true,
+      "urls": [
+        "https://www.ctee.com.tw/news/20260401701821-431204",
+        "https://www.ctee.com.tw/news/20250723702079-431204",
+        "https://udn.com/news/story/6898/9271435"
+      ]
+    },
+    {
+      "name": "mobile home visual and horizontal overflow",
+      "passed": true,
+      "requestedViewport": {
+        "width": 390,
+        "height": 844
+      },
+      "actualCssViewport": {
+        "width": 487,
+        "height": 1055
+      },
+      "scrollWidth": 468,
+      "visualObserved": true
+    },
+    {
+      "name": "mobile Surrey + UK + undergraduate",
+      "expected": 1,
+      "actual": 1,
+      "passed": true,
+      "actualCssWidth": 487,
+      "scrollWidth": 468
+    }
+  ],
+  "evidence": [
+    "docs/daily-checks/2026-11-04/desktop-home-en.png",
+    "docs/daily-checks/2026-11-04/desktop-home-zh.txt",
+    "docs/daily-checks/2026-11-04/desktop-scholarship-filter.txt",
+    "docs/daily-checks/2026-11-04/english-scholarship-filter.txt",
+    "docs/daily-checks/2026-11-04/mobile-scholarship-filter.png",
+    "docs/daily-checks/2026-11-04/mobile-scholarship-filter.txt"
+  ],
+  "verifiedAt": "2026-11-04T05:54:14.232+08:00",
+  "notes": [
+    "Browser screenshot API intermittently timed out; mobile home screenshot successfully displayed in session, and mobile filtered result screenshot saved."
+  ]
+}

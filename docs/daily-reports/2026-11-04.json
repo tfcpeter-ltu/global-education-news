@@ -1,11 +1,65 @@
 {
-  "newsPublished": [],
-  "gaps": [
-    "COMMIT_DEPLOY",
-    "PUBLISH",
-    "ACCEPTANCE",
-    "VERIFY"
+  "newsPublished": [
+    {
+      "slug": "germany-international-student-retention-fit-2026",
+      "title": "德國留學焦點轉向完成學業與就業銜接",
+      "url": "https://globalednews.com/news/germany-international-student-retention-fit-2026/",
+      "publishedPath": "src/pages/news/germany-international-student-retention-fit-2026.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://thepienews.com/germanys-international-student-push-turns-to-retention/"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://www.daad.de/en/information-services-for-higher-education-institutions/further-information-on-daad-programmes/fit/"
+        }
+      ],
+      "verifiedAt": "2026-11-04T05:10:44.600800+08:00",
+      "publishedVerifiedAt": "2026-11-04T05:35:11.919064+08:00"
+    },
+    {
+      "slug": "australia-2027-csp-allocation-pool",
+      "title": "澳洲公布2027年624,590個公費支持學額",
+      "url": "https://globalednews.com/news/australia-2027-csp-allocation-pool/",
+      "publishedPath": "src/pages/news/australia-2027-csp-allocation-pool.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://ministers.education.gov.au/clare/2027-university-places-allocated-under-new-managed-growth-system?page=2"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://andrewnorton.id.au/2026/06/29/the-proposed-new-funding-system-part-1-setting-the-number-of-fully-funded-commonwealth-supported-places/"
+        },
+        {
+          "label": "Source 3",
+          "url": "https://www.campusreview.com.au/2026/11/csps-announced-as-atec-gets-to-work/"
+        }
+      ],
+      "verifiedAt": "2026-11-04T05:10:44.600800+08:00",
+      "publishedVerifiedAt": "2026-11-04T05:35:11.919064+08:00"
+    },
+    {
+      "slug": "new-zealand-november-16-graduate-work-pathways",
+      "title": "紐西蘭11月16日將開放短期畢業工作簽證",
+      "url": "https://globalednews.com/news/new-zealand-november-16-graduate-work-pathways/",
+      "publishedPath": "src/pages/news/new-zealand-november-16-graduate-work-pathways.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://www.immigration.govt.nz/about-us/news-centre/new-and-updated-post-study-work-visa-options/"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://www.mcmillanco.nz/news/legal-news/a-new-stepping-stone-for-international-students-changes-announced-for-post-study-work-visas/"
+        }
+      ],
+      "verifiedAt": "2026-11-04T05:10:44.600800+08:00",
+      "publishedVerifiedAt": "2026-11-04T05:35:11.919064+08:00"
+    }
   ],
+  "gaps": [],
   "startedAt": "2026-11-04T05:03:20.0232928+08:00",
   "peterImported": [],
   "date": "2026-11-04",
@@ -258,7 +312,7 @@
     "catalog-vanderbilt-ingram",
     "catalog-yale-international-aid"
   ],
-  "currentPhase": "COMMIT_DEPLOY",
+  "currentPhase": "COMPLETE",
   "scholarshipAdditions": [
     {
       "slug": "2026-11-surrey-international-excellence-undergraduate-2027",
@@ -280,7 +334,8 @@
       "baselineAbsent": true,
       "eligibleTaiwan": true,
       "open": true,
-      "updateSummary": "台灣自費海外生可申請2027年全時本科；須持錄取並列為Firm choice。"
+      "updateSummary": "台灣自費海外生可申請2027年全時本科；須持錄取並列為Firm choice。",
+      "publishedVerifiedAt": "2026-11-04T05:35:11.919064+08:00"
     },
     {
       "slug": "2026-11-surrey-international-excellence-postgraduate-2027",
@@ -302,7 +357,8 @@
       "baselineAbsent": true,
       "eligibleTaiwan": true,
       "open": true,
-      "updateSummary": "台灣自費海外生可申請指定全時碩士；2027年2月梯次於1月8日截止。"
+      "updateSummary": "台灣自費海外生可申請指定全時碩士；2027年2月梯次於1月8日截止。",
+      "publishedVerifiedAt": "2026-11-04T05:35:11.919064+08:00"
     },
     {
       "slug": "2026-11-surrey-mba-service-stewardship-2027",
@@ -328,11 +384,12 @@
       "baselineAbsent": true,
       "eligibleTaiwan": true,
       "open": true,
-      "updateSummary": "台灣申請者須符合MBA學歷、至少三年畢業後管理經驗與英語條件。"
+      "updateSummary": "台灣申請者須符合MBA學歷、至少三年畢業後管理經驗與英語條件。",
+      "publishedVerifiedAt": "2026-11-04T05:35:11.919064+08:00"
     }
   ],
   "timezone": "Asia/Taipei",
-  "status": "in_progress",
+  "status": "completed",
   "newsPrepared": [
     {
       "slug": "germany-international-student-retention-fit-2026",
@@ -349,7 +406,8 @@
           "url": "https://www.daad.de/en/information-services-for-higher-education-institutions/further-information-on-daad-programmes/fit/"
         }
       ],
-      "verifiedAt": "2026-11-04T05:10:44.600800+08:00"
+      "verifiedAt": "2026-11-04T05:10:44.600800+08:00",
+      "publishedVerifiedAt": "2026-11-04T05:35:11.919064+08:00"
     },
     {
       "slug": "australia-2027-csp-allocation-pool",
@@ -370,7 +428,8 @@
           "url": "https://www.campusreview.com.au/2026/11/csps-announced-as-atec-gets-to-work/"
         }
       ],
-      "verifiedAt": "2026-11-04T05:10:44.600800+08:00"
+      "verifiedAt": "2026-11-04T05:10:44.600800+08:00",
+      "publishedVerifiedAt": "2026-11-04T05:35:11.919064+08:00"
     },
     {
       "slug": "new-zealand-november-16-graduate-work-pathways",
@@ -387,10 +446,11 @@
           "url": "https://www.mcmillanco.nz/news/legal-news/a-new-stepping-stone-for-international-students-changes-announced-for-post-study-work-visas/"
         }
       ],
-      "verifiedAt": "2026-11-04T05:10:44.600800+08:00"
+      "verifiedAt": "2026-11-04T05:10:44.600800+08:00",
+      "publishedVerifiedAt": "2026-11-04T05:35:11.919064+08:00"
     }
   ],
-  "updatedAt": "2026-11-04T05:30:13.055097+08:00",
+  "updatedAt": "2026-11-04T05:54:18.108427+08:00",
   "studyAbroadPrepared": {
     "slug": "hertfordshire-january-2027-fee-planning",
     "title": "Hertfordshire一月留學：先分清訂金、減免與生活費",
@@ -406,7 +466,8 @@
         "url": "https://globalscholarships.com/scholarships/chancellors-international-scholarship/"
       }
     ],
-    "verifiedAt": "2026-11-04T05:16:41.709618+08:00"
+    "verifiedAt": "2026-11-04T05:16:41.709618+08:00",
+    "publishedVerifiedAt": "2026-11-04T05:35:11.919064+08:00"
   },
   "peterPrepared": [
     {
@@ -415,7 +476,8 @@
       "url": "https://globalednews.com/peter/jobs-calligraphy-interest-and-cost-planning/",
       "sourceId": "122149096287172155",
       "sourceUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid02MjW7BQo1xg34i66bkMHZ1PT17KfRkjR8av3tFuFpJwBvtLCdJNe83NVRz8M2PPZvl&id=61585164670358",
-      "verifiedAt": "2026-11-04T05:18:02.866927+08:00"
+      "verifiedAt": "2026-11-04T05:18:02.866927+08:00",
+      "publishedVerifiedAt": "2026-11-04T05:35:11.919064+08:00"
     }
   ],
   "peterReview": {
@@ -477,7 +539,11 @@
     "PREFLIGHT",
     "RESEARCH",
     "PREPARE",
-    "BUILD"
+    "BUILD",
+    "COMMIT_DEPLOY",
+    "PUBLISH",
+    "ACCEPTANCE",
+    "VERIFY"
   ],
   "build": {
     "status": "success",
@@ -496,5 +562,534 @@
       "SEO"
     ],
     "environmentRepair": "Missing Vite client.mjs; preserved old node_modules as node_modules-incomplete-20261104 and reinstalled frozen lockfile outside OneDrive; all checks passed."
+  },
+  "deployment": {
+    "status": "success",
+    "commit": "46074643d0bf8b1f5f7350d3bbe2b5d9c276c8c2",
+    "runId": 41722409476,
+    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/41722409476",
+    "verifiedAt": "2026-11-04T05:35:20.684+08:00"
+  },
+  "scholarshipChecks": [
+    {
+      "slug": "2026-11-surrey-international-excellence-undergraduate-2027",
+      "title": "Surrey本科卓越獎：首年學費減免£5,000",
+      "url": "https://globalednews.com/scholarships/items/2026-11-surrey-international-excellence-undergraduate-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-surrey-international-excellence-undergraduate-2027.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://www.surrey.ac.uk/fees-and-funding/scholarships-and-bursaries/international-excellence-award-undergraduate"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://europescholarships.com/scholarships/surrey-international-scholarships-uk-2027"
+        }
+      ],
+      "verifiedAt": "2026-11-04T05:16:41.709618+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "eligibleTaiwan": true,
+      "open": true,
+      "updateSummary": "台灣自費海外生可申請2027年全時本科；須持錄取並列為Firm choice。",
+      "publishedVerifiedAt": "2026-11-04T05:35:11.919064+08:00"
+    },
+    {
+      "slug": "2026-11-surrey-international-excellence-postgraduate-2027",
+      "title": "Surrey碩士卓越獎：首年減免£5,000",
+      "url": "https://globalednews.com/scholarships/items/2026-11-surrey-international-excellence-postgraduate-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-surrey-international-excellence-postgraduate-2027.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://www.surrey.ac.uk/fees-and-funding/scholarships-and-bursaries/international-excellence-award-postgraduate"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://collegedunia.com/uk/university/816-university-of-surrey-guildford/master-of-science-msc-international-business-management-159082"
+        }
+      ],
+      "verifiedAt": "2026-11-04T05:16:41.709618+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "eligibleTaiwan": true,
+      "open": true,
+      "updateSummary": "台灣自費海外生可申請指定全時碩士；2027年2月梯次於1月8日截止。",
+      "publishedVerifiedAt": "2026-11-04T05:35:11.919064+08:00"
+    },
+    {
+      "slug": "2026-11-surrey-mba-service-stewardship-2027",
+      "title": "Surrey MBA服務領導獎：學費減免10%至50%",
+      "url": "https://globalednews.com/scholarships/items/2026-11-surrey-mba-service-stewardship-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-surrey-mba-service-stewardship-2027.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://www.surrey.ac.uk/fees-and-funding/scholarships-and-bursaries/surrey-mba-service-stewardship-scholarship"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://tourismemory.org/makale/surrey-offers-mba-scholarships-of-up-to-50-for-future-hospitality-and-tourism-leaders"
+        },
+        {
+          "label": "Source 3",
+          "url": "https://www.surrey.ac.uk/postgraduate/master-business-administration-mba"
+        }
+      ],
+      "verifiedAt": "2026-11-04T05:16:41.709618+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "eligibleTaiwan": true,
+      "open": true,
+      "updateSummary": "台灣申請者須符合MBA學歷、至少三年畢業後管理經驗與英語條件。",
+      "publishedVerifiedAt": "2026-11-04T05:35:11.919064+08:00"
+    }
+  ],
+  "peterImports": [
+    {
+      "slug": "jobs-calligraphy-interest-and-cost-planning",
+      "title": "探索興趣，也要管理代價：Peter談賈伯斯演講與選系",
+      "url": "https://globalednews.com/peter/jobs-calligraphy-interest-and-cost-planning/",
+      "sourceId": "122149096287172155",
+      "sourceUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid02MjW7BQo1xg34i66bkMHZ1PT17KfRkjR8av3tFuFpJwBvtLCdJNe83NVRz8M2PPZvl&id=61585164670358",
+      "verifiedAt": "2026-11-04T05:18:02.866927+08:00",
+      "publishedVerifiedAt": "2026-11-04T05:35:11.919064+08:00"
+    }
+  ],
+  "studyAbroadPublished": {
+    "slug": "hertfordshire-january-2027-fee-planning",
+    "title": "Hertfordshire一月留學：先分清訂金、減免與生活費",
+    "url": "https://globalednews.com/study-abroad/hertfordshire-january-2027-fee-planning/",
+    "publishedPath": "src/pages/study-abroad/hertfordshire-january-2027-fee-planning.md",
+    "sources": [
+      {
+        "label": "Source 1",
+        "url": "https://www.herts.ac.uk/international/scholarships-and-fees/scholarships"
+      },
+      {
+        "label": "Source 2",
+        "url": "https://globalscholarships.com/scholarships/chancellors-international-scholarship/"
+      }
+    ],
+    "verifiedAt": "2026-11-04T05:16:41.709618+08:00",
+    "publishedVerifiedAt": "2026-11-04T05:35:11.919064+08:00"
+  },
+  "socialPosts": [
+    {
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-04T05:36:21.399+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-04T05:36:21.399+08:00",
+      "visibility": "PUBLIC",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "publicationDateTaipei": "2026-11-04",
+      "campaign": "news",
+      "network": "linkedin",
+      "id": "7523498143439732736",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7523498143439732736/",
+      "account": "Peter Chen",
+      "accountId": "peter-chen-26a754228",
+      "publishedTimeLabel": "剛剛",
+      "publishedAt": "2026-11-04T05:35:34.336+08:00",
+      "publishedAtBasis": "observed native-ui submission time; public label 剛剛",
+      "mediaEvidence": "docs/social-posts/2026-11-04/evidence/linkedin-news.png"
+    },
+    {
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-04T05:36:49.111+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-04T05:36:49.111+08:00",
+      "visibility": "PUBLIC",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "publicationDateTaipei": "2026-11-04",
+      "campaign": "news",
+      "network": "facebook",
+      "id": "1108497161926481",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02ZdpVtUUSBgykh1PTj7wum26DBwbaqPNNeaQkd1oEgcjv7F9ogq2EDERnWf9WGkZMl",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "accountId": "101904929207004",
+      "publishedAt": "2026-11-04T05:35:00+08:00",
+      "publishedTimeLabel": "2026年11月4日 星期三上午5:35 (profile feed)",
+      "timeNote": "permalink rendered a different locale; Taipei date confirmed by profile and observed submission time",
+      "mediaEvidence": "docs/social-posts/2026-11-04/evidence/facebook-news.png",
+      "publicPhotoScreenshot": "docs/social-posts/2026-11-04/evidence/facebook-news.png",
+      "photoReadyEvidence": "docs/social-posts/2026-11-04/evidence/facebook-news-photo-before-copy.png",
+      "photoAttachedAt": "2026-11-04T05:35:33.613+08:00",
+      "copyAddedAt": "2026-11-04T05:35:34.000+08:00",
+      "photoAttachments": [
+        {
+          "id": "1108496531926544",
+          "url": "https://www.facebook.com/photo/?fbid=1108496531926544"
+        }
+      ],
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-04T05:36:49.111+08:00"
+    },
+    {
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-04T05:38:14.319+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-04T05:38:14.319+08:00",
+      "visibility": "PUBLIC",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "publicationDateTaipei": "2026-11-04",
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "id": "7523498581144535040",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7523498581144535040/",
+      "account": "Peter Chen",
+      "accountId": "peter-chen-26a754228",
+      "publishedTimeLabel": "剛剛",
+      "publishedAt": "2026-11-04T05:37:18.659+08:00",
+      "publishedAtBasis": "observed native-ui submission time",
+      "mediaEvidence": "docs/social-posts/2026-11-04/evidence/linkedin-scholarship.png"
+    },
+    {
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-04T05:39:26.381+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-04T05:39:26.381+08:00",
+      "visibility": "PUBLIC",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "publicationDateTaipei": "2026-11-04",
+      "campaign": "scholarship",
+      "network": "facebook",
+      "id": "1108498788592985",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0yqwC5PzyfeECQX5azagTJRkj8g8PdS8rHmkrHXo81yoDBizXGS7ibLWNc9P4JJEjl",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "accountId": "101904929207004",
+      "publishedAt": "2026-11-04T05:38:00+08:00",
+      "publishedTimeLabel": "2026年11月4日 星期三上午5:38",
+      "mediaEvidence": "docs/social-posts/2026-11-04/evidence/facebook-scholarship.png",
+      "publicPhotoScreenshot": "docs/social-posts/2026-11-04/evidence/facebook-scholarship.png",
+      "photoReadyEvidence": "docs/social-posts/2026-11-04/evidence/facebook-scholarship-photo-before-copy.png",
+      "photoAttachedAt": "2026-11-04T05:37:30.820+08:00",
+      "copyAddedAt": "2026-11-04T05:37:31.092+08:00",
+      "photoAttachments": [
+        {
+          "id": "1108498108593053",
+          "url": "https://www.facebook.com/photo/?fbid=1108498108593053"
+        }
+      ],
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-04T05:39:26.381+08:00"
+    },
+    {
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-04T05:39:26.381+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-04T05:39:26.381+08:00",
+      "visibility": "PUBLIC",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "publicationDateTaipei": "2026-11-04",
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "id": "7523498952696963072",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7523498952696963072/",
+      "account": "Peter Chen",
+      "accountId": "peter-chen-26a754228",
+      "publishedTimeLabel": "剛剛",
+      "publishedAt": "2026-11-04T05:38:46.617+08:00",
+      "publishedAtBasis": "observed native-ui submission time",
+      "mediaEvidence": "docs/social-posts/2026-11-04/evidence/linkedin-study-abroad.png"
+    },
+    {
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-04T05:41:12.432+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-04T05:41:12.432+08:00",
+      "visibility": "PUBLIC",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "publicationDateTaipei": "2026-11-04",
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "id": "1108499641926233",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid025ZvwBmd56ZsK4VzoT9GEvLhdWTgP1gvDskGJH4GFp9wosDKqidNtCxpg6F7kLQBl",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "accountId": "101904929207004",
+      "publishedAt": "2026-11-04T05:40:00+08:00",
+      "publishedTimeLabel": "2026年11月4日 星期三上午5:40",
+      "mediaEvidence": "docs/social-posts/2026-11-04/evidence/facebook-study-abroad.png",
+      "publicPhotoScreenshot": "docs/social-posts/2026-11-04/evidence/facebook-study-abroad.png",
+      "photoReadyEvidence": "docs/social-posts/2026-11-04/evidence/facebook-study-abroad-photo-before-copy.png",
+      "photoAttachedAt": "2026-11-04T05:39:54.064+08:00",
+      "copyAddedAt": "2026-11-04T05:39:54.200+08:00",
+      "photoAttachments": [
+        {
+          "id": "1108499355259595",
+          "url": "https://www.facebook.com/photo/?fbid=1108499355259595"
+        }
+      ],
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-04T05:41:12.432+08:00"
+    },
+    {
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-04T05:41:12.433+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-04T05:41:12.433+08:00",
+      "visibility": "PUBLIC",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "publicationDateTaipei": "2026-11-04",
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "id": "7523499307438739456",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7523499307438739456/",
+      "account": "Peter Chen",
+      "accountId": "peter-chen-26a754228",
+      "publishedTimeLabel": "剛剛",
+      "publishedAt": "2026-11-04T05:40:10.968+08:00",
+      "publishedAtBasis": "observed native-ui submission time",
+      "mediaEvidence": "docs/social-posts/2026-11-04/evidence/linkedin-taiwan-universities.png"
+    },
+    {
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-04T05:41:46.463+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-04T05:41:46.463+08:00",
+      "visibility": "PUBLIC",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "publicationDateTaipei": "2026-11-04",
+      "campaign": "news",
+      "network": "threads",
+      "id": "DfS3s0dEx7J",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfS3s0dEx7J",
+      "account": "ltuossdtw",
+      "publishedTimeLabel": "幾秒前／1分鐘",
+      "publishedAt": "2026-11-04T05:40:56.610+08:00",
+      "publishedAtBasis": "observed submission in Asia/Taipei; photo alt uses another timezone",
+      "mediaEvidence": "docs/social-posts/2026-11-04/evidence/threads-news.png"
+    },
+    {
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-04T05:43:13.846+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-04T05:43:13.846+08:00",
+      "visibility": "PUBLIC",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "publicationDateTaipei": "2026-11-04",
+      "campaign": "scholarship",
+      "network": "threads",
+      "id": "DfS32MXE1wO",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfS32MXE1wO",
+      "account": "ltuossdtw",
+      "publishedTimeLabel": "幾秒前／1分鐘",
+      "publishedAt": "2026-11-04T05:42:13.771+08:00",
+      "publishedAtBasis": "observed submission in Asia/Taipei",
+      "mediaEvidence": "docs/social-posts/2026-11-04/evidence/threads-scholarship.png"
+    },
+    {
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-04T05:44:51.574+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-04T05:44:51.574+08:00",
+      "visibility": "PUBLIC",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "publicationDateTaipei": "2026-11-04",
+      "campaign": "study-abroad",
+      "network": "threads",
+      "id": "DfS4BfaE1g-",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfS4BfaE1g-",
+      "account": "ltuossdtw",
+      "publishedTimeLabel": "幾秒前／1分鐘",
+      "publishedAt": "2026-11-04T05:43:46.239+08:00",
+      "publishedAtBasis": "observed submission in Asia/Taipei",
+      "mediaEvidence": "docs/social-posts/2026-11-04/evidence/threads-study-abroad.png"
+    },
+    {
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-04T05:45:06.333+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-04T05:45:06.333+08:00",
+      "visibility": "PUBLIC",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "publicationDateTaipei": "2026-11-04",
+      "campaign": "news",
+      "network": "instagram",
+      "id": "DfS4AsCk1Yo",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DfS4AsCk1Yo/",
+      "account": "ltuossdtw",
+      "publishedTimeLabel": "1分鐘前",
+      "publishedAt": "2026-11-04T05:43:40+08:00",
+      "publishedAtBasis": "public time datetime attribute",
+      "mediaEvidence": "docs/social-posts/2026-11-04/evidence/instagram-news.png",
+      "crossposting": false
+    },
+    {
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-04T05:45:58.826+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-04T05:45:58.827+08:00",
+      "visibility": "PUBLIC",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "publicationDateTaipei": "2026-11-04",
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "id": "DfS4Mx-kwIs",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfS4Mx-kwIs",
+      "account": "ltuossdtw",
+      "publishedTimeLabel": "幾秒前",
+      "publishedAt": "2026-11-04T05:45:19.474+08:00",
+      "publishedAtBasis": "observed submission in Asia/Taipei",
+      "mediaEvidence": "docs/social-posts/2026-11-04/evidence/threads-taiwan-universities.png"
+    },
+    {
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-04T05:47:00.427+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-04T05:47:00.427+08:00",
+      "visibility": "PUBLIC",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "publicationDateTaipei": "2026-11-04",
+      "campaign": "scholarship",
+      "network": "instagram",
+      "id": "DfS4Teak3Oz",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DfS4Teak3Oz/",
+      "account": "ltuossdtw",
+      "publishedTimeLabel": "35秒前",
+      "publishedAt": "2026-11-03T21:46:14.000Z",
+      "publishedAtBasis": "public time datetime attribute",
+      "mediaEvidence": "docs/social-posts/2026-11-04/evidence/instagram-scholarship.png",
+      "crossposting": false
+    },
+    {
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-04T05:48:54.186+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-04T05:48:54.186+08:00",
+      "visibility": "PUBLIC",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "publicationDateTaipei": "2026-11-04",
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "id": "DfS4i6Gk9a1",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DfS4i6Gk9a1/",
+      "account": "ltuossdtw",
+      "publishedTimeLabel": "剛剛",
+      "publishedAt": "2026-11-03T21:48:21.000Z",
+      "publishedAtBasis": "public time datetime attribute",
+      "mediaEvidence": "docs/social-posts/2026-11-04/evidence/instagram-study-abroad.png",
+      "crossposting": false
+    },
+    {
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-04T05:52:53.276+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-04T05:52:53.276+08:00",
+      "visibility": "PUBLIC",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "publicationDateTaipei": "2026-11-04",
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "id": "DfS4xc2E9mi",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DfS4xc2E9mi/",
+      "account": "ltuossdtw",
+      "publishedTimeLabel": "2分鐘前",
+      "publishedAt": "2026-11-03T21:50:20.000Z",
+      "publishedAtBasis": "public post link time datetime attribute",
+      "mediaEvidence": "docs/social-posts/2026-11-04/evidence/instagram-taiwan-universities.png",
+      "crossposting": false
+    }
+  ],
+  "newFacebookPagePost": {
+    "status": "PUBLISHED",
+    "verifiedAt": "2026-11-04T05:44:43.760+08:00",
+    "imageCount": 1,
+    "mediaKind": "uploaded-photo",
+    "mediaStatus": "VERIFIED",
+    "mediaVerifiedAt": "2026-11-04T05:44:43.760+08:00",
+    "visibility": "PUBLIC",
+    "publicationMethod": "native-ui",
+    "timezone": "Asia/Taipei",
+    "publicationDateTaipei": "2026-11-04",
+    "campaign": "news",
+    "network": "facebook",
+    "pageId": "61595164194381",
+    "id": "122118037521505473",
+    "idKind": "published-photo",
+    "publicUrl": "https://www.facebook.com/photo/?fbid=122118037521505473",
+    "articleUrl": "https://globalednews.com/news/germany-international-student-retention-fit-2026/",
+    "account": "環球國際教育新聞網",
+    "accountId": "1355044634361784",
+    "publishedAt": "2026-11-04T05:43:00+08:00",
+    "publishedTimeLabel": "2026年11月4日 星期三上午5:43",
+    "mediaEvidence": "docs/social-posts/2026-11-04/evidence/new-facebook.png",
+    "publicPhotoScreenshot": "docs/social-posts/2026-11-04/evidence/new-facebook.png",
+    "photoReadyEvidence": "docs/social-posts/2026-11-04/evidence/new-facebook-photo-before-copy.png",
+    "photoAttachedAt": "2026-11-04T05:42:52.468+08:00",
+    "copyAddedAt": "2026-11-04T05:42:52.807+08:00",
+    "photoAttachments": [
+      {
+        "id": "122118037521505473",
+        "url": "https://www.facebook.com/photo/?fbid=122118037521505473"
+      }
+    ],
+    "previewStatus": "VERIFIED",
+    "previewVerifiedAt": "2026-11-04T05:44:43.760+08:00",
+    "readbackNote": "Used the separately exposed valid uploaded-photo URL; timestamp href was invalid and not retried."
+  },
+  "acceptance": {
+    "desktop": true,
+    "mobile": true,
+    "images": true,
+    "search": true,
+    "seo": true,
+    "verifiedAt": "2026-11-04T05:54:14.232+08:00",
+    "uiEvidence": "docs/daily-reports/2026-11-04-live-ui.json",
+    "seoEvidence": "docs/daily-reports/2026-11-04-live-seo.json"
+  },
+  "blockers": [],
+  "manualActions": [],
+  "completedAt": "2026-11-04T05:54:18.108427+08:00",
+  "verification": {
+    "status": "COMPLETE",
+    "exitCode": 0,
+    "verifiedAt": "2026-11-04T05:54:18.108427+08:00",
+    "evidence": "docs/daily-checks/2026-11-04/verify-daily-delivery.txt"
   }
 }

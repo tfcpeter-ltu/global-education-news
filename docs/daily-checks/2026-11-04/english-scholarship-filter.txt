@@ -1,0 +1,399 @@
+- navigation "Language":
+  - link "Traditional Chinese":
+    - /url: https://globalednews.com/scholarships/
+  - link "English":
+    - /url: https://globalednews.com/en/scholarships/
+- banner:
+  - generic: GLOBAL EDUCATION NEWS · TAIWAN EDITION · EST. 2026
+  - generic: INTERNATIONAL EDUCATION · UNIVERSITIES · POLICY · GLOBAL MOBILITY
+  - text: International Education
+  - text: Journalism & Analysis
+  - link "Global Education News Global Education News":
+    - /url: /en/
+    - generic: Global Education News
+    - text: International education · Universities & admissions · Scholarships
+    - text: In-depth analysis · Peter's International Education Insights
+    - generic: EDUCATION NEWS · UNIVERSITIES & ADMISSIONS · SCHOLARSHIPS · PETER’S INSIGHTS
+  - text: Taiwan · Asia
+  - text: Global Perspective
+  - navigation "Main navigation":
+    - generic "Home":
+      - generic: Home ▾
+      - generic: Home
+    - link "Study Abroad Magazine":
+      - /url: https://studyabmag.globalednews.com/
+      - generic: Study Abroad Magazine
+      - generic: Study Abroad Magazine
+    - generic "Overseas Education":
+      - generic: Education Abroad ▾
+      - generic: Global Education
+    - link "Scholarship Radar":
+      - /url: /en/scholarships/
+      - generic: Scholarship Radar
+      - generic: Scholarship Radar
+    - link "Study Abroad Navigator":
+      - /url: /en/study-abroad/
+      - generic: Study abroad DIY
+    - link "Study Abroad Vlog":
+      - /url: /en/vlog/
+      - generic: Study Abroad & Study Tour Vlogs
+      - generic: Study Abroad Vlog
+    - generic "Peter's Education Talk":
+      - generic: Peter's Education Insights ▾
+      - generic: Peter’s Education Talk
+    - link "Free Newsletter":
+      - /url: /en/newsletter/
+      - generic: Free Newsletter
+      - generic: Free Newsletter
+    - generic "University Explorer.":
+      - generic: University Explorer ▾
+      - generic: University Explorer
+  - text: EUROPEAN ACADEMIC EDITION · SCHOLARSHIPS · FELLOWSHIPS · RESEARCH MOBILITY
+- main:
+  - complementary:
+    - text: English translation · This edition uses automated translation. For exact eligibility, deadlines and policy wording, consult the linked official sources.
+    - link "Read the Chinese original":
+      - /url: https://globalednews.com/scholarships/
+    - text: .
+  - main:
+    - text: OXFORD · PARIS
+    - generic: ✦
+    - generic: ✦
+    - generic: SCHOLARSHIPS FELLOWSHIPS RESEARCH MOBILITY
+    - generic: OXFORD CAMBRIDGE PARIS ZÜRICH
+    - text: ACADEMIC REVIEW
+    - generic: GLOBAL EDUCATION NEWS ◆ EUROPEAN SCHOLARSHIP REVIEW
+    - heading "Scholarship Radar" [level=1]
+    - paragraph: 248+ global scholarships ｜ Review dates and application status shown for each entry
+    - paragraph: From the perspective of Taiwan students, global scholarships, government grants, research grants and international university opportunities are organized. The establishment of a long-term searchable and traceable database of international advancements centred on official sources, Taiwan ' s eligibility and cut-off dates.
+    - link "▤ Explore scholarships":
+      - /url: /en/scholarships/#all-opportunities
+      - generic: ▤
+      - text: Explore scholarships
+    - link "Official subsidies in Taiwan":
+      - /url: /en/scholarships/#taiwan-programs
+    - link "Today's picks":
+      - /url: /en/scholarships/#today-picks
+    - generic: TAIPEI
+    - generic: "Latest database audit: 2026-11-02"
+    - paragraph: The database audit covers links and application windows; it does not mean every entry's eligibility and funding have been reverified against two sources. Entries awaiting review or a new round are retained for monitoring. An open window still requires checking individual eligibility.
+    - complementary "Scholarship radar statistics":
+      - text: ◆
+      - generic: BY THE NUMBERS
+      - generic: ◎
+      - strong: 248+
+      - generic: Global opportunities
+      - emphasis: SCHOLARSHIPS
+      - generic: ▥
+      - strong: 30+
+      - generic: National and regional
+      - emphasis: COUNTRIES
+      - generic: ◷
+      - strong: "3"
+      - generic: Today's verified selections
+      - emphasis: DAILY SELECTION
+      - generic: ◇
+      - strong: Review
+      - generic: Review status shown for each entry
+      - emphasis: EDITORIAL REVIEW
+      - generic: ACADEMIA
+    - text: EUROPEAN SCHOLARSHIP REVIEW · ANNUAL ACADEMIC EDITION
+    - region "Scholarship search and screening":
+      - generic: SEARCH THE SCHOLARSHIP ARCHIVE
+      - strong: Search for a global scholarship database
+      - paragraph: Enter the name of the scholarship, the school, the country or the keyword, and reduce the scope by degree, grant and application status.
+      - search:
+        - generic: ⌕
+        - generic: SCHOLARSHIP · UNIVERSITY · COUNTRY · KEYWORD
+        - searchbox "SCHOLARSHIP · UNIVERSITY · COUNTRY · KEYWORD": Surrey
+        - button "Search scholarships" [active]
+        - generic: ◎
+        - combobox "Country":
+          - option "Country / region"
+          - option "China/Beijing"
+          - option "Japan"
+          - option "Belgium"
+          - option "Canada"
+          - option "Global"
+          - option "Global (excluding mainland China, Hong Kong and Macao)"
+          - option "Global/learning-based"
+          - option "Multinational"
+          - option "France"
+          - option "Finland"
+          - option "United States"
+          - option "United States / Canada"
+          - option "United Kingdom" [selected]
+          - option "United Kingdom/Wils"
+          - option "United Kingdom/Scotland"
+          - option "Hong Kong"
+          - option "New Zealand"
+          - option "Netherlands"
+          - option "Ireland"
+          - option "Singapore"
+          - option "New Southbound partner countries"
+          - option "Switzerland"
+          - option "Sweden"
+          - option "Italy"
+          - option "Germany"
+          - option "European Union"
+          - option "EU/Multinational"
+          - option "EU/Europe"
+          - option "Australia"
+          - option "Korea"
+        - generic: 🎓
+        - combobox "Degree":
+          - option "Degree level"
+          - option "University"
+          - option "Undergraduate" [selected]
+          - option "Master’s"
+          - option "Doctoral"
+          - option "Research"
+        - generic: ◇
+        - combobox "Funding type":
+          - option "Funding type" [selected]
+          - option "Full funding"
+          - option "Tuition fees"
+          - option "Living expenses"
+          - option "Partial funding"
+        - generic: ♢
+        - combobox "Status":
+          - option "Application status" [selected]
+          - option "Open"
+          - option "Not yet open"
+          - 'option "Next round: to be confirmed"'
+          - option "Recheck required"
+          - option "This round has closed"
+          - option "Existing applicants only"
+        - button "↻ Clear filters"
+    - generic: THE SCHOLARSHIP ARCHIVE
+    - heading "Explore all the scholarships." [level=2]
+    - paragraph: Scholarships · Fellowships · Research Funding · International Mobility
+    - strong: "1"
+    - generic: Qualified opportunities
+    - text: ROYAL ACADEMIC ARCHIVE
+    - article:
+      - generic: 🇬🇧
+      - text: United Kingdom
+      - generic: Open
+      - 'heading "Surrey undergraduate excellence award: £5,000 off first-year fees" [level=3]':
+        - 'link "Surrey undergraduate excellence award: £5,000 off first-year fees"':
+          - /url: /en/scholarships/items/2026-11-surrey-international-excellence-undergraduate-2027
+      - generic: Undergraduate
+      - generic: Official university
+      - term: Grants
+      - definition: £5,000 first-year fee waiver
+      - term: Cut-off
+      - definition: August 24, 2027; UCAS application by June 30
+      - paragraph:
+        - text: "Schedule review: not recorded"
+        - text: "Eligibility checked: 2026-11-04"
+      - generic: Check the individual eligibility conditions for Taiwan
+      - link "Details":
+        - /url: /en/scholarships/items/2026-11-surrey-international-excellence-undergraduate-2027
+      - text: ROYAL ACADEMIC ARCHIVE
+    - text: ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE ROYAL ACADEMIC ARCHIVE
+    - 'complementary "Advertising: After the scholarship database"':
+      - generic: ADVERTISEMENT Advertising
+      - generic: GLOBAL EDUCATION NEWS
+      - strong: University cooperation with international education enrolment
+      - paragraph: You can see your curriculum and activities as you explore schools and apply for information.
+      - link "Query this layout":
+        - /url: /en/advertise/
+        - text: Query this layout ↗
+    - generic: EDITOR'S SELECTION
+    - heading "Today's picks" [level=2]
+    - generic: November 4, 2026 · Curated & Verified
+    - article:
+      - generic: 🇬🇧
+      - text: United Kingdom
+      - generic: Open
+      - generic: International scholarships
+      - 'heading "Surrey postgraduate excellence award: £5,000 fee waiver" [level=3]':
+        - 'link "Surrey postgraduate excellence award: £5,000 fee waiver"':
+          - /url: /en/scholarships/items/2026-11-surrey-international-excellence-postgraduate-2027
+      - paragraph: Taiwanese self-funded overseas students may apply for eligible full-time master’s courses; February entry closes January 8.
+      - generic: FUNDING Subsidy
+      - strong: £5,000 first-year fee waiver
+      - generic: LEVEL Degree
+      - strong: Master’s
+      - generic: DEADLINE — cut-off
+      - strong: January 8, 2027 for February entry; August 20 for September
+      - generic: "Taiwan applicants: eligible subject to the conditions below"
+      - link "View application focus →":
+        - /url: /en/scholarships/items/2026-11-surrey-international-excellence-postgraduate-2027
+    - article:
+      - generic: 🇬🇧
+      - text: United Kingdom
+      - generic: Open
+      - generic: International scholarships
+      - 'heading "Surrey undergraduate excellence award: £5,000 off first-year fees" [level=3]':
+        - 'link "Surrey undergraduate excellence award: £5,000 off first-year fees"':
+          - /url: /en/scholarships/items/2026-11-surrey-international-excellence-undergraduate-2027
+      - paragraph: Taiwanese self-funded overseas applicants can apply for 2027 full-time undergraduate entry with an offer and firm choice.
+      - generic: FUNDING Subsidy
+      - strong: £5,000 first-year fee waiver
+      - generic: LEVEL Degree
+      - strong: Undergraduate
+      - generic: DEADLINE — cut-off
+      - strong: August 24, 2027; UCAS application by June 30
+      - generic: "Taiwan applicants: eligible subject to the conditions below"
+      - link "View application focus →":
+        - /url: /en/scholarships/items/2026-11-surrey-international-excellence-undergraduate-2027
+    - article:
+      - generic: 🇬🇧
+      - text: United Kingdom
+      - generic: Open
+      - generic: International scholarships
+      - 'heading "Surrey MBA Service Stewardship: 10–50% tuition support" [level=3]':
+        - 'link "Surrey MBA Service Stewardship: 10–50% tuition support"':
+          - /url: /en/scholarships/items/2026-11-surrey-mba-service-stewardship-2027
+      - paragraph: Taiwanese applicants must meet MBA academic, English and at least three years of postgraduate managerial experience requirements.
+      - generic: FUNDING Subsidy
+      - strong: 10–50% of tuition, based on application and interview
+      - generic: LEVEL Degree
+      - strong: Master’s
+      - generic: DEADLINE — cut-off
+      - strong: Rolling review; February overseas course applications close December 11, 2026
+      - generic: "Taiwan applicants: eligible subject to the conditions below"
+      - link "View application focus →":
+        - /url: /en/scholarships/items/2026-11-surrey-mba-service-stewardship-2027
+    - 'complementary "Advertisement: After scholarship selection"':
+      - generic: ADVERTISEMENT Advertising
+      - generic: GLOBAL EDUCATION NEWS
+      - strong: University cooperation with international education enrolment
+      - paragraph: You can see your curriculum and activities as you explore schools and apply for information.
+      - link "Query this layout":
+        - /url: /en/advertise/
+        - text: Query this layout ↗
+    - generic: MOBILITY
+    - generic: TAIWAN
+    - generic: TAIWAN FUNDING & MOBILITY PROGRAMMES
+    - heading "From Taiwan to the world." [level=2]
+    - paragraph: Learning from the Ministry of Education on the sea series to study abroad at public expense with young people to integrate the international resources available in Taiwan into the same set of plans for advancement and research.
+    - link "◆ ✈ Study Abroad Scholarship Programme (Xuehai Feiyang)":
+      - /url: https://www.studyabroad.moe.gov.tw/new/index.php/
+      - text: ◆
+      - generic: ✈
+      - text: Study Abroad Scholarship Programme (Xuehai Feiyang)
+    - link "◆ ◇ Study Abroad Support Programme (Xuehai Xizhu)":
+      - /url: https://www.studyabroad.moe.gov.tw/new/index.php/
+      - text: ◆
+      - generic: ◇
+      - text: Study Abroad Support Programme (Xuehai Xizhu)
+    - link "◆ ▤ Overseas Internship Programme (Xuehai Zhumeng)":
+      - /url: https://www.studyabroad.moe.gov.tw/new/index.php/
+      - text: ◆
+      - generic: ▤
+      - text: Overseas Internship Programme (Xuehai Zhumeng)
+    - link "◆ ✦ New Southbound Overseas Internship Programme":
+      - /url: https://www.studyabroad.moe.gov.tw/new/index.php/
+      - text: ◆
+      - generic: ✦
+      - text: New Southbound Overseas Internship Programme
+    - link "◆ ↗ Youth Overseas Dream Programme":
+      - /url: https://twpathfinder.yda.gov.tw/
+      - text: ◆
+      - generic: ↗
+      - text: Youth Overseas Dream Programme
+    - link "◆ 🎓 Overseas Study Scholarships":
+      - /url: https://www.scholarship.moe.gov.tw/scholarship
+      - text: ◆
+      - generic: 🎓
+      - text: Overseas Study Scholarships
+    - link "◆ ▥ Official study study":
+      - /url: https://www.scholarship.moe.gov.tw/exam-v2/student/login
+      - text: ◆
+      - generic: ▥
+      - text: Official study study
+    - generic: EDITORIAL & VERIFICATION STANDARD
+    - heading "The scholarship database, which also uses the censorship standards of the newsroom, is also used." [level=2]
+    - generic: "01"
+    - paragraph:
+      - strong: Official Source
+      - text: Original announcement by Government, university, foundation or host.
+    - generic: "02"
+    - paragraph:
+      - strong: Cross-check
+      - text: FAQ, enrolment page, official window or reliable source.
+    - generic: "03"
+    - paragraph:
+      - strong: Taiwan Eligibility
+      - text: Nationality, place of residence, degree and form of application.
+    - generic: "04"
+    - paragraph:
+      - strong: Deadline Tracking
+      - text: Open, extended, cut-off and subsequent year update.
+    - text: VERITAS · SCIENTIA · MOBILITAS
+    - text: CAMBRIDGE · ZÜRICH
+- complementary "Advertisement":
+  - button "Close advertisement": ×
+  - generic: ADVERTISEMENT
+  - img "University advertising example"
+  - strong: Scholarship advertising
+  - paragraph: Introduce funding opportunities to interested readers.
+  - link "Advertising enquiries ↗":
+    - /url: /en/advertise/
+- contentinfo:
+  - heading "Global Education News" [level=3]
+  - paragraph: International education news, university and subject choices, admissions, scholarships, and in-depth analysis from Peter's International Education Insights.
+  - link "Open Study Abroad Navigator":
+    - /url: /en/study-abroad/
+    - strong: Study abroad DIY
+    - generic: Study Abroad Navigator
+    - generic: →
+  - paragraph:
+    - link "Global Education Weekly | Free newsletter":
+      - /url: /en/newsletter/
+      - strong: Global Education Weekly | Free newsletter
+  - paragraph:
+    - link "Peter's Education Insights":
+      - /url: /en/peter/
+      - strong: Peter's Education Insights
+  - paragraph:
+    - link "Facebook page ↗":
+      - /url: https://www.facebook.com/profile.php?id=61585164670358
+  - text: © 2026 Global Education News. All rights reserved.
+  - heading "LTU Global Education News Editorial Team" [level=3]
+  - paragraph: LTU Global Education News Editorial Desk
+  - paragraph:
+    - link "About us":
+      - /url: /en/about/
+  - paragraph:
+    - link "Editorial policy":
+      - /url: /en/editorial-policy/
+  - paragraph:
+    - link "Corrections policy":
+      - /url: /en/corrections/
+  - paragraph:
+    - link "editor.jsti.ltu@gmail.com":
+      - /url: mailto:editor.jsti.ltu@gmail.com
+  - heading "Partnerships & transparency" [level=3]
+  - paragraph:
+    - text: "Operator: Bryce Education Ltd."
+    - text: "Unanimous designator: 91023087"
+  - paragraph:
+    - link "Website security and service recognition":
+      - /url: /en/security/
+  - paragraph:
+    - link "Advertising":
+      - /url: /en/advertise/
+  - paragraph:
+    - link "Contact us":
+      - /url: /en/contact/
+  - paragraph:
+    - link "Disclosures":
+      - /url: /en/disclosure/
+  - paragraph:
+    - link "Privacy policy":
+      - /url: /en/privacy/
+  - generic "Website readership statistics":
+    - generic: READERSHIP
+    - text: Total views
+    - strong: Counting
+- paragraph:
+  - link "Photo source & license · cropped for sharing":
+    - /url: /image-credits/#787ec4d1b3d0dfef97a70780.jpg
+- button
+- img "Monica"
+- generic: Ctrl+M
+- text: 解釋
