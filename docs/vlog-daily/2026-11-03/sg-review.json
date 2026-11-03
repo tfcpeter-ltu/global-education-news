@@ -1,0 +1,37 @@
+[
+  {
+    "id": "iA7B06-3PM8",
+    "title": "NUS Student Life video",
+    "channel": "NUScast",
+    "channelId": "UChXZqIuwcw-vVCLSyqqUNfA",
+    "description": "Check out this video to get a glimpse of the exciting and vibrant life that NUS students enjoy!",
+    "views": "182259",
+    "publishedAt": "2013-10-20T18:27:28-07:00",
+    "seconds": "186",
+    "playability": {
+      "status": "OK",
+      "playableInEmbed": true,
+      "miniplayer": {
+        "miniplayerRenderer": {
+          "playbackMode": "PLAYBACK_MODE_ALLOW"
+        }
+      },
+      "contextParams": "Q0FFU0FnZ0M="
+    },
+    "embed": {
+      "iframeUrl": "https://www.youtube.com/embed/iA7B06-3PM8",
+      "width": 1280,
+      "height": 720
+    },
+    "thumbnailStatus": 200,
+    "captions": [
+      {
+        "language": "en",
+        "status": 200,
+        "bytes": 0,
+        "text": ""
+      }
+    ],
+    "verifiedAt": "2026-11-03T04:00:23.219Z"
+  }
+]

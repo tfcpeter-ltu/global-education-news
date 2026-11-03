@@ -1,0 +1,208 @@
+[
+  {
+    "q": "NUScast university town official",
+    "rows": [
+      {
+        "id": "w6o62mZFn7M",
+        "title": "Sneak Peek of NUS",
+        "channel": "NUScast",
+        "views": {
+          "simpleText": "觀看次數：2,028次"
+        },
+        "published": {
+          "simpleText": "9 年前"
+        },
+        "duplicate": false
+      },
+      {
+        "id": "iA7B06-3PM8",
+        "title": "NUS Student Life video",
+        "channel": "NUScast",
+        "views": {
+          "simpleText": "觀看次數：182,259次"
+        },
+        "published": {
+          "simpleText": "13 年前"
+        },
+        "duplicate": false
+      },
+      {
+        "id": "LuJKrTGKFpI",
+        "title": "NUS Campus Video",
+        "channel": "NUScast",
+        "views": {
+          "simpleText": "觀看次數：376,872次"
+        },
+        "published": {
+          "simpleText": "12 年前"
+        },
+        "duplicate": true
+      },
+      {
+        "id": "kM7lCbZg8Z0",
+        "title": "2012  International Relation Office - NUS Student Exchange",
+        "channel": "NUScast",
+        "views": {
+          "simpleText": "觀看次數：8,593次"
+        },
+        "published": {
+          "simpleText": "14 年前"
+        },
+        "duplicate": false
+      },
+      {
+        "id": "xwe0NN7U1MM",
+        "title": "Parliament Sitting 3 Nov 2026",
+        "channel": "MDDI Singapore",
+        "views": {
+          "runs": [
+            {
+              "text": "102"
+            },
+            {
+              "text": " 人正在收看"
+            }
+          ]
+        },
+        "duplicate": false
+      },
+      {
+        "id": "Q2u8H4EZiKc",
+        "title": "NUS Admissions Video (International)",
+        "channel": "NUScast",
+        "views": {
+          "simpleText": "觀看次數：149,375次"
+        },
+        "published": {
+          "simpleText": "12 年前"
+        },
+        "duplicate": false
+      },
+      {
+        "id": "DYhF88rJjlw",
+        "title": "The #1 University in Asia! National University of Singapore Campus Tour and Studying in Singapore",
+        "channel": "educations",
+        "views": {
+          "simpleText": "觀看次數：289,854次"
+        },
+        "published": {
+          "simpleText": "1 年前"
+        },
+        "duplicate": false
+      },
+      {
+        "id": "koIqYHNGWbg",
+        "title": "NUS Commencement 2026 Ceremony 12",
+        "channel": "NUScast",
+        "views": {
+          "simpleText": "觀看次數：3,421次"
+        },
+        "published": {
+          "simpleText": "3 個月前"
+        },
+        "duplicate": false
+      }
+    ]
+  },
+  {
+    "q": "McGill official campus tour",
+    "rows": [
+      {
+        "id": "vQHHLwNOGVU",
+        "title": "McGill University Campus Tour 2020/2021 | Montreal, Quebec",
+        "channel": "Monicology",
+        "views": {
+          "simpleText": "觀看次數：134,235次"
+        },
+        "published": {
+          "simpleText": "5 年前"
+        },
+        "duplicate": false
+      },
+      {
+        "id": "XEuQK1i-pag",
+        "title": "McGill University Campus Tour | Montreal, Canada, 4K",
+        "channel": "Mojtaba Abbasi",
+        "views": {
+          "simpleText": "觀看次數：4,897次"
+        },
+        "published": {
+          "simpleText": "9 個月前"
+        },
+        "duplicate": false
+      },
+      {
+        "id": "8_oPO3TClsU",
+        "title": "🌟 McGill University Walking Tour | Best thing to do in Montreal , Explore Montreal’s Iconic Campus",
+        "channel": "Walking Attractions",
+        "views": {
+          "simpleText": "觀看次數：25,924次"
+        },
+        "published": {
+          "simpleText": "1 年前"
+        },
+        "duplicate": false
+      },
+      {
+        "id": "Eth7SkegVbU",
+        "title": "McGill University Campus Tour 🎓 | Exploring Montreal’s Top University!",
+        "channel": "ATPAL Languages",
+        "views": {
+          "simpleText": "觀看次數：571次"
+        },
+        "published": {
+          "simpleText": "1 年前"
+        },
+        "duplicate": false
+      },
+      {
+        "id": "lT4KgS_qqu0",
+        "title": "McGill University Campus Tour 2024 | Inside Look at Canada's Ivy League Gem",
+        "channel": "Parul TV",
+        "views": {
+          "simpleText": "觀看次數：6,865次"
+        },
+        "published": {
+          "simpleText": "2 年前"
+        },
+        "duplicate": false
+      },
+      {
+        "id": "S7Ymw2sDrYQ",
+        "title": "McGill University Campus Tour & History (Montreal, Québec) Canada",
+        "channel": "Hum of the Earth",
+        "views": {
+          "simpleText": "觀看次數：3,400次"
+        },
+        "published": {
+          "simpleText": "1 年前"
+        },
+        "duplicate": false
+      },
+      {
+        "id": "szQmd05DFfs",
+        "title": "mcgill dorms - upper, douglas hall, rvc, new res",
+        "channel": "sophie liang",
+        "views": {
+          "simpleText": "觀看次數：12,148次"
+        },
+        "published": {
+          "simpleText": "1 年前"
+        },
+        "duplicate": false
+      },
+      {
+        "id": "jhUeCIWlFmc",
+        "title": "Macdonald Campus Virtual Tour",
+        "channel": "McGill University - Macdonald Campus",
+        "views": {
+          "simpleText": "觀看次數：13,193次"
+        },
+        "published": {
+          "simpleText": "5 年前"
+        },
+        "duplicate": true
+      }
+    ]
+  }
+]
