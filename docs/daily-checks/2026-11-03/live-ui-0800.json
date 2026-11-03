@@ -1,0 +1,36 @@
+{
+  "verifiedAt": "2026-11-03T00:04:07.888Z",
+  "desktop": {
+    "passed": true,
+    "screenshot": "docs/daily-checks/2026-11-03/desktop-home-0800.png"
+  },
+  "mobile": {
+    "passed": true,
+    "requestedViewport": {
+      "width": 390,
+      "height": 844
+    },
+    "actualCSS": {
+      "width": 487,
+      "height": 1055,
+      "documentWidth": 468
+    },
+    "note": "Existing browser zoom affects CSS dimensions; responsive mobile layout visually inspected, no horizontal overflow. Override reset.",
+    "screenshots": [
+      "mobile-home-0800.png",
+      "mobile-award-0800.png",
+      "mobile-filter.png"
+    ]
+  },
+  "images": "Home three news photos and Durham award loaded and visually visible",
+  "search": {
+    "durhamUKUndergraduate": 1,
+    "noMatch": 0,
+    "clear": 245,
+    "loadMore": [
+      24,
+      48
+    ]
+  },
+  "recovery": "Existing tab focus timeout; fresh Chrome tab recovered. Viewport required reload to apply; no native-window safety bypass."
+}
