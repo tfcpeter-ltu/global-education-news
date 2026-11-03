@@ -1,6 +1,6 @@
 {
   "status": "ready",
-  "updatedAt": "2026-11-02T07:38:27.497Z",
+  "updatedAt": "2026-11-03T07:53:11.837Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
@@ -20,56 +20,50 @@
       "views": 5
     },
     {
-      "title": "澳洲學生簽證改革公開諮詢：11月23日截止，尚未定案｜環球教育新聞網 Global Education News",
-      "path": "/news/australia-genuine-student-financial-consultation-2026/",
+      "title": "澳洲IEAA公布教育獎項：教學與海外學習成效成焦點｜環球教育新聞網 Global Education News",
+      "path": "/news/ieaa-excellence-awards-student-learning-2026/",
       "views": 4
     },
     {
-      "title": "美國公布高教認證最終規則：2027年7月生效｜環球教育新聞網 Global Education News",
-      "path": "/news/us-accreditation-aim-final-rule-october-2026/",
-      "views": 3
+      "title": "澳洲學生簽證改革公開諮詢：11月23日截止，尚未定案｜環球教育新聞網 Global Education News",
+      "path": "/news/australia-genuine-student-financial-consultation-2026/",
+      "views": 4
     }
   ],
   "countries": [
     {
       "name": "台灣",
       "mapName": "Taiwan",
-      "sessions": 108,
-      "share": 47
+      "sessions": 111,
+      "share": 46.3
     },
     {
       "name": "美國",
       "mapName": "United States",
-      "sessions": 78,
-      "share": 33.9
-    },
-    {
-      "name": "愛爾蘭",
-      "mapName": "Ireland",
-      "sessions": 8,
-      "share": 3.5
+      "sessions": 76,
+      "share": 31.7
     },
     {
       "name": "瑞典",
       "mapName": "Sweden",
-      "sessions": 8,
-      "share": 3.5
+      "sessions": 10,
+      "share": 4.2
+    },
+    {
+      "name": "愛爾蘭",
+      "mapName": "Ireland",
+      "sessions": 7,
+      "share": 2.9
     },
     {
       "name": "英國",
       "mapName": "United Kingdom",
-      "sessions": 6,
-      "share": 2.6
+      "sessions": 7,
+      "share": 2.9
     },
     {
       "name": "中國",
       "mapName": "China",
-      "sessions": 3,
-      "share": 1.3
-    },
-    {
-      "name": "印度",
-      "mapName": "India",
       "sessions": 3,
       "share": 1.3
     },
@@ -80,16 +74,22 @@
       "share": 1.3
     },
     {
+      "name": "新加坡",
+      "mapName": "Singapore",
+      "sessions": 3,
+      "share": 1.3
+    },
+    {
+      "name": "Colombia",
+      "mapName": "Colombia",
+      "sessions": 2,
+      "share": 0.8
+    },
+    {
       "name": "德國",
       "mapName": "Germany",
       "sessions": 2,
-      "share": 0.9
-    },
-    {
-      "name": "新加坡",
-      "mapName": "Singapore",
-      "sessions": 2,
-      "share": 0.9
+      "share": 0.8
     }
   ]
 }
