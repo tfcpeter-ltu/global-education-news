@@ -1,5 +1,51 @@
 [
   {
+    "slug": "jobs-calligraphy-interest-and-cost-planning",
+    "title": "探索興趣，也要管理代價：Peter談賈伯斯演講與選系",
+    "date": "2026-11-04",
+    "category": "留學準備",
+    "country": "美國",
+    "excerpt": "以Stanford演講原文與Reed書法史查核，將個人故事與可執行的探索計畫分開。",
+    "description": "以Stanford演講原文與Reed書法史查核，將個人故事與可執行的探索計畫分開。",
+    "sourceId": "122149096287172155",
+    "sourceUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid02MjW7BQo1xg34i66bkMHZ1PT17KfRkjR8av3tFuFpJwBvtLCdJNe83NVRz8M2PPZvl&id=61585164670358",
+    "image": "/images/daily/2026-11-04/peter.jpg",
+    "imageAlt": "Reed College校園實景資料照",
+    "imageCredit": "Another Believer / CC BY-SA 4.0",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Reed_College,_Oct._2024_-_01.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageRights": "CC BY-SA 4.0",
+    "imageCaption": "授權校園資料照，非演講現場。",
+    "body": [
+      "Peter以賈伯斯2005年6月12日Stanford畢業演講談興趣與選系。演講原文敘述他在Reed接觸書法，約十年後把相關經驗連結到Mac字型設計；這是個人回顧，不是證明退學有利的研究。",
+      "Reed圖書館的書法歷史另記錄校內長期書法傳統。這份機構史可核對學習環境，卻不能把單一成功故事推廣成所有學生的職涯公式。",
+      "Peter提出六週、每週三小時的興趣探索例子，合計18小時。這是可自行調整的規劃示例，不是能力測驗、錄取門檻或經科學驗證的固定劑量。學生可保留作品、觀察投入意願，並與師長討論下一步。",
+      "編輯建議：家庭先約定時間與費用上限，再查證目標學校跨系選課、先修與轉系規則。興趣可以試做，學費與延長修業的代價也要算清楚。本篇為授權摘要及查核改寫；配圖為Reed校園資料照。"
+    ],
+    "sources": [
+      [
+        "Peter | original",
+        "https://www.facebook.com/permalink.php?story_fbid=pfbid02MjW7BQo1xg34i66bkMHZ1PT17KfRkjR8av3tFuFpJwBvtLCdJNe83NVRz8M2PPZvl&id=61585164670358"
+      ],
+      [
+        "Stanford | original speech",
+        "https://news.stanford.edu/stories/2005/06/youve-got-find-love-jobs-says"
+      ],
+      [
+        "Reed | calligraphy history",
+        "https://www.reed.edu/calligraphy/history.html"
+      ]
+    ],
+    "topic": "興趣與選系",
+    "author": "Peter",
+    "importedAt": "2026-11-04",
+    "originalDateLabel": "20小時",
+    "originalDatePrecision": "relative",
+    "dateObservedAt": "2026-11-04",
+    "edition": "verified-edit",
+    "note": "原生粉專回讀新文；會員宣傳排除，ECTS已於11月3日匯入。"
+  },
+  {
     "slug": "ects-workload-not-class-hours-europe-masters",
     "title": "學分不等於上課時數：Peter談歐洲碩士ECTS與選校",
     "date": "2026-11-03",

@@ -1,0 +1,197 @@
+{
+  "date": "2026-11-04",
+  "verifiedAt": "2026-11-04T05:30:13.055097+08:00",
+  "news": [
+    {
+      "slug": "germany-international-student-retention-fit-2026",
+      "title": "德國留學焦點轉向完成學業與就業銜接",
+      "url": "https://globalednews.com/news/germany-international-student-retention-fit-2026/",
+      "publishedPath": "src/pages/news/germany-international-student-retention-fit-2026.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://thepienews.com/germanys-international-student-push-turns-to-retention/"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://www.daad.de/en/information-services-for-higher-education-institutions/further-information-on-daad-programmes/fit/"
+        }
+      ],
+      "verifiedAt": "2026-11-04T05:10:44.600800+08:00"
+    },
+    {
+      "slug": "australia-2027-csp-allocation-pool",
+      "title": "澳洲公布2027年624,590個公費支持學額",
+      "url": "https://globalednews.com/news/australia-2027-csp-allocation-pool/",
+      "publishedPath": "src/pages/news/australia-2027-csp-allocation-pool.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://ministers.education.gov.au/clare/2027-university-places-allocated-under-new-managed-growth-system?page=2"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://andrewnorton.id.au/2026/06/29/the-proposed-new-funding-system-part-1-setting-the-number-of-fully-funded-commonwealth-supported-places/"
+        },
+        {
+          "label": "Source 3",
+          "url": "https://www.campusreview.com.au/2026/11/csps-announced-as-atec-gets-to-work/"
+        }
+      ],
+      "verifiedAt": "2026-11-04T05:10:44.600800+08:00"
+    },
+    {
+      "slug": "new-zealand-november-16-graduate-work-pathways",
+      "title": "紐西蘭11月16日將開放短期畢業工作簽證",
+      "url": "https://globalednews.com/news/new-zealand-november-16-graduate-work-pathways/",
+      "publishedPath": "src/pages/news/new-zealand-november-16-graduate-work-pathways.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://www.immigration.govt.nz/about-us/news-centre/new-and-updated-post-study-work-visa-options/"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://www.mcmillanco.nz/news/legal-news/a-new-stepping-stone-for-international-students-changes-announced-for-post-study-work-visas/"
+        }
+      ],
+      "verifiedAt": "2026-11-04T05:10:44.600800+08:00"
+    }
+  ],
+  "scholarships": [
+    {
+      "slug": "2026-11-surrey-international-excellence-undergraduate-2027",
+      "title": "Surrey本科卓越獎：首年學費減免£5,000",
+      "url": "https://globalednews.com/scholarships/items/2026-11-surrey-international-excellence-undergraduate-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-surrey-international-excellence-undergraduate-2027.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://www.surrey.ac.uk/fees-and-funding/scholarships-and-bursaries/international-excellence-award-undergraduate"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://europescholarships.com/scholarships/surrey-international-scholarships-uk-2027"
+        }
+      ],
+      "verifiedAt": "2026-11-04T05:16:41.709618+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "eligibleTaiwan": true,
+      "open": true,
+      "updateSummary": "台灣自費海外生可申請2027年全時本科；須持錄取並列為Firm choice。"
+    },
+    {
+      "slug": "2026-11-surrey-international-excellence-postgraduate-2027",
+      "title": "Surrey碩士卓越獎：首年減免£5,000",
+      "url": "https://globalednews.com/scholarships/items/2026-11-surrey-international-excellence-postgraduate-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-surrey-international-excellence-postgraduate-2027.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://www.surrey.ac.uk/fees-and-funding/scholarships-and-bursaries/international-excellence-award-postgraduate"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://collegedunia.com/uk/university/816-university-of-surrey-guildford/master-of-science-msc-international-business-management-159082"
+        }
+      ],
+      "verifiedAt": "2026-11-04T05:16:41.709618+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "eligibleTaiwan": true,
+      "open": true,
+      "updateSummary": "台灣自費海外生可申請指定全時碩士；2027年2月梯次於1月8日截止。"
+    },
+    {
+      "slug": "2026-11-surrey-mba-service-stewardship-2027",
+      "title": "Surrey MBA服務領導獎：學費減免10%至50%",
+      "url": "https://globalednews.com/scholarships/items/2026-11-surrey-mba-service-stewardship-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-surrey-mba-service-stewardship-2027.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://www.surrey.ac.uk/fees-and-funding/scholarships-and-bursaries/surrey-mba-service-stewardship-scholarship"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://tourismemory.org/makale/surrey-offers-mba-scholarships-of-up-to-50-for-future-hospitality-and-tourism-leaders"
+        },
+        {
+          "label": "Source 3",
+          "url": "https://www.surrey.ac.uk/postgraduate/master-business-administration-mba"
+        }
+      ],
+      "verifiedAt": "2026-11-04T05:16:41.709618+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "eligibleTaiwan": true,
+      "open": true,
+      "updateSummary": "台灣申請者須符合MBA學歷、至少三年畢業後管理經驗與英語條件。"
+    }
+  ],
+  "peter": {
+    "status": "fewer-new-posts",
+    "availableNewCount": 1,
+    "checkedAt": "2026-11-04T05:18:02.866927+08:00",
+    "sourceUrls": [
+      "https://www.facebook.com/permalink.php?story_fbid=pfbid02MjW7BQo1xg34i66bkMHZ1PT17KfRkjR8av3tFuFpJwBvtLCdJNe83NVRz8M2PPZvl&id=61585164670358",
+      "https://www.facebook.com/profile.php?id=61585164670358"
+    ],
+    "note": "Native feed and full photo post read: November3 Jobs/calligraphy article is new; membership promotion excluded; November2 ECTS already imported yesterday. Original native label 20 hours ago retained; exact publication date not inferred. Stanford primary speech and independent Reed institutional history read."
+  },
+  "campus": [
+    {
+      "school": "NTU",
+      "source": "https://management.ntu.edu.tw/ia/board/detail/sn/21373",
+      "status": "official-page-read",
+      "finding": "Management college exchange applications and first preferences November3–9; institution and host eligibility both required. Native full page read.",
+      "verifiedAt": "2026-11-04T05:18:02.866927+08:00"
+    },
+    {
+      "school": "NTHU",
+      "source": "https://oga-exchange.vm.nthu.edu.tw/outexchange/index/index/puid/11521",
+      "status": "official-page-read",
+      "finding": "New applications closed October8 16:00; preference selection through November10 16:00 for existing applicants only.",
+      "verifiedAt": "2026-11-04T05:18:02.866927+08:00"
+    },
+    {
+      "school": "NTNU",
+      "source": "https://www.cos.ntnu.edu.tw/index.php/2026/10/27/2027niigataexchange/",
+      "status": "official-page-read",
+      "finding": "Science college Niigata spring2027 exchange, enrolled UG/masters; paper documents due November17 17:00 Taipei; nomination does not guarantee acceptance. Native full page read.",
+      "verifiedAt": "2026-11-04T05:18:02.866927+08:00"
+    }
+  ],
+  "ltu": {
+    "status": "sources-verified",
+    "checkedAt": "2026-11-04T05:18:02.866927+08:00",
+    "poolCount": 12,
+    "expectedIndices": [
+      4,
+      5,
+      6
+    ],
+    "sourceUrls": [
+      "https://www.ctee.com.tw/news/20260401701821-431204",
+      "https://www.ctee.com.tw/news/20250723702079-431204",
+      "https://udn.com/news/story/6898/9271435"
+    ],
+    "note": "All three original articles read, CTEE in native Chrome and UDN via web. Live rotation awaits acceptance."
+  },
+  "exclusions": [
+    "Hertfordshire Chancellor already exists in baseline; not added again.",
+    "York undergraduate award opens shortly, not currently open.",
+    "Surrey Future Leaders eligible domicile list excludes Taiwan.",
+    "Brunel MBA page has inconsistent years and midnight wording; not selected.",
+    "Existing UK/Canada stories already published November3, not repeated."
+  ],
+  "sourceAssessment": [
+    "Surrey UG Europe Scholarships authored comparative guide corroborates award scope; official controls current deadlines.",
+    "Surrey PG Collegedunia subject guide independently identifies amount, January8 and pre-CAS terms.",
+    "Surrey MBA Tourismemory signed academic editorial October10 corroborates award; current2027 course page explicitly open and linked scholarship assessed alongside course application.",
+    "Australia official October29 date used; Campus Review weekday discrepancy disclosed. Andrew Norton earlier independent funding-system analysis is background, not claimed new reporting.",
+    "NZ independent McMillan legal analysis and official immigration rules read; November16 remains future."
+  ],
+  "photos": "Commons licence metadata read; photographs and four headline crops visually inspected; all archive scenes labelled."
+}
