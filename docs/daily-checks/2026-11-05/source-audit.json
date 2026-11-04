@@ -1,0 +1,216 @@
+{
+  "date": "2026-11-05",
+  "verifiedAt": "2026-11-05T05:18:08.959769+08:00",
+  "news": [
+    {
+      "slug": "india-tne-value-aiec-2026",
+      "title": "印度海外校區熱潮：國際品牌之外，更要檢視學習價值",
+      "url": "https://globalednews.com/news/india-tne-value-aiec-2026/",
+      "publishedPath": "src/pages/news/india-tne-value-aiec-2026.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://thepienews.com/international-universities-face-pressure-to-prove-value-in-india/"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://www.xcdsystem.com/aiec/program/sV0TkNj/index.cfm?RunRemoveSessionFilter=1&pgid=5906"
+        }
+      ],
+      "verifiedAt": "2026-11-05T05:11:15.353766+08:00"
+    },
+    {
+      "slug": "canada-research-training-awards-880m-2026",
+      "title": "加拿大8.8億加元研究投入：計畫經費與人才獎助分開看",
+      "url": "https://globalednews.com/news/canada-research-training-awards-880m-2026/",
+      "publishedPath": "src/pages/news/canada-research-training-awards-880m-2026.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://www.canada.ca/en/institutes-health-research/news/2026/10/government-of-canada-invests-880-million-to-empower-the-next-generation-of-researchers.html"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://uanworld.com/story/canada-research-grants-training-awards-2026"
+        }
+      ],
+      "verifiedAt": "2026-11-05T05:11:15.353766+08:00"
+    },
+    {
+      "slug": "arab-higher-education-unesco-2026",
+      "title": "阿拉伯高教學生近1,500萬：擴張之外仍有品質與就業挑戰",
+      "url": "https://globalednews.com/news/arab-higher-education-unesco-2026/",
+      "publishedPath": "src/pages/news/arab-higher-education-unesco-2026.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://www.unesco.org/en/articles/number-students-higher-education-triples-across-arab-states-graduate-employability-remains-challenge"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://qatarnewswire.qa/unesco-director-highlights-qatars-role-in-advancing-education-and-innovation/"
+        }
+      ],
+      "verifiedAt": "2026-11-05T05:11:15.353766+08:00"
+    }
+  ],
+  "scholarships": [
+    {
+      "slug": "2026-11-brighton-vc-january-2027",
+      "title": "Brighton Vice-Chancellor獎：£2,000學費減免",
+      "url": "https://globalednews.com/scholarships/items/2026-11-brighton-vc-january-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-brighton-vc-january-2027.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://www.brighton.ac.uk/studying-here/fees-and-finance/postgraduate/international-students/scholarships/vice-chancellor-scholarships.aspx"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://duhocnamphong.vn/danh-sach-hon-50-truong-uk-con-nhan-don-nhap-hoc-vao-012027-n2112.html"
+        },
+        {
+          "label": "Source 3",
+          "url": "https://www.brighton.ac.uk/courses/study/artificial-intelligence-and-machine-learning-msc-pgcert-pgdip.aspx"
+        },
+        {
+          "label": "Current Management MSc January2027 applications",
+          "url": "https://www.brighton.ac.uk/courses/study/management-msc-pgcert-pgdip.aspx"
+        }
+      ],
+      "verifiedAt": "2026-11-05T05:11:15.353766+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "eligibleTaiwan": true,
+      "open": true,
+      "updateSummary": "New January2027 award; official conditions and independent amount checked"
+    },
+    {
+      "slug": "2026-11-brighton-deans-january-2027",
+      "title": "Brighton Deans Global Talent獎：£500至£1,000學費減免",
+      "url": "https://globalednews.com/scholarships/items/2026-11-brighton-deans-january-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-brighton-deans-january-2027.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://www.brighton.ac.uk/studying-here/fees-and-finance/postgraduate/international-students/scholarships/deans-global-talent-award.aspx"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://duhocnamphong.vn/danh-sach-hon-50-truong-uk-con-nhan-don-nhap-hoc-vao-012027-n2112.html"
+        },
+        {
+          "label": "Source 3",
+          "url": "https://www.brighton.ac.uk/courses/study/artificial-intelligence-and-machine-learning-msc-pgcert-pgdip.aspx"
+        },
+        {
+          "label": "Current Management MSc January2027 applications",
+          "url": "https://www.brighton.ac.uk/courses/study/management-msc-pgcert-pgdip.aspx"
+        }
+      ],
+      "verifiedAt": "2026-11-05T05:11:15.353766+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "eligibleTaiwan": true,
+      "open": true,
+      "updateSummary": "New January2027 award; official conditions and independent amount checked"
+    },
+    {
+      "slug": "2026-11-brighton-stem-january-2027",
+      "title": "Brighton Future STEM Scholars獎：£2,500學費減免",
+      "url": "https://globalednews.com/scholarships/items/2026-11-brighton-stem-january-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-brighton-stem-january-2027.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://www.brighton.ac.uk/studying-here/fees-and-finance/postgraduate/international-students/scholarships/future-stem-scholars-awards.aspx"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://duhocnamphong.vn/danh-sach-hon-50-truong-uk-con-nhan-don-nhap-hoc-vao-012027-n2112.html"
+        },
+        {
+          "label": "Source 3",
+          "url": "https://www.brighton.ac.uk/courses/study/artificial-intelligence-and-machine-learning-msc-pgcert-pgdip.aspx"
+        }
+      ],
+      "verifiedAt": "2026-11-05T05:11:15.353766+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "eligibleTaiwan": true,
+      "open": true,
+      "updateSummary": "New January2027 award; official conditions and independent amount checked"
+    }
+  ],
+  "peter": {
+    "status": "fewer-new-posts",
+    "availableNewCount": 1,
+    "checkedAt": "2026-11-05T05:12:52.707528+08:00",
+    "sourceUrls": [
+      "https://www.facebook.com/photo/?fbid=122149206447172155",
+      "https://www.facebook.com/profile.php?id=61585164670358"
+    ],
+    "note": "Native feed/full text read: WO/HBO new; membership promotion excluded; Jobs already imported November4. Relative19hours retained."
+  },
+  "campus": [
+    {
+      "school": "NTU",
+      "source": "https://management.ntu.edu.tw/ia/board/detail/sn/21373",
+      "finding": "Exchange selection must satisfy both college and host requirements; older fact sheets are references only.",
+      "status": "official-page-read",
+      "verifiedAt": "2026-11-05T05:12:52.707528+08:00"
+    },
+    {
+      "school": "NTHU",
+      "source": "https://oga-exchange.vm.nthu.edu.tw/outexchange/index/index/puid/11521",
+      "finding": "Official system instructions read; valid language evidence and submission timing matter.",
+      "status": "official-page-read",
+      "verifiedAt": "2026-11-05T05:12:52.707528+08:00"
+    },
+    {
+      "school": "NUK",
+      "source": "https://dia.nuk.edu.tw/p/406-1034-102093,r1482.php?Lang=zh-tw",
+      "finding": "Exchange briefing registration closes November6 noon Taipei,70places,NUKstudents only; briefing November16 12:10–14:00.",
+      "status": "official-page-read",
+      "verifiedAt": "2026-11-05T05:12:52.707528+08:00"
+    }
+  ],
+  "ltu": {
+    "status": "partial-source-safety-block",
+    "checkedAt": "2026-11-05T05:18:08.959769+08:00",
+    "rotationIndices": [
+      5,
+      6,
+      7
+    ],
+    "sources": [
+      {
+        "url": "https://www.ctee.com.tw/news/20250723702079-431204",
+        "status": "native-full-text-read",
+        "note": "July23 2025 archive report; summer school and Trent cooperation."
+      },
+      {
+        "url": "https://udn.com/news/story/6898/9271435",
+        "status": "full-text-read",
+        "note": "January17 archive; retained original date."
+      },
+      {
+        "url": "https://www.setn.com/m/news.aspx?newsid=1688074",
+        "status": "browser-safety-block",
+        "note": "No bypass attempted; current source remains unverified."
+      }
+    ]
+  },
+  "exclusions": [
+    "Collegedunia denied region access; replaced with Nam Phong signed January2027 comparative admissions guide.",
+    "Already imported Peter Jobs post and membership promotion excluded."
+  ],
+  "sourceAssessment": [
+    "India: PIE AIEC original reporting corroborated against official session programme; not a new government policy.",
+    "Canada: October22 federal funding release plus independently analysed budget comparison in UAN World; not a new Taiwan scholarship call.",
+    "Arab region: November3 UNESCO report and November2 QNA conference interview; two report contexts, not independently calculated statistical datasets.",
+    "Brighton: official award terms control; Nam Phong corroborates three distinct amounts and January entry. Management MSc explicitly accepts January2027 applications; AI course also open for STEM. Deans and STEM cannot be combined.",
+    "Taiwan eligibility is conditional on international fee status, self funding and other official exclusions; no automatic award guarantee."
+  ],
+  "photos": "Nine Commons licence records read; original photos and four headline crops visually inspected; all archive scenes labelled."
+}
