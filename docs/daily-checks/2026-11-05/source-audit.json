@@ -176,14 +176,19 @@
     }
   ],
   "ltu": {
-    "status": "partial-source-safety-block",
-    "checkedAt": "2026-11-05T05:18:08.959769+08:00",
+    "status": "verified-with-reviewed-substitute",
+    "checkedAt": "2026-11-04T21:40:25.379Z",
     "rotationIndices": [
+      0,
       5,
-      6,
-      7
+      6
     ],
     "sources": [
+      {
+        "url": "https://www.ctee.com.tw/news/20250623700886-431204",
+        "status": "native-full-text-read",
+        "note": "2025-06-23 archive report by 謝易晏, LTU OSSD programme and university links; separately reviewed substitute, not a current admissions guarantee."
+      },
       {
         "url": "https://www.ctee.com.tw/news/20250723702079-431204",
         "status": "native-full-text-read",
@@ -193,12 +198,12 @@
         "url": "https://udn.com/news/story/6898/9271435",
         "status": "full-text-read",
         "note": "January17 archive; retained original date."
-      },
-      {
-        "url": "https://www.setn.com/m/news.aspx?newsid=1688074",
-        "status": "browser-safety-block",
-        "note": "No bypass attempted; current source remains unverified."
       }
+    ],
+    "originalSelection": [
+      5,
+      6,
+      7
     ]
   },
   "exclusions": [
@@ -212,5 +217,17 @@
     "Brighton: official award terms control; Nam Phong corroborates three distinct amounts and January entry. Management MSc explicitly accepts January2027 applications; AI course also open for STEM. Deans and STEM cannot be combined.",
     "Taiwan eligibility is conditional on international fee status, self funding and other official exclusions; no automatic award guarantee."
   ],
-  "photos": "Nine Commons licence records read; original photos and four headline crops visually inspected; all archive scenes labelled."
+  "photos": "Nine Commons licence records read; original photos and four headline crops visually inspected; all archive scenes labelled.",
+  "resolvedBlockers": [
+    {
+      "stage": "LTU_SOURCE_REVIEW",
+      "url": "https://www.setn.com/m/news.aspx?newsid=1688074",
+      "reason": "Browser site-safety gate denied observation; no bypass attempted. Other work continues."
+    },
+    {
+      "stage": "LTU_SOURCE_REVIEW",
+      "url": "https://news.ltn.com.tw/news/life/breakingnews/5062658",
+      "reason": "Alternative blocked by browser site-safety policy; not bypassed. Different CTEE archive article read successfully."
+    }
+  ]
 }

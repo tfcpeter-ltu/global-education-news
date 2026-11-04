@@ -1,0 +1,136 @@
+{
+  "runtime": "C:\\Users\\User\\AppData\\Local\\Temp\\globalednews-security-20261019",
+  "backup": "C:\\Users\\User\\AppData\\Local\\Temp\\globalednews-20261105-runtime-backup",
+  "changes": [
+    {
+      "path": "docs/social-posts/2026-11-05/news--india-tne-value.json",
+      "sourceSha256": "e1004b42221815d6b65863ae27d0dbf7d9fd79d28798ac7cb5682507e81e708a",
+      "runtimeSha256": null
+    },
+    {
+      "path": "docs/social-posts/2026-11-05/publication-log.json",
+      "sourceSha256": "9d88cf9b96afef53c97f52b28f47338b7a8c8a5deb04d07794f7a044f4e98d7f",
+      "runtimeSha256": null
+    },
+    {
+      "path": "docs/social-posts/2026-11-05/scholarship--brighton-stem-january.json",
+      "sourceSha256": "b007a636d32896d9744200be44295275b954675db61cbb1285d2e01039db1a3d",
+      "runtimeSha256": null
+    },
+    {
+      "path": "docs/social-posts/2026-11-05/study-abroad--twente-premaster-budget.json",
+      "sourceSha256": "3d26e75e971e4999edda5858a7f7671319848f06472b2fb4979a6bfdb25a8843",
+      "runtimeSha256": null
+    },
+    {
+      "path": "docs/social-posts/2026-11-05/taiwan-universities--exchange-two-checks.json",
+      "sourceSha256": "cec9adeb0fa0c7fe94bade285546b6959694dd1a17d44541cbb4819985223de4",
+      "runtimeSha256": null
+    },
+    {
+      "path": "public/data/analytics-summary.json",
+      "sourceSha256": "870583852a1bf77dceaa132c22ae8e7315ec3f7f6cb06dddcb561acddcb8dffe",
+      "runtimeSha256": "a9eb108340b63faee5e185e20367c063fd545c11189978c4e688d181fd28e001"
+    },
+    {
+      "path": "public/images/daily/2026-11-05/arab.jpg",
+      "sourceSha256": "41657e32cf94257aba4ab901b9703bd17ffc531262d7ab47a60ceb7c8fd334b1",
+      "runtimeSha256": null
+    },
+    {
+      "path": "public/images/daily/2026-11-05/ca.jpg",
+      "sourceSha256": "58e42e5acdf01082f497adb7c6c75c6d06b1bddbfb8b94594e3d68048ffda13b",
+      "runtimeSha256": null
+    },
+    {
+      "path": "public/images/daily/2026-11-05/credits.html",
+      "sourceSha256": "6174b72a277eb6f05f23714d64e523579f1bc3f4742da3b1b8d5cf3d38010669",
+      "runtimeSha256": null
+    },
+    {
+      "path": "public/images/daily/2026-11-05/deans.jpg",
+      "sourceSha256": "f756df343d6b6ae43ceb2d30d2d706d33d1952520305cfe0f38ed1ae8fdf7770",
+      "runtimeSha256": null
+    },
+    {
+      "path": "public/images/daily/2026-11-05/diy.jpg",
+      "sourceSha256": "50d7d4e7f752f51e17a1804eb93eb6154b933083a2000dbd721badf2080735e0",
+      "runtimeSha256": null
+    },
+    {
+      "path": "public/images/daily/2026-11-05/india.jpg",
+      "sourceSha256": "37426a5c30ba822f1cb9099eb0c2b58d3cfbbc0c8f935ec4726abd6f34b03d1b",
+      "runtimeSha256": null
+    },
+    {
+      "path": "public/images/daily/2026-11-05/peter.jpg",
+      "sourceSha256": "0787e6bb19f1acefe9661605851c45080e921e0e827ce63c6577392643f59f7f",
+      "runtimeSha256": null
+    },
+    {
+      "path": "public/images/daily/2026-11-05/stem.jpg",
+      "sourceSha256": "f5be1634d2cd795a46622b7ff03a27e09b4c8989a068f0a6c2325087dde49f91",
+      "runtimeSha256": null
+    },
+    {
+      "path": "public/images/daily/2026-11-05/taiwan.jpg",
+      "sourceSha256": "609b55dbf1bd3da9ea6509de24ed8fc886eab5898ca1f0a46b55abfe87b88459",
+      "runtimeSha256": null
+    },
+    {
+      "path": "public/images/daily/2026-11-05/vc.jpg",
+      "sourceSha256": "79e8cd174d35880afcc8468c935848ff7cd0c2df4621a3f1760e740e79ed69d8",
+      "runtimeSha256": null
+    },
+    {
+      "path": "src/data/i18n/en-overrides.json",
+      "sourceSha256": "5efda0fba8d4fda50b3f91b31959118838079c94da1ad9c5a9180fb072355de2",
+      "runtimeSha256": "de4a051d6651ca24abf568983edbad4ac654e9d25ef79145432a0ce1294078c8"
+    },
+    {
+      "path": "src/data/peter-articles.json",
+      "sourceSha256": "6c0864e8e56b6066d5e85ef770bf61d16554d69cc697c3614895dff7fbd1c9f0",
+      "runtimeSha256": "2c82c3c5befcbc8e954d3f24b6d619fc73fb7a2061119e84173f12cbb5e60067"
+    },
+    {
+      "path": "src/data/vlog-videos.json",
+      "sourceSha256": "096cf310f43a4bac0c0fa836f28e39fa8bd75513bd9fe08a9f334c4a944097e7",
+      "runtimeSha256": "4043be220fa58c4ea614373046dbd58614abf16acab10efc11754ca58f0add72"
+    },
+    {
+      "path": "src/pages/news/arab-higher-education-unesco-2026.md",
+      "sourceSha256": "0b4723cdbebcf296f696b7855d180e7007a0143fdd45f08ef648461520cc704e",
+      "runtimeSha256": null
+    },
+    {
+      "path": "src/pages/news/canada-research-training-awards-880m-2026.md",
+      "sourceSha256": "06de559ad5f0e6bbdfd3a8ba6f5cfb34cc6e408d514244ef00a54b50cd7ad5cc",
+      "runtimeSha256": null
+    },
+    {
+      "path": "src/pages/news/india-tne-value-aiec-2026.md",
+      "sourceSha256": "b6772407b77c04c40b9b3d396044dd7a7b13a550c72c90e17d9fc97a599886b3",
+      "runtimeSha256": null
+    },
+    {
+      "path": "src/pages/scholarships/items/2026-11-brighton-deans-january-2027.md",
+      "sourceSha256": "31fbbf3f034a17401509cc6365dd082e38a14fb1f406d4331616eb6a6f53830e",
+      "runtimeSha256": null
+    },
+    {
+      "path": "src/pages/scholarships/items/2026-11-brighton-stem-january-2027.md",
+      "sourceSha256": "8519f8d3c37538b2800a81ba844ffb6b089223f7af1ea3d2e62ad2f777866210",
+      "runtimeSha256": null
+    },
+    {
+      "path": "src/pages/scholarships/items/2026-11-brighton-vc-january-2027.md",
+      "sourceSha256": "17cc5aac24a02790c19da539d10e7676ade01b83a21048415d0ebbba49b6f888",
+      "runtimeSha256": null
+    },
+    {
+      "path": "src/pages/study-abroad/twente-pre-master-route-budget-2027.md",
+      "sourceSha256": "1179a2cb22d0a57d1f86bd3271c16bda07b2c102285988e465142f54d8597717",
+      "runtimeSha256": null
+    }
+  ]
+}

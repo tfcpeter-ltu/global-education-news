@@ -3,7 +3,7 @@
   "timezone": "Asia/Taipei",
   "startedAt": "2026-11-05T05:05:55.6418545+08:00",
   "status": "in_progress",
-  "currentPhase": "COMMIT_DEPLOY",
+  "currentPhase": "FINAL_DEPLOY_ACCEPTANCE",
   "mainBaselineSha": "e99352276324e9cc6a82d92cc4f66b1a62f20b98",
   "scholarshipBaselineSlugs": [
     "2026-08-bristol-think-big",
@@ -255,7 +255,62 @@
     "catalog-vanderbilt-ingram",
     "catalog-yale-international-aid"
   ],
-  "newsPublished": [],
+  "newsPublished": [
+    {
+      "slug": "india-tne-value-aiec-2026",
+      "title": "印度海外校區熱潮：國際品牌之外，更要檢視學習價值",
+      "url": "https://globalednews.com/news/india-tne-value-aiec-2026/",
+      "publishedPath": "src/pages/news/india-tne-value-aiec-2026.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://thepienews.com/international-universities-face-pressure-to-prove-value-in-india/"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://www.xcdsystem.com/aiec/program/sV0TkNj/index.cfm?RunRemoveSessionFilter=1&pgid=5906"
+        }
+      ],
+      "verifiedAt": "2026-11-05T05:11:15.353766+08:00",
+      "publishedVerifiedAt": "2026-11-05T05:21:32.558880+08:00"
+    },
+    {
+      "slug": "canada-research-training-awards-880m-2026",
+      "title": "加拿大8.8億加元研究投入：計畫經費與人才獎助分開看",
+      "url": "https://globalednews.com/news/canada-research-training-awards-880m-2026/",
+      "publishedPath": "src/pages/news/canada-research-training-awards-880m-2026.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://www.canada.ca/en/institutes-health-research/news/2026/10/government-of-canada-invests-880-million-to-empower-the-next-generation-of-researchers.html"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://uanworld.com/story/canada-research-grants-training-awards-2026"
+        }
+      ],
+      "verifiedAt": "2026-11-05T05:11:15.353766+08:00",
+      "publishedVerifiedAt": "2026-11-05T05:21:32.558880+08:00"
+    },
+    {
+      "slug": "arab-higher-education-unesco-2026",
+      "title": "阿拉伯高教學生近1,500萬：擴張之外仍有品質與就業挑戰",
+      "url": "https://globalednews.com/news/arab-higher-education-unesco-2026/",
+      "publishedPath": "src/pages/news/arab-higher-education-unesco-2026.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://www.unesco.org/en/articles/number-students-higher-education-triples-across-arab-states-graduate-employability-remains-challenge"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://qatarnewswire.qa/unesco-director-highlights-qatars-role-in-advancing-education-and-innovation/"
+        }
+      ],
+      "verifiedAt": "2026-11-05T05:11:15.353766+08:00",
+      "publishedVerifiedAt": "2026-11-05T05:21:32.558880+08:00"
+    }
+  ],
   "scholarshipAdditions": [
     {
       "slug": "2026-11-brighton-vc-january-2027",
@@ -285,7 +340,8 @@
       "baselineAbsent": true,
       "eligibleTaiwan": true,
       "open": true,
-      "updateSummary": "New January2027 award; official conditions and independent amount checked"
+      "updateSummary": "New January2027 award; official conditions and independent amount checked",
+      "publishedVerifiedAt": "2026-11-05T05:21:32.558880+08:00"
     },
     {
       "slug": "2026-11-brighton-deans-january-2027",
@@ -315,7 +371,8 @@
       "baselineAbsent": true,
       "eligibleTaiwan": true,
       "open": true,
-      "updateSummary": "New January2027 award; official conditions and independent amount checked"
+      "updateSummary": "New January2027 award; official conditions and independent amount checked",
+      "publishedVerifiedAt": "2026-11-05T05:21:32.558880+08:00"
     },
     {
       "slug": "2026-11-brighton-stem-january-2027",
@@ -341,26 +398,488 @@
       "baselineAbsent": true,
       "eligibleTaiwan": true,
       "open": true,
-      "updateSummary": "New January2027 award; official conditions and independent amount checked"
+      "updateSummary": "New January2027 award; official conditions and independent amount checked",
+      "publishedVerifiedAt": "2026-11-05T05:21:32.558880+08:00"
     }
   ],
-  "scholarshipChecks": [],
-  "peterImports": [],
-  "socialPosts": [],
+  "scholarshipChecks": [
+    {
+      "slug": "2026-11-brighton-vc-january-2027",
+      "title": "Brighton Vice-Chancellor獎：£2,000學費減免",
+      "url": "https://globalednews.com/scholarships/items/2026-11-brighton-vc-january-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-brighton-vc-january-2027.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://www.brighton.ac.uk/studying-here/fees-and-finance/postgraduate/international-students/scholarships/vice-chancellor-scholarships.aspx"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://duhocnamphong.vn/danh-sach-hon-50-truong-uk-con-nhan-don-nhap-hoc-vao-012027-n2112.html"
+        },
+        {
+          "label": "Source 3",
+          "url": "https://www.brighton.ac.uk/courses/study/artificial-intelligence-and-machine-learning-msc-pgcert-pgdip.aspx"
+        },
+        {
+          "label": "Current Management MSc January2027 applications",
+          "url": "https://www.brighton.ac.uk/courses/study/management-msc-pgcert-pgdip.aspx"
+        }
+      ],
+      "verifiedAt": "2026-11-05T05:11:15.353766+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "eligibleTaiwan": true,
+      "open": true,
+      "updateSummary": "New January2027 award; official conditions and independent amount checked",
+      "publishedVerifiedAt": "2026-11-05T05:21:32.558880+08:00"
+    },
+    {
+      "slug": "2026-11-brighton-deans-january-2027",
+      "title": "Brighton Deans Global Talent獎：£500至£1,000學費減免",
+      "url": "https://globalednews.com/scholarships/items/2026-11-brighton-deans-january-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-brighton-deans-january-2027.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://www.brighton.ac.uk/studying-here/fees-and-finance/postgraduate/international-students/scholarships/deans-global-talent-award.aspx"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://duhocnamphong.vn/danh-sach-hon-50-truong-uk-con-nhan-don-nhap-hoc-vao-012027-n2112.html"
+        },
+        {
+          "label": "Source 3",
+          "url": "https://www.brighton.ac.uk/courses/study/artificial-intelligence-and-machine-learning-msc-pgcert-pgdip.aspx"
+        },
+        {
+          "label": "Current Management MSc January2027 applications",
+          "url": "https://www.brighton.ac.uk/courses/study/management-msc-pgcert-pgdip.aspx"
+        }
+      ],
+      "verifiedAt": "2026-11-05T05:11:15.353766+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "eligibleTaiwan": true,
+      "open": true,
+      "updateSummary": "New January2027 award; official conditions and independent amount checked",
+      "publishedVerifiedAt": "2026-11-05T05:21:32.558880+08:00"
+    },
+    {
+      "slug": "2026-11-brighton-stem-january-2027",
+      "title": "Brighton Future STEM Scholars獎：£2,500學費減免",
+      "url": "https://globalednews.com/scholarships/items/2026-11-brighton-stem-january-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-brighton-stem-january-2027.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://www.brighton.ac.uk/studying-here/fees-and-finance/postgraduate/international-students/scholarships/future-stem-scholars-awards.aspx"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://duhocnamphong.vn/danh-sach-hon-50-truong-uk-con-nhan-don-nhap-hoc-vao-012027-n2112.html"
+        },
+        {
+          "label": "Source 3",
+          "url": "https://www.brighton.ac.uk/courses/study/artificial-intelligence-and-machine-learning-msc-pgcert-pgdip.aspx"
+        }
+      ],
+      "verifiedAt": "2026-11-05T05:11:15.353766+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "eligibleTaiwan": true,
+      "open": true,
+      "updateSummary": "New January2027 award; official conditions and independent amount checked",
+      "publishedVerifiedAt": "2026-11-05T05:21:32.558880+08:00"
+    }
+  ],
+  "peterImports": [
+    {
+      "slug": "netherlands-wo-hbo-study-pathways",
+      "title": "荷蘭選校先分WO與HBO：Peter談學習路線與銜接成本",
+      "url": "https://globalednews.com/peter/netherlands-wo-hbo-study-pathways/",
+      "sourceId": "122149206447172155",
+      "sourceUrl": "https://www.facebook.com/photo/?fbid=122149206447172155",
+      "verifiedAt": "2026-11-05T05:12:52.707528+08:00",
+      "publishedVerifiedAt": "2026-11-05T05:21:32.558880+08:00"
+    }
+  ],
+  "socialPosts": [
+    {
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-05T05:24:48.468000+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-05T05:24:48.468000+08:00",
+      "visibility": "PUBLIC",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "publicationDateTaipei": "2026-11-05",
+      "campaign": "news",
+      "network": "facebook",
+      "id": "1109513751824822",
+      "idKind": "published-photo",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0iGsrY1NnexoxdbEZ7SNq3RtBvrmFMJtg9DMZELdSgddduGqiMNNP3S5PUm6yPPBGl",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "accountId": "101904929207004",
+      "publishedAt": "2026-11-05T05:22:19.727000+08:00",
+      "publishedAtBasis": "observed native submission; public relative time confirmed",
+      "publishedTimeLabel": "約1分鐘前",
+      "mediaEvidence": "docs/social-posts/2026-11-05/evidence/facebook-news.png",
+      "publicPhotoScreenshot": "docs/social-posts/2026-11-05/evidence/facebook-news.png",
+      "photoReadyEvidence": "docs/social-posts/2026-11-05/evidence/facebook-news-photo-before-copy.png",
+      "photoAttachedAt": "2026-11-05T05:19:37.885000+08:00",
+      "copyAddedAt": "2026-11-05T05:19:38.213000+08:00",
+      "photoAttachments": [
+        {
+          "id": "1109513751824822",
+          "url": "https://www.facebook.com/photo/?fbid=1109513751824822"
+        }
+      ],
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-05T05:24:48.468000+08:00"
+    },
+    {
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-05T05:24:57.642000+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-05T05:24:57.642000+08:00",
+      "visibility": "PUBLIC",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "publicationDateTaipei": "2026-11-05",
+      "campaign": "news",
+      "network": "linkedin",
+      "id": "7523857447342755840",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7523857447342755840/",
+      "account": "Peter Chen",
+      "accountId": "peter-chen-26a754228",
+      "publishedAt": "2026-11-05T05:23:17.022000+08:00",
+      "publishedAtBasis": "observed native submission time",
+      "publishedTimeLabel": "1分鐘",
+      "mediaEvidence": "docs/social-posts/2026-11-05/evidence/linkedin-news.png"
+    },
+    {
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-05T05:26:55.292000+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-05T05:26:55.292000+08:00",
+      "visibility": "PUBLIC",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "publicationDateTaipei": "2026-11-05",
+      "campaign": "news",
+      "network": "threads",
+      "id": "DfVatrDk9m4",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfVatrDk9m4",
+      "account": "ltuossdtw",
+      "accountId": "ltuossdtw",
+      "publishedAt": "2026-11-05T05:25:23+08:00",
+      "publishedAtBasis": "public time datetime attribute",
+      "publishedTimeLabel": "1分鐘",
+      "mediaEvidence": "docs/social-posts/2026-11-05/evidence/threads-news.png"
+    },
+    {
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-05T05:28:00.641000+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-05T05:28:00.641000+08:00",
+      "visibility": "PUBLIC",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "publicationDateTaipei": "2026-11-05",
+      "campaign": "scholarship",
+      "network": "facebook",
+      "id": "1109517851824412",
+      "idKind": "published-photo",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0sSjKMmJ7yZJLkhGg8QaJhV4sQZcoGPseSgH8s85aAgbkW4yeaE6norLALF83m7bel",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "accountId": "101904929207004",
+      "publishedAt": "2026-11-05T05:26:42.546000+08:00",
+      "publishedAtBasis": "observed native submission time",
+      "publishedTimeLabel": "剛剛",
+      "mediaEvidence": "docs/social-posts/2026-11-05/evidence/facebook-scholarship.png",
+      "publicPhotoScreenshot": "docs/social-posts/2026-11-05/evidence/facebook-scholarship.png",
+      "photoReadyEvidence": "docs/social-posts/2026-11-05/evidence/facebook-scholarship-photo-before-copy.png",
+      "photoAttachedAt": "2026-11-05T05:26:16.725000+08:00",
+      "copyAddedAt": "2026-11-05T05:26:16.968000+08:00",
+      "photoAttachments": [
+        {
+          "id": "1109517851824412",
+          "url": "https://www.facebook.com/photo/?fbid=1109517851824412"
+        }
+      ],
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-05T05:28:00.641000+08:00"
+    },
+    {
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-05T05:28:41.548000+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-05T05:28:41.548000+08:00",
+      "visibility": "PUBLIC",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "publicationDateTaipei": "2026-11-05",
+      "campaign": "news",
+      "network": "instagram",
+      "id": "DfVa8JJk4KM",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DfVa8JJk4KM/",
+      "account": "ltuossdtw",
+      "accountId": "ltuossdtw",
+      "publishedAt": "2026-11-05T05:27:25+08:00",
+      "publishedAtBasis": "public time datetime attribute",
+      "publishedTimeLabel": "1分鐘",
+      "crossposting": false,
+      "mediaEvidence": "docs/social-posts/2026-11-05/evidence/instagram-news.png"
+    },
+    {
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-05T05:29:30.094000+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-05T05:29:30.094000+08:00",
+      "visibility": "PUBLIC",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "publicationDateTaipei": "2026-11-05",
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "id": "7523858692375490560",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7523858692375490560/",
+      "account": "Peter Chen",
+      "accountId": "peter-chen-26a754228",
+      "publishedAt": "2026-11-05T05:28:14.796000+08:00",
+      "publishedAtBasis": "observed native submission time",
+      "publishedTimeLabel": "剛剛",
+      "mediaEvidence": "docs/social-posts/2026-11-05/evidence/linkedin-scholarship.png"
+    },
+    {
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-05T05:29:58.141000+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-05T05:29:58.141000+08:00",
+      "visibility": "PUBLIC",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "publicationDateTaipei": "2026-11-05",
+      "campaign": "scholarship",
+      "network": "threads",
+      "id": "DfVbEMVk4vc",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfVbEMVk4vc",
+      "account": "ltuossdtw",
+      "accountId": "ltuossdtw",
+      "publishedAt": "2026-11-05T05:28:28+08:00",
+      "publishedAtBasis": "public time datetime attribute",
+      "publishedTimeLabel": "1分鐘",
+      "mediaEvidence": "docs/social-posts/2026-11-05/evidence/threads-scholarship.png"
+    },
+    {
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-05T05:31:12.542000+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-05T05:31:12.542000+08:00",
+      "visibility": "PUBLIC",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "publicationDateTaipei": "2026-11-05",
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "id": "1109519731824224",
+      "idKind": "published-photo",
+      "publicUrl": "https://www.facebook.com/photo/?fbid=1109519731824224",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "accountId": "101904929207004",
+      "publishedAt": "2026-11-05T05:29:58.142000+08:00",
+      "publishedAtBasis": "observed native submission time",
+      "publishedTimeLabel": "剛剛",
+      "mediaEvidence": "docs/social-posts/2026-11-05/evidence/facebook-study-abroad.png",
+      "publicPhotoScreenshot": "docs/social-posts/2026-11-05/evidence/facebook-study-abroad.png",
+      "photoReadyEvidence": "docs/social-posts/2026-11-05/evidence/facebook-study-abroad-photo-before-copy.png",
+      "photoAttachedAt": "2026-11-05T05:29:30.094000+08:00",
+      "copyAddedAt": "2026-11-05T05:29:30.473000+08:00",
+      "photoAttachments": [
+        {
+          "id": "1109519731824224",
+          "url": "https://www.facebook.com/photo/?fbid=1109519731824224"
+        }
+      ],
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-05T05:31:12.542000+08:00"
+    },
+    {
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-05T05:34:17.597000+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-05T05:34:17.597000+08:00",
+      "visibility": "PUBLIC",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "publicationDateTaipei": "2026-11-05",
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "id": "7523859494141878272",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7523859494141878272/",
+      "account": "Peter Chen",
+      "accountId": "peter-chen-26a754228",
+      "publishedAt": "2026-11-05T05:31:26.182000+08:00",
+      "publishedAtBasis": "observed native submission time",
+      "publishedTimeLabel": "剛剛",
+      "mediaEvidence": "docs/social-posts/2026-11-05/evidence/linkedin-study-abroad.png"
+    },
+    {
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-05T05:34:17.604000+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-05T05:34:17.604000+08:00",
+      "visibility": "PUBLIC",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "publicationDateTaipei": "2026-11-05",
+      "campaign": "study-abroad",
+      "network": "threads",
+      "id": "DfVbYcvk11r",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfVbYcvk11r",
+      "account": "ltuossdtw",
+      "accountId": "ltuossdtw",
+      "publishedAt": "2026-11-05T05:31:14+08:00",
+      "publishedAtBasis": "public time datetime",
+      "publishedTimeLabel": "2分鐘前",
+      "mediaEvidence": "docs/social-posts/2026-11-05/evidence/threads-study-abroad.png"
+    },
+    {
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-05T05:34:52.349000+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-05T05:34:52.349000+08:00",
+      "visibility": "PUBLIC",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "publicationDateTaipei": "2026-11-05",
+      "campaign": "scholarship",
+      "network": "instagram",
+      "id": "DfVbaVlE0Zb",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DfVbaVlE0Zb/",
+      "account": "ltuossdtw",
+      "accountId": "ltuossdtw",
+      "publishedAt": "2026-11-05T05:31:31+08:00",
+      "publishedAtBasis": "public time datetime",
+      "mediaEvidence": "docs/social-posts/2026-11-05/evidence/instagram-scholarship.png",
+      "crossposting": false
+    },
+    {
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-05T05:36:23.311000+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-05T05:36:23.311000+08:00",
+      "visibility": "PUBLIC",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "publicationDateTaipei": "2026-11-05",
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "id": "DfVb35hE6uI",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfVb35hE6uI",
+      "account": "ltuossdtw",
+      "accountId": "ltuossdtw",
+      "publishedAt": "2026-11-05T05:35:32+08:00",
+      "publishedAtBasis": "public time datetime",
+      "mediaEvidence": "docs/social-posts/2026-11-05/evidence/threads-taiwan-universities.png"
+    },
+    {
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-05T05:37:36.601000+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-05T05:37:36.601000+08:00",
+      "visibility": "PUBLIC",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "publicationDateTaipei": "2026-11-05",
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "id": "7523860799669293057",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7523860799669293057/",
+      "account": "Peter Chen",
+      "accountId": "peter-chen-26a754228",
+      "publishedAt": "2026-11-05T05:36:37.050000+08:00",
+      "publishedAtBasis": "observed native submission time",
+      "publishedTimeLabel": "剛剛",
+      "mediaEvidence": "docs/social-posts/2026-11-05/evidence/linkedin-taiwan-universities.png"
+    },
+    {
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-05T05:37:56.439000+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-05T05:37:56.439000+08:00",
+      "visibility": "PUBLIC",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "publicationDateTaipei": "2026-11-05",
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "id": "DfVcCvZE3dD",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DfVcCvZE3dD/",
+      "account": "ltuossdtw",
+      "accountId": "ltuossdtw",
+      "publishedAt": "2026-11-05T05:37:02+08:00",
+      "publishedAtBasis": "public time datetime",
+      "mediaEvidence": "docs/social-posts/2026-11-05/evidence/instagram-study-abroad.png",
+      "crossposting": false
+    },
+    {
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-05T05:42:42.348000+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-05T05:42:42.348000+08:00",
+      "visibility": "PUBLIC",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "publicationDateTaipei": "2026-11-05",
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "id": "DfVchNJk-59",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DfVchNJk-59/",
+      "account": "ltuossdtw",
+      "accountId": "ltuossdtw",
+      "publishedAt": "2026-11-05T05:41:11+08:00",
+      "publishedAtBasis": "public time datetime",
+      "mediaEvidence": "docs/social-posts/2026-11-05/evidence/instagram-taiwan-universities.png",
+      "crossposting": false
+    }
+  ],
   "gaps": [
-    "LTU_SOURCE_REVIEW",
-    "COMMIT_DEPLOY",
-    "PUBLISH",
-    "ACCEPTANCE",
+    "FINAL_DEPLOY_ACCEPTANCE",
     "VERIFY"
   ],
-  "blockers": [
-    {
-      "stage": "LTU_SOURCE_REVIEW",
-      "url": "https://www.setn.com/m/news.aspx?newsid=1688074",
-      "reason": "Browser site-safety gate denied observation; no bypass attempted. Other work continues."
-    }
-  ],
+  "blockers": [],
   "newsPrepared": [
     {
       "slug": "india-tne-value-aiec-2026",
@@ -414,7 +933,7 @@
       "verifiedAt": "2026-11-05T05:11:15.353766+08:00"
     }
   ],
-  "updatedAt": "2026-11-05T05:18:08.959769+08:00",
+  "updatedAt": "2026-11-05T05:43:51.938560+08:00",
   "peterPrepared": [
     {
       "slug": "netherlands-wo-hbo-study-pathways",
@@ -483,8 +1002,10 @@
   "preparedAt": "2026-11-05T05:12:52.820247+08:00",
   "phaseCompleted": [
     "PREFLIGHT",
+    "RESEARCH",
     "PREPARE",
-    "BUILD"
+    "BUILD",
+    "PUBLISH"
   ],
   "build": {
     "status": "success",
@@ -501,17 +1022,27 @@
       "public safety",
       "Vlog",
       "SEO"
-    ]
+    ],
+    "rotationRebuild": {
+      "status": "success",
+      "verifiedAt": "2026-11-05T05:43:51.938560+08:00",
+      "evidence": "docs/daily-checks/2026-11-05/rotation-validation.log"
+    }
   },
   "ltuReview": {
-    "status": "partial-source-safety-block",
-    "checkedAt": "2026-11-05T05:18:08.959769+08:00",
+    "status": "verified-with-reviewed-substitute",
+    "checkedAt": "2026-11-04T21:40:25.379Z",
     "rotationIndices": [
+      0,
       5,
-      6,
-      7
+      6
     ],
     "sources": [
+      {
+        "url": "https://www.ctee.com.tw/news/20250623700886-431204",
+        "status": "native-full-text-read",
+        "note": "2025-06-23 archive report by 謝易晏, LTU OSSD programme and university links; separately reviewed substitute, not a current admissions guarantee."
+      },
       {
         "url": "https://www.ctee.com.tw/news/20250723702079-431204",
         "status": "native-full-text-read",
@@ -521,12 +1052,109 @@
         "url": "https://udn.com/news/story/6898/9271435",
         "status": "full-text-read",
         "note": "January17 archive; retained original date."
+      }
+    ],
+    "originalSelection": [
+      5,
+      6,
+      7
+    ]
+  },
+  "resolvedBlockers": [
+    {
+      "stage": "LTU_SOURCE_REVIEW",
+      "url": "https://www.setn.com/m/news.aspx?newsid=1688074",
+      "reason": "Browser site-safety gate denied observation; no bypass attempted. Other work continues."
+    },
+    {
+      "stage": "LTU_SOURCE_REVIEW",
+      "url": "https://news.ltn.com.tw/news/life/breakingnews/5062658",
+      "reason": "Alternative blocked by browser site-safety policy; not bypassed. Different CTEE archive article read successfully."
+    }
+  ],
+  "studyAbroadPublished": {
+    "slug": "twente-pre-master-route-budget-2027",
+    "title": "荷蘭特文特升學：先查銜接資格，再算完整預算",
+    "url": "https://globalednews.com/study-abroad/twente-pre-master-route-budget-2027/",
+    "publishedPath": "src/pages/study-abroad/twente-pre-master-route-budget-2027.md",
+    "sources": [
+      {
+        "label": "Source 1",
+        "url": "https://www.utwente.nl/en/education/master/pre-master/"
       },
       {
-        "url": "https://www.setn.com/m/news.aspx?newsid=1688074",
-        "status": "browser-safety-block",
-        "note": "No bypass attempted; current source remains unverified."
+        "label": "Source 2",
+        "url": "https://www.nuffic.nl/en/education-systems/the-netherlands/higher-education"
       }
-    ]
+    ],
+    "verifiedAt": "2026-11-05T05:12:52.707528+08:00",
+    "publishedVerifiedAt": "2026-11-05T05:21:32.558880+08:00"
+  },
+  "newFacebookPagePost": {
+    "status": "PUBLISHED",
+    "verifiedAt": "2026-11-05T05:37:36.248000+08:00",
+    "imageCount": 1,
+    "mediaKind": "uploaded-photo",
+    "mediaStatus": "VERIFIED",
+    "mediaVerifiedAt": "2026-11-05T05:37:36.248000+08:00",
+    "visibility": "PUBLIC",
+    "publicationMethod": "native-ui",
+    "timezone": "Asia/Taipei",
+    "publicationDateTaipei": "2026-11-05",
+    "campaign": "news",
+    "network": "facebook",
+    "id": "122118451077505473",
+    "idKind": "published-photo",
+    "publicUrl": "https://www.facebook.com/photo/?fbid=122118451077505473",
+    "account": "環球國際教育新聞網",
+    "accountId": "1355044634361784",
+    "pageId": "61595164194381",
+    "articleUrl": "https://globalednews.com/news/india-tne-value-aiec-2026/",
+    "publishedAt": "2026-11-05T05:35:30.584000+08:00",
+    "publishedAtBasis": "observed native submission time; public label 1分鐘",
+    "mediaEvidence": "docs/social-posts/2026-11-05/evidence/facebook-new-page-news.png",
+    "publicPhotoScreenshot": "docs/social-posts/2026-11-05/evidence/facebook-new-page-news.png",
+    "photoReadyEvidence": "docs/social-posts/2026-11-05/evidence/facebook-new-page-photo-ready.png",
+    "photoAttachedAt": "2026-11-05T05:34:36.633000+08:00",
+    "copyAddedAt": "2026-11-05T05:34:36.817000+08:00",
+    "photoAttachments": [
+      {
+        "id": "122118451077505473",
+        "url": "https://www.facebook.com/photo/?fbid=122118451077505473"
+      }
+    ],
+    "previewStatus": "VERIFIED",
+    "previewVerifiedAt": "2026-11-05T05:37:36.248000+08:00"
+  },
+  "deployment": {
+    "commit": "f1ab9e9df4f0edd0db57246768d5781121e3e67a",
+    "status": "success",
+    "verifiedAt": "2026-11-05T05:21:32.558880+08:00",
+    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/41914902901",
+    "note": "Content deployed; reviewed LTU rotation correction awaiting final deployment."
+  },
+  "acceptance": {
+    "desktop": true,
+    "mobile": true,
+    "seo": true,
+    "images": true,
+    "searchFilters": true,
+    "canonical": true,
+    "og": true,
+    "schema": true,
+    "sitemap": true,
+    "newsSitemap": true,
+    "rss": true,
+    "englishNoCjk": true,
+    "verifiedAt": "2026-11-05T05:43:51.938560+08:00",
+    "seoEvidence": "docs/daily-reports/2026-11-05-live-seo.json",
+    "screenshots": [
+      "docs/daily-checks/2026-11-05/live-desktop.png",
+      "docs/daily-checks/2026-11-05/live-mobile.png",
+      "docs/daily-checks/2026-11-05/live-mobile-search.png"
+    ],
+    "mobileObservedCssWidth": 390,
+    "mobileObservedScrollWidth": 371,
+    "searchResult": "Brighton + UK + open = three newly added awards; homepage images loaded without broken images."
   }
 }

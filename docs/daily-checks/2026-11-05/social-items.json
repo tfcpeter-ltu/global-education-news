@@ -1,0 +1,66 @@
+[
+  {
+    "campaign": "news",
+    "key": "india",
+    "topic": "india-tne-value",
+    "title": "海外校區，不能只看國際招牌",
+    "benefit": "選課前先核對學位、實習與跨校條件。",
+    "summary": "AIEC印度跨國教育論壇關注在地連結與職涯支持；這是論壇觀察，不是新的招生或簽證政策。",
+    "advice": "照片為印度科學研究院校園資料照，非論壇或海外分校現場。",
+    "section": "國際教育新聞",
+    "sectionUrl": "https://globalednews.com/news/",
+    "url": "https://globalednews.com/news/india-tne-value-aiec-2026/",
+    "lines": [
+      "海外校區怎麼選",
+      "別只看國際招牌"
+    ]
+  },
+  {
+    "campaign": "scholarship",
+    "key": "stem",
+    "topic": "brighton-stem-january",
+    "title": "Brighton一月STEM碩士可減免£2,500",
+    "benefit": "先核對五個指定MSc與自費新生資格。",
+    "summary": "2027年1月Future STEM獎隨入學評估，台灣申請者須符合國際費率等條件；不可與Deans獎併領。",
+    "advice": "核對課程開放及校方獎助通知，不把最高組合額當成保證。",
+    "section": "國際獎學金雷達",
+    "sectionUrl": "https://globalednews.com/scholarships/",
+    "url": "https://globalednews.com/scholarships/items/2026-11-brighton-stem-january-2027/",
+    "lines": [
+      "Brighton STEM獎",
+      "學費減免£2,500"
+    ]
+  },
+  {
+    "campaign": "study-abroad",
+    "key": "diy",
+    "topic": "twente-premaster-budget",
+    "title": "荷蘭碩士銜接，不是人人同一條路",
+    "benefit": "特文特案例：先查資格，再算學分與生活費。",
+    "summary": "pre-master按課程與背景設計；台灣學歷請走國際學生評估，不直接套用荷蘭HBO路線。",
+    "advice": "用DIY導航比較學校，再向目標課程確認書面要求。",
+    "section": "留學DIY導航",
+    "sectionUrl": "https://globalednews.com/study-abroad/",
+    "url": "https://globalednews.com/study-abroad/twente-pre-master-route-budget-2027/",
+    "lines": [
+      "荷蘭碩士銜接",
+      "先查資格再算預算"
+    ]
+  },
+  {
+    "campaign": "taiwan-universities",
+    "key": "taiwan",
+    "topic": "exchange-two-checks",
+    "title": "交換選校，要過校內與姊妹校兩道審查",
+    "benefit": "先查先修、語言與可交換學期。",
+    "summary": "台大管院最新公告提醒，院內資格與交換校條件不同；舊年度Fact Sheet只供參考。",
+    "advice": "用國內大學資料庫比較資源，再核對各校公告。圖為政大校園資料照，非台大。",
+    "section": "國內大學資料庫",
+    "sectionUrl": "https://globalednews.com/taiwan-universities/",
+    "url": "https://management.ntu.edu.tw/ia/board/detail/sn/21373",
+    "lines": [
+      "交換選校先查清",
+      "校內與姊妹校資格"
+    ]
+  }
+]
