@@ -1,13 +1,13 @@
 {
   "status": "ready",
-  "updatedAt": "2026-11-03T07:53:11.837Z",
+  "updatedAt": "2026-11-04T07:28:15.828Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
     {
       "title": "國際教育新聞｜全球大學、留學政策與招生動態｜環球教育新聞網",
       "path": "/news/",
-      "views": 10
+      "views": 9
     },
     {
       "title": "加拿大UNB公布資料科學學士：2027年9月於Saint John開課｜環球教育新聞網 Global Education News",
@@ -34,38 +34,38 @@
     {
       "name": "台灣",
       "mapName": "Taiwan",
-      "sessions": 111,
-      "share": 46.3
+      "sessions": 107,
+      "share": 46.5
     },
     {
       "name": "美國",
       "mapName": "United States",
-      "sessions": 76,
-      "share": 31.7
+      "sessions": 72,
+      "share": 31.3
     },
     {
       "name": "瑞典",
       "mapName": "Sweden",
-      "sessions": 10,
-      "share": 4.2
-    },
-    {
-      "name": "愛爾蘭",
-      "mapName": "Ireland",
-      "sessions": 7,
-      "share": 2.9
+      "sessions": 11,
+      "share": 4.8
     },
     {
       "name": "英國",
       "mapName": "United Kingdom",
       "sessions": 7,
-      "share": 2.9
+      "share": 3
     },
     {
-      "name": "中國",
-      "mapName": "China",
-      "sessions": 3,
-      "share": 1.3
+      "name": "愛爾蘭",
+      "mapName": "Ireland",
+      "sessions": 6,
+      "share": 2.6
+    },
+    {
+      "name": "新加坡",
+      "mapName": "Singapore",
+      "sessions": 4,
+      "share": 1.7
     },
     {
       "name": "Netherlands",
@@ -74,22 +74,22 @@
       "share": 1.3
     },
     {
-      "name": "新加坡",
-      "mapName": "Singapore",
-      "sessions": 3,
-      "share": 1.3
-    },
-    {
       "name": "Colombia",
       "mapName": "Colombia",
       "sessions": 2,
-      "share": 0.8
+      "share": 0.9
     },
     {
       "name": "德國",
       "mapName": "Germany",
       "sessions": 2,
-      "share": 0.8
+      "share": 0.9
+    },
+    {
+      "name": "印度",
+      "mapName": "India",
+      "sessions": 2,
+      "share": 0.9
     }
   ]
 }
