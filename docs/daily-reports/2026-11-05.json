@@ -2,8 +2,8 @@
   "date": "2026-11-05",
   "timezone": "Asia/Taipei",
   "startedAt": "2026-11-05T05:05:55.6418545+08:00",
-  "status": "in_progress",
-  "currentPhase": "FINAL_DEPLOY_ACCEPTANCE",
+  "status": "completed",
+  "currentPhase": "COMPLETE",
   "mainBaselineSha": "e99352276324e9cc6a82d92cc4f66b1a62f20b98",
   "scholarshipBaselineSlugs": [
     "2026-08-bristol-think-big",
@@ -272,7 +272,7 @@
         }
       ],
       "verifiedAt": "2026-11-05T05:11:15.353766+08:00",
-      "publishedVerifiedAt": "2026-11-05T05:21:32.558880+08:00"
+      "publishedVerifiedAt": "2026-11-05T05:54:42.546701+08:00"
     },
     {
       "slug": "canada-research-training-awards-880m-2026",
@@ -290,7 +290,7 @@
         }
       ],
       "verifiedAt": "2026-11-05T05:11:15.353766+08:00",
-      "publishedVerifiedAt": "2026-11-05T05:21:32.558880+08:00"
+      "publishedVerifiedAt": "2026-11-05T05:54:42.546701+08:00"
     },
     {
       "slug": "arab-higher-education-unesco-2026",
@@ -308,7 +308,7 @@
         }
       ],
       "verifiedAt": "2026-11-05T05:11:15.353766+08:00",
-      "publishedVerifiedAt": "2026-11-05T05:21:32.558880+08:00"
+      "publishedVerifiedAt": "2026-11-05T05:54:42.546701+08:00"
     }
   ],
   "scholarshipAdditions": [
@@ -341,7 +341,7 @@
       "eligibleTaiwan": true,
       "open": true,
       "updateSummary": "New January2027 award; official conditions and independent amount checked",
-      "publishedVerifiedAt": "2026-11-05T05:21:32.558880+08:00"
+      "publishedVerifiedAt": "2026-11-05T05:54:42.546701+08:00"
     },
     {
       "slug": "2026-11-brighton-deans-january-2027",
@@ -372,7 +372,7 @@
       "eligibleTaiwan": true,
       "open": true,
       "updateSummary": "New January2027 award; official conditions and independent amount checked",
-      "publishedVerifiedAt": "2026-11-05T05:21:32.558880+08:00"
+      "publishedVerifiedAt": "2026-11-05T05:54:42.546701+08:00"
     },
     {
       "slug": "2026-11-brighton-stem-january-2027",
@@ -399,7 +399,7 @@
       "eligibleTaiwan": true,
       "open": true,
       "updateSummary": "New January2027 award; official conditions and independent amount checked",
-      "publishedVerifiedAt": "2026-11-05T05:21:32.558880+08:00"
+      "publishedVerifiedAt": "2026-11-05T05:54:42.546701+08:00"
     }
   ],
   "scholarshipChecks": [
@@ -432,7 +432,7 @@
       "eligibleTaiwan": true,
       "open": true,
       "updateSummary": "New January2027 award; official conditions and independent amount checked",
-      "publishedVerifiedAt": "2026-11-05T05:21:32.558880+08:00"
+      "publishedVerifiedAt": "2026-11-05T05:54:42.546701+08:00"
     },
     {
       "slug": "2026-11-brighton-deans-january-2027",
@@ -463,7 +463,7 @@
       "eligibleTaiwan": true,
       "open": true,
       "updateSummary": "New January2027 award; official conditions and independent amount checked",
-      "publishedVerifiedAt": "2026-11-05T05:21:32.558880+08:00"
+      "publishedVerifiedAt": "2026-11-05T05:54:42.546701+08:00"
     },
     {
       "slug": "2026-11-brighton-stem-january-2027",
@@ -490,7 +490,7 @@
       "eligibleTaiwan": true,
       "open": true,
       "updateSummary": "New January2027 award; official conditions and independent amount checked",
-      "publishedVerifiedAt": "2026-11-05T05:21:32.558880+08:00"
+      "publishedVerifiedAt": "2026-11-05T05:54:42.546701+08:00"
     }
   ],
   "peterImports": [
@@ -875,10 +875,7 @@
       "crossposting": false
     }
   ],
-  "gaps": [
-    "FINAL_DEPLOY_ACCEPTANCE",
-    "VERIFY"
-  ],
+  "gaps": [],
   "blockers": [],
   "newsPrepared": [
     {
@@ -933,7 +930,7 @@
       "verifiedAt": "2026-11-05T05:11:15.353766+08:00"
     }
   ],
-  "updatedAt": "2026-11-05T05:43:51.938560+08:00",
+  "updatedAt": "2026-11-05T05:54:51.248951+08:00",
   "peterPrepared": [
     {
       "slug": "netherlands-wo-hbo-study-pathways",
@@ -1005,7 +1002,10 @@
     "RESEARCH",
     "PREPARE",
     "BUILD",
-    "PUBLISH"
+    "COMMIT_DEPLOY",
+    "PUBLISH",
+    "ACCEPTANCE",
+    "VERIFY"
   ],
   "build": {
     "status": "success",
@@ -1058,7 +1058,8 @@
       5,
       6,
       7
-    ]
+    ],
+    "liveVerifiedAt": "2026-11-05T05:54:37.2845916+08:00"
   },
   "resolvedBlockers": [
     {
@@ -1127,11 +1128,11 @@
     "previewVerifiedAt": "2026-11-05T05:37:36.248000+08:00"
   },
   "deployment": {
-    "commit": "f1ab9e9df4f0edd0db57246768d5781121e3e67a",
+    "commit": "450039f78fb16d9059e0138a300fcefb9a459650",
     "status": "success",
-    "verifiedAt": "2026-11-05T05:21:32.558880+08:00",
-    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/41914902901",
-    "note": "Content deployed; reviewed LTU rotation correction awaiting final deployment."
+    "verifiedAt": "2026-11-05T05:54:51.248951+08:00",
+    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/41919822408",
+    "runId": 41919822408
   },
   "acceptance": {
     "desktop": true,
@@ -1146,7 +1147,7 @@
     "newsSitemap": true,
     "rss": true,
     "englishNoCjk": true,
-    "verifiedAt": "2026-11-05T05:43:51.938560+08:00",
+    "verifiedAt": "2026-11-05T05:54:51.248951+08:00",
     "seoEvidence": "docs/daily-reports/2026-11-05-live-seo.json",
     "screenshots": [
       "docs/daily-checks/2026-11-05/live-desktop.png",
@@ -1155,6 +1156,17 @@
     ],
     "mobileObservedCssWidth": 390,
     "mobileObservedScrollWidth": 371,
-    "searchResult": "Brighton + UK + open = three newly added awards; homepage images loaded without broken images."
+    "searchResult": "Brighton + UK + open = three newly added awards; homepage images loaded without broken images.",
+    "uiEvidence": "docs/daily-checks/2026-11-05/live-ui.json",
+    "ltuRotation": true,
+    "englishLanguageSwitch": true
+  },
+  "manualActions": [],
+  "completedAt": "2026-11-05T05:54:51.248951+08:00",
+  "verification": {
+    "status": "COMPLETE",
+    "exitCode": 0,
+    "verifiedAt": "2026-11-05T05:54:51.248951+08:00",
+    "evidence": "docs/daily-checks/2026-11-05/daily-verification.json"
   }
 }

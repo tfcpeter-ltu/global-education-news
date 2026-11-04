@@ -1,0 +1,26 @@
+{
+  "desktop": true,
+  "desktopCssWidth": 1882,
+  "brokenHomepageImages": 0,
+  "evidence": [
+    "docs/daily-checks/2026-11-05/live-desktop.png",
+    "docs/daily-checks/2026-11-05/live-mobile.png",
+    "docs/daily-checks/2026-11-05/live-mobile-article.png",
+    "docs/daily-checks/2026-11-05/live-mobile-search.png"
+  ],
+  "mobileScrollWidth": 371,
+  "mobile": true,
+  "searchFilters": true,
+  "englishMediaNamesCorrect": true,
+  "searchResult": "Brighton + UK + open returns three new awards",
+  "mobileCssWidth": 390,
+  "englishHomepageCjk": 0,
+  "ltuRotation": [
+    0,
+    5,
+    6
+  ],
+  "socialPostsVerified": 16,
+  "verifiedAt": "2026-11-05T05:54:37.2845916+08:00",
+  "englishArticleCjk": 0
+}

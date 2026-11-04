@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "status": "PUBLISHED",
+  "status": "COMPLETE",
   "posts": [
     {
       "status": "PUBLISHED",
@@ -411,5 +411,6 @@
   "timezone": "Asia/Taipei",
   "verifiedAt": "2026-11-05T05:43:51.938560+08:00",
   "regularPostCount": 15,
-  "newFacebookPageCount": 1
+  "newFacebookPageCount": 1,
+  "completedAt": "2026-11-05T05:54:51.248951+08:00"
 }
