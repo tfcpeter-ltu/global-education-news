@@ -1,23 +1,23 @@
 {
   "status": "ready",
-  "updatedAt": "2026-11-04T07:28:15.828Z",
+  "updatedAt": "2026-11-05T07:53:23.465Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
-    {
-      "title": "國際教育新聞｜全球大學、留學政策與招生動態｜環球教育新聞網",
-      "path": "/news/",
-      "views": 9
-    },
     {
       "title": "加拿大UNB公布資料科學學士：2027年9月於Saint John開課｜環球教育新聞網 Global Education News",
       "path": "/news/unb-saint-john-data-science-degree-2027/",
       "views": 6
     },
     {
-      "title": "英國預算案擬讓部分大學畢業生獲兩年簽證：適用條件待明確｜環球教育新聞網 Global Education News",
-      "path": "/news/uk-budget-2026-graduate-visa-conditional-two-years/",
-      "views": 5
+      "title": "印度海外校區熱潮：國際品牌之外，更要檢視學習價值｜環球教育新聞網 Global Education News",
+      "path": "/news/india-tne-value-aiec-2026/",
+      "views": 4
+    },
+    {
+      "title": "國際教育新聞｜全球大學、留學政策與招生動態｜環球教育新聞網",
+      "path": "/news/",
+      "views": 4
     },
     {
       "title": "澳洲IEAA公布教育獎項：教學與海外學習成效成焦點｜環球教育新聞網 Global Education News",
@@ -34,44 +34,44 @@
     {
       "name": "台灣",
       "mapName": "Taiwan",
-      "sessions": 107,
-      "share": 46.5
+      "sessions": 104,
+      "share": 46.6
     },
     {
       "name": "美國",
       "mapName": "United States",
-      "sessions": 72,
-      "share": 31.3
+      "sessions": 78,
+      "share": 35
     },
     {
       "name": "瑞典",
       "mapName": "Sweden",
-      "sessions": 11,
-      "share": 4.8
-    },
-    {
-      "name": "英國",
-      "mapName": "United Kingdom",
       "sessions": 7,
-      "share": 3
+      "share": 3.1
     },
     {
       "name": "愛爾蘭",
       "mapName": "Ireland",
-      "sessions": 6,
-      "share": 2.6
+      "sessions": 5,
+      "share": 2.2
     },
     {
       "name": "新加坡",
       "mapName": "Singapore",
-      "sessions": 4,
-      "share": 1.7
+      "sessions": 5,
+      "share": 2.2
     },
     {
-      "name": "Netherlands",
-      "mapName": "Netherlands",
-      "sessions": 3,
-      "share": 1.3
+      "name": "英國",
+      "mapName": "United Kingdom",
+      "sessions": 4,
+      "share": 1.8
+    },
+    {
+      "name": "Belgium",
+      "mapName": "Belgium",
+      "sessions": 2,
+      "share": 0.9
     },
     {
       "name": "Colombia",
@@ -80,14 +80,14 @@
       "share": 0.9
     },
     {
-      "name": "德國",
-      "mapName": "Germany",
+      "name": "Egypt",
+      "mapName": "Egypt",
       "sessions": 2,
       "share": 0.9
     },
     {
-      "name": "印度",
-      "mapName": "India",
+      "name": "德國",
+      "mapName": "Germany",
       "sessions": 2,
       "share": 0.9
     }
