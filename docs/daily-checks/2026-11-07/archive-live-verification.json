@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "verifiedAt": "2026-11-07T05:58:57.407032+08:00",
+  "pages": [
+    {
+      "url": "https://globalednews.com/news/uk-student-sponsor-guidance-october-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/uk-student-sponsor-guidance-october-2026/",
+      "h1": "英國學生贊助指引再核對：網頁更新、學校牌照與CAS是三件事",
+      "articleCharacters": 2207,
+      "englishCjk": null,
+      "datePublishedTaipei": "2026-10-13T06:20:00+08:00",
+      "dateModifiedTaipei": "2026-11-07T05:30:00+08:00",
+      "originalDatePreserved": true,
+      "updatedDateVerified": true
+    },
+    {
+      "url": "https://globalednews.com/news/canada-study-permit-processing-dashboard-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/canada-study-permit-processing-dashboard-2026/",
+      "h1": "加拿大學簽儀表板更新：完成15萬件，不等於核准15萬名學生",
+      "articleCharacters": 2161,
+      "englishCjk": null,
+      "datePublishedTaipei": "2026-10-12T06:30:00+08:00",
+      "dateModifiedTaipei": "2026-11-07T05:30:00+08:00",
+      "originalDatePreserved": true,
+      "updatedDateVerified": true
+    },
+    {
+      "url": "https://globalednews.com/news/new-zealand-years-11-13-final-subjects-first-release-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/new-zealand-years-11-13-final-subjects-first-release-2026/",
+      "h1": "紐西蘭高中課綱分批定稿：2028入學年級、毛利語路徑與未完諮詢要分開看",
+      "articleCharacters": 2347,
+      "englishCjk": null,
+      "datePublishedTaipei": "2026-10-12T06:20:00+08:00",
+      "dateModifiedTaipei": "2026-11-07T05:30:00+08:00",
+      "originalDatePreserved": true,
+      "updatedDateVerified": true
+    },
+    {
+      "url": "https://globalednews.com/en/news/uk-student-sponsor-guidance-october-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/uk-student-sponsor-guidance-october-2026/",
+      "h1": " Rechecking UK student sponsorship: publication updates, institutional licences and CAS are different tests ",
+      "articleCharacters": 6160,
+      "englishCjk": 0,
+      "datePublishedTaipei": "2026-10-13T06:20:00+08:00",
+      "dateModifiedTaipei": "2026-11-07T05:30:00+08:00",
+      "originalDatePreserved": true,
+      "updatedDateVerified": true
+    },
+    {
+      "url": "https://globalednews.com/en/news/canada-study-permit-processing-dashboard-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/canada-study-permit-processing-dashboard-2026/",
+      "h1": " Canada’s study-permit dashboard: 150,620 completed applications are not 150,620 approvals ",
+      "articleCharacters": 6249,
+      "englishCjk": 0,
+      "datePublishedTaipei": "2026-10-12T06:30:00+08:00",
+      "dateModifiedTaipei": "2026-11-07T05:30:00+08:00",
+      "originalDatePreserved": true,
+      "updatedDateVerified": true
+    },
+    {
+      "url": "https://globalednews.com/en/news/new-zealand-years-11-13-final-subjects-first-release-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/new-zealand-years-11-13-final-subjects-first-release-2026/",
+      "h1": " New Zealand’s senior curriculum rollout: cohorts, Māori-medium pathways and unfinished consultation ",
+      "articleCharacters": 6505,
+      "englishCjk": 0,
+      "datePublishedTaipei": "2026-10-12T06:20:00+08:00",
+      "dateModifiedTaipei": "2026-11-07T05:30:00+08:00",
+      "originalDatePreserved": true,
+      "updatedDateVerified": true
+    }
+  ]
+}

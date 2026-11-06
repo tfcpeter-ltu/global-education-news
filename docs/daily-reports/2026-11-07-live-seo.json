@@ -1,0 +1,158 @@
+{
+  "verifiedAt": "2026-11-07T05:39:36.089645+08:00",
+  "pages": [
+    {
+      "url": "https://globalednews.com/news/us-penn-state-tuition-lawsuit-november-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/us-penn-state-tuition-lawsuit-november-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/392dcb15cfaf1955902783c8.jpg",
+      "ogBytes": 158622,
+      "schemaCount": 5,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/news/uk-hepi-ofs-ukvi-regulatory-coherence-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/uk-hepi-ofs-ukvi-regulatory-coherence-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/e53ff395af03bc72685b4c71.jpg",
+      "ogBytes": 156949,
+      "schemaCount": 5,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/news/japan-womens-universities-coeducation-transition-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/japan-womens-universities-coeducation-transition-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/4effa64f37d3bdb181c93fea.jpg",
+      "ogBytes": 115501,
+      "schemaCount": 5,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-11-lincoln-uk-global-undergraduate-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-11-lincoln-uk-global-undergraduate-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/c22bbb6e5ef795664969541b.jpg",
+      "ogBytes": 191550,
+      "schemaCount": 3,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-11-lincoln-uk-global-leaders-september-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-11-lincoln-uk-global-leaders-september-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/aad87daa091e0563c5d78cbb.jpg",
+      "ogBytes": 127486,
+      "schemaCount": 3,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-11-lincoln-uk-international-alumni-january-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-11-lincoln-uk-international-alumni-january-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/22654d69262d8ed7ac46a920.jpg",
+      "ogBytes": 117403,
+      "schemaCount": 3,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/study-abroad/japan-kinjo-coeducation-transition-checklist/",
+      "status": 200,
+      "canonical": "https://globalednews.com/study-abroad/japan-kinjo-coeducation-transition-checklist/",
+      "ogImage": "https://globalednews.com/images/share-photos/4effa64f37d3bdb181c93fea.jpg",
+      "ogBytes": 115501,
+      "schemaCount": 5,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/peter/bezos-princeton-kindness-choices-study-abroad/",
+      "status": 200,
+      "canonical": "https://globalednews.com/peter/bezos-princeton-kindness-choices-study-abroad/",
+      "ogImage": "https://globalednews.com/images/share-photos/a14dc2e8aae5c06da20bf219.jpg",
+      "ogBytes": 363098,
+      "schemaCount": 4,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/en/news/us-penn-state-tuition-lawsuit-november-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/us-penn-state-tuition-lawsuit-november-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/392dcb15cfaf1955902783c8.jpg",
+      "ogBytes": 158622,
+      "schemaCount": 5,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/news/uk-hepi-ofs-ukvi-regulatory-coherence-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/uk-hepi-ofs-ukvi-regulatory-coherence-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/e53ff395af03bc72685b4c71.jpg",
+      "ogBytes": 156949,
+      "schemaCount": 5,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/news/japan-womens-universities-coeducation-transition-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/japan-womens-universities-coeducation-transition-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/4effa64f37d3bdb181c93fea.jpg",
+      "ogBytes": 115501,
+      "schemaCount": 5,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/scholarships/items/2026-11-lincoln-uk-global-undergraduate-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/scholarships/items/2026-11-lincoln-uk-global-undergraduate-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/c22bbb6e5ef795664969541b.jpg",
+      "ogBytes": 191550,
+      "schemaCount": 3,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/scholarships/items/2026-11-lincoln-uk-global-leaders-september-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/scholarships/items/2026-11-lincoln-uk-global-leaders-september-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/aad87daa091e0563c5d78cbb.jpg",
+      "ogBytes": 127486,
+      "schemaCount": 3,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/scholarships/items/2026-11-lincoln-uk-international-alumni-january-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/scholarships/items/2026-11-lincoln-uk-international-alumni-january-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/22654d69262d8ed7ac46a920.jpg",
+      "ogBytes": 117403,
+      "schemaCount": 3,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/study-abroad/japan-kinjo-coeducation-transition-checklist/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/study-abroad/japan-kinjo-coeducation-transition-checklist/",
+      "ogImage": "https://globalednews.com/images/share-photos/4effa64f37d3bdb181c93fea.jpg",
+      "ogBytes": 115501,
+      "schemaCount": 5,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/peter/bezos-princeton-kindness-choices-study-abroad/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/peter/bezos-princeton-kindness-choices-study-abroad/",
+      "ogImage": "https://globalednews.com/images/share-photos/a14dc2e8aae5c06da20bf219.jpg",
+      "ogBytes": 363098,
+      "schemaCount": 4,
+      "englishCjk": false
+    }
+  ],
+  "xmlChecks": [
+    "sitemap-index.xml",
+    "sitemap-0.xml",
+    "news-sitemap.xml",
+    "weekly-feed.xml"
+  ],
+  "newPagesInSitemap": 8,
+  "newsInNewsSitemapAndRss": 3,
+  "robots": 200
+}

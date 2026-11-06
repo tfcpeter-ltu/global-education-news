@@ -1,0 +1,7 @@
+{
+  "status": "COMPLETE",
+  "exitCode": 0,
+  "verifiedAt": "2026-11-07T06:00:26.855164+08:00",
+  "output": "EVIDENCE_PRESENT 2026-11-07: 3 news, 3 new scholarships, Peter review (1 imports), 15 social posts and deployment evidence present. Evidence presence does not replace live verification.\nCOMPLETE 2026-11-07: delivery evidence and editorial depth checks passed.\n",
+  "evidence": "docs/daily-checks/2026-11-07/daily-verification.json"
+}

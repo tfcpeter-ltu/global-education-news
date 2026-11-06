@@ -24,12 +24,3 @@ assert get('https://globalednews.com/robots.txt')[0]==200
 result=dict(verifiedAt=datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).isoformat(),pages=pages,xmlChecks=list(xml),newPagesInSitemap=len(urls),newsInNewsSitemapAndRss=3,robots=200)
 (S/f'docs/daily-reports/{D}-live-seo.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print('PASS: 16 bilingual URLs, canonical, OG photos, schema, sitemap, News sitemap, RSS and English text.')
-
-
-
-
-
-
-
-
-

@@ -1,7 +1,7 @@
 {
   "status": "pending",
   "order": "newest first, then currently consequential policies",
-  "remaining": 181,
+  "remaining": 178,
   "items": [
     {
       "path": "src/pages/news/fsu-international-student-insurance-2026.md",
@@ -10,27 +10,9 @@
       "needsEditorialReview": true
     },
     {
-      "path": "src/pages/news/uk-student-sponsor-guidance-october-2026.md",
-      "date": "2026-10-13T06:20:00+08:00",
-      "bodyCjk": 327,
-      "needsEditorialReview": true
-    },
-    {
       "path": "src/pages/news/us-cpt-lawsuit-court-status-october-13-2026.md",
       "date": "2026-10-13T06:10:00+08:00",
       "bodyCjk": 318,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/canada-study-permit-processing-dashboard-2026.md",
-      "date": "2026-10-12T06:30:00+08:00",
-      "bodyCjk": 297,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/new-zealand-years-11-13-final-subjects-first-release-2026.md",
-      "date": "2026-10-12T06:20:00+08:00",
-      "bodyCjk": 236,
       "needsEditorialReview": true
     },
     {
@@ -1088,6 +1070,21 @@
       "date": "\"2026-09-13T10:00:00+08:00\"",
       "bodyCjk": 405,
       "needsEditorialReview": true
+    }
+  ],
+  "updatedAt": "2026-11-07T06:00:26.586816+08:00",
+  "completedBatches": [
+    {
+      "date": "2026-11-07",
+      "count": 3,
+      "commit": "e04b2afc67022600845b06fe5d4a08989fb07650",
+      "verifiedAt": "2026-11-07T05:58:57.407032+08:00",
+      "paths": [
+        "src/pages/news/canada-study-permit-processing-dashboard-2026.md",
+        "src/pages/news/new-zealand-years-11-13-final-subjects-first-release-2026.md",
+        "src/pages/news/uk-student-sponsor-guidance-october-2026.md"
+      ],
+      "evidence": "docs/daily-checks/2026-11-07/archive-live-verification.json"
     }
   ]
 }

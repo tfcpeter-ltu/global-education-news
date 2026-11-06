@@ -1,0 +1,73 @@
+{
+  "verifiedAt": "2026-11-07T05:59:27.350+08:00",
+  "desktop": {
+    "home": "docs/daily-checks/2026-11-07/desktop-zh-home.png",
+    "englishHome": "docs/daily-checks/2026-11-07/desktop-en-home.png",
+    "englishTextCjk": 0,
+    "filterScreenshot": "docs/daily-checks/2026-11-07/desktop-scholarship-filter.png",
+    "searchEnter": true,
+    "searchButton": true,
+    "combinedFilterResult": 3,
+    "zeroResult": true,
+    "clearTotal": 257,
+    "loadMoreVisible": 48
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 843
+    },
+    "home": {
+      "doc": 371,
+      "height": 843,
+      "images": [
+        {
+          "loaded": true,
+          "src": "https://globalednews.com/images/daily/2026-11-07/jp.jpg"
+        },
+        {
+          "loaded": true,
+          "src": "https://globalednews.com/images/daily/2026-11-07/uk.jpg"
+        },
+        {
+          "loaded": true,
+          "src": "https://globalednews.com/images/daily/2026-11-07/us.jpg"
+        },
+        {
+          "loaded": false,
+          "src": "https://globalednews.com/images/daily/2026-11-07/jp.jpg"
+        },
+        {
+          "loaded": false,
+          "src": "https://globalednews.com/images/daily/2026-11-07/uk.jpg"
+        },
+        {
+          "loaded": false,
+          "src": "https://globalednews.com/images/daily/2026-11-07/us.jpg"
+        }
+      ],
+      "scroll": 371,
+      "width": 390
+    },
+    "article": {
+      "doc": 371,
+      "h1": "英國學生贊助指引再核對：網頁更新、學校牌照與CAS是三件事",
+      "heroLoaded": true,
+      "scroll": 371,
+      "width": 390
+    },
+    "combinedFilter": {
+      "doc": 371,
+      "height": 843,
+      "results": "THE SCHOLARSHIP ARCHIVE\n探索全部獎學金\n\nScholarships · Fellowships · Research Funding · International Mobility\n\n3\n個符合條件的機會\n🇬🇧\n英國\n開放中\nLincoln全球領袖獎學金：2027年9月",
+      "scroll": 371,
+      "width": 390
+    },
+    "zeroResult": "THE SCHOLARSHIP ARCHIVE\n探索全部獎學金\n\nScholarships · Fellowships · Research Funding · International Mobility\n\n0\n個符合條件的機會\n\n找不到符合條件的獎學金，請改用其他關鍵字或清除篩選。",
+    "clear": true,
+    "loadMoreBefore": 24,
+    "loadMoreAfter": 48,
+    "screenshot": "docs/daily-checks/2026-11-07/mobile-archive-article.png"
+  },
+  "allSocialPostsVerified": 16
+}

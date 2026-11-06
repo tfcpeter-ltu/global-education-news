@@ -2,8 +2,8 @@
   "date": "2026-11-07",
   "timezone": "Asia/Taipei",
   "startedAt": "2026-11-07T04:58:24.3834027+08:00",
-  "status": "in_progress",
-  "currentPhase": "COMMIT_DEPLOY",
+  "status": "completed",
+  "currentPhase": "COMPLETE",
   "mainBaselineSha": "d126fe3d409eb9438a1d0b46be31f0283abafb0c",
   "scholarshipBaselineSlugs": [
     "2026-08-bristol-think-big",
@@ -261,9 +261,79 @@
     "catalog-vanderbilt-ingram",
     "catalog-yale-international-aid"
   ],
-  "newsPublished": [],
-  "scholarshipChecks": [],
-  "scholarshipAdditions": [
+  "newsPublished": [
+    {
+      "slug": "us-penn-state-tuition-lawsuit-november-2026",
+      "title": "美司法部控賓州州立學費政策：居住資格之爭，尚非國際生費率變更",
+      "url": "https://globalednews.com/news/us-penn-state-tuition-lawsuit-november-2026/",
+      "publishedPath": "src/pages/news/us-penn-state-tuition-lawsuit-november-2026.md",
+      "sources": [
+        {
+          "label": "US Department of Justice — November 5 complaint announcement",
+          "url": "https://www.justice.gov/opa/pr/department-justice-files-complaint-against-pennsylvania-state-university-challenging-its"
+        },
+        {
+          "label": "Associated Press — Heather Hollingsworth report and Penn State response",
+          "url": "https://apnews.com/article/penn-state-trump-instate-tuition-164d7d9e4e760e8207b6c97c54c8fea9"
+        }
+      ],
+      "verifiedAt": "2026-11-07T05:10:58.544004+08:00",
+      "publishedVerifiedAt": "2026-11-07T05:39:36.089645+08:00"
+    },
+    {
+      "slug": "uk-hepi-ofs-ukvi-regulatory-coherence-2026",
+      "title": "同一所大學，兩套完成率：HEPI追問英國國際學生監管如何銜接",
+      "url": "https://globalednews.com/news/uk-hepi-ofs-ukvi-regulatory-coherence-2026/",
+      "publishedPath": "src/pages/news/uk-hepi-ofs-ukvi-regulatory-coherence-2026.md",
+      "sources": [
+        {
+          "label": "Home Office — Bloomsbury sponsor revocation and student arrangements, August 6",
+          "url": "https://www.gov.uk/government/news/bloomsbury-institutes-student-sponsor-licence-revoked"
+        },
+        {
+          "label": "HEPI — One sector, two regulators, November 5",
+          "url": "https://www.hepi.ac.uk/reports/one-sector-two-regulators-the-office-for-students-uk-visas-and-immigration-and-the-challenge-of-regulatory-coherence-in-international-education/"
+        },
+        {
+          "label": "HEPI Policy Note 77 — full analysis",
+          "url": "https://www.hepi.ac.uk/wp-content/uploads/2026/11/HEPI-Policy-Note-77.pdf"
+        },
+        {
+          "label": "Universities UK — Addressing the challenge of regulatory burden",
+          "url": "https://www.universitiesuk.ac.uk/sites/default/files/uploads/Reports/UUK-briefing-Addressing-the-challenge-of-regulatory-burden%20.pdf"
+        }
+      ],
+      "verifiedAt": "2026-11-07T05:10:58.544004+08:00",
+      "publishedVerifiedAt": "2026-11-07T05:39:36.089645+08:00"
+    },
+    {
+      "slug": "japan-womens-universities-coeducation-transition-2026",
+      "title": "日本女子大學轉向共學：改名之外，留學生要看懂學部與學位的轉接",
+      "url": "https://globalednews.com/news/japan-womens-universities-coeducation-transition-2026/",
+      "publishedPath": "src/pages/news/japan-womens-universities-coeducation-transition-2026.md",
+      "sources": [
+        {
+          "label": "Heian Jogakuin — October 5 restructuring announcement",
+          "url": "https://www.heian.ac.jp/topics/20261005"
+        },
+        {
+          "label": "Chunichi Shimbun — Kinjo Gakuin decision and alumni context, July 5",
+          "url": "https://edu.chunichi.co.jp/news/detail/12914/u00015"
+        },
+        {
+          "label": "Kinjo Gakuin — July 3 coeducation announcement",
+          "url": "https://www.kinjo-u.ac.jp/ja/news/detail/?id=2864"
+        },
+        {
+          "label": "Seoul Economic Daily — women’s universities and enrolment, October 9",
+          "url": "https://en.sedaily.com/international/2026/10/09/japans-womens-universities-turn-co-ed-as-enrollment-shrinks"
+        }
+      ],
+      "verifiedAt": "2026-11-07T05:10:58.544004+08:00",
+      "publishedVerifiedAt": "2026-11-07T05:39:36.089645+08:00"
+    }
+  ],
+  "scholarshipChecks": [
     {
       "slug": "2026-11-lincoln-uk-global-undergraduate-2027",
       "title": "Lincoln英國全球學士獎學金：每學年£2,000",
@@ -296,7 +366,8 @@
       "baselineAbsent": true,
       "eligibleTaiwan": true,
       "open": true,
-      "updateSummary": "Distinct UK Lincoln award absent baseline254; current intake and official Taiwan guidance checked; independent profile cross-check scope disclosed."
+      "updateSummary": "New independently cross-checked award; official UK Lincoln intake, Taiwan eligibility, exclusions and award terms verified.",
+      "publishedVerifiedAt": "2026-11-07T05:39:36.089645+08:00"
     },
     {
       "slug": "2026-11-lincoln-uk-global-leaders-september-2027",
@@ -330,7 +401,8 @@
       "baselineAbsent": true,
       "eligibleTaiwan": true,
       "open": true,
-      "updateSummary": "Distinct UK Lincoln award absent baseline254; current intake and official Taiwan guidance checked; independent profile cross-check scope disclosed."
+      "updateSummary": "New independently cross-checked award; official UK Lincoln intake, Taiwan eligibility, exclusions and award terms verified.",
+      "publishedVerifiedAt": "2026-11-07T05:39:36.089645+08:00"
     },
     {
       "slug": "2026-11-lincoln-uk-international-alumni-january-2027",
@@ -364,18 +436,518 @@
       "baselineAbsent": true,
       "eligibleTaiwan": true,
       "open": true,
-      "updateSummary": "Distinct UK Lincoln award absent baseline254; current intake and official Taiwan guidance checked; independent profile cross-check scope disclosed."
+      "updateSummary": "New independently cross-checked award; official UK Lincoln intake, Taiwan eligibility, exclusions and award terms verified.",
+      "publishedVerifiedAt": "2026-11-07T05:39:36.089645+08:00"
     }
   ],
-  "peterImports": [],
-  "socialPosts": [],
-  "gaps": [
-    "COMMIT_DEPLOY",
-    "PUBLISH",
-    "ACCEPTANCE",
-    "VERIFY",
-    "3 archive rewrites"
+  "scholarshipAdditions": [
+    {
+      "slug": "2026-11-lincoln-uk-global-undergraduate-2027",
+      "title": "Lincoln英國全球學士獎學金：每學年£2,000",
+      "url": "https://globalednews.com/scholarships/items/2026-11-lincoln-uk-global-undergraduate-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-lincoln-uk-global-undergraduate-2027.md",
+      "sources": [
+        {
+          "label": "University of Lincoln — current award page",
+          "url": "https://www.lincoln.ac.uk/studywithus/scholarshipsandbursaries/globalundergraduatescholarship/"
+        },
+        {
+          "label": "Complete University Guide — Taiwan-filtered Lincoln funding profile",
+          "url": "https://www.thecompleteuniversityguide.co.uk/universities/university-of-lincoln/student-support/undergraduate/taiwan/taiwan"
+        },
+        {
+          "label": "University of Lincoln — applicable annual terms",
+          "url": "https://www.lincoln.ac.uk/media/universityoflincoln/document/scholarship/University,of,Lincoln,International,Scholarship,Terms,and,Conditions,2027-2028,V1.pdf"
+        },
+        {
+          "label": "University of Lincoln — Taiwan entry and scholarship guidance",
+          "url": "https://www.lincoln.ac.uk/studywithus/internationalstudents/entryrequirementsandyourcountry/taiwan/"
+        },
+        {
+          "label": "Complete University Guide — annual institutional consultation method",
+          "url": "https://www.thecompleteuniversityguide.co.uk/sector/resources/consultations"
+        }
+      ],
+      "verifiedAt": "2026-11-07T05:12:11.471084+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "eligibleTaiwan": true,
+      "open": true,
+      "updateSummary": "New independently cross-checked award; official UK Lincoln intake, Taiwan eligibility, exclusions and award terms verified.",
+      "publishedVerifiedAt": "2026-11-07T05:39:36.089645+08:00"
+    },
+    {
+      "slug": "2026-11-lincoln-uk-global-leaders-september-2027",
+      "title": "Lincoln全球領袖獎學金：2027年9月首年學費減半",
+      "url": "https://globalednews.com/scholarships/items/2026-11-lincoln-uk-global-leaders-september-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-lincoln-uk-global-leaders-september-2027.md",
+      "sources": [
+        {
+          "label": "University of Lincoln — current award page",
+          "url": "https://www.lincoln.ac.uk/studywithus/scholarshipsandbursaries/thelincolngloballeadersscholarship/"
+        },
+        {
+          "label": "Complete University Guide — Taiwan-filtered Lincoln funding profile",
+          "url": "https://www.thecompleteuniversityguide.co.uk/universities/university-of-lincoln/student-support/undergraduate/taiwan/taiwan"
+        },
+        {
+          "label": "University of Lincoln — applicable annual terms",
+          "url": "https://www.lincoln.ac.uk/media/universityoflincoln/document/scholarship/University,of,Lincoln,International,Scholarship,Terms,and,Conditions,2027-2028,V1.pdf"
+        },
+        {
+          "label": "University of Lincoln — Taiwan entry and scholarship guidance",
+          "url": "https://www.lincoln.ac.uk/studywithus/internationalstudents/entryrequirementsandyourcountry/taiwan/"
+        },
+        {
+          "label": "Complete University Guide — annual institutional consultation method",
+          "url": "https://www.thecompleteuniversityguide.co.uk/sector/resources/consultations"
+        }
+      ],
+      "verifiedAt": "2026-11-07T05:12:11.471084+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "eligibleTaiwan": true,
+      "open": true,
+      "updateSummary": "New independently cross-checked award; official UK Lincoln intake, Taiwan eligibility, exclusions and award terms verified.",
+      "publishedVerifiedAt": "2026-11-07T05:39:36.089645+08:00"
+    },
+    {
+      "slug": "2026-11-lincoln-uk-international-alumni-january-2027",
+      "title": "Lincoln國際校友獎學金：2027年1月授課研究所£2,000",
+      "url": "https://globalednews.com/scholarships/items/2026-11-lincoln-uk-international-alumni-january-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-lincoln-uk-international-alumni-january-2027.md",
+      "sources": [
+        {
+          "label": "University of Lincoln — current award page",
+          "url": "https://www.lincoln.ac.uk/studywithus/scholarshipsandbursaries/internationalalumnischolarship/"
+        },
+        {
+          "label": "Complete University Guide — Taiwan-filtered Lincoln funding profile",
+          "url": "https://www.thecompleteuniversityguide.co.uk/universities/university-of-lincoln/student-support/undergraduate/taiwan/taiwan"
+        },
+        {
+          "label": "University of Lincoln — applicable annual terms",
+          "url": "https://www.lincoln.ac.uk/media/universityoflincoln/document/scholarship/University,of,Lincoln,International,Scholarship,Terms,and,Conditions,2026-2027,V1.pdf"
+        },
+        {
+          "label": "University of Lincoln — Taiwan entry and scholarship guidance",
+          "url": "https://www.lincoln.ac.uk/studywithus/internationalstudents/entryrequirementsandyourcountry/taiwan/"
+        },
+        {
+          "label": "Complete University Guide — annual institutional consultation method",
+          "url": "https://www.thecompleteuniversityguide.co.uk/sector/resources/consultations"
+        }
+      ],
+      "verifiedAt": "2026-11-07T05:12:11.471084+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "eligibleTaiwan": true,
+      "open": true,
+      "updateSummary": "New independently cross-checked award; official UK Lincoln intake, Taiwan eligibility, exclusions and award terms verified.",
+      "publishedVerifiedAt": "2026-11-07T05:39:36.089645+08:00"
+    }
   ],
+  "peterImports": [
+    {
+      "slug": "bezos-princeton-kindness-choices-study-abroad",
+      "title": "聰明之外，練習善意：貝佐斯演講給留學家庭的提醒",
+      "url": "https://globalednews.com/peter/bezos-princeton-kindness-choices-study-abroad/",
+      "sourceId": "122149460913172155",
+      "sourceUrl": "https://www.facebook.com/photo/?fbid=122149460913172155",
+      "verifiedAt": "2026-11-07T05:14:06.086924+08:00",
+      "publishedVerifiedAt": "2026-11-07T05:39:36.089645+08:00"
+    }
+  ],
+  "socialPosts": [
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "articleUrl": "https://globalednews.com/news/us-penn-state-tuition-lawsuit-november-2026/",
+      "publishedAt": "2026-11-07T05:40:12.228+08:00",
+      "status": "PUBLISHED",
+      "id": "7524586471534604288",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7524586471534604288/",
+      "account": "Peter Chen",
+      "verifiedAt": "2026-11-07T05:40:56.784+08:00",
+      "mediaVerifiedAt": "2026-11-07T05:40:56.784+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "visibility": "PUBLIC",
+      "mediaEvidence": "docs/social-posts/2026-11-07/evidence/linkedin-news.png",
+      "publishedTimeLabel": "剛剛",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "accountVerified": true,
+      "publishClickedAt": "2026-11-07T05:40:12.228+08:00",
+      "timestampMethod": "Native publish click time in Asia/Taipei; public relative time separately recorded."
+    },
+    {
+      "campaign": "news",
+      "network": "threads",
+      "articleUrl": "https://globalednews.com/news/us-penn-state-tuition-lawsuit-november-2026/",
+      "publishedAt": "2026-11-07T05:40:03.158+08:00",
+      "status": "PUBLISHED",
+      "id": "Dfal-25gYEE",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dfal-25gYEE",
+      "account": "ltuossdtw",
+      "verifiedAt": "2026-11-07T05:41:05.316+08:00",
+      "mediaVerifiedAt": "2026-11-07T05:41:05.316+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "visibility": "PUBLIC",
+      "mediaEvidence": "docs/social-posts/2026-11-07/evidence/threads-news.png",
+      "publishedTimeLabel": "1分鐘",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "accountVerified": true,
+      "publishClickedAt": "2026-11-07T05:40:03.158+08:00",
+      "timestampMethod": "Native publish click time in Asia/Taipei; public relative time separately recorded."
+    },
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "articleUrl": "https://globalednews.com/news/us-penn-state-tuition-lawsuit-november-2026/",
+      "publishedAt": "2026-11-07T05:41:10.466+08:00",
+      "status": "PUBLISHED",
+      "id": "1111650584944472",
+      "idKind": "published-photo",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid05LBAn8koj2V3zTWnJpeUubPBo3zXCEQAUd9ZRBF1TBUsYRKWLQcbXkowt6ZwZsLwl",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "accountId": "101904929207004",
+      "verifiedAt": "2026-11-07T05:42:27.480+08:00",
+      "mediaVerifiedAt": "2026-11-07T05:42:27.480+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "visibility": "PUBLIC",
+      "mediaEvidence": "docs/social-posts/2026-11-07/evidence/facebook-news.png",
+      "publicPhotoScreenshot": "docs/social-posts/2026-11-07/evidence/facebook-news.png",
+      "photoAttachedAt": "2026-11-07T05:25:55.940+08:00",
+      "copyAddedAt": "2026-11-07T05:26:03.016+08:00",
+      "photoReadyEvidence": "docs/daily-checks/2026-11-07/fb-news-photo-ready.png",
+      "photoAttachments": [
+        {
+          "id": "1111650584944472",
+          "url": "https://www.facebook.com/photo/?fbid=1111650584944472"
+        }
+      ],
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-07T05:42:27.480+08:00",
+      "publishedTimeLabel": "剛剛",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "accountVerified": true,
+      "publishClickedAt": "2026-11-07T05:41:10.466+08:00",
+      "timestampMethod": "Native publish click time in Asia/Taipei; public relative time separately recorded."
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "articleUrl": "https://globalednews.com/news/us-penn-state-tuition-lawsuit-november-2026/",
+      "publishedAt": "2026-11-07T05:43:04.485+08:00",
+      "status": "PUBLISHED",
+      "id": "DfamVYHE8nm",
+      "publicUrl": "https://www.instagram.com/p/DfamVYHE8nm/",
+      "account": "ltuossdtw",
+      "verifiedAt": "2026-11-07T05:44:14.821+08:00",
+      "mediaVerifiedAt": "2026-11-07T05:44:14.821+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "visibility": "PUBLIC",
+      "mediaEvidence": "docs/social-posts/2026-11-07/evidence/instagram-news.png",
+      "publishedTimeLabel": "54秒前",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "accountVerified": true,
+      "publishClickedAt": "2026-11-07T05:43:04.485+08:00",
+      "timestampMethod": "Native publish click time in Asia/Taipei; public relative time separately recorded."
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-11-lincoln-uk-global-undergraduate-2027/",
+      "publishedAt": "2026-11-07T05:44:03.324+08:00",
+      "status": "PUBLISHED",
+      "id": "DfamcM1gW3h",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfamcM1gW3h",
+      "account": "ltuossdtw",
+      "verifiedAt": "2026-11-07T05:47:10.269+08:00",
+      "mediaVerifiedAt": "2026-11-07T05:47:10.269+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "visibility": "PUBLIC",
+      "mediaEvidence": "docs/social-posts/2026-11-07/evidence/threads-scholarship.png",
+      "publishedTimeLabel": "1分鐘",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "accountVerified": true,
+      "publishClickedAt": "2026-11-07T05:44:03.324+08:00",
+      "timestampMethod": "Native publish click time in Asia/Taipei; public relative time separately recorded."
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-11-lincoln-uk-global-undergraduate-2027/",
+      "publishedAt": "2026-11-07T05:44:25.629+08:00",
+      "status": "PUBLISHED",
+      "id": "1111660371610160",
+      "idKind": "published-photo",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0tZiES4HKsnvx6hB9uHRSg2xboyhLovVXuooF1mUEGxAjBYvs9REpBrQijn2L7wJyl",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "accountId": "101904929207004",
+      "verifiedAt": "2026-11-07T05:48:13.770+08:00",
+      "mediaVerifiedAt": "2026-11-07T05:48:13.770+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "visibility": "PUBLIC",
+      "mediaEvidence": "docs/social-posts/2026-11-07/evidence/facebook-scholarship.png",
+      "publicPhotoScreenshot": "docs/social-posts/2026-11-07/evidence/facebook-scholarship.png",
+      "photoAttachedAt": "2026-11-07T05:43:42.675+08:00",
+      "copyAddedAt": "2026-11-07T05:43:42.763+08:00",
+      "photoReadyEvidence": "docs/social-posts/2026-11-07/evidence/facebook-scholarship-photo-ready.png",
+      "photoAttachments": [
+        {
+          "id": "1111660371610160",
+          "url": "https://www.facebook.com/photo/?fbid=1111660371610160&set=a.107747308668143"
+        }
+      ],
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-07T05:48:13.774+08:00",
+      "publishedTimeLabel": "剛剛",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "accountVerified": true,
+      "publishClickedAt": "2026-11-07T05:44:25.629+08:00",
+      "timestampMethod": "Native publish click time in Asia/Taipei; public relative time separately recorded."
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-11-lincoln-uk-global-undergraduate-2027/",
+      "publishedAt": "2026-11-07T05:47:20.672+08:00",
+      "status": "PUBLISHED",
+      "id": "7524588270068977666",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7524588270068977666/",
+      "account": "Peter Chen",
+      "verifiedAt": "2026-11-07T05:48:13.780+08:00",
+      "mediaVerifiedAt": "2026-11-07T05:48:13.780+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "visibility": "PUBLIC",
+      "mediaEvidence": "docs/social-posts/2026-11-07/evidence/linkedin-scholarship.png",
+      "publishedTimeLabel": "剛剛",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "accountVerified": true,
+      "publishClickedAt": "2026-11-07T05:47:20.672+08:00",
+      "timestampMethod": "Native publish click time in Asia/Taipei; public relative time separately recorded."
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-11-lincoln-uk-global-undergraduate-2027/",
+      "publishedAt": "2026-11-07T05:48:23.656+08:00",
+      "status": "PUBLISHED",
+      "id": "Dfam8VwEwD4",
+      "publicUrl": "https://www.instagram.com/p/Dfam8VwEwD4/",
+      "account": "ltuossdtw",
+      "verifiedAt": "2026-11-07T05:50:08.314+08:00",
+      "mediaVerifiedAt": "2026-11-07T05:50:08.314+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "visibility": "PUBLIC",
+      "mediaEvidence": "docs/social-posts/2026-11-07/evidence/instagram-scholarship.png",
+      "publishedTimeLabel": "1分鐘",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "accountVerified": true,
+      "publishClickedAt": "2026-11-07T05:48:23.656+08:00",
+      "timestampMethod": "Native publish click time in Asia/Taipei; public relative time separately recorded."
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "articleUrl": "https://globalednews.com/study-abroad/japan-kinjo-coeducation-transition-checklist/",
+      "publishedAt": "2026-11-07T05:49:55.931+08:00",
+      "status": "PUBLISHED",
+      "id": "7524588919963987968",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7524588919963987968/",
+      "account": "Peter Chen",
+      "verifiedAt": "2026-11-07T05:50:45.258+08:00",
+      "mediaVerifiedAt": "2026-11-07T05:50:45.258+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "visibility": "PUBLIC",
+      "mediaEvidence": "docs/social-posts/2026-11-07/evidence/linkedin-study-abroad.png",
+      "publishedTimeLabel": "剛剛",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "accountVerified": true,
+      "publishClickedAt": "2026-11-07T05:49:55.931+08:00",
+      "timestampMethod": "Native publish click time in Asia/Taipei; public relative time separately recorded."
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "articleUrl": "https://globalednews.com/study-abroad/japan-kinjo-coeducation-transition-checklist/",
+      "publishedAt": "2026-11-07T05:49:42.044+08:00",
+      "status": "PUBLISHED",
+      "id": "DfanFmLgeGO",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfanFmLgeGO",
+      "account": "ltuossdtw",
+      "verifiedAt": "2026-11-07T05:50:58.247+08:00",
+      "mediaVerifiedAt": "2026-11-07T05:50:58.247+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "visibility": "PUBLIC",
+      "mediaEvidence": "docs/social-posts/2026-11-07/evidence/threads-study-abroad.png",
+      "publishedTimeLabel": "1分鐘",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "accountVerified": true,
+      "publishClickedAt": "2026-11-07T05:49:42.044+08:00",
+      "timestampMethod": "Native publish click time in Asia/Taipei; public relative time separately recorded."
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "articleUrl": "https://bioinfo.nycu.edu.tw/events",
+      "publishedAt": "2026-11-07T05:51:53.905+08:00",
+      "status": "PUBLISHED",
+      "id": "7524589416087224321",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7524589416087224321/",
+      "account": "Peter Chen",
+      "verifiedAt": "2026-11-07T05:52:31.916+08:00",
+      "mediaVerifiedAt": "2026-11-07T05:52:31.916+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "visibility": "PUBLIC",
+      "mediaEvidence": "docs/social-posts/2026-11-07/evidence/linkedin-taiwan-universities.png",
+      "publishedTimeLabel": "剛剛",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "accountVerified": true,
+      "publishClickedAt": "2026-11-07T05:51:53.905+08:00",
+      "timestampMethod": "Native publish click time in Asia/Taipei; public relative time separately recorded."
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "articleUrl": "https://globalednews.com/study-abroad/japan-kinjo-coeducation-transition-checklist/",
+      "publishedAt": "2026-11-07T05:51:39.997+08:00",
+      "status": "PUBLISHED",
+      "id": "DfanUV_E_dZ",
+      "publicUrl": "https://www.instagram.com/p/DfanUV_E_dZ/",
+      "account": "ltuossdtw",
+      "verifiedAt": "2026-11-07T05:52:41.553+08:00",
+      "mediaVerifiedAt": "2026-11-07T05:52:41.553+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "visibility": "PUBLIC",
+      "mediaEvidence": "docs/social-posts/2026-11-07/evidence/instagram-study-abroad.png",
+      "publishedTimeLabel": "39秒",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "accountVerified": true,
+      "publishClickedAt": "2026-11-07T05:51:39.997+08:00",
+      "timestampMethod": "Native publish click time in Asia/Taipei; public relative time separately recorded."
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "articleUrl": "https://bioinfo.nycu.edu.tw/events",
+      "publishedAt": "2026-11-07T05:51:53.298+08:00",
+      "status": "PUBLISHED",
+      "id": "DfanViqAWkO",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfanViqAWkO",
+      "account": "ltuossdtw",
+      "verifiedAt": "2026-11-07T05:52:55.872+08:00",
+      "mediaVerifiedAt": "2026-11-07T05:52:55.872+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "visibility": "PUBLIC",
+      "mediaEvidence": "docs/social-posts/2026-11-07/evidence/threads-taiwan-universities.png",
+      "publishedTimeLabel": "1分鐘",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "accountVerified": true,
+      "publishClickedAt": "2026-11-07T05:51:53.298+08:00",
+      "timestampMethod": "Native publish click time in Asia/Taipei; public relative time separately recorded."
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "articleUrl": "https://globalednews.com/study-abroad/japan-kinjo-coeducation-transition-checklist/",
+      "publishedAt": "2026-11-07T05:52:14.406+08:00",
+      "status": "PUBLISHED",
+      "id": "1111664791609718",
+      "idKind": "published-photo",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02dx8Z1vtHNB4q3o4ypzEq4s1cR1zxXSwZRf691itXtabyodoua3mMZMjVCdyb72wVl",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "accountId": "101904929207004",
+      "verifiedAt": "2026-11-07T05:52:55.939+08:00",
+      "mediaVerifiedAt": "2026-11-07T05:52:55.939+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "visibility": "PUBLIC",
+      "mediaEvidence": "docs/social-posts/2026-11-07/evidence/facebook-study-abroad.png",
+      "publicPhotoScreenshot": "docs/social-posts/2026-11-07/evidence/facebook-study-abroad.png",
+      "photoAttachedAt": "2026-11-07T05:51:38.940+08:00",
+      "copyAddedAt": "2026-11-07T05:51:51.536+08:00",
+      "photoReadyEvidence": "docs/social-posts/2026-11-07/evidence/facebook-study-abroad-photo-ready.png",
+      "photoAttachments": [
+        {
+          "id": "1111664791609718",
+          "url": "https://www.facebook.com/photo/?fbid=1111664791609718&set=a.107747308668143"
+        }
+      ],
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-07T05:52:55.943+08:00",
+      "publishedTimeLabel": "剛剛",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "accountVerified": true,
+      "publishClickedAt": "2026-11-07T05:52:14.406+08:00",
+      "timestampMethod": "Native publish click time in Asia/Taipei; public relative time separately recorded."
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "articleUrl": "https://bioinfo.nycu.edu.tw/events",
+      "publishedAt": "2026-11-07T05:53:59.392+08:00",
+      "status": "PUBLISHED",
+      "id": "DfanlXSE-ja",
+      "publicUrl": "https://www.instagram.com/p/DfanlXSE-ja/",
+      "account": "ltuossdtw",
+      "verifiedAt": "2026-11-07T05:55:03.396+08:00",
+      "mediaVerifiedAt": "2026-11-07T05:55:03.396+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "visibility": "PUBLIC",
+      "mediaEvidence": "docs/social-posts/2026-11-07/evidence/instagram-taiwan-universities.png",
+      "publishedTimeLabel": "41秒",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei",
+      "accountVerified": true,
+      "publishClickedAt": "2026-11-07T05:53:59.392+08:00",
+      "timestampMethod": "Native publish click time in Asia/Taipei; public relative time separately recorded."
+    }
+  ],
+  "gaps": [],
   "blockers": [],
   "manualActions": [],
   "newsPrepared": [
@@ -525,18 +1097,23 @@
       "https://www.ctee.com.tw/news/20250723702079-431204",
       "https://udn.com/news/story/6929/8583109"
     ],
-    "note": "Original archive reports read: CTEE two via native browser, UDN via web. Dates preserved; no copied media images or claim of new events. Full12-item pool retained."
+    "note": "Original archive reports read: CTEE two via native browser, UDN via web. Dates preserved; no copied media images or claim of new events. Full12-item pool retained.",
+    "publishedVerifiedAt": "2026-11-07T05:59:27.350+08:00"
   },
   "preparedAt": "2026-11-07T05:14:06.310693+08:00",
   "phaseCompleted": [
     "PREFLIGHT",
     "RESEARCH",
     "PREPARE",
-    "BUILD"
+    "BUILD",
+    "COMMIT_DEPLOY",
+    "PUBLISH",
+    "ACCEPTANCE",
+    "VERIFY"
   ],
   "build": {
     "status": "success",
-    "verifiedAt": "2026-11-07T05:19:01.252132+08:00",
+    "verifiedAt": "2026-11-07T05:38:42.398707+08:00",
     "astroRoutes": 638,
     "bilingualPairs": 919,
     "newUntranslatedStrings": 0,
@@ -552,5 +1129,258 @@
       "SEO"
     ],
     "runtime": "C:\\Users\\User\\AppData\\Local\\Temp\\globalednews-security-20261019"
+  },
+  "archiveRewritesPrepared": [
+    {
+      "slug": "uk-student-sponsor-guidance-october-2026",
+      "path": "src/pages/news/uk-student-sponsor-guidance-october-2026.md",
+      "url": "https://globalednews.com/news/uk-student-sponsor-guidance-october-2026/",
+      "sources": [
+        [
+          "UKVI — guidance and dated revision history",
+          "https://www.gov.uk/government/publications/student-sponsor-guidance"
+        ],
+        [
+          "HEPI — independent regulatory analysis, November 5",
+          "https://www.hepi.ac.uk/reports/one-sector-two-regulators-the-office-for-students-uk-visas-and-immigration-and-the-challenge-of-regulatory-coherence-in-international-education/"
+        ],
+        [
+          "UKVI — current sponsor register",
+          "https://www.gov.uk/government/publications/register-of-licensed-sponsors-students"
+        ],
+        [
+          "UKVI — compliance, investigation and sanctions",
+          "https://www.gov.uk/government/publications/student-sponsor-guidance/student-sponsor-compliance-accessible"
+        ]
+      ],
+      "bodyCjk": 1175
+    },
+    {
+      "slug": "canada-study-permit-processing-dashboard-2026",
+      "path": "src/pages/news/canada-study-permit-processing-dashboard-2026.md",
+      "url": "https://globalednews.com/news/canada-study-permit-processing-dashboard-2026/",
+      "sources": [
+        [
+          "IRCC — application-processing dashboard, data through August 31",
+          "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/reports-statistics/statistics-open-data/immigration-stats/application-processing-system.html"
+        ],
+        [
+          "Auditor General of Canada — independent audit of student-programme reforms",
+          "https://www.canada.ca/content/dam/oag-bvg/audit-reports/documents/ag-202603-international-student-program-reforms.PDF"
+        ],
+        [
+          "IRCC — graduate-study routes",
+          "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/graduate-student.html"
+        ]
+      ],
+      "bodyCjk": 1140
+    },
+    {
+      "slug": "new-zealand-years-11-13-final-subjects-first-release-2026",
+      "path": "src/pages/news/new-zealand-years-11-13-final-subjects-first-release-2026.md",
+      "url": "https://globalednews.com/news/new-zealand-years-11-13-final-subjects-first-release-2026/",
+      "sources": [
+        [
+          "Ministry of Education — initial senior subject release and implementation",
+          "https://www.education.govt.nz/news/first-release-years-tau-11-13-subjects"
+        ],
+        [
+          "NZAEE — independent analysis of 41 subject drafts, updated August 9",
+          "https://www.nzaee.org.nz/news-and-publications/phase-5-senior-secondary-curriculum-consultation"
+        ],
+        [
+          "Ministry of Education — October 21 release and remaining consultation",
+          "https://www.education.govt.nz/news/more-senior-secondary-subjects-now-available-tahurangi"
+        ],
+        [
+          "Ministry of Education — October 28 subject release",
+          "https://www.education.govt.nz/news/more-senior-curriculum-subjects-released"
+        ]
+      ],
+      "bodyCjk": 1137
+    }
+  ],
+  "deploymentAttempts": [
+    {
+      "commit": "4091f2e574843bda345ab5d532b042fef3be15d1",
+      "runId": 42295745507,
+      "status": "failure",
+      "reason": "Pages syncing_files timeout600s"
+    },
+    {
+      "commit": "e04b2afc67022600845b06fe5d4a08989fb07650",
+      "runId": 42298228391,
+      "status": "success"
+    }
+  ],
+  "studyAbroadPublished": {
+    "slug": "japan-kinjo-coeducation-transition-checklist",
+    "title": "日本金城學院選校：共學公告之後，還要確認哪一年入學",
+    "url": "https://globalednews.com/study-abroad/japan-kinjo-coeducation-transition-checklist/",
+    "publishedPath": "src/pages/study-abroad/japan-kinjo-coeducation-transition-checklist.md",
+    "sources": [
+      {
+        "label": "Kinjo Gakuin — official coeducation announcement",
+        "url": "https://www.kinjo-u.ac.jp/ja/news/detail/?id=2864"
+      },
+      {
+        "label": "Chunichi Shimbun — independent board and alumni context",
+        "url": "https://edu.chunichi.co.jp/news/detail/12914/u00015"
+      }
+    ],
+    "verifiedAt": "2026-11-07T05:14:06.086924+08:00",
+    "publishedVerifiedAt": "2026-11-07T05:39:36.089645+08:00"
+  },
+  "newFacebookPagePost": {
+    "campaign": "news",
+    "network": "facebook",
+    "articleUrl": "https://globalednews.com/news/us-penn-state-tuition-lawsuit-november-2026/",
+    "publishedAt": "2026-11-07T05:55:04.100+08:00",
+    "status": "PUBLISHED",
+    "id": "122119426203505473",
+    "idKind": "published-photo",
+    "publicUrl": "https://www.facebook.com/photo/?fbid=122119426203505473&set=a.122094964809505473",
+    "account": "環球國際教育新聞網",
+    "accountId": "61595164194381",
+    "verifiedAt": "2026-11-07T05:55:41.950+08:00",
+    "mediaVerifiedAt": "2026-11-07T05:55:41.950+08:00",
+    "imageCount": 1,
+    "mediaKind": "uploaded-photo",
+    "mediaStatus": "VERIFIED",
+    "visibility": "PUBLIC",
+    "mediaEvidence": "docs/social-posts/2026-11-07/evidence/facebook-new-page.png",
+    "publicPhotoScreenshot": "docs/social-posts/2026-11-07/evidence/facebook-new-page.png",
+    "photoAttachedAt": "2026-11-07T05:54:22.187+08:00",
+    "copyAddedAt": "2026-11-07T05:54:42.836+08:00",
+    "photoReadyEvidence": "docs/social-posts/2026-11-07/evidence/facebook-new-page-photo-ready.png",
+    "photoAttachments": [
+      {
+        "id": "122119426203505473",
+        "url": "https://www.facebook.com/photo/?fbid=122119426203505473&set=a.122094964809505473"
+      }
+    ],
+    "previewStatus": "VERIFIED",
+    "previewVerifiedAt": "2026-11-07T05:55:41.952+08:00",
+    "publishedTimeLabel": "剛剛",
+    "publicationMethod": "native-ui",
+    "timezone": "Asia/Taipei",
+    "pageId": "61595164194381",
+    "accountVerified": true,
+    "publishClickedAt": "2026-11-07T05:55:04.100+08:00",
+    "timestampMethod": "Native publish click time in Asia/Taipei; public relative time separately recorded."
+  },
+  "deployment": {
+    "commit": "e04b2afc67022600845b06fe5d4a08989fb07650",
+    "status": "success",
+    "verifiedAt": "2026-11-07T06:00:26.586527+08:00",
+    "runId": 42298228391,
+    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/42298228391",
+    "deployedAt": "2026-11-07T05:39:09+08:00",
+    "indexNowStatus": "success"
+  },
+  "acceptance": {
+    "desktop": true,
+    "mobile": true,
+    "seo": true,
+    "verifiedAt": "2026-11-07T05:59:27.350+08:00",
+    "uiEvidence": "docs/daily-checks/2026-11-07/live-ui-verification.json",
+    "seoEvidence": "docs/daily-reports/2026-11-07-live-seo.json",
+    "mobileViewport": "390x843 CSS px",
+    "images": true,
+    "searchFilters": true,
+    "canonical": true,
+    "openGraph": true,
+    "schema": true,
+    "sitemap": true,
+    "newsSitemap": true,
+    "rss": true
+  },
+  "archiveRewrites": [
+    {
+      "slug": "uk-student-sponsor-guidance-october-2026",
+      "path": "src/pages/news/uk-student-sponsor-guidance-october-2026.md",
+      "url": "https://globalednews.com/news/uk-student-sponsor-guidance-october-2026/",
+      "sources": [
+        [
+          "UKVI — guidance and dated revision history",
+          "https://www.gov.uk/government/publications/student-sponsor-guidance"
+        ],
+        [
+          "HEPI — independent regulatory analysis, November 5",
+          "https://www.hepi.ac.uk/reports/one-sector-two-regulators-the-office-for-students-uk-visas-and-immigration-and-the-challenge-of-regulatory-coherence-in-international-education/"
+        ],
+        [
+          "UKVI — current sponsor register",
+          "https://www.gov.uk/government/publications/register-of-licensed-sponsors-students"
+        ],
+        [
+          "UKVI — compliance, investigation and sanctions",
+          "https://www.gov.uk/government/publications/student-sponsor-guidance/student-sponsor-compliance-accessible"
+        ]
+      ],
+      "bodyCjk": 1175,
+      "publishedVerifiedAt": "2026-11-07T05:58:57.407032+08:00",
+      "status": "completed",
+      "deploymentCommit": "e04b2afc67022600845b06fe5d4a08989fb07650"
+    },
+    {
+      "slug": "canada-study-permit-processing-dashboard-2026",
+      "path": "src/pages/news/canada-study-permit-processing-dashboard-2026.md",
+      "url": "https://globalednews.com/news/canada-study-permit-processing-dashboard-2026/",
+      "sources": [
+        [
+          "IRCC — application-processing dashboard, data through August 31",
+          "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/reports-statistics/statistics-open-data/immigration-stats/application-processing-system.html"
+        ],
+        [
+          "Auditor General of Canada — independent audit of student-programme reforms",
+          "https://www.canada.ca/content/dam/oag-bvg/audit-reports/documents/ag-202603-international-student-program-reforms.PDF"
+        ],
+        [
+          "IRCC — graduate-study routes",
+          "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/graduate-student.html"
+        ]
+      ],
+      "bodyCjk": 1140,
+      "publishedVerifiedAt": "2026-11-07T05:58:57.407032+08:00",
+      "status": "completed",
+      "deploymentCommit": "e04b2afc67022600845b06fe5d4a08989fb07650"
+    },
+    {
+      "slug": "new-zealand-years-11-13-final-subjects-first-release-2026",
+      "path": "src/pages/news/new-zealand-years-11-13-final-subjects-first-release-2026.md",
+      "url": "https://globalednews.com/news/new-zealand-years-11-13-final-subjects-first-release-2026/",
+      "sources": [
+        [
+          "Ministry of Education — initial senior subject release and implementation",
+          "https://www.education.govt.nz/news/first-release-years-tau-11-13-subjects"
+        ],
+        [
+          "NZAEE — independent analysis of 41 subject drafts, updated August 9",
+          "https://www.nzaee.org.nz/news-and-publications/phase-5-senior-secondary-curriculum-consultation"
+        ],
+        [
+          "Ministry of Education — October 21 release and remaining consultation",
+          "https://www.education.govt.nz/news/more-senior-secondary-subjects-now-available-tahurangi"
+        ],
+        [
+          "Ministry of Education — October 28 subject release",
+          "https://www.education.govt.nz/news/more-senior-curriculum-subjects-released"
+        ]
+      ],
+      "bodyCjk": 1137,
+      "publishedVerifiedAt": "2026-11-07T05:58:57.407032+08:00",
+      "status": "completed",
+      "deploymentCommit": "e04b2afc67022600845b06fe5d4a08989fb07650"
+    }
+  ],
+  "archiveRemaining": 178,
+  "completedAt": "2026-11-07T06:00:26.855657+08:00",
+  "verification": {
+    "status": "COMPLETE",
+    "exitCode": 0,
+    "verifiedAt": "2026-11-07T06:00:26.855164+08:00",
+    "output": "EVIDENCE_PRESENT 2026-11-07: 3 news, 3 new scholarships, Peter review (1 imports), 15 social posts and deployment evidence present. Evidence presence does not replace live verification.\nCOMPLETE 2026-11-07: delivery evidence and editorial depth checks passed.\n",
+    "evidence": "docs/daily-checks/2026-11-07/daily-verification.json"
   }
 }

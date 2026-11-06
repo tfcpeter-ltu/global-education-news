@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-07",
+  "status": "completed",
+  "imports": [
+    {
+      "slug": "bezos-princeton-kindness-choices-study-abroad",
+      "title": "聰明之外，練習善意：貝佐斯演講給留學家庭的提醒",
+      "url": "https://globalednews.com/peter/bezos-princeton-kindness-choices-study-abroad/",
+      "sourceId": "122149460913172155",
+      "sourceUrl": "https://www.facebook.com/photo/?fbid=122149460913172155",
+      "verifiedAt": "2026-11-07T05:14:06.086924+08:00",
+      "publishedVerifiedAt": "2026-11-07T05:39:36.089645+08:00"
+    }
+  ],
+  "review": {
+    "status": "fewer-new-posts",
+    "availableNewCount": 1,
+    "checkedAt": "2026-11-07T05:14:06.086924+08:00",
+    "sourceUrls": [
+      "https://www.facebook.com/photo/?fbid=122149460913172155",
+      "https://www.facebook.com/profile.php?id=61585164670358"
+    ],
+    "note": "Native full text read. One new Bezos kindness post; UCAS and WO/HBO already imported, membership promotion excluded. Relative17hours retained; Princeton and independent student newspaper read."
+  }
+}
