@@ -1,0 +1,41 @@
+{
+  "uk-ucas-october-2027-applicant-snapshot": {
+    "newsValue": "早截止總量下降但醫學略增，解釋兩者並不矛盾，避免將總體變化寫成個人錄取機會。",
+    "background": "解釋十月截止群體包含哪些科系及牛劍，與全年一般課程申請的統計母體不同。",
+    "development": "保留10月15日統計點、10月29日發布與2027入學週期，分別比較申請總量及醫學重申。",
+    "perspectives": "UCAS的行政統計與Wonkhe Kernohan的代表性分析並列；沒有虛構學校或學生訪談。",
+    "taiwanImpact": "依申請階段區分準備面試及尚在選校的家庭，說明應取得同課程國際申請與錄取資料。",
+    "uncertainty": "沒有因果識別或完整台灣分項，不能證明政策造成下降，也不能推導個人錄取率。",
+    "independence": "UCAS為招生資料第一手發布者；Wonkhe為獨立高教媒體，提供統計代表性與趨勢分析而非僅轉載公告。",
+    "primarySource": "https://www.ucas.com/corporate/news-and-key-documents/news/ucas-releases-undergraduate-application-data-from-15-october-deadline",
+    "independentSource": "https://wonkhe.com/wonk-corner/ucas-october-deadline-data-suggests-pessimism-ahead",
+    "reviewedAt": "2026-11-06",
+    "bodySha256": "8c7d0947c85b0d121ae9bf41172373209db03597bd03ed45b7b3422fbebd7682"
+  },
+  "philippines-transnational-education-strategy-2026": {
+    "newsValue": "跨國教育策略關聯品質與流動制度，從合作標籤進一步解釋學生需要的具體制度保障。",
+    "background": "說明跨校授課、評量、學位授予與學分轉換的責任問題，區別分校、雙學位與研究備忘錄。",
+    "development": "區分11月3日soft launch、11月4日議程中的發布環節與尚待實施的EduPhil規劃。",
+    "perspectives": "主辦議程、PNA的CHED主席訪談與The PIE現場報導交叉閱讀，區別政策目標與已落地成果。",
+    "taiwanImpact": "提出授予機構、授課地點、學費與退費安排的查核問題，不將合作宣傳等同台灣學歷採認。",
+    "uncertainty": "未取得台灣學生可直接使用的新簽證作業規則，不將七天討論或合作策略寫成辦理保證。",
+    "independence": "British Council為活動第一手主辦來源；The PIE具署名現場報導及向CHED提問，PNA為政府通訊社另標明角色。",
+    "primarySource": "https://www.britishcouncil.ph/en/programmes/education/asean-uk-higher-education-week-2026",
+    "independentSource": "https://thepienews.com/philippines-to-fast-track-student-visas-as-tne-strategy-takes-off/",
+    "reviewedAt": "2026-11-06",
+    "bodySha256": "50737ac9e69da098e16f87b9fffd38aa30c27910f4069d9770b6e1a991e59e7a"
+  },
+  "australia-schools-digital-detox-taskforce-2026": {
+    "newsValue": "校園螢幕與AI政策轉向，以教學目的和學生認知活動分析措施，避免禁用科技的錯誤簡化。",
+    "background": "說明數位設備已嵌入教學及校際起點不同，減少設備時間與提升學習成效並非同一測量。",
+    "development": "區分11月4日政策說明、專案小組方向與2028年五年級NAPLAN寫作變動的範圍及時間。",
+    "perspectives": "政府政策與Jason Lodge教育心理分析並列，SBS提供評量時間線；不虛構本報訪問。",
+    "taiwanImpact": "赴澳家庭可確認BYOD、作業AI規則與學生須保留的思考證據，問題可用於比較實際校規。",
+    "uncertainty": "全國裝置時間資料不足，不能宣稱所有學校統一限時或改革已改善成績，成效需要後續評估。",
+    "independence": "教育部為第一手政策機關；Lodge為獨立大學專家分析，原刊The Conversation與UQ轉載只算一份。SBS另提供評量報導。",
+    "primarySource": "https://www.education.gov.au/schooling/announcements/digital-detox-rebalancing-technology-use-australian-schools",
+    "independentSource": "https://news.uq.edu.au/2026-11-australian-classrooms-are-getting-digital-detox-what-does-mean-schools-and-students",
+    "reviewedAt": "2026-11-06",
+    "bodySha256": "e6276d1b110afb9e88483f495c35c8c6987a1d4037914cf16a5964a8200f496e"
+  }
+}

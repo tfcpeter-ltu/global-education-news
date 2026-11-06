@@ -1,3 +1,4 @@
+import { spawnSync } from 'node:child_process';
 import { facebookPhotoErrors } from './facebook-photo-evidence.mjs';
 import fs from 'node:fs';
 const date = process.argv[2] || new Intl.DateTimeFormat('en-CA', {timeZone:'Asia/Taipei'}).format(new Date());
@@ -56,6 +57,12 @@ else {
  }
  if(!r.deployment?.commit || r.deployment.status!=='success' || !r.deployment.verifiedAt) fail('missing deployment evidence');
  if(!r.acceptance?.desktop || !r.acceptance?.mobile || !r.acceptance?.seo || !r.acceptance?.verifiedAt) fail('missing live acceptance evidence');
- if(!process.exitCode) console.log(`COMPLETE ${date}: 3 news, 3 new scholarships, Peter review (${peterImportCount} imports${peterNoNewPosts?', no new source posts':''}), ${requirements.length} social posts and deployment evidence present. Evidence presence does not replace live verification.`);
+ if(!process.exitCode) console.log(`EVIDENCE_PRESENT ${date}: 3 news, 3 new scholarships, Peter review (${peterImportCount} imports${peterNoNewPosts?', no new source posts':''}), ${requirements.length} social posts and deployment evidence present. Evidence presence does not replace live verification.`);
 }
 
+
+if(date >= '2026-11-06') {
+ const depth=spawnSync(process.execPath,['scripts/check-news-depth.mjs'],{encoding:'utf8'});
+ if(depth.status!==0) fail('news depth/editorial review failed: '+depth.stdout+depth.stderr);
+}
+if(!process.exitCode) console.log(`COMPLETE ${date}: delivery evidence and editorial depth checks passed.`);

@@ -6,24 +6,48 @@ date: "2026-11-06T08:11:35.624738+08:00"
 author: "LTU Global Education News 編輯部"
 category: "國際教育新聞"
 topic: "australia"
-sources: [{"label": "Source 1", "url": "https://www.education.gov.au/schooling/announcements/digital-detox-rebalancing-technology-use-australian-schools"}, {"label": "Source 2", "url": "https://news.uq.edu.au/2026-11-australian-classrooms-are-getting-digital-detox-what-does-mean-schools-and-students"}, {"label": "Source 3", "url": "https://www.sbs.com.au/language/chinese/zh-hant/article/year-5-naplan-writing-test-to-return-to-pen-and-paper-from-2028/fa61pckpw"}]
+sources: [{"label": "澳洲教育部：校園科技使用政策說明（11月4日）", "url": "https://www.education.gov.au/schooling/announcements/digital-detox-rebalancing-technology-use-australian-schools"}, {"label": "昆士蘭大學：Jason Lodge對校園數位減量的分析", "url": "https://news.uq.edu.au/2026-11-australian-classrooms-are-getting-digital-detox-what-does-mean-schools-and-students"}, {"label": "SBS：五年級NAPLAN寫作紙筆評量規劃", "url": "https://www.sbs.com.au/language/chinese/zh-hant/article/year-5-naplan-writing-test-to-return-to-pen-and-paper-from-2028/fa61pckpw"}]
 image: "/images/daily/2026-11-06/au.jpg"
 imageAlt: "校園授權資料照，非報導事件現場"
 imageCredit: "Samantha.Khesh / CC0"
 imageSource: "https://commons.wikimedia.org/wiki/File:Concord_High_School_(Sydney)_-_Administration_Building_(2026).jpg"
 imageLicense: "CC0"
+updated: "2026-11-06T19:34:50.240406+08:00"
+editorialFormat: "reported-analysis"
 ---
 
-## 政策方向
+澳洲政府要重新調整教室裡螢幕與人工智慧的角色。教育部11月4日發布的政策說明，將減少螢幕使用、限制AI與成立專案小組放在同一套方向中。這項轉變觸及一個更深的問題：當數位設備已成為日常教學的一部分，學校應如何判斷哪些科技真的幫助學生學會，哪些只是讓完成作業更快？
 
-澳洲教育部11月4日公布校園科技使用政策說明，指出教育首長同意減少螢幕使用、限制AI使用並成立Australian Schools Digital Detox Taskforce。官方明確說明，目標不是把科技完全移出學校。
+## 政策針對的是學習目的，不只是設備數量
 
-## 獨立專家提出的限制
+教育部指出，科技採用應以促進學習為目的並有證據支持；如果不能促進學習或造成傷害，就應限制使用。官方同時保留學生學習數位能力、負責任使用AI的必要性，並明說不是要將科技全部移出學校。把這項政策概括成「澳洲禁止校園科技」，會漏掉它最重要的判準：使用目的與學習效果。
 
-昆士蘭大學Jason Lodge教授11月5日分析指出，全國尚缺完整的校內裝置使用時間資料，科技對學習的效果也須依用途判斷。針對練習與回饋的工具，與替學生直接產出答案的工具，不宜混為一談。
+政策說明列出教育首長同意的方向，包括設立Australian Schools Digital Detox Taskforce。專案小組的工作與後續規範，仍需和各州、學校的實際安排一起理解。成立小組不能直接等同全澳每所學校已採同一個每日時數，也不代表每一項評量都已改回紙筆。
 
-## 赴澳家庭應確認校級規定
+## 專家提醒：先知道學生如何用，再談用多久
 
-編輯建議：向目標學校確認裝置攜帶要求、作業AI規範與評量方式，不把政策方向當成全澳已實施統一時數上限。SBS另報導五年級NAPLAN寫作預計2028改回紙筆，不能擴大解讀為所有年級、科目都已改制。
+昆士蘭大學教育心理學教授Jason Lodge於11月5日發表分析，指出澳洲缺乏完整的全國校內裝置使用時間資料，科技使用規則也存在校際差異。因此，政策執行不能假設每間教室的起點相同。有的教師可能需要重新設計課程，有的原本就較少依賴裝置；實際影響要看既有教學方式。
+
+Lodge也區分針對練習、提供較精確回饋的工具，與可能讓學生把思考外包的生成式工具。這個區分把討論從單一的「螢幕好或壞」推進到教學設計：學生在使用過程中，究竟做了哪些需要理解、判斷與練習的工作？他的文章屬具名專家分析，而非證明所有科技具有相同效果的單一實驗。
+
+## 螢幕時數無法單獨回答學習成效
+
+從評估角度看，同樣一段使用時間，可能包含教師引導下的練習，也可能只是複製答案。若只把時間縮短，卻沒有檢查學生實際完成的認知活動，仍難判斷學習是否改善。這是本報根據政策與專家提出問題所作的分析，不能反過來當成取消任何時數限制的證據。
+
+因此，觀察後續改革時，除了看螢幕是否減少，更應看替代活動如何安排、教師得到什麼支持，以及評量能否辨識學生自己的理解。若作業要求沒有調整，學生仍可能在課外使用工具產出內容；反之，回到紙筆也不會自動讓每項教學活動更有深度。這些都需要實施後的證據，不能在政策宣布時先寫成成效。
+
+## 評量變動必須分清年級、科目與時間
+
+SBS中文報導提到五年級NAPLAN寫作測驗預計自2028年改回紙筆。這是一項有明確年級、科目與預定時間的變動，不能擴大寫成所有NAPLAN測驗都已改制。對家庭而言，準確區分「政府公布方向」、「預計實施」與「學校本學期規定」，比記住一個強烈的政策標籤更重要。
+
+## 台灣赴澳家庭可以先問學校什麼
+
+正在選擇澳洲中小學的家庭，應向目標學校確認裝置攜帶與購買要求是否更新，哪些課堂活動仍使用數位工具，以及作業與評量容許何種AI協助。與其只問學校「有沒有用AI」，更有用的是了解學生是否必須說明工具使用、保留思考過程，以及教師如何確認作品反映本人學習。
+
+這些問題不預設科技必然有益或有害，而是讓家庭比較學校如何管理學習責任。現階段新聞可以確認政策重心正在調整，卻不能替每一所學校提供相同答案。下一個重要觀察點，是專案小組與主管機關公布的具體規範，以及學校如何向師生與家長清楚說明。
+
+## 資料與報導方法
+
+本文綜合澳洲教育部公告、Jason Lodge具名分析與SBS報導；Lodge文章原刊The Conversation，由昆士蘭大學轉載，兩個版本不算兩份獨立證據。本編輯部未訪問文中專家。11月6日擴寫原短訊，補充政策邊界、實施問題與家庭查核方向，原發布日期保留。
 
 [Photo credits](/images/daily/2026-11-06/credits.html#au)

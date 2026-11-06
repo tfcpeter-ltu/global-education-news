@@ -192,3 +192,7 @@
 
 - 新增內容先執行 `python scripts/build-bilingual.py --extract`，檢視 `.bilingual/strings.json`，把日期、標籤、拆句及連結旁片段的人工英文譯文補入 `src/data/i18n/en-overrides.json`，再執行雙語建置。正文整段翻譯不等於所有版型片段都已覆蓋。
 - 2026-11-01 本機 Python 沒有 ctranslate2；不可每次讓自動翻譯支線重複失敗，也不在 OneDrive 安裝模型或套件。本批111個缺漏片段已補齊，離線建置與雙語測試通過。
+
+## 2026-11-06 新聞深度修正（使用者最新要求）
+
+每日新聞須依 docs/editorial/reporting-standard.md 撰寫完整報導，不能用三段摘要完成配額。補足背景、時間線、獨立觀點、數據意義、台灣影響與後續觀察；沒有採訪不可假裝採訪。中英同等完整，實質修訂保留發布日、另列更新日。發布前保存 docs/editorial/news-reviews.json，執行 node scripts/check-news-depth.mjs；字數與格式只作底線，不能替代內容審閱。舊文盤點及待修清單不得冒稱全部完成。沿用同一每日自動化。
