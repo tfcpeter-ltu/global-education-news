@@ -1,22 +1,12 @@
 {
   "status": "ready",
-  "updatedAt": "2026-11-05T07:53:23.465Z",
+  "updatedAt": "2026-11-06T07:53:41.570Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
     {
-      "title": "加拿大UNB公布資料科學學士：2027年9月於Saint John開課｜環球教育新聞網 Global Education News",
-      "path": "/news/unb-saint-john-data-science-degree-2027/",
-      "views": 6
-    },
-    {
       "title": "印度海外校區熱潮：國際品牌之外，更要檢視學習價值｜環球教育新聞網 Global Education News",
       "path": "/news/india-tne-value-aiec-2026/",
-      "views": 4
-    },
-    {
-      "title": "國際教育新聞｜全球大學、留學政策與招生動態｜環球教育新聞網",
-      "path": "/news/",
       "views": 4
     },
     {
@@ -28,68 +18,78 @@
       "title": "澳洲學生簽證改革公開諮詢：11月23日截止，尚未定案｜環球教育新聞網 Global Education News",
       "path": "/news/australia-genuine-student-financial-consultation-2026/",
       "views": 4
+    },
+    {
+      "title": "美國公布高教認證最終規則：2027年7月生效｜環球教育新聞網 Global Education News",
+      "path": "/news/us-accreditation-aim-final-rule-october-2026/",
+      "views": 4
+    },
+    {
+      "title": "英國早申人數減少3.2%：醫學申請仍微增，不能推算全年錄取機會｜環球教育新聞網 Global Education News",
+      "path": "/news/uk-ucas-october-2027-applicant-snapshot/",
+      "views": 4
     }
   ],
   "countries": [
     {
       "name": "台灣",
       "mapName": "Taiwan",
-      "sessions": 104,
-      "share": 46.6
+      "sessions": 105,
+      "share": 43.8
     },
     {
       "name": "美國",
       "mapName": "United States",
-      "sessions": 78,
-      "share": 35
-    },
-    {
-      "name": "瑞典",
-      "mapName": "Sweden",
-      "sessions": 7,
-      "share": 3.1
+      "sessions": 97,
+      "share": 40.4
     },
     {
       "name": "愛爾蘭",
       "mapName": "Ireland",
-      "sessions": 5,
-      "share": 2.2
+      "sessions": 7,
+      "share": 2.9
     },
     {
       "name": "新加坡",
       "mapName": "Singapore",
       "sessions": 5,
-      "share": 2.2
+      "share": 2.1
+    },
+    {
+      "name": "瑞典",
+      "mapName": "Sweden",
+      "sessions": 5,
+      "share": 2.1
     },
     {
       "name": "英國",
       "mapName": "United Kingdom",
-      "sessions": 4,
-      "share": 1.8
+      "sessions": 3,
+      "share": 1.3
     },
     {
       "name": "Belgium",
       "mapName": "Belgium",
       "sessions": 2,
-      "share": 0.9
+      "share": 0.8
     },
     {
       "name": "Colombia",
       "mapName": "Colombia",
       "sessions": 2,
-      "share": 0.9
+      "share": 0.8
     },
     {
       "name": "Egypt",
       "mapName": "Egypt",
       "sessions": 2,
-      "share": 0.9
+      "share": 0.8
     },
     {
-      "name": "德國",
-      "mapName": "Germany",
-      "sessions": 2,
-      "share": 0.9
+      "name": "Brazil",
+      "mapName": "Brazil",
+      "sessions": 1,
+      "share": 0.4
     }
   ]
 }
