@@ -76,5 +76,44 @@
     "independentSource": "https://edu.chunichi.co.jp/news/detail/12914/u00015",
     "reviewedAt": "2026-11-07",
     "bodySha256": "88eb5c6b75cd95256a188843de77fb76a56a1c0b0e1eaf79a11594564d8d828c"
+  },
+  "uk-student-sponsor-guidance-october-2026": {
+    "newsValue": "修正讀者可能把11月6日無障礙格式更新誤認新規的問題，並移除無法代表現況的941家快照。",
+    "background": "交代牌照、招生錄取與CAS不同功能，並說明四份贊助指引之間的制度關係與閱讀順序。",
+    "development": "對照10月9日實質修訂與11月6日格式發布，分開調查、撤照及個人程序階段。",
+    "perspectives": "以UKVI正式文件確認制度，再引用HEPI外部分析的教育連續性觀點，不把倡議當政府承諾。",
+    "taiwanImpact": "將家庭決策落到錄取條件、CAS、名冊時間點與學分費用責任，避免抽象提醒取代實際問題。",
+    "uncertainty": "不替任何學校判定風險，不推論普遍加費，不保證個案結果；名冊與個別通知仍須當期確認。",
+    "independence": "HEPI為獨立高教政策分析機構，非UKVI公告轉載；作者制度位置已揭露，規範仍以政府原文為準。",
+    "primarySource": "https://www.gov.uk/government/publications/student-sponsor-guidance",
+    "independentSource": "https://www.hepi.ac.uk/reports/one-sector-two-regulators-the-office-for-students-uk-visas-and-immigration-and-the-challenge-of-regulatory-coherence-in-international-education/",
+    "reviewedAt": "2026-11-07",
+    "bodySha256": "f58813b1842c85ef8efa4c48febbe06d2a3bd132977685b06a53076d6455c27d"
+  },
+  "canada-study-permit-processing-dashboard-2026": {
+    "newsValue": "原標題數字已被動態儀表板替換，需明示8月31日統計截止而非11月7日即時數字。",
+    "background": "解釋新申請、延長案件、核准及實際入境母體不同，補正撤回也在已完成定義內。",
+    "development": "新版150620與28440替換歷史快照，連結2024改革與2026獨立稽核的政策執行觀察。",
+    "perspectives": "IRCC行政處理說明與審計長的獨立監督並列，呈現錄取信工具成效與誠信管控缺口。",
+    "taiwanImpact": "連結個案等待、報到日、延後入學及退款安排，博士加速資訊不泛化至所有學生。",
+    "uncertainty": "不把存量與流量換算核准率，不推估台灣國籍結果，不將工作量變化直接認定為政策因果。",
+    "independence": "審計長依Auditor General Act獨立稽核IRCC行政執行，並非同部門的公告轉載；兩種資料目的不同。",
+    "primarySource": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/reports-statistics/statistics-open-data/immigration-stats/application-processing-system.html",
+    "independentSource": "https://www.canada.ca/content/dam/oag-bvg/audit-reports/documents/ag-202603-international-student-program-reforms.PDF",
+    "reviewedAt": "2026-11-07",
+    "bodySha256": "4d3df547a160f0ad7019cc73db7cd517f1f8f5e55175a9bf8d532cbba32352e5"
+  },
+  "new-zealand-years-11-13-final-subjects-first-release-2026": {
+    "newsValue": "更正原稿把其餘課綱一概視為10月底完成的簡化，補上10月21與28日分批公告及仍在諮詢項目。",
+    "background": "交代2026年Year9世代、2027教師準備及2028至2030分年課綱與資格導入關係。",
+    "development": "區分最終科目、剩餘草案與不同回饋期限，說明35科屬毛利語路徑而非每校必開科目。",
+    "perspectives": "教育部發布與NZAEE環境教育角度並列，外部分析是8月草案評論，不冒充最終版逐科審核。",
+    "taiwanImpact": "以入學年度與年級連結選科、轉學與學習銜接，要求校方具體課程安排而非只看證書改名。",
+    "uncertainty": "不保證學校全數開課，不判斷所有草案問題已改善，不把課綱公告當大學入學銜接已完整確定。",
+    "independence": "NZAEE為外部環境教育組織，提出自行審查41科草案的方法與立場，非教育部公告轉載。",
+    "primarySource": "https://www.education.govt.nz/news/first-release-years-tau-11-13-subjects",
+    "independentSource": "https://www.nzaee.org.nz/news-and-publications/phase-5-senior-secondary-curriculum-consultation",
+    "reviewedAt": "2026-11-07",
+    "bodySha256": "b31e0cfab2a8c8ce80bedbf4af6bc6e37dc4938590fbb6671fde16b082162a84"
   }
 }

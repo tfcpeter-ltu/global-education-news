@@ -1,0 +1,70 @@
+[
+  {
+    "slug": "uk-student-sponsor-guidance-october-2026",
+    "path": "src/pages/news/uk-student-sponsor-guidance-october-2026.md",
+    "url": "https://globalednews.com/news/uk-student-sponsor-guidance-october-2026/",
+    "sources": [
+      [
+        "UKVI — guidance and dated revision history",
+        "https://www.gov.uk/government/publications/student-sponsor-guidance"
+      ],
+      [
+        "HEPI — independent regulatory analysis, November 5",
+        "https://www.hepi.ac.uk/reports/one-sector-two-regulators-the-office-for-students-uk-visas-and-immigration-and-the-challenge-of-regulatory-coherence-in-international-education/"
+      ],
+      [
+        "UKVI — current sponsor register",
+        "https://www.gov.uk/government/publications/register-of-licensed-sponsors-students"
+      ],
+      [
+        "UKVI — compliance, investigation and sanctions",
+        "https://www.gov.uk/government/publications/student-sponsor-guidance/student-sponsor-compliance-accessible"
+      ]
+    ],
+    "bodyCjk": 1175
+  },
+  {
+    "slug": "canada-study-permit-processing-dashboard-2026",
+    "path": "src/pages/news/canada-study-permit-processing-dashboard-2026.md",
+    "url": "https://globalednews.com/news/canada-study-permit-processing-dashboard-2026/",
+    "sources": [
+      [
+        "IRCC — application-processing dashboard, data through August 31",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/reports-statistics/statistics-open-data/immigration-stats/application-processing-system.html"
+      ],
+      [
+        "Auditor General of Canada — independent audit of student-programme reforms",
+        "https://www.canada.ca/content/dam/oag-bvg/audit-reports/documents/ag-202603-international-student-program-reforms.PDF"
+      ],
+      [
+        "IRCC — graduate-study routes",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/graduate-student.html"
+      ]
+    ],
+    "bodyCjk": 1140
+  },
+  {
+    "slug": "new-zealand-years-11-13-final-subjects-first-release-2026",
+    "path": "src/pages/news/new-zealand-years-11-13-final-subjects-first-release-2026.md",
+    "url": "https://globalednews.com/news/new-zealand-years-11-13-final-subjects-first-release-2026/",
+    "sources": [
+      [
+        "Ministry of Education — initial senior subject release and implementation",
+        "https://www.education.govt.nz/news/first-release-years-tau-11-13-subjects"
+      ],
+      [
+        "NZAEE — independent analysis of 41 subject drafts, updated August 9",
+        "https://www.nzaee.org.nz/news-and-publications/phase-5-senior-secondary-curriculum-consultation"
+      ],
+      [
+        "Ministry of Education — October 21 release and remaining consultation",
+        "https://www.education.govt.nz/news/more-senior-secondary-subjects-now-available-tahurangi"
+      ],
+      [
+        "Ministry of Education — October 28 subject release",
+        "https://www.education.govt.nz/news/more-senior-curriculum-subjects-released"
+      ]
+    ],
+    "bodyCjk": 1137
+  }
+]

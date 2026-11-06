@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-07",
+  "firstCommit": "4091f2e574843bda345ab5d532b042fef3be15d1",
+  "runId": 42295745507,
+  "build": "success",
+  "deploy": "failure",
+  "failedAt": "2026-11-07T05:30:55+08:00",
+  "evidence": "Deploy job 128161095374 repeatedly reported syncing_files until its 600-second timeout, then canceled the Pages version.",
+  "recovery": "Publish substantive three-article archive revisions with a new commit and new Pages version; previous-day retry of canceled version failed, so do not repeat that ineffective path.",
+  "socialPublishedBeforeRecovery": 0,
+  "archiveSelection": "UK sponsor guidance, Canada processing dashboard, New Zealand senior curriculum. FSU insurance independent corroboration not established; CPT November 6 hearing requires court-status follow-up, so neither is claimed repaired."
+}
