@@ -1,0 +1,8 @@
+{
+  "attempt": 2,
+  "observedAt": "2026-11-06T19:55:01.8293667+08:00",
+  "runId": 42212081462,
+  "jobId": 127877884209,
+  "recovery": "Publish pending archive workflow documentation as a new commit to obtain a fresh Pages build version",
+  "reason": "Deployment cancelled immediately after creating deployment for the same previously cancelled pages_build_version"
+}

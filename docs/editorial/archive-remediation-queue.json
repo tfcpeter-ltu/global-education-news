@@ -1,0 +1,1093 @@
+{
+  "status": "pending",
+  "order": "newest first, then currently consequential policies",
+  "remaining": 181,
+  "items": [
+    {
+      "path": "src/pages/news/fsu-international-student-insurance-2026.md",
+      "date": "2026-10-13T06:30:00+08:00",
+      "bodyCjk": 305,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/uk-student-sponsor-guidance-october-2026.md",
+      "date": "2026-10-13T06:20:00+08:00",
+      "bodyCjk": 327,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/us-cpt-lawsuit-court-status-october-13-2026.md",
+      "date": "2026-10-13T06:10:00+08:00",
+      "bodyCjk": 318,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/canada-study-permit-processing-dashboard-2026.md",
+      "date": "2026-10-12T06:30:00+08:00",
+      "bodyCjk": 297,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/new-zealand-years-11-13-final-subjects-first-release-2026.md",
+      "date": "2026-10-12T06:20:00+08:00",
+      "bodyCjk": 236,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/ireland-maynooth-fuzhou-miec-extension-2026.md",
+      "date": "2026-10-12T06:10:00+08:00",
+      "bodyCjk": 267,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/uk-erasmus-immigration-rules-october-2026.md",
+      "date": "2026-10-11T05:30:00+08:00",
+      "bodyCjk": 238,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/uk-universities-tighten-international-offers-visa-compliance-2026.md",
+      "date": "2026-10-11T05:25:00+08:00",
+      "bodyCjk": 276,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/australia-international-student-demand-below-allocations-2026.md",
+      "date": "2026-10-11T05:20:00+08:00",
+      "bodyCjk": 288,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/jordan-international-university-unified-admissions-2026.md",
+      "date": "2026-10-10T09:50:00+08:00",
+      "bodyCjk": 350,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/nagoya-g30-undergraduate-2027-application.md",
+      "date": "2026-10-10T09:45:00+08:00",
+      "bodyCjk": 348,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/eduhk-2027-international-undergraduate-admissions.md",
+      "date": "2026-10-10T09:40:00+08:00",
+      "bodyCjk": 334,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/malaysia-higher-education-blueprint-international-students-2035.md",
+      "date": "2026-10-09T11:30:00+08:00",
+      "bodyCjk": 531,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/france-high-school-dialogue-consultation-october-2026.md",
+      "date": "2026-10-09T11:20:00+08:00",
+      "bodyCjk": 446,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/unsw-international-admissions-diversity-pathway-2027.md",
+      "date": "2026-10-09T11:10:00+08:00",
+      "bodyCjk": 406,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/uk-student-sponsor-compliance-thresholds-2026.md",
+      "date": "2026-10-04T09:30:00+08:00",
+      "bodyCjk": 311,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/australia-student-visa-course-provider-change-rules-2026.md",
+      "date": "2026-10-04T09:20:00+08:00",
+      "bodyCjk": 324,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/australia-international-student-transfer-12-month-rule-2026.md",
+      "date": "2026-10-04T09:10:00+08:00",
+      "bodyCjk": 331,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/hku-non-local-applications-record-2026.md",
+      "date": "2026-10-03T06:45:00+08:00",
+      "bodyCjk": 301,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/hong-kong-non-local-student-cap-50-percent-2026.md",
+      "date": "2026-10-03T06:40:00+08:00",
+      "bodyCjk": 289,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/uk-bloomsbury-institute-sponsor-licence-revoked-2026.md",
+      "date": "2026-10-03T06:35:00+08:00",
+      "bodyCjk": 276,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/new-zealand-student-visa-system-outage-october-2026.md",
+      "date": "2026-10-02T07:30:00+08:00",
+      "bodyCjk": 286,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/australia-student-visa-onshore-family-rules-2026.md",
+      "date": "2026-10-02T07:10:00+08:00",
+      "bodyCjk": 441,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/new-zealand-2027-student-visa-apply-three-months-early.md",
+      "date": "2026-10-01T08:30:00+08:00",
+      "bodyCjk": 301,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/philippines-eduphil-international-student-program-2026.md",
+      "date": "2026-10-01T08:30:00+08:00",
+      "bodyCjk": 364,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/buckinghamshire-new-university-sponsor-licence-suspended-2026.md",
+      "date": "2026-10-01T08:10:00+08:00",
+      "bodyCjk": 310,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/uk-lifelong-learning-entitlement-modular-study-2026.md",
+      "date": "2026-09-12T08:30:00+08:00",
+      "bodyCjk": 592,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/south-korea-20-universities-visa-restrictions-2026.md",
+      "date": "2026-09-12T08:20:00+08:00",
+      "bodyCjk": 379,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/canada-work-permit-study-without-permit-2026.md",
+      "date": "2026-09-12T08:10:00+08:00",
+      "bodyCjk": 500,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/south-korea-international-student-quality-policy-2029.md",
+      "date": "2026-09-11T20:30:00+08:00",
+      "bodyCjk": 721,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/waseda-sils-2027-april-overseas-ao-deadline.md",
+      "date": "2026-09-08T10:57:00+08:00",
+      "bodyCjk": 709,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/taiwan-nycu-fccm-2026-world-champion.md",
+      "date": "2026-09-08T10:13:00+08:00",
+      "bodyCjk": 716,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/canada-off-campus-work-24-hours-fall-2026.md",
+      "date": "2026-09-08T10:12:00+08:00",
+      "bodyCjk": 800,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/new-zealand-international-education-exports-5-billion-2026.md",
+      "date": "2026-09-06T08:06:00+08:00",
+      "bodyCjk": 861,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/hong-kong-phd-fellowship-2027-28-open.md",
+      "date": "2026-09-05T08:04:00+08:00",
+      "bodyCjk": 710,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/uk-student-visa-maintenance-erasmus-rules-september-2026.md",
+      "date": "2026-09-05T08:02:00+08:00",
+      "bodyCjk": 793,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/new-zealand-student-visa-wait-times-september-2026.md",
+      "date": "2026-09-04T08:04:00+08:00",
+      "bodyCjk": 803,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/ltu-business-today-ossd-profile-2025.md",
+      "date": "2026-09-02T10:44:00+08:00",
+      "bodyCjk": 656,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/ltu-ctee-media-report-2026-07-03.md",
+      "date": "2026-09-02T10:42:00+08:00",
+      "bodyCjk": 388,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/uk-child-student-carer-criminality-rules-2026.md",
+      "date": "2026-09-02T10:24:00+08:00",
+      "bodyCjk": 827,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/us-f1-duration-status-fixed-admission-september-2026.md",
+      "date": "2026-09-02T08:00:00+08:00",
+      "bodyCjk": 488,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/uk-graduate-visa-18-months-2027.md",
+      "date": "2026-09-01T09:17:00+08:00",
+      "bodyCjk": 588,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/canada-international-student-reentry-2026.md",
+      "date": "2026-09-01T09:16:00+08:00",
+      "bodyCjk": 651,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/australia-minimum-wage-international-students-2026.md",
+      "date": "2026-09-01T09:15:00+08:00",
+      "bodyCjk": 538,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/new-taipei-dual-diploma-2026.md",
+      "date": "2026-08-31T10:14:00+08:00",
+      "bodyCjk": 659,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/taiwan-moe-australia-youth-colearning-2026.md",
+      "date": "2026-08-31T10:11:00+08:00",
+      "bodyCjk": 693,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/canada-international-student-arrivals-june-2026.md",
+      "date": "2026-08-31T10:08:00+08:00",
+      "bodyCjk": 574,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/hku-2027-non-jupas-opens-september-23.md",
+      "date": "2026-08-30T21:14:00+08:00",
+      "bodyCjk": 548,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/ltu-ossd-2026-overseas-admissions-ctee.md",
+      "date": "2026-08-30T21:11:00+08:00",
+      "bodyCjk": 546,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/taipei-student-exchange-us-canada-2026.md",
+      "date": "2026-08-30T21:08:00+08:00",
+      "bodyCjk": 551,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/taiwan-moe-eu-scholarship-2026.md",
+      "date": "2026-08-30T21:05:00+08:00",
+      "bodyCjk": 474,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/australia-2027-international-student-npl.md",
+      "date": "2026-08-30T19:12:47+08:00",
+      "bodyCjk": 515,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/uk-study-visas-june-2026.md",
+      "date": "2026-08-30T19:12:33+08:00",
+      "bodyCjk": 564,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/canada-proof-of-funds-september-2026.md",
+      "date": "2026-08-30T19:12:17+08:00",
+      "bodyCjk": 473,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/us-cpt-internship-enforcement-2026.md",
+      "date": "2026-08-30",
+      "bodyCjk": 664,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/arab-higher-education-unesco-2026.md",
+      "date": "\"2026-11-05T05:11:15.353766+08:00\"",
+      "bodyCjk": 176,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/canada-research-training-awards-880m-2026.md",
+      "date": "\"2026-11-05T05:11:15.353766+08:00\"",
+      "bodyCjk": 196,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/india-tne-value-aiec-2026.md",
+      "date": "\"2026-11-05T05:11:15.353766+08:00\"",
+      "bodyCjk": 188,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/australia-2027-csp-allocation-pool.md",
+      "date": "\"2026-11-04T05:10:44.600800+08:00\"",
+      "bodyCjk": 272,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/germany-international-student-retention-fit-2026.md",
+      "date": "\"2026-11-04T05:10:44.600800+08:00\"",
+      "bodyCjk": 240,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/new-zealand-november-16-graduate-work-pathways.md",
+      "date": "\"2026-11-04T05:10:44.600800+08:00\"",
+      "bodyCjk": 268,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/canada-eu-erasmus-negotiations-october-2026.md",
+      "date": "\"2026-11-03T05:20:21.374073+08:00\"",
+      "bodyCjk": 286,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/uk-hpi-top-150-expansion-plan-2026.md",
+      "date": "\"2026-11-03T05:20:21.374073+08:00\"",
+      "bodyCjk": 261,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/us-general-education-transfer-consortium-2026.md",
+      "date": "\"2026-11-03T05:20:21.374073+08:00\"",
+      "bodyCjk": 260,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/ieaa-excellence-awards-student-learning-2026.md",
+      "date": "\"2026-11-01T10:34:19.579066+08:00\"",
+      "bodyCjk": 220,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/qmul-kmutt-thailand-dual-engineering-2027.md",
+      "date": "\"2026-11-01T10:34:19.579066+08:00\"",
+      "bodyCjk": 264,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/us-accreditation-aim-final-rule-october-2026.md",
+      "date": "\"2026-11-01T10:34:19.579066+08:00\"",
+      "bodyCjk": 282,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/australia-genuine-student-financial-consultation-2026.md",
+      "date": "\"2026-10-31T20:11:11.329530+08:00\"",
+      "bodyCjk": 254,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/british-council-public-accounts-committee-finances-2026.md",
+      "date": "\"2026-10-31T20:11:11.329530+08:00\"",
+      "bodyCjk": 274,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/cornell-state-police-investigation-choice-2026.md",
+      "date": "\"2026-10-31T20:11:11.329530+08:00\"",
+      "bodyCjk": 262,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/central-asia-tashkent-education-forum-mobility-2026.md",
+      "date": "\"2026-10-30T10:09:51.831461+08:00\"",
+      "bodyCjk": 262,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/edinburgh-advanced-chip-design-academy-2026.md",
+      "date": "\"2026-10-30T10:09:51.831461+08:00\"",
+      "bodyCjk": 267,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/unb-saint-john-data-science-degree-2027.md",
+      "date": "\"2026-10-30T10:09:51.831461+08:00\"",
+      "bodyCjk": 254,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/germany-wissenschaft-weltoffen-2026-international-students.md",
+      "date": "\"2026-10-29T10:16:04.318265+08:00\"",
+      "bodyCjk": 243,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/idp-emerging-futures-10-australia-study-choice-2026.md",
+      "date": "\"2026-10-29T10:16:04.318265+08:00\"",
+      "bodyCjk": 280,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/uk-budget-2026-graduate-visa-conditional-two-years.md",
+      "date": "\"2026-10-29T10:16:04.318265+08:00\"",
+      "bodyCjk": 272,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/australia-aiec-2026-future-thinking.md",
+      "date": "\"2026-10-28T05:12:13.722712+08:00\"",
+      "bodyCjk": 252,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/canada-asylum-portal-november-2026-update.md",
+      "date": "\"2026-10-28T05:12:13.722712+08:00\"",
+      "bodyCjk": 254,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/us-cu-denver-hyderabad-2027-plan.md",
+      "date": "\"2026-10-28T05:12:13.722712+08:00\"",
+      "bodyCjk": 276,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/australia-mixagent-student-feedback-2026.md",
+      "date": "\"2026-10-27T05:18:30.060671+08:00\"",
+      "bodyCjk": 272,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/canada-uganda-immunequity-research-2026.md",
+      "date": "\"2026-10-27T05:18:30.060671+08:00\"",
+      "bodyCjk": 291,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/germany-excellence-universities-2027-funding.md",
+      "date": "\"2026-10-27T05:18:30.060671+08:00\"",
+      "bodyCjk": 262,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/act-school-stoppages-october-2026-followup.md",
+      "date": "\"2026-10-26T05:11:51.822053+08:00\"",
+      "bodyCjk": 270,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/england-bell-review-school-safeguarding-2026.md",
+      "date": "\"2026-10-26T05:11:51.822053+08:00\"",
+      "bodyCjk": 289,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/memorial-international-enrolment-measures-2026.md",
+      "date": "\"2026-10-26T05:11:51.822053+08:00\"",
+      "bodyCjk": 286,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/ontario-private-college-osap-validation-2026.md",
+      "date": "\"2026-10-25T05:11:56.053756+08:00\"",
+      "bodyCjk": 305,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/utokyo-fujigaki-president-selection-2027.md",
+      "date": "\"2026-10-25T05:11:56.053756+08:00\"",
+      "bodyCjk": 286,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/uwa-chennai-final-approval-october-2026.md",
+      "date": "\"2026-10-25T05:11:56.053756+08:00\"",
+      "bodyCjk": 282,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/arizona-2027-tuition-freeze-proposal.md",
+      "date": "\"2026-10-24T05:12:53.459607+08:00\"",
+      "bodyCjk": 261,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/england-tef-quality-consultation-october-2026.md",
+      "date": "\"2026-10-24T05:12:53.459607+08:00\"",
+      "bodyCjk": 270,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/japan-student-residence-june-2026.md",
+      "date": "\"2026-10-24T05:12:53.459607+08:00\"",
+      "bodyCjk": 255,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/india-gen-z-study-abroad-intentions-2026.md",
+      "date": "\"2026-10-23T05:13:36.091177+08:00\"",
+      "bodyCjk": 283,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/new-zealand-schools-international-support-2027.md",
+      "date": "\"2026-10-23T05:13:36.091177+08:00\"",
+      "bodyCjk": 252,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/uk-refugee-education-pathway-2027-target.md",
+      "date": "\"2026-10-23T05:13:36.091177+08:00\"",
+      "bodyCjk": 255,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/france-apprenticeship-tax-unallocated-balance-2027.md",
+      "date": "\"2026-10-22T05:03:31.584436+08:00\"",
+      "bodyCjk": 264,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/france-bac-2027-registration-regional-deadlines.md",
+      "date": "\"2026-10-22T05:03:31.584436+08:00\"",
+      "bodyCjk": 251,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/france-campus-blockades-study-continuity-october-2026.md",
+      "date": "\"2026-10-22T05:03:31.584436+08:00\"",
+      "bodyCjk": 274,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/france-school-budget-2027-staffing-explainer.md",
+      "date": "\"2026-10-21T05:08:05.547551+08:00\"",
+      "bodyCjk": 235,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/france-student-residence-continuity-2026.md",
+      "date": "\"2026-10-21T05:08:05.547551+08:00\"",
+      "bodyCjk": 255,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/france-universities-billion-euro-appeal-2027.md",
+      "date": "\"2026-10-21T05:08:05.547551+08:00\"",
+      "bodyCjk": 216,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/france-non-eu-tuition-2026-27-explainer.md",
+      "date": "\"2026-10-20T05:14:35.745593+08:00\"",
+      "bodyCjk": 260,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/france-parcoursup-2026-results-transparency.md",
+      "date": "\"2026-10-20T05:14:35.745593+08:00\"",
+      "bodyCjk": 290,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/france-teacher-exams-2027-registration-transition.md",
+      "date": "\"2026-10-20T05:14:35.745593+08:00\"",
+      "bodyCjk": 245,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/france-lycee-teacher-replacement-consultation-october-2026.md",
+      "date": "\"2026-10-19T10:47:57.240295+08:00\"",
+      "bodyCjk": 342,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/england-v-levels-2027-qualification-transition.md",
+      "date": "\"2026-10-19T10:45:06.991177+08:00\"",
+      "bodyCjk": 235,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/uk-architecture-route-p-spring-2027.md",
+      "date": "\"2026-10-19T10:45:06.991177+08:00\"",
+      "bodyCjk": 259,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/atlantic-canada-international-enrolment-october-2026.md",
+      "date": "\"2026-10-18T07:39:50.711083+08:00\"",
+      "bodyCjk": 229,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/australia-opening-doors-university-funding-bill-2026.md",
+      "date": "\"2026-10-18T07:39:50.711083+08:00\"",
+      "bodyCjk": 246,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/netherlands-tuition-rates-2027-2028-taiwan.md",
+      "date": "\"2026-10-18T07:39:50.711083+08:00\"",
+      "bodyCjk": 225,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/liverpool-bengaluru-campus-opening-2026.md",
+      "date": "\"2026-10-17T05:07:45.105870+08:00\"",
+      "bodyCjk": 202,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/manchester-bengaluru-centre-plan-october-2026.md",
+      "date": "\"2026-10-17T05:07:45.105870+08:00\"",
+      "bodyCjk": 225,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/massey-veterinary-domestic-places-2027.md",
+      "date": "\"2026-10-17T05:07:45.105870+08:00\"",
+      "bodyCjk": 196,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/australia-preliminary-overseas-commencements-2026.md",
+      "date": "\"2026-10-16T05:19:15.898652+08:00\"",
+      "bodyCjk": 226,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/international-graduates-lifetime-economic-estimate-2026.md",
+      "date": "\"2026-10-16T05:19:15.898652+08:00\"",
+      "bodyCjk": 209,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/ireland-student-housing-capacity-debate-2026.md",
+      "date": "\"2026-10-16T05:19:15.898652+08:00\"",
+      "bodyCjk": 230,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/australia-teqsa-fees-consultation-october-2026.md",
+      "date": "\"2026-10-15T05:06:17.611541+08:00\"",
+      "bodyCjk": 251,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/ireland-trusted-quality-and-access-october-2026.md",
+      "date": "\"2026-10-15T05:06:17.611541+08:00\"",
+      "bodyCjk": 284,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/wa-three-university-merger-business-case-2026.md",
+      "date": "\"2026-10-15T05:06:17.611541+08:00\"",
+      "bodyCjk": 256,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/toronto-presidents-impact-phd-scholarship-2027.md",
+      "date": "\"2026-10-14T05:20:00+08:00\"",
+      "bodyCjk": 324,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/england-assessment-only-qts-five-year-rule-2026.md",
+      "date": "\"2026-10-14T05:19:00+08:00\"",
+      "bodyCjk": 349,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/australia-bsb80120-overseas-enrolment-stop-october-2026.md",
+      "date": "\"2026-10-14T05:18:00+08:00\"",
+      "bodyCjk": 363,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/the-2027-asia-universities-rise.md",
+      "date": "\"2026-10-08T05:45:00+08:00\"",
+      "bodyCjk": 221,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/uk-chip-design-doctoral-award-2026.md",
+      "date": "\"2026-10-08T05:40:00+08:00\"",
+      "bodyCjk": 239,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/us-opt-proposed-school-fee-2026.md",
+      "date": "\"2026-10-08T05:35:00+08:00\"",
+      "bodyCjk": 259,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/australia-coalition-student-cuts-response-2026.md",
+      "date": "\"2026-10-07T06:30:00+08:00\"",
+      "bodyCjk": 224,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/cu-denver-hyderabad-campus-2027.md",
+      "date": "\"2026-10-07T06:20:00+08:00\"",
+      "bodyCjk": 241,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/us-cpt-guidance-lawsuit-october-2026.md",
+      "date": "\"2026-10-07T06:10:00+08:00\"",
+      "bodyCjk": 263,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/uk-international-student-levy-2028-draft.md",
+      "date": "\"2026-10-06T06:30:00+08:00\"",
+      "bodyCjk": 237,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/australia-uac-international-offers-october-2026.md",
+      "date": "\"2026-10-06T06:25:00+08:00\"",
+      "bodyCjk": 204,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/uk-discover-uni-2026-dataset-update.md",
+      "date": "\"2026-10-06T06:20:00+08:00\"",
+      "bodyCjk": 226,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/edinburgh-five-week-strike-student-guidance-2026.md",
+      "date": "\"2026-10-05T06:40:00+08:00\"",
+      "bodyCjk": 294,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/eaie-glasgow-2026-international-education-conference.md",
+      "date": "\"2026-10-05T06:35:00+08:00\"",
+      "bodyCjk": 297,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/cmu-miami-campus-three-billion-gift-2026.md",
+      "date": "\"2026-10-05T06:30:00+08:00\"",
+      "bodyCjk": 345,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/birmingham-hkmu-commercial-law-pathway-2027.md",
+      "date": "\"2026-09-29T06:40:00+08:00\"",
+      "bodyCjk": 208,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/australia-august-2026-student-visa-grant-rates.md",
+      "date": "\"2026-09-29T06:30:00+08:00\"",
+      "bodyCjk": 289,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/canada-work-permit-short-study-exemption-2026.md",
+      "date": "\"2026-09-29T06:20:00+08:00\"",
+      "bodyCjk": 316,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/new-zealand-international-education-exports-2026.md",
+      "date": "\"2026-09-28T05:45:00+08:00\"",
+      "bodyCjk": 295,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/philippines-eduphil-international-students-2026.md",
+      "date": "\"2026-09-28T05:40:00+08:00\"",
+      "bodyCjk": 333,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/canada-international-student-arrivals-july-2026.md",
+      "date": "\"2026-09-28T05:35:00+08:00\"",
+      "bodyCjk": 278,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/australia-windsor-college-tps-closure-2026.md",
+      "date": "\"2026-09-27T10:50:00+08:00\"",
+      "bodyCjk": 273,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/us-duke-und-foreign-funding-investigations-2026.md",
+      "date": "\"2026-09-27T10:40:00+08:00\"",
+      "bodyCjk": 403,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/australia-international-student-june-2026-data.md",
+      "date": "\"2026-09-27T10:30:00+08:00\"",
+      "bodyCjk": 300,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/australia-student-transport-concessions-advocacy-2026.md",
+      "date": "\"2026-09-26T06:21:25.800069+08:00\"",
+      "bodyCjk": 353,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/uk-esag-international-education-sector-action-plans-2026.md",
+      "date": "\"2026-09-26T06:21:25.800069+08:00\"",
+      "bodyCjk": 403,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/uk-university-student-fraud-guide-september-2026.md",
+      "date": "\"2026-09-26T06:06:59.570210+08:00\"",
+      "bodyCjk": 476,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/ireland-university-budget-2027-funding-appeal.md",
+      "date": "\"2026-09-25T05:20:00+08:00\"",
+      "bodyCjk": 521,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/ucas-2027-october-early-application-deadline.md",
+      "date": "\"2026-09-25T05:20:00+08:00\"",
+      "bodyCjk": 499,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/canada-language-programs-2025-survey-decline.md",
+      "date": "\"2026-09-25T05:19:00+08:00\"",
+      "bodyCjk": 536,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/coventry-almaty-campus-opening-2026.md",
+      "date": "\"2026-09-24T07:55:00+08:00\"",
+      "bodyCjk": 490,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/australia-student-safety-survey-2026.md",
+      "date": "\"2026-09-24T07:45:00+08:00\"",
+      "bodyCjk": 536,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/dundee-strike-student-guidance-september-2026.md",
+      "date": "\"2026-09-24T07:12:00+08:00\"",
+      "bodyCjk": 502,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/hong-kong-hung-shui-kiu-university-land-2026.md",
+      "date": "\"2026-09-22T21:08:58.817544+00:00\"",
+      "bodyCjk": 385,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/idp-blackstone-proposal-rejected-september-2026.md",
+      "date": "\"2026-09-22T21:08:58.817544+00:00\"",
+      "bodyCjk": 343,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/uwa-mumbai-campus-approval-chennai-pending-2026.md",
+      "date": "\"2026-09-22T21:08:58.817544+00:00\"",
+      "bodyCjk": 436,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/france-senate-university-excellence-proposals-2026.md",
+      "date": "\"2026-09-21T21:14:58.448Z\"",
+      "bodyCjk": 435,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/netherlands-nuffic-international-students-2026.md",
+      "date": "\"2026-09-21T21:14:58.447Z\"",
+      "bodyCjk": 443,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/uk-public-first-international-recruitment-model-2026.md",
+      "date": "\"2026-09-21T21:14:58.446Z\"",
+      "bodyCjk": 442,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/lincoln-bishop-gus-agreement-2026.md",
+      "date": "\"2026-09-21T19:45:00+08:00\"",
+      "bodyCjk": 504,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/us-ace-international-enrolment-revenue-survey-2026.md",
+      "date": "\"2026-09-21T19:45:00+08:00\"",
+      "bodyCjk": 467,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/ilac-language-student-placement-september-2026.md",
+      "date": "\"2026-09-21T19:25:00+08:00\"",
+      "bodyCjk": 417,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/canada-erasmus-proposal-september-2026.md",
+      "date": "\"2026-09-19T16:35:00+08:00\"",
+      "bodyCjk": 460,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/khiva-liaoning-normal-transnational-campus-2026.md",
+      "date": "\"2026-09-19T16:35:00+08:00\"",
+      "bodyCjk": 438,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/minerva-global-university-system-2026.md",
+      "date": "\"2026-09-19T16:35:00+08:00\"",
+      "bodyCjk": 470,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/australia-student-family-course-reform-september-2026.md",
+      "date": "\"2026-09-18T05:01:00+08:00\"",
+      "bodyCjk": 517,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/qs-global-mba-2027-mit-sloan.md",
+      "date": "\"2026-09-18T05:01:00+08:00\"",
+      "bodyCjk": 343,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/us-opt-fee-proposal-oira-review-september-2026.md",
+      "date": "\"2026-09-18T05:01:00+08:00\"",
+      "bodyCjk": 393,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/australia-go8-migration-proposal-response-2026.md",
+      "date": "\"2026-09-17T05:04:00+08:00\"",
+      "bodyCjk": 368,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/canada-graduate-student-policy-september-2026.md",
+      "date": "\"2026-09-17T05:04:00+08:00\"",
+      "bodyCjk": 372,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/germany-eaie-fit-student-career-support-2026.md",
+      "date": "\"2026-09-17T05:04:00+08:00\"",
+      "bodyCjk": 373,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/ec-canada-student-placements-september-2026.md",
+      "date": "\"2026-09-16T12:30:00+08:00\"",
+      "bodyCjk": 468,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/london-international-student-welcome-2026.md",
+      "date": "\"2026-09-16T12:30:00+08:00\"",
+      "bodyCjk": 418,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/ucb-hospitality-summer-row-followup-2026.md",
+      "date": "\"2026-09-16T12:30:00+08:00\"",
+      "bodyCjk": 459,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/us-duration-status-rule-court-postponed-2026.md",
+      "date": "\"2026-09-15T11:30:00+08:00\"",
+      "bodyCjk": 537,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/ec-english-uk-student-emergency-support-2026.md",
+      "date": "\"2026-09-15T11:29:00+08:00\"",
+      "bodyCjk": 525,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/scotland-eaie-erasmus-international-cooperation-2026.md",
+      "date": "\"2026-09-15T11:28:00+08:00\"",
+      "bodyCjk": 480,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/anu-teqsa-governance-conditions-september-2026.md",
+      "date": "\"2026-09-14T11:01:00+08:00\"",
+      "bodyCjk": 455,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/sydney-mahe-research-mobility-mou-2026.md",
+      "date": "\"2026-09-14T11:01:00+08:00\"",
+      "bodyCjk": 414,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/uts-hcmut-transnational-degree-second-cohort-2026.md",
+      "date": "\"2026-09-14T11:01:00+08:00\"",
+      "bodyCjk": 399,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/ec-english-new-arrivals-suspended-september-2026.md",
+      "date": "\"2026-09-13T10:00:00+08:00\"",
+      "bodyCjk": 509,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/germany-international-student-retention-iw-2026.md",
+      "date": "\"2026-09-13T10:00:00+08:00\"",
+      "bodyCjk": 432,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/uk-study-visa-applications-year-ending-august-2026.md",
+      "date": "\"2026-09-13T10:00:00+08:00\"",
+      "bodyCjk": 405,
+      "needsEditorialReview": true
+    }
+  ]
+}

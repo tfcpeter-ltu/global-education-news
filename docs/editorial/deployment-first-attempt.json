@@ -1,0 +1,11 @@
+{
+  "recovery": "Rerun failed jobs only, reuse successful build artifact",
+  "status": "failure",
+  "attempt": 1,
+  "reason": "Pages syncing_files persisted until deploy-pages 600000ms timeout; deployment cancelled by action",
+  "jobId": 127873406304,
+  "build": "success",
+  "runId": 42212081462,
+  "commit": "529fe7c6afb6ee09be6b4310eea32fc9785dda91",
+  "observedAt": "2026-11-06T19:53:35.8042356+08:00"
+}
