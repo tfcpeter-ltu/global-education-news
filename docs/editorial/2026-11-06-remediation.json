@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-06",
+  "status": "first-batch-published-and-verified",
+  "scope": "Systemic publication gate plus three lead reports; archive remediation is not complete.",
+  "totalNews": 191,
+  "archiveUnder900Remaining": 181,
+  "revised": [
+    {
+      "file": "src/pages/news/australia-schools-digital-detox-taskforce-2026.md",
+      "date": "2026-11-06",
+      "bodyCjk": 1160,
+      "paragraphs": 10,
+      "enforced": true,
+      "issues": []
+    },
+    {
+      "file": "src/pages/news/philippines-transnational-education-strategy-2026.md",
+      "date": "2026-11-06",
+      "bodyCjk": 1172,
+      "paragraphs": 10,
+      "enforced": true,
+      "issues": []
+    },
+    {
+      "file": "src/pages/news/uk-ucas-october-2027-applicant-snapshot.md",
+      "date": "2026-11-06",
+      "bodyCjk": 1065,
+      "paragraphs": 9,
+      "enforced": true,
+      "issues": []
+    }
+  ],
+  "checks": [
+    "Three quality gate regression tests",
+    "Astro build",
+    "910 bilingual page pairs",
+    "1806 canonical sitemap URLs",
+    "Actual English bodies 630-667 words with no CJK",
+    "Mobile390x844 no overflow; search2/zero0/reset254/loadmore27to51"
+  ],
+  "deploymentCommit": "0353900eaae430fa08a9c52d0cfbd63dfb36f867",
+  "verifiedAt": "2026-11-06T19:59:09.617548+08:00",
+  "contentCommit": "529fe7c6afb6ee09be6b4310eea32fc9785dda91",
+  "mobileScreenshot": "docs/daily-checks/2026-11-06/live-expanded-news-mobile.png"
+}

@@ -2,8 +2,8 @@
   "date": "2026-11-06",
   "timezone": "Asia/Taipei",
   "startedAt": "2026-11-06T05:01:04+08:00",
-  "status": "in_progress",
-  "currentPhase": "COMMIT_DEPLOY",
+  "status": "completed",
+  "currentPhase": "COMPLETE",
   "mainBaselineSha": "d5466cc5c56ce6d3ac559b552d7c377db19cdb9c",
   "scholarshipBaselineSlugs": [
     "2026-08-bristol-think-big",
@@ -259,7 +259,70 @@
     "catalog-yale-international-aid"
   ],
   "scholarshipBaselineBasis": "Previous completed baseline plus November 5 verified additions; captured before any new content changes",
-  "newsPublished": [],
+  "newsPublished": [
+    {
+      "slug": "uk-ucas-october-2027-applicant-snapshot",
+      "title": "英國早申人數減少3.2%：醫學申請仍微增，不能推算全年錄取機會",
+      "url": "https://globalednews.com/news/uk-ucas-october-2027-applicant-snapshot/",
+      "publishedPath": "src/pages/news/uk-ucas-october-2027-applicant-snapshot.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://www.ucas.com/corporate/news-and-key-documents/news/ucas-releases-undergraduate-application-data-from-15-october-deadline"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://wonkhe.com/wonk-corner/ucas-october-deadline-data-suggests-pessimism-ahead"
+        }
+      ],
+      "verifiedAt": "2026-11-06T08:11:35.624738+08:00",
+      "publishedVerifiedAt": "2026-11-06T08:27:07.240374+08:00"
+    },
+    {
+      "slug": "philippines-transnational-education-strategy-2026",
+      "title": "菲律賓推跨國高教策略：學分認可與學生流動仍須落實",
+      "url": "https://globalednews.com/news/philippines-transnational-education-strategy-2026/",
+      "publishedPath": "src/pages/news/philippines-transnational-education-strategy-2026.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://www.britishcouncil.ph/en/programmes/education/asean-uk-higher-education-week-2026"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://www.pna.gov.ph/article/ph-eyes-uk-framework-for-transnational-education-strategy-in-asean"
+        },
+        {
+          "label": "Source 3",
+          "url": "https://thepienews.com/philippines-to-fast-track-student-visas-as-tne-strategy-takes-off/"
+        }
+      ],
+      "verifiedAt": "2026-11-06T08:11:35.624738+08:00",
+      "publishedVerifiedAt": "2026-11-06T08:27:07.240374+08:00"
+    },
+    {
+      "slug": "australia-schools-digital-detox-taskforce-2026",
+      "title": "澳洲校園檢討螢幕與AI使用：成立專案小組，並非全面禁用科技",
+      "url": "https://globalednews.com/news/australia-schools-digital-detox-taskforce-2026/",
+      "publishedPath": "src/pages/news/australia-schools-digital-detox-taskforce-2026.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://www.education.gov.au/schooling/announcements/digital-detox-rebalancing-technology-use-australian-schools"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://news.uq.edu.au/2026-11-australian-classrooms-are-getting-digital-detox-what-does-mean-schools-and-students"
+        },
+        {
+          "label": "Source 3",
+          "url": "https://www.sbs.com.au/language/chinese/zh-hant/article/year-5-naplan-writing-test-to-return-to-pen-and-paper-from-2028/fa61pckpw"
+        }
+      ],
+      "verifiedAt": "2026-11-06T08:11:35.624738+08:00",
+      "publishedVerifiedAt": "2026-11-06T08:27:07.240374+08:00"
+    }
+  ],
   "scholarshipAdditions": [
     {
       "slug": "2026-11-dundee-global-january-2027",
@@ -289,7 +352,8 @@
       "baselineAbsent": true,
       "eligibleTaiwan": true,
       "open": true,
-      "updateSummary": "New distinct award; Taiwan list, conditions and consultation-based second source checked"
+      "updateSummary": "New distinct award; Taiwan list, conditions and consultation-based second source checked",
+      "publishedVerifiedAt": "2026-11-06T08:27:07.240374+08:00"
     },
     {
       "slug": "2026-11-dundee-family-january-2027",
@@ -315,7 +379,8 @@
       "baselineAbsent": true,
       "eligibleTaiwan": true,
       "open": true,
-      "updateSummary": "New distinct award; Taiwan list, conditions and consultation-based second source checked"
+      "updateSummary": "New distinct award; Taiwan list, conditions and consultation-based second source checked",
+      "publishedVerifiedAt": "2026-11-06T08:27:07.240374+08:00"
     },
     {
       "slug": "2026-11-strathclyde-hass-deans-january-2027",
@@ -341,24 +406,436 @@
       "baselineAbsent": true,
       "eligibleTaiwan": true,
       "open": true,
-      "updateSummary": "Official non-EU self-funded award and Taiwan degree requirements checked; independent editorial verification dated October22 cross-read."
+      "updateSummary": "Official non-EU self-funded award and Taiwan degree requirements checked; independent editorial verification dated October22 cross-read.",
+      "publishedVerifiedAt": "2026-11-06T08:27:07.240374+08:00"
     }
   ],
-  "scholarshipChecks": [],
-  "peterImports": [],
-  "socialPosts": [],
-  "blockers": [],
-  "gaps": [
-    "BUILD",
-    "COMMIT_DEPLOY",
-    "PUBLISH",
-    "ACCEPTANCE",
-    "VERIFY"
+  "scholarshipChecks": [
+    {
+      "slug": "2026-11-dundee-global-january-2027",
+      "title": "Dundee 全球卓越碩士獎學金：£8,000學費減免",
+      "url": "https://globalednews.com/scholarships/items/2026-11-dundee-global-january-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-dundee-global-january-2027.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://www.dundee.ac.uk/scholarships/global-excellence-scholarship-postgraduate-january-2027"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://www.european-funding-guide.eu/scholarship/dundee-global-excellence-regional"
+        },
+        {
+          "label": "Source 3",
+          "url": "https://www.thecompleteuniversityguide.co.uk/universities/university-of-dundee/student-support/undergraduate/taiwan/taiwan"
+        },
+        {
+          "label": "Source 4",
+          "url": "https://www.thecompleteuniversityguide.co.uk/sector/resources/consultations"
+        }
+      ],
+      "verifiedAt": "2026-11-06T08:12:26.032693+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "eligibleTaiwan": true,
+      "open": true,
+      "updateSummary": "New distinct award; Taiwan list, conditions and consultation-based second source checked",
+      "publishedVerifiedAt": "2026-11-06T08:27:07.240374+08:00"
+    },
+    {
+      "slug": "2026-11-dundee-family-january-2027",
+      "title": "Dundee 校友及家庭獎學金：£3,000學費減免",
+      "url": "https://globalednews.com/scholarships/items/2026-11-dundee-family-january-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-dundee-family-january-2027.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://www.dundee.ac.uk/scholarships/alumni-and-family-scholarship-january-2027"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://www.thecompleteuniversityguide.co.uk/universities/university-of-dundee/student-support/undergraduate/taiwan/taiwan"
+        },
+        {
+          "label": "Source 3",
+          "url": "https://www.thecompleteuniversityguide.co.uk/sector/resources/consultations"
+        }
+      ],
+      "verifiedAt": "2026-11-06T08:12:26.032693+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "eligibleTaiwan": true,
+      "open": true,
+      "updateSummary": "New distinct award; Taiwan list, conditions and consultation-based second source checked",
+      "publishedVerifiedAt": "2026-11-06T08:27:07.240374+08:00"
+    },
+    {
+      "slug": "2026-11-strathclyde-hass-deans-january-2027",
+      "title": "Strathclyde人文社科院長獎：£10,000學費減免",
+      "url": "https://globalednews.com/scholarships/items/2026-11-strathclyde-hass-deans-january-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-strathclyde-hass-deans-january-2027.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://www.strath.ac.uk/studywithus/scholarships/humanitiessocialsciencesdeansinternationalexcellencescholarship-january2027/"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://scholarshipsforafricans.com/scholarships/humanities-and-social-sciences-deans-international-excellence-scholarship-university-of-st"
+        },
+        {
+          "label": "Source 3",
+          "url": "https://www.strath.ac.uk/studywithus/internationalstudents/entryrequirements/"
+        }
+      ],
+      "verifiedAt": "2026-11-06T08:18:11.944519+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "eligibleTaiwan": true,
+      "open": true,
+      "updateSummary": "Official non-EU self-funded award and Taiwan degree requirements checked; independent editorial verification dated October22 cross-read.",
+      "publishedVerifiedAt": "2026-11-06T08:27:07.240374+08:00"
+    }
   ],
+  "peterImports": [
+    {
+      "slug": "uk-early-applications-medicine-2027",
+      "title": "英國早申降溫、醫學微增：Peter提醒分清統計範圍",
+      "url": "https://globalednews.com/peter/uk-early-applications-medicine-2027/",
+      "sourceId": "122149329909172155",
+      "sourceUrl": "https://www.facebook.com/photo/?fbid=122149329909172155",
+      "verifiedAt": "2026-11-06T08:18:11.944519+08:00",
+      "publishedVerifiedAt": "2026-11-06T08:27:07.240374+08:00"
+    }
+  ],
+  "socialPosts": [
+    {
+      "campaign": "news",
+      "network": "threads",
+      "articleUrl": "https://globalednews.com/news/uk-ucas-october-2027-applicant-snapshot/",
+      "publishedAt": "2026-11-06T08:27:30.051+08:00",
+      "status": "PUBLISHED",
+      "id": "DfYUWYggbh-",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfYUWYggbh-",
+      "account": "ltuossdtw",
+      "verifiedAt": "2026-11-06T08:29:31.937+08:00",
+      "mediaVerifiedAt": "2026-11-06T08:29:31.937+08:00",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "visibility": "PUBLIC",
+      "mediaEvidence": "docs/social-posts/2026-11-06/evidence/threads-news.jpg",
+      "publishedTimeLabel": "1分鐘",
+      "publicationMethod": "native-ui",
+      "timezone": "Asia/Taipei"
+    },
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "photoAttachedAt": "2026-11-06T08:25:15.808+08:00",
+      "photoReadyEvidence": "docs/social-posts/2026-11-06/evidence/facebook-news-photo-before-copy.jpg",
+      "copyAddedAt": "2026-11-06T08:25:15.911+08:00",
+      "publishedAt": "2026-11-06T08:29:02.476+08:00",
+      "status": "PUBLISHED",
+      "id": "1110664588376405",
+      "idKind": "published-photo",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0M3CvhZ7eLwZVFJXLapctskfpwv5bnJ17PPxFwfpVN98K7stUR9qLC6dNitNx3D1kl",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "accountId": "101904929207004",
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "imageCount": 1,
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-06T08:32:30.211+08:00",
+      "mediaVerifiedAt": "2026-11-06T08:32:30.211+08:00",
+      "verifiedAt": "2026-11-06T08:32:30.211+08:00",
+      "mediaEvidence": "docs/social-posts/2026-11-06/evidence/facebook-news.jpg",
+      "publicPhotoScreenshot": "docs/social-posts/2026-11-06/evidence/facebook-news.jpg",
+      "photoAttachments": [
+        {
+          "id": "1110664588376405",
+          "url": "https://www.facebook.com/photo/?fbid=1110664588376405"
+        }
+      ],
+      "publicationMethod": "native-ui",
+      "visibility": "PUBLIC"
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "articleUrl": "https://globalednews.com/news/uk-ucas-october-2027-applicant-snapshot/",
+      "publishedAt": "2026-11-06T08:30:00.698+08:00",
+      "status": "PUBLISHED",
+      "id": "7524266824155463680",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7524266824155463680/",
+      "account": "Peter Chen",
+      "mediaStatus": "VERIFIED",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-06T08:33:03.196+08:00",
+      "verifiedAt": "2026-11-06T08:33:03.196+08:00",
+      "mediaEvidence": "docs/social-posts/2026-11-06/evidence/linkedin-news.jpg",
+      "publicationMethod": "native-ui",
+      "visibility": "PUBLIC"
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "articleUrl": "https://globalednews.com/news/uk-ucas-october-2027-applicant-snapshot/",
+      "publishedAt": "2026-11-06T08:30:01.615+08:00",
+      "threadsSync": false,
+      "status": "PUBLISHED",
+      "id": "DfYUpYok0-D",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DfYUpYok0-D/",
+      "account": "ltuossdtw",
+      "mediaStatus": "VERIFIED",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-06T08:33:25.34+08:00",
+      "verifiedAt": "2026-11-06T08:33:25.34+08:00",
+      "mediaEvidence": "docs/social-posts/2026-11-06/evidence/instagram-news.jpg",
+      "publicationMethod": "native-ui",
+      "visibility": "PUBLIC"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-11-dundee-global-january-2027/",
+      "publishedAt": "2026-11-06T08:33:13.534+08:00",
+      "status": "PUBLISHED",
+      "id": "DfYVAXUAfde",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfYVAXUAfde",
+      "account": "ltuossdtw",
+      "mediaStatus": "VERIFIED",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-06T08:34:21.523+08:00",
+      "verifiedAt": "2026-11-06T08:34:21.523+08:00",
+      "mediaEvidence": "docs/social-posts/2026-11-06/evidence/threads-scholarship.jpg",
+      "publicationMethod": "native-ui",
+      "visibility": "PUBLIC"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-11-dundee-global-january-2027/",
+      "photoAttachedAt": "2026-11-06T08:33:39.026+08:00",
+      "photoReadyEvidence": "docs/social-posts/2026-11-06/evidence/facebook-scholarship-photo-before-copy.jpg",
+      "copyAddedAt": "2026-11-06T08:33:39.119+08:00",
+      "publishedAt": "2026-11-06T08:34:06.6+08:00",
+      "status": "PUBLISHED",
+      "id": "1110669541709243",
+      "idKind": "published-photo",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02hbtWqfgBdsTRAGYPMxkjpwWCjXnyqE8BcgKsJ2Cqgqupwmdrp677GgiqD6rYDHWwl",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "accountId": "101904929207004",
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "imageCount": 1,
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-06T08:35:08.661+08:00",
+      "mediaVerifiedAt": "2026-11-06T08:35:08.661+08:00",
+      "verifiedAt": "2026-11-06T08:35:08.661+08:00",
+      "mediaEvidence": "docs/social-posts/2026-11-06/evidence/facebook-scholarship.jpg",
+      "publicPhotoScreenshot": "docs/social-posts/2026-11-06/evidence/facebook-scholarship.jpg",
+      "photoAttachments": [
+        {
+          "id": "1110669541709243",
+          "url": "https://www.facebook.com/photo/?fbid=1110669541709243"
+        }
+      ],
+      "publicationMethod": "native-ui",
+      "visibility": "PUBLIC"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "articleUrl": "https://globalednews.com/study-abroad/dundee-course-scholarship-budget-2027/",
+      "publishedAt": "2026-11-06T08:35:20.312+08:00",
+      "status": "PUBLISHED",
+      "id": "DfYVP3fAVqW",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfYVP3fAVqW",
+      "account": "ltuossdtw",
+      "mediaStatus": "VERIFIED",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-06T08:36:18.11+08:00",
+      "verifiedAt": "2026-11-06T08:36:18.11+08:00",
+      "mediaEvidence": "docs/social-posts/2026-11-06/evidence/threads-study-abroad.jpg",
+      "publicationMethod": "native-ui",
+      "visibility": "PUBLIC"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-11-dundee-global-january-2027/",
+      "publishedAt": "2026-11-06T08:35:31.906+08:00",
+      "status": "PUBLISHED",
+      "id": "7524268211635113984",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7524268211635113984/",
+      "account": "Peter Chen",
+      "mediaStatus": "VERIFIED",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-06T08:36:18.118+08:00",
+      "verifiedAt": "2026-11-06T08:36:18.118+08:00",
+      "mediaEvidence": "docs/social-posts/2026-11-06/evidence/linkedin-scholarship.jpg",
+      "publicationMethod": "native-ui",
+      "visibility": "PUBLIC"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-11-dundee-global-january-2027/",
+      "publishedAt": "2026-11-06T08:35:42.417+08:00",
+      "threadsSync": false,
+      "status": "PUBLISHED",
+      "id": "DfYVS5hk8hm",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DfYVS5hk8hm/",
+      "account": "ltuossdtw",
+      "mediaStatus": "VERIFIED",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-06T08:37:12.047+08:00",
+      "verifiedAt": "2026-11-06T08:37:12.047+08:00",
+      "mediaEvidence": "docs/social-posts/2026-11-06/evidence/instagram-scholarship.jpg",
+      "publicationMethod": "native-ui",
+      "visibility": "PUBLIC"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "articleUrl": "https://oia.nsysu.edu.tw/p/406-1308-384608,r4450.php?Lang=zh-tw",
+      "publishedAt": "2026-11-06T08:37:12.05+08:00",
+      "status": "PUBLISHED",
+      "id": "DfYVdcPgdES",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfYVdcPgdES",
+      "account": "ltuossdtw",
+      "mediaStatus": "VERIFIED",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-06T08:38:09.208+08:00",
+      "verifiedAt": "2026-11-06T08:38:09.208+08:00",
+      "mediaEvidence": "docs/social-posts/2026-11-06/evidence/threads-taiwan-universities.jpg",
+      "publicationMethod": "native-ui",
+      "visibility": "PUBLIC"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "articleUrl": "https://globalednews.com/study-abroad/dundee-course-scholarship-budget-2027/",
+      "photoAttachedAt": "2026-11-06T08:37:23.224+08:00",
+      "photoReadyEvidence": "docs/social-posts/2026-11-06/evidence/facebook-study-abroad-photo-before-copy.jpg",
+      "copyAddedAt": "2026-11-06T08:37:23.318+08:00",
+      "publishedAt": "2026-11-06T08:37:43.521+08:00",
+      "status": "PUBLISHED",
+      "id": "1110673161708881",
+      "idKind": "published-photo",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02MdpoaaU3CsdixKQqUmHGpeTEUZxqMsan4wzHUdAK4tDtSsHmGNqzFfbCM7gUJyhPl",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "accountId": "101904929207004",
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "imageCount": 1,
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-06T08:38:36.578+08:00",
+      "mediaVerifiedAt": "2026-11-06T08:38:36.578+08:00",
+      "verifiedAt": "2026-11-06T08:38:36.578+08:00",
+      "mediaEvidence": "docs/social-posts/2026-11-06/evidence/facebook-study-abroad.jpg",
+      "publicPhotoScreenshot": "docs/social-posts/2026-11-06/evidence/facebook-study-abroad.jpg",
+      "photoAttachments": [
+        {
+          "id": "1110673161708881",
+          "url": "https://www.facebook.com/photo/?fbid=1110673161708881"
+        }
+      ],
+      "publicationMethod": "native-ui",
+      "visibility": "PUBLIC"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "articleUrl": "https://globalednews.com/study-abroad/dundee-course-scholarship-budget-2027/",
+      "publishedAt": "2026-11-06T08:37:44.047+08:00",
+      "status": "PUBLISHED",
+      "id": "7524268767741382656",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7524268767741382656/",
+      "account": "Peter Chen",
+      "mediaStatus": "VERIFIED",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-06T08:38:36.585+08:00",
+      "verifiedAt": "2026-11-06T08:38:36.585+08:00",
+      "mediaEvidence": "docs/social-posts/2026-11-06/evidence/linkedin-study-abroad.jpg",
+      "publicationMethod": "native-ui",
+      "visibility": "PUBLIC"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "articleUrl": "https://oia.nsysu.edu.tw/p/406-1308-384608,r4450.php?Lang=zh-tw",
+      "publishedAt": "2026-11-06T08:39:57.495+08:00",
+      "status": "PUBLISHED",
+      "id": "7524269326984634368",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7524269326984634368/",
+      "account": "Peter Chen",
+      "mediaStatus": "VERIFIED",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-06T08:40:57.105+08:00",
+      "verifiedAt": "2026-11-06T08:40:57.105+08:00",
+      "mediaEvidence": "docs/social-posts/2026-11-06/evidence/linkedin-taiwan-universities.jpg",
+      "publicationMethod": "native-ui",
+      "visibility": "PUBLIC"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "articleUrl": "https://globalednews.com/study-abroad/dundee-course-scholarship-budget-2027/",
+      "publishedAt": "2026-11-06T08:39:45.898+08:00",
+      "threadsSync": false,
+      "status": "PUBLISHED",
+      "id": "DfYVwnuk1Hd",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DfYVwnuk1Hd/",
+      "account": "ltuossdtw",
+      "mediaStatus": "VERIFIED",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-06T08:41:08.133+08:00",
+      "verifiedAt": "2026-11-06T08:41:08.133+08:00",
+      "mediaEvidence": "docs/social-posts/2026-11-06/evidence/instagram-study-abroad.jpg",
+      "publicationMethod": "native-ui",
+      "visibility": "PUBLIC"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "articleUrl": "https://oia.nsysu.edu.tw/p/406-1308-384608,r4450.php?Lang=zh-tw",
+      "publishedAt": "2026-11-06T08:48:05.385+08:00",
+      "threadsSync": false,
+      "status": "PUBLISHED",
+      "id": "DfYWtpSE1cx",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DfYWtpSE1cx/",
+      "account": "ltuossdtw",
+      "mediaStatus": "VERIFIED",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-06T08:49:03.018+08:00",
+      "verifiedAt": "2026-11-06T08:49:03.018+08:00",
+      "mediaEvidence": "docs/social-posts/2026-11-06/evidence/instagram-taiwan-universities.jpg",
+      "publicationMethod": "native-ui",
+      "visibility": "PUBLIC"
+    }
+  ],
+  "blockers": [],
+  "gaps": [],
   "manualActions": [],
   "verification": {
-    "status": "NOT_RUN",
-    "reason": "Content built; deployment, native publishing and live acceptance pending."
+    "status": "COMPLETE",
+    "exitCode": 0,
+    "verifiedAt": "2026-11-06T19:59:09.617548+08:00",
+    "output": "EVIDENCE_PRESENT 2026-11-06: 3 news, 3 new scholarships, Peter review (1 imports), 15 social posts and deployment evidence present. Evidence presence does not replace live verification.\nCOMPLETE 2026-11-06: delivery evidence and editorial depth checks passed.\n",
+    "evidence": "docs/daily-checks/2026-11-06/daily-verification.json"
   },
   "resumedAt": "2026-11-06T08:04:43.1009893+08:00",
   "browserRecovery": "Fresh Chrome extension tab 230962374 successfully read Facebook/Peter page; old tab focus timed out. No current login blocker.",
@@ -423,7 +900,7 @@
       "verifiedAt": "2026-11-06T08:11:35.624738+08:00"
     }
   ],
-  "scholarshipSourceMethod": "CUG method page read natively: direct named institutional consultation and annual review. Not treated as a second official Dundee URL. Global also cross-read EFG analysis.",
+  "scholarshipSourceMethod": "Dundee: CUG direct institutional consultation methodology; Global also EFG. Strathclyde: official eligibility and Taiwan admissions plus independent editorial verification dated October22; see source-audit.json.",
   "rejectedScholarshipCandidates": [
     {
       "name": "Dundee Alumni January2027",
@@ -521,11 +998,14 @@
     ],
     "note": "Read original archive reports. Today uses separately reviewed alternatives; SETN safety gate from prior run not bypassed, Storm unavailable. All12 archive items retained."
   },
-  "preparedAt": "2026-11-06T08:18:12.060810+08:00",
+  "preparedAt": "2026-11-06T08:18:12.06081+08:00",
   "phaseCompleted": [
     "PREFLIGHT",
     "RESEARCH",
-    "PREPARE"
+    "PREPARE",
+    "BUILD",
+    "COMMIT_DEPLOY",
+    "PUBLISH"
   ],
   "build": {
     "status": "success",
@@ -541,5 +1021,107 @@
       "public safety",
       "vlog"
     ]
+  },
+  "studyAbroadPublished": {
+    "slug": "dundee-course-scholarship-budget-2027",
+    "title": "Dundee升學預算：課程錄取與獎助資格要分開核對",
+    "url": "https://globalednews.com/study-abroad/dundee-course-scholarship-budget-2027/",
+    "publishedPath": "src/pages/study-abroad/dundee-course-scholarship-budget-2027.md",
+    "sources": [
+      {
+        "label": "Source 1",
+        "url": "https://www.dundee.ac.uk/scholarships/global-excellence-scholarship-postgraduate-january-2027"
+      },
+      {
+        "label": "Source 2",
+        "url": "https://www.dundee.ac.uk/scholarships/alumni-and-family-scholarship-january-2027"
+      },
+      {
+        "label": "Source 3",
+        "url": "https://www.thecompleteuniversityguide.co.uk/universities/university-of-dundee/student-support/undergraduate/taiwan/taiwan"
+      }
+    ],
+    "verifiedAt": "2026-11-06T08:18:11.944519+08:00",
+    "publishedVerifiedAt": "2026-11-06T08:27:07.240374+08:00"
+  },
+  "newFacebookPagePost": {
+    "campaign": "new-facebook-page",
+    "network": "facebook",
+    "articleUrl": "https://globalednews.com/news/uk-ucas-october-2027-applicant-snapshot/",
+    "pageId": "61595164194381",
+    "photoAttachedAt": "2026-11-06T08:40:20.224+08:00",
+    "photoReadyEvidence": "docs/social-posts/2026-11-06/evidence/facebook-new-page-photo-before-copy.jpg",
+    "copyAddedAt": "2026-11-06T08:40:20.438+08:00",
+    "publishedAt": "2026-11-06T08:40:45.226+08:00",
+    "status": "PUBLISHED",
+    "id": "122119020819505473",
+    "postId": "122119021029505473",
+    "idKind": "published-photo",
+    "publicUrl": "https://www.facebook.com/photo/?fbid=122119020819505473",
+    "account": "環球國際教育新聞網",
+    "accountId": "1355044634361784",
+    "mediaKind": "uploaded-photo",
+    "mediaStatus": "VERIFIED",
+    "imageCount": 1,
+    "previewStatus": "VERIFIED",
+    "previewVerifiedAt": "2026-11-06T08:41:32.68+08:00",
+    "mediaVerifiedAt": "2026-11-06T08:41:32.68+08:00",
+    "verifiedAt": "2026-11-06T08:41:32.68+08:00",
+    "mediaEvidence": "docs/social-posts/2026-11-06/evidence/facebook-new-page.jpg",
+    "publicPhotoScreenshot": "docs/social-posts/2026-11-06/evidence/facebook-new-page.jpg",
+    "photoAttachments": [
+      {
+        "id": "122119020819505473",
+        "url": "https://www.facebook.com/photo/?fbid=122119020819505473"
+      }
+    ],
+    "publicationMethod": "native-ui",
+    "displayTimeNote": "Page displayed just now; its account timezone rendered Nov 5 16:40, equivalent to Nov 6 08:40 Asia/Taipei. Local publication timestamp recorded at action.",
+    "visibility": "PUBLIC"
+  },
+  "deployment": {
+    "commit": "0353900eaae430fa08a9c52d0cfbd63dfb36f867",
+    "status": "success",
+    "verifiedAt": "2026-11-06T19:59:09.617548+08:00",
+    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/42213757016",
+    "runId": 42213757016,
+    "evidence": "docs/editorial/deployment.json"
+  },
+  "acceptance": {
+    "desktop": true,
+    "mobile": true,
+    "seo": true,
+    "verifiedAt": "2026-11-06T19:59:09.617548+08:00",
+    "search": {
+      "keywordEnter": 4,
+      "compoundDundeeMastersOpen": 2,
+      "zeroResult": 0,
+      "reset": 254,
+      "loadMoreVisibleCards": [
+        27,
+        51
+      ]
+    },
+    "images": true,
+    "ltuRotation": [
+      1,
+      2,
+      6
+    ],
+    "englishArticleCjk": false,
+    "evidence": "docs/daily-checks/2026-11-06/",
+    "mobileNote": "Verified in supported in-app browser at actual390x844, document375px; no horizontal overflow; images visible. Dundee+masters+open2; zero0; reset254; loadmore27to51. Evidence docs/daily-checks/2026-11-06/mobile-acceptance-resumed.json",
+    "mobileEvidence": "docs/daily-checks/2026-11-06/mobile-acceptance-resumed.json",
+    "editorialEvidence": "docs/editorial/live-content-check.json"
+  },
+  "lastUpdatedAt": "2026-11-06T08:50:30.260167+08:00",
+  "completedAt": "2026-11-06T19:59:09.617548+08:00",
+  "editorialRepair": {
+    "status": "first-batch-published",
+    "rewrittenNews": 3,
+    "archivePending": 181,
+    "qualityGate": "scripts/check-news-depth.mjs",
+    "queue": "docs/editorial/archive-remediation-queue.json",
+    "note": "Daily delivery COMPLETE does not mean all archive articles rewritten."
   }
 }

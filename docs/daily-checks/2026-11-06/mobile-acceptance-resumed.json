@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-06",
+  "timezone": "Asia/Taipei",
+  "verifiedAt": "2026-11-06T11:28:50.994Z",
+  "browser": "in-app browser",
+  "viewport": {
+    "width": 390,
+    "height": 844,
+    "scrollWidth": 375
+  },
+  "englishHome": true,
+  "chineseHome": true,
+  "images": true,
+  "horizontalOverflow": false,
+  "searchEnter": true,
+  "compoundFilter": {
+    "query": "Dundee",
+    "degree": "碩士",
+    "status": "開放中",
+    "results": 2
+  },
+  "zeroResults": 0,
+  "clearResults": 254,
+  "loadMore": {
+    "beforeCount": 27,
+    "afterCount": 51
+  },
+  "screenshots": [
+    "live-mobile-resumed.png",
+    "live-mobile-filter-resumed.png"
+  ],
+  "previousChromeViewportFailure": "Resolved using supported in-app browser viewport; no safety settings changed"
+}

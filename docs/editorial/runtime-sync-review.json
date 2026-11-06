@@ -1,0 +1,52 @@
+[
+  {
+    "path": "package.json",
+    "sourceSha": "538e319c0d3b97890dfbb4807e2f6a90d74c3d3e250c8912de743635965f761a",
+    "runtimeSha": "77a6f7a51604cd2771aee5efe7bbab1ce444b2a5a748de87a8cdf9c5ba158e46"
+  },
+  {
+    "path": "public/data/analytics-summary.json",
+    "sourceSha": "f193d74713438da6f26de55b7f7888646ef578d9142bf200c74ed24c18728100",
+    "runtimeSha": "043d7ff7cf2cad7b904a76e2c9d5f35b67ff8190019b3746c9ba8c040322f364"
+  },
+  {
+    "path": "scripts/verify-daily-delivery.mjs",
+    "sourceSha": "7d5046540e49456ac5dee13a6a9d594456c9616e15f6e2a7149f70eb52521ab2",
+    "runtimeSha": "abb878a96aceb0d03b2ac8a451b4f9223abe098a8b34b1e75b7ad85953311820"
+  },
+  {
+    "path": "src/data/i18n/en-overrides.json",
+    "sourceSha": "1179c5c2731a8142b1bdc28f9cdc5df0a5418dc664681c45c911dea04c0fb8c2",
+    "runtimeSha": "ccdd6c46dc0d06c9042dafaa3908651f559b2b26b08384ca3c19f2326a5af66e"
+  },
+  {
+    "path": "src/data/vlog-videos.json",
+    "sourceSha": "3f6df8c6c6ff5fb66fb0fcef512c5df8cacb393f91521a165e7d1528861461cb",
+    "runtimeSha": "130c196f65394f90dcadf8dd52090e9193d2c83672a1c91314ff5ec7597be373"
+  },
+  {
+    "path": "src/pages/news/australia-schools-digital-detox-taskforce-2026.md",
+    "sourceSha": "f6c0c72c127cfc98da7988204e63414cf39f8adb61f8e536268320bf2adf0af3",
+    "runtimeSha": "8cce92b471eee0f96158c57ebf7bf09af8d970e98d0ca5af44da95d9c77093ff"
+  },
+  {
+    "path": "src/pages/news/philippines-transnational-education-strategy-2026.md",
+    "sourceSha": "52f19aba0b222355f41d67e2fc703a094de0a40624a8813e5a0843153fc06bd4",
+    "runtimeSha": "977dfcbfe68594fa19342355849f0b33e70eb5ee9124945cd4d7a55370d81a71"
+  },
+  {
+    "path": "src/pages/news/uk-ucas-october-2027-applicant-snapshot.md",
+    "sourceSha": "cd0b54c129b37c7dea2814513e5ca1064e082c8ceac07869dfc996f2de8f782b",
+    "runtimeSha": "d07d2cab9b4a7c43ccb6562867aa391bda665257aab77739665855362bfe5157"
+  },
+  {
+    "path": "scripts/check-news-depth.mjs",
+    "sourceSha": "bcc5b9e17220fcbf1354ed8def411a17075ca7f0036c9d1d43b3c28e26e011c9",
+    "runtimeSha": null
+  },
+  {
+    "path": "docs/editorial/news-reviews.json",
+    "sourceSha": "5b5bbd61607446c75d431e967d23ab6d55e8a23d55951c4553e2639a8c3057cd",
+    "runtimeSha": null
+  }
+]

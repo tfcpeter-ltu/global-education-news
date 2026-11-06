@@ -1,0 +1,158 @@
+{
+  "verifiedAt": "2026-11-06T19:58:26.347095+08:00",
+  "pages": [
+    {
+      "url": "https://globalednews.com/news/uk-ucas-october-2027-applicant-snapshot/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/uk-ucas-october-2027-applicant-snapshot/",
+      "ogImage": "https://globalednews.com/images/share-photos/e92d62bdfcc131c8a9dba123.jpg",
+      "ogBytes": 183298,
+      "schemaCount": 5,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/news/philippines-transnational-education-strategy-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/philippines-transnational-education-strategy-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/872d74aa77a601ccf8973fba.jpg",
+      "ogBytes": 201588,
+      "schemaCount": 5,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/news/australia-schools-digital-detox-taskforce-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/australia-schools-digital-detox-taskforce-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/a9ccd5ce60f8f84c5dfde4a0.jpg",
+      "ogBytes": 244574,
+      "schemaCount": 5,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-11-dundee-global-january-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-11-dundee-global-january-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/02fe32096034f0a1fc2a0731.jpg",
+      "ogBytes": 217154,
+      "schemaCount": 3,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-11-dundee-family-january-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-11-dundee-family-january-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/44630458bff4d2be40db1fb0.jpg",
+      "ogBytes": 246085,
+      "schemaCount": 3,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-11-strathclyde-hass-deans-january-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-11-strathclyde-hass-deans-january-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/d90eb830266b7c8561aa4526.jpg",
+      "ogBytes": 232904,
+      "schemaCount": 3,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/study-abroad/dundee-course-scholarship-budget-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/study-abroad/dundee-course-scholarship-budget-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/c8e61b4d2957c7bdc3d4806b.jpg",
+      "ogBytes": 254151,
+      "schemaCount": 5,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/peter/uk-early-applications-medicine-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/peter/uk-early-applications-medicine-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/ca903dab6b7f23239af5e17a.jpg",
+      "ogBytes": 187508,
+      "schemaCount": 4,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/en/news/uk-ucas-october-2027-applicant-snapshot/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/uk-ucas-october-2027-applicant-snapshot/",
+      "ogImage": "https://globalednews.com/images/share-photos/e92d62bdfcc131c8a9dba123.jpg",
+      "ogBytes": 183298,
+      "schemaCount": 5,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/news/philippines-transnational-education-strategy-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/philippines-transnational-education-strategy-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/872d74aa77a601ccf8973fba.jpg",
+      "ogBytes": 201588,
+      "schemaCount": 5,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/news/australia-schools-digital-detox-taskforce-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/australia-schools-digital-detox-taskforce-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/a9ccd5ce60f8f84c5dfde4a0.jpg",
+      "ogBytes": 244574,
+      "schemaCount": 5,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/scholarships/items/2026-11-dundee-global-january-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/scholarships/items/2026-11-dundee-global-january-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/02fe32096034f0a1fc2a0731.jpg",
+      "ogBytes": 217154,
+      "schemaCount": 3,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/scholarships/items/2026-11-dundee-family-january-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/scholarships/items/2026-11-dundee-family-january-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/44630458bff4d2be40db1fb0.jpg",
+      "ogBytes": 246085,
+      "schemaCount": 3,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/scholarships/items/2026-11-strathclyde-hass-deans-january-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/scholarships/items/2026-11-strathclyde-hass-deans-january-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/d90eb830266b7c8561aa4526.jpg",
+      "ogBytes": 232904,
+      "schemaCount": 3,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/study-abroad/dundee-course-scholarship-budget-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/study-abroad/dundee-course-scholarship-budget-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/c8e61b4d2957c7bdc3d4806b.jpg",
+      "ogBytes": 254151,
+      "schemaCount": 5,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/peter/uk-early-applications-medicine-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/peter/uk-early-applications-medicine-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/ca903dab6b7f23239af5e17a.jpg",
+      "ogBytes": 187508,
+      "schemaCount": 4,
+      "englishCjk": false
+    }
+  ],
+  "xmlChecks": [
+    "sitemap-index.xml",
+    "sitemap-0.xml",
+    "news-sitemap.xml",
+    "weekly-feed.xml"
+  ],
+  "newPagesInSitemap": 8,
+  "newsInNewsSitemapAndRss": 3,
+  "robots": 200
+}
