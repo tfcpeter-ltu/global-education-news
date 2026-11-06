@@ -1,0 +1,231 @@
+{
+  "newsPrepared": [
+    {
+      "slug": "us-penn-state-tuition-lawsuit-november-2026",
+      "title": "美司法部控賓州州立學費政策：居住資格之爭，尚非國際生費率變更",
+      "url": "https://globalednews.com/news/us-penn-state-tuition-lawsuit-november-2026/",
+      "publishedPath": "src/pages/news/us-penn-state-tuition-lawsuit-november-2026.md",
+      "sources": [
+        {
+          "label": "US Department of Justice — November 5 complaint announcement",
+          "url": "https://www.justice.gov/opa/pr/department-justice-files-complaint-against-pennsylvania-state-university-challenging-its"
+        },
+        {
+          "label": "Associated Press — Heather Hollingsworth report and Penn State response",
+          "url": "https://apnews.com/article/penn-state-trump-instate-tuition-164d7d9e4e760e8207b6c97c54c8fea9"
+        }
+      ],
+      "verifiedAt": "2026-11-07T05:10:58.544004+08:00"
+    },
+    {
+      "slug": "uk-hepi-ofs-ukvi-regulatory-coherence-2026",
+      "title": "同一所大學，兩套完成率：HEPI追問英國國際學生監管如何銜接",
+      "url": "https://globalednews.com/news/uk-hepi-ofs-ukvi-regulatory-coherence-2026/",
+      "publishedPath": "src/pages/news/uk-hepi-ofs-ukvi-regulatory-coherence-2026.md",
+      "sources": [
+        {
+          "label": "Home Office — Bloomsbury sponsor revocation and student arrangements, August 6",
+          "url": "https://www.gov.uk/government/news/bloomsbury-institutes-student-sponsor-licence-revoked"
+        },
+        {
+          "label": "HEPI — One sector, two regulators, November 5",
+          "url": "https://www.hepi.ac.uk/reports/one-sector-two-regulators-the-office-for-students-uk-visas-and-immigration-and-the-challenge-of-regulatory-coherence-in-international-education/"
+        },
+        {
+          "label": "HEPI Policy Note 77 — full analysis",
+          "url": "https://www.hepi.ac.uk/wp-content/uploads/2026/11/HEPI-Policy-Note-77.pdf"
+        },
+        {
+          "label": "Universities UK — Addressing the challenge of regulatory burden",
+          "url": "https://www.universitiesuk.ac.uk/sites/default/files/uploads/Reports/UUK-briefing-Addressing-the-challenge-of-regulatory-burden%20.pdf"
+        }
+      ],
+      "verifiedAt": "2026-11-07T05:10:58.544004+08:00"
+    },
+    {
+      "slug": "japan-womens-universities-coeducation-transition-2026",
+      "title": "日本女子大學轉向共學：改名之外，留學生要看懂學部與學位的轉接",
+      "url": "https://globalednews.com/news/japan-womens-universities-coeducation-transition-2026/",
+      "publishedPath": "src/pages/news/japan-womens-universities-coeducation-transition-2026.md",
+      "sources": [
+        {
+          "label": "Heian Jogakuin — October 5 restructuring announcement",
+          "url": "https://www.heian.ac.jp/topics/20261005"
+        },
+        {
+          "label": "Chunichi Shimbun — Kinjo Gakuin decision and alumni context, July 5",
+          "url": "https://edu.chunichi.co.jp/news/detail/12914/u00015"
+        },
+        {
+          "label": "Kinjo Gakuin — July 3 coeducation announcement",
+          "url": "https://www.kinjo-u.ac.jp/ja/news/detail/?id=2864"
+        },
+        {
+          "label": "Seoul Economic Daily — women’s universities and enrolment, October 9",
+          "url": "https://en.sedaily.com/international/2026/10/09/japans-womens-universities-turn-co-ed-as-enrollment-shrinks"
+        }
+      ],
+      "verifiedAt": "2026-11-07T05:10:58.544004+08:00"
+    }
+  ],
+  "scholarshipAdditions": [
+    {
+      "slug": "2026-11-lincoln-uk-global-undergraduate-2027",
+      "title": "Lincoln英國全球學士獎學金：每學年£2,000",
+      "url": "https://globalednews.com/scholarships/items/2026-11-lincoln-uk-global-undergraduate-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-lincoln-uk-global-undergraduate-2027.md",
+      "sources": [
+        {
+          "label": "University of Lincoln — current award page",
+          "url": "https://www.lincoln.ac.uk/studywithus/scholarshipsandbursaries/globalundergraduatescholarship/"
+        },
+        {
+          "label": "Complete University Guide — Taiwan-filtered Lincoln funding profile",
+          "url": "https://www.thecompleteuniversityguide.co.uk/universities/university-of-lincoln/student-support/undergraduate/taiwan/taiwan"
+        },
+        {
+          "label": "University of Lincoln — applicable annual terms",
+          "url": "https://www.lincoln.ac.uk/media/universityoflincoln/document/scholarship/University,of,Lincoln,International,Scholarship,Terms,and,Conditions,2027-2028,V1.pdf"
+        },
+        {
+          "label": "University of Lincoln — Taiwan entry and scholarship guidance",
+          "url": "https://www.lincoln.ac.uk/studywithus/internationalstudents/entryrequirementsandyourcountry/taiwan/"
+        },
+        {
+          "label": "Complete University Guide — annual institutional consultation method",
+          "url": "https://www.thecompleteuniversityguide.co.uk/sector/resources/consultations"
+        }
+      ],
+      "verifiedAt": "2026-11-07T05:12:11.471084+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "eligibleTaiwan": true,
+      "open": true,
+      "updateSummary": "Distinct UK Lincoln award absent baseline254; current intake and official Taiwan guidance checked; independent profile cross-check scope disclosed."
+    },
+    {
+      "slug": "2026-11-lincoln-uk-global-leaders-september-2027",
+      "title": "Lincoln全球領袖獎學金：2027年9月首年學費減半",
+      "url": "https://globalednews.com/scholarships/items/2026-11-lincoln-uk-global-leaders-september-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-lincoln-uk-global-leaders-september-2027.md",
+      "sources": [
+        {
+          "label": "University of Lincoln — current award page",
+          "url": "https://www.lincoln.ac.uk/studywithus/scholarshipsandbursaries/thelincolngloballeadersscholarship/"
+        },
+        {
+          "label": "Complete University Guide — Taiwan-filtered Lincoln funding profile",
+          "url": "https://www.thecompleteuniversityguide.co.uk/universities/university-of-lincoln/student-support/undergraduate/taiwan/taiwan"
+        },
+        {
+          "label": "University of Lincoln — applicable annual terms",
+          "url": "https://www.lincoln.ac.uk/media/universityoflincoln/document/scholarship/University,of,Lincoln,International,Scholarship,Terms,and,Conditions,2027-2028,V1.pdf"
+        },
+        {
+          "label": "University of Lincoln — Taiwan entry and scholarship guidance",
+          "url": "https://www.lincoln.ac.uk/studywithus/internationalstudents/entryrequirementsandyourcountry/taiwan/"
+        },
+        {
+          "label": "Complete University Guide — annual institutional consultation method",
+          "url": "https://www.thecompleteuniversityguide.co.uk/sector/resources/consultations"
+        }
+      ],
+      "verifiedAt": "2026-11-07T05:12:11.471084+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "eligibleTaiwan": true,
+      "open": true,
+      "updateSummary": "Distinct UK Lincoln award absent baseline254; current intake and official Taiwan guidance checked; independent profile cross-check scope disclosed."
+    },
+    {
+      "slug": "2026-11-lincoln-uk-international-alumni-january-2027",
+      "title": "Lincoln國際校友獎學金：2027年1月授課研究所£2,000",
+      "url": "https://globalednews.com/scholarships/items/2026-11-lincoln-uk-international-alumni-january-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-lincoln-uk-international-alumni-january-2027.md",
+      "sources": [
+        {
+          "label": "University of Lincoln — current award page",
+          "url": "https://www.lincoln.ac.uk/studywithus/scholarshipsandbursaries/internationalalumnischolarship/"
+        },
+        {
+          "label": "Complete University Guide — Taiwan-filtered Lincoln funding profile",
+          "url": "https://www.thecompleteuniversityguide.co.uk/universities/university-of-lincoln/student-support/undergraduate/taiwan/taiwan"
+        },
+        {
+          "label": "University of Lincoln — applicable annual terms",
+          "url": "https://www.lincoln.ac.uk/media/universityoflincoln/document/scholarship/University,of,Lincoln,International,Scholarship,Terms,and,Conditions,2026-2027,V1.pdf"
+        },
+        {
+          "label": "University of Lincoln — Taiwan entry and scholarship guidance",
+          "url": "https://www.lincoln.ac.uk/studywithus/internationalstudents/entryrequirementsandyourcountry/taiwan/"
+        },
+        {
+          "label": "Complete University Guide — annual institutional consultation method",
+          "url": "https://www.thecompleteuniversityguide.co.uk/sector/resources/consultations"
+        }
+      ],
+      "verifiedAt": "2026-11-07T05:12:11.471084+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "eligibleTaiwan": true,
+      "open": true,
+      "updateSummary": "Distinct UK Lincoln award absent baseline254; current intake and official Taiwan guidance checked; independent profile cross-check scope disclosed."
+    }
+  ],
+  "peterReview": {
+    "status": "fewer-new-posts",
+    "availableNewCount": 1,
+    "checkedAt": "2026-11-07T05:14:06.086924+08:00",
+    "sourceUrls": [
+      "https://www.facebook.com/photo/?fbid=122149460913172155",
+      "https://www.facebook.com/profile.php?id=61585164670358"
+    ],
+    "note": "Native full text read. One new Bezos kindness post; UCAS and WO/HBO already imported, membership promotion excluded. Relative17hours retained; Princeton and independent student newspaper read."
+  },
+  "campusLeads": [
+    {
+      "school": "NYCU",
+      "source": "https://bioinfo.nycu.edu.tw/events",
+      "finding": "Native events page read: APBC October21–24 is past. MOPM November14–15 at NCKU in Tainan is upcoming; do not imply currently open abstract submissions.",
+      "status": "official-page-read",
+      "verifiedAt": "2026-11-07T05:14:06.086924+08:00"
+    },
+    {
+      "school": "NTU",
+      "source": "https://studyabroad.ntu.edu.tw/exchange-student/how-to-apply/",
+      "finding": "Official application page: exchange selection November3 10:00 through November9 16:00; host course/language conditions may be stricter.",
+      "status": "official-page-read",
+      "verifiedAt": "2026-11-07T05:14:06.086924+08:00"
+    },
+    {
+      "school": "NTHU",
+      "source": "https://oga.site.nthu.edu.tw/p/405-1524-313871,c17828.php?Lang=zh-tw",
+      "finding": "Official initial application deadline October8 16:00 already passed; do not promote as newly open. Host eligibility must be separately checked.",
+      "status": "official-page-read",
+      "verifiedAt": "2026-11-07T05:14:06.086924+08:00"
+    }
+  ],
+  "sunmoonReview": {
+    "checkedAt": "2026-11-07T05:14:06.086924+08:00",
+    "url": "https://www.sunmoonnews.com.tw/",
+    "note": "Native homepage read: NYCU APBC story visible, four days old. NYCU official events page confirms event October21–24 already ended. Did not publish unchecked thirty-country claim."
+  },
+  "ltuMediaReview": {
+    "checkedAt": "2026-11-07T05:14:06.086924+08:00",
+    "selectedIndices": [
+      4,
+      5,
+      10
+    ],
+    "sourceUrls": [
+      "https://www.ctee.com.tw/news/20260401701821-431204",
+      "https://www.ctee.com.tw/news/20250723702079-431204",
+      "https://udn.com/news/story/6929/8583109"
+    ],
+    "note": "Original archive reports read: CTEE two via native browser, UDN via web. Dates preserved; no copied media images or claim of new events. Full12-item pool retained."
+  },
+  "date": "2026-11-07",
+  "checkedAt": "2026-11-07T05:19:01.252132+08:00",
+  "images": "docs/image-licenses/2026-11-07.json",
+  "cardsVisuallyVerified": true
+}

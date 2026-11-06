@@ -1,0 +1,68 @@
+{
+  "checkedAt": "2026-11-07T05:01:12.013274+08:00",
+  "status": "RESEARCH_IN_PROGRESS",
+  "peter": {
+    "sourceId": "122149460913172155",
+    "url": "https://www.facebook.com/photo/?fbid=122149460913172155",
+    "title": "聰明之外，練習善意",
+    "observedLabel": "17小時前",
+    "observedNewCount": 1,
+    "priorPosts": [
+      "UCAS already imported",
+      "WO/HBO already imported",
+      "membership promotion excluded"
+    ],
+    "primary": "https://www.princeton.edu/news/2010/05/30/choices-shape-lives-bezos-tells-seniors",
+    "independent": "https://www.dailyprincetonian.com/article/2010/05/amazon-com-ceo-bezos-86-delivers-2010-baccalaureate-address",
+    "bothRead": true,
+    "imported": false
+  },
+  "news": [
+    {
+      "topic": "Penn State tuition lawsuit",
+      "primary": "https://www.justice.gov/opa/pr/department-justice-files-complaint-against-pennsylvania-state-university-challenging-its",
+      "independent": "https://apnews.com/article/penn-state-trump-instate-tuition-164d7d9e4e760e8207b6c97c54c8fea9",
+      "read": "DOJ web; AP native browser full article",
+      "notes": "Filed Nov5; allegation not judgment; Penn State reviewing; F1 fees not automatically changed"
+    },
+    {
+      "topic": "HEPI regulatory coherence",
+      "primary": "https://www.hepi.ac.uk/wp-content/uploads/2026/11/HEPI-Policy-Note-77.pdf",
+      "officialBackground": "https://www.gov.uk/government/news/bloomsbury-institutes-student-sponsor-licence-revoked",
+      "notes": "PDF read; 85 percent current vs90 June2027, distinct OfS75 population; independent commentary still required"
+    },
+    {
+      "topic": "Japan women university coeducation",
+      "primary": "https://www.kinjo-u.ac.jp/ja/news/detail/?id=2864",
+      "independent": "https://edu.chunichi.co.jp/news/detail/12914/u00015",
+      "notes": "Both read; July3 announcement and July5 report, not November breaking news; consider fresher alternative"
+    }
+  ],
+  "scholarshipCandidates": [
+    {
+      "name": "Plymouth UG Welcome",
+      "url": "https://www.plymouth.ac.uk/study/funding/scholarships/international-welcome-to-plymouth-scholarship",
+      "notes": "2026/27 up to6000; need open intake and independent source"
+    },
+    {
+      "name": "Plymouth PG Welcome",
+      "url": "https://www.plymouth.ac.uk/study/funding/scholarships/international-postgraduate-welcome-to-plymouth-scholarship",
+      "notes": "4000 first year; need current intake/Taiwan/independent source"
+    },
+    {
+      "name": "Lincoln UK Global UG",
+      "url": "https://www.lincoln.ac.uk/studywithus/scholarshipsandbursaries/globalundergraduatescholarship/",
+      "notes": "2000 per academic year; Aug16 2027 deadline; distinct from NZLincoln; terms and Taiwan and independent check pending"
+    }
+  ],
+  "excluded": [
+    {
+      "name": "Portsmouth Chancellor Merit",
+      "reason": "baseline duplicate AND deadline Nov2 passed"
+    },
+    {
+      "name": "Lancaster regional Taiwan",
+      "reason": "baseline duplicate"
+    }
+  ]
+}

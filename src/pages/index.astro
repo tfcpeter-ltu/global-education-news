@@ -304,7 +304,7 @@ const latest = internationalStories.slice(0, 6);
       }).format(now).replaceAll('-', ''));
       const start = taipeiDay % cards.length;
       // Today's safety-blocked source is replaced by a separately reviewed archive report.
-      const reviewedSelections = { 20261105: [0, 5, 6], 20261106: [1, 2, 6] };
+      const reviewedSelections = { 20261105: [0, 5, 6], 20261106: [1, 2, 6], 20261107: [4, 5, 10] };
       const visible = new Set(reviewedSelections[taipeiDay] ?? [0, 1, 2].map((offset) => (start + offset) % cards.length));
       cards.forEach((card, index) => { card.hidden = !visible.has(index); });
     })();

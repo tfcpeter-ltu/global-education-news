@@ -1,0 +1,66 @@
+[
+  {
+    "campaign": "news",
+    "key": "us",
+    "topic": "penn-state-tuition-lawsuit",
+    "title": "美國學費訴訟，不等於帳單已改",
+    "benefit": "賓州州立案：先分清訴訟主張與正式收費。",
+    "summary": "司法部11月5日挑戰部分無合法身分居民的州內學費待遇，校方表示正在審閱。這不是所有國際學生費率已變更的判決。",
+    "advice": "台灣家庭應以校方核定費率與正式通知做預算。照片為Penn State Old Main資料照。",
+    "section": "國際教育新聞",
+    "sectionUrl": "https://globalednews.com/news/",
+    "url": "https://globalednews.com/news/us-penn-state-tuition-lawsuit-november-2026/",
+    "lines": [
+      "學費訴訟",
+      "不等於帳單已改"
+    ]
+  },
+  {
+    "campaign": "scholarship",
+    "key": "global",
+    "topic": "lincoln-uk-global-undergraduate",
+    "title": "Lincoln英國學士獎：每學年£2,000",
+    "benefit": "2027年9月梯次，台灣學生依海外費率與課程條件評估。",
+    "summary": "合格全時學士每學年減免£2,000；實習或海外交換年不適用。須在2027年8月16日前提出入學申請，隨申請自動評估。",
+    "advice": "這是英國University of Lincoln，非紐西蘭同名大學；不能與其他Lincoln國際獎相加。",
+    "section": "國際獎學金雷達",
+    "sectionUrl": "https://globalednews.com/scholarships/",
+    "url": "https://globalednews.com/scholarships/items/2026-11-lincoln-uk-global-undergraduate-2027/",
+    "lines": [
+      "Lincoln英國學士獎",
+      "每學年£2,000"
+    ]
+  },
+  {
+    "campaign": "study-abroad",
+    "key": "jp",
+    "topic": "kinjo-transition-intake",
+    "title": "日本大學改共學，先看你的入學年度",
+    "benefit": "金城學院案例：把未來計畫與當年招生分開。",
+    "summary": "2026年7月公告共學方向，預計2029年4月開始並與設置者移轉相連。選校要再確認學部、學位授予與過渡安排。",
+    "advice": "用DIY導航比較日本學校，再回讀正式募集要項。照片為金城學院資料照。",
+    "section": "留學DIY導航",
+    "sectionUrl": "https://globalednews.com/study-abroad/",
+    "url": "https://globalednews.com/study-abroad/japan-kinjo-coeducation-transition-checklist/",
+    "lines": [
+      "日本大學改共學",
+      "先看你的入學年度"
+    ]
+  },
+  {
+    "campaign": "taiwan-universities",
+    "key": "taiwan",
+    "topic": "campus-events-date-check",
+    "title": "校園國際活動，先分清已結束與即將舉行",
+    "benefit": "從陽明交大活動頁學會核對日期與地點。",
+    "summary": "APBC在10月21–24日已結束；陽明交大活動頁另列11月14–15日MOPM於台南成大醫學院舉行。活動公告不等於投稿仍開放。",
+    "advice": "台大交換甄選至11月9日16:00；清大初次申請已截止。各校階段不同。照片為陽明交大博愛校區。",
+    "section": "國內大學資料庫",
+    "sectionUrl": "https://globalednews.com/taiwan-universities/",
+    "url": "https://bioinfo.nycu.edu.tw/events",
+    "lines": [
+      "校園活動看日期",
+      "別把舊公告當開放"
+    ]
+  }
+]

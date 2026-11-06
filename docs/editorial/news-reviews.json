@@ -37,5 +37,44 @@
     "independentSource": "https://news.uq.edu.au/2026-11-australian-classrooms-are-getting-digital-detox-what-does-mean-schools-and-students",
     "reviewedAt": "2026-11-06",
     "bodySha256": "e6276d1b110afb9e88483f495c35c8c6987a1d4037914cf16a5964a8200f496e"
+  },
+  "us-penn-state-tuition-lawsuit-november-2026": {
+    "newsValue": "11月5日起訴引發公立大學學費分類爭議，區分訴訟主張與已生效收費，避免台灣家庭誤讀。",
+    "background": "說明居住、高中就學、國籍與國際學生費率不是同一分類，交代州內優惠的制度爭點。",
+    "development": "依司法部起訴公告及AP取得的校方回應重建程序階段，沒有將其他州結果套到此案。",
+    "perspectives": "呈現司法部的聯邦法論點、AP報導的制度支持者比較基準，以及校方仍審閱的有限回應。",
+    "taiwanImpact": "依申請者與既有學生的不同處境，連結費率分類、學校書面通知及預算修訂所需證據。",
+    "uncertainty": "未取得裁判或完整答辯，不估勝訴與台灣受影響人數，不把政府請求寫成已實施命令。",
+    "independence": "司法部是原告第一手公告，AP由署名記者另取得校方回應並加入制度支持者與跨州背景。",
+    "primarySource": "https://www.justice.gov/opa/pr/department-justice-files-complaint-against-pennsylvania-state-university-challenging-its",
+    "independentSource": "https://apnews.com/article/penn-state-trump-instate-tuition-164d7d9e4e760e8207b6c97c54c8fea9",
+    "reviewedAt": "2026-11-07",
+    "bodySha256": "bf478cca29aa1e92a203287972c7b1a13d2cd0a6756c6e4338f9b0b0c474ecec"
+  },
+  "uk-hepi-ofs-ukvi-regulatory-coherence-2026": {
+    "newsValue": "11月5日新報告把國際學生監管與學習連續性相連，說明完成率與簽證資格不能互相代替。",
+    "background": "區分OfS教育成果與UKVI擔保目的，並用8月Bloomsbury個案說明處分與學生安排不同。",
+    "development": "明確區別舊評估門檻、6月制度變動與11月政策建議，不把建議冒充已生效規定。",
+    "perspectives": "內政部執法理由、HEPI學者制度分析與UUK委託研究並列，交代產業自陳資料的限制。",
+    "taiwanImpact": "提出轉學學分、費用、住宿與學習支持的責任問題，連結選校資料與整段學習風險。",
+    "uncertainty": "不推論台灣生遭一致限制，不宣稱政府採納建議，數字母體不同且行政成本不是因果證明。",
+    "independence": "Home Office為實際處分的第一手來源；HEPI為外部分析者，非轉載政府公告，UUK另有委託調查。",
+    "primarySource": "https://www.gov.uk/government/news/bloomsbury-institutes-student-sponsor-licence-revoked",
+    "independentSource": "https://www.hepi.ac.uk/reports/one-sector-two-regulators-the-office-for-students-uk-visas-and-immigration-and-the-challenge-of-regulatory-coherence-in-international-education/",
+    "reviewedAt": "2026-11-07",
+    "bodySha256": "b5c1247f951e8c4b867eb83056e5aa63552b7ac0c3cb5ca7e857a5081dbf0ab8"
+  },
+  "japan-womens-universities-coeducation-transition-2026": {
+    "newsValue": "十月改制公告影響未來跨年度就學，追蹤分析重點為不同學部的學位與設置者轉接而非重發舊速報。",
+    "background": "將少子化與課程選擇、女性職涯變化區分，不把共學單一措施寫成招生或經營成功保證。",
+    "development": "對照平安2028構想與金城2029共學時間，明示申請認可與後續課程資訊尚未完成。",
+    "perspectives": "官方決策與中日新聞校友脈絡、首爾經濟日報專家分析並列，未杜撰校友態度或直接訪談。",
+    "taiwanImpact": "說明2027或2028入學者可能跨越轉接，應取得學部、學位授予機構與入學年度適用規則。",
+    "uncertainty": "不把在校人數換成錄取率，未取得各年級過渡方案，不保證轉校或條件全不變，標示機器翻譯限制。",
+    "independence": "兩所大學公告提供決策原文；中日新聞含董事會與校友調查報導，韓媒另做趨勢脈絡，非同稿轉載。",
+    "primarySource": "https://www.heian.ac.jp/topics/20261005",
+    "independentSource": "https://edu.chunichi.co.jp/news/detail/12914/u00015",
+    "reviewedAt": "2026-11-07",
+    "bodySha256": "88eb5c6b75cd95256a188843de77fb76a56a1c0b0e1eaf79a11594564d8d828c"
   }
 }

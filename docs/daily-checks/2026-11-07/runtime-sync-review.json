@@ -1,0 +1,252 @@
+[
+  {
+    "path": "docs/editorial/2026-11-06-depth-audit-after.json",
+    "sourceSha256": "47533cfa119a0786c74fb087c70a6432e75bd62af6a8ab536cf0feb072dff020",
+    "runtimeSha256": null
+  },
+  {
+    "path": "docs/editorial/2026-11-06-depth-audit-before.json",
+    "sourceSha256": "98f4a828a2354d78baf89cee737941587bf5104f73b04d27216c81962864bbbd",
+    "runtimeSha256": null
+  },
+  {
+    "path": "docs/editorial/2026-11-06-remediation.json",
+    "sourceSha256": "aae02c63ebe0bb5d9ed6b3b801f1027e029486da283baf24b088d8533d4350a2",
+    "runtimeSha256": null
+  },
+  {
+    "path": "docs/editorial/archive-remediation-queue.json",
+    "sourceSha256": "56aea1a9b4967e0c6741b2fab7b8d17c91b715cb8299adfcb14d46b6d76400e4",
+    "runtimeSha256": null
+  },
+  {
+    "path": "docs/editorial/build/astro.log",
+    "sourceSha256": "12a34fbcae27361d95836f2e1f6083d68c8c809dbdd84f494354d1f1e33982ff",
+    "runtimeSha256": null
+  },
+  {
+    "path": "docs/editorial/build/depth.log",
+    "sourceSha256": "0c8cde16c245f1df01f8335149a159c42d56551a929ab13d9d09cb238dae42f2",
+    "runtimeSha256": null
+  },
+  {
+    "path": "docs/editorial/build/extract-js.log",
+    "sourceSha256": "6eee53517364b16d3b0875183310c4bf47cd73dd9f6ce839076f4d8252acf9b1",
+    "runtimeSha256": null
+  },
+  {
+    "path": "docs/editorial/build/extract.log",
+    "sourceSha256": "718d92fb304f67307f3d7ad39f4671c78eee9e741311e51389f03708b97dc92d",
+    "runtimeSha256": null
+  },
+  {
+    "path": "docs/editorial/build/navigation.log",
+    "sourceSha256": "4b301b973343b59c6ecc6a8dbde4aaac594e0a7afb5304d632d9a2d69bd6e7d3",
+    "runtimeSha256": null
+  },
+  {
+    "path": "docs/editorial/build/seed.log",
+    "sourceSha256": "bf3a1d6b7df81bd184f0d6e69808c1ef6857a1ebcd2972aa4562fdcdf283056a",
+    "runtimeSha256": null
+  },
+  {
+    "path": "docs/editorial/deployment-first-attempt.json",
+    "sourceSha256": "0ae75bcbcda2a5705567915f64ad8814f2e9e28935e7b1b5f46bb83fee585a7d",
+    "runtimeSha256": null
+  },
+  {
+    "path": "docs/editorial/deployment-second-attempt.json",
+    "sourceSha256": "c590b3b67e0538189298707b352bfa894ff15a13dc8e88cb27cf23f68abacfea",
+    "runtimeSha256": null
+  },
+  {
+    "path": "docs/editorial/deployment.json",
+    "sourceSha256": "660a19df4dfd859d6c4d6b14c443393f8a46078a980c289bc74fd60af59ce899",
+    "runtimeSha256": null
+  },
+  {
+    "path": "docs/editorial/live-content-check.json",
+    "sourceSha256": "4d4d6a1a7c1995fc85b2883d95673f0ec9da6a933c0ad0835e9c860d08f9c1a4",
+    "runtimeSha256": null
+  },
+  {
+    "path": "docs/editorial/news-reviews.json",
+    "sourceSha256": "95d6576650109bd7e6ce310ce2e8b9042b24b41ccbf0585dbea89f153236efd6",
+    "runtimeSha256": "5b5bbd61607446c75d431e967d23ab6d55e8a23d55951c4553e2639a8c3057cd"
+  },
+  {
+    "path": "docs/editorial/rendered-content-check.json",
+    "sourceSha256": "e76eee4e81dca95aab68200d35cc6864e8d5ee5af16b69d43155cbc1f950392c",
+    "runtimeSha256": null
+  },
+  {
+    "path": "docs/editorial/reporting-standard.md",
+    "sourceSha256": "c0d6696415a5ec23a5d4647be8ddbc10863c0e35d0df19309ec4e58950e9cbe2",
+    "runtimeSha256": null
+  },
+  {
+    "path": "docs/editorial/runtime-sync-review.json",
+    "sourceSha256": "facb2215357482341f2026b2d25815b9de5ff0132edeab33ad6e3cf862aed085",
+    "runtimeSha256": null
+  },
+  {
+    "path": "docs/social-posts/2026-11-07/news--penn-state-tuition-lawsuit.json",
+    "sourceSha256": "b07411dcbc7fc41f2aacfbad615324f3899ce778070b23fe8c996100c81db9e5",
+    "runtimeSha256": null
+  },
+  {
+    "path": "docs/social-posts/2026-11-07/publication-log.json",
+    "sourceSha256": "f862c2aff4fbc91cbd326373bd11e7cdc6d0a2d44141d1e9931baf76825fe293",
+    "runtimeSha256": null
+  },
+  {
+    "path": "docs/social-posts/2026-11-07/scholarship--lincoln-uk-global-undergraduate.json",
+    "sourceSha256": "1262b94d51800942e4a2933ffc3c869218951eba822c2301087019a9facf2cfb",
+    "runtimeSha256": null
+  },
+  {
+    "path": "docs/social-posts/2026-11-07/study-abroad--kinjo-transition-intake.json",
+    "sourceSha256": "07851d6d2d5b68dcb23b849cfd7ec15a3329d89eae47136a476e04b01830c3c6",
+    "runtimeSha256": null
+  },
+  {
+    "path": "docs/social-posts/2026-11-07/taiwan-universities--campus-events-date-check.json",
+    "sourceSha256": "0ddba2754c8846433880e0978149019c33d051dc4e0686bdb272fee3d2edfb3f",
+    "runtimeSha256": null
+  },
+  {
+    "path": "package.json",
+    "sourceSha256": "02d27a320a5904f7ce2eada4520a4747bf2fc65cb841cd34aa6eb8d583f9a817",
+    "runtimeSha256": "538e319c0d3b97890dfbb4807e2f6a90d74c3d3e250c8912de743635965f761a"
+  },
+  {
+    "path": "public/images/daily/2026-11-07/alumni.jpg",
+    "sourceSha256": "f7d84add60c27f5d246ed150654363d19db145f079c5d2aedcca44ea2f1ec4e8",
+    "runtimeSha256": null
+  },
+  {
+    "path": "public/images/daily/2026-11-07/credits.html",
+    "sourceSha256": "b1c623575fef2d850f6d7d775321b1fa0ed26b4a92320b9fc972670ff6ee8fa9",
+    "runtimeSha256": null
+  },
+  {
+    "path": "public/images/daily/2026-11-07/diy.jpg",
+    "sourceSha256": "76fb494b6e805bc5f163b72ed9ab9ff3fd51fb89ed9640a9bacd26fc73d30400",
+    "runtimeSha256": null
+  },
+  {
+    "path": "public/images/daily/2026-11-07/global.jpg",
+    "sourceSha256": "b990a930d55fc612c33d948db935a97a1567a8fae5e61f05fcb1452a215ca827",
+    "runtimeSha256": null
+  },
+  {
+    "path": "public/images/daily/2026-11-07/jp.jpg",
+    "sourceSha256": "25a1d2ab1d52e6dd6ab1a05ba686fd667dadd23732e603918f07cce6ad37a9ab",
+    "runtimeSha256": null
+  },
+  {
+    "path": "public/images/daily/2026-11-07/leaders.jpg",
+    "sourceSha256": "a9df6235f0a8669d4194ca17b2ccd0277a091982441760c5f85e004eacfc7deb",
+    "runtimeSha256": null
+  },
+  {
+    "path": "public/images/daily/2026-11-07/peter.jpg",
+    "sourceSha256": "ea69be3bb5fa14bb7d1ee9235109cf1bcc806f9e4b64746274dc6cb8ff9975b9",
+    "runtimeSha256": null
+  },
+  {
+    "path": "public/images/daily/2026-11-07/taiwan.jpg",
+    "sourceSha256": "c763820033bf4f38e654c04107ffa13b9a839d1afc7a41d4426d9af79d45b212",
+    "runtimeSha256": null
+  },
+  {
+    "path": "public/images/daily/2026-11-07/uk.jpg",
+    "sourceSha256": "cd667490a1745e4cd8bd8fe5760c7f00ccde057a7397d5d88d7f3f86e30e4b10",
+    "runtimeSha256": null
+  },
+  {
+    "path": "public/images/daily/2026-11-07/us.jpg",
+    "sourceSha256": "2baaee5e3dcd1634bcf8b51864cebeac988c1e8d7106bb17767a65d73e57c173",
+    "runtimeSha256": null
+  },
+  {
+    "path": "scripts/check-news-depth.mjs",
+    "sourceSha256": "5b57cc2b65dbd0135a84b2c394bed8c25eb51972a749a9c582519cf12a26d308",
+    "runtimeSha256": "0aab34da86324b91d6f4d3344303885a3939603e9c4796df6e567e327db7efb2"
+  },
+  {
+    "path": "scripts/test-news-depth.mjs",
+    "sourceSha256": "57e24e207fec3b94bbf220cb9926c6b6565df4b682d11cc35707875c793098bb",
+    "runtimeSha256": null
+  },
+  {
+    "path": "scripts/verify-daily-delivery.mjs",
+    "sourceSha256": "65d49b84a6288f41f208b3bc673d4e97a511d7a2e14dcb438e0656b56c906bea",
+    "runtimeSha256": "7d5046540e49456ac5dee13a6a9d594456c9616e15f6e2a7149f70eb52521ab2"
+  },
+  {
+    "path": "src/data/i18n/en-overrides.json",
+    "sourceSha256": "3f372c9b693e2a32154761cb94742bb003cc0700bd18d502c394697707b0ba77",
+    "runtimeSha256": "d3d666070740d14d311bb57a26074fb025a91230de5fddeec89f5eee2e8ed8a2"
+  },
+  {
+    "path": "src/data/peter-articles.json",
+    "sourceSha256": "3f31eb6af2f762add2578d7331ff44bf657f7dec92fbf59d00b05945f1b2a36f",
+    "runtimeSha256": "6bce6058ee294b0082658946814539bafeb5287621d79f3faec8a16e4f646a0e"
+  },
+  {
+    "path": "src/pages/index.astro",
+    "sourceSha256": "6486dfcf5fc04d75fda62955bcde2d1a4e91cdab5a1551ecb523f37b46458c76",
+    "runtimeSha256": "e32147eb7938decbcb9684b441f5514e54db63fa3985601c2e1491a266229077"
+  },
+  {
+    "path": "src/pages/news/australia-schools-digital-detox-taskforce-2026.md",
+    "sourceSha256": "8d66b3aeb3bc35489b5de8e55da9a25b34485b9164a8e4055fa5e36878eee42d",
+    "runtimeSha256": "f6c0c72c127cfc98da7988204e63414cf39f8adb61f8e536268320bf2adf0af3"
+  },
+  {
+    "path": "src/pages/news/japan-womens-universities-coeducation-transition-2026.md",
+    "sourceSha256": "67e870c9118c2d582e1041c59463c7c74768b091285ed9e3381c3233d0a47714",
+    "runtimeSha256": null
+  },
+  {
+    "path": "src/pages/news/philippines-transnational-education-strategy-2026.md",
+    "sourceSha256": "342dc244f438d760d7fb28501d976d31d03dd9306cb943278b432f5224f73783",
+    "runtimeSha256": "52f19aba0b222355f41d67e2fc703a094de0a40624a8813e5a0843153fc06bd4"
+  },
+  {
+    "path": "src/pages/news/uk-hepi-ofs-ukvi-regulatory-coherence-2026.md",
+    "sourceSha256": "606b7d8fd53d849b6c17750b6921df90182236c5c0bb2379f6f8289456cde366",
+    "runtimeSha256": null
+  },
+  {
+    "path": "src/pages/news/uk-ucas-october-2027-applicant-snapshot.md",
+    "sourceSha256": "ad651ea83c016167c8a3b5164c673707986de1a03e02034eb8f43191db745d00",
+    "runtimeSha256": "cd0b54c129b37c7dea2814513e5ca1064e082c8ceac07869dfc996f2de8f782b"
+  },
+  {
+    "path": "src/pages/news/us-penn-state-tuition-lawsuit-november-2026.md",
+    "sourceSha256": "61847c3e701abe8e021f6178175ccdaffa0fdbc4603116d8cfbf9217b253cd63",
+    "runtimeSha256": null
+  },
+  {
+    "path": "src/pages/scholarships/items/2026-11-lincoln-uk-global-leaders-september-2027.md",
+    "sourceSha256": "bfc74774bf9a7990376c41fe0f81f496fe9afd734cc13d4077c35f9d41e49f80",
+    "runtimeSha256": null
+  },
+  {
+    "path": "src/pages/scholarships/items/2026-11-lincoln-uk-global-undergraduate-2027.md",
+    "sourceSha256": "a9f1ac19b5e5bc1361872a4efff6a67ff26b6d2a80f646ace249b388097ca0cd",
+    "runtimeSha256": null
+  },
+  {
+    "path": "src/pages/scholarships/items/2026-11-lincoln-uk-international-alumni-january-2027.md",
+    "sourceSha256": "a6012b60a0e82ef99d26303247a84e70addfbaaa38bf07749d50c0ff809f0225",
+    "runtimeSha256": null
+  },
+  {
+    "path": "src/pages/study-abroad/japan-kinjo-coeducation-transition-checklist.md",
+    "sourceSha256": "c16ee3a07cac6270238a9ca3ca51db731e9b010217c82e914890bcfff0439b9a",
+    "runtimeSha256": null
+  }
+]

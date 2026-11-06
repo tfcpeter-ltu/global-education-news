@@ -15,7 +15,9 @@ def collect(s):
  s=norm(s)
  if s and CJK.search(s):
   wanted.add(s)
-  for p in parts(s):
+  # A reviewed full-string translation is used verbatim by tr(); its sentence
+  # fragments are not rendered separately unless collected from another node.
+  for p in ([] if s in cache else parts(s)):
    if CJK.search(p):wanted.add(norm(p))
 def ignored(el):return any(isinstance(a.tag,str) and (a.tag in SKIP or a.get('translate')=='no' or 'notranslate' in a.get('class','').split()) for a in [el,*el.iterancestors()])
 def texts(doc):
