@@ -1,0 +1,146 @@
+{
+  "runtime": "C:\\Users\\User\\AppData\\Local\\Temp\\globalednews-security-20261019",
+  "backup": "C:\\Users\\User\\AppData\\Local\\Temp\\globalednews-20261106-runtime-backup",
+  "changes": [
+    {
+      "path": "docs/social-posts/2026-11-06/news--uk-ucas-early-2027.json",
+      "sourceSha256": "16fc77990ba6f3f6a4547ea21743810264cca12cf6e9b8eef4b5bf0c96cc6052",
+      "runtimeSha256": null
+    },
+    {
+      "path": "docs/social-posts/2026-11-06/publication-log.json",
+      "sourceSha256": "d6f32f005877539f7afc2fb5f2146b53311d2adea0b31365cb0c8700cdeb2ecc",
+      "runtimeSha256": null
+    },
+    {
+      "path": "docs/social-posts/2026-11-06/scholarship--dundee-global-january.json",
+      "sourceSha256": "acf3b7f4d505f709e77c0de1daae17273fb6479702d093d04bbc02828f04bbee",
+      "runtimeSha256": null
+    },
+    {
+      "path": "docs/social-posts/2026-11-06/study-abroad--dundee-budget-checklist.json",
+      "sourceSha256": "ba6c50d430f37d2eb7ebbe410143ca32e2197bab0ad00e2ccd807c86de6ea9e9",
+      "runtimeSha256": null
+    },
+    {
+      "path": "docs/social-posts/2026-11-06/taiwan-universities--exchange-deadline-stages.json",
+      "sourceSha256": "09ce9464a233c55168624219d2320b54c22b694887957e8691ef1ac61eaad4f2",
+      "runtimeSha256": null
+    },
+    {
+      "path": "public/data/analytics-summary.json",
+      "sourceSha256": "043d7ff7cf2cad7b904a76e2c9d5f35b67ff8190019b3746c9ba8c040322f364",
+      "runtimeSha256": "870583852a1bf77dceaa132c22ae8e7315ec3f7f6cb06dddcb561acddcb8dffe"
+    },
+    {
+      "path": "public/images/daily/2026-11-06/alumni.jpg",
+      "sourceSha256": "82de0d83b4996d1c0b218eee7b5f20792220aa82395ef3826b5e6d060fc3806a",
+      "runtimeSha256": null
+    },
+    {
+      "path": "public/images/daily/2026-11-06/au.jpg",
+      "sourceSha256": "762f1e22634dfab664e5ec040d657a8be6848b70b7e180c800d1c745c9475feb",
+      "runtimeSha256": null
+    },
+    {
+      "path": "public/images/daily/2026-11-06/credits.html",
+      "sourceSha256": "6f75d9a451068db4266809afd38e213edc8c3bb373d12e65be184f7b15a34a20",
+      "runtimeSha256": null
+    },
+    {
+      "path": "public/images/daily/2026-11-06/diy.jpg",
+      "sourceSha256": "c36f320874300f6fb43a31957d95e72ee6c2c568c2034bce809650bd82d14b47",
+      "runtimeSha256": null
+    },
+    {
+      "path": "public/images/daily/2026-11-06/family.jpg",
+      "sourceSha256": "1f38abd604f1a5550834774f66d86f1fcef4827a3ea8eeccbe1da1d1cb2c8fc8",
+      "runtimeSha256": null
+    },
+    {
+      "path": "public/images/daily/2026-11-06/global.jpg",
+      "sourceSha256": "9db25fb4417cd37d1c569fd0cbc9b976185d44f8dc3ca8a80afdd6555200a397",
+      "runtimeSha256": null
+    },
+    {
+      "path": "public/images/daily/2026-11-06/peter.jpg",
+      "sourceSha256": "41645305bae0b582662b21b55b7e10972bed070eac6cd89ad8e55367fb67c86a",
+      "runtimeSha256": null
+    },
+    {
+      "path": "public/images/daily/2026-11-06/ph.jpg",
+      "sourceSha256": "ce7127ed2f70a7e1ffa91cc1b89c46a34087f9827d2dce2c9d004c90bd9b103e",
+      "runtimeSha256": null
+    },
+    {
+      "path": "public/images/daily/2026-11-06/taiwan.jpg",
+      "sourceSha256": "5b6c89c284cbad5d55dc8c16862c4e9eac0d8c4aac00cf86c24d31e9af05b5a1",
+      "runtimeSha256": null
+    },
+    {
+      "path": "public/images/daily/2026-11-06/uk.jpg",
+      "sourceSha256": "b89ac78e91ef9be3402249d420c389efbd577e22fb31e736fde67eace2c22042",
+      "runtimeSha256": null
+    },
+    {
+      "path": "public/images/share-photos/credits.json",
+      "sourceSha256": "d06a55bdea55d4b2f4c57485862e220ae789f5350d6c0526f01b44d08465366f",
+      "runtimeSha256": "385ab70f13551de3c92ff514c93da9071b23bbe8cd3298879f692f168b525f0f"
+    },
+    {
+      "path": "src/data/i18n/en-overrides.json",
+      "sourceSha256": "2066d5f97c8ec31ce841c81c42365560728a5528e7cb86a5dd53a749f790c86a",
+      "runtimeSha256": "3e6bc067a892f0875da632692dca8ca2a747349a6d8dc6c34265cc23461b39aa"
+    },
+    {
+      "path": "src/data/peter-articles.json",
+      "sourceSha256": "6bce6058ee294b0082658946814539bafeb5287621d79f3faec8a16e4f646a0e",
+      "runtimeSha256": "6c0864e8e56b6066d5e85ef770bf61d16554d69cc697c3614895dff7fbd1c9f0"
+    },
+    {
+      "path": "src/data/vlog-videos.json",
+      "sourceSha256": "130c196f65394f90dcadf8dd52090e9193d2c83672a1c91314ff5ec7597be373",
+      "runtimeSha256": "096cf310f43a4bac0c0fa836f28e39fa8bd75513bd9fe08a9f334c4a944097e7"
+    },
+    {
+      "path": "src/pages/index.astro",
+      "sourceSha256": "e32147eb7938decbcb9684b441f5514e54db63fa3985601c2e1491a266229077",
+      "runtimeSha256": "b5b12e5d83e9309aa10427591ce5111de0a361e2068888240058b2354d3231b6"
+    },
+    {
+      "path": "src/pages/news/australia-schools-digital-detox-taskforce-2026.md",
+      "sourceSha256": "8cce92b471eee0f96158c57ebf7bf09af8d970e98d0ca5af44da95d9c77093ff",
+      "runtimeSha256": null
+    },
+    {
+      "path": "src/pages/news/philippines-transnational-education-strategy-2026.md",
+      "sourceSha256": "977dfcbfe68594fa19342355849f0b33e70eb5ee9124945cd4d7a55370d81a71",
+      "runtimeSha256": null
+    },
+    {
+      "path": "src/pages/news/uk-ucas-october-2027-applicant-snapshot.md",
+      "sourceSha256": "d07d2cab9b4a7c43ccb6562867aa391bda665257aab77739665855362bfe5157",
+      "runtimeSha256": null
+    },
+    {
+      "path": "src/pages/scholarships/items/2026-11-dundee-family-january-2027.md",
+      "sourceSha256": "0e00aba2d3f8d98c04ff8a25b0326c2944e955abcc9182943d83773b8dd48663",
+      "runtimeSha256": null
+    },
+    {
+      "path": "src/pages/scholarships/items/2026-11-dundee-global-january-2027.md",
+      "sourceSha256": "98f26095644c18a613e2d71fc55dec382203aa93b3949fd15ce3ff2566d9df16",
+      "runtimeSha256": null
+    },
+    {
+      "path": "src/pages/scholarships/items/2026-11-strathclyde-hass-deans-january-2027.md",
+      "sourceSha256": "c7fb63e58da15d5ca6c424c8972a63cff7bd2eca4c1e842f550424229dd49a17",
+      "runtimeSha256": null
+    },
+    {
+      "path": "src/pages/study-abroad/dundee-course-scholarship-budget-2027.md",
+      "sourceSha256": "1df631c2a7be08f9a8b47907a6d099562be632820b836120ddb1166b80969113",
+      "runtimeSha256": null
+    }
+  ]
+}

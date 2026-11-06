@@ -1,0 +1,217 @@
+{
+  "date": "2026-11-06",
+  "news": [
+    {
+      "slug": "uk-ucas-october-2027-applicant-snapshot",
+      "title": "英國早申人數減少3.2%：醫學申請仍微增，不能推算全年錄取機會",
+      "url": "https://globalednews.com/news/uk-ucas-october-2027-applicant-snapshot/",
+      "publishedPath": "src/pages/news/uk-ucas-october-2027-applicant-snapshot.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://www.ucas.com/corporate/news-and-key-documents/news/ucas-releases-undergraduate-application-data-from-15-october-deadline"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://wonkhe.com/wonk-corner/ucas-october-deadline-data-suggests-pessimism-ahead"
+        }
+      ],
+      "verifiedAt": "2026-11-06T08:11:35.624738+08:00"
+    },
+    {
+      "slug": "philippines-transnational-education-strategy-2026",
+      "title": "菲律賓推跨國高教策略：學分認可與學生流動仍須落實",
+      "url": "https://globalednews.com/news/philippines-transnational-education-strategy-2026/",
+      "publishedPath": "src/pages/news/philippines-transnational-education-strategy-2026.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://www.britishcouncil.ph/en/programmes/education/asean-uk-higher-education-week-2026"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://www.pna.gov.ph/article/ph-eyes-uk-framework-for-transnational-education-strategy-in-asean"
+        },
+        {
+          "label": "Source 3",
+          "url": "https://thepienews.com/philippines-to-fast-track-student-visas-as-tne-strategy-takes-off/"
+        }
+      ],
+      "verifiedAt": "2026-11-06T08:11:35.624738+08:00"
+    },
+    {
+      "slug": "australia-schools-digital-detox-taskforce-2026",
+      "title": "澳洲校園檢討螢幕與AI使用：成立專案小組，並非全面禁用科技",
+      "url": "https://globalednews.com/news/australia-schools-digital-detox-taskforce-2026/",
+      "publishedPath": "src/pages/news/australia-schools-digital-detox-taskforce-2026.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://www.education.gov.au/schooling/announcements/digital-detox-rebalancing-technology-use-australian-schools"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://news.uq.edu.au/2026-11-australian-classrooms-are-getting-digital-detox-what-does-mean-schools-and-students"
+        },
+        {
+          "label": "Source 3",
+          "url": "https://www.sbs.com.au/language/chinese/zh-hant/article/year-5-naplan-writing-test-to-return-to-pen-and-paper-from-2028/fa61pckpw"
+        }
+      ],
+      "verifiedAt": "2026-11-06T08:11:35.624738+08:00"
+    }
+  ],
+  "scholarships": [
+    {
+      "slug": "2026-11-dundee-global-january-2027",
+      "title": "Dundee 全球卓越碩士獎學金：£8,000學費減免",
+      "url": "https://globalednews.com/scholarships/items/2026-11-dundee-global-january-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-dundee-global-january-2027.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://www.dundee.ac.uk/scholarships/global-excellence-scholarship-postgraduate-january-2027"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://www.european-funding-guide.eu/scholarship/dundee-global-excellence-regional"
+        },
+        {
+          "label": "Source 3",
+          "url": "https://www.thecompleteuniversityguide.co.uk/universities/university-of-dundee/student-support/undergraduate/taiwan/taiwan"
+        },
+        {
+          "label": "Source 4",
+          "url": "https://www.thecompleteuniversityguide.co.uk/sector/resources/consultations"
+        }
+      ],
+      "verifiedAt": "2026-11-06T08:12:26.032693+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "eligibleTaiwan": true,
+      "open": true,
+      "updateSummary": "New distinct award; Taiwan list, conditions and consultation-based second source checked"
+    },
+    {
+      "slug": "2026-11-dundee-family-january-2027",
+      "title": "Dundee 校友及家庭獎學金：£3,000學費減免",
+      "url": "https://globalednews.com/scholarships/items/2026-11-dundee-family-january-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-dundee-family-january-2027.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://www.dundee.ac.uk/scholarships/alumni-and-family-scholarship-january-2027"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://www.thecompleteuniversityguide.co.uk/universities/university-of-dundee/student-support/undergraduate/taiwan/taiwan"
+        },
+        {
+          "label": "Source 3",
+          "url": "https://www.thecompleteuniversityguide.co.uk/sector/resources/consultations"
+        }
+      ],
+      "verifiedAt": "2026-11-06T08:12:26.032693+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "eligibleTaiwan": true,
+      "open": true,
+      "updateSummary": "New distinct award; Taiwan list, conditions and consultation-based second source checked"
+    },
+    {
+      "slug": "2026-11-strathclyde-hass-deans-january-2027",
+      "title": "Strathclyde人文社科院長獎：£10,000學費減免",
+      "url": "https://globalednews.com/scholarships/items/2026-11-strathclyde-hass-deans-january-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-strathclyde-hass-deans-january-2027.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://www.strath.ac.uk/studywithus/scholarships/humanitiessocialsciencesdeansinternationalexcellencescholarship-january2027/"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://scholarshipsforafricans.com/scholarships/humanities-and-social-sciences-deans-international-excellence-scholarship-university-of-st"
+        },
+        {
+          "label": "Source 3",
+          "url": "https://www.strath.ac.uk/studywithus/internationalstudents/entryrequirements/"
+        }
+      ],
+      "verifiedAt": "2026-11-06T08:18:11.944519+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "eligibleTaiwan": true,
+      "open": true,
+      "updateSummary": "Official non-EU self-funded award and Taiwan degree requirements checked; independent editorial verification dated October22 cross-read."
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Dundee Alumni January2027",
+      "reason": "Country list omits Taiwan/East Asia although 2026/7 key facts say all fee statuses. Unpublished draft removed from site tree; no eligibility assumption."
+    },
+    {
+      "name": "Sheffield Hallam Transform Together January2027",
+      "reason": "Official application deadline November1 has passed."
+    },
+    {
+      "name": "Strathclyde Engineering Dean January2027",
+      "reason": "Official deadline October31 has passed."
+    }
+  ],
+  "independence": [
+    "UCAS plus Wonkhe analysis",
+    "British Council event programme plus PNA interviews and PIE reporting",
+    "Australian Department of Education plus UQ expert analysis and SBS reporting",
+    "Dundee official award pages plus CUG direct institutional consultation; Global also EFG analysis",
+    "Strathclyde official award and Taiwan entry rules plus Scholarships for Africans October22 editorial check; methodology reviewed"
+  ],
+  "photos": "Licences recorded, contact sheets visually inspected. Strathclyde photo replaces rejected alumni candidate image.",
+  "peter": {
+    "status": "fewer-new-posts",
+    "availableNewCount": 1,
+    "checkedAt": "2026-11-06T08:18:11.944519+08:00",
+    "sourceUrls": [
+      "https://www.facebook.com/photo/?fbid=122149329909172155",
+      "https://www.facebook.com/profile.php?id=61585164670358"
+    ],
+    "note": "Native full text read. One new UCAS post; WO/HBO, Jobs and ECTS already imported. Newsletter promotion excluded. Relative22hours retained."
+  },
+  "campus": [
+    {
+      "school": "NTU",
+      "source": "https://oia.ntu.edu.tw/",
+      "finding": "2027/28 exchange selection deadline November9 16:00 shown on official homepage; verify programme-specific notice before applying.",
+      "status": "official-page-read",
+      "verifiedAt": "2026-11-06T08:18:11.944519+08:00"
+    },
+    {
+      "school": "NTHU",
+      "source": "https://oga.site.nthu.edu.tw/p/405-1524-313871,c17828.php?Lang=zh-tw",
+      "finding": "November3–10 16:00 preference submission for applicants already passing selection, not a new initial application round.",
+      "status": "official-page-read",
+      "verifiedAt": "2026-11-06T08:18:11.944519+08:00"
+    },
+    {
+      "school": "NSYSU",
+      "source": "https://oia.nsysu.edu.tw/p/406-1308-384608,r4450.php?Lang=zh-tw",
+      "finding": "Exchange applications November3–17 17:00; correction deadline November20 does not extend initial application deadline.",
+      "status": "official-page-read",
+      "verifiedAt": "2026-11-06T08:18:11.944519+08:00"
+    }
+  ],
+  "ltu": {
+    "checkedAt": "2026-11-06T08:18:11.944519+08:00",
+    "selectedIndices": [
+      1,
+      2,
+      6
+    ],
+    "sourceUrls": [
+      "https://money.udn.com/money/story/5723/8815124",
+      "https://www.nownews.com/news/6697174",
+      "https://udn.com/news/story/6898/9271435"
+    ],
+    "note": "Read original archive reports. Today uses separately reviewed alternatives; SETN safety gate from prior run not bypassed, Storm unavailable. All12 archive items retained."
+  }
+}

@@ -1,5 +1,50 @@
 [
   {
+    "slug": "uk-early-applications-medicine-2027",
+    "title": "英國早申降溫、醫學微增：Peter提醒分清統計範圍",
+    "date": "2026-11-06",
+    "category": "留學準備",
+    "country": "英國",
+    "excerpt": "十月截止數據不是全年申請，也不是個人的錄取機率。",
+    "description": "十月截止數據不是全年申請，也不是個人的錄取機率。",
+    "sourceId": "122149329909172155",
+    "sourceUrl": "https://www.facebook.com/photo/?fbid=122149329909172155",
+    "image": "/images/daily/2026-11-06/peter.jpg",
+    "imageAlt": "牛津Radcliffe Camera實景資料照",
+    "imageCredit": "Julian Herzog (Website) / CC BY 4.0",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Radcliffe_Camera_Oxford_2018_03.jpg",
+    "imageLicense": "CC BY 4.0",
+    "imageRights": "CC BY 4.0",
+    "imageCaption": "牛津資料照，非Peter原貼文圖卡。",
+    "body": [
+      "Peter最新貼文談英國十月早申趨勢：整體降溫，醫學申請仍微增。本次對照UCAS官方2027入學資料與Wonkhe分析，保留早申統計的限制。",
+      "UCAS公布十月十五日截止共76,600人申請，較上期少3.2%；醫學25,840人，較25,770人微增。這批主要涉及牛津、劍橋及醫學、牙醫、獸醫等早申課程，不能外推全年。",
+      "編輯提醒家庭：先確認目標課程、先修與入學測驗，再評估自身準備。申請總量下降不等於自己的錄取機率提高，醫學人數上升也不能直接推算競爭結果。"
+    ],
+    "sources": [
+      [
+        "Peter | original",
+        "https://www.facebook.com/photo/?fbid=122149329909172155"
+      ],
+      [
+        "Source 1",
+        "https://www.ucas.com/corporate/news-and-key-documents/news/ucas-releases-undergraduate-application-data-from-15-october-deadline"
+      ],
+      [
+        "Source 2",
+        "https://wonkhe.com/wonk-corner/ucas-october-deadline-data-suggests-pessimism-ahead"
+      ]
+    ],
+    "topic": "英國早申數據",
+    "author": "Peter",
+    "importedAt": "2026-11-06",
+    "originalDateLabel": "原生頁面顯示22小時前",
+    "originalDatePrecision": "relative",
+    "dateObservedAt": "2026-11-06T08:18:11.944519+08:00",
+    "edition": "verified-edit",
+    "note": "已讀原文；相對時間不轉寫為精確發布時間。"
+  },
+  {
     "slug": "netherlands-wo-hbo-study-pathways",
     "title": "荷蘭選校先分WO與HBO：Peter談學習路線與銜接成本",
     "date": "2026-11-05",

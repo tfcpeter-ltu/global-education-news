@@ -1,0 +1,545 @@
+{
+  "date": "2026-11-06",
+  "timezone": "Asia/Taipei",
+  "startedAt": "2026-11-06T05:01:04+08:00",
+  "status": "in_progress",
+  "currentPhase": "COMMIT_DEPLOY",
+  "mainBaselineSha": "d5466cc5c56ce6d3ac559b552d7c377db19cdb9c",
+  "scholarshipBaselineSlugs": [
+    "2026-08-bristol-think-big",
+    "2026-08-manchester-global-futures-taiwan-2027",
+    "2026-08-mcgill-mccall-macbain",
+    "2026-08-melbourne-graduate-research",
+    "2026-08-melbourne-international-excellence-graduate-2027",
+    "2026-08-moe-eu-scholarship",
+    "2026-08-moe-government-sponsored-study",
+    "2026-08-moe-new-southbound-internship",
+    "2026-08-moe-overseas-scholarship",
+    "2026-08-moe-study-abroad-fly",
+    "2026-08-moe-study-abroad-internship",
+    "2026-08-moe-study-abroad-needy",
+    "2026-08-moe-top100-phd",
+    "2026-08-monash-awards-2027",
+    "2026-08-oxford-clarendon",
+    "2026-08-sydney-vcis-2027",
+    "2026-08-tgpi-dream-factory",
+    "2026-08-tgpi-global-flight",
+    "2026-08-ubc-four-year-doctoral-fellowship",
+    "2026-08-ubc-imes",
+    "2026-08-ubc-international-scholars-2027",
+    "2026-08-ubc-killam-doctoral-2027",
+    "2026-08-ucl-global-masters",
+    "2026-08-ucl-global-undergraduate",
+    "2026-08-unsw-scientia-2027",
+    "2026-08-uq-international-high-achievers-2027",
+    "2026-08-utoronto-pearson-2027",
+    "2026-09-adelaide-academic-excellence-2027",
+    "2026-09-adelaide-merit-2027",
+    "2026-09-auckland-international-student-excellence-2027",
+    "2026-09-cardiff-vice-chancellor-taiwan-january-2027",
+    "2026-09-chevening-delta-climate-2027",
+    "2026-09-chevening-taiwan",
+    "2026-09-daad-architecture-masters",
+    "2026-09-deakin-excellence-international-2027",
+    "2026-09-deakin-international-merit-2027",
+    "2026-09-deakin-vice-chancellor-international-2027",
+    "2026-09-dundee-east-asia-undergraduate-january-2027",
+    "2026-09-dundee-global-excellence-undergraduate-january-2027",
+    "2026-09-erasmus-mundus-2027",
+    "2026-09-eth-zurich-esop-2027",
+    "2026-09-exeter-pgt-taiwan-january-2027",
+    "2026-09-fulbright-experience-america-research-award",
+    "2026-09-fulbright-non-academic-professional-award",
+    "2026-09-fulbright-senior-research-award",
+    "2026-09-gates-cambridge-2027",
+    "2026-09-harvard-academy-scholars-2027",
+    "2026-09-harvard-radcliffe-fellowship-2027",
+    "2026-09-hkpfs-2027",
+    "2026-09-imperial-presidents-phd-2027",
+    "2026-09-kent-international-undergraduate-january-2027",
+    "2026-09-knight-hennessy-2027",
+    "2026-09-latrobe-high-achiever-2027",
+    "2026-09-leicester-global-excellence-jan-apr-2027",
+    "2026-09-macquarie-vcis-2027",
+    "2026-09-monash-international-merit-2027",
+    "2026-09-ntu-taiwan-scholarship-jan-2027",
+    "2026-09-ntu-taiwan-stem-scholarship-jan-2027",
+    "2026-09-oxford-clarendon-2027",
+    "2026-09-rmit-up-academic-english-bursary-2027",
+    "2026-09-strathclyde-sbs-international-masters-jan-2027",
+    "2026-09-sydney-rtp-international-2027",
+    "2026-09-taiwan-anu-phd-scholarship-2027",
+    "2026-09-tasmanian-international-scholarship-2027",
+    "2026-09-ubc-international-scholars-2027",
+    "2026-09-uc-berkeley-beahrs-elp-2027",
+    "2026-09-uni-iowa-partner-state-taiwan-2027",
+    "2026-09-university-iowa-national-scholars-2027",
+    "2026-09-unsw-international-scientia-2027",
+    "2026-09-uow-postgraduate-academic-excellence-2027",
+    "2026-09-uow-university-excellence-2027",
+    "2026-09-utoronto-lester-b-pearson-2027",
+    "2026-09-yenching-academy-2027-taiwan",
+    "2026-10-alabama-international-automatic-merit-2027",
+    "2026-10-american-university-egls-2027",
+    "2026-10-aut-north-asia-2027",
+    "2026-10-bangor-vice-chancellor-january-2027",
+    "2026-10-bath-international-excellence-ug-2027",
+    "2026-10-boise-state-international-fall-2027",
+    "2026-10-bond-business-postgraduate-bursary",
+    "2026-10-bond-international-stand-out",
+    "2026-10-bond-undergraduate-excellence",
+    "2026-10-bournemouth-academic-excellence-january-2027",
+    "2026-10-canterbury-guardian-commerce-2027",
+    "2026-10-canterbury-international-first-year-offshore-2027",
+    "2026-10-cardiff-vice-chancellor-january-2027",
+    "2026-10-cumbria-international-undergraduate-january-2027",
+    "2026-10-curtin-future-leaders-2027",
+    "2026-10-curtin-global-excellence-2027",
+    "2026-10-dayton-international-merit",
+    "2026-10-dundee-global-excellence-september-2027",
+    "2026-10-ecu-north-asia-2027",
+    "2026-10-essex-international-undergraduate-2027",
+    "2026-10-exeter-taiwan-pgt-2027",
+    "2026-10-flinders-excellence-2027",
+    "2026-10-flinders-global-2027",
+    "2026-10-flinders-kickstart-2027",
+    "2026-10-griffith-academic-merit-2027",
+    "2026-10-griffith-vice-chancellor-2027",
+    "2026-10-herts-chancellor-january-2027",
+    "2026-10-iowa-state-international-excellence",
+    "2026-10-iowa-state-international-merit-oneapp-2027",
+    "2026-10-kansas-ku-excellence-2027",
+    "2026-10-kent-pgt-january-2027",
+    "2026-10-kent-state-global-scholarship",
+    "2026-10-kent-state-honors-scholarship",
+    "2026-10-kentucky-bluegrass-2027",
+    "2026-10-kentucky-presidential-2027",
+    "2026-10-kentucky-singletary-2027",
+    "2026-10-lancaster-management-progression-2027",
+    "2026-10-lancaster-masters-excellence-2027",
+    "2026-10-lancaster-regional-taiwan-2027",
+    "2026-10-lancaster-undergraduate-international-excellence-2027",
+    "2026-10-lancaster-undergraduate-regional-2027",
+    "2026-10-lincoln-pathway-merit-2027",
+    "2026-10-lincoln-taught-master-merit-2027",
+    "2026-10-lincoln-undergraduate-vice-chancellor-2027",
+    "2026-10-london-met-east-asia-2027",
+    "2026-10-massey-creative-excellence-masters-2027",
+    "2026-10-massey-toroa-postgraduate-2027",
+    "2026-10-massey-toroa-undergraduate-2027",
+    "2026-10-memphis-community-college-transfer-spring-2027",
+    "2026-10-memphis-graduate-nonresident-merit",
+    "2026-10-memphis-undergraduate-international-merit-2027",
+    "2026-10-miami-ohio-presidential-fellows-2027",
+    "2026-10-miami-ohio-youarewelcomehere-2027",
+    "2026-10-michigan-state-nonresident",
+    "2026-10-missouri-st-provost-international-merit-2027",
+    "2026-10-mizzou-international-honors-2027",
+    "2026-10-mizzou-international-merit-2027",
+    "2026-10-nebraska-global-laureate-2027",
+    "2026-10-newcastle-australia-international-excellence-2027",
+    "2026-10-newcastle-vc-international-undergraduate-2027",
+    "2026-10-ntu-taiwan-january-2027",
+    "2026-10-oklahoma-award-excellence-2027",
+    "2026-10-okstate-international-achievement-freshmen-2027",
+    "2026-10-oregon-state-taiwan-regional",
+    "2026-10-otago-global-masters-2027",
+    "2026-10-otago-global-undergraduate-2027",
+    "2026-10-otago-international-academic-excellence-2027",
+    "2026-10-oxford-brookes-january-2027",
+    "2026-10-portland-state-international-achievement-2027",
+    "2026-10-portsmouth-chancellor-merit-january-2027",
+    "2026-10-qmul-global-talent-pgt-2027",
+    "2026-10-qub-pgt-january-2027",
+    "2026-10-rgu-early-payment-january-2027",
+    "2026-10-rgu-january-2027",
+    "2026-10-sheffield-international-pgt-2027",
+    "2026-10-sheffield-international-undergraduate-2027",
+    "2026-10-st-andrews-tesol-january-2027",
+    "2026-10-stirling-east-asia-pgt-2027",
+    "2026-10-stirling-vice-chancellor-pgt-january-2027",
+    "2026-10-strathclyde-science-january-2027",
+    "2026-10-swansea-international-excellence-january-2027",
+    "2026-10-uea-pg-merit-2027",
+    "2026-10-uni-international-excel-2027",
+    "2026-10-uni-transfer-scholar-2027",
+    "2026-10-unisq-international-excellence-2027",
+    "2026-10-uwa-global-excellence-2027",
+    "2026-10-vuw-postgraduate-international-2027",
+    "2026-10-vuw-undergraduate-international-2027",
+    "2026-10-waikato-research-masters-2027",
+    "2026-10-waikato-vice-chancellor-2027",
+    "2026-10-waterloo-international-entrance-2027",
+    "2026-10-western-sydney-international-undergraduate-2027",
+    "2026-10-westminster-pg-excellence-january-2027",
+    "2026-11-brighton-deans-january-2027",
+    "2026-11-brighton-stem-january-2027",
+    "2026-11-brighton-vc-january-2027",
+    "2026-11-central-washington-international",
+    "2026-11-durham-inspiring-excellence-postgraduate-2027",
+    "2026-11-durham-inspiring-excellence-undergraduate-2027",
+    "2026-11-peo-international-peace-2027",
+    "2026-11-reading-foundation-excellence-january-2027",
+    "2026-11-simmons-distinguished-scholar",
+    "2026-11-surrey-international-excellence-postgraduate-2027",
+    "2026-11-surrey-international-excellence-undergraduate-2027",
+    "2026-11-surrey-mba-service-stewardship-2027",
+    "2026-11-trent-moore-family-2027",
+    "2026-11-wichita-global-select",
+    "2026-11-wsu-international-merit-spring-2027",
+    "catalog-aalto-excellence",
+    "catalog-berea-international-aid",
+    "catalog-bocconi-access-100",
+    "catalog-bocconi-access-80-60",
+    "catalog-bocconi-boost",
+    "catalog-bocconi-sport",
+    "catalog-chalmers-ipoet",
+    "catalog-daad-all-disciplines",
+    "catalog-daad-fine-art",
+    "catalog-daad-music",
+    "catalog-daad-performing-arts",
+    "catalog-duke-karsh",
+    "catalog-eiffel-master",
+    "catalog-eiffel-phd",
+    "catalog-emory-scholars",
+    "catalog-epfl-excellence",
+    "catalog-erasmus-mundus",
+    "catalog-eth-esop",
+    "catalog-geneva-excellence",
+    "catalog-gks-graduate",
+    "catalog-gks-undergraduate",
+    "catalog-goh-keng-swee",
+    "catalog-goi-ies",
+    "catalog-harvard-international-aid",
+    "catalog-helsinki-scholarship",
+    "catalog-jasso-honors",
+    "catalog-kaist-graduate",
+    "catalog-kaist-undergraduate",
+    "catalog-knight-hennessy",
+    "catalog-kth-scholarship",
+    "catalog-kyoto-iup",
+    "catalog-lund-global",
+    "catalog-maastricht-brightlands",
+    "catalog-maastricht-global-studies",
+    "catalog-maastricht-high-potential",
+    "catalog-maastricht-social-justice",
+    "catalog-maeci-italy",
+    "catalog-master-mind-flanders",
+    "catalog-mext-japanese-studies",
+    "catalog-mext-kosen-2027",
+    "catalog-mext-research-2027",
+    "catalog-mext-specialized-training-2027",
+    "catalog-mext-teacher-training",
+    "catalog-mext-undergraduate-2027",
+    "catalog-miami-stamps",
+    "catalog-mit-international-aid",
+    "catalog-nl-scholarship",
+    "catalog-nus-international-undergraduate",
+    "catalog-nus-science-technology",
+    "catalog-padua-excellence",
+    "catalog-paris-saclay-idex",
+    "catalog-radboud-nl-scholarship",
+    "catalog-radboud-scholarship",
+    "catalog-science-leuven",
+    "catalog-sciencespo-boutmy",
+    "catalog-snu-gsfs",
+    "catalog-swiss-phd",
+    "catalog-swiss-research-fellowship",
+    "catalog-taiwan-kaist-phd",
+    "catalog-tampere-scholarship",
+    "catalog-trinity-global-excellence",
+    "catalog-tudelft-justus",
+    "catalog-turku-merit",
+    "catalog-ucd-global-excellence",
+    "catalog-uppsala-global",
+    "catalog-utokyo-fellowship",
+    "catalog-utwente-scholarship",
+    "catalog-vanderbilt-cornelius",
+    "catalog-vanderbilt-ingram",
+    "catalog-yale-international-aid"
+  ],
+  "scholarshipBaselineBasis": "Previous completed baseline plus November 5 verified additions; captured before any new content changes",
+  "newsPublished": [],
+  "scholarshipAdditions": [
+    {
+      "slug": "2026-11-dundee-global-january-2027",
+      "title": "Dundee 全球卓越碩士獎學金：£8,000學費減免",
+      "url": "https://globalednews.com/scholarships/items/2026-11-dundee-global-january-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-dundee-global-january-2027.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://www.dundee.ac.uk/scholarships/global-excellence-scholarship-postgraduate-january-2027"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://www.european-funding-guide.eu/scholarship/dundee-global-excellence-regional"
+        },
+        {
+          "label": "Source 3",
+          "url": "https://www.thecompleteuniversityguide.co.uk/universities/university-of-dundee/student-support/undergraduate/taiwan/taiwan"
+        },
+        {
+          "label": "Source 4",
+          "url": "https://www.thecompleteuniversityguide.co.uk/sector/resources/consultations"
+        }
+      ],
+      "verifiedAt": "2026-11-06T08:12:26.032693+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "eligibleTaiwan": true,
+      "open": true,
+      "updateSummary": "New distinct award; Taiwan list, conditions and consultation-based second source checked"
+    },
+    {
+      "slug": "2026-11-dundee-family-january-2027",
+      "title": "Dundee 校友及家庭獎學金：£3,000學費減免",
+      "url": "https://globalednews.com/scholarships/items/2026-11-dundee-family-january-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-dundee-family-january-2027.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://www.dundee.ac.uk/scholarships/alumni-and-family-scholarship-january-2027"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://www.thecompleteuniversityguide.co.uk/universities/university-of-dundee/student-support/undergraduate/taiwan/taiwan"
+        },
+        {
+          "label": "Source 3",
+          "url": "https://www.thecompleteuniversityguide.co.uk/sector/resources/consultations"
+        }
+      ],
+      "verifiedAt": "2026-11-06T08:12:26.032693+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "eligibleTaiwan": true,
+      "open": true,
+      "updateSummary": "New distinct award; Taiwan list, conditions and consultation-based second source checked"
+    },
+    {
+      "slug": "2026-11-strathclyde-hass-deans-january-2027",
+      "title": "Strathclyde人文社科院長獎：£10,000學費減免",
+      "url": "https://globalednews.com/scholarships/items/2026-11-strathclyde-hass-deans-january-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-strathclyde-hass-deans-january-2027.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://www.strath.ac.uk/studywithus/scholarships/humanitiessocialsciencesdeansinternationalexcellencescholarship-january2027/"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://scholarshipsforafricans.com/scholarships/humanities-and-social-sciences-deans-international-excellence-scholarship-university-of-st"
+        },
+        {
+          "label": "Source 3",
+          "url": "https://www.strath.ac.uk/studywithus/internationalstudents/entryrequirements/"
+        }
+      ],
+      "verifiedAt": "2026-11-06T08:18:11.944519+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "eligibleTaiwan": true,
+      "open": true,
+      "updateSummary": "Official non-EU self-funded award and Taiwan degree requirements checked; independent editorial verification dated October22 cross-read."
+    }
+  ],
+  "scholarshipChecks": [],
+  "peterImports": [],
+  "socialPosts": [],
+  "blockers": [],
+  "gaps": [
+    "BUILD",
+    "COMMIT_DEPLOY",
+    "PUBLISH",
+    "ACCEPTANCE",
+    "VERIFY"
+  ],
+  "manualActions": [],
+  "verification": {
+    "status": "NOT_RUN",
+    "reason": "Content built; deployment, native publishing and live acceptance pending."
+  },
+  "resumedAt": "2026-11-06T08:04:43.1009893+08:00",
+  "browserRecovery": "Fresh Chrome extension tab 230962374 successfully read Facebook/Peter page; old tab focus timed out. No current login blocker.",
+  "newsPrepared": [
+    {
+      "slug": "uk-ucas-october-2027-applicant-snapshot",
+      "title": "英國早申人數減少3.2%：醫學申請仍微增，不能推算全年錄取機會",
+      "url": "https://globalednews.com/news/uk-ucas-october-2027-applicant-snapshot/",
+      "publishedPath": "src/pages/news/uk-ucas-october-2027-applicant-snapshot.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://www.ucas.com/corporate/news-and-key-documents/news/ucas-releases-undergraduate-application-data-from-15-october-deadline"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://wonkhe.com/wonk-corner/ucas-october-deadline-data-suggests-pessimism-ahead"
+        }
+      ],
+      "verifiedAt": "2026-11-06T08:11:35.624738+08:00"
+    },
+    {
+      "slug": "philippines-transnational-education-strategy-2026",
+      "title": "菲律賓推跨國高教策略：學分認可與學生流動仍須落實",
+      "url": "https://globalednews.com/news/philippines-transnational-education-strategy-2026/",
+      "publishedPath": "src/pages/news/philippines-transnational-education-strategy-2026.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://www.britishcouncil.ph/en/programmes/education/asean-uk-higher-education-week-2026"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://www.pna.gov.ph/article/ph-eyes-uk-framework-for-transnational-education-strategy-in-asean"
+        },
+        {
+          "label": "Source 3",
+          "url": "https://thepienews.com/philippines-to-fast-track-student-visas-as-tne-strategy-takes-off/"
+        }
+      ],
+      "verifiedAt": "2026-11-06T08:11:35.624738+08:00"
+    },
+    {
+      "slug": "australia-schools-digital-detox-taskforce-2026",
+      "title": "澳洲校園檢討螢幕與AI使用：成立專案小組，並非全面禁用科技",
+      "url": "https://globalednews.com/news/australia-schools-digital-detox-taskforce-2026/",
+      "publishedPath": "src/pages/news/australia-schools-digital-detox-taskforce-2026.md",
+      "sources": [
+        {
+          "label": "Source 1",
+          "url": "https://www.education.gov.au/schooling/announcements/digital-detox-rebalancing-technology-use-australian-schools"
+        },
+        {
+          "label": "Source 2",
+          "url": "https://news.uq.edu.au/2026-11-australian-classrooms-are-getting-digital-detox-what-does-mean-schools-and-students"
+        },
+        {
+          "label": "Source 3",
+          "url": "https://www.sbs.com.au/language/chinese/zh-hant/article/year-5-naplan-writing-test-to-return-to-pen-and-paper-from-2028/fa61pckpw"
+        }
+      ],
+      "verifiedAt": "2026-11-06T08:11:35.624738+08:00"
+    }
+  ],
+  "scholarshipSourceMethod": "CUG method page read natively: direct named institutional consultation and annual review. Not treated as a second official Dundee URL. Global also cross-read EFG analysis.",
+  "rejectedScholarshipCandidates": [
+    {
+      "name": "Dundee Alumni January2027",
+      "reason": "Country list omits Taiwan/East Asia although 2026/7 key facts say all fee statuses. Unpublished draft removed from site tree; no eligibility assumption."
+    },
+    {
+      "name": "Sheffield Hallam Transform Together January2027",
+      "reason": "Official application deadline November1 has passed."
+    },
+    {
+      "name": "Strathclyde Engineering Dean January2027",
+      "reason": "Official deadline October31 has passed."
+    }
+  ],
+  "peterPrepared": [
+    {
+      "slug": "uk-early-applications-medicine-2027",
+      "title": "英國早申降溫、醫學微增：Peter提醒分清統計範圍",
+      "url": "https://globalednews.com/peter/uk-early-applications-medicine-2027/",
+      "sourceId": "122149329909172155",
+      "sourceUrl": "https://www.facebook.com/photo/?fbid=122149329909172155",
+      "verifiedAt": "2026-11-06T08:18:11.944519+08:00"
+    }
+  ],
+  "peterReview": {
+    "status": "fewer-new-posts",
+    "availableNewCount": 1,
+    "checkedAt": "2026-11-06T08:18:11.944519+08:00",
+    "sourceUrls": [
+      "https://www.facebook.com/photo/?fbid=122149329909172155",
+      "https://www.facebook.com/profile.php?id=61585164670358"
+    ],
+    "note": "Native full text read. One new UCAS post; WO/HBO, Jobs and ECTS already imported. Newsletter promotion excluded. Relative22hours retained."
+  },
+  "studyAbroadPrepared": {
+    "slug": "dundee-course-scholarship-budget-2027",
+    "title": "Dundee升學預算：課程錄取與獎助資格要分開核對",
+    "url": "https://globalednews.com/study-abroad/dundee-course-scholarship-budget-2027/",
+    "publishedPath": "src/pages/study-abroad/dundee-course-scholarship-budget-2027.md",
+    "sources": [
+      {
+        "label": "Source 1",
+        "url": "https://www.dundee.ac.uk/scholarships/global-excellence-scholarship-postgraduate-january-2027"
+      },
+      {
+        "label": "Source 2",
+        "url": "https://www.dundee.ac.uk/scholarships/alumni-and-family-scholarship-january-2027"
+      },
+      {
+        "label": "Source 3",
+        "url": "https://www.thecompleteuniversityguide.co.uk/universities/university-of-dundee/student-support/undergraduate/taiwan/taiwan"
+      }
+    ],
+    "verifiedAt": "2026-11-06T08:18:11.944519+08:00"
+  },
+  "campusLeads": [
+    {
+      "school": "NTU",
+      "source": "https://oia.ntu.edu.tw/",
+      "finding": "2027/28 exchange selection deadline November9 16:00 shown on official homepage; verify programme-specific notice before applying.",
+      "status": "official-page-read",
+      "verifiedAt": "2026-11-06T08:18:11.944519+08:00"
+    },
+    {
+      "school": "NTHU",
+      "source": "https://oga.site.nthu.edu.tw/p/405-1524-313871,c17828.php?Lang=zh-tw",
+      "finding": "November3–10 16:00 preference submission for applicants already passing selection, not a new initial application round.",
+      "status": "official-page-read",
+      "verifiedAt": "2026-11-06T08:18:11.944519+08:00"
+    },
+    {
+      "school": "NSYSU",
+      "source": "https://oia.nsysu.edu.tw/p/406-1308-384608,r4450.php?Lang=zh-tw",
+      "finding": "Exchange applications November3–17 17:00; correction deadline November20 does not extend initial application deadline.",
+      "status": "official-page-read",
+      "verifiedAt": "2026-11-06T08:18:11.944519+08:00"
+    }
+  ],
+  "sunmoonReview": {
+    "checkedAt": "2026-11-06T08:18:11.944519+08:00",
+    "url": "https://www.sunmoonnews.com.tw/",
+    "note": "Homepage reviewed; no additional independently verified story selected."
+  },
+  "ltuMediaReview": {
+    "checkedAt": "2026-11-06T08:18:11.944519+08:00",
+    "selectedIndices": [
+      1,
+      2,
+      6
+    ],
+    "sourceUrls": [
+      "https://money.udn.com/money/story/5723/8815124",
+      "https://www.nownews.com/news/6697174",
+      "https://udn.com/news/story/6898/9271435"
+    ],
+    "note": "Read original archive reports. Today uses separately reviewed alternatives; SETN safety gate from prior run not bypassed, Storm unavailable. All12 archive items retained."
+  },
+  "preparedAt": "2026-11-06T08:18:12.060810+08:00",
+  "phaseCompleted": [
+    "PREFLIGHT",
+    "RESEARCH",
+    "PREPARE"
+  ],
+  "build": {
+    "status": "success",
+    "verifiedAt": "2026-11-06T08:22:28.787956+08:00",
+    "runtime": "C:/Users/User/AppData/Local/Temp/globalednews-security-20261019",
+    "evidence": "docs/daily-checks/2026-11-06/",
+    "checks": [
+      "Astro",
+      "bilingual",
+      "search",
+      "SEO",
+      "Facebook photo rules",
+      "public safety",
+      "vlog"
+    ]
+  }
+}
