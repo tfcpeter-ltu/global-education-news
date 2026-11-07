@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "verifiedAt": "2026-11-08T06:00:26.872378+08:00",
+  "pages": [
+    {
+      "url": "https://globalednews.com/news/us-cpt-lawsuit-court-status-october-13-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/us-cpt-lawsuit-court-status-october-13-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/392dcb15cfaf1955902783c8.jpg",
+      "ogBytes": 158622,
+      "schemaCount": 5,
+      "englishCjk": null,
+      "datePublished": "2026-10-12T22:10:00.000Z",
+      "dateModified": "2026-11-07T21:52:00.000Z",
+      "headline": "美國CPT訴訟聽證後待裁：聲請暫停，不等於已獲准實習"
+    },
+    {
+      "url": "https://globalednews.com/news/uk-universities-tighten-international-offers-visa-compliance-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/uk-universities-tighten-international-offers-visa-compliance-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/e53ff395af03bc72685b4c71.jpg",
+      "ogBytes": 156949,
+      "schemaCount": 5,
+      "englishCjk": null,
+      "datePublished": "2026-10-10T21:25:00.000Z",
+      "dateModified": "2026-11-07T21:52:00.000Z",
+      "headline": "英國學生贊助合規分階段收緊：完成率90%要到2027年"
+    },
+    {
+      "url": "https://globalednews.com/news/australia-international-student-demand-below-allocations-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/australia-international-student-demand-below-allocations-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/1fbbbfe557aca6b83234932d.jpg",
+      "ogBytes": 215183,
+      "schemaCount": 5,
+      "englishCjk": null,
+      "datePublished": "2026-10-10T21:20:00.000Z",
+      "dateModified": "2026-11-07T21:52:00.000Z",
+      "headline": "澳洲招生規劃與實際入學落差：先分清新生、在校生與校方目標"
+    },
+    {
+      "url": "https://globalednews.com/en/news/us-cpt-lawsuit-court-status-october-13-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/us-cpt-lawsuit-court-status-october-13-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/392dcb15cfaf1955902783c8.jpg",
+      "ogBytes": 158622,
+      "schemaCount": 5,
+      "englishCjk": false,
+      "datePublished": "2026-10-12T22:10:00.000Z",
+      "dateModified": "2026-11-07T21:52:00.000Z",
+      "headline": " US CPT lawsuit awaits a decision after hearing: seeking a stay is not work authorization "
+    },
+    {
+      "url": "https://globalednews.com/en/news/uk-universities-tighten-international-offers-visa-compliance-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/uk-universities-tighten-international-offers-visa-compliance-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/e53ff395af03bc72685b4c71.jpg",
+      "ogBytes": 156949,
+      "schemaCount": 5,
+      "englishCjk": false,
+      "datePublished": "2026-10-10T21:25:00.000Z",
+      "dateModified": "2026-11-07T21:52:00.000Z",
+      "headline": " UK student-sponsor compliance tightens in stages: 90% completion applies from 2027 "
+    },
+    {
+      "url": "https://globalednews.com/en/news/australia-international-student-demand-below-allocations-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/australia-international-student-demand-below-allocations-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/1fbbbfe557aca6b83234932d.jpg",
+      "ogBytes": 215183,
+      "schemaCount": 5,
+      "englishCjk": false,
+      "datePublished": "2026-10-10T21:20:00.000Z",
+      "dateModified": "2026-11-07T21:52:00.000Z",
+      "headline": " Australia’s recruitment gap: distinguish new starts, total students and university targets "
+    }
+  ],
+  "originalDatesPreserved": true,
+  "substantiveUpdateVerified": true
+}

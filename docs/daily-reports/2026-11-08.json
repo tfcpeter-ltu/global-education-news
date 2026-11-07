@@ -285,7 +285,7 @@
         }
       ],
       "verifiedAt": "2026-11-08T05:18:39.959558+08:00",
-      "publishedVerifiedAt": "2026-11-08T05:30:39.423926+08:00"
+      "publishedVerifiedAt": "2026-11-08T06:00:25.090429+08:00"
     },
     {
       "slug": "korea-regional-national-universities-tuition-plan-2027",
@@ -307,7 +307,7 @@
         }
       ],
       "verifiedAt": "2026-11-08T05:18:39.959558+08:00",
-      "publishedVerifiedAt": "2026-11-08T05:30:39.423926+08:00"
+      "publishedVerifiedAt": "2026-11-08T06:00:25.090429+08:00"
     },
     {
       "slug": "scotland-college-infrastructure-investment-plan-2026",
@@ -333,7 +333,7 @@
         }
       ],
       "verifiedAt": "2026-11-08T05:18:39.959558+08:00",
-      "publishedVerifiedAt": "2026-11-08T05:30:39.423926+08:00"
+      "publishedVerifiedAt": "2026-11-08T06:00:25.090429+08:00"
     }
   ],
   "scholarshipChecks": [
@@ -366,7 +366,7 @@
       "eligibleTaiwan": true,
       "open": true,
       "updateSummary": "New distinct award absent from baseline257. Current official terms, international country scope and admissions read; MIE catalogue corroborates award existence and headline value, not cycle-specific deadlines.",
-      "publishedVerifiedAt": "2026-11-08T05:30:39.423926+08:00"
+      "publishedVerifiedAt": "2026-11-08T06:00:25.090429+08:00"
     },
     {
       "slug": "2026-11-bangor-deans-research-2026-27",
@@ -397,7 +397,7 @@
       "eligibleTaiwan": true,
       "open": true,
       "updateSummary": "New distinct award absent from baseline257. Current official terms, international country scope and admissions read; MIE catalogue corroborates award existence and headline value, not cycle-specific deadlines.",
-      "publishedVerifiedAt": "2026-11-08T05:30:39.423926+08:00"
+      "publishedVerifiedAt": "2026-11-08T06:00:25.090429+08:00"
     },
     {
       "slug": "2026-11-bangor-heads-school-research-2026-27",
@@ -428,7 +428,7 @@
       "eligibleTaiwan": true,
       "open": true,
       "updateSummary": "New distinct award absent from baseline257. Current official terms, international country scope and admissions read; MIE catalogue corroborates award existence and headline value, not cycle-specific deadlines.",
-      "publishedVerifiedAt": "2026-11-08T05:30:39.423926+08:00"
+      "publishedVerifiedAt": "2026-11-08T06:00:25.090429+08:00"
     }
   ],
   "scholarshipAdditions": [
@@ -461,7 +461,7 @@
       "eligibleTaiwan": true,
       "open": true,
       "updateSummary": "New distinct award absent from baseline257. Current official terms, international country scope and admissions read; MIE catalogue corroborates award existence and headline value, not cycle-specific deadlines.",
-      "publishedVerifiedAt": "2026-11-08T05:30:39.423926+08:00"
+      "publishedVerifiedAt": "2026-11-08T06:00:25.090429+08:00"
     },
     {
       "slug": "2026-11-bangor-deans-research-2026-27",
@@ -492,7 +492,7 @@
       "eligibleTaiwan": true,
       "open": true,
       "updateSummary": "New distinct award absent from baseline257. Current official terms, international country scope and admissions read; MIE catalogue corroborates award existence and headline value, not cycle-specific deadlines.",
-      "publishedVerifiedAt": "2026-11-08T05:30:39.423926+08:00"
+      "publishedVerifiedAt": "2026-11-08T06:00:25.090429+08:00"
     },
     {
       "slug": "2026-11-bangor-heads-school-research-2026-27",
@@ -523,7 +523,7 @@
       "eligibleTaiwan": true,
       "open": true,
       "updateSummary": "New distinct award absent from baseline257. Current official terms, international country scope and admissions read; MIE catalogue corroborates award existence and headline value, not cycle-specific deadlines.",
-      "publishedVerifiedAt": "2026-11-08T05:30:39.423926+08:00"
+      "publishedVerifiedAt": "2026-11-08T06:00:25.090429+08:00"
     }
   ],
   "peterImports": [
@@ -534,7 +534,7 @@
       "sourceId": "122149563591172155",
       "sourceUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid0KL3ZREjauF3ixkwUKuG3BV4LmntGpLeDgTrczXE4DtXFtwae2JePg2hZZV4mZye2l&id=61585164670358",
       "verifiedAt": "2026-11-08T05:21:17.369115+08:00",
-      "publishedVerifiedAt": "2026-11-08T05:30:39.423926+08:00"
+      "publishedVerifiedAt": "2026-11-08T06:00:25.090429+08:00"
     }
   ],
   "socialPosts": [
@@ -862,8 +862,7 @@
     "instagram/news",
     "instagram/scholarship",
     "instagram/study-abroad",
-    "instagram/taiwan-universities",
-    "archive deployment and live verification"
+    "instagram/taiwan-universities"
   ],
   "blockers": [
     {
@@ -1042,7 +1041,8 @@
     "status": "passed",
     "verifiedAt": "2026-11-08T05:27:48.324606+08:00",
     "evidence": "docs/daily-checks/2026-11-08",
-    "pagePairs": 928
+    "pagePairs": 928,
+    "archiveRevision": "Three complete bilingual archive rewrites passed 15 current-article depth checks and 928 bilingual route pairs; no new dependencies installed."
   },
   "archiveRewritesPrepared": [
     {
@@ -1134,7 +1134,7 @@
       }
     ],
     "verifiedAt": "2026-11-08T05:21:17.369115+08:00",
-    "publishedVerifiedAt": "2026-11-08T05:30:39.423926+08:00"
+    "publishedVerifiedAt": "2026-11-08T06:00:25.090429+08:00"
   },
   "newFacebookPagePost": {
     "platform": "facebook",
@@ -1175,12 +1175,12 @@
     "articleUrl": "https://globalednews.com/news/canada-student-arrivals-target-2029-extension/"
   },
   "deployment": {
-    "commit": "ec22747cf88146ef3c6c7c6ba1bb41337c5bd5f3",
+    "commit": "044ece129b5d206459e2d1fc155ced170c02ea91",
     "status": "success",
-    "verifiedAt": "2026-11-08T05:57:02.585118+08:00",
-    "runId": 42416002671,
-    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/42416002671",
-    "deployedAt": "2026-11-07T21:30:02Z",
+    "verifiedAt": "2026-11-08T06:00:43.148126+08:00",
+    "runId": 42418316832,
+    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/42418316832",
+    "deployedAt": "2026-11-07T21:59:37Z",
     "indexNowStatus": "success"
   },
   "acceptance": {
@@ -1200,12 +1200,121 @@
     "newsSitemap": true,
     "rss": true
   },
-  "lastVerifiedAt": "2026-11-08T05:57:02.585625+08:00",
+  "lastVerifiedAt": "2026-11-08T06:00:43.156075+08:00",
   "verification": {
     "status": "INCOMPLETE",
     "exitCode": 1,
-    "verifiedAt": "2026-11-08T05:57:02.776960+08:00",
+    "verifiedAt": "2026-11-08T06:00:43.299539+08:00",
     "output": "INCOMPLETE 2026-11-08: news/instagram: expected one verified published post, got 0\nINCOMPLETE 2026-11-08: scholarship/instagram: expected one verified published post, got 0\nINCOMPLETE 2026-11-08: study-abroad/instagram: expected one verified published post, got 0\nINCOMPLETE 2026-11-08: taiwan-universities/instagram: expected one verified published post, got 0\n",
     "evidence": "docs/daily-checks/2026-11-08/daily-verification.json"
-  }
+  },
+  "sourceAlternatives": {
+    "archive": [
+      "FSU insurance and MIEC topics deferred because independent supporting evidence had not yet been established; replaced with CPT, UK compliance and Australia recruitment."
+    ],
+    "ltu": [
+      "SETN source was blocked by browser safety checks; not bypassed. Read CTEE, Business Today and Yuanfeng original articles instead."
+    ],
+    "scholarships": [
+      "Excluded stale 2024 aggregator information and inaccessible Mastersportal result. Current official Bangor award terms, admissions and Taiwan scope checked; MIE corroborates award names and headline amounts, not cycle-specific deadlines."
+    ]
+  },
+  "deploymentAttempts": [
+    {
+      "commit": "ec22747cf88146ef3c6c7c6ba1bb41337c5bd5f3",
+      "runId": 42416002671,
+      "status": "success"
+    },
+    {
+      "commit": "044ece129b5d206459e2d1fc155ced170c02ea91",
+      "runId": 42418316832,
+      "status": "success"
+    }
+  ],
+  "archiveRewrites": [
+    {
+      "slug": "us-cpt-lawsuit-court-status-october-13-2026",
+      "path": "src/pages/news/us-cpt-lawsuit-court-status-october-13-2026.md",
+      "url": "https://globalednews.com/news/us-cpt-lawsuit-court-status-october-13-2026/",
+      "sources": [
+        [
+          "AAU — filing and plaintiffs’ position",
+          "https://www.aau.edu/resource-library/aau-files-lawsuit-challenging-changes-to-the-curricular-practical-training-cpt-program-for-international-students"
+        ],
+        [
+          "Inside Higher Ed — independent reporting, October 8",
+          "https://www.insidehighered.com/news/students/careers/2026/10/08/higher-ed-groups-fight-intl-student-internship-restrictions"
+        ],
+        [
+          "CourtListener RECAP — docket and November 6 minute entry",
+          "https://www.courtlistener.com/docket/74919449/association-of-american-universities-v-us-department-of-homeland/"
+        ],
+        [
+          "Presidents’ Alliance — litigation documents and chronology",
+          "https://www.presidentsalliance.org/cpt-litigation/"
+        ]
+      ],
+      "bodyCjk": 1089,
+      "status": "completed",
+      "publishedVerifiedAt": "2026-11-08T06:00:26.872378+08:00",
+      "deploymentCommit": "044ece129b5d206459e2d1fc155ced170c02ea91"
+    },
+    {
+      "slug": "uk-universities-tighten-international-offers-visa-compliance-2026",
+      "path": "src/pages/news/uk-universities-tighten-international-offers-visa-compliance-2026.md",
+      "url": "https://globalednews.com/news/uk-universities-tighten-international-offers-visa-compliance-2026/",
+      "sources": [
+        [
+          "UKVI — operational compliance guidance and phased thresholds",
+          "https://www.gov.uk/government/publications/student-sponsor-guidance/student-sponsor-compliance-accessible"
+        ],
+        [
+          "ICEF Monitor — independent analysis, May 27",
+          "https://monitor.icef.com/2026/05/uk-sponsored-study-visa-issuances-down-rejection-rates-up-and-more/"
+        ],
+        [
+          "Home Office — June 4 policy announcement",
+          "https://www.gov.uk/government/news/universities-face-ban-on-international-students-over-visa-abuse"
+        ],
+        [
+          "UKVI — publication revision history",
+          "https://www.gov.uk/government/publications/student-sponsor-guidance"
+        ]
+      ],
+      "bodyCjk": 1096,
+      "status": "completed",
+      "publishedVerifiedAt": "2026-11-08T06:00:26.872378+08:00",
+      "deploymentCommit": "044ece129b5d206459e2d1fc155ced170c02ea91"
+    },
+    {
+      "slug": "australia-international-student-demand-below-allocations-2026",
+      "path": "src/pages/news/australia-international-student-demand-below-allocations-2026.md",
+      "url": "https://globalednews.com/news/australia-international-student-demand-below-allocations-2026/",
+      "sources": [
+        [
+          "Department of Education — 2026 indicative public-university allocations",
+          "https://www.education.gov.au/download/19711/factsheet-indicative-allocations-publicly-funded-university-new-overseas-student-commencements-2026/42976/document/pdf"
+        ],
+        [
+          "ABC — Adelaide international-student targets, September 25",
+          "https://www.abc.net.au/news/2026-09-25/adelaide-university-off-international-student-targets/107190580"
+        ],
+        [
+          "Julian Hill — official October 30 speech",
+          "https://ministers.education.gov.au/hill/2026-annual-conference-future-thinking-international-education-association-australia"
+        ],
+        [
+          "ABC — independent October 30 policy coverage",
+          "https://www.abc.net.au/news/2026-10-30/labor-moves-to-fix-student-visa-crackdown/107325422"
+        ]
+      ],
+      "bodyCjk": 1100,
+      "status": "completed",
+      "publishedVerifiedAt": "2026-11-08T06:00:26.872378+08:00",
+      "deploymentCommit": "044ece129b5d206459e2d1fc155ced170c02ea91"
+    }
+  ],
+  "archiveRemaining": 175,
+  "unblockedWorkCompletedAt": "2026-11-08T06:00:43.547059+08:00",
+  "completedAt": null
 }

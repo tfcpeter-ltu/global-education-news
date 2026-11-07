@@ -1,7 +1,7 @@
 {
   "status": "INCOMPLETE",
   "exitCode": 1,
-  "verifiedAt": "2026-11-08T05:57:02.776960+08:00",
+  "verifiedAt": "2026-11-08T06:00:43.299539+08:00",
   "output": "INCOMPLETE 2026-11-08: news/instagram: expected one verified published post, got 0\nINCOMPLETE 2026-11-08: scholarship/instagram: expected one verified published post, got 0\nINCOMPLETE 2026-11-08: study-abroad/instagram: expected one verified published post, got 0\nINCOMPLETE 2026-11-08: taiwan-universities/instagram: expected one verified published post, got 0\n",
   "evidence": "docs/daily-checks/2026-11-08/daily-verification.json"
 }

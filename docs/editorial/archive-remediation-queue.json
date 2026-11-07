@@ -1,18 +1,12 @@
 {
   "status": "pending",
   "order": "newest first, then currently consequential policies",
-  "remaining": 178,
+  "remaining": 175,
   "items": [
     {
       "path": "src/pages/news/fsu-international-student-insurance-2026.md",
       "date": "2026-10-13T06:30:00+08:00",
       "bodyCjk": 305,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/us-cpt-lawsuit-court-status-october-13-2026.md",
-      "date": "2026-10-13T06:10:00+08:00",
-      "bodyCjk": 318,
       "needsEditorialReview": true
     },
     {
@@ -25,18 +19,6 @@
       "path": "src/pages/news/uk-erasmus-immigration-rules-october-2026.md",
       "date": "2026-10-11T05:30:00+08:00",
       "bodyCjk": 238,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/uk-universities-tighten-international-offers-visa-compliance-2026.md",
-      "date": "2026-10-11T05:25:00+08:00",
-      "bodyCjk": 276,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/australia-international-student-demand-below-allocations-2026.md",
-      "date": "2026-10-11T05:20:00+08:00",
-      "bodyCjk": 288,
       "needsEditorialReview": true
     },
     {
@@ -1072,7 +1054,7 @@
       "needsEditorialReview": true
     }
   ],
-  "updatedAt": "2026-11-07T06:00:26.586816+08:00",
+  "updatedAt": "2026-11-08T06:00:43.155210+08:00",
   "completedBatches": [
     {
       "date": "2026-11-07",
@@ -1085,6 +1067,18 @@
         "src/pages/news/uk-student-sponsor-guidance-october-2026.md"
       ],
       "evidence": "docs/daily-checks/2026-11-07/archive-live-verification.json"
+    },
+    {
+      "date": "2026-11-08",
+      "count": 3,
+      "commit": "044ece129b5d206459e2d1fc155ced170c02ea91",
+      "verifiedAt": "2026-11-08T06:00:26.872378+08:00",
+      "paths": [
+        "src/pages/news/australia-international-student-demand-below-allocations-2026.md",
+        "src/pages/news/uk-universities-tighten-international-offers-visa-compliance-2026.md",
+        "src/pages/news/us-cpt-lawsuit-court-status-october-13-2026.md"
+      ],
+      "evidence": "docs/daily-checks/2026-11-08/archive-live-verification.json"
     }
   ]
 }
