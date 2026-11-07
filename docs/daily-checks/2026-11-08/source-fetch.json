@@ -1,0 +1,62 @@
+[
+  {
+    "key": "ca-official",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/11/building-a-stronger-canada-through-a-well-managed-predictable-immigration-system.html",
+    "status": "error",
+    "error": "The read operation timed out"
+  },
+  {
+    "key": "ca-independent",
+    "url": "https://thepienews.com/canada-extends-150000-international-student-arrivals-target-to-2029/",
+    "status": "readable",
+    "chars": 5986
+  },
+  {
+    "key": "kr-official",
+    "url": "https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_12_19",
+    "status": "readable",
+    "chars": 28353
+  },
+  {
+    "key": "kr-independent",
+    "url": "https://thepienews.com/south-koreas-free-tuition-plan-could-reshape-international-student-recruitment/",
+    "status": "readable",
+    "chars": 11226
+  },
+  {
+    "key": "uk-official",
+    "url": "https://www.sfc.ac.uk/estates-infrastructure/college-infrastructure-strategy-baseline-2024/college-infrastructure-investment-plan-2027-28-to-2036-37/",
+    "status": "readable",
+    "chars": 84
+  },
+  {
+    "key": "uk-independent",
+    "url": "https://www.scotsman.com/education/colleges-will-need-ps25bn-to-maintain-campuses-suitable-for-teaching-9328550",
+    "status": "error",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "key": "award-deans",
+    "url": "https://www.bangor.ac.uk/international/future/deans-scholarship",
+    "status": "readable",
+    "chars": 4372
+  },
+  {
+    "key": "award-research",
+    "url": "https://www.bangor.ac.uk/international/future/deans-research-scholarship",
+    "status": "readable",
+    "chars": 4517
+  },
+  {
+    "key": "award-independent",
+    "url": "https://mieconnect.com/scholarships?institution=bangor-university",
+    "status": "readable",
+    "chars": 13607
+  },
+  {
+    "key": "award-portal",
+    "url": "https://www.mastersportal.com/universities/scholarships/427/bangor-university.html",
+    "status": "error",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

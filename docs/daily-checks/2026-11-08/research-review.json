@@ -1,0 +1,55 @@
+{
+  "checkedAt": "2026-11-08T05:07:57.146421+08:00",
+  "newsCandidates": [
+    {
+      "region": "Canada",
+      "topic": "2027–2029 arrivals target extension",
+      "primary": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/11/building-a-stronger-canada-through-a-well-managed-predictable-immigration-system.html",
+      "independent": "https://thepienews.com/canada-extends-150000-international-student-arrivals-target-to-2029/",
+      "finding": "Both read through web. 150000 annual new student arrivals through2029; distinct from September2027 planning article. Additional primary context and independence review pending."
+    },
+    {
+      "region": "Korea",
+      "primary": "https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_12_19",
+      "independent": "https://thepienews.com/south-koreas-free-tuition-plan-could-reshape-international-student-recruitment/",
+      "finding": "Both read; regional30 national universities, domestic2027freshmen; cannot present as Taiwan scholarship. Need direct nationality rule and original budget context."
+    },
+    {
+      "region": "Scotland",
+      "primary": "https://www.sfc.ac.uk/estates-infrastructure/college-infrastructure-strategy-baseline-2024/college-infrastructure-investment-plan-2027-28-to-2036-37/",
+      "independent": "https://www.scotsman.com/education/colleges-will-need-ps25bn-to-maintain-campuses-suitable-for-teaching-9328550",
+      "finding": "Both read through web plus CollegesScotland and AuditScotland. GBP2.5bn indicative need not appropriated budget. PDF detail pending."
+    }
+  ],
+  "excludedCandidates": [
+    {
+      "topic": "Germany retention",
+      "reason": "Already published November4; do not count again"
+    },
+    {
+      "topic": "Hong Kong presidents forum",
+      "reason": "Official sources found; independent event account not yet obtained"
+    }
+  ],
+  "scholarships": {
+    "candidateUniversity": "Bangor",
+    "candidates": [
+      "Deans undergraduate GBP6000 annually",
+      "Deans research20percent2026/27",
+      "Heads of School research10percent"
+    ],
+    "status": "not_finalized",
+    "warnings": [
+      "Shiksha search dated2026 but body2024: not current window evidence",
+      "Mastersportal403; MIEConnect readable fallback, specific record validation pending",
+      "International taught award primary list4000 versus detail6000 conflict: exclude until reconciled",
+      "Existing ViceChancellorJan2027 not new"
+    ]
+  },
+  "peter": {
+    "title": "多一年實習，值得嗎？英國三明治學位的三筆帳",
+    "sourceUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid0KL3ZREjauF3ixkwUKuG3BV4LmntGpLeDgTrczXE4DtXFtwae2JePg2hZZV4mZye2l&id=61585164670358",
+    "originalDate": "2026-11-07T10:14:00+08:00",
+    "status": "full native text read; factual source checks pending; not imported"
+  }
+}

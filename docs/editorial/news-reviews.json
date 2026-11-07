@@ -115,5 +115,44 @@
     "independentSource": "https://www.nzaee.org.nz/news-and-publications/phase-5-senior-secondary-curriculum-consultation",
     "reviewedAt": "2026-11-07",
     "bodySha256": "b31e0cfab2a8c8ce80bedbf4af6bc6e37dc4938590fbb6671fde16b082162a84"
+  },
+  "canada-student-arrivals-target-2029-extension": {
+    "newsValue": "11月5日新計畫將15萬新學生抵達目標延伸至2029，區別既有2027及2028目標，具體新進展可追溯。",
+    "background": "說明臨時居民總量與教育、住房、公共服務之間的政策脈絡，不把總人口目標誤當各校招生額。",
+    "development": "分清學生與工作者新抵達及永久居民接納不同統計，沒有把三年累計宣稱為新增名額。",
+    "perspectives": "納入CBIE對實際抵達低於目標的警訊及Universities Canada回應，註明均為機構代表觀點。",
+    "taiwanImpact": "針對台灣家庭分開錄取、許可與旅行安排，指出全國目標不能換算個人成功率或特定課程餘額。",
+    "uncertainty": "未取得完整同口徑年度抵達數，不推算缺口百分比；沒有宣稱總量穩定保證快速審核。",
+    "independence": "IRCC提供政策原文；PIE署名記者比較前後計畫並報導兩教育團體回應，非單純政府稿轉載。",
+    "bodySha256": "f1691b57e18dc4d9da1d5d6937546fc991eebbb96f0ba6631c54f0aa9ed03bab",
+    "reviewedAt": "2026-11-08T05:18:39.959558+08:00",
+    "primarySource": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/11/building-a-stronger-canada-through-a-well-managed-predictable-immigration-system.html",
+    "independentSource": "https://thepienews.com/canada-extends-150000-international-student-arrivals-target-to-2029/"
+  },
+  "korea-regional-national-universities-tuition-plan-2027": {
+    "newsValue": "以11月6日教育評論追蹤2027地方高教方案，提供國際招生角度而非將舊公告冒充當日公布。",
+    "background": "交代國立與私立、首都圈與地方招生選擇問題，將學費資助與區域發展目標明確區分。",
+    "development": "核對官方30校與逐年擴展及醫藥等排除，沒有把2026其他獎項截止搬到新年度。",
+    "perspectives": "明示Kim是IES Abroad主管撰寫Voices評論，提供獨立分析而非新聞採訪或已證明的影響。",
+    "taiwanImpact": "台灣學生不能將韓國本國生制度當國際獎學金；提出授課語言、學分與住宿的具體選校核對。",
+    "uncertainty": "不斷言私校一定招生流失或國際生必定擴張；預算執行與結果仍待後續實證資料。",
+    "independence": "KOSAF原文確立規則；PIE具署名專欄提出區域私校競爭及學生支持問題，分析獨立於財團公告。",
+    "bodySha256": "de8b5e46353a6b1b8cbd876d8253ae6e63a16378b7a9741ed835e46b69120de5",
+    "reviewedAt": "2026-11-08T05:18:39.959558+08:00",
+    "primarySource": "https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_12_19",
+    "independentSource": "https://thepienews.com/south-koreas-free-tuition-plan-could-reshape-international-student-recruitment/"
+  },
+  "scotland-college-infrastructure-investment-plan-2026": {
+    "newsValue": "11月新十年校舍需求計畫及11月4日媒體政府回應，與學生學習環境及資源配置有直接關聯。",
+    "background": "以9月Audit Scotland獨立審計呈現現金與學生量背景，區分headcount、enrolments及FTE口徑。",
+    "development": "核對24校99校區270blocks、25億估算及13億與12億組成，明示是策略估算非已核定經費。",
+    "perspectives": "呈現Colleges Scotland資源訴求與部長轉型回應，不將代表團體主張當政府已承諾的撥款。",
+    "taiwanImpact": "協助台灣學生分清college與university及授課、授予、校區三項，關注可使用設施而非照片。",
+    "uncertainty": "不對個別學院停辦或建築安全作無證推論，未取得各校逐年撥款與現場檢查，明確揭露。",
+    "independence": "SFC原計畫與Scotsman具署名報導交叉核對，後者增加政府回應；Audit Scotland另提供獨立審計證據。",
+    "bodySha256": "a45db2cadadf37ff25b0872dea97b0a1e2f4ada5d6b805467e13c9fea76c3a91",
+    "reviewedAt": "2026-11-08T05:18:39.959558+08:00",
+    "primarySource": "https://www.sfc.ac.uk/wp-content/uploads/2026/11/College-Infrastructure-Investment-Plan-2027-28-to-2036-37_Download.pdf",
+    "independentSource": "https://www.scotsman.com/education/colleges-will-need-ps25bn-to-maintain-campuses-suitable-for-teaching-9328550"
   }
 }

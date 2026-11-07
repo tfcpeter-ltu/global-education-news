@@ -1,0 +1,66 @@
+[
+  {
+    "campaign": "news",
+    "key": "ca",
+    "topic": "canada-student-target-2029",
+    "title": "加拿大15萬留學生目標，延至2029",
+    "benefit": "年度數字維持；規劃時間延長。",
+    "summary": "11月5日公布的計畫維持每年最多15萬名新國際學生抵達目標。這不是每年新增15萬名額，也不是個人錄取或許可保證。",
+    "advice": "學校錄取、許可與實際抵達分開確認。照片為渥太華國會資料照。",
+    "section": "國際教育新聞",
+    "sectionUrl": "https://globalednews.com/news/",
+    "url": "https://globalednews.com/news/canada-student-arrivals-target-2029-extension/",
+    "lines": [
+      "加拿大15萬目標",
+      "延長至2029"
+    ]
+  },
+  {
+    "campaign": "scholarship",
+    "key": "deans",
+    "topic": "bangor-deans-undergraduate",
+    "title": "Bangor學士Deans獎：每年£6,000",
+    "benefit": "台灣學生依國際生與課程條件評估。",
+    "summary": "完整三或四年校內全時學士，AAB或同等預測／已取得成績，隨入學申請評估；達門檻不保證獲獎。直接銜接二、三年級不適用。",
+    "advice": "目前2027入學申請開放，獎項無另列截止；課程期限與正式錄取信仍須核對。",
+    "section": "國際獎學金雷達",
+    "sectionUrl": "https://globalednews.com/scholarships/",
+    "url": "https://globalednews.com/scholarships/items/2026-11-bangor-deans-undergraduate/",
+    "lines": [
+      "Bangor學士獎",
+      "每年£6,000"
+    ]
+  },
+  {
+    "campaign": "study-abroad",
+    "key": "diy",
+    "topic": "bath-placement-year",
+    "title": "Bath實習年：多一年，要算哪幾筆帳？",
+    "benefit": "有實習課程，不等於保證工作。",
+    "summary": "Bath管理學院部分四年制課程第三年安排12個月實習，但職位與薪資不保證。先讀具體課程，再比較能力、費用與時間。",
+    "advice": "用DIY導航整理學校，向官方確認實習與轉換規則。照片是Bath校園資料照。",
+    "section": "留學DIY導航",
+    "sectionUrl": "https://globalednews.com/study-abroad/",
+    "url": "https://globalednews.com/study-abroad/bath-management-placement-year-course-choice/",
+    "lines": [
+      "Bath實習年",
+      "先算多一年成本"
+    ]
+  },
+  {
+    "campaign": "taiwan-universities",
+    "key": "taiwan",
+    "topic": "ntu-exchange-deadline-nov9",
+    "title": "台大交換甄選：11月9日16:00截止",
+    "benefit": "週日前先核對文件與交換校要求。",
+    "summary": "台大116學年度第1學期國際交換甄選，線上報名至11月9日下午4時。須符合本校學籍、年級及語言等條件，交換校可能有更嚴格要求。",
+    "advice": "清大另有11月24日德國交換生交流活動；陽明交大活動頁列MOPM於11月14–15日在成大舉行。照片為台大圖書館。",
+    "section": "國內大學資料庫",
+    "sectionUrl": "https://globalednews.com/taiwan-universities/",
+    "url": "https://studyabroad.ntu.edu.tw/exchange-student/how-to-apply/",
+    "lines": [
+      "台大交換甄選",
+      "11月9日16:00截止"
+    ]
+  }
+]
