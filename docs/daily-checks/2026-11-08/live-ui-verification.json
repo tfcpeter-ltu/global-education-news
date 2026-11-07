@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "verifiedAt": "2026-11-08T05:47:54.022+08:00",
+  "desktop": {
+    "cssWidth": 1945,
+    "noHorizontalOverflow": true,
+    "visibleImagesLoaded": 4,
+    "evidence": "homepage-desktop.png"
+  },
+  "mobile": {
+    "cssWidth": 390,
+    "cssHeight": 843,
+    "scrollWidth": 371,
+    "noHorizontalOverflow": true,
+    "evidence": "article-mobile.png"
+  },
+  "searchFilters": {
+    "keyword": "Bangor",
+    "newAwardsFound": 3,
+    "researchAndOpenResults": 2
+  },
+  "languages": [
+    "zh-TW",
+    "en"
+  ],
+  "viewportReset": true
+}

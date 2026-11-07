@@ -3,149 +3,34 @@
   "backup": "C:\\Users\\User\\AppData\\Local\\Temp\\globalednews-20261108-runtime-backup",
   "changes": [
     {
-      "path": "docs/editorial/archive-remediation-queue.json",
-      "sourceSha256": "996e930eda3849d6c62c9b12ab4f915844e553af1b444a5627a8417ea415b568",
-      "runtimeSha256": "56aea1a9b4967e0c6741b2fab7b8d17c91b715cb8299adfcb14d46b6d76400e4"
-    },
-    {
-      "path": "docs/editorial/news-reviews.json",
-      "sourceSha256": "110e7a8f2808b218a712513623183c3220b0200515a1af67ba173194e8854cbd",
-      "runtimeSha256": "2a47aaaeaca45c7aa0c83a4af4166c8f7cf5a76644c5b43a5b767d98dc6c8b00"
-    },
-    {
-      "path": "docs/social-posts/2026-11-08/news--canada-student-target-2029.json",
-      "sourceSha256": "3a666f403a79da97c2ef8db3c4585c3967046351063ecf7c97649422156b981a",
-      "runtimeSha256": null
-    },
-    {
-      "path": "docs/social-posts/2026-11-08/publication-log.json",
-      "sourceSha256": "71d41236da02226fde0a6f3eb727c448f19e6a84a50a3c92f2f764d1aa3606aa",
-      "runtimeSha256": null
-    },
-    {
-      "path": "docs/social-posts/2026-11-08/scholarship--bangor-deans-undergraduate.json",
-      "sourceSha256": "55be12b42c41eb436a1addde8110ed08c1848e22733ab4f85e38d492c8d8714f",
-      "runtimeSha256": null
-    },
-    {
-      "path": "docs/social-posts/2026-11-08/study-abroad--bath-placement-year.json",
-      "sourceSha256": "cf0a7f127b559e7c21c9c64e2c7b32cb5c1fca6fdcd33986873dad22a71ed5d7",
-      "runtimeSha256": null
-    },
-    {
-      "path": "docs/social-posts/2026-11-08/taiwan-universities--ntu-exchange-deadline-nov9.json",
-      "sourceSha256": "97a7f527cfb1051ccd1c5f72a3f89f76a2b2dcb6e55c2e9ef8d7850f74913210",
-      "runtimeSha256": null
-    },
-    {
-      "path": "public/data/analytics-summary.json",
-      "sourceSha256": "e3de8ada3185259b83f7c7536d7d7389f99c1bc7a2adad19e12eb812104db131",
-      "runtimeSha256": "f193d74713438da6f26de55b7f7888646ef578d9142bf200c74ed24c18728100"
-    },
-    {
-      "path": "public/images/daily/2026-11-08/ca.jpg",
-      "sourceSha256": "29e6074bc48cf9644d340851f3b20bd241cb4b16c7c1ad6ed472b6e7f4b574dc",
-      "runtimeSha256": null
-    },
-    {
-      "path": "public/images/daily/2026-11-08/credits.html",
-      "sourceSha256": "cfeaf606024b99c795eeae8f00bfd22cd783c4018420a76332e3122253502ff7",
-      "runtimeSha256": null
-    },
-    {
-      "path": "public/images/daily/2026-11-08/deans.jpg",
-      "sourceSha256": "2646bf43698ebb6fb16e5d42a73286704ee36597139698b614901cf3709b8950",
-      "runtimeSha256": null
-    },
-    {
-      "path": "public/images/daily/2026-11-08/diy.jpg",
-      "sourceSha256": "c59df8fed8d49e02687723100372a135f848641e2d4ef65e4d2df3a15dd8254d",
-      "runtimeSha256": null
-    },
-    {
-      "path": "public/images/daily/2026-11-08/heads.jpg",
-      "sourceSha256": "d4aa64f555b6153dffb9f96c7705b347ca5b69fae37655b877dc312a9a68b08e",
-      "runtimeSha256": null
-    },
-    {
-      "path": "public/images/daily/2026-11-08/kr.jpg",
-      "sourceSha256": "0473281ab2fd8e2f22c540367809c8cc978afd2723ecbdcfc724232531a758e7",
-      "runtimeSha256": null
-    },
-    {
-      "path": "public/images/daily/2026-11-08/peter.jpg",
-      "sourceSha256": "955b96a1a667ffef34ec2b4775df05a786c51aaa774999310d3f19db9e0d9139",
-      "runtimeSha256": null
-    },
-    {
-      "path": "public/images/daily/2026-11-08/research.jpg",
-      "sourceSha256": "33b52fefd3736657d89f9556a23e49bfcf3483b554c5a64bead7081a9822107f",
-      "runtimeSha256": null
-    },
-    {
-      "path": "public/images/daily/2026-11-08/taiwan.jpg",
-      "sourceSha256": "0b7b300f573996edca075ae725153a5afd2aa296fdf743f62c4eb2e9e644c2a3",
-      "runtimeSha256": null
-    },
-    {
-      "path": "public/images/daily/2026-11-08/uk.jpg",
-      "sourceSha256": "283a523b8ec3a73cd8ef178882d77ed832674e5cbb2e0baeb34bc56008794cf3",
+      "path": "docs/social-posts/2026-11-08/evidence/instagram-login-terms-blocker.png",
+      "sourceSha256": "b2afe0d1b0048a9e78da70a421e12548852dee483885730a5a8f988dcda6d007",
       "runtimeSha256": null
     },
     {
       "path": "src/data/i18n/en-overrides.json",
-      "sourceSha256": "873640e24f471a2a3104a5c01ca53503a25fe43c4287357307fab55e4872400e",
-      "runtimeSha256": "5f48791a41bf708ec2a32fe248350b7ae359f16fd7206f87a5f9c1bbb3fe7f5a"
+      "sourceSha256": "7be76d1d0a55ca83b791ae7cb6116960d3c6cce3a42d99a507174794bedf9168",
+      "runtimeSha256": "012c6aa2a40b6a5dd864bc5fcf5b46ab04990202d47030dd8e2d37f6410b9f62"
     },
     {
-      "path": "src/data/peter-articles.json",
-      "sourceSha256": "5347182d61da70e9cc0587ff715d31f29520992c4ef5180c61a2360dfd2f8057",
-      "runtimeSha256": "3f31eb6af2f762add2578d7331ff44bf657f7dec92fbf59d00b05945f1b2a36f"
-    },
-    {
-      "path": "src/data/vlog-videos.json",
-      "sourceSha256": "1eabe0062cd2f795bd228721f46a7ee4ebf069a56983437e3effc5ba37be2701",
-      "runtimeSha256": "3f6df8c6c6ff5fb66fb0fcef512c5df8cacb393f91521a165e7d1528861461cb"
-    },
-    {
-      "path": "src/pages/index.astro",
-      "sourceSha256": "6a9dd618d5182a3a08af92f47661437b002a1be25f7f5052bd6db6c08398d0a6",
-      "runtimeSha256": "6486dfcf5fc04d75fda62955bcde2d1a4e91cdab5a1551ecb523f37b46458c76"
+      "path": "src/pages/news/australia-international-student-demand-below-allocations-2026.md",
+      "sourceSha256": "1c9af5cf0317d287e830d22ec5d15dd797ca7dd7fe046ad419118c9ad208ed10",
+      "runtimeSha256": "e876be24b66436cadd5dfe89ab541f040410335d24d57e597c6d4ab40c2c211a"
     },
     {
       "path": "src/pages/news/canada-student-arrivals-target-2029-extension.md",
-      "sourceSha256": "151d2975fa3641d7d54aecc6e0a88318b4ae0c563619c24f0a653313b217602f",
-      "runtimeSha256": null
+      "sourceSha256": "3828bfb4634dce313999aa940e04b04ad56a9a4dcea1fa4b5e134e0706e22c01",
+      "runtimeSha256": "151d2975fa3641d7d54aecc6e0a88318b4ae0c563619c24f0a653313b217602f"
     },
     {
-      "path": "src/pages/news/korea-regional-national-universities-tuition-plan-2027.md",
-      "sourceSha256": "306c3ea4b9f4255e2557183c052acef92ccf77e52bbf623ee309897592e71d24",
-      "runtimeSha256": null
+      "path": "src/pages/news/uk-universities-tighten-international-offers-visa-compliance-2026.md",
+      "sourceSha256": "0f9482f79714d1fe5490cdbe1a4f6410bd5be876cd5571eb52fe5949dda68d71",
+      "runtimeSha256": "c5968a3cf0bbda19a6e6af29c8c6c40b6cdd171315d3de7447646c4f0cdce7d3"
     },
     {
-      "path": "src/pages/news/scotland-college-infrastructure-investment-plan-2026.md",
-      "sourceSha256": "a51810c366a1953b7de28c77cae56097eea82be24b2da4ce37a68c1940b5e8de",
-      "runtimeSha256": null
-    },
-    {
-      "path": "src/pages/scholarships/items/2026-11-bangor-deans-research-2026-27.md",
-      "sourceSha256": "58a33481c2269f04b20f517c3abcceed7f122cd346f2d3049b9991381b52f42e",
-      "runtimeSha256": null
-    },
-    {
-      "path": "src/pages/scholarships/items/2026-11-bangor-deans-undergraduate.md",
-      "sourceSha256": "b59401c4b783184e780ebcd267218e1abc4af530710614c8f2737ef2f75a0168",
-      "runtimeSha256": null
-    },
-    {
-      "path": "src/pages/scholarships/items/2026-11-bangor-heads-school-research-2026-27.md",
-      "sourceSha256": "3a4b1206839daa8a2e6a976289a0b585adc37968085190666071d036cb5fe8a0",
-      "runtimeSha256": null
-    },
-    {
-      "path": "src/pages/study-abroad/bath-management-placement-year-course-choice.md",
-      "sourceSha256": "cd7a7fb89c96983f7a9b604d53b0e53e30d3de08fb10cd1136999b228e8dc0e9",
-      "runtimeSha256": null
+      "path": "src/pages/news/us-cpt-lawsuit-court-status-october-13-2026.md",
+      "sourceSha256": "e0172cf87763276348661241b58a739c4e6a5a165605ee31621a64f9fbc847fe",
+      "runtimeSha256": "fa790e7b060c6dfb9fdda71e94b4d9f9bc197b395ade417875d4a7c6eb09c76b"
     }
   ]
 }

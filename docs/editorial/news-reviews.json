@@ -154,5 +154,44 @@
     "reviewedAt": "2026-11-08T05:18:39.959558+08:00",
     "primarySource": "https://www.sfc.ac.uk/wp-content/uploads/2026/11/College-Infrastructure-Investment-Plan-2027-28-to-2036-37_Download.pdf",
     "independentSource": "https://www.scotsman.com/education/colleges-will-need-ps25bn-to-maintain-campuses-suitable-for-teaching-9328550"
+  },
+  "us-cpt-lawsuit-court-status-october-13-2026": {
+    "newsValue": "將10月提告進展更新至11月6日聽證後交付審酌，避免把聲請救濟誤報為已獲准或終局勝訴。",
+    "background": "說明8月SEVP訊息與課程必修、選修訓練之爭議，區分團體主張與正式法律裁判。",
+    "development": "逐項核對政府反對、原告回覆與聽證日期，揭露RECAP更新延遲而不宣稱鏡像完整即時。",
+    "perspectives": "以原告公告、獨立高教媒體及法院程序紀錄並列，各自僅支持其可確認的事實範圍。",
+    "taiwanImpact": "把台灣學生決策連到課程要求、校方授權、雇主起日與預算替代安排，不保證個別工作資格。",
+    "uncertainty": "尚未從實查最新案卷看到准許救濟的命令；公開鏡像可能延遲，後續命令與範圍須再核對。",
+    "independence": "Inside Higher Ed為獨立採訪媒體，提供校園影響而非僅轉載原告；CourtListener提供法院案卷條目。",
+    "primarySource": "https://www.aau.edu/resource-library/aau-files-lawsuit-challenging-changes-to-the-curricular-practical-training-cpt-program-for-international-students",
+    "independentSource": "https://www.insidehighered.com/news/students/careers/2026/10/08/higher-ed-groups-fight-intl-student-internship-restrictions",
+    "reviewedAt": "2026-11-08",
+    "bodySha256": "a0fb45a543fd2b18ea8864e905b5bbfe7979eb3436f1ebd92acb63367d76fb8b"
+  },
+  "uk-universities-tighten-international-offers-visa-compliance-2026": {
+    "newsValue": "修正原文完成率90%生效時間，明確分開2026拒簽與入學門檻、2027完成率新要求。",
+    "background": "交代機構合規三項指標與個人申請不同，並區分新聞稿、操作指引及無障礙版本更新日期。",
+    "development": "依正式指引核對分年時間，不把5月的市場觀察當成6月實施後已發生的全面收緊結果。",
+    "perspectives": "政策目的與ICEF獨立業界分析分別歸屬，指出市場差異與分析時間，避免單一政府視角。",
+    "taiwanImpact": "以錄取、CAS、簽證三步驟連結文件、訂金與出發安排，不把整體比例當台灣學生成功率。",
+    "uncertainty": "不替任何學校評定風險或聲稱撤回錄取，不保證提供文件即核准，契約權利須個別確認。",
+    "independence": "ICEF Monitor提供獨立教育市場分析而非政府公告轉載，且明示資料早於政策實施的限制。",
+    "primarySource": "https://www.gov.uk/government/publications/student-sponsor-guidance/student-sponsor-compliance-accessible",
+    "independentSource": "https://monitor.icef.com/2026/05/uk-sponsored-study-visa-issuances-down-rejection-rates-up-and-more/",
+    "reviewedAt": "2026-11-08",
+    "bodySha256": "baf4c5d11ddf397bd88f6f299ad0aab72c02bbf47e816355bfe7c6140bcd2d67"
+  },
+  "australia-international-student-demand-below-allocations-2026": {
+    "newsValue": "補上9月Adelaide個案與10月底政策回應，修正將規劃量當硬性招生上限或錄取保證的簡化。",
+    "background": "說明2025公布2026規劃安排，區分新海外入學、國際在校總人數、校方目標與政府分配。",
+    "development": "對照ABC校園個案與10月30日官方演說，將11月諮詢和長期存款構想與已生效規定分開。",
+    "perspectives": "以政府文件與ABC獨立採訪並列，保留機構收入壓力和政策品質目標，不把預估當結算實績。",
+    "taiwanImpact": "從台灣申請者角度整理課程、支出、獎學金與開課確認，避免空餘規劃量被誤用為個人保證。",
+    "uncertainty": "不從合併大學個案推出全國比例，不判定任何大學財務安全，也不預測學生簽證與就業結果。",
+    "independence": "ABC是獨立公共媒體，有校方數據及訪談背景，非教育部公告鏡像；兩次報導日期與用途明確區分。",
+    "primarySource": "https://www.education.gov.au/download/19711/factsheet-indicative-allocations-publicly-funded-university-new-overseas-student-commencements-2026/42976/document/pdf",
+    "independentSource": "https://www.abc.net.au/news/2026-09-25/adelaide-university-off-international-student-targets/107190580",
+    "reviewedAt": "2026-11-08",
+    "bodySha256": "dd67bc0c5cb9a1bc873117ad98a8b3d8583a70f1a5a4b310612cd00917b4d9fa"
   }
 }

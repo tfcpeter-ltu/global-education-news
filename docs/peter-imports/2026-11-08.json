@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-08",
+  "status": "completed",
+  "imports": [
+    {
+      "slug": "uk-sandwich-degree-placement-three-accounts",
+      "title": "多一年實習，值得嗎？英國三明治學位的三筆帳",
+      "url": "https://globalednews.com/peter/uk-sandwich-degree-placement-three-accounts/",
+      "sourceId": "122149563591172155",
+      "sourceUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid0KL3ZREjauF3ixkwUKuG3BV4LmntGpLeDgTrczXE4DtXFtwae2JePg2hZZV4mZye2l&id=61585164670358",
+      "verifiedAt": "2026-11-08T05:21:17.369115+08:00",
+      "publishedVerifiedAt": "2026-11-08T05:30:39.423926+08:00"
+    }
+  ],
+  "review": {
+    "status": "fewer-new-posts",
+    "availableNewCount": 1,
+    "checkedAt": "2026-11-08T05:21:17.369115+08:00",
+    "sourceUrls": [
+      "https://www.facebook.com/permalink.php?story_fbid=pfbid0KL3ZREjauF3ixkwUKuG3BV4LmntGpLeDgTrczXE4DtXFtwae2JePg2hZZV4mZye2l&id=61585164670358",
+      "https://www.facebook.com/profile.php?id=61585164670358"
+    ],
+    "note": "Native full text and exact November7 10:14 timestamp read. Feed checked through November5; November6 Bezos and November5 UCAS already imported. Bath/Surrey facts and fallback guidance checked; one eligible new post."
+  }
+}

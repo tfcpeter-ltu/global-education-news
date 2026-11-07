@@ -8,7 +8,7 @@ category: "國際教育新聞"
 topic: "canada"
 sources: [{"label": "IRCC — November 5 levels-plan backgrounder", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/11/building-a-stronger-canada-through-a-well-managed-predictable-immigration-system.html"}, {"label": "The PIE News — independent November 6 sector reporting", "url": "https://thepienews.com/canada-extends-150000-international-student-arrivals-target-to-2029/"}, {"label": "IRCC — graduate-study information routes", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/graduate-student.html"}]
 image: "/images/daily/2026-11-08/ca.jpg"
-imageAlt: "校園授權資料照，非報導事件現場"
+imageAlt: "渥太華國會資料照，非政策發布現場"
 imageCredit: "Saffron Blaze / CC BY-SA 3.0"
 imageSource: "https://commons.wikimedia.org/wiki/File:Centre_Block_-_Parliament_Hill.jpg"
 imageLicense: "CC BY-SA 3.0"

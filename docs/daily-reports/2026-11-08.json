@@ -2,8 +2,8 @@
   "date": "2026-11-08",
   "timezone": "Asia/Taipei",
   "startedAt": "2026-11-08T05:04:13.9141359+08:00",
-  "status": "in_progress",
-  "currentPhase": "COMMIT_DEPLOY",
+  "status": "blocked",
+  "currentPhase": "PUBLISH",
   "mainBaselineSha": "4667170cb405cb82e28d69109f1d15c8deb430bb",
   "scholarshipBaselineSlugs": [
     "2026-08-bristol-think-big",
@@ -264,9 +264,79 @@
     "catalog-vanderbilt-ingram",
     "catalog-yale-international-aid"
   ],
-  "newsPublished": [],
-  "scholarshipChecks": [],
-  "scholarshipAdditions": [
+  "newsPublished": [
+    {
+      "slug": "canada-student-arrivals-target-2029-extension",
+      "title": "加拿大將每年15萬新留學生抵達目標延至2029年：穩定訊號與招生落差",
+      "url": "https://globalednews.com/news/canada-student-arrivals-target-2029-extension/",
+      "publishedPath": "src/pages/news/canada-student-arrivals-target-2029-extension.md",
+      "sources": [
+        {
+          "label": "IRCC — November 5 levels-plan backgrounder",
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/11/building-a-stronger-canada-through-a-well-managed-predictable-immigration-system.html"
+        },
+        {
+          "label": "The PIE News — independent November 6 sector reporting",
+          "url": "https://thepienews.com/canada-extends-150000-international-student-arrivals-target-to-2029/"
+        },
+        {
+          "label": "IRCC — graduate-study information routes",
+          "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/graduate-student.html"
+        }
+      ],
+      "verifiedAt": "2026-11-08T05:18:39.959558+08:00",
+      "publishedVerifiedAt": "2026-11-08T05:30:39.423926+08:00"
+    },
+    {
+      "slug": "korea-regional-national-universities-tuition-plan-2027",
+      "title": "韓國地方國立大學2027免學費方案：招生競爭將如何改變？",
+      "url": "https://globalednews.com/news/korea-regional-national-universities-tuition-plan-2027/",
+      "publishedPath": "src/pages/news/korea-regional-national-universities-tuition-plan-2027.md",
+      "sources": [
+        {
+          "label": "KOSAF — regional national university tuition programme",
+          "url": "https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_12_19"
+        },
+        {
+          "label": "The PIE Voices — Kyuseok Kim analysis, November 6",
+          "url": "https://thepienews.com/south-koreas-free-tuition-plan-could-reshape-international-student-recruitment/"
+        },
+        {
+          "label": "KOSAF — general national scholarship nationality rules",
+          "url": "https://www.kosaf.go.kr/ko/scholar.do?naviParam=JH,02,02,05&pg=scholarship05_12_01_01"
+        }
+      ],
+      "verifiedAt": "2026-11-08T05:18:39.959558+08:00",
+      "publishedVerifiedAt": "2026-11-08T05:30:39.423926+08:00"
+    },
+    {
+      "slug": "scotland-college-infrastructure-investment-plan-2026",
+      "title": "蘇格蘭學院十年校舍需求估25億英鎊：維修與轉型如何取捨",
+      "url": "https://globalednews.com/news/scotland-college-infrastructure-investment-plan-2026/",
+      "publishedPath": "src/pages/news/scotland-college-infrastructure-investment-plan-2026.md",
+      "sources": [
+        {
+          "label": "SFC — College Infrastructure Investment Plan 2027/28–2036/37",
+          "url": "https://www.sfc.ac.uk/wp-content/uploads/2026/11/College-Infrastructure-Investment-Plan-2027-28-to-2036-37_Download.pdf"
+        },
+        {
+          "label": "The Scotsman — November 4 reporting and ministerial response",
+          "url": "https://www.scotsman.com/education/colleges-will-need-ps25bn-to-maintain-campuses-suitable-for-teaching-9328550"
+        },
+        {
+          "label": "Audit Scotland — September 10 independent annual audit",
+          "url": "https://audit.scot/publications/scotlands-colleges-2026"
+        },
+        {
+          "label": "SFC — plan context and delivery framework",
+          "url": "https://www.sfc.ac.uk/estates-infrastructure/college-infrastructure-strategy-baseline-2024/college-infrastructure-investment-plan-2027-28-to-2036-37/"
+        }
+      ],
+      "verifiedAt": "2026-11-08T05:18:39.959558+08:00",
+      "publishedVerifiedAt": "2026-11-08T05:30:39.423926+08:00"
+    }
+  ],
+  "scholarshipChecks": [
     {
       "slug": "2026-11-bangor-deans-undergraduate",
       "title": "Bangor學士Deans獎學金：每年£6,000",
@@ -295,7 +365,8 @@
       "baselineAbsent": true,
       "eligibleTaiwan": true,
       "open": true,
-      "updateSummary": "New distinct award absent from baseline257. Current official terms, international country scope and admissions read; MIE catalogue corroborates award existence and headline value, not cycle-specific deadlines."
+      "updateSummary": "New distinct award absent from baseline257. Current official terms, international country scope and admissions read; MIE catalogue corroborates award existence and headline value, not cycle-specific deadlines.",
+      "publishedVerifiedAt": "2026-11-08T05:30:39.423926+08:00"
     },
     {
       "slug": "2026-11-bangor-deans-research-2026-27",
@@ -325,7 +396,8 @@
       "baselineAbsent": true,
       "eligibleTaiwan": true,
       "open": true,
-      "updateSummary": "New distinct award absent from baseline257. Current official terms, international country scope and admissions read; MIE catalogue corroborates award existence and headline value, not cycle-specific deadlines."
+      "updateSummary": "New distinct award absent from baseline257. Current official terms, international country scope and admissions read; MIE catalogue corroborates award existence and headline value, not cycle-specific deadlines.",
+      "publishedVerifiedAt": "2026-11-08T05:30:39.423926+08:00"
     },
     {
       "slug": "2026-11-bangor-heads-school-research-2026-27",
@@ -355,19 +427,463 @@
       "baselineAbsent": true,
       "eligibleTaiwan": true,
       "open": true,
-      "updateSummary": "New distinct award absent from baseline257. Current official terms, international country scope and admissions read; MIE catalogue corroborates award existence and headline value, not cycle-specific deadlines."
+      "updateSummary": "New distinct award absent from baseline257. Current official terms, international country scope and admissions read; MIE catalogue corroborates award existence and headline value, not cycle-specific deadlines.",
+      "publishedVerifiedAt": "2026-11-08T05:30:39.423926+08:00"
     }
   ],
-  "peterImports": [],
-  "socialPosts": [],
-  "gaps": [
-    "COMMIT_DEPLOY",
-    "PUBLISH",
-    "ACCEPTANCE",
-    "VERIFY"
+  "scholarshipAdditions": [
+    {
+      "slug": "2026-11-bangor-deans-undergraduate",
+      "title": "Bangor學士Deans獎學金：每年£6,000",
+      "url": "https://globalednews.com/scholarships/items/2026-11-bangor-deans-undergraduate/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-bangor-deans-undergraduate.md",
+      "sources": [
+        {
+          "label": "Bangor — current award terms",
+          "url": "https://www.bangor.ac.uk/international/future/deans-scholarship"
+        },
+        {
+          "label": "MIE Connect — externally maintained award catalogue",
+          "url": "https://mieconnect.com/scholarships?institution=bangor-university"
+        },
+        {
+          "label": "Bangor — current international scholarship country scope",
+          "url": "https://www.bangor.ac.uk/international/scholarship"
+        },
+        {
+          "label": "Bangor — admissions and application timing",
+          "url": "https://www.bangor.ac.uk/study/undergraduate/apply"
+        }
+      ],
+      "verifiedAt": "2026-11-08T05:19:56.350535+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "eligibleTaiwan": true,
+      "open": true,
+      "updateSummary": "New distinct award absent from baseline257. Current official terms, international country scope and admissions read; MIE catalogue corroborates award existence and headline value, not cycle-specific deadlines.",
+      "publishedVerifiedAt": "2026-11-08T05:30:39.423926+08:00"
+    },
+    {
+      "slug": "2026-11-bangor-deans-research-2026-27",
+      "title": "Bangor研究型Deans獎學金：學費減免20%",
+      "url": "https://globalednews.com/scholarships/items/2026-11-bangor-deans-research-2026-27/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-bangor-deans-research-2026-27.md",
+      "sources": [
+        {
+          "label": "Bangor — current award terms",
+          "url": "https://www.bangor.ac.uk/international/future/deans-research-scholarship"
+        },
+        {
+          "label": "MIE Connect — externally maintained award catalogue",
+          "url": "https://mieconnect.com/scholarships?institution=bangor-university"
+        },
+        {
+          "label": "Bangor — current international scholarship country scope",
+          "url": "https://www.bangor.ac.uk/international/scholarship"
+        },
+        {
+          "label": "Bangor — admissions and application timing",
+          "url": "https://www.bangor.ac.uk/study/postgraduate/apply"
+        }
+      ],
+      "verifiedAt": "2026-11-08T05:19:56.350535+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "eligibleTaiwan": true,
+      "open": true,
+      "updateSummary": "New distinct award absent from baseline257. Current official terms, international country scope and admissions read; MIE catalogue corroborates award existence and headline value, not cycle-specific deadlines.",
+      "publishedVerifiedAt": "2026-11-08T05:30:39.423926+08:00"
+    },
+    {
+      "slug": "2026-11-bangor-heads-school-research-2026-27",
+      "title": "Bangor Heads of School研究獎學金：學費減免10%",
+      "url": "https://globalednews.com/scholarships/items/2026-11-bangor-heads-school-research-2026-27/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-bangor-heads-school-research-2026-27.md",
+      "sources": [
+        {
+          "label": "Bangor — current award terms",
+          "url": "https://www.bangor.ac.uk/international/future/heads-of-school-research-scholarship"
+        },
+        {
+          "label": "MIE Connect — externally maintained award catalogue",
+          "url": "https://mieconnect.com/scholarships?institution=bangor-university"
+        },
+        {
+          "label": "Bangor — current international scholarship country scope",
+          "url": "https://www.bangor.ac.uk/international/scholarship"
+        },
+        {
+          "label": "Bangor — admissions and application timing",
+          "url": "https://www.bangor.ac.uk/study/postgraduate/apply"
+        }
+      ],
+      "verifiedAt": "2026-11-08T05:19:56.350535+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "eligibleTaiwan": true,
+      "open": true,
+      "updateSummary": "New distinct award absent from baseline257. Current official terms, international country scope and admissions read; MIE catalogue corroborates award existence and headline value, not cycle-specific deadlines.",
+      "publishedVerifiedAt": "2026-11-08T05:30:39.423926+08:00"
+    }
   ],
-  "blockers": [],
-  "manualActions": [],
+  "peterImports": [
+    {
+      "slug": "uk-sandwich-degree-placement-three-accounts",
+      "title": "多一年實習，值得嗎？英國三明治學位的三筆帳",
+      "url": "https://globalednews.com/peter/uk-sandwich-degree-placement-three-accounts/",
+      "sourceId": "122149563591172155",
+      "sourceUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid0KL3ZREjauF3ixkwUKuG3BV4LmntGpLeDgTrczXE4DtXFtwae2JePg2hZZV4mZye2l&id=61585164670358",
+      "verifiedAt": "2026-11-08T05:21:17.369115+08:00",
+      "publishedVerifiedAt": "2026-11-08T05:30:39.423926+08:00"
+    }
+  ],
+  "socialPosts": [
+    {
+      "platform": "facebook",
+      "campaign": "news",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "photoAttachedAt": "2026-11-08T05:30:04.033+08:00",
+      "copyAddedAt": "2026-11-08T05:30:13.550+08:00",
+      "photoReadyEvidence": "docs/social-posts/2026-11-08/evidence/facebook-news-photo-ready.png",
+      "publishedAt": "2026-11-08T05:30:52.249+08:00",
+      "status": "PUBLISHED",
+      "id": "pfbid02h3fynMJsSoqKYLCj3XeDKor4v3SMDw2876ccXvtJ9WGdTB3JfVDS3zbvECZcRsUJl",
+      "url": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02h3fynMJsSoqKYLCj3XeDKor4v3SMDw2876ccXvtJ9WGdTB3JfVDS3zbvECZcRsUJl",
+      "verifiedAt": "2026-11-08T05:31:58.064+08:00",
+      "mediaVerifiedAt": "2026-11-08T05:31:58.064+08:00",
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/social-posts/2026-11-08/evidence/facebook-news-published.png",
+      "publicTimeText": "2026年11月8日上午5:30；剛剛",
+      "visibility": "public",
+      "accountVerified": true,
+      "method": "native-ui",
+      "photoId": "1112709848171879",
+      "network": "facebook",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02h3fynMJsSoqKYLCj3XeDKor4v3SMDw2876ccXvtJ9WGdTB3JfVDS3zbvECZcRsUJl",
+      "imageCount": 1,
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-08T05:31:58.064+08:00",
+      "publishClickedAt": "2026-11-08T05:30:52.249+08:00",
+      "timestampMethod": "Observed native publish click in Asia/Taipei; platform relative text separately recorded.",
+      "photoAttachments": [
+        {
+          "id": "1112709848171879",
+          "url": "https://www.facebook.com/photo/?fbid=1112709848171879"
+        }
+      ],
+      "publicPhotoScreenshot": "docs/social-posts/2026-11-08/evidence/facebook-news-published.png",
+      "articleUrl": "https://globalednews.com/news/canada-student-arrivals-target-2029-extension/"
+    },
+    {
+      "platform": "facebook",
+      "campaign": "scholarship",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "photoAttachedAt": "2026-11-08T05:32:26.029+08:00",
+      "copyAddedAt": "2026-11-08T05:32:36.106+08:00",
+      "photoReadyEvidence": "docs/social-posts/2026-11-08/evidence/facebook-scholarship-photo-ready.png",
+      "publishedAt": "2026-11-08T05:32:55.406+08:00",
+      "status": "PUBLISHED",
+      "id": "pfbid0aNCNVk3krz7fd9WXHKb32j5TLsQA5s6jej6Vr9ckryFVwLGterYFoiTCUSTAXtZTl",
+      "url": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0aNCNVk3krz7fd9WXHKb32j5TLsQA5s6jej6Vr9ckryFVwLGterYFoiTCUSTAXtZTl",
+      "verifiedAt": "2026-11-08T05:33:58.184+08:00",
+      "mediaVerifiedAt": "2026-11-08T05:33:58.184+08:00",
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/social-posts/2026-11-08/evidence/facebook-scholarship-published.png",
+      "publicTimeText": "剛剛；feed2026年11月8日上午5:32",
+      "visibility": "public",
+      "accountVerified": true,
+      "method": "native-ui",
+      "photoId": "1112711064838424",
+      "network": "facebook",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0aNCNVk3krz7fd9WXHKb32j5TLsQA5s6jej6Vr9ckryFVwLGterYFoiTCUSTAXtZTl",
+      "imageCount": 1,
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-08T05:33:58.184+08:00",
+      "publishClickedAt": "2026-11-08T05:32:55.406+08:00",
+      "timestampMethod": "Observed native publish click in Asia/Taipei; platform relative text separately recorded.",
+      "photoAttachments": [
+        {
+          "id": "1112711064838424",
+          "url": "https://www.facebook.com/photo/?fbid=1112711064838424"
+        }
+      ],
+      "publicPhotoScreenshot": "docs/social-posts/2026-11-08/evidence/facebook-scholarship-published.png",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-11-bangor-deans-undergraduate/"
+    },
+    {
+      "platform": "facebook",
+      "campaign": "study-abroad",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "photoAttachedAt": "2026-11-08T05:34:23.734+08:00",
+      "copyAddedAt": "2026-11-08T05:34:33.191+08:00",
+      "photoReadyEvidence": "docs/social-posts/2026-11-08/evidence/facebook-study-abroad-photo-ready.png",
+      "publishedAt": "2026-11-08T05:35:12.263+08:00",
+      "status": "PUBLISHED",
+      "id": "pfbid02gqstSToDBdK1QRfCNinDtSjMifcVjXr2Wfq1CwA7mu99yrDnzuhTWG4dhjR499QVl",
+      "url": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02gqstSToDBdK1QRfCNinDtSjMifcVjXr2Wfq1CwA7mu99yrDnzuhTWG4dhjR499QVl",
+      "verifiedAt": "2026-11-08T05:36:07.095+08:00",
+      "mediaVerifiedAt": "2026-11-08T05:36:07.095+08:00",
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/social-posts/2026-11-08/evidence/facebook-study-abroad-published.png",
+      "publicTimeText": "剛剛；feed2026年11月8日上午5:35",
+      "visibility": "public",
+      "accountVerified": true,
+      "method": "native-ui",
+      "photoId": "1112712021504995",
+      "network": "facebook",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02gqstSToDBdK1QRfCNinDtSjMifcVjXr2Wfq1CwA7mu99yrDnzuhTWG4dhjR499QVl",
+      "imageCount": 1,
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-08T05:36:07.095+08:00",
+      "publishClickedAt": "2026-11-08T05:35:12.263+08:00",
+      "timestampMethod": "Observed native publish click in Asia/Taipei; platform relative text separately recorded.",
+      "photoAttachments": [
+        {
+          "id": "1112712021504995",
+          "url": "https://www.facebook.com/photo/?fbid=1112712021504995"
+        }
+      ],
+      "publicPhotoScreenshot": "docs/social-posts/2026-11-08/evidence/facebook-study-abroad-published.png",
+      "articleUrl": "https://globalednews.com/study-abroad/bath-management-placement-year-course-choice/"
+    },
+    {
+      "platform": "threads",
+      "campaign": "news",
+      "id": "DfdKXKNk7V7",
+      "url": "https://www.threads.com/@ltuossdtw/post/DfdKXKNk7V7",
+      "publishedAt": "2026-11-08T05:36:24.199+08:00",
+      "verifiedAt": "2026-11-08T05:37:30.331+08:00",
+      "mediaVerifiedAt": "2026-11-08T05:37:30.331+08:00",
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/social-posts/2026-11-08/evidence/threads-news-published.png",
+      "publicTimeText": "1 分鐘",
+      "status": "PUBLISHED",
+      "visibility": "public",
+      "account": "ltuossdtw",
+      "accountVerified": true,
+      "method": "native-ui",
+      "network": "threads",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfdKXKNk7V7",
+      "imageCount": 1,
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-08T05:37:30.331+08:00",
+      "publishClickedAt": "2026-11-08T05:36:24.199+08:00",
+      "timestampMethod": "Observed native publish click in Asia/Taipei; platform relative text separately recorded.",
+      "articleUrl": "https://globalednews.com/news/canada-student-arrivals-target-2029-extension/"
+    },
+    {
+      "platform": "threads",
+      "campaign": "scholarship",
+      "id": "DfdKkZNE2Ea",
+      "url": "https://www.threads.com/@ltuossdtw/post/DfdKkZNE2Ea",
+      "publishedAt": "2026-11-08T05:38:12.065+08:00",
+      "verifiedAt": "2026-11-08T05:42:21.683+08:00",
+      "mediaVerifiedAt": "2026-11-08T05:42:21.683+08:00",
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/social-posts/2026-11-08/evidence/threads-scholarship-published.png",
+      "publicTimeText": "3分鐘前",
+      "status": "PUBLISHED",
+      "visibility": "public",
+      "account": "ltuossdtw",
+      "accountVerified": true,
+      "method": "native-ui",
+      "network": "threads",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfdKkZNE2Ea",
+      "imageCount": 1,
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-08T05:42:21.683+08:00",
+      "publishClickedAt": "2026-11-08T05:38:12.065+08:00",
+      "timestampMethod": "Observed native publish click in Asia/Taipei; platform relative text separately recorded.",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-11-bangor-deans-undergraduate/"
+    },
+    {
+      "platform": "linkedin",
+      "campaign": "news",
+      "id": "7524949308442460160",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7524949308442460160/",
+      "publishedAt": "2026-11-08T05:41:57.200+08:00",
+      "verifiedAt": "2026-11-08T05:43:03.358+08:00",
+      "mediaVerifiedAt": "2026-11-08T05:43:03.358+08:00",
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/social-posts/2026-11-08/evidence/linkedin-news-published.png",
+      "publicTimeText": "剛剛",
+      "status": "PUBLISHED",
+      "visibility": "public",
+      "account": "Peter Chen / peter-chen-26a754228",
+      "accountVerified": true,
+      "method": "native-ui",
+      "network": "linkedin",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7524949308442460160/",
+      "imageCount": 1,
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-08T05:43:03.358+08:00",
+      "publishClickedAt": "2026-11-08T05:41:57.200+08:00",
+      "timestampMethod": "Observed native publish click in Asia/Taipei; platform relative text separately recorded.",
+      "articleUrl": "https://globalednews.com/news/canada-student-arrivals-target-2029-extension/"
+    },
+    {
+      "platform": "threads",
+      "campaign": "study-abroad",
+      "id": "DfdLH77kzth",
+      "url": "https://www.threads.com/@ltuossdtw/post/DfdLH77kzth",
+      "publishedAt": "2026-11-08T05:43:03.358+08:00",
+      "verifiedAt": "2026-11-08T05:43:43.823+08:00",
+      "mediaVerifiedAt": "2026-11-08T05:43:43.823+08:00",
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/social-posts/2026-11-08/evidence/threads-study-abroad-published.png",
+      "publicTimeText": "1分鐘",
+      "status": "PUBLISHED",
+      "visibility": "public",
+      "account": "ltuossdtw",
+      "accountVerified": true,
+      "method": "native-ui",
+      "network": "threads",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfdLH77kzth",
+      "imageCount": 1,
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-08T05:43:43.823+08:00",
+      "publishClickedAt": "2026-11-08T05:43:03.358+08:00",
+      "timestampMethod": "Observed native publish click in Asia/Taipei; platform relative text separately recorded.",
+      "articleUrl": "https://globalednews.com/study-abroad/bath-management-placement-year-course-choice/"
+    },
+    {
+      "platform": "linkedin",
+      "campaign": "scholarship",
+      "id": "7524949900858490880",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7524949900858490880/",
+      "publishedAt": "2026-11-08T05:44:18.640+08:00",
+      "verifiedAt": "2026-11-08T05:45:04.819+08:00",
+      "mediaVerifiedAt": "2026-11-08T05:45:04.819+08:00",
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/social-posts/2026-11-08/evidence/linkedin-scholarship-published.png",
+      "publicTimeText": "剛剛",
+      "status": "PUBLISHED",
+      "visibility": "public",
+      "account": "Peter Chen / peter-chen-26a754228",
+      "accountVerified": true,
+      "method": "native-ui",
+      "network": "linkedin",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7524949900858490880/",
+      "imageCount": 1,
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-08T05:45:04.819+08:00",
+      "publishClickedAt": "2026-11-08T05:44:18.640+08:00",
+      "timestampMethod": "Observed native publish click in Asia/Taipei; platform relative text separately recorded.",
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-11-bangor-deans-undergraduate/"
+    },
+    {
+      "platform": "threads",
+      "campaign": "taiwan-universities",
+      "id": "DfdLSzbEyJl",
+      "url": "https://www.threads.com/@ltuossdtw/post/DfdLSzbEyJl",
+      "publishedAt": "2026-11-08T05:44:32.558+08:00",
+      "verifiedAt": "2026-11-08T05:45:33.373+08:00",
+      "mediaVerifiedAt": "2026-11-08T05:45:33.373+08:00",
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/social-posts/2026-11-08/evidence/threads-taiwan-universities-published.png",
+      "publicTimeText": "1分鐘",
+      "status": "PUBLISHED",
+      "visibility": "public",
+      "account": "ltuossdtw",
+      "accountVerified": true,
+      "method": "native-ui",
+      "network": "threads",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfdLSzbEyJl",
+      "imageCount": 1,
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-08T05:45:33.373+08:00",
+      "publishClickedAt": "2026-11-08T05:44:32.558+08:00",
+      "timestampMethod": "Observed native publish click in Asia/Taipei; platform relative text separately recorded.",
+      "articleUrl": "https://studyabroad.ntu.edu.tw/exchange-student/how-to-apply/"
+    },
+    {
+      "platform": "linkedin",
+      "campaign": "study-abroad",
+      "id": "7524950282498138112",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7524950282498138112/",
+      "publishedAt": "2026-11-08T05:45:49.320+08:00",
+      "verifiedAt": "2026-11-08T05:46:37.637+08:00",
+      "mediaVerifiedAt": "2026-11-08T05:46:37.637+08:00",
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/social-posts/2026-11-08/evidence/linkedin-study-abroad-published.png",
+      "publicTimeText": "剛剛",
+      "status": "PUBLISHED",
+      "visibility": "public",
+      "account": "Peter Chen / peter-chen-26a754228",
+      "accountVerified": true,
+      "method": "native-ui",
+      "network": "linkedin",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7524950282498138112/",
+      "imageCount": 1,
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-08T05:46:37.637+08:00",
+      "publishClickedAt": "2026-11-08T05:45:49.320+08:00",
+      "timestampMethod": "Observed native publish click in Asia/Taipei; platform relative text separately recorded.",
+      "articleUrl": "https://globalednews.com/study-abroad/bath-management-placement-year-course-choice/"
+    },
+    {
+      "platform": "linkedin",
+      "campaign": "taiwan-universities",
+      "id": "7524950802843602944",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7524950802843602944/",
+      "publishedAt": "2026-11-08T05:47:53.344+08:00",
+      "verifiedAt": "2026-11-08T05:53:42.800+08:00",
+      "mediaVerifiedAt": "2026-11-08T05:53:42.800+08:00",
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/social-posts/2026-11-08/evidence/linkedin-taiwan-universities-published.png",
+      "publicTimeText": "5分鐘",
+      "status": "PUBLISHED",
+      "visibility": "public",
+      "account": "Peter Chen / peter-chen-26a754228",
+      "accountVerified": true,
+      "method": "native-ui",
+      "network": "linkedin",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7524950802843602944/",
+      "imageCount": 1,
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-08T05:53:42.800+08:00",
+      "publishClickedAt": "2026-11-08T05:47:53.344+08:00",
+      "timestampMethod": "Observed native publish click in Asia/Taipei; platform relative text separately recorded.",
+      "articleUrl": "https://studyabroad.ntu.edu.tw/exchange-student/how-to-apply/"
+    }
+  ],
+  "gaps": [
+    "instagram/news",
+    "instagram/scholarship",
+    "instagram/study-abroad",
+    "instagram/taiwan-universities",
+    "archive deployment and live verification"
+  ],
+  "blockers": [
+    {
+      "platform": "instagram",
+      "account": "ltuossdtw",
+      "count": 4,
+      "type": "login-terms-action-time-confirmation",
+      "observedAt": "2026-11-08T05:53:42.801+08:00",
+      "evidence": "docs/social-posts/2026-11-08/evidence/instagram-login-terms-blocker.png",
+      "attempts": [
+        "Opened native Instagram profile and checked active account",
+        "Used native account switcher to select ltuossdtw",
+        "Used platform Reload after account-switch error",
+        "Reached logged-out Continue as ltuossdtw modal explicitly accepting Terms; action-time confirmation requested and unanswered"
+      ]
+    }
+  ],
+  "manualActions": [
+    "Confirm the displayed Instagram Terms acceptance for ltuossdtw, or complete its native login. No other manual publishing is required."
+  ],
   "newsPrepared": [
     {
       "slug": "canada-student-arrivals-target-2029-extension",
@@ -510,19 +1026,186 @@
       "https://www.businesstoday.com.tw/article/category/183035/post/202508150011/",
       "https://www.yuanfengmedia.tw/detail.php?type=lastest&id=52990"
     ],
-    "note": "All three native original pages read; archive dates2025-06-23,2025-08-15,2026-03-03 retained. BusinessToday is integrated-marketing content, not independent evidence. No copied media photos. SETN source blocked by browser safety, not bypassed; selected different articles from pool."
+    "note": "All three native original pages read; archive dates2025-06-23,2025-08-15,2026-03-03 retained. BusinessToday is integrated-marketing content, not independent evidence. No copied media photos. SETN source blocked by browser safety, not bypassed; selected different articles from pool.",
+    "publishedVerifiedAt": "2026-11-08T05:47:54.022+08:00"
   },
   "preparedAt": "2026-11-08T05:21:17.507676+08:00",
   "phaseCompleted": [
     "PREFLIGHT",
     "RESEARCH",
     "PREPARE",
-    "BUILD"
+    "BUILD",
+    "COMMIT_DEPLOY",
+    "ACCEPTANCE"
   ],
   "build": {
     "status": "passed",
     "verifiedAt": "2026-11-08T05:27:48.324606+08:00",
     "evidence": "docs/daily-checks/2026-11-08",
     "pagePairs": 928
+  },
+  "archiveRewritesPrepared": [
+    {
+      "slug": "us-cpt-lawsuit-court-status-october-13-2026",
+      "path": "src/pages/news/us-cpt-lawsuit-court-status-october-13-2026.md",
+      "url": "https://globalednews.com/news/us-cpt-lawsuit-court-status-october-13-2026/",
+      "sources": [
+        [
+          "AAU — filing and plaintiffs’ position",
+          "https://www.aau.edu/resource-library/aau-files-lawsuit-challenging-changes-to-the-curricular-practical-training-cpt-program-for-international-students"
+        ],
+        [
+          "Inside Higher Ed — independent reporting, October 8",
+          "https://www.insidehighered.com/news/students/careers/2026/10/08/higher-ed-groups-fight-intl-student-internship-restrictions"
+        ],
+        [
+          "CourtListener RECAP — docket and November 6 minute entry",
+          "https://www.courtlistener.com/docket/74919449/association-of-american-universities-v-us-department-of-homeland/"
+        ],
+        [
+          "Presidents’ Alliance — litigation documents and chronology",
+          "https://www.presidentsalliance.org/cpt-litigation/"
+        ]
+      ],
+      "bodyCjk": 1089
+    },
+    {
+      "slug": "uk-universities-tighten-international-offers-visa-compliance-2026",
+      "path": "src/pages/news/uk-universities-tighten-international-offers-visa-compliance-2026.md",
+      "url": "https://globalednews.com/news/uk-universities-tighten-international-offers-visa-compliance-2026/",
+      "sources": [
+        [
+          "UKVI — operational compliance guidance and phased thresholds",
+          "https://www.gov.uk/government/publications/student-sponsor-guidance/student-sponsor-compliance-accessible"
+        ],
+        [
+          "ICEF Monitor — independent analysis, May 27",
+          "https://monitor.icef.com/2026/05/uk-sponsored-study-visa-issuances-down-rejection-rates-up-and-more/"
+        ],
+        [
+          "Home Office — June 4 policy announcement",
+          "https://www.gov.uk/government/news/universities-face-ban-on-international-students-over-visa-abuse"
+        ],
+        [
+          "UKVI — publication revision history",
+          "https://www.gov.uk/government/publications/student-sponsor-guidance"
+        ]
+      ],
+      "bodyCjk": 1096
+    },
+    {
+      "slug": "australia-international-student-demand-below-allocations-2026",
+      "path": "src/pages/news/australia-international-student-demand-below-allocations-2026.md",
+      "url": "https://globalednews.com/news/australia-international-student-demand-below-allocations-2026/",
+      "sources": [
+        [
+          "Department of Education — 2026 indicative public-university allocations",
+          "https://www.education.gov.au/download/19711/factsheet-indicative-allocations-publicly-funded-university-new-overseas-student-commencements-2026/42976/document/pdf"
+        ],
+        [
+          "ABC — Adelaide international-student targets, September 25",
+          "https://www.abc.net.au/news/2026-09-25/adelaide-university-off-international-student-targets/107190580"
+        ],
+        [
+          "Julian Hill — official October 30 speech",
+          "https://ministers.education.gov.au/hill/2026-annual-conference-future-thinking-international-education-association-australia"
+        ],
+        [
+          "ABC — independent October 30 policy coverage",
+          "https://www.abc.net.au/news/2026-10-30/labor-moves-to-fix-student-visa-crackdown/107325422"
+        ]
+      ],
+      "bodyCjk": 1100
+    }
+  ],
+  "studyAbroadPublished": {
+    "slug": "bath-management-placement-year-course-choice",
+    "title": "Bath實習年選校練習：先看課程，再算多一年成本",
+    "url": "https://globalednews.com/study-abroad/bath-management-placement-year-course-choice/",
+    "publishedPath": "src/pages/study-abroad/bath-management-placement-year-course-choice.md",
+    "sources": [
+      {
+        "label": "Bath — official placement model",
+        "url": "https://www.bath.ac.uk/campaigns/improve-your-employability-with-a-school-of-management-work-placement/"
+      },
+      {
+        "label": "Surrey — comparative employer-selection guidance",
+        "url": "https://www.surrey.ac.uk/professional-training-placements/how-apply"
+      }
+    ],
+    "verifiedAt": "2026-11-08T05:21:17.369115+08:00",
+    "publishedVerifiedAt": "2026-11-08T05:30:39.423926+08:00"
+  },
+  "newFacebookPagePost": {
+    "platform": "facebook",
+    "campaign": "news",
+    "id": "122119866831505473",
+    "url": "https://www.facebook.com/photo/?fbid=122119865943505473",
+    "publishedAt": "2026-11-08T05:41:58.371+08:00",
+    "verifiedAt": "2026-11-08T05:42:53.597+08:00",
+    "mediaVerifiedAt": "2026-11-08T05:42:53.597+08:00",
+    "mediaKind": "uploaded-photo",
+    "mediaStatus": "VERIFIED",
+    "mediaEvidence": "docs/social-posts/2026-11-08/evidence/facebook-newpage-published.png",
+    "publicTimeText": "2026年11月8日 星期日上午5:42",
+    "status": "PUBLISHED",
+    "visibility": "public",
+    "account": "環球國際教育新聞網",
+    "accountVerified": true,
+    "method": "native-ui",
+    "pageId": "61595164194381",
+    "photoAttachedAt": "2026-11-08T05:38:23.449+08:00",
+    "copyAddedAt": "2026-11-08T05:41:25.641+08:00",
+    "photoReadyEvidence": "docs/social-posts/2026-11-08/evidence/facebook-newpage-photo-ready.png",
+    "photoId": "122119865943505473",
+    "network": "facebook",
+    "publicUrl": "https://www.facebook.com/photo/?fbid=122119865943505473",
+    "imageCount": 1,
+    "previewStatus": "VERIFIED",
+    "previewVerifiedAt": "2026-11-08T05:42:53.597+08:00",
+    "publishClickedAt": "2026-11-08T05:41:58.371+08:00",
+    "timestampMethod": "Observed native publish click in Asia/Taipei; platform relative text separately recorded.",
+    "photoAttachments": [
+      {
+        "id": "122119865943505473",
+        "url": "https://www.facebook.com/photo/?fbid=122119865943505473"
+      }
+    ],
+    "publicPhotoScreenshot": "docs/social-posts/2026-11-08/evidence/facebook-newpage-published.png",
+    "articleUrl": "https://globalednews.com/news/canada-student-arrivals-target-2029-extension/"
+  },
+  "deployment": {
+    "commit": "ec22747cf88146ef3c6c7c6ba1bb41337c5bd5f3",
+    "status": "success",
+    "verifiedAt": "2026-11-08T05:57:02.585118+08:00",
+    "runId": 42416002671,
+    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/42416002671",
+    "deployedAt": "2026-11-07T21:30:02Z",
+    "indexNowStatus": "success"
+  },
+  "acceptance": {
+    "desktop": true,
+    "mobile": true,
+    "seo": true,
+    "verifiedAt": "2026-11-08T05:47:54.022+08:00",
+    "uiEvidence": "docs/daily-checks/2026-11-08/live-ui-verification.json",
+    "seoEvidence": "docs/daily-reports/2026-11-08-live-seo.json",
+    "mobileViewport": "390x843 CSS px",
+    "images": true,
+    "searchFilters": true,
+    "canonical": true,
+    "openGraph": true,
+    "schema": true,
+    "sitemap": true,
+    "newsSitemap": true,
+    "rss": true
+  },
+  "lastVerifiedAt": "2026-11-08T05:57:02.585625+08:00",
+  "verification": {
+    "status": "INCOMPLETE",
+    "exitCode": 1,
+    "verifiedAt": "2026-11-08T05:57:02.776960+08:00",
+    "output": "INCOMPLETE 2026-11-08: news/instagram: expected one verified published post, got 0\nINCOMPLETE 2026-11-08: scholarship/instagram: expected one verified published post, got 0\nINCOMPLETE 2026-11-08: study-abroad/instagram: expected one verified published post, got 0\nINCOMPLETE 2026-11-08: taiwan-universities/instagram: expected one verified published post, got 0\n",
+    "evidence": "docs/daily-checks/2026-11-08/daily-verification.json"
   }
 }
