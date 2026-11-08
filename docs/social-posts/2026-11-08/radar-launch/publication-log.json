@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-08",
+  "account": "ltuossdtw",
+  "topic": "獎學金",
+  "status": "COMPLETE",
+  "posts": [
+    {
+      "part": 1,
+      "id": "Dfd9QxVgbft",
+      "url": "https://www.threads.com/@ltuossdtw/post/Dfd9QxVgbft",
+      "publishedAt": "2026-11-08T13:01:12.0000000+08:00",
+      "account": "ltuossdtw",
+      "topic": "獎學金",
+      "status": "PUBLISHED",
+      "readback": "VERIFIED",
+      "visibility": "PUBLIC",
+      "mediaType": "uploaded-photo",
+      "imageVisible": true,
+      "readbackEvidence": "readback.txt",
+      "screenshot": "published-main.jpg",
+      "readbackAt": "2026-11-08T13:04:15.1932387+08:00"
+    },
+    {
+      "part": 2,
+      "id": "Dfd9RSrAZZb",
+      "url": "https://www.threads.com/@ltuossdtw/post/Dfd9RSrAZZb",
+      "publishedAt": "2026-11-08T13:01:17.0000000+08:00",
+      "account": "ltuossdtw",
+      "topic": "獎學金",
+      "status": "PUBLISHED",
+      "readback": "VERIFIED",
+      "visibility": "PUBLIC",
+      "mediaType": "link-preview",
+      "imageVisible": true,
+      "readbackEvidence": "readback.txt",
+      "screenshot": "published-replies.jpg",
+      "readbackAt": "2026-11-08T13:04:15.1932387+08:00"
+    },
+    {
+      "part": 3,
+      "id": "Dfd9RptgRCK",
+      "url": "https://www.threads.com/@ltuossdtw/post/Dfd9RptgRCK",
+      "publishedAt": "2026-11-08T13:01:19.0000000+08:00",
+      "account": "ltuossdtw",
+      "topic": "獎學金",
+      "status": "PUBLISHED",
+      "readback": "VERIFIED",
+      "visibility": "PUBLIC",
+      "mediaType": "link-preview",
+      "imageVisible": true,
+      "readbackEvidence": "readback.txt",
+      "screenshot": "published-replies.jpg",
+      "readbackAt": "2026-11-08T13:04:15.1932387+08:00"
+    },
+    {
+      "part": 4,
+      "id": "Dfd9SE8gdg2",
+      "url": "https://www.threads.com/@ltuossdtw/post/Dfd9SE8gdg2",
+      "publishedAt": "2026-11-08T13:01:23.0000000+08:00",
+      "account": "ltuossdtw",
+      "topic": "獎學金",
+      "status": "PUBLISHED",
+      "readback": "VERIFIED",
+      "visibility": "PUBLIC",
+      "mediaType": "link-preview",
+      "imageVisible": true,
+      "readbackEvidence": "readback.txt",
+      "screenshot": "published-replies.jpg",
+      "readbackAt": "2026-11-08T13:04:15.1932387+08:00"
+    }
+  ],
+  "preparedAt": "2026-11-08T12:36:15.1870000+08:00",
+  "screenshotCapturedAt": "2026-11-08T12:33:06+08:00",
+  "screenshotUrl": "https://globalednews.com/scholarships/",
+  "screenshotCount": 260,
+  "image": "radar-latest-260.jpg",
+  "authorization": "User explicitly authorized one new reader-first Threads series today; logout/switch to ltuossdtw separately approved. User subsequently expressly approved Continue and displayed Threads/Meta terms; login completed as ltuossdtw.",
+  "blocker": null,
+  "duplicatePrevention": {
+    "excludedScholarship": "DfdKkZNE2Ea",
+    "excludedNews": "DfdKXKNk7V7",
+    "daily16Untouched": true
+  },
+  "selectedArticles": [
+    "2026-11-bangor-deans-research-2026-27",
+    "2026-11-bangor-heads-school-research-2026-27",
+    "korea-regional-national-universities-tuition-plan-2027"
+  ],
+  "completedAt": "2026-11-08T13:04:15.1932387+08:00",
+  "publishClickedAt": "2026-11-08T13:01:09.4970000+08:00"
+}

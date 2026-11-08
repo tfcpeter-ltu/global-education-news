@@ -1,0 +1,295 @@
+- navigation:
+  - link "Threads":
+    - /url: /
+    - img "Threads"
+  - button "更多":
+    - img "更多"
+  - link "為你推薦":
+    - /url: /
+    - generic: 為你推薦
+  - button "新串文":
+    - generic: 新串文
+  - link "搜尋 搜尋":
+    - /url: /search
+    - img "搜尋"
+    - generic: 搜尋
+  - link "訊息 訊息":
+    - /url: /messages/
+    - img "訊息"
+    - generic: 訊息
+  - link "通知 動態":
+    - /url: /activity
+    - img "通知"
+    - generic: 動態
+  - link "個人檔案 個人檔案":
+    - /url: /@ltuossdtw
+    - img "個人檔案"
+    - generic: 個人檔案
+  - link "洞察報告 洞察報告":
+    - /url: /insights/
+    - img "洞察報告"
+    - generic: 洞察報告
+  - generic: 探索社群
+  - link "Taiwan":
+    - /url: /search?q=taiwan&serp_type=tags&tag_id=18370641160076663
+    - generic: Taiwan
+  - link "Tech Threads":
+    - /url: /search?q=techthreads&serp_type=tags&tag_id=18385410463067787
+    - generic: Tech Threads
+  - link "AI Threads":
+    - /url: /search?q=aithreads&serp_type=tags&tag_id=18399895213044171
+    - generic: AI Threads
+  - link "顯示更多":
+    - /url: /communities/
+    - generic: 顯示更多
+  - generic: 其他動態消息
+  - button "編輯動態消息":
+    - generic: 編輯
+  - link "追蹤中":
+    - /url: /following/
+    - generic: 追蹤中
+  - link "已儲存 已儲存":
+    - /url: /saved/
+    - img "已儲存"
+    - generic: 已儲存
+  - link "已說讚 已說讚":
+    - /url: /liked/
+    - img "已說讚"
+    - generic: 已說讚
+  - button "顯示更多":
+    - generic: 顯示更多
+- button "返回":
+  - img "返回"
+- link "直欄標題":
+  - /url: /@ltuossdtw/post/Dfd9QxVgbft
+  - heading "串文" [level=1]:
+    - generic: 串文
+- button "3次瀏覽":
+  - text: 3次瀏覽
+- button "通知設定":
+  - img "通知設定"
+- button "更多":
+  - img "更多"
+- region "直欄內文":
+  - link "ltuossdtw的大頭貼照":
+    - /url: /@ltuossdtw
+    - img "ltuossdtw的大頭貼照"
+  - link "ltuossdtw":
+    - /url: /@ltuossdtw
+    - generic: ltuossdtw
+  - link "獎學金":
+    - /url: /search?q=%E7%8D%8E%E5%AD%B8%E9%87%91&serp_type=tags&tag_id=18430439218010302
+    - generic: 獎學金
+  - link "約 1 分鐘前":
+    - /url: /@ltuossdtw/post/Dfd9QxVgbft
+    - time:
+      - generic "約 1 分鐘前": 1分鐘
+  - button "更多":
+    - img "更多"
+  - generic: 台灣學生國際獎學金雷達 🎓 想出國念大學或研究所，卻不知道哪裡找獎學金？
+  - generic: 環球教育新聞把各國政府、大學與基金會的獎學金集中整理，目前已有 260 筆資料，讓台灣學生與家長不用從零開始找。
+  - generic: 能補助多少？自己能不能申請？什麼時候截止？ 依國家、學位與申請狀態查找，就能查看資格、期限及官方來源。
+  - generic: 這是免費開放、具公益性質的教育資訊整理。各獎項開放時間不同，請確認當期狀態與官方條件。
+  - text: 先收藏這個免費入口：
+  - link "globalednews.com/schol…":
+    - /url: https://l.threads.com/?u=https%3A%2F%2Fglobalednews.com%2Fscholarships%2F&e=AUCJTW9z19E5omDesAiyjQxpgEqWBCyp9h3eTGrGlyGbzWUVlnriUa5A7ucjfmC_dJiVe3n4dbRg_HJIjAI83JYycDmy6ogXQYMcm2hpFIhJ3-hmjvmZsnUZ0lQWvbHsYlW2NvI
+  - text: 下面接今天新增的獎學金，以及最新國際教育新聞 ↓
+  - generic: "1"
+  - generic: /
+  - generic: "4"
+  - link "Photo by LTU 布萊斯OSSD 台加雙聯學制 on November 07, 2026. 可能是海報和文字的塗鴉.":
+    - /url: /@ltuossdtw/post/Dfd9QxVgbft/media
+    - img "Photo by LTU 布萊斯OSSD 台加雙聯學制 on November 07, 2026. 可能是海報和文字的塗鴉."
+  - button "讚":
+    - img "讚"
+  - button "已回覆 3":
+    - img "已回覆"
+    - generic: "3"
+  - button "轉發":
+    - img "轉發"
+  - button "分享":
+    - img "分享"
+  - link "查看洞察報告":
+    - /url: /insights/post/Dfd9QxVgbft
+    - img "查看洞察報告"
+  - button "排序 熱門 更多":
+    - img "排序"
+    - generic: 熱門
+    - img "更多"
+  - button "篩選 全部 更多":
+    - img "篩選"
+    - generic: 全部
+    - img "更多"
+  - button "查看動態 查看動態":
+    - text: 查看動態
+    - img "查看動態"
+  - img "ltuossdtw的大頭貼照"
+  - textbox "文字欄位空白。請輸入內容以撰寫新貼文。" [active]:
+    - paragraph
+  - generic: 回覆ltuossdtw……
+  - button "附加影音內容":
+  - button "新增 GIF":
+  - button "展開撰寫工具":
+  - link "ltuossdtw的大頭貼照":
+    - /url: /@ltuossdtw
+    - img "ltuossdtw的大頭貼照"
+  - link "ltuossdtw":
+    - /url: /@ltuossdtw
+    - generic: ltuossdtw
+  - link "獎學金":
+    - /url: /search?q=%E7%8D%8E%E5%AD%B8%E9%87%91&serp_type=tags&tag_id=18430439218010302
+    - generic: 獎學金
+  - link "約 1 分鐘前":
+    - /url: /@ltuossdtw/post/Dfd9RSrAZZb
+    - time:
+      - generic "約 1 分鐘前": 1分鐘
+  - button "更多":
+    - img "更多"
+  - generic: 11/8 最新獎學金消息①｜想去英國讀研究碩士或博士，可以先看這項學費減免。
+  - generic: Bangor 大學 Deans 研究獎學金：減免 20% 學費，最長三年或兼讀等值期間。
+  - generic: 台灣學生可依國際生資格接受評估；限 2026/27 入學，須達英國一等學位或碩士優等同等成績。完全由第三方資助者不適用，續領須符合學業進度。
+  - generic: 沒有獨立獎項截止日，隨研究課程申請評估；須確認導師及入學時間，並非申請就保證獲獎。
+  - text: 資格與官方來源：
+  - link "globalednews.com/schol…":
+    - /url: https://l.threads.com/?u=https%3A%2F%2Fglobalednews.com%2Fscholarships%2Fitems%2F2026-11-bangor-deans-research-2026-27%2F&e=AUCJTW9z19E5omDesAiyjQxpgEqWBCyp9h3eTGrGlyGbzWUVlnriUa5A7ucjfmC_dJiVe3n4dbRg_HJIjAI83JYycDmy6ogXQYMcm2hpFIhJ3-hmjvmZsnUZ0lQWvbHsYlW2NvI
+  - generic: "2"
+  - generic: /
+  - generic: "4"
+  - link "Bangor研究型Deans獎學金：學費減免20%｜國際獎學金雷達 globalednews.com Bangor研究型Deans獎學金：學費減免20%｜國際獎學金雷達":
+    - /url: https://l.threads.com/?u=https%3A%2F%2Fglobalednews.com%2Fscholarships%2Fitems%2F2026-11-bangor-deans-research-2026-27%2F&e=AUBsVEz6oI2lhD6EoeIJ59O4yAxFWv1VLhnL-k0oBkUqMEftuzgE9Vdd4xAcDJ7EGJjtYVHUCB8Zygwu6w7YUcYGrL6bhKwVMPQ6cIXxCEyD83PsJEtd51u-Vupowkri_Onh3uk
+    - img "Bangor研究型Deans獎學金：學費減免20%｜國際獎學金雷達"
+    - generic: globalednews.com
+    - generic: Bangor研究型Deans獎學金：學費減免20%｜國際獎學金雷達
+  - button "讚":
+    - img "讚"
+  - button "已回覆 1":
+    - img "已回覆"
+    - generic: "1"
+  - button "轉發":
+    - img "轉發"
+  - button "分享":
+    - img "分享"
+  - link "ltuossdtw的大頭貼照":
+    - /url: /@ltuossdtw
+    - img "ltuossdtw的大頭貼照"
+  - link "ltuossdtw":
+    - /url: /@ltuossdtw
+    - generic: ltuossdtw
+  - link "獎學金":
+    - /url: /search?q=%E7%8D%8E%E5%AD%B8%E9%87%91&serp_type=tags&tag_id=18430439218010302
+    - generic: 獎學金
+  - link "約 1 分鐘前":
+    - /url: /@ltuossdtw/post/Dfd9RptgRCK
+    - time:
+      - generic "約 1 分鐘前": 1分鐘
+  - button "更多":
+    - img "更多"
+  - generic: 11/8 最新獎學金消息②｜研究所成績未達前一項門檻，也可以了解另一個評估管道。
+  - generic: Bangor 大學 Heads of School 研究獎學金：減免 10% 學費。
+  - generic: 限 2026/27 入學，供學院評估值得錄取、未達一等學位或碩士優等門檻的國際申請者；須為自費或部分資助、繳國際生學費。台灣學生仍須符合課程與個別資格。
+  - generic: 隨研究課程申請評估，未另列獎項截止；最長三年或兼讀等值期間，續領須符合學業進度。不能把不同獎項直接相加。
+  - text: 資格與官方來源：
+  - link "globalednews.com/schol…":
+    - /url: https://l.threads.com/?u=https%3A%2F%2Fglobalednews.com%2Fscholarships%2Fitems%2F2026-11-bangor-heads-school-research-2026-27%2F&e=AUCJTW9z19E5omDesAiyjQxpgEqWBCyp9h3eTGrGlyGbzWUVlnriUa5A7ucjfmC_dJiVe3n4dbRg_HJIjAI83JYycDmy6ogXQYMcm2hpFIhJ3-hmjvmZsnUZ0lQWvbHsYlW2NvI
+  - generic: "3"
+  - generic: /
+  - generic: "4"
+  - link "Bangor Heads of School研究獎學金：學費減免10%｜國際獎學金雷達 globalednews.com Bangor Heads of School研究獎學金：學費減免10%｜國際獎學金雷達":
+    - /url: https://l.threads.com/?u=https%3A%2F%2Fglobalednews.com%2Fscholarships%2Fitems%2F2026-11-bangor-heads-school-research-2026-27%2F&e=AUDxha6onRtehKTjdssKhqpsMYn6-HMpIFWzntHNWScNE-rpTVadn_L3My1qQ6EGWfVkNNqofFh_XD40CZ3hfNkAPRTsJVApafkZ1Dv6aOpPeeZcU8NSAGJA6AoffDWJJJI08WA
+    - img "Bangor Heads of School研究獎學金：學費減免10%｜國際獎學金雷達"
+    - generic: globalednews.com
+    - generic: Bangor Heads of School研究獎學金：學費減免10%｜國際獎學金雷達
+  - button "讚":
+    - img "讚"
+  - button "已回覆 1":
+    - img "已回覆"
+    - generic: "1"
+  - button "轉發":
+    - img "轉發"
+  - button "分享":
+    - img "分享"
+  - link "ltuossdtw的大頭貼照":
+    - /url: /@ltuossdtw
+    - img "ltuossdtw的大頭貼照"
+  - link "ltuossdtw":
+    - /url: /@ltuossdtw
+    - generic: ltuossdtw
+  - link "獎學金":
+    - /url: /search?q=%E7%8D%8E%E5%AD%B8%E9%87%91&serp_type=tags&tag_id=18430439218010302
+    - generic: 獎學金
+  - link "約 1 分鐘前":
+    - /url: /@ltuossdtw/post/Dfd9SE8gdg2
+    - time:
+      - generic "約 1 分鐘前": 1分鐘
+  - button "更多":
+    - img "更多"
+  - generic: 最新環球教育新聞｜韓國大學免學費，台灣學生也能適用嗎？
+  - generic: 韓國規劃從 2027 年起，先為 30 所地方國立大學的新生提供學費支持。但這項本國生方案，不能直接當成台灣學生可領的獎學金。
+  - text: 準備韓國留學，除了費用，也要查清授課語言、住宿與國際生支持。看懂政策，再做選校決定：
+  - link "globalednews.com/news…":
+    - /url: https://l.threads.com/?u=https%3A%2F%2Fglobalednews.com%2Fnews%2Fkorea-regional-national-universities-tuition-plan-2027%2F&e=AUCJTW9z19E5omDesAiyjQxpgEqWBCyp9h3eTGrGlyGbzWUVlnriUa5A7ucjfmC_dJiVe3n4dbRg_HJIjAI83JYycDmy6ogXQYMcm2hpFIhJ3-hmjvmZsnUZ0lQWvbHsYlW2NvI
+  - text: 歡迎追蹤環球教育新聞，免費加入會員。 每週一封，送上最新國際教育新聞與新增獎學金摘要、申請重點及連結：
+  - link "globalednews.com/newsl…":
+    - /url: https://l.threads.com/?u=https%3A%2F%2Fglobalednews.com%2Fnewsletter%2F&e=AUCJTW9z19E5omDesAiyjQxpgEqWBCyp9h3eTGrGlyGbzWUVlnriUa5A7ucjfmC_dJiVe3n4dbRg_HJIjAI83JYycDmy6ogXQYMcm2hpFIhJ3-hmjvmZsnUZ0lQWvbHsYlW2NvI
+  - generic: "4"
+  - generic: /
+  - generic: "4"
+  - link "Global Education Weekly｜國際教育週報 globalednews.com Global Education Weekly｜國際教育週報":
+    - /url: https://l.threads.com/?u=https%3A%2F%2Fglobalednews.com%2Fnewsletter%2F&e=AUC3mOuM17_un_CTkFLczHy_cWi2O2oTpS8TKgyFcVV-msS7kq8n5nVNdTal1-pfgSIMLgUVtOyDecOfIDX48bcEErlNoX2ls_tvBJAusJCftBT9YfdgN9SkyPD98KFN_gtcprs
+    - img "Global Education Weekly｜國際教育週報"
+    - generic: globalednews.com
+    - generic: Global Education Weekly｜國際教育週報
+  - button "讚":
+    - img "讚"
+  - button "回覆":
+    - img "回覆"
+  - button "轉發":
+    - img "轉發"
+  - button "分享":
+    - img "分享"
+- img "搜尋"
+- searchbox "搜尋"
+- region "洞察報告":
+  - link "洞察報告":
+    - /url: /insights/post/Dfd9QxVgbft
+    - generic: 洞察報告
+  - button "只有你能看到此內容":
+    - img "只有你能看到此內容"
+  - generic: 瀏覽次數
+  - generic: "3"
+  - generic: 較低
+  - generic: 瀏覽人數
+  - generic: "0"
+  - generic: 個人檔案瀏覽次數
+  - generic: "0"
+  - generic: 一般
+  - generic: 追蹤次數
+  - generic: "0"
+  - generic: 一般
+  - generic: 長期瀏覽次數
+  - button "只有你能看到此內容":
+    - img "只有你能看到此內容"
+  - button "篩選觀看者：全部":
+    - generic: 全部
+  - button "自發佈起":
+    - generic: 自發佈起
+  - status
+  - generic: 這則貼文
+  - generic: 你的一般貼文
+  - link "查看所有洞察報告":
+    - /url: /insights/post/Dfd9QxVgbft
+    - generic: 查看所有洞察報告
+- contentinfo:
+  - list:
+    - generic: © 2026
+    - link "《Threads 使用條款》":
+      - /url: https://help.instagram.com/769983657850450
+    - link "《隱私政策》":
+      - /url: https://help.instagram.com/515230437301944
+    - link "《Cookie 政策》":
+      - /url: https://help.instagram.com/1896641480634370/
+- button
+- img "Monica"
+- generic: Ctrl+M
+- text: 解釋
+- list

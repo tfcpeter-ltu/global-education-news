@@ -2,7 +2,7 @@
   "date": "2026-11-08",
   "account": "ltuossdtw",
   "topic": "獎學金",
-  "status": "PREPARED",
+  "status": "PUBLISHED",
   "image": "radar-latest-260.jpg",
   "count": 260,
   "parts": [
@@ -14,5 +14,6 @@
   "excludedAlreadyPublished": [
     "DfdKkZNE2Ea",
     "DfdKXKNk7V7"
-  ]
+  ],
+  "publicationLog": "publication-log.json"
 }
