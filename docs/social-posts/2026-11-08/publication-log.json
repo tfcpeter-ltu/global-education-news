@@ -357,26 +357,111 @@
       "publishClickedAt": "2026-11-08T05:47:53.344+08:00",
       "timestampMethod": "Observed native publish click in Asia/Taipei; platform relative text separately recorded.",
       "articleUrl": "https://studyabroad.ntu.edu.tw/exchange-student/how-to-apply/"
-    }
-  ],
-  "status": "BLOCKED",
-  "blockers": [
+    },
     {
       "platform": "instagram",
+      "network": "instagram",
+      "campaign": "news",
       "account": "ltuossdtw",
-      "count": 4,
-      "type": "login-terms-action-time-confirmation",
-      "observedAt": "2026-11-08T05:53:42.801+08:00",
-      "evidence": "docs/social-posts/2026-11-08/evidence/instagram-login-terms-blocker.png",
-      "attempts": [
-        "Opened native Instagram profile and checked active account",
-        "Used native account switcher to select ltuossdtw",
-        "Used platform Reload after account-switch error",
-        "Reached logged-out Continue as ltuossdtw modal explicitly accepting Terms; action-time confirmation requested and unanswered"
-      ]
+      "accountVerified": true,
+      "id": "DfdvqHQozs7",
+      "url": "https://www.instagram.com/p/DfdvqHQozs7/",
+      "publicUrl": "https://www.instagram.com/p/DfdvqHQozs7/",
+      "publishedAt": "2026-11-08T11:02:14.674+08:00",
+      "verifiedAt": "2026-11-08T11:03:02+08:00",
+      "mediaVerifiedAt": "2026-11-08T11:03:02+08:00",
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/social-posts/2026-11-08/evidence/instagram-news-published.png",
+      "status": "PUBLISHED",
+      "visibility": "public",
+      "imageCount": 1,
+      "method": "native-ui",
+      "publicTimeText": "29秒前",
+      "threadsAutoShare": false,
+      "articleUrl": "https://globalednews.com/news/canada-student-arrivals-target-2029-extension/",
+      "publishClickedAt": "2026-11-08T11:02:14.674+08:00",
+      "timestampMethod": "Observed native publish click, Asia/Taipei; native relative label retained separately"
+    },
+    {
+      "platform": "instagram",
+      "network": "instagram",
+      "campaign": "scholarship",
+      "account": "ltuossdtw",
+      "accountVerified": true,
+      "id": "Dfdv1jiIycc",
+      "url": "https://www.instagram.com/p/Dfdv1jiIycc/",
+      "publicUrl": "https://www.instagram.com/p/Dfdv1jiIycc/",
+      "publishedAt": "2026-11-08T11:03:48.424+08:00",
+      "verifiedAt": "2026-11-08T11:04:28+08:00",
+      "mediaVerifiedAt": "2026-11-08T11:04:28+08:00",
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/social-posts/2026-11-08/evidence/instagram-scholarship-published.png",
+      "status": "PUBLISHED",
+      "visibility": "public",
+      "imageCount": 1,
+      "method": "native-ui",
+      "publicTimeText": "25秒前",
+      "threadsAutoShare": false,
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-11-bangor-deans-undergraduate/",
+      "publishClickedAt": "2026-11-08T11:03:48.424+08:00",
+      "timestampMethod": "Observed native publish click, Asia/Taipei; native relative label retained separately"
+    },
+    {
+      "platform": "instagram",
+      "network": "instagram",
+      "campaign": "study-abroad",
+      "account": "ltuossdtw",
+      "accountVerified": true,
+      "id": "Dfdv9Qpo9Ef",
+      "url": "https://www.instagram.com/p/Dfdv9Qpo9Ef/",
+      "publicUrl": "https://www.instagram.com/p/Dfdv9Qpo9Ef/",
+      "publishedAt": "2026-11-08T11:04:52.075+08:00",
+      "verifiedAt": "2026-11-08T11:05:41+08:00",
+      "mediaVerifiedAt": "2026-11-08T11:05:41+08:00",
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/social-posts/2026-11-08/evidence/instagram-study-abroad-published.png",
+      "status": "PUBLISHED",
+      "visibility": "public",
+      "imageCount": 1,
+      "method": "native-ui",
+      "publicTimeText": "34秒前",
+      "threadsAutoShare": false,
+      "articleUrl": "https://globalednews.com/study-abroad/bath-management-placement-year-course-choice/",
+      "publishClickedAt": "2026-11-08T11:04:52.075+08:00",
+      "timestampMethod": "Observed native publish click, Asia/Taipei; native relative label retained separately"
+    },
+    {
+      "platform": "instagram",
+      "network": "instagram",
+      "campaign": "taiwan-universities",
+      "account": "ltuossdtw",
+      "accountVerified": true,
+      "id": "DfdwGf6IzGr",
+      "url": "https://www.instagram.com/p/DfdwGf6IzGr/",
+      "publicUrl": "https://www.instagram.com/p/DfdwGf6IzGr/",
+      "publishedAt": "2026-11-08T11:06:08.065+08:00",
+      "verifiedAt": "2026-11-08T11:07:02+08:00",
+      "mediaVerifiedAt": "2026-11-08T11:07:02+08:00",
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/social-posts/2026-11-08/evidence/instagram-taiwan-universities-published.png",
+      "status": "PUBLISHED",
+      "visibility": "public",
+      "imageCount": 1,
+      "method": "native-ui",
+      "publicTimeText": "36秒前",
+      "threadsAutoShare": false,
+      "articleUrl": "https://studyabroad.ntu.edu.tw/exchange-student/how-to-apply/",
+      "publishClickedAt": "2026-11-08T11:06:08.065+08:00",
+      "timestampMethod": "Observed native publish click, Asia/Taipei; native relative label retained separately"
     }
   ],
-  "regularPostCount": 11,
+  "status": "COMPLETE",
+  "blockers": [],
+  "regularPostCount": 15,
   "newFacebookPagePost": {
     "platform": "facebook",
     "campaign": "news",
@@ -416,7 +501,7 @@
     "articleUrl": "https://globalednews.com/news/canada-student-arrivals-target-2029-extension/"
   },
   "allNativeUi": true,
-  "updatedAt": "2026-11-08T06:00:43.145961+08:00",
+  "updatedAt": "2026-11-08T11:07:27+08:00",
   "report0800": {
     "checkedAt": "2026-11-08T07:59:52+08:00",
     "slot": "08:00",
@@ -434,5 +519,26 @@
     "evidence": "docs/social-posts/2026-11-08/evidence/instagram-login-0800-blocker.png",
     "unaffectedWork": "Website, deployment, acceptance and 12 published photo posts retained; all 12 screenshot files exist.",
     "action": "Action-time confirmation requested; native tab preserved. No republishing or new automation."
+  },
+  "blockerHistory": [
+    {
+      "platform": "instagram",
+      "account": "ltuossdtw",
+      "count": 4,
+      "type": "login-terms-action-time-confirmation",
+      "observedAt": "2026-11-08T05:53:42.801+08:00",
+      "evidence": "docs/social-posts/2026-11-08/evidence/instagram-login-terms-blocker.png",
+      "attempts": [
+        "Opened native Instagram profile and checked active account",
+        "Used native account switcher to select ltuossdtw",
+        "Used platform Reload after account-switch error",
+        "Reached logged-out Continue as ltuossdtw modal explicitly accepting Terms; action-time confirmation requested and unanswered"
+      ]
+    }
+  ],
+  "loginResolution": {
+    "at": "2026-11-08T11:07:27+08:00",
+    "userConsentReceived": true,
+    "note": "User approved Continue as ltuossdtw. Fresh native tab had active account session; switched from uwebristoltaiwan to ltuossdtw successfully. Four posts published with Threads auto-share off."
   }
 }

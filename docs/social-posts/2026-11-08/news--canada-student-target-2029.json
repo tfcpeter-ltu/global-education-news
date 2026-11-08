@@ -2,7 +2,7 @@
   "date": "2026-11-08",
   "version": "v1",
   "copyVersion": "2026-11-08-v1",
-  "status": "partial",
+  "status": "published",
   "campaign": "news",
   "articleTitle": "加拿大15萬留學生目標，延至2029",
   "articleUrl": "https://globalednews.com/news/canada-student-arrivals-target-2029-extension/",
@@ -112,6 +112,31 @@
       "publishClickedAt": "2026-11-08T05:41:57.200+08:00",
       "timestampMethod": "Observed native publish click in Asia/Taipei; platform relative text separately recorded.",
       "articleUrl": "https://globalednews.com/news/canada-student-arrivals-target-2029-extension/"
+    },
+    {
+      "platform": "instagram",
+      "network": "instagram",
+      "campaign": "news",
+      "account": "ltuossdtw",
+      "accountVerified": true,
+      "id": "DfdvqHQozs7",
+      "url": "https://www.instagram.com/p/DfdvqHQozs7/",
+      "publicUrl": "https://www.instagram.com/p/DfdvqHQozs7/",
+      "publishedAt": "2026-11-08T11:02:14.674+08:00",
+      "verifiedAt": "2026-11-08T11:03:02+08:00",
+      "mediaVerifiedAt": "2026-11-08T11:03:02+08:00",
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/social-posts/2026-11-08/evidence/instagram-news-published.png",
+      "status": "PUBLISHED",
+      "visibility": "public",
+      "imageCount": 1,
+      "method": "native-ui",
+      "publicTimeText": "29秒前",
+      "threadsAutoShare": false,
+      "articleUrl": "https://globalednews.com/news/canada-student-arrivals-target-2029-extension/",
+      "publishClickedAt": "2026-11-08T11:02:14.674+08:00",
+      "timestampMethod": "Observed native publish click, Asia/Taipei; native relative label retained separately"
     }
   ],
   "facebookCopy": "加拿大15萬留學生目標，延至2029\n年度數字維持；規劃時間延長。\n\n11月5日公布的計畫維持每年最多15萬名新國際學生抵達目標。這不是每年新增15萬名額，也不是個人錄取或許可保證。\n\n學校錄取、許可與實際抵達分開確認。照片為渥太華國會資料照。\n國際教育新聞：https://globalednews.com/news/\n全文：https://globalednews.com/news/canada-student-arrivals-target-2029-extension/\n\n和正在規劃升學的家人一起核對條件。\n免費加入環球教育新聞會員！\n每週教育新聞與申請提醒，免費且可隨時取消。\nhttps://globalednews.com/newsletter/\n資料照：Saffron Blaze / CC BY-SA 3.0；裁切加字。\nhttps://globalednews.com/images/daily/2026-11-08/credits.html#ca",
@@ -209,11 +234,33 @@
       "publishClickedAt": "2026-11-08T05:41:57.200+08:00",
       "timestampMethod": "Observed native publish click in Asia/Taipei; platform relative text separately recorded.",
       "articleUrl": "https://globalednews.com/news/canada-student-arrivals-target-2029-extension/"
+    },
+    {
+      "platform": "instagram",
+      "network": "instagram",
+      "campaign": "news",
+      "account": "ltuossdtw",
+      "accountVerified": true,
+      "id": "DfdvqHQozs7",
+      "url": "https://www.instagram.com/p/DfdvqHQozs7/",
+      "publicUrl": "https://www.instagram.com/p/DfdvqHQozs7/",
+      "publishedAt": "2026-11-08T11:02:14.674+08:00",
+      "verifiedAt": "2026-11-08T11:03:02+08:00",
+      "mediaVerifiedAt": "2026-11-08T11:03:02+08:00",
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/social-posts/2026-11-08/evidence/instagram-news-published.png",
+      "status": "PUBLISHED",
+      "visibility": "public",
+      "imageCount": 1,
+      "method": "native-ui",
+      "publicTimeText": "29秒前",
+      "threadsAutoShare": false,
+      "articleUrl": "https://globalednews.com/news/canada-student-arrivals-target-2029-extension/",
+      "publishClickedAt": "2026-11-08T11:02:14.674+08:00",
+      "timestampMethod": "Observed native publish click, Asia/Taipei; native relative label retained separately"
     }
   ],
-  "remainingPlatforms": [
-    "instagram"
-  ],
-  "blocker": "Native Instagram login explicitly requires Terms acceptance; action-time confirmation requested, pending.",
+  "remainingPlatforms": [],
   "publishedAt": "2026-11-08T05:30:52.249+08:00"
 }

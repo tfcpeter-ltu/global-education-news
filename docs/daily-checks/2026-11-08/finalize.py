@@ -4,6 +4,9 @@ def read(p):return json.loads((R/p).read_text(encoding='utf-8-sig'))
 def write(p,d):(R/p).write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
 now=lambda:datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).isoformat()
 r=read(f'docs/daily-reports/{D}.json');log=read(f'docs/social-posts/{D}/publication-log.json');seo=read(f'docs/daily-reports/{D}-live-seo.json');ui=read(f'{B}/live-ui-verification.json');dep=read(f'{B}/deployment-success.json')
+if r.get('status')=='completed':
+ result=subprocess.run([r'C:/Users/User/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node.exe','scripts/verify-daily-delivery.mjs',D])
+ raise SystemExit(result.returncode)
 packs={}
 for p in (R/f'docs/social-posts/{D}').glob('*--*.json'):
  d=read(p);packs[d['campaign']]=(p,d)

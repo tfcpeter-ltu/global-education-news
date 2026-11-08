@@ -2,7 +2,7 @@
   "date": "2026-11-08",
   "version": "v1",
   "copyVersion": "2026-11-08-v1",
-  "status": "partial",
+  "status": "published",
   "campaign": "scholarship",
   "articleTitle": "Bangor學士Deans獎：每年£6,000",
   "articleUrl": "https://globalednews.com/scholarships/items/2026-11-bangor-deans-undergraduate/",
@@ -112,6 +112,31 @@
       "publishClickedAt": "2026-11-08T05:44:18.640+08:00",
       "timestampMethod": "Observed native publish click in Asia/Taipei; platform relative text separately recorded.",
       "articleUrl": "https://globalednews.com/scholarships/items/2026-11-bangor-deans-undergraduate/"
+    },
+    {
+      "platform": "instagram",
+      "network": "instagram",
+      "campaign": "scholarship",
+      "account": "ltuossdtw",
+      "accountVerified": true,
+      "id": "Dfdv1jiIycc",
+      "url": "https://www.instagram.com/p/Dfdv1jiIycc/",
+      "publicUrl": "https://www.instagram.com/p/Dfdv1jiIycc/",
+      "publishedAt": "2026-11-08T11:03:48.424+08:00",
+      "verifiedAt": "2026-11-08T11:04:28+08:00",
+      "mediaVerifiedAt": "2026-11-08T11:04:28+08:00",
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/social-posts/2026-11-08/evidence/instagram-scholarship-published.png",
+      "status": "PUBLISHED",
+      "visibility": "public",
+      "imageCount": 1,
+      "method": "native-ui",
+      "publicTimeText": "25秒前",
+      "threadsAutoShare": false,
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-11-bangor-deans-undergraduate/",
+      "publishClickedAt": "2026-11-08T11:03:48.424+08:00",
+      "timestampMethod": "Observed native publish click, Asia/Taipei; native relative label retained separately"
     }
   ],
   "facebookCopy": "Bangor學士Deans獎：每年£6,000\n台灣學生依國際生與課程條件評估。\n\n完整三或四年校內全時學士，AAB或同等預測／已取得成績，隨入學申請評估；達門檻不保證獲獎。直接銜接二、三年級不適用。\n\n目前2027入學申請開放，獎項無另列截止；課程期限與正式錄取信仍須核對。\n國際獎學金雷達：https://globalednews.com/scholarships/\n全文：https://globalednews.com/scholarships/items/2026-11-bangor-deans-undergraduate/\n\n和正在規劃升學的家人一起核對條件。\n免費加入環球教育新聞會員！\n每週教育新聞與申請提醒，免費且可隨時取消。\nhttps://globalednews.com/newsletter/\n資料照：Melenn14 / CC0；裁切加字。\nhttps://globalednews.com/images/daily/2026-11-08/credits.html#deans",
@@ -209,11 +234,33 @@
       "publishClickedAt": "2026-11-08T05:44:18.640+08:00",
       "timestampMethod": "Observed native publish click in Asia/Taipei; platform relative text separately recorded.",
       "articleUrl": "https://globalednews.com/scholarships/items/2026-11-bangor-deans-undergraduate/"
+    },
+    {
+      "platform": "instagram",
+      "network": "instagram",
+      "campaign": "scholarship",
+      "account": "ltuossdtw",
+      "accountVerified": true,
+      "id": "Dfdv1jiIycc",
+      "url": "https://www.instagram.com/p/Dfdv1jiIycc/",
+      "publicUrl": "https://www.instagram.com/p/Dfdv1jiIycc/",
+      "publishedAt": "2026-11-08T11:03:48.424+08:00",
+      "verifiedAt": "2026-11-08T11:04:28+08:00",
+      "mediaVerifiedAt": "2026-11-08T11:04:28+08:00",
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/social-posts/2026-11-08/evidence/instagram-scholarship-published.png",
+      "status": "PUBLISHED",
+      "visibility": "public",
+      "imageCount": 1,
+      "method": "native-ui",
+      "publicTimeText": "25秒前",
+      "threadsAutoShare": false,
+      "articleUrl": "https://globalednews.com/scholarships/items/2026-11-bangor-deans-undergraduate/",
+      "publishClickedAt": "2026-11-08T11:03:48.424+08:00",
+      "timestampMethod": "Observed native publish click, Asia/Taipei; native relative label retained separately"
     }
   ],
-  "remainingPlatforms": [
-    "instagram"
-  ],
-  "blocker": "Native Instagram login explicitly requires Terms acceptance; action-time confirmation requested, pending.",
+  "remainingPlatforms": [],
   "publishedAt": "2026-11-08T05:32:55.406+08:00"
 }

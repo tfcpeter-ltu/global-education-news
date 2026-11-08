@@ -2,7 +2,7 @@
   "date": "2026-11-08",
   "version": "v1",
   "copyVersion": "2026-11-08-v1",
-  "status": "partial",
+  "status": "published",
   "campaign": "study-abroad",
   "articleTitle": "Bath實習年：多一年，要算哪幾筆帳？",
   "articleUrl": "https://globalednews.com/study-abroad/bath-management-placement-year-course-choice/",
@@ -112,6 +112,31 @@
       "publishClickedAt": "2026-11-08T05:45:49.320+08:00",
       "timestampMethod": "Observed native publish click in Asia/Taipei; platform relative text separately recorded.",
       "articleUrl": "https://globalednews.com/study-abroad/bath-management-placement-year-course-choice/"
+    },
+    {
+      "platform": "instagram",
+      "network": "instagram",
+      "campaign": "study-abroad",
+      "account": "ltuossdtw",
+      "accountVerified": true,
+      "id": "Dfdv9Qpo9Ef",
+      "url": "https://www.instagram.com/p/Dfdv9Qpo9Ef/",
+      "publicUrl": "https://www.instagram.com/p/Dfdv9Qpo9Ef/",
+      "publishedAt": "2026-11-08T11:04:52.075+08:00",
+      "verifiedAt": "2026-11-08T11:05:41+08:00",
+      "mediaVerifiedAt": "2026-11-08T11:05:41+08:00",
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/social-posts/2026-11-08/evidence/instagram-study-abroad-published.png",
+      "status": "PUBLISHED",
+      "visibility": "public",
+      "imageCount": 1,
+      "method": "native-ui",
+      "publicTimeText": "34秒前",
+      "threadsAutoShare": false,
+      "articleUrl": "https://globalednews.com/study-abroad/bath-management-placement-year-course-choice/",
+      "publishClickedAt": "2026-11-08T11:04:52.075+08:00",
+      "timestampMethod": "Observed native publish click, Asia/Taipei; native relative label retained separately"
     }
   ],
   "facebookCopy": "Bath實習年：多一年，要算哪幾筆帳？\n有實習課程，不等於保證工作。\n\nBath管理學院部分四年制課程第三年安排12個月實習，但職位與薪資不保證。先讀具體課程，再比較能力、費用與時間。\n\n用DIY導航整理學校，向官方確認實習與轉換規則。照片是Bath校園資料照。\n留學DIY導航：https://globalednews.com/study-abroad/\n全文：https://globalednews.com/study-abroad/bath-management-placement-year-course-choice/\n\n和正在規劃升學的家人一起核對條件。\n免費加入環球教育新聞會員！\n每週教育新聞與申請提醒，免費且可隨時取消。\nhttps://globalednews.com/newsletter/\n資料照：Jonathan Billinger / CC BY-SA 2.0；裁切加字。\nhttps://globalednews.com/images/daily/2026-11-08/credits.html#diy",
@@ -209,11 +234,33 @@
       "publishClickedAt": "2026-11-08T05:45:49.320+08:00",
       "timestampMethod": "Observed native publish click in Asia/Taipei; platform relative text separately recorded.",
       "articleUrl": "https://globalednews.com/study-abroad/bath-management-placement-year-course-choice/"
+    },
+    {
+      "platform": "instagram",
+      "network": "instagram",
+      "campaign": "study-abroad",
+      "account": "ltuossdtw",
+      "accountVerified": true,
+      "id": "Dfdv9Qpo9Ef",
+      "url": "https://www.instagram.com/p/Dfdv9Qpo9Ef/",
+      "publicUrl": "https://www.instagram.com/p/Dfdv9Qpo9Ef/",
+      "publishedAt": "2026-11-08T11:04:52.075+08:00",
+      "verifiedAt": "2026-11-08T11:05:41+08:00",
+      "mediaVerifiedAt": "2026-11-08T11:05:41+08:00",
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/social-posts/2026-11-08/evidence/instagram-study-abroad-published.png",
+      "status": "PUBLISHED",
+      "visibility": "public",
+      "imageCount": 1,
+      "method": "native-ui",
+      "publicTimeText": "34秒前",
+      "threadsAutoShare": false,
+      "articleUrl": "https://globalednews.com/study-abroad/bath-management-placement-year-course-choice/",
+      "publishClickedAt": "2026-11-08T11:04:52.075+08:00",
+      "timestampMethod": "Observed native publish click, Asia/Taipei; native relative label retained separately"
     }
   ],
-  "remainingPlatforms": [
-    "instagram"
-  ],
-  "blocker": "Native Instagram login explicitly requires Terms acceptance; action-time confirmation requested, pending.",
+  "remainingPlatforms": [],
   "publishedAt": "2026-11-08T05:35:12.263+08:00"
 }
