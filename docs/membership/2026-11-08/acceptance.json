@@ -1,0 +1,68 @@
+{
+  "verifiedAt": "2026-11-08T11:56:02.1642232+08:00",
+  "timezone": "Asia/Taipei",
+  "sourceCommit": "cc2138b78d230a1cc19f38e9f8290b7052f2adc6",
+  "deployment": {
+    "indexNow": "success",
+    "conclusion": "success",
+    "runId": "42444380385",
+    "deploy": "success",
+    "build": "success"
+  },
+  "rss": {
+    "status": 200,
+    "windowStart": "2026-11-02",
+    "individualScholarshipLinksChecked": 21,
+    "scholarshipCount": 21,
+    "windowEnd": "2026-11-08",
+    "url": "https://globalednews.com/weekly-feed.xml",
+    "newsItems": 6,
+    "scholarshipDigestItems": 1,
+    "allLinkStatus": 200
+  },
+  "brevo": {
+    "emailSentThisRun": false,
+    "templateName": "Global Education Weekly｜6篇新聞＋本週新增獎學金",
+    "schedulePreserved": true,
+    "saved": true,
+    "dynamicListLimit": 7,
+    "status": "Active",
+    "templateId": 8,
+    "previewScholarshipLinks": 21
+  },
+  "acceptance": {
+    "signupFormPreserved": true,
+    "viewportReset": true,
+    "desktop": true,
+    "mobile": {
+      "height": 843,
+      "width": 390,
+      "documentWidth": 371,
+      "horizontalOverflow": false
+    },
+    "englishMainCjkCount": 0
+  },
+  "tests": {
+    "bilingualTest": "PASS",
+    "bilingualPairs": 928,
+    "githubWorkflow": "success",
+    "weeklyScholarshipRegression": "PASS",
+    "astroPages": 646
+  },
+  "automation": {
+    "sameAutomation": true,
+    "hours": [
+      5,
+      8
+    ],
+    "socialRepublishedThisRun": false,
+    "weeklyDigestRequirementAdded": true,
+    "dailyFormatUpdated": true,
+    "id": "08-00"
+  },
+  "screenshotFiles": [
+    "brevo-scholarship-preview.png",
+    "newsletter-desktop.png",
+    "newsletter-mobile.png"
+  ]
+}
