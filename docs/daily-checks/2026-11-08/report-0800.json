@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-11-08T07:59:52+08:00",
+  "slot": "08:00",
+  "mainSha": "669b38308e402b5b6f42f6f349ab601a4cd6f616",
+  "status": "blocked",
+  "regularPublished": 11,
+  "newFacebookPublished": 1,
+  "missing": [
+    "news/instagram",
+    "scholarship/instagram",
+    "study-abroad/instagram",
+    "taiwan-universities/instagram"
+  ],
+  "loginState": "Observed native Instagram Continue as ltuossdtw modal explicitly requiring agreement to Terms and Privacy. No action-time consent received; did not click.",
+  "evidence": "docs/social-posts/2026-11-08/evidence/instagram-login-0800-blocker.png",
+  "unaffectedWork": "Website, deployment, acceptance and 12 published photo posts retained; all 12 screenshot files exist.",
+  "action": "Action-time confirmation requested; native tab preserved. No republishing or new automation.",
+  "verificationExitCode": 1,
+  "verificationOutput": "INCOMPLETE 2026-11-08: news/instagram: expected one verified published post, got 0\nINCOMPLETE 2026-11-08: scholarship/instagram: expected one verified published post, got 0\nINCOMPLETE 2026-11-08: study-abroad/instagram: expected one verified published post, got 0\nINCOMPLETE 2026-11-08: taiwan-universities/instagram: expected one verified published post, got 0\n"
+}

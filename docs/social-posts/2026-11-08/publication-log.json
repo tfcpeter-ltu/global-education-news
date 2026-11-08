@@ -416,5 +416,23 @@
     "articleUrl": "https://globalednews.com/news/canada-student-arrivals-target-2029-extension/"
   },
   "allNativeUi": true,
-  "updatedAt": "2026-11-08T06:00:43.145961+08:00"
+  "updatedAt": "2026-11-08T06:00:43.145961+08:00",
+  "report0800": {
+    "checkedAt": "2026-11-08T07:59:52+08:00",
+    "slot": "08:00",
+    "mainSha": "669b38308e402b5b6f42f6f349ab601a4cd6f616",
+    "status": "blocked",
+    "regularPublished": 11,
+    "newFacebookPublished": 1,
+    "missing": [
+      "news/instagram",
+      "scholarship/instagram",
+      "study-abroad/instagram",
+      "taiwan-universities/instagram"
+    ],
+    "loginState": "Observed native Instagram Continue as ltuossdtw modal explicitly requiring agreement to Terms and Privacy. No action-time consent received; did not click.",
+    "evidence": "docs/social-posts/2026-11-08/evidence/instagram-login-0800-blocker.png",
+    "unaffectedWork": "Website, deployment, acceptance and 12 published photo posts retained; all 12 screenshot files exist.",
+    "action": "Action-time confirmation requested; native tab preserved. No republishing or new automation."
+  }
 }
