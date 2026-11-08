@@ -1,0 +1,151 @@
+{
+  "runtime": "C:\\Users\\User\\AppData\\Local\\Temp\\globalednews-security-20261019",
+  "backup": "C:\\Users\\User\\AppData\\Local\\Temp\\globalednews-20261109-runtime-backup",
+  "changes": [
+    {
+      "path": "docs/editorial/archive-remediation-queue.json",
+      "sourceSha256": "d862e2128316f38aacb1309bdd29d134929b78d73af6f6f2e840173bda948223",
+      "runtimeSha256": "996e930eda3849d6c62c9b12ab4f915844e553af1b444a5627a8417ea415b568"
+    },
+    {
+      "path": "docs/editorial/news-reviews.json",
+      "sourceSha256": "8c0b9e6708d0951d08e205f9af7e08423a1789654e52b739eb42faf7e152107a",
+      "runtimeSha256": "0f222861b78ce5a35d18ca3d597e33696164f2e29abd887af8fe53a4eeb2f039"
+    },
+    {
+      "path": "docs/social-posts/2026-11-09/news--eu-india-research-2027.json",
+      "sourceSha256": "23fb54ffb83e41380d0a6fe4870e167d1a1ab92e3c65e3ee9af67f12ae8ca16a",
+      "runtimeSha256": null
+    },
+    {
+      "path": "docs/social-posts/2026-11-09/publication-log.json",
+      "sourceSha256": "ed8cb4d31dd66dce36d75d1c81c171bf47025e9fa4d86892c283de24f418d410",
+      "runtimeSha256": null
+    },
+    {
+      "path": "docs/social-posts/2026-11-09/scholarship--scholarship-radar-20261109.json",
+      "sourceSha256": "0b9c33d53c86b8ad8476707689128fd90bd9c8cca712b761e47278fb35895668",
+      "runtimeSha256": null
+    },
+    {
+      "path": "docs/social-posts/2026-11-09/study-abroad--swinburne-wil-placement.json",
+      "sourceSha256": "988a92b5dae3c65ee4be2f00886aeb5f79c0fa1543481ec1f6acc5d64d237846",
+      "runtimeSha256": null
+    },
+    {
+      "path": "docs/social-posts/2026-11-09/taiwan-universities--ncku-orchid-science-visit.json",
+      "sourceSha256": "9f75a7d3d779c5f5d9cdf2968a72af2d9c89021cec771a735bf85df70b856d21",
+      "runtimeSha256": null
+    },
+    {
+      "path": "public/data/analytics-summary.json",
+      "sourceSha256": "d58e3bc68eac4f7a88783cc5e8fbbe0c16ac20a0a319676b6a85b8ec4847c4e3",
+      "runtimeSha256": "e3de8ada3185259b83f7c7536d7d7389f99c1bc7a2adad19e12eb812104db131"
+    },
+    {
+      "path": "public/images/daily/2026-11-09/au.jpg",
+      "sourceSha256": "1d15296e6870345a5cde32b57a8cd9663f072f667271b5735dd0f16e44384802",
+      "runtimeSha256": null
+    },
+    {
+      "path": "public/images/daily/2026-11-09/credits.html",
+      "sourceSha256": "73d60e9a863e9dccbd15e914b931a3ac825588bdd3673b169babd926c27903fd",
+      "runtimeSha256": null
+    },
+    {
+      "path": "public/images/daily/2026-11-09/diy.jpg",
+      "sourceSha256": "f949c299d107eeb379f120a581b7b024e04375acb13661615770f2306e3136ac",
+      "runtimeSha256": null
+    },
+    {
+      "path": "public/images/daily/2026-11-09/eu.jpg",
+      "sourceSha256": "4c64896fbd7ebaba43fe56e6f52755849f707f3d097ac8647b1300c61281f3f0",
+      "runtimeSha256": null
+    },
+    {
+      "path": "public/images/daily/2026-11-09/master.jpg",
+      "sourceSha256": "2be5637d1d10fbe9d22fb4e805c97070b8268c043763e596c0d667b5aa5c6f92",
+      "runtimeSha256": null
+    },
+    {
+      "path": "public/images/daily/2026-11-09/palmer.jpg",
+      "sourceSha256": "6de5da14cd57c6219758bea46938ca233510727bed116c18c1fbc2fde6c496ab",
+      "runtimeSha256": null
+    },
+    {
+      "path": "public/images/daily/2026-11-09/peter.jpg",
+      "sourceSha256": "f374239879ffee1387e1bce2cf713e7bea5ed07483a58bebbf5a087ae9b4cd78",
+      "runtimeSha256": null
+    },
+    {
+      "path": "public/images/daily/2026-11-09/taiwan.jpg",
+      "sourceSha256": "72533cc2598509edd09cd526bfd46b61209a923463d6ff2508c7576442e80128",
+      "runtimeSha256": null
+    },
+    {
+      "path": "public/images/daily/2026-11-09/ug.jpg",
+      "sourceSha256": "511f486258ae769dc4c3f9efa3a28fec5b419584fdf08d758111dc588496d354",
+      "runtimeSha256": null
+    },
+    {
+      "path": "public/images/daily/2026-11-09/uk.jpg",
+      "sourceSha256": "a7ff3de3783cf13d63aba4b3d6ad092c52d7781aba2f38581cc7a121cf1b604f",
+      "runtimeSha256": null
+    },
+    {
+      "path": "src/data/i18n/en-overrides.json",
+      "sourceSha256": "ad64a15b2c0a229bb46f9251f393f341f4e4c89b8a13a021d84cd809df2c1b03",
+      "runtimeSha256": "987b8c6d156f3eb471bc0f8e2ea9f4853a03f80805d3245b69d09f439680626d"
+    },
+    {
+      "path": "src/data/peter-articles.json",
+      "sourceSha256": "92985cab66e55d36e7933819cb22e5d8258a3f60c7a24ace5659d9c087bafdcf",
+      "runtimeSha256": "5347182d61da70e9cc0587ff715d31f29520992c4ef5180c61a2360dfd2f8057"
+    },
+    {
+      "path": "src/data/vlog-videos.json",
+      "sourceSha256": "9e739d8e5a09b6b65c9f7e65e6c510987629194f9b05456b679117d3848ed6b3",
+      "runtimeSha256": "1eabe0062cd2f795bd228721f46a7ee4ebf069a56983437e3effc5ba37be2701"
+    },
+    {
+      "path": "src/pages/index.astro",
+      "sourceSha256": "2143ca4fe092e05f5bb3f968fe5ce1d89c597b624f14626408fafd0dbbfed288",
+      "runtimeSha256": "6a9dd618d5182a3a08af92f47661437b002a1be25f7f5052bd6db6c08398d0a6"
+    },
+    {
+      "path": "src/pages/news/australian-university-governance-transition-november-2026.md",
+      "sourceSha256": "15088848c42703e602b28556531bf7d0f1ab3893f0abd3ed221d88b8ff0dfed4",
+      "runtimeSha256": null
+    },
+    {
+      "path": "src/pages/news/eu-india-horizon-europe-negotiations-concluded-2027.md",
+      "sourceSha256": "54c662113e4690a1fd13d6bea8abe9b472ad66e7af77fd642f34840afe3beb57",
+      "runtimeSha256": null
+    },
+    {
+      "path": "src/pages/news/uk-industrial-strategy-higher-education-finance-review-2026.md",
+      "sourceSha256": "d62a6b6bd4392821c4b3776684e9a5fd4f683c115257839ad20e48771c4db729",
+      "runtimeSha256": null
+    },
+    {
+      "path": "src/pages/scholarships/items/2026-11-reading-frank-palmer-february-2027.md",
+      "sourceSha256": "f60230ab156eed9d557650e905a3606418a22608e6d1a0448d1fa0cde7a93345",
+      "runtimeSha256": null
+    },
+    {
+      "path": "src/pages/scholarships/items/2026-11-reading-masters-excellence-2027.md",
+      "sourceSha256": "e6fba066fae7f3b4d622ff15a8f80eb66a971dc7f1ac0fcc65f82c88e9f3c830",
+      "runtimeSha256": null
+    },
+    {
+      "path": "src/pages/scholarships/items/2026-11-reading-undergraduate-excellence-2027.md",
+      "sourceSha256": "f1b5b515597735f02667ad97df349e6396157484cfab0bea45ef4bf891511082",
+      "runtimeSha256": null
+    },
+    {
+      "path": "src/pages/study-abroad/swinburne-computer-science-wil-placement-choice.md",
+      "sourceSha256": "5fb5be5351d7c4e74d466f932104f67eaf294a5b6c97e4c72e69493735e93b6c",
+      "runtimeSha256": null
+    }
+  ]
+}

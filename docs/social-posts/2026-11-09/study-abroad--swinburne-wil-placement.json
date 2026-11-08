@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-09",
+  "version": "v1",
+  "copyVersion": "2026-11-09-v1",
+  "status": "prepared",
+  "campaign": "study-abroad",
+  "articleTitle": "想累積澳洲職場經驗？先分清專案與實習",
+  "articleUrl": "https://globalednews.com/study-abroad/swinburne-computer-science-wil-placement-choice/",
+  "shortHook": "想累積澳洲職場經驗？先分清專案與實習",
+  "headlineLines": [
+    "澳洲實務選校",
+    "專案、實習要分清"
+  ],
+  "backgroundImage": "public/images/daily/2026-11-09/diy.jpg",
+  "socialImage": "public/images/social/2026-11-09/swinburne-wil-placement.jpg",
+  "imageAlt": "想累積澳洲職場經驗？先分清專案與實習",
+  "imageCredit": "Aliceinthealice",
+  "imageSource": "https://commons.wikimedia.org/wiki/File:Swinburne_University_of_Technology_campus_in_Hawthorn,_Victoria,_December_2024_02.jpg",
+  "imageLicense": "CC0",
+  "imageLicenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "attributionUrl": "https://globalednews.com/images/daily/2026-11-09/credits.html#diy",
+  "topic": "swinburne-wil-placement",
+  "category": "study-abroad",
+  "CTA": "免費加入會員",
+  "plannedPublishDate": "2026-11-09",
+  "publishedPosts": [],
+  "facebookCopy": "想累積澳洲職場經驗？先分清專案與實習\n選校要看自己能做什麼，也要看職位怎麼取得。\n\nSwinburne電腦科學Professional課程列六個產業連結專案與12個月有薪實習機會；校方FAQ同時提醒，實習職位須競爭申請，不能保證每位合資格學生取得。\n\n用留學DIY導航比較學校，再查正式課程與當年條件。\n留學DIY導航：https://globalednews.com/study-abroad/\n全文：https://globalednews.com/study-abroad/swinburne-computer-science-wil-placement-choice/\n\n追蹤環球教育新聞，免費加入會員：\n每週國際教育新聞與新增獎學金摘要、連結。\nhttps://globalednews.com/newsletter/",
+  "instagramCopy": "想累積澳洲職場經驗？先分清專案與實習\n選校要看自己能做什麼，也要看職位怎麼取得。\n\nSwinburne電腦科學Professional課程列六個產業連結專案與12個月有薪實習機會；校方FAQ同時提醒，實習職位須競爭申請，不能保證每位合資格學生取得。\n\n用留學DIY導航比較學校，再查正式課程與當年條件。\n留學DIY導航：https://globalednews.com/study-abroad/\n全文：https://globalednews.com/study-abroad/swinburne-computer-science-wil-placement-choice/\n\n網址可複製到瀏覽器閱讀。\n追蹤環球教育新聞，免費加入會員：\n每週國際教育新聞與新增獎學金摘要、連結。\nhttps://globalednews.com/newsletter/",
+  "threadsCopy": "想累積澳洲職場經驗？先分清專案與實習\n選校要看自己能做什麼，也要看職位怎麼取得。\nSwinburne電腦科學Professional課程列六個產業連結專案與12個月有薪實習機會；校方FAQ同時提醒，實習職位須競爭申請，不能保證每位合資格學生取得。\nhttps://globalednews.com/study-abroad/\n追蹤環球教育新聞，免費加入會員：\n每週國際教育新聞與新增獎學金摘要、連結。\nhttps://globalednews.com/newsletter/",
+  "linkedinCopy": "想累積澳洲職場經驗？先分清專案與實習\n選校要看自己能做什麼，也要看職位怎麼取得。\n\nSwinburne電腦科學Professional課程列六個產業連結專案與12個月有薪實習機會；校方FAQ同時提醒，實習職位須競爭申請，不能保證每位合資格學生取得。\n\n用留學DIY導航比較學校，再查正式課程與當年條件。\n留學DIY導航：https://globalednews.com/study-abroad/\n全文：https://globalednews.com/study-abroad/swinburne-computer-science-wil-placement-choice/\n\n追蹤環球教育新聞，免費加入會員：\n每週國際教育新聞與新增獎學金摘要、連結。\nhttps://globalednews.com/newsletter/",
+  "threadsSync": false,
+  "country": "Australia",
+  "schoolName": "Swinburne University of Technology",
+  "storyAngle": "Industry projects versus competitive professional placement",
+  "selectionReason": "Rotate from UK Bath to Australia; independent Victorian employer-barrier context and current university FAQ.",
+  "navigatorUrl": "https://globalednews.com/study-abroad/",
+  "destinationUrl": "https://globalednews.com/study-abroad/swinburne-computer-science-wil-placement-choice/",
+  "sourcePaths": [
+    "public/study-abroad/university-data-expanded.js"
+  ],
+  "sources": [
+    {
+      "label": "Swinburne — current computer science degree",
+      "url": "https://www.swinburne.edu.au/course/undergraduate/bachelor-of-computer-science-professional/"
+    },
+    {
+      "label": "Study Melbourne — independent policy context",
+      "url": "https://studymelbourne.vic.gov.au/about-study-melbourne/improving-international-student-employment-outcomes"
+    },
+    {
+      "label": "Swinburne — professional degree FAQ updated September2026",
+      "url": "https://swinburne.custhelp.com/app/answers/detail/a_id/1507/~/what-is-a-professional-degree"
+    },
+    {
+      "label": "Swinburne — placements are not guaranteed",
+      "url": "https://swinburne.custhelp.com/app/answers/detail/a_id/1527/related/1"
+    }
+  ],
+  "verifiedAt": "2026-11-09T05:21:27.682691+08:00"
+}

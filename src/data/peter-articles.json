@@ -1,5 +1,57 @@
 [
   {
+    "slug": "australia-graduate-employment-who-when-denominator-location",
+    "title": "澳洲就業率，先看誰：留學家庭別被一個百分比說服",
+    "date": "2026-11-09",
+    "category": "留學準備",
+    "country": "澳洲",
+    "excerpt": "Peter提醒先問對象、時間、分母與地點；QILT本地生三年追蹤與國際生短期調查不能混成個人留澳成功率。",
+    "description": "Peter提醒先問對象、時間、分母與地點；QILT本地生三年追蹤與國際生短期調查不能混成個人留澳成功率。",
+    "sourceId": "122149671747172155",
+    "sourceUrl": "https://www.facebook.com/photo/?fbid=122149671651172155&set=a.122101120425172155",
+    "image": "/images/daily/2026-11-09/peter.jpg",
+    "imageAlt": "墨爾本大學Parkville校區門房資料照",
+    "imageCredit": "Canley / CC BY-SA 4.0",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Gatekeeper%27s_Cottage,_University_of_Melbourne.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageRights": "CC BY-SA 4.0",
+    "imageCaption": "校園授權資料照，並非受訪畢業生或就業現場。",
+    "body": [
+      "Peter於11月8日09:56發布的新文提醒，真實的就業率也可能被套用到不適合的對象。本文保留原文的四個問題：對象、時間、分母、地點，並核對原始調查；沒有新增學生訪談，也沒有將原文示意算式當成官方樣本。",
+      "2026年QILT長期調查列本地大學部畢業生約三年後全職就業率91.8%；2025年短期調查則列畢業四至六個月後國際大學部50.8%、本地75.4%。91.8%和50.8%不是同一群人的前後變化，不能拿來估算台灣學生的個人工作機率。長期報告曾於10月22日修正，須使用現行版本。",
+      "全職就業率的分母是符合可投入全職就業定義的人，並非所有畢業生；全職指每週至少35小時。國際生調查的工作所在地也不只澳洲，因此50.8%不能改稱留澳就業成功率。2025年計算勞動力的方式有調整，跨年差異可能部分來自方法，不能全部歸因景氣或學生能力。",
+      "Study Melbourne的就業倡議指出招聘慣例與雇主認知障礙可能限制國際學生的機會，並鼓勵增加工作經驗與聘用。Peter因此主張同時檢查個人準備及學校支持：學生可累積作品與溝通能力，學校應說明職涯服務如何連接雇主。這是有來源支持的觀點，統計差距本身並沒有證明單一原因。",
+      "學生可向科系詢問同學位、同領域國際生資料，並核對樣本數、職務內容與所在地；家長則把求職等待期放進預算，討論回台與其他市場的可能路線。原生粉專查閱至11月4日，11月7日實習、11月6日善意及11月5日UCAS等文章已收錄，今天僅匯入這一篇真正新文，不重複計數。"
+    ],
+    "sources": [
+      [
+        "Peter — original native post",
+        "https://www.facebook.com/photo/?fbid=122149671651172155&set=a.122101120425172155"
+      ],
+      [
+        "QILT — current longitudinal summary",
+        "https://www.qilt.edu.au/surveys/graduate-outcomes-survey---longitudinal-(gos-l)"
+      ],
+      [
+        "QILT — international report and methodology",
+        "https://www.qilt.edu.au/docs/default-source/default-document-library/2025-gos-international-report.pdf?sfvrsn=a7656b9a_4"
+      ],
+      [
+        "Study Melbourne — employer barriers",
+        "https://studymelbourne.vic.gov.au/about-study-melbourne/improving-international-student-employment-outcomes"
+      ]
+    ],
+    "topic": "畢業生就業數據",
+    "author": "Peter",
+    "importedAt": "2026-11-09",
+    "originalDate": "2026-11-08T09:56:00+08:00",
+    "originalDateLabel": "2026年11月8日上午9:56",
+    "originalDatePrecision": "minute",
+    "dateObservedAt": "2026-11-09T05:20:20.578308+08:00",
+    "edition": "verified-edit",
+    "note": "原生全文、時間及官方統計核對完成。"
+  },
+  {
     "slug": "uk-sandwich-degree-placement-three-accounts",
     "title": "多一年實習，值得嗎？英國三明治學位的三筆帳",
     "date": "2026-11-08",

@@ -193,5 +193,44 @@
     "independentSource": "https://www.abc.net.au/news/2026-09-25/adelaide-university-off-international-student-targets/107190580",
     "reviewedAt": "2026-11-08",
     "bodySha256": "dd67bc0c5cb9a1bc873117ad98a8b3d8583a70f1a5a4b310612cd00917b4d9fa"
+  },
+  "eu-india-horizon-europe-negotiations-concluded-2027": {
+    "newsValue": "11月6日新完成歐盟印度科研參與談判，關聯跨國研究網絡與台灣研究型升學選擇。",
+    "background": "交代2001科技合作、2026探索與正式談判，避免把既有研究合作全部說成新協議成果。",
+    "development": "確認第二支柱範圍與2027目標，明示談判完成未等於正式生效，935億為全計畫規模。",
+    "perspectives": "官方呈現合作方向，THE確認有限範圍，2EU提供既有參與、經費資格與法律程序的分析。",
+    "taiwanImpact": "將研究題目、指導團隊、入學單位、學位授予與個人資助分開查詢，避免合作消息成升學保證。",
+    "uncertainty": "簽署批准及財務貢獻未完整確立，不推算新職缺與台灣個人得獎機率，等待實際徵件。",
+    "independence": "EURAXESS為公告來源，THE另有署名報導；2EU獨立拆解既有參與及法制程序，非三篇轉載。",
+    "bodySha256": "1c4c645c415b384dfa5f1212e1b492373c3d8544e0842df5c7dd97b63bd6493f",
+    "reviewedAt": "2026-11-09T05:14:38.109373+08:00",
+    "primarySource": "https://euraxess.ec.europa.eu/worldwide/india/news/eu-india-eu-and-india-conclude-negotiations-association-horizon-europe",
+    "independentSource": "https://www.timeshighereducation.com/news/india-set-join-horizon-europe-january-2027"
+  },
+  "uk-industrial-strategy-higher-education-finance-review-2026": {
+    "newsValue": "11月5日新年度報告及11月6日教育媒體分析，將大學財務與人才培育供給連接，具選校意義。",
+    "background": "交代顧問委員會定位及八大產業、現職勞動者訓練需求，不把報告當政府預算決議。",
+    "development": "PDF頁11、22、46確認財務風險、十年技能計畫與36%赤字正確年度2024/25，修正媒體疑誤。",
+    "perspectives": "將產業與大學背景顧問、Wonkhe政策評論及THE報導分開陳述，不假造政府已採納的回應。",
+    "taiwanImpact": "協助台灣家庭把財務新聞轉成實驗室、校區、課程及實習支持查詢，不對個校作無據風險評級。",
+    "uncertainty": "缺政府採納與撥款結果，不宣稱新增補助、降學費或畢業工作保證，後續追蹤實際執行資料。",
+    "independence": "年報為官方原始資料，Wonkhe署名分析提出機構定位與產業政策解讀，THE另提供教育新聞報導。",
+    "bodySha256": "6f63c84056b9195feb8e244078e1aed3ef929b556d172c4c5f5df58e208c791a",
+    "reviewedAt": "2026-11-09T05:14:38.109373+08:00",
+    "primarySource": "https://assets.publishing.service.gov.uk/media/6aeb270b88d44387aeae0693/industrial-strategy-advisory-council-annual-report-2026.pdf",
+    "independentSource": "https://wonkhe.com/wonk-corner/industrial-strategy-advisory-council-rings-the-alarm-about-he-funding/"
+  },
+  "australian-university-governance-transition-november-2026": {
+    "newsValue": "11月6日Swinburne更新10月31日組織終止後的轉換與明年師生選舉，追蹤學生參與治理。",
+    "background": "保留9月28原決定和10月7部長說明，分清校董治理、行政管理、代表團體與監理標準。",
+    "development": "原文確認UCC結束日期、2027年3月年度大會與校方選舉計畫，未把待辦程序當已落實。",
+    "perspectives": "校方與大學團體說明整合設計，教育部長原始致詞呈現自主及公共責任期待，明示非審計。",
+    "taiwanImpact": "引導台灣學生查代表、申訴與服務回應入口，區分集體參與及個案程序，不承諾個人權利結果。",
+    "uncertainty": "未獲各校合規實證或改革結果，不推斷教學、費用及就業改善，擬議立法未當已通過。",
+    "independence": "校方及UA為改革當事方；政府部長原始公開致詞為不同機構政策來源，非校方稿件轉載，並揭露其立場。",
+    "bodySha256": "9b5647a6f7159a048aba8b96a2f9cdd2820dcde76ee7a2e566a589d5b9346cd4",
+    "reviewedAt": "2026-11-09T05:14:38.109373+08:00",
+    "primarySource": "https://www.swinburne.edu.au/news/2026/11/landmark-reform-of-australian-university-leadership/",
+    "independentSource": "https://ministers.education.gov.au/clare/address-university-chancellors-council-plenary-meeting"
   }
 }

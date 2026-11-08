@@ -1,0 +1,36 @@
+{
+  "mainSha": "d7775d1ed913727dced5d95f70c50b869144092b",
+  "blockers": [],
+  "platforms": [
+    {
+      "pageId": "101904929207004",
+      "network": "facebook",
+      "account": "LTU OSSD",
+      "composer": "verified"
+    },
+    {
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "composer": "verified"
+    },
+    {
+      "network": "threads",
+      "account": "ltuossdtw",
+      "composer": "verified"
+    },
+    {
+      "profile": "peter-chen-26a754228",
+      "network": "linkedin",
+      "account": "Peter Chen",
+      "composer": "verified"
+    },
+    {
+      "pageId": "61595164194381",
+      "network": "facebook-new",
+      "account": "環球國際教育新聞網",
+      "composer": "verified"
+    }
+  ],
+  "checkedAt": "2026-11-09T05:02:34.2047620+08:00",
+  "note": "Native Chrome UI checked; no submission. Full public history dedup required immediately before publishing."
+}
