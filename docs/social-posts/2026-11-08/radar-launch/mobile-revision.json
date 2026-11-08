@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-08",
+  "copyVersion": "radar-mobile-large-v2",
+  "status": "ASSET_READY_ORIGINAL_NOT_EDITABLE",
+  "image": "radar-mobile-large-v2.png",
+  "catalogTotal": 260,
+  "originalPostId": "Dfd9QxVgbft",
+  "originalUrl": "https://www.threads.com/@ltuossdtw/post/Dfd9QxVgbft",
+  "originalImageReplaced": false,
+  "newPostsCreated": 0,
+  "reason": "Original post menu has no Edit or media replacement entry",
+  "evidence": "original-edit-menu.jpg",
+  "automationId": "08-00",
+  "automationUpdated": true,
+  "checkedAt": "2026-11-08T13:21:28.0033870+08:00",
+  "mobileBrowserPreview": "NOT_RUN: Browser URL policy rejected file:// navigation; no workaround attempted. Visual review of generated cover confirms large complete Traditional Chinese heading and 260 count; future daily gate remains 360px preview."
+}
