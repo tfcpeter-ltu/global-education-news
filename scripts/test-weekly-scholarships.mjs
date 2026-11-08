@@ -1,0 +1,24 @@
+import assert from 'node:assert/strict';
+import { weeklyScholarships, scholarshipDigestHtml } from '../src/lib/weekly-scholarships.mjs';
+
+const now = new Date('2026-11-08T00:10:00+08:00');
+const base = { title: 'Award <A>', description: 'Tuition & support', country: 'UK', level: 'Master', funding: '20%', deadline: '2026-11-07', eligibilityTW: '可申請（須符合條件）', status: '開放中', verificationDate: '2026-11-08' };
+const pages = ['new', 'old', 'future', 'duplicate', 'closed', 'unverified'].map(slug => ({ ...base, slug, date: '2026-11-08' }));
+pages.find(x => x.slug === 'old').date = '2026-11-01';
+pages.find(x => x.slug === 'old').updated = '2026-11-08';
+pages.find(x => x.slug === 'future').date = '2026-11-09';
+pages.find(x => x.slug === 'closed').applicationClosesAt = '2026-11-07T23:59:59+08:00';
+const report = { date: '2026-11-08', scholarshipBaselineSlugs: ['duplicate'], scholarshipAdditions: pages.filter(x => x.slug !== 'unverified').map(x => ({ slug: x.slug, isNew: true, baselineAbsent: true, eligibleTaiwan: true })) };
+const digest = weeklyScholarships([...pages, pages[0]], [report], now);
+assert.equal(digest.start, '2026-11-02');
+assert.equal(digest.end, '2026-11-08');
+assert.deepEqual(digest.items.map(x => x.slug).sort(), ['closed', 'new']);
+assert.equal(digest.items.find(x => x.slug === 'closed').state.label, '本輪已截止');
+const html = scholarshipDigestHtml(digest);
+assert.ok(html.includes('Award &lt;A&gt;'));
+assert.ok(html.includes('Tuition &amp; support'));
+assert.ok(html.includes('https://globalednews.com/scholarships/items/new/'));
+assert.ok(html.includes('本輪已截止'));
+assert.equal(weeklyScholarships(pages, [{ ...report, date: '2026-11-01' }], now).items.length, 0);
+assert.equal(weeklyScholarships(pages, [{ ...report, scholarshipAdditions: report.scholarshipAdditions.map(x => ({ ...x, isNew: false })) }], now).items.length, 0);
+console.log('PASS: Taipei week boundary, proven additions, old updates, future dates, duplicates, current status and escaped linked summaries');
