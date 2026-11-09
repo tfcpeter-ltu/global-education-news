@@ -29,6 +29,10 @@ entry=dict(date=D,count=3,commit=run['head_sha'],verifiedAt=archive['verifiedAt'
 if not any(x.get('date')==D for x in history):history.append(entry)
 save(qp,q)
 r['deployment']=dict(commit=run['head_sha'],status='success',completedAt=datetime.datetime.fromisoformat(run['updated_at'].replace('Z','+00:00')).astimezone(zone).isoformat(),verifiedAt=archive['verifiedAt'],runUrl=run['html_url'])
+for attempt in r.get('deploymentAttempts',[]):
+ if attempt['runId']==run['id'] and attempt['status']=='in_progress':attempt.update(status='success',completedAt=r['deployment']['completedAt'])
+if r.get('deploymentAttempts'):
+ r['deploymentRecovery']=dict(status='resolved',resolution='Fresh commit and artifact completed after the previous Pages synchronization timeout and cancelled same-ID retry.',verifiedAt=archive['verifiedAt'])
 r.pop('archiveDeploymentPending',None);r['archiveRemediation']=dict(count=3,remaining=q['remaining'],paths=paths,verifiedAt=archive['verifiedAt'],evidence=entry['evidence'])
 for x in r['newsPublished']+r['scholarshipAdditions']:x['publishedVerifiedAt']=seo['verifiedAt']
 r['acceptance'].update(verifiedAt=max(archive['verifiedAt'],seo['verifiedAt']),uiVerifiedAt=datetime.datetime.fromisoformat(ui['verifiedAt'].replace('Z','+00:00')).astimezone(zone).isoformat(),archiveEvidence=entry['evidence'])

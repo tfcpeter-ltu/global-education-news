@@ -1,0 +1,59 @@
+[
+  {
+    "id": 13710934732,
+    "name": "github-pages",
+    "size_in_bytes": 297706090,
+    "url": "https://api.github.com/repos/tfcpeter-ltu/global-education-news/actions/artifacts/13710934732",
+    "archive_download_url": "https://api.github.com/repos/tfcpeter-ltu/global-education-news/actions/artifacts/13710934732/zip",
+    "expired": false,
+    "created_at": "2026-11-09T21:24:55Z",
+    "expires_at": "2026-11-10T21:24:41Z",
+    "updated_at": "2026-11-09T21:24:55Z",
+    "digest": "sha256:9cc312722b4070ba6547fc57f14773d5121d989e88217b3b6b432170568c4b74",
+    "workflow_run": {
+      "id": 42702024874,
+      "repository_id": 1351327190,
+      "head_repository_id": 1351327190,
+      "head_branch": "main",
+      "head_sha": "7d2ef06515295f780e497d7878774442bad0653d"
+    }
+  },
+  {
+    "id": 13715316222,
+    "name": "github-pages",
+    "size_in_bytes": 297725315,
+    "url": "https://api.github.com/repos/tfcpeter-ltu/global-education-news/actions/artifacts/13715316222",
+    "archive_download_url": "https://api.github.com/repos/tfcpeter-ltu/global-education-news/actions/artifacts/13715316222/zip",
+    "expired": false,
+    "created_at": "2026-11-09T22:11:07Z",
+    "expires_at": "2026-11-10T22:10:57Z",
+    "updated_at": "2026-11-09T22:11:07Z",
+    "digest": "sha256:a4ffcb857ebfe35ba56ee607a78badf4934f477adb116447aa6bf7373a1238d9",
+    "workflow_run": {
+      "id": 42709292648,
+      "repository_id": 1351327190,
+      "head_repository_id": 1351327190,
+      "head_branch": "main",
+      "head_sha": "2726e8070a517956f0db990cb420e4ab360e8684"
+    }
+  },
+  {
+    "id": 13716740461,
+    "name": "github-pages",
+    "size_in_bytes": 297725447,
+    "url": "https://api.github.com/repos/tfcpeter-ltu/global-education-news/actions/artifacts/13716740461",
+    "archive_download_url": "https://api.github.com/repos/tfcpeter-ltu/global-education-news/actions/artifacts/13716740461/zip",
+    "expired": false,
+    "created_at": "2026-11-09T22:25:52Z",
+    "expires_at": "2026-11-10T22:25:41Z",
+    "updated_at": "2026-11-09T22:25:52Z",
+    "digest": "sha256:c8bc805053154b6e6d522fc36e89a7994766b792d4219d71bc888662897f6048",
+    "workflow_run": {
+      "id": 42711560944,
+      "repository_id": 1351327190,
+      "head_repository_id": 1351327190,
+      "head_branch": "main",
+      "head_sha": "16e2ce5e89db74867dcaff1b4218db4cd0b8f858"
+    }
+  }
+]

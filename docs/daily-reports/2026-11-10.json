@@ -3,7 +3,7 @@
   "timezone": "Asia/Taipei",
   "startedAt": "2026-11-10T04:58:51.1614768+08:00",
   "status": "in_progress",
-  "currentPhase": "ARCHIVE_DEPLOY_FRESH_BUILD",
+  "currentPhase": "ARCHIVE_DEPLOY_EXTENDED_WAIT",
   "mainSha": "1bd6d7d9fc9f9e1c46e2b9ddfe4834c6a456b449",
   "scholarshipBaselineSlugs": [
     "2026-08-bristol-think-big",
@@ -993,7 +993,7 @@
     "previewVerifiedAt": "2026-11-10T05:31:49.796000+08:00",
     "copyVersion": "2026-11-10-v1"
   },
-  "updatedAt": "2026-11-10T06:23:34.003706+08:00",
+  "updatedAt": "2026-11-10T06:37:00.917260+08:00",
   "studyAbroadPublished": {
     "slug": "birmingham-city-campus-course-budget-planning",
     "title": "英國選校先找對校區：Birmingham City的城市學習與通勤功課",
@@ -1087,7 +1087,7 @@
     "status": "not-due",
     "note": "Tuesday; retain existing Brevo weekly issue schedule and new-scholarship block. No extra send or automation."
   },
-  "archiveDeploymentPending": "2726e8070a517956f0db990cb420e4ab360e8684",
+  "archiveDeploymentPending": "16e2ce5e89db74867dcaff1b4218db4cd0b8f858",
   "deploymentAttempts": [
     {
       "runId": 42709292648,
@@ -1106,6 +1106,23 @@
       "reason": "Deployment cancelled immediately for the same Pages deployment ID.",
       "failedAt": "2026-11-10T06:22:03+08:00",
       "evidence": "docs/daily-checks/2026-11-10/deployment-attempt-2-failure.log"
+    },
+    {
+      "runId": 42711560944,
+      "attempt": 1,
+      "status": "failed",
+      "method": "fresh commit and artifact",
+      "commit": "16e2ce5e89db74867dcaff1b4218db4cd0b8f858",
+      "requestedAt": "2026-11-10T06:24:31.589567+08:00",
+      "reason": "Fresh artifact again stayed syncing_files until default 600-second cancellation.",
+      "failedAt": "2026-11-10T06:36:05+08:00",
+      "evidence": "docs/daily-checks/2026-11-10/deployment-attempt-3-failure.log"
     }
-  ]
+  ],
+  "deploymentRemediation": {
+    "actionTimeoutMilliseconds": 1200000,
+    "jobTimeoutMinutes": 25,
+    "reason": "Permit slower Pages synchronization instead of cancelling at 10 minutes; retain finite upper bound.",
+    "documentation": "https://github.com/actions/deploy-pages/blob/main/action.yml"
+  }
 }
