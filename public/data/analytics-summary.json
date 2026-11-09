@@ -1,6 +1,6 @@
 {
   "status": "ready",
-  "updatedAt": "2026-11-08T07:16:55.631Z",
+  "updatedAt": "2026-11-09T07:54:42.971Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
@@ -10,86 +10,86 @@
       "views": 5
     },
     {
+      "title": "澳洲大學領導組織整合上路：學生代表與治理透明度成下一步｜環球教育新聞網 Global Education News",
+      "path": "/news/australian-university-governance-transition-november-2026/",
+      "views": 5
+    },
+    {
       "title": "英國早申人數減少3.2%：醫學申請仍微增，不能推算全年錄取機會｜環球教育新聞網 Global Education News",
       "path": "/news/uk-ucas-october-2027-applicant-snapshot/",
       "views": 5
     },
     {
+      "title": "印度加入歐盟科研合作再進一步：談判完成，2027上路仍待程序｜環球教育新聞網 Global Education News",
+      "path": "/news/eu-india-horizon-europe-negotiations-concluded-2027/",
+      "views": 4
+    },
+    {
       "title": "印度海外校區熱潮：國際品牌之外，更要檢視學習價值｜環球教育新聞網 Global Education News",
       "path": "/news/india-tne-value-aiec-2026/",
       "views": 4
-    },
-    {
-      "title": "國際教育新聞｜全球大學、留學政策與招生動態｜環球教育新聞網",
-      "path": "/news/",
-      "views": 4
-    },
-    {
-      "title": "澳洲IEAA公布教育獎項：教學與海外學習成效成焦點｜環球教育新聞網 Global Education News",
-      "path": "/news/ieaa-excellence-awards-student-learning-2026/",
-      "views": 3
     }
   ],
   "countries": [
     {
-      "name": "美國",
-      "mapName": "United States",
-      "sessions": 100,
-      "share": 41.2
-    },
-    {
       "name": "台灣",
       "mapName": "Taiwan",
-      "sessions": 91,
-      "share": 37.4
+      "sessions": 425,
+      "share": 66.1
+    },
+    {
+      "name": "美國",
+      "mapName": "United States",
+      "sessions": 143,
+      "share": 22.2
     },
     {
       "name": "愛爾蘭",
       "mapName": "Ireland",
-      "sessions": 10,
-      "share": 4.1
+      "sessions": 14,
+      "share": 2.2
     },
     {
       "name": "瑞典",
       "mapName": "Sweden",
-      "sessions": 9,
-      "share": 3.7
+      "sessions": 11,
+      "share": 1.7
     },
     {
       "name": "英國",
       "mapName": "United Kingdom",
-      "sessions": 6,
-      "share": 2.5
+      "sessions": 10,
+      "share": 1.6
     },
     {
       "name": "新加坡",
       "mapName": "Singapore",
-      "sessions": 5,
-      "share": 2.1
+      "sessions": 6,
+      "share": 0.9
+    },
+    {
+      "name": "澳洲",
+      "mapName": "Australia",
+      "sessions": 4,
+      "share": 0.6
+    },
+    {
+      "name": "德國",
+      "mapName": "Germany",
+      "sessions": 4,
+      "share": 0.6
     },
     {
       "name": "印度",
       "mapName": "India",
       "sessions": 3,
-      "share": 1.2
+      "share": 0.5
     },
     {
-      "name": "Belgium",
-      "mapName": "Belgium",
-      "sessions": 2,
-      "share": 0.8
-    },
-    {
-      "name": "Cambodia",
-      "mapName": "Cambodia",
-      "sessions": 2,
-      "share": 0.8
-    },
-    {
-      "name": "加拿大",
-      "mapName": "Canada",
-      "sessions": 2,
-      "share": 0.8
+      "name": "Netherlands",
+      "mapName": "Netherlands",
+      "sessions": 3,
+      "share": 0.5
     }
   ]
 }
