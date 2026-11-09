@@ -3,7 +3,7 @@
   "timezone": "Asia/Taipei",
   "startedAt": "2026-11-10T04:58:51.1614768+08:00",
   "status": "in_progress",
-  "currentPhase": "ARCHIVE_BUILD",
+  "currentPhase": "ARCHIVE_DEPLOY_FRESH_BUILD",
   "mainSha": "1bd6d7d9fc9f9e1c46e2b9ddfe4834c6a456b449",
   "scholarshipBaselineSlugs": [
     "2026-08-bristol-think-big",
@@ -958,7 +958,10 @@
       "public-service-safety",
       "vlog",
       "education-seo"
-    ]
+    ],
+    "archiveStatus": "success",
+    "archiveLogs": "docs/daily-checks/2026-11-10/archive-*.log",
+    "archiveVerifiedAt": "2026-11-10T06:10:13.353650+08:00"
   },
   "newFacebookPagePost": {
     "campaign": "news",
@@ -990,7 +993,7 @@
     "previewVerifiedAt": "2026-11-10T05:31:49.796000+08:00",
     "copyVersion": "2026-11-10-v1"
   },
-  "updatedAt": "2026-11-10T06:06:05.435961+08:00",
+  "updatedAt": "2026-11-10T06:23:34.003706+08:00",
   "studyAbroadPublished": {
     "slug": "birmingham-city-campus-course-budget-planning",
     "title": "英國選校先找對校區：Birmingham City的城市學習與通勤功課",
@@ -1083,5 +1086,26 @@
   "weeklyNewsletter": {
     "status": "not-due",
     "note": "Tuesday; retain existing Brevo weekly issue schedule and new-scholarship block. No extra send or automation."
-  }
+  },
+  "archiveDeploymentPending": "2726e8070a517956f0db990cb420e4ab360e8684",
+  "deploymentAttempts": [
+    {
+      "runId": 42709292648,
+      "attempt": 1,
+      "status": "failed",
+      "reason": "GitHub Pages syncing_files timed out after 600 seconds; successful build artifact preserved.",
+      "failedAt": "2026-11-10T06:21:22+08:00",
+      "evidence": "docs/daily-checks/2026-11-10/deployment-attempt-1-failure.log"
+    },
+    {
+      "runId": 42709292648,
+      "attempt": 2,
+      "status": "failed",
+      "method": "GitHub rerun_failed_workflow_run_jobs",
+      "requestedAt": "2026-11-10T06:22:02.489363+08:00",
+      "reason": "Deployment cancelled immediately for the same Pages deployment ID.",
+      "failedAt": "2026-11-10T06:22:03+08:00",
+      "evidence": "docs/daily-checks/2026-11-10/deployment-attempt-2-failure.log"
+    }
+  ]
 }
