@@ -1,0 +1,36 @@
+{
+  "mainSha": "1bd6d7d9fc9f9e1c46e2b9ddfe4834c6a456b449",
+  "blockers": [],
+  "platforms": [
+    {
+      "pageId": "101904929207004",
+      "network": "facebook",
+      "account": "LTU OSSD",
+      "composer": "verified"
+    },
+    {
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "composer": "verified"
+    },
+    {
+      "network": "threads",
+      "account": "ltuossdtw",
+      "composer": "verified"
+    },
+    {
+      "profile": "peter-chen-26a754228",
+      "network": "linkedin",
+      "account": "Peter Chen",
+      "composer": "verified"
+    },
+    {
+      "pageId": "61595164194381",
+      "network": "facebook-new",
+      "account": "環球國際教育新聞網",
+      "composer": "verified"
+    }
+  ],
+  "checkedAt": "2026-11-10T05:00:57.0639166+08:00",
+  "note": "Native Chrome account and composer entry checks performed today; Threads and LinkedIn empty editors and Instagram upload dialog verified; Facebook both page identities and photo entry verified. No publication submitted."
+}
