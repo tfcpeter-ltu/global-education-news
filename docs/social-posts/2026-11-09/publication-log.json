@@ -413,10 +413,10 @@
       "mediaEvidence": "Native public page confirms correct account, copy, uploaded image; docs/daily-checks/2026-11-09/linkedin-taiwan-universities-0800-public.png"
     }
   ],
-  "status": "BLOCKED_SAFETY_CHECK",
+  "status": "COMPLETE",
   "timezone": "Asia/Taipei",
   "updatedAt": "2026-11-09T08:23:46.368817+08:00",
-  "externalBlocker": {
+  "resolvedBlocker": {
     "type": "computer-use-safety-stop",
     "detectedAt": "2026-11-09T06:00:31.817799+08:00",
     "reason": "Computer Use forcibly stopped this turn because it could not determine current browser URL on Windows with sufficient confidence to enforce policy. Explicit instruction to stop and send final.",
@@ -426,6 +426,10 @@
       "New native Threads profile tab successfully confirmed all six published parts",
       "Native Chrome window fallback triggered mandatory safety stop"
     ],
-    "humanAction": "Resume this same batch after browser-control safety check is restored; do not republish known IDs. No account credential failure observed."
-  }
+    "humanAction": "Resume this same batch after browser-control safety check is restored; do not republish known IDs. No account credential failure observed.",
+    "resolvedAt": "2026-11-09T08:07:00+08:00",
+    "resolution": "Fresh browser-extension tabs restored native controls. All four remaining posts published; outstanding images and live UI read back."
+  },
+  "completedAt": "2026-11-09T08:28:57.288266+08:00",
+  "statusReconciledAt": "2026-11-09T21:42:01.691253+08:00"
 }
