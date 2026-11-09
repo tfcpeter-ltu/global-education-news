@@ -1,0 +1,12 @@
+[
+  {
+    "file": "src/data/vlog-videos.json",
+    "baselineMatches": true,
+    "action": "synchronized task source"
+  },
+  {
+    "file": "src/data/i18n/en-overrides.json",
+    "baselineMatches": true,
+    "action": "synchronized task source"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-09",
+  "baseline": "18584c0795420622312af339e221859fd030bb7c",
+  "commit": "7d5c2a7052a821d5ae3102191834609394b0679c",
+  "deploymentRun": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/42560110307",
+  "deployment": "success",
+  "videosBefore": 117,
+  "videosAfter": 123,
+  "newVideos": 6,
+  "sourceVlog": "pass",
+  "builtVlog": "pass",
+  "bilingual": "867 pairs pass",
+  "liveChinese": "six ids, six loaded official thumbnails, full summaries and search returning one Leeds result",
+  "liveEnglish": "six ids, six loaded official thumbnails and English summaries read",
+  "recommendations": "unchanged 11 flags including original 9",
+  "player": "Clicking daily Leeds switches player title and creates original YouTube-nocookie embed. YouTube metadata confirms all six public and embeddable. Full continuous playback not independently verified; iframe inner text empty.",
+  "socialPublished": 10,
+  "paidPromotion": false,
+  "sourceCorroboration": [
+    "https://news.harvard.edu/gazette/story/2025/05/fresh-insights-from-old-tradition/"
+  ],
+  "notes": [
+    "Original dates shown; no global popularity ranking claim.",
+    "No caption text available from public endpoints. Guides limited to descriptions, titles and original editorial viewing exercises.",
+    "No deletions, duplicated old posts, or third-party video reuploads."
+  ]
+}
