@@ -232,5 +232,44 @@
     "reviewedAt": "2026-11-09T05:14:38.109373+08:00",
     "primarySource": "https://www.swinburne.edu.au/news/2026/11/landmark-reform-of-australian-university-leadership/",
     "independentSource": "https://ministers.education.gov.au/clare/address-university-chancellors-council-plenary-meeting"
+  },
+  "fsu-international-student-insurance-2026": {
+    "newsValue": "補正FSU保險豁免類別過於寬泛的原稿，加入當期承保與保費的實際規劃影響。",
+    "background": "區分州級制度歷史與校方2026年執行方案，不把2016年文件當最新完整契約。",
+    "development": "保留十月發布日，另外標示十一月查核日期、Aetna更新及表格年份差異。",
+    "perspectives": "並列FSU制度目的與USF獨立執行方式，未捏造學生訪談或改制成效評估。",
+    "taiwanImpact": "連結課程身分、連續保障、繳費與豁免審查，避免台灣家庭先買保單誤判適用。",
+    "uncertainty": "披露表格日期不一致、缺理賠成效數據及未確認個案退費，不推論全州一體適用。",
+    "independence": "USF是不同大學的原始執行政策，州主管機關提供法規背景；非FSU公告轉載。",
+    "primarySource": "https://studentinsurance.fsu.edu/international-requirements",
+    "independentSource": "https://www.usf.edu/student-affairs/student-health-services/insurance/inscompliance.aspx",
+    "reviewedAt": "2026-11-09T08:21:25.622023+08:00",
+    "bodySha256": "4b85ef49c609518991f695f620e7b6103d0558eee11e97b2e007bbc8c0421913"
+  },
+  "ireland-maynooth-fuzhou-miec-extension-2026": {
+    "newsValue": "延長合作新聞改寫為可理解的跨國教育報導，明確指出研究所方向尚非招生公告。",
+    "background": "補充愛爾蘭住宿容量與海外授課政策討論，並區分產業分析與個別學院品質認證。",
+    "development": "區分九月二十一日活動與十月八日公告，再以十一月九日更新記錄擴寫。",
+    "perspectives": "校方長期合作主張並列PIE新聞與GSL容量分析，轉引訪談歸屬清楚且不虛構。",
+    "taiwanImpact": "以台灣家庭的入學資格、學位使用、地點與成本比較連結報導，不宣稱可直接申請。",
+    "uncertainty": "沒有新課程名額學費與招生簡章，明示未證實開課或台灣招生，也不推定雙學位。",
+    "independence": "PIE與GSL為不同於Maynooth公告的教育新聞及署名分析，支持政策背景而非重複校方稿件。",
+    "primarySource": "https://www.maynoothuniversity.ie/news-events/maynooth-university-and-fuzhou-university-mark-new-chapter-miec-partnership-during-ministerial-visit",
+    "independentSource": "https://thepienews.com/ireland-looks-overseas-as-minister-questions-international-student-model/",
+    "reviewedAt": "2026-11-09T08:21:25.622023+08:00",
+    "bodySha256": "b9c2c520e68f262385b688121148ff70fda6e7ad6ebf4b62ee60020312222855"
+  },
+  "uk-erasmus-immigration-rules-october-2026": {
+    "newsValue": "補足原稿遺漏的GAE路徑與身分文件差異，對台灣交換及短期實習規劃有實際用途。",
+    "background": "交代九月規則文件、UKCISA分析及十月八日申請適用時間，避免混同計畫出發日。",
+    "development": "保留十月原發布日，十一月補查政府指引與獨立分析的年齡邊界文字差異。",
+    "perspectives": "政府提供路徑分類，UKCISA提供例外限制的獨立解讀；不虛構主管機關個案答覆。",
+    "taiwanImpact": "分開台灣學生的計畫資格、國籍旅行程序及活動許可，指出整體行程應由機構核對。",
+    "uncertainty": "明示年齡文字差異未自行裁定，不提供簽證審理天數與個人准許或工作保證。",
+    "independence": "UKCISA為獨立學生諮詢組織並逐項分析規則，不是政府指引的機械鏡像或新聞稿轉載。",
+    "primarySource": "https://www.gov.uk/guidance/erasmus-applicants-coming-to-the-uk",
+    "independentSource": "https://www.ukcisa.org.uk/news/september-statement-of-changes-additional-changes-to-the-immigration-rules/",
+    "reviewedAt": "2026-11-09T08:21:25.622023+08:00",
+    "bodySha256": "9a53796639ec8b46dd4e09dc2bae96840754536592a267c50d3e70ed8b70c8fe"
   }
 }

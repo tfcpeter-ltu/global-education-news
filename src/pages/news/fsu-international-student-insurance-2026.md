@@ -1,31 +1,39 @@
 ---
-layout: '../../layouts/ArticleLayout.astro'
-title: 'FSU 2026/27國際學生保險改採校方方案：F、J身分僅有限例外可豁免'
-description: 'Florida State University自2026/27學年要求F-1、J-1及其眷屬身分學生原則上加入校方學生健康保險，豁免限少數情形。'
-date: 2026-10-13T06:30:00+08:00
-author: 'LTU Global Education News 編輯部'
-category: '美國國際教育'
-topic: 'usa'
-image: '/images/share-photos/09696c2787c5d9945204e395.jpg'
-imageAlt: '美國佛州大學校園資料照'
-imageCredit: 'Wikimedia Commons 授權資料照（本站保存）'
-imageSource: 'https://commons.wikimedia.org/'
-sources:
-  - label: 'Florida State University｜International Student Requirements'
-    url: 'https://studentinsurance.fsu.edu/international-requirements'
-  - label: 'State University System of Florida｜Regulation 6.009'
-    url: 'https://www.flbog.edu/wp-content/uploads/6_009-Admiss-of-Intern-Students-1.pdf'
+layout: "../../layouts/ArticleLayout.astro"
+title: "FSU 2026/27國際學生保險改採校方方案：F、J身分僅有限例外可豁免"
+description: "Florida State University自2026/27學年要求F-1、J-1及其眷屬身分學生原則上加入校方學生健康保險，豁免限少數情形。"
+date: "2026-10-13T06:30:00+08:00"
+author: "LTU Global Education News 編輯部"
+category: "美國國際教育"
+topic: "usa"
+image: "/images/share-photos/09696c2787c5d9945204e395.jpg"
+imageAlt: "美國佛州大學校園資料照"
+imageCredit: "Wikimedia Commons 授權資料照（本站保存）"
+imageSource: "https://commons.wikimedia.org/"
+sources: [{"label": "Florida State University｜International Student Requirements", "url": "https://studentinsurance.fsu.edu/international-requirements"}, {"label": "State University System of Florida｜Regulation 6.009", "url": "https://www.flbog.edu/wp-content/uploads/6_009-Admiss-of-Intern-Students-1.pdf"}, {"label": "FSU — current carrier and dated premium periods", "url": "https://studentinsurance.fsu.edu/"}, {"label": "USF — independently administered insurance compliance policy", "url": "https://www.usf.edu/student-affairs/student-health-services/insurance/inscompliance.aspx"}]
+updated: "2026-11-09T08:21:25.622023+08:00"
 ---
-Florida State University（FSU）公告，自 **2026–2027 學年**起，持 F-1、J-1、F-2 或 J-2 身分的國際學生原則上會自動加入 FSU Student Health Insurance Plan，過去可用其他保單申請的豁免已大幅縮限。
 
-## 規則與例外
+赴美留學的預算，不只包括學費與住宿。佛羅里達州立大學（FSU）自2026／27學年調整國際學生健康保險制度，符合規定的學生自動加入校方方案，使用外部保單申請豁免的空間縮小。這項變化影響的是註冊與保險安排，不能解讀為全美大學一致改制，也不能從保費一項判斷整體保障是否較好。
 
-FSU 說明，有限豁免主要涉及特定政府或機構贊助，以及符合校方列明條件的少數情況。學生不應先自行購買外部保單，再假設一定能取代校方方案。
+校方國際學生專頁列出F-1、J-1、F-2與J-2身分，並把例外限定於特定學生類別。原文所稱「政府或機構贊助」過於寬泛：目前列明的是使用美國國務院提供保險的J-1學生，以及非學位或短期跨校修課學生；兩類都仍須提出符合州級規範的保險，並由校方審查，而非持有贊助信就自動免除。
 
-佛州公立大學系統 Regulation 6.009 本來就要求國際學生證明足以負擔學費、生活費與健康保險，並維持符合標準的保險。FSU 這次是把校內執行方式改得更集中。
+其中，非學位或短期跨校修課學生可提出符合規範的短期保單，即使它不是符合美國平價醫療法的方案，仍可能申請豁免。這是限定身分與課程條件的例外，不能延伸為所有交換學生或所有台灣保單均被接受。對帶眷屬的家庭，學生自身要求與眷屬加保程序也應分開確認，不能把身分代碼當成全家自動獲得保障的證明。
 
-## 對台灣學生的影響
+州級規範提供理解這次改制的背景。佛州公立大學系統第6.009條要求國際學生證明能負擔學費、生活及健康保險等費用，並對F或J身分的在學保障訂出要求。本文連結的州文件版本列有2016年修訂紀錄，因此用來說明制度基礎，不把這份歷史文件誤當2026年所有新保單條款的完整清單。
 
-準備到 FSU 的台灣學生應把校方保險費納入總成本，並在繳費前核對自己的簽證身分、起訖日與是否符合例外。校方列出的 2026 夏季方案曾顯示特定期間費用，但不同學期與年度金額會變動，本文不以舊期費率推算未來費用。
+在這個框架下，持續保障的意義不只是就醫當天有一張保險卡。州文件談到在學期間及年度假期的連續保障，也涵蓋醫療後送與遺體運返等類別。家庭比較旅平險、海外醫療附約與學生方案時，應核對保障期間與適用服務，而不是只比較名稱或保額。校方是否准許豁免，仍是另一個須取得書面結論的問題。
 
-若有台灣既有保險或交換／贊助方案，仍須把證明交由 FSU 判定，不能只靠保單名稱或海外醫療條款自行認定豁免。
+同州其他大學的做法也顯示，不能把FSU的校內選擇說成全州只有一種保單。南佛羅里達大學（USF）的現行說明仍設有保險合規審查與豁免程序，並要求學生先完成保險課程再購買方案。這個不同機構的原始資料可交叉檢視執行差異，但它不是FSU學生可直接援用的例外，也不能用來推翻FSU專頁規定。
+
+11月9日重新核對時，FSU首頁說明2026／27方案承保公司已轉為Aetna，並表示保障福利維持不變。學生須使用新的保險資料與卡片，不能只憑往年文件找服務窗口。這項承保公司更新與「必須加入校方方案」是不同層次的變動：前者涉及當期使用資訊，後者涉及誰可選擇其他保單。
+
+費用頁目前列出國際學生全年保費2,797美元，期間為2026年8月15日至2027年8月14日；春夏方案為1,732美元。國際專頁部分表格的秋季年份標示與首頁不一致，因此本文採首頁完整期間作說明，並保留差異紀錄。這些是當期公告數字，不是對未來學年報價，也不代表所有醫療支出已包含在保費中。
+
+對台灣家庭而言，實際決策應先確認錄取課程、移民身分及出入境安排，再請校方確認保險起訖與帳單。若已買外部保單，先取得豁免結果與取消條件，避免重複支出或保障空窗。這是由制度差異推導的規劃建議，並非本報已確認某位學生能退費；個人契約與醫療需要仍須交由相應專業窗口處理。
+
+後續值得追蹤的是校方能否清楚統一各頁年份、提供當期文件，以及例外審查如何通知學生。FSU把新安排解釋為確保一致保障與減少自報豁免缺口；目前查得文件未提供改制前後理賠結果或學生負擔研究，不能據此宣稱改革已改善所有人的就醫體驗。制度目的、保費與實際使用成效，應分開評估。
+
+## 資料與報導方法
+
+本文於2026年11月9日重新查核並擴寫，保留原發布日期。依公開原始文件與具名來源整理，未進行現場採訪；現行資訊與原報導時序分開說明，未公開的個案結果不作推定。
