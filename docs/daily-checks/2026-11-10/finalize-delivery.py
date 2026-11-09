@@ -32,7 +32,7 @@ r['deployment']=dict(commit=run['head_sha'],status='success',completedAt=datetim
 for attempt in r.get('deploymentAttempts',[]):
  if attempt['runId']==run['id'] and attempt['status']=='in_progress':attempt.update(status='success',completedAt=r['deployment']['completedAt'])
 if r.get('deploymentAttempts'):
- r['deploymentRecovery']=dict(status='resolved',resolution='Fresh commit and artifact completed after the previous Pages synchronization timeout and cancelled same-ID retry.',verifiedAt=archive['verifiedAt'])
+ r['deploymentRecovery']=dict(status='resolved',resolution='Fresh deployment succeeded after synchronization timeouts and a cancelled same-ID retry. The final attempt used a bounded 20-minute action wait and 25-minute job limit; no causal claim about the timeout change is made.',verifiedAt=archive['verifiedAt'])
 r.pop('archiveDeploymentPending',None);r['archiveRemediation']=dict(count=3,remaining=q['remaining'],paths=paths,verifiedAt=archive['verifiedAt'],evidence=entry['evidence'])
 for x in r['newsPublished']+r['scholarshipAdditions']:x['publishedVerifiedAt']=seo['verifiedAt']
 r['acceptance'].update(verifiedAt=max(archive['verifiedAt'],seo['verifiedAt']),uiVerifiedAt=datetime.datetime.fromisoformat(ui['verifiedAt'].replace('Z','+00:00')).astimezone(zone).isoformat(),archiveEvidence=entry['evidence'])

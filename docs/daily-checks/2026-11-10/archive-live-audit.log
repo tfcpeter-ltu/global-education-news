@@ -1,0 +1,2 @@
+PASS: six live revised bilingual pages, original and updated dates, sources, canonical, schema and OG images.
+Resolved audit assertion: normalize valid UTC schema timestamps to Asia/Taipei before checking the date. No site change required.

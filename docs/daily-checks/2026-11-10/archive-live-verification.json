@@ -1,0 +1,71 @@
+{
+  "verifiedAt": "2026-11-10T06:41:26.807078+08:00",
+  "pages": [
+    {
+      "url": "https://globalednews.com/news/jordan-international-university-unified-admissions-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/jordan-international-university-unified-admissions-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/5133e45a27598c2f5a9d5029.jpg",
+      "ogBytes": 245044,
+      "visibleTextCharacters": 3698,
+      "englishWithoutChinese": false,
+      "originalPublicationDatePreserved": true,
+      "updatedDateVisible": true
+    },
+    {
+      "url": "https://globalednews.com/en/news/jordan-international-university-unified-admissions-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/jordan-international-university-unified-admissions-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/5133e45a27598c2f5a9d5029.jpg",
+      "ogBytes": 245044,
+      "visibleTextCharacters": 9071,
+      "englishWithoutChinese": true,
+      "originalPublicationDatePreserved": true,
+      "updatedDateVisible": true
+    },
+    {
+      "url": "https://globalednews.com/news/nagoya-g30-undergraduate-2027-application/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/nagoya-g30-undergraduate-2027-application/",
+      "ogImage": "https://globalednews.com/images/share-photos/7c4841c56f8967781c58fdea.jpg",
+      "ogBytes": 229568,
+      "visibleTextCharacters": 3756,
+      "englishWithoutChinese": false,
+      "originalPublicationDatePreserved": true,
+      "updatedDateVisible": true
+    },
+    {
+      "url": "https://globalednews.com/en/news/nagoya-g30-undergraduate-2027-application/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/nagoya-g30-undergraduate-2027-application/",
+      "ogImage": "https://globalednews.com/images/share-photos/7c4841c56f8967781c58fdea.jpg",
+      "ogBytes": 229568,
+      "visibleTextCharacters": 9254,
+      "englishWithoutChinese": true,
+      "originalPublicationDatePreserved": true,
+      "updatedDateVisible": true
+    },
+    {
+      "url": "https://globalednews.com/news/eduhk-2027-international-undergraduate-admissions/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/eduhk-2027-international-undergraduate-admissions/",
+      "ogImage": "https://globalednews.com/images/share-photos/5c6c5972e8b4203e9d3eaeaf.jpg",
+      "ogBytes": 196855,
+      "visibleTextCharacters": 3702,
+      "englishWithoutChinese": false,
+      "originalPublicationDatePreserved": true,
+      "updatedDateVisible": true
+    },
+    {
+      "url": "https://globalednews.com/en/news/eduhk-2027-international-undergraduate-admissions/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/eduhk-2027-international-undergraduate-admissions/",
+      "ogImage": "https://globalednews.com/images/share-photos/5c6c5972e8b4203e9d3eaeaf.jpg",
+      "ogBytes": 196855,
+      "visibleTextCharacters": 9131,
+      "englishWithoutChinese": true,
+      "originalPublicationDatePreserved": true,
+      "updatedDateVisible": true
+    }
+  ]
+}

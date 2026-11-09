@@ -1,26 +1,8 @@
 {
   "status": "pending",
   "order": "newest first, then currently consequential policies",
-  "remaining": 172,
+  "remaining": 169,
   "items": [
-    {
-      "path": "src/pages/news/jordan-international-university-unified-admissions-2026.md",
-      "date": "2026-10-10T09:50:00+08:00",
-      "bodyCjk": 350,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/nagoya-g30-undergraduate-2027-application.md",
-      "date": "2026-10-10T09:45:00+08:00",
-      "bodyCjk": 348,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/eduhk-2027-international-undergraduate-admissions.md",
-      "date": "2026-10-10T09:40:00+08:00",
-      "bodyCjk": 334,
-      "needsEditorialReview": true
-    },
     {
       "path": "src/pages/news/malaysia-higher-education-blueprint-international-students-2035.md",
       "date": "2026-10-09T11:30:00+08:00",
@@ -1036,7 +1018,7 @@
       "needsEditorialReview": true
     }
   ],
-  "updatedAt": "2026-11-09T08:28:57.288266+08:00",
+  "updatedAt": "2026-11-10T06:41:44.641202+08:00",
   "completedBatches": [
     {
       "date": "2026-11-07",
@@ -1073,6 +1055,18 @@
         "src/pages/news/uk-erasmus-immigration-rules-october-2026.md"
       ],
       "evidence": "docs/daily-checks/2026-11-09/archive-live-verification.json"
+    },
+    {
+      "date": "2026-11-10",
+      "count": 3,
+      "commit": "96edf2a06ec8e19cee2ae74ecfce84a66573b761",
+      "verifiedAt": "2026-11-10T06:41:26.807078+08:00",
+      "paths": [
+        "src/pages/news/jordan-international-university-unified-admissions-2026.md",
+        "src/pages/news/nagoya-g30-undergraduate-2027-application.md",
+        "src/pages/news/eduhk-2027-international-undergraduate-admissions.md"
+      ],
+      "evidence": "docs/daily-checks/2026-11-10/archive-live-verification.json"
     }
   ]
 }

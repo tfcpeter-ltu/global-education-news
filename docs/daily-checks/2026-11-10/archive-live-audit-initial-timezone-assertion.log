@@ -1,0 +1,23 @@
+Traceback (most recent call last):
+  File "C:\Users\User\OneDrive\文件\ChatGPT\環球教育新聞網站\work\daily-20261014\docs\daily-checks\2026-11-10\archive-live-audit.py", line 19, in <module>
+    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:pages=list(pool.map(check,[(s,e) for s in slugs for e in [False,True]]))
+                                                                            ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python314\Lib\concurrent\futures\_base.py", line 639, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python314\Lib\concurrent\futures\_base.py", line 311, in _result_or_cancel
+    return fut.result(timeout)
+           ~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python314\Lib\concurrent\futures\_base.py", line 450, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python314\Lib\concurrent\futures\_base.py", line 395, in __get_result
+    raise self._exception
+  File "C:\Users\User\AppData\Local\Programs\Python\Python314\Lib\concurrent\futures\thread.py", line 86, in run
+    result = ctx.run(self.task)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python314\Lib\concurrent\futures\thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "C:\Users\User\OneDrive\文件\ChatGPT\環球教育新聞網站\work\daily-20261014\docs\daily-checks\2026-11-10\archive-live-audit.py", line 17, in check
+    schema_text=json.dumps(schemas);assert '2026-10-10' in schema_text and '2026-11-10' in schema_text
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

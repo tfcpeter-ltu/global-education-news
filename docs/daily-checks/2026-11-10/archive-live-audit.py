@@ -14,7 +14,10 @@ def check(pair):
  assert required[slug.split('-')[0]][0 if en else 1] in text
  og=d.xpath('//meta[@property="og:image"]/@content')[0];ims,imb=get(og);assert ims==200 and len(imb)>10000
  schemas=[json.loads(t) for t in d.xpath('//script[@type="application/ld+json"]/text()')];assert schemas
- schema_text=json.dumps(schemas);assert '2026-10-10' in schema_text and '2026-11-10' in schema_text
+ article=next(s for s in schemas if s.get('@type')=='NewsArticle')
+ taipei_date=lambda value:datetime.datetime.fromisoformat(value.replace('Z','+00:00')).astimezone(datetime.timezone(datetime.timedelta(hours=8))).date().isoformat()
+ assert taipei_date(article['datePublished'])=='2026-10-10'
+ assert taipei_date(article['dateModified'])=='2026-11-10'
  return dict(url=url,status=status,canonical=url,ogImage=og,ogBytes=len(imb),visibleTextCharacters=len(text),englishWithoutChinese=en,originalPublicationDatePreserved=True,updatedDateVisible=True)
 with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:pages=list(pool.map(check,[(s,e) for s in slugs for e in [False,True]]))
 result=dict(verifiedAt=datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=8))).isoformat(),pages=pages)

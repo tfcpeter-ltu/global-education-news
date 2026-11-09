@@ -1,11 +1,11 @@
 [
   {
-    "id": 42711560944,
+    "id": 42713491435,
     "name": "Deploy Astro site to GitHub Pages",
-    "status": "in_progress",
-    "conclusion": null,
-    "head_sha": "16e2ce5e89db74867dcaff1b4218db4cd0b8f858",
-    "html_url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/42711560944",
-    "updated_at": "2026-11-09T22:24:20Z"
+    "status": "completed",
+    "conclusion": "success",
+    "head_sha": "96edf2a06ec8e19cee2ae74ecfce84a66573b761",
+    "html_url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/42713491435",
+    "updated_at": "2026-11-09T22:39:59Z"
   }
 ]
