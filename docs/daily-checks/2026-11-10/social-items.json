@@ -1,0 +1,67 @@
+[
+  {
+    "campaign": "news",
+    "key": "au",
+    "topic": "australia-agent-standards-2026",
+    "title": "找留學顧問，先把合作、收費與申訴問清楚",
+    "benefit": "澳洲正在討論代辦認證；台灣家庭現在就能做哪些查核？",
+    "summary": "業界倡議最低標準與共同監管，政府仍在探索模式，並非新制度已經上路。文章整理現行學校責任，教你核對官方代理名單、佣金與服務範圍。",
+    "advice": "收藏這份選顧問的查核起點，申請前與家人一起看。",
+    "section": "國際教育新聞",
+    "sectionUrl": "https://globalednews.com/news/",
+    "url": "https://globalednews.com/news/australia-education-agent-accreditation-proposal-2026/",
+    "lines": [
+      "選留學顧問",
+      "先問這幾件事"
+    ]
+  },
+  {
+    "campaign": "scholarship",
+    "key": "aston",
+    "topic": "scholarship-radar-20261110",
+    "title": "台灣學生國際獎學金雷達",
+    "benefit": "想找留學補助，先把資格、金額與期限放在一起比較。",
+    "summary": "今日新增Aston碩士與Birmingham City學士、碩士三項學費補助。",
+    "advice": "全庫總量部署後實查，不代表全部開放申請。",
+    "section": "台灣學生國際獎學金雷達",
+    "sectionUrl": "https://globalednews.com/scholarships/",
+    "url": "https://globalednews.com/scholarships/",
+    "lines": [
+      "台灣學生國際獎學金雷達",
+      "免費查詢・公益資訊"
+    ]
+  },
+  {
+    "campaign": "study-abroad",
+    "key": "diy",
+    "topic": "bcu-campus-course-planning",
+    "title": "英國選校別漏了每天要走的路",
+    "benefit": "課程在哪個校區，會影響住宿、通勤與生活預算。",
+    "summary": "Birmingham City有City Centre與City South兩個主要校區；先確認實際上課地點，再比課程、住宿和台灣入學條件。文章整理官方地圖與一月申請時程。",
+    "advice": "從留學DIY導航比較學校，替自己的選校表多加一欄「上課地址」。",
+    "section": "留學DIY導航",
+    "sectionUrl": "https://globalednews.com/study-abroad/",
+    "url": "https://globalednews.com/study-abroad/birmingham-city-campus-course-budget-planning/",
+    "lines": [
+      "英國城市選校",
+      "先找對上課校區"
+    ]
+  },
+  {
+    "campaign": "taiwan-universities",
+    "key": "taiwan",
+    "topic": "nsysu-german-education-lecture",
+    "title": "想了解德國教育？先從一場校園講座開始",
+    "benefit": "認識大學，也可以從它正在討論的國際議題切入。",
+    "summary": "中山大學公事所11/25（三）13:10–16:00於管CM1035室，邀請陳姸琇博士談德國教育的轉向與困局，從學制與政策理解當代問題。",
+    "advice": "官方公告附報名入口；參與資格與名額請向主辦確認。也可用國內大學資料庫比較學校與科系。",
+    "section": "國內大學資料庫",
+    "sectionUrl": "https://globalednews.com/taiwan-universities/",
+    "url": "https://globalednews.com/taiwan-universities/",
+    "lines": [
+      "從校園看世界",
+      "中山 × 德國教育"
+    ],
+    "sourceUrl": "https://pam.nsysu.edu.tw/p/404-1234-385909.php?Lang=zh-tw"
+  }
+]

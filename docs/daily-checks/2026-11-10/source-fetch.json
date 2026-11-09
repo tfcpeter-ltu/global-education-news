@@ -1,0 +1,56 @@
+{
+  "urls": {
+    "nz-official": "https://www.enz.govt.nz/news-and-research/ed-news/international-students-give-new-zealand-experience-highest-rating-yet",
+    "au-standard": "https://www.education.gov.au/esos-framework/resources/standard-4-education-agents",
+    "au-teqsa": "https://www.teqsa.gov.au/guides-resources/resources/sector-updates-and-alerts/sector-alert-provider-responsibilities-when-using-education-agents",
+    "bcu-ug": "https://www.bcu.ac.uk/international/fees-costs-and-scholarships/ug-scholarships",
+    "bcu-pg": "https://www.bcu.ac.uk/international/fees-costs-and-scholarships/pg-scholarships",
+    "bcu-taiwan": "https://www.bcu.ac.uk/international/bcu-in-your-country/taiwan",
+    "bcu-secondary": "https://collegedunia.com/uk/university/2288-birmingham-city-university-birmingham/scholarship",
+    "aston": "https://www.aston.ac.uk/international/scholarships",
+    "aston-taiwan": "https://www.aston.ac.uk/international/taiwan",
+    "aston-secondary": "https://kwahub.com/en/study-abroad-scholarships/1754-aston-university-postgraduate-international-community-scholarship-january-2027"
+  },
+  "results": [
+    [
+      "nz-official",
+      "HTTP Error 403: Forbidden"
+    ],
+    [
+      "au-standard",
+      "The read operation timed out"
+    ],
+    [
+      "au-teqsa",
+      "The read operation timed out"
+    ],
+    [
+      "bcu-ug",
+      3512
+    ],
+    [
+      "bcu-pg",
+      3489
+    ],
+    [
+      "bcu-taiwan",
+      9095
+    ],
+    [
+      "bcu-secondary",
+      "HTTP Error 403: Forbidden"
+    ],
+    [
+      "aston",
+      34791
+    ],
+    [
+      "aston-taiwan",
+      5660
+    ],
+    [
+      "aston-secondary",
+      1725
+    ]
+  ]
+}

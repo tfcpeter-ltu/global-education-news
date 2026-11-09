@@ -1,0 +1,140 @@
+{
+  "verifiedAt": "2026-11-10T05:28:25.669522+08:00",
+  "pages": [
+    {
+      "url": "https://globalednews.com/news/australia-education-agent-accreditation-proposal-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/australia-education-agent-accreditation-proposal-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/64814078f4a5863eb2334c8f.jpg",
+      "ogBytes": 263153,
+      "schemaCount": 5,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/news/new-zealand-student-experience-2026-work-gap/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/new-zealand-student-experience-2026-work-gap/",
+      "ogImage": "https://globalednews.com/images/share-photos/bd4ed3660d43adbb6cd0e09b.jpg",
+      "ogBytes": 136020,
+      "schemaCount": 5,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/news/uk-business-schools-2026-recruitment-finance-survey/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/uk-business-schools-2026-recruitment-finance-survey/",
+      "ogImage": "https://globalednews.com/images/share-photos/7ad92f91d4b060e94febcc66.jpg",
+      "ogBytes": 216925,
+      "schemaCount": 5,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-11-aston-pg-international-community-january-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-11-aston-pg-international-community-january-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/da00a90e48bda4a714f2b4b7.jpg",
+      "ogBytes": 149065,
+      "schemaCount": 3,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-11-bcu-international-undergraduate-january-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-11-bcu-international-undergraduate-january-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/61be26084bd8df02208dc68f.jpg",
+      "ogBytes": 190246,
+      "schemaCount": 3,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-11-bcu-international-postgraduate-january-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-11-bcu-international-postgraduate-january-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/9698eb854ea68e9412a98acb.jpg",
+      "ogBytes": 240063,
+      "schemaCount": 3,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/study-abroad/birmingham-city-campus-course-budget-planning/",
+      "status": 200,
+      "canonical": "https://globalednews.com/study-abroad/birmingham-city-campus-course-budget-planning/",
+      "ogImage": "https://globalednews.com/images/share-photos/02391a1668851fde7cebf547.jpg",
+      "ogBytes": 238758,
+      "schemaCount": 5,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/en/news/australia-education-agent-accreditation-proposal-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/australia-education-agent-accreditation-proposal-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/64814078f4a5863eb2334c8f.jpg",
+      "ogBytes": 263153,
+      "schemaCount": 5,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/news/new-zealand-student-experience-2026-work-gap/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/new-zealand-student-experience-2026-work-gap/",
+      "ogImage": "https://globalednews.com/images/share-photos/bd4ed3660d43adbb6cd0e09b.jpg",
+      "ogBytes": 136020,
+      "schemaCount": 5,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/news/uk-business-schools-2026-recruitment-finance-survey/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/uk-business-schools-2026-recruitment-finance-survey/",
+      "ogImage": "https://globalednews.com/images/share-photos/7ad92f91d4b060e94febcc66.jpg",
+      "ogBytes": 216925,
+      "schemaCount": 5,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/scholarships/items/2026-11-aston-pg-international-community-january-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/scholarships/items/2026-11-aston-pg-international-community-january-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/da00a90e48bda4a714f2b4b7.jpg",
+      "ogBytes": 149065,
+      "schemaCount": 3,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/scholarships/items/2026-11-bcu-international-undergraduate-january-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/scholarships/items/2026-11-bcu-international-undergraduate-january-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/61be26084bd8df02208dc68f.jpg",
+      "ogBytes": 190246,
+      "schemaCount": 3,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/scholarships/items/2026-11-bcu-international-postgraduate-january-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/scholarships/items/2026-11-bcu-international-postgraduate-january-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/9698eb854ea68e9412a98acb.jpg",
+      "ogBytes": 240063,
+      "schemaCount": 3,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/study-abroad/birmingham-city-campus-course-budget-planning/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/study-abroad/birmingham-city-campus-course-budget-planning/",
+      "ogImage": "https://globalednews.com/images/share-photos/02391a1668851fde7cebf547.jpg",
+      "ogBytes": 238758,
+      "schemaCount": 5,
+      "englishCjk": false
+    }
+  ],
+  "xmlChecks": [
+    "sitemap-index.xml",
+    "sitemap-0.xml",
+    "news-sitemap.xml",
+    "weekly-feed.xml"
+  ],
+  "newPagesInSitemap": 7,
+  "newsInNewsSitemapAndRss": 3,
+  "robots": 200
+}

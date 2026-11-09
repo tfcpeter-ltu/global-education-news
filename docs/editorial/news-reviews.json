@@ -310,5 +310,44 @@
     "reviewedAt": "2026-11-10T05:13:58.791176+08:00",
     "primarySource": "https://charteredabs.org/insights/news/chartered-abs-annual-membership-survey-2026-business-school-finances-strained-as-international-enrolments-fall",
     "independentSource": "https://thepienews.com/business-schools-finances-strained-following-fall-in-international-students-enrolments/"
+  },
+  "jordan-international-university-unified-admissions-2026": {
+    "newsValue": "公開更正原稿把處理截止當申請截止的實質錯誤，避免台灣家庭依已過期日期送件。",
+    "background": "區分約旦公私立申請路徑與學位制度，以WENR分析補充制度背景及品質認證差異。",
+    "development": "保留十月十日原始日期，十一月十日明示更正，四個當期截止均已過不再宣稱開放。",
+    "perspectives": "主管機關提供當期日期，WENR提供獨立制度背景，Zarqa提供校方實務而非虛構訪談。",
+    "taiwanImpact": "提醒台灣家庭分清資格認定、授課語言、學費與未來執業需求，不保證個人學位採認。",
+    "uncertainty": "未查得延長或新批次就不推定仍開放，保留個別補件、帳單及專業資格的未知界線。",
+    "independence": "WENR是WES的獨立制度分析，非六月招生公告轉載；Petra依公告報導的限制明確揭露。",
+    "primarySource": "https://studyinjordan.jo/MajorsSearchEn.aspx",
+    "independentSource": "https://wenr.wes.org/country-profiles/higher-education-sections/jordan-higher-education/",
+    "reviewedAt": "2026-11-10T06:03:18.972107+08:00",
+    "bodySha256": "45dd813ab92186e2ce7020b46738ba0ebd0693f2e32ac6c36531c0d5340a9d70"
+  },
+  "nagoya-g30-undergraduate-2027-application": {
+    "newsValue": "將首輪預告更新為進行中的申請，補正測驗非全面強制與日本台北時差，避免實際送件失誤。",
+    "background": "交代G30特定英語本科與一般日語本科路徑差異，不把校名等同全校課程都可英語申請。",
+    "development": "保留原始十月發布時間，十一月重新核實兩輪日期、文件與英語豁免頁面文字差異。",
+    "perspectives": "校方招生頁配合Cambridge獨立資格指南及JASSO生活語言觀點，未捏造面試或學生經驗。",
+    "taiwanImpact": "具體換算台北十一時截止並提出學校文件協作與選課問題，不承諾台灣學生錄取率。",
+    "uncertainty": "披露三年與四年英語豁免文字差異、個別科系限制與未知錄取率，不自行替個案裁定資格。",
+    "independence": "Cambridge為校外資格提供者的原始指南，揭露推廣自身資格立場，不把指南當2027日期證據。",
+    "primarySource": "https://admissions.g30.nagoya-u.ac.jp/admissions/undergraduate/",
+    "independentSource": "https://www.cambridgeinternational.org/programmes-and-qualifications/recognition-and-acceptance/country/japan/applying-to-universities/",
+    "reviewedAt": "2026-11-10T06:03:18.972107+08:00",
+    "bodySha256": "2fb590c5699a4e45007614ee8b495b3cc8b60295d81102dc7456cbf199598e8b"
+  },
+  "eduhk-2027-international-undergraduate-admissions": {
+    "newsValue": "補入台灣學測資格、舊制考試文字與文件完整要求，讓早輪截止資訊可直接支援選校準備。",
+    "background": "將教大2027招生放進香港非本地容量政策背景，清楚解釋百分比母數而非推定單校人數。",
+    "development": "保留十月發布日，十一月核對早輪仍開放、主晚輪與面試時程，不把未來宿舍計畫當現況。",
+    "perspectives": "教大原始規則加上香港電台原始訪問，分開校方招生與政策住宿觀點，不虛構受訪學生。",
+    "taiwanImpact": "提醒台灣申請人逐項核對學測、身分、英語、課程與未來職涯資格，不能以居住地概括管道。",
+    "uncertainty": "揭露頁面保留舊制指考名稱，未知個人資格與宿位不代判，名額上限不等於實際錄取數。",
+    "independence": "香港電台對教育局長的原始電台訪問與教大招生文件分開產生，非截止日網站轉載公告。",
+    "primarySource": "https://www.apply.eduhk.hk/ug/nonlocal_dates",
+    "independentSource": "https://news.rthk.hk/rthk/en/component/k2/1843827-20260214.htm",
+    "reviewedAt": "2026-11-10T06:03:18.972107+08:00",
+    "bodySha256": "c32af53b3fc5188439b1bd9e4553501216713fed390ae934a6b5ad1874671937"
   }
 }

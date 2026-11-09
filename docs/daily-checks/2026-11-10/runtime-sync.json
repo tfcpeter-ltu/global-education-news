@@ -1,151 +1,66 @@
 {
   "runtime": "C:\\Users\\User\\AppData\\Local\\Temp\\globalednews-security-20261019",
-  "backup": "C:\\Users\\User\\AppData\\Local\\Temp\\globalednews-20261110-runtime-backup",
+  "backup": "C:\\Users\\User\\AppData\\Local\\Temp\\globalednews-20261110-archive-runtime-backup",
   "changes": [
     {
-      "path": "docs/editorial/archive-remediation-queue.json",
-      "sourceSha256": "d0ef713de0d10f63c9909f4107a3bd554add92afebfba4e38e444d1f00e339de",
-      "runtimeSha256": "d862e2128316f38aacb1309bdd29d134929b78d73af6f6f2e840173bda948223"
-    },
-    {
       "path": "docs/editorial/news-reviews.json",
-      "sourceSha256": "a18da2dab792a5bbb0f31d8cff588ca2a3ef2204e3d1bc5e8379dc9a9f1b9339",
-      "runtimeSha256": "6ea866984339066d03c4b42195f00727c44aa1ccb99be37234fd5ebf98657996"
+      "sourceSha256": "4864d82e86e630479c362d7938254696a22bddb6863738c9d2a1092f13595952",
+      "runtimeSha256": "a18da2dab792a5bbb0f31d8cff588ca2a3ef2204e3d1bc5e8379dc9a9f1b9339"
     },
     {
       "path": "docs/social-posts/2026-11-10/news--australia-agent-standards-2026.json",
-      "sourceSha256": "26d06eef9826e125c7b040b07c4d6b0b235aa265cf37b34193d74b8cd5c78bd8",
-      "runtimeSha256": null
+      "sourceSha256": "d9c66d8872c3c8c0dd7bd6afca49d0aa19c73f85a1fea21de970929e5b0d060c",
+      "runtimeSha256": "26d06eef9826e125c7b040b07c4d6b0b235aa265cf37b34193d74b8cd5c78bd8"
     },
     {
       "path": "docs/social-posts/2026-11-10/publication-log.json",
-      "sourceSha256": "c4117d223e75bce46d9e8ca98aca6790b1437d8b9d289af86a1a3deec493310b",
+      "sourceSha256": "d754eeee3ec491fd0e539f2aa32b65c5b33b67bf19c261ce002e664699c6d70b",
+      "runtimeSha256": "c4117d223e75bce46d9e8ca98aca6790b1437d8b9d289af86a1a3deec493310b"
+    },
+    {
+      "path": "docs/social-posts/2026-11-10/radar-360-preview.jpg",
+      "sourceSha256": "a9317705bc4fae77d934bcc74664b004ec57c1f56f89e1ff1cc6e697b8fc2e16",
+      "runtimeSha256": null
+    },
+    {
+      "path": "docs/social-posts/2026-11-10/radar-mobile-large.png",
+      "sourceSha256": "fa768b2401e7f2e2732bdcfee0a10e6447f4ff8a0c584c5d44676acd37725ad2",
       "runtimeSha256": null
     },
     {
       "path": "docs/social-posts/2026-11-10/scholarship--scholarship-radar-20261110.json",
-      "sourceSha256": "7debc42f9d4ba76dee02246e2127b99a44cb60fa6fbdec1ee09c8d5db2d248ce",
-      "runtimeSha256": null
+      "sourceSha256": "8ec81e0a11ede9f69d7a9a29ab4c1dcb584d41b3b246eedbdd0f9c171def5120",
+      "runtimeSha256": "7debc42f9d4ba76dee02246e2127b99a44cb60fa6fbdec1ee09c8d5db2d248ce"
     },
     {
       "path": "docs/social-posts/2026-11-10/study-abroad--bcu-campus-course-planning.json",
-      "sourceSha256": "ff39ecfe9220efdfdd4d9486f6031dc4812d40313d8d73009f3f7a62c77fb127",
-      "runtimeSha256": null
+      "sourceSha256": "44eaeb2984faf0eb6ebb917914a229760743d9f3d34f902a8a9bbb5424e6b734",
+      "runtimeSha256": "ff39ecfe9220efdfdd4d9486f6031dc4812d40313d8d73009f3f7a62c77fb127"
     },
     {
       "path": "docs/social-posts/2026-11-10/taiwan-universities--nsysu-german-education-lecture.json",
-      "sourceSha256": "6b5db049ec48fb0ffe7cad3f5d49b2c8275b3ca1d4fd98ef1368a259c227891a",
-      "runtimeSha256": null
-    },
-    {
-      "path": "public/data/analytics-summary.json",
-      "sourceSha256": "72e71fc6f7c98c68264d7f971bcd23a8c234452ff8bb64bff571af86655374a1",
-      "runtimeSha256": "d58e3bc68eac4f7a88783cc5e8fbbe0c16ac20a0a319676b6a85b8ec4847c4e3"
-    },
-    {
-      "path": "public/images/daily/2026-11-10/aston.jpg",
-      "sourceSha256": "42b8a657d70c3fb46526de61013df530a719a57fac1981283db36138a65bc9b5",
-      "runtimeSha256": null
-    },
-    {
-      "path": "public/images/daily/2026-11-10/au.jpg",
-      "sourceSha256": "a860c71991fa14e74e0502e96971be85a80e100497b2946f9f59958f212b7cf1",
-      "runtimeSha256": null
-    },
-    {
-      "path": "public/images/daily/2026-11-10/bcupg.jpg",
-      "sourceSha256": "77b6df227da4f6edd766dd9e77dc144b9c7091dce3298b1d3f7c4f0beef655c1",
-      "runtimeSha256": null
-    },
-    {
-      "path": "public/images/daily/2026-11-10/bcuug.jpg",
-      "sourceSha256": "81fcc706eca4c07557047cc6b6e448c89a57d933bc67e22cb404d1d01c908e08",
-      "runtimeSha256": null
-    },
-    {
-      "path": "public/images/daily/2026-11-10/credits.html",
-      "sourceSha256": "935ec07208065d06fa798f20fcb5a6eecc21adf0be69ade663924dfea61e6909",
-      "runtimeSha256": null
-    },
-    {
-      "path": "public/images/daily/2026-11-10/diy.jpg",
-      "sourceSha256": "7bfa3f7ae80ca8e52c05930e5de5fe4c7f51edff7d8e04733a9e24c63c1571d0",
-      "runtimeSha256": null
-    },
-    {
-      "path": "public/images/daily/2026-11-10/nz.jpg",
-      "sourceSha256": "15ab416800af154cb675f874dd4e4631560887bfa90950703e816e485f85f7da",
-      "runtimeSha256": null
-    },
-    {
-      "path": "public/images/daily/2026-11-10/taiwan.jpg",
-      "sourceSha256": "a6f71ca3d4680a45335667c1ddac866d23e803ccb3c9f9e9ac57efd7ebb66aab",
-      "runtimeSha256": null
-    },
-    {
-      "path": "public/images/daily/2026-11-10/uk.jpg",
-      "sourceSha256": "ba2d5224cdedd3bf1a839c0f7ae47696b483d10ad8d599518b3bf4596e84dc72",
-      "runtimeSha256": null
-    },
-    {
-      "path": "public/images/social/2026-11-09/scholarship-radar-20261109.jpg",
-      "sourceSha256": "bf46a1a7326c022435573e29b7107809c5469095f86a18ed33f250b64124762d",
-      "runtimeSha256": null
-    },
-    {
-      "path": "public/study-abroad/university-data-expanded.js",
-      "sourceSha256": "9421916db754b0e9245e3576e21d686713fff62393f68c599db7cdff0f55d4f8",
-      "runtimeSha256": "a3bc10c0a32ff064cefc12c04a4fc9c3135266602442e30b75081d0d080f81dc"
+      "sourceSha256": "a75d273d6c6cf4aeb112927543fb61dbac02e8e05347282ad9c02645dfaf3211",
+      "runtimeSha256": "6b5db049ec48fb0ffe7cad3f5d49b2c8275b3ca1d4fd98ef1368a259c227891a"
     },
     {
       "path": "src/data/i18n/en-overrides.json",
-      "sourceSha256": "25b23159266ba6cebd37a9e7cd04b2c5f2a9d8a4d96e59b6165d9ea52817aa22",
-      "runtimeSha256": "9108b9f1309bab7e464f29dd1e58249101f978cb962be43b6185b0e31c9da992"
+      "sourceSha256": "89e4638df87515d2226c1db0d61432fca31c156c0af30c67e4f515e8de02a86a",
+      "runtimeSha256": "97e4c0efdcf294ee13db3d6f4939c3f47a06c558a0f91dbfdff28673eb4d1ad9"
     },
     {
-      "path": "src/data/vlog-videos.json",
-      "sourceSha256": "031fde76047313041e925e4ae8da7c32a6ce45783d4508d4eeabc0d995a9bbd9",
-      "runtimeSha256": "9e739d8e5a09b6b65c9f7e65e6c510987629194f9b05456b679117d3848ed6b3"
+      "path": "src/pages/news/eduhk-2027-international-undergraduate-admissions.md",
+      "sourceSha256": "35aba933e44d97af4b8b943015d87acc246a57f1981fbb492c5b226e1abf1e4c",
+      "runtimeSha256": "188cb5594c2123d15a143c1ee0c67d552184629ea4604669c464bc53dd1f3090"
     },
     {
-      "path": "src/pages/index.astro",
-      "sourceSha256": "af3e634a855e9ee22f06637ee46870d38b918ed901d1127cefb4b49f27ef39bf",
-      "runtimeSha256": "2143ca4fe092e05f5bb3f968fe5ce1d89c597b624f14626408fafd0dbbfed288"
+      "path": "src/pages/news/jordan-international-university-unified-admissions-2026.md",
+      "sourceSha256": "c70ec3effdbc4fa070801dde7995163602c58e2b5fb258b99a6c9390b94313e9",
+      "runtimeSha256": "826b2ba315b90c8d905bbffc151e4891bd1929c5cfe6493f52b4b299ea5ed27e"
     },
     {
-      "path": "src/pages/news/australia-education-agent-accreditation-proposal-2026.md",
-      "sourceSha256": "2737f48f6cc7d60cb32a9d50f4281b8d912c38549a8969f1ac71de8178d5c89c",
-      "runtimeSha256": null
-    },
-    {
-      "path": "src/pages/news/new-zealand-student-experience-2026-work-gap.md",
-      "sourceSha256": "d567b74247f85b98c26ee0284ce1b1608c2a6c1ce6e1440c68fd5c378ee31c00",
-      "runtimeSha256": null
-    },
-    {
-      "path": "src/pages/news/uk-business-schools-2026-recruitment-finance-survey.md",
-      "sourceSha256": "bcd3ef6b7cd1832089a78365dbf64f88bc64b1baff713fc629cea0cbf29a9e48",
-      "runtimeSha256": null
-    },
-    {
-      "path": "src/pages/scholarships/items/2026-11-aston-pg-international-community-january-2027.md",
-      "sourceSha256": "d3ebd41afcbb8d1e073969c80af519bbd1a198bb721c9df6112f41ce8837d2a9",
-      "runtimeSha256": null
-    },
-    {
-      "path": "src/pages/scholarships/items/2026-11-bcu-international-postgraduate-january-2027.md",
-      "sourceSha256": "c1188c43fc55cb2c1e021e0731af0159905d18880c39d54e3e8612f8988c084d",
-      "runtimeSha256": null
-    },
-    {
-      "path": "src/pages/scholarships/items/2026-11-bcu-international-undergraduate-january-2027.md",
-      "sourceSha256": "04d08c823644f4d7f98b3ba2a4c7670e7bda93374cff612b5308efbb62398282",
-      "runtimeSha256": null
-    },
-    {
-      "path": "src/pages/study-abroad/birmingham-city-campus-course-budget-planning.md",
-      "sourceSha256": "7090a783698ef542b1384625d38bb2a1e213ef7eb3f35deaa2ad24802d934727",
-      "runtimeSha256": null
+      "path": "src/pages/news/nagoya-g30-undergraduate-2027-application.md",
+      "sourceSha256": "212749f172f2b96624395e80a4d6dd4e2552dacb47a6683206cfe7d66591387b",
+      "runtimeSha256": "ca94a4b1de0ba9cd47c3c6a7b1dc76cf628c7b40593e732f68c35d88c3eca996"
     }
   ]
 }

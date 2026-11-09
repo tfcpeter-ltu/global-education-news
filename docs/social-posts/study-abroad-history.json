@@ -1136,6 +1136,97 @@
           "mediaEvidence": "docs/daily-checks/2026-10-21/study-abroad-linkedin-public.png"
         }
       ]
+    },
+    {
+      "date": "2026-11-10",
+      "topic": "bcu-campus-course-planning",
+      "CTA": "免費加入會員",
+      "contentPath": "docs/social-posts/2026-11-10/study-abroad--bcu-campus-course-planning.json",
+      "status": "published",
+      "publishedPosts": [
+        {
+          "campaign": "study-abroad",
+          "network": "facebook",
+          "pageId": "101904929207004",
+          "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+          "status": "PUBLISHED",
+          "id": "1114857001290497",
+          "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0sfWcdMiZKBjqTyqQJqy84c4uotfonCCgZeAWGLWX9xRhxW1wShFUAKVjkuq16Jtkl",
+          "articleUrl": "https://globalednews.com/study-abroad/birmingham-city-campus-course-budget-planning/",
+          "publishedAt": "2026-11-10T05:40:00+08:00",
+          "verifiedAt": "2026-11-10T05:42:13.220000+08:00",
+          "imageCount": 1,
+          "mediaStatus": "VERIFIED",
+          "mediaVerifiedAt": "2026-11-10T05:42:13.220000+08:00",
+          "mediaKind": "uploaded-photo",
+          "mediaEvidence": "docs/daily-checks/2026-11-10/facebook-study-abroad-public.png",
+          "publicPhotoScreenshot": "docs/daily-checks/2026-11-10/facebook-study-abroad-public.png",
+          "photoAttachments": [
+            {
+              "id": "1114856601290537",
+              "url": "https://www.facebook.com/photo/?fbid=1114856601290537"
+            }
+          ],
+          "photoAttachedAt": "2026-11-10T05:40:22.887000+08:00",
+          "copyAddedAt": "2026-11-10T05:40:22.982000+08:00",
+          "photoReadyEvidence": "docs/daily-checks/2026-11-10/facebook-study-abroad-photo-ready.png",
+          "previewStatus": "VERIFIED",
+          "previewVerifiedAt": "2026-11-10T05:42:13.220000+08:00",
+          "copyVersion": "2026-11-10-v1"
+        },
+        {
+          "campaign": "study-abroad",
+          "network": "threads",
+          "account": "@ltuossdtw",
+          "status": "PUBLISHED",
+          "id": "DfiVFQIgUdi",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfiVFQIgUdi",
+          "articleUrl": "https://globalednews.com/study-abroad/birmingham-city-campus-course-budget-planning/",
+          "publishedAt": "2026-11-10T05:46:18+08:00",
+          "verifiedAt": "2026-11-10T05:47:42.850000+08:00",
+          "imageCount": 1,
+          "mediaStatus": "VERIFIED",
+          "mediaVerifiedAt": "2026-11-10T05:47:42.850000+08:00",
+          "mediaEvidence": "docs/daily-checks/2026-11-10/threads-diy-public.png",
+          "copyVersion": "2026-11-10-v1"
+        },
+        {
+          "campaign": "study-abroad",
+          "network": "linkedin",
+          "account": "Peter Chen",
+          "status": "PUBLISHED",
+          "id": "7525675647311007745",
+          "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7525675647311007745/",
+          "articleUrl": "https://globalednews.com/study-abroad/birmingham-city-campus-course-budget-planning/",
+          "publishedAt": "2026-11-10T05:47:00+08:00",
+          "verifiedAt": "2026-11-10T05:48:53.594000+08:00",
+          "imageCount": 1,
+          "mediaStatus": "VERIFIED",
+          "mediaVerifiedAt": "2026-11-10T05:48:53.594000+08:00",
+          "mediaEvidence": "docs/daily-checks/2026-11-10/linkedin-diy-public.png",
+          "copyVersion": "2026-11-10-v1",
+          "publishedTimePrecision": "minute"
+        },
+        {
+          "campaign": "study-abroad",
+          "network": "instagram",
+          "account": "@ltuossdtw",
+          "status": "PUBLISHED",
+          "id": "DfiVVyoEmY4",
+          "publicUrl": "https://www.instagram.com/ltuossdtw/p/DfiVVyoEmY4/",
+          "articleUrl": "https://globalednews.com/study-abroad/birmingham-city-campus-course-budget-planning/",
+          "publishedAt": "2026-11-10T05:48:36+08:00",
+          "verifiedAt": "2026-11-10T05:49:31.924000+08:00",
+          "imageCount": 1,
+          "mediaStatus": "VERIFIED",
+          "mediaVerifiedAt": "2026-11-10T05:49:31.924000+08:00",
+          "mediaEvidence": "docs/daily-checks/2026-11-10/instagram-diy-public.png",
+          "copyVersion": "2026-11-10-v1"
+        }
+      ],
+      "country": "uk",
+      "schoolName": "Birmingham City University",
+      "storyAngle": "campus-course-budget-planning"
     }
   ]
 }

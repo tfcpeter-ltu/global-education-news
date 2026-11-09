@@ -1,0 +1,29 @@
+{
+  "verifiedAt": "2026-11-09T21:53:47.273Z",
+  "desktop": true,
+  "mobile": true,
+  "desktopScholarship": {
+    "query": "Birmingham",
+    "country": "英國",
+    "status": "開放中",
+    "results": 2,
+    "zero": 0,
+    "reset": 266,
+    "loadMore": 48
+  },
+  "mobileScholarship": {
+    "cssWidth": 390,
+    "documentWidth": 371,
+    "results": 2,
+    "zero": 0,
+    "reset": 266,
+    "loadMore": 48
+  },
+  "evidence": [
+    "desktop-home.png",
+    "desktop-radar-filter.txt",
+    "mobile-home.png",
+    "mobile-news.png"
+  ],
+  "notes": "Browser zoom yields CSS390 with override312; viewport restored. Extension overlay dismissed by reload. Photo/text readback completed for15+1."
+}

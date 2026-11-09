@@ -1,35 +1,40 @@
 ---
-layout: '../../layouts/ArticleLayout.astro'
-title: '香港教育大學 2027 國際本科招生開放：11 月 16 日早輪、採滾動審查'
-description: '香港教育大學2027/28國際本科申請已於10月5日開放，早輪2026年11月16日、主輪2027年1月6日截止；未齊文件不進入面試審查。'
-date: 2026-10-10T09:40:00+08:00
-author: 'LTU Global Education News 編輯部'
-category: '亞洲大學招生'
-topic: 'asia'
-tags: ['香港', '香港教育大學', '國際學生', '本科申請']
-image: '/images/share-photos/ea7f9a062122f6f2c44c2e85.jpg'
-imageAlt: '香港大學校園資料照'
-imageCredit: 'Wikimedia Commons 授權照片；版面可能裁切'
-imageSource: 'https://upload.wikimedia.org/wikipedia/commons/4/44/The_Hong_Kong_Polytechnic_University_east.jpg'
-sources:
-  - label: 'EdUHK｜International Qualifications Important Dates'
-    url: 'https://www.apply.eduhk.hk/ug/nonlocal_dates'
-  - label: 'StarSchools｜Hong Kong university non-JUPAS deadlines'
-    url: 'https://starschools.hk/en/university/non-jupas/deadlines'
+layout: "../../layouts/ArticleLayout.astro"
+title: "香港教育大學2027本科早輪11月16日截止：台灣學生先核對資格與文件"
+description: "香港教育大學2027/28國際本科申請已於10月5日開放，早輪2026年11月16日、主輪2027年1月6日截止；未齊文件不進入面試審查。"
+date: "2026-10-10T09:40:00+08:00"
+author: "LTU Global Education News 編輯部"
+category: "亞洲大學招生"
+topic: "asia"
+tags: ["香港", "香港教育大學", "國際學生", "本科申請"]
+image: "/images/share-photos/ea7f9a062122f6f2c44c2e85.jpg"
+imageAlt: "香港理工大學校園照片，僅作香港高教背景示意，非香港教育大學"
+imageCredit: "Wikimedia Commons 授權照片；版面可能裁切"
+imageSource: "https://upload.wikimedia.org/wikipedia/commons/4/44/The_Hong_Kong_Polytechnic_University_east.jpg"
+sources: [{"label": "EdUHK — current international qualification dates", "url": "https://www.apply.eduhk.hk/ug/nonlocal_dates"}, {"label": "EdUHK — international entrance qualifications", "url": "https://www.apply.eduhk.hk/ug/nonlocal"}, {"label": "EdUHK — non-local status and institutional information", "url": "https://www.eduhk.hk/acadprog/nonlocal/"}, {"label": "RTHK — original February 14 radio interview reporting", "url": "https://news.rthk.hk/rthk/en/component/k2/1843827-20260214.htm"}, {"label": "Hong Kong Education Bureau — local-place denominator, page 287", "url": "https://www.edb.gov.hk/attachment/en/about-edb/press/legco/replies-to-fc/edb-e-2627.pdf"}]
+updated: "2026-11-10T06:03:18.972107+08:00"
 ---
 
-香港教育大學（EdUHK）2027/28 國際本科申請已於 **2026 年 10 月 5 日**開放，採滾動審查。國際申請人的早輪截止日為 **11 月 16 日**，主輪為 **2027 年 1 月 6 日**，晚輪為 **5 月 7 日**。
+正在比較香港本科課程的台灣學生，除了看申請截止日，也要確認自己使用哪一種學歷資格與申請身分。香港教育大學2027／28國際資格本科申請於10月5日開放，早輪將於2026年11月16日截止。本文11月10日重新核對時，距早輪截止仍有時間，但早送件不代表保證錄取；完整文件與課程適合度仍是規劃核心。
 
-## 滾動審查的實際意義
+校方日期頁另列主輪2027年1月6日、晚輪5月7日，並說明時程可能調整。審查採滾動方式，申請人可在未取得最終成績時先申請，再依要求更新；但缺少必要文件的案件不會進入面試考慮。這兩點應一起理解：可後補尚未公布的考試結果，不代表可以忽略系統已要求提供的其他證明。
 
-校方會依課程名額與申請完成時間陸續審查，並在 2026 年 12 月至 2027 年 5 月間安排面試及發出結果。較晚送件不等於沒有機會，但熱門課程可能已有部分名額被配置。
+台灣學歷條目目前列出學測英語達頂標、包含國文在內另外三科達均標的組合，並另有其他資格路徑。這是公開的入門條件說明，不是實際錄取分數或最低分保證。頁面仍保留舊制指考名稱，因此採用不同年度或新制考試的學生，應向招生單位確認對應方式，不宜自行把舊欄位直接換成另一種測驗。
 
-## 文件未齊不會進入面試
+英語要求與學歷門檻亦應分開閱讀。校方資格頁提供台灣考試英語成績及一般英語條件的連結，個別課程也可能另有要求。曾在英語環境讀書、持有國際課程資格或達到某一成績，均不應被新聞摘要直接判成所有條件已滿足。家庭可先整理現有證明與待取得成績，讓招生單位針對明確問題回覆，減少來回補件。
 
-申請人須上傳最新成績單、公開考試或預估成績、語言證明與其他課程要求文件。校方明確說明，申請資料不完整時不會納入面試考量；後續取得新成績可登入系統更新。
+申請身分也不只取決於居住地。校方另有非本地學生身分說明，學生應按自身證件與適用資格選擇管道，而不是因為人在台灣，就假設一定只有同一種表格與費率。本文未查閱任何個人證件，不替個案判定身分。課程是政府資助還是自資、學位名稱及年期，也應先釐清，才能做有意義的學費與生活預算比較。
 
-## 對台灣學生的影響
+這一輪招生置於香港擴大非本地學生容量的背景下。香港電台2月14日報導教育局長蔡若蓮的電台訪問，提到2026／27起相關非本地名額上限提高至本地學額的50%。這個百分比以本地學額為基準，不是說每所大學的一半學生都必須來自境外，也不能把制度上限當成香港教育大學對每個課程的實際招生配額。
 
-台灣高中生屬 non-local international applicant，應使用英文申請平台並依所持學歷查看課程要求。第一志願會獲優先考量，因此不宜只按學校名氣排序，應先比較課程內容、教師資格認可、實習安排與未來工作地點。
+該訪問亦談到學生宿舍供應與未來新增宿位，反映招生擴張必須搭配生活設施。對家庭的實際意義，是錄取與住宿應各自取得明確資訊；全港規劃新增床位，不能換算成某位新生已獲宿舍。這是由政策與生活安排之間的關係提出的提醒，並非本報取得教大當期宿位不足的個案證據，也不以全港消息推定單校服務品質。
 
-校方日期標示為暫定，申請人仍須以帳戶通知及課程頁面為準；住宿申請預計於 2027 年 7 月下旬開始，不能把錄取自動視為保證住宿。
+校方目前把面試與結果安排在2026年12月至2027年5月的區間，後續宿舍及迎新事項則有另外時程。申請人應監看系統及正式電郵，閱讀附條件錄取的每一項要求。若同時持有其他學校選項，可比較確認名額、繳費及補交文件的時間，而不是只用哪所學校最早回覆判斷哪個選擇最好。
+
+對希望修讀教育相關領域的學生，還應分清學術學位、實習安排與未來任教資格三件事。課程介紹中的教育主題，不能自行推論為畢業後可在任何地區任教；是否需要額外訓練或認證，應按目標工作地查詢。這是選課時值得向院系提出的問題，本文沒有查得足以保證台灣個別教師資格的證據，也不替專業審查機關作決定。
+
+本次修訂以教大日期、資格與身分專頁作原始依據，另使用香港電台對政策人物的原始訪問作獨立背景，不把校際截止日彙整網站當成第二份招生規則。報導保留10月10日發布日期，清楚區分11月重新查核內容。配圖為香港理工大學校園，只用來呈現香港高教環境，並非教大校園或本次招生活動現場，避免讀者因圖片誤認學校。
+
+## 資料與報導方法
+
+本文於2026年11月10日重新查核並擴寫，保留原發布日期。依公開原始文件與具名來源整理，未進行現場採訪；現行資訊與原報導時序分開說明，未公開的個案結果不作推定。
