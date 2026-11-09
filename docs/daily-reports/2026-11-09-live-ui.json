@@ -1,0 +1,20 @@
+{
+  "verifiedAt": "2026-11-09T08:14:32.191000+08:00",
+  "desktop": true,
+  "mobile": true,
+  "mobileWidth": 390,
+  "mobileDocumentWidth": 371,
+  "images": true,
+  "search": {
+    "readingUKOpen": 4,
+    "zeroResults": 0,
+    "clear": 263,
+    "loadMore": 48,
+    "mobileReadingUKOpen": 4
+  },
+  "evidence": [
+    "docs/daily-checks/2026-11-09/home-desktop-0800.png",
+    "docs/daily-checks/2026-11-09/home-mobile-0800.png"
+  ],
+  "notes": "Screenshots required reload after viewport change; no safety bypass. Temporary viewport reset."
+}

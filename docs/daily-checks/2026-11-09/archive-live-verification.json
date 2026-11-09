@@ -1,0 +1,65 @@
+{
+  "verifiedAt": "2026-11-09T08:28:12.375907+08:00",
+  "pages": [
+    {
+      "url": "https://globalednews.com/news/fsu-international-student-insurance-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/fsu-international-student-insurance-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/0c6d756e4c3658e4284b3a9f.jpg",
+      "ogBytes": 325514,
+      "visibleTextCharacters": 3618,
+      "englishWithoutChinese": false,
+      "updatedDateVisible": true
+    },
+    {
+      "url": "https://globalednews.com/en/news/fsu-international-student-insurance-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/fsu-international-student-insurance-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/0c6d756e4c3658e4284b3a9f.jpg",
+      "ogBytes": 325514,
+      "visibleTextCharacters": 9014,
+      "englishWithoutChinese": true,
+      "updatedDateVisible": true
+    },
+    {
+      "url": "https://globalednews.com/news/ireland-maynooth-fuzhou-miec-extension-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/ireland-maynooth-fuzhou-miec-extension-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/a17407f4db4bb6bbc5dc65ef.jpg",
+      "ogBytes": 196896,
+      "visibleTextCharacters": 3656,
+      "englishWithoutChinese": false,
+      "updatedDateVisible": true
+    },
+    {
+      "url": "https://globalednews.com/en/news/ireland-maynooth-fuzhou-miec-extension-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/ireland-maynooth-fuzhou-miec-extension-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/a17407f4db4bb6bbc5dc65ef.jpg",
+      "ogBytes": 196896,
+      "visibleTextCharacters": 8862,
+      "englishWithoutChinese": true,
+      "updatedDateVisible": true
+    },
+    {
+      "url": "https://globalednews.com/news/uk-erasmus-immigration-rules-october-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/uk-erasmus-immigration-rules-october-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/9e6ede429640971c47e4246f.jpg",
+      "ogBytes": 334957,
+      "visibleTextCharacters": 3691,
+      "englishWithoutChinese": false,
+      "updatedDateVisible": true
+    },
+    {
+      "url": "https://globalednews.com/en/news/uk-erasmus-immigration-rules-october-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/uk-erasmus-immigration-rules-october-2026/",
+      "ogImage": "https://globalednews.com/images/share-photos/9e6ede429640971c47e4246f.jpg",
+      "ogBytes": 334957,
+      "visibleTextCharacters": 8906,
+      "englishWithoutChinese": true,
+      "updatedDateVisible": true
+    }
+  ]
+}

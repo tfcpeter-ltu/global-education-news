@@ -1,0 +1,70 @@
+{
+  "observedAt": "2026-11-09T06:00:31.817799+08:00",
+  "source": "Native Threads public detail DOM via cua_repl",
+  "parts": [
+    {
+      "id": "Dffw9qWE2OG",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dffw9qWE2OG",
+      "publishedAt": "2026-11-09T05:52:13+08:00",
+      "parentId": null,
+      "rootId": "Dffw9qWE2OG",
+      "part": 1,
+      "status": "PUBLISHED",
+      "textVerifiedAt": "2026-11-09T06:00:31.817799+08:00"
+    },
+    {
+      "id": "Dffw-VdE4j1",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dffw-VdE4j1",
+      "publishedAt": "2026-11-09T05:52:19+08:00",
+      "parentId": "Dffw9qWE2OG",
+      "rootId": "Dffw9qWE2OG",
+      "part": 2,
+      "status": "PUBLISHED",
+      "textVerifiedAt": "2026-11-09T06:00:31.817799+08:00"
+    },
+    {
+      "id": "Dffw-tQE3c3",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dffw-tQE3c3",
+      "publishedAt": "2026-11-09T05:52:22+08:00",
+      "parentId": "Dffw-VdE4j1",
+      "rootId": "Dffw9qWE2OG",
+      "part": 3,
+      "status": "PUBLISHED",
+      "textVerifiedAt": "2026-11-09T06:00:31.817799+08:00"
+    },
+    {
+      "id": "Dffw_N1Ex6c",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dffw_N1Ex6c",
+      "publishedAt": "2026-11-09T05:52:26+08:00",
+      "parentId": "Dffw-tQE3c3",
+      "rootId": "Dffw9qWE2OG",
+      "part": 4,
+      "status": "PUBLISHED",
+      "textVerifiedAt": "2026-11-09T06:00:31.817799+08:00"
+    },
+    {
+      "id": "Dffw_rzk6g1",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dffw_rzk6g1",
+      "publishedAt": "2026-11-09T05:52:30+08:00",
+      "parentId": "Dffw_N1Ex6c",
+      "rootId": "Dffw9qWE2OG",
+      "part": 5,
+      "status": "PUBLISHED",
+      "textVerifiedAt": "2026-11-09T06:00:31.817799+08:00"
+    },
+    {
+      "id": "DffxAIMk1su",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DffxAIMk1su",
+      "publishedAt": "2026-11-09T05:52:33+08:00",
+      "parentId": "Dffw_rzk6g1",
+      "rootId": "Dffw9qWE2OG",
+      "part": 6,
+      "status": "PUBLISHED",
+      "textVerifiedAt": "2026-11-09T06:00:31.817799+08:00"
+    }
+  ],
+  "mainImagePublicPath": "/@ltuossdtw/post/Dffw9qWE2OG/media",
+  "topic": "獎學金",
+  "fullTextConfirmed": true,
+  "screenshotStatus": "blocked by browser safety stop"
+}

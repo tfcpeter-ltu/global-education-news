@@ -1,9 +1,10 @@
 {
   "gaps": [
-    "COMMIT_DEPLOY",
-    "PUBLISH",
-    "ACCEPTANCE",
-    "VERIFY"
+    "Four unpublished regular posts: Instagram/campus, Threads/study-abroad, Threads/campus, LinkedIn/campus",
+    "Final image readback: Threads radar six-part series and LinkedIn study-abroad",
+    "Desktop/mobile interactive acceptance and final daily verification",
+    "Commit remaining social assets and delivery evidence",
+    "Three historical editorial rewrites remain pending"
   ],
   "startedAt": "2026-11-09T05:00:43.9997242+08:00",
   "scholarshipBaselineSlugs": [
@@ -268,12 +269,477 @@
     "catalog-vanderbilt-ingram",
     "catalog-yale-international-aid"
   ],
-  "socialPosts": [],
+  "socialPosts": [
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "pageId": "100082986230027",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "articleUrl": "https://globalednews.com/news/eu-india-horizon-europe-negotiations-concluded-2027/",
+      "version": "2026-11-09-v1",
+      "photoAttachedAt": "2026-11-09T05:35:25.337000+08:00",
+      "photoReadyEvidence": "docs/daily-checks/2026-11-09/fb-news-photo-ready.png",
+      "copyAddedAt": "2026-11-09T05:35:25.730000+08:00",
+      "submittedAt": "2026-11-09T05:35:34.865000+08:00",
+      "id": "1113839941392203",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0248pyXvX4J53kaFp3M95RW8SUgRfpxWbQePK5ZZAo1Hj8i8F6g4V8sbyQaUgtUEc4l",
+      "publishedAt": "2026-11-09T05:35:00+08:00",
+      "verifiedAt": "2026-11-09T05:36:13.172000+08:00",
+      "status": "PUBLISHED",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-09T05:36:13.172000+08:00",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-09T05:36:13.172000+08:00",
+      "photoAttachments": [
+        {
+          "id": "1113839594725571",
+          "url": "https://www.facebook.com/photo/?fbid=1113839594725571"
+        }
+      ],
+      "publicPhotoScreenshot": "docs/daily-checks/2026-11-09/fb-news-public.png",
+      "mediaEvidence": "Native public photo viewer visually checked: correct account, complete uploaded image and dated post."
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "pageId": "100082986230027",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "version": "2026-11-09-v1",
+      "photoAttachedAt": "2026-11-09T05:36:34.473000+08:00",
+      "photoReadyEvidence": "docs/daily-checks/2026-11-09/fb-radar-photo-ready.png",
+      "copyAddedAt": "2026-11-09T05:36:58.638000+08:00",
+      "submittedAt": "2026-11-09T05:37:07.566000+08:00",
+      "id": "1113841064725424",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02vF8LjKXS4pav8vtdyT7a5cMFx3UqKimvu9WEnvdw47tnbBueUnzsqr8TN7bakQ5vl",
+      "publishedAt": "2026-11-09T05:37:00+08:00",
+      "verifiedAt": "2026-11-09T05:38:00.922000+08:00",
+      "status": "PUBLISHED",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-09T05:38:00.922000+08:00",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-09T05:38:00.922000+08:00",
+      "photoAttachments": [
+        {
+          "id": "1113840544725476",
+          "url": "https://www.facebook.com/photo/?fbid=1113840544725476"
+        }
+      ],
+      "publicPhotoScreenshot": "docs/daily-checks/2026-11-09/fb-radar-public.png",
+      "mediaEvidence": "Native public photo viewer visually checked: correct account, complete uploaded image and dated post."
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "pageId": "100082986230027",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "articleUrl": "https://globalednews.com/study-abroad/swinburne-computer-science-wil-placement-choice/",
+      "version": "2026-11-09-v1",
+      "photoAttachedAt": "2026-11-09T05:38:22.658000+08:00",
+      "photoReadyEvidence": "docs/daily-checks/2026-11-09/fb-diy-photo-ready.png",
+      "copyAddedAt": "2026-11-09T05:38:23.741000+08:00",
+      "submittedAt": "2026-11-09T05:38:40.215000+08:00",
+      "id": "1113841878058676",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02TiaJLuBPMi8iefk9RyBSvhttDTjd4y6KsBbDeWSbeuCkN958r7Y72xUm97fXieDUl",
+      "publishedAt": "2026-11-09T05:38:00+08:00",
+      "verifiedAt": "2026-11-09T05:39:15.338000+08:00",
+      "status": "PUBLISHED",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-09T05:39:15.338000+08:00",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-09T05:39:15.338000+08:00",
+      "photoAttachments": [
+        {
+          "id": "1113841538058710",
+          "url": "https://www.facebook.com/photo/?fbid=1113841538058710"
+        }
+      ],
+      "publicPhotoScreenshot": "docs/daily-checks/2026-11-09/fb-diy-public.png",
+      "mediaEvidence": "Native public photo viewer visually checked: correct account, complete uploaded image and dated post."
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/news/eu-india-horizon-europe-negotiations-concluded-2027/",
+      "version": "2026-11-09-v1",
+      "id": "Dffvixzk9-R",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Dffvixzk9-R/",
+      "publishedAt": "2026-11-09T05:39:49+08:00",
+      "verifiedAt": "2026-11-09T05:41:35.581000+08:00",
+      "status": "PUBLISHED",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-09T05:41:35.581000+08:00",
+      "publicScreenshot": "docs/daily-checks/2026-11-09/ig-news-public.png",
+      "mediaEvidence": "Native public post and complete image visually verified."
+    },
+    {
+      "network": "linkedin",
+      "campaign": "news",
+      "account": "Peter Chen",
+      "articleUrl": "https://globalednews.com/news/eu-india-horizon-europe-negotiations-concluded-2027/",
+      "version": "v1",
+      "status": "PUBLISHED",
+      "postId": "7525312690228117504",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7525312690228117504/",
+      "publishedAt": "2026-11-09T05:45:58.899+08:00",
+      "verifiedAt": "2026-11-09T05:47:23.100000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-09T05:47:23.100000+08:00",
+      "mediaKind": "uploaded-photo",
+      "publicScreenshot": "docs/daily-checks/2026-11-09/linkedin-news-public.png",
+      "mediaEvidence": "Native public post readback confirms correct account, copy and uploaded image; screenshot: docs/daily-checks/2026-11-09/linkedin-news-public.png",
+      "id": "7525312690228117504",
+      "timeEvidence": "Derived from public activity ID, consistent with native success toast and just-now public readback; replaces incorrect minute estimate."
+    },
+    {
+      "network": "instagram",
+      "campaign": "scholarship",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "version": "v1",
+      "status": "PUBLISHED",
+      "postId": "DffwPy8E5Dq",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DffwPy8E5Dq/",
+      "publishedAt": "2026-11-09T05:45:57+08:00",
+      "verifiedAt": "2026-11-09T05:47:35.822000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-09T05:47:35.822000+08:00",
+      "mediaKind": "uploaded-photo",
+      "publicScreenshot": "docs/daily-checks/2026-11-09/ig-radar-public.png",
+      "mediaEvidence": "Native public post readback confirms correct account, copy and uploaded image; screenshot: docs/daily-checks/2026-11-09/ig-radar-public.png",
+      "id": "DffwPy8E5Dq"
+    },
+    {
+      "network": "threads",
+      "campaign": "news",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/news/eu-india-horizon-europe-negotiations-concluded-2027/",
+      "version": "v1",
+      "status": "PUBLISHED",
+      "postId": "Dffwh6hkw9t",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dffwh6hkw9t",
+      "publishedAt": "2026-11-09T05:48:26+08:00",
+      "verifiedAt": "2026-11-09T05:49:17.211000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-09T05:49:17.211000+08:00",
+      "mediaKind": "uploaded-photo",
+      "publicScreenshot": "docs/daily-checks/2026-11-09/threads-news-public.png",
+      "mediaEvidence": "Native public post readback confirms correct account, copy and uploaded image; screenshot: docs/daily-checks/2026-11-09/threads-news-public.png",
+      "id": "Dffwh6hkw9t"
+    },
+    {
+      "network": "instagram",
+      "campaign": "study-abroad",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/study-abroad/swinburne-computer-science-wil-placement-choice/",
+      "version": "v1",
+      "status": "PUBLISHED",
+      "postId": "DffwogTE4nU",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DffwogTE4nU/",
+      "publishedAt": "2026-11-09T05:49:20+08:00",
+      "verifiedAt": "2026-11-09T05:50:31.285000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-09T05:50:31.285000+08:00",
+      "mediaKind": "uploaded-photo",
+      "publicScreenshot": "docs/daily-checks/2026-11-09/ig-diy-public.png",
+      "mediaEvidence": "Native public post readback confirms correct account, copy and uploaded image; screenshot: docs/daily-checks/2026-11-09/ig-diy-public.png",
+      "id": "DffwogTE4nU"
+    },
+    {
+      "network": "linkedin",
+      "campaign": "scholarship",
+      "account": "Peter Chen",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "version": "v1",
+      "status": "PUBLISHED",
+      "postId": "7525313574886363136",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7525313574886363136/",
+      "publishedAt": "2026-11-09T05:49:29.818000+08:00",
+      "verifiedAt": "2026-11-09T05:50:31.379000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-09T05:50:31.379000+08:00",
+      "mediaKind": "uploaded-photo",
+      "publicScreenshot": "docs/daily-checks/2026-11-09/linkedin-radar-public.png",
+      "mediaEvidence": "Native public post readback confirms correct account, copy and uploaded image; screenshot: docs/daily-checks/2026-11-09/linkedin-radar-public.png",
+      "id": "7525313574886363136"
+    },
+    {
+      "network": "threads",
+      "campaign": "scholarship",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "id": "Dffw9qWE2OG",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dffw9qWE2OG",
+      "publishedAt": "2026-11-09T05:52:13+08:00",
+      "status": "PUBLISHED",
+      "mediaStatus": "VERIFIED",
+      "imageCount": 1,
+      "topicTag": "獎學金",
+      "series": [
+        {
+          "id": "Dffw9qWE2OG",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dffw9qWE2OG",
+          "publishedAt": "2026-11-09T05:52:13+08:00",
+          "parentId": null,
+          "rootId": "Dffw9qWE2OG",
+          "part": 1,
+          "status": "PUBLISHED",
+          "textVerifiedAt": "2026-11-09T06:00:31.817799+08:00"
+        },
+        {
+          "id": "Dffw-VdE4j1",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dffw-VdE4j1",
+          "publishedAt": "2026-11-09T05:52:19+08:00",
+          "parentId": "Dffw9qWE2OG",
+          "rootId": "Dffw9qWE2OG",
+          "part": 2,
+          "status": "PUBLISHED",
+          "textVerifiedAt": "2026-11-09T06:00:31.817799+08:00"
+        },
+        {
+          "id": "Dffw-tQE3c3",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dffw-tQE3c3",
+          "publishedAt": "2026-11-09T05:52:22+08:00",
+          "parentId": "Dffw-VdE4j1",
+          "rootId": "Dffw9qWE2OG",
+          "part": 3,
+          "status": "PUBLISHED",
+          "textVerifiedAt": "2026-11-09T06:00:31.817799+08:00"
+        },
+        {
+          "id": "Dffw_N1Ex6c",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dffw_N1Ex6c",
+          "publishedAt": "2026-11-09T05:52:26+08:00",
+          "parentId": "Dffw-tQE3c3",
+          "rootId": "Dffw9qWE2OG",
+          "part": 4,
+          "status": "PUBLISHED",
+          "textVerifiedAt": "2026-11-09T06:00:31.817799+08:00"
+        },
+        {
+          "id": "Dffw_rzk6g1",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dffw_rzk6g1",
+          "publishedAt": "2026-11-09T05:52:30+08:00",
+          "parentId": "Dffw_N1Ex6c",
+          "rootId": "Dffw9qWE2OG",
+          "part": 5,
+          "status": "PUBLISHED",
+          "textVerifiedAt": "2026-11-09T06:00:31.817799+08:00"
+        },
+        {
+          "id": "DffxAIMk1su",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DffxAIMk1su",
+          "publishedAt": "2026-11-09T05:52:33+08:00",
+          "parentId": "Dffw_rzk6g1",
+          "rootId": "Dffw9qWE2OG",
+          "part": 6,
+          "status": "PUBLISHED",
+          "textVerifiedAt": "2026-11-09T06:00:31.817799+08:00"
+        }
+      ],
+      "textVerifiedAt": "2026-11-09T06:00:31.817799+08:00",
+      "mediaEvidence": "Native public page screenshot readback: correct account, text, uploaded image visible.",
+      "mediaVerifiedAt": "2026-11-09T08:07:28.661000+08:00",
+      "verifiedAt": "2026-11-09T08:07:28.661000+08:00",
+      "publicScreenshot": "docs/daily-checks/2026-11-09/threads-radar-0800-public.png"
+    },
+    {
+      "network": "linkedin",
+      "campaign": "study-abroad",
+      "account": "Peter Chen",
+      "articleUrl": "https://globalednews.com/study-abroad/swinburne-computer-science-wil-placement-choice/",
+      "id": "7525314212940910594",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7525314212940910594/",
+      "status": "PUBLISHED",
+      "mediaStatus": "VERIFIED",
+      "imageCount": 1,
+      "publishedAt": "2026-11-09T05:52:01.942000+08:00",
+      "timeEvidence": "Activity ID timestamp, consistent with observed native publication success toast; exact UI time not exposed.",
+      "mediaEvidence": "Native public page screenshot readback: correct account, text, uploaded image visible.",
+      "mediaVerifiedAt": "2026-11-09T08:07:28.661000+08:00",
+      "verifiedAt": "2026-11-09T08:07:28.661000+08:00",
+      "publicScreenshot": "docs/daily-checks/2026-11-09/li-diy-0800-public.png"
+    },
+    {
+      "network": "threads",
+      "campaign": "study-abroad",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/study-abroad/swinburne-computer-science-wil-placement-choice/",
+      "version": "v1",
+      "status": "PUBLISHED",
+      "id": "DfgAk1Agbcj",
+      "postId": "DfgAk1Agbcj",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfgAk1Agbcj",
+      "publishedAt": "2026-11-09T08:08:38+08:00",
+      "verifiedAt": "2026-11-09T08:09:31.408000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-09T08:09:31.408000+08:00",
+      "mediaKind": "uploaded-photo",
+      "publicScreenshot": "docs/daily-checks/2026-11-09/threads-study-abroad-0800-public.png",
+      "mediaEvidence": "Native public page confirms correct account, copy, uploaded image; docs/daily-checks/2026-11-09/threads-study-abroad-0800-public.png"
+    },
+    {
+      "network": "instagram",
+      "campaign": "taiwan-universities",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "version": "v1",
+      "status": "PUBLISHED",
+      "id": "DfgArwyE0sN",
+      "postId": "DfgArwyE0sN",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DfgArwyE0sN/",
+      "publishedAt": "2026-11-09T08:09:35+08:00",
+      "verifiedAt": "2026-11-09T08:10:59.628000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-09T08:10:59.629000+08:00",
+      "mediaKind": "uploaded-photo",
+      "publicScreenshot": "docs/daily-checks/2026-11-09/instagram-taiwan-universities-0800-public.png",
+      "mediaEvidence": "Native public page confirms correct account, copy, uploaded image; docs/daily-checks/2026-11-09/instagram-taiwan-universities-0800-public.png"
+    },
+    {
+      "network": "threads",
+      "campaign": "taiwan-universities",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "version": "v1",
+      "status": "PUBLISHED",
+      "id": "DfgAxEHgZI3",
+      "postId": "DfgAxEHgZI3",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfgAxEHgZI3",
+      "publishedAt": "2026-11-09T08:10:18+08:00",
+      "verifiedAt": "2026-11-09T08:11:07.362000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-09T08:11:07.362000+08:00",
+      "mediaKind": "uploaded-photo",
+      "publicScreenshot": "docs/daily-checks/2026-11-09/threads-taiwan-universities-0800-public.png",
+      "mediaEvidence": "Native public page confirms correct account, copy, uploaded image; docs/daily-checks/2026-11-09/threads-taiwan-universities-0800-public.png"
+    },
+    {
+      "network": "linkedin",
+      "campaign": "taiwan-universities",
+      "account": "Peter Chen",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "version": "v1",
+      "status": "PUBLISHED",
+      "id": "7525349363796103168",
+      "postId": "7525349363796103168",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7525349363796103168/",
+      "publishedAt": "2026-11-09T08:11:42+08:00",
+      "verifiedAt": "2026-11-09T08:12:50.599000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-09T08:12:50.599000+08:00",
+      "mediaKind": "uploaded-photo",
+      "publicScreenshot": "docs/daily-checks/2026-11-09/linkedin-taiwan-universities-0800-public.png",
+      "mediaEvidence": "Native public page confirms correct account, copy, uploaded image; docs/daily-checks/2026-11-09/linkedin-taiwan-universities-0800-public.png"
+    }
+  ],
   "mainBaselineSha": "d7775d1ed913727dced5d95f70c50b869144092b",
-  "peterImports": [],
-  "currentPhase": "COMMIT_DEPLOY",
-  "newsPublished": [],
-  "status": "in_progress",
+  "peterImports": [
+    {
+      "slug": "australia-graduate-employment-who-when-denominator-location",
+      "title": "澳洲就業率，先看誰：留學家庭別被一個百分比說服",
+      "url": "https://globalednews.com/peter/australia-graduate-employment-who-when-denominator-location/",
+      "sourceId": "122149671747172155",
+      "sourceUrl": "https://www.facebook.com/photo/?fbid=122149671651172155&set=a.122101120425172155",
+      "verifiedAt": "2026-11-09T05:20:20.578308+08:00",
+      "publishedVerifiedAt": "2026-11-09T05:31:25.138835+08:00"
+    }
+  ],
+  "currentPhase": "PUBLISH",
+  "newsPublished": [
+    {
+      "slug": "eu-india-horizon-europe-negotiations-concluded-2027",
+      "title": "印度加入歐盟科研合作再進一步：談判完成，2027上路仍待程序",
+      "url": "https://globalednews.com/news/eu-india-horizon-europe-negotiations-concluded-2027/",
+      "publishedPath": "src/pages/news/eu-india-horizon-europe-negotiations-concluded-2027.md",
+      "sources": [
+        {
+          "label": "EURAXESS — EU–India negotiations concluded",
+          "url": "https://euraxess.ec.europa.eu/worldwide/india/news/eu-india-eu-and-india-conclude-negotiations-association-horizon-europe"
+        },
+        {
+          "label": "Times Higher Education — November 6 report",
+          "url": "https://www.timeshighereducation.com/news/india-set-join-horizon-europe-january-2027"
+        },
+        {
+          "label": "2EU — funding and procedure analysis",
+          "url": "https://2eu.brussels/en/news/eu-and-india-conclude-talks-to-give-indian-organisations-direct-access-to-horizon-europe-funding"
+        }
+      ],
+      "verifiedAt": "2026-11-09T05:14:38.109373+08:00",
+      "publishedVerifiedAt": "2026-11-09T05:31:25.138835+08:00",
+      "liveEvidence": "docs/daily-reports/2026-11-09-live-seo.json"
+    },
+    {
+      "slug": "uk-industrial-strategy-higher-education-finance-review-2026",
+      "title": "英國產業顧問要求檢討大學財務：人才戰略能否落實，先看教學能力",
+      "url": "https://globalednews.com/news/uk-industrial-strategy-higher-education-finance-review-2026/",
+      "publishedPath": "src/pages/news/uk-industrial-strategy-higher-education-finance-review-2026.md",
+      "sources": [
+        {
+          "label": "ISAC — official annual report 2026",
+          "url": "https://assets.publishing.service.gov.uk/media/6aeb270b88d44387aeae0693/industrial-strategy-advisory-council-annual-report-2026.pdf"
+        },
+        {
+          "label": "Wonkhe — independent policy analysis, November 6",
+          "url": "https://wonkhe.com/wonk-corner/industrial-strategy-advisory-council-rings-the-alarm-about-he-funding/"
+        },
+        {
+          "label": "THE — advisers and higher education finances",
+          "url": "https://www.timeshighereducation.com/news/industrial-strategy-advisers-urge-radical-action-he-finances"
+        },
+        {
+          "label": "GOV.UK — publication and purpose",
+          "url": "https://www.gov.uk/government/publications/industrial-strategy-advisory-council-annual-report-2026"
+        }
+      ],
+      "verifiedAt": "2026-11-09T05:14:38.109373+08:00",
+      "publishedVerifiedAt": "2026-11-09T05:31:25.138835+08:00",
+      "liveEvidence": "docs/daily-reports/2026-11-09-live-seo.json"
+    },
+    {
+      "slug": "australian-university-governance-transition-november-2026",
+      "title": "澳洲大學領導組織整合上路：學生代表與治理透明度成下一步",
+      "url": "https://globalednews.com/news/australian-university-governance-transition-november-2026/",
+      "publishedPath": "src/pages/news/australian-university-governance-transition-november-2026.md",
+      "sources": [
+        {
+          "label": "Swinburne — November 6 implementation update",
+          "url": "https://www.swinburne.edu.au/news/2026/11/landmark-reform-of-australian-university-leadership/"
+        },
+        {
+          "label": "Education Minister — October 7 original policy address",
+          "url": "https://ministers.education.gov.au/clare/address-university-chancellors-council-plenary-meeting"
+        },
+        {
+          "label": "Universities Australia — September 28 original decision",
+          "url": "https://universitiesaustralia.edu.au/media-item/university-leadership-comes-together-to-strengthen-national-voice/"
+        }
+      ],
+      "verifiedAt": "2026-11-09T05:14:38.109373+08:00",
+      "publishedVerifiedAt": "2026-11-09T05:31:25.138835+08:00",
+      "liveEvidence": "docs/daily-reports/2026-11-09-live-seo.json"
+    }
+  ],
+  "status": "completed",
   "scholarshipAdditions": [
     {
       "slug": "2026-11-reading-masters-excellence-2027",
@@ -303,7 +769,8 @@
       "baselineAbsent": true,
       "eligibleTaiwan": true,
       "open": true,
-      "updateSummary": "New distinct award; official current cycle, Taiwan admissions and external catalogue checked. Scope and unpublished conditions disclosed."
+      "updateSummary": "New distinct award; official current cycle, Taiwan admissions and external catalogue checked. Scope and unpublished conditions disclosed.",
+      "publishedVerifiedAt": "2026-11-09T05:31:25.138835+08:00"
     },
     {
       "slug": "2026-11-reading-undergraduate-excellence-2027",
@@ -329,7 +796,8 @@
       "baselineAbsent": true,
       "eligibleTaiwan": true,
       "open": true,
-      "updateSummary": "New distinct award; official current cycle, Taiwan admissions and external catalogue checked. Scope and unpublished conditions disclosed."
+      "updateSummary": "New distinct award; official current cycle, Taiwan admissions and external catalogue checked. Scope and unpublished conditions disclosed.",
+      "publishedVerifiedAt": "2026-11-09T05:31:25.138835+08:00"
     },
     {
       "slug": "2026-11-reading-frank-palmer-february-2027",
@@ -359,11 +827,102 @@
       "baselineAbsent": true,
       "eligibleTaiwan": true,
       "open": true,
-      "updateSummary": "New distinct award; official current cycle, Taiwan admissions and external catalogue checked. Scope and unpublished conditions disclosed."
+      "updateSummary": "New distinct award; official current cycle, Taiwan admissions and external catalogue checked. Scope and unpublished conditions disclosed.",
+      "publishedVerifiedAt": "2026-11-09T05:31:25.138835+08:00"
     }
   ],
   "timezone": "Asia/Taipei",
-  "scholarshipChecks": [],
+  "scholarshipChecks": [
+    {
+      "slug": "2026-11-reading-masters-excellence-2027",
+      "title": "Reading碩士學費減免：2027/28學年£4,000至£10,000",
+      "url": "https://globalednews.com/scholarships/items/2026-11-reading-masters-excellence-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-reading-masters-excellence-2027.md",
+      "sources": [
+        {
+          "label": "Reading — current award page",
+          "url": "https://www.reading.ac.uk/ready-to-study/study/Fees-and-funding/scholarships/masters-excellence-scholarships"
+        },
+        {
+          "label": "External award information",
+          "url": "https://nbyula.com/study-abroad/university-of-reading/scholarships/master-s-excellence-scholarship/"
+        },
+        {
+          "label": "Reading — Taiwan entry information",
+          "url": "https://www.reading.ac.uk/ready-to-study/international-and-eu/country-specific-information/country-specific-taiwan"
+        },
+        {
+          "label": "Reading — 2027/28 formal terms",
+          "url": "https://www.reading.ac.uk/ready-to-study/-/media/discover/files/documents/scholarships/university-of-reading-excellenc-scholarships-terms-and-conditions-2027-28.pdf"
+        }
+      ],
+      "verifiedAt": "2026-11-09T05:17:21.690488+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "eligibleTaiwan": true,
+      "open": true,
+      "updateSummary": "New distinct award; official current cycle, Taiwan admissions and external catalogue checked. Scope and unpublished conditions disclosed.",
+      "publishedVerifiedAt": "2026-11-09T05:31:25.138835+08:00"
+    },
+    {
+      "slug": "2026-11-reading-undergraduate-excellence-2027",
+      "title": "Reading學士Excellence獎學金：每年£5,000，首輪至12月底",
+      "url": "https://globalednews.com/scholarships/items/2026-11-reading-undergraduate-excellence-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-reading-undergraduate-excellence-2027.md",
+      "sources": [
+        {
+          "label": "Reading — current award page",
+          "url": "https://www.reading.ac.uk/ready-to-study/study/Fees-and-funding/scholarships/undergraduate-excellence-scholarship-2027"
+        },
+        {
+          "label": "External award information",
+          "url": "https://mieconnect.com/scholarships?institution=university-of-reading"
+        },
+        {
+          "label": "Reading — Taiwan entry information",
+          "url": "https://www.reading.ac.uk/ready-to-study/international-and-eu/country-specific-information/country-specific-taiwan"
+        }
+      ],
+      "verifiedAt": "2026-11-09T05:17:21.690488+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "eligibleTaiwan": true,
+      "open": true,
+      "updateSummary": "New distinct award; official current cycle, Taiwan admissions and external catalogue checked. Scope and unpublished conditions disclosed.",
+      "publishedVerifiedAt": "2026-11-09T05:31:25.138835+08:00"
+    },
+    {
+      "slug": "2026-11-reading-frank-palmer-february-2027",
+      "title": "Reading語言教學碩士Frank Palmer獎：學費減10%，11月15日條件期限",
+      "url": "https://globalednews.com/scholarships/items/2026-11-reading-frank-palmer-february-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-reading-frank-palmer-february-2027.md",
+      "sources": [
+        {
+          "label": "Reading — current award page",
+          "url": "https://www.reading.ac.uk/ready-to-study/study/Fees-and-funding/scholarships/frank-palmer-award"
+        },
+        {
+          "label": "External award information",
+          "url": "https://www.ultimateducation.co.id/beasiswa/international-scholarships-university-of-reading"
+        },
+        {
+          "label": "Reading — Taiwan entry information",
+          "url": "https://www.reading.ac.uk/ready-to-study/international-and-eu/country-specific-information/country-specific-taiwan"
+        },
+        {
+          "label": "MIE — international award catalogue",
+          "url": "https://mieconnect.com/scholarships?institution=university-of-reading"
+        }
+      ],
+      "verifiedAt": "2026-11-09T05:17:21.690488+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "eligibleTaiwan": true,
+      "open": true,
+      "updateSummary": "New distinct award; official current cycle, Taiwan admissions and external catalogue checked. Scope and unpublished conditions disclosed.",
+      "publishedVerifiedAt": "2026-11-09T05:31:25.138835+08:00"
+    }
+  ],
   "date": "2026-11-09",
   "newsPrepared": [
     {
@@ -522,7 +1081,11 @@
     "PREFLIGHT",
     "RESEARCH",
     "PREPARE",
-    "BUILD"
+    "BUILD",
+    "COMMIT_DEPLOY",
+    "PUBLISH",
+    "ACCEPTANCE",
+    "VERIFY"
   ],
   "sunmoonReview": {
     "checkedAt": "2026-11-09T05:21:27.683328+08:00",
@@ -545,6 +1108,124 @@
       "public-service-safety",
       "vlog",
       "education-seo"
-    ]
+    ],
+    "archiveBuild": {
+      "status": "success",
+      "pagePairs": 937,
+      "verifiedAt": "2026-11-09T08:28:57.288266+08:00",
+      "logsPrefix": "docs/daily-checks/2026-11-09/archive-"
+    }
+  },
+  "deployment": {
+    "commit": "0231a107e398444e123eed3b837819d2fde534c9",
+    "status": "success",
+    "verifiedAt": "2026-11-09T08:28:12.375907+08:00",
+    "runUrl": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/42540129348",
+    "completedAt": "2026-11-09T08:28:05+08:00"
+  },
+  "newFacebookPagePost": {
+    "campaign": "news",
+    "network": "facebook",
+    "pageId": "61595164194381",
+    "account": "環球國際教育新聞網",
+    "articleUrl": "https://globalednews.com/news/eu-india-horizon-europe-negotiations-concluded-2027/",
+    "version": "2026-11-09-v1",
+    "photoAttachedAt": "2026-11-09T05:32:57.574000+08:00",
+    "photoReadyEvidence": "docs/daily-checks/2026-11-09/new-fb-photo-ready.png",
+    "copyAddedAt": "2026-11-09T05:32:57.695000+08:00",
+    "submittedAt": "2026-11-09T05:33:15.877000+08:00",
+    "id": "122120317641505473",
+    "publicUrl": "https://www.facebook.com/photo/?fbid=122120317401505473",
+    "photoAttachments": [
+      {
+        "id": "122120317401505473",
+        "url": "https://www.facebook.com/photo/?fbid=122120317401505473"
+      }
+    ],
+    "publishedAt": "2026-11-09T05:33:00+08:00",
+    "verifiedAt": "2026-11-09T05:34:36.658000+08:00",
+    "status": "PUBLISHED",
+    "imageCount": 1,
+    "mediaStatus": "VERIFIED",
+    "mediaKind": "uploaded-photo",
+    "mediaVerifiedAt": "2026-11-09T05:34:36.658000+08:00",
+    "previewStatus": "VERIFIED",
+    "previewVerifiedAt": "2026-11-09T05:34:36.658000+08:00",
+    "publicPhotoScreenshot": "docs/daily-checks/2026-11-09/new-fb-public.png",
+    "mediaEvidence": "Native public photo viewer shows full EU building headline image, account and Nov 9 05:33 timestamp."
+  },
+  "updatedAt": "2026-11-09T08:28:57.288266+08:00",
+  "publicationSummary": {
+    "regularPublished": 15,
+    "regularImageVerified": 15,
+    "regularNotPublished": 0,
+    "extraFacebookPublishedAndVerified": 1,
+    "threadsRadarPartsPublished": 6
+  },
+  "acceptance": {
+    "verifiedAt": "2026-11-09T08:14:32.191000+08:00",
+    "desktop": true,
+    "mobile": true,
+    "mobileWidth": 390,
+    "mobileDocumentWidth": 371,
+    "images": true,
+    "search": {
+      "readingUKOpen": 4,
+      "zeroResults": 0,
+      "clear": 263,
+      "loadMore": 48,
+      "mobileReadingUKOpen": 4
+    },
+    "evidence": [
+      "docs/daily-checks/2026-11-09/home-desktop-0800.png",
+      "docs/daily-checks/2026-11-09/home-mobile-0800.png"
+    ],
+    "notes": "Screenshots required reload after viewport change; no safety bypass. Temporary viewport reset.",
+    "seo": true,
+    "seoEvidence": "docs/daily-reports/2026-11-09-live-seo.json",
+    "uiEvidence": "docs/daily-reports/2026-11-09-live-ui.json"
+  },
+  "resolvedBlocker": {
+    "type": "computer-use-safety-stop",
+    "detectedAt": "2026-11-09T06:00:31.817799+08:00",
+    "reason": "Computer Use forcibly stopped this turn because it could not determine current browser URL on Windows with sufficient confidence to enforce policy. Explicit instruction to stop and send final.",
+    "attempts": [
+      "Read browser troubleshooting",
+      "Fresh tab handles returned Debugger unattached",
+      "New native Threads profile tab successfully confirmed all six published parts",
+      "Native Chrome window fallback triggered mandatory safety stop"
+    ],
+    "humanAction": "Resume this same batch after browser-control safety check is restored; do not republish known IDs. No account credential failure observed.",
+    "resolvedAt": "2026-11-09T08:07:00+08:00",
+    "resolution": "Fresh browser-extension tabs restored native controls. All four remaining posts published; outstanding images and live UI read back."
+  },
+  "deadlineMet": false,
+  "deadlineNote": "08:00 deadline missed; resumed the same batch at 08:05, without duplicating published posts.",
+  "initialDeployment": {
+    "commit": "2752c43593148f77b13edc42c1c4d120e9760e73",
+    "status": "success",
+    "verifiedAt": "2026-11-09T05:31:30.031578+08:00",
+    "runUrl": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/42525185202",
+    "completedAt": "2026-11-09T05:28:16+08:00"
+  },
+  "archiveRemediation": {
+    "count": 3,
+    "remaining": 172,
+    "paths": [
+      "src/pages/news/fsu-international-student-insurance-2026.md",
+      "src/pages/news/ireland-maynooth-fuzhou-miec-extension-2026.md",
+      "src/pages/news/uk-erasmus-immigration-rules-october-2026.md"
+    ],
+    "verifiedAt": "2026-11-09T08:28:12.375907+08:00",
+    "evidence": "docs/daily-checks/2026-11-09/archive-live-verification.json"
+  },
+  "completedAt": "2026-11-09T08:28:57.288266+08:00",
+  "outstanding": [],
+  "humanActionRequired": [],
+  "verification": {
+    "status": "COMPLETE",
+    "command": "node scripts/verify-daily-delivery.mjs 2026-11-09",
+    "verifiedAt": "2026-11-09T08:28:57.288266+08:00",
+    "evidence": "docs/daily-checks/2026-11-09/verify-daily-delivery.txt"
   }
 }
