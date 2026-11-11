@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-11",
+  "baseline": "8d85461bed7a16d82365d0b071cca2f722bfa7a2",
+  "commit": "8feb99cf792f2c9e69bf32b94e510b28f0d15189",
+  "deploymentRun": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/42957459699",
+  "deployment": "success",
+  "videosBefore": 129,
+  "videosAfter": 135,
+  "newVideos": 6,
+  "recommendedEntriesUnchanged": true,
+  "tests": [
+    "source Vlog 135 pass",
+    "Astro 598 Chinese pages pass",
+    "bilingual 883 pairs pass",
+    "built Vlog 135 pass"
+  ],
+  "liveChinese": "six daily videos; all thumbnails loaded; Glasgow click switches player; Peter filter retains original recommendations; return home link correct",
+  "liveEnglish": "six daily English titles and summaries; all thumbnails loaded; Glasgow search returns one result; return home /en/ correct",
+  "playerLimit": "Public and embeddable metadata checked for all six. Player iframe and controls observed; uninterrupted playback not independently verified.",
+  "socialPublished": 10,
+  "socialPlatforms": [
+    "Facebook",
+    "Instagram",
+    "Threads",
+    "YouTube community",
+    "X"
+  ],
+  "notes": [
+    "Official descriptions read; no accessible caption text, so summaries use supported descriptions and original viewing exercises.",
+    "Historical dates and AI illustration disclosures retained; no global popularity ranking claim.",
+    "No third-party videos downloaded or reuploaded; no paid promotion."
+  ]
+}
