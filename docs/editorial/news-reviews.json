@@ -427,5 +427,44 @@
     "bodySha256": "c1f3de768fd6f02f83705b61bcf1668ce398cae58f4dbc56384550267bd01b42",
     "primarySource": "https://www.unsw.edu.au/study/international-students/admissions-info",
     "independentSource": "https://www.education.gov.au/managed-system-international-education"
+  },
+  "us-studyportals-november-relative-interest": {
+    "reviewedAt": "2026-11-12T05:10:34.093798+08:00",
+    "bodySha256": "f9b321cca032dc66a65a494cf03c5ead1e25e6168fbe8679146fcaf0ed1fe691",
+    "primarySource": "https://studyportals.com/press-releases/7980/",
+    "independentSource": "https://thepienews.com/interest-in-us-surges-as-study-destination-up-40-after-midterms/",
+    "independence": "11/8 比 11/1，分母是平台全球實體課程關注度。未證實因果；The PIE 有獨立學生訪談，數據仍只有 Studyportals 一套。",
+    "newsValue": "Studyportals reported on 9 November that US on-campus programmes’ share of worldwide interest on its platform was 40% higher on 8 November than on 1 November. The denominator is interest in on-campus programmes worldwide on the same platform.",
+    "background": "Someone can compare courses in several countries in one evening. Browsing can reveal a shift in a shortlist before an application is filed, but opening a programme page takes much less commitment than submitting an application.",
+    "development": "The two Sundays straddled the US midterms. The release does not identify each visitor’s nationality, political views or eventual destination, or isolate changes in browsing for other countries.",
+    "perspectives": "A student interviewed independently by The PIE described a sense of relief tempered by caution. That account illustrates how renewed interest can coexist with uncertainty. It represents one interviewee.",
+    "taiwanImpact": "When comparing graduate courses across countries, separate programme length, fees and necessary living costs. Mark unconfirmed funding and placements separately. Keep a second budget without the award if funding is essential.",
+    "uncertainty": "Applications, accepted offers, deposits and enrolments are later measures with different reporting schedules. The browsing data cannot estimate Taiwanese application growth, competition for a department or an individual visa outcome."
+  },
+  "netherlands-international-bachelor-intake-2026-provisional": {
+    "reviewedAt": "2026-11-12T05:10:34.096803+08:00",
+    "bodySha256": "723bdd4cd78f781dc0f21111c8502beb4f06dbcda892865c253ec8d9f24a38be",
+    "primarySource": "https://www.universiteitenvannederland.nl/actueel/nieuws/instroom-universiteiten-stijgt-licht-sterke-toename-in-techniek",
+    "independentSource": "https://www.maastrichtuniversity.nl/news/intake-new-um-students-falls-slightly-04",
+    "independence": "UNL 11/10 暫估：國際學士新生約17,600、年增6%；全部學士新生增3.5%。馬斯垂克全校新生約9,000、減0.4%，分母不同，不直接比較。",
+    "newsValue": "Universities of the Netherlands reported on 10 November that about 17,600 international students began bachelor’s study at Dutch research universities in 2026–27, up 6%. Applicants should check capacity in their particular English-taught programme.",
+    "background": "About 40,800 Dutch students started bachelor’s programmes. Combined first-year intake grew 3.5%. The association counts students without previous enrolment in a Dutch university bachelor’s or master’s programme. Overall university enrolment also includes returning students.",
+    "development": "The universities had agreed on a collective ceiling of 16,766 new international bachelor’s students. It is a sector-wide agreement. It does not specify a Taiwanese quota. The reported intake is rounded, so a calculated overrun is approximate.",
+    "perspectives": "Several universities have lowered caps for selected English-taught psychology, economics, business and political science programmes. Check each degree’s language, cap, selection process and timeline individually.",
+    "taiwanImpact": "Maastricht highlights its border location and the presence of German and Belgian students. Its international share includes students from nearby regions. Course language, class organisation and housing information give Taiwanese applicants more specific context.",
+    "uncertainty": "Non-EEA students generally pay institutional tuition. Check individual fee status and the current programme rate, then budget for housing, insurance and transport separately from the selection requirements."
+  },
+  "japan-eju-november-2026-hiroshima-score-upload": {
+    "reviewedAt": "2026-11-12T05:10:34.097805+08:00",
+    "bodySha256": "18ced1acf59116c49dde2d6bcafc11720352a716db27b7e8a5d87f4f01a6ab9c",
+    "primarySource": "https://www.jasso.go.jp/en/ryugaku/eju/schedule.html",
+    "independentSource": "https://www.hiroshima-u.ac.jp/system/files/290843/R9_gairyu11_outline_en.pdf",
+    "independence": "JASSO 11/8第二次EJU，預定12/15日本時間零時公布。廣島大學應用生物科學指定管道接受2026年6月或11月場，11月考生須先交報考確認，12/18中午前補成績，依UCARO通知；不可泛推全校。",
+    "newsValue": "JASSO scheduled the second EJU for 8 November. Results are provisionally due at midnight in Japan on 15 December, or 11 p.m. in Taiwan on 14 December. Check whether your chosen university also needs a score upload.",
+    "background": "JASSO administers the EJU. Each university specifies the accepted sessions, subjects and submission method. A result release date must be read alongside the admissions guide and messages from the application system.",
+    "development": "One route at Hiroshima University’s School of Applied Biological Science accepts the June and November 2026 EJU sessions. The guide specifies an interim document for November examinees and a subsequent score submission for existing applicants.",
+    "perspectives": "Hiroshima lists noon on 18 December as the upload deadline. Set separate reminders to retrieve the score and check submission to the university. JASSO labels its release time tentative, so consult both organisations if the schedule changes.",
+    "taiwanImpact": "The guide gives roughly 280 or above across Mathematics Course 2 and science as an academic readiness guideline. Selection also considers an approved English test and interview. The figure is neither an offer probability nor a threshold for other routes.",
+    "uncertainty": "The guide distinguishes domestic and overseas test sites. Overseas examinees may use the specified score report copy or confirmation document. Check legibility and the programme associated with the application before uploading."
   }
 }
