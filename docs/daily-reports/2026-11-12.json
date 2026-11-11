@@ -1,6 +1,9 @@
 {
   "date": "2026-11-12",
-  "status": "in-progress",
+  "status": "completed",
+  "currentPhase": "COMPLETED",
+  "completedAt": "2026-11-12T05:48:57.119723+08:00",
+  "deadlineMet": true,
   "mainSha": "3a49e7952fbe3527373a231f67f8c5aecbe262e1",
   "scholarshipBaselineSlugs": [
     "2026-08-bristol-think-big",
@@ -273,6 +276,62 @@
     "vanderbilt-ingram",
     "yale-international-aid"
   ],
+  "newsPublished": [
+    {
+      "slug": "us-studyportals-november-relative-interest",
+      "title": "美國課程的搜尋占比一週升四成，這個數字對準備申請的家庭意味什麼？",
+      "publishedPath": "src/pages/news/us-studyportals-november-relative-interest.md",
+      "url": "https://globalednews.com/news/us-studyportals-november-relative-interest/",
+      "sources": [
+        {
+          "label": "studyportals.com",
+          "url": "https://studyportals.com/press-releases/7980/"
+        },
+        {
+          "label": "thepienews.com",
+          "url": "https://thepienews.com/interest-in-us-surges-as-study-destination-up-40-after-midterms/"
+        }
+      ],
+      "verifiedAt": "2026-11-12T05:23:52.636582+08:00",
+      "publishedVerifiedAt": "2026-11-12T05:23:52.636582+08:00"
+    },
+    {
+      "slug": "netherlands-international-bachelor-intake-2026-provisional",
+      "title": "荷蘭大學國際學士新生約 1.76 萬人，下一屆申請先看科系名額",
+      "publishedPath": "src/pages/news/netherlands-international-bachelor-intake-2026-provisional.md",
+      "url": "https://globalednews.com/news/netherlands-international-bachelor-intake-2026-provisional/",
+      "sources": [
+        {
+          "label": "www.universiteitenvannederland.nl",
+          "url": "https://www.universiteitenvannederland.nl/actueel/nieuws/instroom-universiteiten-stijgt-licht-sterke-toename-in-techniek"
+        },
+        {
+          "label": "www.maastrichtuniversity.nl",
+          "url": "https://www.maastrichtuniversity.nl/news/intake-new-um-students-falls-slightly-04"
+        }
+      ],
+      "verifiedAt": "2026-11-12T05:23:52.636582+08:00",
+      "publishedVerifiedAt": "2026-11-12T05:23:52.636582+08:00"
+    },
+    {
+      "slug": "japan-eju-november-2026-hiroshima-score-upload",
+      "title": "日本留學試驗考完，成績還要另交嗎？廣島大學這條甄選管道有補件期限",
+      "publishedPath": "src/pages/news/japan-eju-november-2026-hiroshima-score-upload.md",
+      "url": "https://globalednews.com/news/japan-eju-november-2026-hiroshima-score-upload/",
+      "sources": [
+        {
+          "label": "www.jasso.go.jp",
+          "url": "https://www.jasso.go.jp/en/ryugaku/eju/schedule.html"
+        },
+        {
+          "label": "www.hiroshima-u.ac.jp",
+          "url": "https://www.hiroshima-u.ac.jp/system/files/290843/R9_gairyu11_outline_en.pdf"
+        }
+      ],
+      "verifiedAt": "2026-11-12T05:23:52.636582+08:00",
+      "publishedVerifiedAt": "2026-11-12T05:23:52.636582+08:00"
+    }
+  ],
   "scholarshipAdditions": [
     {
       "slug": "2026-11-herts-ug-tri-annual-january-2027",
@@ -302,7 +361,8 @@
       "baselineAbsent": true,
       "verifiedAt": "2026-11-12T05:07:32.457425+08:00",
       "url": "https://globalednews.com/scholarships/items/2026-11-herts-ug-tri-annual-january-2027/",
-      "updateSummary": "£2,000 per qualifying year; January 2027, first-time self-funded overseas undergraduate, progression required, placement and study-abroad years excluded"
+      "updateSummary": "£2,000 per qualifying year; January 2027, first-time self-funded overseas undergraduate, progression required, placement and study-abroad years excluded",
+      "publishedVerifiedAt": "2026-11-12T05:23:52.636582+08:00"
     },
     {
       "slug": "2026-11-kingston-international-merit-january-2027",
@@ -324,7 +384,8 @@
       "baselineAbsent": true,
       "verifiedAt": "2026-11-12T05:07:32.457425+08:00",
       "url": "https://globalednews.com/scholarships/items/2026-11-kingston-international-merit-january-2027/",
-      "updateSummary": "£5,000 for one year. January 2027 offer, 300-word statement, 23 November deadline, outcomes due 7 December."
+      "updateSummary": "£5,000 for one year. January 2027 offer, 300-word statement, 23 November deadline, outcomes due 7 December.",
+      "publishedVerifiedAt": "2026-11-12T05:23:52.636582+08:00"
     },
     {
       "slug": "2026-11-nottingham-trent-sibling-january-2027",
@@ -354,7 +415,538 @@
       "baselineAbsent": true,
       "verifiedAt": "2026-11-12T05:07:32.458419+08:00",
       "url": "https://globalednews.com/scholarships/items/2026-11-nottingham-trent-sibling-january-2027/",
-      "updateSummary": "20% off first-year fees; concurrent sibling attendance and at least one shared parent; documentary proof and both IDs required; January intake deadline 18 Dec."
+      "updateSummary": "20% off first-year fees; concurrent sibling attendance and at least one shared parent; documentary proof and both IDs required; January intake deadline 18 Dec.",
+      "publishedVerifiedAt": "2026-11-12T05:23:52.636582+08:00"
     }
-  ]
+  ],
+  "scholarshipChecks": [
+    {
+      "slug": "2026-11-herts-ug-tri-annual-january-2027",
+      "title": "赫特福德大學學士學費獎：符合續讀條件，每年減免 2,000 英鎊",
+      "publishedPath": "src/pages/scholarships/items/2026-11-herts-ug-tri-annual-january-2027.md",
+      "sources": [
+        {
+          "label": "www.herts.ac.uk",
+          "url": "https://www.herts.ac.uk/international/scholarships-and-fees/scholarships"
+        },
+        {
+          "label": "university-direct.com",
+          "url": "https://university-direct.com/study-in-uk/best-uk-universities/university-of-hertfordshire/"
+        },
+        {
+          "label": "www.herts.ac.uk",
+          "url": "https://www.herts.ac.uk/international/apply/make-an-application"
+        },
+        {
+          "label": "www.herts.ac.uk",
+          "url": "https://www.herts.ac.uk/international/guidance-for-your-region/south-east-and-east-asia/taiwan"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "isNew": true,
+      "baselineAbsent": true,
+      "verifiedAt": "2026-11-12T05:07:32.457425+08:00",
+      "url": "https://globalednews.com/scholarships/items/2026-11-herts-ug-tri-annual-january-2027/",
+      "updateSummary": "£2,000 per qualifying year; January 2027, first-time self-funded overseas undergraduate, progression required, placement and study-abroad years excluded",
+      "publishedVerifiedAt": "2026-11-12T05:23:52.636582+08:00"
+    },
+    {
+      "slug": "2026-11-kingston-international-merit-january-2027",
+      "title": "金士頓大學國際獎：拿到錄取後可申請首年 5,000 英鎊減免",
+      "publishedPath": "src/pages/scholarships/items/2026-11-kingston-international-merit-january-2027.md",
+      "sources": [
+        {
+          "label": "www.kingston.ac.uk",
+          "url": "https://www.kingston.ac.uk/study/fees-and-funding/international-scholarships-and-bursaries"
+        },
+        {
+          "label": "www.ucas.com",
+          "url": "https://www.ucas.com/explore/scholarships-and-bursaries/16fa68aa-8822-4e37-9997-2c786630faaf/international-merit-based-scholarship"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "isNew": true,
+      "baselineAbsent": true,
+      "verifiedAt": "2026-11-12T05:07:32.457425+08:00",
+      "url": "https://globalednews.com/scholarships/items/2026-11-kingston-international-merit-january-2027/",
+      "updateSummary": "£5,000 for one year. January 2027 offer, 300-word statement, 23 November deadline, outcomes due 7 December.",
+      "publishedVerifiedAt": "2026-11-12T05:23:52.636582+08:00"
+    },
+    {
+      "slug": "2026-11-nottingham-trent-sibling-january-2027",
+      "title": "兄弟姊妹同讀諾丁漢特倫特大學：符合條件者首年學費減兩成",
+      "publishedPath": "src/pages/scholarships/items/2026-11-nottingham-trent-sibling-january-2027.md",
+      "sources": [
+        {
+          "label": "www.ntu.ac.uk",
+          "url": "https://www.ntu.ac.uk/international/scholarships"
+        },
+        {
+          "label": "www.ntu.ac.uk",
+          "url": "https://www.ntu.ac.uk/international/frequently-asked-questions"
+        },
+        {
+          "label": "www.ntu.ac.uk",
+          "url": "https://www.ntu.ac.uk/international/countries/asia/taiwan"
+        },
+        {
+          "label": "www.idp.com",
+          "url": "https://www.idp.com/scholarship/nottingham-trent-university/sibling-loyalty-reward/164510/"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "isNew": true,
+      "baselineAbsent": true,
+      "verifiedAt": "2026-11-12T05:07:32.458419+08:00",
+      "url": "https://globalednews.com/scholarships/items/2026-11-nottingham-trent-sibling-january-2027/",
+      "updateSummary": "20% off first-year fees; concurrent sibling attendance and at least one shared parent; documentary proof and both IDs required; January intake deadline 18 Dec.",
+      "publishedVerifiedAt": "2026-11-12T05:23:52.636582+08:00"
+    }
+  ],
+  "peterImports": [],
+  "peterReview": {
+    "note": "原生粉專近期貼文依序為寒假證書與學分的交換誌宣傳、生活計畫與課表的交換誌宣傳、11/11已匯入的瑞典碩士志願專欄。",
+    "checkedAt": "2026-11-12T05:04:16.5990038+08:00",
+    "sourceUrls": [
+      "https://www.facebook.com/profile.php?id=61585164670358",
+      "https://www.facebook.com/permalink.php?story_fbid=pfbid037hEbsSzF1AKzjqphPqkNpG6jSBJpQWL8cCkykrAr7eh1QFJes79ZMuf99iZxjzxul&id=61585164670358"
+    ],
+    "status": "no-new-posts",
+    "availableNewCount": 0
+  },
+  "ltuMediaReview": {
+    "checkedAt": "2026-11-12T05:04:16.6006589+08:00",
+    "sourceUrls": [
+      "https://udn.com/news/story/6898/9271435",
+      "https://udn.com/news/story/6929/8583109",
+      "https://www.businesstoday.com.tw/article/category/183035/post/202508150011/"
+    ],
+    "note": "僑泰高中及中山工商均屬過往個案；今周刊標示整合傳播企劃製作、國際學術中心提供，保留來源屬性。",
+    "selectedIndices": [
+      6,
+      10,
+      3
+    ]
+  },
+  "campusLeads": [
+    {
+      "school": "東吳大學",
+      "url": "https://icae.scu.edu.tw/ko/node/1998",
+      "note": "116學年度校級赴外交換，11/16中午截止。最多六個志願，外校保留最終審查權。"
+    },
+    {
+      "school": "國立臺北教育大學",
+      "url": "https://oia.ntue.edu.tw/p/406-1066-58577,r1703.php?Lang=zh-tw",
+      "note": "11/30開放，12/11 16:00截止，公費生須取得同意。"
+    },
+    {
+      "school": "國立臺灣大學",
+      "url": "https://studyabroad.ntu.edu.tw/exchange-student/how-to-apply/",
+      "note": "本輪報名已於11/9 16:00截止。學校清單語言要求是最低門檻。"
+    }
+  ],
+  "radarTotal": 272,
+  "initialDeployment": {
+    "source": "6923a480119a2223c164f8ca333a72fb0f540c9f",
+    "commit": "dfe9781fe7eecd3309e8e24bc58bc93e697fc5ba",
+    "status": "success",
+    "runId": 43102036325,
+    "runUrl": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/43102036325",
+    "verifiedAt": "2026-11-12T05:38:27.078181+08:00"
+  },
+  "deployment": {
+    "status": "success",
+    "runUrl": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/43105968277",
+    "runId": 43105968277,
+    "commit": "0f9851a44142575a69a5a6634c707701e93b8d91",
+    "verifiedAt": "2026-11-12T05:48:49.944776+08:00"
+  },
+  "verification": {
+    "status": "COMPLETE",
+    "verifiedAt": "2026-11-12T05:48:57.119723+08:00",
+    "evidence": "docs/daily-checks/2026-11-12/verify-daily-delivery.txt"
+  },
+  "archiveRemediation": {
+    "count": 3,
+    "remaining": 163,
+    "paths": [
+      "src/pages/news/uk-student-sponsor-compliance-thresholds-2026.md",
+      "src/pages/news/australia-student-visa-course-provider-change-rules-2026.md",
+      "src/pages/news/australia-international-student-transfer-12-month-rule-2026.md"
+    ],
+    "verifiedAt": "2026-11-12T05:48:49.944776+08:00"
+  },
+  "weeklyNewsletter": {
+    "due": false,
+    "newScholarshipsInWeeklyFeed": 3,
+    "feed": "https://globalednews.com/weekly-feed.xml"
+  },
+  "manualActions": [],
+  "gaps": [],
+  "socialPosts": [
+    {
+      "campaign": "news",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/news/us-studyportals-november-relative-interest/",
+      "version": "2026-11-12-v1",
+      "id": "Dfnb58mE7SP",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dfnb58mE7SP",
+      "publishedAt": "2026-11-12T05:22:08+08:00",
+      "verifiedAt": "2026-11-12T05:22:47.642000+08:00",
+      "mediaVerifiedAt": "2026-11-12T05:22:47.642000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/study-abroad/articles/japan-eju.html",
+      "version": "2026-11-12-v1",
+      "id": "DfncEMHkzoB",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfncEMHkzoB",
+      "publishedAt": "2026-11-12T05:23:32+08:00",
+      "verifiedAt": "2026-11-12T05:24:07.846000+08:00",
+      "mediaVerifiedAt": "2026-11-12T05:24:07.846000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "version": "2026-11-12-v1",
+      "id": "DfncLhdEz0s",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfncLhdEz0s",
+      "publishedAt": "2026-11-12T05:24:32+08:00",
+      "verifiedAt": "2026-11-12T05:25:10.851000+08:00",
+      "mediaVerifiedAt": "2026-11-12T05:25:10.851000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "articleUrl": "https://globalednews.com/news/us-studyportals-november-relative-interest/",
+      "version": "2026-11-12-v1",
+      "id": "pfbid0qD6tKYpePz5L6KPzhyqbeyy5GNuanuZjuhZb2uEbtHpAhRL8HsiSxmME3czRMq5ml",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0qD6tKYpePz5L6KPzhyqbeyy5GNuanuZjuhZb2uEbtHpAhRL8HsiSxmME3czRMq5ml",
+      "publishedAt": "2026-11-12T05:24:00+08:00",
+      "verifiedAt": "2026-11-12T05:25:32.907000+08:00",
+      "mediaVerifiedAt": "2026-11-12T05:25:32.907000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED",
+      "mediaKind": "uploaded-photo",
+      "photoAttachments": [
+        {
+          "id": "1117022544407276",
+          "url": "https://www.facebook.com/photo/?fbid=1117022544407276"
+        }
+      ],
+      "photoAttachedAt": "2026-11-12T05:21:24.744000+08:00",
+      "copyAddedAt": "2026-11-12T05:21:24.800000+08:00",
+      "photoReadyEvidence": "在文字框空白時先確認圖片編輯及移除控制，再填入本文。",
+      "previewVerifiedAt": "2026-11-12T05:24:29.069000+08:00",
+      "previewStatus": "VERIFIED",
+      "mediaEvidence": "原生公開貼文中的上傳相片可見，圖寬 960px，ID 1117022544407276",
+      "publicPhotoScreenshot": "docs/daily-checks/2026-11-12/public-evidence/facebook-news-readback.jpg"
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/news/us-studyportals-november-relative-interest/",
+      "version": "2026-11-12-v1",
+      "id": "DfncIy-E25I",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DfncIy-E25I/",
+      "publishedAt": "2026-11-12T05:24:10+08:00",
+      "verifiedAt": "2026-11-12T05:25:55.510000+08:00",
+      "mediaVerifiedAt": "2026-11-12T05:25:55.510000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "version": "2026-11-12-v1",
+      "id": "DfncddRE8w-",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfncddRE8w-",
+      "publishedAt": "2026-11-12T05:26:59+08:00",
+      "verifiedAt": "2026-11-12T05:27:51.410000+08:00",
+      "mediaVerifiedAt": "2026-11-12T05:27:51.410000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "articleUrl": "https://globalednews.com/study-abroad/articles/japan-eju.html",
+      "version": "2026-11-12-v1",
+      "id": "pfbid0QfDmKAb4KDytcgEac5hz3JC835sNgBr6qmfkEdy1s2QS7gsHPZJn1uErwDJgj6Qvl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0QfDmKAb4KDytcgEac5hz3JC835sNgBr6qmfkEdy1s2QS7gsHPZJn1uErwDJgj6Qvl",
+      "publishedAt": "2026-11-12T05:27:00+08:00",
+      "verifiedAt": "2026-11-12T05:28:14.261000+08:00",
+      "mediaVerifiedAt": "2026-11-12T05:28:14.261000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED",
+      "mediaKind": "uploaded-photo",
+      "photoAttachments": [
+        {
+          "id": "1117026104406920",
+          "url": "https://www.facebook.com/photo/?fbid=1117026104406920"
+        }
+      ],
+      "photoAttachedAt": "2026-11-12T05:27:35.582000+08:00",
+      "copyAddedAt": "2026-11-12T05:27:35.605000+08:00",
+      "photoReadyEvidence": "在文字框空白時先確認圖片編輯及移除控制，再填入本文。",
+      "previewVerifiedAt": "2026-11-12T05:27:36.647000+08:00",
+      "previewStatus": "VERIFIED",
+      "mediaEvidence": "原生公開貼文中的上傳相片可見，圖寬 960px，ID 1117026104406920",
+      "publicPhotoScreenshot": "docs/daily-checks/2026-11-12/public-evidence/facebook-study-abroad-readback.jpg"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/study-abroad/articles/japan-eju.html",
+      "version": "2026-11-12-v1",
+      "id": "DfnckLLkxKv",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DfnckLLkxKv/",
+      "publishedAt": "2026-11-12T05:27:54+08:00",
+      "verifiedAt": "2026-11-12T05:28:33.389000+08:00",
+      "mediaVerifiedAt": "2026-11-12T05:28:33.389000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "version": "2026-11-12-v1",
+      "id": "pfbid02xevB2SWFu7BcDP88nENyGGZ4JFswa4C7HAUNVhVUehm4oY8kjGpp2BkyhgXVZ65Sl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02xevB2SWFu7BcDP88nENyGGZ4JFswa4C7HAUNVhVUehm4oY8kjGpp2BkyhgXVZ65Sl",
+      "publishedAt": "2026-11-12T05:28:00+08:00",
+      "verifiedAt": "2026-11-12T05:29:24.918000+08:00",
+      "mediaVerifiedAt": "2026-11-12T05:29:24.918000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED",
+      "mediaKind": "uploaded-photo",
+      "photoAttachments": [
+        {
+          "id": "1117027101073487",
+          "url": "https://www.facebook.com/photo/?fbid=1117027101073487"
+        }
+      ],
+      "photoAttachedAt": "2026-11-12T05:28:35.863000+08:00",
+      "copyAddedAt": "2026-11-12T05:28:35.894000+08:00",
+      "photoReadyEvidence": "在文字框空白時先確認圖片編輯及移除控制，再填入本文。",
+      "previewVerifiedAt": "2026-11-12T05:28:36.907000+08:00",
+      "previewStatus": "VERIFIED",
+      "mediaEvidence": "原生公開貼文中的上傳相片可見，圖寬 512px，ID 1117027101073487",
+      "publicPhotoScreenshot": "docs/daily-checks/2026-11-12/public-evidence/facebook-scholarship-account-and-card.jpg"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "version": "2026-11-12-v1",
+      "id": "DfncuXdky0F",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DfncuXdky0F/",
+      "publishedAt": "2026-11-12T05:29:17+08:00",
+      "verifiedAt": "2026-11-12T05:31:17.315000+08:00",
+      "mediaVerifiedAt": "2026-11-12T05:31:17.315000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "version": "2026-11-12-v1",
+      "id": "DfndBNqE3_Y",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DfndBNqE3_Y/",
+      "publishedAt": "2026-11-12T05:31:52+08:00",
+      "verifiedAt": "2026-11-12T05:32:17.880000+08:00",
+      "mediaVerifiedAt": "2026-11-12T05:32:17.880000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "account": "Peter Chen",
+      "articleUrl": "https://globalednews.com/news/us-studyportals-november-relative-interest/",
+      "version": "2026-11-12-v1",
+      "id": "7526396366923911168",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7526396366923911168/",
+      "publishedAt": "2026-11-12T05:32:07.557000+08:00",
+      "publishedAtBasis": "Native LinkedIn activity ID timestamp",
+      "verifiedAt": "2026-11-12T05:33:41.395000+08:00",
+      "mediaVerifiedAt": "2026-11-12T05:33:41.395000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED",
+      "mediaEvidence": "Public detail displays attached image at 549px native width."
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "account": "Peter Chen",
+      "articleUrl": "https://globalednews.com/study-abroad/articles/japan-eju.html",
+      "version": "2026-11-12-v1",
+      "id": "7526396831170220032",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7526396831170220032/",
+      "publishedAt": "2026-11-12T05:33:58.242000+08:00",
+      "publishedAtBasis": "Native LinkedIn activity ID timestamp",
+      "verifiedAt": "2026-11-12T05:34:31.606000+08:00",
+      "mediaVerifiedAt": "2026-11-12T05:34:31.606000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED",
+      "mediaEvidence": "Public detail displays attached image at 549px native width."
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "account": "Peter Chen",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "version": "2026-11-12-v1",
+      "id": "7526396983931064320",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7526396983931064320/",
+      "publishedAt": "2026-11-12T05:34:34.663000+08:00",
+      "publishedAtBasis": "Native LinkedIn activity ID timestamp",
+      "verifiedAt": "2026-11-12T05:34:58.497000+08:00",
+      "mediaVerifiedAt": "2026-11-12T05:34:58.497000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED",
+      "mediaEvidence": "Public detail displays attached image at 549px native width."
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "account": "Peter Chen",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "version": "2026-11-12-v1",
+      "id": "7526397098880028673",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7526397098880028673/",
+      "publishedAt": "2026-11-12T05:35:02.069000+08:00",
+      "publishedAtBasis": "Native LinkedIn activity ID timestamp",
+      "verifiedAt": "2026-11-12T05:35:12.041000+08:00",
+      "mediaVerifiedAt": "2026-11-12T05:35:12.041000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED",
+      "mediaEvidence": "Public detail displays attached image at 549px native width."
+    }
+  ],
+  "newFacebookPagePost": {
+    "campaign": "new-facebook-page",
+    "network": "facebook",
+    "account": "環球國際教育新聞網",
+    "pageId": "61595164194381",
+    "articleUrl": "https://globalednews.com/news/us-studyportals-november-relative-interest/",
+    "version": "2026-11-12-v1",
+    "id": "pfbid02Gb33m794xjNpr3N4kn4DnB3AER3kBpkB46N3wGms5gj3HW4gsQqG22gcXhNebo3ml",
+    "publicUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid02Gb33m794xjNpr3N4kn4DnB3AER3kBpkB46N3wGms5gj3HW4gsQqG22gcXhNebo3ml&id=61595164194381",
+    "publishedAt": "2026-11-12T05:34:00+08:00",
+    "verifiedAt": "2026-11-12T05:35:28.189000+08:00",
+    "mediaVerifiedAt": "2026-11-12T05:35:28.189000+08:00",
+    "imageCount": 1,
+    "mediaStatus": "VERIFIED",
+    "status": "PUBLISHED",
+    "mediaKind": "uploaded-photo",
+    "photoAttachments": [
+      {
+        "id": "122121592857505473",
+        "url": "https://www.facebook.com/photo/?fbid=122121592857505473"
+      }
+    ],
+    "photoAttachedAt": "2026-11-12T05:34:12.672000+08:00",
+    "copyAddedAt": "2026-11-12T05:34:12.702000+08:00",
+    "photoReadyEvidence": "環球國際教育新聞網建立貼文中，文字框空白，已附加的影音內容顯示 us-interest.jpg。",
+    "previewVerifiedAt": "2026-11-12T05:34:13.462000+08:00",
+    "previewStatus": "VERIFIED",
+    "mediaEvidence": "原生公開貼文中的上傳相片可見，圖寬 960px，ID 122121592857505473",
+    "publicPhotoScreenshot": "docs/daily-checks/2026-11-12/public-evidence/facebook-new-facebook-page-readback.jpg"
+  },
+  "threadsReplies": [
+    {
+      "id": "DfnceHFk2vz",
+      "part": 2,
+      "rootId": "DfncddRE8w-",
+      "parentId": "DfncddRE8w-",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfnceHFk2vz",
+      "account": "ltuossdtw",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-12T05:28:14.158000+08:00",
+      "publishedAt": "2026-11-12T05:27:04+08:00"
+    },
+    {
+      "id": "DfncemDE-5z",
+      "part": 3,
+      "rootId": "DfncddRE8w-",
+      "parentId": "DfnceHFk2vz",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfncemDE-5z",
+      "account": "ltuossdtw",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-12T05:28:14.165000+08:00",
+      "publishedAt": "2026-11-12T05:27:08+08:00"
+    },
+    {
+      "id": "DfncfSjE3HY",
+      "part": 4,
+      "rootId": "DfncddRE8w-",
+      "parentId": "DfncemDE-5z",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfncfSjE3HY",
+      "account": "ltuossdtw",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-12T05:28:14.173000+08:00",
+      "publishedAt": "2026-11-12T05:27:14+08:00"
+    },
+    {
+      "id": "Dfncf29k3o9",
+      "part": 5,
+      "rootId": "DfncddRE8w-",
+      "parentId": "DfncfSjE3HY",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Dfncf29k3o9",
+      "account": "ltuossdtw",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-12T05:28:14.180000+08:00",
+      "publishedAt": "2026-11-12T05:27:19+08:00"
+    }
+  ],
+  "acceptance": {
+    "desktop": true,
+    "mobile": true,
+    "seo": true,
+    "verifiedAt": "2026-11-12T05:48:56.934203+08:00",
+    "mobileCssWidth": 390,
+    "radarSearch": "金士頓 + 英國 + 開放申請 = 1，清除後 272",
+    "productionSeo": "docs/daily-reports/2026-11-12-live-seo.json",
+    "productionUrlsChecked": 18
+  }
 }

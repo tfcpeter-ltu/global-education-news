@@ -1,26 +1,8 @@
 {
   "status": "pending",
   "order": "newest first, then currently consequential policies",
-  "remaining": 166,
+  "remaining": 163,
   "items": [
-    {
-      "path": "src/pages/news/uk-student-sponsor-compliance-thresholds-2026.md",
-      "date": "2026-10-04T09:30:00+08:00",
-      "bodyCjk": 311,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/australia-student-visa-course-provider-change-rules-2026.md",
-      "date": "2026-10-04T09:20:00+08:00",
-      "bodyCjk": 324,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/australia-international-student-transfer-12-month-rule-2026.md",
-      "date": "2026-10-04T09:10:00+08:00",
-      "bodyCjk": 331,
-      "needsEditorialReview": true
-    },
     {
       "path": "src/pages/news/hku-non-local-applications-record-2026.md",
       "date": "2026-10-03T06:45:00+08:00",
@@ -1000,7 +982,7 @@
       "needsEditorialReview": true
     }
   ],
-  "updatedAt": "2026-11-11T10:33:29.157081+08:00",
+  "updatedAt": "2026-11-12T05:48:49.944776+08:00",
   "completedBatches": [
     {
       "date": "2026-11-07",
@@ -1061,6 +1043,18 @@
       "commit": "aaec415fb9dfb8956038a02a6a6892a6889749ae",
       "verifiedAt": "2026-11-11T10:32:49.507088+08:00",
       "evidence": "docs/daily-checks/2026-11-11/archive-live.json"
+    },
+    {
+      "date": "2026-11-12",
+      "count": 3,
+      "paths": [
+        "src/pages/news/uk-student-sponsor-compliance-thresholds-2026.md",
+        "src/pages/news/australia-student-visa-course-provider-change-rules-2026.md",
+        "src/pages/news/australia-international-student-transfer-12-month-rule-2026.md"
+      ],
+      "commit": "0f9851a44142575a69a5a6634c707701e93b8d91",
+      "verifiedAt": "2026-11-12T05:48:49.944776+08:00",
+      "evidence": "docs/daily-checks/2026-11-12/archive-live.json"
     }
   ]
 }

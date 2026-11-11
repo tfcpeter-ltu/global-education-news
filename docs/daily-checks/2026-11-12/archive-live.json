@@ -1,0 +1,54 @@
+{
+  "pages": [
+    {
+      "url": "https://globalednews.com/news/uk-student-sponsor-compliance-thresholds-2026/",
+      "paragraphs": 9,
+      "datePublished": "2026-10-04T01:30:00.000Z",
+      "dateModified": "2026-11-11T21:42:00.000Z",
+      "ogBytes": 285614
+    },
+    {
+      "url": "https://globalednews.com/en/news/uk-student-sponsor-compliance-thresholds-2026/",
+      "paragraphs": 9,
+      "datePublished": "2026-10-04T01:30:00.000Z",
+      "dateModified": "2026-11-11T21:42:00.000Z",
+      "ogBytes": 285614
+    },
+    {
+      "url": "https://globalednews.com/news/australia-student-visa-course-provider-change-rules-2026/",
+      "paragraphs": 9,
+      "datePublished": "2026-10-04T01:20:00.000Z",
+      "dateModified": "2026-11-11T21:42:00.000Z",
+      "ogBytes": 172718
+    },
+    {
+      "url": "https://globalednews.com/en/news/australia-student-visa-course-provider-change-rules-2026/",
+      "paragraphs": 9,
+      "datePublished": "2026-10-04T01:20:00.000Z",
+      "dateModified": "2026-11-11T21:42:00.000Z",
+      "ogBytes": 172718
+    },
+    {
+      "url": "https://globalednews.com/news/australia-international-student-transfer-12-month-rule-2026/",
+      "paragraphs": 9,
+      "datePublished": "2026-10-04T01:10:00.000Z",
+      "dateModified": "2026-11-11T21:42:00.000Z",
+      "ogBytes": 241505
+    },
+    {
+      "url": "https://globalednews.com/en/news/australia-international-student-transfer-12-month-rule-2026/",
+      "paragraphs": 9,
+      "datePublished": "2026-10-04T01:10:00.000Z",
+      "dateModified": "2026-11-11T21:42:00.000Z",
+      "ogBytes": 241505
+    }
+  ],
+  "verifiedAt": "2026-11-12T05:48:49.944776+08:00",
+  "deployment": {
+    "status": "success",
+    "runUrl": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/43105968277",
+    "runId": 43105968277,
+    "commit": "0f9851a44142575a69a5a6634c707701e93b8d91",
+    "verifiedAt": "2026-11-12T05:48:49.944776+08:00"
+  }
+}
