@@ -1,22 +1,22 @@
 {
   "status": "ready",
-  "updatedAt": "2026-11-10T08:23:13.231Z",
+  "updatedAt": "2026-11-11T07:43:24.229Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
     {
       "title": "澳洲大學領導組織整合上路：學生代表與治理透明度成下一步｜環球教育新聞網 Global Education News",
       "path": "/news/australian-university-governance-transition-november-2026/",
-      "views": 6
-    },
-    {
-      "title": "加拿大將每年15萬新留學生抵達目標延至2029年：穩定訊號與招生落差｜環球教育新聞網 Global Education News",
-      "path": "/news/canada-student-arrivals-target-2029-extension/",
-      "views": 5
+      "views": 9
     },
     {
       "title": "國際教育新聞｜全球大學、留學政策與招生動態｜環球教育新聞網",
       "path": "/news/",
+      "views": 8
+    },
+    {
+      "title": "加拿大將每年15萬新留學生抵達目標延至2029年：穩定訊號與招生落差｜環球教育新聞網 Global Education News",
+      "path": "/news/canada-student-arrivals-target-2029-extension/",
       "views": 5
     },
     {
@@ -34,62 +34,62 @@
     {
       "name": "台灣",
       "mapName": "Taiwan",
-      "sessions": 579,
-      "share": 70.2
+      "sessions": 668,
+      "share": 72
     },
     {
       "name": "美國",
       "mapName": "United States",
-      "sessions": 161,
-      "share": 19.5
+      "sessions": 173,
+      "share": 18.6
     },
     {
       "name": "愛爾蘭",
       "mapName": "Ireland",
-      "sessions": 14,
+      "sessions": 16,
       "share": 1.7
     },
     {
       "name": "英國",
       "mapName": "United Kingdom",
-      "sessions": 14,
-      "share": 1.7
+      "sessions": 15,
+      "share": 1.6
     },
     {
       "name": "瑞典",
       "mapName": "Sweden",
-      "sessions": 12,
-      "share": 1.5
+      "sessions": 11,
+      "share": 1.2
     },
     {
       "name": "新加坡",
       "mapName": "Singapore",
-      "sessions": 8,
-      "share": 1
+      "sessions": 7,
+      "share": 0.8
     },
     {
       "name": "澳洲",
       "mapName": "Australia",
-      "sessions": 5,
+      "sessions": 6,
       "share": 0.6
     },
     {
       "name": "德國",
       "mapName": "Germany",
       "sessions": 4,
-      "share": 0.5
+      "share": 0.4
     },
     {
       "name": "印度",
       "mapName": "India",
       "sessions": 3,
-      "share": 0.4
+      "share": 0.3
     },
     {
       "name": "Netherlands",
       "mapName": "Netherlands",
       "sessions": 3,
-      "share": 0.4
+      "share": 0.3
     }
   ]
 }
