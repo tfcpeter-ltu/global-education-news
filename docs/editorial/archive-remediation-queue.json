@@ -1,26 +1,8 @@
 {
   "status": "pending",
   "order": "newest first, then currently consequential policies",
-  "remaining": 169,
+  "remaining": 166,
   "items": [
-    {
-      "path": "src/pages/news/malaysia-higher-education-blueprint-international-students-2035.md",
-      "date": "2026-10-09T11:30:00+08:00",
-      "bodyCjk": 531,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/france-high-school-dialogue-consultation-october-2026.md",
-      "date": "2026-10-09T11:20:00+08:00",
-      "bodyCjk": 446,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/unsw-international-admissions-diversity-pathway-2027.md",
-      "date": "2026-10-09T11:10:00+08:00",
-      "bodyCjk": 406,
-      "needsEditorialReview": true
-    },
     {
       "path": "src/pages/news/uk-student-sponsor-compliance-thresholds-2026.md",
       "date": "2026-10-04T09:30:00+08:00",
@@ -1018,7 +1000,7 @@
       "needsEditorialReview": true
     }
   ],
-  "updatedAt": "2026-11-10T06:41:44.641202+08:00",
+  "updatedAt": "2026-11-11T10:33:29.157081+08:00",
   "completedBatches": [
     {
       "date": "2026-11-07",
@@ -1067,6 +1049,18 @@
         "src/pages/news/eduhk-2027-international-undergraduate-admissions.md"
       ],
       "evidence": "docs/daily-checks/2026-11-10/archive-live-verification.json"
+    },
+    {
+      "date": "2026-11-11",
+      "count": 3,
+      "paths": [
+        "src/pages/news/malaysia-higher-education-blueprint-international-students-2035.md",
+        "src/pages/news/france-high-school-dialogue-consultation-october-2026.md",
+        "src/pages/news/unsw-international-admissions-diversity-pathway-2027.md"
+      ],
+      "commit": "aaec415fb9dfb8956038a02a6a6892a6889749ae",
+      "verifiedAt": "2026-11-11T10:32:49.507088+08:00",
+      "evidence": "docs/daily-checks/2026-11-11/archive-live.json"
     }
   ]
 }

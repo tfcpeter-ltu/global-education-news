@@ -1,5 +1,159 @@
 {
   "date": "2026-11-11",
-  "posts": [],
-  "status": "pending"
+  "status": "completed",
+  "posts": [
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "articleUrl": "https://globalednews.com/news/us-college-pricing-2026-27-out-of-state-budget/",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02C8RfqxHek815pqP64TJF347wXNvx1YyeefTwnYrxxYmz9MGDmesArY4GSZYNqU7Pl",
+      "id": "pfbid02C8RfqxHek815pqP64TJF347wXNvx1YyeefTwnYrxxYmz9MGDmesArY4GSZYNqU7Pl",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "news",
+      "network": "threads",
+      "articleUrl": "https://globalednews.com/news/us-college-pricing-2026-27-out-of-state-budget/",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DflWNY_AfF4",
+      "id": "DflWNY_AfF4",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "articleUrl": "https://globalednews.com/study-abroad/articles/hong-kong-international-application.html",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DflWkELgUz8",
+      "id": "DflWkELgUz8",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "articleUrl": "https://globalednews.com/news/us-college-pricing-2026-27-out-of-state-budget/",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DflWsFXE-GO/",
+      "id": "DflWsFXE-GO",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DflXJW9AaSe",
+      "id": "DflXJW9AaSe",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "articleUrl": "https://globalednews.com/news/us-college-pricing-2026-27-out-of-state-budget/",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7526102228139429888/",
+      "id": "7526102228139429888",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "articleUrl": "https://globalednews.com/study-abroad/articles/hong-kong-international-application.html",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7526102609900843008/",
+      "id": "7526102609900843008",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "articleUrl": "https://globalednews.com/study-abroad/articles/hong-kong-international-application.html",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DflXnDZE9FQ/",
+      "id": "DflXnDZE9FQ",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "articleUrl": "https://globalednews.com/study-abroad/articles/hong-kong-international-application.html",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid07BK9vMzKVUJ7TYCYgRsu7jJEVqadLTq2ewoDbSUJHTyQCaANkDindvt71xDo1853l",
+      "id": "pfbid07BK9vMzKVUJ7TYCYgRsu7jJEVqadLTq2ewoDbSUJHTyQCaANkDindvt71xDo1853l",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7526103297464696832/",
+      "id": "7526103297464696832",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DflX0BtAejN",
+      "id": "DflX0BtAejN",
+      "status": "PUBLISHED",
+      "children": [
+        {
+          "id": "DflX05YgWE2",
+          "parentId": "DflX0BtAejN",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DflX05YgWE2"
+        },
+        {
+          "id": "DflX10hAQ_i",
+          "parentId": "DflX05YgWE2",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DflX10hAQ_i"
+        },
+        {
+          "id": "DflX2RLAcyS",
+          "parentId": "DflX10hAQ_i",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DflX2RLAcyS"
+        },
+        {
+          "id": "DflX2q-AeWl",
+          "parentId": "DflX2RLAcyS",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DflX2q-AeWl"
+        }
+      ]
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7526103640454057984/",
+      "id": "7526103640454057984",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DflYFmxk2tr/",
+      "id": "DflYFmxk2tr",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DflYTxNk2ZU/",
+      "id": "DflYTxNk2ZU",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0eAUXMTuak78oyDqnNCbT56o1dgXSYgXsGPx1snDo9BAtoYhvMfMkMe3XyS2QatjXl",
+      "id": "pfbid0eAUXMTuak78oyDqnNCbT56o1dgXSYgXsGPx1snDo9BAtoYhvMfMkMe3XyS2QatjXl",
+      "status": "PUBLISHED"
+    }
+  ],
+  "newFacebookPagePost": {
+    "campaign": "news",
+    "network": "facebook",
+    "articleUrl": "https://globalednews.com/news/us-college-pricing-2026-27-out-of-state-budget/",
+    "publicUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid0whsoZX21S5EJfDfi4qD9bkGcHPb7P84NA658AvFfVKZWgAwWrmydF5qgzkLtR3yFl&id=61595164194381",
+    "id": "pfbid0whsoZX21S5EJfDfi4qD9bkGcHPb7P84NA658AvFfVKZWgAwWrmydF5qgzkLtR3yFl",
+    "status": "PUBLISHED"
+  },
+  "regularPublished": 15,
+  "extraFacebookPublished": 1,
+  "recordType": "Public permalinks only. Full platform evidence is retained in the project owner’s local delivery records."
 }

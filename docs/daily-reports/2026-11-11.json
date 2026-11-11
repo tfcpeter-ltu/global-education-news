@@ -1,9 +1,9 @@
 {
-  "mainSha": "0c89732fa1302bd5ce55c0ae7276157e5905e759",
   "date": "2026-11-11",
-  "status": "in-progress",
-  "currentPhase": "PREPARE",
-  "startedAt": "2026-11-11T04:56:40+08:00",
+  "mainSha": "0c89732fa1302bd5ce55c0ae7276157e5905e759",
+  "status": "completed",
+  "currentPhase": "COMPLETE",
+  "deadlineMet": false,
   "scholarshipBaselineSlugs": [
     "2026-08-bristol-think-big",
     "2026-08-manchester-global-futures-taiwan-2027",
@@ -272,11 +272,42 @@
     "catalog-vanderbilt-ingram",
     "catalog-yale-international-aid"
   ],
+  "radarTotal": 269,
+  "archiveRemediation": {
+    "count": 3,
+    "remaining": 166,
+    "paths": [
+      "src/pages/news/malaysia-higher-education-blueprint-international-students-2035.md",
+      "src/pages/news/france-high-school-dialogue-consultation-october-2026.md",
+      "src/pages/news/unsw-international-admissions-diversity-pathway-2027.md"
+    ],
+    "verifiedAt": "2026-11-11T10:32:49.507088+08:00"
+  },
+  "completedAt": "2026-11-11T10:33:32.132817+08:00",
+  "deployment": {
+    "status": "success",
+    "commit": "aaec415fb9dfb8956038a02a6a6892a6889749ae",
+    "runUrl": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/42946424619"
+  },
+  "newsPublished": [
+    {
+      "title": "美國公立大學一年要準備多少？州外學生平均預算逾 5.2 萬美元",
+      "url": "https://globalednews.com/news/us-college-pricing-2026-27-out-of-state-budget/"
+    },
+    {
+      "title": "亞洲大學排名公布，港大居首、台大第 23；申請者另有一張更急的時間表",
+      "url": "https://globalednews.com/news/qs-asia-2027-taiwan-hong-kong-admissions/"
+    },
+    {
+      "title": "英國學位在東南亞怎麼讀？馬尼拉高教會議討論課程由誰設計",
+      "url": "https://globalednews.com/news/asean-uk-manila-degree-partnerships-local-design/"
+    }
+  ],
   "scholarshipAdditions": [
     {
       "slug": "2026-11-stirling-international-undergraduate-2027",
       "title": "史特靈大學國際學士獎：每年可減 2,500 英鎊學費",
-      "publishedPath": "src/pages/scholarships/items/2026-11-stirling-international-undergraduate-2027.md",
+      "url": "https://globalednews.com/scholarships/items/2026-11-stirling-international-undergraduate-2027/",
       "sources": [
         {
           "label": "University scholarship terms",
@@ -301,16 +332,12 @@
       ],
       "eligibleTaiwan": true,
       "open": true,
-      "isNew": true,
-      "baselineAbsent": true,
-      "verifiedAt": "2026-11-11T09:31:47.910482+08:00",
-      "url": "https://globalednews.com/scholarships/items/2026-11-stirling-international-undergraduate-2027/",
-      "updateSummary": "New undergraduate award checked against university rules, Taiwan qualification route and UCAS application dates."
+      "isNew": true
     },
     {
       "slug": "2026-11-royal-holloway-international-undergraduate-2027",
       "title": "皇家霍洛威學院國際學士獎：先核對成績，每年可減 3,000 英鎊",
-      "publishedPath": "src/pages/scholarships/items/2026-11-royal-holloway-international-undergraduate-2027.md",
+      "url": "https://globalednews.com/scholarships/items/2026-11-royal-holloway-international-undergraduate-2027/",
       "sources": [
         {
           "label": "University scholarship terms",
@@ -335,16 +362,12 @@
       ],
       "eligibleTaiwan": true,
       "open": true,
-      "isNew": true,
-      "baselineAbsent": true,
-      "verifiedAt": "2026-11-11T09:31:47.926453+08:00",
-      "url": "https://globalednews.com/scholarships/items/2026-11-royal-holloway-international-undergraduate-2027/",
-      "updateSummary": "New undergraduate award checked against university rules, Taiwan qualification route and UCAS application dates."
+      "isNew": true
     },
     {
       "slug": "2026-11-keele-undergraduate-global-2027",
       "title": "基爾大學全球學士獎：每年減免 3,000 英鎊，實習年另計",
-      "publishedPath": "src/pages/scholarships/items/2026-11-keele-undergraduate-global-2027.md",
+      "url": "https://globalednews.com/scholarships/items/2026-11-keele-undergraduate-global-2027/",
       "sources": [
         {
           "label": "University scholarship terms",
@@ -369,132 +392,170 @@
       ],
       "eligibleTaiwan": true,
       "open": true,
-      "isNew": true,
-      "baselineAbsent": true,
-      "verifiedAt": "2026-11-11T09:31:47.926834+08:00",
-      "url": "https://globalednews.com/scholarships/items/2026-11-keele-undergraduate-global-2027/",
-      "updateSummary": "New undergraduate award checked against university rules, Taiwan qualification route and UCAS application dates."
+      "isNew": true
     }
   ],
-  "deadlineMet": false,
-  "newsPrepared": [
-    {
-      "title": "美國公立大學一年要準備多少？州外學生平均預算逾 5.2 萬美元",
-      "slug": "us-college-pricing-2026-27-out-of-state-budget",
-      "url": "https://globalednews.com/news/us-college-pricing-2026-27-out-of-state-budget/",
-      "publishedPath": "src/pages/news/us-college-pricing-2026-27-out-of-state-budget.md",
-      "sources": [
-        {
-          "label": "College Board — Trends in College Pricing and Student Aid 2026",
-          "url": "https://newsroom.collegeboard.org/average-sticker-prices-public-colleges-rise-less-inflation-grant-aid-brings-average-net-tuition"
-        },
-        {
-          "label": "University of Washington — international student expense estimates",
-          "url": "https://iss.washington.edu/annual-expenses/"
-        },
-        {
-          "label": "UW Admissions — scholarships and international undergraduate eligibility",
-          "url": "https://admit.washington.edu/costs/scholarships/"
-        }
-      ],
-      "verifiedAt": "2026-11-11T09:37:39.567052+08:00"
-    },
-    {
-      "title": "亞洲大學排名公布，港大居首、台大第 23；申請者另有一張更急的時間表",
-      "slug": "qs-asia-2027-taiwan-hong-kong-admissions",
-      "url": "https://globalednews.com/news/qs-asia-2027-taiwan-hong-kong-admissions/",
-      "publishedPath": "src/pages/news/qs-asia-2027-taiwan-hong-kong-admissions.md",
-      "sources": [
-        {
-          "label": "QS — 2027 Asia university rankings release",
-          "url": "https://www.prnewswire.com/apac/zh/news-releases/2027qs-302924414.html"
-        },
-        {
-          "label": "HKU Admissions — first round and subsequent decisions",
-          "url": "https://www.admissions.hku.hk/apply/international-qualifications/information-for-counsellors"
-        },
-        {
-          "label": "中央社 — 台灣各校排名及指標",
-          "url": "https://www.cna.com.tw/news/ahel/202611030312.aspx"
-        },
-        {
-          "label": "RTHK — Hong Kong university results and response",
-          "url": "https://news.rthk.hk/rthk/en/component/k2/1876427-20261103.htm"
-        }
-      ],
-      "verifiedAt": "2026-11-11T09:37:39.567052+08:00"
-    },
-    {
-      "title": "英國學位在東南亞怎麼讀？馬尼拉高教會議討論課程由誰設計",
-      "slug": "asean-uk-manila-degree-partnerships-local-design",
-      "url": "https://globalednews.com/news/asean-uk-manila-degree-partnerships-local-design/",
-      "publishedPath": "src/pages/news/asean-uk-manila-degree-partnerships-local-design.md",
-      "sources": [
-        {
-          "label": "British Council — Manila programme and agenda",
-          "url": "https://www.britishcouncil.ph/en/programmes/education/asean-uk-higher-education-week-2026"
-        },
-        {
-          "label": "The PIE News — reporting from the Manila discussion",
-          "url": "https://thepienews.com/asean-uk-higher-education-partnerships-must-reflect-local-priorities/"
-        }
-      ],
-      "verifiedAt": "2026-11-11T09:37:39.567052+08:00"
-    }
-  ],
-  "peterPrepared": [
+  "peterImports": [
     {
       "slug": "sweden-masters-rank-four-choices-2027",
-      "sourceId": "pfbid0214GexGSqvzsSuKoDSEoEXFJ3nodRTbAnRa9RcS9V3kPwwAqoR6giYnWugySe6mw8l",
+      "url": "https://globalednews.com/peter/sweden-masters-rank-four-choices-2027/",
       "sourceUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid0214GexGSqvzsSuKoDSEoEXFJ3nodRTbAnRa9RcS9V3kPwwAqoR6giYnWugySe6mw8l&id=61585164670358"
     }
   ],
-  "peterReview": {
-    "status": "fewer-new-posts",
-    "availableNewCount": 1,
-    "checkedAt": "2026-11-11T09:37:39.567052+08:00",
-    "sourceUrls": [
-      "https://www.facebook.com/permalink.php?story_fbid=pfbid0214GexGSqvzsSuKoDSEoEXFJ3nodRTbAnRa9RcS9V3kPwwAqoR6giYnWugySe6mw8l&id=61585164670358"
-    ],
-    "note": "Sweden master's ranking column found between two magazine promotions. Next substantive post on Australian graduate outcomes already imported."
-  },
-  "ltuMediaReview": {
-    "checkedAt": "2026-11-11T09:42:12.576932+08:00",
-    "selectedIndices": [
-      1,
-      2,
-      11
-    ],
-    "sourceUrls": [
-      "https://money.udn.com/money/story/5723/8815124",
-      "https://www.nownews.com/news/6697174",
-      "https://www.yuanfengmedia.tw/detail.php?id=52990&type=lastest"
-    ],
-    "note": "Historical reports on summer study and a Fengyuan student. Preserve dates. Two accounts of the same summer programme are not independent confirmation of general outcomes."
-  },
-  "campusLeads": [
+  "socialPosts": [
     {
-      "school": "NCKU",
-      "source": "https://ice.ee.ncku.edu.tw/announcement_content.php?ann_id=4510",
-      "finding": "EE exchange experience talk on Nov 27, 12:00–13:00. Registration closes Nov 23, capacity 50. Speakers studied at NTU Singapore and UC Berkeley.",
-      "verifiedAt": "2026-11-11T09:42:12.576932+08:00"
+      "campaign": "news",
+      "network": "facebook",
+      "articleUrl": "https://globalednews.com/news/us-college-pricing-2026-27-out-of-state-budget/",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02C8RfqxHek815pqP64TJF347wXNvx1YyeefTwnYrxxYmz9MGDmesArY4GSZYNqU7Pl",
+      "id": "pfbid02C8RfqxHek815pqP64TJF347wXNvx1YyeefTwnYrxxYmz9MGDmesArY4GSZYNqU7Pl",
+      "status": "PUBLISHED"
     },
     {
-      "school": "NTU",
-      "source": "https://philo.ntu.edu.tw/web/announcement/announcement_in.jsp?np_id=NP1791790189352",
-      "finding": "College of Liberal Arts published AY2027/28 college-level exchange forms. The Oct 19 briefing has already taken place.",
-      "verifiedAt": "2026-11-11T09:42:12.576932+08:00"
+      "campaign": "news",
+      "network": "threads",
+      "articleUrl": "https://globalednews.com/news/us-college-pricing-2026-27-out-of-state-budget/",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DflWNY_AfF4",
+      "id": "DflWNY_AfF4",
+      "status": "PUBLISHED"
     },
     {
-      "school": "NCCU",
-      "source": "https://iep.nccu.edu.tw/outgoing/",
-      "finding": "College of Commerce AY2027/28 online exchange application period ended November 10 at 17:00; exclude from open calls.",
-      "verifiedAt": "2026-11-11T09:42:12.576932+08:00"
+      "campaign": "study-abroad",
+      "network": "threads",
+      "articleUrl": "https://globalednews.com/study-abroad/articles/hong-kong-international-application.html",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DflWkELgUz8",
+      "id": "DflWkELgUz8",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "articleUrl": "https://globalednews.com/news/us-college-pricing-2026-27-out-of-state-budget/",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DflWsFXE-GO/",
+      "id": "DflWsFXE-GO",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DflXJW9AaSe",
+      "id": "DflXJW9AaSe",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "articleUrl": "https://globalednews.com/news/us-college-pricing-2026-27-out-of-state-budget/",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7526102228139429888/",
+      "id": "7526102228139429888",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "articleUrl": "https://globalednews.com/study-abroad/articles/hong-kong-international-application.html",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7526102609900843008/",
+      "id": "7526102609900843008",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "articleUrl": "https://globalednews.com/study-abroad/articles/hong-kong-international-application.html",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DflXnDZE9FQ/",
+      "id": "DflXnDZE9FQ",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "articleUrl": "https://globalednews.com/study-abroad/articles/hong-kong-international-application.html",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid07BK9vMzKVUJ7TYCYgRsu7jJEVqadLTq2ewoDbSUJHTyQCaANkDindvt71xDo1853l",
+      "id": "pfbid07BK9vMzKVUJ7TYCYgRsu7jJEVqadLTq2ewoDbSUJHTyQCaANkDindvt71xDo1853l",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7526103297464696832/",
+      "id": "7526103297464696832",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DflX0BtAejN",
+      "id": "DflX0BtAejN",
+      "status": "PUBLISHED",
+      "children": [
+        {
+          "id": "DflX05YgWE2",
+          "parentId": "DflX0BtAejN",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DflX05YgWE2"
+        },
+        {
+          "id": "DflX10hAQ_i",
+          "parentId": "DflX05YgWE2",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DflX10hAQ_i"
+        },
+        {
+          "id": "DflX2RLAcyS",
+          "parentId": "DflX10hAQ_i",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DflX2RLAcyS"
+        },
+        {
+          "id": "DflX2q-AeWl",
+          "parentId": "DflX2RLAcyS",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DflX2q-AeWl"
+        }
+      ]
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7526103640454057984/",
+      "id": "7526103640454057984",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DflYFmxk2tr/",
+      "id": "DflYFmxk2tr",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DflYTxNk2ZU/",
+      "id": "DflYTxNk2ZU",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0eAUXMTuak78oyDqnNCbT56o1dgXSYgXsGPx1snDo9BAtoYhvMfMkMe3XyS2QatjXl",
+      "id": "pfbid0eAUXMTuak78oyDqnNCbT56o1dgXSYgXsGPx1snDo9BAtoYhvMfMkMe3XyS2QatjXl",
+      "status": "PUBLISHED"
     }
   ],
-  "sunmoonReview": {
-    "source": "https://www.sunmoonnews.com.tw/",
-    "checkedAt": "2026-11-11T09:42:12.576932+08:00",
-    "note": "Homepage returned September material. No current independently verified international education event selected from this page."
+  "newFacebookPagePost": {
+    "campaign": "news",
+    "network": "facebook",
+    "articleUrl": "https://globalednews.com/news/us-college-pricing-2026-27-out-of-state-budget/",
+    "publicUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid0whsoZX21S5EJfDfi4qD9bkGcHPb7P84NA658AvFfVKZWgAwWrmydF5qgzkLtR3yFl&id=61595164194381",
+    "id": "pfbid0whsoZX21S5EJfDfi4qD9bkGcHPb7P84NA658AvFfVKZWgAwWrmydF5qgzkLtR3yFl",
+    "status": "PUBLISHED"
+  },
+  "verification": {
+    "status": "COMPLETE",
+    "scope": "Full evidence verified locally. This public receipt contains links only."
   }
 }
