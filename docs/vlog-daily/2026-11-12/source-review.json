@@ -1,0 +1,206 @@
+[
+  {
+    "id": "IhDaSKWEzwA",
+    "title": "Durham University International",
+    "channel": "DurhamUniversity",
+    "channelId": "UCmY_l-JTJH-ztouzuc9pDMg",
+    "description": "International student Soumya tells us what life is like at Durham University.  This film was made by Hotcourses.",
+    "views": "135335",
+    "publishedAt": "2018-07-02T01:52:41-07:00",
+    "seconds": "136",
+    "playability": {
+      "status": "OK",
+      "playableInEmbed": true,
+      "miniplayer": {
+        "miniplayerRenderer": {
+          "playbackMode": "PLAYBACK_MODE_ALLOW"
+        }
+      },
+      "contextParams": "Q0FFU0FnZ0M="
+    },
+    "embed": {
+      "iframeUrl": "https://www.youtube.com/embed/IhDaSKWEzwA",
+      "width": 1280,
+      "height": 720
+    },
+    "thumbnailStatus": 200,
+    "captions": [
+      {
+        "language": "en",
+        "status": 200,
+        "bytes": 0,
+        "text": ""
+      }
+    ],
+    "verifiedAt": "2026-11-12T04:01:40.653Z"
+  },
+  {
+    "id": "ckAwNx5XBhQ",
+    "title": "Lund University campus tour (main campus in Lund)",
+    "channel": "Lund University",
+    "channelId": "UCIzc0kTQRpk7z1CmPnAJzpw",
+    "description": "Want to take a guided tour of Lund University? In this video you can join our international student Rumbi, as she walks you through our main campus in Lund. \n\nLearn more about Lund University on www.lunduniversity.lu.se\n\nHave questions about Bachelor's or Master's study opportunities? Get in touch with the International Marketing and Recruitment Team: https://www.lunduniversity.lu.se/admissions/connect-us-about-studies/online/contact-us-regarding-degree-studies",
+    "views": "88559",
+    "publishedAt": "2021-04-12T03:14:52-07:00",
+    "seconds": "687",
+    "playability": {
+      "status": "OK",
+      "playableInEmbed": true,
+      "miniplayer": {
+        "miniplayerRenderer": {
+          "playbackMode": "PLAYBACK_MODE_ALLOW"
+        }
+      },
+      "contextParams": "Q0FFU0FnZ0M="
+    },
+    "embed": {
+      "iframeUrl": "https://www.youtube.com/embed/ckAwNx5XBhQ",
+      "width": 1280,
+      "height": 720
+    },
+    "thumbnailStatus": 200,
+    "captions": [
+      {
+        "language": "en",
+        "status": 200,
+        "bytes": 0,
+        "text": ""
+      }
+    ],
+    "verifiedAt": "2026-11-12T04:01:41.418Z"
+  },
+  {
+    "id": "lTHplvVXik8",
+    "title": "HKUST Aerial - Campus Drone Tour",
+    "channel": "HKUST MBA",
+    "channelId": "UCoGEOXH4p5bfVdiCbJieExg",
+    "description": "Boasting one of the most beautiful campuses in the world, the view at HKUST is breathtaking both day and night.\n\nVideo Credit: HKUST Undergraduate Admissions\n\nDrone footage captured by Alex Godskit KWOK, BBA in Global Business and Information Systems, Class of 2019, and MPhil in Technology Leadership and Entrepreneurship, Class of 2021. Color grading by Christopher TSUI\n\n#campus #hkust #clearwaterbayproperty  #hkustmba #hkustbusinessschool #LearnInnovateLead #fulltimemba #hk #students #campustour",
+    "views": "8129",
+    "publishedAt": "2025-04-15T18:46:41-07:00",
+    "seconds": "148",
+    "playability": {
+      "status": "OK",
+      "playableInEmbed": true,
+      "miniplayer": {
+        "miniplayerRenderer": {
+          "playbackMode": "PLAYBACK_MODE_PAUSED_ONLY",
+          "minimizedEndpoint": {
+            "clickTrackingParams": "CAAQu2kiEwjq9YH0xYGYAxXojiQGHeTaEM7KAQQelJRE",
+            "openPopupAction": {
+              "popup": {
+                "notificationActionRenderer": {
+                  "responseText": {
+                    "simpleText": "兒童專屬影片無法使用迷你播放器，輕觸播放鍵即可繼續播放內容"
+                  },
+                  "actionButton": {
+                    "buttonRenderer": {
+                      "text": {
+                        "simpleText": "瞭解詳情"
+                      },
+                      "trackingParams": "CAIQ8FsiEwjq9YH0xYGYAxXojiQGHeTaEM4=",
+                      "command": {
+                        "clickTrackingParams": "CAIQ8FsiEwjq9YH0xYGYAxXojiQGHeTaEM7KAQQelJRE",
+                        "commandMetadata": {
+                          "webCommandMetadata": {
+                            "url": "//support.google.com/youtube/bin/answer.py?answer=9632097&nohelpkit=1&hl=zh-TW",
+                            "webPageType": "WEB_PAGE_TYPE_UNKNOWN",
+                            "rootVe": 83769
+                          }
+                        },
+                        "urlEndpoint": {
+                          "url": "//support.google.com/youtube/bin/answer.py?answer=9632097&nohelpkit=1&hl=zh-TW",
+                          "target": "TARGET_NEW_WINDOW"
+                        }
+                      }
+                    }
+                  },
+                  "trackingParams": "CAEQuWoiEwjq9YH0xYGYAxXojiQGHeTaEM4="
+                }
+              },
+              "popupType": "TOAST"
+            }
+          }
+        }
+      },
+      "contextParams": "Q0FJU0FnZ0M="
+    },
+    "embed": {
+      "iframeUrl": "https://www.youtube.com/embed/lTHplvVXik8",
+      "width": 1280,
+      "height": 720
+    },
+    "thumbnailStatus": 200,
+    "captions": [],
+    "verifiedAt": "2026-11-12T04:01:42.013Z"
+  },
+  {
+    "id": "rBt-r3QeIK0",
+    "title": "Bold Ideas Big Impact | Singapore Management University",
+    "channel": "Singapore Management University",
+    "channelId": "UCkv980lbtBCyZtRy3YiRFsA",
+    "description": "Singapore Management University (SMU). \nWhat begins here changes lives; what we do here changes the world.   \n\nAs Asia’s premier global city university, SMU drives innovation, transcends boundaries and transforms lives. From shaping graduates who think critically, act decisively, and lead with purpose, to advancing research that addresses societal challenges, and building partnerships around the world, SMU turns insight into action and bold ideas into transformative impact.\n\nBold Ideas. Big Impact.\nDiscover how SMU is shaping the future.\nLearn more: https://sgsmu.com/boldideas",
+    "views": "28486",
+    "publishedAt": "2026-03-06T01:24:01-08:00",
+    "seconds": "80",
+    "playability": {
+      "status": "OK",
+      "playableInEmbed": true,
+      "miniplayer": {
+        "miniplayerRenderer": {
+          "playbackMode": "PLAYBACK_MODE_ALLOW"
+        }
+      },
+      "contextParams": "Q0FFU0FnZ0M="
+    },
+    "embed": {
+      "iframeUrl": "https://www.youtube.com/embed/rBt-r3QeIK0",
+      "width": 1280,
+      "height": 720
+    },
+    "thumbnailStatus": 200,
+    "captions": [
+      {
+        "language": "en",
+        "status": 200,
+        "bytes": 0,
+        "text": ""
+      }
+    ],
+    "verifiedAt": "2026-11-12T04:01:42.840Z"
+  },
+  {
+    "id": "mQyOqiTWE_8",
+    "title": "Award-winning podcaster and bestselling author Jay Shetty addresses Princeton's Class of 2025",
+    "channel": "Princeton University",
+    "channelId": "UCcBYSgQTxc126-lj_gdrO8Q",
+    "description": "Jay Shetty, a bestselling author and host of the award-winning mental health podcast “On Purpose,” spoke to Princeton seniors at the Class Day ceremony on May 26. Class Day, which takes place the day before Commencement, is organized by members of the senior class, who choose the speaker.\n\nRead the full story: https://bit.ly/3Z3qx41",
+    "views": "25844",
+    "publishedAt": "2025-05-27T11:08:09-07:00",
+    "seconds": "1560",
+    "playability": {
+      "status": "OK",
+      "playableInEmbed": true,
+      "miniplayer": {
+        "miniplayerRenderer": {
+          "playbackMode": "PLAYBACK_MODE_ALLOW"
+        }
+      },
+      "contextParams": "Q0FFU0FnZ0M="
+    },
+    "embed": {
+      "iframeUrl": "https://www.youtube.com/embed/mQyOqiTWE_8",
+      "width": 1280,
+      "height": 720
+    },
+    "thumbnailStatus": 200,
+    "captions": [
+      {
+        "language": "en-US",
+        "status": 200,
+        "bytes": 0,
+        "text": ""
+      }
+    ],
+    "verifiedAt": "2026-11-12T04:01:43.476Z"
+  }
+]
