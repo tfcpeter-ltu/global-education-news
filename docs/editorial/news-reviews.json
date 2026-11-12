@@ -505,5 +505,44 @@
     "independentSource": "https://www.uts.edu.au/for-students/current-students/support/your-rights-and-responsibilities/international-students/uts-release-protocol",
     "reviewedAt": "2026-11-12T05:42:00+08:00",
     "bodySha256": "c58b9614ff2a90d8df0d5a78bb9aad37abfc9bc122c4eb8978442d907e3a2f31"
+  },
+  "uk-settlement-reform-ukcisa-student-years": {
+    "reviewedAt": "2026-11-13T05:08:38.981373+08:00",
+    "bodySha256": "93669123eda5c0bb626950397114405e8c638d8735f859d9ef4eeb2cc2048c84",
+    "primarySource": "https://www.gov.uk/government/consultations/earned-settlement",
+    "independentSource": "https://www.ukcisa.org.uk/news/earned-settlement-proposals-student-impact-and-ukcisas-position/",
+    "independence": "11 月 2 日政府公布諮詢回應；12 日更新無障礙文件。UKCISA 12 日另發立場，要求保護接近十年門檻者。擬議改革仍待移民規則及實施細節。",
+    "newsValue": "On 2 November the UK government published its settlement consultation response. On 12 November the UK Council for International Student Affairs highlighted the position of students who had built up years of lawful residence under existing rules.",
+    "background": "The existing ten-year long residence route and the proposed ten-year starting point for most qualifying pathways count different things. The former considers lawful residence subject to other rules. The latter would operate within a new framework with its own qualifying categories and conditions.",
+    "development": "A family can add up the years of a bachelor's degree, a master's and a possible Graduate visa for budgeting. Using that sum to predict a settlement date requires an additional legal determination about each period.",
+    "perspectives": "The government considered more than 200,000 responses. Its framework reflects both concerns about fairness and support for considering contribution and compliance. Transitional measures described for particular workers should not be assumed to apply to students.",
+    "taiwanImpact": "Applicants can separate the educational value of a programme from assumptions about future immigration status. A budget can record what the course provides alongside each point when the immigration rules need to be checked again.",
+    "uncertainty": "Current residents nearing the threshold can prepare their status history and travel records for individual advice. A former student's experience cannot establish how future rules will treat a different timeline."
+  },
+  "australia-university-allocations-offshore-student-visas": {
+    "reviewedAt": "2026-11-13T05:08:38.981373+08:00",
+    "bodySha256": "59712fe8616882b18a69616263d29a896d2ace6eac2815ba1cdcb8b23aedeec3",
+    "primarySource": "https://www.atec.gov.au/sites/default/files/2026-11/2027%20mission%20based%20compacts%20and%20allocations%20outcomes%20report.pdf",
+    "independentSource": "https://www.timeshighereducation.com/news/go-slow-visa-scheme-irrelevant-amid-sky-high-rejections",
+    "independence": "ATEC 報告第 14 頁記錄院校反映拒簽增加。THE 另訪 Nerlich 與 Norton。71% 對 92% 僅指境外高教類申請人於 7 至 9 月的跨年度比較，不能套用為台灣學生個人核准率。",
+    "newsValue": "An Australian Tertiary Education Commission report records providers' concerns about visa refusals. Interviews published by Times Higher Education give a separate perspective on why admissions, visas and arrival times need to be considered individually.",
+    "background": "Providers described shifts in international commencements during compact negotiations. ATEC says it will work with institutions on international strategies and allocations while supporting sustainability and student experience.",
+    "development": "An institutional allocation does not establish whether an applicant meets course entry requirements or visa criteria. Families also need to distinguish a processing priority from a programme closing admissions.",
+    "perspectives": "THE reported that public universities had used about two thirds of their collective allocation by early November. Provider allocations and visa decisions cover different populations. Subtracting one from the other cannot measure refusals.",
+    "taiwanImpact": "Before paying a deposit, families can compare the offer deadline, course start and latest arrival date. Written deferral and fee terms matter particularly for courses with sequential practical requirements.",
+    "uncertainty": "Admissions staff can confirm places and explain a timetable. Visa requirements are determined by immigration authorities. Keeping those answers separate can prevent premature travel commitments or unnecessary withdrawal from a suitable course."
+  },
+  "quebec-herzing-computing-support-existing-students": {
+    "reviewedAt": "2026-11-13T05:08:38.981373+08:00",
+    "bodySha256": "03869aff30118d605f5babaca006765537ef1298a0e0c565f8e849cd6fb4f857",
+    "primarySource": "https://www.quebec.ca/en/education/study-quebec/apply",
+    "independentSource": "https://www.fasken.com/en/experience/2026/09/herzing-college-secures-a-safeguard-order-to-continue-its-it-support-program",
+    "independence": "省府招生頁 11 月 12 日更新；校方代理律師另有案件說明。限 6 月 30 日已註冊指定課程者，至 2027 年 5 月 7 日或法庭另有裁定之較早日期。裁定早於 11 月，並非開放新生報名。",
+    "newsValue": "Québec's admissions guidance, updated on 12 November, describes a temporary arrangement for Computing Support students at Herzing College in Montréal. The programme, the student's enrolment date and the order's duration all matter.",
+    "background": "Herzing challenged the refusal to renew its permit for the programme. Fasken, which represents the college, previously described how the tribunal allowed instruction for an existing cohort to continue while the challenge proceeds.",
+    "development": "The guidance identifies Computing Support by codes 5229/5729-DEP and specifies enrolment as of 30 June 2026. A similar course title elsewhere in a catalogue is insufficient to establish that a student is covered.",
+    "perspectives": "The province frames the arrangement around existing foreign students seeking extensions in the same programme. The college's counsel describes the litigation. Neither document establishes a final ruling on the underlying dispute.",
+    "taiwanImpact": "Prospective students can ask the college to confirm the campus, programme code, language and intake date against the current authorisation to enrol new students. Existing classes continuing to meet does not settle that question.",
+    "uncertainty": "Current students can assemble their original enrolment evidence and current course record, then confirm extension procedures with the relevant authorities. Authorisation to teach, personal document expiry and an individual decision are separate matters."
   }
 }
