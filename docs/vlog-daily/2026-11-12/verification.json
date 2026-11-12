@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-12",
+  "baseline": "840da87d82ed582cb79cff1ae75018cc6c6fcb87",
+  "commit": "8e654a9ed3120f33e1a75e869ca9e6daa0035a18",
+  "deploymentRun": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/43152584514",
+  "deployment": "success",
+  "videosBefore": 135,
+  "videosAfter": 141,
+  "newVideos": 6,
+  "recommendedEntriesUnchanged": true,
+  "tests": [
+    "source Vlog141 pass",
+    "Astro604 pages pass",
+    "bilingual890 pairs pass",
+    "built Vlog141 pass"
+  ],
+  "liveChinese": "six daily titles; six official thumbnails loaded; Lund button switches player title and creates original YouTube-nocookie embed; original recommendations retained; return home / correct",
+  "liveEnglish": "six English daily titles and loaded thumbnails; Lund search returns exactly1 video with original English summary; return home /en/ correct",
+  "playerLimit": "Public and embeddable checked for all six; live iframe observed. Full uninterrupted playback not independently verified.",
+  "socialPublished": 10,
+  "notes": [
+    "Caption endpoints returned empty text or no tracks; summaries restricted to official descriptions and original viewing exercises.",
+    "Historical dates retained; Princeton Class Day distinguished from Commencement. No global popularity ranking claim.",
+    "Local translation engine missing; three new count labels translated manually, bilingual checks passed without installing packages.",
+    "No paid promotion, third-party video download or reupload."
+  ],
+  "cloudSyncVerified": false
+}
