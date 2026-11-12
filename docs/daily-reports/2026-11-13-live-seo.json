@@ -1,0 +1,141 @@
+{
+  "verifiedAt": "2026-11-13T06:00:48.778935+08:00",
+  "pages": [
+    {
+      "url": "https://globalednews.com/news/uk-settlement-reform-ukcisa-student-years/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/uk-settlement-reform-ukcisa-student-years/",
+      "ogImage": "https://globalednews.com/images/share-photos/119b8c74d8b3c7893ac0ede0.jpg",
+      "ogBytes": 218358,
+      "schemaCount": 5,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/news/australia-university-allocations-offshore-student-visas/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/australia-university-allocations-offshore-student-visas/",
+      "ogImage": "https://globalednews.com/images/share-photos/bd92e79e66db0e91f5c083b8.jpg",
+      "ogBytes": 209869,
+      "schemaCount": 5,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/news/quebec-herzing-computing-support-existing-students/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/quebec-herzing-computing-support-existing-students/",
+      "ogImage": "https://globalednews.com/images/share-photos/cca6d10fb33368cb2c47691a.jpg",
+      "ogBytes": 237183,
+      "schemaCount": 5,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-11-cumbria-global-business-excellence-mba-jan-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-11-cumbria-global-business-excellence-mba-jan-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/ea9fdce4f8e76dd6c6b9dc79.jpg",
+      "ogBytes": 333792,
+      "schemaCount": 3,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-11-strathclyde-engineering-international-jan-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-11-strathclyde-engineering-international-jan-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/29977a1ffc0695e2545d51a5.jpg",
+      "ogBytes": 135872,
+      "schemaCount": 3,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-11-leicester-chancellor-international-taught-masters/",
+      "status": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-11-leicester-chancellor-international-taught-masters/",
+      "ogImage": "https://globalednews.com/images/share-photos/508314d25adae1771c45c8da.jpg",
+      "ogBytes": 205857,
+      "schemaCount": 3,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/peter/singapore-exchange-backup-study-plan/",
+      "status": 200,
+      "canonical": "https://globalednews.com/peter/singapore-exchange-backup-study-plan/",
+      "ogImage": "https://globalednews.com/images/share-photos/601f3fd9b6294ba68d64cba2.jpg",
+      "ogBytes": 291996,
+      "schemaCount": 4,
+      "englishCjk": null
+    },
+    {
+      "url": "https://globalednews.com/en/news/uk-settlement-reform-ukcisa-student-years/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/uk-settlement-reform-ukcisa-student-years/",
+      "ogImage": "https://globalednews.com/images/share-photos/119b8c74d8b3c7893ac0ede0.jpg",
+      "ogBytes": 218358,
+      "schemaCount": 5,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/news/australia-university-allocations-offshore-student-visas/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/australia-university-allocations-offshore-student-visas/",
+      "ogImage": "https://globalednews.com/images/share-photos/bd92e79e66db0e91f5c083b8.jpg",
+      "ogBytes": 209869,
+      "schemaCount": 5,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/news/quebec-herzing-computing-support-existing-students/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/quebec-herzing-computing-support-existing-students/",
+      "ogImage": "https://globalednews.com/images/share-photos/cca6d10fb33368cb2c47691a.jpg",
+      "ogBytes": 237183,
+      "schemaCount": 5,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/scholarships/items/2026-11-cumbria-global-business-excellence-mba-jan-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/scholarships/items/2026-11-cumbria-global-business-excellence-mba-jan-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/ea9fdce4f8e76dd6c6b9dc79.jpg",
+      "ogBytes": 333792,
+      "schemaCount": 3,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/scholarships/items/2026-11-strathclyde-engineering-international-jan-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/scholarships/items/2026-11-strathclyde-engineering-international-jan-2027/",
+      "ogImage": "https://globalednews.com/images/share-photos/29977a1ffc0695e2545d51a5.jpg",
+      "ogBytes": 135872,
+      "schemaCount": 3,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/scholarships/items/2026-11-leicester-chancellor-international-taught-masters/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/scholarships/items/2026-11-leicester-chancellor-international-taught-masters/",
+      "ogImage": "https://globalednews.com/images/share-photos/508314d25adae1771c45c8da.jpg",
+      "ogBytes": 205857,
+      "schemaCount": 3,
+      "englishCjk": false
+    },
+    {
+      "url": "https://globalednews.com/en/peter/singapore-exchange-backup-study-plan/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/peter/singapore-exchange-backup-study-plan/",
+      "ogImage": "https://globalednews.com/images/share-photos/601f3fd9b6294ba68d64cba2.jpg",
+      "ogBytes": 291996,
+      "schemaCount": 4,
+      "englishCjk": false
+    }
+  ],
+  "xmlChecks": [
+    "sitemap-index.xml",
+    "sitemap-0.xml",
+    "news-sitemap.xml",
+    "weekly-feed.xml"
+  ],
+  "newPagesInSitemap": 7,
+  "newsInNewsSitemapAndRss": 3,
+  "newScholarshipsInWeeklyRss": 3,
+  "robots": 200
+}

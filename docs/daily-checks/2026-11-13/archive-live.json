@@ -1,0 +1,54 @@
+{
+  "pages": [
+    {
+      "url": "https://globalednews.com/news/hku-non-local-applications-record-2026/",
+      "paragraphs": 9,
+      "datePublished": "2026-10-02T22:45:00.000Z",
+      "dateModified": "2026-11-12T21:51:00.000Z",
+      "ogBytes": 176600
+    },
+    {
+      "url": "https://globalednews.com/en/news/hku-non-local-applications-record-2026/",
+      "paragraphs": 9,
+      "datePublished": "2026-10-02T22:45:00.000Z",
+      "dateModified": "2026-11-12T21:51:00.000Z",
+      "ogBytes": 176600
+    },
+    {
+      "url": "https://globalednews.com/news/hong-kong-non-local-student-cap-50-percent-2026/",
+      "paragraphs": 9,
+      "datePublished": "2026-10-02T22:40:00.000Z",
+      "dateModified": "2026-11-12T21:51:00.000Z",
+      "ogBytes": 197875
+    },
+    {
+      "url": "https://globalednews.com/en/news/hong-kong-non-local-student-cap-50-percent-2026/",
+      "paragraphs": 9,
+      "datePublished": "2026-10-02T22:40:00.000Z",
+      "dateModified": "2026-11-12T21:51:00.000Z",
+      "ogBytes": 197875
+    },
+    {
+      "url": "https://globalednews.com/news/uk-bloomsbury-institute-sponsor-licence-revoked-2026/",
+      "paragraphs": 9,
+      "datePublished": "2026-10-02T22:35:00.000Z",
+      "dateModified": "2026-11-12T21:51:00.000Z",
+      "ogBytes": 184735
+    },
+    {
+      "url": "https://globalednews.com/en/news/uk-bloomsbury-institute-sponsor-licence-revoked-2026/",
+      "paragraphs": 9,
+      "datePublished": "2026-10-02T22:35:00.000Z",
+      "dateModified": "2026-11-12T21:51:00.000Z",
+      "ogBytes": 184735
+    }
+  ],
+  "verifiedAt": "2026-11-13T06:00:45.765557+08:00",
+  "deployment": {
+    "status": "success",
+    "runUrl": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/43315346873",
+    "runId": 43315346873,
+    "commit": "e04e33a2346042087fbee763c51734d6d133e2e2",
+    "verifiedAt": "2026-11-13T06:00:45.765557+08:00"
+  }
+}

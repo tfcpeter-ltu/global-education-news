@@ -719,6 +719,30 @@
           "copyVersion": "2026-11-10-v1"
         }
       ]
+    },
+    {
+      "date": "2026-11-13",
+      "status": "published",
+      "evidence": "docs/social-posts/2026-11-13/publication-log.json",
+      "schoolName": "國立政治大學",
+      "topic": "東協交換補助與線上申請編號",
+      "posts": [
+        {
+          "network": "threads",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfqBI8eEy8l",
+          "id": "DfqBI8eEy8l"
+        },
+        {
+          "network": "instagram",
+          "publicUrl": "https://www.instagram.com/ltuossdtw/p/DfqB1G8E00F/",
+          "id": "DfqB1G8E00F"
+        },
+        {
+          "network": "linkedin",
+          "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7526760451532120064/",
+          "id": "7526760451532120064"
+        }
+      ]
     }
   ]
 }

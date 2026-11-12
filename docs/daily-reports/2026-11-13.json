@@ -1,6 +1,10 @@
 {
   "date": "2026-11-13",
-  "status": "in-progress",
+  "status": "completed",
+  "currentPhase": "COMPLETED",
+  "completedAt": "2026-11-13T06:01:01.749618+08:00",
+  "deadlineMet": true,
+  "mainSha": "69c1039418e62f501af3207a64daea009ad87d3f",
   "scholarshipBaselineSlugs": [
     "2026-08-bristol-think-big",
     "2026-08-manchester-global-futures-taiwan-2027",
@@ -275,6 +279,62 @@
     "vanderbilt-ingram",
     "yale-international-aid"
   ],
+  "newsPublished": [
+    {
+      "slug": "uk-settlement-reform-ukcisa-student-years",
+      "title": "英國擬調整長期居留制度，留學生如何看待已累積的年資？",
+      "publishedPath": "src/pages/news/uk-settlement-reform-ukcisa-student-years.md",
+      "url": "https://globalednews.com/news/uk-settlement-reform-ukcisa-student-years/",
+      "sources": [
+        {
+          "label": "www.gov.uk",
+          "url": "https://www.gov.uk/government/consultations/earned-settlement"
+        },
+        {
+          "label": "www.ukcisa.org.uk",
+          "url": "https://www.ukcisa.org.uk/news/earned-settlement-proposals-student-impact-and-ukcisas-position/"
+        }
+      ],
+      "verifiedAt": "2026-11-13T05:08:38.981373+08:00",
+      "publishedVerifiedAt": "2026-11-13T06:00:48.778935+08:00"
+    },
+    {
+      "slug": "australia-university-allocations-offshore-student-visas",
+      "title": "澳洲大學還有招生空間，為什麼拿到錄取仍得另算簽證時間？",
+      "publishedPath": "src/pages/news/australia-university-allocations-offshore-student-visas.md",
+      "url": "https://globalednews.com/news/australia-university-allocations-offshore-student-visas/",
+      "sources": [
+        {
+          "label": "www.atec.gov.au",
+          "url": "https://www.atec.gov.au/sites/default/files/2026-11/2027%20mission%20based%20compacts%20and%20allocations%20outcomes%20report.pdf"
+        },
+        {
+          "label": "www.timeshighereducation.com",
+          "url": "https://www.timeshighereducation.com/news/go-slow-visa-scheme-irrelevant-amid-sky-high-rejections"
+        }
+      ],
+      "verifiedAt": "2026-11-13T05:08:38.981373+08:00",
+      "publishedVerifiedAt": "2026-11-13T06:00:48.778935+08:00"
+    },
+    {
+      "slug": "quebec-herzing-computing-support-existing-students",
+      "title": "魁北克更新招生說明：蒙特婁電腦支援課程的續讀保障適用誰？",
+      "publishedPath": "src/pages/news/quebec-herzing-computing-support-existing-students.md",
+      "url": "https://globalednews.com/news/quebec-herzing-computing-support-existing-students/",
+      "sources": [
+        {
+          "label": "www.quebec.ca",
+          "url": "https://www.quebec.ca/en/education/study-quebec/apply"
+        },
+        {
+          "label": "www.fasken.com",
+          "url": "https://www.fasken.com/en/experience/2026/09/herzing-college-secures-a-safeguard-order-to-continue-its-it-support-program"
+        }
+      ],
+      "verifiedAt": "2026-11-13T05:08:38.981373+08:00",
+      "publishedVerifiedAt": "2026-11-13T06:00:48.778935+08:00"
+    }
+  ],
   "scholarshipAdditions": [
     {
       "slug": "2026-11-cumbria-global-business-excellence-mba-jan-2027",
@@ -300,7 +360,8 @@
       "baselineAbsent": true,
       "verifiedAt": "2026-11-13T05:04:16.748857+08:00",
       "url": "https://globalednews.com/scholarships/items/2026-11-cumbria-global-business-excellence-mba-jan-2027/",
-      "updateSummary": "£2,500；指定 Lancaster MBA 或 Ambleside 觀光 MBA，自費海外生、180 學分全日制、相當於英國 2:2。1 月梯次 12 月 16 日前完成條件及訂金；須再核當期課程是否收件。"
+      "updateSummary": "£2,500；指定 Lancaster MBA 或 Ambleside 觀光 MBA，自費海外生、180 學分全日制、相當於英國 2:2。1 月梯次 12 月 16 日前完成條件及訂金；須再核當期課程是否收件。",
+      "publishedVerifiedAt": "2026-11-13T05:19:30.211655+08:00"
     },
     {
       "slug": "2026-11-strathclyde-engineering-international-jan-2027",
@@ -322,7 +383,8 @@
       "baselineAbsent": true,
       "verifiedAt": "2026-11-13T05:04:16.748857+08:00",
       "url": "https://globalednews.com/scholarships/items/2026-11-strathclyde-engineering-international-jan-2027/",
-      "updateSummary": "£6,000，2026 年 11 月 30 日截止；2027 年 1 月格拉斯哥校區工程學院全日制授課碩士，自費非歐盟海外生、持錄取；收訂金後登錄。"
+      "updateSummary": "£6,000，2026 年 11 月 30 日截止；2027 年 1 月格拉斯哥校區工程學院全日制授課碩士，自費非歐盟海外生、持錄取；收訂金後登錄。",
+      "publishedVerifiedAt": "2026-11-13T05:19:30.211655+08:00"
     },
     {
       "slug": "2026-11-leicester-chancellor-international-taught-masters",
@@ -344,7 +406,536 @@
       "baselineAbsent": true,
       "verifiedAt": "2026-11-13T05:04:16.748857+08:00",
       "url": "https://globalednews.com/scholarships/items/2026-11-leicester-chancellor-international-taught-masters/",
-      "updateSummary": "£3,000；2027 年 1、4、9 月及 2028 年 1、4 月，海外學費、校內全日制碩士，符合錄取條件自動評估；排除常住印度或泰國者，最長一年。"
+      "updateSummary": "£3,000；2027 年 1、4、9 月及 2028 年 1、4 月，海外學費、校內全日制碩士，符合錄取條件自動評估；排除常住印度或泰國者，最長一年。",
+      "publishedVerifiedAt": "2026-11-13T05:19:30.211655+08:00"
     }
-  ]
+  ],
+  "scholarshipChecks": [
+    {
+      "slug": "2026-11-cumbria-global-business-excellence-mba-jan-2027",
+      "title": "英國坎布里亞大學 MBA 獎學金：指定校區可減免 2,500 英鎊",
+      "publishedPath": "src/pages/scholarships/items/2026-11-cumbria-global-business-excellence-mba-jan-2027.md",
+      "sources": [
+        {
+          "label": "www.cumbria.ac.uk",
+          "url": "https://www.cumbria.ac.uk/media/2026-Cumbria-Global-Business-Excellence-MBA-Scholarship-Terms-Conditions.pdf"
+        },
+        {
+          "label": "www.cumbria.ac.uk",
+          "url": "https://www.cumbria.ac.uk/study/courses/postgraduate/mba-lancaster/"
+        },
+        {
+          "label": "www.idp.com",
+          "url": "https://www.idp.com/scholarship/university-of-cumbria/the-cumbria-global-business-excellence-mba-scholarship/167400/"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "isNew": true,
+      "baselineAbsent": true,
+      "verifiedAt": "2026-11-13T05:04:16.748857+08:00",
+      "url": "https://globalednews.com/scholarships/items/2026-11-cumbria-global-business-excellence-mba-jan-2027/",
+      "updateSummary": "£2,500；指定 Lancaster MBA 或 Ambleside 觀光 MBA，自費海外生、180 學分全日制、相當於英國 2:2。1 月梯次 12 月 16 日前完成條件及訂金；須再核當期課程是否收件。",
+      "publishedVerifiedAt": "2026-11-13T05:19:30.211655+08:00"
+    },
+    {
+      "slug": "2026-11-strathclyde-engineering-international-jan-2027",
+      "title": "英國斯特拉斯克萊德大學工程碩士：2027 年 1 月入學可減免 6,000 英鎊",
+      "publishedPath": "src/pages/scholarships/items/2026-11-strathclyde-engineering-international-jan-2027.md",
+      "sources": [
+        {
+          "label": "www.strath.ac.uk",
+          "url": "https://www.strath.ac.uk/studywithus/scholarships/facultyofengineeringinternationalscholarshippgtjanuary2027/"
+        },
+        {
+          "label": "scholarshipsforafricans.com",
+          "url": "https://scholarshipsforafricans.com/scholarships/faculty-of-engineering-international-scholarship-university-of-strathclyde"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "isNew": true,
+      "baselineAbsent": true,
+      "verifiedAt": "2026-11-13T05:04:16.748857+08:00",
+      "url": "https://globalednews.com/scholarships/items/2026-11-strathclyde-engineering-international-jan-2027/",
+      "updateSummary": "£6,000，2026 年 11 月 30 日截止；2027 年 1 月格拉斯哥校區工程學院全日制授課碩士，自費非歐盟海外生、持錄取；收訂金後登錄。",
+      "publishedVerifiedAt": "2026-11-13T05:19:30.211655+08:00"
+    },
+    {
+      "slug": "2026-11-leicester-chancellor-international-taught-masters",
+      "title": "英國萊斯特大學校監國際碩士獎學金：符合入學條件可減免 3,000 英鎊",
+      "publishedPath": "src/pages/scholarships/items/2026-11-leicester-chancellor-international-taught-masters.md",
+      "sources": [
+        {
+          "label": "le.ac.uk",
+          "url": "https://le.ac.uk/study/postgraduates/fees-funding/scholarships-discounts/chancellor"
+        },
+        {
+          "label": "le.ac.uk",
+          "url": "https://le.ac.uk/study/international-students/countries/asia/taiwan"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "isNew": true,
+      "baselineAbsent": true,
+      "verifiedAt": "2026-11-13T05:04:16.748857+08:00",
+      "url": "https://globalednews.com/scholarships/items/2026-11-leicester-chancellor-international-taught-masters/",
+      "updateSummary": "£3,000；2027 年 1、4、9 月及 2028 年 1、4 月，海外學費、校內全日制碩士，符合錄取條件自動評估；排除常住印度或泰國者，最長一年。",
+      "publishedVerifiedAt": "2026-11-13T05:19:30.211655+08:00"
+    }
+  ],
+  "peterImports": [
+    {
+      "verifiedAt": "2026-11-13T05:19:30.211655+08:00",
+      "slug": "singapore-exchange-backup-study-plan",
+      "sourceUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid03hvxu7Y7FqA9AePrATczbqr93hRtB5BKMs3XSxAYNXMhpc3mHBWLJGghDiiccX7al&id=61585164670358",
+      "sourceId": "pfbid03hvxu7Y7FqA9AePrATczbqr93hRtB5BKMs3XSxAYNXMhpc3mHBWLJGghDiiccX7al",
+      "url": "https://globalednews.com/peter/singapore-exchange-backup-study-plan/"
+    }
+  ],
+  "peterReview": {
+    "status": "fewer-new-posts",
+    "sourceUrls": [
+      "https://www.facebook.com/permalink.php?story_fbid=pfbid03hvxu7Y7FqA9AePrATczbqr93hRtB5BKMs3XSxAYNXMhpc3mHBWLJGghDiiccX7al&id=61585164670358",
+      "https://www.facebook.com/profile.php?id=61585164670358"
+    ],
+    "note": "最新三則中，交換改課抵免與寒假證書為交換誌導讀；另有一篇新加坡交換備選課表原創專欄。",
+    "checkedAt": "2026-11-13T05:15:59.3643871+08:00",
+    "availableNewCount": 1
+  },
+  "ltuMediaReview": {
+    "sourceUrls": [
+      "https://money.udn.com/money/story/5723/8815124",
+      "https://www.nownews.com/news/6697174",
+      "https://www.businesstoday.com.tw/article/category/183035/post/202508150011/"
+    ],
+    "note": "前兩篇為過往赴加暑修報導，今周刊為整合傳播企劃。",
+    "checkedAt": "2026-11-13T05:15:59.3684725+08:00",
+    "selectedIndices": [
+      1,
+      2,
+      3
+    ]
+  },
+  "campusLeads": [
+    {
+      "note": "台聯大出國交換說明會，中央場 11 月 17 日上午 10 點。",
+      "school": "國立中央大學",
+      "url": "https://www.ust.edu.tw/News_Detailed.aspx?GUID=f5c396ab-00df-4020-812d-d239a2280979"
+    },
+    {
+      "note": "通過交換甄選並確認東協研修學校者，11 月 30 日 17:00 前申請短期交換獎學金。",
+      "school": "國立政治大學",
+      "url": "https://oic.nccu.edu.tw/Post/16174"
+    },
+    {
+      "note": "校方常見問題：GPA 3.0 或系排名前 30%，也須符合姊妹校條件。年度確切日程另查簡章。",
+      "school": "中原大學",
+      "url": "https://oia.cycu.edu.tw/?page_id=3573"
+    }
+  ],
+  "radarTotal": 275,
+  "initialDeployment": {
+    "runId": "43308639591",
+    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/43308639591",
+    "status": "success",
+    "sourceSha": "ad921b47539909f0064e8d6403684123817413dc",
+    "commit": "ad921b47539909f0064e8d6403684123817413dc",
+    "verifiedAt": "2026-11-13T06:00:48.778935+08:00"
+  },
+  "deployment": {
+    "status": "success",
+    "runUrl": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/43315346873",
+    "runId": 43315346873,
+    "commit": "e04e33a2346042087fbee763c51734d6d133e2e2",
+    "verifiedAt": "2026-11-13T06:00:45.765557+08:00"
+  },
+  "verification": {
+    "status": "COMPLETE",
+    "verifiedAt": "2026-11-13T06:01:01.749618+08:00",
+    "evidence": "docs/daily-checks/2026-11-13/verify-daily-delivery.txt"
+  },
+  "archiveRemediation": {
+    "count": 3,
+    "remaining": 160,
+    "paths": [
+      "src/pages/news/hku-non-local-applications-record-2026.md",
+      "src/pages/news/hong-kong-non-local-student-cap-50-percent-2026.md",
+      "src/pages/news/uk-bloomsbury-institute-sponsor-licence-revoked-2026.md"
+    ],
+    "verifiedAt": "2026-11-13T06:00:45.765557+08:00"
+  },
+  "weeklyNewsletter": {
+    "due": false,
+    "weekday": "Monday",
+    "newScholarshipsInWeeklyFeed": 3,
+    "feed": "https://globalednews.com/weekly-feed.xml"
+  },
+  "manualActions": [],
+  "gaps": [],
+  "socialPosts": [
+    {
+      "campaign": "news",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/news/uk-settlement-reform-ukcisa-student-years/",
+      "version": "2026-11-13-v1",
+      "id": "DfqA4d-E3OG",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfqA4d-E3OG",
+      "publishedAt": "2026-11-13T05:23:43+08:00",
+      "verifiedAt": "2026-11-13T05:24:47.802144+08:00",
+      "mediaVerifiedAt": "2026-11-13T05:24:47.802144+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/study-abroad/articles/singapore-university-application.html",
+      "version": "2026-11-13-v1",
+      "id": "DfqBERZE6RQ",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfqBERZE6RQ",
+      "publishedAt": "2026-11-13T05:25:20+08:00",
+      "verifiedAt": "2026-11-13T05:25:48.312869+08:00",
+      "mediaVerifiedAt": "2026-11-13T05:25:48.312869+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "version": "2026-11-13-v1",
+      "id": "DfqBI8eEy8l",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfqBI8eEy8l",
+      "publishedAt": "2026-11-13T05:25:58+08:00",
+      "verifiedAt": "2026-11-13T05:26:13.249021+08:00",
+      "mediaVerifiedAt": "2026-11-13T05:26:13.249021+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/news/uk-settlement-reform-ukcisa-student-years/",
+      "version": "2026-11-13-v1",
+      "id": "DfqBdm9k3rZ",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DfqBdm9k3rZ/",
+      "publishedAt": "2026-11-13T05:28:48+08:00",
+      "verifiedAt": "2026-11-13T05:30:14.510642+08:00",
+      "mediaVerifiedAt": "2026-11-13T05:30:14.510642+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/study-abroad/articles/singapore-university-application.html",
+      "version": "2026-11-13-v1",
+      "id": "DfqBuCzk-qr",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DfqBuCzk-qr/",
+      "publishedAt": "2026-11-13T05:31:02+08:00",
+      "verifiedAt": "2026-11-13T05:31:33.934244+08:00",
+      "mediaVerifiedAt": "2026-11-13T05:31:33.934244+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "version": "2026-11-13-v1",
+      "id": "DfqB1G8E00F",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DfqB1G8E00F/",
+      "publishedAt": "2026-11-13T05:32:00+08:00",
+      "verifiedAt": "2026-11-13T05:33:57.959895+08:00",
+      "mediaVerifiedAt": "2026-11-13T05:33:57.959895+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "version": "2026-11-13-v1",
+      "id": "DfqCNwUk4yV",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DfqCNwUk4yV/",
+      "publishedAt": "2026-11-13T05:35:22+08:00",
+      "verifiedAt": "2026-11-13T05:36:13.605633+08:00",
+      "mediaVerifiedAt": "2026-11-13T05:36:13.605633+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "account": "Peter Chen",
+      "articleUrl": "https://globalednews.com/news/uk-settlement-reform-ukcisa-student-years/",
+      "version": "2026-11-13-v1",
+      "id": "7526759736394833920",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7526759736394833920/",
+      "publishedAt": "2026-11-13T05:36:01.590000+08:00",
+      "publishedAtBasis": "LinkedIn native activity ID creation time, cross-checked against the public post and relative time.",
+      "verifiedAt": "2026-11-13T05:37:51.831691+08:00",
+      "mediaVerifiedAt": "2026-11-13T05:37:51.831691+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "account": "Peter Chen",
+      "articleUrl": "https://globalednews.com/study-abroad/articles/singapore-university-application.html",
+      "version": "2026-11-13-v1",
+      "id": "7526760264994672640",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7526760264994672640/",
+      "publishedAt": "2026-11-13T05:38:07.618000+08:00",
+      "publishedAtBasis": "LinkedIn native activity ID creation time, cross-checked against the public post and relative time.",
+      "verifiedAt": "2026-11-13T05:40:03.683024+08:00",
+      "mediaVerifiedAt": "2026-11-13T05:40:03.683024+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "account": "Peter Chen",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "version": "2026-11-13-v1",
+      "id": "7526760451532120064",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7526760451532120064/",
+      "publishedAt": "2026-11-13T05:38:52.092000+08:00",
+      "publishedAtBasis": "LinkedIn native activity ID creation time, cross-checked against the public post and relative time.",
+      "verifiedAt": "2026-11-13T05:40:03.757457+08:00",
+      "mediaVerifiedAt": "2026-11-13T05:40:03.757457+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "version": "2026-11-13-v1",
+      "id": "DfqC0Eak0VS",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfqC0Eak0VS",
+      "publishedAt": "2026-11-13T05:40:36+08:00",
+      "verifiedAt": "2026-11-13T05:43:31.493483+08:00",
+      "mediaVerifiedAt": "2026-11-13T05:43:31.493483+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "account": "Peter Chen",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "version": "2026-11-13-v1",
+      "id": "7526760713286176768",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7526760713286176768/",
+      "publishedAt": "2026-11-13T05:39:54.499000+08:00",
+      "publishedAtBasis": "LinkedIn native activity ID creation time, cross-checked against the public post and relative time.",
+      "verifiedAt": "2026-11-13T05:43:31.570977+08:00",
+      "mediaVerifiedAt": "2026-11-13T05:43:31.570977+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED"
+    },
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "articleUrl": "https://globalednews.com/news/uk-settlement-reform-ukcisa-student-years/",
+      "version": "2026-11-13-v1",
+      "id": "pfbid0ZQHR7PTkaBho3mPLvyBQcjRymLYJUboN8jE3NRssQKadpCNk7AzrPSQH8RydaRTFl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0ZQHR7PTkaBho3mPLvyBQcjRymLYJUboN8jE3NRssQKadpCNk7AzrPSQH8RydaRTFl",
+      "publishedAt": "2026-11-13T05:44:00+08:00",
+      "verifiedAt": "2026-11-13T05:45:07.531000+08:00",
+      "mediaVerifiedAt": "2026-11-13T05:45:07.531000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED",
+      "mediaKind": "uploaded-photo",
+      "photoAttachments": [
+        {
+          "id": "1118000047642859",
+          "url": "https://www.facebook.com/photo/?fbid=1118000047642859"
+        }
+      ],
+      "photoAttachedAt": "2026-11-13T05:44:36.857000+08:00",
+      "copyAddedAt": "2026-11-13T05:44:36.886000+08:00",
+      "photoReadyEvidence": "空白編輯器中已顯示圖片檔名、編輯和移除附件按鈕。",
+      "previewVerifiedAt": "2026-11-13T05:44:39.723000+08:00",
+      "previewStatus": "VERIFIED",
+      "mediaEvidence": "原生公開貼文實拍圖卡及相片連結可見。",
+      "publicPhotoScreenshot": "docs/daily-checks/2026-11-13/public-evidence/facebook-news-readback.jpg"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "articleUrl": "https://globalednews.com/study-abroad/articles/singapore-university-application.html",
+      "version": "2026-11-13-v1",
+      "id": "pfbid0veB39UsYar9cgap35nhaKogcR4SSoLMQrhsjRQM72GkWaXpQi5EEsVBYPLJvNsFfl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0veB39UsYar9cgap35nhaKogcR4SSoLMQrhsjRQM72GkWaXpQi5EEsVBYPLJvNsFfl",
+      "publishedAt": "2026-11-13T05:45:00+08:00",
+      "verifiedAt": "2026-11-13T05:45:43.845000+08:00",
+      "mediaVerifiedAt": "2026-11-13T05:45:43.845000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED",
+      "mediaKind": "uploaded-photo",
+      "photoAttachments": [
+        {
+          "id": "1118000530976144",
+          "url": "https://www.facebook.com/photo/?fbid=1118000530976144"
+        }
+      ],
+      "photoAttachedAt": "2026-11-13T05:45:23.067000+08:00",
+      "copyAddedAt": "2026-11-13T05:45:23.097000+08:00",
+      "photoReadyEvidence": "空白編輯器中已顯示圖片檔名、編輯和移除附件按鈕。",
+      "previewVerifiedAt": "2026-11-13T05:45:26.118000+08:00",
+      "previewStatus": "VERIFIED",
+      "mediaEvidence": "原生公開貼文實拍圖卡及相片連結可見。",
+      "publicPhotoScreenshot": "docs/daily-checks/2026-11-13/public-evidence/facebook-study-abroad-readback.jpg"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "version": "2026-11-13-v1",
+      "id": "pfbid0XFtn6YpTAQtTerHBCAWchDrzpvHBSwTke9rTqvhAKf5CypDVn1J5QYFEEmGRVbLXl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0XFtn6YpTAQtTerHBCAWchDrzpvHBSwTke9rTqvhAKf5CypDVn1J5QYFEEmGRVbLXl",
+      "publishedAt": "2026-11-13T05:46:00+08:00",
+      "verifiedAt": "2026-11-13T05:46:48.588000+08:00",
+      "mediaVerifiedAt": "2026-11-13T05:46:48.588000+08:00",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED",
+      "mediaKind": "uploaded-photo",
+      "photoAttachments": [
+        {
+          "id": "1118000944309436",
+          "url": "https://www.facebook.com/photo/?fbid=1118000944309436"
+        }
+      ],
+      "photoAttachedAt": "2026-11-13T05:46:03.759000+08:00",
+      "copyAddedAt": "2026-11-13T05:46:03.907000+08:00",
+      "photoReadyEvidence": "空白編輯器中已顯示圖片檔名、編輯和移除附件按鈕。",
+      "previewVerifiedAt": "2026-11-13T05:46:07.542000+08:00",
+      "previewStatus": "VERIFIED",
+      "mediaEvidence": "原生公開貼文實拍圖卡及相片連結可見。",
+      "publicPhotoScreenshot": "docs/daily-checks/2026-11-13/public-evidence/facebook-scholarship-readback.jpg"
+    }
+  ],
+  "newFacebookPagePost": {
+    "campaign": "new-facebook-page",
+    "network": "facebook",
+    "account": "環球國際教育新聞網",
+    "pageId": "61595164194381",
+    "articleUrl": "https://globalednews.com/news/uk-settlement-reform-ukcisa-student-years/",
+    "version": "2026-11-13-v1",
+    "id": "pfbid0266xJJemwoQXoSYoSkn8w8rkUD7m643YGNqvGEtag6UCRhno4s9TXpx9ofJBsbBL5l",
+    "publicUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid0266xJJemwoQXoSYoSkn8w8rkUD7m643YGNqvGEtag6UCRhno4s9TXpx9ofJBsbBL5l&id=61595164194381",
+    "publishedAt": "2026-11-13T05:41:00+08:00",
+    "verifiedAt": "2026-11-13T05:43:19.898000+08:00",
+    "mediaVerifiedAt": "2026-11-13T05:43:19.898000+08:00",
+    "imageCount": 1,
+    "mediaStatus": "VERIFIED",
+    "status": "PUBLISHED",
+    "mediaKind": "uploaded-photo",
+    "photoAttachments": [
+      {
+        "id": "122121961641505473",
+        "url": "https://www.facebook.com/photo/?fbid=122121961641505473"
+      }
+    ],
+    "photoAttachedAt": "2026-11-13T05:40:53.204000+08:00",
+    "copyAddedAt": "2026-11-13T05:40:53.250000+08:00",
+    "photoReadyEvidence": "空白編輯器中已顯示圖片檔名、編輯和移除附件按鈕。",
+    "previewVerifiedAt": "2026-11-13T05:41:46.642000+08:00",
+    "previewStatus": "VERIFIED",
+    "mediaEvidence": "原生公開貼文實拍圖卡及相片連結可見。",
+    "publicPhotoScreenshot": "docs/daily-checks/2026-11-13/public-evidence/facebook-new-facebook-page-readback.jpg"
+  },
+  "threadsReplies": [
+    {
+      "id": "DfqC0tXk25I",
+      "part": 2,
+      "rootId": "DfqC0Eak0VS",
+      "parentId": "DfqC0Eak0VS",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfqC0tXk25I",
+      "account": "ltuossdtw",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-13T05:46:48.590000+08:00",
+      "publishedAt": "2026-11-13T05:40:41+08:00"
+    },
+    {
+      "id": "DfqC1SHEwuo",
+      "part": 3,
+      "rootId": "DfqC0Eak0VS",
+      "parentId": "DfqC0tXk25I",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfqC1SHEwuo",
+      "account": "ltuossdtw",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-13T05:46:48.590000+08:00",
+      "publishedAt": "2026-11-13T05:40:46+08:00"
+    },
+    {
+      "id": "DfqC1z7ExcS",
+      "part": 4,
+      "rootId": "DfqC0Eak0VS",
+      "parentId": "DfqC1SHEwuo",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfqC1z7ExcS",
+      "account": "ltuossdtw",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-13T05:46:48.590000+08:00",
+      "publishedAt": "2026-11-13T05:40:50+08:00"
+    },
+    {
+      "id": "DfqC2Ohkx5p",
+      "part": 5,
+      "rootId": "DfqC0Eak0VS",
+      "parentId": "DfqC1z7ExcS",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfqC2Ohkx5p",
+      "account": "ltuossdtw",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-13T05:46:48.590000+08:00",
+      "publishedAt": "2026-11-13T05:40:54+08:00"
+    }
+  ],
+  "acceptance": {
+    "desktop": true,
+    "mobile": true,
+    "seo": true,
+    "verifiedAt": "2026-11-13T06:01:01.547190+08:00",
+    "mobileCssWidth": 381,
+    "radarSearch": "Live radar search exercised and cleared, all 275 records restored.",
+    "productionSeo": [
+      "sitemap-index.xml",
+      "sitemap-0.xml",
+      "news-sitemap.xml",
+      "weekly-feed.xml"
+    ],
+    "productionUrlsChecked": 20
+  }
 }

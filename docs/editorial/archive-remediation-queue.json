@@ -1,26 +1,8 @@
 {
   "status": "pending",
   "order": "newest first, then currently consequential policies",
-  "remaining": 163,
+  "remaining": 160,
   "items": [
-    {
-      "path": "src/pages/news/hku-non-local-applications-record-2026.md",
-      "date": "2026-10-03T06:45:00+08:00",
-      "bodyCjk": 301,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/hong-kong-non-local-student-cap-50-percent-2026.md",
-      "date": "2026-10-03T06:40:00+08:00",
-      "bodyCjk": 289,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/uk-bloomsbury-institute-sponsor-licence-revoked-2026.md",
-      "date": "2026-10-03T06:35:00+08:00",
-      "bodyCjk": 276,
-      "needsEditorialReview": true
-    },
     {
       "path": "src/pages/news/new-zealand-student-visa-system-outage-october-2026.md",
       "date": "2026-10-02T07:30:00+08:00",
@@ -982,7 +964,7 @@
       "needsEditorialReview": true
     }
   ],
-  "updatedAt": "2026-11-12T05:48:49.944776+08:00",
+  "updatedAt": "2026-11-13T06:00:45.765557+08:00",
   "completedBatches": [
     {
       "date": "2026-11-07",
@@ -1055,6 +1037,18 @@
       "commit": "0f9851a44142575a69a5a6634c707701e93b8d91",
       "verifiedAt": "2026-11-12T05:48:49.944776+08:00",
       "evidence": "docs/daily-checks/2026-11-12/archive-live.json"
+    },
+    {
+      "date": "2026-11-13",
+      "count": 3,
+      "paths": [
+        "src/pages/news/hku-non-local-applications-record-2026.md",
+        "src/pages/news/hong-kong-non-local-student-cap-50-percent-2026.md",
+        "src/pages/news/uk-bloomsbury-institute-sponsor-licence-revoked-2026.md"
+      ],
+      "commit": "e04e33a2346042087fbee763c51734d6d133e2e2",
+      "verifiedAt": "2026-11-13T06:00:45.765557+08:00",
+      "evidence": "docs/daily-checks/2026-11-13/archive-live.json"
     }
   ]
 }

@@ -1227,6 +1227,36 @@
       "country": "uk",
       "schoolName": "Birmingham City University",
       "storyAngle": "campus-course-budget-planning"
+    },
+    {
+      "date": "2026-11-13",
+      "status": "published",
+      "evidence": "docs/social-posts/2026-11-13/publication-log.json",
+      "country": "Singapore",
+      "schoolName": "NUS, NTU and SMU",
+      "storyAngle": "admission routes by secondary school qualification",
+      "posts": [
+        {
+          "network": "threads",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfqBERZE6RQ",
+          "id": "DfqBERZE6RQ"
+        },
+        {
+          "network": "instagram",
+          "publicUrl": "https://www.instagram.com/ltuossdtw/p/DfqBuCzk-qr/",
+          "id": "DfqBuCzk-qr"
+        },
+        {
+          "network": "linkedin",
+          "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7526760264994672640/",
+          "id": "7526760264994672640"
+        },
+        {
+          "network": "facebook",
+          "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0veB39UsYar9cgap35nhaKogcR4SSoLMQrhsjRQM72GkWaXpQi5EEsVBYPLJvNsFfl",
+          "id": "pfbid0veB39UsYar9cgap35nhaKogcR4SSoLMQrhsjRQM72GkWaXpQi5EEsVBYPLJvNsFfl"
+        }
+      ]
     }
   ]
 }
