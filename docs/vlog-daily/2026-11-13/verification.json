@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-13",
+  "baseline": "d58da008a5c122d66976d1c1a770fd77f62bc3d8",
+  "commit": "b0b7f85c24aee0e9762a5e777386839f6e960330",
+  "deploymentRun": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/43363589880",
+  "deployment": "success",
+  "videosBefore": 141,
+  "videosAfter": 147,
+  "newVideos": 6,
+  "recommendedEntriesUnchanged": true,
+  "tests": [
+    "source Vlog147 passed",
+    "Astro611 pages built",
+    "898 bilingual pairs passed",
+    "built Vlog147 passed",
+    "diff whitespace check passed"
+  ],
+  "liveChinese": "Six daily titles and original thumbnails loaded; Bath click created original YouTube-nocookie iframe; Waseda search returned exactly one result; return home retained.",
+  "liveEnglish": "Six English daily titles and all six thumbnails loaded; return links /en/.",
+  "playerLimit": "Public and embed flags verified for all six; live iframe observed, full uninterrupted playback not independently verified.",
+  "socialPublished": 10,
+  "cloudSyncVerified": false
+}
