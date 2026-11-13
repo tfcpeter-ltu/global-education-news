@@ -1,6 +1,6 @@
 {
   "status": "ready",
-  "updatedAt": "2026-11-12T08:16:59.730Z",
+  "updatedAt": "2026-11-13T07:53:15.806Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
@@ -12,16 +12,16 @@
     {
       "title": "國際教育新聞｜全球大學、留學政策與招生動態｜環球教育新聞網",
       "path": "/news/",
-      "views": 8
+      "views": 7
+    },
+    {
+      "title": "英國擬調整長期居留制度，留學生如何看待已累積的年資？｜環球教育新聞網 Global Education News",
+      "path": "/news/uk-settlement-reform-ukcisa-student-years/",
+      "views": 6
     },
     {
       "title": "加拿大將每年15萬新留學生抵達目標延至2029年：穩定訊號與招生落差｜環球教育新聞網 Global Education News",
       "path": "/news/canada-student-arrivals-target-2029-extension/",
-      "views": 5
-    },
-    {
-      "title": "英國早申人數減少3.2%：醫學申請仍微增，不能推算全年錄取機會｜環球教育新聞網 Global Education News",
-      "path": "/news/uk-ucas-october-2027-applicant-snapshot/",
       "views": 5
     },
     {
@@ -34,32 +34,38 @@
     {
       "name": "台灣",
       "mapName": "Taiwan",
-      "sessions": 681,
-      "share": 71.9
+      "sessions": 693,
+      "share": 73.6
     },
     {
       "name": "美國",
       "mapName": "United States",
-      "sessions": 173,
-      "share": 18.3
+      "sessions": 156,
+      "share": 16.6
     },
     {
       "name": "愛爾蘭",
       "mapName": "Ireland",
-      "sessions": 19,
-      "share": 2
-    },
-    {
-      "name": "英國",
-      "mapName": "United Kingdom",
-      "sessions": 14,
-      "share": 1.5
+      "sessions": 17,
+      "share": 1.8
     },
     {
       "name": "瑞典",
       "mapName": "Sweden",
-      "sessions": 11,
-      "share": 1.2
+      "sessions": 13,
+      "share": 1.4
+    },
+    {
+      "name": "英國",
+      "mapName": "United Kingdom",
+      "sessions": 13,
+      "share": 1.4
+    },
+    {
+      "name": "中國",
+      "mapName": "China",
+      "sessions": 8,
+      "share": 0.9
     },
     {
       "name": "澳洲",
@@ -68,26 +74,20 @@
       "share": 0.6
     },
     {
-      "name": "中國",
-      "mapName": "China",
-      "sessions": 5,
-      "share": 0.5
-    },
-    {
       "name": "印度",
       "mapName": "India",
-      "sessions": 5,
-      "share": 0.5
-    },
-    {
-      "name": "新加坡",
-      "mapName": "Singapore",
-      "sessions": 5,
-      "share": 0.5
+      "sessions": 6,
+      "share": 0.6
     },
     {
       "name": "德國",
       "mapName": "Germany",
+      "sessions": 4,
+      "share": 0.4
+    },
+    {
+      "name": "新加坡",
+      "mapName": "Singapore",
       "sessions": 4,
       "share": 0.4
     }
