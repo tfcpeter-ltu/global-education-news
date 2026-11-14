@@ -1,13 +1,13 @@
 {
   "status": "ready",
-  "updatedAt": "2026-11-13T07:53:15.806Z",
+  "updatedAt": "2026-11-14T07:35:09.339Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
     {
       "title": "澳洲大學領導組織整合上路：學生代表與治理透明度成下一步｜環球教育新聞網 Global Education News",
       "path": "/news/australian-university-governance-transition-november-2026/",
-      "views": 9
+      "views": 10
     },
     {
       "title": "國際教育新聞｜全球大學、留學政策與招生動態｜環球教育新聞網",
@@ -34,20 +34,20 @@
     {
       "name": "台灣",
       "mapName": "Taiwan",
-      "sessions": 693,
-      "share": 73.6
+      "sessions": 703,
+      "share": 74.8
     },
     {
       "name": "美國",
       "mapName": "United States",
-      "sessions": 156,
-      "share": 16.6
+      "sessions": 145,
+      "share": 15.4
     },
     {
       "name": "愛爾蘭",
       "mapName": "Ireland",
-      "sessions": 17,
-      "share": 1.8
+      "sessions": 15,
+      "share": 1.6
     },
     {
       "name": "瑞典",
@@ -64,8 +64,8 @@
     {
       "name": "中國",
       "mapName": "China",
-      "sessions": 8,
-      "share": 0.9
+      "sessions": 10,
+      "share": 1.1
     },
     {
       "name": "澳洲",
