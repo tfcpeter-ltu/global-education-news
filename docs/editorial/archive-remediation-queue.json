@@ -1,26 +1,8 @@
 {
   "status": "pending",
   "order": "newest first, then currently consequential policies",
-  "remaining": 160,
+  "remaining": 157,
   "items": [
-    {
-      "path": "src/pages/news/new-zealand-student-visa-system-outage-october-2026.md",
-      "date": "2026-10-02T07:30:00+08:00",
-      "bodyCjk": 286,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/australia-student-visa-onshore-family-rules-2026.md",
-      "date": "2026-10-02T07:10:00+08:00",
-      "bodyCjk": 441,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/new-zealand-2027-student-visa-apply-three-months-early.md",
-      "date": "2026-10-01T08:30:00+08:00",
-      "bodyCjk": 301,
-      "needsEditorialReview": true
-    },
     {
       "path": "src/pages/news/philippines-eduphil-international-student-program-2026.md",
       "date": "2026-10-01T08:30:00+08:00",
@@ -1050,5 +1032,15 @@
       "verifiedAt": "2026-11-13T06:00:45.765557+08:00",
       "evidence": "docs/daily-checks/2026-11-13/archive-live.json"
     }
-  ]
+  ],
+  "lastBatch": {
+    "date": "2026-11-14",
+    "count": 3,
+    "verifiedAt": "2026-11-14T21:53:47.688166+08:00",
+    "slugs": [
+      "australia-student-visa-onshore-family-rules-2026",
+      "new-zealand-2027-student-visa-apply-three-months-early",
+      "new-zealand-student-visa-system-outage-october-2026"
+    ]
+  }
 }

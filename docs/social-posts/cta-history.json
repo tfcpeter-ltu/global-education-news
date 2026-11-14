@@ -63,6 +63,12 @@
       "status": "published",
       "evidence": "docs/social-posts/2026-11-13/publication-log.json",
       "CTA": "閱讀全文"
+    },
+    {
+      "date": "2026-11-14",
+      "status": "published",
+      "evidence": "docs/social-posts/2026-11-14/publication-log.json",
+      "CTA": "收藏這篇，需要時再核對。"
     }
   ]
 }

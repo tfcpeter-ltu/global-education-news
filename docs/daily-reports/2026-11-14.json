@@ -1,6 +1,10 @@
 {
   "date": "2026-11-14",
-  "status": "in_progress",
+  "status": "completed",
+  "currentPhase": "COMPLETED",
+  "completedAt": "2026-11-14T21:53:48.147490+08:00",
+  "deadlineMet": false,
+  "mainSha": "4389fe1120349be7f14ae7f5e866d8f2c4156bab",
   "scholarshipBaselineSlugs": [
     "2026-08-bristol-think-big",
     "2026-08-manchester-global-futures-taiwan-2027",
@@ -278,6 +282,63 @@
     "vanderbilt-ingram",
     "yale-international-aid"
   ],
+  "newsPublished": [
+    {
+      "slug": "uk-sponsored-study-applications-october-2026",
+      "title": "英國十月學生簽證主申請降至 5,800 件，準留學生怎麼看這組數字？",
+      "publishedPath": "src/pages/news/uk-sponsored-study-applications-october-2026.md",
+      "url": "https://globalednews.com/news/uk-sponsored-study-applications-october-2026/",
+      "sources": [
+        {
+          "label": "www.gov.uk",
+          "url": "https://www.gov.uk/government/statistics/monthly-entry-clearance-visa-applications-october-2026/monthly-entry-clearance-visa-applications-october-2026"
+        },
+        {
+          "label": "www.timeshighereducation.com",
+          "url": "https://www.timeshighereducation.com/news/uk-student-visa-application-numbers-fall-31-cent-october"
+        }
+      ],
+      "verifiedAt": "2026-11-14T21:53:29.658782+08:00"
+    },
+    {
+      "slug": "canada-erasmus-quebec-consultation",
+      "title": "加拿大與歐盟談擴大 Erasmus+ 參與，魁北克要求直接參與協商",
+      "publishedPath": "src/pages/news/canada-erasmus-quebec-consultation.md",
+      "url": "https://globalednews.com/news/canada-erasmus-quebec-consultation/",
+      "sources": [
+        {
+          "label": "www.consilium.europa.eu",
+          "url": "https://www.consilium.europa.eu/en/meetings/international-summit/2026/10/29-30/"
+        },
+        {
+          "label": "theconcordian.com",
+          "url": "https://theconcordian.com/2026/11/quebec-expects-consultation-on-erasmus/"
+        }
+      ],
+      "verifiedAt": "2026-11-14T21:53:29.658782+08:00"
+    },
+    {
+      "slug": "global-enrolment-survey-asia-japan-cohorts",
+      "title": "437 所大學回報秋季招生變化：比較亞洲留學選項，先分清新生和在校生",
+      "publishedPath": "src/pages/news/global-enrolment-survey-asia-japan-cohorts.md",
+      "url": "https://globalednews.com/news/global-enrolment-survey-asia-japan-cohorts/",
+      "sources": [
+        {
+          "label": "studyportals.com",
+          "url": "https://studyportals.com/news-and-insights/global-enrolment-benchmark-survey-aug-oct-2026-intake/"
+        },
+        {
+          "label": "www.studyinjapan.go.jp",
+          "url": "https://www.studyinjapan.go.jp/en/statistics/enrollment/data/2605291000.html"
+        },
+        {
+          "label": "epaper.dawn.com",
+          "url": "https://epaper.dawn.com/DetailImage.php?StoryImage=13_11_2026_011_005"
+        }
+      ],
+      "verifiedAt": "2026-11-14T21:53:29.658782+08:00"
+    }
+  ],
   "scholarshipAdditions": [
     {
       "slug": "2026-11-westminster-early-acceptance-january-2027",
@@ -299,7 +360,8 @@
       "baselineAbsent": true,
       "verifiedAt": "2026-11-14T08:04:46.535214+08:00",
       "url": "https://globalednews.com/scholarships/items/2026-11-westminster-early-acceptance-january-2027/",
-      "updateSummary": "£3,000；11/25 前繳訂金"
+      "updateSummary": "£3,000；11/25 前繳訂金",
+      "publishedVerifiedAt": "2026-11-14T21:53:29.658782+08:00"
     },
     {
       "slug": "2026-11-sheffield-hallam-recent-graduate-january-2027",
@@ -321,7 +383,8 @@
       "baselineAbsent": true,
       "verifiedAt": "2026-11-14T08:04:46.535214+08:00",
       "url": "https://globalednews.com/scholarships/items/2026-11-sheffield-hallam-recent-graduate-january-2027/",
-      "updateSummary": "指定應屆校友升讀指定課程減免 £2,000"
+      "updateSummary": "指定應屆校友升讀指定課程減免 £2,000",
+      "publishedVerifiedAt": "2026-11-14T21:53:29.658782+08:00"
     },
     {
       "slug": "2026-11-lincoln-uk-global-postgraduate-january-2027",
@@ -347,7 +410,616 @@
       "baselineAbsent": true,
       "verifiedAt": "2026-11-14T08:04:46.535214+08:00",
       "url": "https://globalednews.com/scholarships/items/2026-11-lincoln-uk-global-postgraduate-january-2027/",
-      "updateSummary": "首年學費減免 £2,000"
+      "updateSummary": "首年學費減免 £2,000",
+      "publishedVerifiedAt": "2026-11-14T21:53:29.658782+08:00"
     }
-  ]
+  ],
+  "scholarshipChecks": [
+    {
+      "slug": "2026-11-westminster-early-acceptance-january-2027",
+      "title": "西敏寺大學早鳥入學獎助：符合訂金條件減免 £3,000",
+      "publishedPath": "src/pages/scholarships/items/2026-11-westminster-early-acceptance-january-2027.md",
+      "sources": [
+        {
+          "label": "www.westminster.ac.uk",
+          "url": "https://www.westminster.ac.uk/study/fees-and-funding/scholarships/international-2027-early-acceptance-award-january-2027"
+        },
+        {
+          "label": "www.westminster.ac.uk",
+          "url": "https://www.westminster.ac.uk/study/fees-and-funding/scholarships"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "isNew": true,
+      "baselineAbsent": true,
+      "verifiedAt": "2026-11-14T08:04:46.535214+08:00",
+      "url": "https://globalednews.com/scholarships/items/2026-11-westminster-early-acceptance-january-2027/",
+      "updateSummary": "£3,000；11/25 前繳訂金",
+      "publishedVerifiedAt": "2026-11-14T21:53:29.658782+08:00"
+    },
+    {
+      "slug": "2026-11-sheffield-hallam-recent-graduate-january-2027",
+      "title": "雪菲爾哈倫大學近期畢業生續讀：指定研究所學費減 £2,000",
+      "publishedPath": "src/pages/scholarships/items/2026-11-sheffield-hallam-recent-graduate-january-2027.md",
+      "sources": [
+        {
+          "label": "www.shu.ac.uk",
+          "url": "https://www.shu.ac.uk/funding/scholarships-and-bursaries/pg-discounts-for-january-starters"
+        },
+        {
+          "label": "www.shu.ac.uk",
+          "url": "https://www.shu.ac.uk/funding/scholarships-and-bursaries/postgraduate-study-discounts-recent-graduates"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "isNew": true,
+      "baselineAbsent": true,
+      "verifiedAt": "2026-11-14T08:04:46.535214+08:00",
+      "url": "https://globalednews.com/scholarships/items/2026-11-sheffield-hallam-recent-graduate-january-2027/",
+      "updateSummary": "指定應屆校友升讀指定課程減免 £2,000",
+      "publishedVerifiedAt": "2026-11-14T21:53:29.658782+08:00"
+    },
+    {
+      "slug": "2026-11-lincoln-uk-global-postgraduate-january-2027",
+      "title": "英國林肯大學全球研究所獎學金：一月入學首年學費減 £2,000",
+      "publishedPath": "src/pages/scholarships/items/2026-11-lincoln-uk-global-postgraduate-january-2027.md",
+      "sources": [
+        {
+          "label": "www.lincoln.ac.uk",
+          "url": "https://www.lincoln.ac.uk/studywithus/scholarshipsandbursaries/globalpostgraduatescholarship/"
+        },
+        {
+          "label": "www.idp.com",
+          "url": "https://www.idp.com/scholarship/university-of-lincoln/global-postgraduate-scholarship/114738/"
+        },
+        {
+          "label": "www.lincoln.ac.uk",
+          "url": "https://www.lincoln.ac.uk/studywithus/internationalstudents/studyinjanuary/"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "isNew": true,
+      "baselineAbsent": true,
+      "verifiedAt": "2026-11-14T08:04:46.535214+08:00",
+      "url": "https://globalednews.com/scholarships/items/2026-11-lincoln-uk-global-postgraduate-january-2027/",
+      "updateSummary": "首年學費減免 £2,000",
+      "publishedVerifiedAt": "2026-11-14T21:53:29.658782+08:00"
+    }
+  ],
+  "peterImports": [
+    {
+      "slug": "princeton-graded-paper-prompt-and-feedback",
+      "url": "https://globalednews.com/peter/princeton-graded-paper-prompt-and-feedback/",
+      "sourceId": "pfbid02g9umpAgW7m7DFbN8vk6x7ifoFqvGfRbV2S9ZiQBJ5Lw11f1x4zGgzdRcJsQNvpM3l",
+      "verifiedAt": "2026-11-14T21:53:29.658782+08:00"
+    }
+  ],
+  "peterReview": {
+    "checkedAt": "2026-11-14T21:09:25.365625+08:00",
+    "status": "fewer-new-posts",
+    "availableNewCount": 1,
+    "sourceUrls": [
+      "https://www.facebook.com/permalink.php?story_fbid=pfbid02g9umpAgW7m7DFbN8vk6x7ifoFqvGfRbV2S9ZiQBJ5Lw11f1x4zGgzdRcJsQNvpM3l&id=61585164670358",
+      "https://www.facebook.com/permalink.php?story_fbid=pfbid0PqPTx6w5D86W5VhvZcpqUEFRwLT1Hk9jBUDKFJ9XUjjjQx6DTAQNUToHwFRee9Chl&id=61585164670358"
+    ],
+    "note": "Morning Princeton original is new. Evening Sweden choice-order article repeats existing sweden-masters-rank-four-choices-2027; excluded from new import count."
+  },
+  "ltuMediaReview": {
+    "checkedAt": "2026-11-14T21:09:25.365625+08:00",
+    "selectedIndices": [
+      4,
+      5,
+      10
+    ],
+    "sourceUrls": [
+      "https://www.ctee.com.tw/news/20260401701821-431204",
+      "https://www.ctee.com.tw/news/20250723702079-431204",
+      "https://udn.com/news/story/6929/8583109"
+    ],
+    "note": "Read native CTEE originals and UDN report. Historic dates retained. Rotation pool retained."
+  },
+  "campusLeads": [
+    {
+      "school": "國立陽明交通大學",
+      "url": "https://oia.nycu.edu.tw/oia/ch/app/data/view?id=286&module=nycu0006&serno=f31e8bb1-bfc0-4aa7-b6a6-ac2d26881717",
+      "note": "12/3–4 11–15時，光復校區浩然圖書館6樓交換展；11/23中午預先報名截止，未預先報名仍可到場。"
+    },
+    {
+      "school": "國立中央大學",
+      "url": "https://oia.ncu.edu.tw/p/412-1026-1872.php?Lang=zh-tw",
+      "note": "116學年度第一梯次公告及10/22更新姐妹校列表；查各校資格。"
+    },
+    {
+      "school": "國立政治大學",
+      "url": "https://oic.nccu.edu.tw/Post/16174",
+      "note": "東協交換補助公告頁重新讀取，沿用公告規則。"
+    }
+  ],
+  "radarTotal": 278,
+  "initialDeployment": {
+    "commit": "2f6f7132fd0309d9bdffc6558f520807890ccfbc",
+    "runId": 43598605278,
+    "status": "success",
+    "verifiedAt": "2026-11-14T21:14:53+08:00"
+  },
+  "deployment": {
+    "commit": "e33003976abafb7b2923bb2a04862e29fc945ae4",
+    "runId": 43601730313,
+    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/43601730313",
+    "status": "success",
+    "verifiedAt": "2026-11-14T21:53:47.760906+08:00",
+    "deployedAt": "2026-11-14T21:51:38+08:00"
+  },
+  "verification": {
+    "status": "COMPLETE",
+    "verifiedAt": "2026-11-14T21:53:48.147490+08:00",
+    "command": "node scripts/verify-daily-delivery.mjs 2026-11-14",
+    "evidence": "docs/daily-checks/2026-11-14/verify-daily-delivery.txt"
+  },
+  "archiveRemediation": {
+    "count": 3,
+    "remaining": 157,
+    "slugs": [
+      "australia-student-visa-onshore-family-rules-2026",
+      "new-zealand-2027-student-visa-apply-three-months-early",
+      "new-zealand-student-visa-system-outage-october-2026"
+    ],
+    "verifiedAt": "2026-11-14T21:53:47.760906+08:00",
+    "evidence": "docs/daily-checks/2026-11-14/archive-live.json",
+    "notes": "Original publication dates retained. November NZ postponement and Australian family-entry distinction explicitly corrected; old October maintenance is not represented as current."
+  },
+  "weeklyNewsletter": {
+    "due": false,
+    "weekday": "Monday",
+    "newScholarshipsInWeeklyFeed": 3,
+    "feed": "https://globalednews.com/weekly-feed.xml",
+    "note": "Existing weekly RSS includes today’s new awards; no new schedule or duplicate send."
+  },
+  "manualActions": [],
+  "gaps": [],
+  "socialPosts": [
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/news/uk-sponsored-study-applications-october-2026/",
+      "version": "2026-11-14-v1",
+      "id": "DfuSugII6RR",
+      "publicUrl": "https://www.instagram.com/p/DfuSugII6RR/",
+      "publishedAt": "2026-11-14T13:16:37.000Z",
+      "publishedAtBasis": "Native exact timestamp",
+      "verifiedAt": "2026-11-14T13:17:49.304Z",
+      "mediaVerifiedAt": "2026-11-14T13:17:49.304Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED",
+      "mediaEvidence": "docs/daily-checks/2026-11-14/instagram-news-readback.jpg",
+      "evidenceSha256": "346fa450ad939e4a4044832dd9af82d96f442c1fa1bb18fa3c1fabac574bef2d"
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "account": "Peter Chen",
+      "articleUrl": "https://globalednews.com/news/uk-sponsored-study-applications-october-2026/",
+      "version": "2026-11-14-v1",
+      "id": "7527358793383378944",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7527358793383378944/",
+      "publishedAtLabel": "剛剛",
+      "publishedAtBasis": "Native relative time observed at verifiedAt; not an invented exact publication timestamp",
+      "verifiedAt": "2026-11-14T13:17:49.305Z",
+      "mediaVerifiedAt": "2026-11-14T13:17:49.305Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED",
+      "mediaEvidence": "docs/daily-checks/2026-11-14/linkedin-news-readback.jpg",
+      "evidenceSha256": "710dee9545725f87ff02f04296a309731ea69005d4074fbc1407d8043610d6e4"
+    },
+    {
+      "campaign": "news",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/news/uk-sponsored-study-applications-october-2026/",
+      "version": "2026-11-14-v1",
+      "id": "DfuTL_bE24F",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfuTL_bE24F",
+      "publishedAtLabel": "幾秒前",
+      "publishedAtBasis": "Native relative time observed at verifiedAt; not an invented exact publication timestamp",
+      "verifiedAt": "2026-11-14T13:21:06.486Z",
+      "mediaVerifiedAt": "2026-11-14T13:21:06.486Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED",
+      "mediaEvidence": "docs/daily-checks/2026-11-14/threads-news-readback.png",
+      "evidenceSha256": "1c9c05813bc9d24e1d4f5cb29a0ed517e63ae9acda290cb78e5dd280d21cabae"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "version": "2026-11-14-v1",
+      "id": "DfuTooNk0dO",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfuTooNk0dO",
+      "publishedAtLabel": "約 1 分鐘前",
+      "publishedAtBasis": "Native relative time observed at verifiedAt; not an invented exact publication timestamp",
+      "verifiedAt": "2026-11-14T13:26:24.638Z",
+      "mediaVerifiedAt": "2026-11-14T13:26:24.638Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED",
+      "previewVerifiedAt": "2026-11-14T13:26:24.638Z",
+      "previewStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-11-14/threads-scholarship-readback.png",
+      "evidenceSha256": "6f647487c15d5594219b3631723948332ff922820ec0eccc38996ad0f6cf9859",
+      "nativeTopic": "獎學金"
+    },
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "articleUrl": "https://globalednews.com/news/uk-sponsored-study-applications-october-2026/",
+      "version": "2026-11-14-v1",
+      "id": "pfbid0p2xRknnacfoae285UekecfR9gzRJVcGnBe7QXD1rwB4heB53eAcaydMsSaG4LfyEl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0p2xRknnacfoae285UekecfR9gzRJVcGnBe7QXD1rwB4heB53eAcaydMsSaG4LfyEl",
+      "publishedAtLabel": "剛剛",
+      "publishedAtBasis": "Native relative time observed at verifiedAt; not an invented exact publication timestamp",
+      "verifiedAt": "2026-11-14T13:26:56.105Z",
+      "mediaVerifiedAt": "2026-11-14T13:26:56.105Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED",
+      "mediaKind": "uploaded-photo",
+      "photoAttachments": [
+        {
+          "id": "1119590074150523",
+          "url": "https://www.facebook.com/photo/?fbid=1119590074150523"
+        }
+      ],
+      "photoAttachedAt": "2026-11-14T13:25:28.364Z",
+      "copyAddedAt": "2026-11-14T13:25:28.492Z",
+      "photoReadyEvidence": "docs/daily-checks/2026-11-14/facebook-news-photo-ready.png",
+      "previewVerifiedAt": "2026-11-14T13:26:56.105Z",
+      "previewStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-11-14/facebook-news-readback.png",
+      "publicPhotoScreenshot": "docs/daily-checks/2026-11-14/facebook-news-readback.png",
+      "evidenceSha256": "c2cdc4d97eafe0cee88d2da4b267ebadd78afbdbf2b62ece5bf5831ccdc535f7"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "account": "Peter Chen",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "version": "2026-11-14-v1",
+      "id": "7527361438840094720",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7527361438840094720/",
+      "publishedAtLabel": "剛剛",
+      "publishedAtBasis": "Native relative time observed at verifiedAt; not an invented exact publication timestamp",
+      "verifiedAt": "2026-11-14T13:27:41.503Z",
+      "mediaVerifiedAt": "2026-11-14T13:27:41.503Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED",
+      "previewVerifiedAt": "2026-11-14T13:27:41.503Z",
+      "previewStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-11-14/linkedin-scholarship-readback.png",
+      "evidenceSha256": "3b2e172413eda55120c992ee33008b5645acedb4a21d11753a213b27161bdb8a"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/study-abroad/articles/us-essay-recommendations.html",
+      "version": "2026-11-14-v1",
+      "id": "DfuT93Ak8yo",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfuT93Ak8yo",
+      "publishedAtLabel": "幾秒前",
+      "publishedAtBasis": "Native relative time observed at verifiedAt; not an invented exact publication timestamp",
+      "verifiedAt": "2026-11-14T13:28:33.897Z",
+      "mediaVerifiedAt": "2026-11-14T13:28:33.897Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED",
+      "previewVerifiedAt": "2026-11-14T13:28:33.897Z",
+      "previewStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-11-14/threads-study-abroad-readback.png",
+      "evidenceSha256": "3218914c7a81fd618461a46e044ec9e82c4afa8902f676876ddaf7c69e8a40b4"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "account": "Peter Chen",
+      "articleUrl": "https://globalednews.com/study-abroad/articles/us-essay-recommendations.html",
+      "version": "2026-11-14-v1",
+      "id": "7527362125594411008",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7527362125594411008/",
+      "publishedAtLabel": "剛剛",
+      "publishedAtBasis": "Native relative time observed at verifiedAt; not an invented exact publication timestamp",
+      "verifiedAt": "2026-11-14T13:30:19.898Z",
+      "mediaVerifiedAt": "2026-11-14T13:30:19.898Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED",
+      "previewVerifiedAt": "2026-11-14T13:30:19.898Z",
+      "previewStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-11-14/linkedin-study-abroad-readback.png",
+      "evidenceSha256": "4f1525f9980dc555833d8329f3922fd2248c281f739fe219c1ac4525c0531da8"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "version": "2026-11-14-v1",
+      "id": "pfbid0EYmHPnDiL6HFhU654A8cSi2ZSsV5srDYwaVrTTYfCnfQ87xGaSqLswJjeCLSEbfCl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0EYmHPnDiL6HFhU654A8cSi2ZSsV5srDYwaVrTTYfCnfQ87xGaSqLswJjeCLSEbfCl",
+      "publishedAtLabel": "剛剛",
+      "publishedAtBasis": "Native relative time observed at verifiedAt; not an invented exact publication timestamp",
+      "verifiedAt": "2026-11-14T13:30:42.359Z",
+      "mediaVerifiedAt": "2026-11-14T13:30:42.359Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED",
+      "mediaKind": "uploaded-photo",
+      "photoAttachments": [
+        {
+          "id": "1119592344150296",
+          "url": "https://www.facebook.com/photo/?fbid=1119592344150296"
+        }
+      ],
+      "photoAttachedAt": "2026-11-14T13:28:05.172Z",
+      "copyAddedAt": "2026-11-14T13:28:05.279Z",
+      "photoReadyEvidence": "docs/daily-checks/2026-11-14/facebook-scholarship-photo-ready.png",
+      "previewVerifiedAt": "2026-11-14T13:30:42.359Z",
+      "previewStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-11-14/facebook-scholarship-readback.png",
+      "publicPhotoScreenshot": "docs/daily-checks/2026-11-14/facebook-scholarship-readback.png",
+      "evidenceSha256": "0a11c775df58b16ff2d0ab17eb00baacd8aa63a6305b13c6e809f939ab628443"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "version": "2026-11-14-v1",
+      "id": "DfuUJ5VE28D",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfuUJ5VE28D",
+      "publishedAtLabel": "約 1 分鐘前",
+      "publishedAtBasis": "Native relative time observed at verifiedAt; not an invented exact publication timestamp",
+      "verifiedAt": "2026-11-14T13:30:43.768Z",
+      "mediaVerifiedAt": "2026-11-14T13:30:43.768Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED",
+      "previewVerifiedAt": "2026-11-14T13:30:43.768Z",
+      "previewStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-11-14/threads-taiwan-universities-readback.png",
+      "evidenceSha256": "f3687b29e4d3972048ee08f49c40bd322487e13ff5499405292b1ba5be3895ef"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "account": "Peter Chen",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "version": "2026-11-14-v1",
+      "id": "7527362613668761600",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7527362613668761600/",
+      "publishedAtLabel": "剛剛",
+      "publishedAtBasis": "Native relative time observed at verifiedAt; not an invented exact publication timestamp",
+      "verifiedAt": "2026-11-14T13:32:24.233Z",
+      "mediaVerifiedAt": "2026-11-14T13:32:24.233Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED",
+      "previewVerifiedAt": "2026-11-14T13:32:24.233Z",
+      "previewStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-11-14/linkedin-taiwan-universities-readback.png",
+      "evidenceSha256": "93c17335bf1b96f64a48ee2f6934bcd3901ec8970e4f29fa0657398a64572b9f"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "version": "2026-11-14-v1",
+      "id": "DfuUTOrIzS8",
+      "publicUrl": "https://www.instagram.com/p/DfuUTOrIzS8/",
+      "publishedAt": "2026-11-14T13:30:22.000Z",
+      "publishedAtBasis": "Native exact timestamp",
+      "verifiedAt": "2026-11-14T13:32:41.873Z",
+      "mediaVerifiedAt": "2026-11-14T13:32:41.873Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED",
+      "previewVerifiedAt": "2026-11-14T13:32:41.873Z",
+      "previewStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-11-14/instagram-scholarship-readback.png",
+      "evidenceSha256": "5f6c107e11503c31a0f43558c95434e3fd341fb6f5c917f9dfe5d62c2c451b34"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "articleUrl": "https://globalednews.com/study-abroad/articles/us-essay-recommendations.html",
+      "version": "2026-11-14-v1",
+      "id": "pfbid0YJcdohjM1oLhsyM4nrPZxiVDYEBNWLmg3EVKvNUR5Z4wGu1a4Yg1ZtkpT5iNtrktl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0YJcdohjM1oLhsyM4nrPZxiVDYEBNWLmg3EVKvNUR5Z4wGu1a4Yg1ZtkpT5iNtrktl",
+      "publishedAtLabel": "剛剛",
+      "publishedAtBasis": "Native relative time observed at verifiedAt; not an invented exact publication timestamp",
+      "verifiedAt": "2026-11-14T13:33:04.247Z",
+      "mediaVerifiedAt": "2026-11-14T13:33:04.247Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED",
+      "mediaKind": "uploaded-photo",
+      "photoAttachments": [
+        {
+          "id": "1119595144150016",
+          "url": "https://www.facebook.com/photo/?fbid=1119595144150016"
+        }
+      ],
+      "photoAttachedAt": "2026-11-14T13:31:33.140Z",
+      "copyAddedAt": "2026-11-14T13:31:33.241Z",
+      "photoReadyEvidence": "docs/daily-checks/2026-11-14/facebook-study-abroad-photo-ready.png",
+      "previewVerifiedAt": "2026-11-14T13:33:04.247Z",
+      "previewStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-11-14/facebook-study-abroad-readback.png",
+      "publicPhotoScreenshot": "docs/daily-checks/2026-11-14/facebook-study-abroad-readback.png",
+      "evidenceSha256": "838d251662355e71e07f0f716be406df45789b39df157e7d5e47e9292470746d"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/study-abroad/articles/us-essay-recommendations.html",
+      "version": "2026-11-14-v1",
+      "id": "DfuUrXrI8gc",
+      "publicUrl": "https://www.instagram.com/p/DfuUrXrI8gc/",
+      "publishedAt": "2026-11-14T13:33:40.000Z",
+      "publishedAtBasis": "Native exact timestamp",
+      "verifiedAt": "2026-11-14T13:34:21.379Z",
+      "mediaVerifiedAt": "2026-11-14T13:34:21.379Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED",
+      "previewVerifiedAt": "2026-11-14T13:34:21.379Z",
+      "previewStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-11-14/instagram-study-abroad-readback.png",
+      "evidenceSha256": "4af107dcd49b3e844e4e3dc2f83f884877ed1df6582a8c5e49dda0451ae24e03"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "version": "2026-11-14-v1",
+      "id": "DfuU6v0I3rW",
+      "publicUrl": "https://www.instagram.com/p/DfuU6v0I3rW/",
+      "publishedAt": "2026-11-14T13:35:46.000Z",
+      "publishedAtBasis": "Native exact timestamp",
+      "verifiedAt": "2026-11-14T13:39:06.469Z",
+      "mediaVerifiedAt": "2026-11-14T13:39:06.469Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "status": "PUBLISHED",
+      "previewVerifiedAt": "2026-11-14T13:39:06.469Z",
+      "previewStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-11-14/instagram-taiwan-universities-readback.png",
+      "evidenceSha256": "1337411550d60e2fdba6f7513a51b2eb42e085919b00126cebd7f1b7eadaa246"
+    }
+  ],
+  "newFacebookPagePost": {
+    "campaign": "new-facebook-page",
+    "network": "facebook",
+    "account": "環球國際教育新聞網",
+    "pageId": "61595164194381",
+    "articleUrl": "https://globalednews.com/news/uk-sponsored-study-applications-october-2026/",
+    "version": "2026-11-14-v1",
+    "id": "122122697793505473",
+    "publicUrl": "https://www.facebook.com/photo/?fbid=122122697277505473",
+    "publishedAtLabel": "剛剛",
+    "publishedAtBasis": "Native relative time observed at verifiedAt; not an invented exact publication timestamp",
+    "verifiedAt": "2026-11-14T13:23:28.895Z",
+    "mediaVerifiedAt": "2026-11-14T13:23:28.895Z",
+    "imageCount": 1,
+    "mediaStatus": "VERIFIED",
+    "status": "PUBLISHED",
+    "mediaKind": "uploaded-photo",
+    "photoAttachments": [
+      {
+        "id": "122122697277505473",
+        "url": "https://www.facebook.com/photo/?fbid=122122697277505473"
+      }
+    ],
+    "photoAttachedAt": "2026-11-14T13:22:00.947Z",
+    "copyAddedAt": "2026-11-14T13:22:01.059Z",
+    "photoReadyEvidence": "docs/daily-checks/2026-11-14/new-facebook-photo-ready.png",
+    "previewVerifiedAt": "2026-11-14T13:23:28.895Z",
+    "previewStatus": "VERIFIED",
+    "mediaEvidence": "docs/daily-checks/2026-11-14/new-facebook-readback.png",
+    "publicPhotoScreenshot": "docs/daily-checks/2026-11-14/new-facebook-readback.png",
+    "evidenceSha256": "b48ef619f87777666bc038ea5a572ee57893e042155039b6d234f2bf6a720f4c"
+  },
+  "threadsReplies": [
+    {
+      "id": "DfuTpT6k_sn",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfuTpT6k_sn",
+      "parentId": "DfuTooNk0dO",
+      "rootId": "DfuTooNk0dO",
+      "sequence": 1,
+      "campaign": "scholarship",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "text": "11/14 新增｜英國碩士學費可減 £3,000\n西敏寺大學 2027 年 1 月英國校區全日制授課碩士：自費、海外學費身分，須於 11/25 英國時間午夜前接受錄取並繳 £5,500 訂金。符合條件自動評估，不能與指定卓越獎學金併用。\nhttps://globalednews.com/scholarships/items/2026-11-westminster-early-acceptance-january-2027/",
+      "status": "PUBLISHED",
+      "publishedAtLabel": "約 1 分鐘前",
+      "verifiedAt": "2026-11-14T13:26:56.107Z"
+    },
+    {
+      "id": "DfuTp3rE6ix",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfuTp3rE6ix",
+      "parentId": "DfuTpT6k_sn",
+      "rootId": "DfuTooNk0dO",
+      "sequence": 2,
+      "campaign": "scholarship",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "text": "11/14 新增｜近期畢業生續讀，學費可減 £2,000\n雪菲爾哈倫大學指定研究所課程，最近梯次為 2027 年 1 月。限 2024/25 或 2025/26 取得該校或認可合作學位者，台灣籍符合者也可申請；不含僅交換經歷，期限依課程。\nhttps://globalednews.com/scholarships/items/2026-11-sheffield-hallam-recent-graduate-january-2027/",
+      "status": "PUBLISHED",
+      "publishedAtLabel": "約 1 分鐘前",
+      "verifiedAt": "2026-11-14T13:26:56.107Z"
+    },
+    {
+      "id": "DfuTqXFE5wo",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfuTqXFE5wo",
+      "parentId": "DfuTp3rE6ix",
+      "rootId": "DfuTooNk0dO",
+      "sequence": 3,
+      "campaign": "scholarship",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "text": "11/14 新增｜英國研究所首年學費可減 £2,000\n林肯大學 2027 年 1 月全日制授課型研究所，海外學費身分且符合入學要求的台灣學生可列入；隨錄取自動評估，無獨立獎學金申請，依課程時程準備。\nhttps://globalednews.com/scholarships/items/2026-11-lincoln-uk-global-postgraduate-january-2027/",
+      "status": "PUBLISHED",
+      "publishedAtLabel": "約 1 分鐘前",
+      "verifiedAt": "2026-11-14T13:26:56.107Z"
+    },
+    {
+      "id": "DfuTq87E8eu",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfuTq87E8eu",
+      "parentId": "DfuTqXFE5wo",
+      "rootId": "DfuTooNk0dO",
+      "sequence": 4,
+      "campaign": "scholarship",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "text": "最新環球教育新聞｜加拿大與歐盟討論擴大 Erasmus+ 參與，魁北克要求直接參與協商。現階段是協商方向，還不是台灣學生能直接申請的新名額。\nhttps://globalednews.com/news/canada-erasmus-quebec-consultation/\n\n追蹤環球教育新聞，免費加入會員，每週收到最新國際教育新聞、新增獎學金摘要及詳情連結。\nhttps://globalednews.com/newsletter/",
+      "status": "PUBLISHED",
+      "publishedAtLabel": "約 1 分鐘前",
+      "verifiedAt": "2026-11-14T13:26:56.107Z"
+    }
+  ],
+  "acceptance": {
+    "desktop": true,
+    "mobile": true,
+    "seo": true,
+    "verifiedAt": "2026-11-14T21:53:47.760906+08:00",
+    "mobileCssWidth": 360,
+    "radarSearch": {
+      "enter": "西敏寺 => 1",
+      "combination": "英國+碩士+開放中 => 1",
+      "zero": "不存在測試獎項XYZ => 0 with recovery message",
+      "clear": "278",
+      "loadMoreAdded": 24
+    },
+    "productionSeo": [
+      "sitemap-index.xml",
+      "sitemap-0.xml",
+      "news-sitemap.xml",
+      "weekly-feed.xml"
+    ],
+    "productionUrlsChecked": 20,
+    "evidence": "docs/daily-checks/2026-11-14/browser-acceptance.json"
+  }
 }

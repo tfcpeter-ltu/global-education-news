@@ -743,6 +743,30 @@
           "id": "7526760451532120064"
         }
       ]
+    },
+    {
+      "date": "2026-11-14",
+      "status": "published",
+      "evidence": "docs/social-posts/2026-11-14/publication-log.json",
+      "schoolName": "國立陽明交通大學",
+      "topic": "12/3–4 exchange fair and November 23 registration",
+      "posts": [
+        {
+          "network": "threads",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfuUJ5VE28D",
+          "id": "DfuUJ5VE28D"
+        },
+        {
+          "network": "linkedin",
+          "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7527362613668761600/",
+          "id": "7527362613668761600"
+        },
+        {
+          "network": "instagram",
+          "publicUrl": "https://www.instagram.com/p/DfuU6v0I3rW/",
+          "id": "DfuU6v0I3rW"
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "verifiedAt": "2026-11-14T13:52:03.109Z",
+  "desktop": true,
+  "mobile": true,
+  "mobileCssWidth": 360,
+  "desktopCssWidth": 2077,
+  "search": {
+    "enter": "西敏寺 => 1",
+    "combination": "英國+碩士+開放中 => 1",
+    "zero": "不存在測試獎項XYZ => 0 with recovery message",
+    "clear": "278",
+    "loadMoreAdded": 24
+  },
+  "metrics": {
+    "result": "THE SCHOLARSHIP ARCHIVE\n探索全部獎學金\n\nScholarships · Fellowships · Research Funding · International Mobility\n\n278\n個符合條件的機會\n🇬🇧\n英國\n開放中\n英國林肯大",
+    "scrollWidth": 360,
+    "width": 360
+  },
+  "evidence": [
+    "live-desktop-home.jpg",
+    "live-mobile-home.jpg",
+    "live-mobile-news.jpg",
+    "radar-mobile-search.jpg",
+    "radar-desktop-search.png"
+  ]
+}

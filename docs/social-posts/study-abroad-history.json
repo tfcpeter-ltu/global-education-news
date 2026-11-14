@@ -1257,6 +1257,36 @@
           "id": "pfbid0veB39UsYar9cgap35nhaKogcR4SSoLMQrhsjRQM72GkWaXpQi5EEsVBYPLJvNsFfl"
         }
       ]
+    },
+    {
+      "date": "2026-11-14",
+      "status": "published",
+      "evidence": "docs/social-posts/2026-11-14/publication-log.json",
+      "country": "United States",
+      "schoolName": "Princeton University",
+      "storyAngle": "Preserving classroom writing prompts, feedback and evidence for application essays",
+      "posts": [
+        {
+          "network": "threads",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfuT93Ak8yo",
+          "id": "DfuT93Ak8yo"
+        },
+        {
+          "network": "linkedin",
+          "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7527362125594411008/",
+          "id": "7527362125594411008"
+        },
+        {
+          "network": "facebook",
+          "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0YJcdohjM1oLhsyM4nrPZxiVDYEBNWLmg3EVKvNUR5Z4wGu1a4Yg1ZtkpT5iNtrktl",
+          "id": "pfbid0YJcdohjM1oLhsyM4nrPZxiVDYEBNWLmg3EVKvNUR5Z4wGu1a4Yg1ZtkpT5iNtrktl"
+        },
+        {
+          "network": "instagram",
+          "publicUrl": "https://www.instagram.com/p/DfuUrXrI8gc/",
+          "id": "DfuUrXrI8gc"
+        }
+      ]
     }
   ]
 }
