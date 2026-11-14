@@ -1,7 +1,7 @@
 ---
 layout: '../../layouts/ArticleLayout.astro'
-title: '紐西蘭學生簽證系統10月4日停機12小時：送件與補件應避開維護時段'
-description: '紐西蘭移民局預告2026年10月4日08:00至20:00（紐西蘭夏令時間）系統維護，期間無法開始或繼續國際學生簽證申請。'
+title: "紐西蘭簽證系統維護更新：11月22日學生申請暫停，原11月16日改版延後"
+description: "紐西蘭移民局因全球微軟故障延後系統改版。11月22日08:00至23:59紐西蘭夏令時間，多類申請包含國際學生簽證將暫停操作；本篇保留原刊日期並更新最新時程。"
 date: 2026-10-02T07:30:00+08:00
 author: 'LTU Global Education News 編輯部'
 category: '紐西蘭留學政策'
@@ -11,23 +11,28 @@ image: 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Beehive,_Wellin
 imageAlt: '紐西蘭威靈頓國會行政大樓資料照'
 imageCredit: 'Wikimedia Commons 授權資料照'
 imageSource: 'https://commons.wikimedia.org/wiki/File:Beehive,_Wellington,_New_Zealand_(97).JPG'
-sources:
-  - label: 'Immigration New Zealand｜Planned upgrades for 2026'
-    url: 'https://www.immigration.govt.nz/process-to-apply/applying-for-a-visa/applying-online/planned-upgrades/'
-  - label: 'Education New Zealand｜Student Visa Update: Apply early with our new online forms'
-    url: 'https://www.enz.govt.nz/home/SearchForm?Search=student+visa+update'
+updated: "2026-11-14T21:44:58+08:00"
+sources: [{"label": "Immigration New Zealand｜Planned upgrades for 2026", "url": "https://www.immigration.govt.nz/process-to-apply/applying-for-a-visa/applying-online/planned-upgrades/"}, {"label": "Associated Press｜Microsoft says services fully restored after global outage", "url": "https://apnews.com/article/microsoft-outage-outlook-email-365-recover-ca395c0f1e51af784b6d70afb6554f6a"}, {"label": "Immigration New Zealand｜Impact of Microsoft outage（11月14日更新）", "url": "https://www.immigration.govt.nz/about-us/news-centre/impact-of-microsoft-outage/"}, {"label": "Immigration New Zealand｜Student visa wait times", "url": "https://www.immigration.govt.nz/process-to-apply/waiting-for-a-visa/processing-a-visa-application/how-long-it-takes-to-process-an-application/student-visa-wait-times/"}]
 ---
-紐西蘭移民局公告，線上簽證系統將在 **2026 年 10 月 4 日星期日 08:00 至 20:00（NZDT）**進行升級。這 12 小時內，申請人無法開始或繼續多類線上申請，其中包含 International Student visas。
 
-## 台灣時間如何換算？
+準備紐西蘭留學的學生，接下來要避開的是十一月二十二日的線上系統維護。移民局最新公告列出當天上午八時至晚間十一時五十九分，國際學生簽證等申請無法開始或繼續操作。這是紐西蘭夏令時間；換成台灣時間為同日凌晨三時至晚間六時五十九分，不能直接照著當地鐘點安排送件。
 
-紐西蘭夏令時間比台灣快 5 小時，因此本次停機約為台灣時間 **10 月 4 日 03:00 至 15:00**。正在填寫學生簽證、上傳文件或準備付款者，應避開這段期間，並在停機前確認資料已保存。
+本頁最初刊於十月二日，當時提醒十月初的維護。編輯部十一月十四日重查時，原來的動態公告已改為十一月時程，無法以現行頁面再確認十月那次停機的實際完成狀況。因此本次明確更新標題與本文，不把過期時段當作下一次維護，也不據此聲稱先前申請曾遺失或受損。
 
-## 哪些申請受影響？
+這次改期另有清楚原因。移民局十一月十三日發布、十四日更新的說明指出，全球微軟故障影響原訂十六日的系統變更，相關部署順延一週至二十三日。公告同時說明系統已恢復，民眾可以再使用新版線上平台及申請電子旅行授權；恢復服務和下一輪計畫維護是兩件不同的事。
 
-官方清單除國際學生簽證外，也包含多數訪客簽證、認可雇主工作簽證及部分居留簽證表單。公告用語是無法「開始或繼續」申請，因此不宜把截止前最後送件安排在維護時段附近。
+美聯社對全球故障的獨立採訪記錄了政府、企業與民眾受到影響，並報導微軟表示服務已恢復。這份報導可交叉確認故障的國際背景，卻沒有替紐西蘭個別簽證案件作出結論。本文的申請入口與維護時段仍以移民局為準，不能把全球供應商的恢復聲明等同每件待審案件已經結案。
 
-## 對準備2027入學者的提醒
+二十二日的清單不只涵蓋學生，也包括多數訪客、認可雇主工作簽證及部分居留申請，以及工作者或學生的伴侶、子女簽證。家庭若同時處理不同類別，不能只查看主申請人的頁面。另一方面，停機公告說的是無法操作表單，沒有宣布所有案件的法律期限一律延長。
 
-Education New Zealand 先前已提醒，學生簽證高峰通常落在 10 月至隔年 3 月，並建議至少在預計出發前三個月申請。系統停機本身不等於申請期限延長；若學校有 CAS、學費、住宿或註冊的個別期限，仍須分別確認。
+另一個維護窗口在二十三日上午六時至八時，清單包含團體訪客、部分工作與家屬簽證。官方文字另寫期間會有三十分鐘無法操作，沒有指定那三十分鐘的起點。台灣讀者可把同日凌晨一時至三時視為需預留的窗口，避免自行猜測只有哪半小時不能使用，亦不能將整段兩小時寫成確定全面停機。
 
+對台灣家庭而言，這項變動最直接影響文件與送件的安排，不是學校錄取條件。編輯部建議先核對自己的簽證類別、補件通知與開學日期，再決定何時完成上傳及付款。保留系統收件確認，能區分已正式送出與只儲存草稿；若畫面結果不明，先查帳戶紀錄，不應把重複付款當成確認申請的辦法。
+
+移民局的等候時間頁面另提醒，表列數字來自過去四週的已處理案件，每週更新；所謂多數完成是八成案件，並非每位學生的承諾。維護結束後能登入，和審查排程已追上進度不能畫上等號。個案仍可能因文件核實而需要較長時間，學校住宿與機票安排也不會因系統恢復自動順延。
+
+接下來值得追蹤的是二十二日至二十三日公告有無再調整，以及二十三日各項功能是否如期啟用。本文不推估故障增加了多少拒簽、損失或等待天數，因現有資料沒有這些證據。已收到個別補件期限者，應以該通知與官方回覆處理；規劃明年入學者則須把系統維護、簽證審查及學校註冊三條時程分開管理。
+
+## 資料與報導方法
+
+編輯部於2026年11月14日依所列公開資料實質重寫，保留2026-10-02原發布日期，更新時程及更正原短文不完整說明。未進行個案採訪，官方規則、外部觀點與編輯分析分別標明。
