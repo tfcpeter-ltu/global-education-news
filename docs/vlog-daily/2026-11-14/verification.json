@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-14",
+  "baseline": "4389fe1120349be7f14ae7f5e866d8f2c4156bab",
+  "commit": "7d6b32c5e8fa8a620b8c00439d7d5b9b87c0327b",
+  "deploymentRun": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/43554857674",
+  "deployment": "success",
+  "videosBefore": 147,
+  "videosAfter": 153,
+  "newVideos": 6,
+  "recommendedEntriesUnchanged": true,
+  "tests": [
+    "Source and built Vlog checks passed:153 videos",
+    "Astro build611 pages",
+    "Bilingual898 pairs passed",
+    "Whitespace checks passed"
+  ],
+  "liveChinese": "Today six titles, six thumbnails loaded; Glasgow selection created original youtube-nocookie iframe; Dublin search exactly one result; return-home retained.",
+  "liveEnglish": "All six translated titles and six thumbnails loaded in Today selections; English return-home link retained.",
+  "playerLimit": "Public and embedding flags checked. Live iframe creation verified; continuous playback not asserted.",
+  "socialPublished": 10,
+  "cloudSyncVerified": false,
+  "notes": [
+    "Shortened English-date fragment manually translated; offline bilingual checks passed with zero missing strings after repair.",
+    "Initial git push referenced old local main; rejected without changing remote, then exact HEAD fast-forward push succeeded.",
+    "Screenshot timeout while saving optional live page; all ten social proof files saved. No duplicate social retries."
+  ]
+}
