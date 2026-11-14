@@ -583,5 +583,44 @@
     "independentSource": "https://www.birketts.co.uk/legal-update/bloomsbury-institute-sponsor-licence-revocation/",
     "reviewedAt": "2026-11-13T05:51:00+08:00",
     "bodySha256": "e314a5f6321500e9d7354b4c9ce50ba5066d711107a7bac79df8dd47ff426257"
+  },
+  "uk-sponsored-study-applications-october-2026": {
+    "reviewedAt": "2026-11-14T21:05:21.934503+08:00",
+    "bodySha256": "bb54485f108681b415a3bb88361badd9fb85801f133a0b3ce90ca760f8b5e22b",
+    "primarySource": "https://www.gov.uk/government/statistics/monthly-entry-clearance-visa-applications-october-2026/monthly-entry-clearance-visa-applications-october-2026",
+    "independentSource": "https://www.timeshighereducation.com/news/uk-student-visa-application-numbers-fall-31-cent-october",
+    "independence": "官方為暫定申請量；THE 另訪 Russell Group。不可寫成核發量或錄取率。",
+    "newsValue": "Provisional Home Office figures released on 12 November put sponsored study main applications at around 5,800 in October 2026, compared with around 8,400 a year earlier.",
+    "background": "For families planning UK study, the count starts when a person submits a visa application. University admission, visa decisions and registration occur at different stages.",
+    "development": "October applications fell by about 31%. Across November 2025 to October 2026, main applications totalled around 349,900, down 20% year on year.",
+    "perspectives": "Times Higher Education separately interviewed a Russell Group policy manager who described continued volatility alongside demand for research-intensive universities. The headline series does not distinguish individual courses.",
+    "taiwanImpact": "Taiwanese families can line up deposit and housing cancellation terms with their visa timeline. National application volumes cannot predict an individual's visa outcome.",
+    "uncertainty": "The monthly figures are provisional. Visa outcomes are reported separately in quarterly statistics, and one month's applications do not establish future university capacity."
+  },
+  "canada-erasmus-quebec-consultation": {
+    "reviewedAt": "2026-11-14T21:05:21.942503+08:00",
+    "bodySha256": "1c2f16394fc2fda382f86af2c3195734c5605d62dbc16b206d86fe63c6c33909",
+    "primarySource": "https://www.consilium.europa.eu/en/meetings/international-summit/2026/10/29-30/",
+    "independentSource": "https://theconcordian.com/2026/11/quebec-expects-consultation-on-erasmus/",
+    "independence": "10月29–30日峰會與11月10日校媒對省高教部的獨立採訪；談判不代表開放申請。",
+    "newsValue": "Taiwanese students at Canadian universities interested in European exchange can start with places currently offered by their home institution. The proposed expansion has no announced student application date.",
+    "background": "At the Montreal summit on 29–30 October, Canada and the EU agreed to launch negotiations on deeper Canadian participation in Erasmus+ and discuss skills and research mobility.",
+    "development": "Erasmus+ supports education and training exchanges. A student's access in a particular semester depends on institutional agreements, nominations and places.",
+    "perspectives": "The summit sets the direction and the provincial response identifies terms still to be discussed. Neither document lists new host institutions that students can select.",
+    "taiwanImpact": "Taiwanese students studying in Canada can ask whether a preliminary syllabus review is possible and what evidence they will need for credit transfer.",
+    "uncertainty": "The documents establish a commitment to negotiations and Quebec's request for consultation. Eligibility, funding and start terms await formal programme and institutional announcements."
+  },
+  "global-enrolment-survey-asia-japan-cohorts": {
+    "reviewedAt": "2026-11-14T21:05:21.945503+08:00",
+    "bodySha256": "71ea184369a8ffc031797c8e2f7c73afde06c76636e6720da030440f93b92051",
+    "primarySource": "https://studyportals.com/news-and-insights/global-enrolment-benchmark-survey-aug-oct-2026-intake/",
+    "independentSource": "https://www.studyinjapan.go.jp/en/statistics/enrollment/data/2605291000.html",
+    "independence": "JASSO 自行普查日本在籍學生；與跨國大學自陳當期新生方向不同。分別報導、不同期間，不能換算。",
+    "newsValue": "A survey released on 12 November covers August–October international intakes at 437 institutions across 63 countries. Its unit of comparison matters for students weighing Asian and English-speaking destinations.",
+    "background": "Studyportals, NAFSA and Oxford Test of English gathered responses from institutions of different sizes. The share reporting growth is distinct from the rate of growth in student numbers.",
+    "development": "Among 264 respondents in the US, UK, Canada and Australia, 62% reported declines. Of 173 elsewhere, 43% reported growth. The second group includes institutions outside Asia.",
+    "perspectives": "Undergraduates accounted for 92,442 and graduate students for 60,013. The overall total covers a broader population than prospective degree applicants often have in mind.",
+    "taiwanImpact": "Taiwanese applicants can check teaching language, recognised qualifications and subject requirements before comparing statistics for the same degree and intake.",
+    "uncertainty": "Institutional responses do not track individual students moving between countries. Programme admissions and capacity data are needed to judge competitiveness."
   }
 }

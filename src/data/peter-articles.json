@@ -1,5 +1,45 @@
 [
   {
+    "slug": "princeton-graded-paper-prompt-and-feedback",
+    "title": "申請普林斯頓，哪一份課堂作業最能說明你的思考？",
+    "excerpt": "Peter 建議先遮住分數，讀一次老師出的題目，再看文章是否真的用證據回答了問題。",
+    "description": "Peter 建議先遮住分數，讀一次老師出的題目，再看文章是否真的用證據回答了問題。",
+    "body": [
+      "普林斯頓請申請者提交經教師評分的寫作作業。Peter 在專欄中用一個假設情境說明選擇：一份是成績優異的旅行回憶，另一份分數稍低，但比較了兩家報紙報導同一場罷工時選擇的引文與觀點。後者讓讀者看見作者如何形成判斷，老師留在頁邊的追問也保留了課堂討論的脈絡。",
+      "校方要求附上完整作業、原題、成績與已有的教師評語。若有評分規準，也可一併檢附。學生可以打開作業平台下載老師發還的版本，再開一次檔案，確認批註沒有在匯出時消失。",
+      "台灣學生若曾寫過中文歷史報告，即使內容很完整，也要留意校方對原始寫作語言的要求。Peter 建議回頭找英文課的分析短論或申論作業。家長可以協助確認檔案是否齊全，再請孩子說明哪一段最能讓陌生讀者看懂推理過程。"
+    ],
+    "category": "留學準備",
+    "country": "美國",
+    "author": "Peter",
+    "topic": "課堂寫作樣本",
+    "imageAlt": "普林斯頓大學 Nassau Hall",
+    "date": "2026-11-14",
+    "originalDate": "2026-11-13",
+    "originalDateLabel": "22小時前",
+    "originalDatePrecision": "relative",
+    "dateObservedAt": "2026-11-14",
+    "importedAt": "2026-11-14",
+    "edition": "verified-edit",
+    "sourceId": "pfbid02g9umpAgW7m7DFbN8vk6x7ifoFqvGfRbV2S9ZiQBJ5Lw11f1x4zGgzdRcJsQNvpM3l",
+    "sourceUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid02g9umpAgW7m7DFbN8vk6x7ifoFqvGfRbV2S9ZiQBJ5Lw11f1x4zGgzdRcJsQNvpM3l&id=61585164670358",
+    "sources": [
+      [
+        "Peter — original post",
+        "https://www.facebook.com/permalink.php?story_fbid=pfbid02g9umpAgW7m7DFbN8vk6x7ifoFqvGfRbV2S9ZiQBJ5Lw11f1x4zGgzdRcJsQNvpM3l&id=61585164670358"
+      ],
+      [
+        "Princeton Admission — graded written paper",
+        "https://admission.princeton.edu/apply/graded-written-paper"
+      ]
+    ],
+    "image": "/images/daily/2026-11-14/peter.jpg",
+    "imageCredit": "Smallbones / CC0",
+    "imageLicense": "CC0",
+    "imageRights": "CC0",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Nassau_Hall_Princeton.JPG"
+  },
+  {
     "slug": "singapore-exchange-backup-study-plan",
     "title": "新加坡交換怎麼排備選課？先問回台後能抵哪一門",
     "date": "2026-11-13",
