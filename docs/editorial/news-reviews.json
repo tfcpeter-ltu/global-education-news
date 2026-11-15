@@ -661,5 +661,44 @@
     "independentSource": "https://www.auckland.ac.nz/assets/on-campus/student-support/personal-support/international-students/Pre-departure-and-arrival/Applying%20for%20your%20visa%20as%20a%20new%20student%20June%202026.pdf",
     "reviewedAt": "2026-11-14T21:44:58+08:00",
     "bodySha256": "99e5bd35b5445931145b897f8df1565c9285483a62d18db625266df53aa9e023"
+  },
+  "idp-blackstone-revised-proposal-november-2026": {
+    "newsValue": "A newly revised third proposal changes the earlier rejected-bid story and matters to users of international placement and IELTS services.",
+    "background": "Explains the prior 2.30 and 2.50 Australian dollar proposals and separates company ownership from admissions and visa decisions.",
+    "development": "Reports receipt after November 10 market close, November 11 disclosure, non-binding status, price adjustment and no board decision.",
+    "perspectives": "Attributes valuation objections to the IDP board and uses Reuters for the distinct recruitment-policy and operational context.",
+    "taiwanImpact": "Explains which documents and responsible service contacts Taiwanese customers can use without alleging an unsupported disruption.",
+    "uncertainty": "Does not predict a transaction, future service quality, local test-centre closure or recognition changes; identifies what later disclosures must show.",
+    "independence": "ASX is the company's primary disclosure; Reuters adds independently edited reporting and historical/industry context, not a second copy of a press release.",
+    "primarySource": "https://announcements.asx.com.au/asxpdf/20261111/pdf/076grw28k48qfy.pdf",
+    "independentSource": "https://www.investing.com/news/stock-market-news/australias-idp-education-mulls-blackstones-revised-571-million-takeover-bid-5017310",
+    "reviewedAt": "2026-11-15T00:24:06.830Z",
+    "bodySha256": "bb99ce497a85608bff8311dca53a08ff99a001010a6cea47f1d89011f541ecea"
+  },
+  "uk-student-sponsor-compliance-support-2026": {
+    "newsValue": "November expert and policy debate provides a timely explanation of the sponsor system ahead of the June 2027 completion change.",
+    "background": "Distinguishes educational and immigration regulation, institutional metrics and individual admission or visa decisions.",
+    "development": "Precisely separates June 2026 refusal/enrolment rules, current 85 percent completion and June 2027 90 percent requirement.",
+    "perspectives": "Uses original practitioner commentary and a separate HEPI policy paper; recommendations are never represented as enacted reforms.",
+    "taiwanImpact": "Gives concrete questions about illness, engagement, arrival and support contacts without predicting an individual immigration outcome.",
+    "uncertainty": "Does not assign unverified RAG ratings or claim policy effectiveness; later comparable data are needed to establish outcomes.",
+    "independence": "UKVI is the primary rule-maker; named practitioners publish their own analysis rather than a copied release, and HEPI contributes a separate policy perspective.",
+    "primarySource": "https://www.gov.uk/government/publications/student-sponsor-guidance/student-sponsor-compliance-accessible",
+    "independentSource": "https://thepienews.com/reframing-compliance-from-institutional-burden-to-student-protection/",
+    "reviewedAt": "2026-11-15T00:24:06.830Z",
+    "bodySha256": "d8e672b5d0021c5218e89f0449d749bfac96b06501b18d11df911b3d8894e890"
+  },
+  "ai-assessment-fairness-human-judgement-2026": {
+    "newsValue": "November summit coverage and a Toronto conference reflection connect a current international debate to student-facing assessment choices.",
+    "background": "Explains formative assessment versus high-stakes testing, scoring consistency versus fairness and generative assistance versus demonstrated learning.",
+    "development": "Reports named summit speakers through the independent outlet and contextualises them using an original research report and parliamentary evidence.",
+    "perspectives": "Distinguishes the commercial provider's claims, academic viewpoints and AQA participant reflection without inventing a consensus or causal experiment.",
+    "taiwanImpact": "Offers concrete questions about test evidence, language background, review channels and admissions rules relevant to Taiwanese learners.",
+    "uncertainty": "No claim of universal AI superiority, bias elimination or improved outcomes; asks for population-specific comparative evidence.",
+    "independence": "Pearson supplies original survey and policy evidence; The PIE independently reports the panel including university researchers; AQA supplies a separate organisation's first-hand conference perspective.",
+    "primarySource": "https://plc.pearson.com/sites/pearson-corp/files/2026-03/pearson-assessment-evolved-mar-2026.pdf",
+    "independentSource": "https://thepienews.com/ai-can-improve-test-fairness-but-human-judgement-remains-vital/",
+    "reviewedAt": "2026-11-15T00:24:06.830Z",
+    "bodySha256": "f7b93de919f6bd685551116849a27c7c1c5398bb4e8e6476ff98f8ffb51e953e"
   }
 }
