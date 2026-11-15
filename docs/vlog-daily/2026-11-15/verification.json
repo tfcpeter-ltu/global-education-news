@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-15",
+  "baseline": "c700047c62d32b04a42eac9ba144dc6c7f70ace2",
+  "commit": "1646046939573030d07bf24c9261d86018b5518d",
+  "deploymentRun": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/43675493282",
+  "deployment": "success",
+  "videosBefore": 153,
+  "videosAfter": 159,
+  "newVideos": 6,
+  "recommendedEntriesUnchanged": true,
+  "tests": [
+    "Vlog source/built checks159 videos",
+    "Astro624 pages",
+    "Bilingual913 pairs passed,zero missing strings",
+    "git diff --check passed",
+    "GitHub build/deploy/indexnow all success"
+  ],
+  "liveChinese": "Six latest titles and thumbnails loaded; Sophia search one result; official filter112; original youtube-nocookie iframe created; return-home retained.",
+  "liveEnglish": "Six translated titles and thumbnails loaded; English home link retained.",
+  "playerLimit": "Original public embed flags and live iframe verified; continuous playback not asserted.",
+  "socialPublished": 10,
+  "cloudSyncVerified": false
+}
