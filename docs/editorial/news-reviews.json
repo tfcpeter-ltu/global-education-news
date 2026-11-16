@@ -700,5 +700,44 @@
     "independentSource": "https://thepienews.com/ai-can-improve-test-fairness-but-human-judgement-remains-vital/",
     "reviewedAt": "2026-11-15T00:24:06.830Z",
     "bodySha256": "f7b93de919f6bd685551116849a27c7c1c5398bb4e8e6476ff98f8ffb51e953e"
+  },
+  "scotland-school-hoax-emails-parent-communications-2026": {
+    "newsValue": "本輪校園威脅涉及海外寄宿與交換家庭的訊息判讀，警方11月13日更新提供當前可核實的調查狀態。",
+    "background": "清楚區分11月11日預防性措施與11月13日警方評估，沒有把撤離等同發現實際炸彈或攻擊。",
+    "development": "交代不同地方政府當日處置差異及警方網路調查，未將調查評估寫成已確認犯案人或結案。",
+    "perspectives": "警方提供威脅判斷，STV蒐集不同地方政府回應，地方公告補充通知與安撫行動，三者職責明確。",
+    "taiwanImpact": "提供台灣家長與監護安排的具體聯絡流程建議，標為編輯分析而非新規定或特定台灣學生遭遇。",
+    "uncertainty": "本輪郵件評估不代表永久安全保證；來源沒有確認犯案者與追訴結果，後續須讀最新校方通報。",
+    "independence": "警方11月13日更新是威脅評估第一手來源；STV於11月11日逐一取得地方政府回應，包含各地實際採取的措施，不只是轉載警方聲明；Dumfries and Galloway另有自身校園通報紀錄。不可將撤離等同發現爆炸物，亦不可把警方對本輪郵件的判斷寫成所有校園永久安全保證。",
+    "primarySource": "https://www.scotland.police.uk/what-s-happening/news/2026/november/statement-after-threatening-messages-sent-to-a-number-of-schools-in-scotland/",
+    "independentSource": "https://news.stv.tv/scotland/schools-across-scotland-evacuated-after-receiving-bomb-threats",
+    "reviewedAt": "2026-11-16T00:23:11.927Z",
+    "bodySha256": "923b7394197ae5afb4ec1b559e42e3f06b98505f271880e2868fea9d7fbddb98"
+  },
+  "us-international-education-week-campus-support-2026": {
+    "newsValue": "11月16日起的當週事件，讓台灣選校家庭能從具體校園支援檢視國際化承諾，不以活動宣傳取代成果證據。",
+    "background": "清楚區分歷史政府倡議與2026年教育協會持續推動，沒有推定未核實的政府退出原因或政策變更。",
+    "development": "以10月22日全國倡議及11月12日本校安排連結本週活動，避免把尚未舉行的活動寫成已完成。",
+    "perspectives": "納入羅德島大學教師的文化交流觀點，標明利害關係與意見性質，並說明活動不能證明成效。",
+    "taiwanImpact": "提供台灣學生選校、交換學分、服務窗口與家長判讀活動資訊的方法，建議明確標為編輯分析。",
+    "uncertainty": "沒有實際出席及成效數據，不能推論招生、簽證或就業政策改變；個別安排以主辦校更新為準。",
+    "independence": "NAFSA提供全國倡議；羅德島大學另採訪本校教師並發布自行執行的校園活動，非轉載相同新聞稿。",
+    "primarySource": "https://www.nafsa.org/IEW-2026-joint-release",
+    "independentSource": "https://www.uri.edu/news/2026/11/uri-to-celebrate-international-education-and-intercultural-exchange-during-international-education-week-nov-16-20/",
+    "reviewedAt": "2026-11-16T00:23:11.927Z",
+    "bodySha256": "d965ba671bc3a538baff4c7583a087f9ad9c687c0a7fd7b82bd50de4a926fe67"
+  },
+  "european-universities-2027-call-student-implications": {
+    "newsValue": "本週說明會與11月12日官方更新具時效，協助台灣學生辨識跨校合作經費與個人獎學金的不同。",
+    "background": "說明現行2021至2027方案及兩年銜接目的，不把徵案終點寫成所有Erasmus活動終止。",
+    "development": "列明2027年3月4日17時CET截止與11月17日說明會，台北時間換算為加七小時。",
+    "perspectives": "比較歐盟資助方與芬蘭國家申請支援方的不同職責，未假造學生或第三方受訪談話。",
+    "taiwanImpact": "以具體課程、成本及學位認列說明選校用途，個別資格與補助仍需查課程，不保證跨校權利。",
+    "uncertainty": "避免混用不同更新日期的聯盟總數及歷史金額，尚未公布的執行細節留待說明會與正式文件。",
+    "independence": "執委會為徵案發布方；芬蘭國家教育署另提供本國申請行政、支援與銜接解釋，非逐字轉載新聞稿。",
+    "primarySource": "https://education.ec.europa.eu/de/education-levels/higher-education/european-universities-initiative/funding",
+    "independentSource": "https://www.oph.fi/en/programmes/european-universities",
+    "reviewedAt": "2026-11-16T00:23:11.927Z",
+    "bodySha256": "d3c4b5150d44414131e7af9a8bfe8332322d27c4b21490af1463fee8f638c596"
   }
 }
