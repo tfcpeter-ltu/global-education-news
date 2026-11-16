@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-16",
+  "status": "prepared-not-yet-deployed",
+  "articles": [
+    {
+      "slug": "arab-higher-education-unesco-2026",
+      "sources": [
+        {
+          "label": "UNESCO｜阿拉伯國家高教報告介紹，11月3日",
+          "url": "https://www.unesco.org/en/articles/number-students-higher-education-triples-across-arab-states-graduate-employability-remains-challenge"
+        },
+        {
+          "label": "ICESCO｜11月4日會議中提出的學歷認列協作方案",
+          "url": "https://icesco.org/en/2026/11/05/icesco-proposes-initiatives-in-doha-to-facilitate-recognition-of-higher-education-qualifications-in-arab-states/"
+        },
+        {
+          "label": "Qatar University｜11月2至3日會議的校方參與紀錄",
+          "url": "https://www.qu.edu.qa/en-us/NewsRoom/Pages/newsdetails.aspx?newsID=13449"
+        },
+        {
+          "label": "UNESCO｜第五屆阿拉伯高教會議時間與議題",
+          "url": "https://www.unesco.org/en/node/281960"
+        }
+      ],
+      "paragraphs": 9
+    },
+    {
+      "slug": "canada-research-training-awards-880m-2026",
+      "sources": [
+        {
+          "label": "CIHR｜加拿大政府10月22日研究資助公告",
+          "url": "https://www.canada.ca/en/institutes-health-research/news/2026/10/government-of-canada-invests-880-million-to-empower-the-next-generation-of-researchers.html"
+        },
+        {
+          "label": "UANWORLD｜研究資助與培訓獎助的預算及公共責任分析",
+          "url": "https://uanworld.com/story/canada-research-grants-training-awards-2026"
+        },
+        {
+          "label": "The Educationist｜10月23日研究人才培訓脈絡分析",
+          "url": "https://www.educationist.com/article/canada-invests-c880-million-research-and-researcher-training"
+        }
+      ],
+      "paragraphs": 9
+    },
+    {
+      "slug": "india-tne-value-aiec-2026",
+      "sources": [
+        {
+          "label": "IDP｜10月27日AIEC開幕與會期公告",
+          "url": "https://careers.idp.com/news/aiec-opening-2026"
+        },
+        {
+          "label": "The PIE｜11月4日印度跨國教育論壇採訪報導",
+          "url": "https://thepienews.com/international-universities-face-pressure-to-prove-value-in-india/"
+        },
+        {
+          "label": "AIEC｜2026雪梨會議官方紀錄",
+          "url": "https://aiec.idp.com/aiec-2026-past"
+        }
+      ],
+      "paragraphs": 9
+    }
+  ],
+  "queueOrderingNote": "Normalised quoted ISO dates before selecting newest backlog entries; Nov5 entries sort ahead of Oct1."
+}

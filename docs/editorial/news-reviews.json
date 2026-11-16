@@ -739,5 +739,44 @@
     "independentSource": "https://www.oph.fi/en/programmes/european-universities",
     "reviewedAt": "2026-11-16T00:23:11.927Z",
     "bodySha256": "d3c4b5150d44414131e7af9a8bfe8332322d27c4b21490af1463fee8f638c596"
+  },
+  "arab-higher-education-unesco-2026": {
+    "newsValue": "把阿拉伯高教規模成長與學歷認列執行的落差連結，補足原短訊對學生實際用途與限制的說明。",
+    "background": "分清區域入學率、學生數與青年失業率的統計對象，不把青年失業當成畢業生失業的資料。",
+    "development": "區分11月2至3日會議與11月4日委員會，並明示11月5日參與紀錄為本次擴寫補充。",
+    "perspectives": "以UNESCO區域報告、ICESCO自身具體倡議及卡達大學參與紀錄，區分各機構職責和自述範圍。",
+    "taiwanImpact": "具體解釋交換抵免與第三國升學的文件問題，讀者應向接收方確認而不能推定自動承認。",
+    "uncertainty": "未有單校就業追蹤、個人資格或措施完成證據，不從區域統計推導單校品質與個人就業結果。",
+    "independence": "ICESCO另行記錄自身提案及承諾支援的工具，卡達大學另記錄本校活動，兩者不是UNESCO統計新聞稿的轉載。",
+    "primarySource": "https://www.unesco.org/en/articles/number-students-higher-education-triples-across-arab-states-graduate-employability-remains-challenge",
+    "independentSource": "https://icesco.org/en/2026/11/05/icesco-proposes-initiatives-in-doha-to-facilitate-recognition-of-higher-education-qualifications-in-arab-states/",
+    "reviewedAt": "2026-11-16T01:17:44.799Z",
+    "bodySha256": "2c116f22c7c2adc5d220f25e3f371d03f7020afcc41bc19f4c002319f78ae9b6"
+  },
+  "canada-research-training-awards-880m-2026": {
+    "newsValue": "保留10月22日資助事件，釐清公眾最容易把總額誤認個人獎學金的問題，補足原短文制度脈絡。",
+    "background": "以團隊計畫與不同生涯階段培訓解釋制度，不混合計畫數與受支持人數的統計分母。",
+    "development": "保留11月5日原發布日，11月16日另標擴寫日期，不把已公告結果宣稱今天新開放申請。",
+    "perspectives": "比較資助機關的政策目的與UANWORLD公共責任分析，並加入教育媒體對研究人才培訓的不同切入。",
+    "taiwanImpact": "明示沒有判定所有方案對台灣開放；研究興趣、學籍錄取、校內提名與資助須分別取得個別證據。",
+    "uncertainty": "未由投入推算臨床成果、個人金額或獲獎機率，假設申請情境明確標明非採訪個案。",
+    "independence": "UANWORLD不只是轉載原公告，另連結聯邦預算與公共責任提出分析；其分析仍與官方申請條款區分。",
+    "primarySource": "https://www.canada.ca/en/institutes-health-research/news/2026/10/government-of-canada-invests-880-million-to-empower-the-next-generation-of-researchers.html",
+    "independentSource": "https://uanworld.com/story/canada-research-grants-training-awards-2026",
+    "reviewedAt": "2026-11-16T01:17:44.883Z",
+    "bodySha256": "37486acae2772bea887099002d903d12e14e3ebe90de539fc943e81a8083426d"
+  },
+  "india-tne-value-aiec-2026": {
+    "newsValue": "把海外校區品牌宣傳轉化為可核對的學習價值問題，回應原短訊缺少職涯與流動安排細節。",
+    "background": "區分母校與實際上課校區、在地服務及跨國移動，避免知名品牌自動等同同樣教育資源。",
+    "development": "官方開幕與回顧確認10月27至30日會期；11月4日是媒體報導日期，不是印度規則發布日。",
+    "perspectives": "The PIE獨立採訪提供Pratchett與Nery的不同觀察，所有發言都明確歸屬媒體轉述而非本報訪問。",
+    "taiwanImpact": "從學位責任、實習競爭、跨校名額及成本可比性提出具體問題，不直接替個別學程判定權利。",
+    "uncertainty": "未引用未讀原研究的市場百分比，沒有估計學費、保證實習或把論壇意見當作招生法規。",
+    "independence": "IDP為主辦方的原始活動公告；The PIE由記者另行採訪整理論壇觀點，具有公告沒有的發言與分析。",
+    "primarySource": "https://careers.idp.com/news/aiec-opening-2026",
+    "independentSource": "https://thepienews.com/international-universities-face-pressure-to-prove-value-in-india/",
+    "reviewedAt": "2026-11-16T01:17:44.888Z",
+    "bodySha256": "60ce1fd4c6db66c0430cae63b5ab14b7a286c132f2d8f2c28336c8cb4315a5f2"
   }
 }

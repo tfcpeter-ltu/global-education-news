@@ -3,8 +3,8 @@
   "mainSha": "44c42c51147d2f0f09599369e3509fb82b12c255",
   "startedAt": "2026-11-16T04:58:33+08:00",
   "updatedAt": "2026-11-16T01:11:27.659Z",
-  "status": "completed",
-  "currentPhase": "COMPLETE",
+  "status": "in-progress",
+  "currentPhase": "ARCHIVE_BUILD_DEPLOY",
   "scholarshipBaselineSlugs": [
     "2026-08-bristol-think-big",
     "2026-08-manchester-global-futures-taiwan-2027",
@@ -748,7 +748,9 @@
       "publishedTimePrecision": "minute; native published-history label"
     }
   ],
-  "gaps": [],
+  "gaps": [
+    "Historical rewrites: final build, deploy and six bilingual public page readbacks"
+  ],
   "deadlineMet": false,
   "peterReview": {
     "status": "fewer-new-posts",
@@ -855,7 +857,7 @@
     ]
   },
   "manualActions": [],
-  "completedAt": "2026-11-16T01:11:27.659Z",
+  "completedAt": null,
   "verification": {
     "status": "COMPLETE",
     "verifiedAt": "2026-11-16T01:11:27.659Z",
@@ -871,5 +873,16 @@
     "All 16 main posts and four Threads child segments read back on native platforms; no duplicates.",
     "Formal source and evidence saved locally in OneDrive; cloud synchronization not independently verified.",
     "Evidence-only commit follows deployment; public site content remains the successful 4343fce deployment."
-  ]
+  ],
+  "archiveRemediation": {
+    "status": "prepared-awaiting-deployment",
+    "count": 3,
+    "slugs": [
+      "arab-higher-education-unesco-2026",
+      "canada-research-training-awards-880m-2026",
+      "india-tne-value-aiec-2026"
+    ],
+    "remainingBefore": 157,
+    "remainingAfterAcceptance": 154
+  }
 }
