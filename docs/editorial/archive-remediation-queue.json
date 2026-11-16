@@ -1,212 +1,8 @@
 {
   "status": "pending",
   "order": "newest first, then currently consequential policies",
-  "remaining": 157,
+  "remaining": 154,
   "items": [
-    {
-      "path": "src/pages/news/philippines-eduphil-international-student-program-2026.md",
-      "date": "2026-10-01T08:30:00+08:00",
-      "bodyCjk": 364,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/buckinghamshire-new-university-sponsor-licence-suspended-2026.md",
-      "date": "2026-10-01T08:10:00+08:00",
-      "bodyCjk": 310,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/uk-lifelong-learning-entitlement-modular-study-2026.md",
-      "date": "2026-09-12T08:30:00+08:00",
-      "bodyCjk": 592,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/south-korea-20-universities-visa-restrictions-2026.md",
-      "date": "2026-09-12T08:20:00+08:00",
-      "bodyCjk": 379,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/canada-work-permit-study-without-permit-2026.md",
-      "date": "2026-09-12T08:10:00+08:00",
-      "bodyCjk": 500,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/south-korea-international-student-quality-policy-2029.md",
-      "date": "2026-09-11T20:30:00+08:00",
-      "bodyCjk": 721,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/waseda-sils-2027-april-overseas-ao-deadline.md",
-      "date": "2026-09-08T10:57:00+08:00",
-      "bodyCjk": 709,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/taiwan-nycu-fccm-2026-world-champion.md",
-      "date": "2026-09-08T10:13:00+08:00",
-      "bodyCjk": 716,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/canada-off-campus-work-24-hours-fall-2026.md",
-      "date": "2026-09-08T10:12:00+08:00",
-      "bodyCjk": 800,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/new-zealand-international-education-exports-5-billion-2026.md",
-      "date": "2026-09-06T08:06:00+08:00",
-      "bodyCjk": 861,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/hong-kong-phd-fellowship-2027-28-open.md",
-      "date": "2026-09-05T08:04:00+08:00",
-      "bodyCjk": 710,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/uk-student-visa-maintenance-erasmus-rules-september-2026.md",
-      "date": "2026-09-05T08:02:00+08:00",
-      "bodyCjk": 793,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/new-zealand-student-visa-wait-times-september-2026.md",
-      "date": "2026-09-04T08:04:00+08:00",
-      "bodyCjk": 803,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/ltu-business-today-ossd-profile-2025.md",
-      "date": "2026-09-02T10:44:00+08:00",
-      "bodyCjk": 656,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/ltu-ctee-media-report-2026-07-03.md",
-      "date": "2026-09-02T10:42:00+08:00",
-      "bodyCjk": 388,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/uk-child-student-carer-criminality-rules-2026.md",
-      "date": "2026-09-02T10:24:00+08:00",
-      "bodyCjk": 827,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/us-f1-duration-status-fixed-admission-september-2026.md",
-      "date": "2026-09-02T08:00:00+08:00",
-      "bodyCjk": 488,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/uk-graduate-visa-18-months-2027.md",
-      "date": "2026-09-01T09:17:00+08:00",
-      "bodyCjk": 588,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/canada-international-student-reentry-2026.md",
-      "date": "2026-09-01T09:16:00+08:00",
-      "bodyCjk": 651,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/australia-minimum-wage-international-students-2026.md",
-      "date": "2026-09-01T09:15:00+08:00",
-      "bodyCjk": 538,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/new-taipei-dual-diploma-2026.md",
-      "date": "2026-08-31T10:14:00+08:00",
-      "bodyCjk": 659,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/taiwan-moe-australia-youth-colearning-2026.md",
-      "date": "2026-08-31T10:11:00+08:00",
-      "bodyCjk": 693,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/canada-international-student-arrivals-june-2026.md",
-      "date": "2026-08-31T10:08:00+08:00",
-      "bodyCjk": 574,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/hku-2027-non-jupas-opens-september-23.md",
-      "date": "2026-08-30T21:14:00+08:00",
-      "bodyCjk": 548,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/ltu-ossd-2026-overseas-admissions-ctee.md",
-      "date": "2026-08-30T21:11:00+08:00",
-      "bodyCjk": 546,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/taipei-student-exchange-us-canada-2026.md",
-      "date": "2026-08-30T21:08:00+08:00",
-      "bodyCjk": 551,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/taiwan-moe-eu-scholarship-2026.md",
-      "date": "2026-08-30T21:05:00+08:00",
-      "bodyCjk": 474,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/australia-2027-international-student-npl.md",
-      "date": "2026-08-30T19:12:47+08:00",
-      "bodyCjk": 515,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/uk-study-visas-june-2026.md",
-      "date": "2026-08-30T19:12:33+08:00",
-      "bodyCjk": 564,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/canada-proof-of-funds-september-2026.md",
-      "date": "2026-08-30T19:12:17+08:00",
-      "bodyCjk": 473,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/us-cpt-internship-enforcement-2026.md",
-      "date": "2026-08-30",
-      "bodyCjk": 664,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/arab-higher-education-unesco-2026.md",
-      "date": "\"2026-11-05T05:11:15.353766+08:00\"",
-      "bodyCjk": 176,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/canada-research-training-awards-880m-2026.md",
-      "date": "\"2026-11-05T05:11:15.353766+08:00\"",
-      "bodyCjk": 196,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/india-tne-value-aiec-2026.md",
-      "date": "\"2026-11-05T05:11:15.353766+08:00\"",
-      "bodyCjk": 188,
-      "needsEditorialReview": true
-    },
     {
       "path": "src/pages/news/australia-2027-csp-allocation-pool.md",
       "date": "\"2026-11-04T05:10:44.600800+08:00\"",
@@ -658,6 +454,18 @@
       "needsEditorialReview": true
     },
     {
+      "path": "src/pages/news/philippines-eduphil-international-student-program-2026.md",
+      "date": "2026-10-01T08:30:00+08:00",
+      "bodyCjk": 364,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/buckinghamshire-new-university-sponsor-licence-suspended-2026.md",
+      "date": "2026-10-01T08:10:00+08:00",
+      "bodyCjk": 310,
+      "needsEditorialReview": true
+    },
+    {
       "path": "src/pages/news/birmingham-hkmu-commercial-law-pathway-2027.md",
       "date": "\"2026-09-29T06:40:00+08:00\"",
       "bodyCjk": 208,
@@ -944,9 +752,183 @@
       "date": "\"2026-09-13T10:00:00+08:00\"",
       "bodyCjk": 405,
       "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/uk-lifelong-learning-entitlement-modular-study-2026.md",
+      "date": "2026-09-12T08:30:00+08:00",
+      "bodyCjk": 592,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/south-korea-20-universities-visa-restrictions-2026.md",
+      "date": "2026-09-12T08:20:00+08:00",
+      "bodyCjk": 379,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/canada-work-permit-study-without-permit-2026.md",
+      "date": "2026-09-12T08:10:00+08:00",
+      "bodyCjk": 500,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/south-korea-international-student-quality-policy-2029.md",
+      "date": "2026-09-11T20:30:00+08:00",
+      "bodyCjk": 721,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/waseda-sils-2027-april-overseas-ao-deadline.md",
+      "date": "2026-09-08T10:57:00+08:00",
+      "bodyCjk": 709,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/taiwan-nycu-fccm-2026-world-champion.md",
+      "date": "2026-09-08T10:13:00+08:00",
+      "bodyCjk": 716,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/canada-off-campus-work-24-hours-fall-2026.md",
+      "date": "2026-09-08T10:12:00+08:00",
+      "bodyCjk": 800,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/new-zealand-international-education-exports-5-billion-2026.md",
+      "date": "2026-09-06T08:06:00+08:00",
+      "bodyCjk": 861,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/hong-kong-phd-fellowship-2027-28-open.md",
+      "date": "2026-09-05T08:04:00+08:00",
+      "bodyCjk": 710,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/uk-student-visa-maintenance-erasmus-rules-september-2026.md",
+      "date": "2026-09-05T08:02:00+08:00",
+      "bodyCjk": 793,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/new-zealand-student-visa-wait-times-september-2026.md",
+      "date": "2026-09-04T08:04:00+08:00",
+      "bodyCjk": 803,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/ltu-business-today-ossd-profile-2025.md",
+      "date": "2026-09-02T10:44:00+08:00",
+      "bodyCjk": 656,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/ltu-ctee-media-report-2026-07-03.md",
+      "date": "2026-09-02T10:42:00+08:00",
+      "bodyCjk": 388,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/uk-child-student-carer-criminality-rules-2026.md",
+      "date": "2026-09-02T10:24:00+08:00",
+      "bodyCjk": 827,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/us-f1-duration-status-fixed-admission-september-2026.md",
+      "date": "2026-09-02T08:00:00+08:00",
+      "bodyCjk": 488,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/uk-graduate-visa-18-months-2027.md",
+      "date": "2026-09-01T09:17:00+08:00",
+      "bodyCjk": 588,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/canada-international-student-reentry-2026.md",
+      "date": "2026-09-01T09:16:00+08:00",
+      "bodyCjk": 651,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/australia-minimum-wage-international-students-2026.md",
+      "date": "2026-09-01T09:15:00+08:00",
+      "bodyCjk": 538,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/new-taipei-dual-diploma-2026.md",
+      "date": "2026-08-31T10:14:00+08:00",
+      "bodyCjk": 659,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/taiwan-moe-australia-youth-colearning-2026.md",
+      "date": "2026-08-31T10:11:00+08:00",
+      "bodyCjk": 693,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/canada-international-student-arrivals-june-2026.md",
+      "date": "2026-08-31T10:08:00+08:00",
+      "bodyCjk": 574,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/hku-2027-non-jupas-opens-september-23.md",
+      "date": "2026-08-30T21:14:00+08:00",
+      "bodyCjk": 548,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/ltu-ossd-2026-overseas-admissions-ctee.md",
+      "date": "2026-08-30T21:11:00+08:00",
+      "bodyCjk": 546,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/taipei-student-exchange-us-canada-2026.md",
+      "date": "2026-08-30T21:08:00+08:00",
+      "bodyCjk": 551,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/taiwan-moe-eu-scholarship-2026.md",
+      "date": "2026-08-30T21:05:00+08:00",
+      "bodyCjk": 474,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/australia-2027-international-student-npl.md",
+      "date": "2026-08-30T19:12:47+08:00",
+      "bodyCjk": 515,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/uk-study-visas-june-2026.md",
+      "date": "2026-08-30T19:12:33+08:00",
+      "bodyCjk": 564,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/canada-proof-of-funds-september-2026.md",
+      "date": "2026-08-30T19:12:17+08:00",
+      "bodyCjk": 473,
+      "needsEditorialReview": true
+    },
+    {
+      "path": "src/pages/news/us-cpt-internship-enforcement-2026.md",
+      "date": "2026-08-30",
+      "bodyCjk": 664,
+      "needsEditorialReview": true
     }
   ],
-  "updatedAt": "2026-11-13T06:00:45.765557+08:00",
+  "updatedAt": "2026-11-16T01:24:51.092Z",
   "completedBatches": [
     {
       "date": "2026-11-07",
@@ -1031,16 +1013,30 @@
       "commit": "e04e33a2346042087fbee763c51734d6d133e2e2",
       "verifiedAt": "2026-11-13T06:00:45.765557+08:00",
       "evidence": "docs/daily-checks/2026-11-13/archive-live.json"
+    },
+    {
+      "date": "2026-11-16",
+      "count": 3,
+      "slugs": [
+        "arab-higher-education-unesco-2026",
+        "canada-research-training-awards-880m-2026",
+        "india-tne-value-aiec-2026"
+      ],
+      "commit": "d5d4d804656d2f2ba636b653c7d7b899c5ec9b01",
+      "verifiedAt": "2026-11-16T01:24:06.729149+00:00",
+      "evidence": "docs/daily-checks/2026-11-16/archive-live.json"
     }
   ],
   "lastBatch": {
-    "date": "2026-11-14",
+    "date": "2026-11-16",
     "count": 3,
-    "verifiedAt": "2026-11-14T21:53:47.688166+08:00",
     "slugs": [
-      "australia-student-visa-onshore-family-rules-2026",
-      "new-zealand-2027-student-visa-apply-three-months-early",
-      "new-zealand-student-visa-system-outage-october-2026"
-    ]
+      "arab-higher-education-unesco-2026",
+      "canada-research-training-awards-880m-2026",
+      "india-tne-value-aiec-2026"
+    ],
+    "commit": "d5d4d804656d2f2ba636b653c7d7b899c5ec9b01",
+    "verifiedAt": "2026-11-16T01:24:06.729149+00:00",
+    "evidence": "docs/daily-checks/2026-11-16/archive-live.json"
   }
 }

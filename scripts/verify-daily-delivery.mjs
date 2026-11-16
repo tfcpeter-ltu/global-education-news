@@ -57,6 +57,12 @@ else {
  }
  if(!r.deployment?.commit || r.deployment.status!=='success' || !r.deployment.verifiedAt) fail('missing deployment evidence');
  if(!r.acceptance?.desktop || !r.acceptance?.mobile || !r.acceptance?.seo || !r.acceptance?.verifiedAt) fail('missing live acceptance evidence');
+ if(date >= '2026-11-16') {
+  const archive=r.archiveRemediation;
+  const rewrites=(archive?.articles||[]).filter(x=>x.slug&&x.url&&x.englishUrl&&x.verifiedAt&&x.originalPublishedAt&&x.updatedAt);
+  if(archive?.status!=='complete' || new Set(rewrites.map(x=>x.slug)).size<3 || !archive?.commit || !archive?.liveEvidence)
+   fail('fewer than 3 historical bilingual rewrites with deployment and live readback evidence');
+ }
  if(!process.exitCode) console.log(`EVIDENCE_PRESENT ${date}: 3 news, 3 new scholarships, Peter review (${peterImportCount} imports${peterNoNewPosts?', no new source posts':''}), ${requirements.length} social posts and deployment evidence present. Evidence presence does not replace live verification.`);
 }
 

@@ -1,0 +1,103 @@
+{
+  "status": "PASS",
+  "commit": "d5d4d804656d2f2ba636b653c7d7b899c5ec9b01",
+  "pages": [
+    {
+      "url": "https://globalednews.com/news/arab-higher-education-unesco-2026/",
+      "status": 200,
+      "title": "阿拉伯高教擴張後，學歷互認如何接上學生的下一步？",
+      "matchesBuiltTitle": true,
+      "canonical": [
+        "https://globalednews.com/news/arab-higher-education-unesco-2026/"
+      ],
+      "datePublished": "2026-11-04T21:11:15.353Z",
+      "dateModified": "2026-11-16T01:18:03.638Z",
+      "bodyParagraphs": 18,
+      "image": "https://globalednews.com/images/share-photos/e3700d93fe9aacac3e366551.jpg",
+      "imageStatus": 200,
+      "cjkInEnglish": null,
+      "verifiedAt": "2026-11-16T01:24:06.661150+00:00"
+    },
+    {
+      "url": "https://globalednews.com/en/news/arab-higher-education-unesco-2026/",
+      "status": 200,
+      "title": "After higher education expands in the Arab States, how can qualification recognition support students?",
+      "matchesBuiltTitle": true,
+      "canonical": [
+        "https://globalednews.com/en/news/arab-higher-education-unesco-2026/"
+      ],
+      "datePublished": "2026-11-04T21:11:15.353Z",
+      "dateModified": "2026-11-16T01:18:03.638Z",
+      "bodyParagraphs": 18,
+      "image": "https://globalednews.com/images/share-photos/e3700d93fe9aacac3e366551.jpg",
+      "imageStatus": 200,
+      "cjkInEnglish": false,
+      "verifiedAt": "2026-11-16T01:24:06.663150+00:00"
+    },
+    {
+      "url": "https://globalednews.com/news/canada-research-training-awards-880m-2026/",
+      "status": 200,
+      "title": "加拿大8.8億加元研究投入：團隊經費、個人獎助與申請資格分開看",
+      "matchesBuiltTitle": true,
+      "canonical": [
+        "https://globalednews.com/news/canada-research-training-awards-880m-2026/"
+      ],
+      "datePublished": "2026-11-04T21:11:15.353Z",
+      "dateModified": "2026-11-16T01:18:03.640Z",
+      "bodyParagraphs": 19,
+      "image": "https://globalednews.com/images/share-photos/bc0e93ee6df96c49a02453c2.jpg",
+      "imageStatus": 200,
+      "cjkInEnglish": null,
+      "verifiedAt": "2026-11-16T01:24:06.698148+00:00"
+    },
+    {
+      "url": "https://globalednews.com/en/news/canada-research-training-awards-880m-2026/",
+      "status": 200,
+      "title": "Canada’s C$880 million research investment: separating project funding, individual awards and eligibility",
+      "matchesBuiltTitle": true,
+      "canonical": [
+        "https://globalednews.com/en/news/canada-research-training-awards-880m-2026/"
+      ],
+      "datePublished": "2026-11-04T21:11:15.353Z",
+      "dateModified": "2026-11-16T01:18:03.640Z",
+      "bodyParagraphs": 19,
+      "image": "https://globalednews.com/images/share-photos/bc0e93ee6df96c49a02453c2.jpg",
+      "imageStatus": 200,
+      "cjkInEnglish": false,
+      "verifiedAt": "2026-11-16T01:24:06.728149+00:00"
+    },
+    {
+      "url": "https://globalednews.com/news/india-tne-value-aiec-2026/",
+      "status": 200,
+      "title": "印度海外校區熱潮：國際學位如何證明在地學習價值？",
+      "matchesBuiltTitle": true,
+      "canonical": [
+        "https://globalednews.com/news/india-tne-value-aiec-2026/"
+      ],
+      "datePublished": "2026-11-04T21:11:15.353Z",
+      "dateModified": "2026-11-16T01:18:03.641Z",
+      "bodyParagraphs": 19,
+      "image": "https://globalednews.com/images/share-photos/be19ae6fa5ed8ddf1a2aee7c.jpg",
+      "imageStatus": 200,
+      "cjkInEnglish": null,
+      "verifiedAt": "2026-11-16T01:24:06.669149+00:00"
+    },
+    {
+      "url": "https://globalednews.com/en/news/india-tne-value-aiec-2026/",
+      "status": 200,
+      "title": "India’s international campus expansion: how can a global degree demonstrate local learning value?",
+      "matchesBuiltTitle": true,
+      "canonical": [
+        "https://globalednews.com/en/news/india-tne-value-aiec-2026/"
+      ],
+      "datePublished": "2026-11-04T21:11:15.353Z",
+      "dateModified": "2026-11-16T01:18:03.641Z",
+      "bodyParagraphs": 19,
+      "image": "https://globalednews.com/images/share-photos/be19ae6fa5ed8ddf1a2aee7c.jpg",
+      "imageStatus": 200,
+      "cjkInEnglish": false,
+      "verifiedAt": "2026-11-16T01:24:06.672148+00:00"
+    }
+  ],
+  "verifiedAt": "2026-11-16T01:24:06.729149+00:00"
+}
