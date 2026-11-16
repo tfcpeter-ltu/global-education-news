@@ -1,8 +1,10 @@
 {
   "date": "2026-11-16",
-  "status": "in-progress",
-  "currentPhase": "PUBLISH",
   "mainSha": "44c42c51147d2f0f09599369e3509fb82b12c255",
+  "startedAt": "2026-11-16T04:58:33+08:00",
+  "updatedAt": "2026-11-16T01:11:27.659Z",
+  "status": "completed",
+  "currentPhase": "COMPLETE",
   "scholarshipBaselineSlugs": [
     "2026-08-bristol-think-big",
     "2026-08-manchester-global-futures-taiwan-2027",
@@ -337,6 +339,7 @@
       "verifiedAt": "2026-11-16T00:39:19.178Z"
     }
   ],
+  "scholarshipChecks": [],
   "scholarshipAdditions": [
     {
       "title": "川嶋章司紀念獎學金2027：在日台灣學生可循校內推薦申請",
@@ -426,18 +429,337 @@
       "verifiedAt": "2026-11-16T00:39:19.178Z"
     }
   ],
+  "socialPosts": [
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/news/us-international-education-week-campus-support-2026/",
+      "copyVersion": "2026-11-16-reader-first-v1",
+      "id": "DfyFJzwI3Tv",
+      "publicUrl": "https://www.instagram.com/p/DfyFJzwI3Tv/",
+      "publishedAt": "2026-11-16T00:34:58.000Z",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-16T00:36:05.256Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-16T00:36:05.256Z",
+      "publicScreenshot": "docs/social-posts/2026-11-16/news-instagram-public.png"
+    },
+    {
+      "campaign": "news",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/news/us-international-education-week-campus-support-2026/",
+      "copyVersion": "2026-11-16-reader-first-v1",
+      "id": "DfyFQhvE2L_",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfyFQhvE2L_",
+      "publishedAt": "2026-11-16T00:35:53.000Z",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-16T00:36:21.813Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-16T00:36:21.813Z",
+      "publicScreenshot": "docs/social-posts/2026-11-16/news-threads-public.png"
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "account": "Peter Chen",
+      "articleUrl": "https://globalednews.com/news/us-international-education-week-campus-support-2026/",
+      "copyVersion": "2026-11-16-reader-first-v1",
+      "id": "7527892725208141824",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7527892725208141824/",
+      "publishedAt": null,
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-16T00:40:19.405Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-16T00:40:19.405Z",
+      "publishedTimeLabel": "剛剛",
+      "publicScreenshot": "docs/social-posts/2026-11-16/news-linkedin-public.png"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "copyVersion": "2026-11-16-reader-first-v1",
+      "id": "DfyG3b0ExRH",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfyG3b0ExRH",
+      "publishedAt": "2026-11-16T00:49:56.000Z",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-16T00:51:29.394Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-16T00:51:29.394Z",
+      "topic": "獎學金",
+      "segments": [
+        {
+          "index": 1,
+          "id": "DfyHGMCk4Oy",
+          "parentId": "DfyG3b0ExRH",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfyHGMCk4Oy",
+          "publishedAt": "2026-11-16T00:51:57.000Z",
+          "verifiedAt": "2026-11-16T00:52:26.157Z",
+          "status": "PUBLISHED"
+        },
+        {
+          "index": 2,
+          "id": "DfyHOL3E5-E",
+          "parentId": "DfyHGMCk4Oy",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfyHOL3E5-E",
+          "publishedAt": "2026-11-16T00:53:03.000Z",
+          "verifiedAt": "2026-11-16T00:53:26.926Z",
+          "status": "PUBLISHED"
+        },
+        {
+          "index": 3,
+          "id": "DfyHVtSk9d6",
+          "parentId": "DfyHOL3E5-E",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfyHVtSk9d6",
+          "publishedAt": "2026-11-16T00:54:04.000Z",
+          "verifiedAt": "2026-11-16T00:54:28.012Z",
+          "status": "PUBLISHED"
+        },
+        {
+          "index": 4,
+          "id": "DfyHcZgE6Z5",
+          "parentId": "DfyHVtSk9d6",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfyHcZgE6Z5",
+          "publishedAt": "2026-11-16T00:54:59.000Z",
+          "verifiedAt": "2026-11-16T00:55:26.926Z",
+          "status": "PUBLISHED"
+        }
+      ],
+      "threadComplete": true
+    },
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "articleUrl": "https://globalednews.com/news/us-international-education-week-campus-support-2026/",
+      "copyVersion": "2026-11-16-reader-first-v1",
+      "id": "1121034974006033",
+      "publicUrl": "https://facebook.com/LTUOSSDTaiwan/posts/pfbid02DqUvfBfqp2dm6JGCYiBbCYES7Bw5K6mXpRbqKyJksbkYsSF9Mkm6SGcSdVyEc7jml",
+      "publishedAt": "2026-11-16T08:49:00+08:00",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-16T00:51:41.966Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-16T00:51:41.966Z",
+      "mediaKind": "uploaded-photo",
+      "photoAttachedAt": "2026-11-16T00:49:41.258Z",
+      "copyAddedAt": "2026-11-16T00:49:53.382Z",
+      "photoReadyEvidence": "1080x1350 ready with edit/remove buttons before text pasted",
+      "photoAttachments": [
+        {
+          "id": "1121030414006489",
+          "url": "https://www.facebook.com/photo/?fbid=1121030414006489"
+        }
+      ],
+      "publicPhotoScreenshot": "docs/social-posts/2026-11-16/news-facebook-public-photo.png",
+      "mediaEvidence": "Native public photo viewer visibly showed the uploaded campaign image, account and public audience; docs/social-posts/2026-11-16/news-facebook-public-photo.png",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-16T00:51:41.966Z",
+      "publishedTimePrecision": "minute; native published-history label"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "account": "Peter Chen",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "copyVersion": "2026-11-16-reader-first-v1",
+      "id": "7527896703023230976",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7527896703023230976/",
+      "publishedAt": null,
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-16T00:54:45.911Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-16T00:54:45.911Z",
+      "publishedTimeLabel": "剛剛"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "copyVersion": "2026-11-16-reader-first-v1",
+      "id": "DfyHZarI2tS",
+      "publicUrl": "https://www.instagram.com/p/DfyHZarI2tS/",
+      "publishedAt": "2026-11-16T00:54:35.000Z",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-16T00:56:33.618Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-16T00:56:33.618Z"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "copyVersion": "2026-11-16-reader-first-v1",
+      "id": "DfyHqKcExpe",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfyHqKcExpe",
+      "publishedAt": "2026-11-16T00:56:52.000Z",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-16T00:57:55.027Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-16T00:57:55.027Z"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "copyVersion": "2026-11-16-reader-first-v1",
+      "id": "pfbid02wxx1Xg7M9xDkuKV8j3jrdzKh7dEB9au7ou71WYXrGxNPAF8hqLmF2kZmsPYas2gnl",
+      "publicUrl": "https://facebook.com/LTUOSSDTaiwan/posts/pfbid02wxx1Xg7M9xDkuKV8j3jrdzKh7dEB9au7ou71WYXrGxNPAF8hqLmF2kZmsPYas2gnl",
+      "publishedAt": "2026-11-16T08:57:00+08:00",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-16T00:59:06.823Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-16T00:59:06.823Z",
+      "mediaKind": "uploaded-photo",
+      "photoAttachedAt": "2026-11-16T00:56:50.223Z",
+      "copyAddedAt": "2026-11-16T00:57:07.166Z",
+      "photoReadyEvidence": "1080x1350 ready with edit/remove controls before text pasted",
+      "photoAttachments": [
+        {
+          "id": "1121039280672269",
+          "url": "https://www.facebook.com/photo/?fbid=1121039280672269"
+        }
+      ],
+      "publicPhotoScreenshot": "docs/social-posts/2026-11-16/scholarship-facebook-public-photo.png",
+      "mediaEvidence": "Native public photo viewer visibly showed the uploaded campaign image, account and public audience; docs/social-posts/2026-11-16/scholarship-facebook-public-photo.png",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-16T00:59:06.823Z",
+      "publishedTimePrecision": "minute; native published-history label"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "account": "Peter Chen",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "copyVersion": "2026-11-16-reader-first-v1",
+      "id": "7527897791940112384",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7527897791940112384/",
+      "publishedAt": null,
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-16T00:59:18.388Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-16T00:59:18.388Z",
+      "publishedTimeLabel": "剛剛"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "copyVersion": "2026-11-16-reader-first-v1",
+      "id": "DfyH31MI9nQ",
+      "publicUrl": "https://www.instagram.com/p/DfyH31MI9nQ/",
+      "publishedAt": "2026-11-16T00:58:44.000Z",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-16T01:00:40.643Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-16T01:00:40.643Z"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "copyVersion": "2026-11-16-reader-first-v1",
+      "id": "DfyIEyTE730",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfyIEyTE730",
+      "publishedAt": "2026-11-16T01:00:30.000Z",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-16T01:01:47.833Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-16T01:01:47.833Z"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "account": "Peter Chen",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "copyVersion": "2026-11-16-reader-first-v1",
+      "id": "7527898485451427841",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7527898485451427841/",
+      "publishedAt": null,
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-16T01:02:11.331Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-16T01:02:11.331Z",
+      "publishedTimeLabel": "剛剛"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "copyVersion": "2026-11-16-reader-first-v1",
+      "id": "DfyITjPI2yV",
+      "publicUrl": "https://www.instagram.com/p/DfyITjPI2yV/",
+      "publishedAt": "2026-11-16T01:02:31.000Z",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-16T01:03:40.818Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-16T01:03:40.818Z"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "copyVersion": "2026-11-16-reader-first-v1",
+      "id": "1121042860671911",
+      "publicUrl": "https://facebook.com/LTUOSSDTaiwan/posts/pfbid02a365PQU3MzozdwAbGqsyuRszLz1hSN4XZ8ZPenhQ6SVBtcCAie32kx5P6oNjELdEl",
+      "publishedAt": "2026-11-16T09:01:00+08:00",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-16T01:03:55.368Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-16T01:03:55.368Z",
+      "mediaKind": "uploaded-photo",
+      "photoAttachedAt": "2026-11-16T01:01:26.148Z",
+      "copyAddedAt": "2026-11-16T01:01:45.772Z",
+      "photoReadyEvidence": "1080x1350 ready with edit/remove buttons before text pasted",
+      "photoAttachments": [
+        {
+          "id": "1121042284005302",
+          "url": "https://www.facebook.com/photo/?fbid=1121042284005302"
+        }
+      ],
+      "publicPhotoScreenshot": "docs/social-posts/2026-11-16/study-abroad-facebook-public-photo.png",
+      "mediaEvidence": "Native public photo viewer visibly showed the uploaded campaign image, account and public audience; docs/social-posts/2026-11-16/study-abroad-facebook-public-photo.png",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-16T01:03:55.368Z",
+      "publishedTimePrecision": "minute; native published-history label"
+    }
+  ],
+  "gaps": [],
+  "deadlineMet": false,
   "peterReview": {
     "status": "fewer-new-posts",
     "availableNewCount": 1,
     "reviewedAt": "2026-11-16T00:32:40.474Z",
-    "reason": "Newest Denzel column is eligible; two magazine promotions excluded and Sweden/Princeton columns already imported. Native page reviewed through three days ago."
-  },
-  "radarTotal": 284,
-  "deployment": {
-    "commit": "cf4d5f296dbdae84fbb7cd30f99f504c00743006",
-    "runId": 43780850329,
-    "status": "success",
-    "verifiedAt": "2026-11-16T00:39:19.178Z"
+    "reason": "Newest Denzel column is eligible; two magazine promotions excluded and Sweden/Princeton columns already imported. Native page reviewed through three days ago.",
+    "checkedAt": "2026-11-16T00:32:40.474Z",
+    "sourceUrls": [
+      "https://www.facebook.com/profile.php?id=61585164670358",
+      "https://www.facebook.com/permalink.php?story_fbid=pfbid02sQ1Gr186vsFRmqNykrcJCfofTLsN5W1eVqEhtmpsXK9JEiQRuDTkNDqYx2g1z89Vl&id=61585164670358"
+    ]
   },
   "build": {
     "status": "success",
@@ -454,9 +776,100 @@
     ],
     "python": "Existing Codex runtime Python; Windows app alias unusable."
   },
-  "updatedAt": "2026-11-16T00:39:19.178Z",
-  "gaps": [
-    "Native social publication and final acceptance in progress"
-  ],
-  "deadlineMet": false
+  "radarTotal": 284,
+  "deployment": {
+    "commit": "4343fceafefa3d6f1d6dcf85d4ec5950f09da497",
+    "contentCommit": "cf4d5f296dbdae84fbb7cd30f99f504c00743006",
+    "runId": 43781664957,
+    "status": "success",
+    "completedAt": "2026-11-16T00:41:57Z",
+    "verifiedAt": "2026-11-16T01:10:35.063Z",
+    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/43781664957"
+  },
+  "newFacebookPagePost": {
+    "campaign": "new-facebook-page",
+    "network": "facebook",
+    "account": "環球國際教育新聞網",
+    "articleUrl": "https://globalednews.com/news/european-universities-2027-call-student-implications/",
+    "copyVersion": "2026-11-16-reader-first-v1",
+    "id": "122123147703505473",
+    "publicUrl": "https://facebook.com/permalink.php?story_fbid=pfbid02fyknxG3s8nVz7mYTBBKDewxHAP98NxZEq6Lmdo6RJsTDccUQriQbKvPqzc83m43Tl&id=61595164194381",
+    "publishedAt": "2026-11-16T09:04:00+08:00",
+    "status": "PUBLISHED",
+    "verifiedAt": "2026-11-16T01:05:32.070Z",
+    "imageCount": 1,
+    "mediaStatus": "VERIFIED",
+    "mediaVerifiedAt": "2026-11-16T01:05:32.070Z",
+    "pageId": "61595164194381",
+    "mediaKind": "uploaded-photo",
+    "photoAttachedAt": "2026-11-16T01:03:02.548Z",
+    "copyAddedAt": "2026-11-16T01:03:15.933Z",
+    "photoReadyEvidence": "Native create-post dialog displayed full EU photo and edit/remove controls before text paste",
+    "photoAttachments": [
+      {
+        "id": "122123147433505473",
+        "url": "https://www.facebook.com/photo/?fbid=122123147433505473"
+      }
+    ],
+    "publicPhotoScreenshot": "docs/social-posts/2026-11-16/new-facebook-page-public-photo.png",
+    "mediaEvidence": "Native public photo viewer visibly showed the uploaded campaign image, account and public audience; docs/social-posts/2026-11-16/new-facebook-page-public-photo.png",
+    "previewStatus": "VERIFIED",
+    "previewVerifiedAt": "2026-11-16T01:05:32.070Z",
+    "publishedTimePrecision": "minute; native published-history label"
+  },
+  "acceptance": {
+    "desktop": true,
+    "mobile": true,
+    "seo": true,
+    "verifiedAt": "2026-11-16T01:09:32.743Z",
+    "uiEvidence": "docs/daily-checks/2026-11-16/live-ui-check.json",
+    "httpEvidence": "docs/daily-checks/2026-11-16/live-http-check.json",
+    "details": "Production desktop and 361px content-width mobile have no horizontal overflow. Radar query, country/status filters, zero-result/reset and load-more checked. 14 ZH/EN pages return 200, matching canonical, OG and schema; English main text has no Chinese. Eleven unique article/OG images decoded; all three news in sitemap, News sitemap and weekly RSS; all three new awards in weekly RSS."
+  },
+  "ltuMediaReview": {
+    "verifiedAt": "2026-11-16T01:09:32.743Z",
+    "libraryCount": 12,
+    "rotation": [
+      "https://www.ctee.com.tw/news/20260401701821-431204",
+      "https://www.ctee.com.tw/news/20250723702079-431204",
+      "https://udn.com/news/story/6898/9271435"
+    ],
+    "notes": "Three rotated external media stories retain original historical dates; not described as new reporting."
+  },
+  "campusReview": {
+    "checkedAt": "2026-11-16T01:10:35.063Z",
+    "schools": [
+      {
+        "name": "國立中山大學",
+        "result": "2027/28交換申請11月17日17:00截止；11月20日為補正日，非報名延期。已用於今日校園社群。",
+        "source": "https://oia.nsysu.edu.tw/p/405-1308-384608,c20621.php?Lang=zh-tw"
+      },
+      {
+        "name": "國立中興大學",
+        "result": "查閱線索已於9月截止，不作仍開放宣傳。"
+      },
+      {
+        "name": "國立清華大學",
+        "result": "查閱線索系所10月8日截止，不作仍開放宣傳。"
+      }
+    ]
+  },
+  "manualActions": [],
+  "completedAt": "2026-11-16T01:11:27.659Z",
+  "verification": {
+    "status": "COMPLETE",
+    "verifiedAt": "2026-11-16T01:11:27.659Z",
+    "command": "node scripts/verify-daily-delivery.mjs 2026-11-16",
+    "evidence": "docs/daily-checks/2026-11-16/verify-daily-delivery.log",
+    "checkedIn": [
+      "clean-runtime",
+      "OneDrive-formal-repository"
+    ]
+  },
+  "deliveryNotes": [
+    "08:00 deadline missed; completed later the same morning without lowering checks.",
+    "All 16 main posts and four Threads child segments read back on native platforms; no duplicates.",
+    "Formal source and evidence saved locally in OneDrive; cloud synchronization not independently verified.",
+    "Evidence-only commit follows deployment; public site content remains the successful 4343fce deployment."
+  ]
 }

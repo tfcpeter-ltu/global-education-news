@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-16",
+  "verifiedAt": "2026-11-16T01:09:32.743Z",
+  "desktop": {
+    "images": [
+      {
+        "alt": "Bristol Clifton Suspension Bridge 實景與 UWE Bristol 實作導向、職涯接軌招生廣告",
+        "loaded": true,
+        "src": "https://globalednews.com/ads/images/uwe-bristol-floating-ad.webp"
+      },
+      {
+        "alt": "布魯塞爾歐盟執委會建築",
+        "loaded": true,
+        "src": "https://globalednews.com/images/daily/2026-11-16/eu.jpg"
+      },
+      {
+        "alt": "愛丁堡皇家蘇格蘭藝術院建築；非事件現場",
+        "loaded": true,
+        "src": "https://globalednews.com/images/daily/2026-11-16/scotland.jpg"
+      },
+      {
+        "alt": "羅德島大學Kingston校區空拍",
+        "loaded": true,
+        "src": "https://globalednews.com/images/daily/2026-11-16/uri.jpg"
+      },
+      {
+        "alt": "Cambridge and Enjoy ABC 企業英語課程形象",
+        "loaded": true,
+        "src": "https://globalednews.com/ads/images/cambridge-enjoyabc-business.webp"
+      },
+      {
+        "alt": "Cambridge",
+        "loaded": true,
+        "src": "https://globalednews.com/ads/images/cambridge-language-logo.png"
+      },
+      {
+        "alt": "Enjoy ABC",
+        "loaded": true,
+        "src": "https://globalednews.com/ads/images/enjoyabc-logo.png"
+      },
+      {
+        "alt": "",
+        "loaded": true,
+        "src": "https://globalednews.com/ads/images/royal-crown-school-home-banner.webp"
+      },
+      {
+        "alt": "布魯塞爾歐盟執委會建築",
+        "loaded": false,
+        "src": "https://globalednews.com/images/daily/2026-11-16/eu.jpg"
+      },
+      {
+        "alt": "愛丁堡皇家蘇格蘭藝術院建築；非事件現場",
+        "loaded": false,
+        "src": "https://globalednews.com/images/daily/2026-11-16/scotland.jpg"
+      },
+      {
+        "alt": "羅德島大學Kingston校區空拍",
+        "loaded": false,
+        "src": "https://globalednews.com/images/daily/2026-11-16/uri.jpg"
+      },
+      {
+        "alt": "倫敦大學學院主圖書館內部",
+        "loaded": false,
+        "src": ""
+      },
+      {
+        "alt": "墨爾本Yarra Flats Park與遠方城市景觀",
+        "loaded": false,
+        "src": ""
+      },
+      {
+        "alt": "英國內政部建築外觀",
+        "loaded": false,
+        "src": ""
+      },
+      {
+        "alt": "Peter的國際教育講座",
+        "loaded": false,
+        "src": ""
+      }
+    ],
+    "ltuMore": true,
+    "scrollWidth": 2058,
+    "width": 2058
+  },
+  "mobile": {
+    "images": [
+      {
+        "loaded": true,
+        "src": "https://globalednews.com/images/share-photos/44f5463cd491321bca8187b4.jpg"
+      }
+    ],
+    "scrollWidth": 361,
+    "width": 361
+  },
+  "radar": {
+    "total": 284,
+    "mobileWidth": 361,
+    "noHorizontalOverflow": true,
+    "query": "川嶋",
+    "results": 1,
+    "country": "日本",
+    "status": "開放中",
+    "emptyQueryResults": 0,
+    "resetResults": 284,
+    "loadMoreBefore": 27,
+    "loadMoreAfter": 51
+  },
+  "ltu": {
+    "libraryCount": 12,
+    "rotation": [
+      "https://www.ctee.com.tw/news/20260401701821-431204",
+      "https://www.ctee.com.tw/news/20250723702079-431204",
+      "https://udn.com/news/story/6898/9271435"
+    ]
+  }
+}

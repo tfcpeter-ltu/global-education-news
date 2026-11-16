@@ -1,0 +1,15 @@
+{
+  "status": "success",
+  "verifiedAt": "2026-11-16T00:32:40.474Z",
+  "astroPages": 701,
+  "bilingualPairs": 991,
+  "missingTranslations": 0,
+  "checks": [
+    "news-depth",
+    "scholarship-status",
+    "bilingual",
+    "education-seo",
+    "search-index"
+  ],
+  "python": "Existing Codex runtime Python; Windows app alias unusable."
+}
