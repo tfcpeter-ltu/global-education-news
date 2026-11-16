@@ -1,32 +1,32 @@
 {
   "status": "ready",
-  "updatedAt": "2026-11-15T07:48:40.491Z",
+  "updatedAt": "2026-11-16T07:56:58.328Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
-    {
-      "title": "澳洲大學領導組織整合上路：學生代表與治理透明度成下一步｜環球教育新聞網 Global Education News",
-      "path": "/news/australian-university-governance-transition-november-2026/",
-      "views": 10
-    },
     {
       "title": "英國擬調整長期居留制度，留學生如何看待已累積的年資？｜環球教育新聞網 Global Education News",
       "path": "/news/uk-settlement-reform-ukcisa-student-years/",
       "views": 6
     },
     {
-      "title": "國際教育新聞｜全球大學、留學政策與招生動態｜環球教育新聞網",
-      "path": "/news/",
+      "title": "美國國際教育週登場：從校園活動看留學生能否找到實際支援｜環球教育新聞網 Global Education News",
+      "path": "/news/us-international-education-week-campus-support-2026/",
       "views": 5
     },
     {
-      "title": "印度加入歐盟科研合作再進一步：談判完成，2027上路仍待程序｜環球教育新聞網 Global Education News",
-      "path": "/news/eu-india-horizon-europe-negotiations-concluded-2027/",
+      "title": "國際教育新聞｜全球大學、留學政策與招生動態｜環球教育新聞網",
+      "path": "/news/",
       "views": 4
     },
     {
-      "title": "澳洲討論留學代辦認證：選顧問時，先查校方合作與申訴管道｜環球教育新聞網 Global Education News",
-      "path": "/news/australia-education-agent-accreditation-proposal-2026/",
+      "title": "歐洲大學聯盟新一輪徵案開放：跨校合作經費不等於學生獎學金｜環球教育新聞網 Global Education News",
+      "path": "/news/european-universities-2027-call-student-implications/",
+      "views": 4
+    },
+    {
+      "title": "澳洲大學領導組織整合上路：學生代表與治理透明度成下一步｜環球教育新聞網 Global Education News",
+      "path": "/news/australian-university-governance-transition-november-2026/",
       "views": 4
     }
   ],
@@ -34,61 +34,61 @@
     {
       "name": "台灣",
       "mapName": "Taiwan",
-      "sessions": 588,
-      "share": 71.9
+      "sessions": 310,
+      "share": 62.2
     },
     {
       "name": "美國",
       "mapName": "United States",
-      "sessions": 147,
-      "share": 18
-    },
-    {
-      "name": "英國",
-      "mapName": "United Kingdom",
-      "sessions": 12,
-      "share": 1.5
+      "sessions": 128,
+      "share": 25.7
     },
     {
       "name": "中國",
       "mapName": "China",
-      "sessions": 11,
-      "share": 1.3
+      "sessions": 14,
+      "share": 2.8
     },
     {
       "name": "愛爾蘭",
       "mapName": "Ireland",
-      "sessions": 11,
-      "share": 1.3
-    },
-    {
-      "name": "瑞典",
-      "mapName": "Sweden",
-      "sessions": 9,
-      "share": 1.1
+      "sessions": 10,
+      "share": 2
     },
     {
       "name": "印度",
       "mapName": "India",
-      "sessions": 7,
-      "share": 0.9
+      "sessions": 8,
+      "share": 1.6
     },
     {
-      "name": "澳洲",
-      "mapName": "Australia",
-      "sessions": 5,
+      "name": "瑞典",
+      "mapName": "Sweden",
+      "sessions": 7,
+      "share": 1.4
+    },
+    {
+      "name": "日本",
+      "mapName": "Japan",
+      "sessions": 3,
       "share": 0.6
     },
     {
-      "name": "德國",
-      "mapName": "Germany",
-      "sessions": 4,
-      "share": 0.5
+      "name": "南韓",
+      "mapName": "South Korea",
+      "sessions": 3,
+      "share": 0.6
     },
     {
-      "name": "印尼",
-      "mapName": "Indonesia",
+      "name": "英國",
+      "mapName": "United Kingdom",
       "sessions": 3,
+      "share": 0.6
+    },
+    {
+      "name": "加拿大",
+      "mapName": "Canada",
+      "sessions": 2,
       "share": 0.4
     }
   ]
