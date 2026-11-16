@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-16",
+  "baseline": "904b10d66eee11defe96d174cb54ee12b962b8e5",
+  "commit": "f79efb421b1f1543fb4a3ccd7668ba166926c08c",
+  "deploymentRun": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/43802573918",
+  "deployment": "success",
+  "videosBefore": 159,
+  "videosAfter": 165,
+  "newVideos": 6,
+  "recommendedEntriesUnchanged": true,
+  "tests": [
+    "Vlog source and built checks passed165 videos",
+    "Astro631 pages",
+    "Bilingual921 pairs passed; zero missing strings",
+    "git diff --check passed",
+    "Corresponding GitHub build/deploy/indexnow succeeded"
+  ],
+  "liveChinese": "Six today titles and thumbnails loaded. NUS College search two matching records. Official filter117. UBC original iframe played and elapsed0:12 of1:28 observed. Return-home link retained.",
+  "liveEnglish": "Six translated today titles and six thumbnails loaded. English home link retained.",
+  "playerLimit": "Public/embed flags and thumbnails verified for all six; live playback checked on UBC, not continuous playback of every video.",
+  "socialPublished": 10,
+  "cloudSyncVerified": false,
+  "recovery": [
+    "Used existing Python Launcher after Windows Store python alias failed.",
+    "Initial git push named stale local main; rejected without mutation. Ancestor checked; HEAD pushed normally to main with no force."
+  ],
+  "images": {
+    "mode": "built-in imagegen",
+    "styles": [
+      "woodblock",
+      "gouache/pencil"
+    ],
+    "path": "deliveries/vlog-promotion-2026-11-16",
+    "fictionalSceneDisclosure": true
+  }
+}
