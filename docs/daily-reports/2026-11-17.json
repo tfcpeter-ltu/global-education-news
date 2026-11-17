@@ -1,0 +1,736 @@
+{
+  "currentPhase": "PUBLISH_ACCEPTANCE",
+  "gaps": [
+    "尚待社群全部發布回讀、正式站互動驗收、週報RSS納入今日新增紀錄及最終每日驗證"
+  ],
+  "scholarshipBaselineSlugs": [
+    "2026-08-bristol-think-big",
+    "2026-08-manchester-global-futures-taiwan-2027",
+    "2026-08-mcgill-mccall-macbain",
+    "2026-08-melbourne-graduate-research",
+    "2026-08-melbourne-international-excellence-graduate-2027",
+    "2026-08-moe-eu-scholarship",
+    "2026-08-moe-government-sponsored-study",
+    "2026-08-moe-new-southbound-internship",
+    "2026-08-moe-overseas-scholarship",
+    "2026-08-moe-study-abroad-fly",
+    "2026-08-moe-study-abroad-internship",
+    "2026-08-moe-study-abroad-needy",
+    "2026-08-moe-top100-phd",
+    "2026-08-monash-awards-2027",
+    "2026-08-oxford-clarendon",
+    "2026-08-sydney-vcis-2027",
+    "2026-08-tgpi-dream-factory",
+    "2026-08-tgpi-global-flight",
+    "2026-08-ubc-four-year-doctoral-fellowship",
+    "2026-08-ubc-imes",
+    "2026-08-ubc-international-scholars-2027",
+    "2026-08-ubc-killam-doctoral-2027",
+    "2026-08-ucl-global-masters",
+    "2026-08-ucl-global-undergraduate",
+    "2026-08-unsw-scientia-2027",
+    "2026-08-uq-international-high-achievers-2027",
+    "2026-08-utoronto-pearson-2027",
+    "2026-09-adelaide-academic-excellence-2027",
+    "2026-09-adelaide-merit-2027",
+    "2026-09-auckland-international-student-excellence-2027",
+    "2026-09-cardiff-vice-chancellor-taiwan-january-2027",
+    "2026-09-chevening-delta-climate-2027",
+    "2026-09-chevening-taiwan",
+    "2026-09-daad-architecture-masters",
+    "2026-09-deakin-excellence-international-2027",
+    "2026-09-deakin-international-merit-2027",
+    "2026-09-deakin-vice-chancellor-international-2027",
+    "2026-09-dundee-east-asia-undergraduate-january-2027",
+    "2026-09-dundee-global-excellence-undergraduate-january-2027",
+    "2026-09-erasmus-mundus-2027",
+    "2026-09-eth-zurich-esop-2027",
+    "2026-09-exeter-pgt-taiwan-january-2027",
+    "2026-09-fulbright-experience-america-research-award",
+    "2026-09-fulbright-non-academic-professional-award",
+    "2026-09-fulbright-senior-research-award",
+    "2026-09-gates-cambridge-2027",
+    "2026-09-harvard-academy-scholars-2027",
+    "2026-09-harvard-radcliffe-fellowship-2027",
+    "2026-09-hkpfs-2027",
+    "2026-09-imperial-presidents-phd-2027",
+    "2026-09-kent-international-undergraduate-january-2027",
+    "2026-09-knight-hennessy-2027",
+    "2026-09-latrobe-high-achiever-2027",
+    "2026-09-leicester-global-excellence-jan-apr-2027",
+    "2026-09-macquarie-vcis-2027",
+    "2026-09-monash-international-merit-2027",
+    "2026-09-ntu-taiwan-scholarship-jan-2027",
+    "2026-09-ntu-taiwan-stem-scholarship-jan-2027",
+    "2026-09-oxford-clarendon-2027",
+    "2026-09-rmit-up-academic-english-bursary-2027",
+    "2026-09-strathclyde-sbs-international-masters-jan-2027",
+    "2026-09-sydney-rtp-international-2027",
+    "2026-09-taiwan-anu-phd-scholarship-2027",
+    "2026-09-tasmanian-international-scholarship-2027",
+    "2026-09-ubc-international-scholars-2027",
+    "2026-09-uc-berkeley-beahrs-elp-2027",
+    "2026-09-uni-iowa-partner-state-taiwan-2027",
+    "2026-09-university-iowa-national-scholars-2027",
+    "2026-09-unsw-international-scientia-2027",
+    "2026-09-uow-postgraduate-academic-excellence-2027",
+    "2026-09-uow-university-excellence-2027",
+    "2026-09-utoronto-lester-b-pearson-2027",
+    "2026-09-yenching-academy-2027-taiwan",
+    "2026-10-alabama-international-automatic-merit-2027",
+    "2026-10-american-university-egls-2027",
+    "2026-10-aut-north-asia-2027",
+    "2026-10-bangor-vice-chancellor-january-2027",
+    "2026-10-bath-international-excellence-ug-2027",
+    "2026-10-boise-state-international-fall-2027",
+    "2026-10-bond-business-postgraduate-bursary",
+    "2026-10-bond-international-stand-out",
+    "2026-10-bond-undergraduate-excellence",
+    "2026-10-bournemouth-academic-excellence-january-2027",
+    "2026-10-canterbury-guardian-commerce-2027",
+    "2026-10-canterbury-international-first-year-offshore-2027",
+    "2026-10-cardiff-vice-chancellor-january-2027",
+    "2026-10-cumbria-international-undergraduate-january-2027",
+    "2026-10-curtin-future-leaders-2027",
+    "2026-10-curtin-global-excellence-2027",
+    "2026-10-dayton-international-merit",
+    "2026-10-dundee-global-excellence-september-2027",
+    "2026-10-ecu-north-asia-2027",
+    "2026-10-essex-international-undergraduate-2027",
+    "2026-10-exeter-taiwan-pgt-2027",
+    "2026-10-flinders-excellence-2027",
+    "2026-10-flinders-global-2027",
+    "2026-10-flinders-kickstart-2027",
+    "2026-10-griffith-academic-merit-2027",
+    "2026-10-griffith-vice-chancellor-2027",
+    "2026-10-herts-chancellor-january-2027",
+    "2026-10-iowa-state-international-excellence",
+    "2026-10-iowa-state-international-merit-oneapp-2027",
+    "2026-10-kansas-ku-excellence-2027",
+    "2026-10-kent-pgt-january-2027",
+    "2026-10-kent-state-global-scholarship",
+    "2026-10-kent-state-honors-scholarship",
+    "2026-10-kentucky-bluegrass-2027",
+    "2026-10-kentucky-presidential-2027",
+    "2026-10-kentucky-singletary-2027",
+    "2026-10-lancaster-management-progression-2027",
+    "2026-10-lancaster-masters-excellence-2027",
+    "2026-10-lancaster-regional-taiwan-2027",
+    "2026-10-lancaster-undergraduate-international-excellence-2027",
+    "2026-10-lancaster-undergraduate-regional-2027",
+    "2026-10-lincoln-pathway-merit-2027",
+    "2026-10-lincoln-taught-master-merit-2027",
+    "2026-10-lincoln-undergraduate-vice-chancellor-2027",
+    "2026-10-london-met-east-asia-2027",
+    "2026-10-massey-creative-excellence-masters-2027",
+    "2026-10-massey-toroa-postgraduate-2027",
+    "2026-10-massey-toroa-undergraduate-2027",
+    "2026-10-memphis-community-college-transfer-spring-2027",
+    "2026-10-memphis-graduate-nonresident-merit",
+    "2026-10-memphis-undergraduate-international-merit-2027",
+    "2026-10-miami-ohio-presidential-fellows-2027",
+    "2026-10-miami-ohio-youarewelcomehere-2027",
+    "2026-10-michigan-state-nonresident",
+    "2026-10-missouri-st-provost-international-merit-2027",
+    "2026-10-mizzou-international-honors-2027",
+    "2026-10-mizzou-international-merit-2027",
+    "2026-10-nebraska-global-laureate-2027",
+    "2026-10-newcastle-australia-international-excellence-2027",
+    "2026-10-newcastle-vc-international-undergraduate-2027",
+    "2026-10-ntu-taiwan-january-2027",
+    "2026-10-oklahoma-award-excellence-2027",
+    "2026-10-okstate-international-achievement-freshmen-2027",
+    "2026-10-oregon-state-taiwan-regional",
+    "2026-10-otago-global-masters-2027",
+    "2026-10-otago-global-undergraduate-2027",
+    "2026-10-otago-international-academic-excellence-2027",
+    "2026-10-oxford-brookes-january-2027",
+    "2026-10-portland-state-international-achievement-2027",
+    "2026-10-portsmouth-chancellor-merit-january-2027",
+    "2026-10-qmul-global-talent-pgt-2027",
+    "2026-10-qub-pgt-january-2027",
+    "2026-10-rgu-early-payment-january-2027",
+    "2026-10-rgu-january-2027",
+    "2026-10-sheffield-international-pgt-2027",
+    "2026-10-sheffield-international-undergraduate-2027",
+    "2026-10-st-andrews-tesol-january-2027",
+    "2026-10-stirling-east-asia-pgt-2027",
+    "2026-10-stirling-vice-chancellor-pgt-january-2027",
+    "2026-10-strathclyde-science-january-2027",
+    "2026-10-swansea-international-excellence-january-2027",
+    "2026-10-uea-pg-merit-2027",
+    "2026-10-uni-international-excel-2027",
+    "2026-10-uni-transfer-scholar-2027",
+    "2026-10-unisq-international-excellence-2027",
+    "2026-10-uwa-global-excellence-2027",
+    "2026-10-vuw-postgraduate-international-2027",
+    "2026-10-vuw-undergraduate-international-2027",
+    "2026-10-waikato-research-masters-2027",
+    "2026-10-waikato-vice-chancellor-2027",
+    "2026-10-waterloo-international-entrance-2027",
+    "2026-10-western-sydney-international-undergraduate-2027",
+    "2026-10-westminster-pg-excellence-january-2027",
+    "2026-11-aston-pg-international-community-january-2027",
+    "2026-11-bangor-deans-research-2026-27",
+    "2026-11-bangor-deans-undergraduate",
+    "2026-11-bangor-heads-school-research-2026-27",
+    "2026-11-bcu-international-postgraduate-january-2027",
+    "2026-11-bcu-international-undergraduate-january-2027",
+    "2026-11-brighton-deans-january-2027",
+    "2026-11-brighton-stem-january-2027",
+    "2026-11-brighton-vc-january-2027",
+    "2026-11-central-washington-international",
+    "2026-11-cumbria-global-business-excellence-mba-jan-2027",
+    "2026-11-dundee-family-january-2027",
+    "2026-11-dundee-global-january-2027",
+    "2026-11-durham-inspiring-excellence-postgraduate-2027",
+    "2026-11-durham-inspiring-excellence-undergraduate-2027",
+    "2026-11-exeter-excellence-undergraduate-2027",
+    "2026-11-herts-ug-tri-annual-january-2027",
+    "2026-11-hokkaido-isp-2027",
+    "2026-11-kawashima-shoji-2027",
+    "2026-11-keele-undergraduate-global-2027",
+    "2026-11-kingston-international-merit-january-2027",
+    "2026-11-kyoritsu-foundation-2027",
+    "2026-11-leicester-chancellor-international-taught-masters",
+    "2026-11-lincoln-uk-global-leaders-september-2027",
+    "2026-11-lincoln-uk-global-postgraduate-january-2027",
+    "2026-11-lincoln-uk-global-undergraduate-2027",
+    "2026-11-lincoln-uk-international-alumni-january-2027",
+    "2026-11-mitsui-trade-scholarship-2027",
+    "2026-11-nottingham-trent-sibling-january-2027",
+    "2026-11-peo-international-peace-2027",
+    "2026-11-reading-foundation-excellence-january-2027",
+    "2026-11-reading-frank-palmer-february-2027",
+    "2026-11-reading-masters-excellence-2027",
+    "2026-11-reading-undergraduate-excellence-2027",
+    "2026-11-royal-holloway-international-undergraduate-2027",
+    "2026-11-sheffield-hallam-recent-graduate-january-2027",
+    "2026-11-simmons-distinguished-scholar",
+    "2026-11-stirling-international-undergraduate-2027",
+    "2026-11-strathclyde-engineering-international-jan-2027",
+    "2026-11-strathclyde-hass-deans-january-2027",
+    "2026-11-surrey-international-excellence-postgraduate-2027",
+    "2026-11-surrey-international-excellence-undergraduate-2027",
+    "2026-11-surrey-mba-service-stewardship-2027",
+    "2026-11-taiwan-cambridge-phd-2027",
+    "2026-11-trent-moore-family-2027",
+    "2026-11-westminster-early-acceptance-january-2027",
+    "2026-11-wichita-global-select",
+    "2026-11-wsu-international-merit-spring-2027",
+    "catalog-aalto-excellence",
+    "catalog-berea-international-aid",
+    "catalog-bocconi-access-100",
+    "catalog-bocconi-access-80-60",
+    "catalog-bocconi-boost",
+    "catalog-bocconi-sport",
+    "catalog-chalmers-ipoet",
+    "catalog-daad-all-disciplines",
+    "catalog-daad-fine-art",
+    "catalog-daad-music",
+    "catalog-daad-performing-arts",
+    "catalog-duke-karsh",
+    "catalog-eiffel-master",
+    "catalog-eiffel-phd",
+    "catalog-emory-scholars",
+    "catalog-epfl-excellence",
+    "catalog-erasmus-mundus",
+    "catalog-eth-esop",
+    "catalog-geneva-excellence",
+    "catalog-gks-graduate",
+    "catalog-gks-undergraduate",
+    "catalog-goh-keng-swee",
+    "catalog-goi-ies",
+    "catalog-harvard-international-aid",
+    "catalog-helsinki-scholarship",
+    "catalog-jasso-honors",
+    "catalog-kaist-graduate",
+    "catalog-kaist-undergraduate",
+    "catalog-knight-hennessy",
+    "catalog-kth-scholarship",
+    "catalog-kyoto-iup",
+    "catalog-lund-global",
+    "catalog-maastricht-brightlands",
+    "catalog-maastricht-global-studies",
+    "catalog-maastricht-high-potential",
+    "catalog-maastricht-social-justice",
+    "catalog-maeci-italy",
+    "catalog-master-mind-flanders",
+    "catalog-mext-japanese-studies",
+    "catalog-mext-kosen-2027",
+    "catalog-mext-research-2027",
+    "catalog-mext-specialized-training-2027",
+    "catalog-mext-teacher-training",
+    "catalog-mext-undergraduate-2027",
+    "catalog-miami-stamps",
+    "catalog-mit-international-aid",
+    "catalog-nl-scholarship",
+    "catalog-nus-international-undergraduate",
+    "catalog-nus-science-technology",
+    "catalog-padua-excellence",
+    "catalog-paris-saclay-idex",
+    "catalog-radboud-nl-scholarship",
+    "catalog-radboud-scholarship",
+    "catalog-science-leuven",
+    "catalog-sciencespo-boutmy",
+    "catalog-snu-gsfs",
+    "catalog-swiss-phd",
+    "catalog-swiss-research-fellowship",
+    "catalog-taiwan-kaist-phd",
+    "catalog-tampere-scholarship",
+    "catalog-trinity-global-excellence",
+    "catalog-tudelft-justus",
+    "catalog-turku-merit",
+    "catalog-ucd-global-excellence",
+    "catalog-uppsala-global",
+    "catalog-utokyo-fellowship",
+    "catalog-utwente-scholarship",
+    "catalog-vanderbilt-cornelius",
+    "catalog-vanderbilt-ingram",
+    "catalog-yale-international-aid"
+  ],
+  "socialPosts": [
+    {
+      "platform": "facebook",
+      "campaign": "news",
+      "account": "LTUOSSDTaiwan",
+      "pageId": "101904929207004",
+      "articleUrl": "https://globalednews.com/news/us-open-doors-2026-new-enrolment-and-fall-snapshot/",
+      "copyVersion": "2026-11-17-reader-first-v1",
+      "photoAttachedAt": "2026-11-17T00:33:03.699Z",
+      "photoReadyEvidence": "Native composer shows 1080 x 1350 uploaded photo, edit/remove photo controls, link preview disabled; Facebook only, public.",
+      "copyAddedAt": "2026-11-17T00:33:04.241Z",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-17T00:33:13.850Z",
+      "submittedAt": "2026-11-17T00:33:13.850Z",
+      "id": "1122002580575939",
+      "publicUrl": "https://www.facebook.com/photo/?fbid=1122001893909341",
+      "publishedAt": "2026-11-17T08:33:00+08:00",
+      "timePrecision": "minute displayed by platform",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-17T00:36:45.668Z",
+      "mediaKind": "uploaded-photo",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-17T00:36:45.668Z",
+      "photoAttachments": [
+        {
+          "id": "1122001893909341",
+          "url": "https://www.facebook.com/photo/?fbid=1122001893909341"
+        }
+      ],
+      "publicPhotoScreenshot": "docs/social-posts/2026-11-17/facebook-news-public.png",
+      "mediaEvidence": "Native public photo viewer displays complete campus/headline card, page identity, text, public audience and 2026-11-17 08:33."
+    },
+    {
+      "platform": "instagram",
+      "campaign": "news",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/news/us-open-doors-2026-new-enrolment-and-fall-snapshot/",
+      "copyVersion": "2026-11-17-reader-first-v1",
+      "threadsCrosspost": false,
+      "crosspostCheckedAt": "2026-11-17T00:36:59.792Z",
+      "submittedAt": "2026-11-17T00:36:59.792Z",
+      "id": "Df0qMQpE-2e",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Df0qMQpE-2e/",
+      "publishedAt": "2026-11-17T00:37:07.000Z",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-17T00:38:24.669Z",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-17T00:38:24.669Z",
+      "imageCount": 1,
+      "publicPhotoScreenshot": "docs/social-posts/2026-11-17/instagram-news-public.png"
+    },
+    {
+      "platform": "facebook",
+      "campaign": "scholarship",
+      "account": "LTUOSSDTaiwan",
+      "pageId": "101904929207004",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "copyVersion": "2026-11-17-reader-first-v1",
+      "photoAttachedAt": "2026-11-17T00:38:42.895Z",
+      "photoReadyEvidence": "1080x1350 uploaded radar cover, photo edit/remove controls, Facebook-only destination, link preview disabled.",
+      "copyAddedAt": "2026-11-17T00:38:43.414Z",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-17T00:38:53.802Z",
+      "submittedAt": "2026-11-17T00:38:53.802Z",
+      "id": "1122006703908860",
+      "publicUrl": "https://www.facebook.com/photo/?fbid=1122006120575585",
+      "publishedAt": "2026-11-17T08:38:00+08:00",
+      "timePrecision": "minute displayed by platform",
+      "status": "PUBLISHED",
+      "verifiedAt": "2026-11-17T00:41:24.658Z",
+      "mediaKind": "uploaded-photo",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-17T00:41:24.658Z",
+      "photoAttachments": [
+        {
+          "id": "1122006120575585",
+          "url": "https://www.facebook.com/photo/?fbid=1122006120575585"
+        }
+      ],
+      "publicPhotoScreenshot": "docs/social-posts/2026-11-17/facebook-scholarship-public.png",
+      "mediaEvidence": "Native public photo viewer displays full 287 radar cover, correct page, date and text."
+    }
+  ],
+  "newsPublished": [
+    {
+      "slug": "us-open-doors-2026-new-enrolment-and-fall-snapshot",
+      "title": "美國新國際生減近18%：Open Doors兩組數據，台灣申請者應如何讀",
+      "url": "https://globalednews.com/news/us-open-doors-2026-new-enrolment-and-fall-snapshot/",
+      "sources": [
+        {
+          "label": "IIE — Open Doors2026 annual release",
+          "url": "https://opendoorsdata.org/wp-content/uploads/2026/11/Open-Doors-Data-Press-Release_2026.pdf"
+        },
+        {
+          "label": "The PIE — reporting and interview with IIE researcher",
+          "url": "https://thepienews.com/us-total-number-of-international-students-drops-for-first-time-in-five-years/"
+        },
+        {
+          "label": "IIE — 2026 Fast Facts tables",
+          "url": "https://opendoorsdata.org/wp-content/uploads/2026/11/OD26_Fast-Facts.pdf"
+        },
+        {
+          "label": "IIE — Fall2026 Snapshot methodology and findings",
+          "url": "https://opendoorsdata.org/wp-content/uploads/2026/11/IIE_Fall-Snapshot_2026_Key-Findings_2026.pdf"
+        },
+        {
+          "label": "IIE — survey definitions and limitations",
+          "url": "https://opendoorsdata.org/faq/"
+        }
+      ],
+      "verifiedAt": "2026-11-17T00:43:23.714Z",
+      "publishedPath": "src/pages/news/us-open-doors-2026-new-enrolment-and-fall-snapshot.md"
+    },
+    {
+      "slug": "uk-home-office-compliance-conference-no-student-cap-2026",
+      "title": "英國內政部否認以合規管制留學生總量，大學要求更透明的風險資料",
+      "url": "https://globalednews.com/news/uk-home-office-compliance-conference-no-student-cap-2026/",
+      "sources": [
+        {
+          "label": "UKVI — current Student Sponsor Compliance guidance",
+          "url": "https://www.gov.uk/government/publications/student-sponsor-guidance/student-sponsor-compliance-accessible"
+        },
+        {
+          "label": "The PIE — original16November conference reporting",
+          "url": "https://thepienews.com/tighter-compliance-not-tactic-to-manage-international-student-numbers-says-uk-home-office/"
+        }
+      ],
+      "verifiedAt": "2026-11-17T00:43:23.714Z",
+      "publishedPath": "src/pages/news/uk-home-office-compliance-conference-no-student-cap-2026.md"
+    },
+    {
+      "slug": "idp-rejects-blackstone-third-proposal-november-2026",
+      "title": "IDP拒絕第三次收購提案：留學家庭應分開看企業估值與服務安排",
+      "url": "https://globalednews.com/news/idp-rejects-blackstone-third-proposal-november-2026/",
+      "sources": [
+        {
+          "label": "IDP —16November2026 ASX rejection announcement",
+          "url": "https://company-announcements.afr.com/asx/iel/3d65013a-e13d-11f1-875f-124ac9d8af37.pdf"
+        },
+        {
+          "label": "Reuters — third proposal rejection and sector context",
+          "url": "https://www.investing.com/news/stock-market-news/australias-idp-rebuffs-blackstones-third-buyout-attempt-at-5645-million-valuation-5028181"
+        },
+        {
+          "label": "The PIE — rejection and independently confirmed India office consolidation",
+          "url": "https://thepienews.com/idp-rejects-sweetened-bid-from-private-equity-giant-blackstone/"
+        }
+      ],
+      "verifiedAt": "2026-11-17T00:43:23.714Z",
+      "publishedPath": "src/pages/news/idp-rejects-blackstone-third-proposal-november-2026.md"
+    }
+  ],
+  "mainSha": "c247ebd1ca2f852876019c580a067e1cf9d531f9",
+  "date": "2026-11-17",
+  "runtime": "C:/Users/User/AppData/Local/Temp/globalednews-20261117",
+  "status": "in_progress",
+  "updatedAt": "2026-11-17T00:43:23.714Z",
+  "startedAt": "2026-11-17T05:00:07.3211296+08:00",
+  "scholarshipAdditions": [
+    {
+      "slug": "2026-11-seiwa-international-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-11-seiwa-international-2027/",
+      "title": "清和國際留學生獎學金2027：指定日本大學在學生每月8萬至10萬日圓",
+      "publishedPath": "src/pages/scholarships/items/2026-11-seiwa-international-2027.md",
+      "sources": [
+        {
+          "label": "Seiwa Foundation — 2027 guidelines hosted by TUFS",
+          "url": "https://www.tufs.ac.jp/documents/student/tuition_scholarship/scholarship/scholar_261005_1_1.pdf"
+        },
+        {
+          "label": "TUFS — current institutional application deadlines",
+          "url": "https://www.tufs.ac.jp/student/tuition_scholarship/scholarship/ryugakusei.html"
+        },
+        {
+          "label": "Seiwa Foundation — annual programme plan",
+          "url": "https://www.seiwa-zaidan.or.jp/pdf/03-jigyokeikaku-r8.pdf"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-11-17T00:43:23.714Z",
+      "publishedVerifiedAt": "2026-11-17T00:43:23.714Z",
+      "isNew": true,
+      "baselineAbsent": true
+    },
+    {
+      "slug": "2026-11-seiho-scholarship-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-11-seiho-scholarship-2027/",
+      "title": "生命保險協會獎學金2027：在日台灣大三與碩一學生可循校內推薦",
+      "publishedPath": "src/pages/scholarships/items/2026-11-seiho-scholarship-2027.md",
+      "sources": [
+        {
+          "label": "Saitama University — 2027 Seiho application route",
+          "url": "https://www.saitama-u.ac.jp/international/foreign/scholarship/scholarshipdetail/R9JEES_SeihoScholarship.html"
+        },
+        {
+          "label": "Tohoku University — 2027 nationality and award conditions",
+          "url": "https://www.lifesci.tohoku.ac.jp/oncampus/date/category7/detail---id-53514.html"
+        },
+        {
+          "label": "Saitama University — current scholarship table",
+          "url": "https://www.saitama-u.ac.jp/international/foreign/scholarship/"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-11-17T00:43:23.714Z",
+      "publishedVerifiedAt": "2026-11-17T00:43:23.714Z",
+      "isNew": true,
+      "baselineAbsent": true
+    },
+    {
+      "slug": "2026-11-jees-toyota-tsusho-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-11-jees-toyota-tsusho-2027/",
+      "title": "豐田通商留學生獎學金2027：每月10萬日圓，須指定日本大學推薦",
+      "publishedPath": "src/pages/scholarships/items/2026-11-jees-toyota-tsusho-2027.md",
+      "sources": [
+        {
+          "label": "JEES — 2027 Toyota Tsusho official guidelines",
+          "url": "https://koryu.m.u-tokyo.ac.jp/Ev34MKFs/wp-content/uploads/2026/11/%E2%91%A2%E8%B1%8A%E7%94%B0%E9%80%9A%E5%95%86%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85.pdf"
+        },
+        {
+          "label": "Kumamoto GSST — institutional application arrangements",
+          "url": "https://www.fast.kumamoto-u.ac.jp/gsst/bbs/4728/"
+        },
+        {
+          "label": "TUFS — current institutional deadlines",
+          "url": "https://www.tufs.ac.jp/student/tuition_scholarship/scholarship/ryugakusei.html"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-11-17T00:43:23.714Z",
+      "publishedVerifiedAt": "2026-11-17T00:43:23.714Z",
+      "isNew": true,
+      "baselineAbsent": true
+    }
+  ],
+  "preflight": {
+    "loginOrPermissionBlockers": [],
+    "checkedAt": "2026-11-17T05:02:18.6593145+08:00",
+    "accounts": [
+      "Facebook 101904929207004",
+      "Instagram ltuossdtw",
+      "Threads ltuossdtw",
+      "LinkedIn Peter Chen /peter-chen-26a754228",
+      "Facebook 61595164194381 / asset 1355044634361784"
+    ],
+    "submissions": 0,
+    "notes": "All blank editors closed. Facebook current identity is new page. No uploads or copy inserted. Regular FB composer defaults FB+IG; deselect IG before future native FB send.",
+    "nativeComposersVerified": true
+  },
+  "researchCheckpoint": {
+    "scholarshipCandidates": [
+      {
+        "sources": [
+          "https://www.tufs.ac.jp/documents/student/tuition_scholarship/scholarship/scholar_261005_1_1.pdf",
+          "https://www.tufs.ac.jp/student/tuition_scholarship/scholarship/ryugakusei.html"
+        ],
+        "notes": "Foundation guidelines explicitly include Taiwan. UG under30 JPY80000/month; graduate under35 JPY100000/month. TUFS internal deadline today16:30JST. Read full remaining terms and verify alternate institutional route before qualification.",
+        "name": "Seiwa2027"
+      },
+      {
+        "sources": [
+          "https://www.saitama-u.ac.jp/international/foreign/scholarship/",
+          "https://en.apu.ac.jp/studentsupport/assets/file/scholarship_tuition/international/2027/2027_Seiho_Scholarship_INFO.pdf",
+          "https://www.jees.or.jp/sc-scholarship/forinternational/"
+        ],
+        "notes": "Saitama page read: deadlineNov20 11JST, JPY100000/month, UG3 or M1 Apr2027. APU search shows Taiwan eligible. Full guideline and independent implementation verification pending.",
+        "name": "Seiho2027"
+      },
+      {
+        "sources": [
+          "https://www.tufs.ac.jp/student/tuition_scholarship/scholarship/ryugakusei.html",
+          "https://en.apu.ac.jp/studentsupport/assets/file/scholarship_tuition/international/2027/2027_Toyota_Tsusho_Scholarship_INFO.pdf",
+          "https://www.jpss.jp/ja/scholarship/764/"
+        ],
+        "notes": "TUFS internal deadlineNov27 16:30JST read. African priority not exclusive; precise Taiwan eligibility and institutional conditions require full read.",
+        "name": "JEES ToyotaTsusho2027"
+      }
+    ],
+    "sourceResearchExhausted": false,
+    "news": [
+      {
+        "topic": "US Open Doors 2026",
+        "sources": [
+          "https://opendoorsdata.org/wp-content/uploads/2026/11/Open-Doors-Data-Press-Release_2026.pdf",
+          "https://opendoorsdata.org/wp-content/uploads/2026/11/IIE_Fall-Snapshot_2026_Key-Findings_2026.pdf",
+          "https://thepienews.com/us-total-number-of-international-students-drops-for-first-time-in-five-years/"
+        ],
+        "notes": "Official PDFs and PIE read; distinguish 2025/26 census from 809-institution Fall 2026 snapshot. Not drafted."
+      },
+      {
+        "topic": "UK Home Office compliance remarks November 16",
+        "sources": [
+          "https://thepienews.com/tighter-compliance-not-tactic-to-manage-international-student-numbers-says-uk-home-office/",
+          "https://www.gov.uk/government/publications/student-sponsor-guidance/student-sponsor-compliance-accessible"
+        ],
+        "notes": "PIE conference reporting plus official guidance read. 2026 thresholds <5/95/85; completion90 starts June2027. Do not call November6 HTML accessibility update a new policy."
+      },
+      {
+        "topic": "Australia IDP rejects revised Blackstone offer November16",
+        "sources": [
+          "https://company-announcements.afr.com/asx/iel/3d65013a-e13d-11f1-875f-124ac9d8af37.pdf",
+          "https://www.investing.com/news/stock-market-news/australias-idp-rebuffs-blackstones-third-buyout-attempt-at-5645-million-valuation-5028181"
+        ],
+        "notes": "Company ASX announcement and Reuters read. New rejection differs from Nov15 receipt story; dedup and fuller background needed."
+      }
+    ],
+    "excluded": [
+      {
+        "reason": "2027 application opensMarch2027, notcurrentlyopen",
+        "url": "https://www.nitori-shougakuzaidan.com/application/",
+        "name": "Nitori"
+      },
+      {
+        "reason": "2026autumnclosed/2027notannounced",
+        "url": "https://hattori-zaidan.or.jp/application/",
+        "name": "Hattori"
+      },
+      {
+        "reason": "2027eligible nationality list excludesTaiwan",
+        "url": "https://student.office.tut.ac.jp/international/scholarship/student/taisei.html",
+        "name": "Taisei"
+      },
+      {
+        "reason": "2027applicationopensDecember1 perRitsumeikan, notcurrentlyopen",
+        "name": "Iwatani"
+      }
+    ]
+  },
+  "phase": "PUBLISH_ACCEPTANCE",
+  "prepared": {
+    "news": 3,
+    "newScholarships": 3,
+    "peter": 1,
+    "archiveRewrites": 3,
+    "socialCampaigns": 4,
+    "scholarshipCard": "awaiting deployed count verification"
+  },
+  "peterReview": {
+    "status": "fewer-new-posts",
+    "checkedAt": "2026-11-17T00:25:11.197Z",
+    "sourceUrls": [
+      "https://www.facebook.com/profile.php?id=61585164670358"
+    ],
+    "availableNewCount": 1,
+    "notes": "Read Finland full original. Sweden ranking, Princeton paper and Singapore course planning already imported. Promotional link-only and pinned directories excluded."
+  },
+  "campusReview": {
+    "record": "docs/campus-reports/2026-11-17.json",
+    "officialLeads": 3,
+    "published": 0
+  },
+  "scholarshipChecks": [
+    {
+      "slug": "2026-11-seiwa-international-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-11-seiwa-international-2027/",
+      "title": "清和國際留學生獎學金2027：指定日本大學在學生每月8萬至10萬日圓",
+      "publishedPath": "src/pages/scholarships/items/2026-11-seiwa-international-2027.md",
+      "sources": [
+        {
+          "label": "Seiwa Foundation — 2027 guidelines hosted by TUFS",
+          "url": "https://www.tufs.ac.jp/documents/student/tuition_scholarship/scholarship/scholar_261005_1_1.pdf"
+        },
+        {
+          "label": "TUFS — current institutional application deadlines",
+          "url": "https://www.tufs.ac.jp/student/tuition_scholarship/scholarship/ryugakusei.html"
+        },
+        {
+          "label": "Seiwa Foundation — annual programme plan",
+          "url": "https://www.seiwa-zaidan.or.jp/pdf/03-jigyokeikaku-r8.pdf"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-11-17T00:43:23.714Z",
+      "publishedVerifiedAt": "2026-11-17T00:43:23.714Z",
+      "isNew": true,
+      "baselineAbsent": true
+    },
+    {
+      "slug": "2026-11-seiho-scholarship-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-11-seiho-scholarship-2027/",
+      "title": "生命保險協會獎學金2027：在日台灣大三與碩一學生可循校內推薦",
+      "publishedPath": "src/pages/scholarships/items/2026-11-seiho-scholarship-2027.md",
+      "sources": [
+        {
+          "label": "Saitama University — 2027 Seiho application route",
+          "url": "https://www.saitama-u.ac.jp/international/foreign/scholarship/scholarshipdetail/R9JEES_SeihoScholarship.html"
+        },
+        {
+          "label": "Tohoku University — 2027 nationality and award conditions",
+          "url": "https://www.lifesci.tohoku.ac.jp/oncampus/date/category7/detail---id-53514.html"
+        },
+        {
+          "label": "Saitama University — current scholarship table",
+          "url": "https://www.saitama-u.ac.jp/international/foreign/scholarship/"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-11-17T00:43:23.714Z",
+      "publishedVerifiedAt": "2026-11-17T00:43:23.714Z",
+      "isNew": true,
+      "baselineAbsent": true
+    },
+    {
+      "slug": "2026-11-jees-toyota-tsusho-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-11-jees-toyota-tsusho-2027/",
+      "title": "豐田通商留學生獎學金2027：每月10萬日圓，須指定日本大學推薦",
+      "publishedPath": "src/pages/scholarships/items/2026-11-jees-toyota-tsusho-2027.md",
+      "sources": [
+        {
+          "label": "JEES — 2027 Toyota Tsusho official guidelines",
+          "url": "https://koryu.m.u-tokyo.ac.jp/Ev34MKFs/wp-content/uploads/2026/11/%E2%91%A2%E8%B1%8A%E7%94%B0%E9%80%9A%E5%95%86%E5%8B%9F%E9%9B%86%E8%A6%81%E9%A0%85.pdf"
+        },
+        {
+          "label": "Kumamoto GSST — institutional application arrangements",
+          "url": "https://www.fast.kumamoto-u.ac.jp/gsst/bbs/4728/"
+        },
+        {
+          "label": "TUFS — current institutional deadlines",
+          "url": "https://www.tufs.ac.jp/student/tuition_scholarship/scholarship/ryugakusei.html"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-11-17T00:43:23.714Z",
+      "publishedVerifiedAt": "2026-11-17T00:43:23.714Z",
+      "isNew": true,
+      "baselineAbsent": true
+    }
+  ],
+  "deployment": {
+    "commit": "ace72ae9a6afadfac2b5b30727868d7c49d2af6b",
+    "status": "success",
+    "verifiedAt": "2026-11-17T08:29:19+08:00",
+    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/43987616107"
+  },
+  "scholarshipTotal": 287,
+  "deadlineMissed": true
+}
