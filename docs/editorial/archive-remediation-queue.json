@@ -1,26 +1,8 @@
 {
   "status": "pending",
   "order": "newest first, then currently consequential policies",
-  "remaining": 154,
+  "remaining": 151,
   "items": [
-    {
-      "path": "src/pages/news/australia-2027-csp-allocation-pool.md",
-      "date": "\"2026-11-04T05:10:44.600800+08:00\"",
-      "bodyCjk": 272,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/germany-international-student-retention-fit-2026.md",
-      "date": "\"2026-11-04T05:10:44.600800+08:00\"",
-      "bodyCjk": 240,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/new-zealand-november-16-graduate-work-pathways.md",
-      "date": "\"2026-11-04T05:10:44.600800+08:00\"",
-      "bodyCjk": 268,
-      "needsEditorialReview": true
-    },
     {
       "path": "src/pages/news/canada-eu-erasmus-negotiations-october-2026.md",
       "date": "\"2026-11-03T05:20:21.374073+08:00\"",
@@ -928,7 +910,7 @@
       "needsEditorialReview": true
     }
   ],
-  "updatedAt": "2026-11-16T01:24:51.092Z",
+  "updatedAt": "2026-11-17T01:04:56.947Z",
   "completedBatches": [
     {
       "date": "2026-11-07",
@@ -1025,18 +1007,30 @@
       "commit": "d5d4d804656d2f2ba636b653c7d7b899c5ec9b01",
       "verifiedAt": "2026-11-16T01:24:06.729149+00:00",
       "evidence": "docs/daily-checks/2026-11-16/archive-live.json"
+    },
+    {
+      "date": "2026-11-17",
+      "count": 3,
+      "slugs": [
+        "australia-2027-csp-allocation-pool",
+        "germany-international-student-retention-fit-2026",
+        "new-zealand-november-16-graduate-work-pathways"
+      ],
+      "commit": "ace72ae9a6afadfac2b5b30727868d7c49d2af6b",
+      "verifiedAt": "2026-11-17T01:04:56.947Z",
+      "evidence": "docs/daily-checks/2026-11-17/live-audit.json"
     }
   ],
   "lastBatch": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "count": 3,
     "slugs": [
-      "arab-higher-education-unesco-2026",
-      "canada-research-training-awards-880m-2026",
-      "india-tne-value-aiec-2026"
+      "australia-2027-csp-allocation-pool",
+      "germany-international-student-retention-fit-2026",
+      "new-zealand-november-16-graduate-work-pathways"
     ],
-    "commit": "d5d4d804656d2f2ba636b653c7d7b899c5ec9b01",
-    "verifiedAt": "2026-11-16T01:24:06.729149+00:00",
-    "evidence": "docs/daily-checks/2026-11-16/archive-live.json"
+    "commit": "ace72ae9a6afadfac2b5b30727868d7c49d2af6b",
+    "verifiedAt": "2026-11-17T01:04:56.947Z",
+    "evidence": "docs/daily-checks/2026-11-17/live-audit.json"
   }
 }

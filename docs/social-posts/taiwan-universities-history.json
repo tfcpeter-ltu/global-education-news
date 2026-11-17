@@ -767,6 +767,29 @@
           "id": "DfuU6v0I3rW"
         }
       ]
+    },
+    {
+      "date": "2026-11-17",
+      "status": "published",
+      "evidence": "docs/social-posts/2026-11-17/publication-log.json",
+      "topic": "比較大學交換機會，先分開甄選與補助",
+      "posts": [
+        {
+          "network": "threads",
+          "id": "Df0sLt6E3rA",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/Df0sLt6E3rA"
+        },
+        {
+          "network": "instagram",
+          "id": "Df0sUtwE0Il",
+          "publicUrl": "https://www.instagram.com/ltuossdtw/p/Df0sUtwE0Il/"
+        },
+        {
+          "network": "linkedin",
+          "id": "7528259646252363778",
+          "publicUrl": "https://lnkd.in/p/g2RhGdsF"
+        }
+      ]
     }
   ]
 }

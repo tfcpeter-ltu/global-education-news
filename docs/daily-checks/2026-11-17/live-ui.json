@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-17",
+  "verifiedAt": "2026-11-17T01:03:01.125Z",
+  "desktop": {
+    "status": "PASS",
+    "home": "https://globalednews.com/",
+    "radar": "https://globalednews.com/scholarships/",
+    "radarCount": 287,
+    "search": "清和 =>1; 生命保險 Enter =>1",
+    "combined": "清和 +英國 =>0 with empty-state; 日本+開放中=>7",
+    "clear": 287,
+    "loadMore": {
+      "visibleBefore": 27,
+      "visibleAfter": 51
+    },
+    "screenshot": "docs/daily-checks/2026-11-17/homepage-live-desktop.png"
+  },
+  "mobile": {
+    "status": "PASS",
+    "cssWidth": 390,
+    "cssHeight": 843,
+    "documentWidth": 371,
+    "articleTitleWidthWithinViewport": true,
+    "articleImageLoaded": true,
+    "articleImageWidth": 339.23828125,
+    "search": "清和 =>1 via search button",
+    "screenshot": "docs/daily-checks/2026-11-17/news-live-mobile.png",
+    "notes": "Browser zoom80%; capability312x675 produced actual CSS390x843. Reset override after checks. Earlier stale/blank radar captures are not acceptance evidence."
+  },
+  "ltuRotation": {
+    "count": 3,
+    "libraryCount": 12,
+    "urls": [
+      "https://www.ctee.com.tw/news/20250723702079-431204",
+      "https://udn.com/news/story/6898/9271435",
+      "https://www.setn.com/m/news.aspx?newsid=1688074"
+    ],
+    "sourceReadback": [
+      "READ",
+      "READ",
+      "SAFETY_BLOCKED"
+    ]
+  }
+}

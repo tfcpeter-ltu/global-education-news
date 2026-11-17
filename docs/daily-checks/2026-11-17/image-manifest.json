@@ -1,0 +1,101 @@
+{
+  "seiho": {
+    "file": "/images/daily/2026-11-17/seiho.jpg",
+    "alt": [
+      "埼玉大學校園",
+      "Saitama University campus"
+    ],
+    "credit": "Original uploader was Rabs003 (Rabin Tuladhar) at en.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Saitama_university.JPG"
+  },
+  "uk": {
+    "file": "/images/daily/2026-11-17/uk.jpg",
+    "alt": [
+      "倫敦格林威治大學建築；非本次會議現場",
+      "University of Greenwich building in London; not the conference"
+    ],
+    "credit": "No Swan So Fine",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:University_of_Greenwich_Woolwich_September_2017_(2).jpg"
+  },
+  "au": {
+    "file": "/images/daily/2026-11-17/au.jpg",
+    "alt": [
+      "墨爾本大學Old Arts建築；非IDP辦公室",
+      "Old Arts building at the University of Melbourne; not an IDP office"
+    ],
+    "credit": "Gracchus250",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Old_Arts_Building_University_of_Melbourne_2018.jpg"
+  },
+  "us": {
+    "file": "/images/daily/2026-11-17/us.jpg",
+    "alt": [
+      "雪城大學物理系建築；校園情境照片",
+      "Physics building at Syracuse University; campus context"
+    ],
+    "credit": "Kiran891",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Physics_Building_Syracuse_University.jpg"
+  },
+  "seiwa": {
+    "file": "/images/daily/2026-11-17/seiwa.jpg",
+    "alt": [
+      "東京外國語大學校園",
+      "Tokyo University of Foreign Studies campus"
+    ],
+    "credit": "Eugene Ormandy",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Tokyo_University_of_Foreign_Studies_20240925.jpg"
+  },
+  "toyota": {
+    "file": "/images/daily/2026-11-17/toyota.jpg",
+    "alt": [
+      "熊本大學本部建築",
+      "Kumamoto University headquarters"
+    ],
+    "credit": "ハポニアラ",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kumamoto_university_headquarters.jpg"
+  },
+  "diy": {
+    "file": "/images/daily/2026-11-17/diy.jpg",
+    "alt": [
+      "University of Helsinki administration building",
+      "University of Helsinki administration building"
+    ],
+    "credit": "Tomisti",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:University_of_Helsinki_-_Administration_building.jpg"
+  },
+  "campus": {
+    "file": "/images/daily/2026-11-17/campus.jpg",
+    "alt": [
+      "National Chengchi University administration building",
+      "National Chengchi University administration building"
+    ],
+    "credit": "John Paul Antes",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Administration_Building_of_National_Chengchi_University_20130419.jpg"
+  },
+  "peter": {
+    "file": "/images/daily/2026-11-17/peter.jpg",
+    "alt": [
+      "Haaga-Helia Pasila campus",
+      "Haaga-Helia Pasila campus"
+    ],
+    "credit": "Oona Räisänen (Mysid)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Haaga-Helia_Pasila.jpg"
+  }
+}

@@ -1287,6 +1287,37 @@
           "id": "DfuUrXrI8gc"
         }
       ]
+    },
+    {
+      "date": "2026-11-17",
+      "status": "published",
+      "evidence": "docs/social-posts/2026-11-17/publication-log.json",
+      "schoolName": "University of Helsinki",
+      "country": "Finland",
+      "storyAngle": "application form versus attachment deadlines for 2027",
+      "topic": "赫爾辛基碩士申請：申請表與附件有不同期限",
+      "posts": [
+        {
+          "network": "facebook",
+          "id": "1122013200574877",
+          "publicUrl": "https://www.facebook.com/photo/?fbid=1122012787241585"
+        },
+        {
+          "network": "threads",
+          "id": "Df0r7BEkznU",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/Df0r7BEkznU"
+        },
+        {
+          "network": "instagram",
+          "id": "Df0r7T3EwXG",
+          "publicUrl": "https://www.instagram.com/ltuossdtw/p/Df0r7T3EwXG/"
+        },
+        {
+          "network": "linkedin",
+          "id": "7528259129103081472",
+          "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7528259129103081472/"
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-17",
+  "reviewedSchools": ["nccu", "ncku", "nycu"],
+  "candidates": [
+    {"schoolSlug":"nccu","title":"115學年度第二學期東協交換獎學金","sourceUrl":"https://oic.nccu.edu.tw/Post/16174","publishedAt":"2026-11-03","checkedAt":"2026-11-17","summary":"正式在學生通過交換甄選並確認下學期出國後申請；11月30日17:00截止。一學期2萬元、兩學期合計3萬元，另有修課及返國文件義務。","independentSecondSource":null,"status":"official-lead-only"},
+    {"schoolSlug":"ncku","title":"2027秋季校級交換：11月19日16:00申請截止","sourceUrl":"https://oia.ncku.edu.tw/var/file/32/1032/img/09.OutgoingExchangeProgramAnnouncementFall2027.pdf","publishedAt":null,"checkedAt":"2026-11-17","summary":"校級交換一學期，申請期10月30日至11月19日16:00；須先核對課程、語言及交換校資格。不得將之與來校交換申請混淆。","independentSecondSource":null,"status":"official-lead-only"},
+    {"schoolSlug":"nycu","title":"12月3至4日出國交換展與校內甄選說明會","sourceUrl":"https://oia.nycu.edu.tw/oia/ch/app/data/view?id=286&module=nycu0006&serno=f31e8bb1-bfc0-4aa7-b6a6-ac2d26881717","publishedAt":"2026-11-12","checkedAt":"2026-11-17","summary":"光復校區浩然圖書館6樓，每日11:00至15:00，預先報名11月23日中午截止；未事先報名仍可到場。依簽到條件取得參加證明，不等於交換錄取。","independentSecondSource":null,"status":"official-lead-only"}
+  ],
+  "published": [],
+  "pendingConsent": [],
+  "outreachDrafts": [],
+  "gaps": ["三項為校方公告線索，沒有獨立採訪或第二機構事件查證；未標為已刊登特別報導。", "台大及清大同一交換來源曾入庫，今天僅重查狀態，不計新線索。"]
+}
