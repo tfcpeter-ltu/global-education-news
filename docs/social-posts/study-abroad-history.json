@@ -1318,6 +1318,37 @@
           "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7528259129103081472/"
         }
       ]
+    },
+    {
+      "date": "2026-11-18",
+      "status": "published",
+      "evidence": "docs/social-posts/2026-11-18/publication-log.json",
+      "schoolName": "Newcastle University",
+      "country": "United Kingdom",
+      "storyAngle": "deferred entry obligations and reapplication",
+      "topic": "英國延後入學，先看懂保留的承諾",
+      "posts": [
+        {
+          "network": "threads",
+          "id": "Df27MRak6AC",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/Df27MRak6AC"
+        },
+        {
+          "network": "facebook",
+          "id": "1122883087154555",
+          "publicUrl": "https://www.facebook.com/photo/?fbid=1122882710487926"
+        },
+        {
+          "network": "instagram",
+          "id": "Df27SY8E5-W",
+          "publicUrl": "https://www.instagram.com/ltuossdtw/p/Df27SY8E5-W/"
+        },
+        {
+          "network": "linkedin",
+          "id": "7528574786726232064",
+          "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7528574786726232064/"
+        }
+      ]
     }
   ]
 }

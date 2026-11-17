@@ -790,6 +790,33 @@
           "publicUrl": "https://lnkd.in/p/g2RhGdsF"
         }
       ]
+    },
+    {
+      "date": "2026-11-18",
+      "status": "published",
+      "evidence": "docs/social-posts/2026-11-18/publication-log.json",
+      "topic": "交換申請送出後，別漏掉補件與報到",
+      "schools": [
+        "National Taiwan Normal University",
+        "National Taiwan University"
+      ],
+      "posts": [
+        {
+          "network": "threads",
+          "id": "Df27rGlk4pN",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/Df27rGlk4pN"
+        },
+        {
+          "network": "instagram",
+          "id": "Df279jBE2OW",
+          "publicUrl": "https://www.instagram.com/ltuossdtw/p/Df279jBE2OW/"
+        },
+        {
+          "network": "linkedin",
+          "id": "7528575619371188225",
+          "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7528575619371188225/"
+        }
+      ]
     }
   ]
 }
