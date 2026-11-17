@@ -1,9 +1,19 @@
 {
   "status": "ready",
-  "updatedAt": "2026-11-16T07:56:58.328Z",
+  "updatedAt": "2026-11-17T09:10:34.124Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
+    {
+      "title": "美國新國際生減近18%：Open Doors兩組數據，台灣申請者應如何讀｜環球教育新聞網 Global Education News",
+      "path": "/news/us-open-doors-2026-new-enrolment-and-fall-snapshot/",
+      "views": 8
+    },
+    {
+      "title": "英國內政部否認以合規管制留學生總量，大學要求更透明的風險資料｜環球教育新聞網 Global Education News",
+      "path": "/news/uk-home-office-compliance-conference-no-student-cap-2026/",
+      "views": 6
+    },
     {
       "title": "英國擬調整長期居留制度，留學生如何看待已累積的年資？｜環球教育新聞網 Global Education News",
       "path": "/news/uk-settlement-reform-ukcisa-student-years/",
@@ -15,18 +25,8 @@
       "views": 5
     },
     {
-      "title": "國際教育新聞｜全球大學、留學政策與招生動態｜環球教育新聞網",
-      "path": "/news/",
-      "views": 4
-    },
-    {
       "title": "歐洲大學聯盟新一輪徵案開放：跨校合作經費不等於學生獎學金｜環球教育新聞網 Global Education News",
       "path": "/news/european-universities-2027-call-student-implications/",
-      "views": 4
-    },
-    {
-      "title": "澳洲大學領導組織整合上路：學生代表與治理透明度成下一步｜環球教育新聞網 Global Education News",
-      "path": "/news/australian-university-governance-transition-november-2026/",
       "views": 4
     }
   ],
@@ -34,62 +34,62 @@
     {
       "name": "台灣",
       "mapName": "Taiwan",
-      "sessions": 310,
-      "share": 62.2
+      "sessions": 201,
+      "share": 51.1
     },
     {
       "name": "美國",
       "mapName": "United States",
-      "sessions": 128,
-      "share": 25.7
+      "sessions": 133,
+      "share": 33.8
     },
     {
       "name": "中國",
       "mapName": "China",
-      "sessions": 14,
-      "share": 2.8
+      "sessions": 15,
+      "share": 3.8
     },
     {
       "name": "愛爾蘭",
       "mapName": "Ireland",
-      "sessions": 10,
-      "share": 2
+      "sessions": 13,
+      "share": 3.3
     },
     {
       "name": "印度",
       "mapName": "India",
       "sessions": 8,
-      "share": 1.6
+      "share": 2
+    },
+    {
+      "name": "Kazakhstan",
+      "mapName": "Kazakhstan",
+      "sessions": 4,
+      "share": 1
     },
     {
       "name": "瑞典",
       "mapName": "Sweden",
-      "sessions": 7,
-      "share": 1.4
-    },
-    {
-      "name": "日本",
-      "mapName": "Japan",
-      "sessions": 3,
-      "share": 0.6
-    },
-    {
-      "name": "南韓",
-      "mapName": "South Korea",
-      "sessions": 3,
-      "share": 0.6
+      "sessions": 4,
+      "share": 1
     },
     {
       "name": "英國",
       "mapName": "United Kingdom",
       "sessions": 3,
-      "share": 0.6
+      "share": 0.8
+    },
+    {
+      "name": "澳洲",
+      "mapName": "Australia",
+      "sessions": 2,
+      "share": 0.5
     },
     {
       "name": "加拿大",
       "mapName": "Canada",
       "sessions": 2,
-      "share": 0.4
+      "share": 0.5
     }
   ]
 }
