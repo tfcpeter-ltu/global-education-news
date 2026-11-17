@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-17",
+  "baseline": "859897990d02faceb2b11b7d98af5a79fd89f121",
+  "commit": "5b5374f4054c000a13ade36066caa952b5c9383b",
+  "deploymentRun": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/44015062875",
+  "deployment": "success",
+  "videosBefore": 165,
+  "videosAfter": 171,
+  "newVideos": 6,
+  "recommendedEntriesUnchanged": true,
+  "tests": [
+    "Vlog source and built checks passed171 videos",
+    "Astro638 pages",
+    "Bilingual929 pairs passed; zero missing strings",
+    "git diff --check passed",
+    "Corresponding GitHub Pages workflow succeeded"
+  ],
+  "liveChinese": "Six today titles and thumbnails loaded. Tokyo search four matching records. Official filter122. Stanford original player current video title and elapsed7:16 then7:48 of25:19 observed. Return-home link retained.",
+  "liveEnglish": "Six translated today titles and six thumbnails loaded.",
+  "playerLimit": "Public/embed flags and thumbnail HTTP200 verified for all six; live playback spot checked on Stanford. Caption requests HTTP429; descriptions limit summaries. Do not claim all videos continuously watched.",
+  "socialPublished": 10,
+  "cloudSyncVerified": false,
+  "recovery": [
+    "Initial direct Astro module path missing; corrected to existing .bin/astro.cmd, no reinstall.",
+    "Facebook file-input click timed out and reset browser runtime; recovered existing drafts, no duplicate sends. Three earlier temporary screenshots no longer present; public URL/body/image readback retained, remaining seven social screenshots preserved.",
+    "Facebook semantic publish control opened story dialog on first topic; cancelled without changes and used fresh native accessibility publish button."
+  ],
+  "images": {
+    "mode": "built-in imagegen",
+    "styles": [
+      "colored pencil/watercolor fictional British courtyard",
+      "cut-paper/screenprint fictional classroom"
+    ],
+    "path": "deliveries/vlog-promotion-2026-11-17",
+    "fictionalSceneDisclosure": true
+  }
+}
