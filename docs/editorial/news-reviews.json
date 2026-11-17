@@ -856,5 +856,83 @@
     "independentSource": "https://www.mcmillanco.nz/news/legal-news/a-new-stepping-stone-for-international-students-changes-announced-for-post-study-work-visas/",
     "reviewedAt": "2026-11-17T00:17:21.607Z",
     "bodySha256": "c72bd5bf31cfc5a2b78561abddb1592ee6c70fdb9585324f79257bc00ec11f9d"
+  },
+  "us-court-vacates-duration-of-status-final-rule-november-2026": {
+    "newsValue": "十一月十六日實體裁判撤銷整項最終規則，與九月暫停及昨日美國人數報導均為不同新聞事件。",
+    "background": "交代七月公布、九月原定生效前暫停及十一月實體裁判三階段，避免將從未生效寫成已實施後撤回。",
+    "development": "法院原文核對撤銷範圍、行政程序理由與法律授權，Brown公告確認校方資訊中心實際移除。",
+    "perspectives": "法院判斷與Brown校務應對分開歸因，NAFSA原告利益明示，不將勝訴方新聞稿視為獨立證據。",
+    "taiwanImpact": "提供文件、校方通知與費用依據核對方向，區分入境、居留、學業及工作權，不保證個案結果。",
+    "uncertainty": "明示政府可能上訴及上訴法院可能暫停裁判；既有合規義務仍在，不解讀為永久無限制停留。",
+    "independence": "法院是司法第一手來源；Brown自行更新學生指引及撤下資訊中心，提供獨立執行層面證據。",
+    "primarySource": "https://www.nafsa.org/sites/default/files/media/document/2026-11-16-District-Judge-Summary-Judgement.pdf",
+    "independentSource": "https://isss.brown.edu/news/2026-11-17/dhs-final-rule-vacated",
+    "reviewedAt": "2026-11-17T21:28:05.314Z",
+    "bodySha256": "a8f241d98dfd59a00a91ab70265f7fa82be438bb2920bff149d1344f21df9f93"
+  },
+  "ireland-student-visa-refusals-university-fees-november-2026": {
+    "newsValue": "RTÉ十一月十五日取得多校收入預估與回應，反映國際招生未能轉為實際抵校的近期問題。",
+    "background": "區分校方預期收入、全國審計損失與學生拒簽率，避免不同年度或協會數字重複加總。",
+    "development": "逐校列明RTÉ取得的金額，政策是否改變只歸因政府對媒體回應，不擅稱全面新限額。",
+    "perspectives": "呈現大學營運疑慮及司法部政策未變說法，承認兩者回答不同問題，不製造不存在的結論。",
+    "taiwanImpact": "要求依實際護照和停留期查官方路徑，分開住宿退費與學校延後，不推算台灣拒簽率。",
+    "uncertainty": "未取得全國一致統計與台灣個別風險資料，沒有將預估當確定損失或把財務壓力當課程取消。",
+    "independence": "移民機關官方原文確認適用程序；RTÉ向各校及政府自行取得數據和回應，提供獨立採訪事實。",
+    "primarySource": "https://www.irishimmigration.ie/coming-to-study-in-ireland/",
+    "independentSource": "https://www.rte.ie/news/education/2026/1115/1599304-international-students-visa-refusals/",
+    "reviewedAt": "2026-11-17T21:28:05.314Z",
+    "bodySha256": "a5ade60be73122efcb8ddd6ced05f028e49d88dee167a863f2860bf372e4a9d0"
+  },
+  "going-global-istanbul-higher-education-resilience-2026": {
+    "newsValue": "十一月十七日會議開幕，主題涵蓋亞洲與歐洲連結，可分散每日地區並具近期事件依據。",
+    "background": "以主辦方六國教育規模說明背景，明確區分區域學生數、參會人數與實際交換名額。",
+    "development": "草案議程只作計畫依據，另以Osmaniye大學當日親自出席紀錄確認已開幕與參與。",
+    "perspectives": "主辦方政策框架與參與校自己的出席紀錄分開呈現，未宣稱所有學校立場或最後共識。",
+    "taiwanImpact": "把國際合作轉為課程、學分、申訴、收費及資助核對問題，不把區域總量推成台灣名額。",
+    "uncertainty": "會議尚在進行，成果與學位承認不能提前假定；背景校園照片不冒稱為會場實拍。",
+    "independence": "BritishCouncil為主辦第一手來源；Osmaniye自行記錄本校領導出席及開幕發言，非單純轉載議程。",
+    "primarySource": "https://www.britishcouncil.org/going-global-2026",
+    "independentSource": "https://www.osmaniye.edu.tr/tr/haberler/18385-rektorumuz-prof-dr-turgay-uzun-going-global-2026-konferansi-na-katildi",
+    "reviewedAt": "2026-11-17T21:28:05.314Z",
+    "bodySha256": "7a283ab396a5881fa5ed3ec460a2f3a42d0a4dc10de3be2b4368a251b25f1a25"
+  },
+  "canada-eu-erasmus-negotiations-october-2026": {
+    "newsValue": "十月三十日峰會聲明將教育交流放在加拿大與歐盟更廣泛合作的框架中，並另提技能、研究人員流動與青年交流。這些安排彼此相關，卻不是同一個計畫。讀者若把所有項目合成一項新的留學權利，就容易把研究合作、工作交流與學生交換的資格混在一起，錯過真正負責提名或受理的單位。",
+    "background": "CIC News的獨立整理指出，加拿大在當前架構中屬於未與計畫關聯的第三國，仍可參與部分行動。這說明「尚未完整參與」不等於完全沒有交流，也說明既有案例不能證明所有新機會已開放。對學生最重要的是自己要使用哪一項行動、學校是否參與，以及該學年度是否真的有可用名額與經費。",
+    "development": "本篇十一月十八日補充制度背景、台灣學生適用路徑與費用判讀，保留十一月三日原發布日期。本文所引用聲明宣布的是啟動深化參與談判，並未提供一份對所有學生立即適用的新資格清單。後續應追蹤正式協議、計畫辦法與各校受理公告；在這些文件出現前，不以合作願景取代已生效條件。",
+    "perspectives": "編輯分析認為，談判新聞的價值在於提供中期規劃方向，不能取代眼前的申請文件。已在加拿大就讀的台灣學生，可先詢問校內國際處，現有歐洲合作是否適用自己的學院與學位；若答案仍待協議，應把它列為未確定選項。不能因一則國際聲明，就把尚未核定的交換學期當作畢業計畫中必然的一站。",
+    "taiwanImpact": "費用也須分層看待：合作學校同意接收、原校同意提名，以及學生取得補助，可能是三個不同決定。家庭宜先列出原校學費、海外生活與旅行成本，再確認補助是否已書面核定、何時付款及有無成果義務。本文沒有推定某一方案免學費或保證補助，也不把計畫全體預算當成每名學生可領取的金額。",
+    "uncertainty": "學術安排同樣需要事前確認。選到有興趣的課程後，應向原校查核學分能否列入必修、選修或畢業門檻，並保留課綱與評量資料。這是編輯提出的一般規劃建議，不是聲稱談判已規定某種學分換算。即使兩校已有合作，實際可修科目與語言要求也可能因學期而不同，仍須看當期資料。",
+    "independence": "加拿大總理府聯合聲明是正式談判宣布；CICNews另用歐盟計畫分類解釋現行參與範圍，提供獨立制度背景。",
+    "primarySource": "https://www.pm.gc.ca/en/news/statements/2026/10/30/joint-statement-canada-and-european-union-building-together-alliance",
+    "independentSource": "https://www.cicnews.com/2026/10/canada-moves-to-expand-participation-in-european-student-exchange-program-1082085.html",
+    "reviewedAt": "2026-11-17T21:29:59.300Z",
+    "bodySha256": "77702393c48724dc0129a7878646439f3514c85db772a2b64c3d4bf226386d9c"
+  },
+  "uk-hpi-top-150-expansion-plan-2026": {
+    "newsValue": "這項政策的背景，是英國希望擴大吸引海外畢業人才。預算文件提出前一百五十所機構及相應增加上限，但「前一百五十」是政策敘述，並不表示讀者可以自行挑一份世界排名判定資格。申請時仍需查政府對學歷取得年度採用的正式名單，而不是把校名出現在新聞或排名中當成已取得簽證資格。",
+    "background": "The PIE對Fragomen律師Russell Hodges的採訪，呈現擴大人才來源及讓畢業生探索英國職涯的正面評估；報導也納入高教政策界對整體資源環境的關切。這些是受訪者對政策效果的看法，不是新增學校名單，也不保證任何人能找到工作。把支持意見與行政細則分開，才能理解一項政策仍有哪些待落實環節。",
+    "development": "本次補寫保留十一月三日的原發布日期，將預算方向、媒體原創採訪及當前官方總覽分開呈現。後續關鍵是完整名單、確切上限與適用日期，而不是再用更多排名推測。若正式規則更新，仍需重新核對個人畢業年度及申請條件；不能把本文對未定事項的保留，誤認為政府已承諾特定學校、特定國籍或特定申請人的結果。",
+    "perspectives": "十一月十八日重新查閱政府HPI總覽，現行說明仍以合資格大學近五年取得的學歷為基礎；一般核准停留兩年，持博士或其他博士級資格者三年。博士級資格與正在讀博士是不同條件，不能把媒體中的簡稱照抄成在學者一律適用。官方也說明此簽證不能延長，後續若要轉其他路徑仍須符合該路徑要求。",
+    "taiwanImpact": "編輯分析認為，台灣畢業生可以先整理學位名稱、授予日期與學校正式名稱，再確認英文及其他完整規定。若學校只出現在某一年度名單，不能把它推廣為任何年度畢業者都適用。這也是為什麼尚未公布細節的擴大計畫，不宜直接寫進已確定的求職預算，或用來保證某所大學的畢業後工作安排。",
+    "uncertainty": "申請成本與求職成本也應分開。即使一條路徑不以預先取得工作為核心，家庭仍須評估在英生活、保險與必要行政支出，以及未能立即找到合適職位的情境。本文不提供薪資或成功率推估；較可行的做法，是把已知支出、可動用資金與尚未確定收入各自列明，再決定是否適合自己的學歷與職涯階段。",
+    "independence": "英國預算為政策原文，PIE記者另訪Fragomen與高教政策人士；現行政府總覽只用於查核當前規則而非當作第二獨立來源。",
+    "primarySource": "https://www.gov.uk/government/publications/budget-2026-document/budget-2026-html",
+    "independentSource": "https://thepienews.com/uk-to-raise-hpi-visa-cap-as-eligibility-expands-to-top-150-universities/",
+    "reviewedAt": "2026-11-17T21:29:59.300Z",
+    "bodySha256": "2b608ac9d7288e1316f1d0eafea80ab53a9f206d798cd8a0913b4e09f32cad25"
+  },
+  "us-general-education-transfer-consortium-2026": {
+    "newsValue": "通識學分轉移的難題，不只是兩張成績單上的課名是否相似。課程可能使用同樣名稱，卻有不同內容、先修要求與評量方式；也可能名稱不同，但學生達成相近的學習成果。聯盟由教師建立共同框架，試圖把這些判斷變成可討論、可持續更新的對照，而不是只靠學生在轉學後逐門詢問。",
+    "background": "Inside Higher Ed的原創採訪指出，負責人原先期待五十所學校，卻已有二百三十多所表達興趣，顯示校方對議題的需求。不過，感興趣與簽署適用協議是不同進度；教師仍須討論共同學習成果與例外。這份數字可用來理解參與意願，不能拿來當作學生今天就能跨二百三十所院校自動抵免的保證。",
+    "development": "本篇十一月十八日補足背景與台灣讀者的操作問題，原發布日維持十一月三日。後續應追蹤教師工作成果、實際參與院校及公開的認列規則，並把這項自願合作與其他政府規範分開閱讀。現有來源尚不足以確認所有等值安排已完成，因此本文保留籌組與建立框架的狀態，不以倡議目標當成學生已取得的權利。",
+    "perspectives": "官方說明強調自願參加、教師主導，並保留院校對課程與學術政策的權限，因此計畫不是新增的認證標準。編輯分析認為，這樣的設計在一致性與院校自主之間留下協商空間；它可能讓學生更容易預判結果，但能否做到，仍須看實際等值表、更新方式與接收學校的具體執行。",
+    "taiwanImpact": "台灣學生若以轉學方式規劃美國學位，可先把想修的課程分成通識、主修必修與自由選修，再向接收學校詢問。得到總學分承認，不一定回答這些學分能否完成主修要求；這是一般課程規劃問題，本文不對任何特定學校作出抵免判定。把分類問清楚，有助於避免只看承認幾學分，卻沒有計算剩餘修業時間。",
+    "uncertainty": "文件準備宜在修課當時開始：保存當期課綱、授課內容、學習成果、時數及評量資訊，並確認學校正式成績文件如何申請。這些是編輯建議的資料整理方法，不代表聯盟已要求一份全國統一格式。若之後需要補件，能指出課程版本與修課學期，通常比只附課名更有利於接收端理解實際學習內容。",
+    "independence": "CCU官方原文交代自願與教師主導架構；InsideHigherEd自行採訪負責人並記錄原先預期與實際興趣數，具有獨立採訪資訊。",
+    "primarySource": "https://commissioncu.org/accreditation/transfer-credit-consortium/",
+    "independentSource": "https://www.insidehighered.com/news/government/2026/11/02/colleges-prepare-credit-transfer-regulations",
+    "reviewedAt": "2026-11-17T21:29:59.300Z",
+    "bodySha256": "d741e5f868a8e1eb109b1fdb6f04f2fe6cc758a66bb754c224e15588af8fa6e1"
   }
 }

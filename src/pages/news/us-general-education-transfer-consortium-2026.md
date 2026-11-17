@@ -7,12 +7,13 @@ author: "LTU Global Education News 編輯部"
 category: "國際教育新聞"
 topic: "usa"
 tags: ["us", "2026"]
-sources: [{"label": "Source 1", "url": "https://commissioncu.org/accreditation/transfer-credit-consortium/"}, {"label": "Source 2", "url": "https://www.insidehighered.com/news/government/2026/11/02/colleges-prepare-credit-transfer-regulations"}]
+sources: [{"label":"Source 1","url":"https://commissioncu.org/accreditation/transfer-credit-consortium/"},{"label":"Source 2","url":"https://www.insidehighered.com/news/government/2026/11/02/colleges-prepare-credit-transfer-regulations"}]
 image: "/images/daily/2026-11-03/us.jpg"
 imageAlt: "Middle Georgia State University圖書館資料照，非參與名單證據"
 imageCredit: "Michael Rivera / CC BY-SA 4.0"
 imageSource: "https://commons.wikimedia.org/wiki/File:Library,_Middle_Georgia_State_University_Macon_campus.jpg"
 imageLicense: "CC BY-SA 4.0"
+updated: "2026-11-17T21:29:59.300Z"
 ---
 
 ## 聯盟要解決的是課程對照
@@ -28,3 +29,19 @@ Inside Higher Ed於11月2日採訪負責人Stephen Pruitt，報導已有超過23
 台灣學生規劃美國轉學、交換或跨校修課時，仍應提供課綱、學習成果、評量方式與成績單，向接收學校取得書面認列決定。這則報導聚焦自願聯盟，與高教認證規則是不同層次。配圖為Middle Georgia State University圖書館資料照，不表示該校已加入聯盟。
 
 [Photo credits](/images/daily/2026-11-03/credits.html#us)
+
+## 把已修課程變成可審查的學習證據
+
+通識學分轉移的難題，不只是兩張成績單上的課名是否相似。課程可能使用同樣名稱，卻有不同內容、先修要求與評量方式；也可能名稱不同，但學生達成相近的學習成果。聯盟由教師建立共同框架，試圖把這些判斷變成可討論、可持續更新的對照，而不是只靠學生在轉學後逐門詢問。
+
+Inside Higher Ed的原創採訪指出，負責人原先期待五十所學校，卻已有二百三十多所表達興趣，顯示校方對議題的需求。不過，感興趣與簽署適用協議是不同進度；教師仍須討論共同學習成果與例外。這份數字可用來理解參與意願，不能拿來當作學生今天就能跨二百三十所院校自動抵免的保證。
+
+官方說明強調自願參加、教師主導，並保留院校對課程與學術政策的權限，因此計畫不是新增的認證標準。編輯分析認為，這樣的設計在一致性與院校自主之間留下協商空間；它可能讓學生更容易預判結果，但能否做到，仍須看實際等值表、更新方式與接收學校的具體執行。
+
+台灣學生若以轉學方式規劃美國學位，可先把想修的課程分成通識、主修必修與自由選修，再向接收學校詢問。得到總學分承認，不一定回答這些學分能否完成主修要求；這是一般課程規劃問題，本文不對任何特定學校作出抵免判定。把分類問清楚，有助於避免只看承認幾學分，卻沒有計算剩餘修業時間。
+
+文件準備宜在修課當時開始：保存當期課綱、授課內容、學習成果、時數及評量資訊，並確認學校正式成績文件如何申請。這些是編輯建議的資料整理方法，不代表聯盟已要求一份全國統一格式。若之後需要補件，能指出課程版本與修課學期，通常比只附課名更有利於接收端理解實際學習內容。
+
+家庭評估費用時，宜把預期抵免與已獲正式決定的抵免分開；前者不能直接當成已省下的學期。若尚有必修順序或開課頻率問題，即使學分被接受，也可能仍需依原有先後修讀。這是規劃時值得詢問的情境，不是報導發現某校延誤學生畢業。對外宣傳更不應從聯盟成立，推導保證兩年畢業或保證節省固定學費。
+
+本篇十一月十八日補足背景與台灣讀者的操作問題，原發布日維持十一月三日。後續應追蹤教師工作成果、實際參與院校及公開的認列規則，並把這項自願合作與其他政府規範分開閱讀。現有來源尚不足以確認所有等值安排已完成，因此本文保留籌組與建立框架的狀態，不以倡議目標當成學生已取得的權利。

@@ -7,12 +7,13 @@ author: "LTU Global Education News 編輯部"
 category: "國際教育新聞"
 topic: "canada"
 tags: ["ca", "2026"]
-sources: [{"label": "Source 1", "url": "https://www.pm.gc.ca/en/news/statements/2026/10/30/joint-statement-canada-and-european-union-building-together-alliance"}, {"label": "Source 2", "url": "https://www.cicnews.com/2026/10/canada-moves-to-expand-participation-in-european-student-exchange-program-1082085.html"}]
+sources: [{"label":"Source 1","url":"https://www.pm.gc.ca/en/news/statements/2026/10/30/joint-statement-canada-and-european-union-building-together-alliance"},{"label":"Source 2","url":"https://www.cicnews.com/2026/10/canada-moves-to-expand-participation-in-european-student-exchange-program-1082085.html"}]
 image: "/images/daily/2026-11-03/ca.jpg"
 imageAlt: "渥太華大學Academic Hall資料照"
 imageCredit: "Jeangagnon / CC BY-SA 4.0"
 imageSource: "https://commons.wikimedia.org/wiki/File:Academic_Hall_-_University_of_Ottawa.jpg"
 imageLicense: "CC BY-SA 4.0"
+updated: "2026-11-17T21:29:59.300Z"
 ---
 
 ## 從提案走向談判
@@ -28,3 +29,17 @@ CIC News同日以歐盟現行計畫分類及交流資料說明，加拿大目前
 在加拿大就讀的台灣學生，不會僅因國籍或這份峰會聲明自動取得交換名額。編輯建議先詢問所屬學校國際處是否有適用協議、提名及經費，再安排海外學期。照片為渥太華大學Academic Hall資料照，非峰會或特定交換活動。
 
 [Photo credits](/images/daily/2026-11-03/credits.html#ca)
+
+## 談判之後，學生仍要逐層確認
+
+十月三十日峰會聲明將教育交流放在加拿大與歐盟更廣泛合作的框架中，並另提技能、研究人員流動與青年交流。這些安排彼此相關，卻不是同一個計畫。讀者若把所有項目合成一項新的留學權利，就容易把研究合作、工作交流與學生交換的資格混在一起，錯過真正負責提名或受理的單位。
+
+CIC News的獨立整理指出，加拿大在當前架構中屬於未與計畫關聯的第三國，仍可參與部分行動。這說明「尚未完整參與」不等於完全沒有交流，也說明既有案例不能證明所有新機會已開放。對學生最重要的是自己要使用哪一項行動、學校是否參與，以及該學年度是否真的有可用名額與經費。
+
+編輯分析認為，談判新聞的價值在於提供中期規劃方向，不能取代眼前的申請文件。已在加拿大就讀的台灣學生，可先詢問校內國際處，現有歐洲合作是否適用自己的學院與學位；若答案仍待協議，應把它列為未確定選項。不能因一則國際聲明，就把尚未核定的交換學期當作畢業計畫中必然的一站。
+
+費用也須分層看待：合作學校同意接收、原校同意提名，以及學生取得補助，可能是三個不同決定。家庭宜先列出原校學費、海外生活與旅行成本，再確認補助是否已書面核定、何時付款及有無成果義務。本文沒有推定某一方案免學費或保證補助，也不把計畫全體預算當成每名學生可領取的金額。
+
+學術安排同樣需要事前確認。選到有興趣的課程後，應向原校查核學分能否列入必修、選修或畢業門檻，並保留課綱與評量資料。這是編輯提出的一般規劃建議，不是聲稱談判已規定某種學分換算。即使兩校已有合作，實際可修科目與語言要求也可能因學期而不同，仍須看當期資料。
+
+本篇十一月十八日補充制度背景、台灣學生適用路徑與費用判讀，保留十一月三日原發布日期。本文所引用聲明宣布的是啟動深化參與談判，並未提供一份對所有學生立即適用的新資格清單。後續應追蹤正式協議、計畫辦法與各校受理公告；在這些文件出現前，不以合作願景取代已生效條件。

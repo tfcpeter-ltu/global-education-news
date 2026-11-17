@@ -7,12 +7,13 @@ author: "LTU Global Education News 編輯部"
 category: "國際教育新聞"
 topic: "uk"
 tags: ["uk", "2026"]
-sources: [{"label": "Source 1", "url": "https://www.gov.uk/government/publications/budget-2026-document/budget-2026-html"}, {"label": "Source 2", "url": "https://thepienews.com/uk-to-raise-hpi-visa-cap-as-eligibility-expands-to-top-150-universities/"}]
+sources: [{"label":"Source 1","url":"https://www.gov.uk/government/publications/budget-2026-document/budget-2026-html"},{"label":"Source 2","url":"https://thepienews.com/uk-to-raise-hpi-visa-cap-as-eligibility-expands-to-top-150-universities/"},{"label":"Current HPI overview","url":"https://www.gov.uk/high-potential-individual-visa"}]
 image: "/images/daily/2026-11-03/uk.jpg"
 imageAlt: "倫敦西敏宮授權資料照"
 imageCredit: "Diliff / CC BY-SA 2.5"
 imageSource: "https://commons.wikimedia.org/wiki/File:Palace_of_Westminster,_London_-_Feb_2007.jpg"
 imageLicense: "CC BY-SA 2.5"
+updated: "2026-11-17T21:29:59.300Z"
 ---
 
 ## 預算提出擴大，還不是新名單上路
@@ -28,3 +29,17 @@ The PIE News於11月2日報導此計畫，並採訪移民實務與高教政策�
 編輯建議：先保存畢業日期與學位資料，再依申請時有效的官方Global Universities List和完整規則核對。不要因為這則公告更改已確認的入學或工作安排。配圖為倫敦西敏宮資料照，非預算發布現場。
 
 [Photo credits](/images/daily/2026-11-03/credits.html#uk)
+
+## 人才政策方向與現在的申請條件
+
+這項政策的背景，是英國希望擴大吸引海外畢業人才。預算文件提出前一百五十所機構及相應增加上限，但「前一百五十」是政策敘述，並不表示讀者可以自行挑一份世界排名判定資格。申請時仍需查政府對學歷取得年度採用的正式名單，而不是把校名出現在新聞或排名中當成已取得簽證資格。
+
+The PIE對Fragomen律師Russell Hodges的採訪，呈現擴大人才來源及讓畢業生探索英國職涯的正面評估；報導也納入高教政策界對整體資源環境的關切。這些是受訪者對政策效果的看法，不是新增學校名單，也不保證任何人能找到工作。把支持意見與行政細則分開，才能理解一項政策仍有哪些待落實環節。
+
+十一月十八日重新查閱政府HPI總覽，現行說明仍以合資格大學近五年取得的學歷為基礎；一般核准停留兩年，持博士或其他博士級資格者三年。博士級資格與正在讀博士是不同條件，不能把媒體中的簡稱照抄成在學者一律適用。官方也說明此簽證不能延長，後續若要轉其他路徑仍須符合該路徑要求。
+
+編輯分析認為，台灣畢業生可以先整理學位名稱、授予日期與學校正式名稱，再確認英文及其他完整規定。若學校只出現在某一年度名單，不能把它推廣為任何年度畢業者都適用。這也是為什麼尚未公布細節的擴大計畫，不宜直接寫進已確定的求職預算，或用來保證某所大學的畢業後工作安排。
+
+申請成本與求職成本也應分開。即使一條路徑不以預先取得工作為核心，家庭仍須評估在英生活、保險與必要行政支出，以及未能立即找到合適職位的情境。本文不提供薪資或成功率推估；較可行的做法，是把已知支出、可動用資金與尚未確定收入各自列明，再決定是否適合自己的學歷與職涯階段。
+
+本次補寫保留十一月三日的原發布日期，將預算方向、媒體原創採訪及當前官方總覽分開呈現。後續關鍵是完整名單、確切上限與適用日期，而不是再用更多排名推測。若正式規則更新，仍需重新核對個人畢業年度及申請條件；不能把本文對未定事項的保留，誤認為政府已承諾特定學校、特定國籍或特定申請人的結果。

@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-18",
+  "reviewedSchools": [
+    "ntnu",
+    "ntu",
+    "ncku"
+  ],
+  "candidates": [
+    {
+      "schoolSlug": "ntnu",
+      "title": "116-1交換申請審查後補件截止",
+      "sourceUrl": "https://pr.ntnu.edu.tw/chirpy/ntnu_event.php?event=10854&redirect=true",
+      "summary": "首次報名11/15截止；11/18為通知補件截止，12月還有志願更換、分發報到。",
+      "checkedAt": "2026-11-17T21:37:13.823Z",
+      "status": "official-lead-only",
+      "independentSecondSource": null
+    },
+    {
+      "schoolSlug": "ntu",
+      "title": "管院交換提名與入學許可流程",
+      "sourceUrl": "https://management.ntu.edu.tw/ia/OutgoingExchange/application_guide/application",
+      "summary": "每年時間僅供參考；校內錄取、確認、提名與海外學校許可分開。為新流程角度，非新政策。",
+      "checkedAt": "2026-11-17T21:37:13.823Z",
+      "status": "official-lead-only",
+      "independentSecondSource": null
+    },
+    {
+      "schoolSlug": "ncku",
+      "title": "11/8–12清邁與南奔USR國際合作交流",
+      "sourceUrl": "https://vcmlab.psychology.ncku.edu.tw/events",
+      "summary": "成大實驗室官方大事記記載與清邁大學護理學院簽MOU及回訪南奔；未取得獨立第二來源，不刊為獨立新聞。",
+      "checkedAt": "2026-11-17T21:37:13.823Z",
+      "status": "official-lead-only",
+      "independentSecondSource": null
+    }
+  ],
+  "published": [],
+  "pendingConsent": [],
+  "outreachDrafts": [],
+  "gaps": [
+    "三則為官方校園線索；未把單一校方公告當成通過獨立雙查的新聞。"
+  ]
+}

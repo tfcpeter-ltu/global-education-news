@@ -1,0 +1,2 @@
+1008 pages; 29973 distinct strings; 0 new translations
+{"pages": 1007, "translationStrings": 43665, "newStrings": 0, "engine": "Argos/OpenNMT zh-en 1.9 / CTranslate2", "englishPrefix": "/en/", "translatedAt": "2026-11-17T21:37:21Z"}

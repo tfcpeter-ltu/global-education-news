@@ -1,0 +1,31 @@
+{
+  "checkedAt": "2026-11-17T21:37:13.823Z",
+  "count": 3,
+  "libraryCount": 12,
+  "urls": [
+    "https://udn.com/news/story/6898/9271435",
+    "https://www.setn.com/m/news.aspx?newsid=1688074",
+    "https://www.storm.mg/article/11051374"
+  ],
+  "rotationVerified": true,
+  "verifiedOriginals": 1,
+  "blockedOriginals": 2,
+  "status": "partial_external_blocker",
+  "notes": "聯合原文成功回讀；三立與風傳媒遭瀏覽器網站安全政策拒絕，已即時通知；未採替代路徑繞過。",
+  "blockers": [
+    {
+      "url": "https://www.setn.com/m/news.aspx?newsid=1688074",
+      "discoveredAt": "2026-11-17T21:37:13.823Z",
+      "type": "browser-site-safety-policy",
+      "action": "原始頁回讀",
+      "workaroundAttempted": false
+    },
+    {
+      "url": "https://www.storm.mg/article/11051374",
+      "discoveredAt": "2026-11-17T21:37:13.823Z",
+      "type": "browser-site-safety-policy",
+      "action": "原始頁回讀",
+      "workaroundAttempted": false
+    }
+  ]
+}

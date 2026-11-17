@@ -1,26 +1,8 @@
 {
   "status": "pending",
   "order": "newest first, then currently consequential policies",
-  "remaining": 151,
+  "remaining": 148,
   "items": [
-    {
-      "path": "src/pages/news/canada-eu-erasmus-negotiations-october-2026.md",
-      "date": "\"2026-11-03T05:20:21.374073+08:00\"",
-      "bodyCjk": 286,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/uk-hpi-top-150-expansion-plan-2026.md",
-      "date": "\"2026-11-03T05:20:21.374073+08:00\"",
-      "bodyCjk": 261,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/us-general-education-transfer-consortium-2026.md",
-      "date": "\"2026-11-03T05:20:21.374073+08:00\"",
-      "bodyCjk": 260,
-      "needsEditorialReview": true
-    },
     {
       "path": "src/pages/news/ieaa-excellence-awards-student-learning-2026.md",
       "date": "\"2026-11-01T10:34:19.579066+08:00\"",

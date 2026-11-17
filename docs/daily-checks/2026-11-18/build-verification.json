@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "verifiedAt": "2026-11-17T21:39:56.823Z",
+  "bilingualPairs": 1007,
+  "canonicalPages": 2000,
+  "checks": [
+    "Astro build",
+    "bilingual routes/form values/JSON-LD/XML",
+    "search index/canonical sitemap",
+    "education SEO",
+    "news depth 72 current",
+    "scholarship status regressions",
+    "Facebook photo evidence regressions"
+  ]
+}
