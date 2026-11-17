@@ -778,5 +778,83 @@
     "independentSource": "https://thepienews.com/international-universities-face-pressure-to-prove-value-in-india/",
     "reviewedAt": "2026-11-16T01:17:44.888Z",
     "bodySha256": "60ce1fd4c6db66c0430cae63b5ab14b7a286c132f2d8f2c28336c8cb4315a5f2"
+  },
+  "us-open-doors-2026-new-enrolment-and-fall-snapshot": {
+    "newsValue": "11月16日發布的年度數據提供新招生訊號，將完整學年與秋季快照拆開，避免對台灣家庭造成錄取率誤導。",
+    "background": "交代上一學年、學位別及OPT納入總數的意義，不把畢業後訓練人口當作本期新入學學生。",
+    "development": "依序說明總量、新進、學位別與下一學年快照，標明809校與近3000校調查的不同涵蓋範圍。",
+    "perspectives": "官方提供統計與研究限制；The PIE獨立採訪研究主管，僅摘要其競爭解釋並明確歸因，沒有虛構採訪。",
+    "taiwanImpact": "以課程、資助及預算問題回應台灣申請者，不將整體招生變化推論為個人錄取或工作保證。",
+    "uncertainty": "院校回報因素非因果估計，OPT非移民追蹤，快照非全國普查；上述限制均納入正文說明。",
+    "independence": "IIE是原始調查者，The PIE報導含記者對Mirka Martel的獨立採訪；其他IIE文件僅補口徑，不冒充獨立來源。",
+    "primarySource": "https://opendoorsdata.org/wp-content/uploads/2026/11/Open-Doors-Data-Press-Release_2026.pdf",
+    "independentSource": "https://thepienews.com/us-total-number-of-international-students-drops-for-first-time-in-five-years/",
+    "reviewedAt": "2026-11-17T00:12:11.311Z",
+    "bodySha256": "83cfc33c074ee92185ffadc82b42f7f5755d74d3c110068235277961bc1bf4ad"
+  },
+  "uk-home-office-compliance-conference-no-student-cap-2026": {
+    "newsValue": "11月16日會議出現官方與院校對合規影響的交鋒，焦點是資訊透明與執行問題，不重發11月15日制度摘要。",
+    "background": "以UKVI原始指引說明機構評估與個人簽證的差異，將CAS、錄取及簽證程序分開呈現。",
+    "development": "說明2026門檻及2027完成率過渡，清楚區分11月網站更新與六月制度生效。",
+    "perspectives": "限量摘要The PIE對政府與院校代表的原創採訪，分開目的聲明和執行壓力，不虛構反方觀點。",
+    "taiwanImpact": "提供台灣家庭核對程序、要求來源與期限的建議，不推論台灣簽證率或鼓吹立即付費。",
+    "uncertainty": "機構比率不是個人錄取率，來源不足以量化台灣影響，未聲稱已取消審查或保證簽證。",
+    "independence": "UKVI是規則制定者；The PIE為獨立會議採訪，記錄院校回應，並非官方新聞稿的單純轉載。",
+    "primarySource": "https://www.gov.uk/government/publications/student-sponsor-guidance/student-sponsor-compliance-accessible",
+    "independentSource": "https://thepienews.com/tighter-compliance-not-tactic-to-manage-international-student-numbers-says-uk-home-office/",
+    "reviewedAt": "2026-11-17T00:12:11.311Z",
+    "bodySha256": "3d3eee6ea89ab9a68be67f2058c2b7913fca356c02e2d9d077e036d92eb10ee3"
+  },
+  "idp-rejects-blackstone-third-proposal-november-2026": {
+    "newsValue": "11月16日正式拒絕是收到提案後的新決策，與既有11月15日評估階段文章有清楚時間與事件差異。",
+    "background": "介紹學生安置、IELTS及教育業營運壓力，將企業財報與個人學生服務安排分開解釋。",
+    "development": "原始公告確認11月10日收到、11月16日拒絕；非約束方案並不等同交易完成或易主。",
+    "perspectives": "董事會估值說法明確歸因；Reuters提供第三次提案脈絡，The PIE補其獨立確認的印度據點整併。",
+    "taiwanImpact": "就聯絡、服務條件及語言要求提供核對方向，不捏造台灣據點或學生個案，也不製造取消恐慌。",
+    "uncertainty": "保留財測與結果差異、澳元與美元換算差異、未回應置評及未來提案未知，不作投資推薦。",
+    "independence": "IDP ASX公告是第一手董事會決議；Reuters獨立新聞採訪並尋求Blackstone回應，The PIE另有先前公司確認的背景。",
+    "primarySource": "https://company-announcements.afr.com/asx/iel/3d65013a-e13d-11f1-875f-124ac9d8af37.pdf",
+    "independentSource": "https://www.investing.com/news/stock-market-news/australias-idp-rebuffs-blackstones-third-buyout-attempt-at-5645-million-valuation-5028181",
+    "reviewedAt": "2026-11-17T00:12:11.311Z",
+    "bodySha256": "6d0552f053ac244dedaebc625eab8a41766242232d7b4f322c2901a7c9f773ac"
+  },
+  "australia-2027-csp-allocation-pool": {
+    "newsValue": "這次政策的重要背景，是澳洲把大學擴張與長期技能需求放在同一個資源分配框架內。官方所說的公費支持學額，涉及政府如何支持教學，並不等於學生完全不必負擔費用。Norton的說明特別區分政府與學生兩部分投入，因此讀者看到英文的fully funded，也不能直接翻成每名學生都取得全額獎學金。",
+    "background": "制度變化也包含決策層次的調整。教育部長決定整體學額池，澳洲高等教育委員會負責院校配置；總數、院校數與課程可收多少學生，並不是同一層資料。對準備選校的家庭而言，應先辨認公告屬於哪一層，再決定是否需要更新自己的申請清單，不能從全國數字跳到某個科系今年一定更容易錄取。",
+    "development": "本篇於十一月十七日補充背景與判讀方法，保留十一月四日原發布日。十月公告當時仍將個別院校配置列為後續工作，本文沒有把未逐校核實的分配結果補寫成已知事實。後續應追蹤正式分配、學校課程與收費資料；對台灣申請人有用的是能對應自己身分與課程的文件，而不是把全國總額當成個人的錄取或補助承諾。",
+    "perspectives": "Norton的獨立分析提醒，提前決定總量固然讓規劃較有時間，卻可能早於下一年度申請需求等資訊完全明朗。這是資源配置的時間差問題，不是反對擴大機會，也不是證明政策必然失敗。他的文章寫於法案階段，本文以它解釋制度設計的取捨，正式通過及十月公布的狀態仍以後來的官方公告為準。",
+    "taiwanImpact": "編輯分析認為，台灣家庭最容易混淆的是把本地學生資助、國際學生招生安排與個人獎學金三件事放進同一張預算表。較可靠的做法是先請學校確認自己的收費身分，再列出課程全年學費、必要支出及已取得的個人補助。尚在競爭或未收到書面核定的獎項，宜另外列為可能收入，而不是先從必付學費扣除。",
+    "uncertainty": "同樣需要分開的是招生機會與教學資源。假設某所學校取得更多學額，仍要看課程安排、實習容量及學生支持如何跟上；這是假設性的評估方法，不是本報發現任何學校已出現資源不足。學生可把問題具體化，詢問必修課是否按期開設、實作如何分組，以及是否有公開的課程完成資訊，避免只比較宣傳中的擴張幅度。",
+    "independence": "教育部長公告確認總額與時間，Norton自行分析法案、配置時間差及政府與學生投入，提供獨立制度判讀。",
+    "primarySource": "https://ministers.education.gov.au/clare/2027-university-places-allocated-under-new-managed-growth-system?page=2",
+    "independentSource": "https://andrewnorton.id.au/2026/06/29/the-proposed-new-funding-system-part-1-setting-the-number-of-fully-funded-commonwealth-supported-places/",
+    "reviewedAt": "2026-11-17T00:17:21.558Z",
+    "bodySha256": "3148463483598b60b6a0e83c1d79108dec3b36cb6129289a8b8d4f9d7ed0e53e"
+  },
+  "germany-international-student-retention-fit-2026": {
+    "newsValue": "這場討論值得台灣學生注意，因為選校的決定通常發生在入學前，真正需要支持的時刻卻可能在抵達之後。招生頁介紹有多少英語課程，未必同時回答學生遇到課業、生活與職涯問題時找誰。論壇把焦點移向完成學業，提供了一個比單看入學門檻更完整的比較角度，但沒有發布一套適用全德國所有學校的新招生規則。",
+    "background": "從官方計畫設計看，FIT把學習前準備、修課期間的成功與轉入職場視為連續過程，而不只是一場畢業前的履歷講座。這是機構取得資源發展服務的方向，不是每名國際生都能直接向DAAD領取固定生活費的證明。讀者若在學校網站看到FIT名稱，下一步應查該校實際提供的活動、對象與報名方式，不能只看計畫標誌。",
+    "development": "本篇於十一月十七日補足原報導的服務與選校脈絡，保留十一月四日發布日期。資料能支持的是論壇提出的問題及DAAD既有計畫的內容，尚不能據此計算計畫對個別學生畢業率或就業率的效果。後續值得追蹤的是各校公布的參與條件、實際服務及有方法說明的成果評估；缺少追蹤資料時，應明確保留未知，而不是把政策目的寫成已達成的結果。",
+    "perspectives": "論壇報導呈現的另一個問題，是服務責任分散。學生的問題可能跨越系所、國際處與職涯單位，單一辦公室未必能處理完整需求。編輯建議把抽象的支持服務改寫成可核對的問題：新生能否使用學術寫作協助、語言課是否另外付費、求職活動是否接受國際學生，以及有沒有清楚的轉介窗口。這些項目仍需向目標學校逐一確認。",
+    "taiwanImpact": "語言準備則應依個人基礎安排。報導中語言教育業者談到密集學習的可能時程，這是講者經驗及判斷，不能當成所有初學者都會按同一速度進步的保證。台灣學生即使申請英語授課，也可以另外列出日常溝通、實習與長期職涯所需的語言目標，再估算時間與費用；課程授課語言只回答其中一部分問題。",
+    "uncertainty": "家庭討論也不宜把是否留下工作當成留學成功的唯一標準。編輯分析提出，學生可以同時規劃完成學位、回台發展與探索當地職涯的不同情境，分別列出可取得的證據與尚未確定的事項。校方提供求職協助，不代表雇主必然錄用；某個國家有缺工議題，也不能直接推導任何專業或語言程度的畢業生都能找到合適工作。",
+    "independence": "DAAD官方資料說明自身計畫，PIE記者另行記錄柏林論壇發言與責任分散問題，並非複製官方新聞稿。",
+    "primarySource": "https://www.daad.de/en/information-services-for-higher-education-institutions/further-information-on-daad-programmes/fit/",
+    "independentSource": "https://thepienews.com/germanys-international-student-push-turns-to-retention/",
+    "reviewedAt": "2026-11-17T00:17:21.582Z",
+    "bodySha256": "f57bc1e7506162be34cd61044cc14309a1abc9b6ed66db32f4cb2c01b08bc4b4"
+  },
+  "new-zealand-november-16-graduate-work-pathways": {
+    "newsValue": "本文十一月四日原為生效前提醒，十一月十七日重新查閱移民局公告後補充條件與時間線。官方列明的十一月十六日開始日期如今已到，但讀者仍需使用現行申請說明判斷個案，不能只憑舊新聞標題決定自己已獲得工作權。提出申請、取得核准與開始工作是不同階段；本文沒有代讀者測試或送出任何簽證申請。",
+    "background": "McMillan & Co.律師的分析將新路徑放在既有資格限制的背景中，指出某些文憑或職業資格畢業生原本難以銜接工作簽證。這項觀點有助理解政策想填補的空隙，但律所對政策效益的評價並不是官方保證。選擇課程時，應先確認正式資格名稱、等級、修讀方式與時長，再核對適用路徑，不能只看學校把課程統稱為大學後進修。",
+    "development": "對台灣家庭而言，較穩健的預算仍應能涵蓋沒有立即找到工作的情境。官方最低資金門檻是申請條件，不等於每個城市與家庭六個月的實際生活費。後續可查核的重點是現行申請頁、個人資格文件與雇主條件；六個月提供的是有限的銜接時間，而不是延長一定成功、雇主一定聘用或往後居留必然獲准的承諾。",
+    "perspectives": "兩條路徑最需要避免混用的是學位與文憑的組合。已有學士再完成第七級Graduate Diploma，與單獨完成一個第五至第七級資格，並不能只因課程等級接近就視為相同申請。台灣學生可把過去學歷、紐西蘭課程與既有簽證紀錄放在同一張時間表，請校方或合格顧問指出每項文件對應哪一個條件，避免先選課才發現對象不符。",
+    "taiwanImpact": "工作安排也有邊界。移民局公告要求短期路徑下的工作須有雇主及僱用協議或服務契約，並排除企業所有權。這提醒讀者，開放工作權不等於任何形式的收入活動都可以做。若計畫包含創業、接案或不同契約關係，應先確認現行條件與自己情況，而不是把新聞中的開放兩字理解成所有工作限制均已取消。",
+    "uncertainty": "家庭同行更不能直接套用學生本人的資格。官方區分伴侶工作、子女就學與探訪等不同安排，不能從本人可能取得短期工作簽證，就推定家人同時獲得同樣權利。編輯建議家庭分別列出每人的預定身分、期限與費用，再確認可用選項；這是規劃步驟，不是個別簽證意見，也不是對任何家庭申請結果的預測。",
+    "independence": "移民局公告為規則來源，McMillan律師另以既有資格缺口及課程結構分析政策，並與官方規定區隔其評價。",
+    "primarySource": "https://www.immigration.govt.nz/about-us/news-centre/new-and-updated-post-study-work-visa-options/",
+    "independentSource": "https://www.mcmillanco.nz/news/legal-news/a-new-stepping-stone-for-international-students-changes-announced-for-post-study-work-visas/",
+    "reviewedAt": "2026-11-17T00:17:21.607Z",
+    "bodySha256": "c72bd5bf31cfc5a2b78561abddb1592ee6c70fdb9585324f79257bc00ec11f9d"
   }
 }
