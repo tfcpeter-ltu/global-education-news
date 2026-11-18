@@ -28,6 +28,10 @@ jobs:
         run: |
           npm install --global pnpm@11.25.0
           pnpm install --frozen-lockfile
+      - name: Verify installed dependency patches and regression safeguards
+        run: |
+          node --test scripts/test-dependency-audit.mjs
+          node scripts/audit-dependencies.mjs
       - name: Check production dependency advisories
         # User approved this single advisory exception on 2026-11-18.
         # It expires automatically at 2026-11-19 00:00 UTC; all other checks remain.
