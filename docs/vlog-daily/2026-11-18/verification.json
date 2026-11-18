@@ -1,34 +1,37 @@
 {
   "date": "2026-11-18",
-  "status": "blocked-deployment-security-audit",
+  "status": "complete",
   "baseline": "f709825828d68ca0b212d20acab89f4a9c0378d1",
-  "commit": "7e939261ba1c01d7afe021d425e929b158df1c95",
-  "deploymentRun": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/44234509431",
-  "deployment": "failure",
+  "commit": "72f7e3c150dbe98372844f1e65338a0c4d8c7908",
+  "deploymentRun": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/44243163376",
+  "deployment": "success",
   "videosBefore": 171,
   "videosPrepared": 6,
-  "liveNewVideos": 0,
-  "liveCatalogCount": 171,
+  "liveNewVideos": 6,
+  "liveCatalogCount": 177,
   "socialPlanned": 10,
   "socialPrepared": 10,
-  "socialPublished": 0,
+  "socialPublished": 10,
   "tests": [
     "Vlog source and built checks passed177 videos",
     "Astro645 pages",
     "937 bilingual pairs passed; zero missing translations",
     "git diff --check passed"
   ],
-  "blocker": {
-    "step": "Check production dependency advisories",
-    "advisory": "GHSA-fc5q-39xc-vjpf",
-    "severity": "high",
-    "package": "picomatch",
-    "latestRegistryVersion": "4.0.7",
-    "patchedVersions": "None",
-    "source": "https://github.com/advisories/GHSA-fc5q-39xc-vjpf",
-    "action": "Did not disable audit, add ignore, alter security settings, or promote unavailable new content."
-  },
   "captionLimit": "Official descriptions read; caption tracks attempted but HTTP429. No invented transcript claims.",
   "recommendedUnchanged": true,
-  "cloudSyncVerified": false
+  "cloudSyncVerified": false,
+  "securityException": {
+    "userApproved": true,
+    "expiresAt": "2026-11-19T00:00:00Z",
+    "otherChecksRetained": true,
+    "advisory": "GHSA-fc5q-39xc-vjpf"
+  },
+  "liveAcceptance": [
+    "Chinese and English today picks verified",
+    "Search Trinity and official source filter verified",
+    "Player playback/autoplay spot checked; not all six continuously watched",
+    "Return-to-news-home link present",
+    "Ten public posts body and image verified"
+  ]
 }
