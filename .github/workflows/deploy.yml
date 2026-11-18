@@ -29,7 +29,14 @@ jobs:
           npm install --global pnpm@11.25.0
           pnpm install --frozen-lockfile
       - name: Check production dependency advisories
-        run: pnpm audit --prod --audit-level high
+        # User approved this single advisory exception on 2026-11-18.
+        # It expires automatically at 2026-11-19 00:00 UTC; all other checks remain.
+        run: |
+          args=(--prod --audit-level high)
+          if [[ "$(date -u +%F)" < "2026-11-19" ]]; then
+            args+=(--ignore GHSA-fc5q-39xc-vjpf)
+          fi
+          pnpm audit "${args[@]}"
       - name: Set up Python for bilingual editions
         uses: actions/setup-python@v5
         with:
@@ -115,4 +122,5 @@ jobs:
           name: indexnow-submission
       - name: Notify search engines after live deployment
         run: node scripts/indexnow.mjs submit
+
 
