@@ -24,5 +24,16 @@
   "category": "new-facebook-page",
   "topic": "拿到錄取以後，愛爾蘭留學還要準備哪些步驟？",
   "imageLicense": "CC BY-SA 2.0",
-  "imageSource": "https://commons.wikimedia.org/wiki/File:The_Main_Quadrangle,_University_College,_Cork_-_geograph.org.uk_-_8158359.jpg"
+  "imageSource": "https://commons.wikimedia.org/wiki/File:The_Main_Quadrangle,_University_College,_Cork_-_geograph.org.uk_-_8158359.jpg",
+  "status": "published-verified",
+  "verifiedAt": "2026-11-18T13:51:48+08:00",
+  "publicationReceipts": [
+    {
+      "network": "facebook",
+      "id": "122123829465505473",
+      "publicUrl": "https://www.facebook.com/photo/?fbid=122123828991505473",
+      "verifiedAt": "2026-11-18T13:38:32.543+08:00",
+      "mediaStatus": "VERIFIED"
+    }
+  ]
 }

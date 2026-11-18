@@ -24,5 +24,37 @@
   "category": "news",
   "topic": "美國學生居留新規遭撤銷，現有學生先確認什麼？",
   "imageLicense": "CC BY-SA 2.0",
-  "imageSource": "https://commons.wikimedia.org/wiki/File:2008_MoakleyCourthouse_Boston_2180380985.jpg"
+  "imageSource": "https://commons.wikimedia.org/wiki/File:2008_MoakleyCourthouse_Boston_2180380985.jpg",
+  "status": "published-verified",
+  "verifiedAt": "2026-11-18T13:51:48+08:00",
+  "publicationReceipts": [
+    {
+      "network": "threads",
+      "id": "Df3wMdYgQ6Q",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Df3wMdYgQ6Q",
+      "verifiedAt": "2026-11-18T13:28:00.722+08:00",
+      "mediaStatus": "VERIFIED"
+    },
+    {
+      "network": "facebook",
+      "id": "1123147247128139",
+      "publicUrl": "https://www.facebook.com/photo/?fbid=1123146490461548",
+      "verifiedAt": "2026-11-18T13:34:09.307+08:00",
+      "mediaStatus": "VERIFIED"
+    },
+    {
+      "network": "linkedin",
+      "id": "7528692020828192768",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7528692020828192768/",
+      "verifiedAt": "2026-11-18T13:35:05.893+08:00",
+      "mediaStatus": "VERIFIED"
+    },
+    {
+      "network": "instagram",
+      "id": "Df3xR3xE2lv",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Df3xR3xE2lv/",
+      "verifiedAt": "2026-11-18T13:37:53.514+08:00",
+      "mediaStatus": "VERIFIED"
+    }
+  ]
 }

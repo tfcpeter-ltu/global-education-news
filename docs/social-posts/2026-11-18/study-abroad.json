@@ -29,5 +29,36 @@
   "topic": "英國Newcastle延後入學：先分清保留名額與重新申請",
   "imageLicense": "CC BY-SA 2.0",
   "imageSource": "https://commons.wikimedia.org/wiki/File:Armstrong_Building,_Newcastle_University_-_geograph.org.uk_-_8247197.jpg",
-  "status": "ready-existing-production-navigation"
+  "status": "published-verified",
+  "verifiedAt": "2026-11-18T13:51:48+08:00",
+  "publicationReceipts": [
+    {
+      "network": "threads",
+      "id": "Df27MRak6AC",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Df27MRak6AC",
+      "verifiedAt": "2026-11-18T05:44:53.564+08:00",
+      "mediaStatus": "VERIFIED"
+    },
+    {
+      "network": "facebook",
+      "id": "1122883087154555",
+      "publicUrl": "https://www.facebook.com/photo/?fbid=1122882710487926",
+      "verifiedAt": "2026-11-18T05:45:28.752+08:00",
+      "mediaStatus": "VERIFIED"
+    },
+    {
+      "network": "instagram",
+      "id": "Df27SY8E5-W",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Df27SY8E5-W/",
+      "verifiedAt": "2026-11-18T05:48:08.7+08:00",
+      "mediaStatus": "VERIFIED"
+    },
+    {
+      "network": "linkedin",
+      "id": "7528574786726232064",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7528574786726232064/",
+      "verifiedAt": "2026-11-18T05:50:35.565+08:00",
+      "mediaStatus": "VERIFIED"
+    }
+  ]
 }

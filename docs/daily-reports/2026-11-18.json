@@ -3,7 +3,7 @@
   "timezone": "Asia/Taipei",
   "startedAt": "2026-11-18T05:06:47.0447782+08:00",
   "status": "partial_external_blocker",
-  "currentPhase": "ACCEPTANCE_RSS_REDEPLOY",
+  "currentPhase": "DELIVERY_VERIFIED_SOURCE_EXCEPTIONS",
   "baseCommit": "362da9478ab23a0f50170f414b1e2e23f08e9039",
   "scholarshipBaselineSlugs": [
     "2026-08-bristol-think-big",
@@ -883,8 +883,7 @@
     }
   ],
   "gaps": [
-    "會員RSS補入今日3筆新增後待再次部署與回讀。",
-    "LTU三立與風傳媒原文受瀏覽器安全政策限制，仍待人工核對。"
+    "網站、RSS、15+1社群均無待部署／待發布項目。LTU三立與風傳媒原文因瀏覽器安全限制仍待人工核對。"
   ],
   "manualActions": [
     "請於安全可信環境核對三立1688074與風傳媒11051374原文；未繞過安全限制。"
@@ -1121,16 +1120,16 @@
       "Facebook photo evidence regressions"
     ]
   },
-  "lastUpdatedAt": "2026-11-18T13:48:54+08:00",
+  "lastUpdatedAt": "2026-11-18T13:53:33+08:00",
   "completedAt": null,
   "unaffectedSocialVerifiedAt": "2026-11-18T05:53:46.645+08:00",
   "deployment": {
-    "commit": "393df2526c708857c4309a5c285c4ee3fdd61407",
+    "commit": "626e55679ee998fdf4e0a6f610993cce6cdf9ad1",
     "status": "success",
-    "runId": 44243956719,
-    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/44243956719",
-    "completedAt": "2026-11-18T13:26:40+08:00",
-    "verifiedAt": "2026-11-18T13:48:54+08:00",
+    "runId": 44246961342,
+    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/44246961342",
+    "completedAt": "2026-11-18T13:52:38+08:00",
+    "verifiedAt": "2026-11-18T13:53:33+08:00",
     "newContentLive": true
   },
   "securityReview": {
@@ -1191,10 +1190,15 @@
   "acceptance": {
     "desktop": true,
     "mobile": true,
-    "seo": false,
-    "status": "rss-redeployment-pending",
-    "notes": "20 bilingual pages and14 images passed HTTP metadata checks; desktop/home and narrow viewport news visually checked. NGK search1, NGK+Canada0, Japan+open9, clear290, load-more and mobile Yamaha1 passed. Sitemap child and updated RSS pending final checks.",
-    "verifiedAt": "2026-11-18T13:48:54+08:00"
+    "seo": true,
+    "status": "passed",
+    "notes": "20 bilingual URLs,14 images, canonical/OG/schema/hreflang passed. Native desktop and narrow-view mobile visual/search tests passed. Sitemap children include12 new bilingual URLs; News sitemap UTC dates convert to today Taipei. Final RSS includes all3 news and3 new scholarships.",
+    "verifiedAt": "2026-11-18T13:53:33+08:00",
+    "evidence": [
+      "docs/daily-checks/2026-11-18/live-acceptance.json",
+      "docs/daily-checks/2026-11-18/sitemap-acceptance.json",
+      "docs/daily-checks/2026-11-18/rss-acceptance.json"
+    ]
   },
   "radar": {
     "baselineCount": 287,
@@ -1244,15 +1248,16 @@
     "publicPhotoScreenshot": "docs/social-posts/2026-11-18/new-facebook-photo.jpg"
   },
   "resumeInstructions": [
-    "16則社群皆已完成，不得重發。等待RSS更新部署成功後回讀3筆新增並執行每日驗證；兩個來源安全阻礙仍保留。"
+    "同日不得重發16則社群或重做已驗收部署。只需處理兩個來源安全限制的人工核對結果；不得繞過。",
+    "每日驗證COMPLETE僅代表交付證據與內容深度檢查通過；兩個來源外部阻礙未消失，因此整批不標completed。"
   ],
   "verification": {
-    "status": "PENDING_FINAL_RSS",
-    "exitCode": 1,
-    "checkedAt": "2026-11-18T08:01:37.6370078+08:00",
+    "status": "COMPLETE",
     "command": "node scripts/verify-daily-delivery.mjs 2026-11-18",
-    "evidence": "docs/daily-checks/2026-11-18/0800-verification.txt",
-    "notes": "All content and social receipts now present; final RSS build/readback not yet completed."
+    "checkedAt": "2026-11-18T13:53:33+08:00",
+    "exitCode": 0,
+    "evidence": "docs/daily-checks/2026-11-18/final-verification.txt",
+    "notes": "Delivery evidence/editorial-depth checks pass; two source-site safety restrictions remain separately recorded. Overall batch is not marked completed."
   },
   "reporting0800": {
     "checkedAt": "2026-11-18T08:01:37.6370078+08:00",
@@ -1304,11 +1309,31 @@
       "failedStep": "Check production dependency advisories",
       "deployJob": "skipped",
       "newContentLive": false
+    },
+    {
+      "commit": "393df2526c708857c4309a5c285c4ee3fdd61407",
+      "status": "success",
+      "runId": 44243956719,
+      "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/44243956719",
+      "completedAt": "2026-11-18T13:26:40+08:00",
+      "verifiedAt": "2026-11-18T13:48:54+08:00",
+      "newContentLive": true
     }
   ],
   "securityRemediation": {
     "status": "deployed",
     "evidence": "docs/daily-checks/2026-11-18/dependency-remediation.json",
     "note": "Verified local fail-closed picomatch patch; upstream advisory remains. Preserved existing user-approved single-advisory raw-audit exception until2026-11-19T00:00:00Z; gate requires follow-up after expiry."
+  },
+  "deliveryCompletedAt": "2026-11-18T13:53:33+08:00",
+  "deadline": {
+    "target": "2026-11-18T08:00:00+08:00",
+    "met": false,
+    "reason": "Deployment security remediation and subsequent full native publishing/readback completed after deadline; actual times retained."
+  },
+  "evidenceStorage": {
+    "localRoot": "C:\\Users\\User\\OneDrive\\文件\\ChatGPT\\環球教育新聞網站\\work\\daily-20261014",
+    "rawBrowserEvidence": "Local files retained. Removed from current public branch by2427d7c; they remain in historical commit626e556. No history rewrite performed.",
+    "cloudSyncVerified": false
   }
 }

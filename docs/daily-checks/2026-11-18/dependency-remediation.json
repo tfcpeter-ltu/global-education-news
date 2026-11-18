@@ -7,9 +7,25 @@
   "behavior": "Reject any glob containing +( or *( before RegExp generation, including escaped spellings and maxExtglobRecursion:false. This site does not require repeated extglobs; ordinary globs and nonrepeating extglobs remain tested.",
   "reproducibility": "pnpm patchedDependencies and lockfile hashes; original package names and versions retained. Installed parser SHA256 and bounded regression tests are mandatory in the dependency gate.",
   "auditPolicy": "Run full production registry audit and report all raw counts. Only this exact advisory/package/installed-version combination may be classified locally mitigated after successful integrity and regression checks. Every other high/critical finding, audit error, malformed response, count mismatch, unknown version or missing patch fails deployment.",
-  "validation": ["Fresh frozen-lockfile install", "Both installed picomatch copies hash-verified", "Dangerous patterns rejected through matcher/makeRe/parse/fastpaths with multiple options", "Ordinary glob compatibility assertions", "Four audit-policy tests covering missing proof, unknown package/version/advisory, new critical findings and invalid audit responses", "Unpatched retained dependency link correctly failed integrity check before clean reinstall"],
-  "references": ["https://github.com/advisories/GHSA-fc5q-39xc-vjpf", "https://github.com/micromatch/picomatch/pull/194"],
+  "validation": [
+    "Fresh frozen-lockfile install",
+    "Both installed picomatch copies hash-verified",
+    "Dangerous patterns rejected through matcher/makeRe/parse/fastpaths with multiple options",
+    "Ordinary glob compatibility assertions",
+    "Four audit-policy tests covering missing proof, unknown package/version/advisory, new critical findings and invalid audit responses",
+    "Unpatched retained dependency link correctly failed integrity check before clean reinstall"
+  ],
+  "references": [
+    "https://github.com/advisories/GHSA-fc5q-39xc-vjpf",
+    "https://github.com/micromatch/picomatch/pull/194"
+  ],
   "followUp": "Replace the local mitigation with a verified upstream release when available, rerun regressions and raw audit, then remove the scoped mitigation logic. Do not claim upstream remediation until an official fixed release exists.",
   "dependencyBackup": "C:/Users/User/AppData/Local/Temp/globalednews-20261118-deploy/node_modules-before-patch",
-  "deploymentScope": "Latest main includes November18 news/scholarships/Peter/archive updates plus six Vlog selections."
+  "deploymentScope": "Latest main includes November18 news/scholarships/Peter/archive updates plus six Vlog selections.",
+  "upstreamAuditGate": {
+    "preservedFromCommit": "72f7e3c150dbe98372844f1e65338a0c4d8c7908",
+    "userApprovedException": "GHSA-fc5q-39xc-vjpf only",
+    "expiresTaipei": "2026-11-19T08:00:00+08:00",
+    "note": "Raw audit exception expires automatically. Verified local patch gate is additional and does not extend that approval."
+  }
 }

@@ -1,0 +1,34 @@
+{
+  "url": "https://globalednews.com/weekly-feed.xml",
+  "status": 200,
+  "checkedAt": "2026-11-18T13:52:53.381+08:00",
+  "deploymentCommit": "626e55679ee998fdf4e0a6f610993cce6cdf9ad1",
+  "checks": [
+    {
+      "slug": "us-court-vacates-duration-of-status-final-rule-november-2026",
+      "present": true
+    },
+    {
+      "slug": "ireland-student-visa-refusals-university-fees-november-2026",
+      "present": true
+    },
+    {
+      "slug": "going-global-istanbul-higher-education-resilience-2026",
+      "present": true
+    },
+    {
+      "slug": "2026-11-ngk-international-student-2027",
+      "present": true
+    },
+    {
+      "slug": "2026-11-yamaha-music-support-2027",
+      "present": true
+    },
+    {
+      "slug": "2026-11-tokyo-st-timothy-international-student",
+      "present": true
+    }
+  ],
+  "scholarshipSection": true,
+  "passed": true
+}
