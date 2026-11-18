@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-11-18T13:10:05.4175803+08:00",
+  "remoteMain": "5f4d6d7db387957b35a9830095b9b5afcb2bf1a9",
+  "latestRun": 44234795595,
+  "conclusion": "failure",
+  "failedStep": "Check production dependency advisories",
+  "deploy": "skipped",
+  "picomatchLatest": "4.0.7",
+  "astroLatest": "7.4.12",
+  "astroLatestPicomatch": "^4.0.7",
+  "tinyglobbyLatest": "0.2.17",
+  "tinyglobbyLatestPicomatch": "^4.0.4",
+  "decision": "Official releases and parent upgrades do not remove affected dependency. Latest concurrent Vlog deployment also failed audit. Retain gate; no duplicate social publication or unsupported claim of completion."
+}

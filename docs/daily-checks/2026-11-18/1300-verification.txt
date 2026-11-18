@@ -1,0 +1,17 @@
+INCOMPLETE 2026-11-18: fewer than 3 verified news URLs
+INCOMPLETE 2026-11-18: fewer than 3 verified new scholarship additions; updates to existing items do not count
+INCOMPLETE 2026-11-18: fewer than 3 verified distinct Peter imports and no verified no-new-posts review
+INCOMPLETE 2026-11-18: news/facebook: expected one verified published post, got 0
+INCOMPLETE 2026-11-18: news/instagram: expected one verified published post, got 0
+INCOMPLETE 2026-11-18: news/threads: expected one verified published post, got 0
+INCOMPLETE 2026-11-18: news/linkedin: expected one verified published post, got 0
+INCOMPLETE 2026-11-18: scholarship/facebook: expected one verified published post, got 0
+INCOMPLETE 2026-11-18: scholarship/instagram: expected one verified published post, got 0
+INCOMPLETE 2026-11-18: scholarship/threads: expected one verified published post, got 0
+INCOMPLETE 2026-11-18: scholarship/linkedin: expected one verified published post, got 0
+INCOMPLETE 2026-11-18: new Facebook page: require a native photo ID/permalink and a saved public screenshot; a post URL or link card is not photo evidence
+INCOMPLETE 2026-11-18: new Facebook page: require observed photo-ready evidence before adding copy; never invent timestamps after publication
+INCOMPLETE 2026-11-18: new Facebook page 61595164194381: missing one verified new daily post with a visible uploaded photo
+INCOMPLETE 2026-11-18: missing deployment evidence
+INCOMPLETE 2026-11-18: missing live acceptance evidence
+INCOMPLETE 2026-11-18: fewer than 3 historical bilingual rewrites with deployment and live readback evidence

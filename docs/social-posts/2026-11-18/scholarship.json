@@ -14,7 +14,7 @@
     "台灣學生國際獎學金雷達\n想找海外就學補助，卻不知道自己能申請哪一項？\n\nGlobal Education News｜環球教育新聞提供免費開放、具公益性質的獎學金資訊整理，可依國家、學位及申請狀態查找，對照補助、資格、期限與官方來源。\n2026/11/18資料庫收錄290筆獎學金資料；全庫總量不等於全部開放。先縮小條件，再回官方確認自己的申請路徑。\n免費查詢：https://globalednews.com/scholarships/",
     "【11/18新增①｜日本・大學部／碩博】\n在愛知縣就讀，NGK2027提供每月12萬日圓、最長兩年（續領須審查）。台灣正規留學生須未滿35歲、經濟有需要、取得校方推薦，並符合留學身分、保險及不可併領規定。名古屋市大校內期限2027/1/13日本17:00（台北16:00）；其他學校另查校內截止。\nhttps://globalednews.com/scholarships/items/2026-11-ngk-international-student-2027/",
     "【新增②｜日本・器樂／聲樂學習】\nYamaha2027每月20萬日圓、最長兩年，第二年須審查。台灣申請人須13–25歲、在日就讀或預定進入教育機構，另有推薦、演奏影片、日文面試及併領限制；12/7日本17:00（台北16:00）截止。\nhttps://globalednews.com/scholarships/items/2026-11-yamaha-music-support-2027/\n\n【新增③｜日本・大學部／碩博】\n東京聖提摩太教會2026獎學金一次15萬日圓。須10/1已在東京、神奈川、千葉或埼玉校區就讀正規課程，台灣學生可申請，不限宗教；有日文面試、成果與活動要求。11/21日本23:59（台北22:59）截止。\nhttps://globalednews.com/scholarships/items/2026-11-tokyo-st-timothy-international-student/",
-    "【最新環球教育新聞】\n美國法院撤銷學生定期居留新規：D/S維持，仍須遵守在學與身分義務。\nhttps://globalednews.com/news/us-court-vacates-duration-of-status-final-rule-november-2026/\n愛爾蘭大學預期學費受簽證拒絕影響：選校規劃別只看錄取。\nhttps://globalednews.com/news/ireland-student-visa-refusals-university-fees-november-2026/\n伊斯坦堡Going Global開幕：大學擴張如何兼顧課程與學生支持？\nhttps://globalednews.com/news/going-global-istanbul-higher-education-resilience-2026/",
+    "【最新環球教育新聞】\n愛爾蘭大學預期學費受簽證拒絕影響：選校規劃別只看錄取。\nhttps://globalednews.com/news/ireland-student-visa-refusals-university-fees-november-2026/\n伊斯坦堡Going Global開幕：大學擴張如何兼顧課程與學生支持？\nhttps://globalednews.com/news/going-global-istanbul-higher-education-resilience-2026/",
     "追蹤環球教育新聞，並免費加入會員：https://globalednews.com/newsletter/\n每週收到最新國際教育新聞與本週新增獎學金的摘要、條件提醒及詳情連結。也歡迎分享給正在找補助的學生與家長。獎學金資格與獲獎仍依主辦單位審查，資訊服務不保證錄取或獲獎。"
   ],
   "threadsTopic": "獎學金",
@@ -25,11 +25,54 @@
   "category": "國際獎學金",
   "topic": "獎學金",
   "expectedTotal": 290,
-  "totalVerificationStatus": "awaiting-live-deployment",
+  "totalVerificationStatus": "verified-live-290",
   "sources": [
     "https://globalednews.com/scholarships/items/2026-11-ngk-international-student-2027/",
     "https://globalednews.com/scholarships/items/2026-11-yamaha-music-support-2027/",
     "https://globalednews.com/scholarships/items/2026-11-tokyo-st-timothy-international-student/"
   ],
-  "status": "prepared-awaiting-production-count"
+  "status": "published-verified",
+  "verifiedAt": "2026-11-18T13:48:54+08:00",
+  "threadsSegmentReceipts": [
+    {
+      "index": 0,
+      "id": "Df3xiNHgSj7",
+      "url": "https://www.threads.com/@ltuossdtw/post/Df3xiNHgSj7",
+      "parentId": null,
+      "verifiedAt": "2026-11-18T13:41:00.732+08:00",
+      "publishedAt": "2026-11-18T13:38:59+08:00"
+    },
+    {
+      "index": 1,
+      "id": "Df3xjAAge20",
+      "url": "https://www.threads.com/@ltuossdtw/post/Df3xjAAge20",
+      "parentId": "Df3xiNHgSj7",
+      "verifiedAt": "2026-11-18T13:41:00.732+08:00",
+      "publishedAt": "2026-11-18T13:39:05+08:00"
+    },
+    {
+      "index": 2,
+      "id": "Df3xji4AUaD",
+      "url": "https://www.threads.com/@ltuossdtw/post/Df3xji4AUaD",
+      "parentId": "Df3xjAAge20",
+      "verifiedAt": "2026-11-18T13:41:00.732+08:00",
+      "publishedAt": "2026-11-18T13:39:10+08:00"
+    },
+    {
+      "index": 3,
+      "id": "Df3xkALgfBD",
+      "url": "https://www.threads.com/@ltuossdtw/post/Df3xkALgfBD",
+      "parentId": "Df3xji4AUaD",
+      "verifiedAt": "2026-11-18T13:41:00.732+08:00",
+      "publishedAt": "2026-11-18T13:39:14+08:00"
+    },
+    {
+      "index": 4,
+      "id": "Df3xkgrAXtH",
+      "url": "https://www.threads.com/@ltuossdtw/post/Df3xkgrAXtH",
+      "parentId": "Df3xkALgfBD",
+      "verifiedAt": "2026-11-18T13:41:00.732+08:00",
+      "publishedAt": "2026-11-18T13:39:18+08:00"
+    }
+  ]
 }

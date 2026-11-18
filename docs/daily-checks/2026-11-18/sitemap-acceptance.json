@@ -1,0 +1,69 @@
+{
+  "checkedAt": "2026-11-18T05:49:17.063Z",
+  "children": [
+    "https://globalednews.com/sitemap-0.xml",
+    "https://globalednews.com/article-sitemap.xml",
+    "https://globalednews.com/news-sitemap.xml",
+    "https://globalednews.com/study-abroad/sitemap.xml",
+    "https://globalednews.com/english-sitemap.xml"
+  ],
+  "urls": [
+    {
+      "url": "https://globalednews.com/news/us-court-vacates-duration-of-status-final-rule-november-2026/",
+      "present": true
+    },
+    {
+      "url": "https://globalednews.com/en/news/us-court-vacates-duration-of-status-final-rule-november-2026/",
+      "present": true
+    },
+    {
+      "url": "https://globalednews.com/news/ireland-student-visa-refusals-university-fees-november-2026/",
+      "present": true
+    },
+    {
+      "url": "https://globalednews.com/en/news/ireland-student-visa-refusals-university-fees-november-2026/",
+      "present": true
+    },
+    {
+      "url": "https://globalednews.com/news/going-global-istanbul-higher-education-resilience-2026/",
+      "present": true
+    },
+    {
+      "url": "https://globalednews.com/en/news/going-global-istanbul-higher-education-resilience-2026/",
+      "present": true
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-11-ngk-international-student-2027/",
+      "present": true
+    },
+    {
+      "url": "https://globalednews.com/en/scholarships/items/2026-11-ngk-international-student-2027/",
+      "present": true
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-11-yamaha-music-support-2027/",
+      "present": true
+    },
+    {
+      "url": "https://globalednews.com/en/scholarships/items/2026-11-yamaha-music-support-2027/",
+      "present": true
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-11-tokyo-st-timothy-international-student/",
+      "present": true
+    },
+    {
+      "url": "https://globalednews.com/en/scholarships/items/2026-11-tokyo-st-timothy-international-student/",
+      "present": true
+    }
+  ],
+  "newsDates": [
+    "2026-11-17T21:28:05.314Z",
+    "2026-11-17T21:28:05.314Z",
+    "2026-11-17T21:28:05.314Z",
+    "2026-11-17T00:12:11.311Z",
+    "2026-11-17T00:12:11.311Z",
+    "2026-11-17T00:12:11.311Z"
+  ],
+  "allPassed": true
+}

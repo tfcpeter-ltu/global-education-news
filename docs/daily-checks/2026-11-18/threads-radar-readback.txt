@@ -1,0 +1,316 @@
+- navigation:
+  - link "Threads":
+    - /url: /
+    - img "Threads"
+  - button "更多":
+    - img "更多"
+  - link "為你推薦":
+    - /url: /
+    - generic: 為你推薦
+  - link "搜尋 搜尋":
+    - /url: /search
+    - img "搜尋"
+    - generic: 搜尋
+  - link "訊息 訊息":
+    - /url: /messages/
+    - img "訊息"
+    - generic: 訊息
+  - link "通知 動態":
+    - /url: /activity
+    - img "通知"
+    - generic: 動態
+  - link "個人檔案 個人檔案":
+    - /url: /@ltuossdtw
+    - img "個人檔案"
+    - generic: 個人檔案
+  - link "洞察報告 洞察報告":
+    - /url: /insights/
+    - img "洞察報告"
+    - generic: 洞察報告
+  - generic: 探索社群
+  - link "台股":
+    - /url: /search?q=%E5%8F%B0%E8%82%A1&serp_type=tags&tag_id=18280855960087606
+    - generic: 台股
+  - link "美食":
+    - /url: /search?q=%E7%BE%8E%E9%A3%9F&serp_type=tags&tag_id=18407468278002529
+    - generic: 美食
+  - link "健身":
+    - /url: /search?q=%E5%81%A5%E8%BA%AB&serp_type=tags&tag_id=18396807922041782
+    - generic: 健身
+  - link "顯示更多":
+    - /url: /communities/
+    - generic: 顯示更多
+  - generic: 其他動態消息
+  - button "編輯動態消息":
+    - generic: 編輯
+  - link "追蹤中":
+    - /url: /following/
+    - generic: 追蹤中
+  - link "已儲存 已儲存":
+    - /url: /saved/
+    - img "已儲存"
+    - generic: 已儲存
+  - link "已說讚 已說讚":
+    - /url: /liked/
+    - img "已說讚"
+    - generic: 已說讚
+  - button "顯示更多":
+    - generic: 顯示更多
+  - button "新串文":
+    - generic: 新串文
+- button "返回":
+  - img "返回"
+- link "直欄標題":
+  - /url: /@ltuossdtw/post/Df3xiNHgSj7
+  - heading "串文" [level=1]:
+    - generic: 串文
+- button "2次瀏覽":
+  - text: 2次瀏覽
+- button "通知設定":
+  - img "通知設定"
+- button "更多":
+  - img "更多"
+- region "直欄內文":
+  - link "ltuossdtw的大頭貼照":
+    - /url: /@ltuossdtw
+    - img "ltuossdtw的大頭貼照"
+  - link "ltuossdtw":
+    - /url: /@ltuossdtw
+    - generic: ltuossdtw
+  - link "獎學金":
+    - /url: /search?q=%E7%8D%8E%E5%AD%B8%E9%87%91&serp_type=tags&tag_id=18430439218010302
+    - generic: 獎學金
+  - link "約 1 分鐘前":
+    - /url: /@ltuossdtw/post/Df3xiNHgSj7
+    - time:
+      - generic "約 1 分鐘前": 1分鐘
+  - button "更多":
+    - img "更多"
+  - generic: 台灣學生國際獎學金雷達 想找海外就學補助，卻不知道自己能申請哪一項？
+  - text: Global Education News｜環球教育新聞提供免費開放、具公益性質的獎學金資訊整理，可依國家、學位及申請狀態查找，對照補助、資格、期限與官方來源。 2026/11/18資料庫收錄290筆獎學金資料；全庫總量不等於全部開放。先縮小條件，再回官方確認自己的申請路徑。 免費查詢：
+  - link "globalednews.com/schol…":
+    - /url: https://l.threads.com/?u=https%3A%2F%2Fglobalednews.com%2Fscholarships%2F&e=AUCtut3vXXhgPnCRk76CL1zdEP9gQOG-Ry4EnK3SeWE2i2zp4Myhvn_gxo62LE9fZMm8vLK2LTuQ1c-eVh-AINXv6ZoP8DD3PjWAYZmMi0WT3lwgMD0777Bjd5OIzw-ZQXty4_E
+  - generic: "1"
+  - generic: /
+  - generic: "5"
+  - link "Photo by LTU 布萊斯OSSD 台加雙聯學制 on November 17, 2026. 可能是文字的圖像.":
+    - /url: /@ltuossdtw/post/Df3xiNHgSj7/media
+    - img "Photo by LTU 布萊斯OSSD 台加雙聯學制 on November 17, 2026. 可能是文字的圖像."
+  - button "讚":
+    - img "讚"
+  - button "已回覆 4":
+    - img "已回覆"
+    - generic: "4"
+  - button "轉發":
+    - img "轉發"
+  - button "分享":
+    - img "分享"
+  - link "查看洞察報告":
+    - /url: /insights/post/Df3xiNHgSj7
+    - img "查看洞察報告"
+  - button "排序 熱門 更多":
+    - img "排序"
+    - generic: 熱門
+    - img "更多"
+  - button "篩選 全部 更多":
+    - img "篩選"
+    - generic: 全部
+    - img "更多"
+  - button "查看動態 查看動態":
+    - text: 查看動態
+    - img "查看動態"
+  - img "ltuossdtw的大頭貼照"
+  - textbox "文字欄位空白。請輸入內容以撰寫新貼文。" [active]:
+    - paragraph
+  - generic: 回覆ltuossdtw……
+  - button "附加影音內容":
+  - button "新增 GIF":
+  - button "展開撰寫工具":
+  - link "ltuossdtw的大頭貼照":
+    - /url: /@ltuossdtw
+    - img "ltuossdtw的大頭貼照"
+  - link "ltuossdtw":
+    - /url: /@ltuossdtw
+    - generic: ltuossdtw
+  - link "獎學金":
+    - /url: /search?q=%E7%8D%8E%E5%AD%B8%E9%87%91&serp_type=tags&tag_id=18430439218010302
+    - generic: 獎學金
+  - link "約 1 分鐘前":
+    - /url: /@ltuossdtw/post/Df3xjAAge20
+    - time:
+      - generic "約 1 分鐘前": 1分鐘
+  - button "更多":
+    - img "更多"
+  - text: 【11/18新增①｜日本・大學部／碩博】 在愛知縣就讀，NGK2027提供每月12萬日圓、最長兩年（續領須審查）。台灣正規留學生須未滿35歲、經濟有需要、取得校方推薦，並符合留學身分、保險及不可併領規定。名古屋市大校內期限2027/1/13日本17:00（台北16:00）；其他學校另查校內截止。
+  - link "globalednews.com/schol…":
+    - /url: https://l.threads.com/?u=https%3A%2F%2Fglobalednews.com%2Fscholarships%2Fitems%2F2026-11-ngk-international-student-2027%2F&e=AUCtut3vXXhgPnCRk76CL1zdEP9gQOG-Ry4EnK3SeWE2i2zp4Myhvn_gxo62LE9fZMm8vLK2LTuQ1c-eVh-AINXv6ZoP8DD3PjWAYZmMi0WT3lwgMD0777Bjd5OIzw-ZQXty4_E
+  - generic: "2"
+  - generic: /
+  - generic: "5"
+  - link "NGK留學生獎學金2027：愛知縣在學生每月12萬日圓｜國際獎學金雷達 globalednews.com NGK留學生獎學金2027：愛知縣在學生每月12萬日圓｜國際獎學金雷達":
+    - /url: https://l.threads.com/?u=https%3A%2F%2Fglobalednews.com%2Fscholarships%2Fitems%2F2026-11-ngk-international-student-2027%2F&e=AUCGBJY3IA7fZdVMsiWATsrZBVPP6lV6si8gLGAkHgQbejL-sH8esSrCsgU94Cdc33C111TBA9wW_HhtptTAH0YYkOHSgux7vUqugHnryfIDOzz15iFFJSh0atTQcy8agPmL6WQ
+    - img "NGK留學生獎學金2027：愛知縣在學生每月12萬日圓｜國際獎學金雷達"
+    - generic: globalednews.com
+    - generic: NGK留學生獎學金2027：愛知縣在學生每月12萬日圓｜國際獎學金雷達
+  - button "讚":
+    - img "讚"
+  - button "已回覆 1":
+    - img "已回覆"
+    - generic: "1"
+  - button "轉發":
+    - img "轉發"
+  - button "分享":
+    - img "分享"
+  - link "ltuossdtw的大頭貼照":
+    - /url: /@ltuossdtw
+    - img "ltuossdtw的大頭貼照"
+  - link "ltuossdtw":
+    - /url: /@ltuossdtw
+    - generic: ltuossdtw
+  - link "獎學金":
+    - /url: /search?q=%E7%8D%8E%E5%AD%B8%E9%87%91&serp_type=tags&tag_id=18430439218010302
+    - generic: 獎學金
+  - link "約 1 分鐘前":
+    - /url: /@ltuossdtw/post/Df3xji4AUaD
+    - time:
+      - generic "約 1 分鐘前": 1分鐘
+  - button "更多":
+    - img "更多"
+  - text: 【新增②｜日本・器樂／聲樂學習】 Yamaha2027每月20萬日圓、最長兩年，第二年須審查。台灣申請人須13–25歲、在日就讀或預定進入教育機構，另有推薦、演奏影片、日文面試及併領限制；12/7日本17:00（台北16:00）截止。
+  - link "globalednews.com/schol…":
+    - /url: https://l.threads.com/?u=https%3A%2F%2Fglobalednews.com%2Fscholarships%2Fitems%2F2026-11-yamaha-music-support-2027%2F&e=AUCtut3vXXhgPnCRk76CL1zdEP9gQOG-Ry4EnK3SeWE2i2zp4Myhvn_gxo62LE9fZMm8vLK2LTuQ1c-eVh-AINXv6ZoP8DD3PjWAYZmMi0WT3lwgMD0777Bjd5OIzw-ZQXty4_E
+  - text: 【新增③｜日本・大學部／碩博】 東京聖提摩太教會2026獎學金一次15萬日圓。須10/1已在東京、神奈川、千葉或埼玉校區就讀正規課程，台灣學生可申請，不限宗教；有日文面試、成果與活動要求。11/21日本23:59（台北22:59）截止。
+  - link "globalednews.com/schol…":
+    - /url: https://l.threads.com/?u=https%3A%2F%2Fglobalednews.com%2Fscholarships%2Fitems%2F2026-11-tokyo-st-timothy-international-student%2F&e=AUCtut3vXXhgPnCRk76CL1zdEP9gQOG-Ry4EnK3SeWE2i2zp4Myhvn_gxo62LE9fZMm8vLK2LTuQ1c-eVh-AINXv6ZoP8DD3PjWAYZmMi0WT3lwgMD0777Bjd5OIzw-ZQXty4_E
+  - generic: "3"
+  - generic: /
+  - generic: "5"
+  - link "東京聖提摩太教會留學生獎學金2026：一次15萬日圓，11月21日截止｜國際獎學金雷達 globalednews.com 東京聖提摩太教會留學生獎學金2026：一次15萬日圓，11月21日截止｜國際獎學金雷達":
+    - /url: https://l.threads.com/?u=https%3A%2F%2Fglobalednews.com%2Fscholarships%2Fitems%2F2026-11-tokyo-st-timothy-international-student%2F&e=AUD1NbCAbS1WgoiOW1wat4DfPXKDQ9Id5m3695MaPKOtQyd1q6c4zW4eEFmI-9uw4xsx6U2KdRHWflf3eskPx6tqN3Zg1jyZhIgborl5tbBllqKklvPfm-fqYJtVZFumyqRP350
+    - img "東京聖提摩太教會留學生獎學金2026：一次15萬日圓，11月21日截止｜國際獎學金雷達"
+    - generic: globalednews.com
+    - generic: 東京聖提摩太教會留學生獎學金2026：一次15萬日圓，11月21日截止｜國際獎學金雷達
+  - button "讚":
+    - img "讚"
+  - button "已回覆 1":
+    - img "已回覆"
+    - generic: "1"
+  - button "轉發":
+    - img "轉發"
+  - button "分享":
+    - img "分享"
+  - link "ltuossdtw的大頭貼照":
+    - /url: /@ltuossdtw
+    - img "ltuossdtw的大頭貼照"
+  - link "ltuossdtw":
+    - /url: /@ltuossdtw
+    - generic: ltuossdtw
+  - link "獎學金":
+    - /url: /search?q=%E7%8D%8E%E5%AD%B8%E9%87%91&serp_type=tags&tag_id=18430439218010302
+    - generic: 獎學金
+  - link "約 1 分鐘前":
+    - /url: /@ltuossdtw/post/Df3xkALgfBD
+    - time:
+      - generic "約 1 分鐘前": 1分鐘
+  - button "更多":
+    - img "更多"
+  - text: 【最新環球教育新聞】 愛爾蘭大學預期學費受簽證拒絕影響：選校規劃別只看錄取。
+  - link "globalednews.com/news…":
+    - /url: https://l.threads.com/?u=https%3A%2F%2Fglobalednews.com%2Fnews%2Fireland-student-visa-refusals-university-fees-november-2026%2F&e=AUCtut3vXXhgPnCRk76CL1zdEP9gQOG-Ry4EnK3SeWE2i2zp4Myhvn_gxo62LE9fZMm8vLK2LTuQ1c-eVh-AINXv6ZoP8DD3PjWAYZmMi0WT3lwgMD0777Bjd5OIzw-ZQXty4_E
+  - text: 伊斯坦堡Going Global開幕：大學擴張如何兼顧課程與學生支持？
+  - link "globalednews.com/news…":
+    - /url: https://l.threads.com/?u=https%3A%2F%2Fglobalednews.com%2Fnews%2Fgoing-global-istanbul-higher-education-resilience-2026%2F&e=AUCtut3vXXhgPnCRk76CL1zdEP9gQOG-Ry4EnK3SeWE2i2zp4Myhvn_gxo62LE9fZMm8vLK2LTuQ1c-eVh-AINXv6ZoP8DD3PjWAYZmMi0WT3lwgMD0777Bjd5OIzw-ZQXty4_E
+  - generic: "4"
+  - generic: /
+  - generic: "5"
+  - link "伊斯坦堡Going Global開幕：大學擴張之後，誰確保課程與學生支持跟上？｜環球教育新聞網 Global Education News globalednews.com 伊斯坦堡Going Global開幕：大學擴張之後，誰確保課程與學生支持跟上？｜環球教育新聞網 Global Education News":
+    - /url: https://l.threads.com/?u=https%3A%2F%2Fglobalednews.com%2Fnews%2Fgoing-global-istanbul-higher-education-resilience-2026%2F&e=AUAGIuluItL5jfj29_Mhl8mRyGahhhhFxYkpmio1J8eZbIFeQHE74y2civnW7IhKfcyvJa1xyJbhyHyifAZPQi1gCrr1Uj-w6tOfoylwpTwKHKbWsWmnrzCBH63fmvHJoKwDq3o
+    - img "伊斯坦堡Going Global開幕：大學擴張之後，誰確保課程與學生支持跟上？｜環球教育新聞網 Global Education News"
+    - generic: globalednews.com
+    - generic: 伊斯坦堡Going Global開幕：大學擴張之後，誰確保課程與學生支持跟上？｜環球教育新聞網 Global Education News
+  - button "讚":
+    - img "讚"
+  - button "已回覆 1":
+    - img "已回覆"
+    - generic: "1"
+  - button "轉發":
+    - img "轉發"
+  - button "分享":
+    - img "分享"
+  - link "ltuossdtw的大頭貼照":
+    - /url: /@ltuossdtw
+    - img "ltuossdtw的大頭貼照"
+  - link "ltuossdtw":
+    - /url: /@ltuossdtw
+    - generic: ltuossdtw
+  - link "獎學金":
+    - /url: /search?q=%E7%8D%8E%E5%AD%B8%E9%87%91&serp_type=tags&tag_id=18430439218010302
+    - generic: 獎學金
+  - link "約 1 分鐘前":
+    - /url: /@ltuossdtw/post/Df3xkgrAXtH
+    - time:
+      - generic "約 1 分鐘前": 1分鐘
+  - button "更多":
+    - img "更多"
+  - text: 追蹤環球教育新聞，並免費加入會員：
+  - link "globalednews.com/newsl…":
+    - /url: https://l.threads.com/?u=https%3A%2F%2Fglobalednews.com%2Fnewsletter%2F&e=AUCtut3vXXhgPnCRk76CL1zdEP9gQOG-Ry4EnK3SeWE2i2zp4Myhvn_gxo62LE9fZMm8vLK2LTuQ1c-eVh-AINXv6ZoP8DD3PjWAYZmMi0WT3lwgMD0777Bjd5OIzw-ZQXty4_E
+  - text: 每週收到最新國際教育新聞與本週新增獎學金的摘要、條件提醒及詳情連結。也歡迎分享給正在找補助的學生與家長。獎學金資格與獲獎仍依主辦單位審查，資訊服務不保證錄取或獲獎。
+  - generic: "5"
+  - generic: /
+  - generic: "5"
+  - button "讚":
+    - img "讚"
+  - button "回覆":
+    - img "回覆"
+  - button "轉發":
+    - img "轉發"
+  - button "分享":
+    - img "分享"
+- img "搜尋"
+- searchbox "搜尋"
+- button "進階搜尋":
+  - img "進階搜尋"
+- region "洞察報告":
+  - link "洞察報告":
+    - /url: /insights/post/Df3xiNHgSj7
+    - generic: 洞察報告
+  - button "只有你能看到此內容":
+    - img "只有你能看到此內容"
+  - generic: 瀏覽次數
+  - generic: "2"
+  - generic: 較低
+  - generic: 瀏覽人數
+  - generic: "0"
+  - generic: 個人檔案瀏覽次數
+  - generic: "0"
+  - generic: 一般
+  - generic: 追蹤次數
+  - generic: "0"
+  - generic: 一般
+  - generic: 長期瀏覽次數
+  - button "只有你能看到此內容":
+    - img "只有你能看到此內容"
+  - button "篩選觀看者：全部":
+    - generic: 全部
+  - button "自發佈起":
+    - generic: 自發佈起
+  - status
+  - generic: 這則貼文
+  - generic: 你的一般貼文
+  - link "查看所有洞察報告":
+    - /url: /insights/post/Df3xiNHgSj7
+    - generic: 查看所有洞察報告
+- contentinfo:
+  - list:
+    - generic: © 2026
+    - link "《Threads 使用條款》":
+      - /url: https://help.instagram.com/769983657850450
+    - link "《隱私政策》":
+      - /url: https://help.instagram.com/515230437301944
+    - link "《Cookie 政策》":
+      - /url: https://help.instagram.com/1896641480634370/
+- button
+- img "Monica"
+- generic: Ctrl+M
+- text: 解釋

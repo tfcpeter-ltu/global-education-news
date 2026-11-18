@@ -3,7 +3,7 @@
   "timezone": "Asia/Taipei",
   "startedAt": "2026-11-18T05:06:47.0447782+08:00",
   "status": "partial_external_blocker",
-  "currentPhase": "COMMIT_DEPLOY_BLOCKED",
+  "currentPhase": "ACCEPTANCE_RSS_REDEPLOY",
   "baseCommit": "362da9478ab23a0f50170f414b1e2e23f08e9039",
   "scholarshipBaselineSlugs": [
     "2026-08-bristol-think-big",
@@ -294,8 +294,149 @@
     "catalog-vanderbilt-ingram",
     "catalog-yale-international-aid"
   ],
-  "newsPublished": [],
-  "scholarshipAdditions": [],
+  "newsPublished": [
+    {
+      "slug": "us-court-vacates-duration-of-status-final-rule-november-2026",
+      "title": "美國法院撤銷學生定期居留新規：D/S維持，留學生先確認哪些事？",
+      "englishTitle": "US court vacates fixed-term student status rule: D/S remains in place",
+      "sources": [
+        {
+          "label": "US District Court — November16 judgment",
+          "url": "https://www.nafsa.org/sites/default/files/media/document/2026-11-16-District-Judge-Summary-Judgement.pdf"
+        },
+        {
+          "label": "Brown University — November17 student advisory",
+          "url": "https://isss.brown.edu/news/2026-11-17/dhs-final-rule-vacated"
+        },
+        {
+          "label": "The PIE — independent education coverage",
+          "url": "https://thepienews.com/federal-court-scraps-trumps-four-year-limit-on-international-students-stays/"
+        }
+      ],
+      "url": "https://globalednews.com/news/us-court-vacates-duration-of-status-final-rule-november-2026/",
+      "status": "published",
+      "verifiedAt": "2026-11-18T13:48:54+08:00"
+    },
+    {
+      "slug": "ireland-student-visa-refusals-university-fees-november-2026",
+      "title": "愛爾蘭大學估逾800萬歐元學費受簽證拒絕影響：留學規劃別只看錄取",
+      "englishTitle": "Irish universities report over EUR8m in fee exposure linked to visa refusals",
+      "sources": [
+        {
+          "label": "Irish Immigration — study requirements",
+          "url": "https://www.irishimmigration.ie/coming-to-study-in-ireland/"
+        },
+        {
+          "label": "RTÉ — original institutional reporting",
+          "url": "https://www.rte.ie/news/education/2026/1115/1599304-international-students-visa-refusals/"
+        }
+      ],
+      "url": "https://globalednews.com/news/ireland-student-visa-refusals-university-fees-november-2026/",
+      "status": "published",
+      "verifiedAt": "2026-11-18T13:48:54+08:00"
+    },
+    {
+      "slug": "going-global-istanbul-higher-education-resilience-2026",
+      "title": "伊斯坦堡Going Global開幕：大學擴張之後，誰確保課程與學生支持跟上？",
+      "englishTitle": "Going Global opens in Istanbul: can education quality keep pace with growth?",
+      "sources": [
+        {
+          "label": "British Council — Going Global2026",
+          "url": "https://www.britishcouncil.org/going-global-2026"
+        },
+        {
+          "label": "Osmaniye Korkut Ata University — first-day participation report",
+          "url": "https://www.osmaniye.edu.tr/tr/haberler/18385-rektorumuz-prof-dr-turgay-uzun-going-global-2026-konferansi-na-katildi"
+        },
+        {
+          "label": "British Council — November13 draft programme",
+          "url": "https://www.britishcouncil.org/sites/default/files/going_global_istanbul_2026_programme_13nov.pdf"
+        }
+      ],
+      "url": "https://globalednews.com/news/going-global-istanbul-higher-education-resilience-2026/",
+      "status": "published",
+      "verifiedAt": "2026-11-18T13:48:54+08:00"
+    }
+  ],
+  "scholarshipAdditions": [
+    {
+      "slug": "2026-11-ngk-international-student-2027",
+      "title": "NGK留學生獎學金2027：愛知縣在學生每月12萬日圓",
+      "url": "https://globalednews.com/scholarships/items/2026-11-ngk-international-student-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-ngk-international-student-2027.md",
+      "sources": [
+        {
+          "label": "NGK Foundation —2027 guidelines",
+          "url": "https://www.nagoya-cu.ac.jp/media/2.2027NGK_ApplicationGuidelines.pdf"
+        },
+        {
+          "label": "Nagoya City University — institutional application window",
+          "url": "https://www.nagoya-cu.ac.jp/international/intl-student/scholarship/"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-11-18T05:28:05.383+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "status": "published",
+      "publishedVerifiedAt": "2026-11-18T13:48:54+08:00"
+    },
+    {
+      "slug": "2026-11-yamaha-music-support-2027",
+      "title": "Yamaha音樂獎學支援2027：赴日學器樂或聲樂，每月20萬日圓",
+      "url": "https://globalednews.com/scholarships/items/2026-11-yamaha-music-support-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-yamaha-music-support-2027.md",
+      "sources": [
+        {
+          "label": "Yamaha Music Foundation —2027 application conditions",
+          "url": "https://www.yamaha-mf.or.jp/activities/support/music/outline/"
+        },
+        {
+          "label": "Tokyo University of the Arts — direct-application guidance",
+          "url": "https://www.geidai.ac.jp/life/scholarship/foundation_scholarship"
+        },
+        {
+          "label": "Ongaku no Tomo — independently curated application listing",
+          "url": "https://www.ongakunotomo.co.jp/information/detail.php?id=4003"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-11-18T05:28:05.383+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "status": "published",
+      "publishedVerifiedAt": "2026-11-18T13:48:54+08:00"
+    },
+    {
+      "slug": "2026-11-tokyo-st-timothy-international-student",
+      "title": "東京聖提摩太教會留學生獎學金2026：一次15萬日圓，11月21日截止",
+      "url": "https://globalednews.com/scholarships/items/2026-11-tokyo-st-timothy-international-student/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-tokyo-st-timothy-international-student.md",
+      "sources": [
+        {
+          "label": "Tokyo St Timothy scholarship committee —2026 call",
+          "url": "https://tkysttimothyscholarship.mystrikingly.com/"
+        },
+        {
+          "label": "University of Tokyo — one-payment clarification",
+          "url": "https://www.l.u-tokyo.ac.jp/oiss/news/page_00212.html"
+        },
+        {
+          "label": "Scholarship committee — full2026 guidelines",
+          "url": "https://uploads.strikinglycdn.com/files/d1bfe131-c45b-4724-a07f-9b43c0909ebd/Boshuyokou2026.pdf?id=4435435&t=1793807350"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-11-18T05:28:05.383+08:00",
+      "isNew": true,
+      "baselineAbsent": true,
+      "status": "published",
+      "publishedVerifiedAt": "2026-11-18T13:48:54+08:00"
+    }
+  ],
   "socialPosts": [
     {
       "campaign": "study-abroad",
@@ -307,7 +448,7 @@
       "id": "Df27MRak6AC",
       "publicUrl": "https://www.threads.com/@ltuossdtw/post/Df27MRak6AC",
       "submittedAt": "2026-11-18T05:44:07.216+08:00",
-      "publishedAt": "2026-11-18T05:44:08.000+08:00",
+      "publishedAt": "2026-11-18T05:44:08+08:00",
       "status": "PUBLISHED",
       "verifiedAt": "2026-11-18T05:44:53.564+08:00",
       "imageCount": 1,
@@ -329,7 +470,7 @@
       "photoAttachedAt": "2026-11-18T05:43:27.332+08:00",
       "photoReadyEvidence": "Native composer shows1080x1350 uploaded photo and edit/remove controls; Facebook-only, public; link preview disabled.",
       "copyAddedAt": "2026-11-18T05:43:27.455+08:00",
-      "submittedAt": "2026-11-18T05:43:48.710+08:00",
+      "submittedAt": "2026-11-18T05:43:48.71+08:00",
       "id": "1122883087154555",
       "publicUrl": "https://www.facebook.com/photo/?fbid=1122882710487926",
       "publishedAt": "2026-11-18T05:43:00+08:00",
@@ -369,11 +510,11 @@
       "previewStatus": "VERIFIED",
       "publicScreenshot": "docs/daily-checks/2026-11-18/instagram-diy-public.jpg",
       "crossPostEnabled": false,
-      "verifiedAt": "2026-11-18T05:48:08.700+08:00",
+      "verifiedAt": "2026-11-18T05:48:08.7+08:00",
       "id": "Df27SY8E5-W",
       "publicUrl": "https://www.instagram.com/ltuossdtw/p/Df27SY8E5-W/",
-      "mediaVerifiedAt": "2026-11-18T05:48:08.700+08:00",
-      "previewVerifiedAt": "2026-11-18T05:48:08.700+08:00",
+      "mediaVerifiedAt": "2026-11-18T05:48:08.7+08:00",
+      "previewVerifiedAt": "2026-11-18T05:48:08.7+08:00",
       "articleUrl": "https://globalednews.com/study-abroad/",
       "mediaEvidence": "docs/daily-checks/2026-11-18/instagram-diy-public.jpg"
     },
@@ -477,18 +618,276 @@
       "mediaVerifiedAt": "2026-11-18T05:52:13.045+08:00",
       "previewVerifiedAt": "2026-11-18T05:52:13.045+08:00",
       "articleUrl": "https://globalednews.com/taiwan-universities/"
+    },
+    {
+      "campaign": "news",
+      "platform": "threads",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/news/us-court-vacates-duration-of-status-final-rule-november-2026/",
+      "copyVersion": "2026-11-18-reader-first-v1",
+      "submittedAt": "2026-11-18T13:27:16.268+08:00",
+      "status": "PUBLISHED",
+      "id": "Df3wMdYgQ6Q",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Df3wMdYgQ6Q",
+      "publishedAt": "2026-11-18T13:27:16+08:00",
+      "verifiedAt": "2026-11-18T13:28:00.722+08:00",
+      "imageCount": 1,
+      "mediaVerified": true,
+      "network": "threads",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-18T13:28:00.722+08:00",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-18T13:28:00.722+08:00",
+      "publicScreenshot": "docs/daily-checks/2026-11-18/threads-news-public.jpg",
+      "mediaEvidence": "docs/daily-checks/2026-11-18/threads-news-public.jpg",
+      "visibility": "public"
+    },
+    {
+      "campaign": "news",
+      "platform": "facebook",
+      "account": "LTUOSSDTaiwan",
+      "pageId": "101904929207004",
+      "articleUrl": "https://globalednews.com/news/us-court-vacates-duration-of-status-final-rule-november-2026/",
+      "copyVersion": "2026-11-18-reader-first-v1",
+      "photoAttachedAt": "2026-11-18T13:29:58.508+08:00",
+      "photoReadyEvidence": "1080 x 1350, edit/remove controls visible before text; Facebook only; link preview disabled",
+      "status": "PUBLISHED",
+      "copyAddedAt": "2026-11-18T13:29:58.677+08:00",
+      "submittedAt": "2026-11-18T13:30:19.071+08:00",
+      "id": "1123147247128139",
+      "photoId": "1123146490461548",
+      "publicUrl": "https://www.facebook.com/photo/?fbid=1123146490461548",
+      "publishedAt": "2026-11-18T13:30:00+08:00",
+      "timePrecision": "minute",
+      "verifiedAt": "2026-11-18T13:34:09.307+08:00",
+      "imageCount": 1,
+      "mediaVerified": true,
+      "mediaStatus": "VERIFIED",
+      "network": "facebook",
+      "mediaVerifiedAt": "2026-11-18T13:34:09.307+08:00",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-18T13:34:09.307+08:00",
+      "publicScreenshot": "docs/daily-checks/2026-11-18/facebook-news-public.jpg",
+      "mediaEvidence": "docs/social-posts/2026-11-18/facebook-news-photo.jpg",
+      "visibility": "public",
+      "mediaKind": "uploaded-photo",
+      "photoAttachments": [
+        {
+          "id": "1123146490461548",
+          "url": "https://www.facebook.com/photo/?fbid=1123146490461548"
+        }
+      ],
+      "publicPhotoScreenshot": "docs/social-posts/2026-11-18/facebook-news-photo.jpg"
+    },
+    {
+      "campaign": "news",
+      "platform": "linkedin",
+      "account": "Peter Chen",
+      "articleUrl": "https://globalednews.com/news/us-court-vacates-duration-of-status-final-rule-november-2026/",
+      "copyVersion": "2026-11-18-reader-first-v1",
+      "submittedAt": "2026-11-18T13:34:09.628+08:00",
+      "status": "PUBLISHED",
+      "id": "7528692020828192768",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7528692020828192768/",
+      "verifiedAt": "2026-11-18T13:35:05.893+08:00",
+      "imageCount": 1,
+      "mediaVerified": true,
+      "timePrecision": "relative only; submittedAt recorded separately",
+      "network": "linkedin",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-18T13:35:05.893+08:00",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-18T13:35:05.893+08:00",
+      "publicScreenshot": "docs/daily-checks/2026-11-18/linkedin-news-public.jpg",
+      "mediaEvidence": "docs/daily-checks/2026-11-18/linkedin-news-public.jpg",
+      "visibility": "public",
+      "publishedDate": "2026-11-18",
+      "timeEvidence": "Native public page relative time; submittedAt separately recorded; no invented exact publication time."
+    },
+    {
+      "campaign": "news",
+      "platform": "instagram",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/news/us-court-vacates-duration-of-status-final-rule-november-2026/",
+      "copyVersion": "2026-11-18-reader-first-v1",
+      "submittedAt": "2026-11-18T13:36:44.145+08:00",
+      "status": "PUBLISHED",
+      "nativeSurface": "Meta Business Suite, Instagram-only explicit asset",
+      "threadsCrosspost": false,
+      "id": "Df3xR3xE2lv",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Df3xR3xE2lv/",
+      "verifiedAt": "2026-11-18T13:37:53.514+08:00",
+      "mediaVerified": true,
+      "imageCount": 1,
+      "publishedAt": "2026-11-18T13:36:46+08:00",
+      "network": "instagram",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-18T13:37:53.514+08:00",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-18T13:37:53.514+08:00",
+      "publicScreenshot": "docs/daily-checks/2026-11-18/instagram-news-public.jpg",
+      "mediaEvidence": "docs/daily-checks/2026-11-18/instagram-news-public.jpg",
+      "visibility": "public"
+    },
+    {
+      "campaign": "scholarship",
+      "platform": "threads",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "copyVersion": "2026-11-18-reader-first-v1",
+      "submittedAt": "2026-11-18T13:38:58.930+08:00",
+      "status": "PUBLISHED",
+      "expectedSegments": 5,
+      "topic": "獎學金",
+      "id": "Df3xiNHgSj7",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Df3xiNHgSj7",
+      "segments": [
+        {
+          "index": 0,
+          "id": "Df3xiNHgSj7",
+          "url": "https://www.threads.com/@ltuossdtw/post/Df3xiNHgSj7",
+          "parentId": null,
+          "verifiedAt": "2026-11-18T13:41:00.732+08:00",
+          "publishedAt": "2026-11-18T13:38:59+08:00"
+        },
+        {
+          "index": 1,
+          "id": "Df3xjAAge20",
+          "url": "https://www.threads.com/@ltuossdtw/post/Df3xjAAge20",
+          "parentId": "Df3xiNHgSj7",
+          "verifiedAt": "2026-11-18T13:41:00.732+08:00",
+          "publishedAt": "2026-11-18T13:39:05+08:00"
+        },
+        {
+          "index": 2,
+          "id": "Df3xji4AUaD",
+          "url": "https://www.threads.com/@ltuossdtw/post/Df3xji4AUaD",
+          "parentId": "Df3xjAAge20",
+          "verifiedAt": "2026-11-18T13:41:00.732+08:00",
+          "publishedAt": "2026-11-18T13:39:10+08:00"
+        },
+        {
+          "index": 3,
+          "id": "Df3xkALgfBD",
+          "url": "https://www.threads.com/@ltuossdtw/post/Df3xkALgfBD",
+          "parentId": "Df3xji4AUaD",
+          "verifiedAt": "2026-11-18T13:41:00.732+08:00",
+          "publishedAt": "2026-11-18T13:39:14+08:00"
+        },
+        {
+          "index": 4,
+          "id": "Df3xkgrAXtH",
+          "url": "https://www.threads.com/@ltuossdtw/post/Df3xkgrAXtH",
+          "parentId": "Df3xkALgfBD",
+          "verifiedAt": "2026-11-18T13:41:00.732+08:00",
+          "publishedAt": "2026-11-18T13:39:18+08:00"
+        }
+      ],
+      "verifiedAt": "2026-11-18T13:41:00.732+08:00",
+      "publishedAt": "2026-11-18T13:38:59+08:00",
+      "mediaVerified": true,
+      "imageCount": 1,
+      "network": "threads",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-18T13:41:00.732+08:00",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-18T13:41:00.732+08:00",
+      "publicScreenshot": "docs/daily-checks/2026-11-18/threads-radar-public.jpg",
+      "mediaEvidence": "docs/daily-checks/2026-11-18/threads-radar-public.jpg",
+      "visibility": "public"
+    },
+    {
+      "campaign": "scholarship",
+      "platform": "facebook",
+      "account": "LTUOSSDTaiwan",
+      "pageId": "101904929207004",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "copyVersion": "2026-11-18-reader-first-v1",
+      "photoAttachedAt": "2026-11-18T13:39:14.767+08:00",
+      "photoReadyEvidence": "1080x1350 radar card ready, edit/remove controls; no link preview; actual live count290 screenshot saved",
+      "status": "PUBLISHED",
+      "copyAddedAt": "2026-11-18T13:39:14.868+08:00",
+      "submittedAt": "2026-11-18T13:39:40.853+08:00",
+      "id": "1123152923794238",
+      "photoId": "1123152163794314",
+      "publicUrl": "https://www.facebook.com/photo/?fbid=1123152163794314",
+      "verifiedAt": "2026-11-18T13:43:06.903+08:00",
+      "mediaVerified": true,
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "network": "facebook",
+      "mediaVerifiedAt": "2026-11-18T13:43:06.903+08:00",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-18T13:43:06.903+08:00",
+      "publicScreenshot": "docs/daily-checks/2026-11-18/facebook-radar-public.jpg",
+      "mediaEvidence": "docs/daily-checks/2026-11-18/facebook-radar-photo.jpg",
+      "visibility": "public",
+      "mediaKind": "uploaded-photo",
+      "photoAttachments": [
+        {
+          "id": "1123152163794314",
+          "url": "https://www.facebook.com/photo/?fbid=1123152163794314"
+        }
+      ],
+      "publicPhotoScreenshot": "docs/daily-checks/2026-11-18/facebook-radar-photo.jpg"
+    },
+    {
+      "campaign": "scholarship",
+      "platform": "instagram",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "copyVersion": "2026-11-18-reader-first-v1",
+      "status": "PUBLISHED",
+      "submittedAt": "2026-11-18T13:39:40.853+08:00",
+      "threadsCrosspost": false,
+      "id": "Df3xneME1Ju",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Df3xneME1Ju/",
+      "verifiedAt": "2026-11-18T13:42:55.987+08:00",
+      "mediaVerified": true,
+      "imageCount": 1,
+      "publishedAt": "2026-11-18T13:39:43+08:00",
+      "network": "instagram",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-18T13:42:55.987+08:00",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-18T13:42:55.987+08:00",
+      "publicScreenshot": "docs/daily-checks/2026-11-18/instagram-radar-public.jpg",
+      "mediaEvidence": "docs/daily-checks/2026-11-18/instagram-radar-public.jpg",
+      "visibility": "public"
+    },
+    {
+      "campaign": "scholarship",
+      "platform": "linkedin",
+      "account": "Peter Chen",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "copyVersion": "2026-11-18-reader-first-v1",
+      "status": "PUBLISHED",
+      "submittedAt": "2026-11-18T13:41:15.403+08:00",
+      "id": "7528693802052571136",
+      "shareId": "7528693800794324992",
+      "publicUrl": "https://www.linkedin.com/posts/peter-chen-26a754228_%E5%8F%B0%E7%81%A3%E5%AD%B8%E7%94%9F%E5%9C%8B%E9%9A%9B%E7%8D%8E%E5%AD%B8%E9%87%91%E9%9B%B7%E9%81%94-%E6%83%B3%E6%89%BE%E6%B5%B7%E5%A4%96%E5%B0%B1%E5%AD%B8%E8%A3%9C%E5%8A%A9%E5%8D%BB%E4%B8%8D%E7%9F%A5%E9%81%93%E8%87%AA%E5%B7%B1%E8%83%BD%E7%94%B3%E8%AB%8B%E5%93%AA%E4%B8%80%E9%A0%85-global-share-7528693800794324992-MaWB/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADkQRXIBYCn6W-Bkm2AssjAwcuQts8jPmPk",
+      "verifiedAt": "2026-11-18T13:46:31.856+08:00",
+      "imageCount": 1,
+      "mediaVerified": true,
+      "timePrecision": "relative only; submittedAt recorded separately",
+      "network": "linkedin",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-18T13:46:31.856+08:00",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-18T13:46:31.856+08:00",
+      "publicScreenshot": "docs/social-posts/2026-11-18/linkedin-radar-public.jpg",
+      "mediaEvidence": "docs/social-posts/2026-11-18/linkedin-radar-photo.jpg",
+      "visibility": "public",
+      "publishedDate": "2026-11-18",
+      "timeEvidence": "Native public page relative time; submittedAt separately recorded; no invented exact publication time."
     }
   ],
   "gaps": [
-    "Pages部署安全檢查失敗：picomatch高風險公告尚無修補版本；今日新內容未上線。",
-    "新聞3篇、全新獎學金3項、Peter1篇、舊文雙語改寫3篇均已準備並推送，尚待正式站回讀。",
-    "既定社群完成7/15；新聞4、獎學金4及新Facebook粉專1則共9則未發，等待部署成功。",
-    "獎學金正式頁總量核對、當日4:5首圖、正式站桌面手機與SEO/feed驗收待部署。",
-    "LTU三立、風傳媒原始頁今日回讀受網站安全政策阻擋。"
+    "會員RSS補入今日3筆新增後待再次部署與回讀。",
+    "LTU三立與風傳媒原文受瀏覽器安全政策限制，仍待人工核對。"
   ],
   "manualActions": [
-    "需要上游安全修補版或經審查的安全替代方案，保留CI安全檢查後再部署；目前沒有需要重登的社群帳號。",
-    "請在安全可用環境人工核對三立與風傳媒輪換原文；不得透過替代路徑繞過網站安全限制。"
+    "請於安全可信環境核對三立1688074與風傳媒11051374原文；未繞過安全限制。"
   ],
   "preflight": {
     "checkedAt": "2026-11-18T05:09:07.3218825+08:00",
@@ -629,15 +1028,6 @@
       "type": "browser-site-safety-policy",
       "action": "原始頁回讀",
       "workaroundAttempted": false
-    },
-    {
-      "type": "deployment-dependency-security-check",
-      "discoveredAt": "2026-11-18T05:41:05+08:00",
-      "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/44182238587",
-      "advisory": "https://github.com/advisories/GHSA-fc5q-39xc-vjpf",
-      "detail": "pnpm audit --prod --audit-level high failed; patched versions None. Deployment and IndexNow skipped.",
-      "notifiedImmediately": true,
-      "workaroundAttempted": false
     }
   ],
   "prepared": {
@@ -731,18 +1121,17 @@
       "Facebook photo evidence regressions"
     ]
   },
-  "lastUpdatedAt": "2026-11-18T05:53:46.645+08:00",
+  "lastUpdatedAt": "2026-11-18T13:48:54+08:00",
   "completedAt": null,
   "unaffectedSocialVerifiedAt": "2026-11-18T05:53:46.645+08:00",
   "deployment": {
-    "commit": "56a503850edc971ac93c8e9940e124ecb11c2136",
-    "status": "failure",
-    "runId": 44182238587,
-    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/44182238587",
-    "checkedAt": "2026-11-18T05:53:46.645+08:00",
-    "failedStep": "Check production dependency advisories",
-    "deployJob": "skipped",
-    "newContentLive": false
+    "commit": "393df2526c708857c4309a5c285c4ee3fdd61407",
+    "status": "success",
+    "runId": 44243956719,
+    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/44243956719",
+    "completedAt": "2026-11-18T13:26:40+08:00",
+    "verifiedAt": "2026-11-18T13:48:54+08:00",
+    "newContentLive": true
   },
   "securityReview": {
     "checkedAt": "2026-11-18T05:53:46.645+08:00",
@@ -763,8 +1152,8 @@
     "decision": "Keep audit gate enabled. Hold new-content publishing until an official fix or reviewed secure dependency replacement permits a clean audit."
   },
   "archiveRemediation": {
-    "status": "prepared-not-deployed",
-    "commit": "56a503850edc971ac93c8e9940e124ecb11c2136",
+    "status": "complete",
+    "commit": "393df2526c708857c4309a5c285c4ee3fdd61407",
     "backlogBefore": 151,
     "backlogAfterPrepared": 148,
     "articles": [
@@ -772,53 +1161,154 @@
         "slug": "canada-eu-erasmus-negotiations-october-2026",
         "originalPublishedAt": "2026-11-03",
         "updatedAt": "2026-11-18",
-        "status": "bilingual-prepared-not-deployed"
+        "status": "published",
+        "url": "https://globalednews.com/news/canada-eu-erasmus-negotiations-october-2026/",
+        "englishUrl": "https://globalednews.com/en/news/canada-eu-erasmus-negotiations-october-2026/",
+        "verifiedAt": "2026-11-18T13:48:54+08:00"
       },
       {
         "slug": "uk-hpi-top-150-expansion-plan-2026",
         "originalPublishedAt": "2026-11-03",
         "updatedAt": "2026-11-18",
-        "status": "bilingual-prepared-not-deployed"
+        "status": "published",
+        "url": "https://globalednews.com/news/uk-hpi-top-150-expansion-plan-2026/",
+        "englishUrl": "https://globalednews.com/en/news/uk-hpi-top-150-expansion-plan-2026/",
+        "verifiedAt": "2026-11-18T13:48:54+08:00"
       },
       {
         "slug": "us-general-education-transfer-consortium-2026",
         "originalPublishedAt": "2026-11-03",
         "updatedAt": "2026-11-18",
-        "status": "bilingual-prepared-not-deployed"
+        "status": "published",
+        "url": "https://globalednews.com/news/us-general-education-transfer-consortium-2026/",
+        "englishUrl": "https://globalednews.com/en/news/us-general-education-transfer-consortium-2026/",
+        "verifiedAt": "2026-11-18T13:48:54+08:00"
       }
-    ]
+    ],
+    "liveEvidence": "docs/daily-checks/2026-11-18/live-acceptance.json",
+    "backlogAfter": 148
   },
   "acceptance": {
-    "desktop": false,
-    "mobile": false,
+    "desktop": true,
+    "mobile": true,
     "seo": false,
-    "status": "blocked-new-deployment",
-    "notes": "Local build checks passed; today new production pages/images/metadata/feed and radar total have not been accepted. Existing live navigation pages used by seven posts were opened successfully. Do not count yesterday acceptance."
+    "status": "rss-redeployment-pending",
+    "notes": "20 bilingual pages and14 images passed HTTP metadata checks; desktop/home and narrow viewport news visually checked. NGK search1, NGK+Canada0, Japan+open9, clear290, load-more and mobile Yamaha1 passed. Sitemap child and updated RSS pending final checks.",
+    "verifiedAt": "2026-11-18T13:48:54+08:00"
   },
   "radar": {
     "baselineCount": 287,
     "preparedCount": 290,
-    "liveLastObservedCount": 287,
-    "firstCardStatus": "held-until-deployment-and-live-total-verification",
-    "notes": "No290 card published; all-library total is not an open-application count."
+    "liveLastObservedCount": 290,
+    "firstCardStatus": "published-verified",
+    "notes": "Production290 verified after deployment;4:5 large card and360px preview checked; total is all records, not all open.",
+    "verifiedAt": "2026-11-18T13:48:54+08:00",
+    "evidence": "docs/daily-checks/2026-11-18/radar-live-290.jpg"
   },
   "newFacebookPagePost": {
+    "campaign": "new-facebook-page",
+    "platform": "facebook",
+    "account": "環球國際教育新聞網",
     "pageId": "61595164194381",
-    "status": "HELD_DEPLOYMENT_SECURITY_CHECK",
-    "attempted": false
+    "articleUrl": "https://globalednews.com/news/ireland-student-visa-refusals-university-fees-november-2026/",
+    "copyVersion": "2026-11-18-reader-first-v1",
+    "photoAttachedAt": "2026-11-18T13:36:14.017+08:00",
+    "photoReadyEvidence": "1080x1350 photo ready before copy, Facebook only, public, link preview disabled",
+    "status": "PUBLISHED",
+    "copyAddedAt": "2026-11-18T13:36:14.145+08:00",
+    "submittedAt": "2026-11-18T13:36:29.808+08:00",
+    "id": "122123829465505473",
+    "photoId": "122123828991505473",
+    "publicUrl": "https://www.facebook.com/photo/?fbid=122123828991505473",
+    "verifiedAt": "2026-11-18T13:38:32.543+08:00",
+    "imageCount": 1,
+    "mediaVerified": true,
+    "mediaStatus": "VERIFIED",
+    "publishedAt": "2026-11-18T13:36:00+08:00",
+    "timePrecision": "minute",
+    "photoVerifiedAt": "2026-11-18T13:47:38.087+08:00",
+    "network": "facebook",
+    "mediaVerifiedAt": "2026-11-18T13:47:38.087+08:00",
+    "previewStatus": "VERIFIED",
+    "previewVerifiedAt": "2026-11-18T13:38:32.543+08:00",
+    "publicScreenshot": "docs/daily-checks/2026-11-18/new-facebook-public.jpg",
+    "mediaEvidence": "docs/social-posts/2026-11-18/new-facebook-photo.jpg",
+    "visibility": "public",
+    "mediaKind": "uploaded-photo",
+    "photoAttachments": [
+      {
+        "id": "122123828991505473",
+        "url": "https://www.facebook.com/photo/?fbid=122123828991505473"
+      }
+    ],
+    "publicPhotoScreenshot": "docs/social-posts/2026-11-18/new-facebook-photo.jpg"
   },
   "resumeInstructions": [
-    "先讀本報告及publication log、最新main與安全公告；不要重發7則。",
-    "安全修補可用後修正依賴、重建部署；成功後逐頁與圖片驗收。",
-    "正式雷達總量核實後製作當日首圖，再只發布其餘9則及必要Threads續串。",
-    "完成正式站驗收和兩個來源阻礙後執行每日驗證；未COMPLETE不可標completed。"
+    "16則社群皆已完成，不得重發。等待RSS更新部署成功後回讀3筆新增並執行每日驗證；兩個來源安全阻礙仍保留。"
   ],
   "verification": {
-    "status": "INCOMPLETE",
+    "status": "PENDING_FINAL_RSS",
     "exitCode": 1,
-    "checkedAt": "2026-11-18T05:54:22.816+08:00",
+    "checkedAt": "2026-11-18T08:01:37.6370078+08:00",
     "command": "node scripts/verify-daily-delivery.mjs 2026-11-18",
-    "evidence": "docs/daily-checks/2026-11-18/daily-verification.txt",
-    "notes": "Seven published social receipts pass; unmet checks correspond to deployment-dependent content, remaining9 posts, live acceptance and archive delivery."
+    "evidence": "docs/daily-checks/2026-11-18/0800-verification.txt",
+    "notes": "All content and social receipts now present; final RSS build/readback not yet completed."
+  },
+  "reporting0800": {
+    "checkedAt": "2026-11-18T08:01:37.6370078+08:00",
+    "timezone": "Asia/Taipei",
+    "remoteMain": "f709825828d68ca0b212d20acab89f4a9c0378d1",
+    "deploymentRun": 44182238587,
+    "deploymentConclusion": "failure",
+    "registryLatest": "4.0.7",
+    "patchedVersions": "None",
+    "advisory": "https://github.com/advisories/GHSA-fc5q-39xc-vjpf",
+    "upstreamPR194": "open; not a complete security fix",
+    "regularPublished": 7,
+    "regularPending": 8,
+    "newFacebookPending": 1,
+    "verification": "INCOMPLETE",
+    "decision": "Confirmed persistent deployment security blocker; retained gate and seven published receipts. No publishing or deployment retry without remediation. Earlier source-site safety restrictions retained; not bypassed."
+  },
+  "afternoonSecurityReview": {
+    "checkedAt": "2026-11-18T13:10:05.4175803+08:00",
+    "remoteMain": "5f4d6d7db387957b35a9830095b9b5afcb2bf1a9",
+    "latestRun": 44234795595,
+    "conclusion": "failure",
+    "failedStep": "Check production dependency advisories",
+    "deploy": "skipped",
+    "picomatchLatest": "4.0.7",
+    "astroLatest": "7.4.12",
+    "astroLatestPicomatch": "^4.0.7",
+    "tinyglobbyLatest": "0.2.17",
+    "tinyglobbyLatestPicomatch": "^4.0.4",
+    "decision": "Official releases and parent upgrades do not remove affected dependency. Latest concurrent Vlog deployment also failed audit. Retain gate; no duplicate social publication or unsupported claim of completion."
+  },
+  "peterImports": [
+    {
+      "slug": "uk-deferred-entry-offer-commitment",
+      "sourceId": "122150566389172155",
+      "title": "英國延後入學不是按暫停：保留錄取前，先看懂承諾",
+      "status": "published",
+      "url": "https://globalednews.com/peter/uk-deferred-entry-offer-commitment/",
+      "verifiedAt": "2026-11-18T13:48:54+08:00"
+    }
+  ],
+  "deploymentHistory": [
+    {
+      "commit": "56a503850edc971ac93c8e9940e124ecb11c2136",
+      "status": "failure",
+      "runId": 44182238587,
+      "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/44182238587",
+      "checkedAt": "2026-11-18T05:53:46.645+08:00",
+      "failedStep": "Check production dependency advisories",
+      "deployJob": "skipped",
+      "newContentLive": false
+    }
+  ],
+  "securityRemediation": {
+    "status": "deployed",
+    "evidence": "docs/daily-checks/2026-11-18/dependency-remediation.json",
+    "note": "Verified local fail-closed picomatch patch; upstream advisory remains. Preserved existing user-approved single-advisory raw-audit exception until2026-11-19T00:00:00Z; gate requires follow-up after expiry."
   }
 }
