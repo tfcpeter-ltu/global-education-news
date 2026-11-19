@@ -1,5 +1,196 @@
 {
-  "submissionAttempts": 0,
+  "submissionAttempts": 1,
   "date": "2026-11-20",
-  "posts": []
+  "posts": [
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "status": "APPROVAL_REJECTED_NOT_SENT",
+      "articleUrl": "https://globalednews.com/news/qs-sustainability-2027-ranking-student-choice/",
+      "photoAttachedAt": "2026-11-19T21:51:36.420Z",
+      "copyAddedAt": "2026-11-19T21:51:36.578Z",
+      "photoReadyEvidence": "Native MBS 1080x1350 photo edit/remove controls, no upload progress, Facebook-only LTU OSSD preview; copy added afterward.",
+      "intentAt": "2026-11-19T21:51:53.2084070Z",
+      "dedupeEvidence": "Today ledger empty; native Meta calendar and published posts checked before composing.",
+      "rejection": {
+        "discoveredAt": "2026-11-20T05:52:00+08:00",
+        "timePrecision": "minute",
+        "action": "Publish prepared news photo on LTU OSSD Facebook",
+        "result": "AUTO_REVIEW_REJECTED_NO_SEND",
+        "reason": "Review did not find trusted specific authorization for this public publication.",
+        "requestedApproval": "All15regular+1newpage campaign posts/accounts explicitly listed in asynchronous question",
+        "screenshot": "docs/daily-checks/2026-11-20/screenshots/news-facebook-awaiting-approval.jpg"
+      },
+      "submittedAt": null
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/news/qs-sustainability-2027-ranking-student-choice/",
+      "copyVersion": "2026-11-20-v1",
+      "copyFile": "docs/social-posts/2026-11-20/news.json",
+      "socialImage": "public/images/social/2026-11-20/news.jpg",
+      "status": "HELD_PENDING_EXPLICIT_APPROVAL",
+      "submissionAttempts": 0
+    },
+    {
+      "campaign": "news",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/news/qs-sustainability-2027-ranking-student-choice/",
+      "copyVersion": "2026-11-20-v1",
+      "copyFile": "docs/social-posts/2026-11-20/news.json",
+      "socialImage": "public/images/social/2026-11-20/news.jpg",
+      "status": "HELD_PENDING_EXPLICIT_APPROVAL",
+      "submissionAttempts": 0
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "account": "Peter Chen",
+      "articleUrl": "https://globalednews.com/news/qs-sustainability-2027-ranking-student-choice/",
+      "copyVersion": "2026-11-20-v1",
+      "copyFile": "docs/social-posts/2026-11-20/news.json",
+      "socialImage": "public/images/social/2026-11-20/news.jpg",
+      "status": "HELD_PENDING_EXPLICIT_APPROVAL",
+      "submissionAttempts": 0
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "copyVersion": "2026-11-20-v1",
+      "copyFile": "docs/social-posts/2026-11-20/diy.json",
+      "socialImage": "public/images/social/2026-11-20/diy.jpg",
+      "status": "HELD_PENDING_EXPLICIT_APPROVAL",
+      "submissionAttempts": 0
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "copyVersion": "2026-11-20-v1",
+      "copyFile": "docs/social-posts/2026-11-20/diy.json",
+      "socialImage": "public/images/social/2026-11-20/diy.jpg",
+      "status": "HELD_PENDING_EXPLICIT_APPROVAL",
+      "submissionAttempts": 0
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "copyVersion": "2026-11-20-v1",
+      "copyFile": "docs/social-posts/2026-11-20/diy.json",
+      "socialImage": "public/images/social/2026-11-20/diy.jpg",
+      "status": "HELD_PENDING_EXPLICIT_APPROVAL",
+      "submissionAttempts": 0
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "account": "Peter Chen",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "copyVersion": "2026-11-20-v1",
+      "copyFile": "docs/social-posts/2026-11-20/diy.json",
+      "socialImage": "public/images/social/2026-11-20/diy.jpg",
+      "status": "HELD_PENDING_EXPLICIT_APPROVAL",
+      "submissionAttempts": 0
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "copyVersion": "2026-11-20-v1",
+      "copyFile": "docs/social-posts/2026-11-20/campus.json",
+      "socialImage": "public/images/social/2026-11-20/campus.jpg",
+      "status": "HELD_PENDING_EXPLICIT_APPROVAL",
+      "submissionAttempts": 0
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "copyVersion": "2026-11-20-v1",
+      "copyFile": "docs/social-posts/2026-11-20/campus.json",
+      "socialImage": "public/images/social/2026-11-20/campus.jpg",
+      "status": "HELD_PENDING_EXPLICIT_APPROVAL",
+      "submissionAttempts": 0
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "account": "Peter Chen",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "copyVersion": "2026-11-20-v1",
+      "copyFile": "docs/social-posts/2026-11-20/campus.json",
+      "socialImage": "public/images/social/2026-11-20/campus.jpg",
+      "status": "HELD_PENDING_EXPLICIT_APPROVAL",
+      "submissionAttempts": 0
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "copyVersion": "2026-11-20-v1",
+      "copyFile": "docs/social-posts/2026-11-20/scholarship.json",
+      "socialImage": "public/images/social/2026-11-20/radar.jpg",
+      "status": "HELD_PENDING_EXPLICIT_APPROVAL",
+      "submissionAttempts": 0
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "copyVersion": "2026-11-20-v1",
+      "copyFile": "docs/social-posts/2026-11-20/scholarship.json",
+      "socialImage": "public/images/social/2026-11-20/radar.jpg",
+      "status": "HELD_PENDING_EXPLICIT_APPROVAL",
+      "submissionAttempts": 0
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "copyVersion": "2026-11-20-v1",
+      "copyFile": "docs/social-posts/2026-11-20/scholarship.json",
+      "socialImage": "public/images/social/2026-11-20/radar.jpg",
+      "status": "HELD_PENDING_EXPLICIT_APPROVAL",
+      "submissionAttempts": 0
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "account": "Peter Chen",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "copyVersion": "2026-11-20-v1",
+      "copyFile": "docs/social-posts/2026-11-20/scholarship.json",
+      "socialImage": "public/images/social/2026-11-20/radar.jpg",
+      "status": "HELD_PENDING_EXPLICIT_APPROVAL",
+      "submissionAttempts": 0
+    },
+    {
+      "campaign": "new-facebook-page",
+      "network": "facebook",
+      "account": "環球國際教育新聞網（61595164194381）",
+      "articleUrl": "https://globalednews.com/news/qs-sustainability-2027-ranking-student-choice/",
+      "copyVersion": "2026-11-20-v1",
+      "copyFile": "docs/social-posts/2026-11-20/new-facebook-page.json",
+      "socialImage": "public/images/social/2026-11-20/news.jpg",
+      "status": "HELD_PENDING_EXPLICIT_APPROVAL",
+      "submissionAttempts": 0
+    }
+  ],
+  "platformSends": 0,
+  "status": "awaiting-user-approval",
+  "updatedAt": "2026-11-19T21:57:41.047Z"
 }

@@ -1,7 +1,7 @@
 {
   "date": "2026-11-20",
   "copyVersion": "2026-11-20-v1",
-  "status": "ready-pending-live-verification",
+  "status": "ready-awaiting-publication-approval",
   "CTA": "免費加入會員",
   "campaign": "scholarship",
   "articleTitle": "台灣學生國際獎學金雷達｜296筆與三項博士合作資助",
@@ -62,5 +62,6 @@
       "url": "https://depart.moe.edu.tw/ed2500/Common/HitCount.ashx?p=C535150A0F617C6860CE01B098F7F2109789188FC445F71F5A68B1573A6310F806B4B7AAA11899F95847C68132D443F798598A70B8FBED3A85976590C24BB093E619FB8DE497DE208D84000F2FC14C16EF5610C0F7F0470442D1B48B19FD39C3&type=FB01D469347C76A7&s=CCA65C8B7FEA438C"
     }
   ],
-  "xCopy": "獎學金雷達296筆 https://globalednews.com/scholarships/"
+  "xCopy": "獎學金雷達296筆 https://globalednews.com/scholarships/",
+  "liveVerifiedAt": "2026-11-19T21:57:03.362Z"
 }

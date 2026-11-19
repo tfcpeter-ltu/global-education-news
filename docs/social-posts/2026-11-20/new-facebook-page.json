@@ -1,7 +1,7 @@
 {
   "date": "2026-11-20",
   "copyVersion": "2026-11-20-v1",
-  "status": "ready-pending-live-verification",
+  "status": "ready-awaiting-publication-approval",
   "CTA": "免費加入會員",
   "campaign": "news",
   "articleTitle": "QS永續排名2027：隆德居首，台灣選校看分項",
@@ -23,5 +23,6 @@
     "https://globalednews.com/news/qs-sustainability-2027-ranking-student-choice/"
   ],
   "xCopy": "永續排名第一，適合你的科系也第一嗎？\n看懂三種指標，讓台灣學生選校更有方向。 https://globalednews.com/news/qs-sustainability-2027-ranking-student-choice/",
-  "pageId": "61595164194381"
+  "pageId": "61595164194381",
+  "liveVerifiedAt": "2026-11-19T21:57:03.362Z"
 }

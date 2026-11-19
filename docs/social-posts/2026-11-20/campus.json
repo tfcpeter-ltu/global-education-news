@@ -1,7 +1,7 @@
 {
   "date": "2026-11-20",
   "copyVersion": "2026-11-20-v1",
-  "status": "ready-pending-live-verification",
+  "status": "ready-awaiting-publication-approval",
   "CTA": "免費加入會員",
   "campaign": "taiwan-universities",
   "articleTitle": "研究經費不等於學生研究機會：選校三個問題",
@@ -23,5 +23,6 @@
     "https://globalednews.com/taiwan-universities/"
   ],
   "sourceBasis": "Native live UI: 中興 school search and profile; research data scope, dates and unfinished department fields read. No claim of guaranteed participation.",
-  "xCopy": "研究經費多，我也能進實驗室嗎？\n選大學時，把校級數字與學生機會分開查。 https://globalednews.com/taiwan-universities/"
+  "xCopy": "研究經費多，我也能進實驗室嗎？\n選大學時，把校級數字與學生機會分開查。 https://globalednews.com/taiwan-universities/",
+  "liveVerifiedAt": "2026-11-19T21:57:03.362Z"
 }

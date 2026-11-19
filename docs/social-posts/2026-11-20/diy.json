@@ -1,7 +1,7 @@
 {
   "date": "2026-11-20",
   "copyVersion": "2026-11-20-v1",
-  "status": "ready-pending-live-verification",
+  "status": "ready-awaiting-publication-approval",
   "CTA": "免費加入會員",
   "campaign": "study-abroad",
   "country": "United States",
@@ -25,5 +25,6 @@
   "sources": [
     "https://college.uchicago.edu/academics/core-curriculum"
   ],
-  "xCopy": "想讀美國大學，選主修前先看共同必修。\n芝加哥大學的Core，提醒你比較四年真正會學什麼。 https://globalednews.com/study-abroad/"
+  "xCopy": "想讀美國大學，選主修前先看共同必修。\n芝加哥大學的Core，提醒你比較四年真正會學什麼。 https://globalednews.com/study-abroad/",
+  "liveVerifiedAt": "2026-11-19T21:57:03.362Z"
 }

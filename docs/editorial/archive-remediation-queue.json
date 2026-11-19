@@ -1,26 +1,8 @@
 {
   "status": "pending",
   "order": "newest first, then currently consequential policies",
-  "remaining": 145,
+  "remaining": 142,
   "items": [
-    {
-      "path": "src/pages/news/ieaa-excellence-awards-student-learning-2026.md",
-      "date": "\"2026-11-01T10:34:19.579066+08:00\"",
-      "bodyCjk": 220,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/qmul-kmutt-thailand-dual-engineering-2027.md",
-      "date": "\"2026-11-01T10:34:19.579066+08:00\"",
-      "bodyCjk": 264,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/australia-genuine-student-financial-consultation-2026.md",
-      "date": "\"2026-10-31T20:11:11.329530+08:00\"",
-      "bodyCjk": 254,
-      "needsEditorialReview": true
-    },
     {
       "path": "src/pages/news/cornell-state-police-investigation-choice-2026.md",
       "date": "\"2026-10-31T20:11:11.329530+08:00\"",
@@ -998,13 +980,14 @@
     "evidence": "docs/daily-checks/2026-11-17/live-audit.json"
   },
   "lastCompleted": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "slugs": [
-      "us-accreditation-aim-final-rule-october-2026",
-      "british-council-public-accounts-committee-finances-2026",
-      "unb-saint-john-data-science-degree-2027"
+      "ieaa-excellence-awards-student-learning-2026",
+      "qmul-kmutt-thailand-dual-engineering-2027",
+      "australia-genuine-student-financial-consultation-2026"
     ],
-    "commit": "2827db0a4d238661c2253ba7ca4fcb609983cf8a",
-    "evidence": "docs/daily-checks/2026-11-19/live-http-acceptance.json"
+    "commit": "b8fcaec11bdcc574a05bfed53fd000ac0f71e9ac",
+    "verifiedAt": "2026-11-19T21:55:28.525Z",
+    "evidence": "docs/daily-checks/2026-11-20/live-http-acceptance.json"
   }
 }

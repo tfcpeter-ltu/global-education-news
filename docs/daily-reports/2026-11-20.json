@@ -2,8 +2,8 @@
   "date": "2026-11-20",
   "timezone": "Asia/Taipei",
   "startedAt": "2026-11-20T05:05:15+08:00",
-  "status": "in_progress",
-  "currentPhase": "CONTENT_PREPARED",
+  "status": "partial_external_blocker",
+  "currentPhase": "WEBSITE_VERIFIED_SOCIAL_AWAITING_APPROVAL",
   "baseCommit": "1497c94af1757d0bb4100fd5a7a6a98ee1d52c23",
   "scholarshipBaselineSlugs": [
     "2026-08-bristol-think-big",
@@ -300,7 +300,68 @@
     "catalog-vanderbilt-ingram",
     "catalog-yale-international-aid"
   ],
-  "newsPublished": [],
+  "newsPublished": [
+    {
+      "slug": "qs-sustainability-2027-ranking-student-choice",
+      "url": "https://globalednews.com/news/qs-sustainability-2027-ranking-student-choice/",
+      "sources": [
+        {
+          "label": "QS｜2027 Sustainability Rankings發布資料",
+          "url": "https://www.prnewswire.com/news-releases/qs-sustainability-rankings-2027-302941137.html"
+        },
+        {
+          "label": "CIC News｜加拿大大學及分項比較",
+          "url": "https://www.cicnews.com/2026/11/two-canadian-universities-crack-global-top-10-in-2027-qs-sustainability-ranking-1182589.html/amp"
+        },
+        {
+          "label": "QS｜永續排名方法",
+          "url": "https://support.qs.com/hc/en-gb/articles/8551503200668-QS-World-University-Rankings-Sustainability"
+        },
+        {
+          "label": "Lund｜校園發展與主樓整修",
+          "url": "https://www.lunduniversity.lu.se/about-university/university-glance/mission-vision-and-values/campus-development"
+        }
+      ],
+      "status": "published",
+      "verifiedAt": "2026-11-19T21:44:37.072505+00:00"
+    },
+    {
+      "slug": "canada-china-clic-exchanges-850-students-2026",
+      "url": "https://globalednews.com/news/canada-china-clic-exchanges-850-students-2026/",
+      "sources": [
+        {
+          "label": "加拿大總理辦公室｜11月17日合作背景資料",
+          "url": "https://www.pm.gc.ca/en/news/backgrounders/2026/11/17/prime-minister-carney-advances-canadas-strategic-partnership-china"
+        },
+        {
+          "label": "DW／Reuters／dpa｜加中會談與關係背景",
+          "url": "https://amp.dw.com/en/canada-china-agree-to-ease-tariffs-amid-trade-rows-with-us/a-79964912"
+        },
+        {
+          "label": "Academica｜學生交流資助報導",
+          "url": "https://academica.ca/top-ten/canada-to-support-additional-student-exchanges-with-china/"
+        }
+      ],
+      "status": "published",
+      "verifiedAt": "2026-11-19T21:44:37.077829+00:00"
+    },
+    {
+      "slug": "manifest-mindler-career-guidance-acquisition-2026",
+      "url": "https://globalednews.com/news/manifest-mindler-career-guidance-acquisition-2026/",
+      "sources": [
+        {
+          "label": "Manifest Global｜官方品牌與Mindler加入說明",
+          "url": "https://www.manifest.inc/"
+        },
+        {
+          "label": "The PIE News｜收購案及雙方創辦人訪談",
+          "url": "https://thepienews.com/manifest-global-acquires-mindlers-career-guidance-business/"
+        }
+      ],
+      "status": "published",
+      "verifiedAt": "2026-11-19T21:44:37.073021+00:00"
+    }
+  ],
   "scholarshipAdditions": [
     {
       "slug": "2026-11-taiwan-kyoto-phd-2027",
@@ -329,8 +390,8 @@
       "eligibleTaiwan": true,
       "open": true,
       "verifiedAt": "2026-11-19T21:34:33.801Z",
-      "publishedVerifiedAt": null,
-      "status": "prepared-not-deployed",
+      "publishedVerifiedAt": "2026-11-19T21:44:37.072307+00:00",
+      "status": "published",
       "updateSummary": "核對教育部116年正式簡章與合作校直接資料、國籍學歷限制、教育部12月2日中午及各系所分別期限；新增全新頁面。"
     },
     {
@@ -356,8 +417,8 @@
       "eligibleTaiwan": true,
       "open": true,
       "verifiedAt": "2026-11-19T21:34:33.801Z",
-      "publishedVerifiedAt": null,
-      "status": "prepared-not-deployed",
+      "publishedVerifiedAt": "2026-11-19T21:44:37.074085+00:00",
+      "status": "published",
       "updateSummary": "核對教育部116年正式簡章與合作校直接資料、國籍學歷限制、教育部12月2日中午及各系所分別期限；新增全新頁面。"
     },
     {
@@ -383,8 +444,8 @@
       "eligibleTaiwan": true,
       "open": true,
       "verifiedAt": "2026-11-19T21:34:33.801Z",
-      "publishedVerifiedAt": null,
-      "status": "prepared-not-deployed",
+      "publishedVerifiedAt": "2026-11-19T21:44:37.073567+00:00",
+      "status": "published",
       "updateSummary": "核對教育部116年正式簡章與合作校直接資料、國籍學歷限制、教育部12月2日中午及各系所分別期限；新增全新頁面。"
     }
   ],
@@ -416,8 +477,8 @@
       "eligibleTaiwan": true,
       "open": true,
       "verifiedAt": "2026-11-19T21:34:33.801Z",
-      "publishedVerifiedAt": null,
-      "status": "prepared-not-deployed",
+      "publishedVerifiedAt": "2026-11-19T21:44:37.072307+00:00",
+      "status": "published",
       "updateSummary": "核對教育部116年正式簡章與合作校直接資料、國籍學歷限制、教育部12月2日中午及各系所分別期限；新增全新頁面。"
     },
     {
@@ -443,8 +504,8 @@
       "eligibleTaiwan": true,
       "open": true,
       "verifiedAt": "2026-11-19T21:34:33.801Z",
-      "publishedVerifiedAt": null,
-      "status": "prepared-not-deployed",
+      "publishedVerifiedAt": "2026-11-19T21:44:37.074085+00:00",
+      "status": "published",
       "updateSummary": "核對教育部116年正式簡章與合作校直接資料、國籍學歷限制、教育部12月2日中午及各系所分別期限；新增全新頁面。"
     },
     {
@@ -470,8 +531,8 @@
       "eligibleTaiwan": true,
       "open": true,
       "verifiedAt": "2026-11-19T21:34:33.801Z",
-      "publishedVerifiedAt": null,
-      "status": "prepared-not-deployed",
+      "publishedVerifiedAt": "2026-11-19T21:44:37.073567+00:00",
+      "status": "published",
       "updateSummary": "核對教育部116年正式簡章與合作校直接資料、國籍學歷限制、教育部12月2日中午及各系所分別期限；新增全新頁面。"
     }
   ],
@@ -489,9 +550,10 @@
     "regressionsPassed": 4
   },
   "gaps": [
-    "待完整建置、部署、正式站驗收與15+1社群公開回讀"
+    "15 regular plus1 new-page social posts awaiting explicit approval after first native Facebook publish was rejected by automatic review; zero sent.",
+    "Three LTU original sources require human safe review; no safety bypass."
   ],
-  "updatedAt": "2026-11-19T21:34:33.801Z",
+  "updatedAt": "2026-11-19T21:55:28.525Z",
   "newsPrepared": [
     {
       "slug": "qs-sustainability-2027-ranking-student-choice",
@@ -514,7 +576,7 @@
           "url": "https://www.lunduniversity.lu.se/about-university/university-glance/mission-vision-and-values/campus-development"
         }
       ],
-      "status": "prepared-not-deployed"
+      "status": "published"
     },
     {
       "slug": "canada-china-clic-exchanges-850-students-2026",
@@ -533,7 +595,7 @@
           "url": "https://academica.ca/top-ten/canada-to-support-additional-student-exchanges-with-china/"
         }
       ],
-      "status": "prepared-not-deployed"
+      "status": "published"
     },
     {
       "slug": "manifest-mindler-career-guidance-acquisition-2026",
@@ -548,13 +610,14 @@
           "url": "https://thepienews.com/manifest-global-acquires-mindlers-career-guidance-business/"
         }
       ],
-      "status": "prepared-not-deployed"
+      "status": "published"
     }
   ],
   "scholarshipCount": {
     "baseline": 293,
     "prepared": 296,
-    "liveVerified": null
+    "liveVerified": 296,
+    "verifiedAt": "2026-11-19T21:55:28.525Z"
   },
   "peterReview": {
     "status": "no-new-posts",
@@ -641,7 +704,7 @@
     }
   ],
   "archiveRemediation": {
-    "status": "prepared-not-deployed",
+    "status": "complete",
     "articles": [
       {
         "slug": "ieaa-excellence-awards-student-learning-2026",
@@ -649,7 +712,7 @@
         "englishUrl": "https://globalednews.com/en/news/ieaa-excellence-awards-student-learning-2026/",
         "originalPublishedAt": "2026-11-01T10:34:19.579066+08:00",
         "updatedAt": "2026-11-20T05:35:00+08:00",
-        "verifiedAt": null
+        "verifiedAt": "2026-11-19T21:44:37.421989+00:00"
       },
       {
         "slug": "qmul-kmutt-thailand-dual-engineering-2027",
@@ -657,7 +720,7 @@
         "englishUrl": "https://globalednews.com/en/news/qmul-kmutt-thailand-dual-engineering-2027/",
         "originalPublishedAt": "2026-11-01T10:34:19.579066+08:00",
         "updatedAt": "2026-11-20T05:35:00+08:00",
-        "verifiedAt": null
+        "verifiedAt": "2026-11-19T21:44:37.420415+00:00"
       },
       {
         "slug": "australia-genuine-student-financial-consultation-2026",
@@ -665,8 +728,65 @@
         "englishUrl": "https://globalednews.com/en/news/australia-genuine-student-financial-consultation-2026/",
         "originalPublishedAt": "2026-10-31T20:11:11.329530+08:00",
         "updatedAt": "2026-11-20T05:35:00+08:00",
-        "verifiedAt": null
+        "verifiedAt": "2026-11-19T21:44:37.402682+00:00"
       }
-    ]
+    ],
+    "commit": "b8fcaec11bdcc574a05bfed53fd000ac0f71e9ac",
+    "liveEvidence": "docs/daily-checks/2026-11-20/live-http-acceptance.json",
+    "remainingBefore": 145,
+    "remainingAfter": 142
+  },
+  "deployment": {
+    "commit": "b8fcaec11bdcc574a05bfed53fd000ac0f71e9ac",
+    "status": "success",
+    "verifiedAt": "2026-11-19T21:55:28.525Z",
+    "runId": 44621169994,
+    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/44621169994",
+    "build": "success",
+    "pages": "success",
+    "indexnow": "success"
+  },
+  "acceptance": {
+    "desktop": true,
+    "mobile": true,
+    "seo": true,
+    "verifiedAt": "2026-11-19T21:55:28.525Z",
+    "evidence": "docs/daily-checks/2026-11-20/live-http-acceptance.json",
+    "desktopDetail": "Home distinct news photos, QS full article, radar 京都=1, 京都+Canada=0, clear=296, load more24→48; DIY public110/full329; NCHU detail research scope/years read.",
+    "mobileDetail": "New native radar tab requested390x844; measuredCSS487, document468. 京都 search button=1, Canada combination=0 explicit status, clear296, visible article27→51 (24→48 list+3picks). QS article mobile screenshot verified clear wrapped title/photo; no horizontal overflow. Viewport reset.",
+    "seoDetail": "18 bilingual live URLs and9 distinct OG photos200; canonical/hreflang/schema, robots/sitemap children, news sitemap3new and weeklyRSS3new+3awards verified."
+  },
+  "ltuReview": {
+    "checkedAt": "2026-11-19T21:55:28.525Z",
+    "poolCount": 12,
+    "visibleDailyCount": 3,
+    "status": "partial_external_blocker",
+    "originalsRead": [
+      "https://www.ctee.com.tw/news/20250623700886-431204",
+      "https://money.udn.com/money/story/5723/8815124",
+      "https://www.nownews.com/news/6697174",
+      "https://www.businesstoday.com.tw/article/category/183035/post/202508150011/",
+      "https://www.ctee.com.tw/news/20260401701821-431204",
+      "https://www.ctee.com.tw/news/20250723702079-431204",
+      "https://udn.com/news/story/6898/9271435",
+      "https://udn.com/news/story/6929/8583109",
+      "https://www.yuanfengmedia.tw/detail.php?type=lastest&id=52990"
+    ],
+    "sourceNote": "Nine originals title/body read through web or native Chrome. Yuanfeng identifies itself as 元丰傳媒, matching site. Reports are historical source links, not new events or independent endorsement of every promotional claim.",
+    "blockedOriginals": [
+      "https://www.setn.com/m/news.aspx?newsid=1688074",
+      "https://www.storm.mg/article/11051374",
+      "https://news.ltn.com.tw/news/life/breakingnews/5062658"
+    ],
+    "blocker": "Native site-safety restrictions; LTN attempt explicitly rejected by automatic review because domain already blocked. No alternate-path retries. Human safe source confirmation requested."
+  },
+  "socialApprovalBlocker": {
+    "discoveredAt": "2026-11-20T05:52:00+08:00",
+    "timePrecision": "minute",
+    "action": "Publish prepared news photo on LTU OSSD Facebook",
+    "result": "AUTO_REVIEW_REJECTED_NO_SEND",
+    "reason": "Review did not find trusted specific authorization for this public publication.",
+    "requestedApproval": "All15regular+1newpage campaign posts/accounts explicitly listed in asynchronous question",
+    "screenshot": "docs/daily-checks/2026-11-20/screenshots/news-facebook-awaiting-approval.jpg"
   }
 }
