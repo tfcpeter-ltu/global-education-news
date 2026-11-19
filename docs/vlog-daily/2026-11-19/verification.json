@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-19",
+  "baseline": "21aff61048c9d7c5910f9214db84ad2176523f71",
+  "sourceCommit": "a986b117f08901991207803f217a573928f5febf",
+  "deploymentRun": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/44455697755",
+  "deployment": "success",
+  "videosBefore": 177,
+  "videosAfter": 183,
+  "newVideos": 6,
+  "socialPublished": 8,
+  "socialPlanned": 10,
+  "blocked": {
+    "platform": "Threads",
+    "account": "@ltuossdtw",
+    "count": 2,
+    "reason": "Native Threads is logged out; login offers wrong editor.jsti.ltu identity. Authorized @ltuossdtw login required. MBS Threads switch disabled. No new permissions or account accepted."
+  },
+  "tests": [
+    "node scripts/test-vlog.mjs passed183",
+    "Astro build645pages",
+    "Bilingual937pairs;0missing",
+    "Built Vlog183passed",
+    "git diff --check passed",
+    "Live six new thumbnails loaded;English summaries translated",
+    "Search Tokyo International returned1; official filter132; home link visible",
+    "Sydney embedded playback observed"
+  ],
+  "limitations": [
+    "Six videos public/playable-in-embed metadata verified; playback spot-checked Sydney only",
+    "Captions unavailable or empty responses; summaries bounded to official descriptions and chapters",
+    "No reliable recent velocity evidence; labelled editorial selections",
+    "No new security exceptions; CI security checks passed"
+  ],
+  "cloudSyncVerified": false,
+  "verifiedAt": "2026-11-19T04:13:36.633Z"
+}
