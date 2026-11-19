@@ -1,0 +1,48 @@
+{
+  "reviewedAt": "2026-11-19T13:33:17.197Z",
+  "newColumns": [
+    {
+      "slug": "canada-research-masters-supervisor-three-gates",
+      "sourceId": "122150672037172155",
+      "originalDate": "2026-11-19",
+      "originalDateLabel": "2026年11月19日 星期四上午9:30",
+      "sources": [
+        [
+          "UBC — Research supervisors",
+          "https://www.grad.ubc.ca/prospective-students/research-supervisors"
+        ],
+        [
+          "McGill — Application FAQs",
+          "https://www.mcgill.ca/expmed/applying/application-faqs"
+        ],
+        [
+          "McGill — Connecting with a supervisor",
+          "https://www.mcgill.ca/gradapplicants/research-supervision/connecting-supervisor"
+        ]
+      ]
+    },
+    {
+      "slug": "us-new-enrolment-decline-not-admission-odds",
+      "sourceId": "122150587269172155",
+      "originalDate": "2026-11-18",
+      "originalDateLabel": "2026年11月18日 星期三上午9:23",
+      "sources": [
+        [
+          "IIE — Open Doors 2026 Fast Facts",
+          "https://opendoorsdata.org/wp-content/uploads/2026/11/OD26_Fast-Facts.pdf"
+        ],
+        [
+          "IIE — Fall 2026 Snapshot",
+          "https://opendoorsdata.org/wp-content/uploads/2026/11/IIE_Fall-Snapshot_2026_Key-Findings_2026.pdf"
+        ]
+      ]
+    }
+  ],
+  "newCount": 2,
+  "excluded": [
+    "今日手機聯絡遊學宣傳",
+    "昨日交換報到宣傳",
+    "已收錄英國延後入學專欄"
+  ],
+  "shortfallReason": "最新動態去重後僅兩篇新的完整專欄；不以短文或舊文補數。"
+}

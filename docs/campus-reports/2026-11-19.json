@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-19",
+  "reviewedSchools": [
+    "nccu",
+    "nycu"
+  ],
+  "candidates": [
+    {
+      "checkedAt": "2026-11-19T13:37:09.166Z",
+      "status": "official-lead-only",
+      "independentSecondSource": null,
+      "schoolSlug": "nccu",
+      "title": "東協交換獎學金11月30日17時截止",
+      "sourceUrl": "https://oic.nccu.edu.tw/Post/16174",
+      "summary": "限具政大學籍且已錄取115學年第2學期東協交換者；一學期2萬元，兩學期總額3萬元。不是一般海外學位獎學金。"
+    },
+    {
+      "checkedAt": "2026-11-19T13:37:09.166Z",
+      "status": "held-direction-and-date-conflict",
+      "independentSecondSource": null,
+      "schoolSlug": "nccu",
+      "title": "國務院交換說明頁標題與內文方向需釐清",
+      "sourceUrl": "https://ocia.nccu.edu.tw/PageDoc/Detail?fid=5587&id=2878",
+      "summary": "標題為Outbound，但內文與申請表為Incoming；春季截止10月26日已過。不推薦為當期赴外交換機會，需承辦釐清。"
+    },
+    {
+      "checkedAt": "2026-11-19T13:37:09.166Z",
+      "status": "official-lead-only",
+      "independentSecondSource": null,
+      "schoolSlug": "nycu",
+      "title": "2026/27姐妹校短期課程須在出國前完成校內登錄",
+      "sourceUrl": "https://oia.nycu.edu.tw/oia/ch/app/data/view?module=nycu0006&id=715&serno=0e63e163-0674-4873-81a8-a20bce462479",
+      "summary": "10月22日更新，要求線上與紙本程序；出國前未送達紙本，返校後課程登錄不辦理抵免送件。個別課程截止仍須另查。"
+    }
+  ],
+  "published": [],
+  "pendingConsent": [],
+  "outreachDrafts": [],
+  "gaps": [
+    "三則為查核線索，其中一則方向與日期矛盾暫緩；未當成通過雙查新聞。"
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "preparedAt": "2026-11-19T13:23:57.786Z",
+  "news": [
+    {
+      "slug": "uk-independent-higher-education-state-sector-2026",
+      "url": "https://globalednews.com/news/uk-independent-higher-education-state-sector-2026/",
+      "publishedPath": "src/pages/news/uk-independent-higher-education-state-sector-2026.md",
+      "sources": [
+        {
+          "label": "Independent Higher Education — State of the Sector 2026, 18 November",
+          "url": "https://ihe.ac.uk/latest/publications/state-sector-2026"
+        },
+        {
+          "label": "The PIE News — Kim Martin independent conference reporting, 18 November",
+          "url": "https://thepienews.com/independent-he-grows-as-minister-signals-enormous-opportunities/"
+        }
+      ],
+      "sourceCheckedAt": "2026-11-19T13:23:57.786Z",
+      "status": "prepared-not-deployed"
+    },
+    {
+      "slug": "shoolini-edinburgh-engineering-double-degree-2027",
+      "url": "https://globalednews.com/news/shoolini-edinburgh-engineering-double-degree-2027/",
+      "publishedPath": "src/pages/news/shoolini-edinburgh-engineering-double-degree-2027.md",
+      "sources": [
+        {
+          "label": "Shoolini University — Engineering Double Degree programme announcement",
+          "url": "https://shooliniuniversity.com/news/shoolini-and-uoe-launch-engineering-double-degree-program"
+        },
+        {
+          "label": "The PIE News — Abhishek Nair interview with Atul Khosla, 19 November 2026",
+          "url": "https://thepienews.com/shoolini-and-edinburgh-partner-on-engineering-degrees-across-india-and-the-uk/"
+        }
+      ],
+      "sourceCheckedAt": "2026-11-19T13:23:57.786Z",
+      "status": "prepared-not-deployed"
+    },
+    {
+      "slug": "uk-erasmus-2027-funding-call-opens",
+      "url": "https://globalednews.com/news/uk-erasmus-2027-funding-call-opens/",
+      "publishedPath": "src/pages/news/uk-erasmus-2027-funding-call-opens.md",
+      "sources": [
+        {
+          "label": "British Council — UK Erasmus+ funding call, 18 November 2026",
+          "url": "https://www.britishcouncil.org/about/press/record-erasmus-funding-now-available-uk-organisations"
+        },
+        {
+          "label": "Associated Press — independent reporting on the UK–EU agreement, 17 December 2025",
+          "url": "https://apnews.com/article/uk-eu-erasmus-student-exchange-program-3d2e073e0e6ef6d335362f6a128558e6"
+        },
+        {
+          "label": "House of Commons Library — UK–EU reset negotiations, 9 November 2026, section 2.7",
+          "url": "https://researchbriefings.files.parliament.uk/documents/CBP-12281/CBP-12281.pdf"
+        },
+        {
+          "label": "European Commission — Erasmus+ 2027 call, 18 November 2026",
+          "url": "https://erasmus-plus.ec.europa.eu/whats-new/news/over-eur53-billion-for-wider-opportunities-under-erasmus-2027-call"
+        }
+      ],
+      "sourceCheckedAt": "2026-11-19T13:23:57.786Z",
+      "status": "prepared-not-deployed"
+    }
+  ],
+  "scholarships": [
+    {
+      "slug": "2026-11-southampton-75-pg-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-11-southampton-75-pg-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-southampton-75-pg-2027.md",
+      "sources": [
+        {
+          "label": "University of Southampton — 75th Anniversary China Postgraduate Excellence Scholarships",
+          "url": "https://cdn.southampton.ac.uk/study/fees-funding/scholarships/china-excellence"
+        },
+        {
+          "label": "ApplyBoard — separately maintained scholarship directory, updated 10 November 2026",
+          "url": "https://www.applyboard.com/study-in/united-kingdom/scholarships/75th-anniversary-china-postgraduate-excellence-scholarships"
+        },
+        {
+          "label": "University of Southampton — scholarship terms 2027",
+          "url": "https://www.southampton.ac.uk/study/fees-funding/scholarships/terms-conditions"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-11-19T13:23:57.786Z",
+      "publishedVerifiedAt": null,
+      "isNew": true,
+      "baselineAbsent": true,
+      "status": "prepared-not-deployed",
+      "updateSummary": "台灣永久居住者可依條件獲自動審核；限合格一年制授課型碩士，須於2027年1月15日前付訂金，名額有限。"
+    },
+    {
+      "slug": "2026-11-southampton-75-business-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-11-southampton-75-business-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-southampton-75-business-2027.md",
+      "sources": [
+        {
+          "label": "University of Southampton — 75th Anniversary China Business School Excellence Scholarship",
+          "url": "https://cdn.southampton.ac.uk/study/fees-funding/scholarships/southampton-business-school-excellence-china"
+        },
+        {
+          "label": "ApplyBoard — separately maintained Business School scholarship directory, updated 10 November 2026",
+          "url": "https://www.applyboard.com/study-in/united-kingdom/scholarships/75th-anniversary-china-postgraduate-university-of-southampton-business-school-excellence-scholarship"
+        },
+        {
+          "label": "University of Southampton — scholarship terms 2027",
+          "url": "https://www.southampton.ac.uk/study/fees-funding/scholarships/terms-conditions"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-11-19T13:23:57.786Z",
+      "publishedVerifiedAt": null,
+      "isNew": true,
+      "baselineAbsent": true,
+      "status": "prepared-not-deployed",
+      "updateSummary": "適用合格一年制商學院授課型碩士；台灣永久居住者、自費海外費率學生可獲自動審核，2027年1月15日前須付訂金。"
+    },
+    {
+      "slug": "2026-11-cdu-global-merit-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-11-cdu-global-merit-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-cdu-global-merit-2027.md",
+      "sources": [
+        {
+          "label": "Charles Darwin University — 2027 Global Merit terms",
+          "url": "https://www.cdu.edu.au/files/2026-09/2027%20CDU%20Global%20Merit%20Scholarship_Terms%20and%20Conditions.pdf"
+        },
+        {
+          "label": "AMET Education — independently maintained scholarship comparison, checked 27 October 2026",
+          "url": "https://amet.com.au/scholarships/"
+        },
+        {
+          "label": "CDU — international scholarship applications",
+          "url": "https://www.cdu.edu.au/international/how-apply/scholarships"
+        },
+        {
+          "label": "CDU — Taiwan academic entry requirements and international classification",
+          "url": "https://www.cdu.edu.au/international/how-apply/entry-requirements"
+        }
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "verifiedAt": "2026-11-19T13:23:57.786Z",
+      "publishedVerifiedAt": null,
+      "isNew": true,
+      "baselineAbsent": true,
+      "status": "prepared-not-deployed",
+      "updateSummary": "台灣學歷有正式申請路徑，合格國際新生隨課程自動審核；護理、博士與研究碩士等排除，不是所有課程一律適用。"
+    }
+  ]
+}

@@ -934,5 +934,44 @@
     "independentSource": "https://www.insidehighered.com/news/government/2026/11/02/colleges-prepare-credit-transfer-regulations",
     "reviewedAt": "2026-11-17T21:29:59.300Z",
     "bodySha256": "d741e5f868a8e1eb109b1fdb6f04f2fe6cc758a66bb754c224e15588af8fa6e1"
+  },
+  "uk-independent-higher-education-state-sector-2026": {
+    "newsValue": "11月18日公布的新調查提供台灣選校讀者對獨立高教的新資訊，未與既有移民及一般大學招生新聞重複。",
+    "background": "交代部分機構透過合作大學授課而不完全顯示於統計，並清楚區別81家機構調查與2024/25學生人數。",
+    "development": "沿著學生規模、2026/27成長預測、財務措施、國際及產業合作推進，沒有把預測當已實現成果。",
+    "perspectives": "IHE的產業倡議與The PIE獨立年會報導中部長對彈性及品質的要求分開呈現，未捏造反方或自採訪。",
+    "taiwanImpact": "提出授課與頒授法人、轉入要求、學費與課程安排的具體比較，避免把合作校聲譽當作課程品質證據。",
+    "uncertainty": "明示總體調查不是個別財務或品質保證，監管負擔資料不證明因果，未來入學及完成率仍待追蹤。",
+    "independence": "IHE為第一手調查發布者；The PIE記者Kim Martin獨立報導年會部長發言，提供與調查公告不同的觀察來源。",
+    "primarySource": "https://ihe.ac.uk/latest/publications/state-sector-2026",
+    "independentSource": "https://thepienews.com/independent-he-grows-as-minister-signals-enormous-opportunities/",
+    "reviewedAt": "2026-11-19T13:23:57.786Z",
+    "bodySha256": "5ab5affb0824190d49cafa3d7c2ff9cc190ea65bab62a524011eabc83c0ad1f9"
+  },
+  "shoolini-edinburgh-engineering-double-degree-2027": {
+    "newsValue": "11月19日獨立專訪提供2027新工程跨國路徑的投資及取捨，台灣讀者可用來比較雙學位而非直接招生保證。",
+    "background": "完整交代兩年印度兩年蘇格蘭、BTech與BEng Hons、整合碩士須另滿足條件，非一入學即獲兩學位。",
+    "development": "從合作公布、課程對接、三週過渡課程到首屆2027入學規劃，清楚區分公告事實與校長預計時程。",
+    "perspectives": "官方公告的兩校觀點與The PIE對Khosla獨立採訪中的補貼、小規模投入及分校比較一併呈現並具名歸屬。",
+    "taiwanImpact": "明示台灣國籍及學歷資格尚未確認，僅以本案解釋比較學分、轉入門檻、兩地成本及替代路徑的方法。",
+    "uncertainty": "沒有推論台灣可申請獎學金、畢業工作權或必定較便宜，指出總成本、實際首屆成果與完整升讀條件待確認。",
+    "independence": "Shoolini校方公告是第一手合作資料；Abhishek Nair的The PIE專訪有獨立提問與財務及研究取捨，不是公告轉載。",
+    "primarySource": "https://shooliniuniversity.com/news/shoolini-and-uoe-launch-engineering-double-degree-program",
+    "independentSource": "https://thepienews.com/shoolini-and-edinburgh-partner-on-engineering-degrees-across-india-and-the-uk/",
+    "reviewedAt": "2026-11-19T13:23:57.786Z",
+    "bodySha256": "f884e8206e609de41e26f0466a4bd8ca2220e22f001e026833f5da46ea3bcdfe"
+  },
+  "uk-erasmus-2027-funding-call-opens": {
+    "newsValue": "11月18日機構徵件已開始是新的可行動節點，與既有英國入境規則報導不同；幫讀者找到實際學校參與入口。",
+    "background": "用AP舊報導與11月9日下議院圖書館研究說明重新加入的時間及2027出資，與本次可申請資源分開。",
+    "development": "說明由英歐協議到機構申請再到2027夏季預期資助的階段，沒有將未來經費與交換成果寫成現在已完成。",
+    "perspectives": "英國執行機構、歐盟徵件、議會研究與AP獨立報導分別處理當期規則、總體計畫、財務限制及歷史脈絡。",
+    "taiwanImpact": "明示個人不能直接領取機構總預算，台灣學生須詢問在讀課程、校內遴選、交換時程與實際補助額度。",
+    "uncertainty": "AP不是本次徵件的獨立證明，The PIE公告轉述不計獨立來源；當期開放由兩執行方公告核對，2028後仍未確定。",
+    "independence": "British Council為當期第一手公告，AP為獨立歷史報導；另讀獨立於執行機構的下議院圖書館分析，非兩篇同稿轉載。",
+    "primarySource": "https://www.britishcouncil.org/about/press/record-erasmus-funding-now-available-uk-organisations",
+    "independentSource": "https://apnews.com/article/uk-eu-erasmus-student-exchange-program-3d2e073e0e6ef6d335362f6a128558e6",
+    "reviewedAt": "2026-11-19T13:23:57.786Z",
+    "bodySha256": "98f19da2f229f27bed9c782807a7ec5f52cd51ef79e75f0797febafc8c510b10"
   }
 }
