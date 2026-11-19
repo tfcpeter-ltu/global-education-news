@@ -1,0 +1,65 @@
+[
+  {
+    "slug": "us-accreditation-aim-final-rule-october-2026",
+    "originalPublishedAt": "2026-11-01T10:34:19.579066+08:00",
+    "updatedAt": "2026-11-19T14:34:45.572Z",
+    "bodyCjk": 1297,
+    "sources": [
+      [
+        "Federal Register — AIM final rule, 30 October 2026",
+        "https://www.govinfo.gov/content/pkg/FR-2026-10-30/html/2026-22174.htm"
+      ],
+      [
+        "Inside Higher Ed — Katherine Knott, The Markup, 30 October 2026",
+        "https://www.insidehighered.com/newsletter/first-100-days/markup-oct-30-2026"
+      ],
+      [
+        "MSCHE — Advocacy Alert on the final accreditation rule",
+        "https://www.msche.org/2026/10/30/advocacy-alert-usde-announces-final-higher-education-accreditation-rule/"
+      ]
+    ],
+    "status": "prepared-awaiting-deployment"
+  },
+  {
+    "slug": "british-council-public-accounts-committee-finances-2026",
+    "originalPublishedAt": "2026-10-31T20:11:11.329530+08:00",
+    "updatedAt": "2026-11-19T14:34:45.572Z",
+    "bodyCjk": 1336,
+    "sources": [
+      [
+        "UK Public Accounts Committee — financial sustainability announcement, 30 October 2026",
+        "https://committees.parliament.uk/committee/127/public-accounts-committee/news/218639/british-council-govt-lacks-positive-vision-for-uks-soft-power-flagship-pac/"
+      ],
+      [
+        "Times Higher Education — Georgia Luckhurst, British Council support report",
+        "https://www.timeshighereducation.com/news/british-council-deserves-support-not-mistrust-mps-say"
+      ],
+      [
+        "UK Parliament — The financial sustainability of the British Council, full report",
+        "https://publications.parliament.uk/pa/cm5902/cmselect/cmpubacc/100/report.html"
+      ]
+    ],
+    "status": "prepared-awaiting-deployment"
+  },
+  {
+    "slug": "unb-saint-john-data-science-degree-2027",
+    "originalPublishedAt": "2026-10-30T10:09:51.831461+08:00",
+    "updatedAt": "2026-11-19T14:34:45.572Z",
+    "bodyCjk": 1323,
+    "sources": [
+      [
+        "University of New Brunswick — Bachelor of Data Science announcement, 27 October 2026",
+        "https://blogs.unb.ca/newsroom/2026/10/bachelor-data-science.php"
+      ],
+      [
+        "CBC via Yahoo — AI degree programmes in Atlantic Canada, 2 July 2026",
+        "https://nz.news.yahoo.com/ai-degree-programs-popping-across-090000355.html"
+      ],
+      [
+        "University of New Brunswick — Data Science programme information",
+        "https://newprograms.unb.ca/data-science"
+      ]
+    ],
+    "status": "prepared-awaiting-deployment"
+  }
+]

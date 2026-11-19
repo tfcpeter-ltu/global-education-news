@@ -973,5 +973,44 @@
     "independentSource": "https://apnews.com/article/uk-eu-erasmus-student-exchange-program-3d2e073e0e6ef6d335362f6a128558e6",
     "reviewedAt": "2026-11-19T13:23:57.786Z",
     "bodySha256": "98f19da2f229f27bed9c782807a7ec5f52cd51ef79e75f0797febafc8c510b10"
+  },
+  "us-accreditation-aim-final-rule-october-2026": {
+    "newsValue": "十月最終規則仍影響2027選校，補足原短文缺少的制度層次與生效限制，並保留原新聞日期。",
+    "background": "區分認證機構聯邦認可、院校認證與個人資格，不把學生援助規範推成國際學生資助。",
+    "development": "原文確認全部條文可選提前實施且新增要求不得七月前生效，明示修正舊稿不精確範圍。",
+    "perspectives": "政府競爭理由、InsideHigherEd收錄自主疑慮及MSCHE實施準備分別歸因，不杜撰採訪或法院結果。",
+    "taiwanImpact": "提出學校與專業認證分查、轉換通知及學分用途具體問題，不提供個案學歷或簽證判定。",
+    "uncertainty": "政策目標不等於已實現品質改善；未聲稱已有法院暫停、新認證機構或全校自動轉換。",
+    "independence": "聯邦公報是完整法規第一手來源，KatherineKnott獨立整理包含批評與背景，MSCHE另作執行佐證。",
+    "primarySource": "https://www.govinfo.gov/content/pkg/FR-2026-10-30/html/2026-22174.htm",
+    "independentSource": "https://www.insidehighered.com/newsletter/first-100-days/markup-oct-30-2026",
+    "reviewedAt": "2026-11-19T14:34:45.572Z",
+    "bodySha256": "e23b0310e008c2b8b68c4e9c5c50bd6a77f405310e7d14849340101ee24b3ade"
+  },
+  "british-council-public-accounts-committee-finances-2026": {
+    "newsValue": "十月財務報告涉及持續教育交流能力，補寫組織營運脈絡而不把歷史事件包裝成今日新消息。",
+    "background": "說明商業收入支持公共任務及疫情後困境，區分軟實力估值、可用現金與實際營運盈餘。",
+    "development": "重讀國會完整報告釐清2024貸款原條件與2026年7月長期重整原則，明示二手簡化日期的處理。",
+    "perspectives": "國會監督及支持取捨、主管部門雙重角色與THE高教外溢背景分開呈現，未假裝自採訪。",
+    "taiwanImpact": "提供個別服務通知、付款及承辦責任查核方法，沒有把組織債務直接變成台灣學生停考或失去補助。",
+    "uncertainty": "貸款轉補助仍為建議，2029/30為預測，縮編不證明效率或一切服務惡化，未知個案不推定。",
+    "independence": "國會完整文件為第一手財務與時序依據，THE記者另以大學國際化視角分析外溢，非將同稿算兩份。",
+    "primarySource": "https://committees.parliament.uk/committee/127/public-accounts-committee/news/218639/british-council-govt-lacks-positive-vision-for-uks-soft-power-flagship-pac/",
+    "independentSource": "https://www.timeshighereducation.com/news/british-council-deserves-support-not-mistrust-mps-say",
+    "reviewedAt": "2026-11-19T14:34:45.572Z",
+    "bodySha256": "104eb55959b98fb97697eb9aee5a40161391f4fc79f18329b2b282c7f3a963c5"
+  },
+  "unb-saint-john-data-science-degree-2027": {
+    "newsValue": "首屆2027資料科學課程仍影響選校，補足原短文對跨領域基礎、實作與職涯證據的不足。",
+    "background": "七月CBC獨立採訪先確認校區與開課時程，十月校方公告細化課程，未將舊訊當本日新新聞。",
+    "development": "交代數學統計資訊共同基礎、四方向與實作設計，區分資料科學學位和獨立AI主修。",
+    "perspectives": "CBC訪問Stewart的設計背景及Rudzicz區域觀點清楚歸屬，未讓他校教授替UNB成果背書。",
+    "taiwanImpact": "提出台灣高中科目對應、語言與費用核對，明示未取得可逐一判斷所有台灣課程資格的證據。",
+    "uncertainty": "尚未開課無畢業成果，職涯清單不是就業率，實作不是人人有薪工作或特殊居留保證。",
+    "independence": "UNB是第一手課程公告，CBC有七月原創採訪並非十月稿轉載；Yahoo只為同一報導刊載平台。",
+    "primarySource": "https://blogs.unb.ca/newsroom/2026/10/bachelor-data-science.php",
+    "independentSource": "https://nz.news.yahoo.com/ai-degree-programs-popping-across-090000355.html",
+    "reviewedAt": "2026-11-19T14:34:45.572Z",
+    "bodySha256": "fe00aaad3fe7ab51b7a16b477ff844ace7ce395ef628a70f38afa4d1e6ffed12"
   }
 }
