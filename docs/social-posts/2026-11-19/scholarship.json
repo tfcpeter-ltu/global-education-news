@@ -20,8 +20,35 @@
   "imageAlt": "台灣學生國際獎學金雷達，293筆獎學金資料，免費查詢公益資訊，2026年11月19日",
   "CTA": "免費加入會員",
   "xCopy": "台灣學生國際獎學金雷達293筆 https://globalednews.com/scholarships/",
-  "status": "ready",
+  "status": "published-verified",
   "total": 293,
   "totalEvidence": "Native production radar read after dd3ce1f deployment; total293 and two Southampton filtered items verified.",
-  "phoneCheck": "public/images/social/2026-11-19/radar-phone.jpg"
+  "phoneCheck": "public/images/social/2026-11-19/radar-phone.jpg",
+  "publicationEvidence": "docs/social-posts/2026-11-19/publication-log.json",
+  "posts": [
+    {
+      "network": "facebook",
+      "id": "1124464450329752",
+      "publicUrl": "https://facebook.com/LTUOSSDTaiwan/posts/pfbid027UnqV9tCqHrW8LZcocKjfiUaw5bQBbkvWa4K4RAB3dvx4nR6kKjBBZU9AQLiGwvVl",
+      "verifiedAt": "2026-11-19T14:04:14.743Z"
+    },
+    {
+      "network": "instagram",
+      "id": "Df7PmE3D51i",
+      "publicUrl": "https://www.instagram.com/p/Df7PmE3D51i/",
+      "verifiedAt": "2026-11-19T14:04:14.875Z"
+    },
+    {
+      "network": "threads",
+      "id": "Df7QWITk5uc",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Df7QWITk5uc",
+      "verifiedAt": "2026-11-19T14:07:34.123Z"
+    },
+    {
+      "network": "linkedin",
+      "id": "7529183675016744961",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7529183676232933376/",
+      "verifiedAt": "2026-11-19T14:08:34.481Z"
+    }
+  ]
 }

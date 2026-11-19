@@ -19,9 +19,30 @@
   "backgroundImage": "public/images/daily/2026-11-19/taiwan.jpg",
   "socialImage": "public/images/social/2026-11-19/campus.jpg",
   "imageAlt": "政治大學校園與海外學習學分查核提醒",
-  "status": "ready",
+  "status": "published-verified",
   "sources": [
     "https://globalednews.com/taiwan-universities/"
   ],
-  "sourceBasis": "Native live UI: searched 政治大學, opened school detail, read internationalisation status and source links. Checklist is editorial guidance, not a claimed institutional policy."
+  "sourceBasis": "Native live UI: searched 政治大學, opened school detail, read internationalisation status and source links. Checklist is editorial guidance, not a claimed institutional policy.",
+  "publicationEvidence": "docs/social-posts/2026-11-19/publication-log.json",
+  "posts": [
+    {
+      "network": "threads",
+      "id": "Df7RgXNE6Kz",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Df7RgXNE6Kz",
+      "verifiedAt": "2026-11-19T14:17:04.930Z"
+    },
+    {
+      "network": "linkedin",
+      "id": "7529186163186798592",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7529186164117909504/",
+      "verifiedAt": "2026-11-19T14:21:27.110Z"
+    },
+    {
+      "network": "instagram",
+      "id": "Df7SMpKDzpG",
+      "publicUrl": "https://www.instagram.com/p/Df7SMpKDzpG/",
+      "verifiedAt": "2026-11-19T14:23:09.256Z"
+    }
+  ]
 }

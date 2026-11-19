@@ -1349,6 +1349,37 @@
           "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7528574786726232064/"
         }
       ]
+    },
+    {
+      "date": "2026-11-19",
+      "status": "published",
+      "evidence": "docs/social-posts/2026-11-19/publication-log.json",
+      "schoolName": "University of British Columbia",
+      "country": "Canada",
+      "storyAngle": "research supervisor response versus formal admission",
+      "topic": "教授回信了，錄取確定了嗎？",
+      "posts": [
+        {
+          "network": "facebook",
+          "id": "1124475783661952",
+          "publicUrl": "https://facebook.com/LTUOSSDTaiwan/posts/pfbid0YWXEaSUV5pd4mqWPS611zaUPX8ATmZqN9LBx3bTZyRcvUBaPLk3e41LmQweXBS3Ll"
+        },
+        {
+          "network": "instagram",
+          "id": "Df7RDodj-lY",
+          "publicUrl": "https://www.instagram.com/p/Df7RDodj-lY/"
+        },
+        {
+          "network": "threads",
+          "id": "Df7RPm6k2RF",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/Df7RPm6k2RF"
+        },
+        {
+          "network": "linkedin",
+          "id": "7529185569373995008",
+          "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7529185570217041920/"
+        }
+      ]
     }
   ]
 }

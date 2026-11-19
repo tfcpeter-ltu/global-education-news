@@ -19,9 +19,36 @@
   "backgroundImage": "public/images/daily/2026-10-21/peter.jpg",
   "socialImage": "public/images/social/2026-11-19/diy.jpg",
   "imageAlt": "加拿大UBC工程學生中心與研究所申請提醒",
-  "status": "prepared-waiting-live-acceptance",
+  "status": "published-verified",
   "sources": [
     "https://www.grad.ubc.ca/prospective-students/research-supervisors",
     "https://www.mcgill.ca/gradapplicants/research-supervision/connecting-supervisor"
+  ],
+  "publicationEvidence": "docs/social-posts/2026-11-19/publication-log.json",
+  "posts": [
+    {
+      "network": "facebook",
+      "id": "1124475783661952",
+      "publicUrl": "https://facebook.com/LTUOSSDTaiwan/posts/pfbid0YWXEaSUV5pd4mqWPS611zaUPX8ATmZqN9LBx3bTZyRcvUBaPLk3e41LmQweXBS3Ll",
+      "verifiedAt": "2026-11-19T14:13:21.147Z"
+    },
+    {
+      "network": "instagram",
+      "id": "Df7RDodj-lY",
+      "publicUrl": "https://www.instagram.com/p/Df7RDodj-lY/",
+      "verifiedAt": "2026-11-19T14:13:21.196Z"
+    },
+    {
+      "network": "threads",
+      "id": "Df7RPm6k2RF",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Df7RPm6k2RF",
+      "verifiedAt": "2026-11-19T14:14:38.080Z"
+    },
+    {
+      "network": "linkedin",
+      "id": "7529185569373995008",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7529185570217041920/",
+      "verifiedAt": "2026-11-19T14:17:04.885Z"
+    }
   ]
 }

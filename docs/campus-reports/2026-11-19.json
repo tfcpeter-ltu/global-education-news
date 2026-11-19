@@ -2,7 +2,8 @@
   "date": "2026-11-19",
   "reviewedSchools": [
     "nccu",
-    "nycu"
+    "nycu",
+    "ntu"
   ],
   "candidates": [
     {
@@ -31,12 +32,21 @@
       "title": "2026/27姐妹校短期課程須在出國前完成校內登錄",
       "sourceUrl": "https://oia.nycu.edu.tw/oia/ch/app/data/view?module=nycu0006&id=715&serno=0e63e163-0674-4873-81a8-a20bce462479",
       "summary": "10月22日更新，要求線上與紙本程序；出國前未送達紙本，返校後課程登錄不辦理抵免送件。個別課程截止仍須另查。"
+    },
+    {
+      "checkedAt": "2026-11-19T14:53:25.728Z",
+      "status": "official-lead-only-initial-application-closed",
+      "independentSecondSource": null,
+      "schoolSlug": "ntu",
+      "title": "臺大116-1交換：12月2日公布成績，既有申請者須留意志願與報到",
+      "sourceUrl": "https://studyabroad.ntu.edu.tw/exchange-student/how-to-apply/sem1-20272028ay-selection-timeline/",
+      "summary": "實讀官方完整時程。初次報名2026/11/9 16:00及補件11/12 16:00均已截止；12/2 16:00公布成績，第一階段志願12/7 16:00截止、12/10公布錄取、12/15 16:00報到截止。限已依規定完成報名者，不能將12/7寫成新申請截止。"
     }
   ],
   "published": [],
   "pendingConsent": [],
   "outreachDrafts": [],
   "gaps": [
-    "三則為查核線索，其中一則方向與日期矛盾暫緩；未當成通過雙查新聞。"
+    "已查政大、陽明交大、臺大三校，共四則官方線索；一則方向與日期矛盾暫緩，其餘未取得獨立第二來源，未當作完整新聞刊登。"
   ]
 }

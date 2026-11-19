@@ -22,7 +22,8 @@
       "mediaStatus": "VERIFIED",
       "mediaVerifiedAt": "2026-11-19T13:45:10.832Z",
       "mediaEvidence": "Native public post image loaded (naturalWidth>0) and screenshot visibly shows the complete 英國選校／別只看校名 photo card; ltuossdtw author and website links read back.",
-      "accountVerified": true
+      "accountVerified": true,
+      "imageCount": 1
     },
     {
       "campaign": "news",
@@ -48,7 +49,15 @@
       "photoReadyEvidence": "Native editor screenshot shows 1080x1350 uploaded photo and blank copy before fill.",
       "id": "1124456063663924",
       "url": "https://facebook.com/LTUOSSDTaiwan/posts/pfbid03EQyMA6osCgKnLW8hCaJZJ5cus8ArwRUwcc8BXyEEb1ed2vDfY6nRfuEAL8L4RyBl",
-      "mediaKind": "uploaded-photo"
+      "mediaKind": "uploaded-photo",
+      "imageCount": 1,
+      "photoAttachments": [
+        {
+          "id": "1124455216997342",
+          "url": "https://www.facebook.com/photo/?fbid=1124455216997342"
+        }
+      ],
+      "publicPhotoScreenshot": "docs/daily-checks/2026-11-19/screenshots/news-facebook-public.jpg"
     },
     {
       "campaign": "news",
@@ -74,7 +83,8 @@
       "photoReadyEvidence": "Native editor screenshot shows 1080x1350 uploaded photo and blank copy before fill.",
       "id": "Df7OeH9D5Ab",
       "url": "https://www.instagram.com/p/Df7OeH9D5Ab/",
-      "mediaKind": "uploaded-photo"
+      "mediaKind": "uploaded-photo",
+      "imageCount": 1
     },
     {
       "campaign": "news",
@@ -96,7 +106,8 @@
       "mediaEvidence": "Native public post read back with correct author, uploaded card visible in screenshot, caption and destination links checked.",
       "previewStatus": "VERIFIED",
       "previewVerifiedAt": "2026-11-19T13:55:44.526Z",
-      "accountVerified": true
+      "accountVerified": true,
+      "imageCount": 1
     },
     {
       "campaign": "scholarship",
@@ -119,7 +130,17 @@
       "mediaEvidence": "Native public post read back with correct author, uploaded card visible in screenshot, caption and destination links checked.",
       "previewStatus": "VERIFIED",
       "previewVerifiedAt": "2026-11-19T14:04:14.818Z",
-      "accountVerified": true
+      "accountVerified": true,
+      "imageCount": 1,
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "copyVersion": "2026-11-19-radar-293-v1",
+      "photoAttachments": [
+        {
+          "id": "1124463530329844",
+          "url": "https://www.facebook.com/photo/?fbid=1124463530329844"
+        }
+      ],
+      "publicPhotoScreenshot": "docs/daily-checks/2026-11-19/screenshots/scholarship-facebook-public.jpg"
     },
     {
       "campaign": "scholarship",
@@ -139,7 +160,10 @@
       "mediaEvidence": "Native public post read back with correct author, uploaded card visible in screenshot, caption and destination links checked.",
       "previewStatus": "VERIFIED",
       "previewVerifiedAt": "2026-11-19T14:04:14.876Z",
-      "accountVerified": true
+      "accountVerified": true,
+      "imageCount": 1,
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "copyVersion": "2026-11-19-radar-293-v1"
     },
     {
       "campaign": "scholarship",
@@ -186,7 +210,10 @@
           "status": "PUBLISHED_VERIFIED",
           "verifiedAt": "2026-11-19T14:10:34.704Z"
         }
-      ]
+      ],
+      "imageCount": 1,
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "copyVersion": "2026-11-19-radar-293-v1"
     },
     {
       "campaign": "scholarship",
@@ -206,7 +233,10 @@
       "mediaEvidence": "Native public post read back with correct author, uploaded card visible in screenshot, caption and destination links checked.",
       "previewStatus": "VERIFIED",
       "previewVerifiedAt": "2026-11-19T14:08:34.482Z",
-      "accountVerified": true
+      "accountVerified": true,
+      "imageCount": 1,
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "copyVersion": "2026-11-19-radar-293-v1"
     },
     {
       "campaign": "study-abroad",
@@ -229,7 +259,17 @@
       "mediaEvidence": "Native public post read back with correct author, uploaded card visible in screenshot, caption and destination links checked.",
       "previewStatus": "VERIFIED",
       "previewVerifiedAt": "2026-11-19T14:13:21.147Z",
-      "accountVerified": true
+      "accountVerified": true,
+      "imageCount": 1,
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "copyVersion": "2026-11-19-reader-first-v1",
+      "photoAttachments": [
+        {
+          "id": "1124475030328694",
+          "url": "https://www.facebook.com/photo/?fbid=1124475030328694"
+        }
+      ],
+      "publicPhotoScreenshot": "docs/daily-checks/2026-11-19/screenshots/diy-facebook-public.jpg"
     },
     {
       "campaign": "study-abroad",
@@ -249,7 +289,10 @@
       "mediaEvidence": "Native public post read back with correct author, uploaded card visible in screenshot, caption and destination links checked.",
       "previewStatus": "VERIFIED",
       "previewVerifiedAt": "2026-11-19T14:13:21.197Z",
-      "accountVerified": true
+      "accountVerified": true,
+      "imageCount": 1,
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "copyVersion": "2026-11-19-reader-first-v1"
     },
     {
       "campaign": "study-abroad",
@@ -269,7 +312,10 @@
       "mediaEvidence": "Native public post read back with correct author, uploaded card visible in screenshot, caption and destination links checked.",
       "previewStatus": "VERIFIED",
       "previewVerifiedAt": "2026-11-19T14:14:38.082Z",
-      "accountVerified": true
+      "accountVerified": true,
+      "imageCount": 1,
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "copyVersion": "2026-11-19-reader-first-v1"
     },
     {
       "campaign": "study-abroad",
@@ -289,7 +335,10 @@
       "mediaEvidence": "Native public post read back with correct author, uploaded card visible in screenshot, caption and destination links checked.",
       "previewStatus": "VERIFIED",
       "previewVerifiedAt": "2026-11-19T14:17:04.886Z",
-      "accountVerified": true
+      "accountVerified": true,
+      "imageCount": 1,
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "copyVersion": "2026-11-19-reader-first-v1"
     },
     {
       "campaign": "taiwan-universities",
@@ -309,7 +358,10 @@
       "mediaEvidence": "Native public post read back with correct author, uploaded card visible in screenshot, caption and destination links checked.",
       "previewStatus": "VERIFIED",
       "previewVerifiedAt": "2026-11-19T14:17:04.930Z",
-      "accountVerified": true
+      "accountVerified": true,
+      "imageCount": 1,
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "copyVersion": "2026-11-19-live-feature-v2"
     },
     {
       "campaign": "taiwan-universities",
@@ -329,7 +381,10 @@
       "mediaEvidence": "Native public post read back with correct author, uploaded card visible in screenshot, caption and destination links checked.",
       "previewStatus": "VERIFIED",
       "previewVerifiedAt": "2026-11-19T14:21:27.111Z",
-      "accountVerified": true
+      "accountVerified": true,
+      "imageCount": 1,
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "copyVersion": "2026-11-19-live-feature-v2"
     },
     {
       "campaign": "taiwan-universities",
@@ -349,7 +404,10 @@
       "mediaEvidence": "Native public post read back with correct author, uploaded card visible in screenshot, caption and destination links checked.",
       "previewStatus": "VERIFIED",
       "previewVerifiedAt": "2026-11-19T14:23:09.256Z",
-      "accountVerified": true
+      "accountVerified": true,
+      "imageCount": 1,
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "copyVersion": "2026-11-19-live-feature-v2"
     },
     {
       "campaign": "new-facebook-page",
@@ -383,7 +441,11 @@
           "url": "https://www.facebook.com/photo/?fbid=122124256071505473"
         }
       ],
-      "approvalEvidence": "User explicitly approved the named page and prepared post in this chat after automatic review rejected the initial attempts. Only the subsequently approved submission was sent."
+      "approvalEvidence": "User explicitly approved the named page and prepared post in this chat after automatic review rejected the initial attempts. Only the subsequently approved submission was sent.",
+      "imageCount": 1,
+      "copyVersion": "2026-11-19-reader-first-v1",
+      "publicPhotoScreenshot": "docs/daily-checks/2026-11-19/screenshots/new-facebook-public.jpg"
     }
-  ]
+  ],
+  "updatedAt": "2026-11-19T14:53:25.728Z"
 }

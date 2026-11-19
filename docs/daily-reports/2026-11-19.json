@@ -2,8 +2,8 @@
   "date": "2026-11-19",
   "timezone": "Asia/Taipei",
   "startedAt": "2026-11-19T04:59:51+08:00",
-  "status": "incomplete",
-  "currentPhase": "BUILD_AND_REVIEW",
+  "status": "partial_external_blocker",
+  "currentPhase": "DELIVERY_VERIFIED_LTU_MANUAL_REVIEW_PENDING",
   "baseCommit": "8a6bb48299e0daefc962e4537644efe21ae65c49",
   "scholarshipBaselineSlugs": [
     "2026-08-bristol-think-big",
@@ -319,10 +319,10 @@
       "eligibleTaiwan": true,
       "open": true,
       "verifiedAt": "2026-11-19T13:23:57.786Z",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-11-19T14:49:32.304125+00:00",
       "isNew": true,
       "baselineAbsent": true,
-      "status": "prepared-not-deployed",
+      "status": "published-verified",
       "updateSummary": "台灣永久居住者可依條件獲自動審核；限合格一年制授課型碩士，須於2027年1月15日前付訂金，名額有限。"
     },
     {
@@ -346,10 +346,10 @@
       "eligibleTaiwan": true,
       "open": true,
       "verifiedAt": "2026-11-19T13:23:57.786Z",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-11-19T14:49:32.305225+00:00",
       "isNew": true,
       "baselineAbsent": true,
-      "status": "prepared-not-deployed",
+      "status": "published-verified",
       "updateSummary": "適用合格一年制商學院授課型碩士；台灣永久居住者、自費海外費率學生可獲自動審核，2027年1月15日前須付訂金。"
     },
     {
@@ -377,15 +377,486 @@
       "eligibleTaiwan": true,
       "open": true,
       "verifiedAt": "2026-11-19T13:23:57.786Z",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-11-19T14:49:32.394780+00:00",
       "isNew": true,
       "baselineAbsent": true,
-      "status": "prepared-not-deployed",
+      "status": "published-verified",
       "updateSummary": "台灣學歷有正式申請路徑，合格國際新生隨課程自動審核；護理、博士與研究碩士等排除，不是所有課程一律適用。"
     }
   ],
-  "newsPublished": [],
-  "socialPosts": [],
+  "newsPublished": [
+    {
+      "slug": "uk-independent-higher-education-state-sector-2026",
+      "url": "https://globalednews.com/news/uk-independent-higher-education-state-sector-2026/",
+      "publishedPath": "src/pages/news/uk-independent-higher-education-state-sector-2026.md",
+      "sources": [
+        {
+          "label": "Independent Higher Education — State of the Sector 2026, 18 November",
+          "url": "https://ihe.ac.uk/latest/publications/state-sector-2026"
+        },
+        {
+          "label": "The PIE News — Kim Martin independent conference reporting, 18 November",
+          "url": "https://thepienews.com/independent-he-grows-as-minister-signals-enormous-opportunities/"
+        }
+      ],
+      "sourceCheckedAt": "2026-11-19T13:23:57.786Z",
+      "status": "published-verified",
+      "verifiedAt": "2026-11-19T14:49:32.303813+00:00"
+    },
+    {
+      "slug": "shoolini-edinburgh-engineering-double-degree-2027",
+      "url": "https://globalednews.com/news/shoolini-edinburgh-engineering-double-degree-2027/",
+      "publishedPath": "src/pages/news/shoolini-edinburgh-engineering-double-degree-2027.md",
+      "sources": [
+        {
+          "label": "Shoolini University — Engineering Double Degree programme announcement",
+          "url": "https://shooliniuniversity.com/news/shoolini-and-uoe-launch-engineering-double-degree-program"
+        },
+        {
+          "label": "The PIE News — Abhishek Nair interview with Atul Khosla, 19 November 2026",
+          "url": "https://thepienews.com/shoolini-and-edinburgh-partner-on-engineering-degrees-across-india-and-the-uk/"
+        }
+      ],
+      "sourceCheckedAt": "2026-11-19T13:23:57.786Z",
+      "status": "published-verified",
+      "verifiedAt": "2026-11-19T14:49:32.304651+00:00"
+    },
+    {
+      "slug": "uk-erasmus-2027-funding-call-opens",
+      "url": "https://globalednews.com/news/uk-erasmus-2027-funding-call-opens/",
+      "publishedPath": "src/pages/news/uk-erasmus-2027-funding-call-opens.md",
+      "sources": [
+        {
+          "label": "British Council — UK Erasmus+ funding call, 18 November 2026",
+          "url": "https://www.britishcouncil.org/about/press/record-erasmus-funding-now-available-uk-organisations"
+        },
+        {
+          "label": "Associated Press — independent reporting on the UK–EU agreement, 17 December 2025",
+          "url": "https://apnews.com/article/uk-eu-erasmus-student-exchange-program-3d2e073e0e6ef6d335362f6a128558e6"
+        },
+        {
+          "label": "House of Commons Library — UK–EU reset negotiations, 9 November 2026, section 2.7",
+          "url": "https://researchbriefings.files.parliament.uk/documents/CBP-12281/CBP-12281.pdf"
+        },
+        {
+          "label": "European Commission — Erasmus+ 2027 call, 18 November 2026",
+          "url": "https://erasmus-plus.ec.europa.eu/whats-new/news/over-eur53-billion-for-wider-opportunities-under-erasmus-2027-call"
+        }
+      ],
+      "sourceCheckedAt": "2026-11-19T13:23:57.786Z",
+      "status": "published-verified",
+      "verifiedAt": "2026-11-19T14:49:32.305742+00:00"
+    }
+  ],
+  "socialPosts": [
+    {
+      "campaign": "news",
+      "network": "threads",
+      "platform": "threads",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/news/uk-independent-higher-education-state-sector-2026/",
+      "copyVersion": "2026-11-19-reader-first-v1",
+      "status": "PUBLISHED",
+      "intentAt": "2026-11-19T13:43:36.362Z",
+      "dedupeEvidence": "當日日誌0發送；原生ltuossdtw近期貼文為OSSD週讀書計畫與英文報告，沒有本日英國獨立高教主題。",
+      "id": "Df7N2hhk7XO",
+      "url": "https://www.threads.com/@ltuossdtw/post/Df7N2hhk7XO",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Df7N2hhk7XO",
+      "verifiedAt": "2026-11-19T13:45:10.831Z",
+      "publishedTimePrecision": "relative",
+      "publishedTimeLabel": "1分鐘",
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-19T13:45:10.832Z",
+      "mediaEvidence": "Native public post image loaded (naturalWidth>0) and screenshot visibly shows the complete 英國選校／別只看校名 photo card; ltuossdtw author and website links read back.",
+      "accountVerified": true,
+      "imageCount": 1
+    },
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "platform": "facebook",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "articleUrl": "https://globalednews.com/news/uk-independent-higher-education-state-sector-2026/",
+      "copyVersion": "2026-11-19-reader-first-v1",
+      "status": "PUBLISHED",
+      "intentAt": "2026-11-19T13:49:26.1471964Z",
+      "photoAttachedAt": "2026-11-19T13:48:35.645Z",
+      "copyAddedAt": "2026-11-19T13:48:48.763Z",
+      "dedupeEvidence": "Native Meta calendar 19 November inspected; no matching news campaign. Photo uploaded and preview inspected before copy.",
+      "previewVerifiedAt": "2026-11-19T13:51:38.7760905Z",
+      "mediaStatus": "VERIFIED",
+      "accountVerified": true,
+      "mediaVerifiedAt": "2026-11-19T13:51:38.7760711Z",
+      "publishedTimeLabel": "2026-11-19 21:49 Asia/Taipei (Meta native)",
+      "publicUrl": "https://facebook.com/LTUOSSDTaiwan/posts/pfbid03EQyMA6osCgKnLW8hCaJZJ5cus8ArwRUwcc8BXyEEb1ed2vDfY6nRfuEAL8L4RyBl",
+      "mediaEvidence": "Native public permalink and screenshot show complete 英國選校／別只看校名 card, correct author and caption links.",
+      "verifiedAt": "2026-11-19T13:51:38.7718284Z",
+      "previewStatus": "VERIFIED",
+      "photoReadyEvidence": "Native editor screenshot shows 1080x1350 uploaded photo and blank copy before fill.",
+      "id": "1124456063663924",
+      "url": "https://facebook.com/LTUOSSDTaiwan/posts/pfbid03EQyMA6osCgKnLW8hCaJZJ5cus8ArwRUwcc8BXyEEb1ed2vDfY6nRfuEAL8L4RyBl",
+      "mediaKind": "uploaded-photo",
+      "imageCount": 1,
+      "photoAttachments": [
+        {
+          "id": "1124455216997342",
+          "url": "https://www.facebook.com/photo/?fbid=1124455216997342"
+        }
+      ],
+      "publicPhotoScreenshot": "docs/daily-checks/2026-11-19/screenshots/news-facebook-public.jpg"
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "platform": "instagram",
+      "account": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/news/uk-independent-higher-education-state-sector-2026/",
+      "copyVersion": "2026-11-19-reader-first-v1",
+      "status": "PUBLISHED",
+      "intentAt": "2026-11-19T13:49:26.1852693Z",
+      "photoAttachedAt": "2026-11-19T13:48:35.645Z",
+      "copyAddedAt": "2026-11-19T13:48:48.763Z",
+      "dedupeEvidence": "Native Meta calendar 19 November inspected; no matching news campaign. Photo uploaded and preview inspected before copy.",
+      "previewVerifiedAt": "2026-11-19T13:51:38.7927264Z",
+      "mediaStatus": "VERIFIED",
+      "accountVerified": true,
+      "mediaVerifiedAt": "2026-11-19T13:51:38.7927235Z",
+      "publishedTimeLabel": "2026-11-19 21:49 Asia/Taipei (Meta native)",
+      "publicUrl": "https://www.instagram.com/p/Df7OeH9D5Ab/",
+      "mediaEvidence": "Native public permalink and screenshot show complete 英國選校／別只看校名 card, correct author and caption links.",
+      "verifiedAt": "2026-11-19T13:51:38.7927086Z",
+      "previewStatus": "VERIFIED",
+      "photoReadyEvidence": "Native editor screenshot shows 1080x1350 uploaded photo and blank copy before fill.",
+      "id": "Df7OeH9D5Ab",
+      "url": "https://www.instagram.com/p/Df7OeH9D5Ab/",
+      "mediaKind": "uploaded-photo",
+      "imageCount": 1
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "platform": "linkedin",
+      "account": "Peter Chen",
+      "articleUrl": "https://globalednews.com/news/uk-independent-higher-education-state-sector-2026/",
+      "copyVersion": "2026-11-19-reader-first-v1",
+      "status": "PUBLISHED",
+      "intentAt": "2026-11-19T13:53:33.403741Z",
+      "dedupeEvidence": "Native own recent activity shows latest Nov18 radar, then Nov18 news and campus; no Nov19 news.",
+      "id": "7529180162773524481",
+      "url": "https://lnkd.in/p/gmw9hV56",
+      "publicUrl": "https://lnkd.in/p/gmw9hV56",
+      "verifiedAt": "2026-11-19T13:55:44.523Z",
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-19T13:55:44.526Z",
+      "mediaEvidence": "Native public post read back with correct author, uploaded card visible in screenshot, caption and destination links checked.",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-19T13:55:44.526Z",
+      "accountVerified": true,
+      "imageCount": 1
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "platform": "facebook",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "intentAt": "2026-11-19T13:59:10.868Z",
+      "dedupeEvidence": "Native platform recent history and same-day ledger inspected before publishing; no matching campaign.",
+      "status": "PUBLISHED",
+      "photoAttachedAt": "2026-11-19T13:58:21.543Z",
+      "copyAddedAt": "2026-11-19T13:58:42.833Z",
+      "photoReadyEvidence": "Native editor screenshot shows complete293card and blank text field; later screenshot confirms card retained.",
+      "id": "1124464450329752",
+      "url": "https://facebook.com/LTUOSSDTaiwan/posts/pfbid027UnqV9tCqHrW8LZcocKjfiUaw5bQBbkvWa4K4RAB3dvx4nR6kKjBBZU9AQLiGwvVl",
+      "publicUrl": "https://facebook.com/LTUOSSDTaiwan/posts/pfbid027UnqV9tCqHrW8LZcocKjfiUaw5bQBbkvWa4K4RAB3dvx4nR6kKjBBZU9AQLiGwvVl",
+      "verifiedAt": "2026-11-19T14:04:14.743Z",
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-19T14:04:14.818Z",
+      "mediaEvidence": "Native public post read back with correct author, uploaded card visible in screenshot, caption and destination links checked.",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-19T14:04:14.818Z",
+      "accountVerified": true,
+      "imageCount": 1,
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "copyVersion": "2026-11-19-radar-293-v1",
+      "photoAttachments": [
+        {
+          "id": "1124463530329844",
+          "url": "https://www.facebook.com/photo/?fbid=1124463530329844"
+        }
+      ],
+      "publicPhotoScreenshot": "docs/daily-checks/2026-11-19/screenshots/scholarship-facebook-public.jpg"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "platform": "instagram",
+      "account": "ltuossdtw",
+      "intentAt": "2026-11-19T13:59:10.968Z",
+      "dedupeEvidence": "Native platform recent history and same-day ledger inspected before publishing; no matching campaign.",
+      "status": "PUBLISHED",
+      "id": "Df7PmE3D51i",
+      "url": "https://www.instagram.com/p/Df7PmE3D51i/",
+      "publicUrl": "https://www.instagram.com/p/Df7PmE3D51i/",
+      "verifiedAt": "2026-11-19T14:04:14.875Z",
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-19T14:04:14.876Z",
+      "mediaEvidence": "Native public post read back with correct author, uploaded card visible in screenshot, caption and destination links checked.",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-19T14:04:14.876Z",
+      "accountVerified": true,
+      "imageCount": 1,
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "copyVersion": "2026-11-19-radar-293-v1"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "platform": "threads",
+      "account": "ltuossdtw",
+      "intentAt": "2026-11-19T14:05:29.089Z",
+      "dedupeEvidence": "Native platform recent history and same-day ledger inspected before publishing; no matching campaign.",
+      "status": "PUBLISHED",
+      "id": "Df7QWITk5uc",
+      "url": "https://www.threads.com/@ltuossdtw/post/Df7QWITk5uc",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Df7QWITk5uc",
+      "verifiedAt": "2026-11-19T14:07:34.123Z",
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-19T14:07:34.161Z",
+      "mediaEvidence": "Native public post read back with correct author, uploaded card visible in screenshot, caption and destination links checked.",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-19T14:07:34.161Z",
+      "accountVerified": true,
+      "topic": "獎學金",
+      "replies": [
+        {
+          "id": "Df7QW_eE9r1",
+          "url": "https://www.threads.com/@ltuossdtw/post/Df7QW_eE9r1",
+          "status": "PUBLISHED_VERIFIED",
+          "verifiedAt": "2026-11-19T14:10:34.695Z"
+        },
+        {
+          "id": "Df7QXjekymc",
+          "url": "https://www.threads.com/@ltuossdtw/post/Df7QXjekymc",
+          "status": "PUBLISHED_VERIFIED",
+          "verifiedAt": "2026-11-19T14:10:34.704Z"
+        },
+        {
+          "id": "Df7QYQPkyJI",
+          "url": "https://www.threads.com/@ltuossdtw/post/Df7QYQPkyJI",
+          "status": "PUBLISHED_VERIFIED",
+          "verifiedAt": "2026-11-19T14:10:34.704Z"
+        },
+        {
+          "id": "Df7QYtqEy1J",
+          "url": "https://www.threads.com/@ltuossdtw/post/Df7QYtqEy1J",
+          "status": "PUBLISHED_VERIFIED",
+          "verifiedAt": "2026-11-19T14:10:34.704Z"
+        }
+      ],
+      "imageCount": 1,
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "copyVersion": "2026-11-19-radar-293-v1"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "platform": "linkedin",
+      "account": "Peter Chen",
+      "intentAt": "2026-11-19T14:07:34.214Z",
+      "dedupeEvidence": "Native platform recent history and same-day ledger inspected before publishing; no matching campaign.",
+      "status": "PUBLISHED",
+      "id": "7529183675016744961",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529183676232933376/",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7529183676232933376/",
+      "verifiedAt": "2026-11-19T14:08:34.481Z",
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-19T14:08:34.482Z",
+      "mediaEvidence": "Native public post read back with correct author, uploaded card visible in screenshot, caption and destination links checked.",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-19T14:08:34.482Z",
+      "accountVerified": true,
+      "imageCount": 1,
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "copyVersion": "2026-11-19-radar-293-v1"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "platform": "facebook",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "intentAt": "2026-11-19T14:11:58.921Z",
+      "dedupeEvidence": "Native platform recent history and same-day ledger inspected before publishing; no matching campaign.",
+      "status": "PUBLISHED",
+      "photoAttachedAt": "2026-11-19T14:11:21.708Z",
+      "copyAddedAt": "2026-11-19T14:11:32.528Z",
+      "photoReadyEvidence": "Native editor screenshot shows complete UBC photo card and blank copy field before text input.",
+      "id": "1124475783661952",
+      "url": "https://facebook.com/LTUOSSDTaiwan/posts/pfbid0YWXEaSUV5pd4mqWPS611zaUPX8ATmZqN9LBx3bTZyRcvUBaPLk3e41LmQweXBS3Ll",
+      "publicUrl": "https://facebook.com/LTUOSSDTaiwan/posts/pfbid0YWXEaSUV5pd4mqWPS611zaUPX8ATmZqN9LBx3bTZyRcvUBaPLk3e41LmQweXBS3Ll",
+      "verifiedAt": "2026-11-19T14:13:21.147Z",
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-19T14:13:21.147Z",
+      "mediaEvidence": "Native public post read back with correct author, uploaded card visible in screenshot, caption and destination links checked.",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-19T14:13:21.147Z",
+      "accountVerified": true,
+      "imageCount": 1,
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "copyVersion": "2026-11-19-reader-first-v1",
+      "photoAttachments": [
+        {
+          "id": "1124475030328694",
+          "url": "https://www.facebook.com/photo/?fbid=1124475030328694"
+        }
+      ],
+      "publicPhotoScreenshot": "docs/daily-checks/2026-11-19/screenshots/diy-facebook-public.jpg"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "platform": "instagram",
+      "account": "ltuossdtw",
+      "intentAt": "2026-11-19T14:11:58.967Z",
+      "dedupeEvidence": "Native platform recent history and same-day ledger inspected before publishing; no matching campaign.",
+      "status": "PUBLISHED",
+      "id": "Df7RDodj-lY",
+      "url": "https://www.instagram.com/p/Df7RDodj-lY/",
+      "publicUrl": "https://www.instagram.com/p/Df7RDodj-lY/",
+      "verifiedAt": "2026-11-19T14:13:21.196Z",
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-19T14:13:21.197Z",
+      "mediaEvidence": "Native public post read back with correct author, uploaded card visible in screenshot, caption and destination links checked.",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-19T14:13:21.197Z",
+      "accountVerified": true,
+      "imageCount": 1,
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "copyVersion": "2026-11-19-reader-first-v1"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "platform": "threads",
+      "account": "ltuossdtw",
+      "intentAt": "2026-11-19T14:13:21.240Z",
+      "dedupeEvidence": "Native platform recent history and same-day ledger inspected before publishing; no matching campaign.",
+      "status": "PUBLISHED",
+      "id": "Df7RPm6k2RF",
+      "url": "https://www.threads.com/@ltuossdtw/post/Df7RPm6k2RF",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Df7RPm6k2RF",
+      "verifiedAt": "2026-11-19T14:14:38.080Z",
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-19T14:14:38.082Z",
+      "mediaEvidence": "Native public post read back with correct author, uploaded card visible in screenshot, caption and destination links checked.",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-19T14:14:38.082Z",
+      "accountVerified": true,
+      "imageCount": 1,
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "copyVersion": "2026-11-19-reader-first-v1"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "platform": "linkedin",
+      "account": "Peter Chen",
+      "intentAt": "2026-11-19T14:14:38.126Z",
+      "dedupeEvidence": "Native platform recent history and same-day ledger inspected before publishing; no matching campaign.",
+      "status": "PUBLISHED",
+      "id": "7529185569373995008",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529185570217041920/",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7529185570217041920/",
+      "verifiedAt": "2026-11-19T14:17:04.885Z",
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-19T14:17:04.886Z",
+      "mediaEvidence": "Native public post read back with correct author, uploaded card visible in screenshot, caption and destination links checked.",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-19T14:17:04.886Z",
+      "accountVerified": true,
+      "imageCount": 1,
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "copyVersion": "2026-11-19-reader-first-v1"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "platform": "threads",
+      "account": "ltuossdtw",
+      "intentAt": "2026-11-19T14:15:31.412Z",
+      "dedupeEvidence": "Native platform recent history and same-day ledger inspected before publishing; no matching campaign.",
+      "status": "PUBLISHED",
+      "id": "Df7RgXNE6Kz",
+      "url": "https://www.threads.com/@ltuossdtw/post/Df7RgXNE6Kz",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Df7RgXNE6Kz",
+      "verifiedAt": "2026-11-19T14:17:04.930Z",
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-19T14:17:04.930Z",
+      "mediaEvidence": "Native public post read back with correct author, uploaded card visible in screenshot, caption and destination links checked.",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-19T14:17:04.930Z",
+      "accountVerified": true,
+      "imageCount": 1,
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "copyVersion": "2026-11-19-live-feature-v2"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "platform": "linkedin",
+      "account": "Peter Chen",
+      "intentAt": "2026-11-19T14:17:04.981Z",
+      "dedupeEvidence": "Native platform recent history and same-day ledger inspected before publishing; no matching campaign.",
+      "status": "PUBLISHED",
+      "id": "7529186163186798592",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7529186164117909504/",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7529186164117909504/",
+      "verifiedAt": "2026-11-19T14:21:27.110Z",
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-19T14:21:27.111Z",
+      "mediaEvidence": "Native public post read back with correct author, uploaded card visible in screenshot, caption and destination links checked.",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-19T14:21:27.111Z",
+      "accountVerified": true,
+      "imageCount": 1,
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "copyVersion": "2026-11-19-live-feature-v2"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "platform": "instagram",
+      "account": "ltuossdtw",
+      "intentAt": "2026-11-19T14:23:09.255Z",
+      "dedupeEvidence": "Native platform recent history and same-day ledger inspected before publishing; no matching campaign.",
+      "status": "PUBLISHED",
+      "id": "Df7SMpKDzpG",
+      "url": "https://www.instagram.com/p/Df7SMpKDzpG/",
+      "publicUrl": "https://www.instagram.com/p/Df7SMpKDzpG/",
+      "verifiedAt": "2026-11-19T14:23:09.256Z",
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-19T14:23:09.256Z",
+      "mediaEvidence": "Native public post read back with correct author, uploaded card visible in screenshot, caption and destination links checked.",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-19T14:23:09.256Z",
+      "accountVerified": true,
+      "imageCount": 1,
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "copyVersion": "2026-11-19-live-feature-v2"
+    }
+  ],
   "completedAt": null,
   "securityPreflight": {
     "high": 0,
@@ -400,9 +871,7 @@
     "advisoryWithdrawn": "2026-11-18"
   },
   "gaps": [
-    "Three bilingual news and three new scholarship pages prepared; build, deploy and live acceptance pending",
-    "Peter, LTU and campus reviews unfinished",
-    "All 15+1 daily social posts and 3 historical rewrites pending"
+    "LTU媒體原文三立1688074、風傳媒11051374、自由時報5062658受安全政策限制，尚未人工核對。"
   ],
   "manualActions": [
     "Prior SETN1688074 and Storm11051374 safety restrictions retained; no bypass.",
@@ -413,13 +882,14 @@
     }
   ],
   "platformPreflight": {
-    "postsAttempted": 0,
+    "postsAttempted": 16,
     "facebook": "101904929207004 composer available",
     "instagram": "MBS ltuossdtw composer available; direct login restoration unsuccessful",
     "checkedAt": "2026-11-19T05:07:38.3353201+08:00",
     "threads": "ltuossdtw confirmed via native profile link; no publication attempted",
     "linkedin": "Peter Chen composer entry available",
-    "newFacebook": "1355044634361784 asset composer available, 環球國際教育新聞網"
+    "newFacebook": "1355044634361784 asset composer available, 環球國際教育新聞網",
+    "resolution": "User restored Threads; all 15 regular posts and explicitly approved new Facebook page post published and natively verified."
   },
   "researchCheckpoint": {
     "notExhausted": true,
@@ -528,7 +998,8 @@
   "deadline": {
     "met": false,
     "reason": "05batch stopped after preflight/research, all delivery remained unfinished at08.",
-    "target": "2026-11-19T08:00:00+08:00"
+    "target": "2026-11-19T08:00:00+08:00",
+    "actualDeliveryVerifiedAt": "2026-11-19T14:53:25.728Z"
   },
   "preparedNews": [
     {
@@ -546,7 +1017,8 @@
         }
       ],
       "sourceCheckedAt": "2026-11-19T13:23:57.786Z",
-      "status": "prepared-not-deployed"
+      "status": "published-verified",
+      "verifiedAt": "2026-11-19T14:49:32.303813+00:00"
     },
     {
       "slug": "shoolini-edinburgh-engineering-double-degree-2027",
@@ -563,7 +1035,8 @@
         }
       ],
       "sourceCheckedAt": "2026-11-19T13:23:57.786Z",
-      "status": "prepared-not-deployed"
+      "status": "published-verified",
+      "verifiedAt": "2026-11-19T14:49:32.304651+00:00"
     },
     {
       "slug": "uk-erasmus-2027-funding-call-opens",
@@ -588,7 +1061,8 @@
         }
       ],
       "sourceCheckedAt": "2026-11-19T13:23:57.786Z",
-      "status": "prepared-not-deployed"
+      "status": "published-verified",
+      "verifiedAt": "2026-11-19T14:49:32.305742+00:00"
     }
   ],
   "scholarshipChecks": [
@@ -613,10 +1087,10 @@
       "eligibleTaiwan": true,
       "open": true,
       "verifiedAt": "2026-11-19T13:23:57.786Z",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-11-19T14:49:32.304125+00:00",
       "isNew": true,
       "baselineAbsent": true,
-      "status": "prepared-not-deployed",
+      "status": "published-verified",
       "updateSummary": "台灣永久居住者可依條件獲自動審核；限合格一年制授課型碩士，須於2027年1月15日前付訂金，名額有限。"
     },
     {
@@ -640,10 +1114,10 @@
       "eligibleTaiwan": true,
       "open": true,
       "verifiedAt": "2026-11-19T13:23:57.786Z",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-11-19T14:49:32.305225+00:00",
       "isNew": true,
       "baselineAbsent": true,
-      "status": "prepared-not-deployed",
+      "status": "published-verified",
       "updateSummary": "適用合格一年制商學院授課型碩士；台灣永久居住者、自費海外費率學生可獲自動審核，2027年1月15日前須付訂金。"
     },
     {
@@ -671,10 +1145,10 @@
       "eligibleTaiwan": true,
       "open": true,
       "verifiedAt": "2026-11-19T13:23:57.786Z",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-11-19T14:49:32.394780+00:00",
       "isNew": true,
       "baselineAbsent": true,
-      "status": "prepared-not-deployed",
+      "status": "published-verified",
       "updateSummary": "台灣學歷有正式申請路徑，合格國際新生隨課程自動審核；護理、博士與研究碩士等排除，不是所有課程一律適用。"
     }
   ],
@@ -688,8 +1162,14 @@
   "peterReview": {
     "record": "docs/daily-checks/2026-11-19/peter-review.json",
     "newCount": 2,
-    "status": "prepared-not-deployed",
-    "shortfallReason": "最新動態去重後只有兩篇新的完整專欄。"
+    "status": "fewer-new-posts",
+    "shortfallReason": "最新動態去重後僅兩篇新的完整專欄；不以短文或舊文補數。",
+    "checkedAt": "2026-11-19T13:33:17.197Z",
+    "availableNewCount": 2,
+    "sourceUrls": [
+      "https://www.facebook.com/photo/?fbid=122150672037172155",
+      "https://www.facebook.com/photo/?fbid=122150587269172155"
+    ]
   },
   "sunmoonReview": {
     "url": "https://www.sunmoonnews.com.tw/",
@@ -714,7 +1194,198 @@
   },
   "campusReview": {
     "record": "docs/campus-reports/2026-11-19.json",
-    "officialLeads": 3,
+    "reviewedSchools": [
+      "nccu",
+      "nycu",
+      "ntu"
+    ],
+    "officialLeads": 4,
     "published": 0
+  },
+  "peterImports": [
+    {
+      "slug": "canada-research-masters-supervisor-three-gates",
+      "sourceId": "122150672037172155",
+      "originalDate": "2026-11-19",
+      "originalDateLabel": "2026年11月19日 星期四上午9:30",
+      "sources": [
+        [
+          "UBC — Research supervisors",
+          "https://www.grad.ubc.ca/prospective-students/research-supervisors"
+        ],
+        [
+          "McGill — Application FAQs",
+          "https://www.mcgill.ca/expmed/applying/application-faqs"
+        ],
+        [
+          "McGill — Connecting with a supervisor",
+          "https://www.mcgill.ca/gradapplicants/research-supervision/connecting-supervisor"
+        ]
+      ],
+      "url": "https://globalednews.com/peter/canada-research-masters-supervisor-three-gates/",
+      "verifiedAt": "2026-11-19T14:49:32.654545+00:00"
+    },
+    {
+      "slug": "us-new-enrolment-decline-not-admission-odds",
+      "sourceId": "122150587269172155",
+      "originalDate": "2026-11-18",
+      "originalDateLabel": "2026年11月18日 星期三上午9:23",
+      "sources": [
+        [
+          "IIE — Open Doors 2026 Fast Facts",
+          "https://opendoorsdata.org/wp-content/uploads/2026/11/OD26_Fast-Facts.pdf"
+        ],
+        [
+          "IIE — Fall 2026 Snapshot",
+          "https://opendoorsdata.org/wp-content/uploads/2026/11/IIE_Fall-Snapshot_2026_Key-Findings_2026.pdf"
+        ]
+      ],
+      "url": "https://globalednews.com/peter/us-new-enrolment-decline-not-admission-odds/",
+      "verifiedAt": "2026-11-19T14:49:32.633973+00:00"
+    }
+  ],
+  "newFacebookPagePost": {
+    "campaign": "new-facebook-page",
+    "network": "facebook",
+    "platform": "facebook",
+    "account": "環球國際教育新聞網",
+    "intentAt": "2026-11-19T14:25:13.647Z",
+    "dedupeEvidence": "Native platform recent history and same-day ledger inspected before publishing; no matching campaign.",
+    "status": "PUBLISHED",
+    "id": "122124257451505473",
+    "url": "https://facebook.com/permalink.php?story_fbid=pfbid02fapiJe7bXxirMm4PYLmCmMWdtmc3WHwPd7AiaZLeveidNcX3TBVhoAYimHQdiUjql&id=61595164194381",
+    "publicUrl": "https://facebook.com/permalink.php?story_fbid=pfbid02fapiJe7bXxirMm4PYLmCmMWdtmc3WHwPd7AiaZLeveidNcX3TBVhoAYimHQdiUjql&id=61595164194381",
+    "verifiedAt": "2026-11-19T14:37:59.287Z",
+    "mediaKind": "uploaded-photo",
+    "mediaStatus": "VERIFIED",
+    "mediaVerifiedAt": "2026-11-19T14:37:59.288Z",
+    "mediaEvidence": "Native public post read back with correct author, uploaded card visible in screenshot, caption and destination links checked.",
+    "previewStatus": "VERIFIED",
+    "previewVerifiedAt": "2026-11-19T14:37:59.288Z",
+    "accountVerified": true,
+    "pageId": "61595164194381",
+    "assetId": "1355044634361784",
+    "articleUrl": "https://globalednews.com/news/uk-independent-higher-education-state-sector-2026/",
+    "photoAttachedAt": "2026-11-19T14:24:52.760Z",
+    "copyAddedAt": "2026-11-19T14:24:57.761Z",
+    "photoReadyEvidence": "Native composer screenshot displayed complete 1080x1350 news photo with empty text box before copy.",
+    "publishedTimeLabel": "2026-11-19 22:30 Asia/Taipei (Meta Business Suite)",
+    "photoAttachments": [
+      {
+        "id": "122124256071505473",
+        "url": "https://www.facebook.com/photo/?fbid=122124256071505473"
+      }
+    ],
+    "approvalEvidence": "User explicitly approved the named page and prepared post in this chat after automatic review rejected the initial attempts. Only the subsequently approved submission was sent.",
+    "imageCount": 1,
+    "copyVersion": "2026-11-19-reader-first-v1",
+    "publicPhotoScreenshot": "docs/daily-checks/2026-11-19/screenshots/new-facebook-public.jpg"
+  },
+  "deployment": {
+    "commit": "2827db0a4d238661c2253ba7ca4fcb609983cf8a",
+    "status": "success",
+    "verifiedAt": "2026-11-19T14:53:25.728Z",
+    "runId": "44546761671",
+    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/44546761671",
+    "completedAt": "2026-11-19T14:46:08Z"
+  },
+  "archiveRemediation": {
+    "status": "complete",
+    "commit": "2827db0a4d238661c2253ba7ca4fcb609983cf8a",
+    "liveEvidence": "docs/daily-checks/2026-11-19/live-http-acceptance.json",
+    "articles": [
+      {
+        "slug": "us-accreditation-aim-final-rule-october-2026",
+        "originalPublishedAt": "2026-11-01T10:34:19.579066+08:00",
+        "updatedAt": "2026-11-19T14:34:45.572Z",
+        "bodyCjk": 1297,
+        "sources": [
+          [
+            "Federal Register — AIM final rule, 30 October 2026",
+            "https://www.govinfo.gov/content/pkg/FR-2026-10-30/html/2026-22174.htm"
+          ],
+          [
+            "Inside Higher Ed — Katherine Knott, The Markup, 30 October 2026",
+            "https://www.insidehighered.com/newsletter/first-100-days/markup-oct-30-2026"
+          ],
+          [
+            "MSCHE — Advocacy Alert on the final accreditation rule",
+            "https://www.msche.org/2026/10/30/advocacy-alert-usde-announces-final-higher-education-accreditation-rule/"
+          ]
+        ],
+        "status": "published-verified",
+        "url": "https://globalednews.com/news/us-accreditation-aim-final-rule-october-2026/",
+        "englishUrl": "https://globalednews.com/en/news/us-accreditation-aim-final-rule-october-2026/",
+        "verifiedAt": "2026-11-19T14:49:32.644248+00:00"
+      },
+      {
+        "slug": "british-council-public-accounts-committee-finances-2026",
+        "originalPublishedAt": "2026-10-31T20:11:11.329530+08:00",
+        "updatedAt": "2026-11-19T14:34:45.572Z",
+        "bodyCjk": 1336,
+        "sources": [
+          [
+            "UK Public Accounts Committee — financial sustainability announcement, 30 October 2026",
+            "https://committees.parliament.uk/committee/127/public-accounts-committee/news/218639/british-council-govt-lacks-positive-vision-for-uks-soft-power-flagship-pac/"
+          ],
+          [
+            "Times Higher Education — Georgia Luckhurst, British Council support report",
+            "https://www.timeshighereducation.com/news/british-council-deserves-support-not-mistrust-mps-say"
+          ],
+          [
+            "UK Parliament — The financial sustainability of the British Council, full report",
+            "https://publications.parliament.uk/pa/cm5902/cmselect/cmpubacc/100/report.html"
+          ]
+        ],
+        "status": "published-verified",
+        "url": "https://globalednews.com/news/british-council-public-accounts-committee-finances-2026/",
+        "englishUrl": "https://globalednews.com/en/news/british-council-public-accounts-committee-finances-2026/",
+        "verifiedAt": "2026-11-19T14:49:32.642768+00:00"
+      },
+      {
+        "slug": "unb-saint-john-data-science-degree-2027",
+        "originalPublishedAt": "2026-10-30T10:09:51.831461+08:00",
+        "updatedAt": "2026-11-19T14:34:45.572Z",
+        "bodyCjk": 1323,
+        "sources": [
+          [
+            "University of New Brunswick — Bachelor of Data Science announcement, 27 October 2026",
+            "https://blogs.unb.ca/newsroom/2026/10/bachelor-data-science.php"
+          ],
+          [
+            "CBC via Yahoo — AI degree programmes in Atlantic Canada, 2 July 2026",
+            "https://nz.news.yahoo.com/ai-degree-programs-popping-across-090000355.html"
+          ],
+          [
+            "University of New Brunswick — Data Science programme information",
+            "https://newprograms.unb.ca/data-science"
+          ]
+        ],
+        "status": "published-verified",
+        "url": "https://globalednews.com/news/unb-saint-john-data-science-degree-2027/",
+        "englishUrl": "https://globalednews.com/en/news/unb-saint-john-data-science-degree-2027/",
+        "verifiedAt": "2026-11-19T14:49:32.639485+00:00"
+      }
+    ]
+  },
+  "acceptance": {
+    "desktop": true,
+    "mobile": true,
+    "seo": true,
+    "verifiedAt": "2026-11-19T14:53:25.728Z",
+    "httpEvidence": "docs/daily-checks/2026-11-19/live-http-acceptance.json",
+    "uiEvidence": "docs/daily-checks/2026-11-19/live-ui-acceptance.json",
+    "screenshots": [
+      "docs/daily-checks/2026-11-19/screenshots/desktop-scholarship-search.jpg",
+      "docs/daily-checks/2026-11-19/screenshots/mobile-scholarship-search.jpg",
+      "docs/daily-checks/2026-11-19/screenshots/archive-rewrite-live.jpg"
+    ]
+  },
+  "deliveryCompletedAt": "2026-11-19T14:53:25.728Z",
+  "updatedAt": "2026-11-19T14:53:25.728Z",
+  "sourceApprovalClarification": "使用者「請發布」是發布授權，非媒體原文已完成查核的證據。",
+  "scholarshipTotal": 293,
+  "localDelivery": {
+    "oneDriveCloudSyncVerified": false
   }
 }

@@ -1,7 +1,7 @@
 {
   "status": "pending",
   "order": "newest first, then currently consequential policies",
-  "remaining": 148,
+  "remaining": 145,
   "items": [
     {
       "path": "src/pages/news/ieaa-excellence-awards-student-learning-2026.md",
@@ -16,21 +16,9 @@
       "needsEditorialReview": true
     },
     {
-      "path": "src/pages/news/us-accreditation-aim-final-rule-october-2026.md",
-      "date": "\"2026-11-01T10:34:19.579066+08:00\"",
-      "bodyCjk": 282,
-      "needsEditorialReview": true
-    },
-    {
       "path": "src/pages/news/australia-genuine-student-financial-consultation-2026.md",
       "date": "\"2026-10-31T20:11:11.329530+08:00\"",
       "bodyCjk": 254,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/british-council-public-accounts-committee-finances-2026.md",
-      "date": "\"2026-10-31T20:11:11.329530+08:00\"",
-      "bodyCjk": 274,
       "needsEditorialReview": true
     },
     {
@@ -49,12 +37,6 @@
       "path": "src/pages/news/edinburgh-advanced-chip-design-academy-2026.md",
       "date": "\"2026-10-30T10:09:51.831461+08:00\"",
       "bodyCjk": 267,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/unb-saint-john-data-science-degree-2027.md",
-      "date": "\"2026-10-30T10:09:51.831461+08:00\"",
-      "bodyCjk": 254,
       "needsEditorialReview": true
     },
     {
@@ -892,7 +874,7 @@
       "needsEditorialReview": true
     }
   ],
-  "updatedAt": "2026-11-17T01:04:56.947Z",
+  "updatedAt": "2026-11-19T14:53:25.728Z",
   "completedBatches": [
     {
       "date": "2026-11-07",
@@ -1014,5 +996,15 @@
     "commit": "ace72ae9a6afadfac2b5b30727868d7c49d2af6b",
     "verifiedAt": "2026-11-17T01:04:56.947Z",
     "evidence": "docs/daily-checks/2026-11-17/live-audit.json"
+  },
+  "lastCompleted": {
+    "date": "2026-11-19",
+    "slugs": [
+      "us-accreditation-aim-final-rule-october-2026",
+      "british-council-public-accounts-committee-finances-2026",
+      "unb-saint-john-data-science-degree-2027"
+    ],
+    "commit": "2827db0a4d238661c2253ba7ca4fcb609983cf8a",
+    "evidence": "docs/daily-checks/2026-11-19/live-http-acceptance.json"
   }
 }

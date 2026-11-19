@@ -1,0 +1,42 @@
+{
+  "checkedAt": "2026-11-19T14:53:25.728Z",
+  "site": "https://globalednews.com/",
+  "desktop": {
+    "scholarshipSearch": "南安普頓 → 2; search button works",
+    "combinedFilter": "南安普頓 + 澳洲 → 0 with explicit message",
+    "clear": 293,
+    "loadMore": "27 visible articles (24 results + 3 picks) → 51 (48 + 3)",
+    "width": 2330,
+    "scrollWidth": 2311
+  },
+  "mobile": {
+    "requestedViewport": {
+      "width": 390,
+      "height": 844
+    },
+    "observedCssWidth": 487,
+    "observedScrollWidth": 468,
+    "scholarshipSearch": "南安普頓 + Enter → 2",
+    "combinedFilter": "澳洲 → 0 with explicit message",
+    "clear": 293,
+    "loadMore": "27 visible articles → 51",
+    "viewportReset": true
+  },
+  "navigation": {
+    "diyHome": "329 full / 110 public / 219 extra, latest deployment",
+    "diyEarlierInteraction": "UBC search → detail link",
+    "campusEarlierInteraction": "政治大學 search → NCCU detail; internationalisation status remains ongoing"
+  },
+  "archiveVisual": {
+    "slug": "us-accreditation-aim-final-rule-october-2026",
+    "originalDate": "2026-11-01",
+    "updated": "2026-11-19 22:34 Asia/Taipei",
+    "englishSwitch": true,
+    "earlyImplementation": "all provisions optionally from January; new institutional obligations cannot take effect before July"
+  },
+  "screenshots": [
+    "docs/daily-checks/2026-11-19/screenshots/desktop-scholarship-search.jpg",
+    "docs/daily-checks/2026-11-19/screenshots/mobile-scholarship-search.jpg",
+    "docs/daily-checks/2026-11-19/screenshots/archive-rewrite-live.jpg"
+  ]
+}

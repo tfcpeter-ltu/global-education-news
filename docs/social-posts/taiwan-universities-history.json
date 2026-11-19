@@ -817,6 +817,32 @@
           "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7528575619371188225/"
         }
       ]
+    },
+    {
+      "date": "2026-11-19",
+      "status": "published",
+      "evidence": "docs/social-posts/2026-11-19/publication-log.json",
+      "schools": [
+        "National Chengchi University"
+      ],
+      "topic": "從國內大學資料頁整理交換與國際化查核問題",
+      "posts": [
+        {
+          "network": "threads",
+          "id": "Df7RgXNE6Kz",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/Df7RgXNE6Kz"
+        },
+        {
+          "network": "linkedin",
+          "id": "7529186163186798592",
+          "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7529186164117909504/"
+        },
+        {
+          "network": "instagram",
+          "id": "Df7SMpKDzpG",
+          "publicUrl": "https://www.instagram.com/p/Df7SMpKDzpG/"
+        }
+      ]
     }
   ]
 }

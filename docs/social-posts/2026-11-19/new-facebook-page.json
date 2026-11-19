@@ -19,6 +19,24 @@
   "backgroundImage": "public/images/daily/2026-11-19/ihe.jpg",
   "socialImage": "public/images/social/2026-11-19/news.jpg",
   "imageAlt": "倫敦Regent’s大學校園步道與英國選校查核重點",
-  "status": "ready",
-  "sources": []
+  "status": "published-verified",
+  "sources": [
+    {
+      "label": "Independent Higher Education — State of the Sector 2026, 18 November",
+      "url": "https://ihe.ac.uk/latest/publications/state-sector-2026"
+    },
+    {
+      "label": "The PIE News — Kim Martin independent conference reporting, 18 November",
+      "url": "https://thepienews.com/independent-he-grows-as-minister-signals-enormous-opportunities/"
+    }
+  ],
+  "publicationEvidence": "docs/social-posts/2026-11-19/publication-log.json",
+  "posts": [
+    {
+      "network": "facebook",
+      "id": "122124257451505473",
+      "publicUrl": "https://facebook.com/permalink.php?story_fbid=pfbid02fapiJe7bXxirMm4PYLmCmMWdtmc3WHwPd7AiaZLeveidNcX3TBVhoAYimHQdiUjql&id=61595164194381",
+      "verifiedAt": "2026-11-19T14:37:59.287Z"
+    }
+  ]
 }
