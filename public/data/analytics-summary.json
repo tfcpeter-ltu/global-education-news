@@ -1,6 +1,6 @@
 {
   "status": "ready",
-  "updatedAt": "2026-11-18T08:30:13.899Z",
+  "updatedAt": "2026-11-19T08:45:17.018Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
@@ -20,13 +20,13 @@
       "views": 6
     },
     {
-      "title": "歐洲大學聯盟新一輪徵案開放：跨校合作經費不等於學生獎學金｜環球教育新聞網 Global Education News",
-      "path": "/news/european-universities-2027-call-student-implications/",
+      "title": "國際教育新聞｜全球大學、留學政策與招生動態｜環球教育新聞網",
+      "path": "/news/",
       "views": 5
     },
     {
-      "title": "美國國際教育週登場：從校園活動看留學生能否找到實際支援｜環球教育新聞網 Global Education News",
-      "path": "/news/us-international-education-week-campus-support-2026/",
+      "title": "歐洲大學聯盟新一輪徵案開放：跨校合作經費不等於學生獎學金｜環球教育新聞網 Global Education News",
+      "path": "/news/european-universities-2027-call-student-implications/",
       "views": 5
     }
   ],
@@ -34,38 +34,38 @@
     {
       "name": "台灣",
       "mapName": "Taiwan",
-      "sessions": 171,
-      "share": 49
+      "sessions": 172,
+      "share": 50.3
     },
     {
       "name": "美國",
       "mapName": "United States",
-      "sessions": 124,
-      "share": 35.5
+      "sessions": 120,
+      "share": 35.1
     },
     {
       "name": "中國",
       "mapName": "China",
-      "sessions": 13,
-      "share": 3.7
+      "sessions": 15,
+      "share": 4.4
     },
     {
       "name": "愛爾蘭",
       "mapName": "Ireland",
-      "sessions": 11,
-      "share": 3.2
-    },
-    {
-      "name": "印度",
-      "mapName": "India",
-      "sessions": 6,
-      "share": 1.7
+      "sessions": 8,
+      "share": 2.3
     },
     {
       "name": "Kazakhstan",
       "mapName": "Kazakhstan",
       "sessions": 5,
-      "share": 1.4
+      "share": 1.5
+    },
+    {
+      "name": "印度",
+      "mapName": "India",
+      "sessions": 3,
+      "share": 0.9
     },
     {
       "name": "瑞典",
@@ -86,8 +86,8 @@
       "share": 0.6
     },
     {
-      "name": "馬來西亞",
-      "mapName": "Malaysia",
+      "name": "英國",
+      "mapName": "United Kingdom",
       "sessions": 2,
       "share": 0.6
     }
