@@ -1,0 +1,74 @@
+[
+  {
+    "key": "ottawa",
+    "title": "Tabaret Hall - 01.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Tabaret_Hall_-_01.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/6/65/Tabaret_Hall_-_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Tabaret_Hall_-_01.jpg/1920px-Tabaret_Hall_-_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "Jeangagnon",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Tabaret Hall",
+    "retrievedAt": "2026-11-19T21:17:56.718Z"
+  },
+  {
+    "key": "lund",
+    "title": "Lund University main building.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Lund_University_main_building.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Lund_University_main_building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Lund_University_main_building.jpg/1920px-Lund_University_main_building.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "Albacono",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "This is a photo of a protected building in Sweden, number 21300000015126  in the RAÄ buildings database.",
+    "retrievedAt": "2026-11-19T21:17:58.538Z"
+  },
+  {
+    "key": "singapore",
+    "title": "Singapore Skyline.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Singapore_Skyline.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/0/01/Singapore_Skyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Singapore_Skyline.jpg/1920px-Singapore_Skyline.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "JeCCo",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "View of the Singapore Skyline.",
+    "retrievedAt": "2026-11-19T21:18:00.662Z"
+  },
+  {
+    "key": "kyoto",
+    "title": "Kyoto University Clock Tower.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Kyoto_University_Clock_Tower.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/0/05/Kyoto_University_Clock_Tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/0/05/Kyoto_University_Clock_Tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "author": "Soraie8288",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "京都大学　時計台",
+    "retrievedAt": "2026-11-19T21:18:01.788Z"
+  },
+  {
+    "key": "northwestern",
+    "title": "Deering Library - Northwestern University.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Deering_Library_-_Northwestern_University.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Deering_Library_-_Northwestern_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Deering_Library_-_Northwestern_University.jpg/1920px-Deering_Library_-_Northwestern_University.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "Lacrossewi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Deering Library at Northwestern University",
+    "retrievedAt": "2026-11-19T21:18:04.178Z"
+  },
+  {
+    "key": "chicago",
+    "title": "Harper Quadrangle.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Harper_Quadrangle.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/4/45/Harper_Quadrangle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "download": "https://upload.wikimedia.org/wikipedia/commons/4/45/Harper_Quadrangle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "author": "Nicomachian",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "View of University of Chicago building from the Harper Quadrangle",
+    "retrievedAt": "2026-11-19T21:18:04.727Z"
+  }
+]

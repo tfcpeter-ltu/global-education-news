@@ -1012,5 +1012,83 @@
     "independentSource": "https://nz.news.yahoo.com/ai-degree-programs-popping-across-090000355.html",
     "reviewedAt": "2026-11-19T14:34:45.572Z",
     "bodySha256": "fe00aaad3fe7ab51b7a16b477ff844ace7ce395ef628a70f38afa4d1e6ffed12"
+  },
+  "qs-sustainability-2027-ranking-student-choice": {
+    "newsValue": "11月17日新版永續排名已公布，釐清台灣選校如何使用環境、社會與治理資訊而非只比較總名次。",
+    "background": "說明永續涵蓋教育、研究、校園營運與社會影響，提供隆德校舍整修實例但不宣稱它造成排名。",
+    "development": "核對2027版發布日、前四校、107地區及52指標九面向，區分排名年份與招生申請年度。",
+    "perspectives": "將QS計分設計與CIC News獨立分項比較並列，說明總榜與分項、國內與全球走勢可以不同。",
+    "taiwanImpact": "對高中選校與碩博士研究分別提出課程開放、指導教授、資助年限與完整預算的可查證問題。",
+    "uncertainty": "沒有台灣學生個人結果資料，不能從永續排名推算錄取、獎學金、簽證或畢業就業保證。",
+    "independence": "QS是排名發布機構，CIC News由署名記者進行加拿大與分項交叉分析；隆德僅提供具體校園背景。",
+    "primarySource": "https://www.prnewswire.com/news-releases/qs-sustainability-rankings-2027-302941137.html",
+    "independentSource": "https://www.cicnews.com/2026/11/two-canadian-universities-crack-global-top-10-in-2027-qs-sustainability-ranking-1182589.html/amp",
+    "reviewedAt": "2026-11-20",
+    "bodySha256": "5ce9243f45f188af7a26ac900869103f0e3c0b53ffd32f7cd5333b65d7f5794b"
+  },
+  "canada-china-clic-exchanges-850-students-2026": {
+    "newsValue": "新增850名加拿大學生赴中交流資助及另一項雙學位備忘錄同時公布，台灣讀者需分辨對象與機會。",
+    "background": "交代CLIC自2016年已有交流紀錄，並以DW外交報導說明合作背景及加拿大國內不同觀點。",
+    "development": "逐項區分三年85萬加元、850新增目標、過去1200多人與兩校3＋1發展備忘錄，未混成已開放招生。",
+    "perspectives": "政府強調交流與雙邊合作，DW報導安全及價值疑慮；本報以學生執行條件補充評估視角。",
+    "taiwanImpact": "說明在加拿大就讀不等於符合資助身分，提出學分、費用、申請資格與書面文件的確認方式。",
+    "uncertainty": "未公布各人金額、截止日及雙學位招生細節，不以總額除人數冒充補助，也不推導簽證結果。",
+    "independence": "加拿大政府提供第一手承諾；DW署名報導及通訊社資料提供獨立外交背景，Academica摘要不另算獨立證據。",
+    "primarySource": "https://www.pm.gc.ca/en/news/backgrounders/2026/11/17/prime-minister-carney-advances-canadas-strategic-partnership-china",
+    "independentSource": "https://amp.dw.com/en/canada-china-agree-to-ease-tariffs-amid-trade-rows-with-us/a-79964912",
+    "reviewedAt": "2026-11-20",
+    "bodySha256": "848178e00f0b4da8fb5c204323f67357249935748f650da940d7a18090157c5a"
+  },
+  "manifest-mindler-career-guidance-acquisition-2026": {
+    "newsValue": "11月19日教育服務收購把職涯探索與升學申請串接，對台灣家庭理解整合型顧問服務有直接意義。",
+    "background": "說明生涯測評、職涯分類與顧問訓練在升學服務中的位置，區分產品介紹與個人效果證明。",
+    "development": "收購已確認但BridgeU及FlowAI功能最快2027首季仍屬計畫，沒有擅自發布台灣推出日期或費用。",
+    "perspectives": "企業官方定位與The PIE記者訪問兩位創辦人的推出時程交叉呈現，再由編輯提出使用者查證問題。",
+    "taiwanImpact": "提出測評在地適用、範例報告、顧問解讀、合作院校範圍與資料使用的具體比較問題，保留學生自主。",
+    "uncertainty": "沒有台灣使用者成效或完整在地條款，不把使用人數或企業整合當錄取、就業與學習效果保證。",
+    "independence": "Manifest為交易第一手公司資料，The PIE具記者署名及兩位創辦人直接訪談，並非另一份公司新聞稿轉載。",
+    "primarySource": "https://www.manifest.inc/",
+    "independentSource": "https://thepienews.com/manifest-global-acquires-mindlers-career-guidance-business/",
+    "reviewedAt": "2026-11-20",
+    "bodySha256": "23a1d88c1d136593de422c727ba51da6366faaf2f5b03e703429d26a9e4ab0c4"
+  },
+  "ieaa-excellence-awards-student-learning-2026": {
+    "newsValue": "以得獎名單延伸到課程運作與學生成效的查證，提供台灣家庭超越排名的具體選校視角。",
+    "background": "交代十月二十七日AIEC頒獎背景與十一月二十日補充，保留原發布日而不冒充今日新事件。",
+    "development": "拆解六個六週教學期、常見八單元及單元投入時間，區分學期結構與縮短學位的不同問題。",
+    "perspectives": "呈現主辦單位獎項觀點與校方運作資料，另提出問卷限制及不同學生學習節奏的編輯分析。",
+    "taiwanImpact": "提供台灣學生核對課程大綱、支援、時間表與課程適用範圍的提問，沒有保證個人成績或工作。",
+    "uncertainty": "沒有獨立重算教學成效或交換效益，不把得獎當因果證據，也未套用單一課程到所有學生。",
+    "independence": "IEAA核對得獎結果，南十字星大學的課程實務紀錄獨立核對教學安排；PIE重疊主辦說法不另算研究證據。",
+    "primarySource": "https://www.ieaa.org.au/IEAA/News/2026/IEAA-Excellence-Awards-winners-2026.aspx",
+    "independentSource": "https://www.scu.edu.au/southern-cross-model/",
+    "reviewedAt": "2026-11-20",
+    "bodySha256": "f0f4a72a1b5ceefaaabc292314b08d3d6509f5eceeb6556790124d3aa1f9bdde"
+  },
+  "qmul-kmutt-thailand-dual-engineering-2027": {
+    "newsValue": "英泰雙學位增加跨國工程課程選項，台灣家庭需要分清泰國授課與英國機構授予學位的不同意義。",
+    "background": "交代十月二十八日合作啟動與二零二七年開課時序，補充泰方當輪招生紀錄並保留原發布日。",
+    "development": "列出三個四年制工程方向、雙方共同授課及當輪期間，未把合作目標寫成已實現的學生就業結果。",
+    "perspectives": "英方關注教育研究合作，泰方提供實際招生流程；編輯從申請身分與完整修業規則提出學生視角。",
+    "taiwanImpact": "要求確認台灣高中資格、適用入口、四年費用與學位授予條件，並將軟硬體興趣轉成課程比較。",
+    "uncertainty": "TCAS第一輪不自動適用全部外國學生，未確認個人截止日、海外移動安排或任何英國工作權利。",
+    "independence": "Queen Mary原始合作公告與KMUTT自行維護的當輪招生紀錄分別證明課程規劃及申請流程，後者並非轉載新聞稿。",
+    "primarySource": "https://www.qmul.ac.uk/news/latest-news/2026/queen-mary-news/pr/queen-mary-launches-pioneering-engineering-education-partnership-in-thailand.html",
+    "independentSource": "https://join.kmutt.ac.th/en/news2026/117",
+    "reviewedAt": "2026-11-20",
+    "bodySha256": "a71af762efe06b3bd8aae2a1ed198361963f9cbcf7a68eda718df9be030ac960"
+  },
+  "australia-genuine-student-financial-consultation-2026": {
+    "newsValue": "財力與真實學生審查可能改變準備方式，現階段最重要是讓台灣讀者分辨諮詢與現行要求的界線。",
+    "background": "交代十月三十日開放、十一月二十三日中午AEDT截止及台灣時間換算，保留十月三十一日發布日。",
+    "development": "分開說明真實學生與財力證明兩條改革線、可能的MD106調整及特定Evidence Level範圍。",
+    "perspectives": "政府強調誠信與可預測性，大學端關心成本與清楚規則，來源為PIE對會議及校方意見的獨立報導。",
+    "taiwanImpact": "整理真實課程選擇理由、資金文件與政策時間線，不以其他市場拒簽資料推定台灣個人結果。",
+    "uncertainty": "官方仍稱未作決定，不把銀行帳戶選項當當前匯款要求，也不提供未查證的個案簽證判斷。",
+    "independence": "內政部原始諮詢頁確認狀態與時程，PIE獨立報導補充Hill會議發言及Leon不同側重而非只轉載公告。",
+    "primarySource": "https://www.homeaffairs.gov.au/help-and-support/how-to-engage-us/consultations/consultation-on-proposed-reforms-to-the-genuine-student-requirement-and-financial-capacity-framework",
+    "independentSource": "https://thepienews.com/australia-consults-on-student-visa-overhaul-as-refusals-hit-key-markets/",
+    "reviewedAt": "2026-11-20",
+    "bodySha256": "6dc88f5acf9bbe46cb6a6d9419b7f5c2659887c1407af827a168a3b52b9cf37d"
   }
 }
