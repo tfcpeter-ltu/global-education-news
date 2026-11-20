@@ -1050,7 +1050,7 @@
   "gaps": [
     "Three LTU original sources remain blocked by browser safety review: SETN1688074, Storm11051374, LTN5062658. No bypass or alternate-path retry."
   ],
-  "updatedAt": "2026-11-20T20:25:21.757Z",
+  "updatedAt": "2026-11-20T20:31:25.071Z",
   "newsPrepared": [
     {
       "slug": "qs-sustainability-2027-ranking-student-choice",
@@ -1360,5 +1360,32 @@
     "existingPostsPreserved": 1,
     "threadReplyCount": 4,
     "note": "Nov20 batch continued after user authorization. News Facebook existed at Nov20 09:19 and was not resent. Other posts published Nov21 with actual timestamps. LinkedIn timestamps identify observed submission, not platform exact publication time."
+  },
+  "catchupDeployment": {
+    "commit": "dccf4611f60c0729e11954a935caee8d4b6c9efc",
+    "runId": 44811493497,
+    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/44811493497",
+    "status": "success",
+    "verifiedAt": "2026-11-20T20:31:25.071Z",
+    "completedAt": "2026-11-20T20:30:29Z",
+    "artifacts": [
+      {
+        "url": "https://globalednews.com/images/social/2026-11-20/radar-catchup-nov21.jpg",
+        "status": 200,
+        "sha256": "DA6328A0DD44C194B555F07EAC517D62228140BC7A3D159AC51794A8605C6821",
+        "matchesSource": true
+      },
+      {
+        "url": "https://globalednews.com/images/social/2026-11-20/radar-catchup-nov21-phone.jpg",
+        "status": 200,
+        "sha256": "30B32D0D05B4342C51039BA68FBA755321A6BE22C92EA14AFF15388B1E10ED2F",
+        "matchesSource": true
+      }
+    ]
+  },
+  "deliveryCompletedAt": "2026-11-20T20:31:25.071Z",
+  "dailyVerifier": {
+    "status": "COMPLETE",
+    "note": "Delivery evidence and editorial depth passed; LTU blocked original sources remain outside the verifier and still need human safe review."
   }
 }
