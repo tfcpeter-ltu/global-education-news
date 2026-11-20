@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-20",
+  "status": "website-live-social-blocked",
+  "baseline": "b8fcaec11bdcc574a05bfed53fd000ac0f71e9ac",
+  "commit": "99252350f149f1327a6920e80cef14b65c659b98",
+  "deploymentRun": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/44671704936",
+  "deployment": "success",
+  "videosBefore": 183,
+  "videosAfter": 189,
+  "liveNewVideos": 6,
+  "socialPlanned": 10,
+  "socialPrepared": 10,
+  "socialPublished": 0,
+  "tests": [
+    "Vlog source and built tests passed189",
+    "Astro659pages",
+    "953 bilingual pairs;0missingtranslations",
+    "git diff --check passed",
+    "Live zh/en HTTP200:189cards,6today,allnewIDsandfullsummaries",
+    "Six official thumbnails HTTP200",
+    "Zh home href/;en home href/en/",
+    "Nine recommended objects unchanged"
+  ],
+  "limitations": [
+    "Native browser connection repeatedly timed out and reset; no social submit attempted this turn",
+    "Live UI search/filter/playback and screenshots unverified because browser unavailable",
+    "YouTube public playability OK and embed allowed checked; not claiming all six played",
+    "Captions empty or unavailable; summaries bounded to official descriptions/chapters",
+    "Recent velocity unavailable; labelled editorial selections"
+  ],
+  "blocker": {
+    "step": "native social publishing and UI acceptance",
+    "reason": "Browser operation connection timed out repeatedly, including inventory/nameSession; no permissions changed",
+    "minimumHelp": "Reconnect existing Chrome computer-use connection, then resume prepared posts after public dedup"
+  },
+  "cloudSyncVerified": false
+}
