@@ -721,6 +721,30 @@
       ]
     },
     {
+      "date": "2026-11-12",
+      "status": "published",
+      "evidence": "docs/social-posts/2026-11-12/publication-log.json",
+      "schoolName": "東吳大學",
+      "topic": "校級交換申請與志願期限",
+      "posts": [
+        {
+          "network": "threads",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfncLhdEz0s",
+          "id": "DfncLhdEz0s"
+        },
+        {
+          "network": "instagram",
+          "publicUrl": "https://www.instagram.com/ltuossdtw/p/DfncuXdky0F/",
+          "id": "DfncuXdky0F"
+        },
+        {
+          "network": "linkedin",
+          "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7526396983931064320/",
+          "id": "7526396983931064320"
+        }
+      ]
+    },
+    {
       "date": "2026-11-13",
       "status": "published",
       "evidence": "docs/social-posts/2026-11-13/publication-log.json",
@@ -843,6 +867,33 @@
           "publicUrl": "https://www.instagram.com/p/Df7SMpKDzpG/"
         }
       ]
+    },
+    {
+      "date": "2026-11-20",
+      "actualPublicationDate": "2026-11-21",
+      "status": "published",
+      "evidence": "docs/social-posts/2026-11-20/publication-log.json",
+      "posts": [
+        {
+          "network": "instagram",
+          "id": "Df-fIivj9-F",
+          "publicUrl": "https://www.instagram.com/ltuossdtw/p/Df-fIivj9-F/"
+        },
+        {
+          "network": "threads",
+          "id": "Df-fs6cE-aB",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/Df-fs6cE-aB"
+        },
+        {
+          "network": "linkedin",
+          "id": "7529635350865092608",
+          "publicUrl": "https://www.linkedin.com/posts/peter-chen-26a754228_%E7%A0%94%E7%A9%B6%E7%B6%93%E8%B2%BB%E5%A4%9A%E6%88%91%E4%B9%9F%E8%83%BD%E9%80%B2%E5%AF%A6%E9%A9%97%E5%AE%A4%E5%97%8E-%E9%81%B8%E5%A4%A7%E5%AD%B8%E6%99%82%E6%8A%8A%E6%A0%A1%E7%B4%9A%E6%95%B8%E5%AD%97%E8%88%87%E5%AD%B8%E7%94%9F%E6%A9%9F%E6%9C%83%E5%88%86%E9%96%8B%E6%9F%A5-11%E6%9C%8820-share-7529635350865092608-YvJb/"
+        }
+      ],
+      "schools": [
+        "National Chung Hsing University"
+      ],
+      "topic": "校級研究經費與學生實驗室機會分開查"
     }
   ]
 }

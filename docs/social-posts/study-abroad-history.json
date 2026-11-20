@@ -1229,6 +1229,36 @@
       "storyAngle": "campus-course-budget-planning"
     },
     {
+      "date": "2026-11-12",
+      "status": "published",
+      "evidence": "docs/social-posts/2026-11-12/publication-log.json",
+      "country": "Japan",
+      "schoolName": "Hiroshima University",
+      "storyAngle": "EJU score submission and intake deadlines",
+      "posts": [
+        {
+          "network": "threads",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DfncEMHkzoB",
+          "id": "DfncEMHkzoB"
+        },
+        {
+          "network": "facebook",
+          "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0QfDmKAb4KDytcgEac5hz3JC835sNgBr6qmfkEdy1s2QS7gsHPZJn1uErwDJgj6Qvl",
+          "id": "pfbid0QfDmKAb4KDytcgEac5hz3JC835sNgBr6qmfkEdy1s2QS7gsHPZJn1uErwDJgj6Qvl"
+        },
+        {
+          "network": "instagram",
+          "publicUrl": "https://www.instagram.com/ltuossdtw/p/DfnckLLkxKv/",
+          "id": "DfnckLLkxKv"
+        },
+        {
+          "network": "linkedin",
+          "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7526396831170220032/",
+          "id": "7526396831170220032"
+        }
+      ]
+    },
+    {
       "date": "2026-11-13",
       "status": "published",
       "evidence": "docs/social-posts/2026-11-13/publication-log.json",
@@ -1380,6 +1410,38 @@
           "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7529185570217041920/"
         }
       ]
+    },
+    {
+      "date": "2026-11-20",
+      "actualPublicationDate": "2026-11-21",
+      "status": "published",
+      "evidence": "docs/social-posts/2026-11-20/publication-log.json",
+      "posts": [
+        {
+          "network": "facebook",
+          "id": "1125793910196806",
+          "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid025iMRHr5ZuTisFYkdb2gBdTqL4KFcLgg1tX8WqVaUWwHNNTgSZ5Xb9ouyJrtq9mt2l"
+        },
+        {
+          "network": "instagram",
+          "id": "Df-ee_Cj-9D",
+          "publicUrl": "https://www.instagram.com/ltuossdtw/p/Df-ee_Cj-9D/"
+        },
+        {
+          "network": "threads",
+          "id": "Df-fY6hkwBD",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/Df-fY6hkwBD"
+        },
+        {
+          "network": "linkedin",
+          "id": "7529635006541914112",
+          "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7529635006541914112/"
+        }
+      ],
+      "schoolName": "University of Chicago",
+      "country": "United States",
+      "storyAngle": "Core curriculum and undergraduate course fit",
+      "topic": "選主修前先看共同必修"
     }
   ]
 }

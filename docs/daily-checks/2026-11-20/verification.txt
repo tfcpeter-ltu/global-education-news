@@ -1,18 +1,3 @@
-INCOMPLETE 2026-11-20: news/facebook: expected one verified published post, got 0
-INCOMPLETE 2026-11-20: news/instagram: expected one verified published post, got 0
-INCOMPLETE 2026-11-20: news/threads: expected one verified published post, got 0
-INCOMPLETE 2026-11-20: news/linkedin: expected one verified published post, got 0
-INCOMPLETE 2026-11-20: scholarship/facebook: expected one verified published post, got 0
-INCOMPLETE 2026-11-20: scholarship/instagram: expected one verified published post, got 0
-INCOMPLETE 2026-11-20: scholarship/threads: expected one verified published post, got 0
-INCOMPLETE 2026-11-20: scholarship/linkedin: expected one verified published post, got 0
-INCOMPLETE 2026-11-20: study-abroad/facebook: expected one verified published post, got 0
-INCOMPLETE 2026-11-20: study-abroad/instagram: expected one verified published post, got 0
-INCOMPLETE 2026-11-20: study-abroad/threads: expected one verified published post, got 0
-INCOMPLETE 2026-11-20: study-abroad/linkedin: expected one verified published post, got 0
-INCOMPLETE 2026-11-20: taiwan-universities/threads: expected one verified published post, got 0
-INCOMPLETE 2026-11-20: taiwan-universities/instagram: expected one verified published post, got 0
-INCOMPLETE 2026-11-20: taiwan-universities/linkedin: expected one verified published post, got 0
-INCOMPLETE 2026-11-20: new Facebook page: require a native photo ID/permalink and a saved public screenshot; a post URL or link card is not photo evidence
-INCOMPLETE 2026-11-20: new Facebook page: require observed photo-ready evidence before adding copy; never invent timestamps after publication
-INCOMPLETE 2026-11-20: new Facebook page 61595164194381: missing one verified new daily post with a visible uploaded photo
+EVIDENCE_PRESENT 2026-11-20: 3 news, 3 new scholarships, Peter review (0 imports, no new source posts), 15 social posts and deployment evidence present. Evidence presence does not replace live verification.
+COMPLETE 2026-11-20: delivery evidence and editorial depth checks passed.
+Scope caveat: LTU SETN/Storm/LTN original-source safety review remains blocked; overall report remains partial_external_blocker.
