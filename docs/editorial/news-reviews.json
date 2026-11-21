@@ -1090,5 +1090,83 @@
     "independentSource": "https://thepienews.com/australia-consults-on-student-visa-overhaul-as-refusals-hit-key-markets/",
     "reviewedAt": "2026-11-20",
     "bodySha256": "6dc88f5acf9bbe46cb6a6d9419b7f5c2659887c1407af827a168a3b52b9cf37d"
+  },
+  "uk-eu-youth-experience-agreement-tuition-2026": {
+    "newsValue": "11月20日新協議涉及每年雙向名額，但台灣讀者最需要辨識尚未開放與國籍範圍，避免誤排2027留學。",
+    "background": "回溯2020自由流動終止與2024、2025協商階段，解釋舊提案不能替代最新文件的年齡年限。",
+    "development": "分開談判完成、2028協議適用目標、2030機會提供及六個月學費談判四個節點。",
+    "perspectives": "政府說明與The PIE取得的大學財務觀點並列，業界預警明確標為立場而非已發生減招。",
+    "taiwanImpact": "說明僅台灣國籍不在此方案範圍，雙重國籍仍須查規則，預算按本人已公告費率規劃。",
+    "uncertainty": "沒有完整申請費與開放日期，學費補充協議尚未談妥；不推估台灣受益人數或降費。",
+    "independence": "Cabinet Office為協議第一手公布者；The PIE有署名報導及不同大學與法律界評論，不僅轉貼共同聲明。",
+    "primarySource": "https://www.gov.uk/government/publications/ukeu-summit-2026-key-documents/uk-eu-summit-2026-joint-statement-html",
+    "independentSource": "https://thepienews.com/200k-uk-eu-youth-mobility-places-agreed-as-tuition-fee-decision-delayed/",
+    "reviewedAt": "2026-11-21",
+    "bodySha256": "7ddea54a13809200924600b7bf7473bd7e733fddb454ab8826c1382fc5aa8ebb"
+  },
+  "australia-teqsa-tne-toolkit-student-protection-2026": {
+    "newsValue": "新工具包把海外學位授予者責任具體化，對台灣讀者比較第三地合作課程有直接學習權益價值。",
+    "background": "交代2025修法與2026首次年度報告，不把舊義務寫成十一月新增法律或自動完成的成效。",
+    "development": "五面向與兩份實施指引連接合作前後管理，解釋發布工具與既有法規的關係及不同時間點。",
+    "perspectives": "The Koala發布會紀錄加入作者關於在地調整、治理與成本的觀點，沒有虛構學生受訪經驗。",
+    "taiwanImpact": "從授課者、學位授予者、資源取得與申訴轉接比較課程，另分開台灣採認與入境條件。",
+    "uncertainty": "沒有新版介入後成效數據，不宣稱畢業率提升或任一學校危險，也不保證就業與移民。",
+    "independence": "官方工具包、指引提供第一手規則；Tracy Harris的署名發布會報導提供現場說明與成本分析，非公告複製。",
+    "primarySource": "https://www.teqsa.gov.au/sites/default/files/2026-11/TNE-toolkit-2026.pdf",
+    "independentSource": "https://thekoalanews.com/teqsa-warns-on-tne-costs-as-new-toolkit-launched/",
+    "reviewedAt": "2026-11-21",
+    "bodySha256": "b887f5cdf32434ce3a0c754ef37c419593c247a0462cdf465d78f6c3b57dd6de"
+  },
+  "us-international-student-economic-impact-methodology-2026": {
+    "newsValue": "11月20日新經濟影響訪談延伸到課程資助與大學財務，與既有Open Doors人數報導區分而非重發。",
+    "background": "交代年度399億估值和2026/27預測不同，解釋學生支出扣除美國資助及OPT零外來資金假設。",
+    "development": "把年度已估值、秋季推估與2027年初資料修訂連成時間線，保留方法可能調整的限制。",
+    "perspectives": "NAFSA倡議者與JB模型角色分清，The PIE另向Chris Glass取得解讀，不以政策批評作單一因果。",
+    "taiwanImpact": "連到入學訂金前課程開設、資助年限與助理工作續領條件，沒有將全國趨勢等同某校減招。",
+    "uncertainty": "支出和支持職位是模型非已裁員清單，排除不必要爭議政策數字，不推算錄取率與個校財務。",
+    "independence": "NAFSA和JB為原始估算來源；The PIE署名報導有另行教授訪談與研討會追蹤，超出公告轉載。",
+    "primarySource": "https://www.nafsa.org/fall2026report",
+    "independentSource": "https://thepienews.com/a-one-year-decline-is-not-a-one-year-problem-americas-shrinking-talent-pipeline/",
+    "reviewedAt": "2026-11-21",
+    "bodySha256": "9c70bc6a04c93ffa1c083780ed6957a990022a88348ef0414ad6be0df6ffd480"
+  },
+  "cornell-state-police-investigation-choice-2026": {
+    "newsValue": "說明新增校外獨立調查選擇、權責與最新進度，讓選校家庭理解校園支援制度。",
+    "background": "核對十月二十九日即時生效、十月十三日措施與九月訴訟指控背景，未將指控當成判決。",
+    "development": "對照州警與校警責任、當事人自主及十一月十六日進度表，分開原事件與更新。",
+    "perspectives": "以校方原文與Cornell Daily Sun獨立校園報導交叉核對，沒有杜撰當事人採訪。",
+    "taiwanImpact": "提供赴美學生區分諮詢、校內申訴與報案入口的選校準備，尊重當事人選擇。",
+    "uncertainty": "行政進度不等於成效，未比較大學安全排名、推定法律結果或公開私人資訊。",
+    "independence": "Daily Sun提供獨立事件時間線與訴訟背景；校方聲明和進度表只作一方直接紀錄。",
+    "primarySource": "https://statements.cornell.edu/2026/20261029-agreement-with-new-york-state-police.cfm",
+    "independentSource": "https://www.cornellsun.com/article/2026/10/cornell-pens-agreement-allowing-new-york-state-police-to-investigate-allegations-of-sexual-assault-on-campus",
+    "reviewedAt": "2026-11-21",
+    "bodySha256": "103697155dc7e35ff9b5b566d97a925d8cda2cfe8364e4b4107ae17593d8f9cd"
+  },
+  "edinburgh-advanced-chip-design-academy-2026": {
+    "newsValue": "從研究投資解析晶片設計培訓與製作測試，提供台灣半導體研究申請者可用脈絡。",
+    "background": "交代十月二十八日學校宣布與秋季預算，區分既有中心設施和新計畫。",
+    "development": "核對一千八百萬英鎊、工具原型製作測試與主持單位，未捏造個人申請期限。",
+    "perspectives": "引用CBI自身產業政策分析並揭露企業代表角色，與校方計畫及現有設施紀錄區分。",
+    "taiwanImpact": "把投資訊息轉成研究契合、指導資源與實際操作條件的選校問題。提醒先核對正式學位與短期培訓資格，投資金額不能等同個人獎學金。",
+    "uncertainty": "未聲稱學院已產生成效、保證工作或台灣學生可直接申請獎學金，明列待公布條件。",
+    "independence": "CBI提供商業化政策評價而非僅重刊新聞稿，設施頁另核對既有研究環境。",
+    "primarySource": "https://eng.ed.ac.uk/about/news/20261028/edinburgh-to-host-ps18m-uk-advanced-chip-design-academy",
+    "independentSource": "https://www.cbi.org.uk/articles/autumn-budget-2026-cbi-analysis/",
+    "reviewedAt": "2026-11-21",
+    "bodySha256": "3da39586f2e0b4e086dfb7eb3d5b8958e55f371cd89d6d0af189fd1fe61cf501"
+  },
+  "germany-wissenschaft-weltoffen-2026-international-students": {
+    "newsValue": "將國際學生總數、學科結構與統計口徑連結實際選校，修正容易誤讀的成長訊號。",
+    "background": "明列十月十四日發布與二零二五至二六冬季學期，保留原發布日不包裝今日新生數。",
+    "development": "拆解新生與存量、學位學科比例及博士資料擴大範圍，避免重複相加和錄取率誤解。",
+    "perspectives": "以Schottmann署名獨立評論補充語言職涯社群支持，標明建議不是政府義務。",
+    "taiwanImpact": "提供台灣家庭課程語言、住宿、學術及職涯支援的具體比較方向。並區分學士與碩士要求，不從全國統計推定台灣申請者錄取機率。",
+    "uncertainty": "不以國家成長推論個人錄取或就業，博士統計變化與實際增長分開解釋。",
+    "independence": "DAAD與完整報告屬同一統計來源；PIE獨立評論提出服務分析，Education Post轉述不另算獨立統計。",
+    "primarySource": "https://www.presseportal.de/pm/59097/6370850",
+    "independentSource": "https://thepienews.com/willkommen-why-international-students-are-choosing-germany/",
+    "reviewedAt": "2026-11-21",
+    "bodySha256": "181d7538aa9ec42a92e449b36b8920b60d4fb1b8c913f2ea4783f368d3273e73"
   }
 }

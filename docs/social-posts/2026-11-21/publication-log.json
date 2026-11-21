@@ -1,0 +1,187 @@
+{
+  "date": "2026-11-21",
+  "status": "awaiting-deployment-approval",
+  "platformSends": 0,
+  "submissionAttempts": 0,
+  "posts": [
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "status": "PREPARED_NOT_SENT",
+      "articleUrl": "https://globalednews.com/news/uk-eu-youth-experience-agreement-tuition-2026/",
+      "copyVersion": "2026-11-21-v1",
+      "imagePath": "public/images/social/2026-11-21/news.jpg",
+      "id": null,
+      "publicUrl": null,
+      "verifiedAt": null,
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "url": "https://www.facebook.com/LTUOSSDTaiwan",
+      "photoAttachedAt": "2026-11-20T21:44:57.961Z",
+      "copyAddedAt": "2026-11-20T21:44:58.361Z",
+      "photoReadyEvidence": "Native composer showed uploaded news.jpg and photo preview before copy; no send clicked.",
+      "screenshot": "docs/daily-checks/2026-11-21/screenshots/news-facebook-prepared-not-sent.jpg"
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "status": "PREPARED_NOT_SENT",
+      "articleUrl": "https://globalednews.com/news/uk-eu-youth-experience-agreement-tuition-2026/",
+      "copyVersion": "2026-11-21-v1",
+      "imagePath": "public/images/social/2026-11-21/news.jpg",
+      "id": null,
+      "publicUrl": null,
+      "verifiedAt": null
+    },
+    {
+      "campaign": "news",
+      "network": "threads",
+      "status": "PREPARED_NOT_SENT",
+      "articleUrl": "https://globalednews.com/news/uk-eu-youth-experience-agreement-tuition-2026/",
+      "copyVersion": "2026-11-21-v1",
+      "imagePath": "public/images/social/2026-11-21/news.jpg",
+      "id": null,
+      "publicUrl": null,
+      "verifiedAt": null
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "status": "PREPARED_NOT_SENT",
+      "articleUrl": "https://globalednews.com/news/uk-eu-youth-experience-agreement-tuition-2026/",
+      "copyVersion": "2026-11-21-v1",
+      "imagePath": "public/images/social/2026-11-21/news.jpg",
+      "id": null,
+      "publicUrl": null,
+      "verifiedAt": null
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "status": "PREPARED_NOT_SENT",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "copyVersion": "2026-11-21-v1",
+      "imagePath": "public/images/social/2026-11-21/radar.jpg",
+      "id": null,
+      "publicUrl": null,
+      "verifiedAt": null
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "status": "PREPARED_NOT_SENT",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "copyVersion": "2026-11-21-v1",
+      "imagePath": "public/images/social/2026-11-21/radar.jpg",
+      "id": null,
+      "publicUrl": null,
+      "verifiedAt": null
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "status": "PREPARED_NOT_SENT",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "copyVersion": "2026-11-21-v1",
+      "imagePath": "public/images/social/2026-11-21/radar.jpg",
+      "id": null,
+      "publicUrl": null,
+      "verifiedAt": null
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "status": "PREPARED_NOT_SENT",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "copyVersion": "2026-11-21-v1",
+      "imagePath": "public/images/social/2026-11-21/radar.jpg",
+      "id": null,
+      "publicUrl": null,
+      "verifiedAt": null
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "status": "PREPARED_NOT_SENT",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "copyVersion": "2026-11-21-v1",
+      "imagePath": "public/images/social/2026-11-21/diy.jpg",
+      "id": null,
+      "publicUrl": null,
+      "verifiedAt": null
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "status": "PREPARED_NOT_SENT",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "copyVersion": "2026-11-21-v1",
+      "imagePath": "public/images/social/2026-11-21/diy.jpg",
+      "id": null,
+      "publicUrl": null,
+      "verifiedAt": null
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "status": "PREPARED_NOT_SENT",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "copyVersion": "2026-11-21-v1",
+      "imagePath": "public/images/social/2026-11-21/diy.jpg",
+      "id": null,
+      "publicUrl": null,
+      "verifiedAt": null
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "status": "PREPARED_NOT_SENT",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "copyVersion": "2026-11-21-v1",
+      "imagePath": "public/images/social/2026-11-21/diy.jpg",
+      "id": null,
+      "publicUrl": null,
+      "verifiedAt": null
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "status": "PREPARED_NOT_SENT",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "copyVersion": "2026-11-21-v1",
+      "imagePath": "public/images/social/2026-11-21/campus.jpg",
+      "id": null,
+      "publicUrl": null,
+      "verifiedAt": null
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "status": "PREPARED_NOT_SENT",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "copyVersion": "2026-11-21-v1",
+      "imagePath": "public/images/social/2026-11-21/campus.jpg",
+      "id": null,
+      "publicUrl": null,
+      "verifiedAt": null
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "status": "PREPARED_NOT_SENT",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "copyVersion": "2026-11-21-v1",
+      "imagePath": "public/images/social/2026-11-21/campus.jpg",
+      "id": null,
+      "publicUrl": null,
+      "verifiedAt": null
+    },
+    {
+      "campaign": "new-facebook-page",
+      "network": "facebook",
+      "pageId": "61595164194381",
+      "status": "PREPARED_NOT_SENT",
+      "articleUrl": "https://globalednews.com/news/uk-eu-youth-experience-agreement-tuition-2026/",
+      "id": null
+    }
+  ]
+}
