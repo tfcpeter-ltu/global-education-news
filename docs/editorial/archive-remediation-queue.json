@@ -1,30 +1,12 @@
 {
   "status": "pending",
   "order": "newest first, then currently consequential policies",
-  "remaining": 142,
+  "remaining": 139,
   "items": [
-    {
-      "path": "src/pages/news/cornell-state-police-investigation-choice-2026.md",
-      "date": "\"2026-10-31T20:11:11.329530+08:00\"",
-      "bodyCjk": 262,
-      "needsEditorialReview": true
-    },
     {
       "path": "src/pages/news/central-asia-tashkent-education-forum-mobility-2026.md",
       "date": "\"2026-10-30T10:09:51.831461+08:00\"",
       "bodyCjk": 262,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/edinburgh-advanced-chip-design-academy-2026.md",
-      "date": "\"2026-10-30T10:09:51.831461+08:00\"",
-      "bodyCjk": 267,
-      "needsEditorialReview": true
-    },
-    {
-      "path": "src/pages/news/germany-wissenschaft-weltoffen-2026-international-students.md",
-      "date": "\"2026-10-29T10:16:04.318265+08:00\"",
-      "bodyCjk": 243,
       "needsEditorialReview": true
     },
     {
@@ -856,7 +838,7 @@
       "needsEditorialReview": true
     }
   ],
-  "updatedAt": "2026-11-19T14:53:25.728Z",
+  "updatedAt": "2026-11-21T02:34:23.065Z",
   "completedBatches": [
     {
       "date": "2026-11-07",
@@ -965,6 +947,17 @@
       "commit": "ace72ae9a6afadfac2b5b30727868d7c49d2af6b",
       "verifiedAt": "2026-11-17T01:04:56.947Z",
       "evidence": "docs/daily-checks/2026-11-17/live-audit.json"
+    },
+    {
+      "date": "2026-11-21",
+      "commit": "4be72fa50fe09ac93f02187f5a22aaae7fda0327",
+      "slugs": [
+        "cornell-state-police-investigation-choice-2026",
+        "edinburgh-advanced-chip-design-academy-2026",
+        "germany-wissenschaft-weltoffen-2026-international-students"
+      ],
+      "liveEvidence": "docs/daily-checks/2026-11-21/live-http-independent-read.json",
+      "verifiedAt": "2026-11-21T02:34:23.065Z"
     }
   ],
   "lastBatch": {
@@ -980,14 +973,13 @@
     "evidence": "docs/daily-checks/2026-11-17/live-audit.json"
   },
   "lastCompleted": {
-    "date": "2026-11-20",
+    "date": "2026-11-21",
     "slugs": [
-      "ieaa-excellence-awards-student-learning-2026",
-      "qmul-kmutt-thailand-dual-engineering-2027",
-      "australia-genuine-student-financial-consultation-2026"
+      "cornell-state-police-investigation-choice-2026",
+      "edinburgh-advanced-chip-design-academy-2026",
+      "germany-wissenschaft-weltoffen-2026-international-students"
     ],
-    "commit": "b8fcaec11bdcc574a05bfed53fd000ac0f71e9ac",
-    "verifiedAt": "2026-11-19T21:55:28.525Z",
-    "evidence": "docs/daily-checks/2026-11-20/live-http-acceptance.json"
+    "commit": "4be72fa50fe09ac93f02187f5a22aaae7fda0327",
+    "verifiedAt": "2026-11-21T02:34:23.065Z"
   }
 }

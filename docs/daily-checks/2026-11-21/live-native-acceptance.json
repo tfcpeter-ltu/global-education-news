@@ -1,0 +1,14 @@
+{
+  "verifiedAt": "2026-11-21T02:33:10.300Z",
+  "desktop": "Production radar Caltech search Enter returned1; Canada combined returned0 with message; clear restored299; load-more27→51 including3picks. Homepage reviewed with new independent thumbnails.",
+  "mobile": "Measured CSS390px/document371px after accounting for browser zoom. WashU search button returned1; close-ad worked; headline wrapped without horizontal overflow on new UK/EU article.",
+  "seo": "Independent live HTTP:18 bilingual pages,9 images,canonical,hreflang,schema,robots,sitemaps,weeklyRSS.",
+  "evidence": [
+    "docs/daily-checks/2026-11-21/live-http-independent-read.json",
+    "docs/daily-checks/2026-11-21/screenshots/live-home-desktop.jpg",
+    "docs/daily-checks/2026-11-21/screenshots/live-radar-desktop.jpg",
+    "docs/daily-checks/2026-11-21/screenshots/live-radar-mobile.jpg",
+    "docs/daily-checks/2026-11-21/screenshots/live-news-mobile.jpg"
+  ],
+  "note": "Viewport override reset. Prior first mobile screenshot was still desktop and was replaced after actual CSS width verified."
+}

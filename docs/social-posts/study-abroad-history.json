@@ -1442,6 +1442,36 @@
       "country": "United States",
       "storyAngle": "Core curriculum and undergraduate course fit",
       "topic": "選主修前先看共同必修"
+    },
+    {
+      "date": "2026-11-21",
+      "status": "published",
+      "schoolName": "University of Amsterdam",
+      "country": "Netherlands",
+      "storyAngle": "按科系確認校區與教學地址，再比較住宿通勤",
+      "evidence": "docs/social-posts/2026-11-21/publication-log.json",
+      "posts": [
+        {
+          "network": "facebook",
+          "id": "pfbid02jYiDz3y9doUuNPBjxsC69drZpfPtnmUTYMLueXEpqrcsh8CtMCFTMzscafm1Dd3cl",
+          "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02jYiDz3y9doUuNPBjxsC69drZpfPtnmUTYMLueXEpqrcsh8CtMCFTMzscafm1Dd3cl"
+        },
+        {
+          "network": "instagram",
+          "id": "Df_J2sxoyO1",
+          "publicUrl": "https://www.instagram.com/ltuossdtw/p/Df_J2sxoyO1/"
+        },
+        {
+          "network": "threads",
+          "id": "Df_JuqUk3_m",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/Df_JuqUk3_m"
+        },
+        {
+          "network": "linkedin",
+          "id": "7529731864442404864",
+          "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7529731864442404864/"
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,7 @@
+Independent readback by the original 05:00 chat after user approved publication on November21.
+Production commit: 4be72fa50fe09ac93f02187f5a22aaae7fda0327
+GitHub Actions: https://github.com/tfcpeter-ltu/global-education-news/actions/runs/44854172646
+Run completed successfully 2026-11-21T02:11:40Z (10:11:40 Asia/Taipei).
+18 bilingual article/award/archive URLs and 9 distinct OG images passed HTTP, canonical, hreflang and schema checks. robots, sitemap children, News sitemap and weekly RSS passed; all three new articles and three new awards present.
+Evidence: live-http-independent-read.json
+The other active daily chat handles native social publication and final shared report/ledger. This check did not publish, modify social accounts or duplicate posts.

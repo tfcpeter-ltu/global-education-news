@@ -2,8 +2,8 @@
   "date": "2026-11-21",
   "timezone": "Asia/Taipei",
   "startedAt": "2026-11-20T21:06:23.965Z",
-  "status": "in_progress",
-  "currentPhase": "COMMIT_DEPLOY",
+  "status": "partial_external_blocker",
+  "currentPhase": "PUBLISHED_VERIFIED_WITH_SOURCE_EXCEPTIONS",
   "baseCommit": "b9c5bf5f2c44c79da0f30d389e8aa977bfc9c95d",
   "scholarshipBaselineSlugs": [
     "2026-08-bristol-think-big",
@@ -303,7 +303,88 @@
     "catalog-vanderbilt-ingram",
     "catalog-yale-international-aid"
   ],
-  "newsPublished": [],
+  "newsPublished": [
+    {
+      "slug": "uk-eu-youth-experience-agreement-tuition-2026",
+      "url": "https://globalednews.com/news/uk-eu-youth-experience-agreement-tuition-2026/",
+      "sources": [
+        {
+          "label": "UK Cabinet Office｜2026峰會共同聲明第37至41段",
+          "url": "https://www.gov.uk/government/publications/ukeu-summit-2026-key-documents/uk-eu-summit-2026-joint-statement-html"
+        },
+        {
+          "label": "The PIE｜11月20日報導及大學、法律界回應",
+          "url": "https://thepienews.com/200k-uk-eu-youth-mobility-places-agreed-as-tuition-fee-decision-delayed/"
+        },
+        {
+          "label": "UK Cabinet Office｜Youth Experience Scheme完整說明",
+          "url": "https://www.gov.uk/government/publications/ukeu-summit-2026-key-documents/uk-eu-summit-2026-explainer-youth-experience-scheme-html"
+        },
+        {
+          "label": "House of Commons Library｜11月9日談判背景",
+          "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-12281/"
+        }
+      ],
+      "status": "published",
+      "verifiedAt": "2026-11-21T02:12:33.812286+00:00"
+    },
+    {
+      "slug": "australia-teqsa-tne-toolkit-student-protection-2026",
+      "url": "https://globalednews.com/news/australia-teqsa-tne-toolkit-student-protection-2026/",
+      "sources": [
+        {
+          "label": "TEQSA｜2026年11月跨國教育工具包第二版",
+          "url": "https://www.teqsa.gov.au/sites/default/files/2026-11/TNE-toolkit-2026.pdf"
+        },
+        {
+          "label": "The Koala｜Tracy Harris於11月19日的發布會報導",
+          "url": "https://thekoalanews.com/teqsa-warns-on-tne-costs-as-new-toolkit-launched/"
+        },
+        {
+          "label": "TEQSA｜與其他機構授課指引第4版",
+          "url": "https://www.teqsa.gov.au/guides-resources/resources/guidance-notes/guidance-note-delivery-other-parties"
+        },
+        {
+          "label": "TEQSA｜9月1日海外課程年度報告要求",
+          "url": "https://www.teqsa.gov.au/about-us/news-and-events/latest-news/annual-reporting-requirements-offshore-courses-published"
+        },
+        {
+          "label": "TEQSA｜工具包發布頁及日期",
+          "url": "https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/transnational-education-tne-toolkit"
+        }
+      ],
+      "status": "published",
+      "verifiedAt": "2026-11-21T02:12:33.806286+00:00"
+    },
+    {
+      "slug": "us-international-student-economic-impact-methodology-2026",
+      "url": "https://globalednews.com/news/us-international-student-economic-impact-methodology-2026/",
+      "sources": [
+        {
+          "label": "NAFSA／JB International｜2026秋季經濟影響推估",
+          "url": "https://www.nafsa.org/fall2026report"
+        },
+        {
+          "label": "The PIE｜11月20日專家訪談與經濟影響分析",
+          "url": "https://thepienews.com/a-one-year-decline-is-not-a-one-year-problem-americas-shrinking-talent-pipeline/"
+        },
+        {
+          "label": "NAFSA｜年度經濟貢獻與2026方法變更",
+          "url": "https://www.nafsa.org/policy-and-advocacy/policy-resources/nafsa-international-student-economic-value-tool-v2"
+        },
+        {
+          "label": "JB International｜2026年11月完整估算方法",
+          "url": "https://www.nafsa.org/sites/default/files/media/document/NAFSA_JBI_Methodology_Economic_Value_2026_FINAL.pdf"
+        },
+        {
+          "label": "IIE｜2026 Open Doors與秋季快照發布",
+          "url": "https://www.iie.org/news/u-s-colleges-and-universities-host-1-1m-international-students-in-2025-2026-school-year"
+        }
+      ],
+      "status": "published",
+      "verifiedAt": "2026-11-21T02:12:33.797769+00:00"
+    }
+  ],
   "scholarshipAdditions": [
     {
       "slug": "2026-11-taiwan-washu-phd-2027",
@@ -332,7 +413,7 @@
       "isNew": true,
       "baselineAbsent": true,
       "verifiedAt": "2026-11-20T21:21:17.487Z",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-11-21T02:12:33.809285+00:00",
       "updateSummary": "核對教育部116年度正式簡章與合作校資料，確認台灣設籍資格、資助範圍、校方及教育部申請先後與截止；全新頁面且不在296筆baseline。"
     },
     {
@@ -362,7 +443,7 @@
       "isNew": true,
       "baselineAbsent": true,
       "verifiedAt": "2026-11-20T21:21:17.487Z",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-11-21T02:12:33.811287+00:00",
       "updateSummary": "核對教育部116年度正式簡章與合作校資料，確認台灣設籍資格、資助範圍、校方及教育部申請先後與截止；全新頁面且不在296筆baseline。"
     },
     {
@@ -396,16 +477,396 @@
       "isNew": true,
       "baselineAbsent": true,
       "verifiedAt": "2026-11-20T21:21:17.488Z",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-11-21T02:12:33.819293+00:00",
       "updateSummary": "核對教育部116年度正式簡章與合作校資料，確認台灣設籍資格、資助範圍、校方及教育部申請先後與截止；全新頁面且不在296筆baseline。"
     }
   ],
-  "socialPosts": [],
-  "gaps": [
-    "本次main推送及正式部署被自動核准審查拒絕，等待明確授權；今日網站及社群尚未發布。",
-    "三個LTU原文既有安全限制仍待人工安全確認。"
+  "socialPosts": [
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/news/uk-eu-youth-experience-agreement-tuition-2026/",
+      "copyVersion": "2026-11-21-v1",
+      "imagePath": "public/images/social/2026-11-21/news.jpg",
+      "id": "pfbid0nuKocRohRWDvfqvCDRhekNWQv2LvwQHm9LXrPJT6cX4ERJ4yfocgZUd4tFaBBRrUl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0nuKocRohRWDvfqvCDRhekNWQv2LvwQHm9LXrPJT6cX4ERJ4yfocgZUd4tFaBBRrUl",
+      "verifiedAt": "2026-11-21T02:13:27.020Z",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "url": "https://www.facebook.com/LTUOSSDTaiwan",
+      "photoAttachedAt": "2026-11-21T02:10:39.606Z",
+      "copyAddedAt": "2026-11-21T02:10:39.664Z",
+      "photoReadyEvidence": "Native attached media news.jpg visible before copy; screenshot news-facebook-before-send.jpg",
+      "screenshot": "docs/daily-checks/2026-11-21/screenshots/news-facebook-prepared-not-sent.jpg",
+      "submittedAt": "2026-11-21T02:12:25.230Z",
+      "photoId": "1126017663507764",
+      "publishedAt": "2026-11-21T10:12:00+08:00",
+      "platformTimePrecision": "minute",
+      "visibility": "public",
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "mediaEvidence": "docs/daily-checks/2026-11-21/screenshots/news-facebook-public.jpg",
+      "mediaVerifiedAt": "2026-11-21T02:13:27.020Z",
+      "imageCount": 1,
+      "photoAttachments": [
+        {
+          "id": "1126017663507764",
+          "url": "https://www.facebook.com/photo/?fbid=1126017663507764"
+        }
+      ],
+      "publicPhotoScreenshot": "docs/daily-checks/2026-11-21/screenshots/news-facebook-public.jpg",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-21T02:13:27.020Z"
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/news/uk-eu-youth-experience-agreement-tuition-2026/",
+      "copyVersion": "2026-11-21-v1",
+      "imagePath": "public/images/social/2026-11-21/news.jpg",
+      "id": "Df_IWRvIxLT",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Df_IWRvIxLT/",
+      "verifiedAt": "2026-11-21T02:14:34.511Z",
+      "publishedAt": "2026-11-21T02:13:03.000Z",
+      "publishedAtSource": "native time datetime",
+      "mediaVerifiedAt": "2026-11-21T02:14:34.511Z",
+      "visibility": "public",
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaEvidence": "docs/daily-checks/2026-11-21/screenshots/news-instagram-public.jpg",
+      "account": "ltuossdtw",
+      "imageCount": 1
+    },
+    {
+      "campaign": "news",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/news/uk-eu-youth-experience-agreement-tuition-2026/",
+      "copyVersion": "2026-11-21-v1",
+      "imagePath": "public/images/social/2026-11-21/news.jpg",
+      "id": "Df_IbEuEyse",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Df_IbEuEyse",
+      "verifiedAt": "2026-11-21T02:14:35.717Z",
+      "submittedAt": "2026-11-21T02:13:39.454Z",
+      "publishedAt": "2026-11-21T02:13:40.000Z",
+      "publishedAtSource": "native time datetime",
+      "mediaVerifiedAt": "2026-11-21T02:14:35.717Z",
+      "visibility": "public",
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaEvidence": "docs/daily-checks/2026-11-21/screenshots/news-threads-public.jpg",
+      "account": "ltuossdtw",
+      "imageCount": 1
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/news/uk-eu-youth-experience-agreement-tuition-2026/",
+      "copyVersion": "2026-11-21-v1",
+      "imagePath": "public/images/social/2026-11-21/news.jpg",
+      "id": "7529729274493173761",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7529729274493173761/",
+      "verifiedAt": "2026-11-21T02:16:45.237Z",
+      "submittedAt": "2026-11-21T02:15:50.065Z",
+      "publishedAt": "2026-11-21T02:15:50.065Z",
+      "publishedAtSource": "observed submission; native relative time 剛剛",
+      "mediaVerifiedAt": "2026-11-21T02:16:45.237Z",
+      "visibility": "public",
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaEvidence": "docs/daily-checks/2026-11-21/screenshots/news-linkedin-public.jpg",
+      "account": "Peter Chen",
+      "imageCount": 1
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "copyVersion": "2026-11-21-v1",
+      "imagePath": "public/images/social/2026-11-21/radar.jpg",
+      "id": "pfbid0MNSEnFbkjSRtkhPDWghUjxw9VYBKW5bTBiod1y8NgwShFL44Zh2VBcKCJ3xakCgel",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid0MNSEnFbkjSRtkhPDWghUjxw9VYBKW5bTBiod1y8NgwShFL44Zh2VBcKCJ3xakCgel",
+      "verifiedAt": "2026-11-21T02:22:37.402Z",
+      "photoAttachedAt": "2026-11-21T02:16:45.237Z",
+      "photoReadyEvidence": "Native radar.jpg attached and visible before copy",
+      "copyAddedAt": "2026-11-21T02:16:45.279Z",
+      "submittedAt": "2026-11-21T02:17:08.607Z",
+      "publishedAt": "2026-11-21T02:22:37.402Z",
+      "publishedAtSource": "observed-public-readback; exact platform time unavailable",
+      "mediaVerifiedAt": "2026-11-21T02:22:37.402Z",
+      "visibility": "public",
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaEvidence": "docs/daily-checks/2026-11-21/screenshots/scholarship-facebook-public.jpg",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "photoId": "1126021866840677",
+      "imageCount": 1,
+      "photoAttachments": [
+        {
+          "id": "1126021866840677",
+          "url": "https://www.facebook.com/photo/?fbid=1126021866840677"
+        }
+      ],
+      "publicPhotoScreenshot": "docs/daily-checks/2026-11-21/screenshots/scholarship-facebook-public.jpg",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-21T02:22:37.402Z"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "copyVersion": "2026-11-21-v1",
+      "imagePath": "public/images/social/2026-11-21/radar.jpg",
+      "id": "Df_I8e9o1_x",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Df_I8e9o1_x/",
+      "verifiedAt": "2026-11-21T02:19:21.471Z",
+      "publishedAt": "2026-11-21T02:18:15.000Z",
+      "publishedAtSource": "native time datetime",
+      "mediaVerifiedAt": "2026-11-21T02:19:21.471Z",
+      "visibility": "public",
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaEvidence": "docs/daily-checks/2026-11-21/screenshots/scholarship-instagram-public.jpg",
+      "account": "ltuossdtw",
+      "imageCount": 1
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "copyVersion": "2026-11-21-v1",
+      "imagePath": "public/images/social/2026-11-21/radar.jpg",
+      "id": "Df_I9Qtk0sE",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Df_I9Qtk0sE",
+      "verifiedAt": "2026-11-21T02:19:21.752Z",
+      "publishedAt": "2026-11-21T02:18:20.000Z",
+      "publishedAtSource": "native time datetime",
+      "mediaVerifiedAt": "2026-11-21T02:19:21.752Z",
+      "visibility": "public",
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaEvidence": "docs/daily-checks/2026-11-21/screenshots/scholarship-threads-public.jpg",
+      "account": "ltuossdtw",
+      "threadStatus": "VERIFIED",
+      "topic": "獎學金",
+      "threadReplies": [
+        {
+          "id": "Df_I-AtE9D3",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/Df_I-AtE9D3",
+          "status": "PUBLISHED",
+          "verifiedAt": "2026-11-21T02:23:11.122Z"
+        },
+        {
+          "id": "Df_I-khkw2D",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/Df_I-khkw2D",
+          "status": "PUBLISHED",
+          "verifiedAt": "2026-11-21T02:23:11.122Z"
+        },
+        {
+          "id": "Df_JLmyEw3a",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/Df_JLmyEw3a",
+          "status": "PUBLISHED",
+          "verifiedAt": "2026-11-21T02:23:11.122Z"
+        },
+        {
+          "id": "Df_JeHhk29T",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/Df_JeHhk29T",
+          "status": "PUBLISHED",
+          "verifiedAt": "2026-11-21T02:23:11.122Z"
+        }
+      ],
+      "imageCount": 1
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "copyVersion": "2026-11-21-v1",
+      "imagePath": "public/images/social/2026-11-21/radar.jpg",
+      "id": "7529730389725302784",
+      "publicUrl": "https://lnkd.in/p/gViCuaEd",
+      "verifiedAt": "2026-11-21T02:24:06.697Z",
+      "submittedAt": "2026-11-21T02:20:17.513Z",
+      "visibility": "public",
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-21T02:24:06.697Z",
+      "mediaEvidence": "docs/daily-checks/2026-11-21/screenshots/scholarship-linkedin-public.jpg",
+      "account": "Peter Chen",
+      "publishedAt": "2026-11-21T02:20:17.513Z",
+      "publishedAtSource": "observed-submit; exact platform time unavailable",
+      "imageCount": 1,
+      "publicUrlSource": "Native Copy post link; followed and public text/photo verified"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "copyVersion": "2026-11-21-v1",
+      "imagePath": "public/images/social/2026-11-21/diy.jpg",
+      "id": "pfbid02jYiDz3y9doUuNPBjxsC69drZpfPtnmUTYMLueXEpqrcsh8CtMCFTMzscafm1Dd3cl",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02jYiDz3y9doUuNPBjxsC69drZpfPtnmUTYMLueXEpqrcsh8CtMCFTMzscafm1Dd3cl",
+      "verifiedAt": "2026-11-21T02:27:08.147Z",
+      "photoAttachedAt": "2026-11-21T02:24:48.124Z",
+      "copyAddedAt": "2026-11-21T02:24:48.181Z",
+      "submittedAt": "2026-11-21T02:25:17.620Z",
+      "publishedAt": "2026-11-21T02:27:08.147Z",
+      "publishedAtSource": "observed-public-readback; exact platform time unavailable",
+      "mediaVerifiedAt": "2026-11-21T02:27:08.147Z",
+      "visibility": "public",
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaEvidence": "docs/daily-checks/2026-11-21/screenshots/study-abroad-facebook-public.jpg",
+      "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
+      "photoId": "1126028226840041",
+      "photoReadyEvidence": "Native composer showed diy.jpg attached before copy; subsequent settings preview retained the uploaded image.",
+      "imageCount": 1,
+      "photoAttachments": [
+        {
+          "id": "1126028226840041",
+          "url": "https://www.facebook.com/photo/?fbid=1126028226840041"
+        }
+      ],
+      "publicPhotoScreenshot": "docs/daily-checks/2026-11-21/screenshots/study-abroad-facebook-public.jpg",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-21T02:27:08.147Z"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "copyVersion": "2026-11-21-v1",
+      "imagePath": "public/images/social/2026-11-21/diy.jpg",
+      "id": "Df_J2sxoyO1",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Df_J2sxoyO1/",
+      "verifiedAt": "2026-11-21T02:27:24.382Z",
+      "publishedAt": "2026-11-21T02:26:13.000Z",
+      "publishedAtSource": "native time datetime",
+      "mediaVerifiedAt": "2026-11-21T02:27:24.382Z",
+      "visibility": "public",
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaEvidence": "docs/daily-checks/2026-11-21/screenshots/study-abroad-instagram-public.jpg",
+      "account": "ltuossdtw",
+      "imageCount": 1
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "copyVersion": "2026-11-21-v1",
+      "imagePath": "public/images/social/2026-11-21/diy.jpg",
+      "id": "Df_JuqUk3_m",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Df_JuqUk3_m",
+      "verifiedAt": "2026-11-21T02:26:21.537Z",
+      "publishedAt": "2026-11-21T02:25:05.000Z",
+      "publishedAtSource": "native time datetime",
+      "mediaVerifiedAt": "2026-11-21T02:26:21.537Z",
+      "visibility": "public",
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaEvidence": "docs/daily-checks/2026-11-21/screenshots/study-abroad-threads-public.jpg",
+      "account": "ltuossdtw",
+      "imageCount": 1
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/study-abroad/",
+      "copyVersion": "2026-11-21-v1",
+      "imagePath": "public/images/social/2026-11-21/diy.jpg",
+      "id": "7529731864442404864",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7529731864442404864/",
+      "verifiedAt": "2026-11-21T02:27:29.153Z",
+      "submittedAt": "2026-11-21T02:26:07.948Z",
+      "visibility": "public",
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-21T02:27:29.153Z",
+      "mediaEvidence": "docs/daily-checks/2026-11-21/screenshots/study-abroad-linkedin-public.jpg",
+      "account": "Peter Chen",
+      "publishedAt": "2026-11-21T02:26:07.948Z",
+      "publishedAtSource": "observed-submit; exact platform time unavailable",
+      "imageCount": 1
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "copyVersion": "2026-11-21-v1",
+      "imagePath": "public/images/social/2026-11-21/campus.jpg",
+      "id": "Df_J-BSE-EH",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/Df_J-BSE-EH",
+      "verifiedAt": "2026-11-21T02:28:28.631Z",
+      "publishedAt": "2026-11-21T02:27:11.000Z",
+      "publishedAtSource": "native time datetime",
+      "mediaVerifiedAt": "2026-11-21T02:28:28.631Z",
+      "visibility": "public",
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaEvidence": "docs/daily-checks/2026-11-21/screenshots/taiwan-universities-threads-public.jpg",
+      "account": "ltuossdtw",
+      "imageCount": 1
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "copyVersion": "2026-11-21-v1",
+      "imagePath": "public/images/social/2026-11-21/campus.jpg",
+      "id": "Df_KJW9o0qO",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/Df_KJW9o0qO/",
+      "verifiedAt": "2026-11-21T02:29:55.774Z",
+      "publishedAt": "2026-11-21T02:28:46.000Z",
+      "publishedAtSource": "native time datetime",
+      "mediaVerifiedAt": "2026-11-21T02:29:55.774Z",
+      "visibility": "public",
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaEvidence": "docs/daily-checks/2026-11-21/screenshots/taiwan-universities-instagram-public.jpg",
+      "account": "ltuossdtw",
+      "imageCount": 1
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/taiwan-universities/",
+      "copyVersion": "2026-11-21-v1",
+      "imagePath": "public/images/social/2026-11-21/campus.jpg",
+      "id": "7529732497761386496",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7529732497761386496/",
+      "verifiedAt": "2026-11-21T02:29:37.287Z",
+      "submittedAt": "2026-11-21T02:28:39.285Z",
+      "visibility": "public",
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-21T02:29:37.287Z",
+      "mediaEvidence": "docs/daily-checks/2026-11-21/screenshots/taiwan-universities-linkedin-public.jpg",
+      "account": "Peter Chen",
+      "publishedAt": "2026-11-21T02:28:39.285Z",
+      "publishedAtSource": "observed-submit; exact platform time unavailable",
+      "imageCount": 1
+    }
   ],
-  "manualActions": [],
+  "gaps": [
+    "三個LTU原文既有安全限制仍待人工安全確認；不重試或繞過。"
+  ],
+  "manualActions": [
+    "安全確認SETN1688074、Storm11051374、LTN5062658原文；其餘今日交付已完成。"
+  ],
   "preflight": {
     "verifiedAt": "2026-11-20T21:15:49.383Z",
     "security": {
@@ -481,7 +942,8 @@
           "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-12281/"
         }
       ],
-      "status": "prepared-not-deployed"
+      "status": "published",
+      "verifiedAt": "2026-11-21T02:12:33.812286+00:00"
     },
     {
       "slug": "australia-teqsa-tne-toolkit-student-protection-2026",
@@ -508,7 +970,8 @@
           "url": "https://www.teqsa.gov.au/guides-resources/resources/corporate-publications/transnational-education-tne-toolkit"
         }
       ],
-      "status": "prepared-not-deployed"
+      "status": "published",
+      "verifiedAt": "2026-11-21T02:12:33.806286+00:00"
     },
     {
       "slug": "us-international-student-economic-impact-methodology-2026",
@@ -535,11 +998,12 @@
           "url": "https://www.iie.org/news/u-s-colleges-and-universities-host-1-1m-international-students-in-2025-2026-school-year"
         }
       ],
-      "status": "prepared-not-deployed"
+      "status": "published",
+      "verifiedAt": "2026-11-21T02:12:33.797769+00:00"
     }
   ],
   "archiveRemediation": {
-    "status": "prepared-not-deployed",
+    "status": "complete",
     "skipped": [
       {
         "slug": "central-asia-tashkent-education-forum-mobility-2026",
@@ -553,7 +1017,7 @@
         "englishUrl": "https://globalednews.com/en/news/cornell-state-police-investigation-choice-2026/",
         "originalPublishedAt": "2026-10-31T20:11:11.32953+08:00",
         "updatedAt": "2026-11-21T05:35:00+08:00",
-        "verifiedAt": null
+        "verifiedAt": "2026-11-21T02:12:34.121679+00:00"
       },
       {
         "slug": "edinburgh-advanced-chip-design-academy-2026",
@@ -561,7 +1025,7 @@
         "englishUrl": "https://globalednews.com/en/news/edinburgh-advanced-chip-design-academy-2026/",
         "originalPublishedAt": "2026-10-30T10:09:51.831461+08:00",
         "updatedAt": "2026-11-21T05:35:00+08:00",
-        "verifiedAt": null
+        "verifiedAt": "2026-11-21T02:12:34.145763+00:00"
       },
       {
         "slug": "germany-wissenschaft-weltoffen-2026-international-students",
@@ -569,9 +1033,11 @@
         "englishUrl": "https://globalednews.com/en/news/germany-wissenschaft-weltoffen-2026-international-students/",
         "originalPublishedAt": "2026-10-29T10:16:04.318265+08:00",
         "updatedAt": "2026-11-21T05:35:00+08:00",
-        "verifiedAt": null
+        "verifiedAt": "2026-11-21T02:12:34.160764+00:00"
       }
-    ]
+    ],
+    "commit": "4be72fa50fe09ac93f02187f5a22aaae7fda0327",
+    "liveEvidence": "docs/daily-checks/2026-11-21/live-http-independent-read.json"
   },
   "scholarshipChecks": [
     {
@@ -601,7 +1067,7 @@
       "isNew": true,
       "baselineAbsent": true,
       "verifiedAt": "2026-11-20T21:21:17.487Z",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-11-21T02:12:33.809285+00:00",
       "updateSummary": "核對教育部116年度正式簡章與合作校資料，確認台灣設籍資格、資助範圍、校方及教育部申請先後與截止；全新頁面且不在296筆baseline。"
     },
     {
@@ -631,7 +1097,7 @@
       "isNew": true,
       "baselineAbsent": true,
       "verifiedAt": "2026-11-20T21:21:17.487Z",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-11-21T02:12:33.811287+00:00",
       "updateSummary": "核對教育部116年度正式簡章與合作校資料，確認台灣設籍資格、資助範圍、校方及教育部申請先後與截止；全新頁面且不在296筆baseline。"
     },
     {
@@ -665,7 +1131,7 @@
       "isNew": true,
       "baselineAbsent": true,
       "verifiedAt": "2026-11-20T21:21:17.488Z",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-11-21T02:12:33.819293+00:00",
       "updateSummary": "核對教育部116年度正式簡章與合作校資料，確認台灣設籍資格、資助範圍、校方及教育部申請先後與截止；全新頁面且不在296筆baseline。"
     }
   ],
@@ -725,9 +1191,10 @@
   "scholarshipCount": {
     "baseline": 296,
     "prepared": 299,
-    "liveVerified": null
+    "liveVerified": 299,
+    "verifiedAt": "2026-11-21T02:33:10.300Z"
   },
-  "updatedAt": "2026-11-21T08:03:03.1625264+08:00",
+  "updatedAt": "2026-11-21T02:34:23.065Z",
   "build": {
     "status": "success",
     "verifiedAt": "2026-11-20T21:41:19.802Z",
@@ -747,8 +1214,8 @@
     "remoteChanged": false,
     "localCommitCreated": false,
     "approvalRequested": true,
-    "resolvedBy": "User explicitly replied 请发布 in current conversation after exact main-push approval request.",
-    "resolvedAt": "2026-11-21T02:07:58.846Z"
+    "resolvedAt": "2026-11-21T02:07:58.846Z",
+    "resolution": "User explicitly requested publication; main push and production deployment succeeded."
   },
   "localAcceptance": {
     "verifiedAt": "2026-11-20T21:46:02.802Z",
@@ -767,11 +1234,12 @@
   "preparedFacebookDraft": {
     "account": "LTU OSSD #1加拿大 台加高中雙聯學制",
     "url": "https://www.facebook.com/LTUOSSDTaiwan",
-    "status": "PREPARED_NOT_SENT",
+    "status": "SUPERSEDED_BY_PUBLISHED_POST",
     "photoAttachedAt": "2026-11-20T21:44:57.961Z",
     "copyAddedAt": "2026-11-20T21:44:58.361Z",
     "photoReadyEvidence": "Native composer showed uploaded news.jpg and photo preview before copy; no send clicked.",
-    "screenshot": "docs/daily-checks/2026-11-21/screenshots/news-facebook-prepared-not-sent.jpg"
+    "screenshot": "docs/daily-checks/2026-11-21/screenshots/news-facebook-prepared-not-sent.jpg",
+    "note": "Old prepared draft superseded; fresh photo-first upload and public evidence in socialPosts."
   },
   "report0800": {
     "checkedAt": "2026-11-21T08:03:03.1625264+08:00",
@@ -797,5 +1265,65 @@
     "receivedAt": "2026-11-21T02:07:58.633Z",
     "text": "请发布",
     "scope": "Prepared November21 main push, production deployment and15+1 native social publication"
-  }
+  },
+  "deployment": {
+    "commit": "4be72fa50fe09ac93f02187f5a22aaae7fda0327",
+    "status": "success",
+    "runId": "44854172646",
+    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/44854172646",
+    "completedAt": "2026-11-21T02:11:40Z",
+    "verifiedAt": "2026-11-21T02:12:41.504379+00:00"
+  },
+  "newFacebookPagePost": {
+    "campaign": "new-facebook-page",
+    "network": "facebook",
+    "pageId": "61595164194381",
+    "status": "PUBLISHED",
+    "articleUrl": "https://globalednews.com/news/uk-eu-youth-experience-agreement-tuition-2026/",
+    "id": "122124731115505473",
+    "photoAttachedAt": "2026-11-21T02:29:35.726Z",
+    "copyAddedAt": "2026-11-21T02:29:35.775Z",
+    "submittedAt": "2026-11-21T02:29:55.771Z",
+    "publicUrl": "https://www.facebook.com/photo/?fbid=122124730959505473",
+    "publishedAt": "2026-11-21T02:30:59.271Z",
+    "publishedAtSource": "observed-public-readback; exact platform time unavailable",
+    "verifiedAt": "2026-11-21T02:30:59.271Z",
+    "mediaVerifiedAt": "2026-11-21T02:30:59.271Z",
+    "visibility": "public",
+    "mediaStatus": "VERIFIED",
+    "mediaKind": "uploaded-photo",
+    "mediaEvidence": "docs/daily-checks/2026-11-21/screenshots/new-facebook-page-facebook-public.jpg",
+    "account": "環球國際教育新聞網",
+    "photoId": "122124730959505473",
+    "photoReadyEvidence": "Native composer showed 環球國際教育新聞網 and news.jpg attached before copy; settings preview retained image.",
+    "imageCount": 1,
+    "photoAttachments": [
+      {
+        "id": "122124730959505473",
+        "url": "https://www.facebook.com/photo/?fbid=122124730959505473"
+      }
+    ],
+    "publicPhotoScreenshot": "docs/daily-checks/2026-11-21/screenshots/new-facebook-page-facebook-public.jpg",
+    "previewStatus": "VERIFIED",
+    "previewVerifiedAt": "2026-11-21T02:30:59.271Z",
+    "imagePath": "public/images/social/2026-11-21/news.jpg",
+    "copyVersion": "2026-11-21-v1"
+  },
+  "acceptance": {
+    "verifiedAt": "2026-11-21T02:33:10.300Z",
+    "desktop": "Production radar Caltech search Enter returned1; Canada combined returned0 with message; clear restored299; load-more27→51 including3picks. Homepage reviewed with new independent thumbnails.",
+    "mobile": "Measured CSS390px/document371px after accounting for browser zoom. WashU search button returned1; close-ad worked; headline wrapped without horizontal overflow on new UK/EU article.",
+    "seo": "Independent live HTTP:18 bilingual pages,9 images,canonical,hreflang,schema,robots,sitemaps,weeklyRSS.",
+    "evidence": [
+      "docs/daily-checks/2026-11-21/live-http-independent-read.json",
+      "docs/daily-checks/2026-11-21/screenshots/live-home-desktop.jpg",
+      "docs/daily-checks/2026-11-21/screenshots/live-radar-desktop.jpg",
+      "docs/daily-checks/2026-11-21/screenshots/live-radar-mobile.jpg",
+      "docs/daily-checks/2026-11-21/screenshots/live-news-mobile.jpg"
+    ],
+    "note": "Viewport override reset. Prior first mobile screenshot was still desktop and was replaced after actual CSS width verified.",
+    "scope": "PRODUCTION",
+    "httpPages": 18
+  },
+  "deliveryCompletedAt": "2026-11-21T02:34:23.065Z"
 }
