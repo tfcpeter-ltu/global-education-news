@@ -1,0 +1,44 @@
+[
+  {
+    "route": "/vlog/",
+    "status": 200,
+    "catalogCount": 195,
+    "today": 6,
+    "allNewIds": true,
+    "allSummaries": true,
+    "homeLink": true
+  },
+  {
+    "route": "/en/vlog/",
+    "status": 200,
+    "catalogCount": 195,
+    "today": 6,
+    "allNewIds": true,
+    "allSummaries": true,
+    "homeLink": true
+  },
+  {
+    "id": "AkndNlkj2xo",
+    "thumbnailStatus": 200
+  },
+  {
+    "id": "k7u5O7DJ6JU",
+    "thumbnailStatus": 200
+  },
+  {
+    "id": "XUme3-gV8wE",
+    "thumbnailStatus": 200
+  },
+  {
+    "id": "nL3tF2hl7ho",
+    "thumbnailStatus": 200
+  },
+  {
+    "id": "t53HghVhSnI",
+    "thumbnailStatus": 200
+  },
+  {
+    "id": "gCKAYv76fFY",
+    "thumbnailStatus": 200
+  }
+]

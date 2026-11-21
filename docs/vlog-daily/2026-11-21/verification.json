@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-21",
+  "status": "website-live-social-complete",
+  "baseline": "6df6295e56dd3617efb964213d47c6f50273221d",
+  "commit": "83fd1bbf3be46dfd0055b80fe6ee5f95f183c688",
+  "deploymentRun": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/44864743357",
+  "deployment": "success",
+  "videosBefore": 189,
+  "videosAfter": 195,
+  "liveNewVideos": 6,
+  "socialPlanned": 10,
+  "socialPublished": 10,
+  "tests": [
+    "Vlog source and built tests passed195",
+    "Astro735pages after scholarship seed generation",
+    "1030 bilingual pairs;0newtranslations",
+    "git diff --check passed",
+    "Live zh/en HTTP200:195cards,6today,allnewIDsandfullsummaries",
+    "Six official thumbnails HTTP200",
+    "English rendered main contains no Chinese",
+    "Six daily thumbnails loaded in browser",
+    "University official filter142; UBC title search1; empty search state verified",
+    "UBC original embedded video visibly played; not claiming all six played",
+    "Zh home href/;en home href/en/",
+    "Nine recommended objects unchanged",
+    "Ten native public post URLs, account, complete body and actual image reread"
+  ],
+  "limitations": [
+    "Captions empty or unavailable; summaries bounded to official descriptions/chapters and Stanford official transcript",
+    "Recent view velocity unavailable; editorial selections, no global most-popular claim",
+    "Mobile-specific viewport was not separately tested this run; existing responsive layout unchanged",
+    "Platform native date displays may use account timezone; dedup keyed to Asia/Taipei 2026-11-21"
+  ],
+  "cloudSyncVerified": false
+}
