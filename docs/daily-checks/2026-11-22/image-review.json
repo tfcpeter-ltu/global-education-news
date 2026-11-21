@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-11-21T21:45:07.016Z",
+  "photoCount": 9,
+  "contactSheetVisuallyReviewed": true,
+  "mobileCardsReadable": true,
+  "recentSourceDuplicates": [],
+  "images": [
+    {
+      "key": "london",
+      "source": "https://commons.wikimedia.org/wiki/File:Parkinson_Building,_Leeds_University,_England-12Sept2010.jpg",
+      "sha256": "f66a66b73c3dc050d4c605de520ffa493bf04a3f837908c5ae9f77ad5b22a2be"
+    },
+    {
+      "key": "australia",
+      "source": "https://commons.wikimedia.org/wiki/File:State_Library_of_Victoria_La_Trobe_Reading_room_5th_floor_view.jpg",
+      "sha256": "98e7bd7e94b5c01074ec3cc741e7d4ba89d7cb7c52c636f975d836a40df97b8c"
+    },
+    {
+      "key": "harvard",
+      "source": "https://commons.wikimedia.org/wiki/File:Memorial_Hall_-_Harvard_University_-_IMG_0072.JPG",
+      "sha256": "81377a801c37ad9da1c9a131f73913ce1db89902804f87f410d7baf421b9d8e0"
+    },
+    {
+      "key": "jhu",
+      "source": "https://commons.wikimedia.org/wiki/File:Gilman_Hall,_Johns_Hopkins_University,_Baltimore,_MD.jpg",
+      "sha256": "4a0c564c9c5d8513bf7515c4f331d5f0774d48faa7e2f6d7eec0f6814485c8b7"
+    },
+    {
+      "key": "epfl",
+      "source": "https://commons.wikimedia.org/wiki/File:EPFL_Rolex_Learning_Center_@_EPFL_@_Lausanne_(36749824932).jpg",
+      "sha256": "85b654a0d8c5c96a77cb9317da978f3317f4f9be28c318b4cb37c58104189d2a"
+    },
+    {
+      "key": "canada",
+      "source": "https://commons.wikimedia.org/wiki/File:George_Brown_College_-_St._James_Campus_-_A_Building_2022.jpg",
+      "sha256": "d3721bda51cb6db35eb1adc012264ceb60f1e6dd68bff652c9e89f19a6b449d9"
+    },
+    {
+      "key": "peter",
+      "source": "https://commons.wikimedia.org/wiki/File:Dartmouth_College_campus_2007-11-06_Baker_Memorial_Library_12_-_Reserves_Corridor.JPG",
+      "sha256": "643e2accba68fd5ddda1fa2b5b0391eb8c638a6b41c6b85261b2dc1a5e87062c"
+    },
+    {
+      "key": "melbourne",
+      "source": "https://commons.wikimedia.org/wiki/File:Old_Quad_lawn_University_of_Melbourne_2018.jpg",
+      "sha256": "f98dfc4712596ec73aac89e8917ca08e548ebe865de071bddcc0b6870f60a121"
+    },
+    {
+      "key": "nthu",
+      "source": "https://commons.wikimedia.org/wiki/File:Campus_of_National_Tsing_Hua_University_04.jpg",
+      "sha256": "9203d13457c3f69f88ce8b459f29b10bb0eaec053917f8c9cce54601e10c663f"
+    }
+  ]
+}

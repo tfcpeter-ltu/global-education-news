@@ -1,0 +1,10 @@
+{
+  "checkedAt": "2026-11-21T21:45:29.755Z",
+  "status": "PASS",
+  "high": 0,
+  "critical": 0,
+  "moderate": 2,
+  "low": 2,
+  "output": "Raw registry vulnerability totals: { info: 0, low: 2, moderate: 2, high: 0, critical: 0 }\nDEPENDENCY_GATE_PASS: no unmitigated high/critical advisories. Lower-severity findings remain reported.\n",
+  "expiredExceptionUsed": false
+}

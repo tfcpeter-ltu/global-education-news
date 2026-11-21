@@ -1168,5 +1168,83 @@
     "independentSource": "https://thepienews.com/willkommen-why-international-students-are-choosing-germany/",
     "reviewedAt": "2026-11-21",
     "bodySha256": "181d7538aa9ec42a92e449b36b8920b60d4fb1b8c913f2ea4783f368d3273e73"
+  },
+  "uk-ptes-2026-postgraduate-satisfaction-sample": {
+    "newsValue": "十一月十七日新調查直接涉及英國授課型碩士選校，重點是正確使用滿意度而非排行榜。",
+    "background": "交代問卷期間、授課型課程與受訪樣本，避免把公布日期當成秋季新生即時調查。",
+    "development": "從官方紀錄總分推進到獨立樣本分析，再說明機構如何以課程資料回應。",
+    "perspectives": "Wonkhe作者自行分析未加權樣本及改版問題，和官方結果的用途並列而不假裝撤回結果。",
+    "taiwanImpact": "提供台灣家庭可向目標科系追問的回覆率、學生群體與實際支持安排，無就業保證。",
+    "uncertainty": "不把樣本滿意度當成個人機率，不把學校照片指認為某項分數或研究現場證據。",
+    "independence": "Advance HE為調查原作者；Wonkhe提供不同資料組成與跨年方法的批判分析，非轉載新聞稿。",
+    "primarySource": "https://advance-he.org/th/knowledge-hub/postgraduate-taught-experience-survey-2026-sector-results-report/",
+    "independentSource": "https://wonkhe.com/wonk-corner/home-postgraduates-are-no-happier-than-they-were-a-decade-ago",
+    "reviewedAt": "2026-11-22",
+    "bodySha256": "48bd5a8f7cdede1daab7f95b33e92df0eb3648b6cee9d9ccbebc9630232b3ada"
+  },
+  "australia-asqa-cancelled-qualifications-evidence-review-2026": {
+    "newsValue": "十一月十七日新聲明涉及職業教育資格連鎖影響，直接回答台灣學生收到通知時如何理解。",
+    "background": "清楚界定VET訓練機構與既有2025標準，未把聲明擴張成所有澳洲大學學位審查。",
+    "development": "依證書撤銷、其他機構依賴、重新評量和後續處理的程序解釋制度責任與時間順序。",
+    "perspectives": "CAQA獨立提出工作流程並揭露商業顧問角色；Koala補充學生已作教育職涯決定的負擔。",
+    "taiwanImpact": "具體列學生可整理的證據、書面詢問與抵免核准程序，沒有推銷或提供個案有效性判定。",
+    "uncertainty": "區分被撤銷資格、持有人行為及下游學生資格，不保證退款、重讀範圍或替代證書。",
+    "independence": "官方監管聲明是第一手規範；CAQA自行設計的處理流程有明確分析且不冒充官方清單。",
+    "primarySource": "https://www.asqa.gov.au/sites/default/files/2026-11/Statement%20of%20Regulatory%20Expectations.pdf",
+    "independentSource": "https://caqa.com.au/blogs/news/asqa-cancelled-qualifications-rto-action-checklist",
+    "reviewedAt": "2026-11-22",
+    "bodySha256": "86232d02b7212d07b39450579982213aca6d353bfe30308cbf7c51520da97c26"
+  },
+  "canada-statcan-free-data-literacy-courses-2026": {
+    "newsValue": "11月17日新開放免費資源，對台灣學生準備研究及比較留學資料具體可用。",
+    "background": "以OECD成人能力獨立研究說明數理素養需求，區分跨國成人樣本及台灣學生。",
+    "development": "按公告、註冊、四單元內容及完成要求，釐清免費學習與學位認證的不同。",
+    "perspectives": "OECD指出能力包括篩選解釋質疑資訊，不以操作軟體或拿證書等同能力。",
+    "taiwanImpact": "提出同幣別同期間預算及獎學金資助範圍練習，明示編輯建議而非官方認證。",
+    "uncertainty": "明示沒有對新課程成效的獨立研究，不保證升學、學分、成績或錄取率。",
+    "independence": "OECD自主成人能力評估是獨立研究背景；未將Academica轉載公告算第二獨立調查。",
+    "primarySource": "https://www150.statcan.gc.ca/n1/daily-quotidien/261117/dq261117e-eng.htm",
+    "independentSource": "https://www.oecd.org/en/topics/adult-numeracy-skills.html",
+    "reviewedAt": "2026-11-22",
+    "bodySha256": "ee2da4d29540755aa218e0331811b7c0be693e9bd32d4603b3e139ec9fc5ce36"
+  },
+  "central-asia-tashkent-education-forum-mobility-2026": {
+    "newsValue": "論壇關注學術流動、共同學位與研究合作，為台灣學生比較新興目的地提供可追蹤的具體線索。",
+    "background": "先區分論壇議程、合作意向、正式招生與資格認定，避免把新興教育空間宣傳當成已落實制度。",
+    "development": "分別交代10月28日官方安排、預期參與規模及29日巴基斯坦參與方發言，不虛構會後成果。",
+    "perspectives": "Academia補充參與方領域與產業連結，不把主辦期待當已達成結果。",
+    "taiwanImpact": "讀者可依授予機構、修課地點、學分移轉與執業資格查詢順序，評估具體共同學位是否符合需求。",
+    "uncertainty": "1,500人仍是官方預期規模，沒有台灣專屬名額、全面互認生效或課程已開放申請的證據。",
+    "independence": "官方主辦方提供議程與場地；Academia另報巴基斯坦參與方的具體提案與產業連結，沒有當兩篇轉載。",
+    "primarySource": "https://forum.edu.uz/en",
+    "independentSource": "https://academiamag.com/news/pakistan-eyes-stronger-academic-ties-with-central-asia/",
+    "reviewedAt": "2026-11-22",
+    "bodySha256": "22a76f7e16af0a5b049a2035551fcf1020b39d6d4d50f202e34b2775db022796"
+  },
+  "idp-emerging-futures-10-australia-study-choice-2026": {
+    "newsValue": "目的地意向變化提醒台灣家庭同時考慮費用、簽證與課程，不能將問卷排名代替個人選校。",
+    "background": "保留8–9月調查與10月公布的差別、樣本限制及商業機構角色。",
+    "development": "31到24解釋為七個百分點，並區分第一志願、多國考慮清單與實際入學數的不同統計口徑。",
+    "perspectives": "保留IDP主管對政策訊息的市場解讀與PIE成本競爭背景，並揭露IDP的教育服務商角色。",
+    "taiwanImpact": "提供課程層級比較表、政策查閱日期及不同畢業路徑的預算規劃，未推銷多申請或保證結果。",
+    "uncertainty": "意向不是入學人數、錄取率或拒簽率，沒有台灣子樣本與單一政策造成降幅的因果證據。",
+    "independence": "IDP官方原生全文核對比例；PIE署名報導補充期間、樣本及成本背景，市場評論均清楚歸屬。",
+    "primarySource": "https://careers.idp.com/news/emerging-futures-10-global",
+    "independentSource": "https://thepienews.com/australia-loses-ground-to-uk-and-us-in-international-student-race/",
+    "reviewedAt": "2026-11-22",
+    "bodySha256": "4b45763bfb896a13412ea31d05ce69dd1c101f2deaf868a114627b26fdaf88ff"
+  },
+  "uk-budget-2026-graduate-visa-conditional-two-years": {
+    "newsValue": "條件式兩年畢業簽證關乎2027留學規劃，重點在宣布與可實際申請之間尚未填補的制度差距。",
+    "background": "保留10月預算宣布與11月22日現行GOV.UK指引，清楚並列18個月、兩年與博士三年情況。",
+    "development": "按預算、詳細資格設計、實際申請時點及學校完成通報逐層說明，不提前宣告新例外生效。",
+    "perspectives": "PIE具署名報導補充資格設計尚未完成及大學團體反應，團體立場沒有當成學生確定權利。",
+    "taiwanImpact": "建議向國際學生辦公室查正式指引與通報，保存來源日期，按不同停留期間準備替代預算。",
+    "uncertainty": "沒有正式合格學校名單就不自行指定，不以排名或擔保資格推定新例外，也不保證就業。",
+    "independence": "政府預算與申請原文；PIE具署名報導另有資格設計資訊及團體回應。",
+    "primarySource": "https://www.gov.uk/government/publications/budget-2026-document/budget-2026-html",
+    "independentSource": "https://thepienews.com/breaking-uk-to-extend-graduate-visa-to-two-years-for-graduates-of-high-compliance-universities/",
+    "reviewedAt": "2026-11-22",
+    "bodySha256": "2c224a3ce1ab34c1efc12cabb9dc4d9ccc54480dd5c09a877d8c51a3a18c43ca"
   }
 }
