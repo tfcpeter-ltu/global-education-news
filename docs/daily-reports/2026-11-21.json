@@ -2,7 +2,7 @@
   "date": "2026-11-21",
   "timezone": "Asia/Taipei",
   "startedAt": "2026-11-20T21:06:23.965Z",
-  "status": "partial_external_blocker",
+  "status": "in_progress",
   "currentPhase": "COMMIT_DEPLOY",
   "baseCommit": "b9c5bf5f2c44c79da0f30d389e8aa977bfc9c95d",
   "scholarshipBaselineSlugs": [
@@ -747,7 +747,8 @@
     "remoteChanged": false,
     "localCommitCreated": false,
     "approvalRequested": true,
-    "resolvedBy": "User explicitly replied 请发布 in current conversation after exact main-push approval request."
+    "resolvedBy": "User explicitly replied 请发布 in current conversation after exact main-push approval request.",
+    "resolvedAt": "2026-11-21T02:07:58.846Z"
   },
   "localAcceptance": {
     "verifiedAt": "2026-11-20T21:46:02.802Z",
@@ -791,5 +792,10 @@
       "Human safe review of SETN1688074 Storm11051374 LTN5062658"
     ],
     "note": "Remote main independently confirmed. Recent user instruction in other chat preceded the November21 rejection and concerned November20 catch-up; no later approval found. Build/local acceptance prepared; not production acceptance. No duplicate publishing or new automation."
+  },
+  "userPublicationApproval": {
+    "receivedAt": "2026-11-21T02:07:58.633Z",
+    "text": "请发布",
+    "scope": "Prepared November21 main push, production deployment and15+1 native social publication"
   }
 }
