@@ -627,7 +627,7 @@
       "updateSummary": "以教育部116年度正式簡章及合作校獎學金／合作專頁雙重確認設籍資格、2027新入學、資助內容、校方與教育部時程及排除條件。全新頁面，不在299筆起始清單。"
     }
   ],
-  "updatedAt": "2026-11-22T05:55:16.004Z",
+  "updatedAt": "2026-11-22T05:58:05.538Z",
   "build": {
     "status": "success",
     "verifiedAt": "2026-11-21T21:45:29.756Z",
@@ -1286,7 +1286,9 @@
     "sourceSafetyRestrictionsUnchanged": true,
     "finishedAt": "2026-11-22T05:55:16.004Z",
     "evidencePushedCommit": "193956668387b98d2dde2156989e28793b8899ca",
-    "pushScope": "Daily social ledger, report, acceptance checks, campaign histories and radar card. Archive queue and local sync manifest remain local after approval review scope reduction."
+    "pushScope": "Daily social ledger, report, acceptance checks, campaign histories and radar card; administrative follow-up includes archive completion queue and local sync manifest after verifying the three articles were already deployed in 3e2c481. No new article or Vlog source changes.",
+    "administrativeEvidenceCommit": "3fe4a87",
+    "administrativeEvidenceCheckedAt": "2026-11-22T05:58:05.537Z"
   },
   "finalPublicationDeployment": {
     "commit": "193956668387b98d2dde2156989e28793b8899ca",
