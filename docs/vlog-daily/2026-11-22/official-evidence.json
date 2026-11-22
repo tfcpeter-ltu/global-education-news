@@ -1,0 +1,23 @@
+{
+  "verifiedAt": "2026-11-22T04:07:23.480Z",
+  "sources": [
+    {
+      "url": "https://www.bristol.ac.uk/dental/courses/undergraduate/",
+      "read": "Official dental school degree information; current course details are separate from archival video."
+    },
+    {
+      "url": "https://ethz.ch/de/campus/erreichen/zentrum.html",
+      "read": "Official Zentrum campus information, public access and transport; no current access specifics imported into video summary."
+    },
+    {
+      "url": "https://www.ltuedu.net/",
+      "read": "LTU OSSD and international study service context; confirmed Peter channel video expressly names LTU OSSD and links ossdtw.com."
+    }
+  ],
+  "tests": [
+    "Astro 742 pages built",
+    "Vlog source and built tests passed 201",
+    "1038 bilingual pairs passed; 0 new translations",
+    "git diff --check passed"
+  ]
+}

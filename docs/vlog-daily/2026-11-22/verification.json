@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-22",
+  "status": "website-live-social-complete",
+  "baseline": "3e2c481c9248b719e23e2d887cbcb0e9ff7ea261",
+  "commit": "d519d6152ae68cdc34a32556eebba942b7fbd4e5",
+  "deployment": "success",
+  "deploymentRun": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/44983460288",
+  "videosBefore": 195,
+  "videosAfter": 201,
+  "liveNewVideos": 6,
+  "socialPlanned": 10,
+  "socialPublished": 10,
+  "tests": [
+    "Astro742pages; Vlog source and built tests201videos passed",
+    "1038 bilingual pairs passed;0newtranslations",
+    "Both official language pages HTTP200;201catalogcards;6today;allnewIDs and summaries;6thumbnails200",
+    "Browser six daily thumbnails loaded; university filter147; Bristol dental search1; Chinese and English home buttons",
+    "Bristol original embed visibly played at0:01/4:33; not claiming all six playback tested",
+    "Ten native public social URLs/accounts/full bodies and actual images reread"
+  ],
+  "limitations": [
+    "Public lifetime view counts only; no verified recent velocity or global popularity ranking",
+    "Caption tracks absent or empty; descriptions bounded to official summaries",
+    "Requested390px viewport override did not take effect in native browser; mobile-specific verification not claimed",
+    "Platform visible dates use account timezone; dedup keyed to Taiwan2026-11-22",
+    "Instagram bio destination not verified; caption tells readers to copy URL"
+  ],
+  "cloudSyncVerified": false
+}
