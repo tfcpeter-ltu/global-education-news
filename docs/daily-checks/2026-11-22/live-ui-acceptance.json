@@ -1,0 +1,28 @@
+{
+  "verifiedAt": "2026-11-21T22:27:05.252Z",
+  "desktop": true,
+  "mobile": true,
+  "seo": true,
+  "desktopEvidence": "docs/daily-checks/2026-11-22/screenshots/radar-live-302.jpg",
+  "mobileEvidence": "docs/daily-checks/2026-11-22/screenshots/live-news-mobile.jpg",
+  "desktopCssWidth": 1465,
+  "mobileCssWidth": 390,
+  "mobileClientWidth": 371,
+  "mobileScrollWidth": 371,
+  "checks": [
+    "ZH desktop EPFL + Switzerland + PhD + open = 1; Canada combination = 0 with explicit message; clear = 302; visible cards 27 to 51",
+    "ZH mobile Harvard search button = 4, precise Taiwan Harvard title = 1; unsupported slug text = 0 with message; clear and more 27 to 51",
+    "EN EPFL + Switzerland + PhD = 1; result links retain /en/",
+    "Mobile Canada article title wraps; photo loaded; no horizontal overflow",
+    "Taiwan university NTHU + information = 2; nonexistent keyword = 0 with explanation; restored = 2",
+    "DIY Melbourne navigation yields 5 results including University of Melbourne; old filters cleared first",
+    "20 affected bilingual URLs,10 images,canonical,OG,schema,hreflang,robots,sitemap,news sitemap and weekly RSS passed independent HTTP checks",
+    "10 English article bodies contain no CJK fragments"
+  ],
+  "limitations": [
+    "Some additional radar/desktop capture attempts timed out or returned stale viewport; those images are not acceptance evidence. Desktop proof uses the same-run post-deployment 302 radar screenshot; mobile proof uses the successfully observed Canada article screenshot.",
+    "Browser mobile viewport adjusted for existing 80% zoom; measured CSS width 390, viewport override reset after checks."
+  ],
+  "httpEvidence": "docs/daily-checks/2026-11-22/live-http-independent-read.json",
+  "englishEvidence": "docs/daily-checks/2026-11-22/live-english-body.json"
+}

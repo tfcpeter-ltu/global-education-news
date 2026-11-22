@@ -1,0 +1,14 @@
+{
+  "type": "automatic-approval-review-rejected",
+  "observedAt": "2026-11-21T22:27:05.252Z",
+  "action": "Publish scholarship photo post publicly on Peter Chen LinkedIn",
+  "reason": "Reviewer rejected action because no trusted user message explicitly authorizes this specific publication.",
+  "pendingCampaigns": [
+    "scholarship",
+    "study-abroad",
+    "taiwan-universities"
+  ],
+  "pendingNetwork": "linkedin",
+  "noRetryOrWorkaround": true,
+  "approvalRequested": true
+}

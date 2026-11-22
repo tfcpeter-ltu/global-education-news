@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-11-22T08:02:09.2178833+08:00",
+  "status": "INCOMPLETE",
+  "deadlineMet": false,
+  "remoteMain": "3e2c481c9248b719e23e2d887cbcb0e9ff7ea261",
+  "regularPublished": 12,
+  "newFacebookPublished": 1,
+  "missing": [
+    "scholarship/linkedin",
+    "study-abroad/linkedin",
+    "taiwan-universities/linkedin",
+    "final evidence commit/push"
+  ],
+  "reason": "Prior automatic approval review rejections remain pending explicit user approval; no retry or workaround.",
+  "savedEvidenceChecked": 13,
+  "productionAcceptance": "Same-day 05:00 batch evidence reviewed; not repeated",
+  "ltuSourceRestrictions": 3
+}

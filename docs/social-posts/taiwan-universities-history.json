@@ -894,6 +894,33 @@
         "National Chung Hsing University"
       ],
       "topic": "校級研究經費與學生實驗室機會分開查"
+    },
+    {
+      "date": "2026-11-22",
+      "status": "published",
+      "schools": [
+        "National Tsing Hua University"
+      ],
+      "topic": "Distinguish researched department profiles from MOE directory-only entries",
+      "evidence": "docs/social-posts/2026-11-22/publication-log.json",
+      "pendingNetworks": [],
+      "posts": [
+        {
+          "network": "instagram",
+          "id": "DgBQ3chk9iI",
+          "publicUrl": "https://www.instagram.com/ltuossdtw/p/DgBQ3chk9iI/"
+        },
+        {
+          "network": "threads",
+          "id": "DgBR8tKk_Hp",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DgBR8tKk_Hp"
+        },
+        {
+          "network": "linkedin",
+          "id": "7530145175528964096",
+          "publicUrl": "https://lnkd.in/p/geXDA6ye"
+        }
+      ]
     }
   ]
 }

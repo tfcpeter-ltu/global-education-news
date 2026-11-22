@@ -1472,6 +1472,37 @@
           "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7529731864442404864/"
         }
       ]
+    },
+    {
+      "date": "2026-11-22",
+      "status": "published",
+      "country": "Australia",
+      "schoolName": "University of Melbourne",
+      "storyAngle": "Breadth prerequisites, quotas and Handbook entry-year versus subject-year requirements",
+      "evidence": "docs/social-posts/2026-11-22/publication-log.json",
+      "pendingNetworks": [],
+      "posts": [
+        {
+          "network": "facebook",
+          "id": "pfbid02gxf5SpbutqFBiAjoGT7wUP7djns34Q5k3S6MT2kv1jdc8uDMnRQx6hkKWQ7z1LB8l",
+          "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02gxf5SpbutqFBiAjoGT7wUP7djns34Q5k3S6MT2kv1jdc8uDMnRQx6hkKWQ7z1LB8l"
+        },
+        {
+          "network": "instagram",
+          "id": "DgBQq-tE_kN",
+          "publicUrl": "https://www.instagram.com/ltuossdtw/p/DgBQq-tE_kN/"
+        },
+        {
+          "network": "threads",
+          "id": "DgBRzhHkxUc",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DgBRzhHkxUc"
+        },
+        {
+          "network": "linkedin",
+          "id": "7530144836528537602",
+          "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7530144836528537602/"
+        }
+      ]
     }
   ]
 }

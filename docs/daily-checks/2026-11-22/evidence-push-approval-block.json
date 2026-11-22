@@ -1,0 +1,9 @@
+{
+  "type": "automatic-approval-review-rejected",
+  "observedAt": "2026-11-21T22:28:41.171Z",
+  "action": "Commit and push 13 evidence files to origin main",
+  "reason": "Reviewer requires trusted user authorization for this default-main commit and external push.",
+  "userApprovalRequested": true,
+  "retried": false,
+  "contentDeploymentUnaffected": "3e2c481c9248b719e23e2d887cbcb0e9ff7ea261"
+}
