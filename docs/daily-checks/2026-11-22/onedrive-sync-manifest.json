@@ -1,0 +1,269 @@
+{
+  "checkedAt": "2026-11-21T21:45:49.102Z",
+  "cloudSyncVerified": false,
+  "backup": "C:\\Users\\User\\AppData\\Local\\Temp\\globalednews-20261122\\onedrive-pre-sync-backup",
+  "files": [
+    {
+      "path": "docs/daily-checks/2026-11-22/build.log",
+      "action": "copy",
+      "bytes": 64787,
+      "backup": null
+    },
+    {
+      "path": "docs/daily-checks/2026-11-22/dependency-audit.json",
+      "action": "copy",
+      "bytes": 370,
+      "backup": null
+    },
+    {
+      "path": "docs/daily-checks/2026-11-22/image-review.json",
+      "action": "copy",
+      "bytes": 2326,
+      "backup": null
+    },
+    {
+      "path": "docs/daily-checks/2026-11-22/local-acceptance.json",
+      "action": "copy",
+      "bytes": 5325,
+      "backup": null
+    },
+    {
+      "path": "docs/daily-reports/2026-11-22.json",
+      "action": "copy",
+      "bytes": 29265,
+      "backup": "C:\\Users\\User\\AppData\\Local\\Temp\\globalednews-20261122\\onedrive-pre-sync-backup\\docs\\daily-reports\\2026-11-22.json"
+    },
+    {
+      "path": "docs/editorial/news-reviews.json",
+      "action": "merge-today-keys",
+      "bytes": 173895,
+      "backup": "C:\\Users\\User\\AppData\\Local\\Temp\\globalednews-20261122\\onedrive-pre-sync-backup\\docs\\editorial\\news-reviews.json"
+    },
+    {
+      "path": "docs/social-posts/2026-11-22/2026-11-taiwan-epfl-phd-2027.json",
+      "action": "copy",
+      "bytes": 2071,
+      "backup": null
+    },
+    {
+      "path": "docs/social-posts/2026-11-22/2026-11-taiwan-harvard-phd-2027.json",
+      "action": "copy",
+      "bytes": 1978,
+      "backup": null
+    },
+    {
+      "path": "docs/social-posts/2026-11-22/2026-11-taiwan-jhu-phd-2027.json",
+      "action": "copy",
+      "bytes": 1980,
+      "backup": null
+    },
+    {
+      "path": "docs/social-posts/2026-11-22/australia-asqa-cancelled-qualifications-evidence-review-2026.json",
+      "action": "copy",
+      "bytes": 2541,
+      "backup": null
+    },
+    {
+      "path": "docs/social-posts/2026-11-22/campus.json",
+      "action": "copy",
+      "bytes": 4718,
+      "backup": null
+    },
+    {
+      "path": "docs/social-posts/2026-11-22/canada-statcan-free-data-literacy-courses-2026.json",
+      "action": "copy",
+      "bytes": 2353,
+      "backup": null
+    },
+    {
+      "path": "docs/social-posts/2026-11-22/diy.json",
+      "action": "copy",
+      "bytes": 5282,
+      "backup": null
+    },
+    {
+      "path": "docs/social-posts/2026-11-22/new-facebook-page.json",
+      "action": "copy",
+      "bytes": 4452,
+      "backup": null
+    },
+    {
+      "path": "docs/social-posts/2026-11-22/news.json",
+      "action": "copy",
+      "bytes": 4422,
+      "backup": null
+    },
+    {
+      "path": "docs/social-posts/2026-11-22/publication-log.json",
+      "action": "identical"
+    },
+    {
+      "path": "docs/social-posts/2026-11-22/scholarship.json",
+      "action": "copy",
+      "bytes": 10621,
+      "backup": null
+    },
+    {
+      "path": "docs/social-posts/2026-11-22/uk-ptes-2026-postgraduate-satisfaction-sample.json",
+      "action": "copy",
+      "bytes": 2253,
+      "backup": null
+    },
+    {
+      "path": "public/images/daily/2026-11-22/australia.jpg",
+      "action": "copy",
+      "bytes": 1051935,
+      "backup": null
+    },
+    {
+      "path": "public/images/daily/2026-11-22/canada.jpg",
+      "action": "copy",
+      "bytes": 583097,
+      "backup": null
+    },
+    {
+      "path": "public/images/daily/2026-11-22/credits.html",
+      "action": "copy",
+      "bytes": 5510,
+      "backup": null
+    },
+    {
+      "path": "public/images/daily/2026-11-22/epfl.jpg",
+      "action": "copy",
+      "bytes": 394620,
+      "backup": null
+    },
+    {
+      "path": "public/images/daily/2026-11-22/harvard.jpg",
+      "action": "copy",
+      "bytes": 491429,
+      "backup": null
+    },
+    {
+      "path": "public/images/daily/2026-11-22/jhu.jpg",
+      "action": "copy",
+      "bytes": 461334,
+      "backup": null
+    },
+    {
+      "path": "public/images/daily/2026-11-22/london.jpg",
+      "action": "copy",
+      "bytes": 461668,
+      "backup": null
+    },
+    {
+      "path": "public/images/daily/2026-11-22/melbourne.jpg",
+      "action": "copy",
+      "bytes": 1328653,
+      "backup": null
+    },
+    {
+      "path": "public/images/daily/2026-11-22/nthu.jpg",
+      "action": "copy",
+      "bytes": 285350,
+      "backup": null
+    },
+    {
+      "path": "public/images/daily/2026-11-22/peter.jpg",
+      "action": "copy",
+      "bytes": 566727,
+      "backup": null
+    },
+    {
+      "path": "public/images/daily/2026-11-22/sources.json",
+      "action": "copy",
+      "bytes": 7865,
+      "backup": null
+    },
+    {
+      "path": "public/images/social/2026-11-22/campus.jpg",
+      "action": "copy",
+      "bytes": 375298,
+      "backup": null
+    },
+    {
+      "path": "public/images/social/2026-11-22/diy.jpg",
+      "action": "copy",
+      "bytes": 620682,
+      "backup": null
+    },
+    {
+      "path": "public/images/social/2026-11-22/news.jpg",
+      "action": "copy",
+      "bytes": 407196,
+      "backup": null
+    },
+    {
+      "path": "src/data/i18n/en-overrides.json",
+      "action": "merge-today-keys",
+      "bytes": 2536729,
+      "backup": "C:\\Users\\User\\AppData\\Local\\Temp\\globalednews-20261122\\onedrive-pre-sync-backup\\src\\data\\i18n\\en-overrides.json"
+    },
+    {
+      "path": "src/data/peter-articles.json",
+      "action": "merge-new-peter",
+      "bytes": 227647,
+      "backup": "C:\\Users\\User\\AppData\\Local\\Temp\\globalednews-20261122\\onedrive-pre-sync-backup\\src\\data\\peter-articles.json"
+    },
+    {
+      "path": "src/pages/news/australia-asqa-cancelled-qualifications-evidence-review-2026.md",
+      "action": "copy",
+      "bytes": 5529,
+      "backup": null
+    },
+    {
+      "path": "src/pages/news/canada-statcan-free-data-literacy-courses-2026.md",
+      "action": "copy",
+      "bytes": 5032,
+      "backup": null
+    },
+    {
+      "path": "src/pages/news/central-asia-tashkent-education-forum-mobility-2026.md",
+      "action": "copy",
+      "bytes": 5013,
+      "backup": "C:\\Users\\User\\AppData\\Local\\Temp\\globalednews-20261122\\onedrive-pre-sync-backup\\src\\pages\\news\\central-asia-tashkent-education-forum-mobility-2026.md"
+    },
+    {
+      "path": "src/pages/news/idp-emerging-futures-10-australia-study-choice-2026.md",
+      "action": "copy",
+      "bytes": 4773,
+      "backup": "C:\\Users\\User\\AppData\\Local\\Temp\\globalednews-20261122\\onedrive-pre-sync-backup\\src\\pages\\news\\idp-emerging-futures-10-australia-study-choice-2026.md"
+    },
+    {
+      "path": "src/pages/news/uk-budget-2026-graduate-visa-conditional-two-years.md",
+      "action": "copy",
+      "bytes": 5072,
+      "backup": "C:\\Users\\User\\AppData\\Local\\Temp\\globalednews-20261122\\onedrive-pre-sync-backup\\src\\pages\\news\\uk-budget-2026-graduate-visa-conditional-two-years.md"
+    },
+    {
+      "path": "src/pages/news/uk-ptes-2026-postgraduate-satisfaction-sample.md",
+      "action": "copy",
+      "bytes": 5179,
+      "backup": null
+    },
+    {
+      "path": "src/pages/scholarships/items/2026-11-taiwan-epfl-phd-2027.md",
+      "action": "copy",
+      "bytes": 4349,
+      "backup": null
+    },
+    {
+      "path": "src/pages/scholarships/items/2026-11-taiwan-harvard-phd-2027.md",
+      "action": "copy",
+      "bytes": 3968,
+      "backup": null
+    },
+    {
+      "path": "src/pages/scholarships/items/2026-11-taiwan-jhu-phd-2027.md",
+      "action": "copy",
+      "bytes": 3948,
+      "backup": null
+    },
+    {
+      "path": "public/images/social/2026-11-22/phone-check.jpg",
+      "action": "copy",
+      "bytes": 103360,
+      "backup": null
+    }
+  ]
+}
