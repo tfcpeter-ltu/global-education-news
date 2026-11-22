@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-11-22T05:55:01.932Z",
+  "commit": "193956668387b98d2dde2156989e28793b8899ca",
+  "rows": [
+    {
+      "url": "https://globalednews.com/news/uk-ptes-2026-postgraduate-satisfaction-sample/",
+      "status": 200,
+      "bytes": 28237
+    },
+    {
+      "url": "https://globalednews.com/news/australia-asqa-cancelled-qualifications-evidence-review-2026/",
+      "status": 200,
+      "bytes": 28969
+    },
+    {
+      "url": "https://globalednews.com/news/canada-statcan-free-data-literacy-courses-2026/",
+      "status": 200,
+      "bytes": 27420
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-11-taiwan-harvard-phd-2027/",
+      "status": 200,
+      "bytes": 29214
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-11-taiwan-jhu-phd-2027/",
+      "status": 200,
+      "bytes": 29218
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-11-taiwan-epfl-phd-2027/",
+      "status": 200,
+      "bytes": 29474
+    },
+    {
+      "url": "https://globalednews.com/scholarships/",
+      "status": 200,
+      "bytes": 703735,
+      "count302": true
+    },
+    {
+      "url": "https://globalednews.com/weekly-feed.xml",
+      "status": 200,
+      "bytes": 20527,
+      "newScholarships": true,
+      "newNews": true
+    },
+    {
+      "url": "https://globalednews.com/images/social/2026-11-22/radar.jpg",
+      "status": 200,
+      "hashMatch": true
+    }
+  ]
+}

@@ -627,7 +627,7 @@
       "updateSummary": "以教育部116年度正式簡章及合作校獎學金／合作專頁雙重確認設籍資格、2027新入學、資助內容、校方與教育部時程及排除條件。全新頁面，不在299筆起始清單。"
     }
   ],
-  "updatedAt": "2026-11-22T05:50:51.949Z",
+  "updatedAt": "2026-11-22T05:55:16.004Z",
   "build": {
     "status": "success",
     "verifiedAt": "2026-11-21T21:45:29.756Z",
@@ -1283,6 +1283,18 @@
     "regularPublished": 15,
     "newFacebookPublished": 1,
     "deadlineMet": false,
-    "sourceSafetyRestrictionsUnchanged": true
+    "sourceSafetyRestrictionsUnchanged": true,
+    "finishedAt": "2026-11-22T05:55:16.004Z",
+    "evidencePushedCommit": "193956668387b98d2dde2156989e28793b8899ca",
+    "pushScope": "Daily social ledger, report, acceptance checks, campaign histories and radar card. Archive queue and local sync manifest remain local after approval review scope reduction."
+  },
+  "finalPublicationDeployment": {
+    "commit": "193956668387b98d2dde2156989e28793b8899ca",
+    "runId": 44991230794,
+    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/44991230794",
+    "build": "success",
+    "deploy": "success",
+    "verifiedAt": "2026-11-22T05:55:16.004Z",
+    "evidence": "docs/daily-checks/2026-11-22/final-push-live-check.json"
   }
 }
