@@ -1,8 +1,9 @@
 ---
 layout: "../../../layouts/ScholarshipLayout.astro"
 title: "台灣洛桑聯邦理工博士獎：5名，校方申請另有2月期限"
-description: "2027合作博士獎至長4年；教育部12月2日中午先截止，EPFL於2027年2月1日前申請，薪資上限含雇主社會保險。"
+description: "教育部報名於 12 月 2 日中午截止；2027 年 1 月 13 日公告受理後須另寄系所 PDF 至駐德教育組，並另循 EPFL 入學申請。"
 date: "2026-11-21T21:27:05.744Z"
+updated: "2026-11-24T04:46:24+08:00"
 author: "LTU Global Education News 編輯部"
 category: "國際獎學金"
 topic: "europe"
@@ -21,20 +22,22 @@ featuredUntil: "2026-11-23T00:00:00+08:00"
 country: "瑞士"
 level: "博士"
 funding: "年薪總額上限CHF64,000，含雇主16%社會保險；至長4年"
-deadline: "教育部2026年12月2日12:00台北；EPFL於2027年2月1日前申請"
+deadline: "教育部 2026 年 12 月 2 日中午 12:00（台北）；EPFL 依系所期限，至遲於 2027 年 2 月 1 日前申請"
 reviewExpiresAt: "2026-12-02T12:00:00+08:00"
 officialUrl: "https://www.epfl.ch/education/phd/doctoral-studies-structure/agreements-and-exchange/agreements/phd-scholarship-programme-with-the-ministry-of-education-taiwan/"
 secondSourceUrl: "https://www.scholarship.moe.gov.tw/top100/index/index"
 sourceName: "Partner university / Taiwan Ministry of Education"
 sourceType: "大學官方"
-taiwanNote: "2027合作博士獎至長4年；教育部12月2日中午先截止，EPFL於2027年2月1日前申請，薪資上限含雇主社會保險。"
+taiwanNote: "教育部報名於 12 月 2 日中午截止；2027 年 1 月 13 日公告受理後須另寄系所 PDF 至駐德教育組，並另循 EPFL 入學申請。"
 ---
 
 ## 先區分總額與實領
 
 教育部116年合作表列台灣洛桑聯邦理工學院博士獎5名，排除臨床醫學及臨床醫學相關學程，至長4年。表列每年薪資總額上限為瑞士法郎64,000，包含雇主負擔16%社會保險；這不能寫成學生每年可自由支配的實領生活費，也不能省略保險口徑後換算成宣傳金額。
 
-這一校的申請順序與多數美國合作校不同：教育部申請於12月2日中午先截止；合作表及EPFL官方程序則列校方於2027年2月1日前申請。可錄取的候選人仍須尋找合適論文指導教授，校方列出的條件是4月中前找到指導教授，才具備獲獎資格，通常於同年9月1日前開始博士研究。
+教育部線上申請截止後仍有兩個步驟。2027 年 1 月 13 日，教育部公告受理名單後，列入受理的申請人須依所選 EPFL 博士系所規定，將應繳交的完整資料以 PDF 電郵寄至駐德國台北代表處教育組（germany@mail.moe.gov.tw）。簡章未列寄件時刻，請依受理公告與教育組指示辦理；列入受理名單並非獲得入學或獎學金。
+
+寄送 PDF 與 EPFL 的線上入學申請分開。請依博士系所期限送件，並按教育部簡章至遲於 2027 年 2 月 1 日前完成 EPFL 申請；還須於 4 月中旬前找到論文指導教授，才具備校方所列的獲獎資格。獲選者通常於同年 9 月 1 日前開始博士研究。
 
 教育部合作表對本獎標示不得同時申請其他合作獎學金，規劃多校申請者尤其要留意。EPFL官方頁已公告2027–2028學年選拔開放，並確認每年5名新生、雙方共同資助至長4年；取得教育部初選資格不等於完成學術錄取或找到指導教授。
 
