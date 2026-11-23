@@ -1,0 +1,27 @@
+{
+  "verifiedAt": "2026-11-23T04:05:27.133Z",
+  "sources": [
+    {
+      "url": "https://www.ltuedu.net/",
+      "read": "Official LTU international education services and Royal Crown relationship; selected Peter video explicitly identifies course, conditions and ossdtw link."
+    },
+    {
+      "url": "https://www.business-school.ed.ac.uk/",
+      "read": "Official postgraduate programmes; archival city film not current admissions or cost evidence."
+    },
+    {
+      "url": "https://uwaterloo.ca/engineering/",
+      "read": "Official engineering faculty and current programme/co-op entry points; archival rankings not reused."
+    }
+  ],
+  "tests": [
+    "Astro742pages",
+    "207video source and built tests",
+    "1038 bilingual page pairs",
+    "0 missing translation strings"
+  ],
+  "limitations": [
+    "Browser connection timed out for browser selection, inventory and direct known URL; no platform publishing attempted",
+    "Original embed playback and mobile UI not verified today"
+  ]
+}

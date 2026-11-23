@@ -1,0 +1,44 @@
+[
+  {
+    "route": "/vlog/",
+    "status": 200,
+    "catalogCount": 207,
+    "today": 6,
+    "allNewIds": true,
+    "allSummaries": true,
+    "homeLink": true
+  },
+  {
+    "route": "/en/vlog/",
+    "status": 200,
+    "catalogCount": 207,
+    "today": 6,
+    "allNewIds": true,
+    "allSummaries": true,
+    "homeLink": true
+  },
+  {
+    "id": "m160sOqUip8",
+    "thumbnailStatus": 200
+  },
+  {
+    "id": "waWZoUL7PvM",
+    "thumbnailStatus": 200
+  },
+  {
+    "id": "WYH02K0stHE",
+    "thumbnailStatus": 200
+  },
+  {
+    "id": "2C2VJwGBRRw",
+    "thumbnailStatus": 200
+  },
+  {
+    "id": "okh8DiRBNwI",
+    "thumbnailStatus": 200
+  },
+  {
+    "id": "wii-EWgHNv8",
+    "thumbnailStatus": 200
+  }
+]
