@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-23",
+  "status": "website-live-social-blocked",
+  "baseline": "3e84fc103ae395d4ce30592b6fdae0ac44a53676",
+  "commit": "442df507f73d08714a865daf61c51ab67b776742",
+  "deployment": "success",
+  "deploymentRun": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/45109619519",
+  "jobConclusions": {
+    "build": "success",
+    "deploy": "success",
+    "indexnow": "success"
+  },
+  "videosBefore": 201,
+  "videosAfter": 207,
+  "liveNewVideos": 6,
+  "socialPlanned": 10,
+  "socialPublished": 0,
+  "tests": [
+    "Astro742pages",
+    "207 source and built Vlog checks",
+    "1038 bilingual pairs",
+    "Both live pages HTTP200; six new summaries; six thumbnails200; return-home links"
+  ],
+  "limitations": [
+    "Lifetime public views only; no verified recent velocity/global ranking",
+    "Caption tracks empty; summaries bounded to official descriptions",
+    "Browser selection, inventory and direct known URL each timed out; search/player/mobile UI not verified today",
+    "Ten social posts not attempted; two themes and images saved",
+    "Equivalent OneDrive date translation preserved without overwriting concurrent work"
+  ],
+  "cloudSyncVerified": false
+}
