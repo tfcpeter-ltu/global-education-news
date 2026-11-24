@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-24",
+  "baseline": "9ba7050e84f1b4fecd5a5d1df85a0b29d620748f",
+  "contentCommit": "8857608e94dada0063df436a6d32ddfae3ad4455",
+  "deployment": {
+    "runId": 45324986864,
+    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/45324986864",
+    "build": "success",
+    "deploy": "success"
+  },
+  "videos": {
+    "added": 6,
+    "before": 207,
+    "after": 213,
+    "external": 5,
+    "ltu": 1
+  },
+  "validation": [
+    "Astro 742 pages built",
+    "Vlog catalog and built controllers passed (213)",
+    "1038 Chinese/English page pairs passed",
+    "Live routes HTTP200, six new IDs and summaries present, thumbnails6/6HTTP200"
+  ],
+  "limitations": [
+    "Native browser repeatedly timed out; live search/filter/player interaction and actual playback not verified",
+    "Social0/10; no submission attempted; two cards and all platform drafts retained"
+  ],
+  "localOneDriveSaved": true,
+  "cloudSyncVerified": false
+}
