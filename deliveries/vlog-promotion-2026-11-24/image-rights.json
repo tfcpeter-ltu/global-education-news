@@ -1,0 +1,22 @@
+{
+  "mode": "built-in image_gen",
+  "date": "2026-11-24",
+  "externalPhotos": false,
+  "logo": "User supplied existing LTU journal logo",
+  "assets": [
+    {
+      "id": "01-rogers-gratitude",
+      "prompt": "Landscape 3:2 original editorial illustration in delicate colored pencil and graphite on textured paper. Contemporary Taiwanese university-age student thoughtfully writing a short thank-you note at a campus courtyard bench, abstract distant mentor figures walking in soft background, sky blue and sage palette. Focus on reflective face, pen, three note cards with blank abstract marks. No actual Fred Rogers portrait, no particular Dartmouth buildings, no text, no brands, no watermark. Detailed full scene, fresh editorial magazine atmosphere, clearly original illustrative reflection rather than footage of historical speech.",
+      "original": "original-art/01-rogers-gratitude.png",
+      "final": "01-rogers-gratitude.jpg",
+      "disclosure": "AI情境插畫，非實拍或學生見證"
+    },
+    {
+      "id": "02-course-prerequisites",
+      "prompt": "Landscape 3:2 original editorial illustration as a tactile layered paper-cut collage in sky blue, white, muted orange. Taiwanese high school student and parent at a wide desk arranging three large unlabeled planning cards beside an open laptop and course notebook, subject requirement symbols book, language conversation, calendar; full engaging diagonal composition, careful distinct hands, hopeful thoughtful expression. No specific school logos, no grades or legible text, no watermark. Original imagined study-planning scene, not real student testimony. Clearly paper-cut relief shadows, not watercolor.",
+      "original": "original-art/02-course-prerequisites.png",
+      "final": "02-course-prerequisites.jpg",
+      "disclosure": "AI情境插畫，非實拍或學生見證"
+    }
+  ]
+}
