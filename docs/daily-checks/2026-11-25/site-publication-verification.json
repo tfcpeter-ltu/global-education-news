@@ -1,0 +1,264 @@
+{
+  "verifiedAt": "2026-11-25T12:50:31+08:00",
+  "expected": 33,
+  "success": 33,
+  "results": [
+    {
+      "route": "/news/",
+      "status": 200,
+      "matchedNewItems": 3
+    },
+    {
+      "route": "/scholarships/",
+      "status": 200,
+      "matchedNewItems": 3,
+      "uniqueScholarships": 305
+    },
+    {
+      "route": "/news/uk-china-education-ministerial-dialogue-november-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/uk-china-education-ministerial-dialogue-november-2026/",
+      "title": "中英重啟教育部長對話，簽署涵蓋九領域的合作協議",
+      "sources": 4
+    },
+    {
+      "route": "/news/new-zealand-ncea-level-2-english-optional-december-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/new-zealand-ncea-level-2-english-optional-december-2026/",
+      "title": "紐西蘭 NCEA Level 2 英文增設12月4日紙本補考，成績採較優結果",
+      "sources": 5
+    },
+    {
+      "route": "/news/australia-teqsa-broader-regulator-powers-proposal-november-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/australia-teqsa-broader-regulator-powers-proposal-november-2026/",
+      "title": "澳洲擬擴大高教監管權：大學註冊、限期改善與民事罰則是三大焦點",
+      "sources": 6
+    },
+    {
+      "route": "/scholarships/items/2026-11-twente-nl-scholarship-masters-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-11-twente-nl-scholarship-masters-2027/",
+      "title": "特文特大學碩士荷蘭獎學金：首年5,000歐元，台灣列名",
+      "sources": 4
+    },
+    {
+      "route": "/scholarships/items/2026-11-rmit-melbourne-foundation-academic-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-11-rmit-melbourne-foundation-academic-2027/",
+      "title": "RMIT 墨爾本預科獎學金：2027年40名，每名5,000澳幣",
+      "sources": 5
+    },
+    {
+      "route": "/scholarships/items/2026-11-rmit-up-general-english-bursary-asia-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-11-rmit-up-general-english-bursary-asia-2027/",
+      "title": "RMIT 一般英語課程亞洲補助：2027年學費減20%，台灣列名",
+      "sources": 4
+    },
+    {
+      "route": "/en/news/",
+      "status": 200,
+      "matchedNewItems": 3
+    },
+    {
+      "route": "/en/scholarships/",
+      "status": 200,
+      "matchedNewItems": 3,
+      "uniqueScholarships": 305
+    },
+    {
+      "route": "/en/news/uk-china-education-ministerial-dialogue-november-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/uk-china-education-ministerial-dialogue-november-2026/",
+      "title": "UK and China restart education ministerial talks and sign a nine-area cooperation agreement",
+      "sources": 4
+    },
+    {
+      "route": "/en/news/new-zealand-ncea-level-2-english-optional-december-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/new-zealand-ncea-level-2-english-optional-december-2026/",
+      "title": "New Zealand adds a December 4 paper resit for NCEA Level 2 English",
+      "sources": 5
+    },
+    {
+      "route": "/en/news/australia-teqsa-broader-regulator-powers-proposal-november-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/australia-teqsa-broader-regulator-powers-proposal-november-2026/",
+      "title": "Australia proposes wider higher-education regulator powers over registration, remediation and civil penalties",
+      "sources": 6
+    },
+    {
+      "route": "/en/scholarships/items/2026-11-twente-nl-scholarship-masters-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/scholarships/items/2026-11-twente-nl-scholarship-masters-2027/",
+      "title": "University of Twente NL Scholarship: €5,000 in year one, Taiwan listed as eligible",
+      "sources": 4
+    },
+    {
+      "route": "/en/scholarships/items/2026-11-rmit-melbourne-foundation-academic-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/scholarships/items/2026-11-rmit-melbourne-foundation-academic-2027/",
+      "title": "RMIT Melbourne Foundation Academic Scholarships: 40 awards of A$5,000 for 2027",
+      "sources": 5
+    },
+    {
+      "route": "/en/scholarships/items/2026-11-rmit-up-general-english-bursary-asia-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/scholarships/items/2026-11-rmit-up-general-english-bursary-asia-2027/",
+      "title": "RMIT UP General English bursary: 20% tuition discount for 2027, including Taiwanese applicants",
+      "sources": 4
+    },
+    {
+      "route": "/news-sitemap.xml",
+      "status": 200,
+      "matched": 3
+    },
+    {
+      "route": "/weekly-feed.xml",
+      "status": 200,
+      "matched": 3
+    },
+    {
+      "route": "/english-sitemap.xml",
+      "status": 200,
+      "matched": 6
+    },
+    {
+      "route": "/images/daily/2026-11-25/credits.html",
+      "status": 200,
+      "licences": 6
+    },
+    {
+      "route": "/images/daily/2026-11-25/lucy-powell-2024.jpg",
+      "status": 200,
+      "dimensions": [
+        1700,
+        1134
+      ],
+      "sha256": "f6ecc496d7298498e35945fecd8e0825a1432617fe81b71eced1886f3a8ef2af"
+    },
+    {
+      "route": "/images/social/2026-11-25/lucy-powell-2024.jpg",
+      "status": 200,
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "sha256": "9a3c23124d311501c3cec57170738036d08f7bc9dbbbc42d084c2465cb6a79de"
+    },
+    {
+      "route": "/images/daily/2026-11-25/wellington-school-science-2017.jpg",
+      "status": 200,
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "sha256": "20d373765ecafe9336c1c4e0be6ccc3487650c76eddb2f793bac27a7920ab881"
+    },
+    {
+      "route": "/images/social/2026-11-25/wellington-school-science-2017.jpg",
+      "status": 200,
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "sha256": "a8cd6f6624aae217e8d4fefdb31d40f6167298199e768a1d66d2d3ca229b123c"
+    },
+    {
+      "route": "/images/daily/2026-11-25/canberra-parliament-ryan-wick.jpg",
+      "status": 200,
+      "dimensions": [
+        1600,
+        758
+      ],
+      "sha256": "1a73cb817cd1c006299c26bc01da6c9b418ccdcda6ad8f68400f69184bb2157f"
+    },
+    {
+      "route": "/images/social/2026-11-25/canberra-parliament-ryan-wick.jpg",
+      "status": 200,
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "sha256": "eca4192028d51014ae864b3b97c6b28feb6b268f2c938f2206ca0de26520f25c"
+    },
+    {
+      "route": "/images/daily/2026-11-25/twente-langezijds-2005.jpg",
+      "status": 200,
+      "dimensions": [
+        1700,
+        1275
+      ],
+      "sha256": "f53008a3bcfc33c914568742c6f64886a14f3117a0f1502afd8466447190bb12"
+    },
+    {
+      "route": "/images/social/2026-11-25/twente-langezijds-2005.jpg",
+      "status": 200,
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "sha256": "98f17bf4b31314d2ef26e7c1595d75f8016ec7ab5c3a55ac884a02beab47e386"
+    },
+    {
+      "route": "/images/daily/2026-11-25/rmit-melbourne-campus-city-2023.jpg",
+      "status": 200,
+      "dimensions": [
+        1600,
+        1200
+      ],
+      "sha256": "f09b8fdd98f10782b09f5448444c420b7c0f1f59f17991b134bd49b2b3a731e2"
+    },
+    {
+      "route": "/images/social/2026-11-25/rmit-melbourne-campus-city-2023.jpg",
+      "status": 200,
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "sha256": "48ca27460254a380d5e52560b0cafb95ad180d0573271843394157c947650a25"
+    },
+    {
+      "route": "/images/daily/2026-11-25/rmit-city-building-108.jpg",
+      "status": 200,
+      "dimensions": [
+        1600,
+        1071
+      ],
+      "sha256": "ee336f2590f6cc672bc193fde9ab79dd88db89b5fb1d0ce72032f4925c26cbbb"
+    },
+    {
+      "route": "/images/social/2026-11-25/rmit-city-building-108.jpg",
+      "status": 200,
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "sha256": "71b7810fff520b206d28bf7acaec8bd9a040d4c4ea7106a6daa0057370f87177"
+    },
+    {
+      "route": "/images/social/2026-11-25/radar-20261125.jpg",
+      "status": 200,
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "sha256": "2bb1bf567b6346c91a023344e8f084971d6b93a54be58d978e6eb740e4c2fce3"
+    }
+  ],
+  "deployment": {
+    "commit": "605c2b43a648d58503ff00d3684ec21dcfb74a13",
+    "status": "success",
+    "completedAt": "2026-11-25T12:49:54+08:00",
+    "verifiedAt": "2026-11-25T12:50:31+08:00",
+    "runId": 45549194878,
+    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/45549194878",
+    "checks": [
+      "build",
+      "normal dependency audit",
+      "deploy",
+      "IndexNow"
+    ]
+  }
+}
