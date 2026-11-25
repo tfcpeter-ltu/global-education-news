@@ -602,9 +602,55 @@
       "visibility": "public",
       "evidence": "Native publication and photo readback independently verified by the lead Dot.",
       "sourceMediaSha256": "9a3c23124d311501c3cec57170738036d08f7bc9dbbbc42d084c2465cb6a79de"
+    },
+    {
+      "campaign": "scholarship-radar-summary",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "copyVersion": "manual-radar-305-2026-11-25",
+      "account": "LTUOSSDTaiwan",
+      "id": "1130319819744215",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/1130319819744215",
+      "publishedAt": "2026-11-25T12:50:00+08:00",
+      "platformTimePrecision": "minute",
+      "imagePath": "public/images/social/2026-11-25/radar-20261125.jpg",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "visibility": "public",
+      "sourceMediaSha256": "2bb1bf567b6346c91a023344e8f084971d6b93a54be58d978e6eb740e4c2fce3",
+      "evidence": "Native publication and first photo independently verified by the lead Dot.",
+      "pageId": "101904929207004",
+      "photoId": "1130318966410967",
+      "photoAttachments": [
+        {
+          "id": "1130318966410967",
+          "url": "https://www.facebook.com/photo/?fbid=1130318966410967"
+        }
+      ]
+    },
+    {
+      "campaign": "scholarship-radar-summary",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/scholarships/",
+      "copyVersion": "manual-radar-305-2026-11-25",
+      "account": "ltuossdtw",
+      "id": "DgJtiu5jxjF",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DgJtiu5jxjF/",
+      "publishedAt": "2026-11-25T12:50:00+08:00",
+      "platformTimePrecision": "minute",
+      "imagePath": "public/images/social/2026-11-25/radar-20261125.jpg",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "visibility": "public",
+      "sourceMediaSha256": "2bb1bf567b6346c91a023344e8f084971d6b93a54be58d978e6eb740e4c2fce3",
+      "evidence": "Native publication and first photo independently verified by the lead Dot."
     }
   ],
-  "socialEvidenceScope": "Three verified manual news promotions only. Vlog activity is separate; no inferred Threads or automated cross-posts.",
+  "socialEvidenceScope": "Three verified manual news promotions and two verified organic Radar summary promotions only. Vlog activity is separate; no inferred Threads or automated cross-posts.",
   "radarDailyCard": {
     "kind": "original editorial typography",
     "imagePath": "public/images/social/2026-11-25/radar-20261125.jpg",
