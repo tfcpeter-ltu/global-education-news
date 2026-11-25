@@ -36,5 +36,81 @@
     ],
     "socialPath": "/images/social/2026-11-25/twente-langezijds-2005.jpg",
     "originalSha256": "142093b687efe55a031f6fde2cfb41e07d524e3ade1e08b10240320c11b5d195"
+  },
+  {
+    "key": "wellington-school-science-2017",
+    "title": "Wellington High School's science block in 2017; it is not identified here as a resit venue",
+    "file": "public/images/daily/2026-11-25/wellington-school-science-2017.jpg",
+    "path": "/images/daily/2026-11-25/wellington-school-science-2017.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Wellington_High_School_science_block.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/6/64/Wellington_High_School_science_block.jpg",
+    "author": "Ballofstring",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "description": "Wellington High School's science block in 2017; it is not identified here as a resit venue",
+    "modifications": "Resized or cropped; social derivative adds a headline, retains attribution and is distributed with the same stated licence.",
+    "size": [
+      1600,
+      1200
+    ],
+    "socialPath": "/images/social/2026-11-25/wellington-school-science-2017.jpg",
+    "originalSha256": "c01d1e80305f97c922a6bbde7d9722fd68f1ac07c123c5fd5a48bd4f668ba840"
+  },
+  {
+    "key": "canberra-parliament-ryan-wick",
+    "title": "An archival photograph of Parliament House, Canberra, not the higher education conference venue",
+    "file": "public/images/daily/2026-11-25/canberra-parliament-ryan-wick.jpg",
+    "path": "/images/daily/2026-11-25/canberra-parliament-ryan-wick.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Parliament_House_Canberra.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Parliament_House_Canberra.jpg",
+    "author": "Ryan Wick",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "description": "An archival photograph of Parliament House, Canberra, not the higher education conference venue",
+    "modifications": "Resized or cropped; social derivative adds a headline, retains attribution and is distributed with the same stated licence.",
+    "size": [
+      1600,
+      758
+    ],
+    "socialPath": "/images/social/2026-11-25/canberra-parliament-ryan-wick.jpg",
+    "originalSha256": "f1e3251081ef6ca0ca225617f8918a0483b70cfc27bd73b8d2f1e222415023be"
+  },
+  {
+    "key": "rmit-melbourne-campus-city-2023",
+    "title": "RMIT in central Melbourne, photographed in 2023",
+    "file": "public/images/daily/2026-11-25/rmit-melbourne-campus-city-2023.jpg",
+    "path": "/images/daily/2026-11-25/rmit-melbourne-campus-city-2023.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:AUS_Melbourne,_Central_Business_District,_RMIT_University_029.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/f/f2/AUS_Melbourne%2C_Central_Business_District%2C_RMIT_University_029.jpg",
+    "author": "-wuppertaler",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "description": "RMIT in central Melbourne, photographed in 2023",
+    "modifications": "Resized or cropped; social derivative adds a headline, retains attribution and is distributed with the same stated licence.",
+    "size": [
+      1600,
+      1200
+    ],
+    "socialPath": "/images/social/2026-11-25/rmit-melbourne-campus-city-2023.jpg",
+    "originalSha256": "96e9b549bccc0e02b43447f4af23d32776b9bdc7b4fc46aa9137f091d3d808f9"
+  },
+  {
+    "key": "rmit-city-building-108",
+    "title": "An archival view of RMIT's Building 108 in central Melbourne, not identified as a language classroom",
+    "file": "public/images/daily/2026-11-25/rmit-city-building-108.jpg",
+    "path": "/images/daily/2026-11-25/rmit-city-building-108.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:RMIT_Bld108.JPG",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/1/10/RMIT_Bld108.JPG",
+    "author": "Ensignlol",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "description": "An archival view of RMIT's Building 108 in central Melbourne, not identified as a language classroom",
+    "modifications": "Resized or cropped; social derivative adds a headline, retains attribution and is distributed with the same stated licence.",
+    "size": [
+      1600,
+      1071
+    ],
+    "socialPath": "/images/social/2026-11-25/rmit-city-building-108.jpg",
+    "originalSha256": "2606703701e64d230ebf2867c2ec6b1d96eb158e4f3c1c8af33b6ef7c2d261e1"
   }
 ]

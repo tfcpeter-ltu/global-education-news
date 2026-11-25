@@ -1,10 +1,10 @@
 {
   "date": "2026-11-25",
   "timezone": "Asia/Taipei",
-  "baseCommit": "bcc38fee6db309c3f16dda45322cb0b62526e658",
+  "baseCommit": "acaae57922eabb86e09806163f85dfd45ed943ce",
   "startedAt": "2026-11-25T12:19:38+08:00",
-  "updatedAt": "2026-11-25T12:31:17+08:00",
-  "status": "prepared-site-verification-pending",
+  "updatedAt": "2026-11-25T12:42:00+08:00",
+  "status": "second-batch-tested-awaiting-deployment",
   "currentPhase": "DEPLOY",
   "scope": "Global Education News editorial website only; no social publication, Vlog or Exchange changes",
   "scholarshipBaselineSlugs": [
@@ -325,7 +325,39 @@
       "open": true,
       "isNew": true,
       "baselineAbsent": true,
-      "verifiedAt": "2026-11-25T12:25:31+08:00"
+      "verifiedAt": "2026-11-25T12:25:31+08:00",
+      "publishedVerifiedAt": "2026-11-25T12:39:57+08:00"
+    },
+    {
+      "slug": "2026-11-rmit-melbourne-foundation-academic-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-11-rmit-melbourne-foundation-academic-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-rmit-melbourne-foundation-academic-2027.md",
+      "sources": [
+        "https://www.rmit.edu.au/scholarships/international-scholarships/foundation-academic-scholarships",
+        "https://search.studyaustralia.gov.au/scholarship/foundation-academic-scholarships/799e1e8b4fcb86d16b89d9c20b95755f",
+        "https://www.rmit.edu.au/study-with-us/levels-of-study/pre-university-study/foundation-studies/foundation-studies-fs022/apply-now",
+        "https://www.rmit.edu.au/study-with-us/international-students/apply-to-rmit-international-students/entry-requirements/country-equivalency"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "isNew": true,
+      "baselineAbsent": true,
+      "verifiedAt": "2026-11-25T12:42:00+08:00"
+    },
+    {
+      "slug": "2026-11-rmit-up-general-english-bursary-asia-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-11-rmit-up-general-english-bursary-asia-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-rmit-up-general-english-bursary-asia-2027.md",
+      "sources": [
+        "https://www.rmit.edu.au/scholarships/international-scholarships/rmit-up-general-english-bursary-for-asia",
+        "https://search.studyaustralia.gov.au/scholarship/rmit-up-general-english-bursary-for-asia/3ed9fa68865a1b3041c913ade5d2c8ae",
+        "https://www.idp.com/scholarship/rmit-university/rmit-up-general-english-bursary-for-asia/169314/"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "isNew": true,
+      "baselineAbsent": true,
+      "verifiedAt": "2026-11-25T12:42:00+08:00"
     }
   ],
   "newsPrepared": [
@@ -348,13 +380,87 @@
         }
       ],
       "status": "prepared-not-deployed"
+    },
+    {
+      "slug": "new-zealand-ncea-level-2-english-optional-december-2026",
+      "url": "https://globalednews.com/news/new-zealand-ncea-level-2-english-optional-december-2026/",
+      "publishedPath": "src/pages/news/new-zealand-ncea-level-2-english-optional-december-2026.md",
+      "sources": [
+        {
+          "label": "紐西蘭教育部長｜11月19日補考與成績保障說明",
+          "url": "https://www.beehive.govt.nz/release/ncea-level-2-english-students-offered-opportunity-re-sit-exam"
+        },
+        {
+          "label": "1News｜補考記者會及教師工會訪談",
+          "url": "https://tvnz-1-news-prod.cdn.arcpublishing.com/2026/11/19/ncea-level-2-english-students-get-second-shot-at-exam-after-outage/"
+        },
+        {
+          "label": "Hillmorton High School｜學生登記與考科安排實例",
+          "url": "https://www.hillmorton.school.nz/information-from-the-principal/"
+        },
+        {
+          "label": "NZQA｜12月4日補考與暫定成績公告",
+          "url": "https://www2.nzqa.govt.nz/about-us/news/optional-ncea-level-2-english-exam-offered-on-4-december/"
+        }
+      ],
+      "status": "prepared-awaiting-deploy"
+    },
+    {
+      "slug": "australia-teqsa-broader-regulator-powers-proposal-november-2026",
+      "url": "https://globalednews.com/news/australia-teqsa-broader-regulator-powers-proposal-november-2026/",
+      "publishedPath": "src/pages/news/australia-teqsa-broader-regulator-powers-proposal-november-2026.md",
+      "sources": [
+        {
+          "label": "澳洲教育部長｜11月17日 TEQSA 年會演說",
+          "url": "https://ministers.education.gov.au/clare/address-teqsa-conference-2026"
+        },
+        {
+          "label": "Universities Australia｜11月6日獨立產業意見書",
+          "url": "https://universitiesaustralia.edu.au/wp-content/uploads/2026/11/20261106-Correspondence-from-Universities-Australia-CEO-Mr-Luke-Sheehy-to-Minister-Clare.pdf_1551_v2.pdf"
+        },
+        {
+          "label": "澳洲聯邦法規登記冊｜現行 TEQSA 法與版本",
+          "url": "https://www.legislation.gov.au/Series/C2011A00073"
+        },
+        {
+          "label": "TEQSA｜高等教育機構正式名冊",
+          "url": "https://www.teqsa.gov.au/national-register"
+        },
+        {
+          "label": "澳洲國家學生申訴專員｜學生申訴管道",
+          "url": "https://www.nso.gov.au/"
+        }
+      ],
+      "status": "prepared-awaiting-deploy"
     }
   ],
-  "newsPublished": [],
+  "newsPublished": [
+    {
+      "slug": "uk-china-education-ministerial-dialogue-november-2026",
+      "url": "https://globalednews.com/news/uk-china-education-ministerial-dialogue-november-2026/",
+      "publishedPath": "src/pages/news/uk-china-education-ministerial-dialogue-november-2026.md",
+      "sources": [
+        {
+          "label": "中國教育部｜11月24日部長磋商及會後簽署",
+          "url": "https://www.moe.gov.cn/jyb_zzjg/huodong/202611/t20261125_1459481.html"
+        },
+        {
+          "label": "英國教育部｜北京峰會、教育代表團及政策背景",
+          "url": "https://www.gov.uk/government/news/education-secretary-champions-uk-education-in-china"
+        },
+        {
+          "label": "中央社｜倫敦特派記者的峰會前報導",
+          "url": "https://www.cna.com.tw/news/aopl/202611240017.aspx"
+        }
+      ],
+      "status": "published-verified",
+      "verifiedAt": "2026-11-25T12:39:57+08:00"
+    }
+  ],
   "gaps": [
-    "Two of three news slots and two of three Scholarship Radar slots remain: the EU–UK fees story already exists; no additional candidate with all required verified sources, distinctness, timely status and image documentation was approved in this batch.",
-    "ANU source deadline disagreement excluded. York University official and external listing dates disagree; Tasmanian Aurora university round and external closing dates disagree; neither was published.",
-    "Native social publication is outside site recovery scope. Cloud headless browser could not launch, so desktop/mobile interactive UI was not verified by this editorial batch."
+    "Native social publication remains outside this editorial site pass.",
+    "ANU, York and Tasmanian Aurora were omitted because source dates conflict; none is counted.",
+    "Programmatic bilingual/canonical/media checks performed. A cloud Chromium socket restriction blocked responsive interaction; desktop and mobile UI acceptance remains unverified."
   ],
   "build": {
     "status": "success",
@@ -373,5 +479,92 @@
     ]
   },
   "initialBaseCommit": "33da38058120fef49f0b08efee1641016aa94eff",
-  "baseIntegration": "Fast-forward over a Vlog-only receipt on five disjoint docs/vlog-daily paths; all content blobs remained identical."
+  "baseIntegration": "Fast-forward over a Vlog-only receipt on five disjoint docs/vlog-daily paths; all content blobs remained identical.",
+  "firstDeployment": {
+    "commit": "acaae57922eabb86e09806163f85dfd45ed943ce",
+    "status": "success",
+    "verifiedAt": "2026-11-25T12:39:57+08:00",
+    "runId": 45547543635,
+    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/45547543635"
+  },
+  "socialPosts": [
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/news/uk-china-education-ministerial-dialogue-november-2026/",
+      "copyVersion": "2026-11-25-v1",
+      "account": "環球國際教育新聞網",
+      "id": "122125965909505473",
+      "publicUrl": "https://www.facebook.com/permalink.php?story_fbid=122125965909505473&id=61595164194381",
+      "publishedAt": "2026-11-25T12:36:00+08:00",
+      "platformTimePrecision": "minute",
+      "imagePath": "public/images/social/2026-11-25/lucy-powell-2024.jpg",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "visibility": "public",
+      "evidence": "Native publication and photo readback independently verified by the lead Dot.",
+      "pageId": "61595164194381"
+    },
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/news/uk-china-education-ministerial-dialogue-november-2026/",
+      "copyVersion": "2026-11-25-v1",
+      "account": "LTUOSSDTaiwan",
+      "id": "1130311963078334",
+      "publicUrl": "https://www.facebook.com/LTUOSSDTaiwan/posts/1130311963078334",
+      "publishedAt": "2026-11-25T12:39:00+08:00",
+      "platformTimePrecision": "minute",
+      "imagePath": "public/images/social/2026-11-25/lucy-powell-2024.jpg",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "visibility": "public",
+      "evidence": "Native publication and photo readback independently verified by the lead Dot.",
+      "pageId": "101904929207004"
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "articleUrl": "https://globalednews.com/news/uk-china-education-ministerial-dialogue-november-2026/",
+      "copyVersion": "2026-11-25-v1",
+      "account": "ltuossdtw",
+      "id": "DgJsSAGD1uy",
+      "publicUrl": "https://www.instagram.com/ltuossdtw/p/DgJsSAGD1uy/",
+      "publishedAt": "2026-11-25T12:39:00+08:00",
+      "platformTimePrecision": "minute",
+      "imagePath": "public/images/social/2026-11-25/lucy-powell-2024.jpg",
+      "imageCount": 1,
+      "mediaKind": "uploaded-photo",
+      "mediaStatus": "VERIFIED",
+      "visibility": "public",
+      "evidence": "Native publication and photo readback independently verified by the lead Dot."
+    }
+  ],
+  "socialEvidenceScope": "Three verified manual news promotions only. Vlog activity is separate; no inferred Threads or automated cross-posts.",
+  "radarDailyCard": {
+    "kind": "original editorial typography",
+    "imagePath": "public/images/social/2026-11-25/radar-20261125.jpg",
+    "imageSize": [
+      1080,
+      1350
+    ],
+    "sha256": "2bb1bf567b6346c91a023344e8f084971d6b93a54be58d978e6eb740e4c2fce3",
+    "catalogCount": 305,
+    "status": "asset-verified; confirm live count before native follow-through"
+  },
+  "secondBuild": {
+    "status": "success",
+    "verifiedAt": "2026-11-25T12:46:27+08:00",
+    "bilingualPairs": 1045,
+    "canonicalUrls": 2074,
+    "newAutomaticTranslations": 0,
+    "catalogCount": 305,
+    "vlogRegressionCount": 219,
+    "dependencyAudit": "normal high gate passed; 2 low, 2 moderate, 0 high and 0 critical"
+  }
 }

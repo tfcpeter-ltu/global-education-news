@@ -1259,5 +1259,31 @@
     "independentSource": "https://www.gov.uk/government/news/education-secretary-champions-uk-education-in-china",
     "reviewedAt": "2026-11-25",
     "bodySha256": "dccd15a55ddefff0bea12fb4153d816265a67b2ba926c58f9849755b789628fa"
+  },
+  "new-zealand-ncea-level-2-english-optional-december-2026": {
+    "newsValue": "十二月四日仍在考試期末，已報名學生要核對考場、應考考科及暫定成績，時間上仍有行動價值。",
+    "background": "交代原考數位平台中斷、改紙作答，以及學校平時或練習表現可作為部分學生推定成績的來源。",
+    "development": "區分十一月十二日原考、十九日補考宣布、各校登記時點及十二月四日紙本補考，另列一月暫定成績。",
+    "perspectives": "教育部長說明適用規則，一新聞有記者會追問和教師工會訪談，學校另提供實際登記辦法。",
+    "taiwanImpact": "台灣家庭按學生身分與考科，向母校確認登記、考場及特殊考試安排，並詢問大學暫定成績接受方式。",
+    "uncertainty": "報導沒有把個別校方時限當成全國期限、把補考當成所有人必須參加，或假定每位考生都有推定成績。",
+    "independence": "政府公告是第一手政策，1News採訪及教師工會聲音來自獨立編採，校方另保有學校實際登記紀錄。",
+    "primarySource": "https://www.beehive.govt.nz/release/ncea-level-2-english-students-offered-opportunity-re-sit-exam",
+    "independentSource": "https://tvnz-1-news-prod.cdn.arcpublishing.com/2026/11/19/ncea-level-2-english-students-get-second-shot-at-exam-after-outage/",
+    "reviewedAt": "2026-11-25",
+    "bodySha256": "be8253091f749b59229fc9f22938275c5f755e73e4702b495659c68b0bd6a0c4"
+  },
+  "australia-teqsa-broader-regulator-powers-proposal-november-2026": {
+    "newsValue": "年會提出大學註冊條件、改善指示、系統風險與民事罰則等具名工具，補充學生可用的現行查核。",
+    "background": "區分高教門檻標準、機構註冊、課程認證與學生申訴，說明本計畫與個人錄取及簽證沒有同等效果。",
+    "development": "先交代產業十一月六日意見書，再說明十一月十七日部長演說及其預告，以聯邦法規名冊辨識現行版本。",
+    "perspectives": "並列教育部長對監管工具的主張與大學代表組織對自主性、比例原則及程序保障的書面意見。",
+    "taiwanImpact": "台灣家庭應對照機構法定名稱、課程與授位資料及申訴渠道，以既有正式規則排選校和經由學校查證。",
+    "uncertainty": "演說內容描述政策方向，未把草案細節視為生效，也未推定既有學生權利或簽證條件已經改變。",
+    "independence": "部長演說是政府政策原始來源；Universities Australia 自行提交產業書面意見，另用正式監管名冊與法律校驗背景。",
+    "primarySource": "https://ministers.education.gov.au/clare/address-teqsa-conference-2026",
+    "independentSource": "https://universitiesaustralia.edu.au/wp-content/uploads/2026/11/20261106-Correspondence-from-Universities-Australia-CEO-Mr-Luke-Sheehy-to-Minister-Clare.pdf_1551_v2.pdf",
+    "reviewedAt": "2026-11-25",
+    "bodySha256": "33a20526c1aa3b6e584d8da439e0cfde4f8a277778831c726101bc696cc8a980"
   }
 }
