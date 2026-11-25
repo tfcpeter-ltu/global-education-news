@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-25",
+  "baseline": "4c9248fcaa5887af90a12534f7b1e6bce3a088f1",
+  "contentCommit": "33da38058120fef49f0b08efee1641016aa94eff",
+  "deployment": {
+    "runId": 45545200683,
+    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/45545200683",
+    "build": "success",
+    "deploy": "success",
+    "indexnow": "success"
+  },
+  "videos": {
+    "added": 6,
+    "external": 5,
+    "ltu": 1,
+    "before": 213,
+    "after": 219
+  },
+  "social": {
+    "publishedVerified": 10,
+    "expected": 10,
+    "topics": [
+      "01-auckland-questions",
+      "02-eth-campus-notes"
+    ],
+    "rotation": "Two university perspectives today, distinct from yesterday’s gratitude/OSSD topics; no resend of blocked November24 drafts"
+  },
+  "validation": [
+    "Astro742pages built",
+    "1038 bilingual page pairs passed",
+    "Vlog source and built tests passed219",
+    "LiveZH/EN219cards,todaysix,allnewIDsanddescriptions,sixthumbHTTP200",
+    "NativeChinese searchAuckland returned2 incl newfilm; EnglishHönggerberg2 incl newGermanversion; university-source filter worked; returnChinesehomepageworked",
+    "ETHGermanplayer displayed0:02/4:37; other clickedplayers mounted, initial controls/duration observed but not all six playback confirmed",
+    "All10socialpublicURLs account/body/photo readback; no scheduled/draft counted"
+  ],
+  "limitations": [
+    "Not all six films confirmed playing; rapid player switches and intermittent iframe reads prevent a stronger playback claim",
+    "No mobile viewport QA completed",
+    "Screenshots observed in native UI; local screenshot saving failed EPERM in CUA runtime. PublicURLs and original cards saved; no false screenshot-file claim"
+  ],
+  "savedToLocalOneDrive": true,
+  "cloudSyncVerified": false
+}
