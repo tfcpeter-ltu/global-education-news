@@ -1,0 +1,40 @@
+[
+  {
+    "key": "lucy-powell-2024",
+    "title": "lucy-powell-2024",
+    "file": "public/images/daily/2026-11-25/lucy-powell-2024.jpg",
+    "path": "/images/daily/2026-11-25/lucy-powell-2024.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Lucy_Powell_Leader_of_the_House.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/9/92/Lucy_Powell_Leader_of_the_House.jpg",
+    "author": "Lauren Hurley / No 10 Downing Street",
+    "license": "Open Government Licence v3.0",
+    "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "description": "A 2024 portrait of UK Education Secretary Lucy Powell taken in London, not a photograph from the Beijing summit",
+    "modifications": "Resized. Square social graphic cropped and overlaid with an editorial headline; photograph credits and terms retained.",
+    "size": [
+      1700,
+      1134
+    ],
+    "socialPath": "/images/social/2026-11-25/lucy-powell-2024.jpg",
+    "originalSha256": "7819589b93cc1160579b0d8069a4ded927465f7d23a04a21e165c2c2c2091c86"
+  },
+  {
+    "key": "twente-langezijds-2005",
+    "title": "twente-langezijds-2005",
+    "file": "public/images/daily/2026-11-25/twente-langezijds-2005.jpg",
+    "path": "/images/daily/2026-11-25/twente-langezijds-2005.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Universiteit_Twente_Langezijds.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/3/31/Universiteit_Twente_Langezijds.jpg",
+    "author": "Berteun Damman",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Universiteit_Twente_Langezijds.jpg#Licensing",
+    "description": "Exterior of the University of Twente's Langezijds building, photographed in 2005",
+    "modifications": "Resized. Square social graphic cropped and overlaid with an editorial headline; photograph credits and terms retained.",
+    "size": [
+      1700,
+      1275
+    ],
+    "socialPath": "/images/social/2026-11-25/twente-langezijds-2005.jpg",
+    "originalSha256": "142093b687efe55a031f6fde2cfb41e07d524e3ade1e08b10240320c11b5d195"
+  }
+]

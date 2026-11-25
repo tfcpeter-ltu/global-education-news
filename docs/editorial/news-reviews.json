@@ -1246,5 +1246,18 @@
     "independentSource": "https://thepienews.com/breaking-uk-to-extend-graduate-visa-to-two-years-for-graduates-of-high-compliance-universities/",
     "reviewedAt": "2026-11-22",
     "bodySha256": "2c224a3ce1ab34c1efc12cabb9dc4d9ccc54480dd5c09a877d8c51a3a18c43ca"
+  },
+  "uk-china-education-ministerial-dialogue-november-2026": {
+    "newsValue": "11月24日英中教育部長會談相隔九年重啟，11月25日中方公告簽署涵蓋九個具名領域的協議。",
+    "background": "英方將峰會與國際教育戰略及二〇三〇年教育服務出口目標連結，說明市場數字不是本次新增機會。",
+    "development": "區分11月23日英方會前預告、24日實際部長會談與簽署、25日中方會後稿，以及更廣的峰會議程。",
+    "perspectives": "比較中方會後說明、英方會前目標與中央社倫敦記者背景報導；沒有引用虛構訪談，也沒有推定方案已開始。",
+    "taiwanImpact": "區分交換、跨境授課與完整學位；按台灣母校和英國接收院校的具體章程核對學位授予、學費、資格與可轉學分。",
+    "uncertainty": "九個合作領域與三個工作組是不同層次，公開消息未列具名學校招生、時程、獎學金或台灣學生新簽證資格。",
+    "independence": "中國教育部的會後確認及英國教育部的預告由不同政府機構各自製作；中央社補充獨立的倫敦產業與政策背景。",
+    "primarySource": "https://www.moe.gov.cn/jyb_zzjg/huodong/202611/t20261125_1459481.html",
+    "independentSource": "https://www.gov.uk/government/news/education-secretary-champions-uk-education-in-china",
+    "reviewedAt": "2026-11-25",
+    "bodySha256": "dccd15a55ddefff0bea12fb4153d816265a67b2ba926c58f9849755b789628fa"
   }
 }
