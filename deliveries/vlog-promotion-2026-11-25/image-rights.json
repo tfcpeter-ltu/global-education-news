@@ -1,0 +1,22 @@
+{
+  "mode": "built-in image_gen",
+  "date": "2026-11-25",
+  "externalPhotos": false,
+  "logo": "Original user supplied logo",
+  "assets": [
+    {
+      "id": "01-auckland-questions",
+      "prompt": "Original editorial illustration in Japanese woodblock print medium, landscape 3:2. Three fictional international university students walking through a generic New Zealand coastal city campus, green hills and blue harbour glimpsed far behind, one student thoughtfully carrying a blank question notebook. Clearly handmade wood grain and flat ink layers, sky blue, sage green and coral. Natural lively composition, no text, no logos, no specific identifiable university buildings, not a photograph, no claims of actual students.",
+      "original": "original-art/01-auckland-questions.png",
+      "final": "01-auckland-questions.jpg",
+      "disclosure": "AI情境插畫・非校園實拍"
+    },
+    {
+      "id": "02-eth-campus-notes",
+      "prompt": "Original editorial graphite and coloured-pencil illustration on textured white paper, landscape 3:2. Fictional Taiwanese university applicant comparing a blank campus map and a small notebook of research questions beside a laptop displaying a stylized hilltop university scene, window view of distant Swiss hills. Tactile detailed pencil shading, light blue and yellow accents. Student positioned right of centre, no lettering, no logos, no real campus representation, not a photograph.",
+      "original": "original-art/02-eth-campus-notes.png",
+      "final": "02-eth-campus-notes.jpg",
+      "disclosure": "AI情境插畫・非校園實拍"
+    }
+  ]
+}

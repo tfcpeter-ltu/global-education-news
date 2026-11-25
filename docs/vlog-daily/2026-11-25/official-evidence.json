@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-25",
+  "sources": [
+    {
+      "url": "https://news.harvard.edu/gazette/story/2007/06/remarks-of-bill-gates-harvard-commencement-2007/",
+      "read": "Official prepared speech read; 2007 event distinct from2013 upload; only inequity/action/impact summarized, no historical statistics as current facts"
+    },
+    {
+      "url": "https://www.ossdtw.com/canada-winter-2027/",
+      "read": "Web fetch unavailable; original official LTU video description read, no price/availability current claim"
+    },
+    {
+      "url": "https://www.kyoto-u.ac.jp/ja/news/2024-04-01-1",
+      "read": "Already collected video excluded"
+    }
+  ],
+  "subtitleLimit": "Tracks requested but no text returned; summaries constrained to public official description and chapters."
+}
