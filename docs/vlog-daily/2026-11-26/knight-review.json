@@ -1,0 +1,37 @@
+[
+  {
+    "id": "nRN9FwWQY8w",
+    "title": "Stanford Graduate School of Business Graduation Remarks by Phil Knight, MBA '62",
+    "channel": "Stanford Graduate School of Business",
+    "channelId": "UCGwuxdEeCf0TIA2RbPOj-8g",
+    "description": "The 89th Stanford Graduate School of Business diploma ceremony was held on Saturday, June 14, 2014 in Frost Amphitheater. Phil Knight, MBA '62, shared his insights and experiences from his career as Cofounder and Chairman of Nike: http://www.gsb.stanford.edu/news/headlines/courage-pursue-your-calling",
+    "views": "98320",
+    "publishedAt": "2014-07-07T10:49:06-07:00",
+    "seconds": "1454",
+    "playability": {
+      "status": "OK",
+      "playableInEmbed": true,
+      "miniplayer": {
+        "miniplayerRenderer": {
+          "playbackMode": "PLAYBACK_MODE_ALLOW"
+        }
+      },
+      "contextParams": "Q0FFU0FnZ0M="
+    },
+    "embed": {
+      "iframeUrl": "https://www.youtube.com/embed/nRN9FwWQY8w",
+      "width": 1280,
+      "height": 720
+    },
+    "thumbnailStatus": 200,
+    "captions": [
+      {
+        "language": "en",
+        "status": 429,
+        "bytes": 1103,
+        "text": "<html><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\"/><title>Sorry...</title><style> body { font-family: verdana, arial, sans-serif; background-color: #fff; color: #000; }</style></head><body><div><table><tr><td><b><font face=sans-serif size=10><font color=#4285f4>G</font><font color=#ea4335>o</font><font color=#fbbc05>o</font><font color=#4285f4>g</font><font color=#34a853>l</font><font color=#ea4335>e</font></font></b></td><td style=\"text-align: left; vertical-align: bottom; padding-bottom: 15px; width: 50%\"><div style=\"border-bottom: 1px solid #dfdfdf;\">Sorry...</div></td></tr></table></div><div style=\"margin-left: 4em;\"><h1>We're sorry...</h1><p>... but your computer or network may be sending automated queries. To protect our users, we can't process your request right now.</p></div><div style=\"margin-left: 4em;\">See <a href=\"https://support.google.com/websearch/answer/86640\">Google Help</a> for more information.<br/><br/></div><div style=\"text-align: center; border-top: 1px solid #dfdfdf;\"><a href=\"https://www.google.com\">Google Home</a></div></body></html>"
+      }
+    ],
+    "verifiedAt": "2026-11-26T04:02:38.244Z"
+  }
+]
