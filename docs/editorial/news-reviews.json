@@ -1285,5 +1285,18 @@
     "independentSource": "https://universitiesaustralia.edu.au/wp-content/uploads/2026/11/20261106-Correspondence-from-Universities-Australia-CEO-Mr-Luke-Sheehy-to-Minister-Clare.pdf_1551_v2.pdf",
     "reviewedAt": "2026-11-25",
     "bodySha256": "33a20526c1aa3b6e584d8da439e0cfde4f8a277778831c726101bc696cc8a980"
+  },
+  "unsw-college-taiwan-year-12-first-semester-diploma-november-2026": {
+    "bodySha256": "9c9c50d9083c58e127e0a5a2b5c83c80cf6fe71a57311e2a9602b08a1b9c7f10",
+    "reviewedAt": "2026-11-26T12:32:55+08:00",
+    "primarySource": "https://www.unswcollege.edu.au/important-notice",
+    "independentSource": "https://www.oneuedu.com/zh-TW/news/13729",
+    "newsValue": "台灣高三學生可提早準備文憑課程申請，尤其需分清有條件審查與開課前的學歷文件。",
+    "background": "說明成績單和學歷證明的用途，與六月已恢復的審理作法及台灣可用學歷分開交代。",
+    "development": "交代十一月更新、二〇二七年八月的三段教學，以及二〇二八年銜接學士班的條件。",
+    "perspectives": "以先前台灣教育業者記錄補時間脈絡，官方文件則提供台灣高中資格與日曆的判讀。",
+    "taiwanImpact": "提供高三申請人可執行的文件時程，區分申請、接受錄取與入學前證明，分開建築三方向。",
+    "uncertainty": "公開說明無法支持特定學生錄取、名額與簽證推論，亦未稱十一月是制度首次生效日。",
+    "independence": "萬友教育六月的公開報導早於十一月公告，獨立提供既有做法的時序；新公告和日期以校方為準。"
   }
 }

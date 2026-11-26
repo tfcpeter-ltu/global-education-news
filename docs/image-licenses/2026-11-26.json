@@ -1,0 +1,40 @@
+[
+  {
+    "key": "unsw-kensington-walkway-2007",
+    "title": "The lower campus walkway at UNSW Kensington, photographed in 2007",
+    "file": "public/images/daily/2026-11-26/unsw-kensington-walkway-2007.jpg",
+    "path": "/images/daily/2026-11-26/unsw-kensington-walkway-2007.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Main_Walkway,_Lower_campus_UNSW.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/3/35/Main_Walkway%2C_Lower_campus_UNSW.jpg",
+    "author": "J Bar",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "description": "The lower campus walkway at UNSW Kensington, photographed in 2007",
+    "modifications": "Website photograph resized. Square social derivative cropped with editorial title and distributed under the same licence.",
+    "size": [
+      1600,
+      1200
+    ],
+    "socialPath": "/images/social/2026-11-26/unsw-kensington-walkway-2007.jpg",
+    "originalSha256": "177bebd19b1963559cc2de111e3984fde515d27480d3a0dc70e93ed73722cf9c"
+  },
+  {
+    "key": "oregon-johnson-hall-2024",
+    "title": "Johnson Hall on the University of Oregon’s Eugene campus, photographed in 2024",
+    "file": "public/images/daily/2026-11-26/oregon-johnson-hall-2024.jpg",
+    "path": "/images/daily/2026-11-26/oregon-johnson-hall-2024.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Johnson_Hall_on_the_University_of_Oregon_Campus_in_Eugene,_Oregon.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Johnson_Hall_on_the_University_of_Oregon_Campus_in_Eugene%2C_Oregon.jpg",
+    "author": "Rick Obst",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "description": "Johnson Hall on the University of Oregon’s Eugene campus, photographed in 2024",
+    "modifications": "Website photograph resized. Square social derivative cropped with editorial title and distributed under the same licence.",
+    "size": [
+      1600,
+      861
+    ],
+    "socialPath": "/images/social/2026-11-26/oregon-johnson-hall-2024.jpg",
+    "originalSha256": "90e69835d55a1474c21af5e70c5cbe666cd64fa62ee1a3449e804b56e9482d93"
+  }
+]
