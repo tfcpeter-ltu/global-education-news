@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-26",
+  "baseline": "94558bd0248f01056af053cdc555623c65b1cde8",
+  "contentCommit": "476a105eb28b80ec12dc7a39880bff186d9b2e6b",
+  "deployment": {
+    "runId": 45753054545,
+    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/45753054545",
+    "build": "success",
+    "deploy": "success",
+    "indexnow": "success"
+  },
+  "videos": {
+    "before": 219,
+    "after": 225,
+    "added": 6,
+    "external": 5,
+    "ltu": 1
+  },
+  "social": {
+    "expected": 10,
+    "publishedVerified": 10,
+    "topics": [
+      "01-career-listening",
+      "02-toronto-spaces"
+    ]
+  },
+  "validation": [
+    "Astro748pages built outside OneDrive",
+    "1045 bilingual page pairs passed",
+    "225video source and built Vlog tests passed",
+    "Live Chinese and English225cards with six new IDs, summaries and HTTP200 thumbnails",
+    "Chinese and English Kumpula search returned two including today’s new tour; official-source filter operated; English return-home link reached /en/",
+    "Toronto embedded original played0:02/3:40; all six selection clicks mounted players without observed unavailability error",
+    "Ten social public URLs with publisher, body and actual card inspected; FB first-topic footer expanded with native AX to verify member URL"
+  ],
+  "limitations": [
+    "Not all six videos confirmed playing through; rapid switches showed initial0:00 states, so metadata embed availability is not represented as full playback verification",
+    "Mobile viewport override did not change observed2308px document viewport; responsive QA not verified, override reset",
+    "Caption endpoints returned HTTP429; summaries limited to official descriptions and chapters, no rate-limit bypass",
+    "Native screenshots observed, but no local screenshot files saved; public URLs and original image assets retained"
+  ],
+  "savedToLocalOneDrive": true,
+  "cloudSyncVerified": false
+}
