@@ -1,6 +1,6 @@
 {
   "status": "ready",
-  "updatedAt": "2026-11-26T09:29:24.088Z",
+  "updatedAt": "2026-11-27T09:38:47.562Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
@@ -8,11 +8,6 @@
       "title": "英國研究所滿意度達87%：申請碩士前，先看誰回答了問卷｜環球教育新聞網 Global Education News",
       "path": "/news/uk-ptes-2026-postgraduate-satisfaction-sample/",
       "views": 13
-    },
-    {
-      "title": "QS永續排名2027公布：隆德居首，台灣選校別只看總名次｜環球教育新聞網 Global Education News",
-      "path": "/news/qs-sustainability-2027-ranking-student-choice/",
-      "views": 7
     },
     {
       "title": "國際教育新聞｜全球大學、留學政策與招生動態｜環球教育新聞網",
@@ -27,6 +22,11 @@
     {
       "title": "中英重啟教育部長對話，簽署涵蓋九領域的合作協議｜環球教育新聞網 Global Education News",
       "path": "/news/uk-china-education-ministerial-dialogue-november-2026/",
+      "views": 5
+    },
+    {
+      "title": "加拿大開放免費資料素養課：從看懂數字到說清楚證據｜環球教育新聞網 Global Education News",
+      "path": "/news/canada-statcan-free-data-literacy-courses-2026/",
       "views": 4
     }
   ],
@@ -34,14 +34,20 @@
     {
       "name": "台灣",
       "mapName": "Taiwan",
-      "sessions": 91,
-      "share": 32.6
+      "sessions": 85,
+      "share": 30.2
     },
     {
       "name": "美國",
       "mapName": "United States",
-      "sessions": 83,
-      "share": 29.7
+      "sessions": 79,
+      "share": 28.1
+    },
+    {
+      "name": "中國",
+      "mapName": "China",
+      "sessions": 20,
+      "share": 7.1
     },
     {
       "name": "印度",
@@ -50,16 +56,10 @@
       "share": 5.7
     },
     {
-      "name": "中國",
-      "mapName": "China",
-      "sessions": 14,
-      "share": 5
-    },
-    {
-      "name": "瑞典",
-      "mapName": "Sweden",
-      "sessions": 10,
-      "share": 3.6
+      "name": "新加坡",
+      "mapName": "Singapore",
+      "sessions": 9,
+      "share": 3.2
     },
     {
       "name": "泰國",
@@ -68,8 +68,14 @@
       "share": 3.2
     },
     {
-      "name": "新加坡",
-      "mapName": "Singapore",
+      "name": "瑞典",
+      "mapName": "Sweden",
+      "sessions": 8,
+      "share": 2.8
+    },
+    {
+      "name": "英國",
+      "mapName": "United Kingdom",
       "sessions": 7,
       "share": 2.5
     },
@@ -82,12 +88,6 @@
     {
       "name": "愛爾蘭",
       "mapName": "Ireland",
-      "sessions": 4,
-      "share": 1.4
-    },
-    {
-      "name": "Spain",
-      "mapName": "Spain",
       "sessions": 4,
       "share": 1.4
     }
