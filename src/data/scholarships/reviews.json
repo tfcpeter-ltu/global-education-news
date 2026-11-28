@@ -85,14 +85,16 @@
       "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
     },
     "2026-08-tgpi-dream-factory": {
-      "reviewCode": "tracking",
-      "statusReviewDate": "2026-11-02",
-      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-28",
+      "reviewNote": "已核對 116 年度（2027 年度）第 1 梯次時程。第一梯次於台灣時間 2026 年 11 月 30 日中午 12 時截止。",
+      "applicationClosesAt": "2026-11-30T04:00:00Z"
     },
     "2026-08-tgpi-global-flight": {
-      "reviewCode": "tracking",
-      "statusReviewDate": "2026-11-02",
-      "reviewNote": "保留為年度追蹤項目；目前沒有足夠證據將本頁標為當期開放。"
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-28",
+      "reviewNote": "已核對 116 年度（2027 年度）第 1 梯次時程。第一梯次於台灣時間 2026 年 11 月 30 日中午 12 時截止。",
+      "applicationClosesAt": "2026-11-30T04:00:00Z"
     },
     "2026-08-ubc-four-year-doctoral-fellowship": {
       "reviewCode": "tracking",

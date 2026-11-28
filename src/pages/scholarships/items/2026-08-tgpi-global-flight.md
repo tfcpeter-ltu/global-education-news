@@ -1,27 +1,35 @@
 ---
 layout: ../../../layouts/ScholarshipLayout.astro
 title: "青年百億海外圓夢基金－海外翱翔組"
-description: "15至30歲中華民國籍青年可申請政府與合作單位規劃的海外見習、培訓、交流與青年行動機會。"
+description: "青年百億海外圓夢基金 116 年度第 1 梯次受理至 2026 年 11 月 30 日中午 12 時（台灣時間）。海外翱翔組從官方清單選擇合作單位規劃的海外計畫。"
 date: 2026-08-31
 country: "全球"
 level: "青年專案"
-funding: "一般每案最高新臺幣150萬元（旗艦計畫另依簡章）"
-deadline: "115年度梯次已截止；116年度待公告"
-status: "年度制／待下一輪"
+funding: "經費、給付方式與涵蓋項目依各計畫簡章"
+deadline: "第 1 梯次：2026-11-30 12:00（台灣時間）"
+status: "開放中"
 sourceType: "台灣政府"
 sourceName: "青年百億海外圓夢基金計畫"
-officialUrl: "https://twpathfinder.yda.gov.tw/"
-secondSourceUrl: "https://twpathfinder.yda.gov.tw/faq"
-eligibilityTW: "具中華民國國籍、徵件截止日前年滿15歲且未滿31歲青年"
-taiwanNote: "海外翱翔是選既有圓夢機會，不同案件另有語言、年齡或專業條件。"
-verificationDate: "2026-09-02"
+officialUrl: "https://twpathfinder.yda.gov.tw/about_overseas"
+secondSourceUrl: "https://www.k12ea.gov.tw/Tw/Annc/Detail?filter=AC097895-3399-4890-8891-FC005A77CCB3&id=9b74d036-3d44-4238-bf74-3e8cbafa87d7"
+eligibilityTW: "可申請；須具中華民國國籍。分為年滿 18 歲至未滿 31 歲，以及年滿 15 歲至未滿 18 歲或目前為高中職在籍學生兩類，另有個別計畫條件。"
+taiwanNote: "從當梯清單選定計畫，再核對年齡、在學身分、語言、文件、行程與經費。海外課程或雙聯學制學生請依個別簡章確認是否符合在籍條件。"
+verificationDate: "2026-11-28"
 category: "青年海外圓夢"
 ---
 
-## 方案重點
+## 116 年度申請時間
 
-方案類型包含國際組織、基金會、智庫、青年議會、創業產業培訓、地方創生、文創、海外服務與科技等。
+青年百億海外圓夢基金 116 年度第 1 梯次受理至 2026 年 11 月 30 日中午 12 時（台灣時間）。海外翱翔組從官方清單選擇合作單位規劃的海外計畫。
 
-## 台灣學生提醒
+第 2 梯次預計於 2027 年 2 月 18 日開始，至 3 月 18 日中午 12 時截止。請以屆時的官方公告與個別計畫為準。 [青年發展署年度時程](https://www.yda.gov.tw/plan.aspx?p=3058&rn=9563)
 
-申請前請再次查看官方頁面的最新資格、金額與截止時間；本站會持續追蹤下一輪公告與條件變動。
+## 申請方式與經費
+
+可申請；須具中華民國國籍。分為年滿 18 歲至未滿 31 歲，以及年滿 15 歲至未滿 18 歲或目前為高中職在籍學生兩類，另有個別計畫條件。
+
+從當梯清單選定計畫，再核對年齡、在學身分、語言、文件、行程與經費。海外課程或雙聯學制學生請依個別簡章確認是否符合在籍條件。
+
+經費、給付方式與涵蓋項目依各計畫簡章。
+
+[官方報名入口](https://twpathfinder.yda.gov.tw/) · [高中職適用計畫清單](https://twpathfinder.yda.gov.tw/overview1517)
