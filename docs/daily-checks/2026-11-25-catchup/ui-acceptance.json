@@ -1,0 +1,39 @@
+{
+  "verifiedAt": "2026-11-28T14:45:48.168Z",
+  "desktop": {
+    "browser": "Chrome native and in-app browser",
+    "search": "台灣柏克萊 => 1 via button",
+    "combination": "英國 + 博士 => 8",
+    "zeroResults": "explicit 0-result message",
+    "clear": "restored 310 current records",
+    "loadMore": {
+      "before": 27,
+      "after": 51
+    }
+  },
+  "mobile": {
+    "browser": "in-app browser after Chrome viewport override did not apply",
+    "requestedViewport": {
+      "width": 390,
+      "height": 844
+    },
+    "measuredClientWidth": 375,
+    "measuredScrollWidth": 375,
+    "search": "台灣柏克萊 via Enter => 1",
+    "combination": "台灣柏克萊 + 美國 + 博士 => 1",
+    "zeroResults": "explicit 0-result message",
+    "clear": "restored 310 current records",
+    "loadMore": {
+      "before": 27,
+      "after": 51
+    },
+    "pages": [
+      "/",
+      "/scholarships/",
+      "/news/japan-graduate-job-offers-october-2026/"
+    ],
+    "visual": "headline, navigation, card and article body readable; no horizontal overflow"
+  },
+  "countNote": "Batch first-release count 309; concurrent d81bccb November23 catch-up subsequently added UOW, live count310. No change to other batch or repost.",
+  "viewportReset": true
+}

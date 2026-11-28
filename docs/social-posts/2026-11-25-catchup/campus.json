@@ -1,7 +1,7 @@
 {
   "date": "2026-11-28",
   "copyVersion": "2026-11-28-catchup-v1",
-  "status": "ready-pending-live-verification",
+  "status": "published",
   "CTA": "免費加入會員",
   "campaign": "taiwan-universities",
   "articleTitle": "政大海外暑期資訊：公告與開放申請分開看",
@@ -27,5 +27,7 @@
   ],
   "sourceBasis": "2026-11-26全文重查政大與Hertford兩個獨立機構；主辦原文確認2027年1月開放及非學位性質；未引用搜尋結果中的舊2026年度資訊。",
   "xCopy": "看到海外暑期課程公告，就能開始報名嗎？\n先分清轉知、開放日期與正式申請條件，安排才不會落空。 https://globalednews.com/taiwan-universities/",
-  "originalBatchDate": "2026-11-25"
+  "originalBatchDate": "2026-11-25",
+  "publishedVerifiedAt": "2026-11-28T14:47:03.000Z",
+  "publicationLog": "docs/social-posts/2026-11-25-catchup/publication-log.json"
 }

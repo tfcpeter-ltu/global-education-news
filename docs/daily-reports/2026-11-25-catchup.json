@@ -5,8 +5,8 @@
   "baseCommit": "cdd2c1975e424bad90184618411b5b8ac67669c8",
   "preparedFromCommit": "0c27c40b662fc43a857943a7854ddd716442ad20",
   "startedAt": "2026-11-28T14:12:19.603Z",
-  "status": "preparing-publication",
-  "currentPhase": "BUILD",
+  "status": "complete",
+  "currentPhase": "COMPLETE",
   "scholarshipBaselineSlugs": [
     "2026-08-bristol-think-big",
     "2026-08-manchester-global-futures-taiwan-2027",
@@ -330,7 +330,7 @@
       "isNew": true,
       "baselineAbsent": true,
       "verifiedAt": "2026-11-28T14:12:19.603Z",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-11-28T14:24:15.839Z",
       "updateSummary": "當日淨新增；逐項核對國籍、入學與資助期限、補助及排除條件。"
     },
     {
@@ -346,7 +346,7 @@
       "isNew": true,
       "baselineAbsent": true,
       "verifiedAt": "2026-11-28T14:12:19.603Z",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-11-28T14:24:15.839Z",
       "updateSummary": "當日淨新增；逐項核對國籍、入學與資助期限、補助及排除條件。"
     },
     {
@@ -363,7 +363,7 @@
       "isNew": true,
       "baselineAbsent": true,
       "verifiedAt": "2026-11-28T14:12:19.603Z",
-      "publishedVerifiedAt": null,
+      "publishedVerifiedAt": "2026-11-28T14:24:15.839Z",
       "updateSummary": "當日淨新增；逐項核對國籍、入學與資助期限、補助及排除條件。"
     }
   ],
@@ -401,5 +401,443 @@
     "australia-aiec-2026-future-thinking",
     "canada-asylum-portal-november-2026-update",
     "us-cu-denver-hyderabad-2027-plan"
-  ]
+  ],
+  "updatedAt": "2026-11-28T14:47:03Z",
+  "newsPublished": [
+    {
+      "slug": "japan-graduate-job-offers-october-2026",
+      "url": "https://globalednews.com/news/japan-graduate-job-offers-october-2026/",
+      "verifiedAt": "2026-11-28T14:24:15.839Z",
+      "englishUrl": "https://globalednews.com/en/news/japan-graduate-job-offers-october-2026/"
+    },
+    {
+      "slug": "us-cpt-august-guidance-stay-november-2026",
+      "url": "https://globalednews.com/news/us-cpt-august-guidance-stay-november-2026/",
+      "verifiedAt": "2026-11-28T14:24:15.839Z",
+      "englishUrl": "https://globalednews.com/en/news/us-cpt-august-guidance-stay-november-2026/"
+    },
+    {
+      "slug": "canada-passage-kira-admissions-acquisition-2026",
+      "url": "https://globalednews.com/news/canada-passage-kira-admissions-acquisition-2026/",
+      "verifiedAt": "2026-11-28T14:24:15.839Z",
+      "englishUrl": "https://globalednews.com/en/news/canada-passage-kira-admissions-acquisition-2026/"
+    }
+  ],
+  "scholarshipChecks": [
+    {
+      "slug": "2026-11-taiwan-berkeley-phd-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-11-taiwan-berkeley-phd-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-taiwan-berkeley-phd-2027.md",
+      "sources": [
+        "https://grad.berkeley.edu/financial/options-for-financial-support/fellowships/",
+        "https://www.scholarship.moe.gov.tw/top100/index/index",
+        "https://ws.moe.edu.tw/001/Upload/7/relfile/6617/107662/98543cc7-e03c-4746-9b5f-4ac93dad8dd9.pdf"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "isNew": true,
+      "baselineAbsent": true,
+      "verifiedAt": "2026-11-28T14:12:19.603Z",
+      "publishedVerifiedAt": "2026-11-28T14:24:15.839Z",
+      "updateSummary": "當日淨新增；逐項核對國籍、入學與資助期限、補助及排除條件。"
+    },
+    {
+      "slug": "2026-11-boustany-cambridge-mba-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-11-boustany-cambridge-mba-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-boustany-cambridge-mba-2027.md",
+      "sources": [
+        "https://boustany-foundation.org/scholarships/programs/cambridge-university-mba-scholarship/",
+        "https://www.jbs.cam.ac.uk/scholarships-loans/boustany-foundation-scholarship/"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "isNew": true,
+      "baselineAbsent": true,
+      "verifiedAt": "2026-11-28T14:12:19.603Z",
+      "publishedVerifiedAt": "2026-11-28T14:24:15.839Z",
+      "updateSummary": "當日淨新增；逐項核對國籍、入學與資助期限、補助及排除條件。"
+    },
+    {
+      "slug": "2026-11-boustany-cambridge-philosophy-phd-2027",
+      "url": "https://globalednews.com/scholarships/items/2026-11-boustany-cambridge-philosophy-phd-2027/",
+      "publishedPath": "src/pages/scholarships/items/2026-11-boustany-cambridge-philosophy-phd-2027.md",
+      "sources": [
+        "https://boustany-foundation.org/scholarships/programs/cambridge-university-phd-scholarship-in-philosophy/",
+        "https://www.cambridgetrust.org/scholarship/boustany-cambridge-pembroke-scholarship-in-philosophy/",
+        "https://www.phil.cam.ac.uk/prosp-students/prosp-grad"
+      ],
+      "eligibleTaiwan": true,
+      "open": true,
+      "isNew": true,
+      "baselineAbsent": true,
+      "verifiedAt": "2026-11-28T14:12:19.603Z",
+      "publishedVerifiedAt": "2026-11-28T14:24:15.839Z",
+      "updateSummary": "當日淨新增；逐項核對國籍、入學與資助期限、補助及排除條件。"
+    }
+  ],
+  "peterImports": [
+    {
+      "slug": "german-masters-prerequisite-coursework",
+      "sourceId": "pfbid0AxqEtaTbK7RRQfRj5B5kZKYSzZNbwZwSeeCeuScG51ccu6xGc5rZcKUNntadb4wQl",
+      "sourceUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid0AxqEtaTbK7RRQfRj5B5kZKYSzZNbwZwSeeCeuScG51ccu6xGc5rZcKUNntadb4wQl&id=61585164670358",
+      "originalDate": "2026-11-22",
+      "url": "https://globalednews.com/peter/german-masters-prerequisite-coursework/",
+      "verifiedAt": "2026-11-28T14:24:15.839Z"
+    }
+  ],
+  "peterReview": {
+    "status": "fewer-new-posts",
+    "checkedAt": "2026-11-25T21:27:36.917Z",
+    "availableNewCount": 1,
+    "sourceUrls": [
+      "https://www.facebook.com/permalink.php?story_fbid=pfbid0AxqEtaTbK7RRQfRj5B5kZKYSzZNbwZwSeeCeuScG51ccu6xGc5rZcKUNntadb4wQl&id=61585164670358"
+    ],
+    "reason": "原生粉專檢視11/24至11/18；11/24逐字稿、11/23簡報與11/22日常技巧為交換誌導讀；11/21小型實作、11/19加拿大研究、11/18美國招生長文已收錄。僅11/22德國碩士原創尚未收錄，不用宣傳文或重複文湊數。",
+    "scope": "Original November25 batch source review; one eligible unimported original. This catch-up does not claim a fresh complete November28 feed audit."
+  },
+  "socialPosts": [
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "id": "1133966156046248",
+      "publicUrl": "https://facebook.com/LTUOSSDTaiwan/posts/pfbid02hEVksKo94okYNE1sPDozQ7vvDKNudgf3C7KX6bDrJPLX5LMNpByz1ntwRDAEEQhBl",
+      "verifiedAt": "2026-11-28T14:26:26.654Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-28T14:26:26.654Z",
+      "mediaEvidence": "evidence/news-facebook.jpg",
+      "publicPhotoScreenshot": "evidence/news-facebook.jpg",
+      "photoAttachments": [
+        {
+          "id": "1133961129380084",
+          "url": "https://www.facebook.com/photo/?fbid=1133961129380084"
+        }
+      ],
+      "photoAttachedAt": "2026-11-28T14:19:41.443Z",
+      "copyAddedAt": "2026-11-28T14:19:41.657Z",
+      "photoReadyEvidence": "1080 x 1350 uploaded photo with edit/remove controls before caption",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-28T14:26:26.654Z"
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "DgSdoFaDxni",
+      "publicUrl": "https://www.instagram.com/p/DgSdoFaDxni/",
+      "verifiedAt": "2026-11-28T14:26:26.654Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-28T14:26:26.654Z",
+      "mediaEvidence": "evidence/news-instagram.jpg"
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7532450599590580224",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7532450599590580224/",
+      "verifiedAt": "2026-11-28T14:31:11.499Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-28T14:31:11.499Z",
+      "mediaEvidence": "evidence/news-linkedin.jpg"
+    },
+    {
+      "campaign": "news",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DgSebnDk22f",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DgSebnDk22f",
+      "verifiedAt": "2026-11-28T14:32:09.455Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-28T14:32:09.455Z",
+      "mediaEvidence": "evidence/news-threads.jpg"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "DgSd-yPj9Lh",
+      "publicUrl": "https://www.instagram.com/p/DgSd-yPj9Lh/",
+      "verifiedAt": "2026-11-28T14:32:09.455Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-28T14:32:09.455Z",
+      "mediaEvidence": "evidence/scholarship-instagram.jpg"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "id": "1133969032712627",
+      "publicUrl": "https://facebook.com/LTUOSSDTaiwan/posts/pfbid02iejNghULHfXnyQfnBvxJayk761c9h55FeNjhv4vCt1kDyNruTMXkni9s2o2TGQAml",
+      "verifiedAt": "2026-11-28T14:34:27.449Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-28T14:34:27.449Z",
+      "mediaEvidence": "evidence/scholarship-facebook.jpg",
+      "publicPhotoScreenshot": "evidence/scholarship-facebook.jpg",
+      "photoAttachments": [
+        {
+          "id": "1133968349379362",
+          "url": "https://www.facebook.com/photo/?fbid=1133968349379362"
+        }
+      ],
+      "photoAttachedAt": "2026-11-28T14:27:18.577Z",
+      "copyAddedAt": "2026-11-28T14:27:20.338Z",
+      "photoReadyEvidence": "1080 x 1350 uploaded photo with edit/remove controls before caption",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-28T14:34:27.449Z"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7532451515257475072",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7532451515257475072/",
+      "verifiedAt": "2026-11-28T14:34:59.361Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-28T14:34:59.361Z",
+      "mediaEvidence": "evidence/scholarship-linkedin-image.jpg"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DgSeub-E0nP",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DgSeub-E0nP",
+      "verifiedAt": "2026-11-28T14:35:47.344Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-28T14:35:47.344Z",
+      "mediaEvidence": "evidence/scholarship-threads.jpg",
+      "topic": "獎學金",
+      "replyUrls": [
+        "https://www.threads.com/@ltuossdtw/post/DgSevFnk1cP",
+        "https://www.threads.com/@ltuossdtw/post/DgSevi4k1AA",
+        "https://www.threads.com/@ltuossdtw/post/DgSev_JkyhW",
+        "https://www.threads.com/@ltuossdtw/post/DgSewhtk0rm"
+      ]
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "id": "1133975422711988",
+      "publicUrl": "https://facebook.com/LTUOSSDTaiwan/posts/pfbid02JerAqhNiDWmtCTh9W5iC1rp1XSEmuLmScHKmS7syoUPFRmLT4uSMQedCt1CkybCvl",
+      "verifiedAt": "2026-11-28T14:39:07.679Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-28T14:39:07.679Z",
+      "mediaEvidence": "evidence/diy-facebook.jpg",
+      "publicPhotoScreenshot": "evidence/diy-facebook.jpg",
+      "photoAttachments": [
+        {
+          "id": "1133974799378717",
+          "url": "https://www.facebook.com/photo/?fbid=1133974799378717"
+        }
+      ],
+      "photoAttachedAt": "2026-11-28T14:34:05.289Z",
+      "copyAddedAt": "2026-11-28T14:34:06.012Z",
+      "photoReadyEvidence": "1080 x 1350 uploaded photo with edit/remove controls before caption",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-28T14:39:07.679Z"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "DgSew7GD5kG",
+      "publicUrl": "https://www.instagram.com/p/DgSew7GD5kG/",
+      "verifiedAt": "2026-11-28T14:39:07.679Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-28T14:39:07.679Z",
+      "mediaEvidence": "evidence/diy-instagram.jpg"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7532452270152503296",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7532452270152503296/",
+      "verifiedAt": "2026-11-28T14:39:07.679Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-28T14:39:07.679Z",
+      "mediaEvidence": "evidence/diy-linkedin.jpg"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DgSe-EpExRC",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DgSe-EpExRC",
+      "verifiedAt": "2026-11-28T14:39:07.679Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-28T14:39:07.679Z",
+      "mediaEvidence": "evidence/diy-threads.jpg"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "DgSfWYnj5qy",
+      "publicUrl": "https://www.instagram.com/p/DgSfWYnj5qy/",
+      "verifiedAt": "2026-11-28T14:41:05.628Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-28T14:41:05.628Z",
+      "mediaEvidence": "evidence/campus-instagram.jpg"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7532453322960666624",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7532453322960666624/",
+      "verifiedAt": "2026-11-28T14:41:05.628Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-28T14:41:05.628Z",
+      "mediaEvidence": "evidence/campus-linkedin.jpg"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DgSfZQWkykU",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DgSfZQWkykU",
+      "verifiedAt": "2026-11-28T14:41:05.628Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-28T14:41:05.628Z",
+      "mediaEvidence": "evidence/campus-threads.jpg"
+    }
+  ],
+  "newFacebookPagePost": {
+    "campaign": "news",
+    "network": "facebook",
+    "pageId": "61595164194381",
+    "articleUrl": "https://globalednews.com/news/japan-graduate-job-offers-october-2026/",
+    "status": "PUBLISHED",
+    "id": "122126908047505473",
+    "publicUrl": "https://facebook.com/permalink.php?story_fbid=pfbid0aqwvUtszYDH8PxJZjDBSMKAtx6hJFfFmdjqtFbxaLD1Xxx1v1vNEFWqxd6t3FQPpl&id=61595164194381",
+    "verifiedAt": "2026-11-28T14:43:35.75Z",
+    "imageCount": 1,
+    "mediaStatus": "VERIFIED",
+    "mediaKind": "uploaded-photo",
+    "mediaVerifiedAt": "2026-11-28T14:43:35.75Z",
+    "mediaEvidence": "evidence/new-facebook-page.jpg",
+    "publicPhotoScreenshot": "evidence/new-facebook-page.jpg",
+    "photoAttachments": [
+      {
+        "id": "122126907879505473",
+        "url": "https://www.facebook.com/photo/?fbid=122126907879505473"
+      }
+    ],
+    "photoAttachedAt": "2026-11-28T14:41:56.503Z",
+    "copyAddedAt": "2026-11-28T14:41:56.65Z",
+    "photoReadyEvidence": "1080 x 1350 uploaded photo with edit/remove controls before caption",
+    "previewStatus": "VERIFIED",
+    "previewVerifiedAt": "2026-11-28T14:43:35.75Z"
+  },
+  "deployment": {
+    "commit": "ea926fbce227d3b85ea6a14421d30fbf60c5403b",
+    "status": "success",
+    "runId": 46154227420,
+    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/46154227420",
+    "verifiedAt": "2026-11-28T14:24:15.839Z",
+    "jobs": [
+      "build",
+      "deploy",
+      "indexnow"
+    ]
+  },
+  "acceptance": {
+    "desktop": true,
+    "mobile": true,
+    "seo": true,
+    "verifiedAt": "2026-11-28T14:45:48.168Z",
+    "httpEvidence": "docs/daily-checks/2026-11-25-catchup/live-acceptance.json",
+    "uiEvidence": "docs/daily-checks/2026-11-25-catchup/ui-acceptance.json",
+    "screenshots": "Local docs/publication-deliverables/2026-11-25-catchup/evidence",
+    "scope": "20 affected bilingual pages, 7 images, 3 feeds/sitemaps; live home and scholarship search/filter/clear/zero results/load more on desktop and mobile; mobile article title/body and no horizontal overflow."
+  },
+  "archiveRemediation": {
+    "status": "complete",
+    "commit": "ea926fbce227d3b85ea6a14421d30fbf60c5403b",
+    "liveEvidence": "docs/daily-checks/2026-11-25-catchup/live-acceptance.json",
+    "articles": [
+      {
+        "slug": "australia-aiec-2026-future-thinking",
+        "url": "https://globalednews.com/news/australia-aiec-2026-future-thinking/",
+        "englishUrl": "https://globalednews.com/en/news/australia-aiec-2026-future-thinking/",
+        "verifiedAt": "2026-11-28T14:24:15.839Z",
+        "originalPublishedAt": "2026-10-28T05:12:13.722712+08:00",
+        "updatedAt": "2026-11-28T14:15:12.841Z"
+      },
+      {
+        "slug": "canada-asylum-portal-november-2026-update",
+        "url": "https://globalednews.com/news/canada-asylum-portal-november-2026-update/",
+        "englishUrl": "https://globalednews.com/en/news/canada-asylum-portal-november-2026-update/",
+        "verifiedAt": "2026-11-28T14:24:15.839Z",
+        "originalPublishedAt": "2026-10-28T05:12:13.722712+08:00",
+        "updatedAt": "2026-11-28T14:15:12.877Z"
+      },
+      {
+        "slug": "us-cu-denver-hyderabad-2027-plan",
+        "url": "https://globalednews.com/news/us-cu-denver-hyderabad-2027-plan/",
+        "englishUrl": "https://globalednews.com/en/news/us-cu-denver-hyderabad-2027-plan/",
+        "verifiedAt": "2026-11-28T14:24:15.839Z",
+        "originalPublishedAt": "2026-10-28T05:12:13.722712+08:00",
+        "updatedAt": "2026-11-28T14:15:12.913Z"
+      }
+    ]
+  },
+  "build": {
+    "status": "passed",
+    "command": "pnpm run build",
+    "commit": "ea926fbce227d3b85ea6a14421d30fbf60c5403b",
+    "astroPages": 760,
+    "bilingualPairs": 1060,
+    "photoPreviews": 2110,
+    "canonicalPages": 2104,
+    "log": "catchup-release-build.log (preserved local artifact)"
+  },
+  "security": {
+    "status": "passed",
+    "high": 0,
+    "critical": 0,
+    "moderate": 2,
+    "low": 2
+  },
+  "scholarshipCount": {
+    "baseline": 306,
+    "afterThisRelease": 309,
+    "atFinalLiveAcceptance": 310,
+    "note": "Batch first-release count 309; concurrent d81bccb November23 catch-up subsequently added UOW, live count310. No change to other batch or repost."
+  },
+  "pendingItems": [],
+  "blockers": [],
+  "localPreservation": {
+    "path": "docs/publication-deliverables/2026-11-25-catchup",
+    "cloudSyncVerified": false
+  },
+  "completedAt": "2026-11-28T14:47:20.8970122Z",
+  "deliveryValidation": "COMPLETE: actual-date 2026-11-28; unchanged verifier checks with catch-up report path; news depth passed."
 }

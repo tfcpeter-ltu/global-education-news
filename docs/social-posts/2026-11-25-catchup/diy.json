@@ -1,7 +1,7 @@
 {
   "date": "2026-11-28",
   "copyVersion": "2026-11-28-catchup-v1",
-  "status": "ready-pending-live-verification",
+  "status": "published",
   "CTA": "免費加入會員",
   "campaign": "study-abroad",
   "country": "Netherlands",
@@ -29,5 +29,7 @@
   ],
   "sourceBasis": "三來源全文已讀；UQ僅作住宿風險交叉資料，不套用UQ學生資格至台灣。原生導航清除舊篩選後Delft搜尋1筆；Leiden未收錄，已排除。",
   "xCopy": "拿到荷蘭大學錄取，住宿就有著落嗎？\n代爾夫特理工提醒：付住宿服務費，仍不保證有房。 https://globalednews.com/study-abroad/",
-  "originalBatchDate": "2026-11-25"
+  "originalBatchDate": "2026-11-25",
+  "publishedVerifiedAt": "2026-11-28T14:47:03.000Z",
+  "publicationLog": "docs/social-posts/2026-11-25-catchup/publication-log.json"
 }

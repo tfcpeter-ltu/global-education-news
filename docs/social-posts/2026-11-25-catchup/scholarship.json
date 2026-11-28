@@ -1,7 +1,7 @@
 {
   "date": "2026-11-28",
   "copyVersion": "2026-11-28-catchup-v1",
-  "status": "prepared-pending-live-verification",
+  "status": "published",
   "CTA": "免費加入會員",
   "campaign": "scholarship",
   "articleTitle": "台灣學生國際獎學金雷達｜309筆與三項新增資助",
@@ -31,5 +31,7 @@
     "https://www.phil.cam.ac.uk/prosp-students/prosp-grad"
   ],
   "xCopy": "台灣學生國際獎學金雷達\n想找留學資助，卻不知道哪些資格與期限適合自己？\n環球教育新聞提供免費開放、具公益性質的資訊整理，現已收錄309筆，可依國家、學位與申請狀態查找補助、資格、期限及官方來源。收錄總量不代表全部同時開放。\nhttps://globalednews.com/scholarships/",
-  "originalBatchDate": "2026-11-25"
+  "originalBatchDate": "2026-11-25",
+  "publishedVerifiedAt": "2026-11-28T14:47:03.000Z",
+  "publicationLog": "docs/social-posts/2026-11-25-catchup/publication-log.json"
 }

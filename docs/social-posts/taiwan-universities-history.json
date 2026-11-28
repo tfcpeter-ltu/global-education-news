@@ -921,6 +921,33 @@
           "publicUrl": "https://lnkd.in/p/geXDA6ye"
         }
       ]
+    },
+    {
+      "date": "2026-11-28",
+      "originalBatchDate": "2026-11-25",
+      "status": "published",
+      "schools": [
+        "National Chengchi University"
+      ],
+      "topic": "Hertford summer programme announcement versus January2027 application opening",
+      "evidence": "docs/social-posts/2026-11-25-catchup/publication-log.json",
+      "posts": [
+        {
+          "network": "instagram",
+          "id": "DgSfWYnj5qy",
+          "publicUrl": "https://www.instagram.com/p/DgSfWYnj5qy/"
+        },
+        {
+          "network": "linkedin",
+          "id": "7532453322960666624",
+          "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7532453322960666624/"
+        },
+        {
+          "network": "threads",
+          "id": "DgSfZQWkykU",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DgSfZQWkykU"
+        }
+      ]
     }
   ]
 }

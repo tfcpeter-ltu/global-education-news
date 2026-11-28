@@ -1,6 +1,273 @@
 {
   "date": "2026-11-28",
   "originalBatchDate": "2026-11-25",
-  "status": "not-published",
-  "posts": []
+  "status": "published",
+  "completedAt": "2026-11-28T14:47:03.000Z",
+  "posts": [
+    {
+      "campaign": "news",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "id": "1133966156046248",
+      "publicUrl": "https://facebook.com/LTUOSSDTaiwan/posts/pfbid02hEVksKo94okYNE1sPDozQ7vvDKNudgf3C7KX6bDrJPLX5LMNpByz1ntwRDAEEQhBl",
+      "verifiedAt": "2026-11-28T14:26:26.654Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-28T14:26:26.654Z",
+      "mediaEvidence": "evidence/news-facebook.jpg",
+      "publicPhotoScreenshot": "evidence/news-facebook.jpg",
+      "photoAttachments": [
+        {
+          "id": "1133961129380084",
+          "url": "https://www.facebook.com/photo/?fbid=1133961129380084"
+        }
+      ],
+      "photoAttachedAt": "2026-11-28T14:19:41.443Z",
+      "copyAddedAt": "2026-11-28T14:19:41.657Z",
+      "photoReadyEvidence": "1080 x 1350 uploaded photo with edit/remove controls before caption",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-28T14:26:26.654Z"
+    },
+    {
+      "campaign": "news",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "DgSdoFaDxni",
+      "publicUrl": "https://www.instagram.com/p/DgSdoFaDxni/",
+      "verifiedAt": "2026-11-28T14:26:26.654Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-28T14:26:26.654Z",
+      "mediaEvidence": "evidence/news-instagram.jpg"
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7532450599590580224",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7532450599590580224/",
+      "verifiedAt": "2026-11-28T14:31:11.499Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-28T14:31:11.499Z",
+      "mediaEvidence": "evidence/news-linkedin.jpg"
+    },
+    {
+      "campaign": "news",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DgSebnDk22f",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DgSebnDk22f",
+      "verifiedAt": "2026-11-28T14:32:09.455Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-28T14:32:09.455Z",
+      "mediaEvidence": "evidence/news-threads.jpg"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "DgSd-yPj9Lh",
+      "publicUrl": "https://www.instagram.com/p/DgSd-yPj9Lh/",
+      "verifiedAt": "2026-11-28T14:32:09.455Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-28T14:32:09.455Z",
+      "mediaEvidence": "evidence/scholarship-instagram.jpg"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "id": "1133969032712627",
+      "publicUrl": "https://facebook.com/LTUOSSDTaiwan/posts/pfbid02iejNghULHfXnyQfnBvxJayk761c9h55FeNjhv4vCt1kDyNruTMXkni9s2o2TGQAml",
+      "verifiedAt": "2026-11-28T14:34:27.449Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-28T14:34:27.449Z",
+      "mediaEvidence": "evidence/scholarship-facebook.jpg",
+      "publicPhotoScreenshot": "evidence/scholarship-facebook.jpg",
+      "photoAttachments": [
+        {
+          "id": "1133968349379362",
+          "url": "https://www.facebook.com/photo/?fbid=1133968349379362"
+        }
+      ],
+      "photoAttachedAt": "2026-11-28T14:27:18.577Z",
+      "copyAddedAt": "2026-11-28T14:27:20.338Z",
+      "photoReadyEvidence": "1080 x 1350 uploaded photo with edit/remove controls before caption",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-28T14:34:27.449Z"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7532451515257475072",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7532451515257475072/",
+      "verifiedAt": "2026-11-28T14:34:59.361Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-28T14:34:59.361Z",
+      "mediaEvidence": "evidence/scholarship-linkedin-image.jpg"
+    },
+    {
+      "campaign": "scholarship",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DgSeub-E0nP",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DgSeub-E0nP",
+      "verifiedAt": "2026-11-28T14:35:47.344Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaVerifiedAt": "2026-11-28T14:35:47.344Z",
+      "mediaEvidence": "evidence/scholarship-threads.jpg",
+      "topic": "獎學金",
+      "replyUrls": [
+        "https://www.threads.com/@ltuossdtw/post/DgSevFnk1cP",
+        "https://www.threads.com/@ltuossdtw/post/DgSevi4k1AA",
+        "https://www.threads.com/@ltuossdtw/post/DgSev_JkyhW",
+        "https://www.threads.com/@ltuossdtw/post/DgSewhtk0rm"
+      ]
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "facebook",
+      "status": "PUBLISHED",
+      "id": "1133975422711988",
+      "publicUrl": "https://facebook.com/LTUOSSDTaiwan/posts/pfbid02JerAqhNiDWmtCTh9W5iC1rp1XSEmuLmScHKmS7syoUPFRmLT4uSMQedCt1CkybCvl",
+      "verifiedAt": "2026-11-28T14:39:07.679Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-28T14:39:07.679Z",
+      "mediaEvidence": "evidence/diy-facebook.jpg",
+      "publicPhotoScreenshot": "evidence/diy-facebook.jpg",
+      "photoAttachments": [
+        {
+          "id": "1133974799378717",
+          "url": "https://www.facebook.com/photo/?fbid=1133974799378717"
+        }
+      ],
+      "photoAttachedAt": "2026-11-28T14:34:05.289Z",
+      "copyAddedAt": "2026-11-28T14:34:06.012Z",
+      "photoReadyEvidence": "1080 x 1350 uploaded photo with edit/remove controls before caption",
+      "previewStatus": "VERIFIED",
+      "previewVerifiedAt": "2026-11-28T14:39:07.679Z"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "DgSew7GD5kG",
+      "publicUrl": "https://www.instagram.com/p/DgSew7GD5kG/",
+      "verifiedAt": "2026-11-28T14:39:07.679Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-28T14:39:07.679Z",
+      "mediaEvidence": "evidence/diy-instagram.jpg"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7532452270152503296",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7532452270152503296/",
+      "verifiedAt": "2026-11-28T14:39:07.679Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-28T14:39:07.679Z",
+      "mediaEvidence": "evidence/diy-linkedin.jpg"
+    },
+    {
+      "campaign": "study-abroad",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DgSe-EpExRC",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DgSe-EpExRC",
+      "verifiedAt": "2026-11-28T14:39:07.679Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-28T14:39:07.679Z",
+      "mediaEvidence": "evidence/diy-threads.jpg"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "instagram",
+      "status": "PUBLISHED",
+      "id": "DgSfWYnj5qy",
+      "publicUrl": "https://www.instagram.com/p/DgSfWYnj5qy/",
+      "verifiedAt": "2026-11-28T14:41:05.628Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-28T14:41:05.628Z",
+      "mediaEvidence": "evidence/campus-instagram.jpg"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "linkedin",
+      "status": "PUBLISHED",
+      "id": "7532453322960666624",
+      "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7532453322960666624/",
+      "verifiedAt": "2026-11-28T14:41:05.628Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-28T14:41:05.628Z",
+      "mediaEvidence": "evidence/campus-linkedin.jpg"
+    },
+    {
+      "campaign": "taiwan-universities",
+      "network": "threads",
+      "status": "PUBLISHED",
+      "id": "DgSfZQWkykU",
+      "publicUrl": "https://www.threads.com/@ltuossdtw/post/DgSfZQWkykU",
+      "verifiedAt": "2026-11-28T14:41:05.628Z",
+      "imageCount": 1,
+      "mediaStatus": "VERIFIED",
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-28T14:41:05.628Z",
+      "mediaEvidence": "evidence/campus-threads.jpg"
+    }
+  ],
+  "newFacebookPagePost": {
+    "campaign": "news",
+    "network": "facebook",
+    "pageId": "61595164194381",
+    "articleUrl": "https://globalednews.com/news/japan-graduate-job-offers-october-2026/",
+    "status": "PUBLISHED",
+    "id": "122126908047505473",
+    "publicUrl": "https://facebook.com/permalink.php?story_fbid=pfbid0aqwvUtszYDH8PxJZjDBSMKAtx6hJFfFmdjqtFbxaLD1Xxx1v1vNEFWqxd6t3FQPpl&id=61595164194381",
+    "verifiedAt": "2026-11-28T14:43:35.750Z",
+    "imageCount": 1,
+    "mediaStatus": "VERIFIED",
+    "mediaKind": "uploaded-photo",
+    "mediaVerifiedAt": "2026-11-28T14:43:35.750Z",
+    "mediaEvidence": "evidence/new-facebook-page.jpg",
+    "publicPhotoScreenshot": "evidence/new-facebook-page.jpg",
+    "photoAttachments": [
+      {
+        "id": "122126907879505473",
+        "url": "https://www.facebook.com/photo/?fbid=122126907879505473"
+      }
+    ],
+    "photoAttachedAt": "2026-11-28T14:41:56.503Z",
+    "copyAddedAt": "2026-11-28T14:41:56.650Z",
+    "photoReadyEvidence": "1080 x 1350 uploaded photo with edit/remove controls before caption",
+    "previewStatus": "VERIFIED",
+    "previewVerifiedAt": "2026-11-28T14:43:35.750Z"
+  },
+  "regularPostCount": 15,
+  "newPagePostCount": 1,
+  "localEvidenceRoot": "docs/publication-deliverables/2026-11-25-catchup",
+  "screenshotsStoredLocally": true,
+  "publicationMethod": "Native Meta Business Suite, Threads and LinkedIn. No Metricool, paid promotion or automatic cross-posting.",
+  "deduplication": "Only authorized November25 catch-up. November28 UK/Australia/Canada posts excluded. No duplicate sends."
 }

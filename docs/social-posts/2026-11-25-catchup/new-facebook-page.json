@@ -1,7 +1,7 @@
 {
   "date": "2026-11-28",
   "copyVersion": "2026-11-28-catchup-v1",
-  "status": "prepared-pending-live-verification",
+  "status": "published",
   "CTA": "免費加入會員",
   "campaign": "news",
   "articleTitle": "日本大學生10月內定率73%：台灣學生怎麼看",
@@ -25,5 +25,7 @@
     "https://kumanichi.com/articles/2060120"
   ],
   "pageId": "61595164194381",
-  "originalBatchDate": "2026-11-25"
+  "originalBatchDate": "2026-11-25",
+  "publishedVerifiedAt": "2026-11-28T14:47:03.000Z",
+  "publicationLog": "docs/social-posts/2026-11-25-catchup/publication-log.json"
 }

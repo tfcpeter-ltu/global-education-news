@@ -1503,6 +1503,37 @@
           "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7530144836528537602/"
         }
       ]
+    },
+    {
+      "date": "2026-11-28",
+      "originalBatchDate": "2026-11-25",
+      "status": "published",
+      "country": "Netherlands",
+      "schoolName": "TU Delft",
+      "storyAngle": "Housing service fee does not guarantee a room; fees and refund stages",
+      "evidence": "docs/social-posts/2026-11-25-catchup/publication-log.json",
+      "posts": [
+        {
+          "network": "facebook",
+          "id": "1133975422711988",
+          "publicUrl": "https://facebook.com/LTUOSSDTaiwan/posts/pfbid02JerAqhNiDWmtCTh9W5iC1rp1XSEmuLmScHKmS7syoUPFRmLT4uSMQedCt1CkybCvl"
+        },
+        {
+          "network": "instagram",
+          "id": "DgSew7GD5kG",
+          "publicUrl": "https://www.instagram.com/p/DgSew7GD5kG/"
+        },
+        {
+          "network": "linkedin",
+          "id": "7532452270152503296",
+          "publicUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7532452270152503296/"
+        },
+        {
+          "network": "threads",
+          "id": "DgSe-EpExRC",
+          "publicUrl": "https://www.threads.com/@ltuossdtw/post/DgSe-EpExRC"
+        }
+      ]
     }
   ]
 }

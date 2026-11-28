@@ -1,0 +1,198 @@
+{
+  "verifiedAt": "2026-11-28T14:24:15.839Z",
+  "commit": "ea926fbce227d3b85ea6a14421d30fbf60c5403b",
+  "run": 46154227420,
+  "workflow": "success",
+  "evidence": [
+    {
+      "url": "https://globalednews.com/news/japan-graduate-job-offers-october-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/japan-graduate-job-offers-october-2026/",
+      "h1": "日本大學生就職內定率73%：赴日選校不能把全國數字當個人保證",
+      "articleSchema": true
+    },
+    {
+      "url": "https://globalednews.com/en/news/japan-graduate-job-offers-october-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/japan-graduate-job-offers-october-2026/",
+      "h1": " Japan reports a 73% graduate job-offer rate: what prospective students should check ",
+      "articleSchema": true
+    },
+    {
+      "url": "https://globalednews.com/news/us-cpt-august-guidance-stay-november-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/us-cpt-august-guidance-stay-november-2026/",
+      "h1": "美國法院暫停CPT限縮指引：台灣留學生仍須確認學校實習授權",
+      "articleSchema": true
+    },
+    {
+      "url": "https://globalednews.com/en/news/us-cpt-august-guidance-stay-november-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/us-cpt-august-guidance-stay-november-2026/",
+      "h1": " Court pauses restrictive CPT guidance; students still need campus authorization ",
+      "articleSchema": true
+    },
+    {
+      "url": "https://globalednews.com/news/canada-passage-kira-admissions-acquisition-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/canada-passage-kira-admissions-acquisition-2026/",
+      "h1": "加拿大招生平台整合：申請影片與文件審查，學生該問清楚什麼",
+      "articleSchema": true
+    },
+    {
+      "url": "https://globalednews.com/en/news/canada-passage-kira-admissions-acquisition-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/canada-passage-kira-admissions-acquisition-2026/",
+      "h1": " Passage buys Kira Talent: what applicants should ask about assessments and admissions ",
+      "articleSchema": true
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-11-taiwan-berkeley-phd-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-11-taiwan-berkeley-phd-2027/",
+      "h1": "台灣柏克萊博士合作獎：5名，學費與生活支持至長4年",
+      "articleSchema": false
+    },
+    {
+      "url": "https://globalednews.com/en/scholarships/items/2026-11-taiwan-berkeley-phd-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/scholarships/items/2026-11-taiwan-berkeley-phd-2027/",
+      "h1": " Taiwan–Berkeley doctoral fellowship: five places with up to four years of support ",
+      "articleSchema": false
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-11-boustany-cambridge-mba-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-11-boustany-cambridge-mba-2027/",
+      "h1": "劍橋MBA Boustany獎學金：2027年學費補助75%，先取得錄取",
+      "articleSchema": false
+    },
+    {
+      "url": "https://globalednews.com/en/scholarships/items/2026-11-boustany-cambridge-mba-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/scholarships/items/2026-11-boustany-cambridge-mba-2027/",
+      "h1": " Boustany Cambridge MBA Scholarship: 75% tuition support for 2027 ",
+      "articleSchema": false
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-11-boustany-cambridge-philosophy-phd-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-11-boustany-cambridge-philosophy-phd-2027/",
+      "h1": "劍橋哲學博士Boustany合作獎：三年學費與生活支持，先留意12月入學截止",
+      "articleSchema": false
+    },
+    {
+      "url": "https://globalednews.com/en/scholarships/items/2026-11-boustany-cambridge-philosophy-phd-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/scholarships/items/2026-11-boustany-cambridge-philosophy-phd-2027/",
+      "h1": " Boustany Cambridge Philosophy PhD award: three-year support and an earlier admission deadline ",
+      "articleSchema": false
+    },
+    {
+      "url": "https://globalednews.com/peter/german-masters-prerequisite-coursework/",
+      "status": 200,
+      "canonical": "https://globalednews.com/peter/german-masters-prerequisite-coursework/",
+      "h1": "成績很好，為什麼仍不能申請？德國碩士先看修過什麼",
+      "articleSchema": false
+    },
+    {
+      "url": "https://globalednews.com/en/peter/german-masters-prerequisite-coursework/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/peter/german-masters-prerequisite-coursework/",
+      "h1": " Good grades, but still ineligible? German master’s programmes first check your coursework ",
+      "articleSchema": false
+    },
+    {
+      "url": "https://globalednews.com/news/australia-aiec-2026-future-thinking/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/australia-aiec-2026-future-thinking/",
+      "h1": "澳洲AIEC雪梨開幕：四天聚焦AI、跨境教育與學生流動",
+      "articleSchema": true
+    },
+    {
+      "url": "https://globalednews.com/en/news/australia-aiec-2026-future-thinking/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/australia-aiec-2026-future-thinking/",
+      "h1": " AIEC opens in Sydney: four days on AI, cross-border education and mobility ",
+      "articleSchema": true
+    },
+    {
+      "url": "https://globalednews.com/news/canada-asylum-portal-november-2026-update/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/canada-asylum-portal-november-2026-update/",
+      "h1": "加拿大11月3日更新庇護申請表單：勿與學簽續期混為一談",
+      "articleSchema": true
+    },
+    {
+      "url": "https://globalednews.com/en/news/canada-asylum-portal-november-2026-update/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/canada-asylum-portal-november-2026-update/",
+      "h1": " Canada updates asylum forms on November 3: distinguish them from study permits ",
+      "articleSchema": true
+    },
+    {
+      "url": "https://globalednews.com/news/us-cu-denver-hyderabad-2027-plan/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/us-cu-denver-hyderabad-2027-plan/",
+      "h1": "美國CU Denver規劃海德拉巴據點：預計2027首招，認證仍待核准",
+      "articleSchema": true
+    },
+    {
+      "url": "https://globalednews.com/en/news/us-cu-denver-hyderabad-2027-plan/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/us-cu-denver-hyderabad-2027-plan/",
+      "h1": " CU Denver plans Hyderabad location for 2027; accreditation approval remains pending ",
+      "articleSchema": true
+    },
+    {
+      "url": "https://globalednews.com/images/daily/2026-11-25-catchup/japan.jpg",
+      "status": 200,
+      "kind": "image"
+    },
+    {
+      "url": "https://globalednews.com/images/daily/2026-11-25-catchup/us.jpg",
+      "status": 200,
+      "kind": "image"
+    },
+    {
+      "url": "https://globalednews.com/images/daily/2026-11-25-catchup/canada.jpg",
+      "status": 200,
+      "kind": "image"
+    },
+    {
+      "url": "https://globalednews.com/images/social/2026-11-25-catchup/news.jpg",
+      "status": 200,
+      "kind": "image"
+    },
+    {
+      "url": "https://globalednews.com/images/social/2026-11-25-catchup/radar.jpg",
+      "status": 200,
+      "kind": "image"
+    },
+    {
+      "url": "https://globalednews.com/images/social/2026-11-25-catchup/diy.jpg",
+      "status": 200,
+      "kind": "image"
+    },
+    {
+      "url": "https://globalednews.com/images/social/2026-11-25-catchup/campus.jpg",
+      "status": 200,
+      "kind": "image"
+    },
+    {
+      "url": "https://globalednews.com/weekly-feed.xml",
+      "status": 200,
+      "newArticlesFound": 3
+    },
+    {
+      "url": "https://globalednews.com/news-sitemap.xml",
+      "status": 200,
+      "newArticlesFound": 3
+    },
+    {
+      "url": "https://globalednews.com/article-sitemap.xml",
+      "status": 200,
+      "newArticlesFound": 3
+    }
+  ]
+}
