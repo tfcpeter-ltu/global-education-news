@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-28",
+  "expected": 10,
+  "publishedVerified": 0,
+  "status": "blocked_native_browser_documentation",
+  "reason": "Previously rejected cua.rewriteDocumentation remains unresolved; no repeated request or workaround. No native social publication attempted.",
+  "topics": [
+    "01-three-questions",
+    "02-postgraduate-housing"
+  ],
+  "copyPrepared": 10,
+  "imageStatus": "pending",
+  "rows": [
+    {
+      "topic": "01-three-questions",
+      "platform": "Facebook",
+      "status": "not_published",
+      "url": null
+    },
+    {
+      "topic": "01-three-questions",
+      "platform": "Instagram",
+      "status": "not_published",
+      "url": null
+    },
+    {
+      "topic": "01-three-questions",
+      "platform": "Threads",
+      "status": "not_published",
+      "url": null
+    },
+    {
+      "topic": "01-three-questions",
+      "platform": "YouTube",
+      "status": "not_published",
+      "url": null
+    },
+    {
+      "topic": "01-three-questions",
+      "platform": "X",
+      "status": "not_published",
+      "url": null
+    },
+    {
+      "topic": "02-postgraduate-housing",
+      "platform": "Facebook",
+      "status": "not_published",
+      "url": null
+    },
+    {
+      "topic": "02-postgraduate-housing",
+      "platform": "Instagram",
+      "status": "not_published",
+      "url": null
+    },
+    {
+      "topic": "02-postgraduate-housing",
+      "platform": "Threads",
+      "status": "not_published",
+      "url": null
+    },
+    {
+      "topic": "02-postgraduate-housing",
+      "platform": "YouTube",
+      "status": "not_published",
+      "url": null
+    },
+    {
+      "topic": "02-postgraduate-housing",
+      "platform": "X",
+      "status": "not_published",
+      "url": null
+    }
+  ]
+}

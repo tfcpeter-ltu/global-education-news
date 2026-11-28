@@ -1,0 +1,37 @@
+[
+  {
+    "id": "i99zRuiCgIU",
+    "title": "Making a difference: A Day at the University of Amsterdam",
+    "channel": "University of Amsterdam",
+    "channelId": "UC3i2K9G-s3NcOjabgYlDkOA",
+    "description": "The UvA is working towards a sustainable and prosperous future through impact and innovation, achieved through collaboration that transcends the boundaries of existing knowledge. As a broad university, we belong to the international top.\n\nWant to know more about the UvA? Go to: http://bit.ly/3JVqEpT",
+    "views": "21112",
+    "publishedAt": "2023-04-17T06:43:06-07:00",
+    "seconds": "118",
+    "playability": {
+      "status": "OK",
+      "playableInEmbed": true,
+      "miniplayer": {
+        "miniplayerRenderer": {
+          "playbackMode": "PLAYBACK_MODE_ALLOW"
+        }
+      },
+      "contextParams": "Q0FFU0FnZ0M="
+    },
+    "embed": {
+      "iframeUrl": "https://www.youtube.com/embed/i99zRuiCgIU",
+      "width": 1280,
+      "height": 720
+    },
+    "thumbnailStatus": 200,
+    "captions": [
+      {
+        "language": "en",
+        "status": 200,
+        "bytes": 0,
+        "text": ""
+      }
+    ],
+    "verifiedAt": "2026-11-28T04:01:26.760Z"
+  }
+]
