@@ -1,6 +1,6 @@
 {
   "status": "ready",
-  "updatedAt": "2026-11-27T09:38:47.562Z",
+  "updatedAt": "2026-11-28T08:53:17.597Z",
   "period": "rolling-7-days",
   "audienceDisplay": "accumulating",
   "popularArticles": [
@@ -15,11 +15,6 @@
       "views": 7
     },
     {
-      "title": "英歐青年交流談妥各10萬名額：尚未開放，跨境學費再談六個月｜環球教育新聞網 Global Education News",
-      "path": "/news/uk-eu-youth-experience-agreement-tuition-2026/",
-      "views": 7
-    },
-    {
       "title": "中英重啟教育部長對話，簽署涵蓋九領域的合作協議｜環球教育新聞網 Global Education News",
       "path": "/news/uk-china-education-ministerial-dialogue-november-2026/",
       "views": 5
@@ -28,68 +23,73 @@
       "title": "加拿大開放免費資料素養課：從看懂數字到說清楚證據｜環球教育新聞網 Global Education News",
       "path": "/news/canada-statcan-free-data-literacy-courses-2026/",
       "views": 4
+    },
+    {
+      "title": "加拿大放寬研究人員工作報酬認定：領津貼不再一律排除，博士生仍須核對條件｜環球教育新聞網 Global Education News",
+      "path": "/news/canada-researcher-stipend-express-entry-policy-2026/",
+      "views": 2
     }
   ],
   "countries": [
     {
       "name": "台灣",
       "mapName": "Taiwan",
-      "sessions": 85,
-      "share": 30.2
+      "sessions": 72,
+      "share": 29.8
     },
     {
       "name": "美國",
       "mapName": "United States",
-      "sessions": 79,
-      "share": 28.1
+      "sessions": 55,
+      "share": 22.7
     },
     {
       "name": "中國",
       "mapName": "China",
-      "sessions": 20,
-      "share": 7.1
+      "sessions": 23,
+      "share": 9.5
     },
     {
-      "name": "印度",
-      "mapName": "India",
-      "sessions": 16,
-      "share": 5.7
+      "name": "英國",
+      "mapName": "United Kingdom",
+      "sessions": 10,
+      "share": 4.1
     },
     {
       "name": "新加坡",
       "mapName": "Singapore",
       "sessions": 9,
-      "share": 3.2
+      "share": 3.7
     },
     {
       "name": "泰國",
       "mapName": "Thailand",
       "sessions": 9,
-      "share": 3.2
+      "share": 3.7
+    },
+    {
+      "name": "印度",
+      "mapName": "India",
+      "sessions": 7,
+      "share": 2.9
     },
     {
       "name": "瑞典",
       "mapName": "Sweden",
-      "sessions": 8,
-      "share": 2.8
-    },
-    {
-      "name": "英國",
-      "mapName": "United Kingdom",
-      "sessions": 7,
+      "sessions": 6,
       "share": 2.5
     },
     {
       "name": "德國",
       "mapName": "Germany",
       "sessions": 4,
-      "share": 1.4
+      "share": 1.7
     },
     {
-      "name": "愛爾蘭",
-      "mapName": "Ireland",
+      "name": "Spain",
+      "mapName": "Spain",
       "sessions": 4,
-      "share": 1.4
+      "share": 1.7
     }
   ]
 }
