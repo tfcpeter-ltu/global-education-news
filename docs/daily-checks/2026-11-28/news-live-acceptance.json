@@ -1,0 +1,87 @@
+{
+  "verifiedAt": "2026-11-28T13:51:07.509Z",
+  "commit": "07d4acbba99ece7c72cd87891f01cde5a347560c",
+  "run": 46151301985,
+  "workflow": "success",
+  "evidence": [
+    {
+      "url": "https://globalednews.com/news/uk-study-visa-grants-september-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/uk-study-visa-grants-september-2026/",
+      "h1": "英國學生簽證核發續降：先分清主申請人、眷屬與拒簽率",
+      "newsArticle": true
+    },
+    {
+      "url": "https://globalednews.com/en/news/uk-study-visa-grants-september-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/uk-study-visa-grants-september-2026/",
+      "h1": " UK study visa grants fall: separate students, dependants and refusal rates ",
+      "newsArticle": true
+    },
+    {
+      "url": "https://globalednews.com/images/daily/2026-11-28/uk.jpg",
+      "status": 200,
+      "kind": "photo"
+    },
+    {
+      "url": "https://globalednews.com/news/australia-2027-visa-priority-november-27/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/australia-2027-visa-priority-november-27/",
+      "h1": "澳洲2027留學簽證排序表更新：47,700是持簽證待入學指標，非已到校人數",
+      "newsArticle": true
+    },
+    {
+      "url": "https://globalednews.com/en/news/australia-2027-visa-priority-november-27/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/australia-2027-visa-priority-november-27/",
+      "h1": " Australia’s 2027 visa priorities: 47,700 is a future visa-linked measure, not arrivals ",
+      "newsArticle": true
+    },
+    {
+      "url": "https://globalednews.com/images/daily/2026-11-28/australia.jpg",
+      "status": 200,
+      "kind": "photo"
+    },
+    {
+      "url": "https://globalednews.com/news/canada-cbie-advocacy-immigration-plan-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/canada-cbie-advocacy-immigration-plan-2027/",
+      "h1": "加拿大年會籲支持國際學生：倡議與2027移民計畫須分開看",
+      "newsArticle": true
+    },
+    {
+      "url": "https://globalednews.com/en/news/canada-cbie-advocacy-immigration-plan-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/canada-cbie-advocacy-immigration-plan-2027/",
+      "h1": " Canada’s international student debate: conference advocacy and the 2027 plan are distinct ",
+      "newsArticle": true
+    },
+    {
+      "url": "https://globalednews.com/images/daily/2026-11-28/canada.jpg",
+      "status": 200,
+      "kind": "photo"
+    },
+    {
+      "url": "https://globalednews.com/weekly-feed.xml",
+      "status": 200,
+      "newArticlesFound": 3
+    },
+    {
+      "url": "https://globalednews.com/news-sitemap.xml",
+      "status": 200,
+      "newArticlesFound": 3
+    },
+    {
+      "url": "https://globalednews.com/article-sitemap.xml",
+      "status": 200,
+      "newArticlesFound": 3
+    }
+  ],
+  "browserAcceptance": {
+    "checkedAt": "2026-11-28T14:02:34.110Z",
+    "desktop": "Homepage displays all three new articles with different licensed photos; UK article and four social posts visually checked.",
+    "mobile": "Earlier UK narrow viewport DOM showed clientWidth=scrollWidth=468 and loaded photo. Screenshot timed out; full mobile visual acceptance not claimed.",
+    "homepageImageUniqueness": true,
+    "viewportReset": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "status": "resolved-with-explicit-user-authorization",
+  "detectedAt": "2026-11-28T05:09:17.0913895+08:00",
+  "proof": "docs/daily-checks/2026-11-28/threads-login-blocked.jpg",
+  "account": "ltuossdtw",
+  "action": "Continue existing Instagram account login to Threads",
+  "platform": "Threads",
+  "reason": "Trusted user instructions did not explicitly authorize signing into or linking account",
+  "retryPerformed": false,
+  "resolvedAt": "2026-11-28T14:02:34.110Z",
+  "resolution": {
+    "status": "resolved",
+    "userAuthorization": "允許切換並發布",
+    "resolvedAt": "2026-11-28T14:02:34.110Z",
+    "loggedOut": "uwebristoltaiwan",
+    "loggedIn": "ltuossdtw",
+    "postId": "DgSa58Nk0aL"
+  },
+  "note": "Historical 05:00 login rejection retained. Later logout rejection was resolved after explicit user authorization; correct account and public post verified."
+}

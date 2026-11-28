@@ -1,0 +1,19 @@
+INCOMPLETE 2026-11-28: fewer than 3 verified new scholarship additions; updates to existing items do not count
+INCOMPLETE 2026-11-28: fewer than 3 verified distinct Peter imports and no verified no-new-posts review
+INCOMPLETE 2026-11-28: news/facebook: require a native photo ID/permalink and a saved public screenshot; a post URL or link card is not photo evidence
+INCOMPLETE 2026-11-28: scholarship/facebook: expected one verified published post, got 0
+INCOMPLETE 2026-11-28: scholarship/instagram: expected one verified published post, got 0
+INCOMPLETE 2026-11-28: scholarship/threads: expected one verified published post, got 0
+INCOMPLETE 2026-11-28: scholarship/linkedin: expected one verified published post, got 0
+INCOMPLETE 2026-11-28: study-abroad/facebook: expected one verified published post, got 0
+INCOMPLETE 2026-11-28: study-abroad/instagram: expected one verified published post, got 0
+INCOMPLETE 2026-11-28: study-abroad/threads: expected one verified published post, got 0
+INCOMPLETE 2026-11-28: study-abroad/linkedin: expected one verified published post, got 0
+INCOMPLETE 2026-11-28: taiwan-universities/threads: expected one verified published post, got 0
+INCOMPLETE 2026-11-28: taiwan-universities/instagram: expected one verified published post, got 0
+INCOMPLETE 2026-11-28: taiwan-universities/linkedin: expected one verified published post, got 0
+INCOMPLETE 2026-11-28: new Facebook page: require a native photo ID/permalink and a saved public screenshot; a post URL or link card is not photo evidence
+INCOMPLETE 2026-11-28: new Facebook page: require observed photo-ready evidence before adding copy; never invent timestamps after publication
+INCOMPLETE 2026-11-28: new Facebook page 61595164194381: missing one verified new daily post with a visible uploaded photo
+INCOMPLETE 2026-11-28: missing live acceptance evidence
+INCOMPLETE 2026-11-28: fewer than 3 historical bilingual rewrites with deployment and live readback evidence
