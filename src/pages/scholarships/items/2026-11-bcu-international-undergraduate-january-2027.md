@@ -1,8 +1,9 @@
 ---
 layout: "../../../layouts/ScholarshipLayout.astro"
 title: "Birmingham City學士獎學金：兩年合計減£5,000，一月入學申請仍開放"
-description: "當日雙重查核、台灣學生符合條件可申請；入學、學費身分、資助與期限須逐項確認。"
+description: "Birmingham City University 2027 年 1 月入學，合資格自費國際學士新生可享兩年合計 £5,000 學費減免。台灣居住地課程申請 12 月 4 日截止，CAS 訂金 12 月 18 日截止。"
 date: "2026-11-10"
+updated: "2026-11-28"
 author: "LTU Global Education News 編輯部"
 category: "國際獎學金"
 topic: "uk"
@@ -14,19 +15,19 @@ imageSource: "https://commons.wikimedia.org/wiki/File:Curzon_Building,_Birmingha
 imageLicense: "CC BY-SA 2.0"
 status: "開放中"
 eligibilityTW: "可申請（須符合下列條件）"
-verificationDate: "2026-11-10"
+verificationDate: "2026-11-28"
 featuredDate: "2026-11-10"
 featuredUntil: "2026-11-11T00:00:00+08:00"
-reviewExpiresAt: "2026-11-17T00:00:00+08:00"
+reviewExpiresAt: "2026-12-05T00:00:00+08:00"
 country: "英國"
 level: "學士"
 funding: "首年£3,000、第二年£2,000學費減免"
-deadline: "台灣居住地：課程申請2026-12-04；CAS訂金12-11"
+deadline: "台灣居住地：課程申請 2026-12-04；CAS 訂金 2026-12-18"
 officialUrl: "https://www.bcu.ac.uk/international/fees-costs-and-scholarships/ug-scholarships"
 secondSourceUrl: "https://www.idp.com/scholarship/birmingham-city-university/undergraduate-scholarships/148287/"
 sourceName: "Birmingham City University"
 sourceType: "大學官方"
-taiwanNote: "當日雙重查核、台灣學生符合條件可申請；入學、學費身分、資助與期限須逐項確認。"
+taiwanNote: "校方按居住地分類。其他組別可能有較早期限；個別錄取與付款條件請核對錄取信及校方時程。"
 ---
 
 ## 補助如何分年使用
@@ -39,7 +40,11 @@ Birmingham City University為符合條件的自費國際學士新生提供合計
 
 ## 仍開放的時程
 
-官方一月入學時程把台灣居住地列入其他國家組：2026年12月4日入學申請截止、12月11日CAS訂金截止、12月23日最後發CAS、2027年1月25日開課。學校按居住地分類，其他居住地可能更早。獎學金不用額外申請，會在錄取信顯示並於註冊後帳單扣減；發CAS前仍要求支付全年完整學費的50%，不能先扣獎學金計算。
+台灣居住地適用校方「其他國家」組：2026 年 12 月 4 日課程申請截止、12 月 18 日繳交入學接受確認書（Confirmation of Acceptance for Studies，CAS）所需訂金、12 月 23 日為最後核發 CAS 的日期。2027 年 1 月 25 日開課。校方時程表未公布各截止日的時刻。
+
+獎學金隨合資格的錄取列入通知，註冊後才從學費帳單扣減。校方核發 CAS 前仍要求先付完整年學費的 50%，請依錄取信安排款項。
+
+[Birmingham City University 官方國際入學時程](https://www.bcu.ac.uk/international/your-application/key-dates)
 
 ## 哪些課程不適用
 

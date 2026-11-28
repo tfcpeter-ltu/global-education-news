@@ -378,8 +378,9 @@
     },
     "2026-09-yenching-academy-2027-taiwan": {
       "reviewCode": "open",
-      "statusReviewDate": "2026-11-02",
-      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+      "statusReviewDate": "2026-11-28",
+      "reviewNote": "已核對燕京學堂港澳台專屬簡章及北京大學研究生招生公告：兩套線上申請皆於台灣時間 2027 年 1 月 8 日中午截止。",
+      "applicationClosesAt": "2027-01-08T04:00:00Z"
     },
     "2026-10-alabama-international-automatic-merit-2027": {
       "reviewCode": "open",
@@ -1238,6 +1239,16 @@
       "statusReviewDate": "2026-11-02",
       "reviewNote": "已完成本日官方與獨立第二來源查核；請留意資格限制與各階段期限。",
       "applicationClosesAt": "2027-02-15T23:59:00-05:00"
+    },
+    "2026-11-bcu-international-postgraduate-january-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-28",
+      "reviewNote": "已核對校方 2027 年 1 月入學時程。台灣居住地適用其他國家組：12 月 4 日課程申請、12 月 18 日 CAS 訂金、12 月 23 日最後核發 CAS。"
+    },
+    "2026-11-bcu-international-undergraduate-january-2027": {
+      "reviewCode": "open",
+      "statusReviewDate": "2026-11-28",
+      "reviewNote": "已核對校方 2027 年 1 月入學時程。台灣居住地適用其他國家組：12 月 4 日課程申請、12 月 18 日 CAS 訂金、12 月 23 日最後核發 CAS。"
     }
   }
 }
