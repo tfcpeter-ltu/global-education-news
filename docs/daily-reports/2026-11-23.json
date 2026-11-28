@@ -2,9 +2,9 @@
   "date": "2026-11-23",
   "timezone": "Asia/Taipei",
   "startedAt": "2026-11-22T21:01:44.903Z",
-  "status": "publication-in-progress",
-  "currentPhase": "COMMIT_DEPLOY",
-  "mainSha": "3e84fc103ae395d4ce30592b6fdae0ac44a53676",
+  "status": "published-rechecked-scope",
+  "currentPhase": "PUBLICATION_VERIFIED",
+  "mainSha": "ea926fbce227d3b85ea6a14421d30fbf60c5403b",
   "scholarshipBaselineSlugs": [
     "2026-08-bristol-think-big",
     "2026-08-manchester-global-futures-taiwan-2027",
@@ -323,7 +323,7 @@
       "isNew": true,
       "baselineAbsent": true,
       "verifiedAt": "2026-11-28T14:24:29.159Z",
-      "publishedVerifiedAt": null
+      "publishedVerifiedAt": "2026-11-28T14:48:00.816Z"
     }
   ],
   "scholarshipChecks": [
@@ -344,7 +344,49 @@
       "updateSummary": "Rechecked November28: UOW official Taiwan eligibility and VNIS independent comparative analysis; 20% for 2027 eligible offers."
     }
   ],
-  "newsPublished": [],
+  "newsPublished": [
+    {
+      "slug": "canada-researcher-stipend-express-entry-policy-2026",
+      "url": "https://globalednews.com/news/canada-researcher-stipend-express-entry-policy-2026/",
+      "sources": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/public-policies/remove-barriers-researchers-express-entry.html",
+        "https://makimmigration.ca/express-entry-researchers-stipend-work-experience/",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/who-can-apply/canadian-experience-class.html"
+      ],
+      "verifiedAt": "2026-11-28T14:24:29.159Z",
+      "status": "published",
+      "publishedVerifiedAt": "2026-11-28T14:48:00.816Z",
+      "sourceEvidence": "docs/daily-checks/2026-11-23/catchup-source-recheck.json"
+    },
+    {
+      "slug": "europe-student-education-cost-protests-november-2026",
+      "url": "https://globalednews.com/news/europe-student-education-cost-protests-november-2026/",
+      "sources": [
+        "https://ipb.org/20-november-international-youth-and-student-strike-in-over-25-countries-across-europe/",
+        "https://www.ansa.it/amp/english/newswire/english_service/2026/11/20/thousands-take-to-streets-in-general-strike-student-protests_f8f83556-ee24-42dc-b4f5-5eb3f1e87357.html",
+        "https://www.ucu.org.uk/article/14721/The-Friday-email-20-November-2026"
+      ],
+      "verifiedAt": "2026-11-28T14:24:29.159Z",
+      "status": "published",
+      "publishedVerifiedAt": "2026-11-28T14:48:00.816Z",
+      "sourceEvidence": "docs/daily-checks/2026-11-23/catchup-source-recheck.json"
+    },
+    {
+      "slug": "australia-visitor-visa-study-transition-limits-2026",
+      "url": "https://globalednews.com/news/australia-visitor-visa-study-transition-limits-2026/",
+      "sources": [
+        "https://ministers.education.gov.au/hill/student-visa-integrity-reforms-take-effect-today?page=5",
+        "https://thekoalanews.com/student-visas-out-tourist-visas-in-governments-answer-to-its-own-policy-problem-raises-serious-questions/",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600/tourist-stream-onshore",
+        "https://www.education.gov.au/esos-framework",
+        "https://www.education.gov.au/tps/international-students"
+      ],
+      "verifiedAt": "2026-11-28T14:24:29.159Z",
+      "status": "published",
+      "publishedVerifiedAt": "2026-11-28T14:48:00.816Z",
+      "sourceEvidence": "docs/daily-checks/2026-11-23/catchup-source-recheck.json"
+    }
+  ],
   "peterImports": [
     {
       "slug": "german-masters-prerequisite-coursework",
@@ -355,15 +397,105 @@
       "verifiedAt": null
     }
   ],
-  "socialPosts": [],
-  "newFacebookPagePost": null,
-  "deployment": null,
-  "acceptance": null,
+  "socialPosts": [
+    {
+      "campaign": "news",
+      "articleUrl": "https://globalednews.com/news/canada-researcher-stipend-express-entry-policy-2026/",
+      "status": "published",
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-28T14:35:00Z",
+      "photoAttachedAt": "2026-11-28T14:31:07.286Z",
+      "copyAddedAt": "2026-11-28T14:31:07.401Z",
+      "photoReadyEvidence": "Native MBS screenshot: 1080x1350 card visible with blank editor before copy; custom IG text repaired and read back; no link card, Threads/story/boost off.",
+      "mediaEvidence": "Native public post opened in Chrome and actual uploaded card visually inspected; screenshot displayed in tool output, not saved as a local file.",
+      "network": "facebook",
+      "destination": "LTUOSSDTaiwan",
+      "id": "1133974222712108",
+      "photoId": "1133971929379004",
+      "url": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02V5yvPv129oMhneEsptyoYwYaveGYe4DaiYdQGvxZt3LHu6qTEspwgbK1fnJ4Jt4pl",
+      "publishedAtObserved": "2026-11-28T22:32:00+08:00"
+    },
+    {
+      "campaign": "news",
+      "articleUrl": "https://globalednews.com/news/canada-researcher-stipend-express-entry-policy-2026/",
+      "status": "published",
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-28T14:35:00Z",
+      "photoAttachedAt": "2026-11-28T14:31:07.286Z",
+      "copyAddedAt": "2026-11-28T14:31:07.401Z",
+      "photoReadyEvidence": "Native MBS screenshot: 1080x1350 card visible with blank editor before copy; custom IG text repaired and read back; no link card, Threads/story/boost off.",
+      "mediaEvidence": "Native public post opened in Chrome and actual uploaded card visually inspected; screenshot displayed in tool output, not saved as a local file.",
+      "network": "instagram",
+      "destination": "ltuossdtw",
+      "id": "DgSemRhDxFe",
+      "url": "https://www.instagram.com/p/DgSemRhDxFe/",
+      "publishedAtObserved": "2026-11-28T22:33:00+08:00"
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "id": "7532453717959315456",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7532453717959315456/",
+      "destination": "Peter Chen",
+      "articleUrl": "https://globalednews.com/news/canada-researcher-stipend-express-entry-policy-2026/",
+      "status": "published",
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-28T14:47:57.910Z",
+      "mediaEvidence": "Opened native public post in Chrome; actual uploaded photo card and correct text visible. Screenshot displayed in tool output, not saved to file."
+    },
+    {
+      "campaign": "news",
+      "network": "threads",
+      "id": "DgSf1WKExuK",
+      "url": "https://www.threads.com/@ltuossdtw/post/DgSf1WKExuK",
+      "destination": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/news/canada-researcher-stipend-express-entry-policy-2026/",
+      "status": "published",
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-28T14:47:57.911Z",
+      "mediaEvidence": "Opened native public post in Chrome; actual uploaded photo card and correct text visible. Screenshot displayed in tool output, not saved to file."
+    }
+  ],
+  "newFacebookPagePost": {
+    "campaign": "news-new-facebook-page",
+    "network": "facebook",
+    "destination": "61595164194381",
+    "id": "122126908887505473",
+    "photoId": "122126908719505473",
+    "url": "https://www.facebook.com/photo/?fbid=122126908719505473&set=a.122094964809505473",
+    "articleUrl": "https://globalednews.com/news/canada-researcher-stipend-express-entry-policy-2026/",
+    "status": "published",
+    "publishedAtObserved": "2026-11-28T22:47:00+08:00",
+    "photoAttachedAt": "2026-11-28T14:47:07.660Z",
+    "copyAddedAt": "2026-11-28T14:47:20.890Z",
+    "photoReadyEvidence": "Native MBS screenshot showed uploaded 1080x1350 card and blank editor; only Facebook selected, story/boost/schedule off.",
+    "mediaKind": "uploaded-photo",
+    "mediaVerifiedAt": "2026-11-28T14:49:00Z",
+    "mediaEvidence": "Native Facebook photo viewer showed complete card, correct page and audience Everyone. Screenshot displayed in tool output."
+  },
+  "deployment": {
+    "status": "success",
+    "contentCommit": "d81bccb73e692cd541640094f26c7bfb05c76240",
+    "photoCommit": "5e8693054cc51d331661d9214eee468c491cd04f",
+    "runId": 46156190150,
+    "verifiedAt": "2026-11-28T14:48:00.816Z",
+    "url": "https://github.com/tfcpeter-ltu/global-education-news/actions/runs/46156190150"
+  },
+  "acceptance": {
+    "http": "docs/daily-checks/2026-11-23/catchup-live-http.json",
+    "eightBilingualPages": true,
+    "allFourImages": true,
+    "weeklyFeed": true,
+    "newsSitemap": true,
+    "radarCount": 310,
+    "desktop": "Three distinct homepage mainphotos and article layout inspected. New SITE photo verified loaded with correct alt/source; Chrome final screenshot timed out.",
+    "mobile": "IAB width390/client375/scroll375; Canada title wrapped without clipping. UOW search via Enter returned exactly1. Existing floating advertisement can cover lower results until Close advertisement is clicked; close worked. No claim that floating-ad positioning was changed.",
+    "social": "Five original public photo posts verified via native Chrome.",
+    "screenshots": "Displayed in tool outputs, not saved as separate image files."
+  },
   "gaps": [
-    "Explicit approval required after automatic review rejected main push; no retry performed.",
-    "Website deploy, production20URLs/radar305/RSS/desktop/mobile acceptance pending.",
-    "15 regular and1newFacebook native posts plus4scholarshipThreads continuations not sent; all copy and cards prepared.",
-    "Three historical LTU original-source restrictions remain; no bypass."
+    "Canberra award held: insufficient independent corroboration. Only one new scholarship added by this batch; original three-award daily target is not claimed complete.",
+    "Three historical LTU source restrictions remain; unchanged outside this publication scope."
   ],
   "manualActions": [],
   "preflight": {
@@ -548,8 +680,8 @@
     "status": "PASS",
     "notes": "逐張看過校園與建物實景；三張社群圖卡360px寬與雷達305圖卡文字可讀。Delft兩張library來源429後改Aula授權照片成功。"
   },
-  "updatedAt": "2026-11-28T14:28:16.784Z",
-  "phase": "COMMIT_DEPLOY",
+  "updatedAt": "2026-11-28T14:51:36.463Z",
+  "phase": "PUBLICATION_VERIFIED",
   "build": {
     "status": "PASS",
     "verifiedAt": "2026-11-28T14:28:16.784Z",
@@ -572,10 +704,20 @@
       "critical": 0,
       "moderate": 2,
       "low": 2
+    },
+    "latestPhotoBuild": {
+      "status": "PASS",
+      "command": "pnpm run build",
+      "log": "docs/daily-checks/2026-11-23/catchup-photo-build.log",
+      "astroPages": 764,
+      "bilingualPairs": 1065,
+      "newTranslations": 0,
+      "canonicalPages": 2114,
+      "photoPreviews": 2120
     }
   },
-  "completedAt": null,
-  "localCommit": "e7219f86617e86a063779e27e88d1284f18d7117",
+  "completedAt": "2026-11-28T14:51:36.463Z",
+  "localCommit": "5e8693054cc51d331661d9214eee468c491cd04f",
   "approvalBlock": {
     "detectedAt": "2026-11-22T21:53:41.638Z",
     "status": "resolved-by-explicit-user-approval",
@@ -583,14 +725,21 @@
     "commit": "e7219f86617e86a063779e27e88d1284f18d7117",
     "files": 38,
     "reason": "Automatic approval review rejected default-main push as high-impact and did not recognize the standing automation authorization as explicit authorization for this push.",
-    "remoteMutated": false,
+    "remoteMutated": true,
     "retried": false,
     "userQuestionAsked": true,
-    "websiteDeployed": false,
-    "socialPostsSent": 0,
+    "websiteDeployed": true,
+    "socialPostsSent": 5,
     "readyScope": "3 new news,3 new scholarships,1 Peter import,3 archive revisions,licensed images and prepared15+1native social copy; local build/tests passed",
     "resolvedAt": "2026-11-28T14:19:34.114Z",
-    "userInstruction": "我明确同意。刊登"
+    "userInstruction": "我明确同意。刊登",
+    "originalOutcome": {
+      "remoteMutated": false,
+      "websiteDeployed": false,
+      "socialPostsSent": 0,
+      "commit": "e7219f86617e86a063779e27e88d1284f18d7117"
+    },
+    "publicationCommit": "5e8693054cc51d331661d9214eee468c491cd04f"
   },
   "localUiAcceptance": "docs/daily-checks/2026-11-23/local-ui-acceptance.json",
   "catchup": {
@@ -603,7 +752,12 @@
     "uowCrossCheck": "VNIS authored comparative analysis includes separate advice; only20%/2027 structure corroborated. Taiwan list and exact exclusions from UOW. Commercial interest disclosed.",
     "australiaCorrection": "The Koala live article is dated November24; corrected both languages before first publication.",
     "netNewScholarships": 1,
-    "sharedItems": "Berkeley/Peter/three archive updates are in ea926fb; social dedup pending peer publication log."
+    "sharedItems": "Berkeley, Peter, archive revisions and 15+1 peer social batch completed separately; do not resend.",
+    "status": "published",
+    "sharedReceiptCommit": "8c71812a443ee15b96c6dee7597c0530b2f0895b",
+    "socialUniquePosts": 5,
+    "sharedPublicationLog": "docs/social-posts/2026-11-25-catchup/publication-log.json",
+    "completedAt": "2026-11-28T14:51:36.463Z"
   },
   "originalDraftEvidence": {
     "build": {
@@ -731,5 +885,11 @@
         "updateSummary": "完整核對台灣資格、當期申請路徑、學費減免或博士資助、課程排除與截止；三個全新slug不在起始302筆清單。"
       }
     ]
-  }
+  },
+  "historicalPreApprovalGaps": [
+    "Explicit approval required after automatic review rejected main push; no retry performed.",
+    "Website deploy, production20URLs/radar305/RSS/desktop/mobile acceptance pending.",
+    "15 regular and1newFacebook native posts plus4scholarshipThreads continuations not sent; all copy and cards prepared.",
+    "Three historical LTU original-source restrictions remain; no bypass."
+  ]
 }

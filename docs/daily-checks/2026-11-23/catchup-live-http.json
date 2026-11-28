@@ -1,0 +1,91 @@
+{
+  "verifiedAt": "2026-11-28T14:48:00.816Z",
+  "commit": "5e8693054cc51d331661d9214eee468c491cd04f",
+  "runId": 46156190150,
+  "jobs": "build/deploy/indexnow success",
+  "results": [
+    {
+      "url": "https://globalednews.com/news/canada-researcher-stipend-express-entry-policy-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/canada-researcher-stipend-express-entry-policy-2026/",
+      "h1": "加拿大放寬研究人員工作報酬認定：領津貼不再一律排除，博士生仍須核對條件"
+    },
+    {
+      "url": "https://globalednews.com/en/news/canada-researcher-stipend-express-entry-policy-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/canada-researcher-stipend-express-entry-policy-2026/",
+      "h1": " Canada broadens recognition of researchers’ pay: stipends can qualify, but doctoral study alone does not "
+    },
+    {
+      "url": "https://globalednews.com/news/europe-student-education-cost-protests-november-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/europe-student-education-cost-protests-november-2026/",
+      "h1": "歐洲學生與教育工作者上街：留學生應追蹤生活成本與校園實際安排"
+    },
+    {
+      "url": "https://globalednews.com/en/news/europe-student-education-cost-protests-november-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/europe-student-education-cost-protests-november-2026/",
+      "h1": " European students and educators protest: international students should track costs and campus arrangements "
+    },
+    {
+      "url": "https://globalednews.com/news/australia-visitor-visa-study-transition-limits-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/news/australia-visitor-visa-study-transition-limits-2026/",
+      "h1": "澳洲傳出短期完成學業可考慮旅客簽證：不能工作，保障範圍須另查"
+    },
+    {
+      "url": "https://globalednews.com/en/news/australia-visitor-visa-study-transition-limits-2026/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/news/australia-visitor-visa-study-transition-limits-2026/",
+      "h1": " Australian report raises visitor visas for short study completion: no work rights and protections need checking "
+    },
+    {
+      "url": "https://globalednews.com/scholarships/items/2026-11-uow-country-scholarship-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/scholarships/items/2026-11-uow-country-scholarship-2027/",
+      "h1": "臥龍崗大學國別獎：台灣學生2027入學可獲20%學費減免"
+    },
+    {
+      "url": "https://globalednews.com/en/scholarships/items/2026-11-uow-country-scholarship-2027/",
+      "status": 200,
+      "canonical": "https://globalednews.com/en/scholarships/items/2026-11-uow-country-scholarship-2027/",
+      "h1": " University of Wollongong Country Scholarship: 20% tuition reduction for eligible Taiwanese entrants in 2027 "
+    },
+    {
+      "image": "researcher",
+      "status": 200
+    },
+    {
+      "image": "europe",
+      "status": 200
+    },
+    {
+      "image": "australia",
+      "status": 200
+    },
+    {
+      "image": "wollongong",
+      "status": 200
+    }
+  ],
+  "feeds": [
+    {
+      "slug": "canada-researcher-stipend-express-entry-policy-2026",
+      "rss": true,
+      "newsSitemap": true
+    },
+    {
+      "slug": "europe-student-education-cost-protests-november-2026",
+      "rss": true,
+      "newsSitemap": true
+    },
+    {
+      "slug": "australia-visitor-visa-study-transition-limits-2026",
+      "rss": true,
+      "newsSitemap": true
+    }
+  ],
+  "radarHas310": true,
+  "radarHasUOW": true
+}

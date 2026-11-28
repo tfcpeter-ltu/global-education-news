@@ -1,6 +1,96 @@
 {
   "date": "2026-11-23",
   "actualPublicationDate": "2026-11-28",
-  "posts": [],
-  "status": "in-progress"
+  "posts": [
+    {
+      "campaign": "news",
+      "articleUrl": "https://globalednews.com/news/canada-researcher-stipend-express-entry-policy-2026/",
+      "status": "published",
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-28T14:35:00Z",
+      "photoAttachedAt": "2026-11-28T14:31:07.286Z",
+      "copyAddedAt": "2026-11-28T14:31:07.401Z",
+      "photoReadyEvidence": "Native MBS screenshot: 1080x1350 card visible with blank editor before copy; custom IG text repaired and read back; no link card, Threads/story/boost off.",
+      "mediaEvidence": "Native public post opened in Chrome and actual uploaded card visually inspected; screenshot displayed in tool output, not saved as a local file.",
+      "network": "facebook",
+      "destination": "LTUOSSDTaiwan",
+      "id": "1133974222712108",
+      "photoId": "1133971929379004",
+      "url": "https://www.facebook.com/LTUOSSDTaiwan/posts/pfbid02V5yvPv129oMhneEsptyoYwYaveGYe4DaiYdQGvxZt3LHu6qTEspwgbK1fnJ4Jt4pl",
+      "publishedAtObserved": "2026-11-28T22:32:00+08:00"
+    },
+    {
+      "campaign": "news",
+      "articleUrl": "https://globalednews.com/news/canada-researcher-stipend-express-entry-policy-2026/",
+      "status": "published",
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-28T14:35:00Z",
+      "photoAttachedAt": "2026-11-28T14:31:07.286Z",
+      "copyAddedAt": "2026-11-28T14:31:07.401Z",
+      "photoReadyEvidence": "Native MBS screenshot: 1080x1350 card visible with blank editor before copy; custom IG text repaired and read back; no link card, Threads/story/boost off.",
+      "mediaEvidence": "Native public post opened in Chrome and actual uploaded card visually inspected; screenshot displayed in tool output, not saved as a local file.",
+      "network": "instagram",
+      "destination": "ltuossdtw",
+      "id": "DgSemRhDxFe",
+      "url": "https://www.instagram.com/p/DgSemRhDxFe/",
+      "publishedAtObserved": "2026-11-28T22:33:00+08:00"
+    },
+    {
+      "campaign": "news",
+      "network": "linkedin",
+      "id": "7532453717959315456",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7532453717959315456/",
+      "destination": "Peter Chen",
+      "articleUrl": "https://globalednews.com/news/canada-researcher-stipend-express-entry-policy-2026/",
+      "status": "published",
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-28T14:47:57.910Z",
+      "mediaEvidence": "Opened native public post in Chrome; actual uploaded photo card and correct text visible. Screenshot displayed in tool output, not saved to file."
+    },
+    {
+      "campaign": "news",
+      "network": "threads",
+      "id": "DgSf1WKExuK",
+      "url": "https://www.threads.com/@ltuossdtw/post/DgSf1WKExuK",
+      "destination": "ltuossdtw",
+      "articleUrl": "https://globalednews.com/news/canada-researcher-stipend-express-entry-policy-2026/",
+      "status": "published",
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-28T14:47:57.911Z",
+      "mediaEvidence": "Opened native public post in Chrome; actual uploaded photo card and correct text visible. Screenshot displayed in tool output, not saved to file."
+    },
+    {
+      "campaign": "news-new-facebook-page",
+      "network": "facebook",
+      "destination": "61595164194381",
+      "id": "122126908887505473",
+      "photoId": "122126908719505473",
+      "url": "https://www.facebook.com/photo/?fbid=122126908719505473&set=a.122094964809505473",
+      "articleUrl": "https://globalednews.com/news/canada-researcher-stipend-express-entry-policy-2026/",
+      "status": "published",
+      "publishedAtObserved": "2026-11-28T22:47:00+08:00",
+      "photoAttachedAt": "2026-11-28T14:47:07.660Z",
+      "copyAddedAt": "2026-11-28T14:47:20.890Z",
+      "photoReadyEvidence": "Native MBS screenshot showed uploaded 1080x1350 card and blank editor; only Facebook selected, story/boost/schedule off.",
+      "mediaKind": "uploaded-photo",
+      "mediaVerifiedAt": "2026-11-28T14:49:00Z",
+      "mediaEvidence": "Native Facebook photo viewer showed complete card, correct page and audience Everyone. Screenshot displayed in tool output."
+    }
+  ],
+  "status": "published",
+  "preflight": {
+    "checkedAt": "2026-11-28T14:31:42.808Z",
+    "facebookHistory": "Native MBS search 津貼 returned only older unrelated scholarship posts; no matching researcher URL. Scheduled tab: no scheduled posts.",
+    "destinations": [
+      "Facebook 101904929207004",
+      "Instagram ltuossdtw"
+    ],
+    "photoAttachedAt": "2026-11-28T14:31:07.286Z",
+    "copyAddedAt": "2026-11-28T14:31:07.401Z",
+    "photoReadyEvidence": "Native MBS screenshot: 1080x1350 card visible with blank editor before copy; custom IG text repaired and read back; no link card, Threads/story/boost off.",
+    "intent": "Publish one Canadian researcher news photo per platform after live URL verification."
+  },
+  "completedAt": "2026-11-28T14:51:36.463Z",
+  "scope": "Five unique Canadian researcher news photo posts; overlapping radar/DIY/campus promotion not resent.",
+  "sharedPublicationLog": "docs/social-posts/2026-11-25-catchup/publication-log.json"
 }
