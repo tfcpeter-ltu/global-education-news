@@ -1,0 +1,25 @@
+{
+  "base": "ea926fbce227d3b85ea6a14421d30fbf60c5403b",
+  "files": [
+    "src/pages/news/canada-researcher-stipend-express-entry-policy-2026.md",
+    "src/pages/news/europe-student-education-cost-protests-november-2026.md",
+    "src/pages/news/australia-visitor-visa-study-transition-limits-2026.md",
+    "src/pages/scholarships/items/2026-11-uow-country-scholarship-2027.md",
+    "public/images/daily/2026-11-23/canada.jpg",
+    "public/images/daily/2026-11-23/europe.jpg",
+    "public/images/daily/2026-11-23/australia.jpg",
+    "public/images/daily/2026-11-23/wollongong.jpg",
+    "public/images/daily/2026-11-23/sources.json",
+    "public/images/daily/2026-11-23/credits.html",
+    "src/data/i18n/en-overrides.json",
+    "docs/editorial/news-reviews.json",
+    "docs/social-posts/2026-11-23/news.json",
+    "docs/social-posts/2026-11-23/new-facebook-page.json",
+    "public/images/social/2026-11-23/news.jpg",
+    "docs/daily-reports/2026-11-23.json",
+    "docs/social-posts/2026-11-23/publication-log.json",
+    "docs/daily-checks/2026-11-23/catchup-source-recheck.json",
+    "docs/social-posts/2026-11-23/uow.json"
+  ],
+  "createdAt": "2026-11-28T14:28:16.784Z"
+}

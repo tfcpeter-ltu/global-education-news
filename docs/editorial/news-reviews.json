@@ -1415,5 +1415,44 @@
     "independentSource": "https://www.insidehighered.com/news/global/us-colleges-world/2026/10/09/university-colorado-denver-open-branch-campus-india",
     "reviewedAt": "2026-11-28T14:15:12.914Z",
     "bodySha256": "dab09b43f5c7501b779317d26a2eb1aa6d50c8199b4646ec7282028863de9b9a"
+  },
+  "canada-researcher-stipend-express-entry-policy-2026": {
+    "newsValue": "十一月十七日生效的新政策與台灣研究人員赴加拿大工作的規劃直接相關。",
+    "background": "交代研究津貼與傳統工資的差別，保留NOC41200與加拿大實體付款範圍。",
+    "development": "說明生效、邀請及三年內一年工作要求，再接官方CEC限制與資料準備。",
+    "perspectives": "商業移民顧問獨立討論職務歸類與邀請區別，不將顧問意見冒充官方個案裁決。",
+    "taiwanImpact": "提供聘任、工時、支付方與實際職責對照方法，分開學術選校與移民規劃。",
+    "uncertainty": "保留全職在學、自僱與授權工作限制，不保證邀請或永久居留，政策可撤銷。",
+    "independence": "IRCC是政策制定者，MAK有署名專業分析及具體職務解讀，非單純轉貼。",
+    "primarySource": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/public-policies/remove-barriers-researchers-express-entry.html",
+    "independentSource": "https://makimmigration.ca/express-entry-researchers-stipend-work-experience/",
+    "reviewedAt": "2026-11-28T14:19:34.114Z",
+    "bodySha256": "40ddead09780896b35b7fb9d31491d5619522685887984b0716c04f28b791f76"
+  },
+  "europe-student-education-cost-protests-november-2026": {
+    "newsValue": "十一月二十日多國教育與生活成本行動涉及留學生選校及在地安排。",
+    "background": "區分跨國倡議、義大利總罷工與英國教育工會行動，不混用法律和範圍。",
+    "development": "由預告動員到ANSA當日報導，再接UCU具體課程與職位議題。",
+    "perspectives": "並列義大利現場報導、英國工會訴求與跨國主辦者預告，明確區分動員目標、政治立場及實際觀察。",
+    "taiwanImpact": "連結住房預算、課程保障與當地出勤交通公告，提供可執行查詢方向。",
+    "uncertainty": "不宣稱25國實際出席已查證，不稱全歐停課，不以軍費倡議當成教育削減因果。",
+    "independence": "IPB和UCU是行動參與方；ANSA為獨立記者當日城市報導，非同稿轉載。",
+    "primarySource": "https://ipb.org/20-november-international-youth-and-student-strike-in-over-25-countries-across-europe/",
+    "independentSource": "https://www.ansa.it/amp/english/newswire/english_service/2026/11/20/thousands-take-to-streets-in-general-strike-student-protests_f8f83556-ee24-42dc-b4f5-5eb3f1e87357.html",
+    "reviewedAt": "2026-11-28T14:19:34.114Z",
+    "bodySha256": "83d18cd4cf83d04fede6566565dc3a192fc483706bc2d07578756f4ffd65e91d"
+  },
+  "australia-visitor-visa-study-transition-limits-2026": {
+    "newsValue": "十一月二十日新報導涉及即將完成學業者的簽證銜接、工作權與學費保障。",
+    "background": "以十月二日官方改革說明既有境內申請背景，不把舊公告當新措施生效證據。",
+    "development": "分開媒體披露信函、現行600簽證、保險與TPS條件，呈現爭議的不同環節。",
+    "perspectives": "政府改革理由、Koala獨立報導與Honeywood批評並列，沒有宣稱政府採納評論。",
+    "taiwanImpact": "要求對照剩餘課程、簽證、預算與保險，提醒不能工作及書面核對保障。",
+    "uncertainty": "未取得信函明確揭露，未稱新豁免已生效，不保證核准、485資格或自動退款。",
+    "independence": "政府公告與現行制度為一手來源；The Koala提供獨立署名報導與業界訪談。",
+    "primarySource": "https://ministers.education.gov.au/hill/student-visa-integrity-reforms-take-effect-today?page=5",
+    "independentSource": "https://thekoalanews.com/student-visas-out-tourist-visas-in-governments-answer-to-its-own-policy-problem-raises-serious-questions/",
+    "reviewedAt": "2026-11-28T14:19:34.114Z",
+    "bodySha256": "515e5f8f5b1ec156441e088a455be09a37a2548cf3f196c17878f1adc546594e"
   }
 }

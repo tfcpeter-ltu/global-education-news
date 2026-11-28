@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-11-28T14:26:08.775Z",
+  "actualPublicationDate": "2026-11-28",
+  "news": [
+    "canada-researcher-stipend-express-entry-policy-2026",
+    "europe-student-education-cost-protests-november-2026",
+    "australia-visitor-visa-study-transition-limits-2026"
+  ],
+  "checks": {
+    "canada": "IRCC policy November17 and CEC conditions fully read; MAK independent RCIC analysis read. Limited NOC41200 paid by Canadian entities, one year in prior three; other conditions remain.",
+    "europe": "IPB advance announcement distinguished from ANSA November20 observed Italy protests and UCU November20 action. Planned countries not actual attendance.",
+    "australia": "The Koala current publication November24 corrected before first publication; October2 government reform only background. Home Affairs Visitor600 native About page verified November28: three-month study limit, no work, health costs/insurance, individual grant conditions.",
+    "uow": "Official country list expressly includes Taiwan. 20%/2027/offer date June12/eligible Australian courses/exclusions/no stacking checked. VNIS comparative analysis read; Vietnamese grade conditions not applied to Taiwan."
+  },
+  "held": {
+    "canberra": "No sufficient independent corroboration; original draft not published."
+  },
+  "dedup": {
+    "sharedCommit": "ea926fb",
+    "items": [
+      "Berkeley award",
+      "Peter German coursework article",
+      "three archive revisions",
+      "Delft DIY social",
+      "NCCU campus social"
+    ],
+    "socialStatus": "Await peer publication evidence; do not resend."
+  },
+  "imageReview": {
+    "photo": "canada.jpg RobCA public domain",
+    "card": "news.jpg regenerated November28, 360px preview read and legible"
+  },
+  "officialVisaReadAt": "2026-11-28T14:21:00Z"
+}

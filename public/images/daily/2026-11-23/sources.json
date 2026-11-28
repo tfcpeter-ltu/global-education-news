@@ -1,0 +1,50 @@
+[
+  {
+    "key": "canada",
+    "title": "File:UOttawa-Tabaret Hall-2008-05-05.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:UOttawa-Tabaret_Hall-2008-05-05.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/f/f7/UOttawa-Tabaret_Hall-2008-05-05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/UOttawa-Tabaret_Hall-2008-05-05.jpg/1920px-UOttawa-Tabaret_Hall-2008-05-05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "RobCA",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+    "description": "Photo of Tabaret Hall with the Desmarais Building in the background, on the University of Ottawa campus",
+    "retrievedAt": "2026-11-22T21:26:02.688Z"
+  },
+  {
+    "key": "europe",
+    "title": "File:Ingresso UniSapienza Notte.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Ingresso_UniSapienza_Notte.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Ingresso_UniSapienza_Notte.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Ingresso_UniSapienza_Notte.jpg/1920px-Ingresso_UniSapienza_Notte.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "Andrea1926",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Monumental entrance to the campus of Rome's university “La Sapienza”, illuminated at night with the colors of the Italian flag.",
+    "retrievedAt": "2026-11-22T21:26:02.689Z"
+  },
+  {
+    "key": "australia",
+    "title": "File:East face of the Chifley Library August 2013.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:East_face_of_the_Chifley_Library_August_2013.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/e/e9/East_face_of_the_Chifley_Library_August_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/East_face_of_the_Chifley_Library_August_2013.jpg/1920px-East_face_of_the_Chifley_Library_August_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "Nick-D",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "The East face and entrance of of the Chifley Library",
+    "retrievedAt": "2026-11-22T21:26:02.689Z"
+  },
+  {
+    "key": "wollongong",
+    "title": "File:International House, University of Wollongong 1.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:International_House,_University_of_Wollongong_1.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/3/33/International_House%2C_University_of_Wollongong_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/International_House%2C_University_of_Wollongong_1.jpg/1920px-International_House%2C_University_of_Wollongong_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "Mx. Granger",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "description": "International House, University of Wollongong",
+    "retrievedAt": "2026-11-22T21:26:02.689Z"
+  }
+]
