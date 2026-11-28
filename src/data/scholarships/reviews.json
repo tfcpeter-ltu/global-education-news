@@ -210,9 +210,9 @@
     },
     "2026-09-eth-zurich-esop-2027": {
       "reviewCode": "open",
-      "statusReviewDate": "2026-11-02",
-      "reviewNote": "官方確認2026年11月1日至11月30日11:59（CET）受理2027秋季入學；原「即將開放」標示已更正。",
-      "deadline": "2026-11-30 11:59 CET",
+      "statusReviewDate": "2026-11-28",
+      "reviewNote": "已核對瑞士上午 11:59 與台灣 18:59 為同一截止時間，並更新 2027 年秋季補助。",
+      "deadline": "2026-11-30 11:59 CET（瑞士上午；台灣 18:59）",
       "applicationClosesAt": "2026-11-30T11:59:00+01:00"
     },
     "2026-09-exeter-pgt-taiwan-january-2027": {
@@ -313,8 +313,9 @@
     },
     "2026-09-strathclyde-sbs-international-masters-jan-2027": {
       "reviewCode": "open",
-      "statusReviewDate": "2026-11-02",
-      "reviewNote": "本次已複核官方申請時程；資格與補助的完整查核日期另列，申請前請核對最新條件。"
+      "statusReviewDate": "2026-11-28",
+      "reviewNote": "校方獎學金頁已更新為 2027 年 1 月 10 日。接受錄取與訂金付款確認皆須在該日前完成。",
+      "deadline": "2027-01-10"
     },
     "2026-09-sydney-rtp-international-2027": {
       "reviewCode": "closed",
