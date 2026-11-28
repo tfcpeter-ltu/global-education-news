@@ -8,10 +8,10 @@ category: "國際教育新聞"
 topic: "canada"
 tags: ["canada","education"]
 sources: [{"label":"IRCC｜研究人員Express Entry公共政策原文","url":"https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/policies-operational-instructions-agreements/public-policies/remove-barriers-researchers-express-entry.html"},{"label":"MAK Immigration｜Usman Khalil對津貼工作經驗的獨立分析","url":"https://makimmigration.ca/express-entry-researchers-stipend-work-experience/"},{"label":"IRCC｜加拿大經驗類別最新資格說明","url":"https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/who-can-apply/canadian-experience-class.html"}]
-image: "/images/daily/2026-11-23/canada.jpg"
-imageAlt: "渥太華大學Tabaret Hall校舍，作為加拿大大學環境示意，非個案移民結果"
+image: "/images/daily/2026-11-23/researcher.jpg"
+imageAlt: "渥太華大學資訊科技與工程學院校舍，作為加拿大大學環境示意，非個案移民結果"
 imageCredit: "RobCA / Public domain"
-imageSource: "https://commons.wikimedia.org/wiki/File:UOttawa-Tabaret_Hall-2008-05-05.jpg"
+imageSource: "https://commons.wikimedia.org/wiki/File:UOttawa-SITE_Building.jpg"
 imageLicense: "Public domain"
 ---
 
