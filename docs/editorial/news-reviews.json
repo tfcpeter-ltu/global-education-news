@@ -1337,5 +1337,83 @@
     "independentSource": "https://thepienews.com/push-immigration-minister-to-back-international-students-canadian-mp-urges/",
     "reviewedAt": "2026-11-28T13:39:45.622Z",
     "bodySha256": "2385edd28a513354700365d028ee9a5ae72df9ceaf64e36225a82b1c9ab7d4aa"
+  },
+  "japan-graduate-job-offers-october-2026": {
+    "newsValue": "日本內定率階段統計攸關赴日家庭如何比較就業支持，不能以全國平均推定台灣學生個人機率。",
+    "background": "說明內定率分母與大學單獨樣本、各類學校總樣本不同，求職進度不等於畢業就業結果。",
+    "development": "明列十月一日觀察、十一月二十日公布與次年三月畢業，下一調查與發布時點分開。",
+    "perspectives": "文科與理科差異及共同通信訪問厚勞省說法並列，沒有捏造受訪學生或使用者經驗。",
+    "taiwanImpact": "提出向學校索取外國學生分項、分母與服務資格的具體問題，避免平均數替代選校評估。",
+    "uncertainty": "未取得台灣分項或因果研究，不能推論選擇某學門必然改善就業；清楚標示編輯分析。",
+    "independence": "文科省為資料原始發布者；共同通信另有主管機關訪談與大學樣本說明，不只是第二網址。",
+    "primarySource": "https://www.mext.go.jp/b_menu/toukei/chousa01/naitei/kekka/k_detail/1422624_00029.htm",
+    "independentSource": "https://kumanichi.com/articles/2060120",
+    "reviewedAt": "2026-11-28T14:12:19.603Z",
+    "bodySha256": "2e224bfa121ed758e431f12b4481e20036e316c25436f4fa01090546a8efa2c8"
+  },
+  "us-cpt-august-guidance-stay-november-2026": {
+    "newsValue": "CPT指引暫停影響在美實習規劃，報導重點在法院暫時救濟與個人校內授權的差別。",
+    "background": "交代選修且計學分實習與全課程必修的政策分歧，保留課程整體性要求未決的限制。",
+    "development": "區分八月兩份指引、十月提告、十一月十七日初步裁定以及華盛頓大學後續公告。",
+    "perspectives": "法院裁定、獨立律師分析及大學實施公告交叉閱讀，解釋法律救濟未必等於立即更改校規。",
+    "taiwanImpact": "要求學生向校內國際事務窗口確認課程、日期及授權，新聞不能代替個別實習合法性判斷。",
+    "uncertainty": "暫時救濟非終局判決，未宣稱所有學校恢復舊規，也不對個案提供工作資格保證。",
+    "independence": "法院為第一手司法文件；Nixon Peabody提供獨立法律分析，華盛頓大學另證明實施仍待評估。",
+    "primarySource": "https://storage.courtlistener.com/recap/gov.uscourts.mad.307243/gov.uscourts.mad.307243.36.0_1.pdf",
+    "independentSource": "https://www.nixonpeabody.com/insights/alerts/2026/11/18/federal-court-halts-sevp-august-cpt-guidance",
+    "reviewedAt": "2026-11-28T14:12:19.603Z",
+    "bodySha256": "368d10483c4d6a00fbd97ece03620ca602d0e45a03418c433d3444b7124a19ea"
+  },
+  "canada-passage-kira-admissions-acquisition-2026": {
+    "newsValue": "招生評量平台整合影響申請人接觸的工具與責任窗口，從學生可查詢事項說明交易意義。",
+    "background": "區分評量平台與行政工作流程，以及學校和供應商責任；規模不等於效度或公平性。",
+    "development": "保留十一月十九日公告與二十三日媒體報導時間，以及此前ETS合作和本次收購的差別。",
+    "perspectives": "The PIE直接訪問執行長，將其成績膨脹與效率解讀標示企業觀點，不冒充實證結果。",
+    "taiwanImpact": "學生可核對期限、設備、評量者、技術協助與無障礙窗口，沒有臆測特定學校改規則。",
+    "uncertainty": "交易價格、全面轉換時間與獨立效果研究未取得，不把規模或商業願景寫成錄取保障。",
+    "independence": "公司公告為第一手交易消息；The PIE有另行訪談及ETS控制權脈絡，不把同稿轉載當獨立來源。",
+    "primarySource": "https://www.passage.com/news/passage-acquires-kira-talent",
+    "independentSource": "https://thepienews.com/passage-acquires-kira-talent-from-ets-in-ai-admissions-push/",
+    "reviewedAt": "2026-11-28T14:12:19.603Z",
+    "bodySha256": "b5c34a873337debd6ea6849d0c481e1b5c19d125c3478d1128cdba167001da24"
+  },
+  "australia-aiec-2026-future-thinking": {
+    "newsValue": "將四十屆澳洲國際教育會議的產業議題連接選校實務，避免舊文只有會議消息而缺乏讀者用途。",
+    "background": "明列十月二十七至三十日、主辦機構、雪梨會場與講者數字口徑，活動已結束且不是新政策發布。",
+    "development": "依活動背景、跨境教育、AI資訊與學生服務逐層說明，新增具體查詢方向並保留原始發布日期。",
+    "perspectives": "區分政府致詞、產業發展願景與學生使用需求，同時揭露PIE媒體合作關係及其現場報導性質。",
+    "taiwanImpact": "讓台灣家庭可比較校區、學位授予者、轉校安排與AI使用規則，未把全球連結解讀成保證赴海外。",
+    "uncertainty": "沒有原創採訪、不推定會議等於生效法規或就業成果，場地照片也明確不是當屆活動現場。",
+    "independence": "PIE署名現場報導提供發言與脈絡，非單純複製官網；媒體合作關係明示。",
+    "primarySource": "https://aiec.idp.com/home",
+    "independentSource": "https://thepienews.com/aiec-at-40-australian-international-education-looks-to-its-next-chapter/",
+    "reviewedAt": "2026-11-28T14:15:12.842Z",
+    "bodySha256": "89020a6f177a8510e5eb0831d454466d28924ea96e3701ed3ac027184a8120fd"
+  },
+  "canada-asylum-portal-november-2026-update": {
+    "newsValue": "舊文表單轉換已發生，補足現在應如何理解草稿、提交與後續通知，並避免與學生續簽混淆。",
+    "background": "交代十一月三日已實施、舊格式截止已過與資料保留規則，將過渡前媒體說明放回歷史脈絡。",
+    "development": "由表單過渡整理到主管機關責任及保護需求，引用後續官方更新修正獨立分析當時的提案狀態。",
+    "perspectives": "官方流程與具署名移民專業分析各自標明來源，不以新聞作者替個別申請人判定資格與法律結果。",
+    "taiwanImpact": "說明台灣學生應確認所處的申請制度、保存私密紀錄與正式通知，不鼓勵把庇護作一般留學續簽。",
+    "uncertainty": "不宣稱加速幾天或取得永久居留，資料仍在與已送件不同；沒有把過期截止當作仍能採取的時程。",
+    "independence": "INC有署名分析與草稿/提交/舊截止區分，非僅轉載；過時提案以後續官方更新校正。",
+    "primarySource": "https://www.canada.ca/en/immigration-refugees-citizenship/services/asylum/in-canada.html",
+    "independentSource": "https://immigrationnewscanada.ca/new-canada-asylum-application-rules-2026/",
+    "reviewedAt": "2026-11-28T14:15:12.877Z",
+    "bodySha256": "f6b92d8e5f5afcd04447cbec393ab73de9fb03f44d9f20364cbe133ccc7ed9e8"
+  },
+  "us-cu-denver-hyderabad-2027-plan": {
+    "newsValue": "補強美國大學赴印度設點舊文，讓讀者理解意向書、認證與首屆招生計畫的不同進度與風險。",
+    "background": "以校方十月六日公告與THE記者報導核對UGC意向書，八月二○二七首招仍屬規劃與待認證。",
+    "development": "依核准階段、學科方向、合資責任到跨校區移動與首屆服務展開，保留原刊日並增加更新時間。",
+    "perspectives": "校方規劃與研究者對海德拉巴成本、市場的分析分開，未將受訪觀點冒充已公告學費或節省數字。",
+    "taiwanImpact": "台灣家庭可據此查學位用途、轉校條件、學生契約與總預算，不直接套用美國本校所有課程資訊。",
+    "uncertainty": "未取得後續全部核准文件，不稱已開學或台灣學生可立即報名，不自行補上學費、折扣或赴美保證。",
+    "independence": "THE記者另訪DrEducation研究者，含市場分析及認證更正，非僅重刊校方稿；Inside Higher Ed為同篇刊載，不重複計數。",
+    "primarySource": "https://news.ucdenver.edu/university-of-colorado-denver-to-establish-india-location-in-hyderabad/",
+    "independentSource": "https://www.insidehighered.com/news/global/us-colleges-world/2026/10/09/university-colorado-denver-open-branch-campus-india",
+    "reviewedAt": "2026-11-28T14:15:12.914Z",
+    "bodySha256": "dab09b43f5c7501b779317d26a2eb1aa6d50c8199b4646ec7282028863de9b9a"
   }
 }

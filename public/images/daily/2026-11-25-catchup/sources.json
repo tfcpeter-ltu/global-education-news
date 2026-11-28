@@ -1,0 +1,72 @@
+[
+  {
+    "key": "japan",
+    "author": "Tokyo538 / CC0",
+    "license": "CC0",
+    "source": "https://commons.wikimedia.org/wiki/File:Yasuda_Auditorium,_seen_from_the_west.jpg"
+  },
+  {
+    "key": "us",
+    "author": "Joe Mabel / CC BY-SA 3.0",
+    "license": "CC BY-SA 3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Entrance_of_Suzzallo_Library.jpg"
+  },
+  {
+    "key": "canada",
+    "author": "RobCA / Public domain",
+    "license": "Public domain",
+    "source": "https://commons.wikimedia.org/wiki/File:UOttawa-Tabaret_Hall-2008-05-05.jpg"
+  },
+  {
+    "key": "berkeley",
+    "author": "Mizzlbrd / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Doe_library_uc_berkeley_2023.jpg"
+  },
+  {
+    "key": "mba",
+    "author": "Smb1001 / CC BY-SA 4.0",
+    "license": "CC BY-SA 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gates_to_Judge_Business_School,_Trumpington_Street,_Cambridge.jpg"
+  },
+  {
+    "key": "philosophy",
+    "author": "ECetc Church Photos / CC BY 4.0",
+    "license": "CC BY 4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pembroke_College_Chapel,_Cambridge_(exterior).jpg"
+  },
+  {
+    "key": "peter",
+    "title": "File:Mannheim Palace.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Mannheim_Palace.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Mannheim_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "download": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Mannheim_Palace.jpg/1920px-Mannheim_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "author": "Andreas Bayerl",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "The University's of Mannheim main campus",
+    "retrievedAt": "2026-11-22T21:26:02.689Z"
+  },
+  {
+    "key": "delft",
+    "title": "File:TU-Delft-Aula.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:TU-Delft-Aula.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/9/9b/TU-Delft-Aula.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "author": "Nol Aders",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "description": "TU Delft: Aula &amp; Congress Center, Building No. 20, Mekelweg 5, 2628 CC Delft",
+    "retrievedAt": "2026-11-22T21:41:39.194Z"
+  },
+  {
+    "key": "nccu",
+    "title": "File:2017-07-02 Lower Campus of National Chengchi University (NCCU), 國立政治大學 01.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:2017-07-02_Lower_Campus_of_National_Chengchi_University_(NCCU),_%E5%9C%8B%E7%AB%8B%E6%94%BF%E6%B2%BB%E5%A4%A7%E5%AD%B8_01.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/7/7b/2017-07-02_Lower_Campus_of_National_Chengchi_University_%28NCCU%29%2C_%E5%9C%8B%E7%AB%8B%E6%94%BF%E6%B2%BB%E5%A4%A7%E5%AD%B8_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "author": "Felix Filnkoessl",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "Lower Campus of National Chengchi University (NCCU), 國立政治大學",
+    "retrievedAt": "2026-11-22T21:41:41.239Z"
+  }
+]
