@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-28",
+  "baseline": "cc75fa8972d1bbe281b0e74152886b3503e6a077",
+  "contentCommit": "49b46e5f850a5f17a3a500d208d4112906c377db",
+  "deployment": {
+    "runId": 46105756855,
+    "status": "completed",
+    "conclusion": "success"
+  },
+  "videos": {
+    "before": 231,
+    "after": 237,
+    "added": 6,
+    "external": 5,
+    "ltu": 1
+  },
+  "social": {
+    "expected": 10,
+    "publishedVerified": 0,
+    "copyPrepared": 10,
+    "imagesPrepared": 2
+  },
+  "validation": [
+    "Source and built Vlog tests passed237",
+    "1048 bilingual page pairs passed",
+    "Live Chinese and English HTTP200,237cards,6new IDs and summaries",
+    "Six original thumbnails HTTP200"
+  ],
+  "limitations": [
+    "Native playback and responsive browser acceptance not completed",
+    "Social publication stopped after automatic approval review rejected documentation restoration; no bypass attempted",
+    "No cloud synchronization verified"
+  ],
+  "savedToLocalOneDrive": true,
+  "cloudSyncVerified": false
+}
